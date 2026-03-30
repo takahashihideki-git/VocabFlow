@@ -1,0 +1,6 @@
+{
+  "name": "vocabflow",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TikTok-style SRS vocabulary learning app"
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VocabFlow SRS Simulator</title>
+  <link rel="stylesheet" href="sim.css">
+</head>
+<body>
+
+<header>
+  <h1>VocabFlow SRS Simulator</h1>
+  <span>仮想学習者による SRS アルゴリズム検証</span>
+</header>
+
+<div class="layout">
+
+  <!-- ========== Sidebar ========== -->
+  <aside class="sidebar">
+
+    <section>
+      <h2>シナリオ</h2>
+      <ul class="scenario-list">
+        <li>
+          <label>
+            <input type="radio" name="scenario" value="A" checked>
+            <div>
+              <div class="scenario-name">A</div>
+              <div class="scenario-short">新語比率</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="scenario" value="B">
+            <div>
+              <div class="scenario-name">B</div>
+              <div class="scenario-short">忘却曲線α</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="scenario" value="C">
+            <div>
+              <div class="scenario-name">C</div>
+              <div class="scenario-short">1000語到達</div>
+            </div>
+          </label>
+        </li>
+        <li>
+          <label>
+            <input type="radio" name="scenario" value="D">
+            <div>
+              <div class="scenario-name">D</div>
+              <div class="scenario-short">ウェーブ感度</div>
+            </div>
+          </label>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>概要</h2>
+      <p id="scenario-desc">シナリオを選択してください</p>
+    </section>
+
+    <section>
+      <div id="progress" class="progress-box">
+        <div class="progress-bar-wrap">
+          <div class="progress-bar"></div>
+        </div>
+        <div class="progress-label">準備中...</div>
+      </div>
+      <button class="btn-run" id="btn-run">▶ 実行</button>
+      <br><br>
+      <button class="btn-reset" id="btn-reset">リセット</button>
+    </section>
+
+  </aside>
+
+  <!-- ========== Main ========== -->
+  <main class="main">
+
+    <div class="welcome" id="welcome-msg">
+      <svg width="64" height="64" viewBox="0 0 24 24" fill="#888">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+      </svg>
+      <p>シナリオを選択して「実行」を押してください</p>
+    </div>
+
+    <div id="results-area">
+      <h2 id="results-title">シミュレーション結果</h2>
+
+      <div class="charts-grid">
+        <div class="chart-card">
+          <h3>定着語数の推移（h ≥ 14日）</h3>
+          <canvas id="chart-mastered"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>復習 / 新語 比率の推移</h3>
+          <canvas id="chart-ratio"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>平均半減期の推移</h3>
+          <canvas id="chart-halflife"></canvas>
+        </div>
+        <div class="chart-card">
+          <h3>定着語の復習回数分布</h3>
+          <canvas id="chart-reviews"></canvas>
+        </div>
+      </div>
+
+      <div class="heatmap-card">
+        <h3>Wave Heatmap（最終日時点）</h3>
+        <div class="heatmap-controls">
+          <label>Day</label>
+          <input type="range" id="heatmap-day" min="1" max="90" value="90">
+          <span id="heatmap-day-label">Day 90</span>
+        </div>
+        <canvas id="chart-heatmap"></canvas>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script type="module" src="sim.js"></script>
+</body>
+</html>
