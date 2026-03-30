@@ -16,6 +16,7 @@ function init() {
 
   document.getElementById('btn-run').addEventListener('click', onRun);
   document.getElementById('btn-reset').addEventListener('click', onReset);
+  document.getElementById('btn-export').addEventListener('click', onExport);
 
   updateScenarioDescription();
 }
@@ -64,6 +65,36 @@ async function onRun() {
     btnRun.textContent = '▶ 実行';
     progressEl.style.display = 'none';
   }
+}
+
+function onExport() {
+  if (!currentResults) return;
+
+  const sel = document.querySelector('input[name="scenario"]:checked')?.value ?? 'A';
+  const scenario = SCENARIOS[sel];
+
+  const payload = {
+    exportedAt: new Date().toISOString(),
+    scenario: {
+      id: scenario.id,
+      name: scenario.name,
+      description: scenario.description,
+      variable: scenario.variable,
+      duration: scenario.duration,
+    },
+    results: currentResults.map(r => ({
+      label: r.label,
+      snapshots: r.snapshots.map(({ heatmapData: _omit, ...rest }) => rest),
+    })),
+  };
+
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `vocabflow_scenario${sel}_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 function onReset() {
