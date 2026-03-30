@@ -16,7 +16,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/models.js` | ✅ peakH, Card.isRetry, Card.stageBeforeWrong 追加済み |
 | `core/srs-engine.js` | ✅ peakH 更新、hMin/hMax 使用 |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み（unlock 判定を導入済み語のみ対象に） |
-| `core/feed-generator.js` | ✅ Bug 1・4 修正済み |
+| `core/feed-generator.js` | ✅ Bug 1・4 修正済み、Bug 6（Intro-Recognition gap）修正済み |
 | `core/word-data.js` | ✅ Phase 0（1900語） |
 
 ### Phase 2: sim/ ✅ 完了・シナリオ実行確認済み
@@ -31,50 +31,53 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `sim/sim.js` | ✅ JSON エクスポートボタン実装済み |
 | `sim/sim.css` | ✅ |
 
-### Phase 3: app/ ❌ 未実装 ← **次セッションはここから**
+### Phase 3: app/ ✅ プロトタイプ完成
+
+| ファイル | 状態 |
+|---|---|
+| `app/app.html` | ✅ スタートスクリーン・ヒートマップバー・カードエリア・オーバーレイ |
+| `app/app.js` | ✅ セッション管理・スワイプジェスチャー・時間早送り・localStorage永続化 |
+| `app/ui-cards.js` | ✅ 6種カード（Intro/Recognition/Recall/Dictation/Handwrite/Passive）・TTS |
+| `app/ui-heatmap.js` | ✅ Canvas描画・カラーマッピング・HiDPI・ツールチップ |
+| `app/app.css` | ✅ ダークテーマ・カードアニメーション・スワイプヒント |
 
 ---
 
-## 次セッションの作業：Phase 3 インタラクティブプロトタイプ
+## 次セッションの作業：プロトタイピングフィードバックに基づく core レベル仕様拡張
 
-実装すべきファイル：
-- `app/app.html`
-- `app/app.js` — セッション管理、時間早送りUI、localStorage永続化
-- `app/ui-cards.js` — 6種カードのUI（Intro/Recognition/Recall/Dictation/Handwrite/Passive）
-- `app/ui-heatmap.js` — Wave Heatmap リアルタイム描画
-- `app/app.css`
-
-重要な UI 仕様（spec §7.3）：
-- 縦スワイプ（CSS scroll-snap）
-- Web Speech API で TTS（Intro/Dictation）
-- 「次のセッションへ」「翌日へ」「1週間後へ」ボタンで時間早送り
-- localStorage に LearnerState をシリアライズ保存
-- Wave Heatmap をリアルタイム更新
+プロトタイプを実際に動かした上で、core の仕様・実装に改善が必要な点を洗い出し着手する。
 
 ---
 
 ## 修正済みバグ一覧（全セッション通算）
 
-### Bug 1: recognition 復習カードの無音消失（前セッション）
+### Bug 1: recognition 復習カードの無音消失
 `_arrangeCards` で intro とペアでない recognition 復習カードが全て捨てられていた。
 `reviewRecognition` を recall と同列配置することで修正（`feed-generator.js`）。
 
-### Bug 2: リトライ二重更新（前セッション）
+### Bug 2: リトライ二重更新
 リトライ正解時も `processResponse` を呼んで h が縮小していた。
 新仕様: リトライ正解 = ダメージ回復（h 更新なし、stage 降格のみキャンセル）。
 
-### Bug 3: `stageBeforeWrong` 保存タイミング誤り（前セッション）
+### Bug 3: `stageBeforeWrong` 保存タイミング誤り
 `processResponse` 降格後の stage を保存していた。`processResponse` 呼び出し前に取得するよう修正。
 
-### Bug 4: mastered 語レビュー漏れ（今セッション）
+### Bug 4: mastered 語レビュー漏れ
 mastered 語が `p < targetRetention(0.85)` かつ `p >= 0.5` のとき due/urgent どちらにも入らず
 最大40日間レビューされなかった。p < targetRetention なら `due` に追加して最適タイミングで維持するよう修正
 （`feed-generator.js` `_buildCandidatePools`）。
 
-### Bug 5: Wave unlock 分母誤り（今セッション）
+### Bug 5: Wave unlock 分母誤り
 `_meetsUnlockCondition` の分母が全語数（new 語含む）のため、review 過負荷で新語導入ができない
 状況で Wave unlock が永遠に達成できなかった。導入済み語のみを母数にするよう修正
 （`wave-manager.js`）。
+
+### Bug 6: Intro-Recognition 間隔ゼロ（今セッション）
+`_interleaveIntroRecognition` でフィラーが足りない場合（初回セッション等）、
+Intro の直後に Recognition が連続し、短期記憶で正解できてしまっていた。
+キュー方式（`readyAt = 現位置 + MIN_GAP`）に書き直し、フィラー不足時は後続 Intro 自身を
+スペーサーとして活用することで最低 gap=2 を保証（デフォルト5新語時は gap≥4）。
+（`feed-generator.js` `_interleaveIntroRecognition`）。
 
 ---
 
@@ -88,18 +91,7 @@ mastered 語が `p < targetRetention(0.85)` かつ `p >= 0.5` のとき due/urge
 | 180 | ~530-560 | ~565-590 | ~200日 | [11-13] |
 | 363 | ~1000 | ~1030 | ~270日 | [21-22] |
 
-正解率 75〜85%、Wave は順次解放、**1000語定着が Day 363 で到達**（修正前は未到達）。
-
-### Scenario A 結果（maxNewPerSession, Day 90）
-maxNew=5（デフォ）: 定着 286語 / avgH=117日 / 正解率 78%。
-maxNew=5〜7 が最適バランス。
-
-### Scenario B 結果（alpha, Day 90）
-alpha=2.0（デフォ）: 定着 269語 / avgH=117日。
-alpha が最重要パラメータ。alpha=1.5 では90日で定着 112語にとどまる。
-
-### Scenario D 結果（waveSize × waveUnlockRatio, Day 180）
-デフォルト(50/0.7): 定着 543語。waveSize/ratio の影響は小（±60語程度）。
+正解率 75〜85%、Wave は順次解放、**1000語定着が Day 363 で到達**。
 
 ---
 
@@ -119,11 +111,21 @@ urgent（pRecall昇順） → due（pRecall昇順） → new（先着順） → 
 ```
 - recognition 復習カードは `reviewRecognition` として recall と同列配置（Bug 1）
 - mastered 語が `p < targetRetention` なら due プールに追加（Bug 4）
+- `_interleaveIntroRecognition`: キュー方式で Intro→Recognition 間 MIN_GAP=2 を保証（Bug 6）
 
 ### wave-manager.js
 - 解放条件: 導入済み語のうち `peakH >= waveUnlockH(2.0)` が 70%+（Bug 5）
 - 卒業判定: `h >= graduationH(8.0)` が 90%+
 - 即時トリガー: generateSession 冒頭で毎回 checkUnlock
+
+### app/ インタラクティブプロトタイプ
+- スワイプジェスチャー: タッチ（40px上スワイプ）・ホイール・キーボード（↑/Space）
+- PC環境（タッチ非対応）: 「次のカードへ ↓」ボタンを右下に表示
+- カードが回答済みになると `onReady(result)` が呼ばれ、スワイプ可能化
+- 実際の遷移は `_onSwipeUp()` が担当（二重遷移防止フラグあり）
+- 時間早送り: 次のセッション(1/3日)・翌日・1週間後
+- localStorage キー: `vocabflow_state_v1`
+- 日本語意味辞書: `app/ui-cards.js` の `JP_MEANINGS`（Wave 1〜2 約100語）。Wave 3以降はフォールバック表示。
 
 ### sim-runner.js（リトライ処理）
 ```
@@ -139,7 +141,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: `7020809` — JSON エクスポートボタン追加
+- 直近コミット: Phase 3 app/ 実装完了 + Bug 6 修正
 
 ---
 
@@ -155,9 +157,10 @@ runSimulation({}, 90, (day, _, snap) => {
 });
 EOF
 
-# ブラウザで sim を開く（要ローカルサーバー）
+# ブラウザで開く（要ローカルサーバー）
 # cd /home/takahashihideki/dev/VocabFlow && python3 -m http.server 8080
-# → http://localhost:8080/sim/sim.html
+# → http://localhost:8080/sim/sim.html   （シミュレーター）
+# → http://localhost:8080/app/app.html   （インタラクティブプロトタイプ）
 ```
 
 ---
@@ -177,7 +180,7 @@ VocabFlow/
 │   ├── models.js         # WordState（peakH含む）, Card（isRetry/stageBeforeWrong）, LearnerState
 │   ├── srs-engine.js     # SRSEngine（h更新・peakH・ステージ遷移・判定）
 │   ├── wave-manager.js   # WaveManager（導入済み語ベースのwave解放・卒業）
-│   ├── feed-generator.js # FeedGenerator（グリーディ割当・mastered due修正済み）
+│   ├── feed-generator.js # FeedGenerator（グリーディ割当・Intro-Recog gap保証済み）
 │   └── word-data.js      # WORD_DATA(1900語), CATEGORIES
 ├── sim/
 │   ├── sim-runner.js     # runSimulation(), runScenario()（heatmapData保存対応）
@@ -187,5 +190,10 @@ VocabFlow/
 │   ├── sim.html          # シミュレーターUI
 │   ├── sim.js            # UI制御・JSONエクスポート
 │   └── sim.css
-└── app/                  # ← 次セッションで実装
+└── app/
+    ├── app.html          # エントリーポイント
+    ├── app.js            # セッション管理・スワイプ・時間早送り・localStorage
+    ├── ui-cards.js       # 6種カードUI・TTS・JP意味辞書（Wave1-2）
+    ├── ui-heatmap.js     # Wave Heatmap Canvas描画
+    └── app.css           # ダークテーマ・アニメーション
 ```

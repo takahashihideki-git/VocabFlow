@@ -193,29 +193,50 @@ export class FeedGenerator {
   }
 
   _interleaveIntroRecognition(result, intros, recognitions, fillerCards) {
-    // Intro と対応する Recognition を3〜4枚の間隔で配置
-    const recMap = new Map();
-    for (const r of recognitions) {
-      recMap.set(r.word.wordId, r);
-    }
+    // Spec §4.3 ルール3: Intro → 最低 MIN_GAP 枚後に Recognition を配置
+    //
+    // アルゴリズム（キュー方式）:
+    //   - Intro を配置するたびに Recognition を pending キューに追加（readyAt = 現位置 + MIN_GAP）
+    //   - pending をドレインするのは「全 Intro 配置済み」か「フィラーが使える」ときだけ。
+    //     ← これにより Intro 自身が別の Intro-Recog ペアのスペーサーとして機能する。
+    //   - フィラーも Intro も尽きた場合のみ、readyAt を諦めて残 pending を押し出す。
 
-    let fillerIdx = 0;
-    for (let i = 0; i < intros.length; i++) {
-      result.push(intros[i]);
-      // Intro の直後に2〜3枚のフィラーを挟む
-      const gap = 2 + Math.floor(Math.random() * 2);
-      for (let g = 0; g < gap && fillerIdx < fillerCards.length; g++) {
-        result.push(fillerCards[fillerIdx++]);
+    const MIN_GAP = 2;
+    const recMap  = new Map(recognitions.map(r => [r.word.wordId, r]));
+    const output  = [];
+    const pending = []; // { card, readyAt } — readyAt 昇順で追加されることが保証される
+    let fi = 0; // fillerCards インデックス
+    let ii = 0; // intros インデックス
+
+    const drainPending = () => {
+      while (pending.length > 0 && pending[0].readyAt <= output.length) {
+        output.push(pending.shift().card);
       }
-      // 対応する Recognition を挿入
-      const rec = recMap.get(intros[i].word.wordId);
-      if (rec) result.push(rec);
+    };
+
+    while (ii < intros.length || fi < fillerCards.length || pending.length > 0) {
+      // pending ドレインは「Intro が尽きた」か「フィラーが使える」場合のみ行う。
+      // Intro がまだあってフィラーもない状態では Recognition を早出しせず、
+      // 後続 Intro がスペーサーとして機能するのを待つ。
+      const canDrain = ii >= intros.length || fi < fillerCards.length;
+      if (canDrain) drainPending();
+
+      if (ii < intros.length) {
+        output.push(intros[ii]);
+        const rec = recMap.get(intros[ii].word.wordId);
+        if (rec) pending.push({ card: rec, readyAt: output.length + MIN_GAP });
+        ii++;
+        // Intro 直後にフィラーを1枚（あれば MIN_GAP 確保に貢献）
+        if (fi < fillerCards.length) output.push(fillerCards[fi++]);
+      } else if (fi < fillerCards.length) {
+        output.push(fillerCards[fi++]);
+      } else if (pending.length > 0) {
+        // Intro もフィラーも尽きた → 残 pending を順に押し出す（gap を諦める）
+        output.push(pending.shift().card);
+      }
     }
 
-    // 残りのフィラーを追加
-    while (fillerIdx < fillerCards.length) {
-      result.push(fillerCards[fillerIdx++]);
-    }
+    result.push(...output);
   }
 
   _scatterPassive(cards, passiveCards) {

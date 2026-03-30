@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>VocabFlow</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<!-- Start screen -->
+<div id="start-screen">
+  <div class="start-inner">
+    <div class="logo">VocabFlow</div>
+    <p class="tagline">TikTok式スワイプUIで<br>1900語を自然に定着させる</p>
+    <button class="btn-primary" id="btn-start">学習開始</button>
+    <button class="btn-secondary" id="btn-start-reset" style="width:100%">リセットして再開</button>
+  </div>
+</div>
+
+<!-- Main app -->
+<div id="app" style="display:none">
+
+  <!-- Heatmap section -->
+  <div id="heatmap-section">
+    <div id="heatmap-stats">
+      <span>学習済み <span class="val" id="stat-learned">0</span>語</span>
+      <span>定着 <span class="val" id="stat-mastered">0</span>語</span>
+      <span>Wave <span class="val" id="stat-waves">1</span></span>
+      <span>Day <span class="val" id="stat-day">0.0</span></span>
+    </div>
+    <canvas id="heatmap-canvas"></canvas>
+  </div>
+
+  <!-- Card area -->
+  <div id="card-area">
+    <div id="card-wrapper">
+      <!-- Cards injected here -->
+    </div>
+    <!-- PC用: タッチ非対応環境でのみ表示 -->
+    <button id="btn-next-card" hidden>次のカードへ ↓</button>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer">
+    <div class="footer-item">
+      <span class="val" id="footer-card-idx">0</span>/<span class="val" id="footer-card-total">0</span>
+    </div>
+    <div id="progress-bar-container">
+      <div id="progress-bar-fill"></div>
+    </div>
+    <div class="footer-item">
+      正解 <span class="val" id="footer-correct">0</span>
+      &nbsp;/&nbsp;
+      誤答 <span class="val" id="footer-wrong">0</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- Heatmap tooltip -->
+<div id="heatmap-tooltip">
+  <div class="tt-word" id="tt-word"></div>
+  <div class="tt-info" id="tt-info"></div>
+</div>
+
+<!-- Session complete overlay (hidden by default) -->
+<div class="overlay" id="overlay-complete" style="display:none">
+  <div class="overlay-card">
+    <div class="overlay-title">セッション完了 ✓</div>
+    <div class="stat-grid">
+      <div class="stat-box">
+        <div class="stat-label">消化カード</div>
+        <div class="stat-value" id="oc-cards">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">正解率</div>
+        <div class="stat-value" id="oc-acc">–</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">学習済み語</div>
+        <div class="stat-value" id="oc-learned">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">定着語</div>
+        <div class="stat-value" id="oc-mastered">0</div>
+      </div>
+    </div>
+    <div class="time-controls">
+      <label>時間を進める</label>
+      <div class="time-btn-row">
+        <button class="time-btn" id="btn-next-session">次のセッション</button>
+        <button class="time-btn" id="btn-next-day">翌日へ</button>
+        <button class="time-btn" id="btn-next-week">1週間後</button>
+      </div>
+      <div class="time-display">現在: Day <span id="oc-day">0.0</span></div>
+    </div>
+    <button class="btn-primary" id="btn-continue">このまま続ける</button>
+    <button class="btn-danger" id="btn-reset-from-complete">リセット</button>
+  </div>
+</div>
+
+<!-- No work overlay -->
+<div class="overlay" id="overlay-nowork" style="display:none">
+  <div class="overlay-card">
+    <div class="overlay-title">今は復習なし 🎉</div>
+    <div class="overlay-subtitle">
+      次の復習まで時間を進めるか、しばらく後に戻ってください。
+    </div>
+    <div class="stat-grid">
+      <div class="stat-box">
+        <div class="stat-label">学習済み語</div>
+        <div class="stat-value" id="nw-learned">0</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-label">定着語</div>
+        <div class="stat-value" id="nw-mastered">0</div>
+      </div>
+    </div>
+    <div class="time-controls">
+      <label>時間を進める</label>
+      <div class="time-btn-row">
+        <button class="time-btn" id="nw-next-session">次のセッション</button>
+        <button class="time-btn" id="nw-next-day">翌日へ</button>
+        <button class="time-btn" id="nw-next-week">1週間後</button>
+      </div>
+      <div class="time-display">現在: Day <span id="nw-day">0.0</span></div>
+    </div>
+    <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
