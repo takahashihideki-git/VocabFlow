@@ -105,6 +105,7 @@ export class FeedGenerator {
       if (w.stage === 'mastered') {
         if (p >= cfg.targetRetention) filler.push(w);
         else if (p < 0.5) urgent.push(w); // 定着済みでも忘れていれば urgent
+        else due.push(w); // targetRetention 未満（0.5以上）→ 最適タイミングで due として維持
         continue;
       }
 

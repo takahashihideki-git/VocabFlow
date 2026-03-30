@@ -87,9 +87,12 @@ export class WaveManager {
     const cfg = this.config;
     const words = this.getWordsInWave(waveNumber);
     if (words.length === 0) return false;
-    // peakH で判定（h の振動によるチラつきを防ぐ）
-    const qualified = words.filter(w => w.peakH >= cfg.waveUnlockH && w.stage !== 'new').length;
-    return qualified / words.length >= cfg.waveUnlockRatio;
+    // 未導入語（new）は判定対象外：review 過負荷で新語が入れられない状況でも
+    // 導入済み語の進捗でアンロック判定できるようにする
+    const introduced = words.filter(w => w.stage !== 'new');
+    if (introduced.length === 0) return false;
+    const qualified = introduced.filter(w => w.peakH >= cfg.waveUnlockH).length;
+    return qualified / introduced.length >= cfg.waveUnlockRatio;
   }
 
   // -------------------------------------------------------
