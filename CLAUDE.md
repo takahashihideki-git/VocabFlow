@@ -15,86 +15,91 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/config.js` | ✅ spec v3 対応済み |
 | `core/models.js` | ✅ peakH, Card.isRetry, Card.stageBeforeWrong 追加済み |
 | `core/srs-engine.js` | ✅ peakH 更新、hMin/hMax 使用 |
-| `core/wave-manager.js` | ✅ peakH ベースの wave 解放判定 |
-| `core/feed-generator.js` | ✅ バグ修正済み（後述） |
+| `core/wave-manager.js` | ✅ Bug 5 修正済み（unlock 判定を導入済み語のみ対象に） |
+| `core/feed-generator.js` | ✅ Bug 1・4 修正済み |
 | `core/word-data.js` | ✅ Phase 0（1900語） |
 
-### Phase 2: sim/ ✅ 実装完了・動作確認済み
+### Phase 2: sim/ ✅ 完了・シナリオ実行確認済み
 
 | ファイル | 状態 |
 |---|---|
-| `sim/sim-runner.js` | ✅ リトライ新仕様対応済み |
+| `sim/sim-runner.js` | ✅ リトライ新仕様・heatmapData スナップショット対応済み |
 | `sim/virtual-learner.js` | ✅ |
 | `sim/scenarios.js` | ✅ シナリオ A〜D 定義済み |
-| `sim/charts.js` | ✅ |
+| `sim/charts.js` | ✅ 5チャート・Wave Heatmap スライダー・サマリーテーブル |
 | `sim/sim.html` | ✅ |
-| `sim/sim.js` | ✅ |
+| `sim/sim.js` | ✅ JSON エクスポートボタン実装済み |
 | `sim/sim.css` | ✅ |
 
-### Phase 3: app/ ❌ 未実装
+### Phase 3: app/ ❌ 未実装 ← **次セッションはここから**
 
 ---
 
-## 次セッションの作業：シナリオ実行と可視化
+## 次セッションの作業：Phase 3 インタラクティブプロトタイプ
 
-### 次にやること
-1. **シナリオ A〜D をブラウザで実行・確認**
-   - `python3 -m http.server 8080` を起動して `http://localhost:8080/sim/sim.html` で動作確認
-   - 各シナリオの数値を記録・評価
-2. **Phase 3: app/ の実装**（シミュレーション確認後）
+実装すべきファイル：
+- `app/app.html`
+- `app/app.js` — セッション管理、時間早送りUI、localStorage永続化
+- `app/ui-cards.js` — 6種カードのUI（Intro/Recognition/Recall/Dictation/Handwrite/Passive）
+- `app/ui-heatmap.js` — Wave Heatmap リアルタイム描画
+- `app/app.css`
 
----
-
-## 今セッションで修正したバグ（重要）
-
-### Bug 1: `_arrangeCards` による recognition 復習カードの無音消失【根本原因】
-
-`feed-generator.js` の `_arrangeCards` で、`stage='recognition'` の復習カード（urgent/due プールから来る）が `cardType='recognition'` として生成されるが、`_interleaveIntroRecognition` は **intro とペアになった recognition だけを result に追加**し、単独の recognition 復習カードを**全て捨てていた**。
-
-結果: 学習済み語の大半が recognition ステージに留まる状況でセッションが空になり、シミュレーションが完全停止。
-
-**修正**（`feed-generator.js` L174付近）:
-```javascript
-// intro とペアでない recognition カード（復習）は recall と同列に配置
-const introWordIds = new Set(intro.map(c => c.word.wordId));
-const pairedRecognition = recognition.filter(c =>  introWordIds.has(c.word.wordId));
-const reviewRecognition = recognition.filter(c => !introWordIds.has(c.word.wordId));
-result.push(...urgentRecall);
-this._interleaveIntroRecognition(result, intro, pairedRecognition, [...nonUrgentRecall, ...reviewRecognition]);
-```
-
-### Bug 2: リトライ二重更新（spec §4.5 改定）
-
-**旧仕様**（バグ）: リトライ正解 → `h × β × α × cardWeight`（recall なら h × 0.6 と h が縮む）
-
-**新仕様**: リトライ正解は「ダメージ回復」であって「成長」ではない
-- 不正解 → `h × β`（ペナルティ確定）+ stage 降格
-- リトライ正解 → h 更新なし・stage 降格をキャンセル
-- 次の due セッションで正解したとき初めて h が伸びる
-
-**修正**（`sim-runner.js` L29〜）:
-- `processResponse` 前に `stageBeforeProcess = card.word.stage` を保存
-- `card.isRetry && result !== 'wrong'` のとき `processResponse` をスキップし `word.stage = stageBeforeWrong` に復元
-- リトライカードの `stageBeforeWrong` には降格前の stage（`stageBeforeProcess`）を設定
-
-**spec.md §4.5 も更新済み**（「リトライの意味論」セクション追加）
-
-### Bug 3: `stageBeforeWrong` 保存タイミング誤り
-
-`processResponse`（降格後）の stage を保存していたため復元が無効だった。`stageBeforeProcess` を `processResponse` 呼び出し前に取得するよう修正。
+重要な UI 仕様（spec §7.3）：
+- 縦スワイプ（CSS scroll-snap）
+- Web Speech API で TTS（Intro/Dictation）
+- 「次のセッションへ」「翌日へ」「1週間後へ」ボタンで時間早送り
+- localStorage に LearnerState をシリアライズ保存
+- Wave Heatmap をリアルタイム更新
 
 ---
 
-## 修正後のシミュレーション実績（デフォルト設定）
+## 修正済みバグ一覧（全セッション通算）
+
+### Bug 1: recognition 復習カードの無音消失（前セッション）
+`_arrangeCards` で intro とペアでない recognition 復習カードが全て捨てられていた。
+`reviewRecognition` を recall と同列配置することで修正（`feed-generator.js`）。
+
+### Bug 2: リトライ二重更新（前セッション）
+リトライ正解時も `processResponse` を呼んで h が縮小していた。
+新仕様: リトライ正解 = ダメージ回復（h 更新なし、stage 降格のみキャンセル）。
+
+### Bug 3: `stageBeforeWrong` 保存タイミング誤り（前セッション）
+`processResponse` 降格後の stage を保存していた。`processResponse` 呼び出し前に取得するよう修正。
+
+### Bug 4: mastered 語レビュー漏れ（今セッション）
+mastered 語が `p < targetRetention(0.85)` かつ `p >= 0.5` のとき due/urgent どちらにも入らず
+最大40日間レビューされなかった。p < targetRetention なら `due` に追加して最適タイミングで維持するよう修正
+（`feed-generator.js` `_buildCandidatePools`）。
+
+### Bug 5: Wave unlock 分母誤り（今セッション）
+`_meetsUnlockCondition` の分母が全語数（new 語含む）のため、review 過負荷で新語導入ができない
+状況で Wave unlock が永遠に達成できなかった。導入済み語のみを母数にするよう修正
+（`wave-manager.js`）。
+
+---
+
+## シミュレーション実績（Bug 4・5 修正後、デフォルト設定）
 
 | Day | 定着語数 | 学習済み | avgH | Wave |
 |-----|--------|--------|------|------|
-| 10  | ~20-24 | ~65-70 | ~11-13日 | [1,2] |
-| 30  | ~96-102 | ~142-150 | ~23-27日 | [2-4] |
-| 60  | ~170-190 | ~235-267 | ~31-36日 | [4-6] |
-| 90  | ~205-271 | ~290-321 | ~34-47日 | [6-7] |
+| 30  | ~90-100 | ~135-145 | ~25日 | [2,3] |
+| 60  | ~175-210 | ~230-250 | ~75-80日 | [5,6] |
+| 90  | ~265-295 | ~305-330 | ~115-120日 | [7,8] |
+| 180 | ~530-560 | ~565-590 | ~200日 | [11-13] |
+| 363 | ~1000 | ~1030 | ~270日 | [21-22] |
 
-正解率 70〜80%、Wave は順次解放、h は継続的に成長。**新語保証スロットは不要**（due 飽和問題は Bug 1 の修正で解消）。
+正解率 75〜85%、Wave は順次解放、**1000語定着が Day 363 で到達**（修正前は未到達）。
+
+### Scenario A 結果（maxNewPerSession, Day 90）
+maxNew=5（デフォ）: 定着 286語 / avgH=117日 / 正解率 78%。
+maxNew=5〜7 が最適バランス。
+
+### Scenario B 結果（alpha, Day 90）
+alpha=2.0（デフォ）: 定着 269語 / avgH=117日。
+alpha が最重要パラメータ。alpha=1.5 では90日で定着 112語にとどまる。
+
+### Scenario D 結果（waveSize × waveUnlockRatio, Day 180）
+デフォルト(50/0.7): 定着 543語。waveSize/ratio の影響は小（±60語程度）。
 
 ---
 
@@ -112,7 +117,13 @@ this._interleaveIntroRecognition(result, intro, pairedRecognition, [...nonUrgent
 urgent（pRecall昇順） → due（pRecall昇順） → new（先着順） → uncertain（sigma降順） → filler（ランダム）
 早期終了: urgent=due=new=0 なら [] を返す
 ```
-recognition 復習カードは `reviewRecognition` として recall と同列に配置（Bug 1 修正済み）。
+- recognition 復習カードは `reviewRecognition` として recall と同列配置（Bug 1）
+- mastered 語が `p < targetRetention` なら due プールに追加（Bug 4）
+
+### wave-manager.js
+- 解放条件: 導入済み語のうち `peakH >= waveUnlockH(2.0)` が 70%+（Bug 5）
+- 卒業判定: `h >= graduationH(8.0)` が 90%+
+- 即時トリガー: generateSession 冒頭で毎回 checkUnlock
 
 ### sim-runner.js（リトライ処理）
 ```
@@ -121,18 +132,14 @@ recognition 復習カードは `reviewRecognition` として recall と同列に
 リトライ不正解: processResponse 呼び出し（さらにペナルティ）
 stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ```
-
-### wave-manager.js
-- 解放条件: `peakH >= waveUnlockH(2.0)` の語が 70%+
-- 卒業判定: `h >= graduationH(8.0)` が 90%+
-- 即時トリガー: generateSession 冒頭で毎回 checkUnlock
+スナップショットには10日ごとに `heatmapData`（全語のh値配列）を保存。
 
 ---
 
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 初回コミット: `c983cf1` — Phase 1 & 2 全ファイル + 今セッションのバグ修正込み
+- 直近コミット: `7020809` — JSON エクスポートボタン追加
 
 ---
 
@@ -155,24 +162,6 @@ EOF
 
 ---
 
-## Phase 3: app/ 実装予定（シミュレーション確認後）
-
-実装すべきファイル：
-- `app/app.html`
-- `app/app.js` — セッション管理、時間早送りUI、localStorage永続化
-- `app/ui-cards.js` — 6種カードのUI（Intro/Recognition/Recall/Dictation/Handwrite/Passive）
-- `app/ui-heatmap.js` — Wave Heatmap リアルタイム描画
-- `app/app.css`
-
-重要な UI 仕様（spec §7.3）：
-- 縦スワイプ（CSS scroll-snap）
-- Web Speech API で TTS（Intro/Dictation）
-- 「次のセッションへ」「翌日へ」「1週間後へ」ボタンで時間早送り
-- localStorage に LearnerState をシリアライズ保存
-- Wave Heatmap をリアルタイム更新
-
----
-
 ## ファイル構成
 
 ```
@@ -187,16 +176,16 @@ VocabFlow/
 │   ├── config.js         # DEFAULT_CONFIG, createConfig()
 │   ├── models.js         # WordState（peakH含む）, Card（isRetry/stageBeforeWrong）, LearnerState
 │   ├── srs-engine.js     # SRSEngine（h更新・peakH・ステージ遷移・判定）
-│   ├── wave-manager.js   # WaveManager（peakHベースwave解放・卒業）
-│   ├── feed-generator.js # FeedGenerator（グリーディ割当・recognition復習修正済み）
+│   ├── wave-manager.js   # WaveManager（導入済み語ベースのwave解放・卒業）
+│   ├── feed-generator.js # FeedGenerator（グリーディ割当・mastered due修正済み）
 │   └── word-data.js      # WORD_DATA(1900語), CATEGORIES
 ├── sim/
-│   ├── sim-runner.js     # runSimulation(), runScenario()（リトライ新仕様）
+│   ├── sim-runner.js     # runSimulation(), runScenario()（heatmapData保存対応）
 │   ├── virtual-learner.js# VirtualLearner
 │   ├── scenarios.js      # SCENARIOS A〜D
-│   ├── charts.js         # SimCharts（Canvas描画）
+│   ├── charts.js         # SimCharts（5チャート・Heatmapスライダー・サマリーテーブル）
 │   ├── sim.html          # シミュレーターUI
-│   ├── sim.js            # UI制御
+│   ├── sim.js            # UI制御・JSONエクスポート
 │   └── sim.css
-└── app/                  # 未実装
+└── app/                  # ← 次セッションで実装
 ```
