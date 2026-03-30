@@ -199,6 +199,62 @@ header span { font-size: 13px; opacity: 0.8; }
   border-radius: 4px;
 }
 
+.chart-card--wide {
+  margin-bottom: 16px;
+}
+.chart-card--wide canvas {
+  width: 100%;
+  height: 160px;
+  display: block;
+}
+
+/* ---- Summary section ---- */
+#summary-section {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  padding: 16px;
+  margin-top: 4px;
+}
+
+#summary-section h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.summary-table th {
+  background: #f0f4ff;
+  color: #1a237e;
+  font-weight: 600;
+  text-align: left;
+  padding: 7px 12px;
+  border-bottom: 2px solid #c5cae9;
+}
+
+.summary-table td {
+  padding: 6px 12px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+.summary-table tr.alt td { background: #fafafa; }
+
+.summary-table td.cell-highlight {
+  font-weight: 600;
+  color: #1a237e;
+}
+
+.summary-table tr:last-child td { border-bottom: none; }
+
+/* ---- Welcome ---- */
 .welcome {
   display: flex;
   flex-direction: column;

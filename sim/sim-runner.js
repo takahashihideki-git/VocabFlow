@@ -100,6 +100,9 @@ export function runSimulation(configOverrides = {}, duration = 90, onProgress = 
       ? activeWords.reduce((s, w) => s + w.h, 0) / activeWords.length
       : 0;
 
+    // 10日ごと（または最終日）に全語の h 値を保存 → ヒートマップスライダー用
+    const storeHeatmap = (day % 10 === 9) || (day === duration - 1);
+
     snapshots.push({
       day: day + 1,
       masteredCount,
@@ -110,6 +113,7 @@ export function runSimulation(configOverrides = {}, duration = 90, onProgress = 
       newCards: stats.newCards,
       reviewCards: stats.reviewCards,
       totalCards: stats.totalCount,
+      heatmapData: storeHeatmap ? Array.from(state.words, w => w.h) : null,
     });
 
     if (onProgress) onProgress(day + 1, duration, snapshots[snapshots.length - 1]);
@@ -133,19 +137,27 @@ export function runScenario(scenarioId, onProgress = null) {
     results.push({ label: 'default', ...result });
   } else if (Array.isArray(scenario.variable)) {
     const [v1, v2] = scenario.variable;
-    for (const val1 of scenario.values[v1]) {
-      for (const val2 of scenario.values[v2]) {
-        const overrides = { ...scenario.fixedOverrides, [v1]: val1, [v2]: val2 };
-        const result = runSimulation(overrides, scenario.duration);
-        results.push({ label: `${v1}=${val1}, ${v2}=${val2}`, ...result });
-      }
-    }
+    const combos = [];
+    for (const val1 of scenario.values[v1])
+      for (const val2 of scenario.values[v2])
+        combos.push({ [v1]: val1, [v2]: val2 });
+    const totalUnits = combos.length * scenario.duration;
+    combos.forEach((combo, idx) => {
+      const cb = onProgress ? (day, dur, snap) =>
+        onProgress(idx * scenario.duration + day, totalUnits, snap) : null;
+      const overrides = { ...scenario.fixedOverrides, ...combo };
+      const result = runSimulation(overrides, scenario.duration, cb);
+      results.push({ label: Object.entries(combo).map(([k, v]) => `${k}=${v}`).join(', '), ...result });
+    });
   } else {
-    for (const val of scenario.values) {
+    const totalUnits = scenario.values.length * scenario.duration;
+    scenario.values.forEach((val, idx) => {
       const overrides = { ...scenario.fixedOverrides, [scenario.variable]: val };
-      const result = runSimulation(overrides, scenario.duration);
+      const cb = onProgress ? (day, dur, snap) =>
+        onProgress(idx * scenario.duration + day, totalUnits, snap) : null;
+      const result = runSimulation(overrides, scenario.duration, cb);
       results.push({ label: `${scenario.variable}=${val}`, ...result });
-    }
+    });
   }
 
   return results;
