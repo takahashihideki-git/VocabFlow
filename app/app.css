@@ -125,6 +125,24 @@ html, body {
   to   { opacity: 0; transform: translateY(-60px) scale(0.96); }
 }
 
+.card.card-exit-down {
+  animation: cardOutDown 0.22s ease-in forwards;
+}
+
+.card.card-enter-from-top {
+  animation: cardInFromTop 0.28s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes cardOutDown {
+  from { opacity: 1; transform: translateY(0) scale(1); }
+  to   { opacity: 0; transform: translateY(60px) scale(0.96); }
+}
+
+@keyframes cardInFromTop {
+  from { opacity: 0; transform: translateY(-60px) scale(0.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 @keyframes shake {
   0%,100% { transform: translateX(0); }
   20%     { transform: translateX(-12px); }
@@ -225,6 +243,42 @@ html, body {
 .badge-handwrite { background: rgba(231,76,60,0.15); color: var(--danger); }
 .badge-passive   { background: rgba(255,255,255,0.05); color: var(--text-muted); }
 .badge-retry     { background: rgba(255,165,0,0.2); color: orange; }
+.badge-skipped   { background: rgba(136,136,153,0.2); color: var(--text-muted); }
+
+/* スキップボタン */
+.btn-skip {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 12px;
+  padding: 4px 8px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+  align-self: center;
+  margin-top: 8px;
+}
+.btn-skip:hover { opacity: 1; color: var(--text); }
+
+/* 履歴カード */
+.history-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px 0 8px;
+}
+.history-result {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.04);
+}
+.history-result.was-skipped  { color: var(--text-muted); }
+.history-result.was-correct  { color: var(--success); }
+.history-result.was-wrong    { color: var(--danger); }
 
 /* Word display */
 .word-main {

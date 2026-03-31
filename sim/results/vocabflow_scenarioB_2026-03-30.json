@@ -1,0 +1,6601 @@
+{
+  "exportedAt": "2026-03-30T10:05:45.914Z",
+  "scenario": {
+    "id": "B",
+    "name": "忘却曲線パラメータの影響",
+    "description": "α（正解時倍率）の違いが定着率に与える影響",
+    "variable": "alpha",
+    "duration": 90
+  },
+  "results": [
+    {
+      "label": "alpha=1.5",
+      "snapshots": [
+        {
+          "day": 1,
+          "masteredCount": 0,
+          "learnedCount": 10,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 1.5,
+          "correctRate": 0.8888888888888888,
+          "newCards": 20,
+          "reviewCards": 25,
+          "totalCards": 45
+        },
+        {
+          "day": 2,
+          "masteredCount": 0,
+          "learnedCount": 15,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 2.3725,
+          "correctRate": 0.8552631578947368,
+          "newCards": 25,
+          "reviewCards": 51,
+          "totalCards": 76
+        },
+        {
+          "day": 3,
+          "masteredCount": 0,
+          "learnedCount": 25,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 2.888000000000001,
+          "correctRate": 0.8823529411764706,
+          "newCards": 20,
+          "reviewCards": 65,
+          "totalCards": 85
+        },
+        {
+          "day": 4,
+          "masteredCount": 0,
+          "learnedCount": 30,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 3.01925,
+          "correctRate": 0.797752808988764,
+          "newCards": 17,
+          "reviewCards": 72,
+          "totalCards": 89
+        },
+        {
+          "day": 5,
+          "masteredCount": 3,
+          "learnedCount": 35,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 4.065815178571431,
+          "correctRate": 0.8117647058823529,
+          "newCards": 13,
+          "reviewCards": 72,
+          "totalCards": 85
+        },
+        {
+          "day": 6,
+          "masteredCount": 4,
+          "learnedCount": 38,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.380980282738095,
+          "correctRate": 0.8235294117647058,
+          "newCards": 17,
+          "reviewCards": 68,
+          "totalCards": 85
+        },
+        {
+          "day": 7,
+          "masteredCount": 7,
+          "learnedCount": 42,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 5.095976804315478,
+          "correctRate": 0.7590361445783133,
+          "newCards": 4,
+          "reviewCards": 79,
+          "totalCards": 83
+        },
+        {
+          "day": 8,
+          "masteredCount": 9,
+          "learnedCount": 42,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 5.474665365998641,
+          "correctRate": 0.7804878048780488,
+          "newCards": 8,
+          "reviewCards": 74,
+          "totalCards": 82
+        },
+        {
+          "day": 9,
+          "masteredCount": 9,
+          "learnedCount": 42,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 5.819148641941239,
+          "correctRate": 0.7142857142857143,
+          "newCards": 0,
+          "reviewCards": 84,
+          "totalCards": 84
+        },
+        {
+          "day": 10,
+          "masteredCount": 11,
+          "learnedCount": 43,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 7.332942177490236,
+          "correctRate": 0.8591549295774648,
+          "newCards": 1,
+          "reviewCards": 70,
+          "totalCards": 71
+        },
+        {
+          "day": 11,
+          "masteredCount": 11,
+          "learnedCount": 48,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 8.217331874377194,
+          "correctRate": 0.8068181818181818,
+          "newCards": 17,
+          "reviewCards": 71,
+          "totalCards": 88
+        },
+        {
+          "day": 12,
+          "masteredCount": 12,
+          "learnedCount": 48,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 9.279108891369882,
+          "correctRate": 0.8108108108108109,
+          "newCards": 0,
+          "reviewCards": 74,
+          "totalCards": 74
+        },
+        {
+          "day": 13,
+          "masteredCount": 10,
+          "learnedCount": 51,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 8.535090486793056,
+          "correctRate": 0.7333333333333333,
+          "newCards": 11,
+          "reviewCards": 79,
+          "totalCards": 90
+        },
+        {
+          "day": 14,
+          "masteredCount": 11,
+          "learnedCount": 51,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 9.258745281809219,
+          "correctRate": 0.759493670886076,
+          "newCards": 0,
+          "reviewCards": 79,
+          "totalCards": 79
+        },
+        {
+          "day": 15,
+          "masteredCount": 13,
+          "learnedCount": 52,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 10.051757176062807,
+          "correctRate": 0.7625,
+          "newCards": 1,
+          "reviewCards": 79,
+          "totalCards": 80
+        },
+        {
+          "day": 16,
+          "masteredCount": 17,
+          "learnedCount": 52,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 10.757142004005436,
+          "correctRate": 0.7303370786516854,
+          "newCards": 10,
+          "reviewCards": 79,
+          "totalCards": 89
+        },
+        {
+          "day": 17,
+          "masteredCount": 18,
+          "learnedCount": 57,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 11.355790118401293,
+          "correctRate": 0.7441860465116279,
+          "newCards": 5,
+          "reviewCards": 81,
+          "totalCards": 86
+        },
+        {
+          "day": 18,
+          "masteredCount": 19,
+          "learnedCount": 57,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 11.960308565107331,
+          "correctRate": 0.759493670886076,
+          "newCards": 0,
+          "reviewCards": 79,
+          "totalCards": 79
+        },
+        {
+          "day": 19,
+          "masteredCount": 19,
+          "learnedCount": 57,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 12.711190411753693,
+          "correctRate": 0.7848101265822784,
+          "newCards": 4,
+          "reviewCards": 75,
+          "totalCards": 79
+        },
+        {
+          "day": 20,
+          "masteredCount": 20,
+          "learnedCount": 59,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 14.910015562283158,
+          "correctRate": 0.8591549295774648,
+          "newCards": 2,
+          "reviewCards": 69,
+          "totalCards": 71
+        },
+        {
+          "day": 21,
+          "masteredCount": 21,
+          "learnedCount": 64,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 14.619828064479993,
+          "correctRate": 0.8160919540229885,
+          "newCards": 17,
+          "reviewCards": 70,
+          "totalCards": 87
+        },
+        {
+          "day": 22,
+          "masteredCount": 22,
+          "learnedCount": 65,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 15.238168819827285,
+          "correctRate": 0.7894736842105263,
+          "newCards": 1,
+          "reviewCards": 75,
+          "totalCards": 76
+        },
+        {
+          "day": 23,
+          "masteredCount": 23,
+          "learnedCount": 68,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 15.085862668369444,
+          "correctRate": 0.7586206896551724,
+          "newCards": 9,
+          "reviewCards": 78,
+          "totalCards": 87
+        },
+        {
+          "day": 24,
+          "masteredCount": 25,
+          "learnedCount": 68,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 15.556282691390509,
+          "correctRate": 0.6781609195402298,
+          "newCards": 0,
+          "reviewCards": 87,
+          "totalCards": 87
+        },
+        {
+          "day": 25,
+          "masteredCount": 27,
+          "learnedCount": 68,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 15.948760242871515,
+          "correctRate": 0.759493670886076,
+          "newCards": 0,
+          "reviewCards": 79,
+          "totalCards": 79
+        },
+        {
+          "day": 26,
+          "masteredCount": 30,
+          "learnedCount": 68,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.48812308574009,
+          "correctRate": 0.7692307692307693,
+          "newCards": 0,
+          "reviewCards": 78,
+          "totalCards": 78
+        },
+        {
+          "day": 27,
+          "masteredCount": 34,
+          "learnedCount": 68,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 18.82338296672351,
+          "correctRate": 0.7564102564102564,
+          "newCards": 0,
+          "reviewCards": 78,
+          "totalCards": 78
+        },
+        {
+          "day": 28,
+          "masteredCount": 35,
+          "learnedCount": 70,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 18.488238027966254,
+          "correctRate": 0.7613636363636364,
+          "newCards": 12,
+          "reviewCards": 76,
+          "totalCards": 88
+        },
+        {
+          "day": 29,
+          "masteredCount": 33,
+          "learnedCount": 73,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 18.010391707293728,
+          "correctRate": 0.7831325301204819,
+          "newCards": 7,
+          "reviewCards": 76,
+          "totalCards": 83
+        },
+        {
+          "day": 30,
+          "masteredCount": 34,
+          "learnedCount": 75,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.78138390348833,
+          "correctRate": 0.7586206896551724,
+          "newCards": 10,
+          "reviewCards": 77,
+          "totalCards": 87
+        },
+        {
+          "day": 31,
+          "masteredCount": 35,
+          "learnedCount": 78,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.005419831460184,
+          "correctRate": 0.7721518987341772,
+          "newCards": 3,
+          "reviewCards": 76,
+          "totalCards": 79
+        },
+        {
+          "day": 32,
+          "masteredCount": 37,
+          "learnedCount": 79,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.352747249473587,
+          "correctRate": 0.7142857142857143,
+          "newCards": 3,
+          "reviewCards": 81,
+          "totalCards": 84
+        },
+        {
+          "day": 33,
+          "masteredCount": 37,
+          "learnedCount": 80,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.53893232921219,
+          "correctRate": 0.7721518987341772,
+          "newCards": 1,
+          "reviewCards": 78,
+          "totalCards": 79
+        },
+        {
+          "day": 34,
+          "masteredCount": 38,
+          "learnedCount": 80,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.508976286630016,
+          "correctRate": 0.7160493827160493,
+          "newCards": 0,
+          "reviewCards": 81,
+          "totalCards": 81
+        },
+        {
+          "day": 35,
+          "masteredCount": 36,
+          "learnedCount": 80,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 21.133278006011988,
+          "correctRate": 0.8108108108108109,
+          "newCards": 0,
+          "reviewCards": 74,
+          "totalCards": 74
+        },
+        {
+          "day": 36,
+          "masteredCount": 38,
+          "learnedCount": 84,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.68041926262302,
+          "correctRate": 0.7666666666666667,
+          "newCards": 14,
+          "reviewCards": 76,
+          "totalCards": 90
+        },
+        {
+          "day": 37,
+          "masteredCount": 42,
+          "learnedCount": 86,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 22.007335150683705,
+          "correctRate": 0.7901234567901234,
+          "newCards": 6,
+          "reviewCards": 75,
+          "totalCards": 81
+        },
+        {
+          "day": 38,
+          "masteredCount": 43,
+          "learnedCount": 86,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 22.75008413527128,
+          "correctRate": 0.7375,
+          "newCards": 0,
+          "reviewCards": 80,
+          "totalCards": 80
+        },
+        {
+          "day": 39,
+          "masteredCount": 44,
+          "learnedCount": 86,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 22.284102585743714,
+          "correctRate": 0.8125,
+          "newCards": 10,
+          "reviewCards": 70,
+          "totalCards": 80
+        },
+        {
+          "day": 40,
+          "masteredCount": 43,
+          "learnedCount": 91,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 22.943780134911567,
+          "correctRate": 0.8552631578947368,
+          "newCards": 5,
+          "reviewCards": 71,
+          "totalCards": 76
+        },
+        {
+          "day": 41,
+          "masteredCount": 47,
+          "learnedCount": 91,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 23.258038072024483,
+          "correctRate": 0.7804878048780488,
+          "newCards": 8,
+          "reviewCards": 74,
+          "totalCards": 82
+        },
+        {
+          "day": 42,
+          "masteredCount": 48,
+          "learnedCount": 93,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 23.446659825009245,
+          "correctRate": 0.7159090909090909,
+          "newCards": 8,
+          "reviewCards": 80,
+          "totalCards": 88
+        },
+        {
+          "day": 43,
+          "masteredCount": 49,
+          "learnedCount": 96,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 23.741790815134298,
+          "correctRate": 0.8,
+          "newCards": 5,
+          "reviewCards": 75,
+          "totalCards": 80
+        },
+        {
+          "day": 44,
+          "masteredCount": 56,
+          "learnedCount": 96,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 25.25658472877571,
+          "correctRate": 0.7692307692307693,
+          "newCards": 0,
+          "reviewCards": 78,
+          "totalCards": 78
+        },
+        {
+          "day": 45,
+          "masteredCount": 57,
+          "learnedCount": 99,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 25.182159839365966,
+          "correctRate": 0.7790697674418605,
+          "newCards": 11,
+          "reviewCards": 75,
+          "totalCards": 86
+        },
+        {
+          "day": 46,
+          "masteredCount": 61,
+          "learnedCount": 102,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 25.865501594413754,
+          "correctRate": 0.8170731707317073,
+          "newCards": 11,
+          "reviewCards": 71,
+          "totalCards": 82
+        },
+        {
+          "day": 47,
+          "masteredCount": 65,
+          "learnedCount": 104,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 26.616095390914886,
+          "correctRate": 0.7777777777777778,
+          "newCards": 4,
+          "reviewCards": 77,
+          "totalCards": 81
+        },
+        {
+          "day": 48,
+          "masteredCount": 66,
+          "learnedCount": 104,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 27.612843923829935,
+          "correctRate": 0.7792207792207793,
+          "newCards": 0,
+          "reviewCards": 77,
+          "totalCards": 77
+        },
+        {
+          "day": 49,
+          "masteredCount": 69,
+          "learnedCount": 107,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 28.961009740127146,
+          "correctRate": 0.8048780487804879,
+          "newCards": 9,
+          "reviewCards": 73,
+          "totalCards": 82
+        },
+        {
+          "day": 50,
+          "masteredCount": 73,
+          "learnedCount": 107,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 30.23777244345531,
+          "correctRate": 0.686046511627907,
+          "newCards": 0,
+          "reviewCards": 86,
+          "totalCards": 86
+        },
+        {
+          "day": 51,
+          "masteredCount": 71,
+          "learnedCount": 107,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 30.787820449009043,
+          "correctRate": 0.8266666666666667,
+          "newCards": 4,
+          "reviewCards": 71,
+          "totalCards": 75
+        },
+        {
+          "day": 52,
+          "masteredCount": 74,
+          "learnedCount": 112,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 31.480569103686463,
+          "correctRate": 0.7906976744186046,
+          "newCards": 11,
+          "reviewCards": 75,
+          "totalCards": 86
+        },
+        {
+          "day": 53,
+          "masteredCount": 76,
+          "learnedCount": 112,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 31.815347651485613,
+          "correctRate": 0.8227848101265823,
+          "newCards": 10,
+          "reviewCards": 69,
+          "totalCards": 79
+        },
+        {
+          "day": 54,
+          "masteredCount": 77,
+          "learnedCount": 114,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 34.11795558730603,
+          "correctRate": 0.7848101265822784,
+          "newCards": 2,
+          "reviewCards": 77,
+          "totalCards": 79
+        },
+        {
+          "day": 55,
+          "masteredCount": 79,
+          "learnedCount": 117,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 34.04015046985855,
+          "correctRate": 0.7252747252747253,
+          "newCards": 9,
+          "reviewCards": 82,
+          "totalCards": 91
+        },
+        {
+          "day": 56,
+          "masteredCount": 83,
+          "learnedCount": 119,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 34.24308570787473,
+          "correctRate": 0.7529411764705882,
+          "newCards": 6,
+          "reviewCards": 79,
+          "totalCards": 85
+        },
+        {
+          "day": 57,
+          "masteredCount": 87,
+          "learnedCount": 120,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 35.58222813871029,
+          "correctRate": 0.7721518987341772,
+          "newCards": 1,
+          "reviewCards": 78,
+          "totalCards": 79
+        },
+        {
+          "day": 58,
+          "masteredCount": 86,
+          "learnedCount": 121,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 35.77693846503364,
+          "correctRate": 0.6956521739130435,
+          "newCards": 7,
+          "reviewCards": 85,
+          "totalCards": 92
+        },
+        {
+          "day": 59,
+          "masteredCount": 88,
+          "learnedCount": 121,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 36.88497182515968,
+          "correctRate": 0.7375,
+          "newCards": 0,
+          "reviewCards": 80,
+          "totalCards": 80
+        },
+        {
+          "day": 60,
+          "masteredCount": 87,
+          "learnedCount": 123,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 37.68710775714418,
+          "correctRate": 0.8170731707317073,
+          "newCards": 12,
+          "reviewCards": 70,
+          "totalCards": 82
+        },
+        {
+          "day": 61,
+          "masteredCount": 84,
+          "learnedCount": 126,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 37.72960660668142,
+          "correctRate": 0.7209302325581395,
+          "newCards": 3,
+          "reviewCards": 83,
+          "totalCards": 86
+        },
+        {
+          "day": 62,
+          "masteredCount": 86,
+          "learnedCount": 126,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 38.44328412065147,
+          "correctRate": 0.7283950617283951,
+          "newCards": 0,
+          "reviewCards": 81,
+          "totalCards": 81
+        },
+        {
+          "day": 63,
+          "masteredCount": 88,
+          "learnedCount": 127,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 39.01640484282776,
+          "correctRate": 0.7439024390243902,
+          "newCards": 1,
+          "reviewCards": 81,
+          "totalCards": 82
+        },
+        {
+          "day": 64,
+          "masteredCount": 88,
+          "learnedCount": 127,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 38.936303215412735,
+          "correctRate": 0.8024691358024691,
+          "newCards": 10,
+          "reviewCards": 71,
+          "totalCards": 81
+        },
+        {
+          "day": 65,
+          "masteredCount": 94,
+          "learnedCount": 132,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 39.84064838459007,
+          "correctRate": 0.8701298701298701,
+          "newCards": 9,
+          "reviewCards": 68,
+          "totalCards": 77
+        },
+        {
+          "day": 66,
+          "masteredCount": 95,
+          "learnedCount": 134,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 39.910932338604965,
+          "correctRate": 0.7411764705882353,
+          "newCards": 6,
+          "reviewCards": 79,
+          "totalCards": 85
+        },
+        {
+          "day": 67,
+          "masteredCount": 97,
+          "learnedCount": 134,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 39.86733201592188,
+          "correctRate": 0.7647058823529411,
+          "newCards": 10,
+          "reviewCards": 75,
+          "totalCards": 85
+        },
+        {
+          "day": 68,
+          "masteredCount": 98,
+          "learnedCount": 135,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 40.47928835267903,
+          "correctRate": 0.775,
+          "newCards": 3,
+          "reviewCards": 77,
+          "totalCards": 80
+        },
+        {
+          "day": 69,
+          "masteredCount": 96,
+          "learnedCount": 139,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 40.541771801985,
+          "correctRate": 0.7701149425287356,
+          "newCards": 10,
+          "reviewCards": 77,
+          "totalCards": 87
+        },
+        {
+          "day": 70,
+          "masteredCount": 100,
+          "learnedCount": 140,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 41.30342000204896,
+          "correctRate": 0.7721518987341772,
+          "newCards": 1,
+          "reviewCards": 78,
+          "totalCards": 79
+        },
+        {
+          "day": 71,
+          "masteredCount": 104,
+          "learnedCount": 140,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 42.746702612951125,
+          "correctRate": 0.7792207792207793,
+          "newCards": 0,
+          "reviewCards": 77,
+          "totalCards": 77
+        },
+        {
+          "day": 72,
+          "masteredCount": 104,
+          "learnedCount": 140,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 44.8967741148497,
+          "correctRate": 0.8243243243243243,
+          "newCards": 2,
+          "reviewCards": 72,
+          "totalCards": 74
+        },
+        {
+          "day": 73,
+          "masteredCount": 104,
+          "learnedCount": 145,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 43.747880761730926,
+          "correctRate": 0.7319587628865979,
+          "newCards": 19,
+          "reviewCards": 78,
+          "totalCards": 97
+        },
+        {
+          "day": 74,
+          "masteredCount": 103,
+          "learnedCount": 145,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 44.99331573839123,
+          "correctRate": 0.821917808219178,
+          "newCards": 0,
+          "reviewCards": 73,
+          "totalCards": 73
+        },
+        {
+          "day": 75,
+          "masteredCount": 104,
+          "learnedCount": 147,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 45.42258814206615,
+          "correctRate": 0.8333333333333334,
+          "newCards": 8,
+          "reviewCards": 70,
+          "totalCards": 78
+        },
+        {
+          "day": 76,
+          "masteredCount": 111,
+          "learnedCount": 151,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 46.46327426087161,
+          "correctRate": 0.8354430379746836,
+          "newCards": 8,
+          "reviewCards": 71,
+          "totalCards": 79
+        },
+        {
+          "day": 77,
+          "masteredCount": 112,
+          "learnedCount": 153,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 47.625539162741944,
+          "correctRate": 0.8648648648648649,
+          "newCards": 6,
+          "reviewCards": 68,
+          "totalCards": 74
+        },
+        {
+          "day": 78,
+          "masteredCount": 117,
+          "learnedCount": 155,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 47.75450015325541,
+          "correctRate": 0.7682926829268293,
+          "newCards": 6,
+          "reviewCards": 76,
+          "totalCards": 82
+        },
+        {
+          "day": 79,
+          "masteredCount": 119,
+          "learnedCount": 155,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 47.58499089467297,
+          "correctRate": 0.7804878048780488,
+          "newCards": 8,
+          "reviewCards": 74,
+          "totalCards": 82
+        },
+        {
+          "day": 80,
+          "masteredCount": 120,
+          "learnedCount": 159,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 47.86962879676179,
+          "correctRate": 0.7191011235955056,
+          "newCards": 6,
+          "reviewCards": 83,
+          "totalCards": 89
+        },
+        {
+          "day": 81,
+          "masteredCount": 123,
+          "learnedCount": 159,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 49.64210109979537,
+          "correctRate": 0.8,
+          "newCards": 0,
+          "reviewCards": 75,
+          "totalCards": 75
+        },
+        {
+          "day": 82,
+          "masteredCount": 125,
+          "learnedCount": 159,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 50.58622628317274,
+          "correctRate": 0.7590361445783133,
+          "newCards": 6,
+          "reviewCards": 77,
+          "totalCards": 83
+        },
+        {
+          "day": 83,
+          "masteredCount": 127,
+          "learnedCount": 160,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 52.53143773767959,
+          "correctRate": 0.8243243243243243,
+          "newCards": 1,
+          "reviewCards": 73,
+          "totalCards": 74
+        },
+        {
+          "day": 84,
+          "masteredCount": 129,
+          "learnedCount": 164,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 52.21909616808397,
+          "correctRate": 0.7840909090909091,
+          "newCards": 14,
+          "reviewCards": 74,
+          "totalCards": 88
+        },
+        {
+          "day": 85,
+          "masteredCount": 131,
+          "learnedCount": 164,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 53.32108034882727,
+          "correctRate": 0.7894736842105263,
+          "newCards": 0,
+          "reviewCards": 76,
+          "totalCards": 76
+        },
+        {
+          "day": 86,
+          "masteredCount": 130,
+          "learnedCount": 167,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 52.74632119783645,
+          "correctRate": 0.7976190476190477,
+          "newCards": 11,
+          "reviewCards": 73,
+          "totalCards": 84
+        },
+        {
+          "day": 87,
+          "masteredCount": 132,
+          "learnedCount": 168,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 54.20731952568277,
+          "correctRate": 0.7721518987341772,
+          "newCards": 1,
+          "reviewCards": 78,
+          "totalCards": 79
+        },
+        {
+          "day": 88,
+          "masteredCount": 133,
+          "learnedCount": 168,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 54.67903957331875,
+          "correctRate": 0.7692307692307693,
+          "newCards": 0,
+          "reviewCards": 78,
+          "totalCards": 78
+        },
+        {
+          "day": 89,
+          "masteredCount": 136,
+          "learnedCount": 168,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 56.31134995307846,
+          "correctRate": 0.8,
+          "newCards": 0,
+          "reviewCards": 75,
+          "totalCards": 75
+        },
+        {
+          "day": 90,
+          "masteredCount": 134,
+          "learnedCount": 169,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 56.92177996878368,
+          "correctRate": 0.7272727272727273,
+          "newCards": 7,
+          "reviewCards": 81,
+          "totalCards": 88
+        }
+      ]
+    },
+    {
+      "label": "alpha=1.8",
+      "snapshots": [
+        {
+          "day": 1,
+          "masteredCount": 0,
+          "learnedCount": 10,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 1.5976,
+          "correctRate": 0.851063829787234,
+          "newCards": 20,
+          "reviewCards": 27,
+          "totalCards": 47
+        },
+        {
+          "day": 2,
+          "masteredCount": 0,
+          "learnedCount": 15,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 2.010544,
+          "correctRate": 0.8125,
+          "newCards": 25,
+          "reviewCards": 55,
+          "totalCards": 80
+        },
+        {
+          "day": 3,
+          "masteredCount": 0,
+          "learnedCount": 24,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 3.0657454079999997,
+          "correctRate": 0.8314606741573034,
+          "newCards": 19,
+          "reviewCards": 70,
+          "totalCards": 89
+        },
+        {
+          "day": 4,
+          "masteredCount": 0,
+          "learnedCount": 29,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 3.49005,
+          "correctRate": 0.7912087912087912,
+          "newCards": 19,
+          "reviewCards": 72,
+          "totalCards": 91
+        },
+        {
+          "day": 5,
+          "masteredCount": 0,
+          "learnedCount": 37,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.702688505263162,
+          "correctRate": 0.891566265060241,
+          "newCards": 20,
+          "reviewCards": 63,
+          "totalCards": 83
+        },
+        {
+          "day": 6,
+          "masteredCount": 2,
+          "learnedCount": 42,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 5.846160523636367,
+          "correctRate": 0.797752808988764,
+          "newCards": 17,
+          "reviewCards": 72,
+          "totalCards": 89
+        },
+        {
+          "day": 7,
+          "masteredCount": 3,
+          "learnedCount": 43,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 5.817883605527275,
+          "correctRate": 0.7011494252873564,
+          "newCards": 1,
+          "reviewCards": 86,
+          "totalCards": 87
+        },
+        {
+          "day": 8,
+          "masteredCount": 6,
+          "learnedCount": 46,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 6.835607230638298,
+          "correctRate": 0.7415730337078652,
+          "newCards": 9,
+          "reviewCards": 80,
+          "totalCards": 89
+        },
+        {
+          "day": 9,
+          "masteredCount": 6,
+          "learnedCount": 51,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 6.722130475660552,
+          "correctRate": 0.71875,
+          "newCards": 13,
+          "reviewCards": 83,
+          "totalCards": 96
+        },
+        {
+          "day": 10,
+          "masteredCount": 6,
+          "learnedCount": 51,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 7.046387889888332,
+          "correctRate": 0.7126436781609196,
+          "newCards": 6,
+          "reviewCards": 81,
+          "totalCards": 87
+        },
+        {
+          "day": 11,
+          "masteredCount": 9,
+          "learnedCount": 56,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 8.177632596955267,
+          "correctRate": 0.7752808988764045,
+          "newCards": 13,
+          "reviewCards": 76,
+          "totalCards": 89
+        },
+        {
+          "day": 12,
+          "masteredCount": 11,
+          "learnedCount": 59,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 8.343781902444036,
+          "correctRate": 0.6989247311827957,
+          "newCards": 9,
+          "reviewCards": 84,
+          "totalCards": 93
+        },
+        {
+          "day": 13,
+          "masteredCount": 12,
+          "learnedCount": 59,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 9.326431768635208,
+          "correctRate": 0.651685393258427,
+          "newCards": 0,
+          "reviewCards": 89,
+          "totalCards": 89
+        },
+        {
+          "day": 14,
+          "masteredCount": 14,
+          "learnedCount": 59,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 10.874006232171723,
+          "correctRate": 0.7407407407407407,
+          "newCards": 0,
+          "reviewCards": 81,
+          "totalCards": 81
+        },
+        {
+          "day": 15,
+          "masteredCount": 15,
+          "learnedCount": 61,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 11.479547139534978,
+          "correctRate": 0.7333333333333333,
+          "newCards": 10,
+          "reviewCards": 80,
+          "totalCards": 90
+        },
+        {
+          "day": 16,
+          "masteredCount": 18,
+          "learnedCount": 65,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 11.838529697775263,
+          "correctRate": 0.6770833333333334,
+          "newCards": 10,
+          "reviewCards": 86,
+          "totalCards": 96
+        },
+        {
+          "day": 17,
+          "masteredCount": 21,
+          "learnedCount": 65,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 13.424217911012489,
+          "correctRate": 0.7108433734939759,
+          "newCards": 0,
+          "reviewCards": 83,
+          "totalCards": 83
+        },
+        {
+          "day": 18,
+          "masteredCount": 26,
+          "learnedCount": 65,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 15.77671505750348,
+          "correctRate": 0.759493670886076,
+          "newCards": 0,
+          "reviewCards": 79,
+          "totalCards": 79
+        },
+        {
+          "day": 19,
+          "masteredCount": 28,
+          "learnedCount": 70,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 15.150656236513791,
+          "correctRate": 0.7474747474747475,
+          "newCards": 23,
+          "reviewCards": 76,
+          "totalCards": 99
+        },
+        {
+          "day": 20,
+          "masteredCount": 30,
+          "learnedCount": 72,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 16.282156258769955,
+          "correctRate": 0.6288659793814433,
+          "newCards": 2,
+          "reviewCards": 95,
+          "totalCards": 97
+        },
+        {
+          "day": 21,
+          "masteredCount": 33,
+          "learnedCount": 72,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.347850210997617,
+          "correctRate": 0.6896551724137931,
+          "newCards": 0,
+          "reviewCards": 87,
+          "totalCards": 87
+        },
+        {
+          "day": 22,
+          "masteredCount": 31,
+          "learnedCount": 72,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.551465259568836,
+          "correctRate": 0.6904761904761905,
+          "newCards": 0,
+          "reviewCards": 84,
+          "totalCards": 84
+        },
+        {
+          "day": 23,
+          "masteredCount": 36,
+          "learnedCount": 75,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.247630829042997,
+          "correctRate": 0.8192771084337349,
+          "newCards": 13,
+          "reviewCards": 70,
+          "totalCards": 83
+        },
+        {
+          "day": 24,
+          "masteredCount": 40,
+          "learnedCount": 81,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.15924599173086,
+          "correctRate": 0.8452380952380952,
+          "newCards": 16,
+          "reviewCards": 68,
+          "totalCards": 84
+        },
+        {
+          "day": 25,
+          "masteredCount": 41,
+          "learnedCount": 87,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.312695271296334,
+          "correctRate": 0.7741935483870968,
+          "newCards": 18,
+          "reviewCards": 75,
+          "totalCards": 93
+        },
+        {
+          "day": 26,
+          "masteredCount": 43,
+          "learnedCount": 92,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 20.37145783877735,
+          "correctRate": 0.7717391304347826,
+          "newCards": 19,
+          "reviewCards": 73,
+          "totalCards": 92
+        },
+        {
+          "day": 27,
+          "masteredCount": 49,
+          "learnedCount": 94,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 22.55954188754205,
+          "correctRate": 0.775,
+          "newCards": 2,
+          "reviewCards": 78,
+          "totalCards": 80
+        },
+        {
+          "day": 28,
+          "masteredCount": 47,
+          "learnedCount": 96,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 23.34459770406498,
+          "correctRate": 0.6847826086956522,
+          "newCards": 6,
+          "reviewCards": 86,
+          "totalCards": 92
+        },
+        {
+          "day": 29,
+          "masteredCount": 49,
+          "learnedCount": 96,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 24.608497233053725,
+          "correctRate": 0.6976744186046512,
+          "newCards": 0,
+          "reviewCards": 86,
+          "totalCards": 86
+        },
+        {
+          "day": 30,
+          "masteredCount": 53,
+          "learnedCount": 97,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 25.650002380260187,
+          "correctRate": 0.75,
+          "newCards": 11,
+          "reviewCards": 77,
+          "totalCards": 88
+        },
+        {
+          "day": 31,
+          "masteredCount": 52,
+          "learnedCount": 105,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 25.875228585860683,
+          "correctRate": 0.7717391304347826,
+          "newCards": 16,
+          "reviewCards": 76,
+          "totalCards": 92
+        },
+        {
+          "day": 32,
+          "masteredCount": 55,
+          "learnedCount": 106,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 26.79507045849285,
+          "correctRate": 0.7228915662650602,
+          "newCards": 3,
+          "reviewCards": 80,
+          "totalCards": 83
+        },
+        {
+          "day": 33,
+          "masteredCount": 60,
+          "learnedCount": 107,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 27.669679392639186,
+          "correctRate": 0.6666666666666666,
+          "newCards": 5,
+          "reviewCards": 85,
+          "totalCards": 90
+        },
+        {
+          "day": 34,
+          "masteredCount": 60,
+          "learnedCount": 107,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 27.848541216817768,
+          "correctRate": 0.6781609195402298,
+          "newCards": 0,
+          "reviewCards": 87,
+          "totalCards": 87
+        },
+        {
+          "day": 35,
+          "masteredCount": 66,
+          "learnedCount": 109,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 28.928656948834227,
+          "correctRate": 0.75,
+          "newCards": 4,
+          "reviewCards": 80,
+          "totalCards": 84
+        },
+        {
+          "day": 36,
+          "masteredCount": 69,
+          "learnedCount": 110,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 29.75772860908107,
+          "correctRate": 0.7831325301204819,
+          "newCards": 9,
+          "reviewCards": 74,
+          "totalCards": 83
+        },
+        {
+          "day": 37,
+          "masteredCount": 74,
+          "learnedCount": 115,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 30.554983215126047,
+          "correctRate": 0.7666666666666667,
+          "newCards": 13,
+          "reviewCards": 77,
+          "totalCards": 90
+        },
+        {
+          "day": 38,
+          "masteredCount": 75,
+          "learnedCount": 118,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 31.17637398759848,
+          "correctRate": 0.7386363636363636,
+          "newCards": 7,
+          "reviewCards": 81,
+          "totalCards": 88
+        },
+        {
+          "day": 39,
+          "masteredCount": 74,
+          "learnedCount": 118,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 32.78950251121685,
+          "correctRate": 0.7228915662650602,
+          "newCards": 2,
+          "reviewCards": 81,
+          "totalCards": 83
+        },
+        {
+          "day": 40,
+          "masteredCount": 74,
+          "learnedCount": 122,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 34.00025873940892,
+          "correctRate": 0.788235294117647,
+          "newCards": 10,
+          "reviewCards": 75,
+          "totalCards": 85
+        },
+        {
+          "day": 41,
+          "masteredCount": 78,
+          "learnedCount": 124,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 35.98081903152428,
+          "correctRate": 0.7901234567901234,
+          "newCards": 6,
+          "reviewCards": 75,
+          "totalCards": 81
+        },
+        {
+          "day": 42,
+          "masteredCount": 86,
+          "learnedCount": 127,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 36.88231689256511,
+          "correctRate": 0.75,
+          "newCards": 11,
+          "reviewCards": 77,
+          "totalCards": 88
+        },
+        {
+          "day": 43,
+          "masteredCount": 91,
+          "learnedCount": 129,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 37.82575532058996,
+          "correctRate": 0.7529411764705882,
+          "newCards": 8,
+          "reviewCards": 77,
+          "totalCards": 85
+        },
+        {
+          "day": 44,
+          "masteredCount": 95,
+          "learnedCount": 133,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 38.86398953495645,
+          "correctRate": 0.8214285714285714,
+          "newCards": 14,
+          "reviewCards": 70,
+          "totalCards": 84
+        },
+        {
+          "day": 45,
+          "masteredCount": 97,
+          "learnedCount": 137,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 40.21209931853677,
+          "correctRate": 0.7738095238095238,
+          "newCards": 6,
+          "reviewCards": 78,
+          "totalCards": 84
+        },
+        {
+          "day": 46,
+          "masteredCount": 99,
+          "learnedCount": 137,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 42.09232491600654,
+          "correctRate": 0.7228915662650602,
+          "newCards": 0,
+          "reviewCards": 83,
+          "totalCards": 83
+        },
+        {
+          "day": 47,
+          "masteredCount": 103,
+          "learnedCount": 138,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 45.01908531962466,
+          "correctRate": 0.7721518987341772,
+          "newCards": 3,
+          "reviewCards": 76,
+          "totalCards": 79
+        },
+        {
+          "day": 48,
+          "masteredCount": 103,
+          "learnedCount": 143,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 44.50901382698416,
+          "correctRate": 0.7692307692307693,
+          "newCards": 15,
+          "reviewCards": 76,
+          "totalCards": 91
+        },
+        {
+          "day": 49,
+          "masteredCount": 111,
+          "learnedCount": 143,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 46.90215201458726,
+          "correctRate": 0.8,
+          "newCards": 0,
+          "reviewCards": 75,
+          "totalCards": 75
+        },
+        {
+          "day": 50,
+          "masteredCount": 111,
+          "learnedCount": 145,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 47.370040737356106,
+          "correctRate": 0.7701149425287356,
+          "newCards": 12,
+          "reviewCards": 75,
+          "totalCards": 87
+        },
+        {
+          "day": 51,
+          "masteredCount": 112,
+          "learnedCount": 151,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 48.21196665623645,
+          "correctRate": 0.7840909090909091,
+          "newCards": 12,
+          "reviewCards": 76,
+          "totalCards": 88
+        },
+        {
+          "day": 52,
+          "masteredCount": 115,
+          "learnedCount": 153,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 50.021038146042685,
+          "correctRate": 0.7804878048780488,
+          "newCards": 6,
+          "reviewCards": 76,
+          "totalCards": 82
+        },
+        {
+          "day": 53,
+          "masteredCount": 119,
+          "learnedCount": 157,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 50.516843606642915,
+          "correctRate": 0.788235294117647,
+          "newCards": 10,
+          "reviewCards": 75,
+          "totalCards": 85
+        },
+        {
+          "day": 54,
+          "masteredCount": 124,
+          "learnedCount": 158,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 50.712003598793174,
+          "correctRate": 0.7674418604651163,
+          "newCards": 11,
+          "reviewCards": 75,
+          "totalCards": 86
+        },
+        {
+          "day": 55,
+          "masteredCount": 127,
+          "learnedCount": 164,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 50.7336834434411,
+          "correctRate": 0.8255813953488372,
+          "newCards": 16,
+          "reviewCards": 70,
+          "totalCards": 86
+        },
+        {
+          "day": 56,
+          "masteredCount": 129,
+          "learnedCount": 169,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 50.58161733170371,
+          "correctRate": 0.7931034482758621,
+          "newCards": 15,
+          "reviewCards": 72,
+          "totalCards": 87
+        },
+        {
+          "day": 57,
+          "masteredCount": 133,
+          "learnedCount": 172,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 53.04470219781548,
+          "correctRate": 0.8051948051948052,
+          "newCards": 3,
+          "reviewCards": 74,
+          "totalCards": 77
+        },
+        {
+          "day": 58,
+          "masteredCount": 136,
+          "learnedCount": 174,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 52.89449049394331,
+          "correctRate": 0.7816091954022989,
+          "newCards": 14,
+          "reviewCards": 73,
+          "totalCards": 87
+        },
+        {
+          "day": 59,
+          "masteredCount": 136,
+          "learnedCount": 178,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 52.83520411091133,
+          "correctRate": 0.7666666666666667,
+          "newCards": 14,
+          "reviewCards": 76,
+          "totalCards": 90
+        },
+        {
+          "day": 60,
+          "masteredCount": 140,
+          "learnedCount": 180,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 55.08200273043764,
+          "correctRate": 0.782051282051282,
+          "newCards": 2,
+          "reviewCards": 76,
+          "totalCards": 78
+        },
+        {
+          "day": 61,
+          "masteredCount": 142,
+          "learnedCount": 185,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 54.23296190387985,
+          "correctRate": 0.7752808988764045,
+          "newCards": 13,
+          "reviewCards": 76,
+          "totalCards": 89
+        },
+        {
+          "day": 62,
+          "masteredCount": 147,
+          "learnedCount": 189,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 54.65416942300142,
+          "correctRate": 0.788235294117647,
+          "newCards": 12,
+          "reviewCards": 73,
+          "totalCards": 85
+        },
+        {
+          "day": 63,
+          "masteredCount": 148,
+          "learnedCount": 192,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 55.0323928948835,
+          "correctRate": 0.7555555555555555,
+          "newCards": 13,
+          "reviewCards": 77,
+          "totalCards": 90
+        },
+        {
+          "day": 64,
+          "masteredCount": 151,
+          "learnedCount": 192,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 56.27345178795398,
+          "correctRate": 0.6941176470588235,
+          "newCards": 0,
+          "reviewCards": 85,
+          "totalCards": 85
+        },
+        {
+          "day": 65,
+          "masteredCount": 154,
+          "learnedCount": 192,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 57.47101019734649,
+          "correctRate": 0.7407407407407407,
+          "newCards": 0,
+          "reviewCards": 81,
+          "totalCards": 81
+        },
+        {
+          "day": 66,
+          "masteredCount": 152,
+          "learnedCount": 194,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 59.529482565722624,
+          "correctRate": 0.7560975609756098,
+          "newCards": 4,
+          "reviewCards": 78,
+          "totalCards": 82
+        },
+        {
+          "day": 67,
+          "masteredCount": 156,
+          "learnedCount": 198,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 60.49754770000108,
+          "correctRate": 0.8235294117647058,
+          "newCards": 16,
+          "reviewCards": 69,
+          "totalCards": 85
+        },
+        {
+          "day": 68,
+          "masteredCount": 160,
+          "learnedCount": 201,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 61.2907627431914,
+          "correctRate": 0.7191011235955056,
+          "newCards": 5,
+          "reviewCards": 84,
+          "totalCards": 89
+        },
+        {
+          "day": 69,
+          "masteredCount": 162,
+          "learnedCount": 204,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 62.78341876185668,
+          "correctRate": 0.7710843373493976,
+          "newCards": 7,
+          "reviewCards": 76,
+          "totalCards": 83
+        },
+        {
+          "day": 70,
+          "masteredCount": 164,
+          "learnedCount": 204,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 61.921384686604156,
+          "correctRate": 0.6631578947368421,
+          "newCards": 8,
+          "reviewCards": 87,
+          "totalCards": 95
+        },
+        {
+          "day": 71,
+          "masteredCount": 170,
+          "learnedCount": 204,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 64.41777714405822,
+          "correctRate": 0.8450704225352113,
+          "newCards": 0,
+          "reviewCards": 71,
+          "totalCards": 71
+        },
+        {
+          "day": 72,
+          "masteredCount": 174,
+          "learnedCount": 208,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 67.20849922931592,
+          "correctRate": 0.8271604938271605,
+          "newCards": 10,
+          "reviewCards": 71,
+          "totalCards": 81
+        },
+        {
+          "day": 73,
+          "masteredCount": 173,
+          "learnedCount": 213,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 66.01493288702726,
+          "correctRate": 0.7395833333333334,
+          "newCards": 19,
+          "reviewCards": 77,
+          "totalCards": 96
+        },
+        {
+          "day": 74,
+          "masteredCount": 171,
+          "learnedCount": 213,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 68.07329601924043,
+          "correctRate": 0.821917808219178,
+          "newCards": 0,
+          "reviewCards": 73,
+          "totalCards": 73
+        },
+        {
+          "day": 75,
+          "masteredCount": 172,
+          "learnedCount": 216,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 70.5200055458044,
+          "correctRate": 0.7901234567901234,
+          "newCards": 7,
+          "reviewCards": 74,
+          "totalCards": 81
+        },
+        {
+          "day": 76,
+          "masteredCount": 176,
+          "learnedCount": 218,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 72.20975453722427,
+          "correctRate": 0.7380952380952381,
+          "newCards": 6,
+          "reviewCards": 78,
+          "totalCards": 84
+        },
+        {
+          "day": 77,
+          "masteredCount": 179,
+          "learnedCount": 220,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 73.4939981242548,
+          "correctRate": 0.7241379310344828,
+          "newCards": 6,
+          "reviewCards": 81,
+          "totalCards": 87
+        },
+        {
+          "day": 78,
+          "masteredCount": 182,
+          "learnedCount": 222,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 74.93653005774124,
+          "correctRate": 0.7777777777777778,
+          "newCards": 4,
+          "reviewCards": 77,
+          "totalCards": 81
+        },
+        {
+          "day": 79,
+          "masteredCount": 185,
+          "learnedCount": 223,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 75.9642073549441,
+          "correctRate": 0.7441860465116279,
+          "newCards": 7,
+          "reviewCards": 79,
+          "totalCards": 86
+        },
+        {
+          "day": 80,
+          "masteredCount": 192,
+          "learnedCount": 226,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 78.44487327804269,
+          "correctRate": 0.8311688311688312,
+          "newCards": 5,
+          "reviewCards": 72,
+          "totalCards": 77
+        },
+        {
+          "day": 81,
+          "masteredCount": 195,
+          "learnedCount": 232,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 77.37203492163417,
+          "correctRate": 0.7604166666666666,
+          "newCards": 20,
+          "reviewCards": 76,
+          "totalCards": 96
+        },
+        {
+          "day": 82,
+          "masteredCount": 198,
+          "learnedCount": 237,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 78.35387651564814,
+          "correctRate": 0.8717948717948718,
+          "newCards": 11,
+          "reviewCards": 67,
+          "totalCards": 78
+        },
+        {
+          "day": 83,
+          "masteredCount": 200,
+          "learnedCount": 242,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 77.63987311185792,
+          "correctRate": 0.8089887640449438,
+          "newCards": 19,
+          "reviewCards": 70,
+          "totalCards": 89
+        },
+        {
+          "day": 84,
+          "masteredCount": 197,
+          "learnedCount": 243,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 79.13361364499147,
+          "correctRate": 0.7176470588235294,
+          "newCards": 1,
+          "reviewCards": 84,
+          "totalCards": 85
+        },
+        {
+          "day": 85,
+          "masteredCount": 199,
+          "learnedCount": 243,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 82.15579232255247,
+          "correctRate": 0.8108108108108109,
+          "newCards": 0,
+          "reviewCards": 74,
+          "totalCards": 74
+        },
+        {
+          "day": 86,
+          "masteredCount": 206,
+          "learnedCount": 244,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 84.30749320160672,
+          "correctRate": 0.7590361445783133,
+          "newCards": 5,
+          "reviewCards": 78,
+          "totalCards": 83
+        },
+        {
+          "day": 87,
+          "masteredCount": 210,
+          "learnedCount": 245,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 85.68043291747306,
+          "correctRate": 0.7411764705882353,
+          "newCards": 7,
+          "reviewCards": 78,
+          "totalCards": 85
+        },
+        {
+          "day": 88,
+          "masteredCount": 211,
+          "learnedCount": 247,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 88.75699264075848,
+          "correctRate": 0.7692307692307693,
+          "newCards": 2,
+          "reviewCards": 76,
+          "totalCards": 78
+        },
+        {
+          "day": 89,
+          "masteredCount": 215,
+          "learnedCount": 251,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 88.22850985761129,
+          "correctRate": 0.7727272727272727,
+          "newCards": 14,
+          "reviewCards": 74,
+          "totalCards": 88
+        },
+        {
+          "day": 90,
+          "masteredCount": 218,
+          "learnedCount": 253,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 89.39348493578841,
+          "correctRate": 0.7619047619047619,
+          "newCards": 8,
+          "reviewCards": 76,
+          "totalCards": 84
+        }
+      ]
+    },
+    {
+      "label": "alpha=2",
+      "snapshots": [
+        {
+          "day": 1,
+          "masteredCount": 0,
+          "learnedCount": 10,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 1.816666666666667,
+          "correctRate": 0.8571428571428571,
+          "newCards": 20,
+          "reviewCards": 29,
+          "totalCards": 49
+        },
+        {
+          "day": 2,
+          "masteredCount": 0,
+          "learnedCount": 17,
+          "activeWaves": [
+            1
+          ],
+          "avgH": 2.3530000000000006,
+          "correctRate": 0.8481012658227848,
+          "newCards": 23,
+          "reviewCards": 56,
+          "totalCards": 79
+        },
+        {
+          "day": 3,
+          "masteredCount": 0,
+          "learnedCount": 25,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 3.6148148148148134,
+          "correctRate": 0.9036144578313253,
+          "newCards": 22,
+          "reviewCards": 61,
+          "totalCards": 83
+        },
+        {
+          "day": 4,
+          "masteredCount": 1,
+          "learnedCount": 32,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.285714285714285,
+          "correctRate": 0.8426966292134831,
+          "newCards": 23,
+          "reviewCards": 66,
+          "totalCards": 89
+        },
+        {
+          "day": 5,
+          "masteredCount": 3,
+          "learnedCount": 40,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 5.001499999999998,
+          "correctRate": 0.7659574468085106,
+          "newCards": 18,
+          "reviewCards": 76,
+          "totalCards": 94
+        },
+        {
+          "day": 6,
+          "masteredCount": 6,
+          "learnedCount": 45,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 6.32808510638298,
+          "correctRate": 0.8372093023255814,
+          "newCards": 19,
+          "reviewCards": 67,
+          "totalCards": 86
+        },
+        {
+          "day": 7,
+          "masteredCount": 9,
+          "learnedCount": 51,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 7.192145454545452,
+          "correctRate": 0.7934782608695652,
+          "newCards": 22,
+          "reviewCards": 70,
+          "totalCards": 92
+        },
+        {
+          "day": 8,
+          "masteredCount": 15,
+          "learnedCount": 57,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 8.954622950819672,
+          "correctRate": 0.8275862068965517,
+          "newCards": 18,
+          "reviewCards": 69,
+          "totalCards": 87
+        },
+        {
+          "day": 9,
+          "masteredCount": 21,
+          "learnedCount": 63,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 11.294312499999998,
+          "correctRate": 0.75,
+          "newCards": 12,
+          "reviewCards": 80,
+          "totalCards": 92
+        },
+        {
+          "day": 10,
+          "masteredCount": 26,
+          "learnedCount": 69,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 13.69005217391304,
+          "correctRate": 0.8554216867469879,
+          "newCards": 16,
+          "reviewCards": 67,
+          "totalCards": 83
+        },
+        {
+          "day": 11,
+          "masteredCount": 29,
+          "learnedCount": 74,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 14.151297297297287,
+          "correctRate": 0.7840909090909091,
+          "newCards": 15,
+          "reviewCards": 73,
+          "totalCards": 88
+        },
+        {
+          "day": 12,
+          "masteredCount": 31,
+          "learnedCount": 79,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 14.50119493670886,
+          "correctRate": 0.7582417582417582,
+          "newCards": 15,
+          "reviewCards": 76,
+          "totalCards": 91
+        },
+        {
+          "day": 13,
+          "masteredCount": 36,
+          "learnedCount": 79,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.437276354430402,
+          "correctRate": 0.7228915662650602,
+          "newCards": 0,
+          "reviewCards": 83,
+          "totalCards": 83
+        },
+        {
+          "day": 14,
+          "masteredCount": 40,
+          "learnedCount": 79,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.130964912000024,
+          "correctRate": 0.7721518987341772,
+          "newCards": 2,
+          "reviewCards": 77,
+          "totalCards": 79
+        },
+        {
+          "day": 15,
+          "masteredCount": 43,
+          "learnedCount": 85,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.93833969617979,
+          "correctRate": 0.7425742574257426,
+          "newCards": 24,
+          "reviewCards": 77,
+          "totalCards": 101
+        },
+        {
+          "day": 16,
+          "masteredCount": 47,
+          "learnedCount": 90,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.824012911659587,
+          "correctRate": 0.7368421052631579,
+          "newCards": 15,
+          "reviewCards": 80,
+          "totalCards": 95
+        },
+        {
+          "day": 17,
+          "masteredCount": 50,
+          "learnedCount": 96,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 21.136750522181813,
+          "correctRate": 0.7526881720430108,
+          "newCards": 16,
+          "reviewCards": 77,
+          "totalCards": 93
+        },
+        {
+          "day": 18,
+          "masteredCount": 55,
+          "learnedCount": 99,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 23.432071820549016,
+          "correctRate": 0.7586206896551724,
+          "newCards": 9,
+          "reviewCards": 78,
+          "totalCards": 87
+        },
+        {
+          "day": 19,
+          "masteredCount": 58,
+          "learnedCount": 101,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 25.155966046368633,
+          "correctRate": 0.7625,
+          "newCards": 2,
+          "reviewCards": 78,
+          "totalCards": 80
+        },
+        {
+          "day": 20,
+          "masteredCount": 62,
+          "learnedCount": 104,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 25.96403222267169,
+          "correctRate": 0.717391304347826,
+          "newCards": 11,
+          "reviewCards": 81,
+          "totalCards": 92
+        },
+        {
+          "day": 21,
+          "masteredCount": 64,
+          "learnedCount": 104,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 28.264269501246794,
+          "correctRate": 0.7407407407407407,
+          "newCards": 0,
+          "reviewCards": 81,
+          "totalCards": 81
+        },
+        {
+          "day": 22,
+          "masteredCount": 65,
+          "learnedCount": 109,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 30.675974091291945,
+          "correctRate": 0.7472527472527473,
+          "newCards": 13,
+          "reviewCards": 78,
+          "totalCards": 91
+        },
+        {
+          "day": 23,
+          "masteredCount": 70,
+          "learnedCount": 110,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 32.953003869999904,
+          "correctRate": 0.7530864197530864,
+          "newCards": 3,
+          "reviewCards": 78,
+          "totalCards": 81
+        },
+        {
+          "day": 24,
+          "masteredCount": 72,
+          "learnedCount": 114,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 33.068900539161376,
+          "correctRate": 0.7083333333333334,
+          "newCards": 14,
+          "reviewCards": 82,
+          "totalCards": 96
+        },
+        {
+          "day": 25,
+          "masteredCount": 74,
+          "learnedCount": 118,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 35.459953538696574,
+          "correctRate": 0.8271604938271605,
+          "newCards": 10,
+          "reviewCards": 71,
+          "totalCards": 81
+        },
+        {
+          "day": 26,
+          "masteredCount": 78,
+          "learnedCount": 123,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 35.41206367757017,
+          "correctRate": 0.7263157894736842,
+          "newCards": 15,
+          "reviewCards": 80,
+          "totalCards": 95
+        },
+        {
+          "day": 27,
+          "masteredCount": 81,
+          "learnedCount": 127,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 35.87243693636736,
+          "correctRate": 0.7840909090909091,
+          "newCards": 16,
+          "reviewCards": 72,
+          "totalCards": 88
+        },
+        {
+          "day": 28,
+          "masteredCount": 86,
+          "learnedCount": 131,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 37.04260138167419,
+          "correctRate": 0.735632183908046,
+          "newCards": 10,
+          "reviewCards": 77,
+          "totalCards": 87
+        },
+        {
+          "day": 29,
+          "masteredCount": 95,
+          "learnedCount": 133,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 38.41334960298273,
+          "correctRate": 0.7241379310344828,
+          "newCards": 6,
+          "reviewCards": 81,
+          "totalCards": 87
+        },
+        {
+          "day": 30,
+          "masteredCount": 99,
+          "learnedCount": 136,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 38.2747995394311,
+          "correctRate": 0.7674418604651163,
+          "newCards": 9,
+          "reviewCards": 77,
+          "totalCards": 86
+        },
+        {
+          "day": 31,
+          "masteredCount": 99,
+          "learnedCount": 139,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 38.65041488556837,
+          "correctRate": 0.7528089887640449,
+          "newCards": 13,
+          "reviewCards": 76,
+          "totalCards": 89
+        },
+        {
+          "day": 32,
+          "masteredCount": 100,
+          "learnedCount": 141,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 40.47681340709853,
+          "correctRate": 0.7407407407407407,
+          "newCards": 2,
+          "reviewCards": 79,
+          "totalCards": 81
+        },
+        {
+          "day": 33,
+          "masteredCount": 101,
+          "learnedCount": 143,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 41.38794966968285,
+          "correctRate": 0.7386363636363636,
+          "newCards": 8,
+          "reviewCards": 80,
+          "totalCards": 88
+        },
+        {
+          "day": 34,
+          "masteredCount": 103,
+          "learnedCount": 143,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 42.668925403600646,
+          "correctRate": 0.6896551724137931,
+          "newCards": 0,
+          "reviewCards": 87,
+          "totalCards": 87
+        },
+        {
+          "day": 35,
+          "masteredCount": 105,
+          "learnedCount": 143,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 46.457729273759554,
+          "correctRate": 0.7894736842105263,
+          "newCards": 0,
+          "reviewCards": 76,
+          "totalCards": 76
+        },
+        {
+          "day": 36,
+          "masteredCount": 108,
+          "learnedCount": 147,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 47.4381628268933,
+          "correctRate": 0.797752808988764,
+          "newCards": 18,
+          "reviewCards": 71,
+          "totalCards": 89
+        },
+        {
+          "day": 37,
+          "masteredCount": 109,
+          "learnedCount": 154,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 47.90121271184151,
+          "correctRate": 0.7578947368421053,
+          "newCards": 17,
+          "reviewCards": 78,
+          "totalCards": 95
+        },
+        {
+          "day": 38,
+          "masteredCount": 114,
+          "learnedCount": 155,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 48.6679117729798,
+          "correctRate": 0.6739130434782609,
+          "newCards": 5,
+          "reviewCards": 87,
+          "totalCards": 92
+        },
+        {
+          "day": 39,
+          "masteredCount": 117,
+          "learnedCount": 155,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 51.611693028317404,
+          "correctRate": 0.7662337662337663,
+          "newCards": 0,
+          "reviewCards": 77,
+          "totalCards": 77
+        },
+        {
+          "day": 40,
+          "masteredCount": 119,
+          "learnedCount": 158,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 53.57339986729527,
+          "correctRate": 0.8292682926829268,
+          "newCards": 13,
+          "reviewCards": 69,
+          "totalCards": 82
+        },
+        {
+          "day": 41,
+          "masteredCount": 120,
+          "learnedCount": 165,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 53.58484955685446,
+          "correctRate": 0.7319587628865979,
+          "newCards": 15,
+          "reviewCards": 82,
+          "totalCards": 97
+        },
+        {
+          "day": 42,
+          "masteredCount": 125,
+          "learnedCount": 166,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 55.834028032632176,
+          "correctRate": 0.8051948051948052,
+          "newCards": 3,
+          "reviewCards": 74,
+          "totalCards": 77
+        },
+        {
+          "day": 43,
+          "masteredCount": 129,
+          "learnedCount": 171,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 56.5619260831079,
+          "correctRate": 0.7802197802197802,
+          "newCards": 19,
+          "reviewCards": 72,
+          "totalCards": 91
+        },
+        {
+          "day": 44,
+          "masteredCount": 131,
+          "learnedCount": 174,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 57.00283056880349,
+          "correctRate": 0.7441860465116279,
+          "newCards": 7,
+          "reviewCards": 79,
+          "totalCards": 86
+        },
+        {
+          "day": 45,
+          "masteredCount": 134,
+          "learnedCount": 180,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 58.61285399014435,
+          "correctRate": 0.813953488372093,
+          "newCards": 16,
+          "reviewCards": 70,
+          "totalCards": 86
+        },
+        {
+          "day": 46,
+          "masteredCount": 139,
+          "learnedCount": 185,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 58.69259057303905,
+          "correctRate": 0.7472527472527473,
+          "newCards": 13,
+          "reviewCards": 78,
+          "totalCards": 91
+        },
+        {
+          "day": 47,
+          "masteredCount": 143,
+          "learnedCount": 189,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 59.25824797468244,
+          "correctRate": 0.7701149425287356,
+          "newCards": 12,
+          "reviewCards": 75,
+          "totalCards": 87
+        },
+        {
+          "day": 48,
+          "masteredCount": 151,
+          "learnedCount": 192,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 60.38941977924022,
+          "correctRate": 0.85,
+          "newCards": 13,
+          "reviewCards": 67,
+          "totalCards": 80
+        },
+        {
+          "day": 49,
+          "masteredCount": 155,
+          "learnedCount": 197,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 60.78126489530301,
+          "correctRate": 0.7865168539325843,
+          "newCards": 17,
+          "reviewCards": 72,
+          "totalCards": 89
+        },
+        {
+          "day": 50,
+          "masteredCount": 158,
+          "learnedCount": 200,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 63.67158478118461,
+          "correctRate": 0.810126582278481,
+          "newCards": 7,
+          "reviewCards": 72,
+          "totalCards": 79
+        },
+        {
+          "day": 51,
+          "masteredCount": 158,
+          "learnedCount": 207,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 63.07583136025646,
+          "correctRate": 0.7912087912087912,
+          "newCards": 17,
+          "reviewCards": 74,
+          "totalCards": 91
+        },
+        {
+          "day": 52,
+          "masteredCount": 165,
+          "learnedCount": 207,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 65.42358263140603,
+          "correctRate": 0.75,
+          "newCards": 2,
+          "reviewCards": 78,
+          "totalCards": 80
+        },
+        {
+          "day": 53,
+          "masteredCount": 171,
+          "learnedCount": 209,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 65.85316602266008,
+          "correctRate": 0.7701149425287356,
+          "newCards": 12,
+          "reviewCards": 75,
+          "totalCards": 87
+        },
+        {
+          "day": 54,
+          "masteredCount": 174,
+          "learnedCount": 214,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 65.98033285040334,
+          "correctRate": 0.7127659574468085,
+          "newCards": 13,
+          "reviewCards": 81,
+          "totalCards": 94
+        },
+        {
+          "day": 55,
+          "masteredCount": 176,
+          "learnedCount": 214,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 69.05425825720647,
+          "correctRate": 0.7792207792207793,
+          "newCards": 0,
+          "reviewCards": 77,
+          "totalCards": 77
+        },
+        {
+          "day": 56,
+          "masteredCount": 180,
+          "learnedCount": 217,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 72.07980881251376,
+          "correctRate": 0.7804878048780488,
+          "newCards": 5,
+          "reviewCards": 77,
+          "totalCards": 82
+        },
+        {
+          "day": 57,
+          "masteredCount": 182,
+          "learnedCount": 222,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 70.57049702283989,
+          "correctRate": 0.75,
+          "newCards": 21,
+          "reviewCards": 75,
+          "totalCards": 96
+        },
+        {
+          "day": 58,
+          "masteredCount": 186,
+          "learnedCount": 227,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 70.8925522334408,
+          "correctRate": 0.7640449438202247,
+          "newCards": 11,
+          "reviewCards": 78,
+          "totalCards": 89
+        },
+        {
+          "day": 59,
+          "masteredCount": 186,
+          "learnedCount": 228,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 72.38690777029363,
+          "correctRate": 0.7654320987654321,
+          "newCards": 5,
+          "reviewCards": 76,
+          "totalCards": 81
+        },
+        {
+          "day": 60,
+          "masteredCount": 190,
+          "learnedCount": 233,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 72.61654683883565,
+          "correctRate": 0.8023255813953488,
+          "newCards": 13,
+          "reviewCards": 73,
+          "totalCards": 86
+        },
+        {
+          "day": 61,
+          "masteredCount": 195,
+          "learnedCount": 233,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 75.68036715473312,
+          "correctRate": 0.7375,
+          "newCards": 0,
+          "reviewCards": 80,
+          "totalCards": 80
+        },
+        {
+          "day": 62,
+          "masteredCount": 194,
+          "learnedCount": 234,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 76.00645796043638,
+          "correctRate": 0.7065217391304348,
+          "newCards": 9,
+          "reviewCards": 83,
+          "totalCards": 92
+        },
+        {
+          "day": 63,
+          "masteredCount": 198,
+          "learnedCount": 238,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 78.04447844043642,
+          "correctRate": 0.7777777777777778,
+          "newCards": 4,
+          "reviewCards": 77,
+          "totalCards": 81
+        },
+        {
+          "day": 64,
+          "masteredCount": 201,
+          "learnedCount": 243,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 79.01554225208176,
+          "correctRate": 0.8023255813953488,
+          "newCards": 15,
+          "reviewCards": 71,
+          "totalCards": 86
+        },
+        {
+          "day": 65,
+          "masteredCount": 208,
+          "learnedCount": 243,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 83.52023264984317,
+          "correctRate": 0.8450704225352113,
+          "newCards": 0,
+          "reviewCards": 71,
+          "totalCards": 71
+        },
+        {
+          "day": 66,
+          "masteredCount": 212,
+          "learnedCount": 248,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 84.068636751064,
+          "correctRate": 0.7391304347826086,
+          "newCards": 15,
+          "reviewCards": 77,
+          "totalCards": 92
+        },
+        {
+          "day": 67,
+          "masteredCount": 214,
+          "learnedCount": 253,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 83.80907619261966,
+          "correctRate": 0.8160919540229885,
+          "newCards": 17,
+          "reviewCards": 70,
+          "totalCards": 87
+        },
+        {
+          "day": 68,
+          "masteredCount": 218,
+          "learnedCount": 254,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 85.41441415968104,
+          "correctRate": 0.7272727272727273,
+          "newCards": 11,
+          "reviewCards": 77,
+          "totalCards": 88
+        },
+        {
+          "day": 69,
+          "masteredCount": 219,
+          "learnedCount": 259,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 85.64274872487559,
+          "correctRate": 0.7528089887640449,
+          "newCards": 11,
+          "reviewCards": 78,
+          "totalCards": 89
+        },
+        {
+          "day": 70,
+          "masteredCount": 226,
+          "learnedCount": 259,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 88.53112928338153,
+          "correctRate": 0.7341772151898734,
+          "newCards": 0,
+          "reviewCards": 79,
+          "totalCards": 79
+        },
+        {
+          "day": 71,
+          "masteredCount": 226,
+          "learnedCount": 265,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 88.39926953473994,
+          "correctRate": 0.7634408602150538,
+          "newCards": 16,
+          "reviewCards": 77,
+          "totalCards": 93
+        },
+        {
+          "day": 72,
+          "masteredCount": 231,
+          "learnedCount": 267,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 88.78396860793885,
+          "correctRate": 0.7241379310344828,
+          "newCards": 6,
+          "reviewCards": 81,
+          "totalCards": 87
+        },
+        {
+          "day": 73,
+          "masteredCount": 232,
+          "learnedCount": 267,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 90.4441350603491,
+          "correctRate": 0.7894736842105263,
+          "newCards": 0,
+          "reviewCards": 76,
+          "totalCards": 76
+        },
+        {
+          "day": 74,
+          "masteredCount": 232,
+          "learnedCount": 271,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 90.95211959262468,
+          "correctRate": 0.7419354838709677,
+          "newCards": 14,
+          "reviewCards": 79,
+          "totalCards": 93
+        },
+        {
+          "day": 75,
+          "masteredCount": 235,
+          "learnedCount": 273,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 92.26514582792598,
+          "correctRate": 0.7777777777777778,
+          "newCards": 6,
+          "reviewCards": 75,
+          "totalCards": 81
+        },
+        {
+          "day": 76,
+          "masteredCount": 238,
+          "learnedCount": 278,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 92.95567360442735,
+          "correctRate": 0.8045977011494253,
+          "newCards": 15,
+          "reviewCards": 72,
+          "totalCards": 87
+        },
+        {
+          "day": 77,
+          "masteredCount": 244,
+          "learnedCount": 279,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 93.71126548123998,
+          "correctRate": 0.7619047619047619,
+          "newCards": 7,
+          "reviewCards": 77,
+          "totalCards": 84
+        },
+        {
+          "day": 78,
+          "masteredCount": 249,
+          "learnedCount": 285,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 95.17294267912774,
+          "correctRate": 0.8554216867469879,
+          "newCards": 16,
+          "reviewCards": 67,
+          "totalCards": 83
+        },
+        {
+          "day": 79,
+          "masteredCount": 252,
+          "learnedCount": 287,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 95.82636110272298,
+          "correctRate": 0.7831325301204819,
+          "newCards": 8,
+          "reviewCards": 75,
+          "totalCards": 83
+        },
+        {
+          "day": 80,
+          "masteredCount": 255,
+          "learnedCount": 293,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 95.63824079306058,
+          "correctRate": 0.7717391304347826,
+          "newCards": 16,
+          "reviewCards": 76,
+          "totalCards": 92
+        },
+        {
+          "day": 81,
+          "masteredCount": 259,
+          "learnedCount": 295,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 95.12468209729154,
+          "correctRate": 0.7222222222222222,
+          "newCards": 8,
+          "reviewCards": 82,
+          "totalCards": 90
+        },
+        {
+          "day": 82,
+          "masteredCount": 259,
+          "learnedCount": 295,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 96.04951533193314,
+          "correctRate": 0.7058823529411765,
+          "newCards": 0,
+          "reviewCards": 85,
+          "totalCards": 85
+        },
+        {
+          "day": 83,
+          "masteredCount": 256,
+          "learnedCount": 295,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 96.98538156703648,
+          "correctRate": 0.6704545454545454,
+          "newCards": 0,
+          "reviewCards": 88,
+          "totalCards": 88
+        },
+        {
+          "day": 84,
+          "masteredCount": 258,
+          "learnedCount": 295,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 101.7091204872749,
+          "correctRate": 0.8823529411764706,
+          "newCards": 0,
+          "reviewCards": 68,
+          "totalCards": 68
+        },
+        {
+          "day": 85,
+          "masteredCount": 261,
+          "learnedCount": 295,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 105.12249530436357,
+          "correctRate": 0.8695652173913043,
+          "newCards": 0,
+          "reviewCards": 69,
+          "totalCards": 69
+        },
+        {
+          "day": 86,
+          "masteredCount": 263,
+          "learnedCount": 300,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 106.28934814329861,
+          "correctRate": 0.776595744680851,
+          "newCards": 21,
+          "reviewCards": 73,
+          "totalCards": 94
+        },
+        {
+          "day": 87,
+          "masteredCount": 269,
+          "learnedCount": 305,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 106.70712269588141,
+          "correctRate": 0.8333333333333334,
+          "newCards": 15,
+          "reviewCards": 69,
+          "totalCards": 84
+        },
+        {
+          "day": 88,
+          "masteredCount": 277,
+          "learnedCount": 308,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 108.59945831304049,
+          "correctRate": 0.8205128205128205,
+          "newCards": 5,
+          "reviewCards": 73,
+          "totalCards": 78
+        },
+        {
+          "day": 89,
+          "masteredCount": 282,
+          "learnedCount": 313,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 109.41356183624583,
+          "correctRate": 0.8235294117647058,
+          "newCards": 15,
+          "reviewCards": 70,
+          "totalCards": 85
+        },
+        {
+          "day": 90,
+          "masteredCount": 285,
+          "learnedCount": 319,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 108.52632069992345,
+          "correctRate": 0.8255813953488372,
+          "newCards": 16,
+          "reviewCards": 70,
+          "totalCards": 86
+        }
+      ]
+    },
+    {
+      "label": "alpha=2.5",
+      "snapshots": [
+        {
+          "day": 1,
+          "masteredCount": 0,
+          "learnedCount": 10,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 3.3636363636363638,
+          "correctRate": 0.8913043478260869,
+          "newCards": 20,
+          "reviewCards": 26,
+          "totalCards": 46
+        },
+        {
+          "day": 2,
+          "masteredCount": 0,
+          "learnedCount": 16,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 3.475,
+          "correctRate": 0.868421052631579,
+          "newCards": 24,
+          "reviewCards": 52,
+          "totalCards": 76
+        },
+        {
+          "day": 3,
+          "masteredCount": 4,
+          "learnedCount": 25,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.892307692307692,
+          "correctRate": 0.7894736842105263,
+          "newCards": 21,
+          "reviewCards": 74,
+          "totalCards": 95
+        },
+        {
+          "day": 4,
+          "masteredCount": 5,
+          "learnedCount": 31,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.920714285714285,
+          "correctRate": 0.7894736842105263,
+          "newCards": 24,
+          "reviewCards": 71,
+          "totalCards": 95
+        },
+        {
+          "day": 5,
+          "masteredCount": 8,
+          "learnedCount": 40,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 6.845426829268293,
+          "correctRate": 0.8241758241758241,
+          "newCards": 21,
+          "reviewCards": 70,
+          "totalCards": 91
+        },
+        {
+          "day": 6,
+          "masteredCount": 12,
+          "learnedCount": 46,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 7.480625,
+          "correctRate": 0.7872340425531915,
+          "newCards": 24,
+          "reviewCards": 70,
+          "totalCards": 94
+        },
+        {
+          "day": 7,
+          "masteredCount": 16,
+          "learnedCount": 51,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 10.022045454545454,
+          "correctRate": 0.7865168539325843,
+          "newCards": 15,
+          "reviewCards": 74,
+          "totalCards": 89
+        },
+        {
+          "day": 8,
+          "masteredCount": 21,
+          "learnedCount": 59,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 11.788736979166666,
+          "correctRate": 0.75,
+          "newCards": 18,
+          "reviewCards": 78,
+          "totalCards": 96
+        },
+        {
+          "day": 9,
+          "masteredCount": 24,
+          "learnedCount": 64,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 12.147169384057971,
+          "correctRate": 0.7604166666666666,
+          "newCards": 23,
+          "reviewCards": 73,
+          "totalCards": 96
+        },
+        {
+          "day": 10,
+          "masteredCount": 30,
+          "learnedCount": 70,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 14.475462147887324,
+          "correctRate": 0.7362637362637363,
+          "newCards": 10,
+          "reviewCards": 81,
+          "totalCards": 91
+        },
+        {
+          "day": 11,
+          "masteredCount": 33,
+          "learnedCount": 74,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 16.06576767958604,
+          "correctRate": 0.7608695652173914,
+          "newCards": 16,
+          "reviewCards": 76,
+          "totalCards": 92
+        },
+        {
+          "day": 12,
+          "masteredCount": 40,
+          "learnedCount": 81,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.46270543540396,
+          "correctRate": 0.7659574468085106,
+          "newCards": 17,
+          "reviewCards": 77,
+          "totalCards": 94
+        },
+        {
+          "day": 13,
+          "masteredCount": 43,
+          "learnedCount": 85,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 17.92270137486833,
+          "correctRate": 0.7634408602150538,
+          "newCards": 18,
+          "reviewCards": 75,
+          "totalCards": 93
+        },
+        {
+          "day": 14,
+          "masteredCount": 49,
+          "learnedCount": 91,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 20.192791332488365,
+          "correctRate": 0.7888888888888889,
+          "newCards": 16,
+          "reviewCards": 74,
+          "totalCards": 90
+        },
+        {
+          "day": 15,
+          "masteredCount": 48,
+          "learnedCount": 99,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.709303280669864,
+          "correctRate": 0.7474747474747475,
+          "newCards": 22,
+          "reviewCards": 77,
+          "totalCards": 99
+        },
+        {
+          "day": 16,
+          "masteredCount": 50,
+          "learnedCount": 101,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 24.787931790493502,
+          "correctRate": 0.7439024390243902,
+          "newCards": 2,
+          "reviewCards": 80,
+          "totalCards": 82
+        },
+        {
+          "day": 17,
+          "masteredCount": 53,
+          "learnedCount": 105,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 26.802512990123823,
+          "correctRate": 0.7640449438202247,
+          "newCards": 14,
+          "reviewCards": 75,
+          "totalCards": 89
+        },
+        {
+          "day": 18,
+          "masteredCount": 66,
+          "learnedCount": 106,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 32.596501297139675,
+          "correctRate": 0.7848101265822784,
+          "newCards": 3,
+          "reviewCards": 76,
+          "totalCards": 79
+        },
+        {
+          "day": 19,
+          "masteredCount": 75,
+          "learnedCount": 112,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 33.3333875337798,
+          "correctRate": 0.8064516129032258,
+          "newCards": 24,
+          "reviewCards": 69,
+          "totalCards": 93
+        },
+        {
+          "day": 20,
+          "masteredCount": 82,
+          "learnedCount": 121,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 33.337876215199955,
+          "correctRate": 0.8043478260869565,
+          "newCards": 21,
+          "reviewCards": 71,
+          "totalCards": 92
+        },
+        {
+          "day": 21,
+          "masteredCount": 87,
+          "learnedCount": 127,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 33.171380511334824,
+          "correctRate": 0.75,
+          "newCards": 24,
+          "reviewCards": 76,
+          "totalCards": 100
+        },
+        {
+          "day": 22,
+          "masteredCount": 98,
+          "learnedCount": 131,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 38.59066544592471,
+          "correctRate": 0.7590361445783133,
+          "newCards": 4,
+          "reviewCards": 79,
+          "totalCards": 83
+        },
+        {
+          "day": 23,
+          "masteredCount": 99,
+          "learnedCount": 136,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 41.420615666187594,
+          "correctRate": 0.8160919540229885,
+          "newCards": 17,
+          "reviewCards": 70,
+          "totalCards": 87
+        },
+        {
+          "day": 24,
+          "masteredCount": 103,
+          "learnedCount": 141,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 40.474520033431375,
+          "correctRate": 0.72,
+          "newCards": 23,
+          "reviewCards": 77,
+          "totalCards": 100
+        },
+        {
+          "day": 25,
+          "masteredCount": 106,
+          "learnedCount": 146,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 41.900880022840425,
+          "correctRate": 0.7558139534883721,
+          "newCards": 7,
+          "reviewCards": 79,
+          "totalCards": 86
+        },
+        {
+          "day": 26,
+          "masteredCount": 112,
+          "learnedCount": 149,
+          "activeWaves": [
+            3,
+            4
+          ],
+          "avgH": 47.143457435153174,
+          "correctRate": 0.7647058823529411,
+          "newCards": 11,
+          "reviewCards": 74,
+          "totalCards": 85
+        },
+        {
+          "day": 27,
+          "masteredCount": 120,
+          "learnedCount": 151,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 49.98803529514411,
+          "correctRate": 0.7857142857142857,
+          "newCards": 12,
+          "reviewCards": 72,
+          "totalCards": 84
+        },
+        {
+          "day": 28,
+          "masteredCount": 122,
+          "learnedCount": 156,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 50.00801381858683,
+          "correctRate": 0.7340425531914894,
+          "newCards": 15,
+          "reviewCards": 79,
+          "totalCards": 94
+        },
+        {
+          "day": 29,
+          "masteredCount": 126,
+          "learnedCount": 164,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 51.94043449787922,
+          "correctRate": 0.8202247191011236,
+          "newCards": 18,
+          "reviewCards": 71,
+          "totalCards": 89
+        },
+        {
+          "day": 30,
+          "masteredCount": 129,
+          "learnedCount": 168,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 53.3503642274734,
+          "correctRate": 0.75,
+          "newCards": 14,
+          "reviewCards": 78,
+          "totalCards": 92
+        },
+        {
+          "day": 31,
+          "masteredCount": 136,
+          "learnedCount": 171,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 57.75893588774385,
+          "correctRate": 0.7093023255813954,
+          "newCards": 3,
+          "reviewCards": 83,
+          "totalCards": 86
+        },
+        {
+          "day": 32,
+          "masteredCount": 139,
+          "learnedCount": 175,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 59.54844260302457,
+          "correctRate": 0.75,
+          "newCards": 14,
+          "reviewCards": 78,
+          "totalCards": 92
+        },
+        {
+          "day": 33,
+          "masteredCount": 141,
+          "learnedCount": 180,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 61.12756182928771,
+          "correctRate": 0.711340206185567,
+          "newCards": 15,
+          "reviewCards": 82,
+          "totalCards": 97
+        },
+        {
+          "day": 34,
+          "masteredCount": 145,
+          "learnedCount": 181,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 63.55426057069199,
+          "correctRate": 0.7241379310344828,
+          "newCards": 7,
+          "reviewCards": 80,
+          "totalCards": 87
+        },
+        {
+          "day": 35,
+          "masteredCount": 148,
+          "learnedCount": 186,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 65.60053371327446,
+          "correctRate": 0.7613636363636364,
+          "newCards": 11,
+          "reviewCards": 77,
+          "totalCards": 88
+        },
+        {
+          "day": 36,
+          "masteredCount": 151,
+          "learnedCount": 192,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 67.49412067531311,
+          "correctRate": 0.8021978021978022,
+          "newCards": 20,
+          "reviewCards": 71,
+          "totalCards": 91
+        },
+        {
+          "day": 37,
+          "masteredCount": 161,
+          "learnedCount": 197,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 67.99722666422527,
+          "correctRate": 0.7472527472527473,
+          "newCards": 13,
+          "reviewCards": 78,
+          "totalCards": 91
+        },
+        {
+          "day": 38,
+          "masteredCount": 163,
+          "learnedCount": 201,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 69.02261642909286,
+          "correctRate": 0.7204301075268817,
+          "newCards": 12,
+          "reviewCards": 81,
+          "totalCards": 93
+        },
+        {
+          "day": 39,
+          "masteredCount": 168,
+          "learnedCount": 202,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 69.85599179017889,
+          "correctRate": 0.6989247311827957,
+          "newCards": 9,
+          "reviewCards": 84,
+          "totalCards": 93
+        },
+        {
+          "day": 40,
+          "masteredCount": 173,
+          "learnedCount": 207,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 72.52477521200315,
+          "correctRate": 0.8333333333333334,
+          "newCards": 15,
+          "reviewCards": 69,
+          "totalCards": 84
+        },
+        {
+          "day": 41,
+          "masteredCount": 180,
+          "learnedCount": 213,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 73.50558694804155,
+          "correctRate": 0.7608695652173914,
+          "newCards": 16,
+          "reviewCards": 76,
+          "totalCards": 92
+        },
+        {
+          "day": 42,
+          "masteredCount": 186,
+          "learnedCount": 221,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 73.3366812766721,
+          "correctRate": 0.78125,
+          "newCards": 22,
+          "reviewCards": 74,
+          "totalCards": 96
+        },
+        {
+          "day": 43,
+          "masteredCount": 187,
+          "learnedCount": 226,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 75.0209302295246,
+          "correctRate": 0.7472527472527473,
+          "newCards": 11,
+          "reviewCards": 80,
+          "totalCards": 91
+        },
+        {
+          "day": 44,
+          "masteredCount": 190,
+          "learnedCount": 230,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 76.78452967665115,
+          "correctRate": 0.7954545454545454,
+          "newCards": 16,
+          "reviewCards": 72,
+          "totalCards": 88
+        },
+        {
+          "day": 45,
+          "masteredCount": 198,
+          "learnedCount": 235,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 78.82633387622751,
+          "correctRate": 0.7954545454545454,
+          "newCards": 15,
+          "reviewCards": 73,
+          "totalCards": 88
+        },
+        {
+          "day": 46,
+          "masteredCount": 206,
+          "learnedCount": 240,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 81.11981286422476,
+          "correctRate": 0.8045977011494253,
+          "newCards": 15,
+          "reviewCards": 72,
+          "totalCards": 87
+        },
+        {
+          "day": 47,
+          "masteredCount": 211,
+          "learnedCount": 244,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 81.58028556301718,
+          "correctRate": 0.7666666666666667,
+          "newCards": 14,
+          "reviewCards": 76,
+          "totalCards": 90
+        },
+        {
+          "day": 48,
+          "masteredCount": 208,
+          "learnedCount": 250,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 82.1642872417692,
+          "correctRate": 0.7395833333333334,
+          "newCards": 16,
+          "reviewCards": 80,
+          "totalCards": 96
+        },
+        {
+          "day": 49,
+          "masteredCount": 216,
+          "learnedCount": 250,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 86.1751071731507,
+          "correctRate": 0.7317073170731707,
+          "newCards": 0,
+          "reviewCards": 82,
+          "totalCards": 82
+        },
+        {
+          "day": 50,
+          "masteredCount": 223,
+          "learnedCount": 252,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 90.35119049045336,
+          "correctRate": 0.7926829268292683,
+          "newCards": 8,
+          "reviewCards": 74,
+          "totalCards": 82
+        },
+        {
+          "day": 51,
+          "masteredCount": 223,
+          "learnedCount": 260,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 90.96431492410126,
+          "correctRate": 0.7684210526315789,
+          "newCards": 20,
+          "reviewCards": 75,
+          "totalCards": 95
+        },
+        {
+          "day": 52,
+          "masteredCount": 230,
+          "learnedCount": 265,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 94.41616014110592,
+          "correctRate": 0.7954545454545454,
+          "newCards": 15,
+          "reviewCards": 73,
+          "totalCards": 88
+        },
+        {
+          "day": 53,
+          "masteredCount": 234,
+          "learnedCount": 270,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 94.2883584644093,
+          "correctRate": 0.7634408602150538,
+          "newCards": 17,
+          "reviewCards": 76,
+          "totalCards": 93
+        },
+        {
+          "day": 54,
+          "masteredCount": 235,
+          "learnedCount": 274,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 97.0868185219885,
+          "correctRate": 0.7816091954022989,
+          "newCards": 14,
+          "reviewCards": 73,
+          "totalCards": 87
+        },
+        {
+          "day": 55,
+          "masteredCount": 239,
+          "learnedCount": 281,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 100.21973405546139,
+          "correctRate": 0.8658536585365854,
+          "newCards": 15,
+          "reviewCards": 67,
+          "totalCards": 82
+        },
+        {
+          "day": 56,
+          "masteredCount": 245,
+          "learnedCount": 286,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 101.31393018768732,
+          "correctRate": 0.75,
+          "newCards": 21,
+          "reviewCards": 75,
+          "totalCards": 96
+        },
+        {
+          "day": 57,
+          "masteredCount": 253,
+          "learnedCount": 288,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 104.96332920560472,
+          "correctRate": 0.7469879518072289,
+          "newCards": 2,
+          "reviewCards": 81,
+          "totalCards": 83
+        },
+        {
+          "day": 58,
+          "masteredCount": 256,
+          "learnedCount": 290,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 106.3370919646566,
+          "correctRate": 0.7252747252747253,
+          "newCards": 10,
+          "reviewCards": 81,
+          "totalCards": 91
+        },
+        {
+          "day": 59,
+          "masteredCount": 256,
+          "learnedCount": 298,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 106.98078064158138,
+          "correctRate": 0.7849462365591398,
+          "newCards": 18,
+          "reviewCards": 75,
+          "totalCards": 93
+        },
+        {
+          "day": 60,
+          "masteredCount": 261,
+          "learnedCount": 302,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 106.97592854339298,
+          "correctRate": 0.71875,
+          "newCards": 14,
+          "reviewCards": 82,
+          "totalCards": 96
+        },
+        {
+          "day": 61,
+          "masteredCount": 271,
+          "learnedCount": 303,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 110.51972370273188,
+          "correctRate": 0.7349397590361446,
+          "newCards": 3,
+          "reviewCards": 80,
+          "totalCards": 83
+        },
+        {
+          "day": 62,
+          "masteredCount": 273,
+          "learnedCount": 307,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 109.78988895922417,
+          "correctRate": 0.7555555555555555,
+          "newCards": 14,
+          "reviewCards": 76,
+          "totalCards": 90
+        },
+        {
+          "day": 63,
+          "masteredCount": 276,
+          "learnedCount": 314,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 110.03172449823134,
+          "correctRate": 0.7978723404255319,
+          "newCards": 23,
+          "reviewCards": 71,
+          "totalCards": 94
+        },
+        {
+          "day": 64,
+          "masteredCount": 282,
+          "learnedCount": 318,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 112.59056434222542,
+          "correctRate": 0.7415730337078652,
+          "newCards": 12,
+          "reviewCards": 77,
+          "totalCards": 89
+        },
+        {
+          "day": 65,
+          "masteredCount": 286,
+          "learnedCount": 319,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 116.59994442848846,
+          "correctRate": 0.7317073170731707,
+          "newCards": 1,
+          "reviewCards": 81,
+          "totalCards": 82
+        },
+        {
+          "day": 66,
+          "masteredCount": 294,
+          "learnedCount": 324,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 118.3024286522968,
+          "correctRate": 0.8045977011494253,
+          "newCards": 15,
+          "reviewCards": 72,
+          "totalCards": 87
+        },
+        {
+          "day": 67,
+          "masteredCount": 298,
+          "learnedCount": 329,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 119.00095945601862,
+          "correctRate": 0.7659574468085106,
+          "newCards": 19,
+          "reviewCards": 75,
+          "totalCards": 94
+        },
+        {
+          "day": 68,
+          "masteredCount": 302,
+          "learnedCount": 332,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 120.96717241982583,
+          "correctRate": 0.735632183908046,
+          "newCards": 5,
+          "reviewCards": 82,
+          "totalCards": 87
+        },
+        {
+          "day": 69,
+          "masteredCount": 304,
+          "learnedCount": 337,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 123.89140289956721,
+          "correctRate": 0.813953488372093,
+          "newCards": 15,
+          "reviewCards": 71,
+          "totalCards": 86
+        },
+        {
+          "day": 70,
+          "masteredCount": 306,
+          "learnedCount": 343,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 123.17936053779934,
+          "correctRate": 0.7578947368421053,
+          "newCards": 20,
+          "reviewCards": 75,
+          "totalCards": 95
+        },
+        {
+          "day": 71,
+          "masteredCount": 312,
+          "learnedCount": 346,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 124.44798667786478,
+          "correctRate": 0.7303370786516854,
+          "newCards": 9,
+          "reviewCards": 80,
+          "totalCards": 89
+        },
+        {
+          "day": 72,
+          "masteredCount": 318,
+          "learnedCount": 347,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 129.07172238011745,
+          "correctRate": 0.6741573033707865,
+          "newCards": 1,
+          "reviewCards": 88,
+          "totalCards": 89
+        },
+        {
+          "day": 73,
+          "masteredCount": 321,
+          "learnedCount": 348,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 132.7585682556316,
+          "correctRate": 0.7411764705882353,
+          "newCards": 5,
+          "reviewCards": 80,
+          "totalCards": 85
+        },
+        {
+          "day": 74,
+          "masteredCount": 322,
+          "learnedCount": 350,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 132.5318176106359,
+          "correctRate": 0.7613636363636364,
+          "newCards": 12,
+          "reviewCards": 76,
+          "totalCards": 88
+        },
+        {
+          "day": 75,
+          "masteredCount": 323,
+          "learnedCount": 359,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 132.03355209436947,
+          "correctRate": 0.8043478260869565,
+          "newCards": 19,
+          "reviewCards": 73,
+          "totalCards": 92
+        },
+        {
+          "day": 76,
+          "masteredCount": 329,
+          "learnedCount": 360,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 135.62546799044847,
+          "correctRate": 0.7560975609756098,
+          "newCards": 5,
+          "reviewCards": 77,
+          "totalCards": 82
+        },
+        {
+          "day": 77,
+          "masteredCount": 331,
+          "learnedCount": 365,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 137.28820509736005,
+          "correctRate": 0.7311827956989247,
+          "newCards": 13,
+          "reviewCards": 80,
+          "totalCards": 93
+        },
+        {
+          "day": 78,
+          "masteredCount": 336,
+          "learnedCount": 370,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 136.5525390845059,
+          "correctRate": 0.7849462365591398,
+          "newCards": 21,
+          "reviewCards": 72,
+          "totalCards": 93
+        },
+        {
+          "day": 79,
+          "masteredCount": 336,
+          "learnedCount": 375,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 136.76188598066648,
+          "correctRate": 0.7666666666666667,
+          "newCards": 15,
+          "reviewCards": 75,
+          "totalCards": 90
+        },
+        {
+          "day": 80,
+          "masteredCount": 338,
+          "learnedCount": 380,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 138.44040116509322,
+          "correctRate": 0.7931034482758621,
+          "newCards": 13,
+          "reviewCards": 74,
+          "totalCards": 87
+        },
+        {
+          "day": 81,
+          "masteredCount": 348,
+          "learnedCount": 385,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 139.05527523392257,
+          "correctRate": 0.813953488372093,
+          "newCards": 15,
+          "reviewCards": 71,
+          "totalCards": 86
+        },
+        {
+          "day": 82,
+          "masteredCount": 350,
+          "learnedCount": 388,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 142.94622223778853,
+          "correctRate": 0.7380952380952381,
+          "newCards": 3,
+          "reviewCards": 81,
+          "totalCards": 84
+        },
+        {
+          "day": 83,
+          "masteredCount": 355,
+          "learnedCount": 389,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 146.48389093155276,
+          "correctRate": 0.7738095238095238,
+          "newCards": 9,
+          "reviewCards": 75,
+          "totalCards": 84
+        },
+        {
+          "day": 84,
+          "masteredCount": 358,
+          "learnedCount": 392,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 152.250420528242,
+          "correctRate": 0.7804878048780488,
+          "newCards": 5,
+          "reviewCards": 77,
+          "totalCards": 82
+        },
+        {
+          "day": 85,
+          "masteredCount": 362,
+          "learnedCount": 398,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 150.9166635628424,
+          "correctRate": 0.8021978021978022,
+          "newCards": 20,
+          "reviewCards": 71,
+          "totalCards": 91
+        },
+        {
+          "day": 86,
+          "masteredCount": 370,
+          "learnedCount": 402,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 154.1546065254221,
+          "correctRate": 0.8701298701298701,
+          "newCards": 10,
+          "reviewCards": 67,
+          "totalCards": 77
+        },
+        {
+          "day": 87,
+          "masteredCount": 368,
+          "learnedCount": 408,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 153.5708634031083,
+          "correctRate": 0.7281553398058253,
+          "newCards": 24,
+          "reviewCards": 79,
+          "totalCards": 103
+        },
+        {
+          "day": 88,
+          "masteredCount": 375,
+          "learnedCount": 412,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 155.56278429996806,
+          "correctRate": 0.7,
+          "newCards": 4,
+          "reviewCards": 86,
+          "totalCards": 90
+        },
+        {
+          "day": 89,
+          "masteredCount": 380,
+          "learnedCount": 412,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 159.3446178079133,
+          "correctRate": 0.7792207792207793,
+          "newCards": 0,
+          "reviewCards": 77,
+          "totalCards": 77
+        },
+        {
+          "day": 90,
+          "masteredCount": 384,
+          "learnedCount": 415,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 159.77203325065156,
+          "correctRate": 0.723404255319149,
+          "newCards": 19,
+          "reviewCards": 75,
+          "totalCards": 94
+        }
+      ]
+    },
+    {
+      "label": "alpha=3",
+      "snapshots": [
+        {
+          "day": 1,
+          "masteredCount": 0,
+          "learnedCount": 10,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.151999999999999,
+          "correctRate": 0.8695652173913043,
+          "newCards": 20,
+          "reviewCards": 26,
+          "totalCards": 46
+        },
+        {
+          "day": 2,
+          "masteredCount": 0,
+          "learnedCount": 15,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 4.515000000000003,
+          "correctRate": 0.8552631578947368,
+          "newCards": 25,
+          "reviewCards": 51,
+          "totalCards": 76
+        },
+        {
+          "day": 3,
+          "masteredCount": 3,
+          "learnedCount": 25,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 7.888799999999999,
+          "correctRate": 0.9146341463414634,
+          "newCards": 20,
+          "reviewCards": 62,
+          "totalCards": 82
+        },
+        {
+          "day": 4,
+          "masteredCount": 6,
+          "learnedCount": 30,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 8.06542857142856,
+          "correctRate": 0.8131868131868132,
+          "newCards": 25,
+          "reviewCards": 66,
+          "totalCards": 91
+        },
+        {
+          "day": 5,
+          "masteredCount": 11,
+          "learnedCount": 40,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 10.421849999999996,
+          "correctRate": 0.8620689655172413,
+          "newCards": 20,
+          "reviewCards": 67,
+          "totalCards": 87
+        },
+        {
+          "day": 6,
+          "masteredCount": 15,
+          "learnedCount": 45,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 10.841303999999996,
+          "correctRate": 0.8152173913043478,
+          "newCards": 25,
+          "reviewCards": 67,
+          "totalCards": 92
+        },
+        {
+          "day": 7,
+          "masteredCount": 20,
+          "learnedCount": 55,
+          "activeWaves": [
+            1,
+            2
+          ],
+          "avgH": 12.237163636363647,
+          "correctRate": 0.8426966292134831,
+          "newCards": 20,
+          "reviewCards": 69,
+          "totalCards": 89
+        },
+        {
+          "day": 8,
+          "masteredCount": 28,
+          "learnedCount": 60,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 13.463318153846162,
+          "correctRate": 0.7789473684210526,
+          "newCards": 25,
+          "reviewCards": 70,
+          "totalCards": 95
+        },
+        {
+          "day": 9,
+          "masteredCount": 35,
+          "learnedCount": 67,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 16.063512000000024,
+          "correctRate": 0.7802197802197802,
+          "newCards": 17,
+          "reviewCards": 74,
+          "totalCards": 91
+        },
+        {
+          "day": 10,
+          "masteredCount": 41,
+          "learnedCount": 75,
+          "activeWaves": [
+            1,
+            2,
+            3
+          ],
+          "avgH": 19.30641350649353,
+          "correctRate": 0.8426966292134831,
+          "newCards": 22,
+          "reviewCards": 67,
+          "totalCards": 89
+        },
+        {
+          "day": 11,
+          "masteredCount": 52,
+          "learnedCount": 82,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 24.134907047619055,
+          "correctRate": 0.8131868131868132,
+          "newCards": 21,
+          "reviewCards": 70,
+          "totalCards": 91
+        },
+        {
+          "day": 12,
+          "masteredCount": 54,
+          "learnedCount": 89,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 25.51832852173909,
+          "correctRate": 0.75,
+          "newCards": 23,
+          "reviewCards": 73,
+          "totalCards": 96
+        },
+        {
+          "day": 13,
+          "masteredCount": 60,
+          "learnedCount": 97,
+          "activeWaves": [
+            2,
+            3
+          ],
+          "avgH": 28.325116244897917,
+          "correctRate": 0.7849462365591398,
+          "newCards": 20,
+          "reviewCards": 73,
+          "totalCards": 93
+        },
+        {
+          "day": 14,
+          "masteredCount": 67,
+          "learnedCount": 103,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 30.627140366355114,
+          "correctRate": 0.8426966292134831,
+          "newCards": 24,
+          "reviewCards": 65,
+          "totalCards": 89
+        },
+        {
+          "day": 15,
+          "masteredCount": 70,
+          "learnedCount": 112,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 31.334721706194657,
+          "correctRate": 0.78125,
+          "newCards": 21,
+          "reviewCards": 75,
+          "totalCards": 96
+        },
+        {
+          "day": 16,
+          "masteredCount": 73,
+          "learnedCount": 117,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 32.5121585733333,
+          "correctRate": 0.7395833333333334,
+          "newCards": 19,
+          "reviewCards": 77,
+          "totalCards": 96
+        },
+        {
+          "day": 17,
+          "masteredCount": 78,
+          "learnedCount": 122,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 33.59702458861783,
+          "correctRate": 0.6907216494845361,
+          "newCards": 11,
+          "reviewCards": 86,
+          "totalCards": 97
+        },
+        {
+          "day": 18,
+          "masteredCount": 79,
+          "learnedCount": 127,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 36.75346329399994,
+          "correctRate": 0.71875,
+          "newCards": 15,
+          "reviewCards": 81,
+          "totalCards": 96
+        },
+        {
+          "day": 19,
+          "masteredCount": 79,
+          "learnedCount": 128,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 36.77060052892149,
+          "correctRate": 0.6458333333333334,
+          "newCards": 7,
+          "reviewCards": 89,
+          "totalCards": 96
+        },
+        {
+          "day": 20,
+          "masteredCount": 86,
+          "learnedCount": 131,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 39.71395464668208,
+          "correctRate": 0.6774193548387096,
+          "newCards": 7,
+          "reviewCards": 86,
+          "totalCards": 93
+        },
+        {
+          "day": 21,
+          "masteredCount": 92,
+          "learnedCount": 135,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 42.1827861675472,
+          "correctRate": 0.7555555555555555,
+          "newCards": 14,
+          "reviewCards": 76,
+          "totalCards": 90
+        },
+        {
+          "day": 22,
+          "masteredCount": 103,
+          "learnedCount": 141,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 44.73629352821709,
+          "correctRate": 0.7391304347826086,
+          "newCards": 12,
+          "reviewCards": 80,
+          "totalCards": 92
+        },
+        {
+          "day": 23,
+          "masteredCount": 111,
+          "learnedCount": 146,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 48.32779798787823,
+          "correctRate": 0.8111111111111111,
+          "newCards": 21,
+          "reviewCards": 69,
+          "totalCards": 90
+        },
+        {
+          "day": 24,
+          "masteredCount": 116,
+          "learnedCount": 152,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 51.02411985629972,
+          "correctRate": 0.813953488372093,
+          "newCards": 14,
+          "reviewCards": 72,
+          "totalCards": 86
+        },
+        {
+          "day": 25,
+          "masteredCount": 122,
+          "learnedCount": 158,
+          "activeWaves": [
+            2,
+            3,
+            4
+          ],
+          "avgH": 50.45973767213278,
+          "correctRate": 0.7731958762886598,
+          "newCards": 24,
+          "reviewCards": 73,
+          "totalCards": 97
+        },
+        {
+          "day": 26,
+          "masteredCount": 128,
+          "learnedCount": 163,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 56.02156496197708,
+          "correctRate": 0.7528089887640449,
+          "newCards": 9,
+          "reviewCards": 80,
+          "totalCards": 89
+        },
+        {
+          "day": 27,
+          "masteredCount": 132,
+          "learnedCount": 169,
+          "activeWaves": [
+            3,
+            4,
+            5
+          ],
+          "avgH": 56.44400690462656,
+          "correctRate": 0.7575757575757576,
+          "newCards": 24,
+          "reviewCards": 75,
+          "totalCards": 99
+        },
+        {
+          "day": 28,
+          "masteredCount": 139,
+          "learnedCount": 175,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 59.55911328366969,
+          "correctRate": 0.7052631578947368,
+          "newCards": 10,
+          "reviewCards": 85,
+          "totalCards": 95
+        },
+        {
+          "day": 29,
+          "masteredCount": 140,
+          "learnedCount": 180,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 61.79981796742648,
+          "correctRate": 0.7446808510638298,
+          "newCards": 17,
+          "reviewCards": 77,
+          "totalCards": 94
+        },
+        {
+          "day": 30,
+          "masteredCount": 144,
+          "learnedCount": 185,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 61.66585861243827,
+          "correctRate": 0.7553191489361702,
+          "newCards": 17,
+          "reviewCards": 77,
+          "totalCards": 94
+        },
+        {
+          "day": 31,
+          "masteredCount": 153,
+          "learnedCount": 190,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 66.16019990007088,
+          "correctRate": 0.8045977011494253,
+          "newCards": 15,
+          "reviewCards": 72,
+          "totalCards": 87
+        },
+        {
+          "day": 32,
+          "masteredCount": 158,
+          "learnedCount": 195,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 67.67072385489192,
+          "correctRate": 0.7083333333333334,
+          "newCards": 11,
+          "reviewCards": 85,
+          "totalCards": 96
+        },
+        {
+          "day": 33,
+          "masteredCount": 162,
+          "learnedCount": 197,
+          "activeWaves": [
+            4,
+            5
+          ],
+          "avgH": 72.91824224945957,
+          "correctRate": 0.7790697674418605,
+          "newCards": 12,
+          "reviewCards": 74,
+          "totalCards": 86
+        },
+        {
+          "day": 34,
+          "masteredCount": 169,
+          "learnedCount": 203,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 77.40999792373654,
+          "correctRate": 0.782608695652174,
+          "newCards": 18,
+          "reviewCards": 74,
+          "totalCards": 92
+        },
+        {
+          "day": 35,
+          "masteredCount": 172,
+          "learnedCount": 208,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 81.70427794434785,
+          "correctRate": 0.7727272727272727,
+          "newCards": 15,
+          "reviewCards": 73,
+          "totalCards": 88
+        },
+        {
+          "day": 36,
+          "masteredCount": 182,
+          "learnedCount": 216,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 81.43832238329819,
+          "correctRate": 0.8426966292134831,
+          "newCards": 22,
+          "reviewCards": 67,
+          "totalCards": 89
+        },
+        {
+          "day": 37,
+          "masteredCount": 185,
+          "learnedCount": 222,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 82.51766425794428,
+          "correctRate": 0.7448979591836735,
+          "newCards": 22,
+          "reviewCards": 76,
+          "totalCards": 98
+        },
+        {
+          "day": 38,
+          "masteredCount": 193,
+          "learnedCount": 227,
+          "activeWaves": [
+            4,
+            5,
+            6
+          ],
+          "avgH": 86.72568290270733,
+          "correctRate": 0.8235294117647058,
+          "newCards": 15,
+          "reviewCards": 70,
+          "totalCards": 85
+        },
+        {
+          "day": 39,
+          "masteredCount": 200,
+          "learnedCount": 236,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 88.3455062258456,
+          "correctRate": 0.8152173913043478,
+          "newCards": 21,
+          "reviewCards": 71,
+          "totalCards": 92
+        },
+        {
+          "day": 40,
+          "masteredCount": 208,
+          "learnedCount": 241,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 91.16572347166017,
+          "correctRate": 0.7717391304347826,
+          "newCards": 19,
+          "reviewCards": 73,
+          "totalCards": 92
+        },
+        {
+          "day": 41,
+          "masteredCount": 213,
+          "learnedCount": 249,
+          "activeWaves": [
+            5,
+            6
+          ],
+          "avgH": 92.59768494761559,
+          "correctRate": 0.8021978021978022,
+          "newCards": 18,
+          "reviewCards": 73,
+          "totalCards": 91
+        },
+        {
+          "day": 42,
+          "masteredCount": 222,
+          "learnedCount": 254,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 96.03303656896989,
+          "correctRate": 0.7912087912087912,
+          "newCards": 19,
+          "reviewCards": 72,
+          "totalCards": 91
+        },
+        {
+          "day": 43,
+          "masteredCount": 222,
+          "learnedCount": 261,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 94.33956861184961,
+          "correctRate": 0.7575757575757576,
+          "newCards": 23,
+          "reviewCards": 76,
+          "totalCards": 99
+        },
+        {
+          "day": 44,
+          "masteredCount": 229,
+          "learnedCount": 266,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 99.15984078101606,
+          "correctRate": 0.7840909090909091,
+          "newCards": 13,
+          "reviewCards": 75,
+          "totalCards": 88
+        },
+        {
+          "day": 45,
+          "masteredCount": 237,
+          "learnedCount": 273,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 100.99108253299019,
+          "correctRate": 0.776595744680851,
+          "newCards": 21,
+          "reviewCards": 73,
+          "totalCards": 94
+        },
+        {
+          "day": 46,
+          "masteredCount": 247,
+          "learnedCount": 275,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 105.86912984766903,
+          "correctRate": 0.7857142857142857,
+          "newCards": 10,
+          "reviewCards": 74,
+          "totalCards": 84
+        },
+        {
+          "day": 47,
+          "masteredCount": 251,
+          "learnedCount": 281,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 107.60502941492405,
+          "correctRate": 0.8235294117647058,
+          "newCards": 16,
+          "reviewCards": 69,
+          "totalCards": 85
+        },
+        {
+          "day": 48,
+          "masteredCount": 255,
+          "learnedCount": 287,
+          "activeWaves": [
+            5,
+            6,
+            7
+          ],
+          "avgH": 107.72977505313663,
+          "correctRate": 0.7319587628865979,
+          "newCards": 18,
+          "reviewCards": 79,
+          "totalCards": 97
+        },
+        {
+          "day": 49,
+          "masteredCount": 260,
+          "learnedCount": 294,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 110.75772311863383,
+          "correctRate": 0.8888888888888888,
+          "newCards": 17,
+          "reviewCards": 64,
+          "totalCards": 81
+        },
+        {
+          "day": 50,
+          "masteredCount": 264,
+          "learnedCount": 300,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 112.36480023861773,
+          "correctRate": 0.7227722772277227,
+          "newCards": 20,
+          "reviewCards": 81,
+          "totalCards": 101
+        },
+        {
+          "day": 51,
+          "masteredCount": 269,
+          "learnedCount": 302,
+          "activeWaves": [
+            6,
+            7
+          ],
+          "avgH": 116.24566953476777,
+          "correctRate": 0.7441860465116279,
+          "newCards": 8,
+          "reviewCards": 78,
+          "totalCards": 86
+        },
+        {
+          "day": 52,
+          "masteredCount": 275,
+          "learnedCount": 309,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 117.68646684051083,
+          "correctRate": 0.8222222222222222,
+          "newCards": 21,
+          "reviewCards": 69,
+          "totalCards": 90
+        },
+        {
+          "day": 53,
+          "masteredCount": 279,
+          "learnedCount": 313,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 120.5937561952283,
+          "correctRate": 0.7419354838709677,
+          "newCards": 14,
+          "reviewCards": 79,
+          "totalCards": 93
+        },
+        {
+          "day": 54,
+          "masteredCount": 283,
+          "learnedCount": 317,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 123.1180766825949,
+          "correctRate": 0.7906976744186046,
+          "newCards": 12,
+          "reviewCards": 74,
+          "totalCards": 86
+        },
+        {
+          "day": 55,
+          "masteredCount": 294,
+          "learnedCount": 326,
+          "activeWaves": [
+            6,
+            7,
+            8
+          ],
+          "avgH": 126.40400554720296,
+          "correctRate": 0.8409090909090909,
+          "newCards": 19,
+          "reviewCards": 69,
+          "totalCards": 88
+        },
+        {
+          "day": 56,
+          "masteredCount": 300,
+          "learnedCount": 331,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 126.96263172056162,
+          "correctRate": 0.8043478260869565,
+          "newCards": 23,
+          "reviewCards": 69,
+          "totalCards": 92
+        },
+        {
+          "day": 57,
+          "masteredCount": 307,
+          "learnedCount": 336,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 128.45483237980037,
+          "correctRate": 0.813953488372093,
+          "newCards": 15,
+          "reviewCards": 71,
+          "totalCards": 86
+        },
+        {
+          "day": 58,
+          "masteredCount": 312,
+          "learnedCount": 345,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 128.47822394687432,
+          "correctRate": 0.8333333333333334,
+          "newCards": 21,
+          "reviewCards": 69,
+          "totalCards": 90
+        },
+        {
+          "day": 59,
+          "masteredCount": 319,
+          "learnedCount": 350,
+          "activeWaves": [
+            7,
+            8
+          ],
+          "avgH": 131.30113808225306,
+          "correctRate": 0.7802197802197802,
+          "newCards": 19,
+          "reviewCards": 72,
+          "totalCards": 91
+        },
+        {
+          "day": 60,
+          "masteredCount": 328,
+          "learnedCount": 353,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 134.39139463852334,
+          "correctRate": 0.7613636363636364,
+          "newCards": 13,
+          "reviewCards": 75,
+          "totalCards": 88
+        },
+        {
+          "day": 61,
+          "masteredCount": 324,
+          "learnedCount": 358,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 138.2394835058154,
+          "correctRate": 0.7204301075268817,
+          "newCards": 11,
+          "reviewCards": 82,
+          "totalCards": 93
+        },
+        {
+          "day": 62,
+          "masteredCount": 328,
+          "learnedCount": 364,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 141.70671455956105,
+          "correctRate": 0.7692307692307693,
+          "newCards": 16,
+          "reviewCards": 75,
+          "totalCards": 91
+        },
+        {
+          "day": 63,
+          "masteredCount": 337,
+          "learnedCount": 366,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 145.04782489062148,
+          "correctRate": 0.8333333333333334,
+          "newCards": 8,
+          "reviewCards": 70,
+          "totalCards": 78
+        },
+        {
+          "day": 64,
+          "masteredCount": 342,
+          "learnedCount": 374,
+          "activeWaves": [
+            7,
+            8,
+            9
+          ],
+          "avgH": 149.33634748021095,
+          "correctRate": 0.8522727272727273,
+          "newCards": 22,
+          "reviewCards": 66,
+          "totalCards": 88
+        },
+        {
+          "day": 65,
+          "masteredCount": 352,
+          "learnedCount": 379,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 151.40771376104263,
+          "correctRate": 0.8181818181818182,
+          "newCards": 19,
+          "reviewCards": 69,
+          "totalCards": 88
+        },
+        {
+          "day": 66,
+          "masteredCount": 352,
+          "learnedCount": 388,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 154.83984358474055,
+          "correctRate": 0.8043478260869565,
+          "newCards": 19,
+          "reviewCards": 73,
+          "totalCards": 92
+        },
+        {
+          "day": 67,
+          "masteredCount": 361,
+          "learnedCount": 391,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 156.8229025768574,
+          "correctRate": 0.7727272727272727,
+          "newCards": 13,
+          "reviewCards": 75,
+          "totalCards": 88
+        },
+        {
+          "day": 68,
+          "masteredCount": 365,
+          "learnedCount": 398,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 158.84501540372167,
+          "correctRate": 0.8021978021978022,
+          "newCards": 19,
+          "reviewCards": 72,
+          "totalCards": 91
+        },
+        {
+          "day": 69,
+          "masteredCount": 372,
+          "learnedCount": 403,
+          "activeWaves": [
+            8,
+            9
+          ],
+          "avgH": 159.61041721325913,
+          "correctRate": 0.7888888888888889,
+          "newCards": 17,
+          "reviewCards": 73,
+          "totalCards": 90
+        },
+        {
+          "day": 70,
+          "masteredCount": 373,
+          "learnedCount": 410,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 160.79714558851188,
+          "correctRate": 0.7802197802197802,
+          "newCards": 17,
+          "reviewCards": 74,
+          "totalCards": 91
+        },
+        {
+          "day": 71,
+          "masteredCount": 386,
+          "learnedCount": 415,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 160.55273659274303,
+          "correctRate": 0.7741935483870968,
+          "newCards": 19,
+          "reviewCards": 74,
+          "totalCards": 93
+        },
+        {
+          "day": 72,
+          "masteredCount": 388,
+          "learnedCount": 420,
+          "activeWaves": [
+            8,
+            9,
+            10
+          ],
+          "avgH": 160.913771942687,
+          "correctRate": 0.7446808510638298,
+          "newCards": 15,
+          "reviewCards": 79,
+          "totalCards": 94
+        },
+        {
+          "day": 73,
+          "masteredCount": 395,
+          "learnedCount": 425,
+          "activeWaves": [
+            9,
+            10
+          ],
+          "avgH": 163.25163685745653,
+          "correctRate": 0.8860759493670886,
+          "newCards": 15,
+          "reviewCards": 64,
+          "totalCards": 79
+        },
+        {
+          "day": 74,
+          "masteredCount": 397,
+          "learnedCount": 432,
+          "activeWaves": [
+            9,
+            10
+          ],
+          "avgH": 162.2850536428963,
+          "correctRate": 0.7628865979381443,
+          "newCards": 23,
+          "reviewCards": 74,
+          "totalCards": 97
+        },
+        {
+          "day": 75,
+          "masteredCount": 406,
+          "learnedCount": 437,
+          "activeWaves": [
+            9,
+            10
+          ],
+          "avgH": 163.40256629629528,
+          "correctRate": 0.7666666666666667,
+          "newCards": 15,
+          "reviewCards": 75,
+          "totalCards": 90
+        },
+        {
+          "day": 76,
+          "masteredCount": 411,
+          "learnedCount": 444,
+          "activeWaves": [
+            9,
+            10
+          ],
+          "avgH": 164.94787160571406,
+          "correctRate": 0.8181818181818182,
+          "newCards": 17,
+          "reviewCards": 71,
+          "totalCards": 88
+        },
+        {
+          "day": 77,
+          "masteredCount": 417,
+          "learnedCount": 446,
+          "activeWaves": [
+            9,
+            10
+          ],
+          "avgH": 168.98069745801584,
+          "correctRate": 0.7647058823529411,
+          "newCards": 8,
+          "reviewCards": 77,
+          "totalCards": 85
+        },
+        {
+          "day": 78,
+          "masteredCount": 419,
+          "learnedCount": 452,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 171.56933768155932,
+          "correctRate": 0.8043478260869565,
+          "newCards": 22,
+          "reviewCards": 70,
+          "totalCards": 92
+        },
+        {
+          "day": 79,
+          "masteredCount": 421,
+          "learnedCount": 456,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 174.32931934512217,
+          "correctRate": 0.7127659574468085,
+          "newCards": 10,
+          "reviewCards": 84,
+          "totalCards": 94
+        },
+        {
+          "day": 80,
+          "masteredCount": 427,
+          "learnedCount": 461,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 177.95572397447253,
+          "correctRate": 0.7790697674418605,
+          "newCards": 11,
+          "reviewCards": 75,
+          "totalCards": 86
+        },
+        {
+          "day": 81,
+          "masteredCount": 430,
+          "learnedCount": 464,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 179.84835179102026,
+          "correctRate": 0.7472527472527473,
+          "newCards": 13,
+          "reviewCards": 78,
+          "totalCards": 91
+        },
+        {
+          "day": 82,
+          "masteredCount": 437,
+          "learnedCount": 469,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 179.93033255748196,
+          "correctRate": 0.782608695652174,
+          "newCards": 19,
+          "reviewCards": 73,
+          "totalCards": 92
+        },
+        {
+          "day": 83,
+          "masteredCount": 444,
+          "learnedCount": 475,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 182.00473536585912,
+          "correctRate": 0.7692307692307693,
+          "newCards": 16,
+          "reviewCards": 75,
+          "totalCards": 91
+        },
+        {
+          "day": 84,
+          "masteredCount": 447,
+          "learnedCount": 482,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 182.30105454602995,
+          "correctRate": 0.7659574468085106,
+          "newCards": 17,
+          "reviewCards": 77,
+          "totalCards": 94
+        },
+        {
+          "day": 85,
+          "masteredCount": 447,
+          "learnedCount": 489,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 184.20268101121178,
+          "correctRate": 0.797752808988764,
+          "newCards": 17,
+          "reviewCards": 72,
+          "totalCards": 89
+        },
+        {
+          "day": 86,
+          "masteredCount": 456,
+          "learnedCount": 491,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 186.8061174782597,
+          "correctRate": 0.7674418604651163,
+          "newCards": 10,
+          "reviewCards": 76,
+          "totalCards": 86
+        },
+        {
+          "day": 87,
+          "masteredCount": 465,
+          "learnedCount": 493,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 187.9499092541655,
+          "correctRate": 0.7065217391304348,
+          "newCards": 8,
+          "reviewCards": 84,
+          "totalCards": 92
+        },
+        {
+          "day": 88,
+          "masteredCount": 467,
+          "learnedCount": 498,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 191.00668775766985,
+          "correctRate": 0.7906976744186046,
+          "newCards": 11,
+          "reviewCards": 75,
+          "totalCards": 86
+        },
+        {
+          "day": 89,
+          "masteredCount": 470,
+          "learnedCount": 504,
+          "activeWaves": [
+            9,
+            10,
+            11
+          ],
+          "avgH": 192.68367975062554,
+          "correctRate": 0.8111111111111111,
+          "newCards": 20,
+          "reviewCards": 70,
+          "totalCards": 90
+        },
+        {
+          "day": 90,
+          "masteredCount": 477,
+          "learnedCount": 511,
+          "activeWaves": [
+            10,
+            11,
+            12
+          ],
+          "avgH": 192.65197995524923,
+          "correctRate": 0.8505747126436781,
+          "newCards": 23,
+          "reviewCards": 64,
+          "totalCards": 87
+        }
+      ]
+    }
+  ]
+}

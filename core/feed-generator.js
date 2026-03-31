@@ -12,23 +12,30 @@ export class FeedGenerator {
   // -------------------------------------------------------
   // 1セッション分のカード列を生成 → Session の cards[] を返す
   // -------------------------------------------------------
-  generateSession(learnerState, currentTime) {
+  generateSession(learnerState, currentTime, { handwriteMode = true } = {}) {
     const cfg = this.config;
 
     // ウェーブ解放チェック（即時トリガー）
     this.waveManager.checkUnlock(currentTime);
+    learnerState.handwriteModeEnabled = handwriteMode;
+    learnerState.handwriteCountThisSession = 0;
 
     // 候補プール構築
     const pools = this._buildCandidatePools(learnerState, currentTime);
 
     // セッション早期終了条件（spec §4.4）
-    // urgent + due + new がすべて空 → filler だけで埋めない
-    if (pools.urgent.length === 0 && pools.due.length === 0 && pools.new.length === 0) {
+    // urgent + due + new + skipped がすべて空 → filler だけで埋めない
+    if (pools.skipped.length === 0 && pools.urgent.length === 0 && pools.due.length === 0 && pools.new.length === 0) {
       return [];
     }
 
     // グリーディ優先順位方式でスロット割当（spec §4.2）
     let remaining = cfg.sessionSize;
+
+    // 0. Skipped（最優先: 前セッションでスキップされた語）
+    const selectedSkipped = pools.skipped.slice(0, remaining);
+    selectedSkipped.forEach(w => { w.skipped = false; }); // 出題時にフラグをクリア
+    remaining -= selectedSkipped.length;
 
     // 1. Urgent（最優先: 忘れかけている語）
     const selectedUrgent = this._pickSorted(pools.urgent, remaining, 'pRecall_asc', currentTime);
@@ -53,11 +60,14 @@ export class FeedGenerator {
     // カード種別を割り当て
     const cards = [];
 
+    for (const w of selectedSkipped) {
+      cards.push(new Card(w, this._assignCardType(w, learnerState)));
+    }
     for (const w of selectedUrgent) {
-      cards.push(new Card(w, this._assignCardType(w)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState)));
     }
     for (const w of selectedDue) {
-      cards.push(new Card(w, this._assignCardType(w)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState)));
     }
     for (const w of selectedNew) {
       // 新語は Intro + Recognition のペアとして追加
@@ -65,17 +75,14 @@ export class FeedGenerator {
       cards.push(new Card(w, 'recognition'));
     }
     for (const w of selectedUncertain) {
-      cards.push(new Card(w, this._assignCardType(w)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState)));
     }
     for (const w of selectedFiller) {
       cards.push(new Card(w, 'passive'));
     }
 
     // 配置最適化
-    const arranged = this._arrangeCards(cards, currentTime);
-    learnerState.handwriteCountThisSession = 0;
-
-    return arranged;
+    return this._arrangeCards(cards, currentTime);
   }
 
   // -------------------------------------------------------
@@ -87,6 +94,7 @@ export class FeedGenerator {
   // -------------------------------------------------------
   _buildCandidatePools(learnerState, currentTime) {
     const cfg = this.config;
+    const skipped = [];   // 前セッションでスキップされた語（最優先）
     const urgent = [];    // p < 0.5（忘れかけ）
     const due = [];       // p < targetRetention（最適復習時刻を過ぎた）
     const uncertain = []; // σ > threshold（不確実）
@@ -97,6 +105,12 @@ export class FeedGenerator {
     const retentionFactor = Math.log2(1 / cfg.targetRetention);
 
     for (const w of learnerState.words) {
+      // スキップされた語は stage に関わらず最優先プールへ（逃げ切り不可）
+      if (w.skipped) {
+        skipped.push(w);
+        continue;
+      }
+
       if (w.stage === 'new') continue;
 
       const p = w.pRecall(currentTime);
@@ -129,23 +143,29 @@ export class FeedGenerator {
     urgent.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
     due.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
 
-    return { urgent, due, uncertain, new: newWords, filler };
+    return { skipped, urgent, due, uncertain, new: newWords, filler };
   }
 
   // -------------------------------------------------------
   // ステージに応じたカード種別を割り当て
   // -------------------------------------------------------
-  _assignCardType(word) {
+  _assignCardType(word, learnerState) {
     const cfg = this.config;
+
+    // Handwrite 介入チェック：停滞語かつ手書きモード有効かつ上限未達
+    if (word.needsHandwrite && learnerState.handwriteModeEnabled) {
+      if (learnerState.handwriteCountThisSession < cfg.maxHandwritePerSession) {
+        learnerState.handwriteCountThisSession++;
+        return 'handwrite';
+      }
+    }
+
     switch (word.stage) {
       case 'recognition': return 'recognition';
       case 'recall':      return 'recall';
       case 'dictation':
         if (word.h >= cfg.dictationThresholdH) return 'dictation';
         return 'recall';
-      case 'handwrite':
-        if (word.h >= cfg.handwriteThresholdH) return 'handwrite';
-        return 'dictation';
       default:            return 'recall';
     }
   }

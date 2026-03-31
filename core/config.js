@@ -21,7 +21,7 @@ export const DEFAULT_CONFIG = {
 
   // Stage thresholds
   dictationThresholdH: 4.0,   // Dictation出題に必要な最小h（日）
-  handwriteThresholdH: 8.0,   // Handwrite出題に必要な最小h（日）
+  handwriteStuckThreshold: 3, // 同一段階での累積不正解数 ≥ この値で Handwrite 介入
   masteredThresholdH: 14.0,   // 定着済みと見なすh（日）
   maxHandwritePerSession: 2,
 

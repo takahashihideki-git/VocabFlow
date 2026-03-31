@@ -15,6 +15,9 @@ export class WordState {
     this.correctCount = 0;
     this.incorrectCount = 0;
     this.spellingFlag = false;  // 発音は合っているがスペルが怪しい
+    this.stuckCount = 0;        // 現在の段階での累積不正解数。stage 変更時にリセット
+    this.needsHandwrite = false; // 停滞介入モード：次回 Handwrite カードを出題する
+    this.skipped = false;       // スキップされたか。次セッションで最優先再出題
   }
 
   pRecall(currentTime) {
@@ -39,6 +42,7 @@ export class Card {
     this.word = wordState;    // WordState 参照
     this.cardType = cardType; // 'intro'|'recognition'|'recall'|'dictation'|'handwrite'|'passive'
     this.result = null;       // 回答結果（後で設定）
+    this.done = false;        // 回答済みまたはスキップ済み（戻りスワイプ時の history 判定に使用）
     this.isRetry = false;     // リトライカード（不正解後の再挿入）かどうか
     this.stageBeforeWrong = null; // 不正解直前の stage（リトライ正解時に復元する）
   }
@@ -74,6 +78,7 @@ export class LearnerState {
     this.waveUnlockEvents = [];     // [{waveNumber, day}]
     this.activeWaves = [1];         // 現在アクティブなウェーブ番号リスト
     this.handwriteCountThisSession = 0;
+    this.handwriteModeEnabled = true; // ユーザーが手書き可能かどうか（app層から設定）
   }
 
   get masteredCount() {

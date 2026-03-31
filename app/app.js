@@ -98,12 +98,17 @@ class VocabFlowApp {
     const nextCardBtn = document.getElementById('btn-next-card');
     if (!isTouch) nextCardBtn.hidden = false;
 
-    // CardRenderer: onReady はスワイプ可能化だけを行う
+    // CardRenderer: onReady はスワイプ可能化、onSkip はスキップ処理
     const wrapper = document.getElementById('card-wrapper');
-    this.cardRenderer = new CardRenderer(wrapper, this.engine, (_result) => {
-      document.getElementById('card-area').classList.add('swipe-ready');
-      if (!isTouch) nextCardBtn.classList.add('ready');
-    });
+    this.cardRenderer = new CardRenderer(
+      wrapper,
+      this.engine,
+      (_result) => {
+        document.getElementById('card-area').classList.add('swipe-ready');
+        if (!isTouch) nextCardBtn.classList.add('ready');
+      },
+      () => this._skipCard()
+    );
 
     if (!isTouch) {
       nextCardBtn.addEventListener('click', () => this._onSwipeUp());
@@ -127,8 +132,10 @@ class VocabFlowApp {
 
     area.addEventListener('touchend', (e) => {
       const dy = this._touchStartY - e.changedTouches[0].clientY;
-      if (dy > 40) {            // 40px 以上の上スワイプ
+      if (dy > 40) {            // 40px 以上の上スワイプ → 次へ
         this._onSwipeUp();
+      } else if (dy < -40) {    // 40px 以上の下スワイプ → 前のカードへ
+        this._onSwipeDown();
       }
     }, { passive: true });
 
@@ -136,6 +143,8 @@ class VocabFlowApp {
     area.addEventListener('wheel', (e) => {
       if (e.deltaY > 30) {      // 下スクロール = 次のカードへ（TikTok 方式）
         this._onSwipeUp();
+      } else if (e.deltaY < -30) {
+        this._onSwipeDown();
       }
     }, { passive: true });
 
@@ -144,17 +153,44 @@ class VocabFlowApp {
       if (e.key === 'ArrowUp' || e.key === ' ') {
         e.preventDefault();
         this._onSwipeUp();
+      } else if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        this._onSwipeDown();
       }
     });
   }
 
   // -------------------------------------------------------
-  // スワイプアップ → カード遷移
+  // スワイプアップ → 次のカードへ
   // -------------------------------------------------------
   _onSwipeUp() {
     if (this._transitioning) return;
-    if (!this.cardRenderer.isSwipeReady()) return;
 
+    const card = this.sessionCards[this.cardIndex];
+    if (!card) return;
+
+    // 履歴モード（戻りスワイプで来た、または回答済みカード）
+    if (card.done) {
+      this._transitioning = true;
+      document.getElementById('card-area').classList.remove('swipe-ready');
+      this.cardRenderer.animateOut(() => {
+        this._transitioning = false;
+        this.cardIndex++;
+        this._showCard();
+      });
+      return;
+    }
+
+    // 通常モード: 未回答でスキップ可能なカードならスキップ
+    if (!this.cardRenderer.isSwipeReady()) {
+      const skippable = ['recognition', 'recall', 'dictation', 'handwrite'];
+      if (skippable.includes(card.cardType)) {
+        this._skipCard();
+      }
+      return;
+    }
+
+    // 通常モード: 回答済み → 処理して次へ
     this._transitioning = true;
     document.getElementById('card-area').classList.remove('swipe-ready');
     document.getElementById('btn-next-card').classList.remove('ready');
@@ -164,6 +200,49 @@ class VocabFlowApp {
     this.cardRenderer.animateOut(() => {
       this._transitioning = false;
       this._processAnswer(result);
+    });
+  }
+
+  // -------------------------------------------------------
+  // スワイプダウン → 前のカードへ（戻りスワイプ）
+  // -------------------------------------------------------
+  _onSwipeDown() {
+    if (this._transitioning) return;
+    if (this.cardIndex <= 0) return;
+
+    this._transitioning = true;
+    document.getElementById('card-area').classList.remove('swipe-ready');
+    document.getElementById('btn-next-card').classList.remove('ready');
+
+    this.cardRenderer.animateOutDown(() => {
+      this._transitioning = false;
+      this.cardIndex--;
+      this._showCard();
+    });
+  }
+
+  // -------------------------------------------------------
+  // スキップ処理
+  // -------------------------------------------------------
+  _skipCard() {
+    if (this._transitioning) return;
+    const card = this.sessionCards[this.cardIndex];
+    if (!card) return;
+
+    card.done = true;
+    card.word.skipped = true; // 次セッションで最優先再出題
+
+    this._transitioning = true;
+    document.getElementById('card-area').classList.remove('swipe-ready');
+    document.getElementById('btn-next-card').classList.remove('ready');
+
+    this.state.totalCardsConsumed++;
+    this._updateStats();
+
+    this.cardRenderer.animateOut(() => {
+      this._transitioning = false;
+      this.cardIndex++;
+      this._showCard();
     });
   }
 
@@ -203,6 +282,14 @@ class VocabFlowApp {
     document.getElementById('card-area').classList.remove('swipe-ready');
     document.getElementById('btn-next-card').classList.remove('ready');
     this._updateProgress();
+
+    // 戻りスワイプで来た場合 or 既処理カードは履歴ビュー
+    if (card.done) {
+      this.cardRenderer.renderHistoryView(card);
+      document.getElementById('card-area').classList.add('swipe-ready');
+      return;
+    }
+
     this.cardRenderer.render(card);
   }
 
@@ -212,10 +299,17 @@ class VocabFlowApp {
   _processAnswer(result) {
     const card = this.sessionCards[this.cardIndex];
     const word = card.word;
+    card.done   = true;
+    card.result = result;
 
     if (card.isRetry) {
       if (result !== 'wrong') {
-        word.stage = card.stageBeforeWrong;  // 降格キャンセル（h 更新なし）
+        if (card.cardType === 'handwrite') {
+          // Handwrite リトライ正解: h ブーストあり（停滞突破）
+          this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
+        } else {
+          word.stage = card.stageBeforeWrong;  // 降格キャンセル（h 更新なし）
+        }
         this.sessionCorrect++;
       } else {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);

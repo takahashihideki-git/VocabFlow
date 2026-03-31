@@ -18,7 +18,6 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
 
   for (let s = 0; s < cfg.sessionsPerDay; s++) {
     const sessionTime = day + s / cfg.sessionsPerDay;
-    learnerState.handwriteCountThisSession = 0;
     const cardQueue = feedGen.generateSession(learnerState, sessionTime);
 
     // 不正解カードの再出題カウント（1セッション内で各単語1回まで）
@@ -35,9 +34,13 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
 
       // spec §4.5: リトライ正解は「ダメージ回復」であって「成長」ではない
       //   → h 更新なし、不正解時の stage 降格のみキャンセル
-      // リトライ以外（通常カード、またはリトライ不正解）は通常通り processResponse
+      // 例外: Handwrite リトライ正解は h ブーストあり（停滞突破が目的）
       if (card.isRetry && result !== 'wrong') {
-        card.word.stage = card.stageBeforeWrong;
+        if (card.cardType === 'handwrite') {
+          engine.processResponse(card.word, card.cardType, result, sessionTime);
+        } else {
+          card.word.stage = card.stageBeforeWrong;
+        }
       } else {
         engine.processResponse(card.word, card.cardType, result, sessionTime);
       }

@@ -46,6 +46,24 @@ export class SRSEngine {
       word.spellingFlag = true;
     }
 
+    // Handwrite 介入カードは stage を変えない。フラグのみ操作して終了
+    if (cardType === 'handwrite') {
+      if (isCorrect) {
+        word.needsHandwrite = false;
+        word.stuckCount = 0;
+      }
+      // 不正解時: needsHandwrite はそのまま（次セッションも Handwrite で再挑戦）
+      return;
+    }
+
+    // 不正解時: stuckCount をインクリメント → 閾値到達で Handwrite 介入フラグを立てる
+    if (!isCorrect) {
+      word.stuckCount++;
+      if (word.stuckCount >= this.config.handwriteStuckThreshold) {
+        word.needsHandwrite = true;
+      }
+    }
+
     // ステージ遷移
     this._evaluateStageTransition(word, isCorrect);
   }
@@ -111,35 +129,37 @@ export class SRSEngine {
   // -------------------------------------------------------
   _evaluateStageTransition(word, isCorrect) {
     const cfg = this.config;
+    const prevStage = word.stage;
 
     if (!isCorrect) {
-      // 不正解時は1段階降格
       word.stage = this._demoteStage(word.stage);
-      return;
+    } else {
+      // 正解時の昇格判定
+      switch (word.stage) {
+        case 'recognition':
+          word.stage = 'recall';
+          break;
+        case 'recall':
+          if (word.h >= cfg.dictationThresholdH) word.stage = 'dictation';
+          break;
+        case 'dictation':
+          if (word.h >= cfg.masteredThresholdH) word.stage = 'mastered';
+          break;
+      }
     }
 
-    // 正解時の昇格判定
-    switch (word.stage) {
-      case 'recognition':
-        // Recognition → Recall: 仕様では「次セッション以降で自動」
-        // 正解した時点で昇格（h条件なし）
-        word.stage = 'recall';
-        break;
-      case 'recall':
-        if (word.h >= cfg.dictationThresholdH) word.stage = 'dictation';
-        break;
-      case 'dictation':
-        if (word.h >= cfg.handwriteThresholdH) word.stage = 'handwrite';
-        else if (word.h >= cfg.masteredThresholdH) word.stage = 'mastered';
-        break;
-      case 'handwrite':
-        if (word.h >= cfg.masteredThresholdH) word.stage = 'mastered';
-        break;
+    // 昇格時のみ stuckCount と needsHandwrite をリセット
+    // （降格は不正解そのもので起きるためリセットしない。stuckCount は昇格まで蓄積し続ける）
+    if (isCorrect && word.stage !== prevStage) {
+      word.stuckCount = 0;
+      word.needsHandwrite = false;
     }
   }
 
   _demoteStage(stage) {
-    const order = ['new', 'intro', 'recognition', 'recall', 'dictation', 'handwrite', 'mastered'];
+    // 'handwrite' は廃止済みステージ（旧セーブデータ互換性のため 'dictation' に落とす）
+    if (stage === 'handwrite') return 'dictation';
+    const order = ['new', 'intro', 'recognition', 'recall', 'dictation', 'mastered'];
     const idx = order.indexOf(stage);
     if (idx <= 2) return 'recognition'; // recognition 以下には降格させない
     return order[idx - 1];

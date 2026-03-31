@@ -153,24 +153,28 @@ export class CardRenderer {
    * @param {SRSEngine}   engine    — judgeDictation 用
    * @param {function}    onReady   — (result: string) => void  スワイプ可能になったとき
    */
-  constructor(wrapper, engine, onReady) {
-    this.wrapper  = wrapper;
-    this.engine   = engine;
-    this.onReady  = onReady;
-    this._ready   = false;
-    this._result  = null;
-    this._cardEl  = null;
+  constructor(wrapper, engine, onReady, onSkip) {
+    this.wrapper      = wrapper;
+    this.engine       = engine;
+    this.onReady      = onReady;
+    this.onSkip       = onSkip;    // () => void  スキップボタン押下時
+    this._ready       = false;
+    this._result      = null;
+    this._cardEl      = null;
+    this._historyMode = false;
   }
 
   isSwipeReady() { return this._ready; }
   getPendingResult() { return this._result; }
+  isHistoryMode() { return this._historyMode; }
 
   // -------------------------------------------------------
   // 外部から呼ぶメインエントリ
   // -------------------------------------------------------
   render(card) {
-    this._ready  = false;
-    this._result = null;
+    this._ready       = false;
+    this._result      = null;
+    this._historyMode = false;
 
     const wordStr = card.word.wordString;
     const rawWord = typeof card.word.word === 'object' ? card.word.word : { word: wordStr, pos: 'other' };
@@ -507,6 +511,20 @@ export class CardRenderer {
       el.appendChild(rb);
     }
 
+    // 回答が必要なカード種別にはスキップボタンを追加
+    const skippable = ['recognition', 'recall', 'dictation', 'handwrite'];
+    if (skippable.includes(type) && this.onSkip) {
+      const skipBtn = document.createElement('button');
+      skipBtn.className = 'btn-skip';
+      skipBtn.id = 'btn-skip';
+      skipBtn.textContent = 'スキップ →';
+      skipBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (!this._ready) this.onSkip();
+      });
+      el.appendChild(skipBtn);
+    }
+
     return el;
   }
 
@@ -531,6 +549,87 @@ export class CardRenderer {
     if (!el) { callback(); return; }
     el.classList.add('card-exit');
     el.addEventListener('animationend', () => { el.remove(); callback(); }, { once: true });
+  }
+
+  animateOutDown(callback) {
+    const el = this.wrapper.querySelector('.card');
+    if (!el) { callback(); return; }
+    el.classList.add('card-exit-down');
+    el.addEventListener('animationend', () => { el.remove(); callback(); }, { once: true });
+  }
+
+  // -------------------------------------------------------
+  // 履歴ビュー（戻りスワイプで表示。回答済み / スキップ済みカードの読み取り専用表示）
+  // -------------------------------------------------------
+  renderHistoryView(card) {
+    this._ready       = false;
+    this._result      = null;
+    this._historyMode = true;
+
+    const wordStr  = card.word.wordString;
+    const rawWord  = typeof card.word.word === 'object' ? card.word.word : { word: wordStr, pos: 'other' };
+    const pos      = rawWord.pos || 'other';
+    const meaning  = getMeaning(wordStr, pos);
+
+    const el = document.createElement('div');
+    el.className = 'card';
+    this._cardEl = el;
+
+    // カード種別バッジ
+    const badge = document.createElement('div');
+    badge.className = `card-type-badge badge-${card.cardType}`;
+    badge.textContent = this._typeName(card.cardType);
+    el.appendChild(badge);
+
+    // 履歴バッジ
+    const histBadge = document.createElement('div');
+    histBadge.className = 'card-type-badge badge-skipped';
+    histBadge.style.cssText = 'position:absolute;top:16px;right:16px';
+    histBadge.textContent = '履歴';
+    el.style.position = 'relative';
+    el.appendChild(histBadge);
+
+    // 結果ラベル
+    let resultClass, resultText;
+    if (card.done && !card.word.skipped && card.result === null) {
+      // スキップ済み（skipped フラグはすでに次セッションのため feed 側でクリアされた可能性あり）
+      resultClass = 'was-skipped';
+      resultText  = 'スキップ済み — 次セッションで優先再出題';
+    } else if (card.result === 'wrong') {
+      resultClass = 'was-wrong';
+      resultText  = `不正解 — 正解: ${wordStr}`;
+    } else if (card.result === null) {
+      resultClass = 'was-skipped';
+      resultText  = 'スキップ済み — 次セッションで優先再出題';
+    } else {
+      resultClass = 'was-correct';
+      resultText  = '正解済み';
+    }
+
+    el.insertAdjacentHTML('beforeend', `
+      <div class="history-card-body">
+        <div class="word-main">${wordStr}</div>
+        <div class="word-pos">${pos}</div>
+        <div class="word-meaning">${meaning}</div>
+        <div class="history-result ${resultClass}">${resultText}</div>
+      </div>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして先へ</span>
+      </div>
+    `);
+
+    this._animateInFromTop(el);
+    // 履歴ビューは常にスワイプ可能（前に進むだけ）
+    this._markReady('history');
+  }
+
+  _animateInFromTop(el) {
+    const old = this.wrapper.querySelector('.card');
+    if (old) old.remove();
+    this.wrapper.appendChild(el);
+    el.classList.add('card-enter-from-top');
+    el.addEventListener('animationend', () => el.classList.remove('card-enter-from-top'), { once: true });
   }
 
   // -------------------------------------------------------
