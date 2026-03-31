@@ -13,10 +13,10 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `core/config.js` | ✅ handwriteStuckThreshold: 3 に変更済み（旧 handwriteThresholdH 廃止） |
-| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped 追加。Card: done 追加。LearnerState: handwriteModeEnabled 追加 |
+| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded 追加。Card: done 追加。LearnerState: handwriteModeEnabled 追加 |
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み |
-| `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。_assignCardType に learnerState 渡し |
+| `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し |
 | `core/word-data.js` | ✅ Phase 0（1900語） |
 
 ### Phase 2: sim/ ✅ 完了
@@ -35,17 +35,19 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 | ファイル | 状態 |
 |---|---|
-| `app/app.html` | ✅ PC用前後ナビボタン（pc-nav-btns）追加 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。非タッチ環境 no-touch クラス。初スワイプで swiped-once |
+| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay 追加 |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合（ヘッダバークリックで開く） |
 | `app/ui-cards.js` | ✅ renderHistoryView()・animateOutDown()・_animateInFromTop() 追加 |
-| `app/ui-heatmap.js` | ✅ |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・スワイプヒント制御 |
+| `app/ui-heatmap.js` | ✅ excluded 語の色追加 |
+| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー（wordwave-spec.md 準拠）。単語除外・一括除外モード対応 |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル |
 
 ---
 
 ## 次セッションの残タスク
 
-- **#10** Passive カードの読み物化（`app/ui-cards.js` の UI のみ。spec §2 参照）
+1. **実データ作成**（`core/word-data.js` の充実。phonetic・例文・JP意味などを含む本番データへ）
+2. **#10** Passive カードの読み物化（`app/ui-cards.js` の UI のみ。spec §2 参照）
 
 ---
 
@@ -110,6 +112,7 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 早期終了: skipped=urgent=due=new=0 なら [] を返す
 ```
 - skipped 語は stage='new' フィルタより先に評価（逃げ切り不可）
+- excluded 語は new プール含む全プールから除外（`w.excluded` チェック）
 - recognition 復習カードは `reviewRecognition` として recall と同列配置（Bug 1）
 - mastered 語が `p < targetRetention` なら due プールに追加（Bug 4）
 - `_interleaveIntroRecognition`: キュー方式で Intro→Recognition 間 MIN_GAP=2 を保証（Bug 6）
@@ -128,6 +131,7 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - 時間早送り: 次のセッション(1/3日)・翌日・1週間後
 - localStorage キー: `vocabflow_state_v1`
 - 日本語意味辞書: `app/ui-cards.js` の `JP_MEANINGS`（Wave 1〜2 約100語）。Wave 3以降はフォールバック表示。
+- Word Wave: `app/ui-wordwave.js`。ヘッダバークリックで全画面表示。単語タップでポップオーバー（除外ボタン付き）。一括除外モード（🗑️）対応。
 
 ### sim-runner.js（リトライ処理）
 ```
@@ -144,7 +148,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: Phase 3 app/ 実装完了 + Bug 6 修正
+- 直近コミット: Word Wave 全画面ビュー実装（`01ad588`）
 
 ---
 
@@ -198,5 +202,6 @@ VocabFlow/
     ├── app.js            # セッション管理・スワイプ・時間早送り・localStorage
     ├── ui-cards.js       # 6種カードUI・TTS・JP意味辞書（Wave1-2）
     ├── ui-heatmap.js     # Wave Heatmap Canvas描画
-    └── app.css           # ダークテーマ・アニメーション
+    ├── ui-wordwave.js    # Word Wave 全画面ビュー（除外・一括除外）
+    └── app.css           # ダークテーマ・アニメーション・Word Wave スタイル
 ```
