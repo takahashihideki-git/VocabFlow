@@ -1,0 +1,642 @@
+[
+  {
+    "id": 1,
+    "word": "create",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を創造する", "pos": "verb" },
+      { "meaning": "〜を引き起こす", "pos": "verb" }
+    ],
+    "pronunciation": "/kriˈeɪt/",
+    "syllables": "cre-ate",
+    "audioHint": "クリエイト",
+    "examples": [
+      {
+        "en": "She created a beautiful painting in just two hours.",
+        "ja": "彼女はわずか2時間で美しい絵を描き上げた。",
+        "blank": "She ___ a beautiful painting in just two hours.",
+        "blankAnswer": "created"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を生産する", "〜を改善する"],
+    "confusableSpellings": ["creat", "criate"],
+    "passive": {
+      "etymology": "ラテン語 creare（生み出す）が語源。英語の creature（生き物）と同根で、もともと「何もないところから生み出す」という意味",
+      "tips": "make より創造的・意図的なイメージ。'make a cake' は普通だが 'create a masterpiece' のように芸術・革新的なものには create がよく合う",
+      "confusables": "create（動詞: 作る）vs. creative（形容詞: 創造的な）vs. creation（名詞: 創造物）。動詞は create、名詞化は creation または creativity",
+      "collocations": ["create a problem", "create an opportunity", "create a profile", "create awareness"],
+      "trivia": "英語の 'creativity' はビジネス界で最も多用される buzz word の一つ。LinkedInが毎年発表する「最も使いすぎる言葉」ランキングに常連でランクインする"
+    },
+    "frequency": 254,
+    "cefr": "A2"
+  },
+  {
+    "id": 2,
+    "word": "increase",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を増加させる", "pos": "verb" },
+      { "meaning": "増加する", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪnˈkriːs/",
+    "syllables": "in-crease",
+    "audioHint": "インクリース",
+    "examples": [
+      {
+        "en": "Sales increased by 20% last year.",
+        "ja": "昨年、売上が20%増加した。",
+        "blank": "Sales ___ by 20% last year.",
+        "blankAnswer": "increased"
+      }
+    ],
+    "distractors": ["〜を創造する", "〜を改善する", "〜を生産する"],
+    "confusableSpellings": ["increace", "incrcase"],
+    "passive": {
+      "etymology": "ラテン語 increscere（中で成長する）が語源。in-（中に）+ crescere（成長する）。crescent moon（三日月）と同根で、月が満ちていくイメージ",
+      "tips": "自動詞・他動詞両用。'Sales increased'（自）と 'We increased sales'（他）どちらも正しい。名詞 'an increase in + 名詞' の形もよく使う",
+      "confusables": "increase vs. raise: 数値・量の変化には increase、物理的に持ち上げるなら raise。ただし 'raise prices/taxes' は慣用的に定着している",
+      "collocations": ["increase productivity", "increase awareness", "dramatic increase", "increase in demand"],
+      "trivia": "経済学では increase と growth を使い分ける。increase は単なる量的変化、growth は持続的な拡大を示すことが多く、'economic growth' は 'economic increase' とは言わない"
+    },
+    "frequency": 180,
+    "cefr": "A2"
+  },
+  {
+    "id": 3,
+    "word": "improve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を改善する", "pos": "verb" },
+      { "meaning": "上達する", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪmˈpruːv/",
+    "syllables": "im-prove",
+    "audioHint": "インプルーヴ",
+    "examples": [
+      {
+        "en": "She practiced every day to improve her English.",
+        "ja": "彼女は英語を上達させようと毎日練習した。",
+        "blank": "She practiced every day to ___ her English.",
+        "blankAnswer": "improve"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を創造する", "〜を減少させる"],
+    "confusableSpellings": ["improvee", "emprove"],
+    "passive": {
+      "etymology": "古フランス語 emprouer（利益を得る）が語源。en-（〜に）+ prou（利益）→ もともと「土地を有益に使う」という意味から「良くする」へと転じた",
+      "tips": "他動詞・自動詞両用。'improve your skills'（他）と 'Your skills will improve'（自）どちらも自然。'improve on〜'（〜をさらに良くする）という句動詞も重要",
+      "confusables": "improve vs. enhance: improve は欠点を直すニュアンス、enhance は良いものをさらに良くするニュアンス。既に高品質なものには enhance が合う",
+      "collocations": ["improve performance", "improve quality", "room for improvement", "continuous improvement"],
+      "trivia": "日本語の「カイゼン（改善）」は英語でそのまま 'kaizen' として使われる。トヨタ生産方式から世界に広まり、Oxford英語辞典にも収録済み"
+    },
+    "frequency": 220,
+    "cefr": "A2"
+  },
+  {
+    "id": 4,
+    "word": "mean",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を意味する", "pos": "verb" },
+      { "meaning": "〜するつもりである", "pos": "verb" }
+    ],
+    "pronunciation": "/miːn/",
+    "syllables": "mean",
+    "audioHint": "ミーン",
+    "examples": [
+      {
+        "en": "What does this word mean in Japanese?",
+        "ja": "この単語は日本語でどういう意味ですか？",
+        "blank": "What does this word ___ in Japanese?",
+        "blankAnswer": "mean"
+      }
+    ],
+    "distractors": ["〜を考慮する", "〜を説明する", "〜を主張する"],
+    "confusableSpellings": ["meen", "meane"],
+    "passive": {
+      "etymology": "古英語 mǣnan（意図する・表す）が語源。ゲルマン語系の基本語で、ドイツ語の meinen（思う）と同根。日常語として長い歴史を持つ",
+      "tips": "mean は多義語。①〜を意味する（What does X mean?）②〜するつもり（I didn't mean to hurt you）③意地悪な（形容詞: a mean person）。文脈で判断を",
+      "confusables": "mean vs. intend: mean はカジュアル・日常的、intend はより公式・計画的。'I mean to finish this' より 'I intend to finish this' の方がフォーマル",
+      "collocations": ["mean business", "mean well", "I mean...", "what do you mean?"],
+      "trivia": "'I mean...' は英語ネイティブの口癖として非常に多く使われる会話の間つなぎ。日本語の「つまり...」に相当し、言い直しや強調にも使われる"
+    },
+    "frequency": 95,
+    "cefr": "A1"
+  },
+  {
+    "id": 5,
+    "word": "own",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を所有する", "pos": "verb" },
+      { "meaning": "認める", "pos": "verb" }
+    ],
+    "pronunciation": "/oʊn/",
+    "syllables": "own",
+    "audioHint": "オウン",
+    "examples": [
+      {
+        "en": "She owns three apartments in the city.",
+        "ja": "彼女は市内にアパートを3つ所有している。",
+        "blank": "She ___ three apartments in the city.",
+        "blankAnswer": "owns"
+      }
+    ],
+    "distractors": ["〜を創造する", "〜を増加させる", "〜を管理する"],
+    "confusableSpellings": ["oun", "owne"],
+    "passive": {
+      "etymology": "古英語 āgnian（所有する）が語源。own は形容詞・動詞・代名詞として使える多機能語。my own（形容詞）、I own it（動詞）",
+      "tips": "own は「完全に自分のものとして持っている」ニュアンス。have より所有権を強調する。'I have a car' は単なる所持、'I own a car' は自分名義で登録している意味",
+      "confusables": "own vs. have: own は法的・正式な所有権。'Do you own this house?' は登記上の所有者かを問う。have はより広く「持っている」状態を表す",
+      "collocations": ["own up to", "on my own", "own a business", "home ownership"],
+      "trivia": "'on your own' は「一人で・独力で」の意味。'I did it on my own' = 誰の助けも借りずに達成した。ビートルズの 'On My Own' など歌のタイトルにも多い"
+    },
+    "frequency": 310,
+    "cefr": "A2"
+  },
+  {
+    "id": 6,
+    "word": "include",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を含む", "pos": "verb" },
+      { "meaning": "〜を含める", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪnˈkluːd/",
+    "syllables": "in-clude",
+    "audioHint": "インクルード",
+    "examples": [
+      {
+        "en": "The price includes breakfast and dinner.",
+        "ja": "その料金には朝食と夕食が含まれています。",
+        "blank": "The price ___ breakfast and dinner.",
+        "blankAnswer": "includes"
+      }
+    ],
+    "distractors": ["〜を除外する", "〜を増加させる", "〜を制限する"],
+    "confusableSpellings": ["includ", "iclude"],
+    "passive": {
+      "etymology": "ラテン語 includere（中に閉じ込める）が語源。in-（中に）+ claudere（閉じる）。exclude（除外する）は逆の ex-（外に）+ claudere",
+      "tips": "include は「もともと含まれている」ニュアンス。'The fee includes tax' はその金額に最初から税が含まれている意味。including〜（〜を含めて）は前置詞的にも使える",
+      "confusables": "include vs. contain: include は要素の一部として含む、contain は物理的に中に入っている。'The book includes an index' vs. 'The box contains books'",
+      "collocations": ["include in", "not included", "including tax", "include a variety of"],
+      "trivia": "'batteries not included' は英語圏のおもちゃ箱の定番文句。日本語の「電池別売り」に相当し、映画や番組のタイトルにもなるほど文化に定着した表現"
+    },
+    "frequency": 170,
+    "cefr": "A2"
+  },
+  {
+    "id": 7,
+    "word": "consider",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を考慮する", "pos": "verb" },
+      { "meaning": "〜だと思う", "pos": "verb" }
+    ],
+    "pronunciation": "/kənˈsɪdər/",
+    "syllables": "con-sid-er",
+    "audioHint": "コンスィダー",
+    "examples": [
+      {
+        "en": "We need to consider all the options before deciding.",
+        "ja": "決める前にすべての選択肢を考慮する必要がある。",
+        "blank": "We need to ___ all the options before deciding.",
+        "blankAnswer": "consider"
+      }
+    ],
+    "distractors": ["〜を意味する", "〜を説明する", "〜を主張する"],
+    "confusableSpellings": ["concider", "conseder"],
+    "passive": {
+      "etymology": "ラテン語 considerare（星を観察する）が語源。con-（一緒に）+ sidus（星）→ 星を丁寧に観察するように熟考する。「考える」に天文学が関係していた",
+      "tips": "consider + doing（考慮する）と consider + that節（〜だと思う）を区別する必要がある。'I consider him smart'（SVOC構文）も重要なパターン",
+      "confusables": "consider vs. think about: consider はより慎重・熟考のニュアンス。'Think about it'（軽く考えて）vs. 'Please consider it carefully'（しっかり検討して）",
+      "collocations": ["consider carefully", "consider options", "all things considered", "under consideration"],
+      "trivia": "英語の会議でよく使われる 'All things considered...'（すべてを考慮すると）はNPRの長寿ラジオ番組名にもなっている。1971年から続く老舗番組"
+    },
+    "frequency": 240,
+    "cefr": "B1"
+  },
+  {
+    "id": 8,
+    "word": "allow",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を許可する", "pos": "verb" },
+      { "meaning": "〜を可能にする", "pos": "verb" }
+    ],
+    "pronunciation": "/əˈlaʊ/",
+    "syllables": "al-low",
+    "audioHint": "アラウ",
+    "examples": [
+      {
+        "en": "The teacher allowed students to use dictionaries during the test.",
+        "ja": "先生はテスト中に生徒が辞書を使うことを許可した。",
+        "blank": "The teacher ___ students to use dictionaries during the test.",
+        "blankAnswer": "allowed"
+      }
+    ],
+    "distractors": ["〜を要求する", "〜を制限する", "〜を含む"],
+    "confusableSpellings": ["alow", "alowe"],
+    "passive": {
+      "etymology": "古フランス語 alouer（承認する）が語源。ラテン語 allaudare（称賛する）と allocare（割り当てる）が混ざって生まれた語",
+      "tips": "allow + 目的語 + to do の構文が重要。'allow him to go'（彼が行くことを許可する）。受動態 'be allowed to do'（〜することを許可されている）も頻出",
+      "confusables": "allow vs. permit: permit はより公式・法的なニュアンス。'Smoking is not permitted here'（標識）vs. 'My parents don't allow me to smoke'（日常会話）",
+      "collocations": ["allow access", "not allowed", "allow time for", "tax allowance"],
+      "trivia": "空港の 'Not allowed beyond this point' は「立入禁止」の意。英語圏では allow / not allowed が禁止表示に多用され、日本語の「禁止」より柔らかいニュアンスを持つ"
+    },
+    "frequency": 280,
+    "cefr": "A2"
+  },
+  {
+    "id": 9,
+    "word": "suggest",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を提案する", "pos": "verb" },
+      { "meaning": "〜を示唆する", "pos": "verb" }
+    ],
+    "pronunciation": "/səˈdʒɛst/",
+    "syllables": "sug-gest",
+    "audioHint": "サジェスト",
+    "examples": [
+      {
+        "en": "She suggested going to a new restaurant for dinner.",
+        "ja": "彼女は夕食に新しいレストランに行くことを提案した。",
+        "blank": "She ___ going to a new restaurant for dinner.",
+        "blankAnswer": "suggested"
+      }
+    ],
+    "distractors": ["〜を意味する", "〜を考慮する", "〜を主張する"],
+    "confusableSpellings": ["sugest", "suggets"],
+    "passive": {
+      "etymology": "ラテン語 suggerere（下から運ぶ）が語源。sub-（下から）+ gerere（運ぶ）→ アイデアを「持ち込む」→ 提案する",
+      "tips": "suggest + doing（提案する）と suggest + that節の形に注意。that節では仮定法現在を使う：'I suggest that he go'（goes ではなく go が正しい）",
+      "confusables": "suggest vs. recommend: suggest はアイデアを出すだけ、recommend はより強く「これが良い」と推薦するニュアンス。recommend の方が話者の確信が強い",
+      "collocations": ["suggest a solution", "as suggested", "strongly suggest", "suggest that"],
+      "trivia": "スマートフォンのキーボード予測変換機能は英語で 'text suggestion' や 'autocomplete'。日本語の「サジェスト機能」はこの suggest から来ている"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 10,
+    "word": "produce",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を生産する", "pos": "verb" },
+      { "meaning": "〜を引き起こす", "pos": "verb" }
+    ],
+    "pronunciation": "/prəˈduːs/",
+    "syllables": "pro-duce",
+    "audioHint": "プロデュース",
+    "examples": [
+      {
+        "en": "This factory produces over 1,000 cars per day.",
+        "ja": "この工場は1日に1,000台以上の車を生産する。",
+        "blank": "This factory ___ over 1,000 cars per day.",
+        "blankAnswer": "produces"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を含む", "〜を許可する"],
+    "confusableSpellings": ["produse", "produc"],
+    "passive": {
+      "etymology": "ラテン語 producere（前に引き出す）が語源。pro-（前に）+ ducere（導く）→ 完成品を「前に出す」→ 生産する。conduct, educate, introduce も同根",
+      "tips": "produce は動詞（/prəˈduːs/）と名詞（/ˈproʊduːs/）でアクセントが変わる重要な単語。名詞のとき「農産物」の意味（fresh produce = 新鮮な野菜・果物）",
+      "confusables": "produce vs. manufacture: produce はより広義（農業・工業・芸術すべて）、manufacture は機械的な大量生産に限定的。'produce a film' vs. 'manufacture cars'",
+      "collocations": ["produce results", "mass production", "produce evidence", "locally produced"],
+      "trivia": "映画の 'producer'（プロデューサー）は文字通り「作品を作り出す人」。音楽プロデューサーも同様で、日本語にもそのままカタカナで定着している"
+    },
+    "frequency": 295,
+    "cefr": "B1"
+  },
+  {
+    "id": 11,
+    "word": "decide",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を決定する", "pos": "verb" },
+      { "meaning": "決心する", "pos": "verb" }
+    ],
+    "pronunciation": "/dɪˈsaɪd/",
+    "syllables": "de-cide",
+    "audioHint": "ディサイド",
+    "examples": [
+      {
+        "en": "We decided to move to a bigger apartment.",
+        "ja": "私たちはもっと広いアパートに引っ越すことに決めた。",
+        "blank": "We ___ to move to a bigger apartment.",
+        "blankAnswer": "decided"
+      }
+    ],
+    "distractors": ["〜を提案する", "〜を考慮する", "〜を意味する"],
+    "confusableSpellings": ["decied", "desidee"],
+    "passive": {
+      "etymology": "ラテン語 decidere（切り落とす）が語源。de-（完全に）+ caedere（切る）→ 迷いを「断ち切る」→ 決断する。homicide（殺人）の -cide と同根",
+      "tips": "decide + to do（〜することを決める）は正しいが、decide + doing はNG。'I decided doing it' は誤り。decide + that節は正しい",
+      "confusables": "decide vs. determine: determine はより強い意志・客観的・公的な決定のニュアンス。'The court determined...' は判決を下す意味で使われる",
+      "collocations": ["decide to", "can't decide", "finally decided", "decision-making"],
+      "trivia": "古代ローマの言葉 'Alea iacta est'（賽は投げられた）はカエサルの言葉とされる。この「一度切ったら戻れない」感覚が decide（切り落とす）の語源と重なる"
+    },
+    "frequency": 320,
+    "cefr": "A2"
+  },
+  {
+    "id": 12,
+    "word": "offer",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を提供する", "pos": "verb" },
+      { "meaning": "申し出る", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈɔːfər/",
+    "syllables": "of-fer",
+    "audioHint": "オファー",
+    "examples": [
+      {
+        "en": "The company offered her a salary of $80,000 per year.",
+        "ja": "その会社は彼女に年収8万ドルのオファーを出した。",
+        "blank": "The company ___ her a salary of $80,000 per year.",
+        "blankAnswer": "offered"
+      }
+    ],
+    "distractors": ["〜を要求する", "〜を許可する", "〜を生産する"],
+    "confusableSpellings": ["ofer", "offere"],
+    "passive": {
+      "etymology": "ラテン語 offerre（前に運ぶ）が語源。ob-（前に）+ ferre（運ぶ）→ 相手の前に差し出す → 提供する。同根語に transfer, prefer, refer など",
+      "tips": "offer + 人 + 物（二重目的語）の構文が重要。'offer him a job' = 'offer a job to him'。offer + to do（申し出る）も頻出パターン",
+      "confusables": "offer vs. provide: offer は相手が受け入れるかどうか選べる、provide はより確実に供給するニュアンス。'offer help'（申し出る）vs. 'provide support'（確実に提供）",
+      "collocations": ["job offer", "offer a discount", "offer assistance", "make an offer"],
+      "trivia": "不動産業界で 'offer' は「購入申込書」の意味。'The seller accepted our offer' は売り手が買い手の提示価格を承諾したこと。交渉の核心となる語"
+    },
+    "frequency": 340,
+    "cefr": "A2"
+  },
+  {
+    "id": 13,
+    "word": "require",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を必要とする", "pos": "verb" },
+      { "meaning": "〜を要求する", "pos": "verb" }
+    ],
+    "pronunciation": "/rɪˈkwaɪər/",
+    "syllables": "re-quire",
+    "audioHint": "リクワイア",
+    "examples": [
+      {
+        "en": "The job requires at least five years of experience.",
+        "ja": "その仕事は少なくとも5年の経験を必要とする。",
+        "blank": "The job ___ at least five years of experience.",
+        "blankAnswer": "requires"
+      }
+    ],
+    "distractors": ["〜を提供する", "〜を許可する", "〜を生産する"],
+    "confusableSpellings": ["requir", "reqiure"],
+    "passive": {
+      "etymology": "ラテン語 requirere（求め直す）が語源。re-（再び）+ quaerere（探す・求める）。question や query、acquire も同じ quaerere から",
+      "tips": "require + to do（必要とする）と require + that節（要求する）の使い分けに注意。that節では仮定法現在も使われる：'The law requires that everyone be insured'",
+      "confusables": "require vs. need: require はよりフォーマル・客観的（法的義務・条件）、need は日常的・主観的。'Passport required'（公式掲示）vs. 'I need help'（日常会話）",
+      "collocations": ["require attention", "required documents", "requirements for", "no experience required"],
+      "trivia": "求人広告の 'No experience required' は未経験者歓迎の定番フレーズ。逆に 'X years of experience required' はその年数が絶対条件であることを明示する"
+    },
+    "frequency": 380,
+    "cefr": "B1"
+  },
+  {
+    "id": 14,
+    "word": "share",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      { "meaning": "〜を共有する", "pos": "verb" },
+      { "meaning": "〜を分かち合う", "pos": "verb" }
+    ],
+    "pronunciation": "/ʃɛr/",
+    "syllables": "share",
+    "audioHint": "シェア",
+    "examples": [
+      {
+        "en": "They shared their experiences during the meeting.",
+        "ja": "彼らは会議中に自分たちの経験を共有した。",
+        "blank": "They ___ their experiences during the meeting.",
+        "blankAnswer": "shared"
+      }
+    ],
+    "distractors": ["〜を助ける", "〜を説得する", "〜を支持する"],
+    "confusableSpellings": ["shaer", "shair"],
+    "passive": {
+      "etymology": "古英語 scaru（切り分けた部分）が語源。sceran（切る）と同根で、もともと「一つのものを切り分ける」→「分け合う」という意味",
+      "tips": "share は「持っているものを一緒に使う」と「情報・気持ちを伝える」両方の意味がある。'share a room'（部屋を一緒に使う）と 'share a story'（話を伝える）",
+      "confusables": "share vs. divide: share は協力的・ポジティブなニュアンス（みんなで分け合う）、divide は単純に分割する（divide equally）。divide にはやや機械的なイメージ",
+      "collocations": ["market share", "share a meal", "share your thoughts", "share a common goal"],
+      "trivia": "SNSのシェアボタンは英語でそのまま 'Share'。Facebookが普及させた使い方で、情報を広める・拡散するという意味のデジタル用語として世界に定着した"
+    },
+    "frequency": 420,
+    "cefr": "A1"
+  },
+  {
+    "id": 15,
+    "word": "store",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を保存する", "pos": "verb" },
+      { "meaning": "〜を蓄積する", "pos": "verb" }
+    ],
+    "pronunciation": "/stɔːr/",
+    "syllables": "store",
+    "audioHint": "ストア",
+    "examples": [
+      {
+        "en": "You can store files in the cloud for easy access.",
+        "ja": "簡単にアクセスできるようにファイルをクラウドに保存できます。",
+        "blank": "You can ___ files in the cloud for easy access.",
+        "blankAnswer": "store"
+      }
+    ],
+    "distractors": ["〜を生産する", "〜を含む", "〜を提供する"],
+    "confusableSpellings": ["stoar", "stor"],
+    "passive": {
+      "etymology": "ラテン語 instaurare（補充する）が語源。古フランス語 estorer を経由。もともと「補給品を積み込む」という軍事・航海用語だった",
+      "tips": "store は動詞（保存する）と名詞（店・倉庫）両用。'store data'（データを保存）と 'go to the store'（店に行く）を文脈で区別する",
+      "confusables": "store vs. save: コンピュータの文脈では store はより恒久的な保存（ストレージ等）、save は現在の作業を保存する動作。'save a file' vs. 'store in the database'",
+      "collocations": ["store data", "department store", "convenience store", "in store for"],
+      "trivia": "'What's in store for us?'（私たちに何が待ち受けているか？）の store は「蓄え」の意味。未来に「貯蔵されている」ものを問う慣用表現として定着している"
+    },
+    "frequency": 450,
+    "cefr": "A2"
+  },
+  {
+    "id": 16,
+    "word": "tend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜する傾向がある", "pos": "verb" },
+      { "meaning": "〜の世話をする", "pos": "verb" }
+    ],
+    "pronunciation": "/tɛnd/",
+    "syllables": "tend",
+    "audioHint": "テンド",
+    "examples": [
+      {
+        "en": "Children tend to learn languages faster than adults.",
+        "ja": "子どもは大人よりも言語を速く習得する傾向がある。",
+        "blank": "Children ___ to learn languages faster than adults.",
+        "blankAnswer": "tend"
+      }
+    ],
+    "distractors": ["〜を決定する", "〜を考慮する", "〜を主張する"],
+    "confusableSpellings": ["tand", "tennd"],
+    "passive": {
+      "etymology": "ラテン語 tendere（伸ばす・向かう）が語源。'tend to'（〜に向かう傾向）は方向性を示すイメージ。attend, extend, intend, pretend もすべて同根",
+      "tips": "tend + to do で「〜する傾向がある」。tend + 名詞で「世話をする」（tend a garden = 庭の世話をする）。2つの意味を混同しないよう注意",
+      "confusables": "tend to vs. be likely to: tend to は習慣的・反復的傾向、be likely to は一回限りの可能性。'She tends to be late'（いつも遅い）vs. 'She's likely to be late today'（今日は遅そう）",
+      "collocations": ["tend to be", "tend toward", "tend a fire", "tendency to"],
+      "trivia": "bartender（バーテンダー）の -tender は「世話をする人」の意味。bar（酒場）を tend（世話する）人 = バーテンダー。tender には「優しい」という形容詞の意味もある"
+    },
+    "frequency": 480,
+    "cefr": "B1"
+  },
+  {
+    "id": 17,
+    "word": "concern",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜に関係する", "pos": "verb" },
+      { "meaning": "〜を心配させる", "pos": "verb" }
+    ],
+    "pronunciation": "/kənˈsɜːrn/",
+    "syllables": "con-cern",
+    "audioHint": "コンサーン",
+    "examples": [
+      {
+        "en": "This issue concerns all of us equally.",
+        "ja": "この問題は私たち全員に等しく関係している。",
+        "blank": "This issue ___ all of us equally.",
+        "blankAnswer": "concerns"
+      }
+    ],
+    "distractors": ["〜を意味する", "〜を提案する", "〜を考慮する"],
+    "confusableSpellings": ["consern", "concen"],
+    "passive": {
+      "etymology": "ラテン語 concernere（ふるいにかける）が語源。con-（一緒に）+ cernere（分ける・識別する）→ 物事を仕分けして関係を明確にする",
+      "tips": "'As far as I'm concerned'（私に関する限り）は会話でよく使う慣用表現。be concerned about〜（心配）と be concerned with〜（関係している）の前置詞の違いに注意",
+      "confusables": "concern vs. worry: concern はより広義・社会的な懸念、worry はより個人的・感情的な心配。'environmental concern'（環境問題への懸念）vs. 'I worry about my health'",
+      "collocations": ["concern about", "as far as I'm concerned", "major concern", "cause for concern"],
+      "trivia": "ビジネス英語の 'going concern'（継続企業）は「倒産せずに事業を続けている企業」の会計用語。財務諸表の基本的前提として世界中の会計士が使う表現"
+    },
+    "frequency": 520,
+    "cefr": "B1"
+  },
+  {
+    "id": 18,
+    "word": "describe",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を説明する", "pos": "verb" },
+      { "meaning": "〜を描写する", "pos": "verb" }
+    ],
+    "pronunciation": "/dɪˈskraɪb/",
+    "syllables": "de-scribe",
+    "audioHint": "ディスクライブ",
+    "examples": [
+      {
+        "en": "Can you describe what the suspect looked like?",
+        "ja": "容疑者の外見を説明してもらえますか？",
+        "blank": "Can you ___ what the suspect looked like?",
+        "blankAnswer": "describe"
+      }
+    ],
+    "distractors": ["〜を提案する", "〜を考慮する", "〜を意味する"],
+    "confusableSpellings": ["discribe", "descrbe"],
+    "passive": {
+      "etymology": "ラテン語 describere（書き写す）が語源。de-（下に）+ scribere（書く）→ 詳細を書き記す → 描写する。script, scripture, prescribe, subscribe も同根",
+      "tips": "describe + 人/物 + as...（〜として描写する）の構文が重要。'She described him as very kind'（彼女は彼をとても親切だと表現した）のSVOC構文",
+      "confusables": "describe vs. explain: describe は外見・状態を言葉で「描く」、explain は原因・理由・仕組みを「説明する」。'Describe what happened'（状況）vs. 'Explain why'（理由）",
+      "collocations": ["describe in detail", "best described as", "describe yourself", "hard to describe"],
+      "trivia": "警察の 'suspect description'（容疑者の人相書き）はまさに description（describe の名詞形）を使う。英語のポリスドラマで 'Get a description!' はよく聞くセリフ"
+    },
+    "frequency": 540,
+    "cefr": "B1"
+  },
+  {
+    "id": 19,
+    "word": "involve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を含む", "pos": "verb" },
+      { "meaning": "〜を巻き込む", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪnˈvɒlv/",
+    "syllables": "in-volve",
+    "audioHint": "インヴォルヴ",
+    "examples": [
+      {
+        "en": "The job involves a lot of travel and long hours.",
+        "ja": "その仕事には多くの出張と長時間労働が伴う。",
+        "blank": "The job ___ a lot of travel and long hours.",
+        "blankAnswer": "involves"
+      }
+    ],
+    "distractors": ["〜を許可する", "〜を要求する", "〜を提供する"],
+    "confusableSpellings": ["envolve", "invole"],
+    "passive": {
+      "etymology": "ラテン語 involvere（包み込む）が語源。in-（中に）+ volvere（回転させる）→ 中に巻き込む。revolve, evolve, volume, revolution も同じ volvere から",
+      "tips": "involve + doing（〜することを含む）が重要な構文。'This job involves traveling'（この仕事には出張が含まれる）。be involved in〜（〜に関わっている）も頻出",
+      "confusables": "involve vs. include: involve はより深い関与・影響のニュアンス（ネガティブな文脈でも使う）、include は単に一部として含む。'involved in an accident'（巻き込まれた）",
+      "collocations": ["involve risk", "get involved", "be involved in", "involve a lot of"],
+      "trivia": "恋愛用語で 'We're involved'（私たちは付き合っている）というぼかした表現がある。「関係している」という曖昧さを活かした使い方で、英語圏のドラマに頻出"
+    },
+    "frequency": 360,
+    "cefr": "B1"
+  },
+  {
+    "id": 20,
+    "word": "reduce",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を減らす", "pos": "verb" },
+      { "meaning": "〜を縮小する", "pos": "verb" }
+    ],
+    "pronunciation": "/rɪˈduːs/",
+    "syllables": "re-duce",
+    "audioHint": "リデュース",
+    "examples": [
+      {
+        "en": "We need to reduce our carbon footprint to fight climate change.",
+        "ja": "気候変動に対抗するために炭素排出量を減らす必要がある。",
+        "blank": "We need to ___ our carbon footprint to fight climate change.",
+        "blankAnswer": "reduce"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を生産する", "〜を創造する"],
+    "confusableSpellings": ["reduse", "reducee"],
+    "passive": {
+      "etymology": "ラテン語 reducere（引き戻す）が語源。re-（戻す）+ ducere（導く）→ 量を元に引き戻す → 減らす。produce, introduce, educate も同じ ducere から",
+      "tips": "reduce は「量・程度を少なくする」ニュアンス。decrease より書き言葉・フォーマルな印象。'reduce costs/risks/pollution' のように問題点を減らす文脈でよく使う",
+      "confusables": "reduce vs. decrease: ほぼ同義だが、reduce は他動詞が自然（reduce the cost）、decrease は自動詞でも使いやすい（costs decreased）",
+      "collocations": ["reduce costs", "reduce risk", "reduce waste", "reduce carbon emissions"],
+      "trivia": "環境スローガン '3R'（Reduce, Reuse, Recycle）の最初の R がこの reduce。1970年代のエコロジー運動から広まり、今や世界共通語となった環境活動の合言葉"
+    },
+    "frequency": 390,
+    "cefr": "B1"
+  }
+]

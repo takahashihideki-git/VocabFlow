@@ -99,6 +99,15 @@ word_id 1900: zealous
   confusableSpellings: [String],  // よくあるスペルミス 例: ["abanden", "abondon"]
   // phonetic match 判定の参考データ
   
+  // === Passive カード用読み物コンテンツ ===
+  passive: {
+    etymology: String,       // 語源解説 例: "a-（離れて）+ bandon（支配）→ 支配を手放す → 放棄する"
+    tips: String,            // 使い方のコツ、ニュアンス 例: "abandon は「完全に」諦めるニュアンス。give up より強い"
+    confusables: String,     // 紛らわしい語との比較 例: "abandon vs. desert: desert は義務を放棄する意味合いが強い"
+    collocations: [String],  // よく一緒に使われる語句 例: ["abandon hope", "abandon a plan", "abandon ship"]
+    trivia: String,          // トリビア・文化的背景 例: "タイタニック号の船長は 'Abandon ship!' の命令を出さなかったと言われている"
+  },
+  
   // === メタデータ ===
   frequency: Number,       // 頻度ランク（COCA/BNC等。低い数字ほど高頻度）
   cefr: String,            // CEFRレベル推定: "A1"|"A2"|"B1"|"B2"|"C1"|"C2"
@@ -115,7 +124,7 @@ word_id 1900: zealous
 | **Recall** | examples[0].blank, examples[0].blankAnswer, examples[0].ja |
 | **Dictation** | word, pronunciation, confusableSpellings |
 | **Handwrite** | word, pronunciation, confusableSpellings |
-| **Passive** | examples[].en（既知語をハイライト表示するのに word を参照） |
+| **Passive** | passive.etymology, passive.tips, passive.confusables, passive.collocations, passive.trivia（ランダムに1つ選んで表示）。word をハイライト |
 
 ### 2.3 最小限スキーマ（プロトタイプ初期段階用）
 
@@ -225,6 +234,13 @@ Claude API を使ってバッチ処理で全単語のデータを生成する。
   ],
   "distractors": ["ダミー意味1", "ダミー意味2", "ダミー意味3"],
   "confusableSpellings": ["よくあるスペルミス1", "よくあるスペルミス2"],
+  "passive": {
+    "etymology": "語源の解説（接頭辞・語根の分解）",
+    "tips": "使い方のコツ、日本人が間違えやすいポイント",
+    "confusables": "紛らわしい語との比較・使い分け",
+    "collocations": ["頻出コロケーション1", "コロケーション2", "コロケーション3"],
+    "trivia": "文化的背景やトリビア（TikTok的な『へぇ』感を意識）"
+  },
   "frequency": COCA頻度順位の推定値,
   "cefr": "CEFRレベル推定"
 }
@@ -235,6 +251,11 @@ Claude API を使ってバッチ処理で全単語のデータを生成する。
 - distractors は正解と紛らわしいが明確に区別できるものを選ぶこと
 - confusableSpellings は日本人学習者が犯しやすいスペルミスを含めること
 - blankAnswer は文脈に応じた活用形（三単現のs、過去形、進行形等）にすること
+- passive の各フィールドは日本語で記述すること
+- passive.etymology は接頭辞・語根の分解を含め、可能なら日本語のカタカナ語との関連に触れること
+- passive.tips は日本人英語学習者が実際に間違えやすいポイントに焦点を当てること
+- passive.trivia は堅くなりすぎず、「へぇ」と思える内容にすること
+- passive の全フィールドが書けない場合は、書けるものだけでよい
 
 JSONのみを出力してください。
 ```
@@ -352,11 +373,39 @@ function selectDistractors(targetWord, learnerState, wordData) {
 - blankAnswer に正確な活用形を記録する
 - 文中の他の単語が手がかりになる構造（時制のヒント等）
 
-### 5.3 Passive用例文
+### 5.3 Passive カードコンテンツ
 
-- Introと異なる例文が望ましい（同じ例文だと記憶の強化にならない）
-- 対象単語が含まれるが、それ自体がテスト対象ではない
-- より長く、より自然な文脈（20語程度まで可）
+Passive カードはテストではなく「読み物」として機能する。フィード内のテストカードの間に挟まることで、スクロールの単調さを緩和し、エピソード記憶のフックを提供する。
+
+**コンテンツ種別と品質要件:**
+
+**etymology（語源）:**
+- 接頭辞・接尾辞・語根の分解を示す
+- 日本人学習者にとって馴染みのあるカタカナ語や漢字語との関連があれば言及する
+- 例: "abandon: a-（離れて）+ bandon（支配、ban と同根）→ 支配を手放す → 放棄する"
+
+**tips（使い方のコツ）:**
+- 日本人が間違えやすいポイントに焦点を当てる
+- 類義語との使い分け、可算/不可算、前置詞の選択など
+- 例: "evidence は不可算名詞。a piece of evidence とは言うが、an evidence とは言わない"
+
+**confusables（紛らわしい語との比較）:**
+- スペル・意味・発音が似ている語のペアを解説
+- 例: "affect（動詞: 影響する）vs. effect（名詞: 効果）。'A comes before E' で覚える"
+
+**collocations（コロケーション）:**
+- 3〜5個の頻出コロケーションをリスト
+- 例: ["make a decision", "reach a decision", "final decision"]
+
+**trivia（トリビア・文化的背景）:**
+- 学習者の興味を引く雑学・エピソード
+- 堅くなりすぎず、TikTok的な「へぇ」感を意識する
+- 例: "democracy はギリシャ語の demos（民衆）+ kratos（力）。古代アテナイでは女性と奴隷に参政権はなかった"
+
+**表示ルール:**
+- 1回の Passive カード表示では、上記コンテンツからランダムに1つを選んで表示する
+- 同じ単語の Passive が複数回出現する場合、前回と異なる種別を優先的に選ぶ
+- すべての種別が揃っていなくてもよい。最低1つあれば Passive カードとして機能する
 
 ---
 

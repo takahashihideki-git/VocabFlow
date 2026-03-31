@@ -1,0 +1,642 @@
+[
+  {
+    "id": 21,
+    "word": "design",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を設計する", "pos": "verb" },
+      { "meaning": "〜をデザインする", "pos": "verb" }
+    ],
+    "pronunciation": "/dɪˈzaɪn/",
+    "syllables": "de-sign",
+    "audioHint": "ディザイン",
+    "examples": [
+      {
+        "en": "She designed the new logo for the company.",
+        "ja": "彼女は会社の新しいロゴをデザインした。",
+        "blank": "She ___ the new logo for the company.",
+        "blankAnswer": "designed"
+      }
+    ],
+    "distractors": ["〜を創造する", "〜を改善する", "〜を生産する"],
+    "confusableSpellings": ["desing", "dezign"],
+    "passive": {
+      "etymology": "ラテン語 designare（印をつける）が語源。de-（完全に）+ signare（印をつける）→ sign（サイン・署名）と同根",
+      "tips": "design は動詞・名詞両用。「デザイン」はカタカナ語として定着しているが、英語では「視覚的設計」だけでなく「機能的設計」（system design）の意味も強い",
+      "confusables": "design vs. plan: design は視覚的・構造的な設計、plan はより抽象的な計画。'design a building'（設計）vs. 'plan a trip'（計画）",
+      "collocations": ["graphic design", "design a system", "by design", "interior design"],
+      "trivia": "スティーブ・ジョブズの名言 'Design is not just what it looks like. Design is how it works.'（デザインとは見た目だけではない。機能することがデザインだ）は有名"
+    },
+    "frequency": 410,
+    "cefr": "A2"
+  },
+  {
+    "id": 22,
+    "word": "force",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を強制する", "pos": "verb" },
+      { "meaning": "〜を力ずくで動かす", "pos": "verb" }
+    ],
+    "pronunciation": "/fɔːrs/",
+    "syllables": "force",
+    "audioHint": "フォース",
+    "examples": [
+      {
+        "en": "The storm forced us to cancel the outdoor event.",
+        "ja": "嵐によって屋外イベントをキャンセルせざるを得なかった。",
+        "blank": "The storm ___ us to cancel the outdoor event.",
+        "blankAnswer": "forced"
+      }
+    ],
+    "distractors": ["〜を許可する", "〜を要求する", "〜を含む"],
+    "confusableSpellings": ["forse", "froce"],
+    "passive": {
+      "etymology": "ラテン語 fortis（強い）が語源。古フランス語 force を経由。'May the Force be with you'（スター・ウォーズ）で世界的に知られる語",
+      "tips": "force + 目的語 + to do の構文が重要。'force him to apologize'（謝らせる）。be forced to do（〜せざるを得ない）は受動態でも頻出",
+      "confusables": "force vs. compel: どちらも「強制する」だが、compel はより法的・義務的なニュアンス。'compelled by law'（法律で義務付けられた）vs. 'forced by circumstances'（状況に迫られた）",
+      "collocations": ["force a change", "be forced to", "task force", "force of habit"],
+      "trivia": "'force of habit'（習慣の力）は「惰性でやってしまう」という慣用表現。'I did it out of force of habit'（習慣でつい）は日常会話でよく使われる"
+    },
+    "frequency": 460,
+    "cefr": "B1"
+  },
+  {
+    "id": 23,
+    "word": "limit",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を制限する", "pos": "verb" },
+      { "meaning": "〜を限定する", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈlɪmɪt/",
+    "syllables": "lim-it",
+    "audioHint": "リミット",
+    "examples": [
+      {
+        "en": "The doctor told him to limit his sugar intake.",
+        "ja": "医者は彼に砂糖の摂取量を制限するよう伝えた。",
+        "blank": "The doctor told him to ___ his sugar intake.",
+        "blankAnswer": "limit"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を許可する", "〜を要求する"],
+    "confusableSpellings": ["limt", "limmit"],
+    "passive": {
+      "etymology": "ラテン語 limes（境界線）が語源。もともとローマ帝国の国境線を指す軍事用語。limitless（無限の）はその否定形",
+      "tips": "limit + 名詞で「〜を制限する」、be limited to〜（〜に限定されている）も重要。名詞としても多用：'speed limit'（制限速度）、'time limit'（制限時間）",
+      "confusables": "limit vs. restrict: limit は量・程度に上限を設ける、restrict はより広く「制約をかける」ニュアンス。'limit speed to 60km' vs. 'restrict access to the area'",
+      "collocations": ["speed limit", "time limit", "limit access", "within limits"],
+      "trivia": "映画『Limitless』（2011）は脳の能力の「限界」を取り除く薬の話。英語に 'the sky is the limit'（可能性は無限大）という慣用表現もある"
+    },
+    "frequency": 490,
+    "cefr": "A2"
+  },
+  {
+    "id": 24,
+    "word": "bear",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      { "meaning": "〜に耐える", "pos": "verb" },
+      { "meaning": "〜を運ぶ", "pos": "verb" }
+    ],
+    "pronunciation": "/bɛr/",
+    "syllables": "bear",
+    "audioHint": "ベア",
+    "examples": [
+      {
+        "en": "She couldn't bear the loud noise any longer.",
+        "ja": "彼女はその騒音にもう耐えられなかった。",
+        "blank": "She couldn't ___ the loud noise any longer.",
+        "blankAnswer": "bear"
+      }
+    ],
+    "distractors": ["〜を感じる", "〜を押す", "〜を引っ張る"],
+    "confusableSpellings": ["baer", "beare"],
+    "passive": {
+      "etymology": "古英語 beran（運ぶ・産む）が語源。動物の「クマ（bear）」とは別語源（古英語 bera）。同じつづりで全く異なる起源を持つ",
+      "tips": "bear は不規則動詞：bear - bore - born/borne。'She bore a child'（子を産んだ・過去形）と 'She was born in Tokyo'（生まれた・受動態）の使い分けに注意",
+      "confusables": "can't bear vs. can't stand vs. can't tolerate: インフォーマル度の違い。'can't bear'（感情的な耐えられなさ）、'can't stand'（口語的）、'can't tolerate'（フォーマル）",
+      "collocations": ["bear in mind", "bear the cost", "bear fruit", "can't bear"],
+      "trivia": "'bear fruit'（実を結ぶ）は「努力が報われる」という比喩表現。'Their hard work finally bore fruit.'（努力がついに実を結んだ）はビジネス文書でも使われる"
+    },
+    "frequency": 560,
+    "cefr": "B1"
+  },
+  {
+    "id": 25,
+    "word": "affect",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜に影響を与える", "pos": "verb" },
+      { "meaning": "〜を感動させる", "pos": "verb" }
+    ],
+    "pronunciation": "/əˈfɛkt/",
+    "syllables": "af-fect",
+    "audioHint": "アフェクト",
+    "examples": [
+      {
+        "en": "The rainy weather affected our mood all day.",
+        "ja": "雨模様の天気が一日中私たちの気分に影響した。",
+        "blank": "The rainy weather ___ our mood all day.",
+        "blankAnswer": "affected"
+      }
+    ],
+    "distractors": ["〜を制限する", "〜を必要とする", "〜を生産する"],
+    "confusableSpellings": ["efect", "affact"],
+    "passive": {
+      "etymology": "ラテン語 afficere（影響を与える）が語源。ad-（〜に）+ facere（する）→ 何かに作用する",
+      "tips": "affect（動詞: 影響する）と effect（名詞: 効果・結果）の混同は英語学習者の最大の落とし穴の一つ。'Stress affects health'（動詞）、'the effect of stress'（名詞）",
+      "confusables": "affect vs. effect: affect は動詞「影響する」、effect は名詞「効果・結果」。例外的に effect が動詞（変化をもたらす）として使われることもあるが、まず動詞＝affect と覚える",
+      "collocations": ["adversely affect", "affect the outcome", "deeply affected", "affect one's health"],
+      "trivia": "心理学用語で 'affect'（アフェクト）は「感情・情動」を指す名詞としても使われる。'flat affect'（感情の平板化）は精神医学の診断用語"
+    },
+    "frequency": 370,
+    "cefr": "B1"
+  },
+  {
+    "id": 26,
+    "word": "deal",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "対処する", "pos": "verb" },
+      { "meaning": "〜を扱う", "pos": "verb" }
+    ],
+    "pronunciation": "/diːl/",
+    "syllables": "deal",
+    "audioHint": "ディール",
+    "examples": [
+      {
+        "en": "She learned how to deal with stress at work.",
+        "ja": "彼女は職場でのストレスへの対処法を学んだ。",
+        "blank": "She learned how to ___ with stress at work.",
+        "blankAnswer": "deal"
+      }
+    ],
+    "distractors": ["〜を生産する", "〜を含む", "〜を改善する"],
+    "confusableSpellings": ["dael", "deel"],
+    "passive": {
+      "etymology": "古英語 dǣlan（分配する）が語源。ドイツ語 teilen（分ける）と同根。カードを「配る」（deal cards）の意味もここから派生",
+      "tips": "'deal with'（〜に対処する）が最重要句動詞。'deal in'（〜を取引する）、'deal out'（配る）も覚える。名詞では 'a big deal'（重大なこと・大ごと）が口語で頻出",
+      "confusables": "deal with vs. handle: deal with は問題・状況に対処する、handle はより実務的・物理的に扱う。'deal with complaints'（苦情に対処）vs. 'handle fragile items'（壊れ物を扱う）",
+      "collocations": ["deal with", "big deal", "make a deal", "deal breaker"],
+      "trivia": "'It's a deal!'（決まり！）は契約成立の表現。'No deal'（合意なし）は2019年のBrexit交渉で連日ニュースを賑わせた政治用語"
+    },
+    "frequency": 430,
+    "cefr": "A2"
+  },
+  {
+    "id": 27,
+    "word": "avoid",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を避ける", "pos": "verb" },
+      { "meaning": "〜を回避する", "pos": "verb" }
+    ],
+    "pronunciation": "/əˈvɔɪd/",
+    "syllables": "a-void",
+    "audioHint": "アヴォイド",
+    "examples": [
+      {
+        "en": "Try to avoid making the same mistake twice.",
+        "ja": "同じミスを二度しないように心がけてください。",
+        "blank": "Try to ___ making the same mistake twice.",
+        "blankAnswer": "avoid"
+      }
+    ],
+    "distractors": ["〜を許可する", "〜を含む", "〜を要求する"],
+    "confusableSpellings": ["avoit", "avoud"],
+    "passive": {
+      "etymology": "古フランス語 esvuidier（空にする）が語源。es-（外に）+ vuide（空）→ 「空にする・取り除く」→ 近づかないようにする → 避ける",
+      "tips": "avoid + doing（動名詞）を目的語に取る。'avoid to do' は誤り。'avoid doing the same thing'（同じことをするのを避ける）が正しい構文",
+      "confusables": "avoid vs. prevent: avoid は自分が〜しないようにする（自分の行動）、prevent は他者・事態が起こるのを止める（外部への作用）",
+      "collocations": ["avoid eye contact", "avoid mistakes", "avoid the topic", "tax avoidance"],
+      "trivia": "「避ける」の表現には dodge（ひらりとかわす）、evade（うまく逃れる）、shun（意図的に遠ざける）がある。avoid が最も中立的な語"
+    },
+    "frequency": 510,
+    "cefr": "B1"
+  },
+  {
+    "id": 28,
+    "word": "relate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を関連づける", "pos": "verb" },
+      { "meaning": "共感する", "pos": "verb" }
+    ],
+    "pronunciation": "/rɪˈleɪt/",
+    "syllables": "re-late",
+    "audioHint": "リレイト",
+    "examples": [
+      {
+        "en": "I can really relate to her feeling of loneliness.",
+        "ja": "彼女の孤独感はすごくよくわかる。",
+        "blank": "I can really ___ to her feeling of loneliness.",
+        "blankAnswer": "relate"
+      }
+    ],
+    "distractors": ["〜を意味する", "〜を考慮する", "〜を主張する"],
+    "confusableSpellings": ["relat", "rellate"],
+    "passive": {
+      "etymology": "ラテン語 relatus（報告された）が語源。re-（戻す）+ latus（運ばれた）→ 持ち帰って報告する → 関連づける",
+      "tips": "relate to は「共感できる」という口語的意味でよく使われる。'I can't relate'（よくわからない・共感できない）は若者言葉でも頻出。related to（〜に関連する）は形容詞として多用",
+      "confusables": "relate to vs. identify with: relate to はより広い「理解・共感」、identify with は「自分と同一視する」。'I relate to her struggles' vs. 'I identify with the main character'",
+      "collocations": ["relate to", "related to", "in relation to", "public relations"],
+      "trivia": "SNSや若者言葉で 'relatable'（共感できる）という形容詞が人気。'That's so relatable!'（めっちゃわかる！）は2010年代から急増したネット用語"
+    },
+    "frequency": 580,
+    "cefr": "B1"
+  },
+  {
+    "id": 29,
+    "word": "realize",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜に気づく", "pos": "verb" },
+      { "meaning": "〜を実現する", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈriːəlaɪz/",
+    "syllables": "re-al-ize",
+    "audioHint": "リアライズ",
+    "examples": [
+      {
+        "en": "She didn't realize how tired she was until she sat down.",
+        "ja": "座るまで、自分がどれだけ疲れているか気づかなかった。",
+        "blank": "She didn't ___ how tired she was until she sat down.",
+        "blankAnswer": "realize"
+      }
+    ],
+    "distractors": ["〜を考慮する", "〜を決定する", "〜を提案する"],
+    "confusableSpellings": ["relaize", "realze"],
+    "passive": {
+      "etymology": "ラテン語 realis（実際の）+ ize（〜する）が語源。「頭の中の概念を現実にする」→「実現する」→「現実として気づく」へと意味が拡張",
+      "tips": "2つの主要な意味を区別する。①気づく（I realized my mistake）②実現する（realize a dream）。日本語の「リアライズ」はほぼ②の意味でしか使われない点に注意",
+      "confusables": "realize vs. recognize: realize は「初めて気づく」、recognize は「知っていたものを再認識する」。'I realized I was wrong'（初めて悟った）vs. 'I recognized his face'（顔を見て思い出した）",
+      "collocations": ["realize a dream", "fully realize", "realize the importance of", "suddenly realize"],
+      "trivia": "アメリカ英語は 'realize'、イギリス英語は 'realise'（-ize と -ise の違い）。同様に organize/organise など多くの動詞でつづりが異なる"
+    },
+    "frequency": 430,
+    "cefr": "B1"
+  },
+  {
+    "id": 30,
+    "word": "encourage",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      { "meaning": "〜を励ます", "pos": "verb" },
+      { "meaning": "〜を促進する", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪnˈkɜːrɪdʒ/",
+    "syllables": "en-cour-age",
+    "audioHint": "インカレッジ",
+    "examples": [
+      {
+        "en": "Her teacher encouraged her to pursue a career in music.",
+        "ja": "先生は彼女が音楽の道を歩むよう励ました。",
+        "blank": "Her teacher ___ her to pursue a career in music.",
+        "blankAnswer": "encouraged"
+      }
+    ],
+    "distractors": ["〜を助ける", "〜を説得する", "〜を支持する"],
+    "confusableSpellings": ["encourge", "encorage"],
+    "passive": {
+      "etymology": "古フランス語 encoragier（勇気づける）が語源。en-（〜に）+ corage（勇気）→ courage（勇気）と同根。文字通り「勇気を入れる」",
+      "tips": "encourage + 目的語 + to do の構文が最重要。'encourage him to try'（挑戦するよう励ます）。encourage + 名詞/動名詞 も可：'encourage creativity'（創造性を促す）",
+      "confusables": "encourage vs. motivate: encourage はポジティブな言葉・行動で後押しする、motivate はより内発的な動機を引き出す。'encourage with kind words' vs. 'motivate with rewards'",
+      "collocations": ["encourage participation", "strongly encourage", "encouragement from", "encouraging signs"],
+      "trivia": "'encouragement'（励まし）の対義語は 'discouragement'（落胆させること）。dis- を付けるだけで意味が逆になる英語の prefix の典型例"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 31,
+    "word": "compare",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜を比較する", "pos": "verb" },
+      { "meaning": "〜にたとえる", "pos": "verb" }
+    ],
+    "pronunciation": "/kəmˈpɛr/",
+    "syllables": "com-pare",
+    "audioHint": "コンペア",
+    "examples": [
+      {
+        "en": "She compared prices online before buying the laptop.",
+        "ja": "ノートパソコンを買う前にオンラインで価格を比較した。",
+        "blank": "She ___ prices online before buying the laptop.",
+        "blankAnswer": "compared"
+      }
+    ],
+    "distractors": ["〜を意味する", "〜を提案する", "〜を描写する"],
+    "confusableSpellings": ["compair", "comparee"],
+    "passive": {
+      "etymology": "ラテン語 comparare（同等に置く）が語源。com-（一緒に）+ par（等しい）→ peer（仲間）やゴルフの par（パー）と同根",
+      "tips": "compare A with B（AとBを客観的に比較）と compare A to B（AをBにたとえる）の違いに注意。'Compare your answer with mine' vs. 'She compared him to a lion'",
+      "confusables": "compare vs. contrast: compare は類似点・相違点の両方を見る、contrast は相違点に焦点を当てる。'compare and contrast'（比較対照）はアカデミックライティングの定番表現",
+      "collocations": ["compare with", "beyond compare", "by comparison", "compared to"],
+      "trivia": "'beyond compare'（比類なき）は「他と比べることができないほど優れている」という慣用表現。シェイクスピアのソネットにも登場する古典的フレーズ"
+    },
+    "frequency": 560,
+    "cefr": "B1"
+  },
+  {
+    "id": 32,
+    "word": "measure",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を測定する", "pos": "verb" },
+      { "meaning": "〜を評価する", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈmɛʒər/",
+    "syllables": "meas-ure",
+    "audioHint": "メジャー",
+    "examples": [
+      {
+        "en": "She measured the room before buying new furniture.",
+        "ja": "新しい家具を買う前に部屋の寸法を測った。",
+        "blank": "She ___ the room before buying new furniture.",
+        "blankAnswer": "measured"
+      }
+    ],
+    "distractors": ["〜を設計する", "〜を生産する", "〜を含む"],
+    "confusableSpellings": ["messure", "meassure"],
+    "passive": {
+      "etymology": "ラテン語 mensura（測定）が語源。metiri（測る）から。meter（メートル）と同根で、すべて「測る」という概念でつながっている",
+      "tips": "measure は動詞・名詞両用。名詞では「対策・手段」の意味も重要（take measures = 対策を講じる）。'beyond measure'（計り知れないほど）という慣用表現も頻出",
+      "confusables": "measure vs. evaluate: measure は数値・量的な測定、evaluate はより質的・総合的な評価。'measure temperature'（温度を測る）vs. 'evaluate performance'（業績を評価する）",
+      "collocations": ["take measures", "measure success", "beyond measure", "tape measure"],
+      "trivia": "アメリカは現在もフィート・インチ・マイルを使う数少ない国の一つ。'Give them an inch and they'll take a mile.'（少し譲ると際限なく要求する）という慣用句も"
+    },
+    "frequency": 530,
+    "cefr": "B1"
+  },
+  {
+    "id": 33,
+    "word": "exist",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "存在する", "pos": "verb" },
+      { "meaning": "生存する", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪɡˈzɪst/",
+    "syllables": "ex-ist",
+    "audioHint": "イグジスト",
+    "examples": [
+      {
+        "en": "No direct evidence exists to support the theory.",
+        "ja": "その理論を裏付ける直接的な証拠は存在しない。",
+        "blank": "No direct evidence ___ to support the theory.",
+        "blankAnswer": "exists"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を含む", "〜を生産する"],
+    "confusableSpellings": ["exsist", "egzist"],
+    "passive": {
+      "etymology": "ラテン語 existere（出てくる・現れる）が語源。ex-（外に）+ sistere（立つ）→ 存在として「立ち現れる」",
+      "tips": "exist は自動詞のみ（目的語を取らない）。'It doesn't exist' は正しいが 'It doesn't exist the problem' は誤り。'existence of'（〜の存在）という名詞形もよく使う",
+      "confusables": "exist vs. live: exist は単に「存在する」という状態、live はより積極的に「生きる・生活する」。'Unicorns don't exist'（存在しない）vs. 'She lives alone'（一人で暮らしている）",
+      "collocations": ["still exists", "existence of", "cease to exist", "co-exist"],
+      "trivia": "哲学者デカルトの「我思う、ゆえに我あり」は英語で 'I think, therefore I am'。まさに existence（存在）の本質を問う言葉"
+    },
+    "frequency": 550,
+    "cefr": "B1"
+  },
+  {
+    "id": 34,
+    "word": "mark",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜に印をつける", "pos": "verb" },
+      { "meaning": "〜を示す", "pos": "verb" }
+    ],
+    "pronunciation": "/mɑːrk/",
+    "syllables": "mark",
+    "audioHint": "マーク",
+    "examples": [
+      {
+        "en": "Please mark the correct answer with a circle.",
+        "ja": "正しい答えに丸印をつけてください。",
+        "blank": "Please ___ the correct answer with a circle.",
+        "blankAnswer": "mark"
+      }
+    ],
+    "distractors": ["〜を設計する", "〜を測定する", "〜を生産する"],
+    "confusableSpellings": ["merk", "marc"],
+    "passive": {
+      "etymology": "古英語 mearc（境界・印）が語源。もともと国境（march）を「刻み込む」という意味から「印をつける」へと転じた",
+      "tips": "mark は多義語。①印をつける ②採点する（英国英語: mark an exam = 答案を採点する）③記念する（mark an anniversary）。文脈で判断",
+      "confusables": "mark vs. sign: mark は視覚的な「印・跡」、sign は意味を持つ「記号・標識」。'a mark on paper'（紙の跡）vs. 'a sign of rain'（雨の兆候）",
+      "collocations": ["mark an occasion", "question mark", "mark my words", "leave a mark"],
+      "trivia": "'Mark my words!'（私の言葉を覚えておけ！）は将来を予言するときの決まり文句。シェイクスピアの作品にも登場する古典的表現"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 35,
+    "word": "challenge",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜に挑む", "pos": "verb" },
+      { "meaning": "〜に異議を唱える", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈtʃælɪndʒ/",
+    "syllables": "chal-lenge",
+    "audioHint": "チャレンジ",
+    "examples": [
+      {
+        "en": "She challenged herself to learn a new skill every month.",
+        "ja": "彼女は毎月新しいスキルを習得することに挑んだ。",
+        "blank": "She ___ herself to learn a new skill every month.",
+        "blankAnswer": "challenged"
+      }
+    ],
+    "distractors": ["〜を設計する", "〜を強制する", "〜を制限する"],
+    "confusableSpellings": ["challange", "chalenge"],
+    "passive": {
+      "etymology": "古フランス語 chalengier（非難する・要求する）が語源。ラテン語 calumnia（中傷）から。もともとは「決闘を申し込む」という意味だった",
+      "tips": "challenge は日本語の「チャレンジ（挑戦）」とほぼ同じだが、「現状に異議を唱える」というニュアンスも強い。'challenge assumptions'（思い込みに疑問を呈する）",
+      "confusables": "challenge vs. difficulty: challenge はポジティブなニュアンス（乗り越えられる試練）、difficulty はよりネガティブ（単なる困難）。'It's a great challenge'（やりがい）vs. 'I'm having difficulty'（苦労している）",
+      "collocations": ["face a challenge", "challenging task", "rise to the challenge", "challenge the status quo"],
+      "trivia": "NASAの宇宙シャトル「チャレンジャー号」（Challenger）は1986年の事故で悲劇的に有名になった。challenge には「困難に立ち向かう」という意味が込められている"
+    },
+    "frequency": 470,
+    "cefr": "B1"
+  },
+  {
+    "id": 36,
+    "word": "depend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "〜次第である", "pos": "verb" },
+      { "meaning": "〜に依存する", "pos": "verb" }
+    ],
+    "pronunciation": "/dɪˈpɛnd/",
+    "syllables": "de-pend",
+    "audioHint": "ディペンド",
+    "examples": [
+      {
+        "en": "Your success depends on how hard you work.",
+        "ja": "あなたの成功はどれだけ努力するかにかかっている。",
+        "blank": "Your success ___ on how hard you work.",
+        "blankAnswer": "depends"
+      }
+    ],
+    "distractors": ["〜を意味する", "〜を考慮する", "〜を決定する"],
+    "confusableSpellings": ["depand", "deppend"],
+    "passive": {
+      "etymology": "ラテン語 dependere（ぶら下がる）が語源。de-（下に）+ pendere（ぶら下がる）→ pendant（ペンダント）と同根。「何かにぶら下がっている」→ 依存する",
+      "tips": "depend on（〜に依存する・〜次第）が基本形。'It depends'（場合による）は会話でよく使う返答。'That depends on the situation'（状況次第）",
+      "confusables": "depend on vs. rely on: depend on は客観的な依存関係、rely on は信頼を置いて頼る。'Results depend on the weather' vs. 'I rely on her advice'（彼女のアドバイスを頼りにしている）",
+      "collocations": ["depend on", "it depends", "independent of", "dependable"],
+      "trivia": "'independent'（独立した）の反対は 'dependent'（依存した）。アメリカの Independence Day（7月4日）はイギリスからの independence（独立）を祝う祝日"
+    },
+    "frequency": 520,
+    "cefr": "A2"
+  },
+  {
+    "id": 37,
+    "word": "object",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      { "meaning": "反対する", "pos": "verb" },
+      { "meaning": "異議を唱える", "pos": "verb" }
+    ],
+    "pronunciation": "/əbˈdʒɛkt/",
+    "syllables": "ob-ject",
+    "audioHint": "オブジェクト（動詞）",
+    "examples": [
+      {
+        "en": "Several members objected to the proposed changes.",
+        "ja": "何人かのメンバーが提案された変更に反対した。",
+        "blank": "Several members ___ to the proposed changes.",
+        "blankAnswer": "objected"
+      }
+    ],
+    "distractors": ["〜を提案する", "〜を考慮する", "〜を意味する"],
+    "confusableSpellings": ["obect", "objectt"],
+    "passive": {
+      "etymology": "ラテン語 objectum（前に投げられたもの）が語源。ob-（前に）+ jacere（投げる）→ 反論を「前に投げつける」→ 反対する",
+      "tips": "動詞の object は /əbˈdʒɛkt/、名詞の object は /ˈɒbdʒɪkt/ とアクセントが変わる。object to〜（〜に反対する）の前置詞 to を忘れずに",
+      "confusables": "object to vs. oppose: object to は特定の提案・行為に異議を唱える（局所的）、oppose はより広く「対立する立場」を取る（全般的）",
+      "collocations": ["object to", "I object!", "no objection", "raise an objection"],
+      "trivia": "法廷ドラマの 'Objection!'（異議あり！）はおなじみのフレーズ。'Sustained'（異議を認める）か 'Overruled'（異議を却下する）と裁判官が答えるシーンは映画の定番"
+    },
+    "frequency": 610,
+    "cefr": "B1"
+  },
+  {
+    "id": 38,
+    "word": "demand",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を要求する", "pos": "verb" },
+      { "meaning": "〜を必要とする", "pos": "verb" }
+    ],
+    "pronunciation": "/dɪˈmænd/",
+    "syllables": "de-mand",
+    "audioHint": "ディマンド",
+    "examples": [
+      {
+        "en": "The workers demanded better pay and working conditions.",
+        "ja": "労働者たちはより良い給与と労働環境を要求した。",
+        "blank": "The workers ___ better pay and working conditions.",
+        "blankAnswer": "demanded"
+      }
+    ],
+    "distractors": ["〜を提供する", "〜を許可する", "〜を含む"],
+    "confusableSpellings": ["demend", "demnad"],
+    "passive": {
+      "etymology": "ラテン語 demandare（委任する）が語源。de-（完全に）+ mandare（命令する）→ mandate（命令・任務）と同根",
+      "tips": "demand は require より強い「強く要求する」ニュアンス。demand + to do（自分が〜することを要求）と demand + that節（誰かに〜するよう要求）の構文を区別する",
+      "confusables": "demand vs. require: demand は「強く求める」人の意志、require は「客観的に必要とする」条件。'I demand an apology'（謝罪を要求）vs. 'The job requires experience'（経験が必要）",
+      "collocations": ["supply and demand", "in high demand", "on demand", "demand attention"],
+      "trivia": "経済学の基本概念「需要と供給」は英語で 'supply and demand'（供給が先）。日本語は「需要（demand）と供給（supply）」と逆順なのが興味深い"
+    },
+    "frequency": 480,
+    "cefr": "B1"
+  },
+  {
+    "id": 39,
+    "word": "found",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を設立する", "pos": "verb" },
+      { "meaning": "〜を創設する", "pos": "verb" }
+    ],
+    "pronunciation": "/faʊnd/",
+    "syllables": "found",
+    "audioHint": "ファウンド",
+    "examples": [
+      {
+        "en": "She founded the company with just three employees.",
+        "ja": "彼女はたった3人の従業員で会社を設立した。",
+        "blank": "She ___ the company with just three employees.",
+        "blankAnswer": "founded"
+      }
+    ],
+    "distractors": ["〜を設計する", "〜を生産する", "〜を改善する"],
+    "confusableSpellings": ["fowned", "founnd"],
+    "passive": {
+      "etymology": "ラテン語 fundare（基礎を置く）が語源。fundus（底・基盤）から。foundation（基礎・財団）、fund（資金）と同根",
+      "tips": "found（設立する）は find（見つける）の過去形 found と同形だが別の動詞。'I found a wallet'（財布を見つけた）と 'He founded a company'（会社を設立した）を混同しないよう注意",
+      "confusables": "found vs. establish: ほぼ同義だが、found はより正式・歴史的なニュアンス（学校・組織の創設）、establish はより広く使える（establish a routine）",
+      "collocations": ["founding father", "found a company", "well-founded", "foundation stone"],
+      "trivia": "アメリカの 'Founding Fathers'（建国の父たち）はワシントン、ジェファーソンらを指す固有名詞。found（設立する）と foundation（基盤）は文字通りアメリカの土台を作った人々"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 40,
+    "word": "complete",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を完成させる", "pos": "verb" },
+      { "meaning": "〜を完了する", "pos": "verb" }
+    ],
+    "pronunciation": "/kəmˈpliːt/",
+    "syllables": "com-plete",
+    "audioHint": "コンプリート",
+    "examples": [
+      {
+        "en": "She completed the marathon despite the heat.",
+        "ja": "彼女は暑さにもかかわらずマラソンを完走した。",
+        "blank": "She ___ the marathon despite the heat.",
+        "blankAnswer": "completed"
+      }
+    ],
+    "distractors": ["〜を設計する", "〜を増加させる", "〜を始める"],
+    "confusableSpellings": ["complet", "compleet"],
+    "passive": {
+      "etymology": "ラテン語 complere（完全に満たす）が語源。com-（完全に）+ plere（満たす）→ complement（補完）、supplement（補足）も同族語",
+      "tips": "complete は形容詞（完全な）と動詞（完成させる）両用。'a complete success'（完全な成功）と 'complete the task'（タスクを完了する）。completely（完全に）は副詞",
+      "confusables": "complete vs. finish: complete はより公式・プロジェクト的なニュアンス（complete a form）、finish は日常的（finish dinner）。文体・フォーマル度の違い",
+      "collocations": ["complete a task", "complete stranger", "in complete agreement", "complete overhaul"],
+      "trivia": "ゲーム用語の「コンプリート」はここから。「全アイテムを集める・全クリアする」を意味する日本独自の用法で、英語本来の「完成させる」とほぼ同義"
+    },
+    "frequency": 440,
+    "cefr": "A2"
+  }
+]
