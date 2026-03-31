@@ -153,11 +153,10 @@ export class CardRenderer {
    * @param {SRSEngine}   engine    — judgeDictation 用
    * @param {function}    onReady   — (result: string) => void  スワイプ可能になったとき
    */
-  constructor(wrapper, engine, onReady, onSkip) {
+  constructor(wrapper, engine, onReady) {
     this.wrapper      = wrapper;
     this.engine       = engine;
     this.onReady      = onReady;
-    this.onSkip       = onSkip;    // () => void  スキップボタン押下時
     this._ready       = false;
     this._result      = null;
     this._cardEl      = null;
@@ -509,20 +508,6 @@ export class CardRenderer {
       rb.textContent = 'リトライ';
       el.style.position = 'relative';
       el.appendChild(rb);
-    }
-
-    // 回答が必要なカード種別にはスキップボタンを追加
-    const skippable = ['recognition', 'recall', 'dictation', 'handwrite'];
-    if (skippable.includes(type) && this.onSkip) {
-      const skipBtn = document.createElement('button');
-      skipBtn.className = 'btn-skip';
-      skipBtn.id = 'btn-skip';
-      skipBtn.textContent = 'スキップ →';
-      skipBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        if (!this._ready) this.onSkip();
-      });
-      el.appendChild(skipBtn);
     }
 
     return el;

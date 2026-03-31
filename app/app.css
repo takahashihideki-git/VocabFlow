@@ -191,34 +191,59 @@ html, body {
   cursor: pointer;
 }
 
-/* PC用 次のカードへボタン（タッチ非対応環境のみ表示） */
-#btn-next-card {
+/* PC用ナビボタン（タッチ非対応環境のみ表示） */
+#pc-nav-btns {
+  display: none; /* hidden 属性と競合しないよう JS で直接 style を制御 */
+}
+
+#pc-nav-btns.visible {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  border: none;
-  border-radius: 24px;
-  padding: 12px 22px;
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#btn-prev-card,
+#btn-next-card {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: 20px;
   cursor: pointer;
-  opacity: 0;
-  transform: translateY(8px);
-  transition: opacity 0.25s ease, transform 0.25s ease;
-  pointer-events: none;
-  box-shadow: 0 4px 16px rgba(79,142,247,0.35);
+  opacity: 0.5;
+  pointer-events: auto;
+  transition: opacity 0.2s, background 0.2s, color 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn-prev-card.active {
+  opacity: 1;
+  color: var(--text);
 }
 
 #btn-next-card.ready {
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  border-color: transparent;
+  color: #fff;
   opacity: 1;
-  transform: translateY(0);
-  pointer-events: auto;
 }
 
-#btn-next-card:hover  { filter: brightness(1.1); }
-#btn-next-card:active { transform: scale(0.97); }
+#btn-prev-card.active:hover,
+#btn-next-card.ready:hover  { filter: brightness(1.15); }
+#btn-prev-card.active:active,
+#btn-next-card.ready:active { transform: scale(0.94); }
+
+/* タッチ非対応環境 / 一度スワイプした後はスワイプヒントを非表示 */
+body.no-touch .swipe-hint,
+body.swiped-once .swipe-hint { display: none !important; }
 
 /* ドラッグ中のカード追従 */
 #card-wrapper.dragging .card {
@@ -244,21 +269,6 @@ html, body {
 .badge-passive   { background: rgba(255,255,255,0.05); color: var(--text-muted); }
 .badge-retry     { background: rgba(255,165,0,0.2); color: orange; }
 .badge-skipped   { background: rgba(136,136,153,0.2); color: var(--text-muted); }
-
-/* スキップボタン */
-.btn-skip {
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  font-size: 12px;
-  padding: 4px 8px;
-  cursor: pointer;
-  opacity: 0.6;
-  transition: opacity 0.2s;
-  align-self: center;
-  margin-top: 8px;
-}
-.btn-skip:hover { opacity: 1; color: var(--text); }
 
 /* 履歴カード */
 .history-card-body {

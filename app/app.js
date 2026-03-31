@@ -93,10 +93,14 @@ class VocabFlowApp {
     this.heatmap = new HeatmapRenderer(canvas, tooltip, this.state.words);
     window.addEventListener('resize', () => this.heatmap.render());
 
-    // タッチ非対応環境（PC）では「次のカードへ ↓」ボタンを表示
+    // タッチ非対応環境（PC）ではナビボタンを表示し、body に no-touch クラスを付与
     const isTouch = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
-    const nextCardBtn = document.getElementById('btn-next-card');
-    if (!isTouch) nextCardBtn.hidden = false;
+    if (!isTouch) {
+      document.body.classList.add('no-touch');
+      document.getElementById('pc-nav-btns').classList.add('visible');
+      document.getElementById('btn-next-card').addEventListener('click', () => this._onSwipeUp());
+      document.getElementById('btn-prev-card').addEventListener('click', () => this._onSwipeDown());
+    }
 
     // CardRenderer: onReady はスワイプ可能化、onSkip はスキップ処理
     const wrapper = document.getElementById('card-wrapper');
@@ -105,14 +109,9 @@ class VocabFlowApp {
       this.engine,
       (_result) => {
         document.getElementById('card-area').classList.add('swipe-ready');
-        if (!isTouch) nextCardBtn.classList.add('ready');
-      },
-      () => this._skipCard()
+        if (!isTouch) document.getElementById('btn-next-card').classList.add('ready');
+      }
     );
-
-    if (!isTouch) {
-      nextCardBtn.addEventListener('click', () => this._onSwipeUp());
-    }
 
     this._setupSwipeGestures();
     this._bindOverlayButtons();
@@ -132,9 +131,11 @@ class VocabFlowApp {
 
     area.addEventListener('touchend', (e) => {
       const dy = this._touchStartY - e.changedTouches[0].clientY;
-      if (dy > 40) {            // 40px 以上の上スワイプ → 次へ
+      if (dy > 40) {
+        document.body.classList.add('swiped-once');
         this._onSwipeUp();
-      } else if (dy < -40) {    // 40px 以上の下スワイプ → 前のカードへ
+      } else if (dy < -40) {
+        document.body.classList.add('swiped-once');
         this._onSwipeDown();
       }
     }, { passive: true });
@@ -283,10 +284,17 @@ class VocabFlowApp {
     document.getElementById('btn-next-card').classList.remove('ready');
     this._updateProgress();
 
-    // 戻りスワイプで来た場合 or 既処理カードは履歴ビュー
     if (card.done) {
-      this.cardRenderer.renderHistoryView(card);
-      document.getElementById('card-area').classList.add('swipe-ready');
+      if (card.result === null) {
+        // スキップ済み未回答 → 同じカードを再出題（スキップ状態を解除）
+        card.done = false;
+        card.word.skipped = false;
+        this.cardRenderer.render(card);
+      } else {
+        // 回答済み → 読み取り専用の履歴ビュー
+        this.cardRenderer.renderHistoryView(card);
+        document.getElementById('card-area').classList.add('swipe-ready');
+      }
       return;
     }
 
@@ -466,6 +474,10 @@ class VocabFlowApp {
     document.getElementById('progress-bar-fill').style.width = `${pct}%`;
     document.getElementById('footer-correct').textContent = this.sessionCorrect;
     document.getElementById('footer-wrong').textContent   = this.sessionWrong;
+
+    // 前ボタンの活性化（PC環境でカードが1枚以上消化されたとき）
+    const prevBtn = document.getElementById('btn-prev-card');
+    if (prevBtn) prevBtn.classList.toggle('active', this.cardIndex > 0);
   }
 
   _updateStats() {
