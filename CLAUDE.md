@@ -46,10 +46,48 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 次セッションの残タスク
 
-1. **実データ作成**（`core/word-data.js` の充実。phonetic・例文・JP意味などを含む本番データへ）
-   - カテゴリ分類は完了済み（`categoryId` 全語確定）
-   - 追加すべきフィールド: `phonetic`（発音記号）・`jp`（日本語意味）・`example`（例文）・`exampleJp`（例文和訳）
-   - 詳細フォーマットは `word-data-spec.md` 参照
+### 🔴 最優先: 教材データ生成（バッチ作業、継続中）
+
+**進捗: バッチ 1〜2 完了（id 1〜40）/ 残り バッチ 3〜95（id 41〜1900）**
+
+#### 作業方法（会話内で直接生成）
+
+Claude Code のコンテキスト内で JSON を直接生成し、スクリプトで保存・検証する方式。
+API キー不要。1セッションで約 2〜3 バッチ（40〜60語）処理できる。
+
+**次回セッションで最初に言うこと:**
+> 「CLAUDE.md を確認して、教材データ生成の続きをお願いします。バッチ3（id 41〜60）から」
+
+#### バッチ進捗表
+
+| バッチ | id 範囲 | 状態 | ファイル |
+|---|---|---|---|
+| 001 | 1〜20 | ✅ 完了 | `scripts/results/word_data/batch_001.json` |
+| 002 | 21〜40 | ✅ 完了 | `scripts/results/word_data/batch_002.json` |
+| 003 | 41〜60 | ⬜ 未着手 | — |
+| 004 | 61〜80 | ⬜ 未着手 | — |
+| … | … | ⬜ | — |
+| 095 | 1881〜1900 | ⬜ 未着手 | — |
+
+#### バッチ生成手順（Claude への指示）
+
+1. `scripts/results/all_results.json` から対象バッチの単語（20語）と `categoryId` を読む
+2. `word-data-spec.md` §2.1 の完全スキーマ（全フィールド）で JSON 配列を生成する
+   - `passive` フィールド（etymology/tips/confusables/collocations/trivia）を必ず含める
+   - `distractors` は同カテゴリの他単語の意味から選ぶ（後で `fix_distractors.py` で差し替え）
+3. `scripts/results/word_data/batch_NNN.json` に保存
+4. `python3 scripts/validate_word_data.py scripts/results/word_data/batch_NNN.json` で検証
+
+#### 全バッチ完了後の仕上げ手順
+
+```bash
+python3 scripts/fix_distractors.py       # distractors を実単語意味で差し替え
+python3 scripts/validate_word_data.py    # 全体バリデーション
+python3 scripts/build_word_data_js.py    # core/word-data.js ビルド
+```
+
+---
+
 2. **#10** Passive カードの読み物化（`app/ui-cards.js` の UI のみ。spec §2 参照）
 
 ---
