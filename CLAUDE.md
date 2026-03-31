@@ -17,7 +17,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し |
-| `core/word-data.js` | ✅ Phase 0（1900語） |
+| `core/word-data.js` | ✅ 1900語・18カテゴリ分類済み（categoryId 全語確定） |
 
 ### Phase 2: sim/ ✅ 完了
 
@@ -47,6 +47,9 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 ## 次セッションの残タスク
 
 1. **実データ作成**（`core/word-data.js` の充実。phonetic・例文・JP意味などを含む本番データへ）
+   - カテゴリ分類は完了済み（`categoryId` 全語確定）
+   - 追加すべきフィールド: `phonetic`（発音記号）・`jp`（日本語意味）・`example`（例文）・`exampleJp`（例文和訳）
+   - 詳細フォーマットは `word-data-spec.md` 参照
 2. **#10** Passive カードの読み物化（`app/ui-cards.js` の UI のみ。spec §2 参照）
 
 ---
@@ -148,7 +151,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: Word Wave 全画面ビュー実装（`01ad588`）
+- 直近コミット: 1900語 18カテゴリ分類・word-data.js 統合
 
 ---
 
@@ -181,7 +184,17 @@ VocabFlow/
 ├── word-data-spec.md     # 単語データ仕様
 ├── 1900_words_list.md    # 1900語リスト（語順=wave順）
 ├── package.json          # "type": "module"
+├── classification-spec.md# カテゴリ分類作業仕様書（18カテゴリ体系・作業フロー）
 ├── .gitignore
+├── scripts/              # 分類作業スクリプト群
+│   ├── batch_extract.py  # 1900語→20語×95バッチ分割
+│   ├── classify_all.py   # 全1900語のcategoryId定義（AI判定済み）
+│   ├── merge_validate.py # 分類結果の検証・レポート
+│   ├── integrate.py      # 分類結果→word-data.js 統合
+│   ├── generate_report.py# カテゴリ別単語一覧レポート生成
+│   ├── results/
+│   │   └── all_results.json  # 全1900語の分類結果（中間成果物）
+│   └── category_report.md    # カテゴリ別単語一覧（人手確認用）
 ├── core/
 │   ├── config.js         # DEFAULT_CONFIG, createConfig()
 │   ├── models.js         # WordState（peakH含む）, Card（isRetry/stageBeforeWrong）, LearnerState
