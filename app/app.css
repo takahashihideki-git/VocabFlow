@@ -63,6 +63,17 @@ html, body {
 #heatmap-stats span { white-space: nowrap; }
 #heatmap-stats .val { color: var(--text); font-weight: 600; }
 
+#heatmap-ww-link {
+  margin-left: auto;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  opacity: 0.8;
+  transition: opacity 0.15s;
+}
+
+#heatmap-section:hover #heatmap-ww-link { opacity: 1; }
+
 #heatmap-canvas {
   width: 100%;
   height: 20px;
@@ -678,6 +689,315 @@ body.swiped-once .swipe-hint { display: none !important; }
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
+
+/* ===== Word Wave ===== */
+
+#wordwave-overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--bg);
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
+}
+
+#wordwave-header {
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px 20px 12px;
+  border-bottom: 1px solid var(--border);
+  background: rgba(0,0,0,0.4);
+}
+
+#wordwave-title {
+  font-size: 18px;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 4px;
+}
+
+#wordwave-stats {
+  display: flex;
+  gap: 14px;
+  font-size: 12px;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+#wordwave-stats b { color: var(--text); font-weight: 600; }
+
+#wordwave-header-actions {
+  flex-shrink: 0;
+}
+
+#ww-bulk-btn {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 5px 9px;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+#ww-bulk-btn:hover { background: rgba(255,255,255,0.12); }
+
+/* 一括除外モードバー */
+#wordwave-bulk-bar {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: rgba(79,142,247,0.12);
+  border-bottom: 1px solid rgba(79,142,247,0.25);
+  gap: 12px;
+}
+
+#ww-bulk-count {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+#ww-bulk-actions {
+  display: flex;
+  gap: 8px;
+}
+
+#ww-bulk-ok {
+  background: var(--danger);
+  border: none;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+#ww-bulk-ok:hover { opacity: 0.85; }
+
+#ww-bulk-cancel {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+#ww-bulk-cancel:hover { background: rgba(255,255,255,0.12); }
+
+/* 一括モード: 選択可能な単語をハイライト */
+#wordwave-overlay.bulk-mode .ww-word:not([style*="line-through"]) {
+  cursor: pointer;
+}
+
+.ww-word.selected {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  opacity: 1 !important;
+}
+
+#wordwave-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: -2px;
+  transition: color 0.15s;
+}
+
+#wordwave-close:hover { color: var(--text); }
+
+#wordwave-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px;
+  line-height: 2.2;
+  word-break: break-word;
+  -webkit-overflow-scrolling: touch;
+  font-size: 6px; /* ZOOM_DEFAULT */
+}
+
+.ww-wave-label {
+  display: inline-block;
+  font-size: 0.9em;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.05);
+  border-radius: 4px;
+  padding: 1px 6px;
+  margin: 0 6px 0 0;
+  vertical-align: middle;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.ww-wave-label.active {
+  color: var(--accent);
+  background: rgba(79,142,247,0.15);
+}
+
+.ww-wave-group {
+  display: inline;
+}
+
+.ww-word {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 1px 3px;
+  margin: 1px 2px;
+  cursor: pointer;
+  transition: opacity 0.15s, transform 0.1s;
+  white-space: nowrap;
+  line-height: 1.8;
+  vertical-align: middle;
+}
+
+.ww-word:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+#wordwave-footer {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  border-top: 1px solid var(--border);
+  background: rgba(0,0,0,0.4);
+}
+
+.ww-zoom-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+
+#zoom-slider {
+  flex: 1;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* Word popover */
+#word-popover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--bg-card);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 16px;
+  padding: 20px;
+  width: min(320px, calc(100vw - 40px));
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 400;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+}
+
+.ww-pop-word {
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.ww-pop-phonetic {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.ww-pop-meaning {
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+.ww-pop-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 2px 0;
+}
+
+.ww-pop-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.ww-pop-row span:last-child {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.ww-pop-exclude-btn {
+  background: rgba(231,76,60,0.1);
+  border: 1px solid rgba(231,76,60,0.3);
+  border-radius: 10px;
+  padding: 11px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--danger);
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.15s;
+}
+
+.ww-pop-exclude-btn:hover { background: rgba(231,76,60,0.2); }
+
+.ww-pop-exclude-btn.restore {
+  background: rgba(79,142,247,0.1);
+  border-color: rgba(79,142,247,0.3);
+  color: var(--accent);
+}
+
+.ww-pop-exclude-btn.restore:hover { background: rgba(79,142,247,0.2); }
+
+.ww-pop-close-btn {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.15s;
+}
+
+.ww-pop-close-btn:hover { background: rgba(255,255,255,0.1); }
+
+/* heatmap-section をタップ可能に見せる */
+#heatmap-section {
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+#heatmap-section:hover { background: rgba(0,0,0,0.55); }
 
 /* ===== Responsive ===== */
 

@@ -18,6 +18,7 @@ export class WordState {
     this.stuckCount = 0;        // 現在の段階での累積不正解数。stage 変更時にリセット
     this.needsHandwrite = false; // 停滞介入モード：次回 Handwrite カードを出題する
     this.skipped = false;       // スキップされたか。次セッションで最優先再出題
+    this.excluded = false;      // 学習対象から除外されているか
   }
 
   pRecall(currentTime) {

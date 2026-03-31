@@ -8,6 +8,7 @@ import { FeedGenerator }                 from '../core/feed-generator.js';
 import { WORD_DATA }                     from '../core/word-data.js';
 import { HeatmapRenderer }               from './ui-heatmap.js';
 import { CardRenderer }                  from './ui-cards.js';
+import { WordWaveRenderer }              from './ui-wordwave.js';
 
 const STORAGE_KEY = 'vocabflow_state_v1';
 
@@ -36,6 +37,7 @@ class VocabFlowApp {
     // Renderers
     this.heatmap      = null;
     this.cardRenderer = null;
+    this.wordWave     = null;
 
     this._bindStartScreen();
   }
@@ -92,6 +94,14 @@ class VocabFlowApp {
     const tooltip = document.getElementById('heatmap-tooltip');
     this.heatmap = new HeatmapRenderer(canvas, tooltip, this.state.words);
     window.addEventListener('resize', () => this.heatmap.render());
+
+    // Word Wave
+    const wwOverlay = document.getElementById('wordwave-overlay');
+    this.wordWave = new WordWaveRenderer(wwOverlay, this.state);
+    document.getElementById('heatmap-section').addEventListener('click', () => {
+      document.getElementById('heatmap-tooltip').style.display = 'none';
+      this.wordWave.open();
+    });
 
     // タッチ非対応環境（PC）ではナビボタンを表示し、body に no-touch クラスを付与
     const isTouch = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
@@ -346,6 +356,7 @@ class VocabFlowApp {
 
     this.state.totalCardsConsumed++;
     this.heatmap.render();
+    this.wordWave.updateWord(word.wordId);
     this._updateStats();
     this._updateProgress();
 
@@ -409,6 +420,10 @@ class VocabFlowApp {
       document.getElementById('heatmap-tooltip'),
       this.state.words
     );
+    // Word Wave を再構築（新しい state に差し替え）
+    const wwOverlay = document.getElementById('wordwave-overlay');
+    wwOverlay.querySelector('#wordwave-body').innerHTML = '';
+    this.wordWave = new WordWaveRenderer(wwOverlay, this.state);
     this._hideOverlays();
     this._startSession();
   }

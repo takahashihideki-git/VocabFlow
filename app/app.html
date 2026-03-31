@@ -28,6 +28,7 @@
       <span>定着 <span class="val" id="stat-mastered">0</span>語</span>
       <span>Wave <span class="val" id="stat-waves">1</span></span>
       <span>Day <span class="val" id="stat-day">0.0</span></span>
+      <span id="heatmap-ww-link">🌊 Word Wave ›</span>
     </div>
     <canvas id="heatmap-canvas"></canvas>
   </div>
@@ -59,6 +60,35 @@
     </div>
   </div>
 
+</div>
+
+<!-- Word Wave full screen overlay -->
+<div id="wordwave-overlay" style="display:none">
+  <div id="wordwave-header">
+    <div id="wordwave-header-left">
+      <div id="wordwave-title">Word Wave</div>
+      <div id="wordwave-stats"></div>
+    </div>
+    <div id="wordwave-header-actions">
+      <button id="wordwave-close">✕</button>
+    </div>
+  </div>
+  <!-- 一括除外モード時のヘッダ（通常は非表示） -->
+  <div id="wordwave-bulk-bar" style="display:none">
+    <span id="ww-bulk-count">0語を選択中</span>
+    <div id="ww-bulk-actions">
+      <button id="ww-bulk-ok">除外する</button>
+      <button id="ww-bulk-cancel">キャンセル</button>
+    </div>
+  </div>
+  <div id="wordwave-body"></div>
+  <div id="wordwave-footer">
+    <span class="ww-zoom-label">ズーム</span>
+    <input type="range" min="6" max="24" value="6" id="zoom-slider">
+    <button id="ww-bulk-btn">🗑️</button>
+  </div>
+  <!-- 単語タップ時のポップオーバー -->
+  <div id="word-popover" style="display:none"></div>
 </div>
 
 <!-- Heatmap tooltip -->

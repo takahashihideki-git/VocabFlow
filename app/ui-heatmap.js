@@ -11,6 +11,7 @@
  *   h ≥ 30日  → 深緑   #006400
  */
 export function hColor(word) {
+  if (word.excluded) return '#3A3A4A';
   if (word.stage === 'new') return '#333348';
   const h = word.h;
   if (h <= 0)  return '#333348';

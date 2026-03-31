@@ -99,12 +99,15 @@ export class FeedGenerator {
     const due = [];       // p < targetRetention（最適復習時刻を過ぎた）
     const uncertain = []; // σ > threshold（不確実）
     const filler = [];    // p >= targetRetention の定着済み（箸休め）
-    const newWords = this.waveManager.getNewWordsFromActiveWaves();
+    const newWords = this.waveManager.getNewWordsFromActiveWaves().filter(w => !w.excluded);
 
     // 最適復習間隔 = h * log2(1/r) ≈ h * 0.234 (r=0.85)
     const retentionFactor = Math.log2(1 / cfg.targetRetention);
 
     for (const w of learnerState.words) {
+      // 除外された語はフィード生成から完全にスキップ
+      if (w.excluded) continue;
+
       // スキップされた語は stage に関わらず最優先プールへ（逃げ切り不可）
       if (w.skipped) {
         skipped.push(w);
