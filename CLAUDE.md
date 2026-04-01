@@ -18,6 +18,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/wave-manager.js` | ✅ Bug 5 修正済み |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し |
 | `core/word-data.js` | ✅ 1900語・18カテゴリ分類済み（categoryId 全語確定） |
+| `core/labels.js` | ✅ LABELS定数・formatH/formatPRecall/sigmaToConfidence。app/ 全体で使用 |
 
 ### Phase 2: sim/ ✅ 完了
 
@@ -36,10 +37,10 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay 追加 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合（ヘッダバークリックで開く） |
-| `app/ui-cards.js` | ✅ renderHistoryView()・animateOutDown()・_animateInFromTop() 追加 |
-| `app/ui-heatmap.js` | ✅ excluded 語の色追加 |
-| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー（wordwave-spec.md 準拠）。単語除外・一括除外モード対応 |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。時間進行ボタンラベルを LABELS.session から設定 |
+| `app/ui-cards.js` | ✅ renderHistoryView()・animateOutDown()・_animateInFromTop() 追加。_typeName() を LABELS.cardTypes に統合 |
+| `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
+| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバー行ラベルを LABELS.params・formatH に統合 |
 | `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル |
 
 ---
@@ -163,13 +164,20 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - 卒業判定: `h >= graduationH(8.0)` が 90%+
 - 即時トリガー: generateSession 冒頭で毎回 checkUnlock
 
+### core/labels.js（UIラベル一元管理）
+- `LABELS`: params / pools / cardTypes / stages / session / wordwave / heatmap の定数オブジェクト
+- `formatH(h)`: h（日）→ 人間可読文字列（例: 12.3日、3.1ヶ月、1.2年）
+- `formatPRecall(p)`: 0〜1 → パーセント文字列
+- `sigmaToConfidence(sigma)`: σ → 高/中/低
+- 仕様書: `ui-labels-spec.md`
+
 ### app/ インタラクティブプロトタイプ
 - スワイプジェスチャー: タッチ（40px上下スワイプ）・ホイール・キーボード（↑↓/Space）
 - PC環境（タッチ非対応）: ↑↓ 円形ボタンを右下に表示（pc-nav-btns.visible）。body.no-touch でスワイプヒント非表示
 - スキップ: 未回答状態でスワイプアップ → word.skipped=true。次セッションで最優先
 - 戻りスワイプ: スキップ済み未回答カードは再表示（done/skippedをリセットして再出題）。回答済みは履歴ビュー（読み取り専用）
 - カードが回答済みになると `onReady(result)` が呼ばれ、スワイプ可能化（次ボタンは常時クリック可）
-- 時間早送り: 次のセッション(1/3日)・翌日・1週間後
+- 時間早送り: 次のセッション(1/3日)・翌日・1週間後。ボタンラベルは `LABELS.session.timeForward1/2/3`
 - localStorage キー: `vocabflow_state_v1`
 - 日本語意味辞書: `app/ui-cards.js` の `JP_MEANINGS`（Wave 1〜2 約100語）。Wave 3以降はフォールバック表示。
 - Word Wave: `app/ui-wordwave.js`。ヘッダバークリックで全画面表示。単語タップでポップオーバー（除外ボタン付き）。一括除外モード（🗑️）対応。
@@ -189,7 +197,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: 1900語 18カテゴリ分類・word-data.js 統合
+- 直近コミット: UIラベル一元管理 core/labels.js 追加・app/ 統合
 
 ---
 
@@ -239,7 +247,8 @@ VocabFlow/
 │   ├── srs-engine.js     # SRSEngine（h更新・peakH・ステージ遷移・判定）
 │   ├── wave-manager.js   # WaveManager（導入済み語ベースのwave解放・卒業）
 │   ├── feed-generator.js # FeedGenerator（グリーディ割当・Intro-Recog gap保証済み）
-│   └── word-data.js      # WORD_DATA(1900語), CATEGORIES
+│   ├── word-data.js      # WORD_DATA(1900語), CATEGORIES
+│   └── labels.js         # LABELS定数・formatH/formatPRecall/sigmaToConfidence（ui-labels-spec.md準拠）
 ├── sim/
 │   ├── sim-runner.js     # runSimulation(), runScenario()（heatmapData保存対応）
 │   ├── virtual-learner.js# VirtualLearner
