@@ -1059,6 +1059,89 @@ body.swiped-once .swipe-hint { display: none !important; }
 
 #heatmap-section:hover { background: rgba(0,0,0,0.55); }
 
+/* ===== Handwrite カード: 写真送信モック ===== */
+
+.handwrite-photo-area {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.handwrite-photo-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px 24px;
+  border: 2px dashed rgba(231,76,60,0.4);
+  border-radius: 16px;
+  background: rgba(231,76,60,0.07);
+  color: var(--danger);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: background 0.15s, border-color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.handwrite-photo-btn:hover,
+.handwrite-photo-btn:active {
+  background: rgba(231,76,60,0.15);
+  border-color: rgba(231,76,60,0.7);
+}
+
+.hw-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.hw-thumb {
+  max-width: 180px;
+  max-height: 130px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid var(--border);
+}
+
+.hw-status {
+  font-size: 14px;
+  color: var(--text-muted);
+  text-align: center;
+  min-height: 24px;
+  transition: color 0.3s;
+}
+
+.hw-sending {
+  animation: hw-blink 0.8s ease-in-out infinite;
+}
+
+.hw-recognizing {
+  color: var(--accent);
+  animation: hw-blink 0.6s ease-in-out infinite;
+}
+
+.hw-ocr-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.hw-ocr-word {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.12em;
+  font-family: monospace;
+}
+
+@keyframes hw-blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.4; }
+}
+
 /* ===== Responsive ===== */
 
 @media (max-height: 600px) {

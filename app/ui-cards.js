@@ -389,22 +389,35 @@ export class CardRenderer {
   }
 
   // -------------------------------------------------------
-  // Handwrite カード（プロトタイプ: タイピング代替）
+  // Handwrite カード: 音声を聞いて手書き → 写真送信（モック）
   // -------------------------------------------------------
   _renderHandwrite(card, wordStr, pos, categoryId) {
     const el = this._baseCard('handwrite', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
-      <div class="word-pos">音声を聞いて単語を書いてください<br>
-        <small style="color:var(--text-muted)">(プロトタイプ: タイピングで代替)</small>
+      <div class="word-pos" style="text-align:center;line-height:1.6">
+        音声を聞いて単語を紙に手書きで10回書き、<br>それを写真に撮って送ってください。
       </div>
       <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
-      <div class="dictation-input-area">
-        <input class="word-input" id="word-input" type="text" autocomplete="off"
-               autocorrect="off" autocapitalize="off" spellcheck="false"
-               placeholder="スペルを入力...">
-        <button class="btn-primary" id="card-submit">送信</button>
+      <div class="handwrite-photo-area">
+        <label class="handwrite-photo-btn" id="camera-btn" title="カメラで撮影">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+          <span>カメラで撮影</span>
+          <input type="file" accept="image/*" capture="environment" id="hw-camera-input" style="display:none">
+        </label>
+        <label class="handwrite-photo-btn" id="gallery-btn" title="写真を選択">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>写真を選択</span>
+          <input type="file" accept="image/*" id="hw-gallery-input" style="display:none">
+        </label>
       </div>
-      <div id="feedback-area"></div>
+      <div id="hw-preview-area"></div>
       <div class="swipe-hint">
         <span class="swipe-arrow">↑</span>
         <span class="swipe-label">スワイプして次へ</span>
@@ -417,39 +430,73 @@ export class CardRenderer {
       speak(wordStr);
     });
 
-    const input  = el.querySelector('#word-input');
-    const submit = el.querySelector('#card-submit');
-    const fbArea = el.querySelector('#feedback-area');
-    let answered = false;
+    const previewArea = el.querySelector('#hw-preview-area');
+    let submitted = false;
 
-    const doSubmit = () => {
-      if (answered) return;
-      const val = input.value.trim();
-      if (!val) return;
-      answered = true;
+    const handleFile = (file) => {
+      if (submitted || !file) return;
+      submitted = true;
 
-      const isCorrect = val.toLowerCase() === wordStr.toLowerCase();
-      const result    = isCorrect ? 'perfect' : 'wrong';
+      // プレビューサムネイル表示
+      const reader = new FileReader();
+      reader.onload = (ev) => {
+        previewArea.innerHTML = `
+          <div class="hw-preview">
+            <img src="${ev.target.result}" class="hw-thumb" alt="手書き写真">
+            <div class="hw-status hw-sending">送信中...</div>
+          </div>
+        `;
 
-      input.className = `word-input ${isCorrect ? 'correct' : 'wrong'}`;
-      input.disabled  = true;
-      submit.disabled = true;
+        // ボタン無効化
+        el.querySelector('#camera-btn').style.pointerEvents = 'none';
+        el.querySelector('#gallery-btn').style.pointerEvents = 'none';
 
-      fbArea.innerHTML = isCorrect
-        ? `<div class="answer-feedback correct">✓ 正解!</div>`
-        : `<div class="answer-feedback wrong">✗ 不正解 — 正解: ${wordStr}</div>`;
+        const statusEl = previewArea.querySelector('.hw-status');
 
-      if (!isCorrect) {
-        el.classList.add('card-shake');
-        el.addEventListener('animationend', () => el.classList.remove('card-shake'), { once: true });
-      }
+        // Step 1: 1.0秒後 → 送信完了
+        setTimeout(() => {
+          statusEl.textContent = '送信完了 — AI が認識中...';
+          statusEl.classList.add('hw-recognizing');
+        }, 1000);
 
-      this._markReady(result);
+        // Step 2: 2.5秒後 → AI認識中（文字スキャン風に文字が現れる）
+        setTimeout(() => {
+          const chars = wordStr.split('');
+          let revealed = '';
+          statusEl.classList.remove('hw-recognizing');
+          statusEl.innerHTML = `<span class="hw-ocr-label">認識結果:</span> <span class="hw-ocr-word"></span>`;
+          const ocrSpan = statusEl.querySelector('.hw-ocr-word');
+          let i = 0;
+          const revealInterval = setInterval(() => {
+            revealed += chars[i];
+            ocrSpan.textContent = revealed;
+            i++;
+            if (i >= chars.length) {
+              clearInterval(revealInterval);
+              // Step 3: 0.6秒後 → 認識成功
+              setTimeout(() => {
+                statusEl.innerHTML = `<div class="answer-feedback correct">✓ 「${wordStr}」を認識しました</div>`;
+                this._markReady('perfect');
+              }, 600);
+            }
+          }, 120);
+        }, 2500);
+      };
+      reader.readAsDataURL(file);
     };
 
-    submit.addEventListener('click', (e) => { e.stopPropagation(); doSubmit(); });
-    input.addEventListener('keydown', (e) => { if (e.key === 'Enter') doSubmit(); });
-    setTimeout(() => input.focus(), 350);
+    el.querySelector('#hw-camera-input').addEventListener('change', (e) => {
+      e.stopPropagation();
+      handleFile(e.target.files[0]);
+    });
+    el.querySelector('#hw-gallery-input').addEventListener('change', (e) => {
+      e.stopPropagation();
+      handleFile(e.target.files[0]);
+    });
+
+    // label のクリックがカードのスワイプジェスチャーに伝播しないようにする
+    el.querySelector('#camera-btn').addEventListener('click', (e) => e.stopPropagation());
+    el.querySelector('#gallery-btn').addEventListener('click', (e) => e.stopPropagation());
 
     return el;
   }
