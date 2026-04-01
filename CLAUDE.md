@@ -38,39 +38,36 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。時間進行ボタンラベルを LABELS.session から設定。BackgroundManager 初期化・プリロード |
-| `app/ui-cards.js` | ✅ 6種カードUI・TTS。Handwrite カードは写真送信＋AI OCRモック（カメラ/ギャラリー → 送信中 → 認識中 → 文字スキャン風表示 → 完了）。JP_MEANINGS は Wave 1-2 のみ（次セッションで生成データに切り替え予定） |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み |
+| `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み（getMeaning/getExample → WORD_DATA参照）。Passive カードはリッチUI（語源・コツ・コロケーション・豆知識）。戻り時もリッチビューを再表示 |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
-| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加。ポップオーバー行ラベルを LABELS.params・formatH に統合 |
+| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加 |
 | `app/ui-background.js` | ✅ BackgroundManager（getUrl/preload）。CATEGORY_IMAGES からカテゴリ別ランダム画像URL取得 |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・.card-bg 暗幕overlay・Handwrite写真送信UI |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・Passive リッチUIスタイル（passive-scroll / passive-section / collocation-chip） |
 
 ---
 
 ## 次セッションの残タスク
 
-### 🔴 優先: 生成データをプロトタイプに統合
+### 🔴 優先: スタイルチューニング（可読性向上）
 
-全1900語の教材データ（`core/word-data.js`）は完成済みだが、プロトタイプがまだ一部を活用できていない。
+主にフォントサイズまわりを中心に、全カード種別の可読性を高める。
 
-#### #A: getMeaning() / getExample() を生成データに切り替え（小規模）
+#### 作業方針
+1. **スタイル確認用モックアップ HTML を作成**（`app/style-mockup.html`）
+   - 6種カード（intro / recognition / recall / dictation / handwrite / passive）を1ページに並べて静的表示
+   - ローカルサーバー不要・`app.css` を直接 link して即確認できる
+   - CSS 変更のフィードバックループを短縮するのが目的
 
-`app/ui-cards.js` の現状：
-- `getMeaning()`: Wave 1-2 の約100語のみ JP_MEANINGS に定義、残りはフォールバック
-- `getExample()`: テンプレート自動生成（実データの `examples` を使っていない）
-
-対応：
-- `getMeaning(wordStr, pos)` → `WORD_DATA` の `meanings[0].meaning` を参照（JP_MEANINGS は削除してよい）
-- `getExample(wordStr, pos)` → `WORD_DATA` の `examples[0]` を参照（`blank` / `blankAnswer` も活用）
-
-#### #B: Passive カードの読み物化（中規模・spec §2 参照）
-
-`_renderPassive()` の現状：「既知語 — 流し読み」のシンプル表示のみ。
-
-対応：`WORD_DATA` の `passive` フィールドを使ったリッチUI
-- `etymology`（語源）・`tips`（使い方のコツ）・`confusables`（紛らわしい語）
-- `collocations`（頻出コロケーション）・`trivia`（トリビア）
-- TikTok的にスクロールして読める縦長レイアウト
+2. **`app/app.css` のフォントサイズ調整**
+   - チューニング対象の主要クラス:
+     - `.word-main` — 単語（現 `clamp(32px, 8vw, 52px)`）
+     - `.word-meaning` — 日本語意味（現 `18px`）
+     - `.word-example` — 例文（現 `14px`）
+     - `.choice-btn` — 選択肢ボタン（現 `14px`）
+     - `.passive-section-body` — passive 本文（現 `13px`）
+     - `.passive-section-title` — passive セクション見出し（現 `10px`）
+   - モックアップで確認しながら調整する
 
 ---
 
@@ -205,7 +202,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: 全1900語の教材データ生成・ビルド完了
+- 直近コミット: 全1900語の生成データをプロトタイプに統合・Passive カードをリッチUI化（ceb24f5）
 
 ---
 
@@ -274,9 +271,10 @@ VocabFlow/
 └── app/
     ├── app.html          # エントリーポイント（Word Wave Day N 表示）
     ├── app.js            # セッション管理・スワイプ・時間早送り・localStorage
-    ├── ui-cards.js       # 6種カードUI・TTS・Handwrite写真送信＋AI OCRモック
+    ├── ui-cards.js       # 6種カードUI・TTS・Handwrite写真送信＋AI OCRモック。全1900語の生成データ統合済み
     ├── ui-heatmap.js     # Wave Heatmap Canvas描画
     ├── ui-wordwave.js    # Word Wave 全画面ビュー（pRecall・最終復習日・除外・一括除外）
     ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
-    └── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Handwrite UI
+    ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI
+    └── style-mockup.html # （次セッションで作成）スタイル確認用モックアップ（6種カードを静的表示）
 ```
