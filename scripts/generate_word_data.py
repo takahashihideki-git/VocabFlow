@@ -163,6 +163,15 @@ def validate_entry(entry: dict) -> list[str]:
 # ============================================================
 # API 呼び出し（リトライ付き）
 # ============================================================
+def repair_json(raw: str) -> str:
+    """よくある JSON 破損パターンを修復する"""
+    # 末尾の余分なカンマを除去（}, や ],）
+    raw = re.sub(r',\s*([}\]])', r'\1', raw)
+    # 制御文字（改行・タブ以外）を除去
+    raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', raw)
+    return raw
+
+
 def call_api(client: anthropic.Anthropic, prompt: str, batch_num: int) -> list[dict]:
     for attempt in range(1, RETRY_MAX + 1):
         try:
@@ -177,13 +186,23 @@ def call_api(client: anthropic.Anthropic, prompt: str, batch_num: int) -> list[d
             raw = re.sub(r'^```(?:json)?\s*', '', raw)
             raw = re.sub(r'\s*```$', '', raw)
 
-            data = json.loads(raw)
+            # まず直接パース、失敗したら修復してリトライ
+            try:
+                data = json.loads(raw)
+            except json.JSONDecodeError:
+                raw = repair_json(raw)
+                data = json.loads(raw)
+
             if not isinstance(data, list):
                 raise ValueError("Response is not a JSON array")
             return data
 
         except (json.JSONDecodeError, ValueError) as e:
             print(f"  [Batch {batch_num}] Parse error (attempt {attempt}/{RETRY_MAX}): {e}")
+            if isinstance(e, json.JSONDecodeError):
+                pos = e.pos
+                snippet = raw[max(0, pos-40):pos+40]
+                print(f"    Context around error (char {pos}): {repr(snippet)}")
             if attempt < RETRY_MAX:
                 time.sleep(RETRY_DELAY)
             else:
@@ -246,9 +265,15 @@ def main():
         # 20語を前半・後半10語に分けて2回API呼び出し（max_tokens超過防止）
         t0 = time.time()
         mid = len(batch) // 2
-        result_a = call_api(client, build_prompt(batch[:mid]), i)
-        time.sleep(0.3)
-        result_b = call_api(client, build_prompt(batch[mid:]), i)
+        try:
+            result_a = call_api(client, build_prompt(batch[:mid]), i)
+            time.sleep(0.3)
+            result_b = call_api(client, build_prompt(batch[mid:]), i)
+        except Exception as e:
+            print(f"\n  !! Batch {i} FAILED, skipping: {e}")
+            errors_summary.append(f"BATCH_FAILED:{i}:{words_range}:{e}")
+            time.sleep(RETRY_DELAY)
+            continue
         result = result_a + result_b
         elapsed = time.time() - t0
         print(f"{elapsed:.1f}s", end="")
