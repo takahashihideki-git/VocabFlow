@@ -741,6 +741,89 @@ body.swiped-once .swipe-hint { display: none !important; }
   letter-spacing: 0.08em;
 }
 
+/* リッチPassiveカード: スクロール可能コンテンツエリア */
+.passive-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-right: 2px;
+}
+
+.passive-scroll::-webkit-scrollbar {
+  width: 3px;
+}
+
+.passive-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.passive-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.15);
+  border-radius: 2px;
+}
+
+.passive-word-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.passive-word-str {
+  font-size: clamp(26px, 7vw, 44px);
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+
+.passive-word-sub {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 4px;
+}
+
+.passive-section {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.passive-section-title {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+.passive-section-body {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.collocation-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.collocation-chip {
+  background: rgba(79,142,247,0.12);
+  border: 1px solid rgba(79,142,247,0.25);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 12px;
+  color: var(--accent);
+  white-space: nowrap;
+  font-style: italic;
+}
+
 /* ===== Word Wave ===== */
 
 #wordwave-overlay {

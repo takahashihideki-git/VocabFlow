@@ -5,98 +5,40 @@ import { LABELS } from '../core/labels.js';
 import { BackgroundManager } from './ui-background.js';
 
 // -------------------------------------------------------
-// 日本語意味辞書（Wave 1-2: id 1〜100）
+// WORD_DATA 高速ルックアップ
 // -------------------------------------------------------
-const JP_MEANINGS = {
-  "create":"作る・創造する", "increase":"増やす・増加する",
-  "improve":"改善する・向上する", "mean":"意味する・〜のつもりである",
-  "own":"所有する・自分の", "include":"含む・包含する",
-  "consider":"検討する・考慮する", "allow":"許可する・可能にする",
-  "suggest":"提案する・示唆する", "produce":"生産する・製造する",
-  "decide":"決定する・決める", "offer":"提供する・申し出る",
-  "require":"必要とする・要求する", "share":"共有する・分かち合う",
-  "store":"保存する・蓄える", "tend":"傾向がある・世話をする",
-  "concern":"関係する・心配させる", "describe":"説明する・描写する",
-  "involve":"含む・巻き込む", "reduce":"減らす・削減する",
-  "design":"設計する・デザインする", "force":"強制する・力",
-  "limit":"制限する・限定する", "bear":"耐える・運ぶ",
-  "affect":"影響を与える", "deal":"対処する・取引する",
-  "avoid":"避ける・回避する", "relate":"関連する・話す",
-  "realize":"気づく・実現する", "encourage":"励ます・促進する",
-  "compare":"比較する・比べる", "measure":"測定する・測る",
-  "exist":"存在する", "mark":"印をつける・示す",
-  "challenge":"挑戦する・難問", "depend":"依存する・頼る",
-  "object":"反対する・物体", "demand":"要求する・需要",
-  "found":"設立する・創設する", "complete":"完了する・完全な",
-  "idea":"考え・アイデア", "accord":"一致する・協定",
-  "company":"会社・仲間", "interest":"興味・利子",
-  "research":"研究する・調査", "cause":"引き起こす・原因",
-  "reason":"理由・推論する", "effect":"効果・影響",
-  "influence":"影響を与える・影響力", "situation":"状況・場面",
-  "environment":"環境・状況", "skill":"技術・スキル",
-  "matter":"重要である・問題", "view":"見る・見解",
-  "type":"種類・タイプ", "period":"期間・時代",
-  "provide":"提供する・与える", "result":"結果・もたらす",
-  "process":"過程・処理する", "lead":"導く・リードする",
-  "change":"変える・変化", "develop":"発展する・開発する",
-  "move":"動く・移動する", "report":"報告する・報告書",
-  "control":"制御する・コントロール", "support":"支援する・サポート",
-  "build":"建てる・構築する", "maintain":"維持する・保持する",
-  "establish":"設立する・確立する", "identify":"特定する・識別する",
-  "conduct":"行う・実施する", "achieve":"達成する・成し遂げる",
-  "apply":"適用する・申し込む", "define":"定義する",
-  "ensure":"確実にする・保証する", "reveal":"明らかにする",
-  "obtain":"得る・取得する", "treat":"扱う・治療する",
-  "focus":"集中する・焦点", "assume":"仮定する・引き受ける",
-  "enable":"可能にする", "manage":"管理する・何とかする",
-  "organize":"整理する・組織する", "analyze":"分析する",
-  "access":"アクセスする・利用する", "communicate":"伝える・連絡する",
-  "evaluate":"評価する", "transform":"変換する・変える",
-  "generate":"生成する・生み出す", "implement":"実施する・実装する",
-  "respond":"応答する・反応する", "adapt":"適応する・調整する",
-  "indicate":"示す・指摘する", "determine":"決定する・判断する",
-  "significant":"重要な・著しい", "major":"主要な・大きな",
-  "specific":"具体的な・特定の",
-};
+const WORD_MAP = new Map(WORD_DATA.map(wd => [wd.word, wd]));
 
 // -------------------------------------------------------
-// 意味を取得（JP辞書 or フォールバック）
+// 意味を取得（WORD_DATA.meanings[0] → フォールバック）
 // -------------------------------------------------------
 export function getMeaning(wordStr, pos) {
-  if (JP_MEANINGS[wordStr]) return JP_MEANINGS[wordStr];
+  const wd = WORD_MAP.get(wordStr);
+  if (wd?.meanings?.[0]) return wd.meanings[0].meaning;
   const posMap = { verb:"〜する（動詞）", noun:"名詞", adjective:"形容詞", adverb:"副詞" };
   return `[${wordStr}] ${posMap[pos] || ''}`;
 }
 
 // -------------------------------------------------------
-// 例文テンプレート生成
+// 例文を取得（WORD_DATA.examples[0] → フォールバック）
+// 戻り値: { full: string, blank: string }
+//   full  — 完成文（blankAnswer を <b> でハイライト）
+//   blank — 穴埋め文（___ を <b>___</b> に変換）
 // -------------------------------------------------------
-const SENTENCE_TEMPLATES = {
-  verb: [
-    () => `We need to <b>___</b> the situation carefully.`,
-    () => `She decided to <b>___</b> the project from scratch.`,
-    () => `It is important to <b>___</b> the results accurately.`,
-    () => `They are trying to <b>___</b> a better solution.`,
-  ],
-  noun: [
-    () => `The <b>___</b> plays a crucial role in this field.`,
-    () => `This <b>___</b> has changed significantly over time.`,
-    () => `We need to address the <b>___</b> immediately.`,
-  ],
-  adjective: [
-    () => `The findings were quite <b>___</b>.`,
-    () => `This approach is considered <b>___</b> by experts.`,
-    () => `The results were <b>___</b> in many respects.`,
-  ],
-  other: [
-    () => `The <b>___</b> was examined carefully.`,
-    () => `This <b>___</b> is central to the discussion.`,
-  ],
-};
-
 function getExample(wordStr, pos) {
-  const templates = SENTENCE_TEMPLATES[pos] || SENTENCE_TEMPLATES.other;
-  return templates[wordStr.length % templates.length]();
+  const wd = WORD_MAP.get(wordStr);
+  if (wd?.examples?.[0]) {
+    const ex = wd.examples[0];
+    const escaped = ex.blankAnswer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const full  = ex.en.replace(new RegExp(`\\b${escaped}\\b`, 'i'), `<b>${ex.blankAnswer}</b>`);
+    const blank = ex.blank.replace('___', '<b>___</b>');
+    return { full, blank };
+  }
+  // フォールバック（WORD_DATA に未収録の語）
+  return {
+    full:  `The word <b>${wordStr}</b> is used in various contexts.`,
+    blank: `The word <b>___</b> is used in various contexts.`,
+  };
 }
 
 // -------------------------------------------------------
@@ -223,7 +165,7 @@ export class CardRenderer {
       <div class="word-main">${wordStr}</div>
       <div class="word-pos">${pos}</div>
       <div class="word-meaning">${meaning}</div>
-      <div class="word-example">${example.replace('<b>___</b>', `<b>${wordStr}</b>`)}</div>
+      <div class="word-example">${example.full}</div>
       <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 発音を聞く</button>
       <div class="swipe-hint visible">
         <span class="swipe-arrow">↑</span>
@@ -246,8 +188,11 @@ export class CardRenderer {
   // Recognition カード: 単語を見て意味を選ぶ
   // -------------------------------------------------------
   _renderRecognition(card, wordStr, pos, meaning, categoryId) {
-    const distractorWords    = getDistractors(card.word, 3);
-    const distractorMeanings = distractorWords.map(w => getMeaning(w, pos));
+    // WORD_DATA の distractors フィールド（意味文字列）を優先使用
+    const wd = WORD_MAP.get(wordStr);
+    const distractorMeanings = wd?.distractors?.length >= 3
+      ? wd.distractors.slice(0, 3)
+      : getDistractors(card.word, 3).map(w => getMeaning(w, pos));
     const choices = this._shuffle([
       { text: meaning,               isCorrect: true },
       { text: distractorMeanings[0], isCorrect: false },
@@ -297,7 +242,7 @@ export class CardRenderer {
     const el = this._baseCard('recall', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">例文の空欄を埋めてください</div>
-      <div class="word-example">${example}</div>
+      <div class="word-example">${example.blank}</div>
       <div class="choices" id="choices"></div>
       <div class="swipe-hint">
         <span class="swipe-arrow">↑</span>
@@ -502,22 +447,68 @@ export class CardRenderer {
   }
 
   // -------------------------------------------------------
-  // Passive カード: 例文表示のみ → スワイプで通過
+  // Passive カード: 語源・コツ・コロケーション等を読む
   // -------------------------------------------------------
   _renderPassive(card, wordStr, pos, meaning, categoryId) {
-    const example = getExample(wordStr, pos);
+    const wd      = WORD_MAP.get(wordStr);
+    const passive = wd?.passive;
     const el      = this._baseCard('passive', card.isRetry, categoryId);
-    el.insertAdjacentHTML('beforeend', `
-      <div class="passive-label">既知語 — 流し読み</div>
-      <div class="word-example" style="font-size:16px">${
-        example.replace('<b>___</b>', `<b style="color:var(--accent)">${wordStr}</b>`)
-      }</div>
-      <div class="word-pos">${wordStr} — ${meaning}</div>
-      <div class="swipe-hint visible">
-        <span class="swipe-arrow">↑</span>
-        <span class="swipe-label">スワイプして次へ</span>
-      </div>
-    `);
+
+    if (passive) {
+      const colChips = (passive.collocations || [])
+        .map(c => `<span class="collocation-chip">${c}</span>`)
+        .join('');
+
+      el.insertAdjacentHTML('beforeend', `
+        <div class="passive-scroll">
+          <div class="passive-word-header">
+            <div class="passive-word-str">${wordStr}</div>
+            <div class="passive-word-sub">${pos} — ${meaning}</div>
+          </div>
+          ${passive.etymology ? `
+          <div class="passive-section">
+            <div class="passive-section-title">語源</div>
+            <div class="passive-section-body">${passive.etymology}</div>
+          </div>` : ''}
+          ${passive.tips ? `
+          <div class="passive-section">
+            <div class="passive-section-title">使い方のコツ</div>
+            <div class="passive-section-body">${passive.tips}</div>
+          </div>` : ''}
+          ${passive.confusables ? `
+          <div class="passive-section">
+            <div class="passive-section-title">紛らわしい語</div>
+            <div class="passive-section-body">${passive.confusables}</div>
+          </div>` : ''}
+          ${colChips ? `
+          <div class="passive-section">
+            <div class="passive-section-title">よく使う表現</div>
+            <div class="collocation-chips">${colChips}</div>
+          </div>` : ''}
+          ${passive.trivia ? `
+          <div class="passive-section">
+            <div class="passive-section-title">豆知識</div>
+            <div class="passive-section-body">${passive.trivia}</div>
+          </div>` : ''}
+        </div>
+        <div class="swipe-hint visible">
+          <span class="swipe-arrow">↑</span>
+          <span class="swipe-label">スワイプして次へ</span>
+        </div>
+      `);
+    } else {
+      // フォールバック（passiveデータなし）
+      const example = getExample(wordStr, pos);
+      el.insertAdjacentHTML('beforeend', `
+        <div class="passive-label">既知語 — 流し読み</div>
+        <div class="word-example" style="font-size:16px">${example.full}</div>
+        <div class="word-pos">${wordStr} — ${meaning}</div>
+        <div class="swipe-hint visible">
+          <span class="swipe-arrow">↑</span>
+          <span class="swipe-label">スワイプして次へ</span>
+        </div>
+      `);
+    }
 
     this._markReady('perfect');
     return el;
@@ -618,6 +609,20 @@ export class CardRenderer {
     const pos        = rawWord.pos || 'other';
     const meaning    = getMeaning(wordStr, pos);
     const categoryId = rawWord.categoryId ?? 0;
+
+    // Passive カード: リッチコンテンツをそのまま再表示（スクロール可能）
+    if (card.cardType === 'passive') {
+      const el = this._renderPassive(card, wordStr, pos, meaning, categoryId);
+      // 履歴バッジを重ねる
+      const histBadge = document.createElement('div');
+      histBadge.className = 'card-type-badge badge-skipped';
+      histBadge.style.cssText = 'position:absolute;top:16px;right:16px';
+      histBadge.textContent = '履歴';
+      el.style.position = 'relative';
+      el.appendChild(histBadge);
+      this._animateInFromTop(el);
+      return;
+    }
 
     const el = document.createElement('div');
     el.className = 'card';

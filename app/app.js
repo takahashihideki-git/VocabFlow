@@ -162,10 +162,12 @@ class VocabFlowApp {
 
     // ----- タッチ -----
     area.addEventListener('touchstart', (e) => {
-      this._touchStartY = e.touches[0].clientY;
+      this._touchStartY    = e.touches[0].clientY;
+      this._touchInScroll  = !!e.target.closest('.passive-scroll');
     }, { passive: true });
 
     area.addEventListener('touchend', (e) => {
+      if (this._touchInScroll) { this._touchInScroll = false; return; }
       const dy = this._touchStartY - e.changedTouches[0].clientY;
       if (dy > 40) {
         document.body.classList.add('swiped-once');
@@ -178,6 +180,7 @@ class VocabFlowApp {
 
     // ----- マウスホイール（PC） -----
     area.addEventListener('wheel', (e) => {
+      if (e.target.closest('.passive-scroll')) return; // passive-scroll 内は native scroll に委ねる
       if (e.deltaY > 30) {      // 下スクロール = 次のカードへ（TikTok 方式）
         this._onSwipeUp();
       } else if (e.deltaY < -30) {
