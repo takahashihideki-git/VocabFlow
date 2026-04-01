@@ -19,6 +19,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し |
 | `core/word-data.js` | ✅ 1900語・18カテゴリ分類済み（categoryId 全語確定） |
 | `core/labels.js` | ✅ LABELS定数・formatH/formatPRecall/sigmaToConfidence。app/ 全体で使用 |
+| `core/category-images.js` | ✅ Unsplash 画像URL（scripts/fetch_category_images.js で自動生成、19カテゴリ×10枚） |
 
 ### Phase 2: sim/ ✅ 完了
 
@@ -37,11 +38,12 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay 追加 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。時間進行ボタンラベルを LABELS.session から設定 |
-| `app/ui-cards.js` | ✅ renderHistoryView()・animateOutDown()・_animateInFromTop() 追加。_typeName() を LABELS.cardTypes に統合 |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。時間進行ボタンラベルを LABELS.session から設定。BackgroundManager 初期化・プリロード |
+| `app/ui-cards.js` | ✅ renderHistoryView()・animateOutDown()・_animateInFromTop() 追加。_typeName() を LABELS.cardTypes に統合。BackgroundManager で .card-bg 挿入 |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバー行ラベルを LABELS.params・formatH に統合 |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル |
+| `app/ui-background.js` | ✅ BackgroundManager（getUrl/preload）。CATEGORY_IMAGES からカテゴリ別ランダム画像URL取得 |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・.card-bg 暗幕overlay |
 
 ---
 
@@ -171,6 +173,13 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - `sigmaToConfidence(sigma)`: σ → 高/中/低
 - 仕様書: `ui-labels-spec.md`
 
+### カード背景画像（Unsplash）
+- `core/category-images.js`: 19カテゴリ × 10枚の画像URL定数（Unsplash License）
+- 再取得: `node scripts/fetch_category_images.js YOUR_ACCESS_KEY`（19リクエスト、Demo枠50req/h内）
+- `app/ui-background.js`: `BackgroundManager` — `getUrl(categoryId)` でランダムURL取得、`preload(ids)` でセッション開始時プリフェッチ
+- カード表示: `.card-bg` div（`z-index:-1`）に `background-image` 設定 + `::after` 疑似要素で暗幕（rgba 8,8,18,0.72）
+- カードは 9:16 aspect-ratio（縦動画を意識）。`width: min(100%, 高さ×9/16)` で画面に収まる
+
 ### app/ インタラクティブプロトタイプ
 - スワイプジェスチャー: タッチ（40px上下スワイプ）・ホイール・キーボード（↑↓/Space）
 - PC環境（タッチ非対応）: ↑↓ 円形ボタンを右下に表示（pc-nav-btns.visible）。body.no-touch でスワイプヒント非表示
@@ -197,7 +206,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: UIラベル一元管理 core/labels.js 追加・app/ 統合
+- 直近コミット: Unsplash カテゴリ背景画像実装・カード9:16化
 
 ---
 
@@ -232,23 +241,25 @@ VocabFlow/
 ├── package.json          # "type": "module"
 ├── classification-spec.md# カテゴリ分類作業仕様書（18カテゴリ体系・作業フロー）
 ├── .gitignore
-├── scripts/              # 分類作業スクリプト群
-│   ├── batch_extract.py  # 1900語→20語×95バッチ分割
-│   ├── classify_all.py   # 全1900語のcategoryId定義（AI判定済み）
-│   ├── merge_validate.py # 分類結果の検証・レポート
-│   ├── integrate.py      # 分類結果→word-data.js 統合
-│   ├── generate_report.py# カテゴリ別単語一覧レポート生成
+├── scripts/              # 各種スクリプト群
+│   ├── batch_extract.py         # 1900語→20語×95バッチ分割
+│   ├── classify_all.py          # 全1900語のcategoryId定義（AI判定済み）
+│   ├── merge_validate.py        # 分類結果の検証・レポート
+│   ├── integrate.py             # 分類結果→word-data.js 統合
+│   ├── generate_report.py       # カテゴリ別単語一覧レポート生成
+│   ├── fetch_category_images.js # Unsplash API から画像URL取得→category-images.js生成
 │   ├── results/
-│   │   └── all_results.json  # 全1900語の分類結果（中間成果物）
-│   └── category_report.md    # カテゴリ別単語一覧（人手確認用）
+│   │   └── all_results.json     # 全1900語の分類結果（中間成果物）
+│   └── category_report.md       # カテゴリ別単語一覧（人手確認用）
 ├── core/
-│   ├── config.js         # DEFAULT_CONFIG, createConfig()
-│   ├── models.js         # WordState（peakH含む）, Card（isRetry/stageBeforeWrong）, LearnerState
-│   ├── srs-engine.js     # SRSEngine（h更新・peakH・ステージ遷移・判定）
-│   ├── wave-manager.js   # WaveManager（導入済み語ベースのwave解放・卒業）
-│   ├── feed-generator.js # FeedGenerator（グリーディ割当・Intro-Recog gap保証済み）
-│   ├── word-data.js      # WORD_DATA(1900語), CATEGORIES
-│   └── labels.js         # LABELS定数・formatH/formatPRecall/sigmaToConfidence（ui-labels-spec.md準拠）
+│   ├── config.js            # DEFAULT_CONFIG, createConfig()
+│   ├── models.js            # WordState（peakH含む）, Card（isRetry/stageBeforeWrong）, LearnerState
+│   ├── srs-engine.js        # SRSEngine（h更新・peakH・ステージ遷移・判定）
+│   ├── wave-manager.js      # WaveManager（導入済み語ベースのwave解放・卒業）
+│   ├── feed-generator.js    # FeedGenerator（グリーディ割当・Intro-Recog gap保証済み）
+│   ├── word-data.js         # WORD_DATA(1900語), CATEGORIES
+│   ├── labels.js            # LABELS定数・formatH/formatPRecall/sigmaToConfidence（ui-labels-spec.md準拠）
+│   └── category-images.js   # Unsplash画像URL（fetch_category_images.jsで自動生成）
 ├── sim/
 │   ├── sim-runner.js     # runSimulation(), runScenario()（heatmapData保存対応）
 │   ├── virtual-learner.js# VirtualLearner
@@ -263,5 +274,6 @@ VocabFlow/
     ├── ui-cards.js       # 6種カードUI・TTS・JP意味辞書（Wave1-2）
     ├── ui-heatmap.js     # Wave Heatmap Canvas描画
     ├── ui-wordwave.js    # Word Wave 全画面ビュー（除外・一括除外）
-    └── app.css           # ダークテーマ・アニメーション・Word Wave スタイル
+    ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
+    └── app.css           # ダークテーマ・アニメーション・Word Wave スタイル・9:16カード
 ```
