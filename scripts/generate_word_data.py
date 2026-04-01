@@ -23,7 +23,8 @@ OUT_DIR       = os.path.join(SCRIPT_DIR, "results", "word_data")
 OUT_MERGED    = os.path.join(SCRIPT_DIR, "results", "word_data_raw.json")
 
 BATCH_SIZE    = 20
-MODEL         = "claude-haiku-4-5-20251001"   # 速度・コスト優先
+# MODEL         = "claude-haiku-4-5-20251001"   # 速度・コスト優先
+MODEL         = "claude-sonnet-4-6"
 MAX_TOKENS    = 8000
 RETRY_MAX     = 3
 RETRY_DELAY   = 5   # seconds
@@ -242,9 +243,13 @@ def main():
         words_range = f"words {batch[0]['id']}-{batch[-1]['id']}"
         print(f"[{i:3d}/{total}] Generating: {words_range} ...", end=" ", flush=True)
 
-        prompt = build_prompt(batch)
+        # 20語を前半・後半10語に分けて2回API呼び出し（max_tokens超過防止）
         t0 = time.time()
-        result = call_api(client, prompt, i)
+        mid = len(batch) // 2
+        result_a = call_api(client, build_prompt(batch[:mid]), i)
+        time.sleep(0.3)
+        result_b = call_api(client, build_prompt(batch[mid:]), i)
+        result = result_a + result_b
         elapsed = time.time() - t0
         print(f"{elapsed:.1f}s", end="")
 

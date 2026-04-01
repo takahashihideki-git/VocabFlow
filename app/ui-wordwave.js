@@ -25,9 +25,10 @@ export class WordWaveRenderer {
    * @param {HTMLElement} overlayEl — #wordwave-overlay
    * @param {LearnerState} learnerState
    */
-  constructor(overlayEl, learnerState) {
-    this.overlay    = overlayEl;
-    this.state      = learnerState;
+  constructor(overlayEl, learnerState, onStateChange = null) {
+    this.overlay        = overlayEl;
+    this.state          = learnerState;
+    this._onStateChange = onStateChange;
     this._spanMap   = new Map(); // wordId → span element
     this._built     = false;
     this._bulkMode  = false;
@@ -222,6 +223,7 @@ export class WordWaveRenderer {
     } else {
       word.excluded = false;
     }
+    this._onStateChange?.();
     this.updateWord(word.wordId);
     // ポップオーバーのボタンテキストを更新
     this._showPopover(word);
@@ -282,6 +284,7 @@ export class WordWaveRenderer {
         }
       }
     }
+    this._onStateChange?.();
     this._exitBulkMode();
     this._updateStats();
   }

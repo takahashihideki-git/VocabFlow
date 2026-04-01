@@ -97,7 +97,7 @@ class VocabFlowApp {
 
     // Word Wave
     const wwOverlay = document.getElementById('wordwave-overlay');
-    this.wordWave = new WordWaveRenderer(wwOverlay, this.state);
+    this.wordWave = new WordWaveRenderer(wwOverlay, this.state, () => this._saveState());
     document.getElementById('heatmap-section').addEventListener('click', () => {
       document.getElementById('heatmap-tooltip').style.display = 'none';
       this.wordWave.open();
@@ -242,6 +242,7 @@ class VocabFlowApp {
 
     card.done = true;
     card.word.skipped = true; // 次セッションで最優先再出題
+    this._saveState();
 
     this._transitioning = true;
     document.getElementById('card-area').classList.remove('swipe-ready');
@@ -355,6 +356,7 @@ class VocabFlowApp {
     }
 
     this.state.totalCardsConsumed++;
+    this._saveState();
     this.heatmap.render();
     this.wordWave.updateWord(word.wordId);
     this._updateStats();
@@ -391,6 +393,7 @@ class VocabFlowApp {
   // -------------------------------------------------------
   _advanceTime(days) {
     this.state.currentTime += days;
+    this._saveState();
     this._hideOverlays();
     this._startSession();
   }
@@ -423,7 +426,7 @@ class VocabFlowApp {
     // Word Wave を再構築（新しい state に差し替え）
     const wwOverlay = document.getElementById('wordwave-overlay');
     wwOverlay.querySelector('#wordwave-body').innerHTML = '';
-    this.wordWave = new WordWaveRenderer(wwOverlay, this.state);
+    this.wordWave = new WordWaveRenderer(wwOverlay, this.state, () => this._saveState());
     this._hideOverlays();
     this._startSession();
   }
@@ -490,9 +493,14 @@ class VocabFlowApp {
     document.getElementById('footer-correct').textContent = this.sessionCorrect;
     document.getElementById('footer-wrong').textContent   = this.sessionWrong;
 
-    // 前ボタンの活性化（PC環境でカードが1枚以上消化されたとき）
+    // 前後ボタンの活性化
     const prevBtn = document.getElementById('btn-prev-card');
     if (prevBtn) prevBtn.classList.toggle('active', this.cardIndex > 0);
+
+    const nextBtn = document.getElementById('btn-next-card');
+    if (nextBtn) {
+      nextBtn.classList.toggle('active', !!this.sessionCards[this.cardIndex]);
+    }
   }
 
   _updateStats() {

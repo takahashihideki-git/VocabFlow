@@ -235,7 +235,8 @@ html, body {
   justify-content: center;
 }
 
-#btn-prev-card.active {
+#btn-prev-card.active,
+#btn-next-card.active {
   opacity: 1;
   color: var(--text);
 }
@@ -248,8 +249,10 @@ html, body {
 }
 
 #btn-prev-card.active:hover,
+#btn-next-card.active:hover,
 #btn-next-card.ready:hover  { filter: brightness(1.15); }
 #btn-prev-card.active:active,
+#btn-next-card.active:active,
 #btn-next-card.ready:active { transform: scale(0.94); }
 
 /* タッチ非対応環境 / 一度スワイプした後はスワイプヒントを非表示 */
