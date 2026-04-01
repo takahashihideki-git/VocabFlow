@@ -112,6 +112,29 @@ html, body {
   flex-direction: column;
   gap: 16px;
   min-height: 320px;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+/* 背景画像レイヤー */
+.card-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius);
+  transition: opacity 0.4s ease;
+}
+
+/* 半透明の暗幕オーバーレイ */
+.card-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 8, 18, 0.72);
+  border-radius: var(--radius);
 }
 
 .card.card-enter {

@@ -2,6 +2,7 @@
 
 import { WORD_DATA } from '../core/word-data.js';
 import { LABELS } from '../core/labels.js';
+import { BackgroundManager } from './ui-background.js';
 
 // -------------------------------------------------------
 // 日本語意味辞書（Wave 1-2: id 1〜100）
@@ -150,14 +151,16 @@ const SPEAKER_ICON = `<svg width="18" height="18" viewBox="0 0 24 24" fill="none
 // -------------------------------------------------------
 export class CardRenderer {
   /**
-   * @param {HTMLElement} wrapper   — #card-wrapper
-   * @param {SRSEngine}   engine    — judgeDictation 用
-   * @param {function}    onReady   — (result: string) => void  スワイプ可能になったとき
+   * @param {HTMLElement}      wrapper     — #card-wrapper
+   * @param {SRSEngine}        engine      — judgeDictation 用
+   * @param {function}         onReady     — (result: string) => void  スワイプ可能になったとき
+   * @param {BackgroundManager} [bgManager] — カード背景画像管理（省略可）
    */
-  constructor(wrapper, engine, onReady) {
+  constructor(wrapper, engine, onReady, bgManager = null) {
     this.wrapper      = wrapper;
     this.engine       = engine;
     this.onReady      = onReady;
+    this._bg          = bgManager;
     this._ready       = false;
     this._result      = null;
     this._cardEl      = null;
@@ -176,20 +179,21 @@ export class CardRenderer {
     this._result      = null;
     this._historyMode = false;
 
-    const wordStr = card.word.wordString;
-    const rawWord = typeof card.word.word === 'object' ? card.word.word : { word: wordStr, pos: 'other' };
-    const pos     = rawWord.pos || 'other';
-    const meaning = getMeaning(wordStr, pos);
+    const wordStr    = card.word.wordString;
+    const rawWord    = typeof card.word.word === 'object' ? card.word.word : { word: wordStr, pos: 'other' };
+    const pos        = rawWord.pos || 'other';
+    const meaning    = getMeaning(wordStr, pos);
+    const categoryId = rawWord.categoryId ?? 0;
 
     let el;
     switch (card.cardType) {
-      case 'intro':       el = this._renderIntro(card, wordStr, pos, meaning); break;
-      case 'recognition': el = this._renderRecognition(card, wordStr, pos, meaning); break;
-      case 'recall':      el = this._renderRecall(card, wordStr, pos, meaning); break;
-      case 'dictation':   el = this._renderDictation(card, wordStr, pos); break;
-      case 'handwrite':   el = this._renderHandwrite(card, wordStr, pos); break;
-      case 'passive':     el = this._renderPassive(card, wordStr, pos, meaning); break;
-      default:            el = this._renderPassive(card, wordStr, pos, meaning);
+      case 'intro':       el = this._renderIntro(card, wordStr, pos, meaning, categoryId); break;
+      case 'recognition': el = this._renderRecognition(card, wordStr, pos, meaning, categoryId); break;
+      case 'recall':      el = this._renderRecall(card, wordStr, pos, meaning, categoryId); break;
+      case 'dictation':   el = this._renderDictation(card, wordStr, pos, categoryId); break;
+      case 'handwrite':   el = this._renderHandwrite(card, wordStr, pos, categoryId); break;
+      case 'passive':     el = this._renderPassive(card, wordStr, pos, meaning, categoryId); break;
+      default:            el = this._renderPassive(card, wordStr, pos, meaning, categoryId);
     }
 
     this._animateIn(el);
@@ -211,9 +215,9 @@ export class CardRenderer {
   // -------------------------------------------------------
   // Intro カード: 見る → スワイプで次へ
   // -------------------------------------------------------
-  _renderIntro(card, wordStr, pos, meaning) {
+  _renderIntro(card, wordStr, pos, meaning, categoryId) {
     const example = getExample(wordStr, pos);
-    const el = this._baseCard('intro', card.isRetry);
+    const el = this._baseCard('intro', card.isRetry, categoryId);
 
     el.insertAdjacentHTML('beforeend', `
       <div class="word-main">${wordStr}</div>
@@ -241,7 +245,7 @@ export class CardRenderer {
   // -------------------------------------------------------
   // Recognition カード: 単語を見て意味を選ぶ
   // -------------------------------------------------------
-  _renderRecognition(card, wordStr, pos, meaning) {
+  _renderRecognition(card, wordStr, pos, meaning, categoryId) {
     const distractorWords    = getDistractors(card.word, 3);
     const distractorMeanings = distractorWords.map(w => getMeaning(w, pos));
     const choices = this._shuffle([
@@ -251,7 +255,7 @@ export class CardRenderer {
       { text: distractorMeanings[2], isCorrect: false },
     ]);
 
-    const el = this._baseCard('recognition', card.isRetry);
+    const el = this._baseCard('recognition', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-main">${wordStr}</div>
       <div class="word-pos">${pos} — 意味を選んでください</div>
@@ -280,7 +284,7 @@ export class CardRenderer {
   // -------------------------------------------------------
   // Recall カード: 例文の空欄を埋める
   // -------------------------------------------------------
-  _renderRecall(card, wordStr, pos, meaning) {
+  _renderRecall(card, wordStr, pos, meaning, categoryId) {
     const example        = getExample(wordStr, pos);
     const distractorWords = getDistractors(card.word, 3);
     const choices = this._shuffle([
@@ -290,7 +294,7 @@ export class CardRenderer {
       { text: distractorWords[2], isCorrect: false },
     ]);
 
-    const el = this._baseCard('recall', card.isRetry);
+    const el = this._baseCard('recall', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">例文の空欄を埋めてください</div>
       <div class="word-example">${example}</div>
@@ -319,8 +323,8 @@ export class CardRenderer {
   // -------------------------------------------------------
   // Dictation カード: 音声を聞いてスペルを入力
   // -------------------------------------------------------
-  _renderDictation(card, wordStr, pos) {
-    const el = this._baseCard('dictation', card.isRetry);
+  _renderDictation(card, wordStr, pos, categoryId) {
+    const el = this._baseCard('dictation', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">音声を聞いてスペルを入力してください</div>
       <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
@@ -387,8 +391,8 @@ export class CardRenderer {
   // -------------------------------------------------------
   // Handwrite カード（プロトタイプ: タイピング代替）
   // -------------------------------------------------------
-  _renderHandwrite(card, wordStr, pos) {
-    const el = this._baseCard('handwrite', card.isRetry);
+  _renderHandwrite(card, wordStr, pos, categoryId) {
+    const el = this._baseCard('handwrite', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">音声を聞いて単語を書いてください<br>
         <small style="color:var(--text-muted)">(プロトタイプ: タイピングで代替)</small>
@@ -453,9 +457,9 @@ export class CardRenderer {
   // -------------------------------------------------------
   // Passive カード: 例文表示のみ → スワイプで通過
   // -------------------------------------------------------
-  _renderPassive(card, wordStr, pos, meaning) {
+  _renderPassive(card, wordStr, pos, meaning, categoryId) {
     const example = getExample(wordStr, pos);
-    const el      = this._baseCard('passive', card.isRetry);
+    const el      = this._baseCard('passive', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="passive-label">既知語 — 流し読み</div>
       <div class="word-example" style="font-size:16px">${
@@ -492,10 +496,21 @@ export class CardRenderer {
   // -------------------------------------------------------
   // ベースカード DOM 生成
   // -------------------------------------------------------
-  _baseCard(type, isRetry = false) {
+  _baseCard(type, isRetry = false, categoryId = 0) {
     const el = document.createElement('div');
     el.className = 'card';
     this._cardEl = el;
+
+    // 背景画像（BackgroundManager が設定済みの場合）
+    if (this._bg) {
+      const url = this._bg.getUrl(categoryId);
+      if (url) {
+        const bg = document.createElement('div');
+        bg.className = 'card-bg';
+        bg.style.backgroundImage = `url(${url})`;
+        el.appendChild(bg);
+      }
+    }
 
     const badge = document.createElement('div');
     badge.className = `card-type-badge badge-${type}`;
@@ -551,14 +566,26 @@ export class CardRenderer {
     this._result      = null;
     this._historyMode = true;
 
-    const wordStr  = card.word.wordString;
-    const rawWord  = typeof card.word.word === 'object' ? card.word.word : { word: wordStr, pos: 'other' };
-    const pos      = rawWord.pos || 'other';
-    const meaning  = getMeaning(wordStr, pos);
+    const wordStr    = card.word.wordString;
+    const rawWord    = typeof card.word.word === 'object' ? card.word.word : { word: wordStr, pos: 'other' };
+    const pos        = rawWord.pos || 'other';
+    const meaning    = getMeaning(wordStr, pos);
+    const categoryId = rawWord.categoryId ?? 0;
 
     const el = document.createElement('div');
     el.className = 'card';
     this._cardEl = el;
+
+    // 背景画像
+    if (this._bg) {
+      const url = this._bg.getUrl(categoryId);
+      if (url) {
+        const bg = document.createElement('div');
+        bg.className = 'card-bg';
+        bg.style.backgroundImage = `url(${url})`;
+        el.appendChild(bg);
+      }
+    }
 
     // カード種別バッジ
     const badge = document.createElement('div');

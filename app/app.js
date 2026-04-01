@@ -10,6 +10,7 @@ import { HeatmapRenderer }               from './ui-heatmap.js';
 import { CardRenderer }                  from './ui-cards.js';
 import { WordWaveRenderer }              from './ui-wordwave.js';
 import { LABELS }                        from '../core/labels.js';
+import { BackgroundManager }             from './ui-background.js';
 
 const STORAGE_KEY = 'vocabflow_state_v1';
 
@@ -115,13 +116,15 @@ class VocabFlowApp {
 
     // CardRenderer: onReady はスワイプ可能化、onSkip はスキップ処理
     const wrapper = document.getElementById('card-wrapper');
+    this.bgManager = new BackgroundManager();
     this.cardRenderer = new CardRenderer(
       wrapper,
       this.engine,
       (_result) => {
         document.getElementById('card-area').classList.add('swipe-ready');
         if (!isTouch) document.getElementById('btn-next-card').classList.add('ready');
-      }
+      },
+      this.bgManager
     );
 
     this._setupSwipeGestures();
@@ -276,6 +279,13 @@ class VocabFlowApp {
     this.sessionCorrect = 0;
     this.sessionWrong   = 0;
     this.state.sessionsCompleted++;
+
+    // セッション内のカテゴリ画像をプリロード
+    const categoryIds = [...new Set(cards.map(c => {
+      const rw = typeof c.word.word === 'object' ? c.word.word : {};
+      return rw.categoryId ?? 0;
+    }))];
+    this.bgManager?.preload(categoryIds);
 
     this._transitioning = false;
     this._updateStats();
