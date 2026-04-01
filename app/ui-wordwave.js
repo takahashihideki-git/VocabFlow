@@ -1,7 +1,7 @@
 // app/ui-wordwave.js — Word Wave 全画面ビュー
 
 import { getMeaning } from './ui-cards.js';
-import { LABELS, formatH } from '../core/labels.js';
+import { LABELS, formatH, formatPRecall } from '../core/labels.js';
 
 // -------------------------------------------------------
 // カラーマッピング（spec §2.3）
@@ -161,6 +161,11 @@ export class WordWaveRenderer {
         `<span>${LABELS.params.avgH}: <b>${formatH(avgH)}</b></span>`;
     }
 
+    const timeEl = this.overlay.querySelector('#wordwave-time');
+    if (timeEl) {
+      timeEl.textContent = `Day ${Math.floor(this.state.currentTime)}`;
+    }
+
     // アクティブウェーブのラベルを強調
     const activeSet = new Set(this.state.activeWaves);
     this.overlay.querySelectorAll('.ww-wave-label').forEach(el => {
@@ -189,6 +194,8 @@ export class WordWaveRenderer {
       <div class="ww-pop-row"><span>Stage</span><span>${stageName}</span></div>
       <div class="ww-pop-row"><span>${LABELS.params.h}</span><span>${formatH(word.h)}</span></div>
       <div class="ww-pop-row"><span>${LABELS.params.peakH}</span><span>${formatH(word.peakH)}</span></div>
+      <div class="ww-pop-row"><span>${LABELS.params.pRecall}</span><span>${word.stage === 'new' ? '—' : formatPRecall(word.pRecall(this.state.currentTime))}</span></div>
+      <div class="ww-pop-row"><span>最終復習</span><span>${word.lastReviewed > 0 ? `Day ${Math.floor(word.lastReviewed)}` : '—'}</span></div>
       <div class="ww-pop-row"><span>${LABELS.params.reviewCount}</span><span>${word.reviewCount}回 (正解${word.correctCount})</span></div>
       <div class="ww-pop-divider"></div>
       <button class="ww-pop-exclude-btn${word.excluded ? ' restore' : ''}" id="ww-pop-exclude-btn">
