@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 421,
+    "word": "perceive",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "知覚する・気づく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～と見なす・理解する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pərˈsiːv/",
+    "syllables": "per-ceive",
+    "audioHint": "パシーヴ",
+    "examples": [
+      {
+        "en": "She perceived a slight change in his tone.",
+        "ja": "彼女は彼の口調のわずかな変化に気づいた。",
+        "blank": "She ___ a slight change in his tone.",
+        "blankAnswer": "perceived"
+      }
+    ],
+    "distractors": [
+      "区別する",
+      "主張する",
+      "暗示する"
+    ],
+    "confusableSpellings": [
+      "percieve",
+      "perceave",
+      "percive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 per-（完全に）＋ capere（つかむ）→ percipere → perceive。「完全につかみ取る」が原義。",
+      "tips": "perceive は単に「見る・聞く」より深く「意識的に感じ取る・認識する」ニュアンス。be perceived as ～（～と見なされる）の形が頻出。",
+      "confusables": "receive（受け取る）と語尾が似ているが全く別物。per-（通して）と re-（再び）で区別しよう。",
+      "collocations": [
+        "perceive a difference",
+        "be perceived as a threat",
+        "perceive the world"
+      ],
+      "trivia": "「ie か ei か」問題の代表格。\"i before e except after c\" のルール通り、c の後なので ei（perceive）が正解！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 422,
+    "word": "distinguish",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "区別する・見分ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "際立たせる・顕著にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstɪŋɡwɪʃ/",
+    "syllables": "dis-tin-guish",
+    "audioHint": "ディスティングウィッシュ",
+    "examples": [
+      {
+        "en": "Can you distinguish the twins by their voices?",
+        "ja": "声で双子を見分けられますか？",
+        "blank": "Can you ___ the twins by their voices?",
+        "blankAnswer": "distinguish"
+      }
+    ],
+    "distractors": [
+      "知覚する",
+      "否定する",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "distingush",
+      "distingish",
+      "distinguishe"
+    ],
+    "passive": {
+      "etymology": "ラテン語 dis-（分けて）＋ stinguere（刺す・消す）→ distinguere。「刺して分ける」が原義。",
+      "tips": "distinguish A from B（AとBを区別する）と distinguish between A and B の2パターンを覚えよう。日本人は between を忘れがち。",
+      "confusables": "differentiate も「区別する」だが、distinguish は知覚・認識、differentiate はより技術的・分析的な文脈で使われることが多い。",
+      "collocations": [
+        "distinguish between right and wrong",
+        "distinguish A from B",
+        "distinguish oneself"
+      ],
+      "trivia": "distinguished（著名な・卓越した）という形容詞でもよく使われる。「a distinguished professor（著名な教授）」は英語圏の大学でよく聞くフレーズ。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 423,
+    "word": "imply",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "暗示する・ほのめかす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意味する・含意する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈplaɪ/",
+    "syllables": "im-ply",
+    "audioHint": "インプライ",
+    "examples": [
+      {
+        "en": "Her silence implied that she disagreed.",
+        "ja": "彼女の沈黙は不同意を暗示していた。",
+        "blank": "Her silence ___ that she disagreed.",
+        "blankAnswer": "implied"
+      }
+    ],
+    "distractors": [
+      "知覚する",
+      "区別する",
+      "否定する"
+    ],
+    "confusableSpellings": [
+      "impliy",
+      "implie",
+      "inply"
+    ],
+    "passive": {
+      "etymology": "ラテン語 im-（中に）＋ plicare（折り畳む）→ implicare。「中に折り込む」＝「言葉の中に意味を忍ばせる」が原義。",
+      "tips": "imply（話し手が暗示する）と infer（聞き手が推論する）は混同されやすい頻出ポイント。「I implied, you inferred」と覚えよう。",
+      "confusables": "suggest も「示唆する」だが、imply はより間接的・無意識的なニュアンスを持つ。explicit（明示的）の対義語として implicit（暗黙の）も同語根。",
+      "collocations": [
+        "imply criticism",
+        "what does this imply?",
+        "imply that S+V"
+      ],
+      "trivia": "imply の名詞形 implication は「意味合い・含意」。政治ニュースで \"the implications of this policy\" のように頻繁に登場する大人の語彙！"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  },
+  {
+    "id": 424,
+    "word": "handle",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "対処する・処理する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "扱う・取り扱う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈhændl/",
+    "syllables": "han-dle",
+    "audioHint": "ハンドゥル",
+    "examples": [
+      {
+        "en": "She handles customer complaints very professionally.",
+        "ja": "彼女は顧客の苦情をとても専門的に処理する。",
+        "blank": "She ___ customer complaints very professionally.",
+        "blankAnswer": "handles"
+      }
+    ],
+    "distractors": [
+      "順位をつける",
+      "称賛する",
+      "訴える"
+    ],
+    "confusableSpellings": [
+      "handl",
+      "hanndle",
+      "handdle"
+    ],
+    "passive": {
+      "etymology": "古英語 handlian（手で触れる）＋ -le（反復の接尾辞）。hand（手）がそのまま語根。「手で繰り返し操作する」が原義。",
+      "tips": "handle は「困難な状況に対処する」意味でも使える。I can't handle this.（これには対処できない）は日常会話で超頻出。名詞では「取っ手」の意味もある。",
+      "confusables": "deal with も「対処する」だが、handle はより能動的・熟練した対応のニュアンス。manage も似ているが「なんとかやりくりする」感が強い。",
+      "collocations": [
+        "handle the situation",
+        "handle pressure",
+        "handle with care"
+      ],
+      "trivia": "SNSの「ハンドル（ユーザー名）」も handle から。もともと無線通信で自分の呼び名として使われたのが起源で、今やSNS時代に復活した言葉！"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 425,
+    "word": "praise",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "称賛する・褒める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "称賛・賛辞",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/preɪz/",
+    "syllables": "praise",
+    "audioHint": "プレイズ",
+    "examples": [
+      {
+        "en": "The teacher praised her students for their hard work.",
+        "ja": "先生は生徒たちの努力を称賛した。",
+        "blank": "The teacher ___ her students for their hard work.",
+        "blankAnswer": "praised"
+      }
+    ],
+    "distractors": [
+      "競争する",
+      "訴える",
+      "対処する"
+    ],
+    "confusableSpellings": [
+      "prais",
+      "praize",
+      "preaise"
+    ],
+    "passive": {
+      "etymology": "古フランス語 preisier（価値をつける）→ ラテン語 pretium（価格・価値）。「価値を認めて評価する」が原義。",
+      "tips": "praise は動詞・名詞の両方で使える。praise A for B（BのことでAを褒める）の形を覚えよう。日本人は compliment と混同しがちだが、praise はより公式・大げさなニュアンス。",
+      "confusables": "compliment は個人的・社交的な褒め言葉、praise はより真剣・正式な評価。また pray（祈る）と発音が似ているので注意！",
+      "collocations": [
+        "praise someone for their effort",
+        "receive high praise",
+        "sing someone's praises"
+      ],
+      "trivia": "\"Praise the Lord!\"（神を讃えよ！）という宗教表現でも頻出。英語圏では日常会話でも驚いたときに使う感嘆表現として生き残っている。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 426,
+    "word": "appeal",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "訴える・懇願する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "魅力的に感じさせる・興味を引く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈpiːl/",
+    "syllables": "ap-peal",
+    "audioHint": "アピール",
+    "examples": [
+      {
+        "en": "The charity appealed to the public for donations.",
+        "ja": "その慈善団体は寄付を求めて大衆に訴えた。",
+        "blank": "The charity ___ to the public for donations.",
+        "blankAnswer": "appealed"
+      }
+    ],
+    "distractors": [
+      "競争する",
+      "称賛する",
+      "区別する"
+    ],
+    "confusableSpellings": [
+      "apeal",
+      "appeel",
+      "appeall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ap-（～に向かって）＋ pellare（呼ぶ）→ appellare。「誰かに向かって呼びかける」が原義。",
+      "tips": "appeal to ～で「～に訴える」と「～の興味を引く」の2意味がある。This doesn't appeal to me.（これは私には魅力を感じない）は日常的によく使う。",
+      "confusables": "日本語の「アピールする」は「自分をよく見せる」だが、英語 appeal は「相手の心に訴えかける・響く」方向。appeal against a decision（判決に控訴する）という法律用語としても重要。",
+      "collocations": [
+        "appeal to emotions",
+        "appeal against a verdict",
+        "have wide appeal"
+      ],
+      "trivia": "法律用語で「控訴・上訴」を appeal というのは世界共通。アメリカの裁判ドラマで \"I'm filing an appeal!\" というセリフが頻出するのはこのため！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 427,
+    "word": "insist",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "主張する・言い張る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "強く要求する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈsɪst/",
+    "syllables": "in-sist",
+    "audioHint": "インスィスト",
+    "examples": [
+      {
+        "en": "He insisted that he had seen the accident.",
+        "ja": "彼はその事故を目撃したと主張した。",
+        "blank": "He ___ that he had seen the accident.",
+        "blankAnswer": "insisted"
+      }
+    ],
+    "distractors": [
+      "暗示する",
+      "知覚する",
+      "区別する"
+    ],
+    "confusableSpellings": [
+      "insiste",
+      "insisit",
+      "inssist"
+    ],
+    "passive": {
+      "etymology": "ラテン語 in-（上に）＋ sistere（立つ・固定する）→ insistere。「ある立場の上にしっかり立ち続ける」が原義。",
+      "tips": "insist on ～ing（～することを強く主張する）と insist that S＋V（Sが…だと主張する）の2パターンが重要。that節では仮定法現在（動詞の原形）を使うことも多い。",
+      "confusables": "persist（し続ける・固執する）と似ているが、insist は「言葉で主張する」、persist は「行動を続ける」ニュアンス。",
+      "collocations": [
+        "insist on one's innocence",
+        "insist that S+V",
+        "insist on doing"
+      ],
+      "trivia": "insist の語根 -sist（立つ）は consist（成り立つ）、resist（抵抗する）、assist（助ける）にも共通。si-sist 仲間を覚えると語彙が一気に増える！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 428,
+    "word": "compete",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "競争する・競う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "対抗する・張り合う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpiːt/",
+    "syllables": "com-pete",
+    "audioHint": "コンピート",
+    "examples": [
+      {
+        "en": "Five runners competed for the gold medal.",
+        "ja": "5人のランナーが金メダルをかけて競い合った。",
+        "blank": "Five runners ___ for the gold medal.",
+        "blankAnswer": "competed"
+      }
+    ],
+    "distractors": [
+      "称賛する",
+      "訴える",
+      "処理する"
+    ],
+    "confusableSpellings": [
+      "compeat",
+      "compette",
+      "compeete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 com-（共に）＋ petere（求める・目指す）→ competere。「共に同じものを求め合う」が原義。",
+      "tips": "compete with（～と競う）と compete for（～をかけて競う）は前置詞の使い分けが重要。compete against も compete with と同様に使える。",
+      "confusables": "compete（競う）と complete（完成する）はスペルが似ているので注意。competent（有能な）は compete と同語根で「目標に達する力がある」という意味。",
+      "collocations": [
+        "compete in a race",
+        "compete with rivals",
+        "compete for a prize"
+      ],
+      "trivia": "competition（競争）から派生した competency（コンピテンシー）は現代のビジネス・HR用語として大流行中。もともと「競い合う力」という意味が企業評価に応用されたのが面白い。"
+    },
+    "frequency": 1000,
+    "cefr": "B1"
+  },
+  {
+    "id": 429,
+    "word": "rank",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "順位をつける・ランク付けする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "順位・地位・等級",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ræŋk/",
+    "syllables": "rank",
+    "audioHint": "ランク",
+    "examples": [
+      {
+        "en": "This university ranks among the top ten globally.",
+        "ja": "この大学は世界トップ10に入っている。",
+        "blank": "This university ___ among the top ten globally.",
+        "blankAnswer": "ranks"
+      }
+    ],
+    "distractors": [
+      "対処する",
+      "訴える",
+      "競争する"
+    ],
+    "confusableSpellings": [
+      "ranck",
+      "rannk",
+      "rnk"
+    ],
+    "passive": {
+      "etymology": "古フランス語 ranc / rang（列・列）→ ゲルマン語系の hring（輪・列）。「列に並べる」→「順序をつける」が原義。",
+      "tips": "rank は動詞「順位をつける」と名詞「順位・地位」の両方で使う。rank A as B（AをBとして評価する）/ rank among the best（上位に入る）の形を覚えよう。",
+      "confusables": "rate も「評価する・格付けする」だが、rank は相対的な順序、rate は絶対的なスコアや評価値のニュアンス。",
+      "collocations": [
+        "rank first",
+        "rank among",
+        "pull rank（地位を振りかざす）"
+      ],
+      "trivia": "\"pull rank\"（自分の地位・階級を利用して押し通す）というイディオムは軍隊由来。上官が部下に命令するときのイメージから来ており、今も職場のドラマでよく使われる。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 430,
+    "word": "deny",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "否定する・否認する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "拒否する・与えない",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈnaɪ/",
+    "syllables": "de-ny",
+    "audioHint": "ディナイ",
+    "examples": [
+      {
+        "en": "He denied stealing the money from the office.",
+        "ja": "彼はオフィスからお金を盗んだことを否定した。",
+        "blank": "He ___ stealing the money from the office.",
+        "blankAnswer": "denied"
+      }
+    ],
+    "distractors": [
+      "暗示する",
+      "主張する",
+      "知覚する"
+    ],
+    "confusableSpellings": [
+      "denie",
+      "denay",
+      "dinny"
+    ],
+    "passive": {
+      "etymology": "ラテン語 de-（完全に・否定）＋ negare（否定する）→ denegare → deny。「完全に否定する」が原義。negare は negative（否定的）と同じ語根。",
+      "tips": "deny ～ing（～したことを否定する）は deny to do とは言わない！動名詞（-ing）しか続けられないのが日本人が間違えやすいポイント。",
+      "confusables": "refuse は「（依頼を）断る」、deny は「（事実・申請を）否定・拒絶する」。I deny the accusation.（告発を否定する）vs I refused the offer.（申し出を断った）",
+      "collocations": [
+        "deny the allegations",
+        "deny access",
+        "deny oneself（自制する）"
+      ],
+      "trivia": "\"denial\"（否認）は心理学用語でも有名。「悲嘆の5段階（The Five Stages of Grief）」の最初のステップが denial。つまり人間の感情の最初の反応は「否定する」こと！"
+    },
+    "frequency": 1050,
+    "cefr": "B1"
+  },
+  {
+    "id": 431,
+    "word": "reject",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "拒絶する、却下する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "不合格にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈdʒɛkt/",
+    "syllables": "re-ject",
+    "audioHint": "リジェクト",
+    "examples": [
+      {
+        "en": "The committee rejected the proposal without discussion.",
+        "ja": "委員会はその提案を議論なしに却下した。",
+        "blank": "The committee ___ the proposal without discussion.",
+        "blankAnswer": "rejected"
+      }
+    ],
+    "distractors": [
+      "提案する",
+      "意図する",
+      "説明する"
+    ],
+    "confusableSpellings": [
+      "rejeckt",
+      "rreject",
+      "rejedt"
+    ],
+    "passive": {
+      "etymology": "接頭辞 re-（後ろへ）＋ラテン語 jacere（投げる）→「後ろへ投げ返す」が原義。",
+      "tips": "名詞形は reject（リジェクト、不良品・落選者の意）で動詞とアクセント位置が異なる。動詞は後ろ（reJECT）、名詞は前（REject）にアクセントが来るので注意。",
+      "confusables": "refuse との違い：refuse は個人が主体的に「断る」行為。reject はより公式・組織的な「却下・不合格」のニュアンスが強い。",
+      "collocations": [
+        "reject an offer",
+        "reject an application",
+        "feel rejected"
+      ],
+      "trivia": "メールの「リジェクト」通知はまさにこの単語。恋愛でも使われ「I got rejected（振られた）」は英語圏の若者が普通に使う表現。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 432,
+    "word": "intend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "意図する、つもりである",
+        "pos": "verb"
+      },
+      {
+        "meaning": "目的とする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈtɛnd/",
+    "syllables": "in-tend",
+    "audioHint": "インテンド",
+    "examples": [
+      {
+        "en": "I didn't intend to hurt your feelings.",
+        "ja": "あなたの気持ちを傷つけるつもりはなかった。",
+        "blank": "I didn't ___ to hurt your feelings.",
+        "blankAnswer": "intend"
+      }
+    ],
+    "distractors": [
+      "拒絶する",
+      "提案する",
+      "綴る"
+    ],
+    "confusableSpellings": [
+      "intened",
+      "inttend",
+      "intand"
+    ],
+    "passive": {
+      "etymology": "ラテン語 intendere（in-「向かって」＋tendere「伸ばす」）→「心をある方向へ伸ばす」が原義。",
+      "tips": "intend to do（〜するつもり）と intend A for B（AをBのために意図する）の2パターンを押さえよう。「intend doing」は稀で、基本は to不定詞。",
+      "confusables": "mean to do との違い：ほぼ同義だが intend はやや書き言葉的・フォーマル。会話では「I mean to...」より「I intend to...」の方が明確な意志を示す。",
+      "collocations": [
+        "intend to do",
+        "as intended",
+        "originally intended"
+      ],
+      "trivia": "「intention（意図）」と同根。「The road to hell is paved with good intentions.（地獄への道は善意で舗装されている）」という有名なことわざも、この語族から生まれている。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 433,
+    "word": "expose",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "さらす、露出させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "暴露する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈspoʊz/",
+    "syllables": "ex-pose",
+    "audioHint": "イクスポウズ",
+    "examples": [
+      {
+        "en": "Don't expose your skin to direct sunlight for too long.",
+        "ja": "肌を直射日光に長時間さらさないようにしよう。",
+        "blank": "Don't ___ your skin to direct sunlight for too long.",
+        "blankAnswer": "expose"
+      }
+    ],
+    "distractors": [
+      "修理する",
+      "構成する",
+      "呼吸する"
+    ],
+    "confusableSpellings": [
+      "expouse",
+      "exspose",
+      "exposse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 exponere（ex-「外へ」＋ponere「置く」）→「外へ置く＝外にさらす」が原義。",
+      "tips": "be exposed to〜（〜にさらされる）は頻出表現。「exposed to English（英語に触れる）」のように抽象的な対象にも使える。名詞 exposure（露出・暴露・露光）も重要。",
+      "confusables": "reveal との違い：reveal は隠されていた事実を「明かす」ニュアンス。expose は悪事や危険を「暴く・さらす」ニュアンスがやや強い。",
+      "collocations": [
+        "expose to risk",
+        "expose a scandal",
+        "be exposed to"
+      ],
+      "trivia": "写真の「露出（exposure）」もこの語から。昔のフィルムカメラで光にさらすことを expose と言ったのが語源。SNSでスキャンダルを暴くことを「エクスポーズ」と言うのも同じ。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 434,
+    "word": "favor",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "好む、支持する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "親切にする、便宜を図る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfeɪvər/",
+    "syllables": "fa-vor",
+    "audioHint": "フェイヴァー",
+    "examples": [
+      {
+        "en": "Most students favor online classes over in-person ones.",
+        "ja": "ほとんどの学生は対面授業よりオンライン授業を好む。",
+        "blank": "Most students ___ online classes over in-person ones.",
+        "blankAnswer": "favor"
+      }
+    ],
+    "distractors": [
+      "鼓舞する",
+      "謝罪する",
+      "罰する"
+    ],
+    "confusableSpellings": [
+      "flavour",
+      "favore",
+      "faver"
+    ],
+    "passive": {
+      "etymology": "ラテン語 favor（好意）→古フランス語 faveur を経て英語へ。語根 fav- は「好む」を意味する。",
+      "tips": "アメリカ英語は favor、イギリス英語は favour とスペルが異なる。「Do me a favor.（お願いがあるんだけど）」は名詞用法で超頻出。",
+      "confusables": "prefer との違い：prefer は「AよりBを好む」と比較的に使う。favor はより広く「支持・ひいき」のニュアンスを含む。",
+      "collocations": [
+        "do someone a favor",
+        "in favor of",
+        "favor one side"
+      ],
+      "trivia": "「favored」には「えこひいきされた」の意味もあり、sports で「the favored team（優勝候補）」のように使う。競馬で「本命馬」を favorite と呼ぶのも同じ語族。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 435,
+    "word": "inspire",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "鼓舞する、インスピレーションを与える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "引き起こす、触発する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈspaɪər/",
+    "syllables": "in-spire",
+    "audioHint": "インスパイアー",
+    "examples": [
+      {
+        "en": "Her speech inspired many young people to take action.",
+        "ja": "彼女のスピーチは多くの若者を行動へと鼓舞した。",
+        "blank": "Her speech ___ many young people to take action.",
+        "blankAnswer": "inspired"
+      }
+    ],
+    "distractors": [
+      "支持する",
+      "罰する",
+      "謝罪する"
+    ],
+    "confusableSpellings": [
+      "inpire",
+      "inspyre",
+      "enspire"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inspirare（in-「中へ」＋spirare「息を吹き込む」）→「神が魂に息を吹き込む」が原義。spirit（精神）と同じ語根。",
+      "tips": "inspire A to do（AにBするよう鼓舞する）という構文が頻出。「インスパイアされた作品」は英語でも inspired by〜 と言う。名詞 inspiration も重要。",
+      "confusables": "motivate との違い：motivate は目標達成への「動機づけ」、inspire はより感情的・創造的な「感化・触発」のニュアンスが強い。",
+      "collocations": [
+        "inspire confidence",
+        "inspire someone to do",
+        "be inspired by"
+      ],
+      "trivia": "「inspire」と「respire（呼吸する）」は同じ語根。呼吸（息を吸う）と感動（魂に息を吹き込まれる）が同じ単語由来というのが面白い。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 436,
+    "word": "propose",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "提案する、提唱する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "プロポーズする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈpoʊz/",
+    "syllables": "pro-pose",
+    "audioHint": "プロポウズ",
+    "examples": [
+      {
+        "en": "She proposed a new solution to the budget problem.",
+        "ja": "彼女は予算問題に対する新しい解決策を提案した。",
+        "blank": "She ___ a new solution to the budget problem.",
+        "blankAnswer": "proposed"
+      }
+    ],
+    "distractors": [
+      "拒絶する",
+      "意図する",
+      "綴る"
+    ],
+    "confusableSpellings": [
+      "propoze",
+      "proppose",
+      "prpose"
+    ],
+    "passive": {
+      "etymology": "ラテン語 proponere（pro-「前へ」＋ponere「置く」）→「前に置く＝提示する」が原義。pose（姿勢をとる）とも同根。",
+      "tips": "propose to do（〜することを提案する）と propose that S (should) V（SがVすることを提案する）の2構文を覚えよう。後者は仮定法現在（should省略可）。",
+      "confusables": "suggest との違い：propose はより具体的・正式な「提案」、suggest は軽い「示唆・提案」のニュアンス。会議では propose、友人同士では suggest が自然。",
+      "collocations": [
+        "propose a plan",
+        "propose marriage",
+        "as proposed"
+      ],
+      "trivia": "「プロポーズ」は日本語でもそのまま使われるが、英語の propose marriage は「結婚を申し込む」という意味の正式表現。映画やドラマでよく聞く「Will you marry me?」のシーンがまさにこれ。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 437,
+    "word": "spell",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "綴る、スペルを言う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意味する、もたらす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/spɛl/",
+    "syllables": "spell",
+    "audioHint": "スペル",
+    "examples": [
+      {
+        "en": "Can you spell your last name for me?",
+        "ja": "苗字のスペルを教えてもらえますか？",
+        "blank": "Can you ___ your last name for me?",
+        "blankAnswer": "spell"
+      }
+    ],
+    "distractors": [
+      "拒絶する",
+      "提案する",
+      "意図する"
+    ],
+    "confusableSpellings": [
+      "spel",
+      "speel",
+      "spelle"
+    ],
+    "passive": {
+      "etymology": "古英語 spelian（代わりをする）および古フランス語 espeler（文字を読む）の2つの流れが合流。「魔法の呪文」の spell とは別語源。",
+      "tips": "「How do you spell it?（どう綴りますか？）」は実用英会話で必須。また spell out〜（〜を詳しく説明する）という句動詞も重要。",
+      "confusables": "spell と呪文の spell：「魔法の呪文」の spell は名詞で全く別義。「under a spell（魔法にかかって）」は比喩的にも使われる。",
+      "collocations": [
+        "spell out",
+        "spell disaster",
+        "how do you spell"
+      ],
+      "trivia": "「This could spell disaster.（これは大惨事を意味しかねない）」のように「spell＝もたらす」の意味も重要。魔法の呪文も、文字の綴りも、どちらも「言葉の力」という概念で結びついているのが面白い。"
+    },
+    "frequency": 2000,
+    "cefr": "A2"
+  },
+  {
+    "id": 438,
+    "word": "breathe",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "呼吸する、息をする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "吹き込む、ささやく",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/briːð/",
+    "syllables": "breathe",
+    "audioHint": "ブリーズ",
+    "examples": [
+      {
+        "en": "Just breathe deeply and try to stay calm.",
+        "ja": "深呼吸して、落ち着こうとしてみて。",
+        "blank": "Just ___ deeply and try to stay calm.",
+        "blankAnswer": "breathe"
+      }
+    ],
+    "distractors": [
+      "修理する",
+      "さらす",
+      "構成する"
+    ],
+    "confusableSpellings": [
+      "breath",
+      "breth",
+      "breeth"
+    ],
+    "passive": {
+      "etymology": "古英語 brǣþ（息、蒸気）→ breathe は名詞 breath から派生した動詞。語末の -e で「動詞化」されている。",
+      "tips": "名詞 breath（ブレス）と動詞 breathe（ブリーズ）のスペルと発音の違いに注意。「I can't breath」は間違いで正しくは「I can't breathe」。",
+      "confusables": "breath（名詞）vs breathe（動詞）：発音も違う（breath /brɛθ/、breathe /briːð/）。日本人学習者が最も混同しやすいペアの一つ。",
+      "collocations": [
+        "breathe deeply",
+        "breathe a sigh of relief",
+        "breathe life into"
+      ],
+      "trivia": "「I can't breathe」は2020年のBlack Lives Matter運動でも重要なスローガンとなった言葉。こんなに基本的な単語が歴史的な重みを持つこともある。"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 439,
+    "word": "repair",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "修理する、直す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "修復する、回復する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈpɛr/",
+    "syllables": "re-pair",
+    "audioHint": "リペア",
+    "examples": [
+      {
+        "en": "He repaired the broken bicycle in less than an hour.",
+        "ja": "彼は壊れた自転車を1時間以内に修理した。",
+        "blank": "He ___ the broken bicycle in less than an hour.",
+        "blankAnswer": "repaired"
+      }
+    ],
+    "distractors": [
+      "さらす",
+      "構成される",
+      "呼吸する"
+    ],
+    "confusableSpellings": [
+      "repare",
+      "repiar",
+      "reapair"
+    ],
+    "passive": {
+      "etymology": "ラテン語 reparare（re-「再び」＋parare「準備する・整える」）→「再び整える」が原義。prepare（準備する）と同じ語根 parare を持つ。",
+      "tips": "repair は物理的な修理だけでなく、「repair a relationship（関係を修復する）」のように抽象的なものにも使える。名詞としても「in good repair（良い状態で）」の形で重要。",
+      "confusables": "fix との違い：fix は口語的で何にでも使える。repair はよりフォーマルで技術的な修繕のニュアンスが強い。車・機械・建物などに使うと自然。",
+      "collocations": [
+        "repair a car",
+        "under repair",
+        "repair damage"
+      ],
+      "trivia": "「beyond repair（修理不可能な）」は物だけでなく「もう取り返しのつかない関係」にも使う。失恋した友人に「It's beyond repair now.（もう終わりだよ）」なんて言ったりする。"
+    },
+    "frequency": 1900,
+    "cefr": "A2"
+  },
+  {
+    "id": 440,
+    "word": "consist",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "構成される、成り立つ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜にある、存在する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈsɪst/",
+    "syllables": "con-sist",
+    "audioHint": "コンシスト",
+    "examples": [
+      {
+        "en": "The team consists of twelve players from five countries.",
+        "ja": "そのチームは5か国から来た12人の選手で構成されている。",
+        "blank": "The team ___ of twelve players from five countries.",
+        "blankAnswer": "consists"
+      }
+    ],
+    "distractors": [
+      "修理する",
+      "さらす",
+      "呼吸する"
+    ],
+    "confusableSpellings": [
+      "consit",
+      "conssist",
+      "consisit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 consistere（con-「共に」＋sistere「立つ」）→「一緒に立つ＝まとまって存在する」が原義。",
+      "tips": "consist は必ず前置詞とセットで使う。「consist of〜（〜で構成される）」と「consist in〜（〜にある・本質がある）」の2パターンを覚えよう。consist を受動態にしないこと（be consisted of は誤り）。",
+      "confusables": "be composed of / be made up of との違い：ほぼ同義だが、consist of は自動詞なので受動態不可。「is consisted of」は絶対にNG。日本人学習者が最もやりがちなミスの一つ。",
+      "collocations": [
+        "consist of",
+        "consist in",
+        "mainly consists of"
+      ],
+      "trivia": "「consistency（一貫性）」も同じ語根。「まとまって立つ」→「ブレない一貫した状態」という意味の広がりが面白い。スポーツ選手が「consistency is key」とよく言うのも納得。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  }
+]

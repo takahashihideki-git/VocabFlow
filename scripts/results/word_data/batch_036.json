@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 701,
+    "word": "possess",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "所有する、持つ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・考えが人を）支配する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pəˈzɛs/",
+    "syllables": "pos-sess",
+    "audioHint": "ポゼス",
+    "examples": [
+      {
+        "en": "She possesses great talent for music.",
+        "ja": "彼女は音楽に対する素晴らしい才能を持っている。",
+        "blank": "She ___ great talent for music.",
+        "blankAnswer": "possesses"
+      }
+    ],
+    "distractors": [
+      "保証する",
+      "変化させる",
+      "操作する"
+    ],
+    "confusableSpellings": [
+      "posess",
+      "possses",
+      "posses"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'possidere'（所有する）から。'pot-'（力・能力）＋ 'sedere'（座る）→「力をもって座る」→所有する、という流れ。",
+      "tips": "「possess」は状態動詞なので、原則として進行形にはしません。'She is possessing a car.' は不自然で、'She possesses a car.' が正解。ただし「悪魔に取り憑かれている」の意味では進行形も可。",
+      "confusables": "'have' との違い：'possess' はより格式ばった文語的表現。日常会話では 'have' が自然だが、特別な才能・特性・財産を強調するときは 'possess' がよく使われる。",
+      "collocations": [
+        "possess a skill",
+        "possess knowledge",
+        "what possessed you?"
+      ],
+      "trivia": "「What possessed you to do that?」は「なんでそんなことをしたの？」という慣用表現。悪魔に取り憑かれたかのように理解できない行動をした相手への驚きを表す、ホラー映画由来のフレーズ！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 702,
+    "word": "dominate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "支配する、優位に立つ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（場所・景色を）圧倒する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɒmɪneɪt/",
+    "syllables": "dom-i-nate",
+    "audioHint": "ドミネイト",
+    "examples": [
+      {
+        "en": "The team dominated the game from start to finish.",
+        "ja": "そのチームは試合を最初から最後まで支配した。",
+        "blank": "The team ___ the game from start to finish.",
+        "blankAnswer": "dominated"
+      }
+    ],
+    "distractors": [
+      "貸し与える",
+      "捧げる",
+      "感謝する"
+    ],
+    "confusableSpellings": [
+      "dominete",
+      "dominnate",
+      "dominait"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'dominari'（主人として支配する）から。'dominus'（主人・主）が語根で、'domain'（領域）や'dominant'（優勢な）と同じ仲間。",
+      "tips": "「dominate」は試合・市場・議論など幅広い場面で使えます。日本人は「支配する」と訳して人間関係のみに限定しがちですが、'This company dominates the market.'（この会社は市場を支配している）のようにビジネスでも頻出。",
+      "confusables": "'control' との違い：'control' は「管理・コントロールする」で中立的なニュアンス。'dominate' は「圧倒的に優位に立つ」という強さが含まれる。",
+      "collocations": [
+        "dominate the market",
+        "dominate a conversation",
+        "dominate the headlines"
+      ],
+      "trivia": "英語の「dominant」（優性遺伝子）もこの語根から来ている。遺伝学の授業で「ドミナント遺伝子」と習う日本人も多いはず。スポーツ実況でも頻繁に登場するパワーワード！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 703,
+    "word": "guarantee",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "保証する、確約する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（品質・結果を）請け合う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌɡærənˈtiː/",
+    "syllables": "guar-an-tee",
+    "audioHint": "ギャランティー",
+    "examples": [
+      {
+        "en": "I can guarantee that the product will last five years.",
+        "ja": "その製品が5年間持つことを保証できます。",
+        "blank": "I can ___ that the product will last five years.",
+        "blankAnswer": "guarantee"
+      }
+    ],
+    "distractors": [
+      "所有する",
+      "溶かす",
+      "操作する"
+    ],
+    "confusableSpellings": [
+      "guarentee",
+      "gaurantee",
+      "garantee"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'garantir'（保護する）から。ゲルマン語の 'warjan'（守る）が語源で、'warrant'（令状・保証）とも親戚。語頭の 'guar-' はスペイン語・フランス語経由でgがついた形。",
+      "tips": "スペルが非常に間違えやすい単語ナンバーワン候補！'guar-an-tee' と3つのパーツに分けて覚えましょう。また名詞としても使え、'a one-year guarantee'（1年保証）のように製品保証でよく使われます。",
+      "confusables": "'promise' との違い：'promise' は個人的な約束のニュアンスが強く、'guarantee' はより公式・法的な確約。'I promise' は友人への約束、'I guarantee' はビジネスや製品保証に近い。",
+      "collocations": [
+        "guarantee a refund",
+        "money-back guarantee",
+        "guarantee quality"
+      ],
+      "trivia": "英語ネイティブでも最もよくスペルミスをする単語トップ10に常にランクイン！'gua-' で始まる単語は英語では珍しく、スペイン語やフランス語の影響を強く受けた証拠。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 704,
+    "word": "melt",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "溶ける、溶かす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情が）和らぐ、柔らかくなる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/mɛlt/",
+    "syllables": "melt",
+    "audioHint": "メルト",
+    "examples": [
+      {
+        "en": "The snow melted quickly in the afternoon sun.",
+        "ja": "雪は午後の日差しで素早く溶けた。",
+        "blank": "The snow ___ quickly in the afternoon sun.",
+        "blankAnswer": "melted"
+      }
+    ],
+    "distractors": [
+      "走る",
+      "呼吸する",
+      "押す"
+    ],
+    "confusableSpellings": [
+      "malt",
+      "mellt",
+      "melt"
+    ],
+    "passive": {
+      "etymology": "古英語 'meltan'（溶ける）から。ゲルマン語起源で、ノルウェー語の 'melta' とも関連。物質が熱で液体になる物理的変化を表す最も基本的な動詞。",
+      "tips": "自動詞（溶ける）と他動詞（溶かす）の両方に使えます。'The ice melted.'（氷が溶けた）と 'He melted the butter.'（バターを溶かした）の両方がOK。比喩的に 'My heart melted.'（胸がキュンとした）という表現も日常的によく使われます。",
+      "confusables": "'dissolve' との違い：'melt' は主に熱によって液体になること、'dissolve' は液体の中に溶け込むこと（砂糖が水に溶ける等）。'melt' は固体→液体、'dissolve' は固体→溶液のイメージ。",
+      "collocations": [
+        "melt in your mouth",
+        "melt away",
+        "melt butter"
+      ],
+      "trivia": "「melt in your mouth」は「口の中でとろける」という意味の慣用表現で、高品質なチョコレートや和牛のCMでよく使われるフレーズ。感情表現にも使える 'melting look'（とろけるような目つき）なんて表現も！"
+    },
+    "frequency": 2500,
+    "cefr": "A2"
+  },
+  {
+    "id": 705,
+    "word": "embarrass",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "恥ずかしい思いをさせる、当惑させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人を）困らせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈbærəs/",
+    "syllables": "em-bar-rass",
+    "audioHint": "エンバラス",
+    "examples": [
+      {
+        "en": "He embarrassed me by singing in public.",
+        "ja": "彼は公衆の前で歌って私を恥ずかしい思いにさせた。",
+        "blank": "He ___ me by singing in public.",
+        "blankAnswer": "embarrassed"
+      }
+    ],
+    "distractors": [
+      "勇気づける",
+      "説得する",
+      "理解する"
+    ],
+    "confusableSpellings": [
+      "embarass",
+      "embarras",
+      "embarrase"
+    ],
+    "passive": {
+      "etymology": "スペイン語 'embarazar'（障害を置く）→フランス語 'embarrasser' を経て英語へ。'em-'（中に）＋ 'barra'（棒・障壁）→「障壁の中に入れる」→身動きが取れなくなる→恥ずかしい、という流れ。",
+      "tips": "スペルは 'r' と 's' が2つずつ（rr, ss）！「恥ずかしい目にあわせる」は他動詞なので、'I was embarrassed'（私は恥ずかしかった）と受動態でよく使われます。'embarrassing'（恥ずかしい状況）と 'embarrassed'（恥ずかしいと感じている人）を混同しないように。",
+      "confusables": "'ashamed' との違い：'embarrassed' は他人の目を気にした「気まずい・恥ずかしい」感覚、'ashamed' は道徳的・倫理的な「恥・後ろめたさ」。人前でつまずいたら 'embarrassed'、悪いことをして良心が痛んだら 'ashamed'。",
+      "collocations": [
+        "feel embarrassed",
+        "embarrass someone",
+        "deeply embarrassed"
+      ],
+      "trivia": "英語ネイティブが最もスペルミスをする単語の常連！「r が2つか1つか」「s が2つか1つか」で迷いがち。覚え方は「A Rude Remark Always Surprises Someone」の頭文字で rr・ss を覚えるのが有名！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 706,
+    "word": "discourage",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "やる気をなくさせる、落胆させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（行為を）思いとどまらせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪsˈkʌrɪdʒ/",
+    "syllables": "dis-cour-age",
+    "audioHint": "ディスカリッジ",
+    "examples": [
+      {
+        "en": "Don't let one failure discourage you from trying again.",
+        "ja": "一度の失敗で再挑戦するのをあきらめないで。",
+        "blank": "Don't let one failure ___ you from trying again.",
+        "blankAnswer": "discourage"
+      }
+    ],
+    "distractors": [
+      "気づく",
+      "強調する",
+      "説明する"
+    ],
+    "confusableSpellings": [
+      "discorage",
+      "discourige",
+      "discurage"
+    ],
+    "passive": {
+      "etymology": "'dis-'（否定・反対）＋ 'courage'（勇気）＝「勇気を奪う」。'courage' 自体はラテン語 'cor'（心）から来ており、'encourage'（勇気づける）の反対語として対で覚えると便利。",
+      "tips": "「discourage + 人 + from + 動名詞」の構文が超頻出！'I was discouraged from speaking up.'（発言を控えるよう言われた）のように受動態でもよく使われます。'discourage' は禁止ではなく「やめた方がいいとほのめかす」ニュアンス。",
+      "confusables": "'prohibit' との違い：'discourage' は「奨励しない・思いとどまらせる」という柔らかい表現、'prohibit' は「法律や規則で禁止する」という強い表現。学校のルール説明などで使い分けが重要。",
+      "collocations": [
+        "discourage from doing",
+        "feel discouraged",
+        "strongly discourage"
+      ],
+      "trivia": "「encourage」と「discourage」はコインの表裏。語根の 'cor'（心）はフランス語で今も「心」を意味する。「ライオンのハート（勇気）」を語源とする 'courage' を与えるか奪うかで意味が真逆になるのは面白い！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 707,
+    "word": "detect",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "検出する、発見する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（かすかなものを）感知する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈtɛkt/",
+    "syllables": "de-tect",
+    "audioHint": "ディテクト",
+    "examples": [
+      {
+        "en": "Scientists detected a small change in temperature.",
+        "ja": "科学者たちは気温のわずかな変化を検出した。",
+        "blank": "Scientists ___ a small change in temperature.",
+        "blankAnswer": "detected"
+      }
+    ],
+    "distractors": [
+      "落胆させる",
+      "強調する",
+      "思い込む"
+    ],
+    "confusableSpellings": [
+      "detact",
+      "deetect",
+      "ditect"
+    ],
+    "passive": {
+      "etymology": "'de-'（離れる・取り除く）＋ ラテン語 'tegere'（覆う）＝「覆いを取り除く」→隠れているものを明らかにする。'protect'（pro- + tegere = 前に覆いをする）とは逆の動作！",
+      "tips": "「detect」は主に機器・センサー・科学的手段による発見に使われます。人間が五感で気づく場合にも使いますが、'notice'（気づく）より技術的・分析的なニュアンスが強い。'smoke detector'（煙感知器）という名詞形も覚えておくと実用的。",
+      "confusables": "'discover' との違い：'discover' は新しいものを「発見する」（コロンブスの大陸発見等）、'detect' は隠れているものや微細なものを「検出・感知する」（ガス漏れ検知等）。スケールと文脈が異なります。",
+      "collocations": [
+        "detect a problem",
+        "detect cancer early",
+        "hard to detect"
+      ],
+      "trivia": "「detective」（探偵）も同じ語根！探偵とは文字通り「隠れたものの覆いを取り除く人」。シャーロック・ホームズの名セリフ「Elementary, my dear Watson」も、まさに'detect'の精神を体現している。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 708,
+    "word": "devote",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（時間・労力を）捧げる、専念する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（〜に）尽くす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈvoʊt/",
+    "syllables": "de-vote",
+    "audioHint": "ディヴォウト",
+    "examples": [
+      {
+        "en": "She devoted her life to helping others.",
+        "ja": "彼女は他者を助けることに人生を捧げた。",
+        "blank": "She ___ her life to helping others.",
+        "blankAnswer": "devoted"
+      }
+    ],
+    "distractors": [
+      "支配する",
+      "貸し与える",
+      "謝罪する"
+    ],
+    "confusableSpellings": [
+      "devot",
+      "divote",
+      "devoate"
+    ],
+    "passive": {
+      "etymology": "'de-'（完全に）＋ ラテン語 'vovere'（誓う・捧げる）＝「完全に誓い捧げる」。'vow'（誓い）とも同じ語根で、神への誓いという宗教的な起源を持つ。",
+      "tips": "「devote A to B」または「devote oneself to B」の形で使います。'to' の後は名詞か動名詞（-ing形）。'I devoted myself to studying.' は正しいですが 'I devoted myself to study.' は不自然なので注意！",
+      "confusables": "'dedicate' との違い：ほぼ同義ですが、'dedicate' は作品を誰かに「捧げる」（本の献辞など）文脈でも使い、'devote' は時間・エネルギーを継続的に注ぐニュアンスが強い。",
+      "collocations": [
+        "devote time to",
+        "devote oneself to",
+        "devote energy to"
+      ],
+      "trivia": "「devoted」は形容詞として「献身的な、熱心な」の意味でも使われ、'a devoted fan'（熱狂的なファン）や 'devoted parents'（子煩悩な親）のように感情的な深さを表現できる。「推し活」に使える単語！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 709,
+    "word": "urge",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "強く促す、強く勧める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（〜したいという）衝動・欲求",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɜːrdʒ/",
+    "syllables": "urge",
+    "audioHint": "アージ",
+    "examples": [
+      {
+        "en": "The doctor urged him to quit smoking immediately.",
+        "ja": "医師は彼にすぐ禁煙するよう強く勧めた。",
+        "blank": "The doctor ___ him to quit smoking immediately.",
+        "blankAnswer": "urged"
+      }
+    ],
+    "distractors": [
+      "感知する",
+      "落胆させる",
+      "説明する"
+    ],
+    "confusableSpellings": [
+      "urgue",
+      "urg",
+      "erge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'urgere'（押す・駆り立てる）から直接英語へ。物理的に「押し進める」イメージが、比喩的に「強く促す」という意味に発展した。",
+      "tips": "「urge + 人 + to不定詞」の構文が最頻出。'advise'（アドバイスする）より強く、'force'（強制する）より弱い中間の強度。名詞としても使え、'an urge to eat'（食べたいという衝動）のように内側から湧き出る欲求を表せます。",
+      "confusables": "'encourage' との違い：'encourage' は「背中を押して勇気づける」ポジティブなニュアンス、'urge' は「強く迫る・訴える」より切迫感がある。緊急性・重要性が高い場面では 'urge' が適切。",
+      "collocations": [
+        "urge caution",
+        "feel an urge",
+        "urge someone to act"
+      ],
+      "trivia": "名詞の 'urge' は「抑えられない衝動」のニュアンスがあり、'I had an urge to laugh'（笑いたい衝動に駆られた）のように使える。心理学やマーケティングでは「消費者の purchase urge（購買衝動）」という表現でも登場する！"
+    },
+    "frequency": 1900,
+    "cefr": "B2"
+  },
+  {
+    "id": 710,
+    "word": "lend",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "貸す、貸し出す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（性質・雰囲気を）与える、添える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/lɛnd/",
+    "syllables": "lend",
+    "audioHint": "レンド",
+    "examples": [
+      {
+        "en": "Could you lend me your pen for a moment?",
+        "ja": "ちょっとペンを貸してもらえますか？",
+        "blank": "Could you ___ me your pen for a moment?",
+        "blankAnswer": "lend"
+      }
+    ],
+    "distractors": [
+      "支配する",
+      "捧げる",
+      "促す"
+    ],
+    "confusableSpellings": [
+      "lened",
+      "leand",
+      "lend"
+    ],
+    "passive": {
+      "etymology": "古英語 'lǣnan'（貸す）から。ゲルマン語起源で、もともとは 'lǣn'（貸付・ローン）という名詞が動詞化したもの。'loan'（ローン・貸付）と同じ語根。",
+      "tips": "日本人が最も混乱するのが 'lend' と 'borrow' の使い分け！'lend' は「（自分が）貸す」、'borrow' は「（自分が）借りる」。'Can you lend me...?'（貸してくれる？）と 'Can I borrow...?'（借りていい？）は同じ意味だが主語の視点が逆。過去形・過去分詞は 'lent'（不規則変化）！",
+      "confusables": "'borrow' との違い：'lend A to B' または 'lend B A'（AをBに貸す）、'borrow A from B'（BからAを借りる）という構造の違いをしっかり覚える。貸す側か借りる側かで使う動詞が変わります。",
+      "collocations": [
+        "lend a hand",
+        "lend money",
+        "lend support"
+      ],
+      "trivia": "'lend a hand' は「手を貸す・手伝う」という超頻出イディオム。銀行 'lending'（融資）やサブスク時代の 'peer-to-peer lending'（個人間融資）など金融用語にも登場。'loan' と 'lend' はほぼ同義だが、'loan' はよりフォーマルで書き言葉的！"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 711,
+    "word": "restrict",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "制限する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "規制する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈstrɪkt/",
+    "syllables": "re-strict",
+    "audioHint": "リストリクト",
+    "examples": [
+      {
+        "en": "The doctor restricted his diet to reduce cholesterol.",
+        "ja": "医師はコレステロールを下げるために彼の食事を制限した。",
+        "blank": "The doctor ___ his diet to reduce cholesterol.",
+        "blankAnswer": "restricted"
+      }
+    ],
+    "distractors": [
+      "分類する",
+      "拡大する",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "restirct",
+      "restrect",
+      "restrickt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び・元に戻す）+ stringere（縛る・締める）→「縛り直す」→制限する。'strict'（厳格な）と同じ語根を持つ。",
+      "tips": "restrict A to B（AをBに制限する）の形が最頻出。'limit'と似ているが、restrictはより「外部から規則・ルールで縛る」ニュアンスが強い。",
+      "confusables": "limit は量や範囲の上限を設ける感覚、restrict はルール・規制によって行動の範囲を絞り込む感覚。例：limit the budget（予算を限定）/ restrict access（アクセスを規制）",
+      "collocations": [
+        "restrict access",
+        "restrict movement",
+        "restrict the use of"
+      ],
+      "trivia": "「strict（厳しい）」と同じ語根なので、'strict rules restrict people'（厳しいルールが人を制限する）と覚えると一石二鳥！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 712,
+    "word": "isolate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "孤立させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "隔離する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈaɪsəleɪt/",
+    "syllables": "i-so-late",
+    "audioHint": "アイソレイト",
+    "examples": [
+      {
+        "en": "The patient was isolated to prevent the spread of infection.",
+        "ja": "感染拡大を防ぐために患者は隔離された。",
+        "blank": "The patient was ___ to prevent the spread of infection.",
+        "blankAnswer": "isolated"
+      }
+    ],
+    "distractors": [
+      "破壊する",
+      "統合する",
+      "圧縮する"
+    ],
+    "confusableSpellings": [
+      "isolete",
+      "issolate",
+      "izolate"
+    ],
+    "passive": {
+      "etymology": "イタリア語 isola（島）→ラテン語 insula（島）が語源。「島のように切り離す」イメージ。英語の island も同じ語源。",
+      "tips": "isolate A from B（AをBから隔離する）の形を覚えよう。医療・科学・心理学など幅広い分野で使われる。自動詞的に isolate oneself（自分を孤立させる）も重要。",
+      "confusables": "separate は単に「分ける」こと全般を指すが、isolate は「完全に切り離して周囲と接触できなくする」ニュアンスが強い。",
+      "collocations": [
+        "isolate a virus",
+        "feel isolated",
+        "isolate oneself from society"
+      ],
+      "trivia": "コロナ禍で世界中が「isolation」を経験したことで、この単語の使用頻度が急増！まさに時代を映した単語。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 713,
+    "word": "accompany",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "同行する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "伴奏する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkʌmpəni/",
+    "syllables": "ac-com-pa-ny",
+    "audioHint": "アカンパニー",
+    "examples": [
+      {
+        "en": "She accompanied her friend to the hospital.",
+        "ja": "彼女は友人に付き添って病院へ行った。",
+        "blank": "She ___ her friend to the hospital.",
+        "blankAnswer": "accompanied"
+      }
+    ],
+    "distractors": [
+      "裏切る",
+      "拒絶する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "accompony",
+      "acompany",
+      "accompany"
+    ],
+    "passive": {
+      "etymology": "古フランス語 accompagner → ac-（〜へ）+ compain（仲間）→「仲間として一緒に行く」。company（会社・仲間）と同じ語根。",
+      "tips": "主語が人でも物でもOK。'Fever accompanied the flu.'（発熱がインフルエンザに伴った）のように、物事が「伴う」場合にも使える。日本語の「伴奏する」意味も試験では要注意。",
+      "confusables": "escort は護衛・案内のニュアンスが強く、accompany はより中立的に「一緒にいる・行く」こと。join は相手のグループに加わるイメージ。",
+      "collocations": [
+        "accompany a person",
+        "be accompanied by",
+        "accompany on the piano"
+      ],
+      "trivia": "音楽用語の「アカンパニメント（accompaniment）」は「伴奏」のこと。カラオケも「自分が主役、音楽が accompany してくれている」状態！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 714,
+    "word": "exhaust",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "疲弊させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "使い尽くす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzɔːst/",
+    "syllables": "ex-haust",
+    "audioHint": "イグゾースト",
+    "examples": [
+      {
+        "en": "The long hike exhausted all of us completely.",
+        "ja": "長いハイキングで私たちは全員完全に疲れ果てた。",
+        "blank": "The long hike ___ all of us completely.",
+        "blankAnswer": "exhausted"
+      }
+    ],
+    "distractors": [
+      "刺激する",
+      "冷やす",
+      "膨らませる"
+    ],
+    "confusableSpellings": [
+      "exaust",
+      "exhast",
+      "egzaust"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ex-（外へ）+ haurire（汲む・引き出す）→「中のものをすべて外に引き出す」→使い尽くす・疲弊させる。",
+      "tips": "exhaust には「疲れ果てさせる」と「（資源・可能性を）使い尽くす」の2つの意味がある。be exhausted（疲れ果てている）は日常会話で超頻出！exhausted（疲れ果てた）とexhausting（疲れさせる）の使い分けも重要。",
+      "confusables": "tired は一般的な疲れ、exhausted はそれを極端に強めた「ヘトヘト」状態。wear out も疲弊させる意味だが、exhaust の方がより完全に使い果たすイメージ。",
+      "collocations": [
+        "feel exhausted",
+        "exhaust all options",
+        "exhaust one's patience"
+      ],
+      "trivia": "車の「排気ガス」も exhaust（排気）と言う！エンジンがエネルギーを使い切って出てくるガス。単語の意味と車の仕組みが完全に一致している。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 715,
+    "word": "annoy",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "苛立たせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "うんざりさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈnɔɪ/",
+    "syllables": "an-noy",
+    "audioHint": "アノイ",
+    "examples": [
+      {
+        "en": "The constant noise from next door really annoyed me.",
+        "ja": "隣からの絶え間ない騒音に本当にイライラした。",
+        "blank": "The constant noise from next door really ___ me.",
+        "blankAnswer": "annoyed"
+      }
+    ],
+    "distractors": [
+      "感動させる",
+      "説得する",
+      "混乱させる"
+    ],
+    "confusableSpellings": [
+      "anoy",
+      "anoye",
+      "annoing"
+    ],
+    "passive": {
+      "etymology": "古フランス語 anoier → ラテン語 in odio（嫌悪の中に）→「嫌悪感を抱かせる」。odium（嫌悪）が語源で、odious（不快な）とも関連。",
+      "tips": "be annoyed at/by/with のどれを使うか迷いがち。at は出来事、by は原因となる行為、with は人に対して使うのが自然。annoyed（イライラしている）/ annoying（イライラさせる）の使い分けも確認！",
+      "confusables": "irritate は身体的・精神的な刺激や苛立ちで、annoy よりやや強め。bother はもっとカジュアルに「困らせる・邪魔する」感覚。",
+      "collocations": [
+        "be annoyed at",
+        "find it annoying",
+        "annoy someone with questions"
+      ],
+      "trivia": "SNSで大流行した「This is so annoying！」という表現。実は日常英語で最もよく使われる感情表現の一つで、ネイティブが一日に何度も口にする単語トップ10入り確実！"
+    },
+    "frequency": 3100,
+    "cefr": "A2"
+  },
+  {
+    "id": 716,
+    "word": "endanger",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "危険にさらす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "脅かす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈdeɪndʒər/",
+    "syllables": "en-dan-ger",
+    "audioHint": "インデインジャー",
+    "examples": [
+      {
+        "en": "Pollution is endangering many species of fish.",
+        "ja": "汚染が多くの魚の種を危険にさらしている。",
+        "blank": "Pollution is ___ many species of fish.",
+        "blankAnswer": "endangering"
+      }
+    ],
+    "distractors": [
+      "修復する",
+      "強化する",
+      "分解する"
+    ],
+    "confusableSpellings": [
+      "endangar",
+      "indanger",
+      "endangur"
+    ],
+    "passive": {
+      "etymology": "en-（〜の状態にする）+ danger（危険）→「危険な状態にする」。danger 自体は古フランス語 dangier（支配・脅威）から来ている。",
+      "tips": "endangered species（絶滅危惧種）という表現は環境問題のニュースで頻出。en- という接頭辞は「〜の状態にする」意味で、enable（可能にする）、encourage（勇気づける）と同じパターン。",
+      "confusables": "threaten は「脅す・脅かす」で人や組織への意図的な脅威、endanger はより客観的に「危険な状況に置く」イメージ。",
+      "collocations": [
+        "endanger lives",
+        "endangered species",
+        "endanger public safety"
+      ],
+      "trivia": "世界には約4万1千種以上の「endangered species（絶滅危惧種）」が存在すると言われている。この単語を知るだけで環境ニュースが一気に理解しやすくなる！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 717,
+    "word": "acknowledge",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "認める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "感謝を示す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əkˈnɒlɪdʒ/",
+    "syllables": "ac-knowl-edge",
+    "audioHint": "アクノリッジ",
+    "examples": [
+      {
+        "en": "She acknowledged her mistake in front of the team.",
+        "ja": "彼女はチームの前で自分のミスを認めた。",
+        "blank": "She ___ her mistake in front of the team.",
+        "blankAnswer": "acknowledged"
+      }
+    ],
+    "distractors": [
+      "否定する",
+      "想像する",
+      "期待する"
+    ],
+    "confusableSpellings": [
+      "aknowledge",
+      "acknowlege",
+      "acknolwedge"
+    ],
+    "passive": {
+      "etymology": "古英語 oncnawan（知る）→ ac-（強意）+ knowledge（知識）→「知識として完全に受け入れる」。knowledge と同じ語根を持つ。",
+      "tips": "acknowledge that 節や acknowledge + 動名詞の形が頻出。「事実を認める」だけでなく「受け取ったことを知らせる（acknowledge receipt）」のようなビジネス表現でも使われる。スペルの -ck- と -dge が難所。",
+      "confusables": "admit は主に否定的な事実（失敗・罪）を認める場合に使い、やや「しぶしぶ」感がある。acknowledge はより中立的で、事実・功績・メッセージの受理など幅広く使える。",
+      "collocations": [
+        "acknowledge a mistake",
+        "acknowledge receipt",
+        "acknowledge someone's contribution"
+      ],
+      "trivia": "メールの返信で'Please acknowledge receipt of this email.'（このメールの受信をご確認ください）という表現は世界中のビジネスメールで使われている。日本語の「了解しました」に最も近い英語フレーズ！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 718,
+    "word": "admire",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "称賛する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "感心する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ədˈmaɪər/",
+    "syllables": "ad-mire",
+    "audioHint": "アドマイアー",
+    "examples": [
+      {
+        "en": "I really admire her dedication to helping others.",
+        "ja": "他者を助けることへの彼女の献身には本当に感心する。",
+        "blank": "I really ___ her dedication to helping others.",
+        "blankAnswer": "admire"
+      }
+    ],
+    "distractors": [
+      "軽蔑する",
+      "疑う",
+      "無視する"
+    ],
+    "confusableSpellings": [
+      "admir",
+      "addmire",
+      "admier"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（〜へ・強意）+ mirare（驚く・見つめる）→「驚きをもって見つめる」。miracle（奇跡）や mirror（鏡）とも同じ語根。",
+      "tips": "admire は「尊敬・感心して称賛する」ポジティブな感情。admire + 人 / admire + 人 + for + 理由 の形がよく使われる。名詞は admiration（称賛）、形容詞は admirable（称賛すべき）。",
+      "confusables": "respect は倫理的・道徳的な敬意で、admire は能力・才能・行動への感嘆が中心。praise は言葉で褒める行為そのもの。",
+      "collocations": [
+        "admire someone's courage",
+        "admire a view",
+        "be admired for"
+      ],
+      "trivia": "admit（認める）と admire は最初の3文字が同じで混同しやすい！でも語源は全く違う。admire は「見とれる」、admit は ad-（〜へ）+ mittere（送る・入れる）で「中に入れる＝認める」。"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 719,
+    "word": "evaluate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "評価する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "査定する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈvæljueɪt/",
+    "syllables": "e-val-u-ate",
+    "audioHint": "イヴァリュエイト",
+    "examples": [
+      {
+        "en": "Teachers evaluate students' progress at the end of each term.",
+        "ja": "教師は各学期末に生徒の進捗を評価する。",
+        "blank": "Teachers ___ students' progress at the end of each term.",
+        "blankAnswer": "evaluate"
+      }
+    ],
+    "distractors": [
+      "記憶する",
+      "想像する",
+      "表現する"
+    ],
+    "confusableSpellings": [
+      "evalute",
+      "evaulate",
+      "evaluete"
+    ],
+    "passive": {
+      "etymology": "フランス語 évaluer → e-（外へ）+ value（価値）→「価値を外に引き出す＝数値化・判断する」。value（価値）が完全に含まれている単語。",
+      "tips": "evaluate は単なる「評価」より「体系的・客観的に分析して価値を判断する」ニュアンスが強い。学術・ビジネス文書で頻出。名詞は evaluation（評価・査定）。",
+      "confusables": "assess も評価するが、リスクや状況を測定・算定するニュアンス。judge は判決・判断で、より主観的。evaluate は客観的基準に基づく点が特徴。",
+      "collocations": [
+        "evaluate performance",
+        "evaluate the effectiveness",
+        "evaluate risks"
+      ],
+      "trivia": "数学の「式を計算する」も evaluate（例：evaluate the expression）と言う！「x=2の時この式を evaluate せよ」→値を求める。数学と英語が繋がる瞬間！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 720,
+    "word": "declare",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "宣言する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "申告する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈklɛər/",
+    "syllables": "de-clare",
+    "audioHint": "ディクレアー",
+    "examples": [
+      {
+        "en": "The government declared a state of emergency yesterday.",
+        "ja": "政府は昨日、緊急事態を宣言した。",
+        "blank": "The government ___ a state of emergency yesterday.",
+        "blankAnswer": "declared"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "忘れる",
+      "同意する"
+    ],
+    "confusableSpellings": [
+      "declair",
+      "declaire",
+      "declere"
+    ],
+    "passive": {
+      "etymology": "ラテン語 de-（完全に）+ clarare（明らかにする）→「完全に明らかにする・はっきり述べる」。clear（明確な）と同じ語根 clarus から来ている。",
+      "tips": "declare war（宣戦布告）、declare independence（独立宣言）など歴史的文脈で頻出。空港の税関での「申告する」意味も重要（Do you have anything to declare?）。",
+      "confusables": "announce は広く公に知らせる行為、declare はより公式・正式な立場からの力強い宣言。proclaim は declare より格式が高く、公文書や歴史的場面で使われる。",
+      "collocations": [
+        "declare war",
+        "declare independence",
+        "declare bankruptcy"
+      ],
+      "trivia": "アメリカの独立宣言は'The Declaration of Independence'。1776年7月4日に署名されたこの文書の冒頭はまさに declare の精神そのもの。空港の「申告なし（Nothing to Declare）」も同じ単語！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  }
+]

@@ -1,0 +1,987 @@
+[
+  {
+    "id": 1661,
+    "word": "rage",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "激怒、猛烈な怒り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "激しく怒る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/reɪdʒ/",
+    "syllables": "rage",
+    "audioHint": "レイジ",
+    "examples": [
+      {
+        "en": "He flew into a rage when he heard the news.",
+        "ja": "彼はそのニュースを聞いて激怒した。",
+        "blank": "He flew into a ___ when he heard the news.",
+        "blankAnswer": "rage"
+      }
+    ],
+    "distractors": [
+      "悲しみ、悲嘆",
+      "不安、心配",
+      "嫉妬、羨望"
+    ],
+    "confusableSpellings": [
+      "raige",
+      "reage"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'rage'、ラテン語 'rabies'（狂気・激怒）から。語根 'rab-' は「狂う・荒れ狂う」を意味する。",
+      "tips": "名詞として 'fly into a rage（激怒する）' という表現が定番。動詞としても使えるが、名詞用法の方が一般的。'anger' より強い感情を指す。",
+      "confusables": "'anger' は一般的な怒りで日常的。'rage' はそれより遥かに激しく制御不能に近い怒り。'fury' もほぼ同義だがやや文語的。",
+      "collocations": [
+        "fly into a rage",
+        "road rage",
+        "rage against"
+      ],
+      "trivia": "インターネット用語の『rage quit（頭にきてゲームを突然やめること）』にも使われている！日常英語にしっかり生き続けている単語。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1662,
+    "word": "sorrow",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "悲しみ、悲嘆",
+        "pos": "noun"
+      },
+      {
+        "meaning": "後悔、嘆き",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɒroʊ/",
+    "syllables": "sor-row",
+    "audioHint": "ソロウ",
+    "examples": [
+      {
+        "en": "She felt deep sorrow after losing her dog.",
+        "ja": "彼女は犬を失った後、深い悲しみを感じた。",
+        "blank": "She felt deep ___ after losing her dog.",
+        "blankAnswer": "sorrow"
+      }
+    ],
+    "distractors": [
+      "激怒、憤慨",
+      "絶望、無力感",
+      "嫉妬、妬み"
+    ],
+    "confusableSpellings": [
+      "sorrrow",
+      "sorow",
+      "soro"
+    ],
+    "passive": {
+      "etymology": "古英語 'sorh'（悲しみ・苦悩）から。ゲルマン語共通の語根で、ドイツ語の 'Sorge'（心配）と同系。",
+      "tips": "'sadness' より文語的・詩的な響きがある。日常会話では 'sadness' や 'grief' の方が自然な場合も多い。'in sorrow' で「悲しんで」の意味になる。",
+      "confusables": "'grief' は特に死別などに伴う深い悲嘆。'sadness' は日常的な悲しさ全般。'sorrow' は深く持続的な精神的苦痛で、やや文学的表現に多い。",
+      "collocations": [
+        "deep sorrow",
+        "in sorrow",
+        "drown one's sorrows"
+      ],
+      "trivia": "「drown one's sorrows（お酒で悲しみを紛らわす）」という表現、実は400年以上前から使われている。シェイクスピアの時代から変わらない人間の心情！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1663,
+    "word": "psychiatrist",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "精神科医",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/saɪˈkaɪətrɪst/",
+    "syllables": "psy-chi-a-trist",
+    "audioHint": "サイカイアトリスト",
+    "examples": [
+      {
+        "en": "She decided to see a psychiatrist about her anxiety.",
+        "ja": "彼女は不安について精神科医に診てもらうことにした。",
+        "blank": "She decided to see a ___ about her anxiety.",
+        "blankAnswer": "psychiatrist"
+      }
+    ],
+    "distractors": [
+      "外科医、サージャン",
+      "薬剤師",
+      "神経科学者"
+    ],
+    "confusableSpellings": [
+      "psyciatrist",
+      "psychiatryst",
+      "psychatrist"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'psyche'（魂・心）＋ 'iatros'（医者）＋ '-ist'（職業人）。「心の医者」という意味を直接的に表す語。",
+      "tips": "スペルの難関は語頭の 'psy-'。発音は「サイ」だが書くときに 'p' を忘れがち。また 'psychiatrist'（精神科医）と 'psychologist'（心理士）の区別も重要。前者は薬を処方できる医師。",
+      "confusables": "'psychiatrist' は医師免許を持ち薬の処方も可能。'psychologist' は心理療法を行うが、多くの国では薬を処方できない。'therapist' はさらに広い概念。",
+      "collocations": [
+        "see a psychiatrist",
+        "consult a psychiatrist",
+        "child psychiatrist"
+      ],
+      "trivia": "英語圏では精神科医のことを口語で『shrink』とも呼ぶ。元々『headshrinker（頭を縮める人）』の略で、脳を分析・「縮める」ことへの比喩から来ているとも言われる。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1664,
+    "word": "ward",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "（病院の）病棟",
+        "pos": "noun"
+      },
+      {
+        "meaning": "守る、防ぐ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wɔːrd/",
+    "syllables": "ward",
+    "audioHint": "ウォード",
+    "examples": [
+      {
+        "en": "The patient was moved to the intensive care ward.",
+        "ja": "その患者は集中治療病棟に移された。",
+        "blank": "The patient was moved to the intensive care ___.",
+        "blankAnswer": "ward"
+      }
+    ],
+    "distractors": [
+      "処方箋、投薬",
+      "手術室",
+      "診断書、カルテ"
+    ],
+    "confusableSpellings": [
+      "waard",
+      "worde"
+    ],
+    "passive": {
+      "etymology": "古英語 'weard'（見張り・守護）から。「守る場所」が転じて「管理された区画」の意味に発展し、病院の病棟や行政区にも使われるようになった。",
+      "tips": "医療文脈では「病棟」の意味が最重要。動詞では 'ward off（～を防ぐ・追い払う）' という句動詞が頻出。名詞の病院以外にも、行政区（選挙区）の意味もある多義語。",
+      "confusables": "'ward' は病棟全体を指し、'room' は個室。'ward' には複数のベッドがある大部屋のニュアンスがある。また動詞 'guard' と意味が近いが、'ward off' は特定の脅威を退けるニュアンス。",
+      "collocations": [
+        "hospital ward",
+        "ward off",
+        "maternity ward"
+      ],
+      "trivia": "ハリー・ポッターに登場する『Azkaban』の看守（Dementor）の役割は、まさに 'ward'（守護者）の概念そのもの。英語の 'warden'（刑務所長・管理人）も同じ語根から来ている！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1665,
+    "word": "stall",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "屋台、売り場",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（エンジンなどが）止まる、行き詰まる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɔːl/",
+    "syllables": "stall",
+    "audioHint": "ストール",
+    "examples": [
+      {
+        "en": "She bought fresh vegetables from a market stall.",
+        "ja": "彼女は市場の屋台で新鮮な野菜を買った。",
+        "blank": "She bought fresh vegetables from a market ___.",
+        "blankAnswer": "stall"
+      }
+    ],
+    "distractors": [
+      "倉庫、貯蔵庫",
+      "廊下、通路",
+      "棚、陳列台"
+    ],
+    "confusableSpellings": [
+      "stael",
+      "stoal",
+      "stoll"
+    ],
+    "passive": {
+      "etymology": "古英語 'steall'（立つ場所・家畜小屋）から。「一定の場所に立つ・止まる」というコアイメージが、屋台（固定した売り場）と「動きが止まる」という両義を生んだ。",
+      "tips": "名詞の「屋台」と動詞の「エンジンが止まる・時間稼ぎをする」は意味が全く異なるので文脈判断が必要。'stall for time' は「時間稼ぎをする」という重要イディオム。",
+      "confusables": "'stall' の屋台は簡易的な売り場を指し、'booth' も似ているが仕切りのある小区画を指すことが多い。'stand' も屋台の意味で使えるが、'news stand' のように固定型のイメージが強い。",
+      "collocations": [
+        "market stall",
+        "stall for time",
+        "engine stall"
+      ],
+      "trivia": "飛行機が速度を失って揚力を失う現象も 'stall'（失速）と呼ぶ。屋台も飛行機もエンジンも「止まる」という同じ語根でつながっている英語の面白さ！"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1666,
+    "word": "flame",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "炎、火炎",
+        "pos": "noun"
+      },
+      {
+        "meaning": "燃える、激化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fleɪm/",
+    "syllables": "flame",
+    "audioHint": "フレイム",
+    "examples": [
+      {
+        "en": "The candle flame flickered in the breeze.",
+        "ja": "そよ風にろうそくの炎がゆらめいた。",
+        "blank": "The candle ___ flickered in the breeze.",
+        "blankAnswer": "flame"
+      }
+    ],
+    "distractors": [
+      "煙、煙霧",
+      "灰、残骸",
+      "霜、氷"
+    ],
+    "confusableSpellings": [
+      "flaim",
+      "fleme",
+      "flaime"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'flamma'（炎）から古フランス語を経て英語へ。語根 'fla-' は「燃える・輝く」という意味を持ち、'flare'（フレア）とも同系統。",
+      "tips": "比喩的に「情熱・恋の炎」を指すこともある（'an old flame' ＝ 昔の恋人）。また SNS では他人を攻撃する投稿を 'flame' と呼ぶネット用語にもなっている。",
+      "confusables": "'flame' は実際に見える炎の光。'fire' はより広い概念で炎全体・火事を含む。'blaze' は大きく燃え広がる炎を強調する。",
+      "collocations": [
+        "burst into flames",
+        "an old flame",
+        "flame thrower"
+      ],
+      "trivia": "'an old flame（昔の恋人）' という表現、実は16世紀から使われている。恋愛を「炎」に例えるのは英語でも日本語でも変わらない普遍的な感覚なんです！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1667,
+    "word": "moisture",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "湿気、水分",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɔɪstʃər/",
+    "syllables": "mois-ture",
+    "audioHint": "モイスチャー",
+    "examples": [
+      {
+        "en": "The soil retains moisture even during dry seasons.",
+        "ja": "その土壌は乾季でも水分を保っている。",
+        "blank": "The soil retains ___ even during dry seasons.",
+        "blankAnswer": "moisture"
+      }
+    ],
+    "distractors": [
+      "気温、温度",
+      "大気圧、気圧",
+      "土壌の養分"
+    ],
+    "confusableSpellings": [
+      "moisturee",
+      "moister",
+      "moistcher"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'moistour' から。語根は 'moist'（湿った）で、さらにラテン語 'mucidus'（カビた・湿った）に遡るとされる。'-ure' は状態・性質を示す名詞語尾。",
+      "tips": "'moisture' は不可算名詞なので 'a moisture' とは言わない。「保湿クリーム」は 'moisturizer' と言い、スキンケア用語としても頻出。'humid' との違いに注意（humid は空気の湿度を指す形容詞）。",
+      "confusables": "'moisture' は物体表面や空気中の水分の存在。'humidity' は空気中の水蒸気量（湿度）を指す。'dampness' は不快なほどの湿り気のニュアンスが強い。",
+      "collocations": [
+        "retain moisture",
+        "moisture content",
+        "skin moisture"
+      ],
+      "trivia": "スキンケアブランドが製品名に 'moisture' を使い始めたのは20世紀。今やビューティー業界の定番ワードになっているが、もともとは気象学・農業の専門用語だった！"
+    },
+    "frequency": 3400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1668,
+    "word": "irony",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "皮肉、アイロニー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "反語的状況",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaɪrəni/",
+    "syllables": "i-ro-ny",
+    "audioHint": "アイロニー",
+    "examples": [
+      {
+        "en": "The irony is that he wrote a book about memory but forgot to finish it.",
+        "ja": "皮肉なことに、彼は記憶についての本を書いたが書き終えるのを忘れた。",
+        "blank": "The ___ is that he wrote a book about memory but forgot to finish it.",
+        "blankAnswer": "irony"
+      }
+    ],
+    "distractors": [
+      "比喩、メタファー",
+      "誇張、大げさな表現",
+      "象徴、シンボル"
+    ],
+    "confusableSpellings": [
+      "ironey",
+      "irrony",
+      "ironny"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'eirōneia'（知らないふりをすること）から。ソクラテスが使った「無知のふり（ソクラテス的アイロニー）」が語源で、転じて「言葉と意味のずれ」を指すようになった。",
+      "tips": "日本語の「皮肉」は対人的な嫌みを指すことが多いが、英語の 'irony' は状況の矛盾（situational irony）を指すこともある。'It's ironic that...' の形で使うことが多い。",
+      "confusables": "'irony' は言葉と意図のずれ、または状況の逆説。'sarcasm' は相手を傷つける意図のある皮肉で、より攻撃的。'paradox' は論理的な矛盾を指す。",
+      "collocations": [
+        "the irony is",
+        "dramatic irony",
+        "bitter irony"
+      ],
+      "trivia": "アラニス・モリセットの名曲『Ironic』（1995年）は、実は歌詞の内容がほとんど irony ではなくただの不運だと言語学者から突っ込まれ続けている。でもそれ自体が ironic だという説も！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1669,
+    "word": "warrior",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "戦士、武士",
+        "pos": "noun"
+      },
+      {
+        "meaning": "闘士（比喩的に）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɔːriər/",
+    "syllables": "war-ri-or",
+    "audioHint": "ウォーリアー",
+    "examples": [
+      {
+        "en": "The ancient warrior trained every day for battle.",
+        "ja": "その古代の戦士は戦いのために毎日訓練した。",
+        "blank": "The ancient ___ trained every day for battle.",
+        "blankAnswer": "warrior"
+      }
+    ],
+    "distractors": [
+      "外交官、使節",
+      "統治者、君主",
+      "反乱軍、革命家"
+    ],
+    "confusableSpellings": [
+      "warior",
+      "warriour",
+      "worrier"
+    ],
+    "passive": {
+      "etymology": "古北フランス語 'werreier'（戦争をする人）から。'war'（戦争）＋ '-ior'（人を表す接尾辞）という構造。語根の 'war' はゲルマン語系の「混乱・争い」を意味する。",
+      "tips": "スペルミスの定番は 'worrier'（心配する人）との混同。発音も似ているので注意。また現代英語では比喩的に 'weekend warrior（週末だけ活動する人）' や 'road warrior（出張族）' のように使う。",
+      "confusables": "'warrior' は戦いを生業とする戦士。'soldier' は組織的な軍隊の兵士。'fighter' はより一般的で格闘家にも使う。'knight' は中世ヨーロッパの騎士を指す。",
+      "collocations": [
+        "warrior spirit",
+        "weekend warrior",
+        "warrior culture"
+      ],
+      "trivia": "サムライを英語で説明するとき 'Japanese warrior' と言うのが一般的。でも最近は世界中で 'samurai' という言葉そのままで通じるほど日本文化が浸透している！"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1670,
+    "word": "astronomy",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "天文学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈstrɒnəmi/",
+    "syllables": "as-tron-o-my",
+    "audioHint": "アストロノミー",
+    "examples": [
+      {
+        "en": "She became fascinated with astronomy after seeing a meteor shower.",
+        "ja": "流星群を見て、彼女は天文学に魅了された。",
+        "blank": "She became fascinated with ___ after seeing a meteor shower.",
+        "blankAnswer": "astronomy"
+      }
+    ],
+    "distractors": [
+      "地質学、地学",
+      "気象学、大気科学",
+      "生物学、生命科学"
+    ],
+    "confusableSpellings": [
+      "astronmy",
+      "astronomie",
+      "astonomy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'astron'（星）＋ 'nomos'（法則・秩序）から。「星の法則を研究する学問」という意味。同じ 'astro-' を持つ 'astronaut'（宇宙飛行士）とは語根を共有する。",
+      "tips": "'astronomy'（天文学）と 'astrology'（占星術）は全く異なる学問。'-nomy' は「法則・学問」、'-logy' も「学問」だが astrology は科学ではなく信念体系。試験でも混同しないように。",
+      "confusables": "'astronomy' は星・宇宙を科学的に研究する学問。'astrology' は星座や天体の位置が人の運命に影響すると考える占い。現代科学では astrology は擬似科学とされる。",
+      "collocations": [
+        "study astronomy",
+        "amateur astronomy",
+        "astronomy club"
+      ],
+      "trivia": "天文学は人類最古の科学のひとつ。古代バビロニア人は紀元前2000年以上前にすでに星の動きを記録していた。スマホのプラネタリウムアプリも、その延長線上にある！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1671,
+    "word": "probe",
+    "pos": "verb",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "調査する、探る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "探査機",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/proʊb/",
+    "syllables": "probe",
+    "audioHint": "プロウブ",
+    "examples": [
+      {
+        "en": "Scientists probed the ocean floor for new species.",
+        "ja": "科学者たちは新種を求めて海底を調査した。",
+        "blank": "Scientists ___ the ocean floor for new species.",
+        "blankAnswer": "probed"
+      }
+    ],
+    "distractors": [
+      "高度、標高",
+      "汚染、汚濁",
+      "侵食、浸食"
+    ],
+    "confusableSpellings": [
+      "prode",
+      "proab"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'proba'（証明・検査）が語源。'probare'（試す）から派生し、中英語に入った。",
+      "tips": "動詞と名詞の両方で使われる。宇宙探査機の意味（名詞）と、深く調べる意味（動詞）を混同しないように。",
+      "confusables": "probe（深く探る・調査する）vs investigate（正式な調査を行う）。probeはより物理的・科学的なニュアンスが強い。",
+      "collocations": [
+        "probe into ~（〜を調査する）",
+        "space probe（宇宙探査機）",
+        "probe questions（探りを入れる質問）"
+      ],
+      "trivia": "NASAの「ボイジャー探査機」も英語では 'Voyager probe' と呼ばれる。宇宙用語としても超メジャーな単語！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1672,
+    "word": "altitude",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "高度、標高",
+        "pos": "noun"
+      },
+      {
+        "meaning": "高さ、海抜",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæltɪtuːd/",
+    "syllables": "al-ti-tude",
+    "audioHint": "アルティテュード",
+    "examples": [
+      {
+        "en": "The plane cruised at an altitude of 10,000 meters.",
+        "ja": "飛行機は高度1万メートルで巡航した。",
+        "blank": "The plane cruised at an ___ of 10,000 meters.",
+        "blankAnswer": "altitude"
+      }
+    ],
+    "distractors": [
+      "気候、風土",
+      "地形、地勢",
+      "緯度、緯線"
+    ],
+    "confusableSpellings": [
+      "altitute",
+      "altituude",
+      "altitide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'altitudo'（高さ）から。'altus'（高い）＋ '-tudo'（状態・性質を示す接尾辞）の組み合わせ。",
+      "tips": "日本人は 'latitude'（緯度）と混同しやすい。'alt-'は「高い」を意味する接頭辞と覚えると区別しやすい（例：alto＝高音）。",
+      "confusables": "altitude（海抜・空中の高度）vs elevation（地面・山の標高）。飛行機にはaltitude、山にはelevationがよく使われる。",
+      "collocations": [
+        "high altitude（高高度）",
+        "altitude sickness（高山病）",
+        "gain altitude（高度を上げる）"
+      ],
+      "trivia": "高山病は英語で 'altitude sickness'。エベレストの高度（altitude）は約8,849mで、空気中の酸素が平地の約1/3しかない！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1673,
+    "word": "tumor",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "腫瘍",
+        "pos": "noun"
+      },
+      {
+        "meaning": "新生物、できもの",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtuːmər/",
+    "syllables": "tu-mor",
+    "audioHint": "テューマー",
+    "examples": [
+      {
+        "en": "The doctor found a small tumor in his lung.",
+        "ja": "医師は彼の肺に小さな腫瘍を見つけた。",
+        "blank": "The doctor found a small ___ in his lung.",
+        "blankAnswer": "tumor"
+      }
+    ],
+    "distractors": [
+      "病原菌、細菌",
+      "免疫反応",
+      "感染症、伝染病"
+    ],
+    "confusableSpellings": [
+      "tumour",
+      "tumer",
+      "tumore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'tumor'（膨れ、腫れ）から。動詞 'tumere'（膨らむ）が語源。",
+      "tips": "アメリカ英語では 'tumor'、イギリス英語では 'tumour' と綴る。悪性腫瘍は 'malignant tumor'、良性腫瘍は 'benign tumor' と区別する。",
+      "confusables": "tumor（腫瘍全般）vs cancer（悪性腫瘍＝がん）。tumorは良性・悪性どちらも指すが、cancerは必ず悪性。",
+      "collocations": [
+        "malignant tumor（悪性腫瘍）",
+        "benign tumor（良性腫瘍）",
+        "brain tumor（脳腫瘍）"
+      ],
+      "trivia": "ラテン語で「膨れる」を意味する 'tumere' は、英語の 'tumult'（騒動）や 'tumultuous'（激動の）とも同じ語根！感情が「膨れ上がる」イメージで繋がっている。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1674,
+    "word": "defect",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "欠陥、欠点",
+        "pos": "noun"
+      },
+      {
+        "meaning": "脱走する、亡命する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdiːfekt/",
+    "syllables": "de-fect",
+    "audioHint": "ディーフェクト",
+    "examples": [
+      {
+        "en": "The product was recalled due to a manufacturing defect.",
+        "ja": "その製品は製造上の欠陥のためにリコールされた。",
+        "blank": "The product was recalled due to a manufacturing ___.",
+        "blankAnswer": "defect"
+      }
+    ],
+    "distractors": [
+      "偏見、先入観",
+      "矛盾、逆説",
+      "幻想、錯覚"
+    ],
+    "confusableSpellings": [
+      "deffect",
+      "defekt",
+      "defict"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'defectus' から。'de-'（離れる・欠く）＋ 'facere'（作る・行う）→「何かが欠けた状態」。",
+      "tips": "名詞（欠陥）と動詞（亡命する）でアクセントが変わる場合がある。名詞は /ˈdiːfekt/、動詞は /dɪˈfekt/ と区別されることも。日本語の「デフェクト」は製造業で使われるカタカナ語。",
+      "confusables": "defect（構造的・本質的な欠陥）vs flaw（表面的な傷・欠点）vs fault（過失・責任を伴うミス）。",
+      "collocations": [
+        "birth defect（先天性欠陥）",
+        "defect in design（設計上の欠陥）",
+        "defect to（〜に亡命する）"
+      ],
+      "trivia": "冷戦時代、ソ連の軍人やアスリートが西側に亡命することを 'defect' と表現した。スパイ映画でよく聞くセリフ！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1675,
+    "word": "sanitation",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "衛生設備、公衆衛生",
+        "pos": "noun"
+      },
+      {
+        "meaning": "下水処理、清潔管理",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌsænɪˈteɪʃən/",
+    "syllables": "san-i-ta-tion",
+    "audioHint": "サニテイション",
+    "examples": [
+      {
+        "en": "Poor sanitation leads to the spread of disease.",
+        "ja": "不十分な衛生設備は病気の蔓延を招く。",
+        "blank": "Poor ___ leads to the spread of disease.",
+        "blankAnswer": "sanitation"
+      }
+    ],
+    "distractors": [
+      "栄養摂取、栄養状態",
+      "遺伝子操作、遺伝子組み換え",
+      "免疫、抵抗力"
+    ],
+    "confusableSpellings": [
+      "sanitasion",
+      "sanitetion",
+      "sanitiation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sanitas'（健康・正気）から。'sanus'（健全な）＋ '-ation'（行為・状態を示す接尾辞）。",
+      "tips": "sanitation は「衛生環境・設備のシステム」を指す。hygiene（個人の衛生習慣）とは異なり、社会インフラとして使われることが多い。",
+      "confusables": "sanitation（公衆衛生インフラ全般）vs hygiene（個人の清潔習慣）vs sterilization（滅菌・殺菌処理）。",
+      "collocations": [
+        "sanitation system（衛生システム）",
+        "water and sanitation（水と衛生）",
+        "sanitation worker（清掃員）"
+      ],
+      "trivia": "国連のSDGs（持続可能な開発目標）の目標6は「Clean Water and Sanitation（安全な水とトイレを世界中に）」。実は身近なSDGsキーワード！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1676,
+    "word": "longevity",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "長寿、長命",
+        "pos": "noun"
+      },
+      {
+        "meaning": "長期間の持続・耐久性",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/lɒnˈdʒevɪti/",
+    "syllables": "lon-gev-i-ty",
+    "audioHint": "ロンジェヴィティ",
+    "examples": [
+      {
+        "en": "Japan is known for the longevity of its population.",
+        "ja": "日本は国民の長寿で知られている。",
+        "blank": "Japan is known for the ___ of its population.",
+        "blankAnswer": "longevity"
+      }
+    ],
+    "distractors": [
+      "臨床試験、治験",
+      "慢性疾患、持病",
+      "肥満、過体重"
+    ],
+    "confusableSpellings": [
+      "longivety",
+      "longevety",
+      "longeviti"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'longaevitas' から。'longus'（長い）＋ 'aevum'（時代・一生）＋ '-ity'（名詞化接尾辞）。",
+      "tips": "発音に注意！'long-'の部分は /lɒŋ/ ではなく /lɒn/ に近い。'longevity'（長寿）を 'longivity' と書くミスが多い。",
+      "confusables": "longevity（長く生きること・持続すること）vs immortality（不死・不滅）。longevityは有限の範囲で「長い」こと。",
+      "collocations": [
+        "promote longevity（長寿を促進する）",
+        "longevity of a career（キャリアの長さ）",
+        "remarkable longevity（驚くべき長寿）"
+      ],
+      "trivia": "世界最長寿の記録はフランス人のジャンヌ・カルマン（122歳）。日本語の「長寿」をそのまま英訳したのが longevity で、日本はこの単語の象徴的な国！"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1677,
+    "word": "scope",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "範囲、領域",
+        "pos": "noun"
+      },
+      {
+        "meaning": "機会、余地",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/skoʊp/",
+    "syllables": "scope",
+    "audioHint": "スコウプ",
+    "examples": [
+      {
+        "en": "The project is beyond the scope of our budget.",
+        "ja": "そのプロジェクトは私たちの予算の範囲を超えている。",
+        "blank": "The project is beyond the ___ of our budget.",
+        "blankAnswer": "scope"
+      }
+    ],
+    "distractors": [
+      "前提、仮定",
+      "矛盾、相反",
+      "本質、本性"
+    ],
+    "confusableSpellings": [
+      "scobe",
+      "scoup",
+      "skope"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'skopos'（目標・見ること）から。'skopein'（見る・観察する）が語源。接尾辞 '-scope'（〜鏡）に使われる語根と同じ。",
+      "tips": "'scope' は「どこまでカバーするか」の広がりを示す。'within the scope of'（〜の範囲内）、'beyond the scope of'（〜の範囲外）という表現を丸ごと覚えよう。",
+      "confusables": "scope（範囲・広がり）vs scale（規模・大きさ）vs extent（程度・及ぶ範囲）。scopeは「何が含まれるか」、scaleは「どれだけ大きいか」のニュアンス。",
+      "collocations": [
+        "scope of work（作業範囲）",
+        "within the scope（範囲内で）",
+        "broaden the scope（範囲を広げる）"
+      ],
+      "trivia": "telescope（望遠鏡）、microscope（顕微鏡）、stethoscope（聴診器）など、「-scope」で終わる単語はすべて「見る・観察する道具」。scopeという単語が科学機器名の親戚！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1678,
+    "word": "sentiment",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "感情、情緒、感傷",
+        "pos": "noun"
+      },
+      {
+        "meaning": "意見、見解",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsentɪmənt/",
+    "syllables": "sen-ti-ment",
+    "audioHint": "センティメント",
+    "examples": [
+      {
+        "en": "Public sentiment against the policy grew rapidly.",
+        "ja": "その政策に対する世論の感情が急速に高まった。",
+        "blank": "Public ___ against the policy grew rapidly.",
+        "blankAnswer": "sentiment"
+      }
+    ],
+    "distractors": [
+      "偏見、差別意識",
+      "信念、確信",
+      "衝動、欲求"
+    ],
+    "confusableSpellings": [
+      "sentimant",
+      "sentimnet",
+      "sentement"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sentire'（感じる）＋ '-mentum'（行為・結果を示す接尾辞）。'sense'（感覚）や 'sensitive'（敏感な）と同じ語根。",
+      "tips": "sentimental（感傷的な）と混同しないよう注意。sentiment自体は中立的な「感情・意見」を指すが、sentimental は「感傷的すぎる」という少しネガティブなニュアンスを持つ。",
+      "confusables": "sentiment（感情・世論）vs emotion（喜怒哀楽などの強い感情）vs feeling（個人的な内面の感覚）。sentimentはより思想・意見に近いニュアンス。",
+      "collocations": [
+        "public sentiment（世論・大衆感情）",
+        "anti-war sentiment（反戦感情）",
+        "sentimental value（感傷的な価値）"
+      ],
+      "trivia": "AIの分野に「sentiment analysis（感情分析）」という技術がある。SNSの投稿がポジティブかネガティブかを機械が判定する技術で、今まさに注目のキーワード！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1679,
+    "word": "plausible",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "もっともらしい、信憑性のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "説得力のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈplɔːzɪbəl/",
+    "syllables": "plau-si-ble",
+    "audioHint": "プローズィブル",
+    "examples": [
+      {
+        "en": "His explanation sounded plausible but was later proven false.",
+        "ja": "彼の説明はもっともらしく聞こえたが、後に偽りだと証明された。",
+        "blank": "His explanation sounded ___ but was later proven false.",
+        "blankAnswer": "plausible"
+      }
+    ],
+    "distractors": [
+      "反証可能な、反駁できる",
+      "曖昧な、不明瞭な",
+      "客観的な、公平な"
+    ],
+    "confusableSpellings": [
+      "plausable",
+      "plausibel",
+      "plausiple"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'plausibilis'（拍手を受けるに値する）から。'plaudere'（拍手する）＋ '-ibilis'（〜できる）。英語の 'applause'（拍手）と同じ語根！",
+      "tips": "plausible は「真実かどうかわからないが、一見筋が通っている」というニュアンス。「本当にそう」ではなく「そう見える」という点が重要。",
+      "confusables": "plausible（もっともらしい・外見上信じられる）vs credible（信頼できる・実績に基づいて信用できる）vs convincing（説得力がある・実際に信じさせる力がある）。",
+      "collocations": [
+        "plausible explanation（もっともらしい説明）",
+        "plausible excuse（ありそうな言い訳）",
+        "plausible scenario（考えられるシナリオ）"
+      ],
+      "trivia": "ミステリー小説やサスペンス映画で「もっともらしいアリバイ」を英語で言うと 'plausible alibi'。犯人がよく使う言葉として英語圏のドラマで頻出！"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1680,
+    "word": "vigorous",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "精力的な、活発な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "力強い、猛烈な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɪɡərəs/",
+    "syllables": "vig-or-ous",
+    "audioHint": "ヴィガラス",
+    "examples": [
+      {
+        "en": "She takes vigorous exercise every morning before work.",
+        "ja": "彼女は毎朝仕事前に激しい運動をする。",
+        "blank": "She takes ___ exercise every morning before work.",
+        "blankAnswer": "vigorous"
+      }
+    ],
+    "distractors": [
+      "内向的な、引っ込み思案の",
+      "衝動的な、向こう見ずな",
+      "無関心な、冷淡な"
+    ],
+    "confusableSpellings": [
+      "vigourus",
+      "vigourous",
+      "vigoreous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vigor'（力・活力）＋ '-ous'（〜に満ちた）。'vigor' は 'vigere'（元気よく生きる）から派生。",
+      "tips": "アメリカ英語は 'vigor'、イギリス英語は 'vigour' とスペルが異なるが、形容詞 'vigorous' はどちらの英語でも同じ綴り。vigorouslyという副詞も頻出。",
+      "confusables": "vigorous（エネルギーに満ちた・強烈な）vs energetic（元気いっぱいの・活発な）vs intense（強度が高い・激しい）。vigorousは努力・行動の力強さに焦点がある。",
+      "collocations": [
+        "vigorous exercise（激しい運動）",
+        "vigorous debate（白熱した討論）",
+        "vigorous opposition（強力な反対）"
+      ],
+      "trivia": "アメリカ第35代大統領のジョン・F・ケネディは就任演説で 'vigor' という言葉を好んで使い、若さとエネルギーのイメージを演出した。政治演説で映える単語！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  }
+]

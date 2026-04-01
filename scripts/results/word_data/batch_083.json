@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1641,
+    "word": "grace",
+    "pos": "noun",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "優雅さ、品格",
+        "pos": "noun"
+      },
+      {
+        "meaning": "恩寵、神の恵み",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡreɪs/",
+    "syllables": "grace",
+    "audioHint": "グレイス",
+    "examples": [
+      {
+        "en": "She moved across the stage with incredible grace.",
+        "ja": "彼女は信じられないほどの優雅さでステージを横切った。",
+        "blank": "She moved across the stage with incredible ___.",
+        "blankAnswer": "grace"
+      }
+    ],
+    "distractors": [
+      "誠実さ",
+      "勇気",
+      "知恵"
+    ],
+    "confusableSpellings": [
+      "grece",
+      "graice"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'gratia'（好意・感謝）から。'gratus'（喜ばれる）が語根。フランス語経由で英語に入った。",
+      "tips": "「優雅さ」という名詞用法が最も一般的だが、動詞として『grace a place（場所を飾る）』という使い方もある。日本人は形容詞 graceful との使い分けに注意。",
+      "confusables": "graceful（形容詞：優雅な）と混同しやすい。'She is grace' は不自然で 'She is graceful' が正しい。",
+      "collocations": [
+        "with grace",
+        "grace period",
+        "fall from grace"
+      ],
+      "trivia": "『grace period（猶予期間）』は支払い期限後に追加で与えられる期間のこと。神が人間に与える『猶予』というキリスト教的概念が由来。"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1642,
+    "word": "enlightenment",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "啓蒙、悟り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "知的開化、精神的覚醒",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈlaɪtnmənt/",
+    "syllables": "en-light-en-ment",
+    "audioHint": "エンライトゥンメント",
+    "examples": [
+      {
+        "en": "The monk spent years seeking enlightenment through meditation.",
+        "ja": "その僧侶は瞑想を通じて悟りを求めて何年も過ごした。",
+        "blank": "The monk spent years seeking ___ through meditation.",
+        "blankAnswer": "enlightenment"
+      }
+    ],
+    "distractors": [
+      "矛盾",
+      "孤独感",
+      "執着心"
+    ],
+    "confusableSpellings": [
+      "enlightment",
+      "enlighentment"
+    ],
+    "passive": {
+      "etymology": "'en-'（〜の状態にする）＋ 'lighten'（明るくする）＋ '-ment'（名詞化）。光を与えて知識の闇を照らすというイメージ。",
+      "tips": "大文字の 'The Enlightenment' は18世紀ヨーロッパの啓蒙時代を指す固有名詞。仏教文脈では『悟り』、歴史文脈では『啓蒙主義』と訳し分けること。",
+      "confusables": "awareness（気づき）や consciousness（意識）と意味が近いが、enlightenment はより深い知的・精神的な変容を指す。",
+      "collocations": [
+        "seek enlightenment",
+        "spiritual enlightenment",
+        "Age of Enlightenment"
+      ],
+      "trivia": "日本語の『啓蒙』も元々は『蒙（暗闇）を啓く（開く）』という意味で、光で照らすという概念は東西共通。"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1643,
+    "word": "commerce",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "商業、貿易",
+        "pos": "noun"
+      },
+      {
+        "meaning": "売買活動",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒmɜːrs/",
+    "syllables": "com-merce",
+    "audioHint": "コマース",
+    "examples": [
+      {
+        "en": "E-commerce has transformed how people shop globally.",
+        "ja": "電子商取引は世界中の人々の買い物の仕方を変えた。",
+        "blank": "E-___ has transformed how people shop globally.",
+        "blankAnswer": "commerce"
+      }
+    ],
+    "distractors": [
+      "税制改革",
+      "労働組合",
+      "財政赤字"
+    ],
+    "confusableSpellings": [
+      "comerce",
+      "commerse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'commercium'（交易）から。'com-'（共に）＋ 'merx/mercis'（商品）の組み合わせ。mercantile（商業の）や merchant（商人）も同語根。",
+      "tips": "日本語の『コマース』はeコマース文脈でよく使われるが、英語の commerce は幅広い商業活動全般を指す。commercial（形容詞）との使い分けにも注意。",
+      "confusables": "trade（貿易・取引）と重なる部分があるが、commerce はより広い概念。business は個別の企業活動、commerce は社会全体の商業システムを指すニュアンス。",
+      "collocations": [
+        "e-commerce",
+        "chamber of commerce",
+        "interstate commerce"
+      ],
+      "trivia": "『商工会議所』は英語で 'Chamber of Commerce'。全米商工会議所は1912年設立で、アメリカ最大のロビー団体のひとつ。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1644,
+    "word": "draft",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "草稿、下書き",
+        "pos": "noun"
+      },
+      {
+        "meaning": "徴兵、指名選抜",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dræft/",
+    "syllables": "draft",
+    "audioHint": "ドラフト",
+    "examples": [
+      {
+        "en": "Please send me the first draft of your report by Friday.",
+        "ja": "金曜日までにレポートの第一稿を送ってください。",
+        "blank": "Please send me the first ___ of your report by Friday.",
+        "blankAnswer": "draft"
+      }
+    ],
+    "distractors": [
+      "参考文献",
+      "口頭試問",
+      "研究助成金"
+    ],
+    "confusableSpellings": [
+      "dreft",
+      "draff"
+    ],
+    "passive": {
+      "etymology": "古英語 'dragan'（引く）が語源。『引いて書く』→草稿、『引き込む』→徴兵、『樽から引く』→生ビールなど、多義語として発展。",
+      "tips": "draft は名詞・動詞両方使える。『draft a plan（計画を立案する）』のように動詞でも使う。スポーツの『ドラフト制度』もこの語。米英でスペルが異なり、英国では draught とも書く。",
+      "confusables": "draught（英国綴り）と draft（米国綴り）は同じ語。また outline（概略）と混同されることがあるが、draft はより完成に近い段階の文書を指す。",
+      "collocations": [
+        "first draft",
+        "draft a document",
+        "military draft"
+      ],
+      "trivia": "生ビール（draft beer）も同じ語。樽から『引いて』注ぐことから来ている。論文の草稿も生ビールも同じ『draft』という英語の懐の広さ。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1645,
+    "word": "barrel",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "樽、バレル",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（銃の）銃身",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbærəl/",
+    "syllables": "bar-rel",
+    "audioHint": "バレル",
+    "examples": [
+      {
+        "en": "The winery stores wine in oak barrels for two years.",
+        "ja": "そのワイナリーはワインを2年間オーク樽で熟成させる。",
+        "blank": "The winery stores wine in oak ___ for two years.",
+        "blankAnswer": "barrels"
+      }
+    ],
+    "distractors": [
+      "引き出し",
+      "棚",
+      "額縁"
+    ],
+    "confusableSpellings": [
+      "barrell",
+      "barel"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'baril' から。中世に液体や食料を保存・運搬するための丸い容器を指した語。語源はさらに不明確だが、ケルト系の可能性がある。",
+      "tips": "石油の単位『バレル（barrel）』は約159リットル。ニュースで頻出なので覚えておくと便利。動詞として『barrel down the road（猛スピードで走る）』という口語表現もある。",
+      "confusables": "keg（小樽、特にビール用）と混同しやすい。barrel はより大きく汎用的で、keg はビールサーバー用の小型の樽を指すことが多い。",
+      "collocations": [
+        "oil barrel",
+        "barrel of wine",
+        "barrel roll"
+      ],
+      "trivia": "『pork barrel（利益誘導政治）』という表現は、昔アメリカの農場主が豚肉を樽に保存して配ったことに由来する政治用語。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1646,
+    "word": "timber",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "木材、材木",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（伐採時の警告として）木が倒れるぞ！",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/ˈtɪmbər/",
+    "syllables": "tim-ber",
+    "audioHint": "ティンバー",
+    "examples": [
+      {
+        "en": "The old house was built with solid oak timber.",
+        "ja": "その古い家は堅固なオーク材で建てられていた。",
+        "blank": "The old house was built with solid oak ___.",
+        "blankAnswer": "timber"
+      }
+    ],
+    "distractors": [
+      "鉱石",
+      "化石燃料",
+      "海岸線"
+    ],
+    "confusableSpellings": [
+      "timbre",
+      "timmber"
+    ],
+    "passive": {
+      "etymology": "古英語 'timber'（建材・建物）から。ゲルマン語系で、古高ドイツ語 'zimbar'（木材で作った部屋）と同根。",
+      "tips": "timber は加工・建築用の木材を指し、wood より専門的・産業的なニュアンス。lumber（米国で材木）とも意味が重なるが、timber は主に英国・オーストラリアで使われる。",
+      "confusables": "timbre（音色）とスペルが非常に近いので注意。発音も timber /ˈtɪmbər/ と timbre /ˈtæmbər/ で似ている。全く別の意味なので文脈で判断を。",
+      "collocations": [
+        "timber frame",
+        "timber industry",
+        "hardwood timber"
+      ],
+      "trivia": "木を倒す直前に『Timber！』と叫ぶ習慣は、倒れてくる木への警告として伐採現場で使われてきたもの。Kesha の楽曲タイトルにもなった。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1647,
+    "word": "garment",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "衣服、衣類（一着）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（比喩的に）覆い、外装",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡɑːrmənt/",
+    "syllables": "gar-ment",
+    "audioHint": "ガーメント",
+    "examples": [
+      {
+        "en": "Each garment is carefully inspected before it leaves the factory.",
+        "ja": "各衣服は工場を出る前に丁寧に検査される。",
+        "blank": "Each ___ is carefully inspected before it leaves the factory.",
+        "blankAnswer": "garment"
+      }
+    ],
+    "distractors": [
+      "調理器具",
+      "家具",
+      "装飾品"
+    ],
+    "confusableSpellings": [
+      "garnemnt",
+      "garmant"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'garnement'（装備・備え）から。'garnir'（備える・飾る）が語根で、英語の garnish（飾り付ける）と同語源。",
+      "tips": "garment は clothing や clothes より改まったフォーマルな表現。ファッション業界・縫製業界でよく使われる。『ガーメントバッグ（スーツ入れ）』も同語から。",
+      "confusables": "clothing（集合的な衣類全般）や outfit（一組のコーデ）と意味が近いが、garment は一着一着の個別の衣服を指す。",
+      "collocations": [
+        "garment industry",
+        "garment bag",
+        "outer garment"
+      ],
+      "trivia": "ニューヨークのマンハッタン中心部には『Garment District（衣料品地区）』があり、かつてアメリカのファッション製造業の中心地だった。今もデザイン事務所が集まる。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1648,
+    "word": "thread",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "糸、縫い糸",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（話の）筋道、スレッド（ネット用語）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/θrɛd/",
+    "syllables": "thread",
+    "audioHint": "スレッド",
+    "examples": [
+      {
+        "en": "She threaded a needle to sew the torn jacket.",
+        "ja": "彼女は破れたジャケットを縫うために針に糸を通した。",
+        "blank": "She ___ a needle to sew the torn jacket.",
+        "blankAnswer": "threaded"
+      }
+    ],
+    "distractors": [
+      "釘",
+      "布地",
+      "ボタン"
+    ],
+    "confusableSpellings": [
+      "tread",
+      "thred"
+    ],
+    "passive": {
+      "etymology": "古英語 'þræd' から。インド・ヨーロッパ語根 '*tere-'（ねじる・こする）に由来し、twisted（ねじれたもの）という概念が核にある。",
+      "tips": "動詞として『thread a needle（針に糸を通す）』『thread one's way through（〜の間を縫って進む）』という表現がある。SNSの『スレッド』もこの語。",
+      "confusables": "tread（踏む・タイヤのトレッド）とスペルが1文字違いで混同しやすい。thread の th は /θ/（無声音）で発音すること。",
+      "collocations": [
+        "needle and thread",
+        "lose the thread",
+        "thread of conversation"
+      ],
+      "trivia": "ギリシャ神話でアリアドネがテセウスに渡した『糸玉』は英語で 'Ariadne's thread'。迷宮の出口を見つける手がかりという比喩表現として今も使われる。"
+    },
+    "frequency": 2600,
+    "cefr": "A2"
+  },
+  {
+    "id": 1649,
+    "word": "cabinet",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "内閣、閣僚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "戸棚、キャビネット",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkæbɪnɪt/",
+    "syllables": "cab-i-net",
+    "audioHint": "キャビネット",
+    "examples": [
+      {
+        "en": "The president appointed a new cabinet after the election.",
+        "ja": "大統領は選挙後に新しい内閣を組閣した。",
+        "blank": "The president appointed a new ___ after the election.",
+        "blankAnswer": "cabinet"
+      }
+    ],
+    "distractors": [
+      "選挙区",
+      "法律条文",
+      "国会議事堂"
+    ],
+    "confusableSpellings": [
+      "cabinent",
+      "cabnet"
+    ],
+    "passive": {
+      "etymology": "フランス語 'cabinet'（小部屋）から。イタリア語 'gabinetto' の縮小形。王の側近が集まった『小部屋』が転じて『内閣』を意味するようになった。",
+      "tips": "Cabinet（大文字）は政治用語の『内閣』、cabinet（小文字）は家具の『戸棚』。同じ語でも大文字・小文字で意味が変わるので注意。",
+      "confusables": "government（政府全体）と cabinet（内閣・大臣たちの集合体）は別物。cabinet は首相・大臣レベルの意思決定機関を指す。",
+      "collocations": [
+        "cabinet meeting",
+        "cabinet minister",
+        "kitchen cabinet"
+      ],
+      "trivia": "『kitchen cabinet（非公式な側近グループ）』という表現は、アメリカのアンドリュー・ジャクソン大統領が台所で非公式顧問と会議したという逸話から生まれた。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1650,
+    "word": "bureau",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "局、事務所、官庁",
+        "pos": "noun"
+      },
+      {
+        "meaning": "整理ダンス、ライティングデスク",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbjʊəroʊ/",
+    "syllables": "bu-reau",
+    "audioHint": "ビュアロウ",
+    "examples": [
+      {
+        "en": "She filed a complaint with the consumer protection bureau.",
+        "ja": "彼女は消費者保護局に苦情を申し立てた。",
+        "blank": "She filed a complaint with the consumer protection ___.",
+        "blankAnswer": "bureau"
+      }
+    ],
+    "distractors": [
+      "条約",
+      "市民権",
+      "議会演説"
+    ],
+    "confusableSpellings": [
+      "beurau",
+      "burrow"
+    ],
+    "passive": {
+      "etymology": "フランス語 'bureau'（机・事務机）から。もとはラシャ布（baize）を敷いた机を指し、転じてその机がある部屋→事務所→官庁へと意味が拡張した。",
+      "tips": "複数形は bureaus（米国式）または bureaux（フランス語式）の両方が使われる。FBI（Federal Bureau of Investigation）の Bureau がこの語。",
+      "confusables": "bureau と department はどちらも政府機関を指すが、bureau はより専門的・調査機能を持つ小組織、department は省庁レベルの大きな組織を指すことが多い。",
+      "collocations": [
+        "FBI (Federal Bureau of Investigation)",
+        "bureau of statistics",
+        "travel bureau"
+      ],
+      "trivia": "日本語の『ビューロー』はこの語から。フランス語由来なので英語話者もスペルに迷うことがある単語のひとつ。複数形 'bureaux' はフランス語の名残。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1651,
+    "word": "autonomy",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "自律性、自治",
+        "pos": "noun"
+      },
+      {
+        "meaning": "独立性",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɔːˈtɒnəmi/",
+    "syllables": "au-ton-o-my",
+    "audioHint": "オートノミー",
+    "examples": [
+      {
+        "en": "The region gained full autonomy from the central government.",
+        "ja": "その地域は中央政府から完全な自治権を獲得した。",
+        "blank": "The region gained full ___ from the central government.",
+        "blankAnswer": "autonomy"
+      }
+    ],
+    "distractors": [
+      "意識",
+      "道徳的義務",
+      "認識論"
+    ],
+    "confusableSpellings": [
+      "autonomy",
+      "autonony",
+      "autonnomy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語の「autos（自己）」＋「nomos（法・規則）」に由来。自分自身の法に従うという意味。",
+      "tips": "「自律」と「自治」の両方に使える点がポイント。個人レベルなら「自律性」、国や地域レベルなら「自治」と訳すと自然。",
+      "confusables": "autonomy（自律性）vs. independence（独立）：autonomyは内部的な自己決定能力に焦点、independenceは外部からの分離・独立を強調する。",
+      "collocations": [
+        "personal autonomy",
+        "regional autonomy",
+        "respect autonomy"
+      ],
+      "trivia": "自動運転車（autonomous vehicle）の「autonomous」も同じ語根から来ている。つまり「自分で法則に従って動く車」というわけ。"
+    },
+    "frequency": 3200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1652,
+    "word": "toll",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "通行料、使用料",
+        "pos": "noun"
+      },
+      {
+        "meaning": "犠牲（者数）、被害",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/toʊl/",
+    "syllables": "toll",
+    "audioHint": "トール",
+    "examples": [
+      {
+        "en": "The accident took a heavy toll on the local economy.",
+        "ja": "その事故は地域経済に大きな打撃を与えた。",
+        "blank": "The accident took a heavy ___ on the local economy.",
+        "blankAnswer": "toll"
+      }
+    ],
+    "distractors": [
+      "利益配当",
+      "融資条件",
+      "市場占有率"
+    ],
+    "confusableSpellings": [
+      "tol",
+      "toal",
+      "tole"
+    ],
+    "passive": {
+      "etymology": "古英語「tolian（引き出す）」またはラテン語「telonium（税関）」に由来。通行のために「引き出される」お金というイメージ。",
+      "tips": "「take a toll on〜」という表現は試験にも頻出。「〜に打撃を与える」「〜を消耗させる」という意味で、人・物・経済など幅広く使える。",
+      "confusables": "toll（通行料・犠牲）vs. tax（税金）：tollは特定の道路・橋など利用時に払うもの。taxは国や自治体への義務的な納付。",
+      "collocations": [
+        "toll road",
+        "take a toll",
+        "death toll"
+      ],
+      "trivia": "高速道路の料金所を「tollbooth」というが、中世ヨーロッパでは橋を渡るたびに領主に料金を払っていた習慣がそのまま言葉に残っている。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1653,
+    "word": "discourse",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "談話、議論、言説",
+        "pos": "noun"
+      },
+      {
+        "meaning": "論文、講話",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɪskɔːrs/",
+    "syllables": "dis-course",
+    "audioHint": "ディスコース",
+    "examples": [
+      {
+        "en": "Public discourse on climate change has intensified recently.",
+        "ja": "気候変動に関する公的な議論が最近激化している。",
+        "blank": "Public ___ on climate change has intensified recently.",
+        "blankAnswer": "discourse"
+      }
+    ],
+    "distractors": [
+      "実験の手順",
+      "数式の証明",
+      "年表の記録"
+    ],
+    "confusableSpellings": [
+      "discource",
+      "discorse",
+      "disscourse"
+    ],
+    "passive": {
+      "etymology": "ラテン語「discursus（走り回ること）」から。「dis（あちこち）」＋「currere（走る）」。思考があちこちに走り回るイメージ。",
+      "tips": "academic discourse（学術的言説）のように、特定の分野での話し方・表現様式全体を指すこともある。単なる「会話」より格式が高い言葉。",
+      "confusables": "discourse（言説・議論全体）vs. discussion（特定トピックの話し合い）：discourseはより広い概念的・社会的な言語使用を指す。",
+      "collocations": [
+        "public discourse",
+        "academic discourse",
+        "political discourse"
+      ],
+      "trivia": "哲学者ミシェル・フーコーはこの「discourse（言説）」を権力と結びつけて分析し、世界中の人文系学部生を悩ませ続けている。"
+    },
+    "frequency": 2500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1654,
+    "word": "superstition",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "迷信",
+        "pos": "noun"
+      },
+      {
+        "meaning": "根拠のない信仰・慣習",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌsuːpərˈstɪʃən/",
+    "syllables": "su-per-sti-tion",
+    "audioHint": "スーパースティション",
+    "examples": [
+      {
+        "en": "Breaking a mirror is a common superstition in many cultures.",
+        "ja": "鏡を割ることは多くの文化で一般的な迷信だ。",
+        "blank": "Breaking a mirror is a common ___ in many cultures.",
+        "blankAnswer": "superstition"
+      }
+    ],
+    "distractors": [
+      "年中行事",
+      "礼儀作法",
+      "伝統工芸"
+    ],
+    "confusableSpellings": [
+      "superstion",
+      "superstision",
+      "superstiton"
+    ],
+    "passive": {
+      "etymology": "ラテン語「superstitio」から。「super（上に）」＋「stare（立つ）」＝何かの上に立ち尽くす、つまり恐れからその場に固まるイメージ。",
+      "tips": "superstitionは名詞で、形容詞はsuperstitious（迷信深い）。「be superstitious about〜」で「〜について迷信を信じている」という表現になる。",
+      "confusables": "superstition（非合理的な信仰）vs. belief（信念・信仰）：beliefは中立的だが、superstitionには「非科学的・非合理的」という否定的なニュアンスがある。",
+      "collocations": [
+        "common superstition",
+        "old superstition",
+        "superstition about"
+      ],
+      "trivia": "スティービー・ワンダーの名曲「Superstition」（1972年）は、彼が「黒猫は不吉」という言い伝えを信じ始めたことへの皮肉を込めて作られたとされる。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1655,
+    "word": "glimpse",
+    "pos": "noun",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ちらりと見ること、一瞥",
+        "pos": "noun"
+      },
+      {
+        "meaning": "かいま見る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡlɪmps/",
+    "syllables": "glimpse",
+    "audioHint": "グリムプス",
+    "examples": [
+      {
+        "en": "She caught a glimpse of the actor through the crowd.",
+        "ja": "彼女は群衆の中にその俳優をちらりと見た。",
+        "blank": "She caught a ___ of the actor through the crowd.",
+        "blankAnswer": "glimpse"
+      }
+    ],
+    "distractors": [
+      "力強く握ること",
+      "素早く走ること",
+      "大声で叫ぶこと"
+    ],
+    "confusableSpellings": [
+      "glimse",
+      "glimps",
+      "glympse"
+    ],
+    "passive": {
+      "etymology": "中英語「glimsen（かすかに光る）」に由来。かすかな光がチラッと見える様子から「ちらり見」の意味になった。",
+      "tips": "「catch a glimpse of〜」が最頻出のコロケーション。「see a glimpse」は不自然なので注意。また動詞としても「I glimpsed him」のように使える。",
+      "confusables": "glimpse（一瞬だけ見ること）vs. glance（さっと視線を向けること）：glimpseは偶然・短時間であることを強調、glanceは意図的に素早く見る行為。",
+      "collocations": [
+        "catch a glimpse",
+        "a glimpse of",
+        "brief glimpse"
+      ],
+      "trivia": "「glimpse」はglamour（魔法・魅力）と同じ語根を持つという説がある。どちらも「かすかに光るもの」が語源で、見えそうで見えない魔力的な感じが共通している。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1656,
+    "word": "arithmetic",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "算数、四則演算",
+        "pos": "noun"
+      },
+      {
+        "meaning": "計算、数的処理",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈrɪθmətɪk/",
+    "syllables": "a-rith-me-tic",
+    "audioHint": "アリスメティック",
+    "examples": [
+      {
+        "en": "Basic arithmetic is taught in every primary school.",
+        "ja": "基本的な算数はすべての小学校で教えられる。",
+        "blank": "Basic ___ is taught in every primary school.",
+        "blankAnswer": "arithmetic"
+      }
+    ],
+    "distractors": [
+      "文章構造の分析",
+      "生物の分類体系",
+      "地図の投影法"
+    ],
+    "confusableSpellings": [
+      "arithmatic",
+      "arithmetick",
+      "arithemtic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語「arithmētikē（数の技術）」から。「arithmos（数）」＋「technē（技術）」。数を扱う技術という意味。",
+      "tips": "発音に注意：「アリスメティック」で、「th」は有声でなく無声の/θ/音。アクセントは2番目のシラブル「rith」にある。mathと区別して使う。",
+      "confusables": "arithmetic（四則演算・算数）vs. mathematics（数学全般）：arithmeticはmathematicsの一部で、足し算・引き算・掛け算・割り算に限定される基礎的な分野。",
+      "collocations": [
+        "mental arithmetic",
+        "basic arithmetic",
+        "arithmetic operations"
+      ],
+      "trivia": "「arithmetic mean（算術平均）」は単純な平均値のこと。「geometric mean（幾何平均）」とセットで覚えると統計の世界がぐっと広がる。"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1657,
+    "word": "glossary",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "用語集、語彙集",
+        "pos": "noun"
+      },
+      {
+        "meaning": "専門用語解説",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡlɒsəri/",
+    "syllables": "glos-sa-ry",
+    "audioHint": "グロサリー",
+    "examples": [
+      {
+        "en": "Look up the term in the glossary at the back of the book.",
+        "ja": "本の末尾にある用語集でその用語を調べなさい。",
+        "blank": "Look up the term in the ___ at the back of the book.",
+        "blankAnswer": "glossary"
+      }
+    ],
+    "distractors": [
+      "参考文献の引用形式",
+      "実験結果の統計表",
+      "章ごとの要約"
+    ],
+    "confusableSpellings": [
+      "glossery",
+      "glosary",
+      "glossory"
+    ],
+    "passive": {
+      "etymology": "ラテン語「glossa（難しい言葉の注釈）」から。元々は古いテキストの欄外に書かれた注釈集を指していた。",
+      "tips": "glossaryは本・文書の末尾に付く専門用語集のこと。「grocery（食料品店）」と発音が似ているので混同しないよう注意。",
+      "confusables": "glossary（用語集）vs. dictionary（辞書）vs. index（索引）：glossaryは特定の文書・分野の用語に限定。dictionaryは一般的な語義。indexは掲載ページの一覧。",
+      "collocations": [
+        "technical glossary",
+        "glossary of terms",
+        "refer to the glossary"
+      ],
+      "trivia": "「gloss」には「光沢」という別の意味もある（lip gloss など）。こちらはゲルマン語系の別語源で、「つやつや光る」イメージ。同じ綴りでも全く別の語源という面白いケース。"
+    },
+    "frequency": 7000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1658,
+    "word": "archive",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "アーカイブ、記録保管所",
+        "pos": "noun"
+      },
+      {
+        "meaning": "保管する、アーカイブする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɑːrkaɪv/",
+    "syllables": "ar-chive",
+    "audioHint": "アーカイヴ",
+    "examples": [
+      {
+        "en": "The library keeps historical documents in its archive.",
+        "ja": "図書館は歴史的な文書をアーカイブに保管している。",
+        "blank": "The library keeps historical documents in its ___.",
+        "blankAnswer": "archive"
+      }
+    ],
+    "distractors": [
+      "仮説を立てる方法論",
+      "調査票の設計手法",
+      "学習指導要領"
+    ],
+    "confusableSpellings": [
+      "archieve",
+      "archiv",
+      "arcive"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語「arkheion（官庁・公的建物）」から。「arkhē（統治・始まり）」に由来し、公的記録を保管する場所という意味。",
+      "tips": "名詞の発音は「アーカイヴ」（/ˈɑːrkaɪv/）だが、動詞としても使え、発音は同じ。ITの世界では「ファイルを圧縮保存する」意味でも頻繁に使われる。",
+      "confusables": "archive（長期保存用の記録）vs. database（検索・更新可能なデータ集積）：archiveは主に変更を加えない歴史的保存、databaseは能動的に管理・更新されるもの。",
+      "collocations": [
+        "national archive",
+        "digital archive",
+        "archive footage"
+      ],
+      "trivia": "「アーカイブ」はIT用語として日本語にも浸透しているが、その語源はなんと古代ギリシャの「統治機関」。SNSの「アーカイブする」機能は、古代の公文書館の発想と地続きなのだ。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1659,
+    "word": "legacy",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "遺産、遺物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（過去から受け継いだ）影響、功績",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈleɡəsi/",
+    "syllables": "leg-a-cy",
+    "audioHint": "レガシー",
+    "examples": [
+      {
+        "en": "His musical legacy continues to inspire artists worldwide.",
+        "ja": "彼の音楽的遺産は世界中のアーティストに影響を与え続けている。",
+        "blank": "His musical ___ continues to inspire artists worldwide.",
+        "blankAnswer": "legacy"
+      }
+    ],
+    "distractors": [
+      "即興演奏の技法",
+      "美術品の修復手順",
+      "舞台演出の照明手法"
+    ],
+    "confusableSpellings": [
+      "legasy",
+      "legicy",
+      "legacie"
+    ],
+    "passive": {
+      "etymology": "ラテン語「legare（遺贈する、派遣する）」から。「legatus（使節・遺贈された者）」を経て、死後に残されるものという意味に。",
+      "tips": "legacyは「遺産」だが、必ずしも財産・お金に限らない。「芸術的遺産」「文化的遺産」のように抽象的な功績にも使える。ITでは「旧式システム」を指すlegacy systemも頻出。",
+      "confusables": "legacy（継承されたもの全般）vs. heritage（文化的・歴史的遺産）：legacyは個人や出来事が残したものに焦点、heritageは文化・民族・歴史の継承により焦点を当てる。",
+      "collocations": [
+        "cultural legacy",
+        "lasting legacy",
+        "leave a legacy"
+      ],
+      "trivia": "「legacy system（レガシーシステム）」はIT業界では「古くて使いにくいが捨てられないシステム」の意味。老舗企業の基幹システムが未だにFORTRANで動いているなんてことも珍しくない。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1660,
+    "word": "anthropology",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "人類学",
+        "pos": "noun"
+      },
+      {
+        "meaning": "人間の文化・社会・行動の研究",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌænθrəˈpɒlədʒi/",
+    "syllables": "an-thro-pol-o-gy",
+    "audioHint": "アンスロポロジー",
+    "examples": [
+      {
+        "en": "She studied anthropology to understand human cultural diversity.",
+        "ja": "彼女は人類の文化的多様性を理解するために人類学を学んだ。",
+        "blank": "She studied ___ to understand human cultural diversity.",
+        "blankAnswer": "anthropology"
+      }
+    ],
+    "distractors": [
+      "天体の運動の研究",
+      "岩石・地層の調査",
+      "植物の分類と生態研究"
+    ],
+    "confusableSpellings": [
+      "anthropolgy",
+      "antropology",
+      "anthropollogy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語「anthropos（人間）」＋「logos（学問・理論）」。文字通り「人間を研究する学問」という意味。",
+      "tips": "発音は「アンスロポロジー」。「th」は/θ/で「ス」に近い音。-ologyで終わる学問名（biology, psychologyなど）の一つなので、語尾パターンとして覚えると便利。",
+      "confusables": "anthropology（人類学・文化・社会・身体の研究）vs. sociology（社会学）：anthropologyは比較文化・考古学・言語も含む広い概念、sociologyは現代社会の構造・制度に焦点を当てる。",
+      "collocations": [
+        "cultural anthropology",
+        "social anthropology",
+        "physical anthropology"
+      ],
+      "trivia": "人類学者マーガレット・ミードは1920年代にサモアでのフィールドワークを基に書いた本が世界的ベストセラーになった。学術書がベストセラーになる時代があったという事実も、ある意味で人類学的に面白い。"
+    },
+    "frequency": 4800,
+    "cefr": "C1"
+  }
+]

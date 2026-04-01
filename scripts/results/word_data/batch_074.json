@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1461,
+    "word": "outlook",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "見通し、展望",
+        "pos": "noun"
+      },
+      {
+        "meaning": "物の見方、考え方",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaʊtlʊk/",
+    "syllables": "out-look",
+    "audioHint": "アウトルック",
+    "examples": [
+      {
+        "en": "The economic outlook for next year looks promising.",
+        "ja": "来年の経済見通しは有望に見える。",
+        "blank": "The economic ___ for next year looks promising.",
+        "blankAnswer": "outlook"
+      }
+    ],
+    "distractors": [
+      "感情の起伏",
+      "信念の体系",
+      "精神的な葛藤"
+    ],
+    "confusableSpellings": [
+      "outlok",
+      "outllook",
+      "outloak"
+    ],
+    "passive": {
+      "etymology": "out-（外へ）+ look（見る）の合成語。文字通り「外を見る」ことから「展望・見通し」の意味が生まれた。",
+      "tips": "「見通し」という意味では economic outlook（経済見通し）のように使うが、「人生観・考え方」という意味では outlook on life のように on を伴うことが多い。",
+      "confusables": "forecast は数値や天気など具体的な予測に使うが、outlook はより主観的・抽象的な「見通し」に使われる。",
+      "collocations": [
+        "positive outlook",
+        "economic outlook",
+        "outlook on life"
+      ],
+      "trivia": "Microsoft の有名なメールソフト「Outlook」は、まさに「情報の見通しを良くする」という意味でこの単語が選ばれた。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1462,
+    "word": "breakthrough",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "突破口、画期的な進歩",
+        "pos": "noun"
+      },
+      {
+        "meaning": "重要な発見・成果",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbreɪkθruː/",
+    "syllables": "break-through",
+    "audioHint": "ブレイクスルー",
+    "examples": [
+      {
+        "en": "Scientists made a major breakthrough in cancer research.",
+        "ja": "科学者たちはがん研究で大きな突破口を開いた。",
+        "blank": "Scientists made a major ___ in cancer research.",
+        "blankAnswer": "breakthrough"
+      }
+    ],
+    "distractors": [
+      "基礎的な知識",
+      "教育制度の改革",
+      "学習の反復"
+    ],
+    "confusableSpellings": [
+      "breaktrough",
+      "brakethrough",
+      "breackthrough"
+    ],
+    "passive": {
+      "etymology": "break（突き破る）+ through（通り抜けて）の合成語。障壁を突き破って向こう側に抜けるイメージから「画期的な進歩」の意味になった。",
+      "tips": "make a breakthrough という動詞句がとても頻出。「ブレイクスルーする」と動詞的に使いたくなるが、英語では make / achieve a breakthrough と名詞で使うのが自然。",
+      "confusables": "discovery（発見）は新しい事実を見つけること全般だが、breakthrough は困難を乗り越えた劇的な前進に焦点がある。",
+      "collocations": [
+        "make a breakthrough",
+        "major breakthrough",
+        "breakthrough technology"
+      ],
+      "trivia": "もともとは軍事用語で「敵の防衛線を突破すること」を意味していた。そこから転じて科学や技術の世界でも使われるようになった。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1463,
+    "word": "triumph",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "大勝利、偉業",
+        "pos": "noun"
+      },
+      {
+        "meaning": "勝利を喜ぶ、凱旋する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtraɪəmf/",
+    "syllables": "tri-umph",
+    "audioHint": "トライアンフ",
+    "examples": [
+      {
+        "en": "Winning the championship was a great triumph for the team.",
+        "ja": "優勝はチームにとって大きな勝利だった。",
+        "blank": "Winning the championship was a great ___ for the team.",
+        "blankAnswer": "triumph"
+      }
+    ],
+    "distractors": [
+      "精神的な苦悩",
+      "道徳的な義務",
+      "哲学的な問い"
+    ],
+    "confusableSpellings": [
+      "triumpf",
+      "tryumph",
+      "triumf"
+    ],
+    "passive": {
+      "etymology": "ラテン語 triumphus（凱旋式）に由来。古代ローマでは戦争に勝った将軍が盛大な凱旋パレードを行っていたことからこの語が生まれた。",
+      "tips": "triumph は victory よりも劇的で感情的な「大勝利」のニュアンスが強い。また動詞としても使え、triumph over adversity（逆境に打ち勝つ）のような表現が頻出。",
+      "confusables": "victory は単なる勝利の結果を指すが、triumph は苦労や困難を乗り越えた上での勝利・喜びの感情を含む。",
+      "collocations": [
+        "personal triumph",
+        "triumph over adversity",
+        "shout in triumph"
+      ],
+      "trivia": "古代ローマの凱旋式（triumphus）では、将軍の背後に「メメント・モリ（死を忘れるな）」と囁く奴隷が乗っていたという逸話がある。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1464,
+    "word": "ally",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "同盟国、味方",
+        "pos": "noun"
+      },
+      {
+        "meaning": "同盟を結ぶ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈælaɪ/",
+    "syllables": "al-ly",
+    "audioHint": "アライ",
+    "examples": [
+      {
+        "en": "Japan and the US are close allies in the region.",
+        "ja": "日本とアメリカはその地域における緊密な同盟国だ。",
+        "blank": "Japan and the US are close ___ in the region.",
+        "blankAnswer": "allies"
+      }
+    ],
+    "distractors": [
+      "政府の規制",
+      "選挙の候補者",
+      "法律の条文"
+    ],
+    "confusableSpellings": [
+      "allie",
+      "allay",
+      "aly"
+    ],
+    "passive": {
+      "etymology": "古フランス語 alier、ラテン語 alligare（縛り付ける）に由来。al-（〜へ）+ ligare（縛る）の組み合わせで「互いに縛り合う＝同盟する」の意味。",
+      "tips": "名詞の複数形は allies（-y → -ies）になるので注意。動詞として使うときは ally oneself with〜（〜と同盟を結ぶ）という形が多い。発音は名詞が /ˈælaɪ/、動詞も同じ。",
+      "confusables": "partner は対等なビジネス上のパートナーを指すが、ally は特に政治・外交・戦争文脈での「同盟者」のニュアンスが強い。",
+      "collocations": [
+        "close ally",
+        "key ally",
+        "ally with someone"
+      ],
+      "trivia": "LGBTQコミュニティでは「ally（アライ）」はLGBTQ当事者を支持する非当事者の人を指す社会用語としても広く使われている。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1465,
+    "word": "spectator",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "観客、見物人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "傍観者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈspekteɪtər/",
+    "syllables": "spec-ta-tor",
+    "audioHint": "スペクテイター",
+    "examples": [
+      {
+        "en": "Thousands of spectators cheered for the runners at the finish line.",
+        "ja": "何千人もの観客がゴールラインで走者を応援した。",
+        "blank": "Thousands of ___ cheered for the runners at the finish line.",
+        "blankAnswer": "spectators"
+      }
+    ],
+    "distractors": [
+      "芸術作品の制作者",
+      "舞台の脚本家",
+      "音楽の演奏者"
+    ],
+    "confusableSpellings": [
+      "spectater",
+      "spectatour",
+      "spektator"
+    ],
+    "passive": {
+      "etymology": "ラテン語 spectare（見る）+ -tor（〜する人）の合成。spectare はラテン語 specere（見る）の反復形で、inspect や spectacle とも語根が同じ。",
+      "tips": "audience は演劇・映画・音楽など聴覚も含むパフォーマンスの観客を指すが、spectator はスポーツなど主に「目で見る」イベントの観衆に使われることが多い。",
+      "confusables": "audience は集合的な「聴衆・観客全体」を指すことが多いが、spectator は個々の「見物人」を指す。spectator sport（観戦スポーツ）という熟語も重要。",
+      "collocations": [
+        "spectator sport",
+        "neutral spectator",
+        "thousands of spectators"
+      ],
+      "trivia": "「スペクタクル（spectacle）」も同じ語根。眼鏡を英国英語で spectacles と呼ぶのも、「よく見るための道具」という意味から来ている。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1466,
+    "word": "sphere",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "球体、球",
+        "pos": "noun"
+      },
+      {
+        "meaning": "領域、範囲",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sfɪər/",
+    "syllables": "sphere",
+    "audioHint": "スフィア",
+    "examples": [
+      {
+        "en": "Education falls within the sphere of local government responsibility.",
+        "ja": "教育は地方自治体の責任の領域に入る。",
+        "blank": "Education falls within the ___ of local government responsibility.",
+        "blankAnswer": "sphere"
+      }
+    ],
+    "distractors": [
+      "時間の経過",
+      "数量の単位",
+      "空間的な距離"
+    ],
+    "confusableSpellings": [
+      "sfere",
+      "sphear",
+      "spere"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 sphaira（球）に由来。ラテン語を経て英語に入った。hemisphere（半球）や atmosphere（大気圏）など多くの合成語に使われる。",
+      "tips": "sphere は「球体」という物理的な意味のほか、「活動領域・影響圏」という抽象的な意味でもよく使われる。sphere of influence（勢力圏）は政治・ビジネス文脈で頻出。",
+      "confusables": "circle は平面上の円を指すが、sphere は立体的な球体。また field も「分野・領域」の意味で使えるが、sphere はより格式ばった文脈で使われることが多い。",
+      "collocations": [
+        "sphere of influence",
+        "public sphere",
+        "private sphere"
+      ],
+      "trivia": "地球（Earth）も sphere の一種。「atmosphere（大気圏）」「biosphere（生物圏）」「lithosphere（岩石圏）」など、地球科学の用語には sphere が大量に登場する。"
+    },
+    "frequency": 3300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1467,
+    "word": "county",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "郡（行政区域）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "州（英国・アイルランドの行政区）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkaʊnti/",
+    "syllables": "coun-ty",
+    "audioHint": "カウンティ",
+    "examples": [
+      {
+        "en": "She grew up in a small county in rural England.",
+        "ja": "彼女はイングランドの田舎の小さな郡で育った。",
+        "blank": "She grew up in a small ___ in rural England.",
+        "blankAnswer": "county"
+      }
+    ],
+    "distractors": [
+      "国家の最高権力機関",
+      "選挙の投票制度",
+      "外交上の条約"
+    ],
+    "confusableSpellings": [
+      "counity",
+      "countey",
+      "caunty"
+    ],
+    "passive": {
+      "etymology": "古フランス語 conté（伯爵の領地）に由来し、ラテン語 comitatus（伯爵の随行団・その管轄地域）が語源。count（伯爵）と同じ語根を持つ。",
+      "tips": "country（国）と1字違いなので混同しやすい。county は国よりずっと小さな「行政区（郡）」を指す。アメリカでは州（state）の下の行政区分として使われる。",
+      "confusables": "country は「国」全体を指すが、county は国の中の行政単位の一つ。発音も /ˈkaʊntri/ vs /ˈkaʊnti/ と微妙に異なる。",
+      "collocations": [
+        "county seat",
+        "county government",
+        "home county"
+      ],
+      "trivia": "イギリスには「County Durham」「County Cork」など歴史ある county が多数ある。日本の「県」に近いが、歴史的には伯爵（count）の支配地に由来するロマンある区分。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1468,
+    "word": "behalf",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "〜のために、〜を代表して",
+        "pos": "noun"
+      },
+      {
+        "meaning": "利益、代理",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bɪˈhɑːf/",
+    "syllables": "be-half",
+    "audioHint": "ビハーフ",
+    "examples": [
+      {
+        "en": "She accepted the award on behalf of her entire team.",
+        "ja": "彼女はチーム全員を代表して賞を受け取った。",
+        "blank": "She accepted the award on ___ of her entire team.",
+        "blankAnswer": "behalf"
+      }
+    ],
+    "distractors": [
+      "精神的な平静さ",
+      "道徳的な誠実さ",
+      "感情的な共感"
+    ],
+    "confusableSpellings": [
+      "behaff",
+      "behaf",
+      "behalph"
+    ],
+    "passive": {
+      "etymology": "古英語 be healfe（〜の側に）に由来。be（〜に関して）+ half（側・部分）の組み合わせ。「誰かの側に立つ」ことから「代理・利益」の意味に発展した。",
+      "tips": "必ず on behalf of 〜 という形で使う。「on behalf of〜」と「in behalf of〜」の両方があり、on behalf of は「代理として」、in behalf of は「〜の利益のために」とやや使い分けがあるが、現代英語では on behalf of が一般的。",
+      "confusables": "on behalf of は「代理として行動する」文脈で使い、for the sake of は「〜のためを思って」という動機・目的を強調する表現。",
+      "collocations": [
+        "on behalf of",
+        "speak on behalf of",
+        "act on behalf of"
+      ],
+      "trivia": "スピーチや式典でよく耳にする on behalf of everyone here（こちら全員を代表して）という表現はフォーマルな場で非常に役立つ定番フレーズ。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1469,
+    "word": "interval",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "間隔、合間",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（英）幕間、休憩時間",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪntərvəl/",
+    "syllables": "in-ter-val",
+    "audioHint": "インターバル",
+    "examples": [
+      {
+        "en": "Take the medicine at regular intervals throughout the day.",
+        "ja": "一日を通して定期的な間隔で薬を服用してください。",
+        "blank": "Take the medicine at regular ___ throughout the day.",
+        "blankAnswer": "intervals"
+      }
+    ],
+    "distractors": [
+      "空間の広さ",
+      "数の集合",
+      "次元の概念"
+    ],
+    "confusableSpellings": [
+      "intervall",
+      "enterval",
+      "intarval"
+    ],
+    "passive": {
+      "etymology": "ラテン語 intervallum（壁と壁の間）に由来。inter-（〜の間に）+ vallum（壁・防護柵）の合成。城壁の間の空間から「空白・間隔」の意味が生まれた。",
+      "tips": "at regular intervals（一定間隔で）は頻出表現。日本語の「インターバル」は主にスポーツで使うが、英語では時間的・空間的な「間隔」全般に使える。",
+      "confusables": "gap は物理的・比喩的な「隙間・格差」を広く指すが、interval は特に時間的・音楽的な規則的な間隔に使われることが多い。",
+      "collocations": [
+        "at regular intervals",
+        "time interval",
+        "short interval"
+      ],
+      "trivia": "音楽では「音程（interval）」も同じ単語。ドとソの「完全5度」なども英語では perfect fifth interval という。スポーツも音楽も「間」が大事。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1470,
+    "word": "circulation",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "循環、血液循環",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（新聞・雑誌の）発行部数、普及",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌsɜːrkjəˈleɪʃən/",
+    "syllables": "cir-cu-la-tion",
+    "audioHint": "サーキュレイション",
+    "examples": [
+      {
+        "en": "Exercise improves blood circulation throughout the body.",
+        "ja": "運動は全身の血液循環を改善する。",
+        "blank": "Exercise improves blood ___ throughout the body.",
+        "blankAnswer": "circulation"
+      }
+    ],
+    "distractors": [
+      "免疫機能の低下",
+      "神経系の構造",
+      "細胞の分裂過程"
+    ],
+    "confusableSpellings": [
+      "circullation",
+      "circulaion",
+      "sirculation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 circulare（円を描く）に由来。circulus（小さな円）+ -ation（名詞化）の組み合わせ。「円を描いて動く」ことから「循環」の意味になった。",
+      "tips": "「血液循環」の意味では blood circulation が定番。「発行部数」の意味では the newspaper has a circulation of 500,000（新聞の発行部数は50万部）のように使う。両義を混同しないよう注意。",
+      "confusables": "flow は流れ全般を指すシンプルな語だが、circulation は「循環して戻ってくる」ループのニュアンスが強い。また in circulation（流通している）/ out of circulation（流通していない）という表現も重要。",
+      "collocations": [
+        "blood circulation",
+        "improve circulation",
+        "newspaper circulation"
+      ],
+      "trivia": "「サーキュレーター（circulator）」も同語源。扇風機とサーキュレーターの違いは「空気を循環させるか・直接当てるか」。日本語でも「循環」はこの単語からの翻訳借用語。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1471,
+    "word": "blade",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "刃、刃物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（草の）葉、ブレード",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bleɪd/",
+    "syllables": "blade",
+    "audioHint": "ブレイド",
+    "examples": [
+      {
+        "en": "The chef sharpened the blade of his knife carefully.",
+        "ja": "シェフは丁寧にナイフの刃を研いだ。",
+        "blank": "The chef sharpened the ___ of his knife carefully.",
+        "blankAnswer": "blade"
+      }
+    ],
+    "distractors": [
+      "取っ手",
+      "鞘",
+      "柄"
+    ],
+    "confusableSpellings": [
+      "blaid",
+      "blayd"
+    ],
+    "passive": {
+      "etymology": "古英語 blæd（葉、刃）から。「吹く」を意味する blow と同語根で、もともとは「風に吹かれて伸びるもの」→「葉」→「薄く平たいもの」→「刃」と意味が広がった。",
+      "tips": "blade は刃そのものを指し、knife（ナイフ全体）とは区別する。'a blade of grass'（草の一葉）という使い方も頻出なので覚えておこう。",
+      "confusables": "blade（刃・葉）vs. edge（縁・刃先）：edge は刃の「先端・縁」の鋭さに焦点があり、blade は薄く平たい刃全体を指す。",
+      "collocations": [
+        "razor blade（かみそりの刃）",
+        "shoulder blade（肩甲骨）",
+        "blade of grass（草の一葉）"
+      ],
+      "trivia": "「肩甲骨」を shoulder blade と言うのは、その形が刃（blade）に似ているから。骨の名前に刃の単語が入っているなんて面白い！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1472,
+    "word": "theft",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "窃盗、盗み",
+        "pos": "noun"
+      },
+      {
+        "meaning": "盗難（行為）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/θɛft/",
+    "syllables": "theft",
+    "audioHint": "セフト",
+    "examples": [
+      {
+        "en": "He was arrested for theft at the supermarket.",
+        "ja": "彼はスーパーマーケットでの窃盗で逮捕された。",
+        "blank": "He was arrested for ___ at the supermarket.",
+        "blankAnswer": "theft"
+      }
+    ],
+    "distractors": [
+      "詐欺",
+      "暴行",
+      "贈収賄"
+    ],
+    "confusableSpellings": [
+      "theift",
+      "thift",
+      "thefft"
+    ],
+    "passive": {
+      "etymology": "古英語 þēofð（盗み）から。þēof（泥棒）＋ 名詞化接尾辞 -th。thief（泥棒）と同語根で、theft は「行為」、thief は「人」を指す。",
+      "tips": "theft は「盗む行為」そのもの。thief（犯人）、rob（強奪する）、steal（盗む）と混同しやすい。'theft of ~' または 'theft from ~' の形で使うのが自然。",
+      "confusables": "theft（窃盗行為）vs. robbery（強盗）：robbery は暴力や脅迫を伴う強奪を指し、theft は暴力なしに物を盗む行為。",
+      "collocations": [
+        "petty theft（軽微な窃盗）",
+        "identity theft（個人情報盗用）",
+        "auto theft（自動車盗難）"
+      ],
+      "trivia": "現代の「identity theft（なりすまし詐欺）」はデジタル時代最大の犯罪の一つ。昔は財布を盗まれるだけだったのに、今は個人情報を盗まれる時代になった。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1473,
+    "word": "vacuum",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "真空、真空状態",
+        "pos": "noun"
+      },
+      {
+        "meaning": "掃除機（で掃除する）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvækjuəm/",
+    "syllables": "vac-u-um",
+    "audioHint": "ヴァキュアム",
+    "examples": [
+      {
+        "en": "Sound cannot travel through a vacuum.",
+        "ja": "音は真空中を伝わることができない。",
+        "blank": "Sound cannot travel through a ___.",
+        "blankAnswer": "vacuum"
+      }
+    ],
+    "distractors": [
+      "圧力",
+      "重力",
+      "密度"
+    ],
+    "confusableSpellings": [
+      "vaccum",
+      "vacuume",
+      "vaccuum"
+    ],
+    "passive": {
+      "etymology": "ラテン語 vacuum（空の場所）から。vacuus（空の）＋ 名詞化。語根 vac- は「空」を意味し、vacant（空席の）や evacuate（避難する）とも同語根。",
+      "tips": "スペルに注意！'vacuum' は u が2つ続く珍しい単語。日本語の「バキューム」は実は英語でも vac-u-um と3音節。動詞としても使え、'vacuum the floor'（床を掃除機がけする）と言える。",
+      "confusables": "vacuum（真空・掃除機）vs. void（空虚・虚無）：void はより哲学的・文学的な「空虚」を表し、vacuum は物理的な真空や日常の掃除機を指す。",
+      "collocations": [
+        "vacuum cleaner（掃除機）",
+        "vacuum-packed（真空パックされた）",
+        "power vacuum（権力の空白）"
+      ],
+      "trivia": "宇宙は「完全な真空」に見えるが、実は1立方センチメートルに数個の原子が漂っている。本当の意味での完全な真空は地球上では作れないらしい！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1474,
+    "word": "collision",
+    "pos": "noun",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "衝突、激突",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（意見などの）対立、衝突",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəˈlɪʒən/",
+    "syllables": "col-li-sion",
+    "audioHint": "コリジョン",
+    "examples": [
+      {
+        "en": "The collision between the two cars caused serious injuries.",
+        "ja": "2台の車の衝突で重傷者が出た。",
+        "blank": "The ___ between the two cars caused serious injuries.",
+        "blankAnswer": "collision"
+      }
+    ],
+    "distractors": [
+      "摩擦",
+      "振動",
+      "加速"
+    ],
+    "confusableSpellings": [
+      "colision",
+      "collission",
+      "colission"
+    ],
+    "passive": {
+      "etymology": "ラテン語 collisio から。接頭辞 col-（共に、一緒に）＋ laedere（打つ、傷つける）の過去分詞 lasus。「互いにぶつかり合う」が原義。",
+      "tips": "collision は名詞のみ。動詞は collide を使う（'The cars collided.'）。また、物理的な衝突だけでなく「文化の衝突（collision of cultures）」のように抽象的にも使える。",
+      "confusables": "collision（衝突）vs. crash（衝突・墜落）：crash はより激しい破壊的な衝突や墜落に使い、collision は二つ以上のものが「ぶつかる」行為そのものを中立的に表す。",
+      "collocations": [
+        "head-on collision（正面衝突）",
+        "collision course（衝突コース）",
+        "mid-air collision（空中衝突）"
+      ],
+      "trivia": "物理学では「弾性衝突」と「非弾性衝突」があり、ビリヤードの玉は弾性衝突に近い。collision という単語、実はビリヤードを語るのに欠かせない！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1475,
+    "word": "bargain",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "お買い得品、格安品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "取引、交渉",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbɑːrɡən/",
+    "syllables": "bar-gain",
+    "audioHint": "バーゲン",
+    "examples": [
+      {
+        "en": "She found a great bargain at the flea market.",
+        "ja": "彼女はフリーマーケットでとても安い掘り出し物を見つけた。",
+        "blank": "She found a great ___ at the flea market.",
+        "blankAnswer": "bargain"
+      }
+    ],
+    "distractors": [
+      "投資",
+      "負債",
+      "利益"
+    ],
+    "confusableSpellings": [
+      "bargin",
+      "bargian",
+      "baregain"
+    ],
+    "passive": {
+      "etymology": "古フランス語 bargaignier（交渉する）から。語源は諸説あるが、商人間の「やり取り・取引」を意味する言葉として中英語に入った。",
+      "tips": "日本語の「バーゲン（セール）」は bargain から来ているが、英語では 'bargain' 単独で「お買い得品」の意味になる。'bargain sale' とは言わず 'a bargain' や 'a good bargain' と言う。",
+      "confusables": "bargain（お買い得・交渉）vs. deal（取引・お得）：deal はよりカジュアルで幅広く使われ、bargain はより「値切って得た安さ」のニュアンスが強い。",
+      "collocations": [
+        "strike a bargain（取引をまとめる）",
+        "bargain hunter（掘り出し物を探す人）",
+        "into the bargain（おまけに、その上）"
+      ],
+      "trivia": "英語の 'bargain bin'（特売箱）という表現は、店の隅に置かれた安売り品の箱のこと。日本の100円均一の感覚に近い文化が英語圏にもある！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1476,
+    "word": "landmark",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "目印、ランドマーク",
+        "pos": "noun"
+      },
+      {
+        "meaning": "画期的な出来事、歴史的節目",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlændmɑːrk/",
+    "syllables": "land-mark",
+    "audioHint": "ランドマーク",
+    "examples": [
+      {
+        "en": "The Eiffel Tower is a famous landmark in Paris.",
+        "ja": "エッフェル塔はパリの有名なランドマークだ。",
+        "blank": "The Eiffel Tower is a famous ___ in Paris.",
+        "blankAnswer": "landmark"
+      }
+    ],
+    "distractors": [
+      "国境",
+      "気候",
+      "海岸線"
+    ],
+    "confusableSpellings": [
+      "landmrk",
+      "landmarc",
+      "lndmark"
+    ],
+    "passive": {
+      "etymology": "land（土地）＋ mark（目印）の複合語。もともとは土地の境界を示す目印（杭や石など）を指す言葉だった。そこから「有名な建造物」や「歴史的節目」の意味に拡張された。",
+      "tips": "landmark は名詞として「有名な建造物」の意味で使われるだけでなく、形容詞的に 'a landmark decision（画期的な判決）' のようにも使える。この形容詞的用法が試験によく出る。",
+      "confusables": "landmark（目印・節目）vs. monument（記念碑）：monument は誰かを称えるために意図的に建てられたもので、landmark は有名な場所・建物・出来事全般を指す。",
+      "collocations": [
+        "landmark decision（画期的な判決）",
+        "historic landmark（歴史的名所）",
+        "landmark achievement（画期的な業績）"
+      ],
+      "trivia": "GPS がなかった時代、船乗りや旅人は目立つ山や建物を landmark として航行・移動していた。「道に迷わないための目印」が語源というのは、現代のナビの原点とも言えるね。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1477,
+    "word": "revenue",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "収益、歳入",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（政府の）税収、国家収入",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈrɛvənjuː/",
+    "syllables": "rev-e-nue",
+    "audioHint": "レヴェニュー",
+    "examples": [
+      {
+        "en": "The company's annual revenue exceeded one billion dollars.",
+        "ja": "その会社の年間収益は10億ドルを超えた。",
+        "blank": "The company's annual ___ exceeded one billion dollars.",
+        "blankAnswer": "revenue"
+      }
+    ],
+    "distractors": [
+      "費用",
+      "融資",
+      "株式"
+    ],
+    "confusableSpellings": [
+      "revenu",
+      "reveunue",
+      "revennue"
+    ],
+    "passive": {
+      "etymology": "フランス語 revenu（収入）から。re-（戻る）＋ venir（来る）＝「戻ってくるもの」。投資や事業から「戻ってくるお金」が原義。ラテン語 revenire に由来。",
+      "tips": "revenue は「売上・収益」の総額を指し、profit（利益）とは異なる。revenue から費用を引いたものが profit。ビジネス英語では revenue と profit を明確に区別することが重要。",
+      "confusables": "revenue（収益・売上総額）vs. profit（利益）vs. income（所得）：revenue は経費を引く前の総収入、profit は経費を引いた後の純利益、income は個人・法人の所得全般。",
+      "collocations": [
+        "annual revenue（年間収益）",
+        "tax revenue（税収）",
+        "revenue stream（収益源）"
+      ],
+      "trivia": "アメリカの税務当局 IRS の正式名称は 'Internal Revenue Service'。'revenue' が税収を意味するため名前に入っている。確定申告のたびにこの単語を思い出す米国民は多い！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1478,
+    "word": "treaty",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "条約、協定",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（国家間の）協定文書",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtriːti/",
+    "syllables": "trea-ty",
+    "audioHint": "トリーティ",
+    "examples": [
+      {
+        "en": "The two countries signed a peace treaty last year.",
+        "ja": "両国は昨年、平和条約に署名した。",
+        "blank": "The two countries signed a peace ___ last year.",
+        "blankAnswer": "treaty"
+      }
+    ],
+    "distractors": [
+      "法律",
+      "選挙",
+      "制裁"
+    ],
+    "confusableSpellings": [
+      "treety",
+      "treatie",
+      "treatey"
+    ],
+    "passive": {
+      "etymology": "古フランス語 traité（交渉・処理）から。ラテン語 tractare（取り扱う、交渉する）が語源。tract- という語根は「引く・扱う」を意味し、contract（契約）や extract（抽出する）とも関連。",
+      "tips": "treaty は必ず国家や政府間の正式な合意を指す。個人間や企業間の契約には使わない。'sign a treaty'（条約に署名する）、'ratify a treaty'（条約を批准する）という動詞との組み合わせを覚えよう。",
+      "confusables": "treaty（条約）vs. agreement（合意・協定）vs. contract（契約）：treaty は国際法上の正式な国家間合意、agreement はより幅広い合意、contract は法的拘束力のある民間契約。",
+      "collocations": [
+        "peace treaty（平和条約）",
+        "sign a treaty（条約に署名する）",
+        "treaty negotiations（条約交渉）"
+      ],
+      "trivia": "世界で最も長く続いている条約の一つはポルトガルとイギリス間の「ウィンザー条約」（1386年）。なんと600年以上前に結ばれた条約が今も有効！treaty の重みが違う。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1479,
+    "word": "supreme",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "最高の、至上の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "最大限の、極度の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/suːˈpriːm/",
+    "syllables": "su-preme",
+    "audioHint": "スープリーム",
+    "examples": [
+      {
+        "en": "She made the supreme sacrifice for her country.",
+        "ja": "彼女は国のために最大の犠牲を払った。",
+        "blank": "She made the ___ sacrifice for her country.",
+        "blankAnswer": "supreme"
+      }
+    ],
+    "distractors": [
+      "平均的な",
+      "わずかな",
+      "一時的な"
+    ],
+    "confusableSpellings": [
+      "suprime",
+      "supreem",
+      "supremme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 supremus（最も高い）から。super-（上に）の最上級形。「すべての上にある」が原義。superior（より優れた）、superb（素晴らしい）とも同語根。",
+      "tips": "supreme は「最高位の・至上の」という強い意味を持つ形容詞。Supreme Court（最高裁判所）のように固有名詞でもよく使われる。比較級・最上級はなく（すでに最上の意味を含む）、'more supreme' とは言わない。",
+      "confusables": "supreme（最高の・至上の）vs. superior（より優れた）：superior は比較対象があるときに使い（superior to ~）、supreme は絶対的な最高位を表す。",
+      "collocations": [
+        "Supreme Court（最高裁判所）",
+        "supreme effort（最大限の努力）",
+        "supreme commander（最高司令官）"
+      ],
+      "trivia": "ファッションブランド「Supreme」はこの単語から。また、ビヨンセが所属していたグループ「The Supremes」もこの単語が由来。「至上のもの」という名前、なかなか強気で格好いい！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1480,
+    "word": "thorough",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "徹底的な、完全な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "綿密な、念入りな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈθʌrə/",
+    "syllables": "thor-ough",
+    "audioHint": "サロウ",
+    "examples": [
+      {
+        "en": "The doctor conducted a thorough examination of the patient.",
+        "ja": "医師は患者を徹底的に診察した。",
+        "blank": "The doctor conducted a ___ examination of the patient.",
+        "blankAnswer": "thorough"
+      }
+    ],
+    "distractors": [
+      "大まかな",
+      "一時的な",
+      "表面的な"
+    ],
+    "confusableSpellings": [
+      "thorogh",
+      "thorough",
+      "throough",
+      "throuugh"
+    ],
+    "passive": {
+      "etymology": "古英語 þuruh（完全に通り抜けて）から。through（通り抜けて）と同語根。「端から端まで完全に通り抜ける」→「何も見落とさない・徹底的な」という意味に発展した。",
+      "tips": "発音が最大の難関！'thorough' は /ˈθʌrə/（サロウに近い）で、through（スルー）とはまったく異なる。スペルも through と混同しやすいので注意。副詞は thoroughly（ˈθʌrəli）。",
+      "confusables": "thorough（徹底的な）vs. through（〜を通り抜けて）：発音もスペルも似ているが、thorough は形容詞で「完全・念入り」、through は前置詞・副詞で「通り抜けて」。全くの別単語。",
+      "collocations": [
+        "thorough investigation（徹底的な調査）",
+        "thorough understanding（深い理解）",
+        "thorough job（念入りな仕事）"
+      ],
+      "trivia": "thorough と through はどちらも古英語で「通り抜ける」を意味する単語から来ている双子のような存在。しかし現代英語では意味も発音も別々の道を歩んだ、言語の面白い「分岐点」！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  }
+]

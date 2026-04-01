@@ -1,0 +1,993 @@
+[
+  {
+    "id": 1621,
+    "word": "coincide",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "一致する、同時に起こる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意見が合う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌkoʊɪnˈsaɪd/",
+    "syllables": "co-in-cide",
+    "audioHint": "コウインサイド",
+    "examples": [
+      {
+        "en": "The festival coincides with the national holiday this year.",
+        "ja": "今年、そのフェスティバルは祝日と重なる。",
+        "blank": "The festival ___ with the national holiday this year.",
+        "blankAnswer": "coincides"
+      }
+    ],
+    "distractors": [
+      "遅れをとる",
+      "消去する",
+      "変化させる"
+    ],
+    "confusableSpellings": [
+      "coincied",
+      "coincied",
+      "conincide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 co-（共に）+ incidere（落ちる・起こる）が語源。「同じ場所・時間に一緒に落ちる」イメージ。",
+      "tips": "「偶然の一致」はcoincidenceという名詞形でよく使われる。coincideは自動詞なのでwithと一緒に使うことを忘れずに。",
+      "confusables": "coincide（一致する・客観的な重なり）vs. agree（意見が合う・人間間の合意）。時間や場所の重なりにはcoincideが自然。",
+      "collocations": [
+        "coincide with ~",
+        "coincide in time",
+        "schedules coincide"
+      ],
+      "trivia": "「コインシデンス（偶然の一致）」は日本語にもカタカナで入ってきている。もとはコインのように2枚がぴったり重なるイメージから来ている説も！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1622,
+    "word": "lag",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "遅れる、後れをとる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "遅延（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/læɡ/",
+    "syllables": "lag",
+    "audioHint": "ラグ",
+    "examples": [
+      {
+        "en": "Our sales lag behind those of our competitors.",
+        "ja": "私たちの売上は競合他社に遅れをとっている。",
+        "blank": "Our sales ___ behind those of our competitors.",
+        "blankAnswer": "lag"
+      }
+    ],
+    "distractors": [
+      "一致する",
+      "消去する",
+      "操作する"
+    ],
+    "confusableSpellings": [
+      "lagg",
+      "llag",
+      "laag"
+    ],
+    "passive": {
+      "etymology": "スカンジナビア語系の古語 lagga（ゆっくり行く）が語源とされる。シンプルな1音節語。",
+      "tips": "「lag behind」で「〜に遅れる」という表現が最頻出。ゲーム用語の「ラグ（通信遅延）」はこの語から来ているので覚えやすい！",
+      "confusables": "lag（継続的に遅れている状態）vs. delay（一時的な遅延・延期）。lagは相対的な差、delayは時間的な後退を指すことが多い。",
+      "collocations": [
+        "lag behind",
+        "jet lag",
+        "time lag"
+      ],
+      "trivia": "オンラインゲーマーが嘆く「ラグい（遅延がある）」はまさにこの単語。英語圏でも「lag」はゲーム文化に深く根付いている。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1623,
+    "word": "cling",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "しがみつく、くっつく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "執着する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/klɪŋ/",
+    "syllables": "cling",
+    "audioHint": "クリング",
+    "examples": [
+      {
+        "en": "The child clung to her mother tightly.",
+        "ja": "その子は母親にしっかりとしがみついた。",
+        "blank": "The child ___ to her mother tightly.",
+        "blankAnswer": "clung"
+      }
+    ],
+    "distractors": [
+      "粉砕する",
+      "編む",
+      "漏れる"
+    ],
+    "confusableSpellings": [
+      "clong",
+      "clinge",
+      "kling"
+    ],
+    "passive": {
+      "etymology": "古英語 clingan（縮む・くっつく）が語源。不規則動詞で cling–clung–clung と変化する。",
+      "tips": "過去形・過去分詞は「clung」（クラング）と不規則変化する点に注意。「clinged」と言ってしまう日本人学習者が多い。",
+      "confusables": "cling（物理的・感情的にくっつく）vs. stick（物がくっつく・粘着する）。clingは意志や感情的なニュアンスが強い。",
+      "collocations": [
+        "cling to ~",
+        "cling together",
+        "cling film（ラップフィルム）"
+      ],
+      "trivia": "日本で「クリングラップ」と呼ぶ食品用ラップフィルム。英語では「cling film」と言い、まさにこの「くっつく」から来ている！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1624,
+    "word": "erase",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "消す、削除する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "取り除く、一掃する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈreɪs/",
+    "syllables": "e-rase",
+    "audioHint": "イレイス",
+    "examples": [
+      {
+        "en": "She erased the mistake from her notebook.",
+        "ja": "彼女はノートのミスを消した。",
+        "blank": "She ___ the mistake from her notebook.",
+        "blankAnswer": "erased"
+      }
+    ],
+    "distractors": [
+      "一致する",
+      "遅れる",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "errase",
+      "erace",
+      "irease"
+    ],
+    "passive": {
+      "etymology": "ラテン語 e-（外へ）+ radere（削る・こする）が語源。「削り取って外へ出す」イメージ。",
+      "tips": "「eraser（消しゴム）」という名詞形は日本でもよく知られているので関連付けて覚えると良い。発音は「エレイス」ではなく「イレイス」。",
+      "confusables": "erase（完全に消す）vs. delete（データ・テキストを削除する）vs. remove（取り除く）。eraseはより「痕跡をなくす」ニュアンスが強い。",
+      "collocations": [
+        "erase data",
+        "erase memories",
+        "erase a mistake"
+      ],
+      "trivia": "「記憶を消す」という表現に英語では erase memories がよく使われる。映画『エターナル・サンシャイン』でも記憶消去の概念にこの語が使われた。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1625,
+    "word": "grind",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "すりつぶす、粉砕する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "苦労して働く、コツコツやる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡraɪnd/",
+    "syllables": "grind",
+    "audioHint": "グラインド",
+    "examples": [
+      {
+        "en": "He grinds coffee beans every morning.",
+        "ja": "彼は毎朝コーヒー豆を挽く。",
+        "blank": "He ___ coffee beans every morning.",
+        "blankAnswer": "grinds"
+      }
+    ],
+    "distractors": [
+      "しがみつく",
+      "編む",
+      "漏れる"
+    ],
+    "confusableSpellings": [
+      "grined",
+      "grnd",
+      "grinde"
+    ],
+    "passive": {
+      "etymology": "古英語 grindan（砕く・こする）が語源。不規則動詞で grind–ground–ground と変化する。",
+      "tips": "過去形は「ground」（グラウンド）。「地面（ground）」と同じ綴りなので混乱しがち。「石臼で挽いたから地面のように平らになる」と覚えよう！",
+      "confusables": "grind（時間をかけてすりつぶす）vs. crush（一気に押しつぶす）vs. smash（激しく叩き壊す）。grindは継続的な動作が特徴。",
+      "collocations": [
+        "grind coffee",
+        "grind teeth",
+        "daily grind（日々の苦労）"
+      ],
+      "trivia": "ゲーム用語「グラインド（grind）」は同じ単語。レベル上げのために同じ作業を繰り返すことを指し、「地道にすりつぶすように進む」まさにそのまま！"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1626,
+    "word": "knit",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "編む、ニット編みする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "密接に結びつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/nɪt/",
+    "syllables": "knit",
+    "audioHint": "ニット",
+    "examples": [
+      {
+        "en": "She knitted a warm scarf for her son.",
+        "ja": "彼女は息子のために温かいマフラーを編んだ。",
+        "blank": "She ___ a warm scarf for her son.",
+        "blankAnswer": "knitted"
+      }
+    ],
+    "distractors": [
+      "すりつぶす",
+      "しがみつく",
+      "粉砕する"
+    ],
+    "confusableSpellings": [
+      "nit",
+      "knitt",
+      "knited"
+    ],
+    "passive": {
+      "etymology": "古英語 cnyttan（結ぶ・編む）が語源。knの綴りは古英語時代には「kn」と発音されていた名残。",
+      "tips": "最初の「k」は黙字（サイレントk）で発音しない。「knife」「know」「knight」なども同様。日本語の「ニット」はこの単語から来ている。",
+      "confusables": "knit（棒針で編む）vs. crochet（かぎ針で編む）vs. weave（機で織る）。手芸の種類によって動詞が異なる。",
+      "collocations": [
+        "knit a sweater",
+        "closely knit（密接に結びついた）",
+        "knit one's brows（眉をひそめる）"
+      ],
+      "trivia": "「knit one's brows」で「眉をひそめる」という慣用句になる。眉を「編むように」寄せるイメージから来ているなんておもしろい！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1627,
+    "word": "inquire",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "尋ねる、問い合わせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "調査する、取り調べる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈkwaɪər/",
+    "syllables": "in-quire",
+    "audioHint": "インクワイア",
+    "examples": [
+      {
+        "en": "She inquired about the job opening at the front desk.",
+        "ja": "彼女はフロントで求人について問い合わせた。",
+        "blank": "She ___ about the job opening at the front desk.",
+        "blankAnswer": "inquired"
+      }
+    ],
+    "distractors": [
+      "裏切る",
+      "一致する",
+      "執着する"
+    ],
+    "confusableSpellings": [
+      "enquire",
+      "inqure",
+      "inquiere"
+    ],
+    "passive": {
+      "etymology": "ラテン語 in-（中へ）+ quaerere（求める・探す）が語源。「内部まで探し求める」イメージ。",
+      "tips": "「inquire」（主に米語）と「enquire」（主に英語）は同じ意味。フォーマルな場面で「ask」の代わりに使うと丁寧な印象になる。",
+      "confusables": "inquire（情報・詳細を尋ねる）vs. ask（一般的に尋ねる）vs. investigate（正式に調査する）。inquireはaskよりやや格式張った表現。",
+      "collocations": [
+        "inquire about ~",
+        "inquire into ~（調査する）",
+        "inquire after ~（安否を尋ねる）"
+      ],
+      "trivia": "英国の新聞社「The Inquirer」はまさにこの語から。「真実を探し求める者」というジャーナリズムの精神を体現した名前だ！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1628,
+    "word": "betray",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "裏切る、背く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（秘密・感情を）漏らす、表す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɪˈtreɪ/",
+    "syllables": "be-tray",
+    "audioHint": "ビトレイ",
+    "examples": [
+      {
+        "en": "He betrayed his best friend for money.",
+        "ja": "彼はお金のために親友を裏切った。",
+        "blank": "He ___ his best friend for money.",
+        "blankAnswer": "betrayed"
+      }
+    ],
+    "distractors": [
+      "尋ねる",
+      "一致する",
+      "遅れる"
+    ],
+    "confusableSpellings": [
+      "betrey",
+      "betrray",
+      "betrayl"
+    ],
+    "passive": {
+      "etymology": "古フランス語 be-（強意）+ trair（渡す・引き渡す）が語源。ラテン語 tradere（引き渡す）に由来し、「敵に引き渡す」イメージ。",
+      "tips": "「裏切る」だけでなく「感情や秘密が思わず顔に出る」という意味でも使われる。例：Her voice betrayed her nervousness.（声に緊張が表れた）",
+      "confusables": "betray（信頼を壊す・秘密を漏らす）vs. deceive（騙す）vs. cheat（不正行為をする）。betrayは信頼関係が前提にあるのが特徴。",
+      "collocations": [
+        "betray a friend",
+        "betray a secret",
+        "betray one's emotions"
+      ],
+      "trivia": "聖書のユダがイエスを裏切った行為も英語では「betray」が使われる。「Judas」が「裏切り者」の代名詞になったのはここから！"
+    },
+    "frequency": 3400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1629,
+    "word": "leak",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "漏れる、漏らす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（情報を）漏洩する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/liːk/",
+    "syllables": "leak",
+    "audioHint": "リーク",
+    "examples": [
+      {
+        "en": "Water leaked through the crack in the pipe.",
+        "ja": "パイプの亀裂から水が漏れた。",
+        "blank": "Water ___ through the crack in the pipe.",
+        "blankAnswer": "leaked"
+      }
+    ],
+    "distractors": [
+      "編む",
+      "しがみつく",
+      "すりつぶす"
+    ],
+    "confusableSpellings": [
+      "leek",
+      "liek",
+      "leack"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 leka（滴る・漏れる）が語源。北欧の船乗り文化から英語に入ってきた語。",
+      "tips": "名詞でも使われ「a leak（漏れ・リーク）」はよく使う。「leek（ネギ）」と発音は同じだが綴りが違うので要注意！",
+      "confusables": "leak（液体・気体・情報がじわじわ漏れる）vs. spill（液体がこぼれる・一気に）vs. drip（したたり落ちる）。leakは隙間からの継続的な漏れ。",
+      "collocations": [
+        "leak information",
+        "gas leak",
+        "spring a leak（穴が開いて漏れ始める）"
+      ],
+      "trivia": "政治の世界では「leak（リーク）」が当たり前のように使われる。内部告発者を「leaker」と呼ぶが、野菜の「leek（ネギ）」との発音の一致はただの偶然！"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1630,
+    "word": "smash",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "粉砕する、激しく打ち砕く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "大成功を収める（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/smæʃ/",
+    "syllables": "smash",
+    "audioHint": "スマッシュ",
+    "examples": [
+      {
+        "en": "He smashed the window with a hammer.",
+        "ja": "彼はハンマーで窓を打ち砕いた。",
+        "blank": "He ___ the window with a hammer.",
+        "blankAnswer": "smashed"
+      }
+    ],
+    "distractors": [
+      "漏れる",
+      "編む",
+      "しがみつく"
+    ],
+    "confusableSpellings": [
+      "smach",
+      "smassh",
+      "smesh"
+    ],
+    "passive": {
+      "etymology": "スウェーデン語 smälla（打つ）や擬音語的な起源が混在。「sm-」は打撃・衝突を表す語に多く見られる（smack, smiteなど）。",
+      "tips": "スポーツ（テニス・バドミントン）の「スマッシュ」はそのまま英語から来ている。「大ヒット作」を「a smash hit」と言うのも覚えておくと使える！",
+      "confusables": "smash（激しく砕く・叩き壊す）vs. crush（圧力で潰す）vs. grind（すりつぶす）vs. break（壊れる・割れる）。smashは最も激しい衝撃のイメージ。",
+      "collocations": [
+        "smash a record（記録を塗り替える）",
+        "smash hit",
+        "smash into ~（〜に激突する）"
+      ],
+      "trivia": "「Smash Bros.（大乱闘スマッシュブラザーズ）」のタイトルはまさにこの語。キャラを吹っ飛ばすゲーム性を一言で表した絶妙なネーミング！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1631,
+    "word": "bounce",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "弾む、跳ね返る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（小切手が）不渡りになる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/baʊns/",
+    "syllables": "bounce",
+    "audioHint": "バウンス",
+    "examples": [
+      {
+        "en": "The ball bounced off the wall and rolled away.",
+        "ja": "ボールは壁に当たって跳ね返り、転がっていった。",
+        "blank": "The ball ___ off the wall and rolled away.",
+        "blankAnswer": "bounced"
+      }
+    ],
+    "distractors": [
+      "よろめく、ふらつく",
+      "ぶつかる、衝突する",
+      "這う、ゆっくり動く"
+    ],
+    "confusableSpellings": [
+      "bouce",
+      "bownce"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'boncer'（打つ）に由来。語根はゲルマン系で「叩く・弾く」という意味を持つ。",
+      "tips": "bounce は自動詞・他動詞どちらにも使えます。「bounce a ball」（ボールをドリブルする）のように他動詞でも頻出。日本人は「バウンド」と言いますが英語では 'bounce' です。",
+      "confusables": "'rebound' も跳ね返りを意味しますが、bounce は一般的な弾みを指し、rebound はバスケットや比喩的な回復に多く使います。",
+      "collocations": [
+        "bounce back（立ち直る）",
+        "bounce a ball（ボールを弾ませる）",
+        "bounce off（〜から跳ね返る）"
+      ],
+      "trivia": "メールが届かずに送り返されることを 'bounce' と言います。「メールがバウンスした」は IT 業界の日常語！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1632,
+    "word": "sprawl",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "手足を伸ばして寝そべる、だらしなく広がる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（都市などが）無秩序に広がる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sprɔːl/",
+    "syllables": "sprawl",
+    "audioHint": "スプロール",
+    "examples": [
+      {
+        "en": "He sprawled on the sofa after a long day at work.",
+        "ja": "彼は長い一日の仕事の後、ソファに大の字で寝そべった。",
+        "blank": "He ___ on the sofa after a long day at work.",
+        "blankAnswer": "sprawled"
+      }
+    ],
+    "distractors": [
+      "縮こまる、身をすくめる",
+      "よろめいて倒れる",
+      "ぴんと背筋を伸ばす"
+    ],
+    "confusableSpellings": [
+      "sprawel",
+      "sprowl"
+    ],
+    "passive": {
+      "etymology": "古英語 'spreawlian'（手足をばたばたさせる）が語源。sp- という子音クラスターが「広がり・放射」を感じさせる。",
+      "tips": "sprawl は「だらしなく広がる」イメージが核心。'urban sprawl'（都市のスプロール現象）は地理・社会の文脈でよく出ます。日本人が書くとき 'sprawel' と e を余計に入れがちなので注意。",
+      "confusables": "'stretch' も伸びるですが、stretch は意図的・積極的な動作。sprawl はだらしなく無秩序に広がるニュアンスです。",
+      "collocations": [
+        "urban sprawl（都市の無秩序な拡大）",
+        "sprawl on the floor（床に大の字になる）",
+        "sprawl out（手足を伸ばす）"
+      ],
+      "trivia": "「スプロール現象」は日本語でもそのまま使われる都市工学用語。ロサンゼルスは世界的な urban sprawl の代名詞として教科書に登場します！"
+    },
+    "frequency": 7500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1633,
+    "word": "converse",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "会話する、話し合う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "逆、反対（名詞・形容詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈvɜːrs/",
+    "syllables": "con-verse",
+    "audioHint": "コンヴァース",
+    "examples": [
+      {
+        "en": "They conversed quietly in the corner of the room.",
+        "ja": "彼らは部屋の隅で静かに会話した。",
+        "blank": "They ___ quietly in the corner of the room.",
+        "blankAnswer": "conversed"
+      }
+    ],
+    "distractors": [
+      "説得する、言い聞かせる",
+      "批判する、非難する",
+      "宣言する、布告する"
+    ],
+    "confusableSpellings": [
+      "converce",
+      "conversse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conversari'（共に過ごす）が語源。'con-'（共に）＋ 'versare'（向きを変える・交わる）の合成。",
+      "tips": "動詞の converse は 'with' を伴い「converse with someone」の形で使います。名詞・形容詞の 'converse'（逆）とアクセント位置が変わる点に注意（動詞：コン**ヴァース**、名詞：**コン**ヴァース）。",
+      "confusables": "'converse' vs 'converse（スニーカーブランド）'：同じ綴りでもブランド名は固有名詞。また 'converse' と 'confer' はどちらも話し合うですが、confer はより公式な協議を指します。",
+      "collocations": [
+        "converse with（〜と会話する）",
+        "converse fluently（流暢に話す）",
+        "converse on a topic（テーマについて話す）"
+      ],
+      "trivia": "スニーカーの「コンバース」と同じ綴り！ブランド名は創業者 Marquis Mills Converse の苗字から。「話す」という単語を履いて歩いている気分になれます。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1634,
+    "word": "recite",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "暗唱する、朗読する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "列挙する、詳しく述べる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈsaɪt/",
+    "syllables": "re-cite",
+    "audioHint": "リサイト",
+    "examples": [
+      {
+        "en": "She recited the poem perfectly in front of the class.",
+        "ja": "彼女はクラスの前で詩を完璧に暗唱した。",
+        "blank": "She ___ the poem perfectly in front of the class.",
+        "blankAnswer": "recited"
+      }
+    ],
+    "distractors": [
+      "要約する、まとめる",
+      "翻訳する、訳す",
+      "反論する、言い返す"
+    ],
+    "confusableSpellings": [
+      "recight",
+      "reciet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'recitare' が語源。're-'（再び）＋ 'citare'（呼ぶ・動かす）。「再び声に出して呼び起こす」イメージ。",
+      "tips": "recite は「暗記した内容を口頭で再現する」ことを指します。「本を読む」は read、「声に出して読む」は read aloud ですが、recite は必ず「暗記」のニュアンスが含まれます。",
+      "confusables": "'recite' vs 'read aloud'：recite は暗記して言う、read aloud はテキストを見ながら音読するという違いがあります。日本語で「朗読」と訳すと read aloud と混同しやすいので注意。",
+      "collocations": [
+        "recite a poem（詩を暗唱する）",
+        "recite the alphabet（アルファベットを唱える）",
+        "recite from memory（暗記して言う）"
+      ],
+      "trivia": "アメリカの学校では毎朝「忠誠の誓い（Pledge of Allegiance）」を recite するのが習慣。まさに recite と pledge が共演する場面です！"
+    },
+    "frequency": 6200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1635,
+    "word": "disregard",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "無視する、軽視する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "無視、軽視（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌdɪsrɪˈɡɑːrd/",
+    "syllables": "dis-re-gard",
+    "audioHint": "ディスリガード",
+    "examples": [
+      {
+        "en": "He completely disregarded the doctor's advice.",
+        "ja": "彼は医師のアドバイスを完全に無視した。",
+        "blank": "He completely ___ the doctor's advice.",
+        "blankAnswer": "disregarded"
+      }
+    ],
+    "distractors": [
+      "誤解する、取り違える",
+      "過大評価する、買いかぶる",
+      "強調する、力説する"
+    ],
+    "confusableSpellings": [
+      "disreguard",
+      "disregarde"
+    ],
+    "passive": {
+      "etymology": "'dis-'（否定・反対）＋ 'regard'（注意を向ける・考慮する）。regard はフランス語 'regarder'（見る）に由来。「見ないようにする」が原義。",
+      "tips": "disregard は ignore より少しフォーマルな語。法律・ビジネス文書でよく使われます。「disregard for safety（安全を無視した態度）」のように名詞としても頻出。",
+      "confusables": "'ignore' vs 'disregard'：ignore はより日常的で感情的なニュアンス（わざと無視）、disregard はより意図的・組織的に考慮しないという意味合いが強い。",
+      "collocations": [
+        "disregard the rules（規則を無視する）",
+        "total disregard for（〜への完全な無視）",
+        "disregard safety（安全を軽視する）"
+      ],
+      "trivia": "法廷ドラマで弁護士が不利な証拠を持ち出すと判事が「The jury will disregard that statement.（陪審員はその発言を無視しなさい）」と言います。でも一度聞いた言葉を忘れるのは難しい…という心理学的ジレンマも有名！"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1636,
+    "word": "frown",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "眉をひそめる、しかめ面をする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "しかめ面、不満の表情（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fraʊn/",
+    "syllables": "frown",
+    "audioHint": "フラウン",
+    "examples": [
+      {
+        "en": "She frowned when she heard the unexpected news.",
+        "ja": "彼女は予期せぬニュースを聞いて眉をひそめた。",
+        "blank": "She ___ when she heard the unexpected news.",
+        "blankAnswer": "frowned"
+      }
+    ],
+    "distractors": [
+      "うなずく、同意を示す",
+      "目を細める、にらむ",
+      "肩をすくめる"
+    ],
+    "confusableSpellings": [
+      "frowne",
+      "froun"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'froignier'（眉をひそめる）に由来。語源的に「顔をゆがめる」という身体動作を直接表す擬態的な語。",
+      "tips": "frown の反対は smile（微笑む）。'frown on/upon'（〜をよく思わない、〜に反対する）という熟語はビジネスや社会評論でよく出ます。日本人は顔の表現動詞を英語で言う練習が少ないので要注意。",
+      "confusables": "'frown' vs 'scowl'：frown は一般的な不満・困惑の表情、scowl はより怒りや敵意のある険しい顔つきを指します。",
+      "collocations": [
+        "frown on/upon（〜を不快に思う）",
+        "frown in concentration（集中して眉をひそめる）",
+        "deep frown（深いしかめ面）"
+      ],
+      "trivia": "「笑顔は17の筋肉を使い、しかめ面は43の筋肉を使う」という話を聞いたことがある人も多いはず。実は科学的根拠は曖昧ですが、frown するたびに思い出してしまいます！"
+    },
+    "frequency": 4800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1637,
+    "word": "evoke",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（感情・記憶などを）呼び起こす、想起させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（反応などを）引き出す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈvoʊk/",
+    "syllables": "e-voke",
+    "audioHint": "イヴォーク",
+    "examples": [
+      {
+        "en": "The old song evoked memories of her childhood.",
+        "ja": "その古い歌は彼女の幼少期の記憶を呼び起こした。",
+        "blank": "The old song ___ memories of her childhood.",
+        "blankAnswer": "evoked"
+      }
+    ],
+    "distractors": [
+      "打ち消す、否定する",
+      "記録する、書き留める",
+      "伝達する、連絡する"
+    ],
+    "confusableSpellings": [
+      "evoak",
+      "ivoce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'evocare' が語源。'e-'（外へ）＋ 'vocare'（呼ぶ）。「内側にあるものを外へ呼び出す」という詩的なイメージ。",
+      "tips": "evoke は「感情・記憶・イメージ」を目的語に取ることが多い。'evoke a response' や 'evoke nostalgia' のように使います。日本人は「想起させる」を remind と訳しがちですが、evoke はより文学的・詩的なニュアンスがあります。",
+      "confusables": "'evoke' vs 'invoke'：evoke は感情や記憶を自然に呼び起こす、invoke は法律・権限・神などを意図的に呼び出す・援用する場面で使います。",
+      "collocations": [
+        "evoke memories（記憶を呼び起こす）",
+        "evoke emotions（感情を引き出す）",
+        "evoke nostalgia（郷愁を誘う）"
+      ],
+      "trivia": "マルセル・プルーストの「失われた時を求めて」は、マドレーヌ菓子の香りが記憶を evoke する場面で始まります。この現象は「プルースト効果」と呼ばれ、嗅覚が記憶を最も強く evoke することが科学的に証明されています！"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1638,
+    "word": "pledge",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "誓う、約束する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "誓約、公約（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/plɛdʒ/",
+    "syllables": "pledge",
+    "audioHint": "プレッジ",
+    "examples": [
+      {
+        "en": "The new president pledged to reduce carbon emissions.",
+        "ja": "新大統領は炭素排出量を削減すると誓約した。",
+        "blank": "The new president ___ to reduce carbon emissions.",
+        "blankAnswer": "pledged"
+      }
+    ],
+    "distractors": [
+      "交渉する、協議する",
+      "拒否する、断る",
+      "訴える、申し立てる"
+    ],
+    "confusableSpellings": [
+      "plegde",
+      "plege"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'plege'（担保・保証人）が語源。中世では約束の証として物品を預ける慣習があり、そこから「誓う」という意味に発展した。",
+      "tips": "'pledge to do' または 'pledge that ...' の形で使います。'promise' より公式・厳粛なニュアンスがあり、政治・外交・慈善の文脈で頻出。日本人は pledge の -dge の発音（/dʒ/）を「ジ」と発音することをためらいがちです。",
+      "confusables": "'pledge' vs 'vow' vs 'promise'：promise は日常的な約束、pledge は公の場での誓約、vow は結婚や宗教など最も厳粛な誓いを指します。",
+      "collocations": [
+        "pledge allegiance（忠誠を誓う）",
+        "make a pledge（誓約する）",
+        "pledge support（支援を約束する）"
+      ],
+      "trivia": "アメリカの子どもたちは毎朝学校で「Pledge of Allegiance（忠誠の誓い）」を唱えます。1954年に「under God」という文句が追加されたことは今も議論の的！"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1639,
+    "word": "aspire",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "熱望する、〜を目指す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "志す、大望を抱く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈspaɪər/",
+    "syllables": "as-pire",
+    "audioHint": "アスパイア",
+    "examples": [
+      {
+        "en": "She aspires to become a professional musician someday.",
+        "ja": "彼女はいつかプロの音楽家になることを目指している。",
+        "blank": "She ___ to become a professional musician someday.",
+        "blankAnswer": "aspires"
+      }
+    ],
+    "distractors": [
+      "諦める、断念する",
+      "満足する、甘んじる",
+      "依存する、頼り切る"
+    ],
+    "confusableSpellings": [
+      "aspier",
+      "asspire"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'aspirare' が語源。'ad-'（〜へ向かって）＋ 'spirare'（息をする・吹く）。「高みに向かって息を吹き上げる」という詩的な語源。",
+      "tips": "'aspire to do' または 'aspire to + 名詞' の形が基本。'aspire for' は誤りとされることがあるので注意。また aspire は「高い目標」に使うのが自然で、「明日早起きしたい」レベルの話には使いません。",
+      "confusables": "'aspire' vs 'desire' vs 'wish'：aspire は努力を伴う高い志、desire はより感情的な強い欲求、wish は実現可能性が低い願望に使われる傾向があります。",
+      "collocations": [
+        "aspire to greatness（偉大さを目指す）",
+        "aspire to be（〜になることを目指す）",
+        "aspiring artist（志望のアーティスト）"
+      ],
+      "trivia": "語根 'spirare'（息をする）は inspire（インスピレーション）、perspire（発汗する）、expire（期限が切れる・息を引き取る）とも共通！「呼吸」が夢や感情の源というロマンチックな語源観です。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1640,
+    "word": "contemplate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "熟考する、じっくり考える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を検討する、考慮する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒntəmpleɪt/",
+    "syllables": "con-tem-plate",
+    "audioHint": "コンテンプレイト",
+    "examples": [
+      {
+        "en": "He sat quietly, contemplating his next career move.",
+        "ja": "彼は静かに座って、次のキャリアについて熟考した。",
+        "blank": "He sat quietly, ___ his next career move.",
+        "blankAnswer": "contemplating"
+      }
+    ],
+    "distractors": [
+      "衝動的に行動する",
+      "見落とす、気づかない",
+      "発表する、公表する"
+    ],
+    "confusableSpellings": [
+      "contemplait",
+      "contemplate（アクセント誤り）",
+      "contimplate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contemplari' が語源。'con-'（共に・強調）＋ 'templum'（神殿・区画された観察場所）。占い師が鳥の飛び方を観察するための「神聖な空間」を意味したことから、「深く観察・考察する」へ発展。",
+      "tips": "'contemplate' は 'think about' より格調ある表現。'contemplate doing'（〜することを検討する）という形も重要。日本人はアクセントを「コン**テム**プレイト」と置きがちですが、正しくは「**コン**テンプレイト」です。",
+      "confusables": "'contemplate' vs 'deliberate' vs 'ponder'：contemplate は静かに深く思索するイメージ、deliberate は意思決定のための慎重な検討、ponder はどうすべきか悩みながら考えるニュアンスです。",
+      "collocations": [
+        "contemplate the future（将来を熟考する）",
+        "contemplate doing（〜することを検討する）",
+        "contemplate in silence（黙考する）"
+      ],
+      "trivia": "語源の 'templum' は英語の 'temple'（神殿・こめかみ）と同じ語根！古代ローマの占い師が神殿の区画で空を見上げて思索したイメージが、現代の「熟考する」という意味につながっています。"
+    },
+    "frequency": 4100,
+    "cefr": "C1"
+  }
+]

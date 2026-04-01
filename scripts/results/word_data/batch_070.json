@@ -1,0 +1,990 @@
+[
+  {
+    "id": 1381,
+    "word": "infinite",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "無限の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "果てしない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɪnfɪnɪt/",
+    "syllables": "in-fi-nite",
+    "audioHint": "インフィニット",
+    "examples": [
+      {
+        "en": "The universe contains an infinite number of stars.",
+        "ja": "宇宙には無限の数の星が存在する。",
+        "blank": "The universe contains an ___ number of stars.",
+        "blankAnswer": "infinite"
+      }
+    ],
+    "distractors": [
+      "確実な",
+      "必須の",
+      "曖昧な"
+    ],
+    "confusableSpellings": [
+      "infinate",
+      "infinit",
+      "infinitte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'infinitus' から。in-（否定の接頭辞）+ finis（終わり・境界）+ -ite（形容詞語尾）。「終わりがない」が原義。",
+      "tips": "infinity（名詞）と混同しないよう注意。infinite は形容詞、infinity は名詞。「infinite patience（無限の忍耐）」のように名詞を修飾して使う。",
+      "confusables": "endless は「続きが見えない・長い」という感覚的な表現、infinite は「数学的・論理的に終わりがない」という厳密な意味合いが強い。",
+      "collocations": [
+        "infinite patience",
+        "infinite possibilities",
+        "infinite loop"
+      ],
+      "trivia": "数学では「∞」記号（lemniscate）が使われるが、これを考案したジョン・ウォリスが1655年に導入。横向きの8の字は「終わりなき周回」を表しているとも言われる。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1382,
+    "word": "worthwhile",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "価値のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "やりがいのある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌwɜːrθˈwaɪl/",
+    "syllables": "worth-while",
+    "audioHint": "ワースワイル",
+    "examples": [
+      {
+        "en": "Learning a new language is always worthwhile.",
+        "ja": "新しい言語を学ぶことは常に価値がある。",
+        "blank": "Learning a new language is always ___.",
+        "blankAnswer": "worthwhile"
+      }
+    ],
+    "distractors": [
+      "不可欠な",
+      "義務的な",
+      "脆い"
+    ],
+    "confusableSpellings": [
+      "worthwile",
+      "worthwhlie",
+      "worthwhill"
+    ],
+    "passive": {
+      "etymology": "worth（価値）+ while（時間・間）の合成語。「その時間を費やすだけの価値がある」が原義。",
+      "tips": "worth と worthwhile の使い分けに注意。'It is worth doing' と 'It is worthwhile to do / doing' はどちらも正しいが、worth の後に不定詞は不可。",
+      "confusables": "valuable は物や情報の客観的な価値、worthwhile は「時間や労力を割く価値がある」という行為への評価に使うことが多い。",
+      "collocations": [
+        "worthwhile experience",
+        "make it worthwhile",
+        "prove worthwhile"
+      ],
+      "trivia": "while はもともと「時間の長さ」を意味する古英語 hwīl から来ており、「a while（しばらく）」と同根。つまり worthwhile は「そのしばらくの時間に値する」という詩的な造語だ。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1383,
+    "word": "indispensable",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "不可欠な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "欠かせない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌɪndɪˈspensəbl/",
+    "syllables": "in-dis-pen-sa-ble",
+    "audioHint": "インディスペンサブル",
+    "examples": [
+      {
+        "en": "A good dictionary is indispensable for language learners.",
+        "ja": "良い辞書は語学学習者にとって不可欠だ。",
+        "blank": "A good dictionary is ___ for language learners.",
+        "blankAnswer": "indispensable"
+      }
+    ],
+    "distractors": [
+      "価値のある",
+      "おそらくそうである",
+      "義務的な"
+    ],
+    "confusableSpellings": [
+      "indispensible",
+      "indispensabel",
+      "indispenseable"
+    ],
+    "passive": {
+      "etymology": "in-（否定）+ dis-（否定・分離）+ pens（ラテン語 pendere「支払う・量る」）+ -able（形容詞語尾）。「なしで済ませることができない」が原義。",
+      "tips": "語尾は -ible ではなく -able。「indispensIBLE」と書くミスが非常に多い。dispense with（～なしで済ます）という動詞表現とセットで覚えると語源が理解しやすい。",
+      "confusables": "essential は「本質的に必要」、indispensable は「それなしには機能しない・欠くことができない」というより強い必要性を示す。",
+      "collocations": [
+        "indispensable role",
+        "indispensable tool",
+        "prove indispensable"
+      ],
+      "trivia": "dispense はもともと「薬を調合・分配する」という意味もあり、pharmacy（薬局）の語源 pharma と意味的に近い文脈で使われることも。薬剤師も「欠かせない存在」という語感はここから来ているかもしれない。"
+    },
+    "frequency": 5500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1384,
+    "word": "compulsory",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "義務的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "強制的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kəmˈpʌlsəri/",
+    "syllables": "com-pul-so-ry",
+    "audioHint": "コンパルソリー",
+    "examples": [
+      {
+        "en": "Education is compulsory for children up to age 15.",
+        "ja": "教育は15歳までの子どもに義務付けられている。",
+        "blank": "Education is ___ for children up to age 15.",
+        "blankAnswer": "compulsory"
+      }
+    ],
+    "distractors": [
+      "無限の",
+      "果てしない",
+      "価値のある"
+    ],
+    "confusableSpellings": [
+      "compulsary",
+      "compulsery",
+      "compulssory"
+    ],
+    "passive": {
+      "etymology": "ラテン語 compellere（強いる）から。com-（共に・強調）+ pellere（押す・駆り立てる）+ -ory（形容詞語尾）。「力で押し進める」が原義。",
+      "tips": "mandatory（法律・規則による強制）と混同されやすい。compulsory は特に教育・スポーツ・法律の文脈で使われる。日本語の「義務教育」は compulsory education が定訳。",
+      "confusables": "mandatory は「命令・条例で定められた」という法的ニュアンスが強く、compulsory は「強制・義務」という実質的な状態を指すことが多い。",
+      "collocations": [
+        "compulsory education",
+        "compulsory subject",
+        "compulsory military service"
+      ],
+      "trivia": "フィギュアスケートにはかつて「コンパルソリーフィギュア（規定演技）」という種目があり、氷上に特定の図形を描く競技だった。1990年に廃止されたが、これが「figure skating」の名前の由来だという説がある。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1385,
+    "word": "probable",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "ありそうな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "おそらく本当の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈprɒbəbl/",
+    "syllables": "prob-a-ble",
+    "audioHint": "プロバブル",
+    "examples": [
+      {
+        "en": "Rain is probable this afternoon, so bring an umbrella.",
+        "ja": "今日の午後は雨の可能性が高いので、傘を持ってきて。",
+        "blank": "Rain is ___ this afternoon, so bring an umbrella.",
+        "blankAnswer": "probable"
+      }
+    ],
+    "distractors": [
+      "義務的な",
+      "不可欠な",
+      "静的な"
+    ],
+    "confusableSpellings": [
+      "probible",
+      "probeable",
+      "probabble"
+    ],
+    "passive": {
+      "etymology": "ラテン語 probabilis から。probare（証明する・試す）+ -able。「証明できそうな・試して確かめられそうな」が原義。probe（調査する）も同語根。",
+      "tips": "probable は形容詞、probably は副詞。It is probable that...（～である可能性が高い）という構文と、She will probably come.（副詞）を混同しないように。",
+      "confusables": "possible は「可能性がゼロではない（maybe 10〜90%）」、probable は「可能性が高い（roughly 70%以上）」というニュアンス。likely も probable とほぼ同義だがよりカジュアル。",
+      "collocations": [
+        "probable cause",
+        "probable outcome",
+        "most probable"
+      ],
+      "trivia": "法律英語で「probable cause（相当な理由）」は逮捕令状を取るために必要な証拠の基準。アメリカの刑事ドラマでよく聞くフレーズで、この単語を知っていると海外ドラマがより深く楽しめる。"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1386,
+    "word": "ambiguous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "曖昧な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "多義的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/æmˈbɪɡjuəs/",
+    "syllables": "am-big-u-ous",
+    "audioHint": "アンビギュアス",
+    "examples": [
+      {
+        "en": "His answer was ambiguous and left us confused.",
+        "ja": "彼の答えは曖昧で、私たちを困惑させた。",
+        "blank": "His answer was ___ and left us confused.",
+        "blankAnswer": "ambiguous"
+      }
+    ],
+    "distractors": [
+      "脆い",
+      "壊れやすい",
+      "懐疑的な"
+    ],
+    "confusableSpellings": [
+      "ambigious",
+      "ambiguous",
+      "ambigueous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ambiguus から。ambi-（両方・周囲）+ agere（動く・行動する）。「両方向に動く」＝どちらとも取れる、が原義。ambidextrous（両利き）も同じ ambi-。",
+      "tips": "vague は「ぼんやりしていてはっきりしない」、ambiguous は「2通り以上に解釈できる」という意味。意図的に曖昧にしている場合は ambiguous が適切。",
+      "confusables": "vague は情報や表現が不足しているイメージ、ambiguous は複数の解釈が生まれてしまう構造的な曖昧さを指す。",
+      "collocations": [
+        "ambiguous statement",
+        "morally ambiguous",
+        "deliberately ambiguous"
+      ],
+      "trivia": "映画や文学で「道徳的に曖昧なキャラクター（morally ambiguous character）」は人気が高く、ダース・ベイダーやハンニバル・レクターがその典型例。善悪の境界線がないからこそ、人は惹かれてしまう。"
+    },
+    "frequency": 4300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1387,
+    "word": "obscure",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "不明瞭な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無名の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əbˈskjʊər/",
+    "syllables": "ob-scure",
+    "audioHint": "オブスキュア",
+    "examples": [
+      {
+        "en": "The film was loved by fans of obscure horror movies.",
+        "ja": "その映画はマイナーホラー映画のファンに愛された。",
+        "blank": "The film was loved by fans of ___ horror movies.",
+        "blankAnswer": "obscure"
+      }
+    ],
+    "distractors": [
+      "無限の",
+      "強制的な",
+      "価値のある"
+    ],
+    "confusableSpellings": [
+      "obscur",
+      "obskure",
+      "obsceure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 obscurus から。ob-（覆う）+ -scurus（暗い・覆われた、scutum「盾」と同語根という説も）。「暗闇で覆われている」が原義。",
+      "tips": "形容詞だけでなく動詞としても使える（to obscure＝隠す・不明瞭にする）。「The clouds obscured the sun.（雲が太陽を隠した）」のように動詞でも覚えておくと便利。",
+      "confusables": "vague は意味が薄くぼやけている感じ、obscure は「知られていない・見えにくい・難解で分かりにくい」という意味合いで、物理的・比喩的どちらにも使える。",
+      "collocations": [
+        "obscure reference",
+        "obscure band",
+        "obscure the truth"
+      ],
+      "trivia": "「obscure」はインターネットカルチャーで「マイナーだけどめちゃくちゃ好き」という意味で使われる。「That's so obscure」と言うと「そんなマイナーなもの知ってるの？」というニュアンスになる。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1388,
+    "word": "skeptical",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "懐疑的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "疑い深い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈskeptɪkl/",
+    "syllables": "skep-ti-cal",
+    "audioHint": "スケプティカル",
+    "examples": [
+      {
+        "en": "She was skeptical about the new treatment's effectiveness.",
+        "ja": "彼女はその新しい治療法の効果に懐疑的だった。",
+        "blank": "She was ___ about the new treatment's effectiveness.",
+        "blankAnswer": "skeptical"
+      }
+    ],
+    "distractors": [
+      "脆い",
+      "曖昧な",
+      "不明瞭な"
+    ],
+    "confusableSpellings": [
+      "sceptical",
+      "skepticle",
+      "skeptikal"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 skeptikos（考察する・観察する）から。skeptesthai（注意深く見る）が語根。古代ギリシャのスケプシス派（独断的知識を疑う哲学者たち）に由来。",
+      "tips": "イギリス英語では sceptical とつづる。どちらも正しいが、アメリカ英語では skeptical が一般的。skeptical of と skeptical about はほぼ同義で使える。",
+      "confusables": "doubtful は「疑わしい・自信がない」という個人的な不確かさ、skeptical は「根拠や証拠を吟味した上で懐疑的」というより知的・批判的な態度を示す。",
+      "collocations": [
+        "remain skeptical",
+        "skeptical about claims",
+        "healthy skepticism"
+      ],
+      "trivia": "古代ギリシャのピュロン（Pyrrho）は「何も確かなことはない」という立場を徹底し、馬車が突進してきても避けなかったと伝わる。弟子たちが命がけで守っていたとか。懐疑主義を極めるとそうなる。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1389,
+    "word": "fragile",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "壊れやすい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "もろい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfrædʒaɪl/",
+    "syllables": "frag-ile",
+    "audioHint": "フラジャイル",
+    "examples": [
+      {
+        "en": "Please handle the package carefully—it's fragile.",
+        "ja": "荷物は丁寧に扱ってください。壊れやすいので。",
+        "blank": "Please handle the package carefully—it's ___.",
+        "blankAnswer": "fragile"
+      }
+    ],
+    "distractors": [
+      "懐疑的な",
+      "義務的な",
+      "曖昧な"
+    ],
+    "confusableSpellings": [
+      "fragil",
+      "fragle",
+      "fragjile"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fragilis から。frangere（壊す・折る）+ -ilis（形容詞語尾）。fragment（破片）や fracture（骨折）も同じ語根 frang-。",
+      "tips": "発音に注意。/ˈfrædʒaɪl/ で「フラジャイル」。アメリカ英語では語末が /l/ だが、映画などで聞こえる「フラジャイール」はイギリス式。日本語でもカタカナ語として定着しつつある。",
+      "confusables": "delicate は「繊細・精密で扱いに注意が必要」、fragile は「物理的に壊れやすい・ガラスのような」イメージ。感情や関係性が「壊れやすい」場合も fragile が使える。",
+      "collocations": [
+        "fragile ecosystem",
+        "fragile state",
+        "handle with fragile care"
+      ],
+      "trivia": "映画『クリスマス・ストーリー（A Christmas Story）』で父親が大切にしていたランプの箱に「FRAGILE」と書いてあり、「これはフラジーレ（Fragile）というイタリア語だ！」と誤解して喜ぶシーンが有名。「壊れ物注意」のラベルが生み出した笑いの名場面。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1390,
+    "word": "static",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "静的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "変化しない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈstætɪk/",
+    "syllables": "stat-ic",
+    "audioHint": "スタティック",
+    "examples": [
+      {
+        "en": "The market has remained static for several months.",
+        "ja": "市場は数ヶ月間、変化がないままだ。",
+        "blank": "The market has remained ___ for several months.",
+        "blankAnswer": "static"
+      }
+    ],
+    "distractors": [
+      "壊れやすい",
+      "無限の",
+      "ありそうな"
+    ],
+    "confusableSpellings": [
+      "statick",
+      "stattc",
+      "statik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 statikos（立つ・静止させる力を持つ）から。histanai（立たせる）が語根。station（駅）、statue（像）、status（状態）も同語根で「立って動かないもの」が共通イメージ。",
+      "tips": "IT・プログラミング用語でも頻出（static variable, static website）。dynamic（動的な）との対比で覚えると記憶に定着しやすい。名詞としては「静電気・砂嵐（ノイズ）」の意味もある。",
+      "confusables": "stationary は「場所が動かない・停止している」、static は「変化・動きがない状態・性質」を指す。文法的にも stationary は形容詞のみ、static は形容詞・名詞どちらにも使える。",
+      "collocations": [
+        "static electricity",
+        "static analysis",
+        "remain static"
+      ],
+      "trivia": "テレビのアナログ放送終了後、映らなくなった画面に映る「砂嵐」の映像は英語で static と呼ぶ。この静電ノイズには宇宙誕生時のビッグバンの名残である「宇宙マイクロ波背景放射」がわずかに含まれているという説があり、あの砂嵐は宇宙の始まりの声かもしれない。"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1391,
+    "word": "gradual",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "徐々の、段階的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɡrædʒ.u.əl/",
+    "syllables": "grad-u-al",
+    "audioHint": "グラジュアル",
+    "examples": [
+      {
+        "en": "There has been a gradual improvement in her health.",
+        "ja": "彼女の健康状態は徐々に改善されてきた。",
+        "blank": "There has been a ___ improvement in her health.",
+        "blankAnswer": "gradual"
+      }
+    ],
+    "distractors": [
+      "均一な",
+      "永続的な",
+      "明白な"
+    ],
+    "confusableSpellings": [
+      "graduel",
+      "gradual",
+      "gradul"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'gradus'（歩み・段階）が語源。'grade'（成績・段階）や 'graduate'（卒業する）も同じ語根から派生している。",
+      "tips": "gradual は変化がゆっくり進むことを表す形容詞。名詞形は 'gradually' ではなく 'gradualness' だが、副詞 'gradually' の方が圧倒的によく使われる。日本語の「徐々に」は gradually と訳すのが自然。",
+      "confusables": "'sudden'（突然の）が反意語。'progressive' は政治・社会的な文脈で進歩的という意味も持つが、gradual は単純に「ゆっくりした変化」を指す。",
+      "collocations": [
+        "gradual change（徐々の変化）",
+        "gradual improvement（段階的な改善）",
+        "gradual decline（緩やかな低下）"
+      ],
+      "trivia": "「gradual」はもともとカトリックの典礼音楽の名前でもある。ミサの中で「段階的に」歌われる聖歌のことを Gradual と呼んでいた。日常語とまったく別の顔を持つ！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1392,
+    "word": "vocal",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "声の、声楽の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "声高に意見を述べる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvoʊ.kəl/",
+    "syllables": "vo-cal",
+    "audioHint": "ヴォーカル",
+    "examples": [
+      {
+        "en": "She was very vocal about her opinions on the issue.",
+        "ja": "彼女はその問題について自分の意見を声高に主張した。",
+        "blank": "She was very ___ about her opinions on the issue.",
+        "blankAnswer": "vocal"
+      }
+    ],
+    "distractors": [
+      "内気な",
+      "攻撃的な",
+      "感情的な"
+    ],
+    "confusableSpellings": [
+      "vocale",
+      "vokal",
+      "vocall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vox / vocis'（声）が語源。'vocabulary'（語彙）や 'vocation'（職業・使命）も同じ語根を持つ。",
+      "tips": "vocal には「声楽の」という音楽的意味と、「積極的に意見を述べる」という比喩的意味がある。日本語でも「ボーカル」は歌手を指すが、英語では形容詞としての使い方を間違えやすい。be vocal about ～ という表現は特に重要。",
+      "confusables": "'outspoken' も同様に「はっきり意見を述べる」を意味するが、outspoken は少しネガティブなニュアンス（率直すぎる）を持つことがある。vocal はより中立的。",
+      "collocations": [
+        "vocal critic（声高な批評家）",
+        "vocal cords（声帯）",
+        "vocal supporter（積極的な支持者）"
+      ],
+      "trivia": "「ボーカロイド（Vocaloid）」の「ボーカル」もこの語源から。「声（vocal）＋アンドロイド（-oid）」という造語で、日本発のソフトウェアが世界語になった例として面白い！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1393,
+    "word": "vivid",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "鮮やかな、生き生きとした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（記憶・描写が）鮮明な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɪv.ɪd/",
+    "syllables": "viv-id",
+    "audioHint": "ヴィヴィッド",
+    "examples": [
+      {
+        "en": "She still has vivid memories of her childhood home.",
+        "ja": "彼女は子供の頃の家の鮮明な記憶をまだ持っている。",
+        "blank": "She still has ___ memories of her childhood home.",
+        "blankAnswer": "vivid"
+      }
+    ],
+    "distractors": [
+      "粗雑な",
+      "注目すべき",
+      "深刻な"
+    ],
+    "confusableSpellings": [
+      "vivied",
+      "vived",
+      "vivide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vivere'（生きる）が語源。'vivid' は「生き生きとした」という意味合いを持ち、'survive'（生き残る）や 'vital'（活力のある）も同じ語根から来ている。",
+      "tips": "vivid は色・記憶・夢・描写などに使う。日本語でも「ビビッドカラー」として定着しているが、vivid memory（鮮明な記憶）のように抽象的な名詞にも使える点を覚えておこう。",
+      "confusables": "'bright' は明るい色に使えるが、記憶や描写には使いにくい。'clear' は明確さを指し、感情的な鮮やかさの含意が薄い。vivid は感覚的・感情的な強さを伴う。",
+      "collocations": [
+        "vivid imagination（豊かな想像力）",
+        "vivid description（生き生きとした描写）",
+        "vivid color（鮮やかな色）"
+      ],
+      "trivia": "「ビビッド」は日本語にも浸透しているが、実は英語の vivid は音的に「生命（viv-）が満ちている」という意味がそのまま残っている。生きている感じを出したい表現にぴったりの単語！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1394,
+    "word": "imperial",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "帝国の、皇帝の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "威厳のある、堂々とした",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪmˈpɪər.i.əl/",
+    "syllables": "im-pe-ri-al",
+    "audioHint": "インピアリアル",
+    "examples": [
+      {
+        "en": "The imperial palace is located in the center of Tokyo.",
+        "ja": "皇居は東京の中心部に位置している。",
+        "blank": "The ___ palace is located in the center of Tokyo.",
+        "blankAnswer": "imperial"
+      }
+    ],
+    "distractors": [
+      "固有の",
+      "表面的な",
+      "植民地的な"
+    ],
+    "confusableSpellings": [
+      "imperail",
+      "imperal",
+      "impirial"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'imperium'（支配・命令・帝国）が語源。'empire'（帝国）と同じ語根で、'emperor'（皇帝）も派生語。接頭辞 'im-' は 'in-' の変形で「中に・上に」という意味。",
+      "tips": "Imperial は固有名詞として使われることも多い（例：Imperial Hotel）。形容詞として使う際は「帝国に関連した」という意味が基本。imperialism（帝国主義）という名詞も頻出。",
+      "confusables": "'royal' は王族に関連し、特にイギリス王室など君主制を指す。'imperial' は皇帝・帝国に関連する点で異なる。日本では「imperial = 皇室関連」と覚えると混乱しにくい。",
+      "collocations": [
+        "imperial power（帝国の権力）",
+        "imperial palace（皇居・宮殿）",
+        "imperial rule（帝政）"
+      ],
+      "trivia": "「インペリアル」というホテルや商品名が世界各地にあるのは、帝国時代に「最高級」の同義語として使われたから。今でも高級感を演出する際にブランド名として使われる歴史ある単語！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1395,
+    "word": "hostile",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "敵対的な、敵意のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（環境が）過酷な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈhɒs.taɪl/",
+    "syllables": "hos-tile",
+    "audioHint": "ホスタイル",
+    "examples": [
+      {
+        "en": "The crowd became hostile when the announcement was made.",
+        "ja": "発表がなされると、群衆は敵意を示し始めた。",
+        "blank": "The crowd became ___ when the announcement was made.",
+        "blankAnswer": "hostile"
+      }
+    ],
+    "distractors": [
+      "声高な",
+      "内向的な",
+      "感傷的な"
+    ],
+    "confusableSpellings": [
+      "hostil",
+      "hostille",
+      "hositle"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'hostis'（敵・外国人）が語源。'host'（主人・宿主）も同じ語根から派生しており、古代では「見知らぬ人」が「敵」にも「客」にもなり得たという歴史的背景がある。",
+      "tips": "hostile to ～ / hostile toward ～ の形で「～に対して敵対的な」と使う。日本語で「ホスタイルな態度」とは言わないが、英語ではビジネス・外交・日常のどの場面でもよく使われる。",
+      "confusables": "'aggressive' は積極的に攻撃する行動を指すが、'hostile' は内面の敵意・態度に焦点を当てる。aggressive な態度は hostile な感情から来ることが多い。",
+      "collocations": [
+        "hostile environment（過酷な環境）",
+        "hostile takeover（敵対的買収）",
+        "hostile attitude（敵意ある態度）"
+      ],
+      "trivia": "ビジネス用語の「hostile takeover（敵対的買収）」はこの単語の代表的な使用例。映画やドラマでよく出てくるこのフレーズを知っておくと、経済ニュースがぐっと読みやすくなる！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1396,
+    "word": "superficial",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "表面的な、浅い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（人が）浅薄な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌsuː.pəˈfɪʃ.əl/",
+    "syllables": "su-per-fi-cial",
+    "audioHint": "スーパーフィシャル",
+    "examples": [
+      {
+        "en": "His understanding of the topic was quite superficial.",
+        "ja": "そのトピックに対する彼の理解は非常に表面的だった。",
+        "blank": "His understanding of the topic was quite ___.",
+        "blankAnswer": "superficial"
+      }
+    ],
+    "distractors": [
+      "段階的な",
+      "希少な",
+      "固有の"
+    ],
+    "confusableSpellings": [
+      "superficiel",
+      "superfisial",
+      "superficail"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'super'（上・表面）＋ 'facies'（顔・表面）が語源。'surface'（表面）とも語根が共通しており、文字通り「表面だけ」を意味する。",
+      "tips": "superficial は「表面的・浅い」という意味だが、人に対して使うと「浅薄な人」というかなり批判的なニュアンスになる。医学では「superficial wound（表面的な傷）」のように中立的に使う。",
+      "confusables": "'shallow' も「浅い」を意味するが、水・川・呼吸など物理的な深さに使われることが多い。superficial は知識・理解・人間性の浅さに使うのが自然。",
+      "collocations": [
+        "superficial knowledge（表面的な知識）",
+        "superficial wound（表在性の傷）",
+        "superficial similarity（表面的な類似点）"
+      ],
+      "trivia": "「スーパー（super）」は「上・超」という意味だが、superficial の「super」は「表面の上」という意味で使われている。普段「すごい」を意味する super が、この単語では「浅い」を意味するから面白い！"
+    },
+    "frequency": 3300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1397,
+    "word": "scarce",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "乏しい、不足している",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/skɛrs/",
+    "syllables": "scarce",
+    "audioHint": "スケアス",
+    "examples": [
+      {
+        "en": "Clean water is scarce in many parts of the world.",
+        "ja": "世界の多くの地域できれいな水が不足している。",
+        "blank": "Clean water is ___ in many parts of the world.",
+        "blankAnswer": "scarce"
+      }
+    ],
+    "distractors": [
+      "表面的な",
+      "段階的な",
+      "豊富な"
+    ],
+    "confusableSpellings": [
+      "scarse",
+      "scairce",
+      "scarc"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'escars'（乏しい・ケチな）が語源で、ラテン語 'excerpere'（選び取る・抜き出す）にも遡る。もともと「選んで取り出すほど少ない」というニュアンスがあった。",
+      "tips": "scarce は形容詞で「不足している」を意味し、副詞 'scarcely'（ほとんど～ない）もよく使われる。scarce と scarcely は意味が似ているようで全く別の使い方をするので注意。",
+      "confusables": "'rare' は「珍しい・稀な」で価値が含意されることが多い。'scarce' は純粋に「量が少なく手に入りにくい」という不足感を示す。レアアイテムは rare、食糧不足なら scarce が自然。",
+      "collocations": [
+        "scarce resources（希少資源）",
+        "make oneself scarce（こっそり立ち去る）",
+        "scarce supply（不足した供給）"
+      ],
+      "trivia": "make oneself scarce という慣用表現は「こっそりその場を立ち去る」という意味。「自分を希少にする＝いなくなる」という発想が面白い。映画の逃走シーンなどでよく使われる表現！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1398,
+    "word": "gross",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "総計の、全体の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ひどい、甚だしい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɡroʊs/",
+    "syllables": "gross",
+    "audioHint": "グロウス",
+    "examples": [
+      {
+        "en": "That was a gross violation of human rights.",
+        "ja": "それは人権の著しい侵害だった。",
+        "blank": "That was a ___ violation of human rights.",
+        "blankAnswer": "gross"
+      }
+    ],
+    "distractors": [
+      "鮮やかな",
+      "注目すべき",
+      "段階的な"
+    ],
+    "confusableSpellings": [
+      "gros",
+      "grosse",
+      "groos"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'gros'（太い・大きい）が語源で、ラテン語 'grossus'（太い）から来ている。「大きい＝総計の」「大きすぎる＝ひどい」という意味に展開した。",
+      "tips": "gross には複数の意味がある。ビジネスでは 'gross income'（総収入）のように「総～」の意味、日常では 'gross misconduct'（著しい不品行）のように「甚だしい」の意味、スラングでは「気持ち悪い」の意味にもなる。文脈で判断しよう。",
+      "confusables": "'net' は gross の反意語として使われ、'gross income'（総収入）に対し 'net income'（純収入・手取り）を表す。会計・ビジネス英語でこのセットは必須。",
+      "collocations": [
+        "gross domestic product（国内総生産・GDP）",
+        "gross income（総収入）",
+        "gross negligence（重大な過失）"
+      ],
+      "trivia": "gross は英語スラングで「気持ち悪い！」という意味にもなり、SNS世代の若者が頻繁に使う。法律文書に出てくる格式ある gross と、Z世代がうんざりして使う gross が同じ単語とは驚き！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1399,
+    "word": "inherent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "固有の、生来の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈhɪər.ənt/",
+    "syllables": "in-her-ent",
+    "audioHint": "インヒアレント",
+    "examples": [
+      {
+        "en": "There is an inherent risk in every financial investment.",
+        "ja": "あらゆる金融投資には固有のリスクがある。",
+        "blank": "There is an ___ risk in every financial investment.",
+        "blankAnswer": "inherent"
+      }
+    ],
+    "distractors": [
+      "帝国の",
+      "表面的な",
+      "段階的な"
+    ],
+    "confusableSpellings": [
+      "inherant",
+      "inhearent",
+      "inherrent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'inhaerere'（くっついている・固着している）が語源。'in-'（中に）＋ 'haerere'（くっつく）の組み合わせ。'adhere'（付着する）や 'coherent'（一貫した）も同じ語根を持つ。",
+      "tips": "inherent in ～ / inherent to ～ の形で「～に固有の」と使う。innate や intrinsic と似たニュアンスを持つが、inherent はより「本質に組み込まれている」という学術的・論理的な文脈で使われることが多い。",
+      "confusables": "'innate' は生まれつきの才能・性質に使うことが多い。'inherent' はより広く、システム・プロセス・物事の本質的な性質に使う。例：innate ability（生来の能力）vs. inherent flaw（固有の欠陥）。",
+      "collocations": [
+        "inherent risk（固有のリスク）",
+        "inherent value（本質的価値）",
+        "inherent right（固有の権利）"
+      ],
+      "trivia": "哲学や法律で頻出の単語で、「inherent rights（固有の権利）」という表現は人権宣言などにも使われる。日常ではあまり聞かないが、ニュースや学術論文で見かけたら「本質的に組み込まれた」と読めばOK！"
+    },
+    "frequency": 3500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1400,
+    "word": "notable",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "注目すべき、顕著な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "著名な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnoʊ.tə.bəl/",
+    "syllables": "no-ta-ble",
+    "audioHint": "ノウタブル",
+    "examples": [
+      {
+        "en": "There has been a notable increase in online shopping.",
+        "ja": "オンラインショッピングが顕著に増加している。",
+        "blank": "There has been a ___ increase in online shopping.",
+        "blankAnswer": "notable"
+      }
+    ],
+    "distractors": [
+      "鮮やかな",
+      "甚だしい",
+      "表面的な"
+    ],
+    "confusableSpellings": [
+      "noteable",
+      "notible",
+      "notable"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'nota'（印・記号・注記）＋ '-able'（できる）が語源。'note'（メモする・注目する）と同じ語根で、「記録に値する→注目すべき」という意味に発展した。",
+      "tips": "notable は「注目に値する・顕著な」という意味で、notable exception（顕著な例外）のようにやや硬い表現でよく使われる。notable person と言えば「著名人」。名詞として 'notables'（著名人たち）と使うこともある。",
+      "confusables": "'noticeable' は「目に見えてわかる・気づかれるほどの」を意味し、notable より日常的。'remarkable' は「非常に印象的な」でより強い賞賛の含意がある。notable はその中間くらいのニュアンス。",
+      "collocations": [
+        "notable exception（注目すべき例外）",
+        "notable achievement（顕著な業績）",
+        "notable figure（著名人）"
+      ],
+      "trivia": "「ノータブル」は日本語にはなっていないが、note（メモ）と同じ語源なので「メモに残す価値がある＝注目すべき」と覚えると忘れない。ノートに書き留めたくなるほど重要、という語源ストーリーが使える！"
+    },
+    "frequency": 2300,
+    "cefr": "B2"
+  }
+]

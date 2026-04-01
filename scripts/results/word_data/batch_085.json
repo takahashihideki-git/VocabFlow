@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1681,
+    "word": "masculine",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "男性的な、男らしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（文法で）男性形の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmæskjəlɪn/",
+    "syllables": "mas-cu-line",
+    "audioHint": "マスキュリン",
+    "examples": [
+      {
+        "en": "He has a deep, masculine voice that everyone notices.",
+        "ja": "彼は誰もが気づく深みのある男性的な声をしている。",
+        "blank": "He has a deep, ___ voice that everyone notices.",
+        "blankAnswer": "masculine"
+      }
+    ],
+    "distractors": [
+      "優しい、思いやりのある",
+      "感情的な、情緒的な",
+      "内向的な、引っ込み思案の"
+    ],
+    "confusableSpellings": [
+      "mascline",
+      "masculin",
+      "masculyne"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'masculus'（男性）から。'mas-'（男）＋ '-culus'（小さなもの、指小辞）が語源。フランス語を経由して英語へ。",
+      "tips": "反意語は 'feminine'（女性的な）。日本語の「マッチョ」とは少しニュアンスが違い、筋肉だけでなく雰囲気・声・性質など広く使える。",
+      "confusables": "'manly' は口語的でポジティブなニュアンスが強い。'masculine' はより中立的・学術的。'macho' はやや過剰な男性性を指す。",
+      "collocations": [
+        "masculine energy",
+        "masculine traits",
+        "masculine appearance"
+      ],
+      "trivia": "文法用語でも使われ、フランス語やスペイン語など性のある言語で「男性名詞」を 'masculine noun' と呼ぶ。英語学習者がフランス語を学ぶとき最初にぶつかる壁がこれ！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1682,
+    "word": "rigid",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "硬い、曲がらない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "厳格な、融通のきかない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈrɪdʒɪd/",
+    "syllables": "rig-id",
+    "audioHint": "リジッド",
+    "examples": [
+      {
+        "en": "The school has rigid rules about uniforms.",
+        "ja": "その学校は制服について厳格な規則がある。",
+        "blank": "The school has ___ rules about uniforms.",
+        "blankAnswer": "rigid"
+      }
+    ],
+    "distractors": [
+      "壊れやすい、もろい",
+      "透明な、透き通った",
+      "滑らかな、なめらかな"
+    ],
+    "confusableSpellings": [
+      "rigide",
+      "rijid",
+      "rigied"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'rigidus'（硬い、冷たい）から。語根 'rig-' は「硬直する」を意味し、'rigor'（厳格さ）や 'rigorous' と同じ語根を持つ。",
+      "tips": "物理的な「硬さ」と比喩的な「融通のなさ」の両方に使える。日本人は 'hard' と混同しがちだが、'rigid' はより「曲げられない・変えられない」というニュアンスが強い。",
+      "confusables": "'stiff' は体・素材が「こわばった」感じ。'rigid' は構造的・原則的に「変形しない」意味合い。'strict' は主に規則・人の厳しさ。",
+      "collocations": [
+        "rigid structure",
+        "rigid rules",
+        "rigid body"
+      ],
+      "trivia": "物理学では「剛体（rigid body）」という概念があり、力を加えても変形しない仮想の物体のこと。現実には存在しないが、計算を簡単にするための理想モデル。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1683,
+    "word": "adverse",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "不利な、逆境の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "有害な、悪影響をもたらす",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈædvɜːrs/",
+    "syllables": "ad-verse",
+    "audioHint": "アドヴァース",
+    "examples": [
+      {
+        "en": "The drug has adverse effects on some patients.",
+        "ja": "その薬は一部の患者に有害な影響を与える。",
+        "blank": "The drug has ___ effects on some patients.",
+        "blankAnswer": "adverse"
+      }
+    ],
+    "distractors": [
+      "曖昧な、不明確な",
+      "一時的な、暫定的な",
+      "複雑な、込み入った"
+    ],
+    "confusableSpellings": [
+      "advers",
+      "adverce",
+      "adversse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'adversus' から。'ad-'（〜に向かって）＋ 'vertere'（向ける、回す）= 「正面から向かってくる」が語源。",
+      "tips": "'averse'（嫌悪する）と混同しやすい！'adverse' は「外部からの不利な状況」、'averse' は「自分が〜を嫌がる」という内部的な態度。be averse to doing のように使う。",
+      "confusables": "'adverse' は状況・条件・影響に使う形容詞。'averse' は人に使い 'be averse to ~' の形が多い。'unfavorable' は口語的でやや軽い表現。",
+      "collocations": [
+        "adverse effects",
+        "adverse conditions",
+        "adverse weather"
+      ],
+      "trivia": "医薬品の副作用を英語で 'adverse drug reaction (ADR)' と言う。薬の説明書によく出てくるので、医療・薬学系の英語ではほぼ必須ワード！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1684,
+    "word": "coherent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "首尾一貫した、論理的にまとまった",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "明瞭に話せる、筋道の通った",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/koʊˈhɪərənt/",
+    "syllables": "co-her-ent",
+    "audioHint": "コウヒアレント",
+    "examples": [
+      {
+        "en": "Please write a coherent argument for your essay.",
+        "ja": "エッセイのために一貫した論点を書いてください。",
+        "blank": "Please write a ___ argument for your essay.",
+        "blankAnswer": "coherent"
+      }
+    ],
+    "distractors": [
+      "独創的な、革新的な",
+      "客観的な、公平な",
+      "抽象的な、観念的な"
+    ],
+    "confusableSpellings": [
+      "coherant",
+      "cohearent",
+      "coherrent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'cohaerere' から。'co-'（共に）＋ 'haerere'（くっつく、付着する）= 「ばらばらにならずまとまっている」が語源。",
+      "tips": "論文・スピーチ・議論の評価でよく使われる語。反意語は 'incoherent'（支離滅裂な）。日本人は「コヒーレント」と発音しがちだが、強勢は2音節目の 'her' にある。",
+      "confusables": "'consistent'（一貫性がある）は行動・データの矛盾のなさに使う。'coherent' は論理の流れ・文章の繋がりのまとまりに使うことが多い。",
+      "collocations": [
+        "coherent argument",
+        "coherent plan",
+        "coherent explanation"
+      ],
+      "trivia": "物理学では光の「コヒーレンス（可干渉性）」として使われ、レーザー光が coherent light と呼ばれる。レーザーが直進してビームになるのは光の波が「ばらばらでなくまとまっている」から！"
+    },
+    "frequency": 4000,
+    "cefr": "C1"
+  },
+  {
+    "id": 1685,
+    "word": "literal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "文字通りの、字義通りの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（翻訳が）逐語的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈlɪtərəl/",
+    "syllables": "lit-er-al",
+    "audioHint": "リテラル",
+    "examples": [
+      {
+        "en": "The literal meaning of the word is different from its usage.",
+        "ja": "その単語の文字通りの意味は使われ方と異なる。",
+        "blank": "The ___ meaning of the word is different from its usage.",
+        "blankAnswer": "literal"
+      }
+    ],
+    "distractors": [
+      "比喩的な、象徴的な",
+      "暗示的な、示唆に富む",
+      "主観的な、個人的な"
+    ],
+    "confusableSpellings": [
+      "litteral",
+      "literral",
+      "litral"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'litteralis' から。'littera'（文字、手紙）が語根。'literature'（文学）や 'literacy'（識字率）も同じ語根を持つ。",
+      "tips": "口語では「まじで、本当に」という強調の意味で 'literally' を使う人が増えているが（例：I literally died laughing）、これは本来の意味から外れた用法。フォーマルな場では避けよう。",
+      "confusables": "'literal' は「文字通り」、'literary' は「文学的な」で全く別物。スペルが似ているので要注意。'figurative' が literal の反意語。",
+      "collocations": [
+        "literal meaning",
+        "literal translation",
+        "literal interpretation"
+      ],
+      "trivia": "SNSで 'literally' の誤用が広まりすぎて、オックスフォード辞典が「比喩的強調」としての用法も公式に掲載することにした。言語の変化って面白い！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1686,
+    "word": "arbitrary",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "恣意的な、根拠のない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "独断的な、専制的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɑːrbɪtreri/",
+    "syllables": "ar-bi-trar-y",
+    "audioHint": "アービトレリ",
+    "examples": [
+      {
+        "en": "The decision seemed completely arbitrary and unfair.",
+        "ja": "その決定は完全に恣意的で不公平に思えた。",
+        "blank": "The decision seemed completely ___ and unfair.",
+        "blankAnswer": "arbitrary"
+      }
+    ],
+    "distractors": [
+      "体系的な、組織的な",
+      "論理的な、道理にかなった",
+      "普遍的な、一般的な"
+    ],
+    "confusableSpellings": [
+      "arbitrery",
+      "arbitray",
+      "arbitary"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'arbitrarius' から。'arbiter'（仲裁者、審判）が語根。仲裁者が「好きに決める」イメージから「根拠のない」という意味になった。",
+      "tips": "「アービトラリー」と発音。強勢は最初の 'ar' にある。日本語で「恣意的」と言うときの英訳として最もよく使われる。プログラミング用語でも「任意の値」として使われる。",
+      "confusables": "'random' は「ランダムな、無作為な」で確率的なニュアンスが強い。'arbitrary' は「誰かが根拠なく決めた」という批判的ニュアンスがある。",
+      "collocations": [
+        "arbitrary decision",
+        "arbitrary rule",
+        "arbitrary value"
+      ],
+      "trivia": "スポーツの「アービトレーター（仲裁人）」と同語源。野球やサッカーの審判（arbiter）も、判定を「根拠なく決める」と思われるとファンに 'arbitrary!' と言われることも！"
+    },
+    "frequency": 3900,
+    "cefr": "C1"
+  },
+  {
+    "id": 1687,
+    "word": "anonymous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "匿名の、名無しの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "個性のない、特徴のない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈnɒnɪməs/",
+    "syllables": "a-non-y-mous",
+    "audioHint": "アノニマス",
+    "examples": [
+      {
+        "en": "The donor wished to remain anonymous.",
+        "ja": "その寄付者は匿名のままでいることを望んだ。",
+        "blank": "The donor wished to remain ___.",
+        "blankAnswer": "anonymous"
+      }
+    ],
+    "distractors": [
+      "目立つ、著名な",
+      "一時的な、暫定的な",
+      "外向的な、社交的な"
+    ],
+    "confusableSpellings": [
+      "anonymus",
+      "anonimous",
+      "annonymous"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'anonymos' から。'an-'（否定）＋ 'onyma'（名前）= 「名前がない」が語源。'synonym'（同義語）や 'pseudonym'（ペンネーム）も 'onym' を含む。",
+      "tips": "発音は「アノニマス」で、強勢は2音節目の 'non' にある。名詞形は 'anonymity'（匿名性）。AAなどの自助グループ名（Alcoholics Anonymous）でも有名。",
+      "confusables": "'nameless' は「名前のない、無名の」でやや詩的。'unknown' は「未知の、知られていない」で範囲が広い。'anonymous' はあえて名前を伏せているニュアンスがある。",
+      "collocations": [
+        "anonymous donor",
+        "remain anonymous",
+        "anonymous tip"
+      ],
+      "trivia": "ハッカー集団「Anonymous」が有名だが、実は 'anonymous' の語源は古代ギリシャの「作者不明の文書」を指す言葉。インターネット掲示板の「名無し投稿」文化を象徴する単語になった。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1688,
+    "word": "antique",
+    "pos": "adjective",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "骨董品の、アンティークの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "骨董品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ænˈtiːk/",
+    "syllables": "an-tique",
+    "audioHint": "アンティーク",
+    "examples": [
+      {
+        "en": "She found a beautiful antique clock at the market.",
+        "ja": "彼女は市場で美しいアンティークの時計を見つけた。",
+        "blank": "She found a beautiful ___ clock at the market.",
+        "blankAnswer": "antique"
+      }
+    ],
+    "distractors": [
+      "現代的な、モダンな",
+      "手作りの、職人技の",
+      "装飾的な、華やかな"
+    ],
+    "confusableSpellings": [
+      "antiq",
+      "antiqu",
+      "antiquee"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'antiquus'（古い、昔の）から。'ante-'（前に）＋ '-iquus'（性質を表す語尾）= 「ずっと以前のもの」が語源。'ancient' とも同じ語根系統。",
+      "tips": "形容詞としても名詞としても使える。一般に「100年以上経過したもの」を antique と呼ぶことが多い。日本語で「アンティーク」と使われているのでなじみやすいが、発音の強勢は後ろ（tiːk）にある。",
+      "confusables": "'vintage' は特定の製造年（特にワインやファッション）に使い、必ずしも100年以上でなくてもよい。'ancient' はより歴史的で何千年もの古さ。'antique' は骨董品市場での用語として使われる。",
+      "collocations": [
+        "antique shop",
+        "antique furniture",
+        "antique dealer"
+      ],
+      "trivia": "アメリカの税関では「100年以上前に製造されたもの」を antique と定義し、関税が免除されることがある。だから年代の証明書が骨董品取引で超重要！"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1689,
+    "word": "eternal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "永遠の、永久の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "絶え間ない、終わりのない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈtɜːrnəl/",
+    "syllables": "e-ter-nal",
+    "audioHint": "イターナル",
+    "examples": [
+      {
+        "en": "They promised each other eternal love.",
+        "ja": "彼らはお互いに永遠の愛を誓った。",
+        "blank": "They promised each other ___ love.",
+        "blankAnswer": "eternal"
+      }
+    ],
+    "distractors": [
+      "周期的な、定期的な",
+      "瞬間的な、一瞬の",
+      "段階的な、漸進的な"
+    ],
+    "confusableSpellings": [
+      "eternel",
+      "eturnal",
+      "eternall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'aeternalis' から。'aevum'（時代、時間）＋ '-ternus'（形容詞語尾）が語根。'aeon'（永劫）や 'age' とも遠い語源のつながりがある。",
+      "tips": "強勢は2音節目の 'ter' にある。名詞形は 'eternity'（永遠）。'eternal' は詩的・宗教的な文脈でよく使われる。日常的には 'everlasting' や 'endless' の方が使いやすい場合もある。",
+      "confusables": "'everlasting' はやや口語的で「いつまでも続く」感じ。'immortal' は「死なない」という不死の意味。'infinite' は「無限の」で数量的なニュアンスが強い。",
+      "collocations": [
+        "eternal life",
+        "eternal love",
+        "eternal truth"
+      ],
+      "trivia": "「エターナル」はアニメや映画のタイトルにもよく登場するが、哲学では「時間の外に存在すること」を eternal と言い、「時間が無限に続く」こととは厳密に違うと議論されている。"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1690,
+    "word": "intermediate",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "中級の、中間の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "中間段階、中級者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪntərˈmiːdiət/",
+    "syllables": "in-ter-me-di-ate",
+    "audioHint": "インターミーディエット",
+    "examples": [
+      {
+        "en": "This course is designed for intermediate English learners.",
+        "ja": "このコースは中級の英語学習者向けに設計されています。",
+        "blank": "This course is designed for ___ English learners.",
+        "blankAnswer": "intermediate"
+      }
+    ],
+    "distractors": [
+      "高度な、上級の",
+      "基礎的な、初歩的な",
+      "専門的な、技術的な"
+    ],
+    "confusableSpellings": [
+      "intermidiate",
+      "intermedate",
+      "intermedite"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intermedius' から。'inter-'（〜の間に）＋ 'medius'（中間の）= 「真ん中にある」が語源。'medium'（中間、媒体）や 'mediate'（仲介する）と同じ 'medi-' 語根。",
+      "tips": "5音節あるので発音が難しい。強勢は3音節目の 'me' にある。語学学習では 'beginner → intermediate → advanced' の順。日本人は 'intermediary'（仲介者）と混同しやすい。",
+      "confusables": "'intermediate' は段階・レベルの「中間」。'medium' はサイズやSNSの「媒体」としての中間。'moderate' は「穏やかな、適度な」でニュアンスが異なる。",
+      "collocations": [
+        "intermediate level",
+        "intermediate course",
+        "intermediate stage"
+      ],
+      "trivia": "英語学習の業界では CEFR で B1〜B2 が 'intermediate' に相当するとされる。実は「中級の壁」は世界共通の悩みで、初級から中級への上達は早いが、中級から上級はとても時間がかかると言われている。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1691,
+    "word": "subordinate",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "下位の、従属した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "部下",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/səˈbɔːrdɪnət/",
+    "syllables": "sub-or-di-nate",
+    "audioHint": "サボーディネット",
+    "examples": [
+      {
+        "en": "He manages several subordinate staff members in the department.",
+        "ja": "彼は部門内で複数の部下を管理している。",
+        "blank": "He manages several ___ staff members in the department.",
+        "blankAnswer": "subordinate"
+      }
+    ],
+    "distractors": [
+      "優れた",
+      "熱力学的な",
+      "曖昧な"
+    ],
+    "confusableSpellings": [
+      "subordinat",
+      "subordonate",
+      "subbordinate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sub-'（下に）＋ 'ordinare'（秩序を与える）から。'ordinal'（序数の）と同じ語根。「秩序の下に置かれた」が原義。",
+      "tips": "形容詞・名詞・動詞と三役こなす多機能語。名詞では「部下」、動詞では「〜を従属させる」の意味になる。発音は形容詞・名詞が /nət/、動詞は /neɪt/ と語末が変化するので注意。",
+      "confusables": "'inferior'（劣っている）は質の低さを示すが、'subordinate'は序列・階層の低さを示す。上司が部下を'inferior'と呼ぶのは失礼になる。",
+      "collocations": [
+        "subordinate clause（従属節）",
+        "subordinate role（補助的役割）",
+        "direct subordinate（直属の部下）"
+      ],
+      "trivia": "文法用語「従属節（subordinate clause）」で有名。実は英文法を学ぶと必ず出会う単語なのに、ビジネス英語での「部下」という意味を知らない人が多い。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1692,
+    "word": "gloomy",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "憂鬱な、陰気な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "薄暗い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɡluːmi/",
+    "syllables": "gloom-y",
+    "audioHint": "グルーミー",
+    "examples": [
+      {
+        "en": "She felt gloomy after hearing the bad news.",
+        "ja": "悪い知らせを聞いて、彼女は憂鬱な気分になった。",
+        "blank": "She felt ___ after hearing the bad news.",
+        "blankAnswer": "gloomy"
+      }
+    ],
+    "distractors": [
+      "傲慢な",
+      "無邪気な",
+      "外向的な"
+    ],
+    "confusableSpellings": [
+      "gloomy",
+      "glommy",
+      "gluomy"
+    ],
+    "passive": {
+      "etymology": "古英語 'glom'（薄暗さ、夕暮れ）に由来。接尾辞 '-y' が形容詞を形成。もともとは光の少ない暗さを指し、そこから気分の暗さへと意味が拡張した。",
+      "tips": "天気にも気分にも使える便利な形容詞。'sad'より文学的・情緒的なニュアンスがある。'gloomy weather'（どんより曇った天気）と'gloomy mood'（陰鬱な気分）の両方で使われる。",
+      "confusables": "'gloomy'は内面から滲み出る陰気さ、'dark'は物理的な暗さが中心。'melancholy'はより詩的・文学的な深い悲しみを指す。",
+      "collocations": [
+        "gloomy weather（どんより曇り空）",
+        "gloomy outlook（暗い見通し）",
+        "gloomy expression（暗い表情）"
+      ],
+      "trivia": "英国の天気がよく'gloomy'と形容されるため、英国文化と切っても切れない単語。あのシャーロック・ホームズも霧のロンドンのgloomy雰囲気の中で活躍する。"
+    },
+    "frequency": 5800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1693,
+    "word": "thermal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "熱の、温熱の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "上昇気流（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈθɜːrməl/",
+    "syllables": "ther-mal",
+    "audioHint": "サーマル",
+    "examples": [
+      {
+        "en": "The thermal imaging camera detected heat from the building.",
+        "ja": "サーモグラフィカメラがビルからの熱を検知した。",
+        "blank": "The ___ imaging camera detected heat from the building.",
+        "blankAnswer": "thermal"
+      }
+    ],
+    "distractors": [
+      "従属した",
+      "目立つ",
+      "無傷の"
+    ],
+    "confusableSpellings": [
+      "thermel",
+      "thermol",
+      "thearmal"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'thermos'（熱い）に由来。'thermometer'（温度計）、'thermostat'（サーモスタット）と同じ語根。接尾辞 '-al' が「〜に関する」という形容詞を形成。",
+      "tips": "科学・工学文脈では「熱の」という意味だが、日常会話では'thermal underwear'（防寒肌着）として使われる。'thermo-'という接頭辞を知っていると関連語が一気に理解できる。",
+      "confusables": "'thermal'は熱に関する性質全般、'hot'は単純に「熱い・暑い」。'thermal energy'とは言えるが'hot energy'とは言わない。",
+      "collocations": [
+        "thermal energy（熱エネルギー）",
+        "thermal spring（温泉）",
+        "thermal underwear（防寒肌着）"
+      ],
+      "trivia": "グライダーパイロットや鷹は'thermal'（上昇気流）を利用して空を舞う。この名詞用法は「熱で温められた空気が上昇する」現象から来ており、同じ語源で正反対のイメージ（暖かさと大空）を持つ。"
+    },
+    "frequency": 6500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1694,
+    "word": "faint",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "かすかな、薄い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "気絶する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/feɪnt/",
+    "syllables": "faint",
+    "audioHint": "フェイント",
+    "examples": [
+      {
+        "en": "There was a faint smell of flowers in the room.",
+        "ja": "部屋にかすかな花の香りがした。",
+        "blank": "There was a ___ smell of flowers in the room.",
+        "blankAnswer": "faint"
+      }
+    ],
+    "distractors": [
+      "目立つ",
+      "無傷の",
+      "適切な"
+    ],
+    "confusableSpellings": [
+      "feint",
+      "faint",
+      "faent"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'feint'（偽りの、弱い）に由来。もともとは「力を抜いた、怠慢な」という意味だった。語根は 'feindre'（ふりをする）で、武道の「フェイント（feint）」と同語源。",
+      "tips": "スペリングが'feint'（フェイント、陽動作戦）と紛らわしい。'faint'は形容詞「かすかな」・動詞「気絶する」、'feint'は名詞・動詞で「フェイント」。'faint-hearted'（臆病な）という複合語も重要。",
+      "confusables": "'faint'は存在するが知覚しにくいほど弱い状態、'dim'は光が薄暗い状態、'vague'は概念・記憶が不明瞭な状態を指す。",
+      "collocations": [
+        "faint smile（かすかな微笑み）",
+        "faint sound（かすかな音）",
+        "faint hope（わずかな希望）"
+      ],
+      "trivia": "日本語でスポーツの「フェイント」と英語の'faint'（気絶）は見た目がそっくりだが別の単語。でも実は同じ語源！相手を惑わせる「フェイント」も、気絶で力が抜ける「faint」も、どちらも「力が抜けた状態」から来ている。"
+    },
+    "frequency": 4900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1695,
+    "word": "naive",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "世間知らずの、純粋な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "単純すぎる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/naɪˈiːv/",
+    "syllables": "na-ive",
+    "audioHint": "ナイーヴ",
+    "examples": [
+      {
+        "en": "It was naive of him to trust a stranger so quickly.",
+        "ja": "見知らぬ人をそんなに早く信用するとは、彼は世間知らずだった。",
+        "blank": "It was ___ of him to trust a stranger so quickly.",
+        "blankAnswer": "naive"
+      }
+    ],
+    "distractors": [
+      "憂鬱な",
+      "傲慢な",
+      "外向的な"
+    ],
+    "confusableSpellings": [
+      "niave",
+      "naieve",
+      "naïeve"
+    ],
+    "passive": {
+      "etymology": "フランス語 'naïve'（生まれたままの、自然な）から英語に借用。ラテン語 'nativus'（生まれつきの）が語源で、'native'（ネイティブ）と同語根。「生まれたままの素直さ」が原義。",
+      "tips": "日本語の「ナイーブ」は「繊細・傷つきやすい」という意味で使われるが、英語の'naive'は「世間知らず・無邪気すぎる」という意味。これは重大な誤用なので注意！英語で'He is very naive'と言うと「彼はかなり世間知らずだ」という批判的ニュアンスになる。",
+      "confusables": "'naive'は経験不足から来る無邪気さ・単純さ、'innocent'は道徳的な無実・純粋さ、'gullible'は騙されやすいほどの世間知らず。",
+      "collocations": [
+        "naive assumption（単純な思い込み）",
+        "naive question（無邪気な質問）",
+        "politically naive（政治的に世間知らずな）"
+      ],
+      "trivia": "日本語に入った「ナイーブ」は英語とほぼ逆の意味！これを「和製英語の意味のズレ」と呼び、実は非常に有名な例。英語ネイティブに「I'm very naive」と言うと「私はかなり世間知らずです」と自己紹介していることになる。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1696,
+    "word": "apt",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "適切な、ふさわしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "〜しがちな（apt to do）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/æpt/",
+    "syllables": "apt",
+    "audioHint": "アプト",
+    "examples": [
+      {
+        "en": "That is an apt description of the situation.",
+        "ja": "それはその状況の的確な描写だ。",
+        "blank": "That is an ___ description of the situation.",
+        "blankAnswer": "apt"
+      }
+    ],
+    "distractors": [
+      "かすかな",
+      "憂鬱な",
+      "目立つ"
+    ],
+    "confusableSpellings": [
+      "ept",
+      "appt",
+      "abt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'aptus'（適合した、結び付けられた）に由来。語根 'apere'（取り付ける、適合させる）から。'adapt'（適応する）、'aptitude'（適性）と同語根。",
+      "tips": "'apt to do'（〜しがちだ）の構文は日本人が見落としやすい用法。'He is apt to forget things.'（彼はものを忘れがちだ）のように、やや否定的な傾向を表すことが多い。'likely to'より文語的なニュアンス。",
+      "confusables": "'apt'は特定の状況にぴったり合っている適切さ、'appropriate'はより客観的・社会的基準から見た適切さ、'suitable'は目的・条件に合った適切さを表す。",
+      "collocations": [
+        "apt remark（的を射た発言）",
+        "apt to make mistakes（ミスしがち）",
+        "apt comparison（適切な比較）"
+      ],
+      "trivia": "スマートフォンの「アプリ（app）」の語源も実はこの'apt'と同じ！'application'→'app'の流れで、「目的に適合させるもの」という意味が込められている。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1697,
+    "word": "arrogant",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "傲慢な、横柄な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈærəɡənt/",
+    "syllables": "ar-ro-gant",
+    "audioHint": "アロガント",
+    "examples": [
+      {
+        "en": "The arrogant manager never listened to his team's ideas.",
+        "ja": "その傲慢なマネージャーはチームの意見に耳を貸さなかった。",
+        "blank": "The ___ manager never listened to his team's ideas.",
+        "blankAnswer": "arrogant"
+      }
+    ],
+    "distractors": [
+      "世間知らずの",
+      "憂鬱な",
+      "外向的な"
+    ],
+    "confusableSpellings": [
+      "arrogent",
+      "arogant",
+      "arrogannt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'arrogare'（自分のものと主張する）に由来。'ad-'（〜へ）＋ 'rogare'（求める、尋ねる）の合成。「本来は自分のものでないものを自分のものだと主張する」が原義。",
+      "tips": "'arrogant'は態度・行動に表れる傲慢さ、名詞形は'arrogance'。'He is arrogant'は強い否定的評価なので使いどころに注意。ビジネス英語で誰かをこう呼ぶのは相当の非難。",
+      "confusables": "'arrogant'は他者を見下す傲慢さ、'proud'は自分に誇りを持つポジティブな自信、'conceited'は自惚れが強い自己陶酔的な傲慢さ。'proud'とは根本的にニュアンスが異なる。",
+      "collocations": [
+        "arrogant attitude（傲慢な態度）",
+        "arrogant behavior（横柄な振る舞い）",
+        "arrogant tone（横柄な口調）"
+      ],
+      "trivia": "語源の'rogare'（求める）は'interrogate'（尋問する）にも含まれている。「他人に与えられるべき敬意まで自分のものにしようとする」というのが'arrogant'の本質で、なかなか的確な語源ストーリー。"
+    },
+    "frequency": 5100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1698,
+    "word": "extrovert",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "外向的な人、社交的な人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "外向的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈekstrəvɜːrt/",
+    "syllables": "ex-tro-vert",
+    "audioHint": "エクストロヴァート",
+    "examples": [
+      {
+        "en": "As a natural extrovert, she loves meeting new people.",
+        "ja": "生まれつきの外向型として、彼女は新しい人に会うのが大好きだ。",
+        "blank": "As a natural ___, she loves meeting new people.",
+        "blankAnswer": "extrovert"
+      }
+    ],
+    "distractors": [
+      "傲慢な",
+      "世間知らずの",
+      "憂鬱な"
+    ],
+    "confusableSpellings": [
+      "extrovert",
+      "extravert",
+      "extroverd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'extra-'（外へ）＋ 'vertere'（向ける・回す）から。「意識・関心を外に向ける人」が原義。対義語の'introvert'は'intro-'（内へ）＋ 'vertere'。心理学者ユングが広めた用語。",
+      "tips": "実はスペルが'extrovert'と'extravert'の両方存在し、どちらも正しい。心理学の学術的文脈では'extravert'が使われることもある。また、完全な外向型・内向型は少なく、中間の'ambivert'（アンビバート）という語もある。",
+      "confusables": "'extrovert'は他者との交流でエネルギーを得る人、'introvert'は一人の時間でエネルギーを回復する人。どちらも人格の優劣ではなく、エネルギーの補充方法の違いを指す。",
+      "collocations": [
+        "natural extrovert（生まれつきの外向型）",
+        "extrovert personality（外向的な性格）",
+        "classic extrovert（典型的な外向型）"
+      ],
+      "trivia": "MBTIや心理学の普及で'extrovert'と'introvert'はSNSでバズりまくった単語。「パーティーが好き＝外向型」は実は間違いで、「人といることでエネルギーが増えるか減るか」が本当の定義。"
+    },
+    "frequency": 7200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1699,
+    "word": "conspicuous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "目立つ、人目を引く",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kənˈspɪkjuəs/",
+    "syllables": "con-spic-u-ous",
+    "audioHint": "コンスピキュアス",
+    "examples": [
+      {
+        "en": "The bright red car was conspicuous in the parking lot.",
+        "ja": "その真っ赤な車は駐車場でとても目立っていた。",
+        "blank": "The bright red car was ___ in the parking lot.",
+        "blankAnswer": "conspicuous"
+      }
+    ],
+    "distractors": [
+      "無傷の",
+      "かすかな",
+      "熱の"
+    ],
+    "confusableSpellings": [
+      "conspicious",
+      "conspicous",
+      "conspicuious"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conspicere'（はっきり見る）に由来。'con-'（完全に）＋ 'specere'（見る）の合成。'spectacle'（見世物）、'inspect'（検査する）、'perspective'（視点）と同じ語根 'spec-'。",
+      "tips": "「目立ってしまって恥ずかしい」というネガティブなニュアンスで使われることが多い。'conspicuous consumption'（誇示的消費）は社会学の重要用語。スペルは '-uous' 部分でミスしやすい。",
+      "confusables": "'conspicuous'は目に留まらざるを得ないほど目立つこと、'noticeable'は気づかれる程度に目立つこと、'prominent'は重要で卓越しているために目立つこと。",
+      "collocations": [
+        "conspicuous absence（目立った不在）",
+        "conspicuous consumption（誇示的消費）",
+        "make oneself conspicuous（目立つ行動をとる）"
+      ],
+      "trivia": "'conspicuous consumption'（見せびらかしのための消費）は1899年に経済学者ヴェブレンが提唱した概念。ブランド品を買う心理を説明するこの言葉、SNS時代の今こそ最も輝いている。"
+    },
+    "frequency": 6800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1700,
+    "word": "intact",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "無傷の、손상されていない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "完全な状態の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtækt/",
+    "syllables": "in-tact",
+    "audioHint": "インタクト",
+    "examples": [
+      {
+        "en": "The ancient vase remained intact after the earthquake.",
+        "ja": "その古代の花瓶は地震の後も無傷のままだった。",
+        "blank": "The ancient vase remained ___ after the earthquake.",
+        "blankAnswer": "intact"
+      }
+    ],
+    "distractors": [
+      "目立つ",
+      "かすかな",
+      "熱の"
+    ],
+    "confusableSpellings": [
+      "intack",
+      "inntact",
+      "intaxt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intactus' に由来。'in-'（否定）＋ 'tactus'（触れられた）の合成で、語根は 'tangere'（触れる）。'contact'（接触）、'tangible'（触れられる）と同語根。「まだ触れられていない＝無傷」が原義。",
+      "tips": "否定の'in-'がついているが、'intact'は単独の形容詞として使われ、'tact'だけでは使わない点に注意。'keep〜intact'（〜を無傷に保つ）、'remain intact'（無傷のままである）という形が頻出。",
+      "confusables": "'intact'は物理的・抽象的に何も損なわれていない状態、'whole'は欠けた部分のない完全さ、'undamaged'は物理的な損傷がないこと。'intact'は最も「手が加えられていない」純粋さを含む。",
+      "collocations": [
+        "remain intact（無傷のままでいる）",
+        "keep intact（無傷に保つ）",
+        "largely intact（ほぼ無傷の）"
+      ],
+      "trivia": "'tangere'（触れる）という語根から生まれた英単語は非常に多く、'contact'・'tangle'・'tangent'・'contagious'（感染する）まで全部繋がっている。「触れた→感染した」という語源の流れが面白い。"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  }
+]

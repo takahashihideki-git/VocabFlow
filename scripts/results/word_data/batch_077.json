@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1521,
+    "word": "transplant",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "移植する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "移し替える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trænsˈplænt/",
+    "syllables": "trans-plant",
+    "audioHint": "トランス・プラント",
+    "examples": [
+      {
+        "en": "Doctors successfully transplanted a kidney into the patient.",
+        "ja": "医師たちは患者に腎臓を移植することに成功した。",
+        "blank": "Doctors successfully ___ a kidney into the patient.",
+        "blankAnswer": "transplanted"
+      }
+    ],
+    "distractors": [
+      "膨張する",
+      "腐敗する",
+      "汚染する"
+    ],
+    "confusableSpellings": [
+      "transplent",
+      "transpant",
+      "transplannt"
+    ],
+    "passive": {
+      "etymology": "trans-（「越えて・移動して」の意の接頭辞）＋ plant（「植える」の語根）。「植え替える」が原義。",
+      "tips": "医療文脈では名詞としても使われ（a transplant「移植手術」）、動詞と名詞でアクセント位置が変わる場合があります。動詞は /trænsˈplænt/、名詞は /ˈtrænsplænt/ と後ろ・前にアクセントが移動します。",
+      "confusables": "implant（「埋め込む」）と混同しやすいが、transplant は既存の組織・器官を別の場所に「移す」ニュアンス。implant は「体内に新たに埋め込む」こと。",
+      "collocations": [
+        "transplant a kidney",
+        "hair transplant",
+        "organ transplant surgery"
+      ],
+      "trivia": "世界初の心臓移植手術は1967年に南アフリカのクリスチャン・バーナード医師によって行われました。このとき使われた動詞がまさに transplant です！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1522,
+    "word": "reassure",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "安心させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "元気づける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌriːəˈʃʊər/",
+    "syllables": "re-as-sure",
+    "audioHint": "リー・ア・シュア",
+    "examples": [
+      {
+        "en": "She reassured her son that everything would be fine.",
+        "ja": "彼女は息子に、すべてうまくいくと安心させた。",
+        "blank": "She ___ her son that everything would be fine.",
+        "blankAnswer": "reassured"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "魅了する",
+      "指摘する"
+    ],
+    "confusableSpellings": [
+      "reasure",
+      "reassuer",
+      "reasasure"
+    ],
+    "passive": {
+      "etymology": "re-（「再び」の接頭辞）＋ assure（「確信させる・保証する」）。「再び安心を保証する」が原義。",
+      "tips": "reassure は必ず「人」を目的語にとります。「reassure about ～」や「reassure that 節」の形が頻出。assure との違いは re- があることで「不安を感じている相手をもう一度安心させる」ニュアンスが強まる点です。",
+      "confusables": "assure（「保証する」）と混同しやすい。reassure は不安・心配を取り除くことに重点があり、assure は事実を確認・保証する意味が強い。",
+      "collocations": [
+        "reassure someone that",
+        "reassure the public",
+        "reassure about the situation"
+      ],
+      "trivia": "「re-」は「やり直し」の意味だから、reassure は「もう一度安心させる」。つまり相手がすでに不安を感じていることが前提の言葉なんです。日常会話でもビジネスでも頻出の優しい動詞！"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1523,
+    "word": "resume",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "再開する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "取り戻す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈzjuːm/",
+    "syllables": "re-sume",
+    "audioHint": "リ・ズューム",
+    "examples": [
+      {
+        "en": "The players resumed the game after a short break.",
+        "ja": "選手たちは短い休憩の後、試合を再開した。",
+        "blank": "The players ___ the game after a short break.",
+        "blankAnswer": "resumed"
+      }
+    ],
+    "distractors": [
+      "超える",
+      "任命する",
+      "取り消す"
+    ],
+    "confusableSpellings": [
+      "ressume",
+      "rezume",
+      "resumme"
+    ],
+    "passive": {
+      "etymology": "re-（「再び」の接頭辞）＋ sume（ラテン語 sumere「取る・始める」の語根）。「再び取り上げる→再開する」が原義。",
+      "tips": "名詞の「履歴書」を意味する résumé（レジュメ）と同じスペルに見えますが、動詞 resume はアクセントが後ろ（/rɪˈzjuːm/）で、名詞 résumé は /ˈrezjʊmeɪ/ とアクセントが前に来ます。混同に注意！",
+      "confusables": "restart（「最初からやり直す」）との違いに注意。resume は中断した地点から「続きを」再開するが、restart は最初からリスタートするイメージ。",
+      "collocations": [
+        "resume work",
+        "resume talks",
+        "resume normal operations"
+      ],
+      "trivia": "「履歴書」のレジュメ（résumé）と resume は同語源。フランス語で「要約したもの」という意味から来ているんですが、英語でそのまま使われた結果、発音もスペルも紛らわしくなってしまいました！"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1524,
+    "word": "speculate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "推測する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "投機する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈspekjʊleɪt/",
+    "syllables": "spec-u-late",
+    "audioHint": "スペキュ・レイト",
+    "examples": [
+      {
+        "en": "Experts speculate that the climate will change drastically.",
+        "ja": "専門家たちは気候が劇的に変化するだろうと推測している。",
+        "blank": "Experts ___ that the climate will change drastically.",
+        "blankAnswer": "speculate"
+      }
+    ],
+    "distractors": [
+      "安心させる",
+      "魅了する",
+      "思い出す"
+    ],
+    "confusableSpellings": [
+      "specolate",
+      "specualte",
+      "speculat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 speculari（「観察する・偵察する」）＋ -ate（動詞語尾）。specula は「見張り台」の意。「高いところから観察して予測する」が原義。",
+      "tips": "speculate は「確証なしに推測する」ニュアンスが強く、speculate about / on / that の形で使います。「ただの推測に過ぎない」という含みがあるため、断定的に使うのは不自然です。",
+      "confusables": "estimate（「数値的に推定する」）や assume（「前提として仮定する」）と使い分けが必要。speculate は根拠が薄い推測、estimate は数値的裏付けのある推定。",
+      "collocations": [
+        "speculate about the future",
+        "speculate on stocks",
+        "widely speculated"
+      ],
+      "trivia": "金融用語の「投機（speculation）」も同じ語源。「確証なく見込みで賭ける」という意味では、株の投機も将来予測も本質的に同じ行為だ、という発想が面白いですね！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1525,
+    "word": "surpass",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "超える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "凌駕する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sərˈpæs/",
+    "syllables": "sur-pass",
+    "audioHint": "サー・パス",
+    "examples": [
+      {
+        "en": "Her performance surpassed everyone's expectations.",
+        "ja": "彼女のパフォーマンスは全員の期待を超えた。",
+        "blank": "Her performance ___ everyone's expectations.",
+        "blankAnswer": "surpassed"
+      }
+    ],
+    "distractors": [
+      "再開する",
+      "任命する",
+      "移植する"
+    ],
+    "confusableSpellings": [
+      "surpas",
+      "surpaas",
+      "surprass"
+    ],
+    "passive": {
+      "etymology": "sur-（フランス語・ラテン語由来の「上に・越えて」の接頭辞）＋ pass（「通る・過ぎる」）。「上を通り越す→超越する」が原義。",
+      "tips": "surpass は「期待・記録・限界などを超える」という文脈で頻用。exceed との違いは、surpass がより「質的・印象的な超え方」を表し、exceed は「数量的に上回る」ニュアンスが強い点です。",
+      "confusables": "exceed（「数量的に上回る」）と混同しがち。The cost exceeded the budget（予算を数値的に超えた）に対し、She surpassed all rivals（ライバル全員を実力で凌駕した）のようにニュアンスが異なります。",
+      "collocations": [
+        "surpass expectations",
+        "surpass the record",
+        "surpass all rivals"
+      ],
+      "trivia": "「sur-」はフランス語由来の接頭辞で、surface（表面）、survive（生き残る）、surplus（余剰）など日常英語に多数登場します。「サーフェス」「サバイブ」と覚えれば surpass も怖くない！"
+    },
+    "frequency": 4400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1526,
+    "word": "appoint",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "任命する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "指定する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈpɔɪnt/",
+    "syllables": "ap-point",
+    "audioHint": "ア・ポイント",
+    "examples": [
+      {
+        "en": "The president appointed her as the new ambassador.",
+        "ja": "大統領は彼女を新しい大使に任命した。",
+        "blank": "The president ___ her as the new ambassador.",
+        "blankAnswer": "appointed"
+      }
+    ],
+    "distractors": [
+      "超える",
+      "再開する",
+      "安心させる"
+    ],
+    "confusableSpellings": [
+      "appointe",
+      "appont",
+      "appiont"
+    ],
+    "passive": {
+      "etymology": "ap-（ad- 「〜へ」の異形）＋ point（ラテン語 punctum「点・位置」）。「特定の地位・点に向ける→任命・指定する」が原義。",
+      "tips": "appoint は「appoint A as B」または「appoint A to B」の形が基本。「appoint + 人 + 役職」の語順を守ることが大切で、日本語の「任命する」に引きずられて語順を間違えやすいです。",
+      "confusables": "elect（「選挙で選ぶ」）と混同しがち。appoint は権限を持つ人が「指名・任命する」のに対し、elect は「投票によって選ぶ」という民主的なプロセスを含む。",
+      "collocations": [
+        "appoint as manager",
+        "appoint to a position",
+        "newly appointed"
+      ],
+      "trivia": "「appointment」は「予約・約束」の意味でも使われますよね。実は「特定の時間・場所を指定する」という意味から来ていて、医者の予約も人事任命も語源が同じというのが面白い！"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1527,
+    "word": "intrigue",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "魅了する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "陰謀を企てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈtriːɡ/",
+    "syllables": "in-trigue",
+    "audioHint": "イン・トリーグ",
+    "examples": [
+      {
+        "en": "The mysterious letter intrigued her deeply.",
+        "ja": "その謎めいた手紙は彼女を深く魅了した。",
+        "blank": "The mysterious letter ___ her deeply.",
+        "blankAnswer": "intrigued"
+      }
+    ],
+    "distractors": [
+      "安心させる",
+      "推測する",
+      "断言する"
+    ],
+    "confusableSpellings": [
+      "intrige",
+      "intreague",
+      "intriuge"
+    ],
+    "passive": {
+      "etymology": "イタリア語 intrigare（「絡み合わせる・困らせる」）＜ラテン語 intricare（「もつれさせる」）。in-（中に）＋ tricae（「障害・複雑なもの」）が語源。",
+      "tips": "動詞 intrigue は「（人を）興味津々にさせる・魅了する」の意味で受動態が多く、be intrigued by ～（〜に強い興味を持つ）の形が日常的に使われます。能動態でも使えますが受動態が自然な文脈が多いです。",
+      "confusables": "fascinate（「魅了する」）との比較：fascinate は美しさや魅力による魅了、intrigue は謎めいた好奇心・興味をそそるニュアンスがより強い。",
+      "collocations": [
+        "be intrigued by",
+        "intrigue the audience",
+        "deeply intrigued"
+      ],
+      "trivia": "名詞の intrigue は「陰謀・謀略」の意味。同じ単語が「魅了する」と「陰謀」という対極的な意味を持つのは、「複雑に絡み合わせる」という語源から来ているから。謀略も人心掌握も本質は同じ！"
+    },
+    "frequency": 5500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1528,
+    "word": "decay",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "腐敗する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "衰退する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈkeɪ/",
+    "syllables": "de-cay",
+    "audioHint": "ディ・ケイ",
+    "examples": [
+      {
+        "en": "The fallen leaves slowly decayed on the forest floor.",
+        "ja": "落ち葉は森の地面でゆっくりと腐っていった。",
+        "blank": "The fallen leaves slowly ___ on the forest floor.",
+        "blankAnswer": "decayed"
+      }
+    ],
+    "distractors": [
+      "膨張する",
+      "移植する",
+      "汚染する"
+    ],
+    "confusableSpellings": [
+      "decey",
+      "dacay",
+      "decai"
+    ],
+    "passive": {
+      "etymology": "de-（「離れて・下へ」の接頭辞）＋ cay（古フランス語 caoir「落ちる」＜ラテン語 cadere「落ちる」）。「落ちていく→腐る・衰える」が原義。",
+      "tips": "decay は自動詞・他動詞両方ありますが、「腐る・衰退する」の意味では自動詞として使う場面が多い。「tooth decay（虫歯）」のように名詞形も頻出なので合わせて覚えましょう。",
+      "confusables": "rot（「腐る」）との違い：rot はより口語的で有機物が腐敗する直接的な表現、decay はより広く「衰退・崩壊」にも使われる改まった表現。",
+      "collocations": [
+        "tooth decay",
+        "decay rapidly",
+        "urban decay"
+      ],
+      "trivia": "物理学用語の「放射性崩壊（radioactive decay）」もこの語。リンゴが腐るのも核が崩壊するのも英語では同じ decay というのは、自然界の「崩れ落ちる」という普遍的なプロセスを一語で捉えた哲学的な単語です！"
+    },
+    "frequency": 4300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1529,
+    "word": "contaminate",
+    "pos": "verb",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "汚染する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "汚す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈtæmɪneɪt/",
+    "syllables": "con-tam-i-nate",
+    "audioHint": "コン・タミ・ネイト",
+    "examples": [
+      {
+        "en": "The chemical spill contaminated the nearby river.",
+        "ja": "化学物質の流出が近くの川を汚染した。",
+        "blank": "The chemical spill ___ the nearby river.",
+        "blankAnswer": "contaminated"
+      }
+    ],
+    "distractors": [
+      "腐敗する",
+      "膨張する",
+      "移植する"
+    ],
+    "confusableSpellings": [
+      "contamanate",
+      "contaminete",
+      "contaiminate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 contaminare（「触れて汚す」）＜ con-（「共に・接触して」）＋ tamen（「触れる・汚す」の語根）。「接触によって汚染する」が原義。",
+      "tips": "contaminate は主に環境・食品・医療の文脈で使われます。pollute（公害・大気汚染など広範な汚染）よりも「特定の物質が混入して汚染する」という具体的・局所的なイメージが強い点に注意。",
+      "confusables": "pollute（「汚染する」）との違い：pollute は大気・水など大規模な環境汚染に使いやすく、contaminate は食品・水・医薬品など「混入・接触による汚染」に使うことが多い。",
+      "collocations": [
+        "contaminate the water supply",
+        "contaminated food",
+        "contaminate a sample"
+      ],
+      "trivia": "理科実験で「コンタミ」というカタカナ語が使われますが、これは contamination の略。「試料が他の物質で汚染された」という意味で研究者の間では日常語になっています。英語がそのまま日本語に！"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1530,
+    "word": "swell",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "膨らむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "増大する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/swel/",
+    "syllables": "swell",
+    "audioHint": "スウェル",
+    "examples": [
+      {
+        "en": "Her ankle swelled up after she twisted it.",
+        "ja": "足首を捻挫した後、腫れ上がった。",
+        "blank": "Her ankle ___ up after she twisted it.",
+        "blankAnswer": "swelled"
+      }
+    ],
+    "distractors": [
+      "腐敗する",
+      "汚染する",
+      "移植する"
+    ],
+    "confusableSpellings": [
+      "swel",
+      "sweel",
+      "sweell"
+    ],
+    "passive": {
+      "etymology": "古英語 swellan（「膨らむ・ふくれる」）から。ゲルマン語系の基本語で、ドイツ語の schwellen（「膨らむ」）と同根。",
+      "tips": "swell の過去形は swelled（一般的）と swollen（形容詞的用法が多い）の両方があります。「顔が腫れた」は His face swelled / His face was swollen のどちらも使えますが、形容詞として「腫れた状態」を描写するときは swollen が自然です。",
+      "confusables": "bloat（「ガスで膨らむ・むくむ」）との違い：bloat は空気やガス・水分で不快に膨らむイメージ、swell は怪我・感情・増加など幅広い「膨らむ」に使える。",
+      "collocations": [
+        "swell up",
+        "swollen ankle",
+        "the crowd swelled"
+      ],
+      "trivia": "音楽用語の「スウェル（swell）」は音量が徐々に大きくなること。オルガンの「スウェル・ペダル」もここから。怪我で腫れるのも、音楽が盛り上がるのも、どちらも「ふくらむ」という同じ swell という発想が美しい！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1531,
+    "word": "delete",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "削除する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "消去する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈliːt/",
+    "syllables": "de-lete",
+    "audioHint": "ディリート",
+    "examples": [
+      {
+        "en": "Please delete all unnecessary files from your computer.",
+        "ja": "コンピューターから不要なファイルをすべて削除してください。",
+        "blank": "Please ___ all unnecessary files from your computer.",
+        "blankAnswer": "delete"
+      }
+    ],
+    "distractors": [
+      "更新する",
+      "圧縮する",
+      "暗号化する"
+    ],
+    "confusableSpellings": [
+      "deleate",
+      "deleet",
+      "dillete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'delere'（消す・破壊する）が語源。接頭辞 'de-'（除去・分離）＋語根 '-lere'（塗る・消す）の組み合わせ。",
+      "tips": "日本語の「デリート」としてそのまま外来語化されているので意味は覚えやすいが、スペルで 'ee' と書きたくなる誘惑に注意。また名詞形は 'deletion'（削除）。",
+      "confusables": "'remove' も「削除・除去」だが、delete はデジタルデータや文章中の語句を消す場面で特に使われる。remove はより物理的・一般的な除去に使われる。",
+      "collocations": [
+        "delete a file（ファイルを削除する）",
+        "delete an account（アカウントを削除する）",
+        "permanently delete（完全に削除する）"
+      ],
+      "trivia": "キーボードの『Delete キー』は世界中で使われているが、Macの『Delete』は実はWindowsの『Backspace』と同じ動作をする。本当の「前方削除」はFnキーと組み合わせが必要！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1532,
+    "word": "tolerate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "我慢する、容認する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "耐える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtɒləreit/",
+    "syllables": "tol-er-ate",
+    "audioHint": "トラレイト",
+    "examples": [
+      {
+        "en": "She cannot tolerate rude behavior in the workplace.",
+        "ja": "彼女は職場での無礼な振る舞いを我慢できない。",
+        "blank": "She cannot ___ rude behavior in the workplace.",
+        "blankAnswer": "tolerate"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "拒絶する",
+      "非難する"
+    ],
+    "confusableSpellings": [
+      "tollerate",
+      "tolerrate",
+      "tolerait"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'tolerare'（耐える・支える）が語源。語根 'toler-' は「重さを支える」というイメージを持つ。接尾辞 '-ate' は動詞を作るラテン系の語尾。",
+      "tips": "日本人は「我慢する」に引っ張られて 'endure' と混同しがち。tolerate はやや消極的・仕方なく受け入れるニュアンスが強い。また tolerance（名詞）・tolerant（形容詞）とセットで覚えると効率的。",
+      "confusables": "'endure' は長期的・肉体的な苦痛に耐える意味が強い。'tolerate' は人の行動や状況を（不満を持ちながらも）許容するニュアンス。",
+      "collocations": [
+        "tolerate pain（痛みを我慢する）",
+        "tolerate differences（違いを受け入れる）",
+        "zero tolerance（ゼロトレランス・一切容認しない方針）"
+      ],
+      "trivia": "医学では薬への『耐性』を 'drug tolerance' と言う。使い続けると同じ量では効かなくなる現象。体が薬を「慣れで容認」しちゃうイメージ！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1533,
+    "word": "envy",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "羨む、妬む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "羨望、嫉妬",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈenvi/",
+    "syllables": "en-vy",
+    "audioHint": "エンヴィ",
+    "examples": [
+      {
+        "en": "I envy her ability to speak five languages fluently.",
+        "ja": "私は彼女が5カ国語を流暢に話せることを羨ましく思う。",
+        "blank": "I ___ her ability to speak five languages fluently.",
+        "blankAnswer": "envy"
+      }
+    ],
+    "distractors": [
+      "感謝する",
+      "批判する",
+      "賞賛する"
+    ],
+    "confusableSpellings": [
+      "envey",
+      "envi",
+      "envvy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'invidia'（妬み・羨望）が語源。'in-'（〜に向かって）＋ 'videre'（見る）＝「相手のものを見てしまう」感情を表す。",
+      "tips": "envy は動詞・名詞の両方で使える。動詞では 'I envy you'（羨ましい）と直接目的語を取れる点に注意。jealousy と混同しやすいが、envy は「自分にないものを相手が持っている」ときの感情。",
+      "confusables": "'jealousy' は恋愛や所有物を「奪われるかもしれない」という恐怖からくる嫉妬。envy は「あの人みたいになりたい」という羨望感に近い。",
+      "collocations": [
+        "green with envy（羨ましくてたまらない）",
+        "envy someone's success（成功を羨む）",
+        "object of envy（羨望の的）"
+      ],
+      "trivia": "キリスト教の『七つの大罪』の一つが envy（嫉妬）。アニメ『鋼の錬金術師』の敵キャラ『エンヴィ』もこれが由来。英語圏の子どもでも七つの大罪の英単語は覚えやすいらしい！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1534,
+    "word": "pray",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "祈る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "懇願する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/preɪ/",
+    "syllables": "pray",
+    "audioHint": "プレイ",
+    "examples": [
+      {
+        "en": "They gathered at the church to pray for peace.",
+        "ja": "彼らは平和を祈るために教会に集まった。",
+        "blank": "They gathered at the church to ___ for peace.",
+        "blankAnswer": "pray"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "抗議する",
+      "誓う"
+    ],
+    "confusableSpellings": [
+      "prey",
+      "pary",
+      "praay"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'preier'、ラテン語 'precari'（懇願する・祈る）が語源。語根 'prec-' は「頼む・求める」を意味し、'precarious'（不安定な）も同じ語源を持つ。",
+      "tips": "最大の注意点は同音異義語の 'prey'（獲物・捕食する）との混同。'pray' は祈り、'prey' は狩りのイメージで区別する。前置詞は 'pray for〜'（〜のために祈る）が基本形。",
+      "confusables": "'pray' と 'prey' は同じ発音 /preɪ/。'pray for rain'（雨が降るよう祈る）vs 'prey on small animals'（小動物を捕食する）。文脈で判断しよう。",
+      "collocations": [
+        "pray for someone（誰かのために祈る）",
+        "pray to God（神に祈る）",
+        "pray silently（黙って祈る）"
+      ],
+      "trivia": "英語の 'praying mantis'（カマキリ）の 'praying' はこの pray が語源。前脚を合わせた姿が祈っているように見えることから命名された。カマキリ、実は祈ってたんじゃなくて狩りの構えだけどね！"
+    },
+    "frequency": 2600,
+    "cefr": "A2"
+  },
+  {
+    "id": 1535,
+    "word": "confess",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "告白する、白状する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（罪・過ちを）認める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈfes/",
+    "syllables": "con-fess",
+    "audioHint": "コンフェス",
+    "examples": [
+      {
+        "en": "He finally confessed that he had broken the window.",
+        "ja": "彼はついに窓を割ったと白状した。",
+        "blank": "He finally ___ that he had broken the window.",
+        "blankAnswer": "confessed"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "否定する",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "confes",
+      "conffess",
+      "confesss"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'confiteri' が語源。'con-'（完全に・共に）＋ 'fateri'（認める・公言する）の組み合わせ。「すべてを明らかにして認める」という意味合い。",
+      "tips": "名詞は 'confession'（告白・懺悔）。カトリックの「告解」も confession。日本語の「告白（こくはく）」は恋愛でも使うが、英語の confess は主に罪や過ちを認める文脈で使われることが多い。恋愛の告白は 'tell someone your feelings' などが自然。",
+      "confusables": "'admit' も「認める」だが、より事実を受け入れるニュアンス。'confess' は隠していたことを進んで明かすニュアンスが強い。犯罪捜査では confess がよく使われる。",
+      "collocations": [
+        "confess to a crime（犯罪を自白する）",
+        "confess one's sins（罪を告白する）",
+        "I must confess（実は〜なんですが）"
+      ],
+      "trivia": "カトリック教会の告解室（confessional）では、神父に罪を confess する伝統がある。英語圏のミステリー小説では「犯人が confess する場面」がクライマックスの定番！"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1536,
+    "word": "resign",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "辞任する、辞職する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（運命などを）諦めて受け入れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈzaɪn/",
+    "syllables": "re-sign",
+    "audioHint": "リザイン",
+    "examples": [
+      {
+        "en": "The minister was forced to resign after the scandal.",
+        "ja": "その大臣はスキャンダルの後、辞任を余儀なくされた。",
+        "blank": "The minister was forced to ___ after the scandal.",
+        "blankAnswer": "resign"
+      }
+    ],
+    "distractors": [
+      "昇進する",
+      "抗議する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "ressign",
+      "rezign",
+      "resignn"
+    ],
+    "passive": {
+      "etymology": "ラテン語 're-'（再び・戻す）＋ 'signare'（署名する・印を押す）が語源。「（自分の職位を）戻す署名をする」というイメージから「辞職」の意味になった。",
+      "tips": "スペルは 're-sign'（再署名）と同じだが、意味は「辞任」。resign oneself to〜 で「〜を甘んじて受け入れる」という別の意味になる点に注意。日本人は「リサイン」と伸ばしがちだが /rɪˈzaɪn/ と第2音節を強く。",
+      "confusables": "'quit' はよりインフォーマルで仕事・習慣など幅広く使える。resign はフォーマルな職位・役職からの辞任に使う。'retire' は定年退職のニュアンス。",
+      "collocations": [
+        "resign from a position（職を辞する）",
+        "resign in protest（抗議して辞任する）",
+        "letter of resignation（辞表）"
+      ],
+      "trivia": "アメリカ史上、大統領職を resign したのはリチャード・ニクソンただ一人（1974年、ウォーターゲート事件）。あの有名な辞任演説では resign という単語が繰り返し使われた！"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1537,
+    "word": "dissolve",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "溶かす、溶ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "解散させる、消滅する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈzɒlv/",
+    "syllables": "dis-solve",
+    "audioHint": "ディゾルヴ",
+    "examples": [
+      {
+        "en": "Sugar dissolves quickly in warm water.",
+        "ja": "砂糖は温水に素早く溶ける。",
+        "blank": "Sugar ___ quickly in warm water.",
+        "blankAnswer": "dissolves"
+      }
+    ],
+    "distractors": [
+      "膨張する",
+      "凍結する",
+      "燃焼する"
+    ],
+    "confusableSpellings": [
+      "disolve",
+      "dissolvve",
+      "dissolv"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'dissolvere' が語源。'dis-'（離れて・バラバラに）＋ 'solvere'（解く・ほどく）の組み合わせ。「結びつきをバラバラにほどく」というイメージ。",
+      "tips": "化学・物理の文脈では「溶解する」、政治・組織の文脈では「解散する」と使い分けられる。同じ語根 'solve' を持つ 'solve a problem'（問題を解く）と関連づけると覚えやすい。",
+      "confusables": "'melt' は固体が熱で液体になること（アイスが溶ける）。'dissolve' は固体が液体の中に溶け込む現象（塩が水に溶ける）。溶け方のメカニズムが違う！",
+      "collocations": [
+        "dissolve in water（水に溶ける）",
+        "dissolve parliament（議会を解散する）",
+        "dissolve a partnership（提携を解消する）"
+      ],
+      "trivia": "議会の「解散」も dissolve。イギリスでは国王（現在は国王）が議会を 'dissolve' する権限を持つ。砂糖が水に溶けるのも政治的解散も同じ単語というのが英語の面白いところ！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1538,
+    "word": "unfold",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "広げる、展開する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（事態が）明らかになる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʌnˈfəʊld/",
+    "syllables": "un-fold",
+    "audioHint": "アンフォールド",
+    "examples": [
+      {
+        "en": "She unfolded the map and spread it on the table.",
+        "ja": "彼女は地図を広げてテーブルの上に置いた。",
+        "blank": "She ___ the map and spread it on the table.",
+        "blankAnswer": "unfolded"
+      }
+    ],
+    "distractors": [
+      "押しつぶす",
+      "固定する",
+      "引き裂く"
+    ],
+    "confusableSpellings": [
+      "unfould",
+      "unfoled",
+      "unfold'd"
+    ],
+    "passive": {
+      "etymology": "接頭辞 'un-'（反対・元に戻す）＋ 'fold'（折る）の組み合わせ。「折りたたんだものを元に戻す＝広げる」が基本義。",
+      "tips": "物理的な「広げる」動作のほか、ストーリーや事態が「展開する・明らかになる」という比喩的な用法も頻出。ニュースで 'events unfolded'（事態が展開した）のような表現をよく見かける。",
+      "confusables": "'open' は扉・箱などを開ける一般的な語。'unfold' は折られた紙・布・羽などを広げる動作に特化している。比喩用法では 'unfold' の方が文学的でドラマチック。",
+      "collocations": [
+        "unfold a map（地図を広げる）",
+        "the story unfolds（物語が展開する）",
+        "events unfolded（出来事が明らかになった）"
+      ],
+      "trivia": "Origami（折り紙）は世界中で人気だが、英語圏では「unfold」を逆に使って折り紙を解析する数学の分野がある。折り紙の数学は宇宙望遠鏡の設計にも応用されているんだって！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1539,
+    "word": "awaken",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "目を覚ます、覚醒する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・意識を）呼び起こす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈweɪkən/",
+    "syllables": "a-wak-en",
+    "audioHint": "アウェイクン",
+    "examples": [
+      {
+        "en": "The loud noise awakened her from a deep sleep.",
+        "ja": "大きな音が彼女を深い眠りから目覚めさせた。",
+        "blank": "The loud noise ___ her from a deep sleep.",
+        "blankAnswer": "awakened"
+      }
+    ],
+    "distractors": [
+      "疲弊させる",
+      "麻痺させる",
+      "沈静化させる"
+    ],
+    "confusableSpellings": [
+      "awaiken",
+      "awakken",
+      "awacken"
+    ],
+    "passive": {
+      "etymology": "古英語 'awaecnan' が語源。接頭辞 'a-'（強調）＋ 'waken'（目覚めさせる）の構造。語根は Proto-Germanic の「見張る・目を覚ます」を意味する語に遡る。",
+      "tips": "'wake'・'wake up'・'awake'・'awaken' は全て「目が覚める」関連だが微妙に違う。awaken はやや文語的・詩的で、比喩的な「意識を呼び起こす」用法でよく使われる。日常会話では 'wake up' が圧倒的に自然。",
+      "confusables": "'wake up' は最もカジュアルで日常的。'awaken' は文学・ジャーナリズムで好まれる。'rouse' は強制的に叩き起こすニュアンス。",
+      "collocations": [
+        "awaken from sleep（眠りから覚める）",
+        "awaken curiosity（好奇心を呼び起こす）",
+        "spiritually awakened（精神的に覚醒した）"
+      ],
+      "trivia": "スピリチュアル・自己啓発の世界では 'awakening'（覚醒）が大流行ワード。禅の「悟り」を英語では 'awakening' と訳すことも多い。Netflix映画のタイトルにも頻出する単語！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1540,
+    "word": "conceive",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "考え出す、思いつく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（子を）身ごもる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈsiːv/",
+    "syllables": "con-ceive",
+    "audioHint": "コンシーヴ",
+    "examples": [
+      {
+        "en": "He conceived a brilliant plan to solve the problem.",
+        "ja": "彼は問題を解決する素晴らしい計画を思いついた。",
+        "blank": "He ___ a brilliant plan to solve the problem.",
+        "blankAnswer": "conceived"
+      }
+    ],
+    "distractors": [
+      "忘れ去る",
+      "否定する",
+      "誤解する"
+    ],
+    "confusableSpellings": [
+      "concieve",
+      "conseive",
+      "conceve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'concipere' が語源。'con-'（共に・完全に）＋ 'capere'（取る・捕まえる）の組み合わせ。「アイデアを心の中に捕まえる」というイメージから「思いつく」の意味に。",
+      "tips": "最大の落とし穴は 'ie/ei' のスペル。'conceive' は 'i before e except after c' の例外ルールに従い '-ceive' となる。receive・deceive・perceive も同じパターン。名詞は 'concept'（概念）・'conception'（構想）。",
+      "confusables": "'imagine' は「想像する」で視覚的イメージを思い浮かべるニュアンス。'conceive' はアイデアや計画を「構想する・思いつく」より知的・創造的なプロセスに使われる。",
+      "collocations": [
+        "conceive an idea（アイデアを思いつく）",
+        "hard to conceive（想像しがたい）",
+        "conceive of（〜を思い描く）"
+      ],
+      "trivia": "スマートフォンのコンセプトを最初に 'conceive' したのは誰か？実はApple以前に1992年にIBMが 'Simon' という端末を構想していた。アイデアを conceive してから製品化まで10年以上かかることも！"
+    },
+    "frequency": 3300,
+    "cefr": "B2"
+  }
+]

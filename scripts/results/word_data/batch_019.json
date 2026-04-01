@@ -1,0 +1,1001 @@
+[
+  {
+    "id": 361,
+    "word": "web",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "ウェブ、インターネット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "クモの巣",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/wɛb/",
+    "syllables": "web",
+    "audioHint": "ウェブ",
+    "examples": [
+      {
+        "en": "She found the information on the web.",
+        "ja": "彼女はウェブでその情報を見つけた。",
+        "blank": "She found the information on the ___.",
+        "blankAnswer": "web"
+      }
+    ],
+    "distractors": [
+      "バージョン、版",
+      "ネットワーク回線",
+      "データベース"
+    ],
+    "confusableSpellings": [
+      "wab",
+      "wep"
+    ],
+    "passive": {
+      "etymology": "古英語 'webb'（織物、クモの巣）に由来。語根は「織る」を意味するゲルマン語系の weben。World Wide Web の略称として現代的な意味が加わった。",
+      "tips": "「ウェブサイト」と言うとき、英語では 'web site' または 'website' と書き、'web' 単体でもインターネット全体を指す。'the Web' と大文字にすることも多い。",
+      "confusables": "'internet' はインフラ全体を指し、'web' はその上で動くサービス群を指す。厳密には異なるが日常会話では混用されることも多い。",
+      "collocations": [
+        "web browser（ウェブブラウザ）",
+        "web design（ウェブデザイン）",
+        "spider's web（クモの巣）"
+      ],
+      "trivia": "「World Wide Web」を考案したティム・バーナーズ＝リーは、この発明の特許を取らずに無償公開した。もし特許を取っていたら現代のインターネットは全く違う形になっていたかも！"
+    },
+    "frequency": 400,
+    "cefr": "A2"
+  },
+  {
+    "id": 362,
+    "word": "symbol",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "象徴、シンボル",
+        "pos": "noun"
+      },
+      {
+        "meaning": "記号、符号",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪmbəl/",
+    "syllables": "sym-bol",
+    "audioHint": "スィンボル",
+    "examples": [
+      {
+        "en": "The dove is a symbol of peace.",
+        "ja": "鳩は平和の象徴だ。",
+        "blank": "The dove is a ___ of peace.",
+        "blankAnswer": "symbol"
+      }
+    ],
+    "distractors": [
+      "概念、考え",
+      "哲学的原理",
+      "理想、夢"
+    ],
+    "confusableSpellings": [
+      "simbel",
+      "symbel",
+      "symble"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'symbolon'（しるし、合い言葉）から。'sym-'（共に）＋ 'ballein'（投げる）の組み合わせで、「ともに投げ合うもの」→「照合するしるし」という意味に。",
+      "tips": "発音は「シンボル」ではなく「スィンボル」に近い。また 'cymbal'（シンバル・打楽器）と混同しないよう注意。スペルは似ているが意味は全く異なる。",
+      "confusables": "'symbol'（象徴・記号）と 'cymbal'（シンバル）は発音がほぼ同じ。文脈で判断するしかないが、スペルをしっかり覚えることが大切。",
+      "collocations": [
+        "status symbol（地位の象徴）",
+        "mathematical symbol（数学記号）",
+        "symbol of hope（希望の象徴）"
+      ],
+      "trivia": "ハート♥は今や「愛」の象徴だが、その形は実は心臓ではなくツタの葉や白鳥が向き合った姿など諸説ある。象徴の意味は時代とともに変化するものなのだ。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 363,
+    "word": "analysis",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "分析、解析",
+        "pos": "noun"
+      },
+      {
+        "meaning": "考察、検討",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈnæləsɪs/",
+    "syllables": "a-nal-y-sis",
+    "audioHint": "アナリスィス",
+    "examples": [
+      {
+        "en": "Her analysis of the data was very accurate.",
+        "ja": "彼女のデータ分析は非常に正確だった。",
+        "blank": "Her ___ of the data was very accurate.",
+        "blankAnswer": "analysis"
+      }
+    ],
+    "distractors": [
+      "実験、試験",
+      "講義、授業",
+      "理論、学説"
+    ],
+    "confusableSpellings": [
+      "analysys",
+      "analisis",
+      "analisys"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'analusis' から。'ana-'（上へ・分けて）＋ 'luein'（解く・ほどく）で「分解すること」が原義。",
+      "tips": "複数形は 'analyses'（アナリスィーズ）であり、'analysises' は誤り。日本語の「アナリシス」は単数、「アナリシーズ」が複数と覚えよう。動詞形は 'analyze'（米）/ 'analyse'（英）。",
+      "confusables": "'analysis'（名詞）と 'analyze'（動詞）を混同しないこと。'He analysis the data.' は誤りで、正しくは 'He analyzes the data.'",
+      "collocations": [
+        "data analysis（データ分析）",
+        "in-depth analysis（詳細な分析）",
+        "carry out an analysis（分析を行う）"
+      ],
+      "trivia": "「analysis」はビジネス・学術・医療など幅広い分野で使われる超汎用語。「フロイト（Freud）」が広めた精神分析は 'psychoanalysis' と呼ばれ、この単語の歴史を大きく変えた。"
+    },
+    "frequency": 300,
+    "cefr": "B2"
+  },
+  {
+    "id": 364,
+    "word": "version",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "バージョン、版",
+        "pos": "noun"
+      },
+      {
+        "meaning": "解釈、見方",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvɜːrʒən/",
+    "syllables": "ver-sion",
+    "audioHint": "ヴァージョン",
+    "examples": [
+      {
+        "en": "Please download the latest version of the app.",
+        "ja": "アプリの最新バージョンをダウンロードしてください。",
+        "blank": "Please download the latest ___ of the app.",
+        "blankAnswer": "version"
+      }
+    ],
+    "distractors": [
+      "システム全体",
+      "アップデート内容",
+      "ソースコード"
+    ],
+    "confusableSpellings": [
+      "varsion",
+      "verson",
+      "vertion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'versio'（回転、変換）から。'vertere'（回す・変える）が語根で、「向きを変えたもの」→「別の形にしたもの」という意味に発展。",
+      "tips": "技術的な文脈では 'v1.0' のように略されることが多い。また「自分なりの解釈・見方」という意味でも使え、'his version of events'（彼の言い分）のように使う場面も覚えておこう。",
+      "confusables": "'version'（版・解釈）と 'edition'（特定の出版物の版）は似ているが、本の場合は 'edition'、ソフトウェアや映画の場合は 'version' を使うのが自然。",
+      "collocations": [
+        "latest version（最新版）",
+        "beta version（ベータ版）",
+        "version control（バージョン管理）"
+      ],
+      "trivia": "映画やゲームでよく見る『Director's Cut』も version の一種。「監督が本当に作りたかった版」という意味で、劇場公開版とは別に存在するこだわりの一品なのだ。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 365,
+    "word": "perspective",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "視点、観点",
+        "pos": "noun"
+      },
+      {
+        "meaning": "遠近法、透視図法",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pərˈspɛktɪv/",
+    "syllables": "per-spec-tive",
+    "audioHint": "パースペクティヴ",
+    "examples": [
+      {
+        "en": "Try to see things from a different perspective.",
+        "ja": "物事を違う視点から見てみよう。",
+        "blank": "Try to see things from a different ___.",
+        "blankAnswer": "perspective"
+      }
+    ],
+    "distractors": [
+      "概念的な象徴",
+      "哲学的な主張",
+      "精神的な信念"
+    ],
+    "confusableSpellings": [
+      "perspektive",
+      "perspectiv",
+      "persepctive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'perspicere' から。'per-'（通して）＋ 'specere'（見る）で「透き通して見ること」が原義。絵画の遠近法から転じて「物の見方・視点」の意味になった。",
+      "tips": "'from my perspective'（私の観点からは）は意見を述べるときの便利なフレーズ。日本語の「私的には」に相当し、議論や発表でよく使われる。",
+      "confusables": "'perspective'（主観的な視点・物の見方）と 'viewpoint'（立場・意見の立脚点）は似ているが、perspective はより哲学的・感覚的なニュアンスを持つ。",
+      "collocations": [
+        "from a different perspective（別の視点から）",
+        "put things in perspective（物事を正しく見る）",
+        "global perspective（グローバルな視点）"
+      ],
+      "trivia": "ルネサンス期の画家たちが「遠近法（perspective）」を発見したことで、絵画が一気にリアルになった。視点ひとつで世界の見え方が変わるのは、絵画も人生も同じかもしれない。"
+    },
+    "frequency": 500,
+    "cefr": "B2"
+  },
+  {
+    "id": 366,
+    "word": "crisis",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "危機、重大局面",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（病気の）峠、転機",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkraɪsɪs/",
+    "syllables": "cri-sis",
+    "audioHint": "クライスィス",
+    "examples": [
+      {
+        "en": "The country is facing a serious economic crisis.",
+        "ja": "その国は深刻な経済危機に直面している。",
+        "blank": "The country is facing a serious economic ___.",
+        "blankAnswer": "crisis"
+      }
+    ],
+    "distractors": [
+      "政策、方針",
+      "制度、システム",
+      "改革、変革"
+    ],
+    "confusableSpellings": [
+      "crysis",
+      "criis",
+      "crises"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'krisis'（決断・転換点）から。'krinein'（区別する・判断する）が語根。医学用語として「病気の転換点」を意味したのが起源。",
+      "tips": "複数形は 'crises'（クライスィーズ）で、'crisises' は誤り。スペルを見ると 'crisis' と 'crises' が混乱しやすいので注意。日本語の「クライシス」でもそのまま使われることがある。",
+      "confusables": "'crisis'（危機・重大局面）と 'emergency'（緊急事態）の違いに注意。emergency はより突発的・即時対応が必要な場面、crisis は長期的・構造的な問題に使う。",
+      "collocations": [
+        "financial crisis（金融危機）",
+        "identity crisis（アイデンティティの危機）",
+        "in crisis（危機的状況に）"
+      ],
+      "trivia": "「危機」を表す漢字「危機」は「危険＋機会」と解釈されることがあり、英語でスピーチの際に引用されることがある。ただし実際の中国語ではそう単純ではないと言語学者は指摘しており、「誤解されがちな豆知識」としても有名。"
+    },
+    "frequency": 450,
+    "cefr": "B1"
+  },
+  {
+    "id": 367,
+    "word": "disaster",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "災害、大惨事",
+        "pos": "noun"
+      },
+      {
+        "meaning": "大失敗、ひどい結果",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈzæstər/",
+    "syllables": "dis-as-ter",
+    "audioHint": "ディザスター",
+    "examples": [
+      {
+        "en": "The earthquake was the worst natural disaster in decades.",
+        "ja": "その地震は数十年で最悪の自然災害だった。",
+        "blank": "The earthquake was the worst natural ___ in decades.",
+        "blankAnswer": "disaster"
+      }
+    ],
+    "distractors": [
+      "気候変動の影響",
+      "地形的な変化",
+      "環境汚染の問題"
+    ],
+    "confusableSpellings": [
+      "desaster",
+      "disater",
+      "dissaster"
+    ],
+    "passive": {
+      "etymology": "イタリア語 'disastro' から。'dis-'（悪い・離れた）＋ 'astro'（星）で「星の巡りが悪い」が原義。占星術の時代、不幸は星の配置のせいだと考えられていた。",
+      "tips": "日常会話で「大失敗・ひどいもの」という意味でも使う。例えば 'The dinner was a complete disaster.'（夕食は完全な失敗だった）のように使え、大げさな表現として便利。",
+      "confusables": "'disaster'（大惨事・災害）と 'catastrophe'（破局的大惨事）は似ているが、catastrophe はさらに規模が大きく壊滅的なニュアンス。disaster のほうが日常的に使いやすい。",
+      "collocations": [
+        "natural disaster（自然災害）",
+        "disaster relief（災害救援）",
+        "disaster management（災害管理）"
+      ],
+      "trivia": "「ディザスター映画」というジャンルがあるほど、この単語は映画と相性がいい。語源が「星の巡りが悪い」ことを考えると、昔の人が星に人生を支配されていたことがよく分かる。"
+    },
+    "frequency": 550,
+    "cefr": "B1"
+  },
+  {
+    "id": 368,
+    "word": "lecture",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "講義、講演",
+        "pos": "noun"
+      },
+      {
+        "meaning": "お説教、訓戒",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlɛktʃər/",
+    "syllables": "lec-ture",
+    "audioHint": "レクチャー",
+    "examples": [
+      {
+        "en": "She gave an interesting lecture on climate change.",
+        "ja": "彼女は気候変動について興味深い講義をした。",
+        "blank": "She gave an interesting ___ on climate change.",
+        "blankAnswer": "lecture"
+      }
+    ],
+    "distractors": [
+      "試験、テスト",
+      "研究論文",
+      "学習カリキュラム"
+    ],
+    "confusableSpellings": [
+      "lectur",
+      "leacture",
+      "lectuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'lectura'（読むこと）から。'legere'（読む・選ぶ）が語根で、もともと「声に出して読み上げる行為」が大学の講義の始まりだった。",
+      "tips": "動詞としても使えるが、'lecture someone'（〜に説教する）という意味になると少しネガティブなニュアンスになる。'Don't lecture me!'（説教しないで！）のように使う。",
+      "confusables": "'lecture'（大学の講義・専門的な講演）と 'lesson'（学校の授業・レッスン）の違いに注意。大学では lecture、学校や個人指導では lesson を使うのが自然。",
+      "collocations": [
+        "attend a lecture（講義に出席する）",
+        "give a lecture（講義をする）",
+        "lecture hall（講義室）"
+      ],
+      "trivia": "中世ヨーロッパの大学では、教授が聖書やアリストテレスをただ「読み上げる」だけの授業が主流だった。それが今の「lecture（講義）」の起源。印刷技術がなかった時代の知恵なのだ。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 369,
+    "word": "psychology",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "心理学",
+        "pos": "noun"
+      },
+      {
+        "meaning": "心理、精神状態",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/saɪˈkɒlədʒi/",
+    "syllables": "psy-chol-o-gy",
+    "audioHint": "サイコロジー",
+    "examples": [
+      {
+        "en": "She is studying psychology at university.",
+        "ja": "彼女は大学で心理学を勉強している。",
+        "blank": "She is studying ___ at university.",
+        "blankAnswer": "psychology"
+      }
+    ],
+    "distractors": [
+      "生物学的な研究",
+      "社会学的理論",
+      "哲学的な学問体系"
+    ],
+    "confusableSpellings": [
+      "psycology",
+      "phsychology",
+      "psycholgy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語から。'psyche'（魂・精神）＋ 'logos'（言葉・学問）で「魂を研究する学問」が原義。psyche はギリシャ神話の美少女の名前でもある。",
+      "tips": "最初の 'p' は発音しない（サイレントP）。'psychology' → 「サイコロジー」と発音し、'p' を発音して「プサイコロジー」とならないよう注意。同様に 'psychiatry' も 'p' は無音。",
+      "confusables": "'psychology'（心理学・学問分野）と 'psychiatry'（精神医学・医療分野）の違いに注意。psychologist はカウンセリングを行うが、psychiatrist は医師で薬を処方できる。",
+      "collocations": [
+        "study psychology（心理学を学ぶ）",
+        "social psychology（社会心理学）",
+        "reverse psychology（逆説的心理操作）"
+      ],
+      "trivia": "「reverse psychology（裏をかく心理術）」はポップカルチャーでも大人気。「これ絶対やらないでね」と言うと相手がやりたくなる、あれのこと。親や先生がよく使う古典的なテクニックだ。"
+    },
+    "frequency": 650,
+    "cefr": "B2"
+  },
+  {
+    "id": 370,
+    "word": "gender",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "性別、ジェンダー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（文法の）性",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdʒɛndər/",
+    "syllables": "gen-der",
+    "audioHint": "ジェンダー",
+    "examples": [
+      {
+        "en": "Gender equality is important in today's society.",
+        "ja": "ジェンダー平等は現代社会において重要だ。",
+        "blank": "___ equality is important in today's society.",
+        "blankAnswer": "Gender"
+      }
+    ],
+    "distractors": [
+      "民族的な背景",
+      "社会的な階級",
+      "政治的な立場"
+    ],
+    "confusableSpellings": [
+      "gendor",
+      "gendar",
+      "gendre"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'genus'（種類・種族）から古フランス語 'gendre' を経て英語へ。語根 'gen-' は「生む・産む」を意味し、'gene'（遺伝子）や 'generation'（世代）とも同じ語根を持つ。",
+      "tips": "'gender' と 'sex' はどちらも「性」を意味するが、現代英語では sex は生物学的な性、gender は社会的・文化的に形成された性を指すことが多い。学術文書やニュースでは使い分けに注意。",
+      "confusables": "'gender'（社会的・文化的な性）と 'sex'（生物学的な性）の使い分けは近年特に重要。フォームの記入欄でも 'gender' と 'sex' を分けて設けるケースが増えている。",
+      "collocations": [
+        "gender equality（ジェンダー平等）",
+        "gender roles（ジェンダーの役割）",
+        "gender gap（ジェンダーギャップ）"
+      ],
+      "trivia": "日本語の「ジェンダー」はそのまま英語から来ているが、実は文法用語としての gender（男性名詞・女性名詞など）が先に英語に入ってきた。社会的な性別の意味で使われるようになったのは比較的最近のことだ。"
+    },
+    "frequency": 480,
+    "cefr": "B1"
+  },
+  {
+    "id": 371,
+    "word": "custom",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "慣習、風習",
+        "pos": "noun"
+      },
+      {
+        "meaning": "習慣、しきたり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkʌstəm/",
+    "syllables": "cus-tom",
+    "audioHint": "カスタム",
+    "examples": [
+      {
+        "en": "It is a custom to bow when greeting someone in Japan.",
+        "ja": "日本では挨拶のときにお辞儀をするのが慣習です。",
+        "blank": "It is a ___ to bow when greeting someone in Japan.",
+        "blankAnswer": "custom"
+      }
+    ],
+    "distractors": [
+      "流行、トレンド",
+      "規則、規制",
+      "祭り、祝典"
+    ],
+    "confusableSpellings": [
+      "costom",
+      "custome",
+      "custem"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'consuetudo'（習慣）に由来。'con-'（共に）＋ 'suescere'（慣れる）から派生し、古フランス語 'costume' を経て英語へ。",
+      "tips": "「カスタム（custom-made）」のように「オーダーメイド」の意味でも使われますが、名詞単体では「慣習・風習」が主な意味です。また 'customs'（複数形）は「税関」という全く別の意味になるので注意！",
+      "confusables": "'costume'（コスチューム・衣装）とスペルが似ていて混同しやすい。custom は「習慣」、costume は「衣装・服装」と意味が全く異なります。",
+      "collocations": [
+        "local custom（地域の慣習）",
+        "ancient custom（古来の風習）",
+        "follow a custom（慣習に従う）"
+      ],
+      "trivia": "英語の 'costume' と 'custom' は同じ語源から分岐した単語。もともとどちらも「習慣・スタイル」を意味していたが、costume がファッション・衣装の意味に特化していった。同じ祖先を持つ「双子語」です！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 372,
+    "word": "court",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "裁判所、法廷",
+        "pos": "noun"
+      },
+      {
+        "meaning": "コート（競技場）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kɔːrt/",
+    "syllables": "court",
+    "audioHint": "コート",
+    "examples": [
+      {
+        "en": "The case was brought to court last Monday.",
+        "ja": "その事件は先週の月曜日に裁判所に持ち込まれた。",
+        "blank": "The case was brought to ___ last Monday.",
+        "blankAnswer": "court"
+      }
+    ],
+    "distractors": [
+      "議会、国会",
+      "条約、協定",
+      "選挙、投票"
+    ],
+    "confusableSpellings": [
+      "cort",
+      "coart",
+      "courte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'cohors'（囲まれた場所・中庭）に由来。古フランス語 'cort' を経て英語へ。元々は「王の宮廷の中庭」を意味し、そこで裁判が行われたことから「法廷」の意味に発展。",
+      "tips": "「コート」とカタカナで覚えると「テニスコート」しか思い浮かばない人が多いですが、法律英語では「裁判所・法廷」が最重要義。'go to court'（裁判になる）、'in court'（法廷で）などのフレーズで頻出します。",
+      "confusables": "'court'（裁判所）と 'court'（競技コート）は同じ単語の多義語。さらに動詞では「〜に求愛する」という意味もある。文脈をしっかり読むことが大切。",
+      "collocations": [
+        "Supreme Court（最高裁判所）",
+        "go to court（訴訟を起こす）",
+        "court order（裁判所命令）"
+      ],
+      "trivia": "英語の 'court' はスポーツの「コート」、王様の「宮廷」、「裁判所」すべてを表す。実はこれらは全部つながっていて、元々「王の中庭」で裁判も試合も行われていたから同じ単語になったんです！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 373,
+    "word": "desert",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "砂漠",
+        "pos": "noun"
+      },
+      {
+        "meaning": "見捨てる、放棄する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdezərt/",
+    "syllables": "des-ert",
+    "audioHint": "デザート（名詞）／デザート（動詞はデザート）",
+    "examples": [
+      {
+        "en": "The Sahara is the largest hot desert in the world.",
+        "ja": "サハラは世界最大の熱砂漠です。",
+        "blank": "The Sahara is the largest hot ___ in the world.",
+        "blankAnswer": "desert"
+      }
+    ],
+    "distractors": [
+      "火山、噴火口",
+      "湿地、沼地",
+      "氷河、氷原"
+    ],
+    "confusableSpellings": [
+      "dessert",
+      "dezert",
+      "deseart"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'desertum'（見捨てられた場所）に由来。'de-'（離れて）＋ 'serere'（つなぐ・耕す）→「耕されていない見捨てられた土地」が原義。",
+      "tips": "最大の注意点は 'dessert'（デザート・甘い食べ物）との混同！'desert'（砂漠）はs が1つ、'dessert'（食後のデザート）はsが2つ。「デザートはStrawberry Shortcake（SS）でsが2つ」と覚えると忘れません。",
+      "confusables": "'desert'（砂漠・名詞）と 'dessert'（デザート・食べ物）は発音も似ていて超紛らわしい。また動詞 'desert'（/dɪˈzɜːrt/）は「見捨てる」という意味でアクセントが後ろにずれる。",
+      "collocations": [
+        "desert island（無人島）",
+        "desert climate（砂漠気候）",
+        "cross a desert（砂漠を横断する）"
+      ],
+      "trivia": "「砂漠」のイメージは砂だらけですが、実は世界最大の砂漠は南極大陸！「砂漠」の定義は「年間降水量250mm以下」なので、氷で覆われた南極も立派な砂漠なんです。砂がなくても砂漠になれる！"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 374,
+    "word": "soil",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "土、土壌",
+        "pos": "noun"
+      },
+      {
+        "meaning": "汚す、汚れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɔɪl/",
+    "syllables": "soil",
+    "audioHint": "ソイル",
+    "examples": [
+      {
+        "en": "The soil in this region is rich in minerals.",
+        "ja": "この地域の土壌はミネラルが豊富です。",
+        "blank": "The ___ in this region is rich in minerals.",
+        "blankAnswer": "soil"
+      }
+    ],
+    "distractors": [
+      "岩石、岩盤",
+      "大気、空気層",
+      "河川、水流"
+    ],
+    "confusableSpellings": [
+      "soile",
+      "soyl",
+      "soill"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'soil'（泥・沼地）、ラテン語 'solium'（土台・地面）に由来。「大地・地面」を意味する語根から。",
+      "tips": "「土」を表す英語には 'soil'・'dirt'・'earth'・'ground' がありますが、農業・環境文脈では 'soil' が最も適切。'dirt' はどちらかというと「汚れた土・ほこり」のニュアンスが強いです。",
+      "confusables": "'soil'（土壌）と 'soul'（魂）は発音が全く異なりますがスペルが似て見えることがある。また動詞 'soil'（汚す）は 'soiled clothes'（汚れた服）のように受動態でよく使われます。",
+      "collocations": [
+        "fertile soil（肥沃な土壌）",
+        "soil erosion（土壌浸食）",
+        "native soil（故郷の土）"
+      ],
+      "trivia": "「native soil（故郷の土）」は比喩的に「祖国」を意味する詩的表現。「この土地の土を踏む」が「故郷に帰る」という感情と結びついた表現で、英語の歌や文学に頻出。土にこんなロマンがあるとは！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 375,
+    "word": "agriculture",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "農業、農耕",
+        "pos": "noun"
+      },
+      {
+        "meaning": "農学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæɡrɪkʌltʃər/",
+    "syllables": "ag-ri-cul-ture",
+    "audioHint": "アグリカルチャー",
+    "examples": [
+      {
+        "en": "Agriculture has changed greatly with modern technology.",
+        "ja": "農業は現代技術によって大きく変化しました。",
+        "blank": "___ has changed greatly with modern technology.",
+        "blankAnswer": "Agriculture"
+      }
+    ],
+    "distractors": [
+      "林業、森林管理",
+      "漁業、水産業",
+      "鉱業、採掘業"
+    ],
+    "confusableSpellings": [
+      "agricultuer",
+      "aggriculture",
+      "agricultur"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'agricultura' から。'agri'（畑・土地）＋ 'cultura'（耕すこと・文化）の合成語。'agri' は 'ager'（畑）の属格形。",
+      "tips": "発音が長い単語なので音節ごとに区切って覚えるのがコツ。ag-ri-cul-ture と4音節。形容詞形 'agricultural'（農業の）、従事者 'farmer'（農家）との使い分けも重要です。",
+      "confusables": "'agriculture'（農業全般）と 'farming'（農業・農場経営）は意味が近いが、agriculture はより学術的・産業的なニュアンス。会話では farming の方が自然に聞こえることが多い。",
+      "collocations": [
+        "sustainable agriculture（持続可能な農業）",
+        "agriculture industry（農業産業）",
+        "minister of agriculture（農林大臣）"
+      ],
+      "trivia": "英語の 'culture'（文化）と 'agriculture'（農業）は同じ語根 'cultura'（耕す）を持つ！文明・文化とは「土を耕すこと」から始まったという考え方が語源に込められている。カルチャーとアグリカルチャー、実は親戚なんです。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 376,
+    "word": "fossil",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "化石",
+        "pos": "noun"
+      },
+      {
+        "meaning": "時代遅れの人・物（比喩）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɒsəl/",
+    "syllables": "fos-sil",
+    "audioHint": "フォッスル",
+    "examples": [
+      {
+        "en": "Scientists found a dinosaur fossil in the rock layer.",
+        "ja": "科学者たちは岩層から恐竜の化石を発見しました。",
+        "blank": "Scientists found a dinosaur ___ in the rock layer.",
+        "blankAnswer": "fossil"
+      }
+    ],
+    "distractors": [
+      "鉱石、鉱物",
+      "地層、岩盤",
+      "生態系、環境系"
+    ],
+    "confusableSpellings": [
+      "fossile",
+      "fossel",
+      "fосsil"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'fossilis'（掘り出されたもの）に由来。'fodere'（掘る）の過去分詞形から。「地面を掘って出てくるもの」が原義。",
+      "tips": "発音は「フォッスル」で、2番目の音節のeは弱く発音（シュワー音）。また 'fossil fuel'（化石燃料）は環境問題で頻出のコロケーションなのでセットで覚えましょう。",
+      "confusables": "'fossil'（化石）と 'mineral'（鉱物）は混同されやすいが、fossil は生物の痕跡・遺骸が石化したもの、mineral は無機物の天然物質。全く別の概念です。",
+      "collocations": [
+        "fossil fuel（化石燃料）",
+        "fossil record（化石記録）",
+        "living fossil（生きた化石）"
+      ],
+      "trivia": "「生きた化石（living fossil）」という言葉はチャールズ・ダーウィンが作った造語！シーラカンスやカブトガニなど、何億年も姿を変えていない生き物を指します。化石は死んだものだけじゃない！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 377,
+    "word": "document",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "文書、書類",
+        "pos": "noun"
+      },
+      {
+        "meaning": "記録する、文書化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɒkjʊmənt/",
+    "syllables": "doc-u-ment",
+    "audioHint": "ドキュメント",
+    "examples": [
+      {
+        "en": "Please sign the document before the meeting ends.",
+        "ja": "会議が終わる前に書類に署名してください。",
+        "blank": "Please sign the ___ before the meeting ends.",
+        "blankAnswer": "document"
+      }
+    ],
+    "distractors": [
+      "定理、法則",
+      "講義、授業",
+      "実験、試験"
+    ],
+    "confusableSpellings": [
+      "documant",
+      "docuement",
+      "documment"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'documentum'（教え・証拠・証明）に由来。'docere'（教える）＋ '-mentum'（行為・結果を示す接尾辞）の構成。",
+      "tips": "名詞 'document'（/ˈdɒkjʊmənt/）と動詞 'document'（/ˈdɒkjʊment/）はスペルが同じでもアクセントが微妙に違う場合があります。動詞として使う場合は 'document the findings'（発見を記録する）のように使います。",
+      "confusables": "'document'（文書）と 'documentary'（ドキュメンタリー）は語源が同じ。また 'documentation'（文書化・証拠書類）という派生語もビジネス英語で頻出です。",
+      "collocations": [
+        "official document（公式文書）",
+        "document evidence（証拠を記録する）",
+        "travel document（旅行書類）"
+      ],
+      "trivia": "英語の 'doctor'（医者・博士）と 'document' は同じラテン語 'docere'（教える）が語源！医者は「教える人・学識者」、文書は「教えを記したもの」という意味だったんです。doctor と document が兄弟単語とは驚きですよね。"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 378,
+    "word": "vocabulary",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "語彙、単語力",
+        "pos": "noun"
+      },
+      {
+        "meaning": "用語集、ボキャブラリー",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/vəˈkæbjʊləri/",
+    "syllables": "vo-cab-u-lar-y",
+    "audioHint": "ヴォキャビュラリー",
+    "examples": [
+      {
+        "en": "Reading books daily helps expand your vocabulary.",
+        "ja": "毎日本を読むことで語彙を広げることができます。",
+        "blank": "Reading books daily helps expand your ___.",
+        "blankAnswer": "vocabulary"
+      }
+    ],
+    "distractors": [
+      "文法、構文",
+      "発音、音声",
+      "作文、論述"
+    ],
+    "confusableSpellings": [
+      "vocabulury",
+      "vocaublary",
+      "vocabulery"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'vocabularium' に由来。'vocabulum'（言葉・名称）＋ '-arium'（集合を示す接尾辞）。'vocare'（呼ぶ）が語根で「呼び名の集まり」が原義。",
+      "tips": "5音節もある長い単語なので、スペルミスが多発します。'vocab' と略して会話で使うのもOK。「語彙力が高い」は 'have a large/rich vocabulary'、「語彙が少ない」は 'have a limited vocabulary' と言います。",
+      "confusables": "'vocabulary'（語彙）と 'glossary'（用語集・巻末語彙リスト）は似た意味ですが、vocabulary は頭の中にある語彙力全般、glossary は書物の末尾についている単語リストを指します。",
+      "collocations": [
+        "build vocabulary（語彙を増やす）",
+        "active vocabulary（使える語彙）",
+        "technical vocabulary（専門用語）"
+      ],
+      "trivia": "英語の語彙数は世界の言語の中でもトップクラスで、約17万語以上が辞書に登録されているとも言われます。でもネイティブスピーカーが日常で使う単語は約2万〜3万語程度。全部覚えなくて大丈夫！"
+    },
+    "frequency": 1100,
+    "cefr": "A2"
+  },
+  {
+    "id": 379,
+    "word": "intelligent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "知的な、聡明な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "賢い、理解力のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtelɪdʒənt/",
+    "syllables": "in-tel-li-gent",
+    "audioHint": "インテリジェント",
+    "examples": [
+      {
+        "en": "She is an intelligent student who always asks great questions.",
+        "ja": "彼女はいつも素晴らしい質問をする知的な生徒です。",
+        "blank": "She is an ___ student who always asks great questions.",
+        "blankAnswer": "intelligent"
+      }
+    ],
+    "distractors": [
+      "勤勉な、真面目な",
+      "創造的な、独創的な",
+      "感情的な、情緒的な"
+    ],
+    "confusableSpellings": [
+      "intellegent",
+      "inteligent",
+      "intelligant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intelligens' から。'inter-'（〜の間に）＋ 'legere'（選ぶ・読む）→「物事の間から選び取る能力がある」が原義。",
+      "tips": "'intelligent'（生まれつきの知的能力が高い）と 'smart'（頭の回転が速い・要領がいい）は似ていますが、intelligent の方がやや格式的・学術的なニュアンス。また 'intellectual'（知識人・知的な）とも混同しやすいので注意。",
+      "confusables": "'intelligent'（知的な）と 'intellectual'（知識人・知的活動に関する）は語根が同じ。intelligent は能力を、intellectual は知的な活動・思考への関心を強調します。",
+      "collocations": [
+        "highly intelligent（非常に知的な）",
+        "intelligent design（知的設計）",
+        "emotionally intelligent（感情的知性がある）"
+      ],
+      "trivia": "AI（Artificial Intelligence）の 'intelligence' も同じ語源。もともとは「物事を読み取り選び取る力」という意味だったのが、今や機械にも使われるように！語源を知ると AI という言葉の意味が深く感じられますよね。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 380,
+    "word": "conscious",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "意識している、自覚している",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "意識のある、気づいている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒnʃəs/",
+    "syllables": "con-scious",
+    "audioHint": "コンシャス",
+    "examples": [
+      {
+        "en": "She was conscious of the mistake she had made.",
+        "ja": "彼女は自分が犯したミスを意識していた。",
+        "blank": "She was ___ of the mistake she had made.",
+        "blankAnswer": "conscious"
+      }
+    ],
+    "distractors": [
+      "明らかな、明白な",
+      "正確な、精密な",
+      "受動的な、消極的な"
+    ],
+    "confusableSpellings": [
+      "consious",
+      "concious",
+      "consciuos"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conscius' から。'con-'（共に）＋ 'scire'（知る）→「自分自身と共に知っている」＝「自己認識がある」が原義。",
+      "tips": "'conscious of ~'（〜を意識している）という前置詞 'of' との組み合わせを覚えておきましょう。また 'unconscious'（無意識の）は対義語。'self-conscious'（自意識過剰な・恥ずかしがりな）という派生表現も頻出です。",
+      "confusables": "'conscious'（意識している）と 'conscience'（良心）はスペルが似ていて紛らわしい。conscious は形容詞で「気づいている状態」、conscience は名詞で「善悪を判断する内なる声」を指します。",
+      "collocations": [
+        "become conscious of（〜を意識するようになる）",
+        "self-conscious（自意識過剰な）",
+        "environmentally conscious（環境意識の高い）"
+      ],
+      "trivia": "心理学者フロイトが「無意識（unconscious）」という概念を広めたことで、conscious という言葉が一般にも普及しました。もともと哲学用語だった言葉が、フロイトのおかげで日常語になったんです。意識するって、実は奥が深い！"
+    },
+    "frequency": 1000,
+    "cefr": "B2"
+  }
+]

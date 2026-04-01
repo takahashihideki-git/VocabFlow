@@ -1,0 +1,997 @@
+[
+  {
+    "id": 1201,
+    "word": "infer",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "推論する、推測する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "示唆する（古用法）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈfɜːr/",
+    "syllables": "in-fer",
+    "audioHint": "インファー",
+    "examples": [
+      {
+        "en": "From her silence, he inferred that she was upset.",
+        "ja": "彼女の沈黙から、彼は彼女が動揺していると推測した。",
+        "blank": "From her silence, he ___ that she was upset.",
+        "blankAnswer": "inferred"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "記憶する",
+      "集中する"
+    ],
+    "confusableSpellings": [
+      "infere",
+      "inferr",
+      "enfer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inferre（中へ運ぶ）から。in-（中へ）＋ ferre（運ぶ）。証拠を「中へ持ち込んで」結論を導くイメージ。",
+      "tips": "infer と imply はよく混同される。imply は話し手が「暗示する」側、infer は聞き手が「推論する」側。'Are you inferring I'm wrong?' は誤用で、正しくは 'Are you implying I'm wrong?' です。",
+      "confusables": "imply（暗示する）との混同に注意。imply → 発信者が意味を込める、infer → 受信者が意味を読み取る、という方向の違いを覚えよう。",
+      "collocations": [
+        "infer from～（〜から推論する）",
+        "infer that節",
+        "correctly infer（正しく推論する）"
+      ],
+      "trivia": "法廷ドラマでよく出る単語。陪審員が証拠から「infer」するシーンが多い。推理小説好きなら自然と身につく単語！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1202,
+    "word": "esteem",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "尊重する、尊敬する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "尊重、尊敬（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈstiːm/",
+    "syllables": "es-teem",
+    "audioHint": "イスティーム",
+    "examples": [
+      {
+        "en": "She is highly esteemed by her colleagues for her dedication.",
+        "ja": "彼女はその献身的な姿勢から同僚に高く評価されている。",
+        "blank": "She is highly ___ by her colleagues for her dedication.",
+        "blankAnswer": "esteemed"
+      }
+    ],
+    "distractors": [
+      "批判する",
+      "無視する",
+      "妨害する"
+    ],
+    "confusableSpellings": [
+      "esteam",
+      "estem",
+      "esteme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 aestimare（価値を見積もる）から。古フランス語 estimer を経由して英語へ。「値段をつける→価値を認める→尊重する」と意味が変化した。",
+      "tips": "self-esteem（自尊心）という形で日本語にも入っているので、名詞の使い方はイメージしやすい。動詞では highly esteem のように副詞と組み合わせることが多い。",
+      "confusables": "respect（尊敬する）より改まったフォーマルな語。admire は能力や業績に感嘆するニュアンスが強く、esteem は人格や価値への敬意を含む。",
+      "collocations": [
+        "highly esteemed（非常に尊重される）",
+        "self-esteem（自尊心）",
+        "hold in esteem（〜を尊重する）"
+      ],
+      "trivia": "self-esteem は1980〜90年代のアメリカで「心理学ブーム」に乗って爆発的に広まった言葉。今やカウンセリングの必須ワードに！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1203,
+    "word": "tackle",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り組む、対処する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "タックルする（スポーツ）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtækəl/",
+    "syllables": "tac-kle",
+    "audioHint": "タックル",
+    "examples": [
+      {
+        "en": "The team tackled the complex problem with great enthusiasm.",
+        "ja": "チームは複雑な問題に大きな熱意をもって取り組んだ。",
+        "blank": "The team ___ the complex problem with great enthusiasm.",
+        "blankAnswer": "tackled"
+      }
+    ],
+    "distractors": [
+      "加速する",
+      "解散する",
+      "縮小する"
+    ],
+    "confusableSpellings": [
+      "takle",
+      "tackel",
+      "tackel"
+    ],
+    "passive": {
+      "etymology": "中低地ドイツ語 takel（船の索具）が起源とされる。「索具で引っ張る→つかみかかる→問題に取り組む」と意味が発展した。",
+      "tips": "tackle a problem / tackle an issue のように「難しいこと」に積極的に立ち向かうニュアンスがある。deal with より能動的・果敢な印象を与える。",
+      "confusables": "deal with は中立的な「対処」、address はフォーマルな「取り上げる」、tackle は「困難に立ち向かう」というエネルギッシュなニュアンスが特徴。",
+      "collocations": [
+        "tackle a problem（問題に取り組む）",
+        "tackle climate change（気候変動に取り組む）",
+        "tackle head-on（正面から取り組む）"
+      ],
+      "trivia": "ラグビーやアメフトの「タックル」と同じ語源。スポーツの激しいぶつかり合いのイメージが、「難問に体当たりする」意味に転じたと思うと納得！"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1204,
+    "word": "venture",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "思い切って〜する、リスクを冒す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "冒険的企業、ベンチャー（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈventʃər/",
+    "syllables": "ven-ture",
+    "audioHint": "ヴェンチャー",
+    "examples": [
+      {
+        "en": "They ventured into a new market despite the risks.",
+        "ja": "リスクにもかかわらず、彼らは新しい市場に乗り出した。",
+        "blank": "They ___ into a new market despite the risks.",
+        "blankAnswer": "ventured"
+      }
+    ],
+    "distractors": [
+      "投資を回収する",
+      "契約を解除する",
+      "価格を固定する"
+    ],
+    "confusableSpellings": [
+      "ventura",
+      "vencher",
+      "ventuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 adventura（起こりそうなこと）→ 古フランス語 aventure（冒険）→ adventure の短縮形として venture が生まれた。",
+      "tips": "venture to do は「思い切って〜する」という丁寧な表現。'I venture to suggest...' のように、やや控えめに意見を述べる際にも使う。ビジネスでは名詞の venture（合弁事業）もよく使われる。",
+      "confusables": "risk は名詞・動詞両方で「危険を冒す」だが、venture はよりポジティブで挑戦的なニュアンス。joint venture（合弁事業）はビジネス必須表現。",
+      "collocations": [
+        "venture capital（ベンチャーキャピタル）",
+        "joint venture（合弁事業）",
+        "venture into～（〜に乗り出す）"
+      ],
+      "trivia": "「ベンチャー企業」は和製英語的な使い方。英語では startup の方が一般的。venture は「冒険」のニュアンスが強く、venture capitalist（VC）という形でよく登場する。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1205,
+    "word": "accelerate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "加速する、速める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "促進する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əkˈseləreɪt/",
+    "syllables": "ac-cel-er-ate",
+    "audioHint": "アクセラレイト",
+    "examples": [
+      {
+        "en": "Digital technology has accelerated changes in communication.",
+        "ja": "デジタル技術はコミュニケーションの変化を加速させた。",
+        "blank": "Digital technology has ___ changes in communication.",
+        "blankAnswer": "accelerated"
+      }
+    ],
+    "distractors": [
+      "静止する",
+      "縮小する",
+      "分解する"
+    ],
+    "confusableSpellings": [
+      "accelarate",
+      "accelerrate",
+      "acselerate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 accelerare から。ac-（〜へ）＋ celer（速い）＋ -ate（動詞語尾）。celer は「速い」を意味し、英語の celerity（敏速）とも同語根。",
+      "tips": "自動詞（スピードが上がる）と他動詞（スピードを上げる）の両方で使える。accelerate growth / accelerate the process のようにビジネス・科学文書でよく登場する。アクセルペダルの「アクセル」はこの語の短縮形。",
+      "confusables": "speed up はカジュアルな日常語、accelerate はフォーマル・技術的な文脈で使われることが多い。hasten は「急がせる」でやや古風。",
+      "collocations": [
+        "accelerate growth（成長を加速させる）",
+        "accelerate the process（プロセスを速める）",
+        "accelerate rapidly（急速に加速する）"
+      ],
+      "trivia": "車のアクセルペダルは英語で accelerator（またはgas pedal）。日本語の「アクセル」は accelerator の略。カーレースの解説でも必ず出てくる単語！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1206,
+    "word": "accustom",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "慣れさせる、習慣づける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "慣れる（再帰・受動的に）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkʌstəm/",
+    "syllables": "ac-cus-tom",
+    "audioHint": "アカスタム",
+    "examples": [
+      {
+        "en": "She quickly accustomed herself to the new work environment.",
+        "ja": "彼女はすぐに新しい職場環境に慣れた。",
+        "blank": "She quickly ___ herself to the new work environment.",
+        "blankAnswer": "accustomed"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "記憶する",
+      "判断する"
+    ],
+    "confusableSpellings": [
+      "acustom",
+      "accustome",
+      "acostumed"
+    ],
+    "passive": {
+      "etymology": "古フランス語 acostumer から。ac-（〜へ）＋ costume / custom（習慣）。「習慣の方へ向かわせる」が原義。custom（習慣）と同語根。",
+      "tips": "accustom oneself to〜 または be accustomed to〜 という形で使うことがほとんど。to の後ろは名詞または動名詞（-ing形）。'I'm accustomed to waking up early.' のように使う。",
+      "confusables": "be used to〜と同じ意味・構文で使えるが、accustomed はよりフォーマル。get used to〜は「慣れていく過程」を強調するのに対し、be accustomed to〜は「すでに慣れている状態」を示す。",
+      "collocations": [
+        "be accustomed to〜（〜に慣れている）",
+        "accustom oneself to〜（〜に慣れる）",
+        "grown accustomed to（次第に慣れてきた）"
+      ],
+      "trivia": "custom（風習）と全く同じ語根。「その土地の風習（custom）に体を慣らす（accustom）」と覚えると語源と意味が一気に結びつく！旅行者向けの英語表現にもよく登場する。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1207,
+    "word": "amuse",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "楽しませる、おかしがらせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "気晴らしをさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈmjuːz/",
+    "syllables": "a-muse",
+    "audioHint": "アミューズ",
+    "examples": [
+      {
+        "en": "The comedian's jokes amused the entire audience.",
+        "ja": "そのコメディアンのジョークは観客全員を笑わせた。",
+        "blank": "The comedian's jokes ___ the entire audience.",
+        "blankAnswer": "amused"
+      }
+    ],
+    "distractors": [
+      "叱責する",
+      "強要する",
+      "無視する"
+    ],
+    "confusableSpellings": [
+      "ammuse",
+      "amuzze",
+      "amuze"
+    ],
+    "passive": {
+      "etymology": "古フランス語 amuser から。a-（〜へ）＋ muser（ぼんやりする、口をとがらせる）。「注意をそらして楽しませる」が原義。muse（じっと考える）とも関連するとされる。",
+      "tips": "amuse は「クスッと笑わせる・楽しませる」という穏やかなユーモアのニュアンス。be amused by / at〜（〜を見ておかしいと思う）という受動態でよく使う。'I'm not amused.'（全然笑えない）は有名フレーズ。",
+      "confusables": "entertain はより幅広い「楽しませる」でショーや歓待も含む。amuse は特に「ちょっとした笑い・気晴らし」のニュアンス。amuse ≠ confuse（混乱させる）。",
+      "collocations": [
+        "amuse oneself（気晴らしをする）",
+        "be amused by〜（〜をおかしく思う）",
+        "amusement park（遊園地）"
+      ],
+      "trivia": "amusement park（遊園地）の語源もここ。'amusement' は「楽しみ・気晴らし」。フランス語で「ぼんやりさせる」が語源なのに、今や世界最大の娯楽施設の名前になっているのが面白い！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1208,
+    "word": "flourish",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "繁栄する、栄える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ひらひら振る（手・物を）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈflʌrɪʃ/",
+    "syllables": "flour-ish",
+    "audioHint": "フラリッシュ",
+    "examples": [
+      {
+        "en": "Small businesses flourished after the new policy was introduced.",
+        "ja": "新しい政策が導入されてから、中小企業が栄えた。",
+        "blank": "Small businesses ___ after the new policy was introduced.",
+        "blankAnswer": "flourished"
+      }
+    ],
+    "distractors": [
+      "縮小する",
+      "停止する",
+      "崩壊する"
+    ],
+    "confusableSpellings": [
+      "florish",
+      "flurish",
+      "flouresh"
+    ],
+    "passive": {
+      "etymology": "ラテン語 florere（花が咲く）→ 古フランス語 florir を経由。flour（小麦粉）と同じ語根で、どちらも「花咲くもの」の意味が元になっている。flower と同語族。",
+      "tips": "thrive と混同されがちだが、flourish は「花が咲くように活き活きと栄える」イメージで、より視覚的・ポジティブなニュアンスが強い。植物・芸術・文化・ビジネスなど幅広い主語に使える。",
+      "confusables": "thrive（繁栄する）は生存・成長の力強さを強調、flourish は「活き活きと輝く・花開く」という豊かさを強調。どちらも類義語だが、flourish の方がより華やかな印象。",
+      "collocations": [
+        "flourish under〜（〜のもとで繁栄する）",
+        "flourish in〜（〜の中で栄える）",
+        "art flourishes（芸術が花開く）"
+      ],
+      "trivia": "flour（小麦粉）と spelling が似ているのは偶然ではなく同語源！古代では小麦粉は「花のように最良の部分」を意味していた。パンと繁栄が語源的につながっているなんてロマンある。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1209,
+    "word": "thrive",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "繁栄する、成長する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "活発に育つ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/θraɪv/",
+    "syllables": "thrive",
+    "audioHint": "スライヴ",
+    "examples": [
+      {
+        "en": "Children thrive when they feel safe and loved.",
+        "ja": "子供たちは安心して愛されていると感じるときに健やかに育つ。",
+        "blank": "Children ___ when they feel safe and loved.",
+        "blankAnswer": "thrive"
+      }
+    ],
+    "distractors": [
+      "衰退する",
+      "疲弊する",
+      "停滞する"
+    ],
+    "confusableSpellings": [
+      "thryve",
+      "thrieve",
+      "thive"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 þrifask（自分のために掴む）が起源。「しっかり掴んで前に進む」というバイキングらしい力強いイメージが語源にある。",
+      "tips": "thrive on〜（〜で活力を得る・〜があると元気になる）という表現がとても便利。'She thrives on challenges.'（彼女は挑戦があると燃える）のように使える。日本語の「生き生きする」に近い。",
+      "confusables": "flourish と非常に近い意味だが、thrive はより生存・成長の力強さに焦点。植物・動物・人・ビジネスどれにも使えるが、flourish より日常会話でも使いやすい。",
+      "collocations": [
+        "thrive on〜（〜で活力を得る）",
+        "thrive in〜（〜の環境で育つ）",
+        "thrive under pressure（プレッシャーの下で輝く）"
+      ],
+      "trivia": "バイキング（ヴァイキング）の言語・古ノルド語が語源という骨太な単語。英語には sky, egg, window など古ノルド語由来の単語が意外と多い。thrive もその一つ！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1210,
+    "word": "nurture",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "育てる、養育する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "育成、養育（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnɜːrtʃər/",
+    "syllables": "nur-ture",
+    "audioHint": "ナーチャー",
+    "examples": [
+      {
+        "en": "Good teachers nurture their students' curiosity and creativity.",
+        "ja": "良い教師は生徒の好奇心と創造性を育む。",
+        "blank": "Good teachers ___ their students' curiosity and creativity.",
+        "blankAnswer": "nurture"
+      }
+    ],
+    "distractors": [
+      "批判する",
+      "競争する",
+      "拒絶する"
+    ],
+    "confusableSpellings": [
+      "nurtuer",
+      "nurchure",
+      "nurtuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 nutrire（栄養を与える）→ 古フランス語 nourriture を経由。nutrient（栄養素）や nutrition（栄養）と同語根。「食べ物を与えて育てる」が原義。",
+      "tips": "nature vs. nurture（本性か養育か）という有名なフレーズで覚えると忘れない。動詞では nurture talent / nurture relationships のように「じっくり時間をかけて育む」ニュアンスで使う。",
+      "confusables": "raise は「育てる・引き上げる」全般に使えるカジュアルな語。nurture は「愛情・手間をかけて丁寧に育てる」ニュアンスが強く、才能・関係・環境など抽象的なものにも使える。",
+      "collocations": [
+        "nurture talent（才能を育てる）",
+        "nurture relationships（関係を育む）",
+        "nature vs. nurture（本性と養育）"
+      ],
+      "trivia": "心理学の超有名論争「nature vs. nurture（生まれか育ちか）」でおなじみ。人間の性格は遺伝か環境かという議論は今も続いており、この単語を知っているだけで心理学の話についていける！"
+    },
+    "frequency": 4300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1211,
+    "word": "click",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "クリックする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "カチッと音を立てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/klɪk/",
+    "syllables": "click",
+    "audioHint": "クリック",
+    "examples": [
+      {
+        "en": "Click the button to submit your form.",
+        "ja": "フォームを送信するにはボタンをクリックしてください。",
+        "blank": "___ the button to submit your form.",
+        "blankAnswer": "Click"
+      }
+    ],
+    "distractors": [
+      "スクロールする",
+      "ダウンロードする",
+      "インストールする"
+    ],
+    "confusableSpellings": [
+      "clik",
+      "clicck"
+    ],
+    "passive": {
+      "etymology": "古英語・中英語の擬音語由来。カチッという音そのものを語源とする擬音語（onomatopoeia）。",
+      "tips": "コンピュータ用語では「クリックする」だが、本来は「カチッと音がする」という物理的な動作。「double-click（ダブルクリック）」「right-click（右クリック）」のように修飾語をつけて使う頻度が高い。",
+      "confusables": "「tap」はタッチスクリーン操作、「click」はマウスやボタンの操作に使う。スマホ時代では使い分けに注意。",
+      "collocations": [
+        "click a button",
+        "click on a link",
+        "double-click an icon"
+      ],
+      "trivia": "「It just clicked（急に理解できた）」という慣用表現があり、何かがパチッとはまる感覚から「ピンとくる」という意味でも使われる。"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1212,
+    "word": "spin",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "回転する、回す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "糸を紡ぐ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/spɪn/",
+    "syllables": "spin",
+    "audioHint": "スピン",
+    "examples": [
+      {
+        "en": "The dancer spun around on the stage.",
+        "ja": "ダンサーは舞台の上でくるりと回った。",
+        "blank": "The dancer ___ around on the stage.",
+        "blankAnswer": "spun"
+      }
+    ],
+    "distractors": [
+      "跳び上がる",
+      "引きずる",
+      "投げる"
+    ],
+    "confusableSpellings": [
+      "spen",
+      "spinn"
+    ],
+    "passive": {
+      "etymology": "古英語 'spinnan'（糸を紡ぐ）が語源。Proto-Germanic *spenwanan に遡り、回転運動の概念が中心。",
+      "tips": "過去形・過去分詞は 'spun'（不規則変化）。'spinned' と言いがちだが誤り。また「スピンドクター（spin doctor）」のように政治的な「情報操作」の意味でも使われる。",
+      "confusables": "「rotate」は軸を中心とした機械的な回転、「spin」はより速く、より激しい回転や、その場でくるりと回る動作に使われる。",
+      "collocations": [
+        "spin around",
+        "spin a top",
+        "spin out of control"
+      ],
+      "trivia": "選挙や政治の世界で「spin」は都合のいい解釈で情報を操作することを指す。「spin doctor」という言葉は1980年代のアメリカ政界から生まれた。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1213,
+    "word": "clip",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "切り取る、刈り込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "クリップで留める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/klɪp/",
+    "syllables": "clip",
+    "audioHint": "クリップ",
+    "examples": [
+      {
+        "en": "She clipped the coupon from the newspaper.",
+        "ja": "彼女は新聞からクーポンを切り取った。",
+        "blank": "She ___ the coupon from the newspaper.",
+        "blankAnswer": "clipped"
+      }
+    ],
+    "distractors": [
+      "回転させる",
+      "引きずる",
+      "散らかす"
+    ],
+    "confusableSpellings": [
+      "clipp",
+      "clipe"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'klippa'（切る）が語源。はさみで切るイメージと、挟んで固定するイメージの2方向に意味が発展した。",
+      "tips": "名詞としても使い、「動画クリップ」「ヘアクリップ」など日本語にも浸透している。動詞の活用は子音を重ねて 'clipped / clipping'。",
+      "confusables": "「cut」は全般的な「切る」、「clip」は主にはさみや爪切りで小さく切り取る動作。「clip your nails（爪を切る）」は自然だが「clip a tree（木を切る）」は不自然。",
+      "collocations": [
+        "clip a coupon",
+        "clip your nails",
+        "clip a document"
+      ],
+      "trivia": "映像業界では「clip」は短い動画の切り取りを指す。YouTubeの「クリップ機能」もここから来ており、本来の「切り取る」という意味がデジタル時代にも生きている。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1214,
+    "word": "drag",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "引きずる、ドラッグする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（時間が）のろのろ過ぎる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dræɡ/",
+    "syllables": "drag",
+    "audioHint": "ドラッグ",
+    "examples": [
+      {
+        "en": "He dragged the heavy box across the floor.",
+        "ja": "彼は重い箱を床を引きずって運んだ。",
+        "blank": "He ___ the heavy box across the floor.",
+        "blankAnswer": "dragged"
+      }
+    ],
+    "distractors": [
+      "投げる",
+      "回転する",
+      "刈り込む"
+    ],
+    "confusableSpellings": [
+      "dragg",
+      "drage"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'draga'（引く）または古英語 'dragan' が語源。「引っ張る」という基本動作から派生。",
+      "tips": "PCのドラッグ＆ドロップの「ドラッグ」はこの語。活用は 'dragged / dragging'（gを重ねる）。「drug」は 'drag' の古い方言的過去形で、現代英語では使わない。",
+      "confusables": "「drag」は地面を引きずる動作、「pull」は方向を問わず引っ張る動作全般。「drag a chair（椅子を引きずる）」と「pull a rope（ロープを引っ張る）」で使い分ける。",
+      "collocations": [
+        "drag and drop",
+        "drag one's feet",
+        "drag on (長引く)"
+      ],
+      "trivia": "「drag one's feet（足を引きずる）」は比喩的に「わざとのろのろする、ぐずぐずする」という意味。やる気のない会議がいつまでも続く感じを「the meeting dragged on」と表現できる。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1215,
+    "word": "cast",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "投げる、投じる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（役を）配役する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kæst/",
+    "syllables": "cast",
+    "audioHint": "キャスト",
+    "examples": [
+      {
+        "en": "The fisherman cast his line into the river.",
+        "ja": "漁師は川に釣り糸を投げた。",
+        "blank": "The fisherman ___ his line into the river.",
+        "blankAnswer": "cast"
+      }
+    ],
+    "distractors": [
+      "引きずる",
+      "回転させる",
+      "散らばらせる"
+    ],
+    "confusableSpellings": [
+      "caste",
+      "kast"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'kasta'（投げる）が語源。中英語を経て現代英語へ。「放つ」という核心的意味から演劇・映像の「配役」概念へ拡張。",
+      "tips": "過去形・過去分詞ともに 'cast'（不規則変化・形が変わらない）。'casted' は誤り。「a shadow was cast（影が落とされた）」のように受動態でも頻出。",
+      "confusables": "「throw」は力を込めて投げる日常的な動詞、「cast」はより優雅・意図的・比喩的に投じるニュアンス。「cast a spell（呪いをかける）」は cast ならではの表現。",
+      "collocations": [
+        "cast a shadow",
+        "cast a vote",
+        "cast a spell"
+      ],
+      "trivia": "映画やドラマの「キャスト（出演者一覧）」はこの語の名詞形。「配役する」という動詞から転じた。オーディションで合格することを「be cast in a role」と言う。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1216,
+    "word": "scatter",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "散らばらせる、まき散らす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "四散する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈskætər/",
+    "syllables": "scat-ter",
+    "audioHint": "スキャター",
+    "examples": [
+      {
+        "en": "The wind scattered the leaves across the yard.",
+        "ja": "風が庭中に葉を散らした。",
+        "blank": "The wind ___ the leaves across the yard.",
+        "blankAnswer": "scattered"
+      }
+    ],
+    "distractors": [
+      "投げる",
+      "引きずる",
+      "クリップで留める"
+    ],
+    "confusableSpellings": [
+      "scater",
+      "scater",
+      "skattar"
+    ],
+    "passive": {
+      "etymology": "中英語 'scateren' が語源。Proto-Germanic の「分裂・飛散」を意味する語根に由来。'shatter（粉砕する）' とも語源的関連がある。",
+      "tips": "「scatter」は自動詞・他動詞どちらも使える。「The crowd scattered（群衆は散り散りになった）」のように、主語自身が散らばる場合にも使える。",
+      "confusables": "「spread」は均一に広げるイメージ、「scatter」は無秩序にバラバラにばらまくイメージ。「scatter seeds（種をまき散らす）」と「spread butter（バターを塗り広げる）」で感覚を掴もう。",
+      "collocations": [
+        "scatter seeds",
+        "scatter ashes",
+        "scatter throughout"
+      ],
+      "trivia": "物理学で光が不規則に反射・屈折する現象を「light scattering（光散乱）」と言う。空が青く見えるのはレイリー散乱（Rayleigh scattering）のおかげ。日常語と科学用語が同じ単語というのが面白い。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1217,
+    "word": "tempt",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "誘惑する、そそのかす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（〜したい気）にさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tempt/",
+    "syllables": "tempt",
+    "audioHint": "テンプト",
+    "examples": [
+      {
+        "en": "The chocolate cake tempted her to break her diet.",
+        "ja": "チョコレートケーキが彼女にダイエットを破らせようとした。",
+        "blank": "The chocolate cake ___ her to break her diet.",
+        "blankAnswer": "tempted"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "脅す",
+      "仲裁する"
+    ],
+    "confusableSpellings": [
+      "temped",
+      "temt",
+      "temppt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'temptare / tentare'（試みる、探る）が語源。「試す」という意味から「誘惑する」へ意味が転じた。",
+      "tips": "「tempt + 人 + to do」の構文が基本。「I'm tempted to...（〜したい誘惑に駆られる）」という形でよく使う。'p' が発音されないため聞き取りに注意（tempの後にtが続く）。",
+      "confusables": "「attract」は中立的に「引き付ける」、「tempt」は悪い方向・禁断のものへ引き寄せるニュアンス。「tempt fate（運命を試す・危険を冒す）」は tempt 特有の慣用表現。",
+      "collocations": [
+        "tempt fate",
+        "be tempted to do",
+        "resist temptation"
+      ],
+      "trivia": "聖書に登場する「蛇がイブを誘惑した」場面の「誘惑」が英語で 'temptation'。宗教的背景から「禁断のものへの誘惑」という含みが現代英語にも残っている。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1218,
+    "word": "withdraw",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "引き出す、撤退する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "取り消す、引き下がる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wɪðˈdrɔː/",
+    "syllables": "with-draw",
+    "audioHint": "ウィズドロー",
+    "examples": [
+      {
+        "en": "She withdrew some cash from the ATM.",
+        "ja": "彼女はATMから現金を引き出した。",
+        "blank": "She ___ some cash from the ATM.",
+        "blankAnswer": "withdrew"
+      }
+    ],
+    "distractors": [
+      "誘惑する",
+      "脅迫する",
+      "仲介する"
+    ],
+    "confusableSpellings": [
+      "whithdraw",
+      "withdrow",
+      "withdrawl"
+    ],
+    "passive": {
+      "etymology": "接頭辞 'with-'（反対方向へ）＋ 'draw'（引く）から構成。「引っ張って離れる・戻す」という合成語的意味がそのまま残っている。",
+      "tips": "不規則変化動詞で過去形は 'withdrew'、過去分詞は 'withdrawn'。名詞形 'withdrawal' はスペルに 'l' が1つ（withdrawalと間違えやすい）。",
+      "confusables": "「retire（引退する）」は自発的に職や活動から身を引くこと、「withdraw」はより一時的・戦略的に退く・取り戻す行動。軍事・外交・銀行など幅広い場面で使われる。",
+      "collocations": [
+        "withdraw money",
+        "withdraw troops",
+        "withdraw from a competition"
+      ],
+      "trivia": "薬物や依存性物質をやめたときに起こる「禁断症状」を英語で 'withdrawal symptoms' と言う。「引き戻す」という語源のイメージが身体的な苦しさにまで拡張されているのが興味深い。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1219,
+    "word": "yawn",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "あくびをする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ぽっかりと口を開ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/jɔːn/",
+    "syllables": "yawn",
+    "audioHint": "ヨーン",
+    "examples": [
+      {
+        "en": "She yawned loudly during the boring meeting.",
+        "ja": "彼女は退屈な会議中に大きなあくびをした。",
+        "blank": "She ___ loudly during the boring meeting.",
+        "blankAnswer": "yawned"
+      }
+    ],
+    "distractors": [
+      "まばたきする",
+      "回転する",
+      "引きずる"
+    ],
+    "confusableSpellings": [
+      "yorn",
+      "yawn",
+      "yaun"
+    ],
+    "passive": {
+      "etymology": "古英語 'geonian / ginian'（大きく口を開ける）が語源。Proto-Germanic の「あいた口」を表す語根に由来し、まさに擬態語的な成り立ちを持つ。",
+      "tips": "発音は「ヤウン」ではなく「ヨーン」（/jɔːn/）。名詞としても「a yawn（あくび一回）」と使える。「It was a yawn（あくびが出るほど退屈だった）」という口語表現も覚えておこう。",
+      "confusables": "「blink（まばたき）」「sigh（ため息）」と混同しやすい身体動作語。「yawn」は特に睡眠・退屈・疲労と結びつく行為。",
+      "collocations": [
+        "stifle a yawn",
+        "yawn widely",
+        "let out a yawn"
+      ],
+      "trivia": "あくびが「伝染する」ことは科学的にも証明されており、これを 'contagious yawning' という。しかも、共感能力が高い人ほど伝染しやすいという研究結果がある。犬も人間のあくびが伝染するらしい。"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1220,
+    "word": "blink",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "まばたきする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "点滅する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/blɪŋk/",
+    "syllables": "blink",
+    "audioHint": "ブリンク",
+    "examples": [
+      {
+        "en": "He blinked in surprise when she told him the news.",
+        "ja": "彼女がそのニュースを告げると、彼は驚いてまばたきした。",
+        "blank": "He ___ in surprise when she told him the news.",
+        "blankAnswer": "blinked"
+      }
+    ],
+    "distractors": [
+      "あくびをする",
+      "散らばる",
+      "回転する"
+    ],
+    "confusableSpellings": [
+      "blinck",
+      "blinkk",
+      "blync"
+    ],
+    "passive": {
+      "etymology": "中英語 'blenken'（点滅する、輝く）が語源。Proto-Germanic の「光が閃く・瞬く」を意味する語根に由来し、目の瞬きと光の点滅の両方に意味が広がった。",
+      "tips": "「in the blink of an eye（またたく間に）」は非常に頻出の慣用句。「blink」は意識的・無意識的どちらのまばたきにも使える。カーソルや通知ランプが点滅する場面でも使う。",
+      "confusables": "「wink（ウインクする）」は片目を意図的に閉じる動作、「blink」は両目を素早く閉じて開ける反射的・無意識的な動作。意図的かどうかが違いのポイント。",
+      "collocations": [
+        "blink rapidly",
+        "in the blink of an eye",
+        "blink back tears"
+      ],
+      "trivia": "人は1日に約15,000〜20,000回まばたきをするが、スクリーンを見ているときはその頻度が約3分の1に減るといわれている。目が疲れる原因のひとつがこれ。英語でまばたきが少ない状態は 'staring（凝視している）' と表現される。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  }
+]

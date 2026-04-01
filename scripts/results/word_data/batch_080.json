@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1581,
+    "word": "empirical",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "経験的な、実証的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "実験に基づく",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪmˈpɪrɪkəl/",
+    "syllables": "em-pir-i-cal",
+    "audioHint": "エムピリカル",
+    "examples": [
+      {
+        "en": "The scientist relied on empirical evidence to support her theory.",
+        "ja": "その科学者は自分の理論を裏付けるために実証的な証拠に頼った。",
+        "blank": "The scientist relied on ___ evidence to support her theory.",
+        "blankAnswer": "empirical"
+      }
+    ],
+    "distractors": [
+      "理論的な",
+      "定量的な",
+      "仮説的な"
+    ],
+    "confusableSpellings": [
+      "empircal",
+      "empyrical",
+      "empiricle"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'empeirikos'（経験のある）に由来。'em-'（中に）＋ 'peira'（試み・経験）。つまり「経験の中に根ざした」というニュアンス。",
+      "tips": "「理論的（theoretical）」の対義語として使われることが多い。「経験や実験で確かめられた」ことを指すので、'empirical evidence'（実証的証拠）や 'empirical research'（実証研究）という形でセットで覚えると便利。",
+      "confusables": "'experimental'（実験的な）と似た文脈で使われるが、'empirical' は観察・経験全般に基づくニュアンスがあり、必ずしも統制された実験を意味しない点が異なる。",
+      "collocations": [
+        "empirical evidence（実証的証拠）",
+        "empirical research（実証研究）",
+        "empirical data（実験データ）"
+      ],
+      "trivia": "哲学では 'empiricism'（経験主義）という思想があり、ロックやヒュームが代表格。「知識はすべて経験から来る」という考え方で、生まれつきの知識を否定する立場。現代のデータサイエンスブームも、ある意味 empirical な発想が土台になっている。"
+    },
+    "frequency": 3800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1582,
+    "word": "immense",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "巨大な、莫大な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "計り知れない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈmɛns/",
+    "syllables": "im-mense",
+    "audioHint": "イメンス",
+    "examples": [
+      {
+        "en": "The project required an immense amount of effort from the team.",
+        "ja": "そのプロジェクトはチームから莫大な努力を必要とした。",
+        "blank": "The project required an ___ amount of effort from the team.",
+        "blankAnswer": "immense"
+      }
+    ],
+    "distractors": [
+      "ひどい、不快な",
+      "ばかげた、不合理な",
+      "わずかな、ほんのわずかの"
+    ],
+    "confusableSpellings": [
+      "imense",
+      "immence",
+      "immens"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'immensus' から。'im-'（否定）＋ 'mensus'（測られた、mensura=測定に由来）。つまり「測定できないほど大きい」というのが原義。",
+      "tips": "'huge' や 'enormous' と同義で使えるが、'immense' は特にスケールの大きさや量の多さに使われやすい。'an immense success'（大成功）のように抽象的な概念にも使える点を覚えておこう。",
+      "confusables": "'enormous' は主にサイズ・量に使うが、'immense' は感情的・抽象的な大きさにも使いやすい。'tremendous' は驚きや畏怖のニュアンスが加わる点が異なる。",
+      "collocations": [
+        "immense pressure（莫大なプレッシャー）",
+        "immense pleasure（大きな喜び）",
+        "immense size（巨大なサイズ）"
+      ],
+      "trivia": "英語で「宇宙の広大さ」を表現するとき、科学者や天文学者が好んで使う単語の一つ。NASAのプレスリリースにも頻繁に登場する。語根 'mens' は 'dimension'（次元）や 'measure'（測定）とも同じファミリー！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1583,
+    "word": "absurd",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "ばかげた、不合理な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "非常識な、荒唐無稽な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/æbˈsɜːrd/",
+    "syllables": "ab-surd",
+    "audioHint": "アブサード",
+    "examples": [
+      {
+        "en": "It seems absurd to spend so much money on a single meal.",
+        "ja": "一食にそれほどお金を使うのはばかげているように思える。",
+        "blank": "It seems ___ to spend so much money on a single meal.",
+        "blankAnswer": "absurd"
+      }
+    ],
+    "distractors": [
+      "巨大な、計り知れない",
+      "不安な、落ち着かない",
+      "偶発的な、意図しない"
+    ],
+    "confusableSpellings": [
+      "abserd",
+      "absurb",
+      "abssurd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'absurdus' から。'ab-'（離れて）＋ 'surdus'（耳が聞こえない・不協和音の）。つまり「音楽的に調和しない→理屈に合わない」という意味の変遷をたどった。",
+      "tips": "'ridiculous' や 'silly' より知的・論理的な「不合理さ」を指すことが多い。哲学・評論文脈でも使われるため、カジュアルな 'silly' との使い分けを意識すると良い。",
+      "confusables": "'ridiculous' は「笑えるほどばかげた」というニュアンスが強く、'absurd' は論理的・哲学的な不合理さに重点が置かれる。'silly' は子供っぽい愚かさを指すことが多い。",
+      "collocations": [
+        "absurd idea（ばかげたアイデア）",
+        "utterly absurd（全くばかげた）",
+        "the absurd（不条理：哲学用語）"
+      ],
+      "trivia": "哲学用語「不条理（the absurd）」はカミュの代表概念。「人間は意味を求めるが、宇宙は意味を与えない」という対立を指す。カミュは「それでも生きろ」と言った。英語の 'absurdism' という思想運動にまで発展した単語なんて、なかなかすごい。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1584,
+    "word": "weird",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "奇妙な、変な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不思議な、超自然的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/wɪərd/",
+    "syllables": "weird",
+    "audioHint": "ウィアード",
+    "examples": [
+      {
+        "en": "That was a weird dream I had last night.",
+        "ja": "昨夜見た夢はとても奇妙だった。",
+        "blank": "That was a ___ dream I had last night.",
+        "blankAnswer": "weird"
+      }
+    ],
+    "distractors": [
+      "速い、素早い",
+      "中空の、空洞の",
+      "偶発的な、意図しない"
+    ],
+    "confusableSpellings": [
+      "wierd",
+      "weerd",
+      "wired"
+    ],
+    "passive": {
+      "etymology": "古英語 'wyrd'（運命）に由来。もともとは「運命・宿命」を意味し、そこから「超自然的な力に支配された」→「不思議な・奇妙な」へと意味が変化した。",
+      "tips": "スペルを 'wierd' と書きがちだが、正しくは 'weird'。\"i before e except after c\" のルールの例外。ネイティブでも間違えやすい有名なスペルの罠！",
+      "confusables": "'strange' はより中立的で書き言葉でも使えるが、'weird' は口語的でやや強いニュアンス（否定的・不気味）を持つ。'odd' は「普通とは少し違う」程度のソフトな表現。",
+      "collocations": [
+        "weird feeling（奇妙な感覚）",
+        "that's weird（それは変だ）",
+        "weird out（気持ち悪がらせる）"
+      ],
+      "trivia": "英語で \"weird\" のスペルは 'i before e' ルールの例外の代表例として有名。学校で習うルールを破る単語として、ネイティブの子どもたちも苦労する単語ナンバーワン級。もともとは魔女や運命の女神に使われた呪術的な言葉だった。"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1585,
+    "word": "accidental",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "偶発的な、意図しない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "偶然の、事故による",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌæksɪˈdɛntəl/",
+    "syllables": "ac-ci-den-tal",
+    "audioHint": "アクシデンタル",
+    "examples": [
+      {
+        "en": "The fire was accidental, not caused by arson.",
+        "ja": "その火事は放火ではなく、偶発的なものだった。",
+        "blank": "The fire was ___, not caused by arson.",
+        "blankAnswer": "accidental"
+      }
+    ],
+    "distractors": [
+      "奇妙な、超自然的な",
+      "速い、素早い",
+      "中空の、空洞の"
+    ],
+    "confusableSpellings": [
+      "accidentel",
+      "acidental",
+      "accedental"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'accidere'（起こる、降りかかる）から。'ac-'（～に向かって）＋ 'cadere'（落ちる）。つまり「(予期せず)落ちてくる出来事」が原義。名詞 'accident' に '-al' をつけた形容詞。",
+      "tips": "名詞 'accident' から来ているため意味は分かりやすいが、副詞 'accidentally'（偶然に）も非常によく使う。'I accidentally deleted the file.'のような文は日常でも頻出。",
+      "confusables": "'unintentional' は「意図しない」という意味で 'accidental' と似るが、'accidental' は物理的な事故のニュアンスが強め。'coincidental' は「偶然の一致」を指し、事故とは無関係。",
+      "collocations": [
+        "accidental death（事故死）",
+        "accidental discovery（偶然の発見）",
+        "accidental damage（不慮の損傷）"
+      ],
+      "trivia": "科学史上の偶然の発見（serendipity）は 'accidental discovery' と呼ばれる。ペニシリンもポストイットも電子レンジも、もとは 'accidental discovery' から生まれた。失敗が発明の母、というのは本当の話。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1586,
+    "word": "uneasy",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "不安な、落ち着かない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "気まずい、ぎこちない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ʌnˈiːzi/",
+    "syllables": "un-eas-y",
+    "audioHint": "アンイーズィ",
+    "examples": [
+      {
+        "en": "She felt uneasy about speaking in front of the crowd.",
+        "ja": "彼女は大勢の前で話すことに不安を感じた。",
+        "blank": "She felt ___ about speaking in front of the crowd.",
+        "blankAnswer": "uneasy"
+      }
+    ],
+    "distractors": [
+      "嫉妬している、うらやんでいる",
+      "女性的な、優雅な",
+      "経験豊富な、熟練した"
+    ],
+    "confusableSpellings": [
+      "uneazy",
+      "uneasi",
+      "uneaasy"
+    ],
+    "passive": {
+      "etymology": "'un-'（否定）＋ 'easy'（楽な、安楽な）。「楽でない状態」が原義で、そこから「不安・落ち着きのなさ」へと意味が拡張した。'easy' 自体は古フランス語 'aisé'（安楽な）に由来。",
+      "tips": "'nervous' は緊張感が強く、身体症状（手が震えるなど）を伴うイメージがあるが、'uneasy' は「なんとなく落ち着かない、もやっとした不安感」のニュアンス。'I have an uneasy feeling about this.'のように直感的な不安に使いやすい。",
+      "confusables": "'anxious' は将来への心配・不安で強い感情、'nervous' は身体的な緊張、'uneasy' はより漠然とした居心地の悪さや違和感を表す。ニュアンスを使い分けると英語の表現力がぐっと上がる。",
+      "collocations": [
+        "feel uneasy（不安を感じる）",
+        "uneasy silence（気まずい沈黙）",
+        "uneasy relationship（ぎこちない関係）"
+      ],
+      "trivia": "「気まずい沈黙」を英語では 'uneasy silence' または 'awkward silence' と言う。会話が途切れた瞬間にどちらを使うかで微妙にニュアンスが違い、'uneasy' は「何か問題があるかも」という不安感を含む点がポイント。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1587,
+    "word": "jealous",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "嫉妬している、やきもちを焼いている",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "うらやんでいる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdʒɛləs/",
+    "syllables": "jeal-ous",
+    "audioHint": "ジェラス",
+    "examples": [
+      {
+        "en": "He was jealous of his friend's new car.",
+        "ja": "彼は友人の新車をうらやんでいた。",
+        "blank": "He was ___ of his friend's new car.",
+        "blankAnswer": "jealous"
+      }
+    ],
+    "distractors": [
+      "不安な、落ち着かない",
+      "女性的な、優雅な",
+      "勇気のある、大胆な"
+    ],
+    "confusableSpellings": [
+      "jelous",
+      "jealeous",
+      "jelaous"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'jalous' から、さらにギリシャ語 'zelos'（熱意・熱狂）に由来。同じ語根から 'zeal'（熱意）や 'zealous'（熱心な）も派生している。「熱狂」が「執着・嫉妬」へと意味が変化した興味深いケース。",
+      "tips": "'jealous' と 'envious' はよく混同される。'jealous' は「自分が持っているものを誰かに奪われる恐れ」（恋愛のやきもちなど）、'envious' は「相手が持っているものを自分も欲しい」という羨ましさ。日本語では両方「嫉妬」と訳されるが英語では使い分けが重要。",
+      "confusables": "'envious' は「他人の持ち物・状況を羨む」感情、'jealous' は「自分の関係や所有物が脅かされる」感情。恋愛の文脈では 'jealous'、「いいな～」という羨ましさは 'envious' が自然。",
+      "collocations": [
+        "feel jealous（嫉妬を感じる）",
+        "jealous of（〜に嫉妬して）",
+        "jealous rage（嫉妬の怒り）"
+      ],
+      "trivia": "'Green with envy'（嫉妬で顔が緑になる）という英語表現があるが、なぜ緑かというと中世ヨーロッパで「嫉妬や病気の感情は胆汁が多すぎると起こる」とされており、胆汁の色が緑だったから。シェイクスピアも嫉妬を「緑色の目をした怪物」と表現している。"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1588,
+    "word": "feminine",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "女性的な、女性らしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "女性の（文法上の性）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfɛmɪnɪn/",
+    "syllables": "fem-i-nine",
+    "audioHint": "フェミニン",
+    "examples": [
+      {
+        "en": "The dress had a very feminine style with soft colors.",
+        "ja": "そのドレスは柔らかい色合いのとても女性的なスタイルだった。",
+        "blank": "The dress had a very ___ style with soft colors.",
+        "blankAnswer": "feminine"
+      }
+    ],
+    "distractors": [
+      "嫉妬している、うらやんでいる",
+      "不安な、落ち着かない",
+      "男性的な、たくましい"
+    ],
+    "confusableSpellings": [
+      "feminin",
+      "femenine",
+      "feminie"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'femininus' から。'femina'（女性）＋ '-inus'（～に属する・性質の）。'femina' はさらに 'fe-'（授乳する）から来ているという説もある。",
+      "tips": "'feminine' は性質や特徴を表す形容詞で、人・物・雰囲気のどれにも使える。'female' は生物学的な性別を示す言葉で、名詞・形容詞両方に使えるが、文脈によって 'feminine' と 'female' の使い分けが重要。",
+      "confusables": "'female' は生物学的性別（female doctor=女性医師）、'feminine' は女性らしい特性・雰囲気（feminine voice=女性的な声）。'feminist' は全く別で「フェミニスト」という意味なので混同しないように。",
+      "collocations": [
+        "feminine style（女性的なスタイル）",
+        "feminine touch（女性的な感性）",
+        "feminine gender（文法上の女性形）"
+      ],
+      "trivia": "フランス語やスペイン語などのロマンス語には名詞に「男性形・女性形」がある。英語にも古英語時代は文法上の性があったが、現代英語ではほぼ消えた。ただし 'actress'（女優）や 'heroine'（女主人公）など、一部に痕跡が残っている。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1589,
+    "word": "swift",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "速い、素早い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "即座の、迅速な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/swɪft/",
+    "syllables": "swift",
+    "audioHint": "スウィフト",
+    "examples": [
+      {
+        "en": "The government took swift action to stop the spread.",
+        "ja": "政府は感染拡大を止めるために迅速な行動をとった。",
+        "blank": "The government took ___ action to stop the spread.",
+        "blankAnswer": "swift"
+      }
+    ],
+    "distractors": [
+      "中空の、空洞の",
+      "偶発的な、意図しない",
+      "奇妙な、変な"
+    ],
+    "confusableSpellings": [
+      "swif",
+      "swifte",
+      "swifft"
+    ],
+    "passive": {
+      "etymology": "古英語 'swift'（速い）に直接由来し、ゲルマン語族の語根 'swīf-'（動く、旋回する）に関連する。非常に古い英語の単語で、語源的な変化が少ない純粋な英語語彙。",
+      "tips": "'fast' や 'quick' と同義で使えるが、'swift' はやや文語的・詩的なニュアンスがある。スポーツや政治・軍事の文脈で「迅速な対応」を表すときに好んで使われる。口語では 'quick' の方が自然な場合が多い。",
+      "confusables": "'fast' は速度そのものに焦点、'quick' は短時間で完了する動作に焦点、'swift' は流れるような滑らかな速さのニュアンス。'rapid' は変化や連続動作の速さに使いやすい。",
+      "collocations": [
+        "swift action（迅速な行動）",
+        "swift response（即座の反応）",
+        "swift movement（素早い動き）"
+      ],
+      "trivia": "人気歌手テイラー・スウィフト（Taylor Swift）の苗字がまさにこの単語。「速い・素早い」という意味の名字を持つ彼女は、音楽業界で文字通り電光石火の活躍を見せた。また 'swift' はアマツバメ（鳥の一種）の英名でもあり、空を猛スピードで飛ぶ鳥として知られる。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1590,
+    "word": "hollow",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "中空の、空洞の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "うつろな、空虚な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈhɒləʊ/",
+    "syllables": "hol-low",
+    "audioHint": "ホロウ",
+    "examples": [
+      {
+        "en": "The squirrel hid its nuts inside a hollow tree.",
+        "ja": "リスは木の空洞の中にドングリを隠した。",
+        "blank": "The squirrel hid its nuts inside a ___ tree.",
+        "blankAnswer": "hollow"
+      }
+    ],
+    "distractors": [
+      "速い、素早い",
+      "奇妙な、不思議な",
+      "偶発的な、意図しない"
+    ],
+    "confusableSpellings": [
+      "holow",
+      "holllow",
+      "hollaw"
+    ],
+    "passive": {
+      "etymology": "古英語 'holh'（穴、くぼみ）に由来し、'hole'（穴）と同じ語根を持つ。ゲルマン語族の語根 'hul-'（くぼんでいる）から来ており、'hull'（船体・殻）とも遠縁にあたる。",
+      "tips": "物理的な「空洞」だけでなく、'hollow victory'（空虚な勝利）や 'hollow words'（中身のない言葉）のように比喩的にも頻繁に使われる。物理的意味と比喩的意味をセットで覚えると表現の幅が広がる。",
+      "confusables": "'empty' は「中身が何もない」全般に使えるが、'hollow' は「内部が空洞になっている構造」を強調する。また感情的文脈では 'hollow' が「むなしい」、'empty' が「何もない・虚無感」のニュアンスになる。",
+      "collocations": [
+        "hollow tree（空洞の木）",
+        "hollow victory（空虚な勝利）",
+        "hollow sound（うつろな音）"
+      ],
+      "trivia": "「スリーピー・ホロウ（Sleepy Hollow）」はワシントン・アーヴィングの有名な怪談の舞台で、'hollow' は「谷間・くぼ地」という地名的な意味もある。ティム・バートン監督の映画でも有名。ちなみに 'hollow' な音は反響するため、コンコンと叩いて家の壁が 'hollow' かどうか確かめるのは大工の基本技術。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1591,
+    "word": "crude",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "粗雑な、未加工の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "下品な、無作法な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kruːd/",
+    "syllables": "crude",
+    "audioHint": "クルード",
+    "examples": [
+      {
+        "en": "His crude remarks offended everyone at the table.",
+        "ja": "彼の下品な発言はテーブルの全員を不快にさせた。",
+        "blank": "His ___ remarks offended everyone at the table.",
+        "blankAnswer": "crude"
+      }
+    ],
+    "distractors": [
+      "鋭い、刃のような",
+      "明白な、はっきりした",
+      "薄い、透き通るような"
+    ],
+    "confusableSpellings": [
+      "crued",
+      "crood",
+      "craude"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'crudus'（生の、消化されていない）から。語根 'cru-' は「生の、血なまぐさい」を意味し、英語の 'raw' に相当する概念を持つ。",
+      "tips": "crude oil（原油）は「未加工の油」という意味で使われる重要なコロケーション。形容詞として「粗雑な」と「下品な」の両方の意味があるため、文脈で判断すること。",
+      "confusables": "rude（無礼な）と混同しやすいが、crude はさらに「洗練されていない・未加工」というニュアンスを含む。crude joke は下品なジョークを指す。",
+      "collocations": [
+        "crude oil（原油）",
+        "crude remark（下品な発言）",
+        "crude drawing（粗雑な絵）"
+      ],
+      "trivia": "「crude oil（原油）」は世界経済を動かす言葉で、このcrudeは「まだ精製されていない生の状態」を指す。つまり原油は文字通り「ただの生っぽい油」というわけ！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1592,
+    "word": "sore",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "痛い、ひりひりする",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "怒った、不満な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/sɔːr/",
+    "syllables": "sore",
+    "audioHint": "ソー",
+    "examples": [
+      {
+        "en": "My legs are sore after running the marathon yesterday.",
+        "ja": "昨日マラソンを走った後、足が痛い。",
+        "blank": "My legs are ___ after running the marathon yesterday.",
+        "blankAnswer": "sore"
+      }
+    ],
+    "distractors": [
+      "粗雑な、未加工の",
+      "純粋な、まったくの",
+      "明示的な、露骨な"
+    ],
+    "confusableSpellings": [
+      "soar",
+      "soor",
+      "saure"
+    ],
+    "passive": {
+      "etymology": "古英語 'sār'（痛み、苦しみ）から。ゲルマン語起源で、ドイツ語の 'sehr'（とても）と同じ語根を共有する。",
+      "tips": "sore throat（喉の痛み）は医療・日常会話でよく使う表現。また口語では「怒っている」という意味もあり、'He's still sore about it.' のように使える。",
+      "confusables": "soar（舞い上がる）と発音が全く同じホモフォン（同音異義語）。文脈で区別が必要。sore は「痛み」、soar は「上昇」。",
+      "collocations": [
+        "sore throat（喉の痛み）",
+        "sore muscles（筋肉痛）",
+        "sore loser（負けを認めない人）"
+      ],
+      "trivia": "'sore loser'（負けを素直に認めない人）という表現は英語ネイティブが日常的によく使う表現。スポーツ観戦やゲームの後に使えると一気にネイティブっぽく聞こえる！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1593,
+    "word": "pessimistic",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "悲観的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "否定的な見方をする",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌpesɪˈmɪstɪk/",
+    "syllables": "pes-si-mis-tic",
+    "audioHint": "ペシミスティック",
+    "examples": [
+      {
+        "en": "She felt pessimistic about her chances of passing the exam.",
+        "ja": "彼女は試験に合格できる見込みについて悲観的に感じた。",
+        "blank": "She felt ___ about her chances of passing the exam.",
+        "blankAnswer": "pessimistic"
+      }
+    ],
+    "distractors": [
+      "うぬぼれが強い、虚栄心のある",
+      "疑い深い、不信な",
+      "衝動的な、感情的な"
+    ],
+    "confusableSpellings": [
+      "pessimisitc",
+      "pesimistic",
+      "pessimistc"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pessimus'（最悪の）＋ 接尾辞 '-istic'。'pessimus' は 'malus'（悪い）の最上級形。反対語 'optimistic' は 'optimus'（最善の）から来ている。",
+      "tips": "be pessimistic about ～（〜について悲観的である）という形でセットで覚えると実用的。about の後には名詞・動名詞が続く。",
+      "confusables": "skeptical（懐疑的な）と混同しがちだが、skeptical は「証拠がないと信じない」という意味で中立的。pessimistic は「悪い方向に考える」という感情的な傾向を指す。",
+      "collocations": [
+        "pessimistic outlook（悲観的な見通し）",
+        "feel pessimistic about（〜について悲観的に感じる）",
+        "pessimistic view（悲観的な見方）"
+      ],
+      "trivia": "心理学では「防衛的悲観主義（defensive pessimism）」という概念があり、最悪の事態を想定することでかえってうまくいく人もいるらしい。pessimistic も使いようというわけ！"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1594,
+    "word": "vain",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "うぬぼれた、虚栄心の強い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無駄な、無益な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/veɪn/",
+    "syllables": "vain",
+    "audioHint": "ヴェイン",
+    "examples": [
+      {
+        "en": "She made a vain attempt to stop the argument.",
+        "ja": "彼女は口論を止めようと無駄な試みをした。",
+        "blank": "She made a ___ attempt to stop the argument.",
+        "blankAnswer": "vain"
+      }
+    ],
+    "distractors": [
+      "悲観的な、否定的な",
+      "怒りっぽい、短気な",
+      "頑固な、意地っ張りな"
+    ],
+    "confusableSpellings": [
+      "vaine",
+      "vainn",
+      "vian"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vanus'（空の、中身のない）から。語根 'van-' は「空虚さ」を意味し、vanity（虚栄心）や evanescent（はかない）とも関連する。",
+      "tips": "'in vain'（無駄に）は熟語として丸ごと覚えると便利。'All our efforts were in vain.' のように使う。「虚栄心が強い」意味と「無駄な」意味の2つを混同しないように注意。",
+      "confusables": "vein（静脈）・vane（風見鶏）と発音が同じホモフォン。スペルが異なるので注意。また conceited（うぬぼれた）とほぼ同義だが、vain はより文語的なニュアンスがある。",
+      "collocations": [
+        "in vain（無駄に）",
+        "vain attempt（無駄な試み）",
+        "vain person（うぬぼれた人）"
+      ],
+      "trivia": "ケイリー・サイモンの名曲「You're So Vain」は「あなたはうぬぼれ屋ね」という意味。その歌が誰をモデルにしているかは長年の謎で、2015年にやっと一人のモデルが公表された！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1595,
+    "word": "susceptible",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "影響を受けやすい、かかりやすい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "感受性の強い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/səˈseptɪbl/",
+    "syllables": "sus-cep-ti-ble",
+    "audioHint": "サセプティブル",
+    "examples": [
+      {
+        "en": "Children are more susceptible to colds in winter.",
+        "ja": "子どもは冬に風邪をひきやすい。",
+        "blank": "Children are more ___ to colds in winter.",
+        "blankAnswer": "susceptible"
+      }
+    ],
+    "distractors": [
+      "食べられる、可食の",
+      "傾向がある、〜しやすい",
+      "豊かな、裕福な"
+    ],
+    "confusableSpellings": [
+      "susceptable",
+      "suseptible",
+      "susciptible"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'susceptibilis' から。'sus-'（下から）＋ 'capere'（取る、受け取る）＋ '-ible'（〜できる）。「下から受け取られやすい」→「影響を受け入れやすい」というイメージ。",
+      "tips": "susceptible to ～（〜に対して影響を受けやすい）という形で使う。to の後には名詞が来る点に注意。医療・科学の文脈でよく登場する語。",
+      "confusables": "prone to（〜の傾向がある）と意味が近いが、susceptible は外部の影響・感染・感情への弱さを強調し、prone はより行動・状態の傾向を指す。",
+      "collocations": [
+        "susceptible to disease（病気にかかりやすい）",
+        "susceptible to influence（影響を受けやすい）",
+        "highly susceptible（非常に影響を受けやすい）"
+      ],
+      "trivia": "免疫学で 'susceptible host'（感受性宿主）という専門用語がある。つまり感染症にかかりやすい生物のこと。コロナ禍でこの単語が医療ニュースに頻出したのも記憶に新しい！"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1596,
+    "word": "edible",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "食べられる、可食の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "食用の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈedɪbl/",
+    "syllables": "ed-i-ble",
+    "audioHint": "エディブル",
+    "examples": [
+      {
+        "en": "Not all wild mushrooms are edible, so be careful.",
+        "ja": "野生のキノコがすべて食べられるわけではないので注意して。",
+        "blank": "Not all wild mushrooms are ___, so be careful.",
+        "blankAnswer": "edible"
+      }
+    ],
+    "distractors": [
+      "影響を受けやすい、かかりやすい",
+      "豊かな、裕福な",
+      "傾向がある、〜しやすい"
+    ],
+    "confusableSpellings": [
+      "ediable",
+      "edable",
+      "eddible"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'edibilis' から。'edere'（食べる）＋ '-ible'（〜できる）。'edere' はラテン語の「食べる」を意味し、英語の eat とも共通の印欧語根 *ed- を持つ。",
+      "tips": "反対語は inedible（食べられない）。edible と eatable はほぼ同義だが、edible はより学術的・公式な文脈で、eatable はより口語的に使われる傾向がある。",
+      "confusables": "editable（編集可能な）とスペルが似ているので注意。edible は食べ物に関する語、editable はデジタル・文書に関する語。",
+      "collocations": [
+        "edible plants（食用植物）",
+        "edible flowers（食用花）",
+        "barely edible（かろうじて食べられる）"
+      ],
+      "trivia": "近年「edibles」はカナダや米国の一部州で大麻入りの食品を指すスラングとして定着。なので英語圏のニュースで 'edibles' と出てきたら文脈に要注意！"
+    },
+    "frequency": 5000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1597,
+    "word": "sheer",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "まったくの、純粋な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "透き通るような、薄い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ʃɪər/",
+    "syllables": "sheer",
+    "audioHint": "シア",
+    "examples": [
+      {
+        "en": "It was sheer luck that we found the missing key.",
+        "ja": "なくした鍵が見つかったのはまったくの運だった。",
+        "blank": "It was ___ luck that we found the missing key.",
+        "blankAnswer": "sheer"
+      }
+    ],
+    "distractors": [
+      "痛い、ひりひりする",
+      "粗雑な、未加工の",
+      "下品な、無礼な"
+    ],
+    "confusableSpellings": [
+      "shear",
+      "shier",
+      "sheere"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'skærr'（明るい、清い）から。中英語では「輝く・透明な」を意味した。現代英語では「まったくの・純粋な」という強調の意味が発達した。",
+      "tips": "sheer は名詞を強調する修飾語として使われることが多い。sheer stupidity（まったくの愚かさ）、sheer coincidence（純粋な偶然）のように使う。",
+      "confusables": "shear（刈る、剪断する）と発音が同じホモフォン。羊の毛を刈るのは shear、透き通った布は sheer。スペルに注意。",
+      "collocations": [
+        "sheer luck（まったくの運）",
+        "sheer size（純粋な大きさ）",
+        "sheer fabric（薄い布地）"
+      ],
+      "trivia": "ファッション業界で 'sheer'（シアー）は透け感のある素材を指し、トレンドワードとして定着。洋服タグや通販サイトで普通に使われている言葉だったりする！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1598,
+    "word": "explicit",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "明示的な、明確な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "露骨な、わいせつな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈsplɪsɪt/",
+    "syllables": "ex-plic-it",
+    "audioHint": "イクスプリシット",
+    "examples": [
+      {
+        "en": "The teacher gave explicit instructions for the assignment.",
+        "ja": "先生は課題について明確な指示を出した。",
+        "blank": "The teacher gave ___ instructions for the assignment.",
+        "blankAnswer": "explicit"
+      }
+    ],
+    "distractors": [
+      "まったくの、純粋な",
+      "粗雑な、未加工の",
+      "痛い、ひりひりする"
+    ],
+    "confusableSpellings": [
+      "explict",
+      "explicite",
+      "expilcit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'explicitus' から。'ex-'（外に）＋ 'plicare'（折る、巻く）。「折りたたまれたものを外に広げる」→「はっきり示す」というイメージ。",
+      "tips": "implicit（暗示的な）の反対語として対で覚えると便利。explicit は「はっきり言葉にした」、implicit は「言葉にしなくても伝わる・含意された」という違いがある。",
+      "confusables": "implicit（暗黙の）とペアで理解すること。explicit content は音楽・映像における成人向けコンテンツを指す用語としても使われる（iTunes等での「E」マーク）。",
+      "collocations": [
+        "explicit instructions（明確な指示）",
+        "explicit content（露骨なコンテンツ）",
+        "make explicit（明確にする）"
+      ],
+      "trivia": "iTunesやSpotifyで楽曲に付く「E（Explicit）」マークは「歌詞が露骨」という意味。この単語を知っていると音楽プラットフォームの表示がスッと理解できる！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1599,
+    "word": "prone",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "〜しやすい、傾向がある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "うつぶせの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/proʊn/",
+    "syllables": "prone",
+    "audioHint": "プロウン",
+    "examples": [
+      {
+        "en": "He is prone to making mistakes when he is tired.",
+        "ja": "彼は疲れているとミスをしやすい。",
+        "blank": "He is ___ to making mistakes when he is tired.",
+        "blankAnswer": "prone"
+      }
+    ],
+    "distractors": [
+      "食べられる、可食の",
+      "豊かな、裕福な",
+      "影響を受けやすい、感受性の強い"
+    ],
+    "confusableSpellings": [
+      "proan",
+      "proone",
+      "prune"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pronus'（前に傾いた、うつぶせの）から。'pro-'（前に）＋ '-nus'（傾き）。「前に傾いている」→「〜に向かいやすい」という比喩的展開。",
+      "tips": "prone to ～（〜しがちな）の形で使う。to の後には名詞または動名詞（-ing形）が来る。susceptible to と似ているが、prone はより「習慣的な傾向」を指すことが多い。",
+      "confusables": "susceptible to（影響を受けやすい）と混同しやすい。prone は「行動・状態の傾向」、susceptible は「外部影響・感染などへの弱さ」に焦点がある。また supine（仰向けの）と対義語の関係にある。",
+      "collocations": [
+        "prone to error（ミスしやすい）",
+        "accident-prone（事故を起こしやすい）",
+        "lie prone（うつぶせになる）"
+      ],
+      "trivia": "医療現場では「prone position（腹臥位）」が重症肺炎の治療法として使われることがある。コロナ禍でこの体位療法が注目され、prone という単語が医療ニュースに急浮上した！"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1600,
+    "word": "affluent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "裕福な、富裕な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "豊かな、潤沢な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæfluənt/",
+    "syllables": "af-flu-ent",
+    "audioHint": "アフルエント",
+    "examples": [
+      {
+        "en": "She grew up in an affluent neighborhood with great schools.",
+        "ja": "彼女は素晴らしい学校がある裕福な地域で育った。",
+        "blank": "She grew up in an ___ neighborhood with great schools.",
+        "blankAnswer": "affluent"
+      }
+    ],
+    "distractors": [
+      "食べられる、可食の",
+      "〜しやすい、傾向がある",
+      "影響を受けやすい、かかりやすい"
+    ],
+    "confusableSpellings": [
+      "afluent",
+      "affleuant",
+      "affluant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'affluens' から。'ad-'（〜へ）＋ 'fluere'（流れる）。「富が流れ込んでくる」→「裕福な」というイメージ。流れを意味する 'flu-' は fluid（流体）や influence（影響）とも共通。",
+      "tips": "wealthy や rich と同義だが、affluent はより文語的・フォーマルな表現。不動産広告や経済記事でよく見かける語。'affluent society'（豊かな社会）は社会学の重要概念でもある。",
+      "confusables": "wealthy（裕福な）・prosperous（繁栄した）と近義語。affluent は特に「金銭的に豊かな地域・社会階層」を指すことが多く、個人よりも集団・地域に使われる傾向がある。",
+      "collocations": [
+        "affluent society（豊かな社会）",
+        "affluent neighborhood（裕福な地域）",
+        "affluent lifestyle（裕福なライフスタイル）"
+      ],
+      "trivia": "経済学者ガルブレイスの著書『The Affluent Society（豊かな社会）』(1958年)はこの語を広めた名著。「物質的に豊かなのに公共サービスが貧しい」という矛盾を論じた本で、今でも通じる話！"
+    },
+    "frequency": 4800,
+    "cefr": "C1"
+  }
+]

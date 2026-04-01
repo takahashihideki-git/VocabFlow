@@ -1,0 +1,988 @@
+[
+  {
+    "id": 821,
+    "word": "wed",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "結婚する、結婚させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "固く結びつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wɛd/",
+    "syllables": "wed",
+    "audioHint": "ウェッド",
+    "examples": [
+      {
+        "en": "They plan to wed in a small ceremony next spring.",
+        "ja": "彼らは来春、小さな式で結婚する予定だ。",
+        "blank": "They plan to ___ in a small ceremony next spring.",
+        "blankAnswer": "wed"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "命令する",
+      "救助する"
+    ],
+    "confusableSpellings": [
+      "wedd",
+      "wead"
+    ],
+    "passive": {
+      "etymology": "古英語 'weddian'（誓う・保証する）から。語根 'wed' はゲルマン語で「誓約・賭け」を意味し、結婚の誓いと直結している。",
+      "tips": "Wednesdayの'Wed'はこの単語と同語源。過去形はwedded/wedどちらも使えるが、形容詞的に使う場合は'wedded'（wedded bliss）が一般的。",
+      "confusables": "marry との違い：wed はやや文語的・フォーマルな響きがあり、ニュース記事や詩によく登場する。日常会話では marry のほうが自然。",
+      "collocations": [
+        "wed in a ceremony",
+        "newly wed",
+        "wedded couple"
+      ],
+      "trivia": "Wednesdayは「Woden（ウォーデン神）の日」が語源で、wedとは別の語源。ただし綴りが似ているため間違いやすいので注意！"
+    },
+    "frequency": 8500,
+    "cefr": "B2"
+  },
+  {
+    "id": 822,
+    "word": "delight",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "喜ばせる、大いに楽しむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "喜び、歓喜",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈlaɪt/",
+    "syllables": "de-light",
+    "audioHint": "ディライト",
+    "examples": [
+      {
+        "en": "The magician's tricks delighted the children in the audience.",
+        "ja": "マジシャンの技は観客の子どもたちを喜ばせた。",
+        "blank": "The magician's tricks ___ the children in the audience.",
+        "blankAnswer": "delighted"
+      }
+    ],
+    "distractors": [
+      "中断する",
+      "対応する",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "dilght",
+      "deligt",
+      "deliight"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'delectare'（喜ばせる）から古フランス語 'delitier' を経て英語へ。接頭辞 de- は強意で、語根 lect/lect は「選ぶ・引き付ける」を意味する。",
+      "tips": "delight in ～（～を楽しむ・喜ぶ）という前置詞 in との組み合わせを覚えよう。例：She delights in cooking. 動詞・名詞・形容詞（delightful）すべて頻出。",
+      "confusables": "enjoy との違い：delight はより強い感情的な喜びを表す。enjoy は中立的な「楽しむ」だが、delight は「心から喜ぶ・魅了される」ニュアンスが強い。",
+      "collocations": [
+        "delight in",
+        "take delight in",
+        "to one's delight"
+      ],
+      "trivia": "「ターキッシュ・ディライト（Turkish Delight）」はナルニア国物語に出てくるお菓子で、その名の通り「最高の喜び」を与える甘さ。delightの語感がよく伝わる！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 823,
+    "word": "boost",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "押し上げる、増大させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "後押し、増進",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/buːst/",
+    "syllables": "boost",
+    "audioHint": "ブースト",
+    "examples": [
+      {
+        "en": "Drinking coffee in the morning can boost your energy levels.",
+        "ja": "朝にコーヒーを飲むとエネルギーレベルが上がる。",
+        "blank": "Drinking coffee in the morning can ___ your energy levels.",
+        "blankAnswer": "boost"
+      }
+    ],
+    "distractors": [
+      "解決する",
+      "登録する",
+      "分解する"
+    ],
+    "confusableSpellings": [
+      "boust",
+      "bost",
+      "booste"
+    ],
+    "passive": {
+      "etymology": "19世紀初頭のアメリカ英語に登場。語源は不明な部分が多いが、「下から押し上げる」という物理的動作から比喩的に「増大させる」へ拡張した。",
+      "tips": "boost は他動詞として使うことが多い（boost sales, boost confidence）。「boost up」と up を付けたくなるが、boost だけで「押し上げる」の意味が含まれるので不要。",
+      "confusables": "increase との違い：boost は数値が上がるだけでなく「勢い・活力を与える」ポジティブなニュアンスが強い。increase は中立的な増加を指す。",
+      "collocations": [
+        "boost confidence",
+        "boost sales",
+        "boost the economy"
+      ],
+      "trivia": "ロケット推進の「ブースター」もこの語から。スマホの「電波ブースター」も同じ語源で、「押し上げるもの」という意味が現代でも生きている！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 824,
+    "word": "endure",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "耐える、我慢する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "持続する、長続きする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈdjʊər/",
+    "syllables": "en-dure",
+    "audioHint": "インデュア",
+    "examples": [
+      {
+        "en": "She endured hours of pain before the doctor arrived.",
+        "ja": "彼女は医者が来るまで何時間も痛みに耐えた。",
+        "blank": "She ___ hours of pain before the doctor arrived.",
+        "blankAnswer": "endured"
+      }
+    ],
+    "distractors": [
+      "飛び跳ねる",
+      "消化する",
+      "震える"
+    ],
+    "confusableSpellings": [
+      "enduer",
+      "endore",
+      "endeure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'indurare'（硬くする）から。接頭辞 en-/in-（中に）+ 語根 durus（硬い）で「硬く耐える状態にする」が原義。durable（耐久性のある）と同語根。",
+      "tips": "「耐える」の意味では endure + 名詞（pain, hardship）が基本。「続く」の意味では自動詞として His legacy endures. のように使う。日本人はつい tolerate と混同しがち。",
+      "confusables": "tolerate との違い：tolerate は「嫌だが許容する」という気持ちが含まれる。endure はより激しい苦痛・困難に対して「じっと耐え抜く」イメージが強い。",
+      "collocations": [
+        "endure pain",
+        "endure hardship",
+        "endure for years"
+      ],
+      "trivia": "Ernest Shackleton の南極探検船の名前が「Endurance（エンデュランス）」。極限の逆境に耐え抜くという意志がそのまま船名になった、まさに語源通りの命名！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 825,
+    "word": "correspond",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "一致する、相当する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "文通する、連絡を取り合う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌkɒrəˈspɒnd/",
+    "syllables": "cor-re-spond",
+    "audioHint": "コレスポンド",
+    "examples": [
+      {
+        "en": "The results do not correspond to our initial predictions.",
+        "ja": "結果は最初の予測と一致しない。",
+        "blank": "The results do not ___ to our initial predictions.",
+        "blankAnswer": "correspond"
+      }
+    ],
+    "distractors": [
+      "中断する",
+      "議論する",
+      "想像する"
+    ],
+    "confusableSpellings": [
+      "corespond",
+      "correspnd",
+      "corresponde"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'correspondere' から。接頭辞 cor-（com- の変形：共に）+ 語根 respondere（応答する）で「互いに応答し合う」が原義。response（応答）と同語根。",
+      "tips": "「一致する」意味では correspond to / with ～、「文通する」意味では correspond with ～を使う。前置詞の使い分けに注意。correspondent（特派員・通信員）も重要派生語。",
+      "confusables": "match との違い：correspond はより形式的・学術的な文脈で使われることが多い。match は視覚的・感覚的な一致に使いやすい（This tie matches your suit.）。",
+      "collocations": [
+        "correspond to",
+        "correspond with",
+        "correspond closely"
+      ],
+      "trivia": "昔の外交は全て「文通（correspondence）」で行われていた。現代のメールや外交電報も英語では diplomatic correspondence と呼ぶ。SNS全盛の今もこの言葉は現役！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 826,
+    "word": "impose",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "課す、強制する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "迷惑をかける、押しつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈpoʊz/",
+    "syllables": "im-pose",
+    "audioHint": "インポウズ",
+    "examples": [
+      {
+        "en": "The government imposed strict rules on plastic bag use.",
+        "ja": "政府はレジ袋の使用に厳しい規制を課した。",
+        "blank": "The government ___ strict rules on plastic bag use.",
+        "blankAnswer": "imposed"
+      }
+    ],
+    "distractors": [
+      "救助する",
+      "結婚させる",
+      "謝罪する"
+    ],
+    "confusableSpellings": [
+      "inpose",
+      "impoze",
+      "imposse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'imponere' から。接頭辞 im-（in- の変形：上に・中に）+ 語根 ponere（置く）で「上に置く・押しつける」が原義。position（位置）、propose（提案する）と同語根。",
+      "tips": "impose A on B（AをBに課す）という構文が最重要。impose on someone だけだと「迷惑をかける」という意味になる。I don't want to impose. で「ご迷惑をおかけしたくないのですが」という丁寧表現になる。",
+      "confusables": "enforce との違い：impose は「ルール・税などを新たに課す」行為、enforce は「すでにあるルールを執行・強制する」行為を指す。",
+      "collocations": [
+        "impose taxes",
+        "impose sanctions",
+        "impose on someone"
+      ],
+      "trivia": "「imposing（堂々とした・威圧的な）」はこの動詞の形容詞形。「人に何かを強く押しつけてくる」イメージから「威圧感のある外観」という意味に発展した！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 827,
+    "word": "rescue",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "救助する、救出する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "救助、救出",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈrɛskjuː/",
+    "syllables": "res-cue",
+    "audioHint": "レスキュー",
+    "examples": [
+      {
+        "en": "Firefighters rescued three people from the burning building.",
+        "ja": "消防士は燃える建物から3人を救出した。",
+        "blank": "Firefighters ___ three people from the burning building.",
+        "blankAnswer": "rescued"
+      }
+    ],
+    "distractors": [
+      "課す",
+      "命令する",
+      "処罰する"
+    ],
+    "confusableSpellings": [
+      "resque",
+      "rescew",
+      "resuce"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'rescourre' から。接頭辞 re-（再び・強意）+ 語根 escourre（振り払う・解放する）で「拘束から引き離す」が原義。ラテン語 excutere（振り落とす）に遡る。",
+      "tips": "rescue A from B（AをBから救う）が基本構文。come to the rescue（助けに来る）というフレーズも頻出。日本語の「レスキュー隊」はそのまま英語から来ている。",
+      "confusables": "save との違い：rescue は危険・拘束された場所から物理的に引き出すニュアンスが強い。save はより広い意味で「失うことから守る」を指す（save money, save time など）。",
+      "collocations": [
+        "rescue operation",
+        "come to the rescue",
+        "rescue from danger"
+      ],
+      "trivia": "日本の「消防・救助隊」が英語で rescue team と呼ばれるのは直輸入。東京消防庁の特別救助隊も公式には 'Rescue' の名称を使っており、世界共通語になっている！"
+    },
+    "frequency": 2700,
+    "cefr": "A2"
+  },
+  {
+    "id": 828,
+    "word": "resolve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "解決する、決意する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "決意、解決",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈzɒlv/",
+    "syllables": "re-solve",
+    "audioHint": "リゾルヴ",
+    "examples": [
+      {
+        "en": "We need to resolve this conflict before it gets worse.",
+        "ja": "状況が悪化する前にこの対立を解決する必要がある。",
+        "blank": "We need to ___ this conflict before it gets worse.",
+        "blankAnswer": "resolve"
+      }
+    ],
+    "distractors": [
+      "登録する",
+      "押し上げる",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "resolv",
+      "reslove",
+      "resoilve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'resolvere' から。接頭辞 re-（再び・完全に）+ 語根 solvere（解く・緩める）で「完全にほどく・解き明かす」が原義。solve（解く）、solution（解決策）と同語根。",
+      "tips": "resolve to do（～することを決意する）と resolve a problem（問題を解決する）の2つの使い方を押さえよう。名詞では「強い決意」という意味もある（iron resolve＝鉄の意志）。",
+      "confusables": "solve との違い：solve は数学の問題など具体的な解決に使うことが多い。resolve はより複雑な対立・葛藤・感情的な問題を「解消する」ニュアンスが強い。",
+      "collocations": [
+        "resolve a conflict",
+        "resolve to do",
+        "resolve differences"
+      ],
+      "trivia": "「New Year's resolution（新年の抱負）」はこの resolve の名詞形 resolution から。毎年1月に立てる「決意」が3日坊主になる現象は世界共通で、resolution fatigue（決意疲れ）という言葉まで生まれた！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 829,
+    "word": "register",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "登録する、記録する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "登記簿、レジスター",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈrɛdʒɪstər/",
+    "syllables": "reg-is-ter",
+    "audioHint": "レジスター",
+    "examples": [
+      {
+        "en": "You must register for the course by Friday.",
+        "ja": "金曜日までにそのコースに登録しなければならない。",
+        "blank": "You must ___ for the course by Friday.",
+        "blankAnswer": "register"
+      }
+    ],
+    "distractors": [
+      "解決する",
+      "押し上げる",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "registar",
+      "reigster",
+      "regester"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'registrum' から。接頭辞 re-（再び・戻す）+ 語根 gerere（運ぶ・記録する）で「記録に戻す・書き留める」が原義。",
+      "tips": "register for（～に登録する）とregister at（～で登録する）の使い分けに注意。また「感情が顔に表れる」という意味でも使う（Her face registered surprise.）。日本語の「レジ（cashier）」と混同しないように！",
+      "confusables": "enroll との違い：enroll は主に学校・コースへの「入学・入会登録」に限定されることが多い。register はより広く、選挙・会員・商標など多様な登録に使える。",
+      "collocations": [
+        "register for a class",
+        "register a trademark",
+        "register to vote"
+      ],
+      "trivia": "スーパーのレジ（cash register）はもともと「金銭を記録する機械」という意味。register の「記録する」という本来の意味がそのまま残っている生きた化石のような言葉！"
+    },
+    "frequency": 1900,
+    "cefr": "A2"
+  },
+  {
+    "id": 830,
+    "word": "interrupt",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "中断する、遮る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "割り込む、邪魔をする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌɪntəˈrʌpt/",
+    "syllables": "in-ter-rupt",
+    "audioHint": "インタラプト",
+    "examples": [
+      {
+        "en": "Please don't interrupt me while I'm speaking.",
+        "ja": "私が話している間は遮らないでください。",
+        "blank": "Please don't ___ me while I'm speaking.",
+        "blankAnswer": "interrupt"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "賞賛する",
+      "一致する"
+    ],
+    "confusableSpellings": [
+      "interupt",
+      "interruped",
+      "interuppt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'interrumpere' から。接頭辞 inter-（間に）+ 語根 rumpere（破る・壊す）で「間に割り込んで壊す」が原義。rupture（破裂）、corrupt（腐敗する）と同語根。",
+      "tips": "interrupt は他動詞が基本（interrupt someone / a conversation）。「話の途中で割り込む」は日本人には失礼に見えるが、英語圏では議論の場での interruption は必ずしも失礼ではない。Sorry to interrupt, but...で丁寧に使える。",
+      "confusables": "disturb との違い：disturb は「静けさや集中を乱す」広い意味。interrupt は「進行中の行為・会話を途中で止める」という具体的な遮断行為を指す。",
+      "collocations": [
+        "interrupt a conversation",
+        "interrupt someone",
+        "without interruption"
+      ],
+      "trivia": "コンピュータの「割り込み処理（interrupt）」はこの単語そのまま。CPUが実行中の作業を一時停止して別の処理を優先する仕組みで、人間の会話に割り込むのと全く同じ概念が使われている！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 831,
+    "word": "rid",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を取り除く、解放する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪd/",
+    "syllables": "rid",
+    "audioHint": "リッド",
+    "examples": [
+      {
+        "en": "We need to rid the house of mice before winter.",
+        "ja": "冬になる前に家からネズミを追い出さなければならない。",
+        "blank": "We need to ___ the house of mice before winter.",
+        "blankAnswer": "rid"
+      }
+    ],
+    "distractors": [
+      "壊す、台無しにする",
+      "変更する、修正する",
+      "資格を与える"
+    ],
+    "confusableSpellings": [
+      "ridd",
+      "rrid"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 ryðja（片付ける、取り除く）に由来。語根は「道を開ける」という意味を持つ。",
+      "tips": "必ず「rid + 目的語 + of + 取り除く対象」の形で使う。'rid of' をセットで覚えよう。'get rid of'（～を処分する）というフレーズも超頻出。過去形・過去分詞もそのまま rid（変化しない）。",
+      "confusables": "rid vs. remove：どちらも「取り除く」だが、rid はネガティブなものを一掃するニュアンスが強い。remove は中立的に物を動かす感じ。",
+      "collocations": [
+        "get rid of ~",
+        "rid oneself of ~",
+        "rid the world of ~"
+      ],
+      "trivia": "「get rid of」は英語でめちゃくちゃよく使われるのに、日本人は「remove」ばかり使いがち。ネイティブに「自然な英語だな」と思わせたいなら get rid of を使おう！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 832,
+    "word": "prohibit",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "禁止する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "妨げる、不可能にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈhɪbɪt/",
+    "syllables": "pro-hib-it",
+    "audioHint": "プロヒビット",
+    "examples": [
+      {
+        "en": "The law prohibits smoking in public places.",
+        "ja": "法律は公共の場での喫煙を禁止している。",
+        "blank": "The law ___ smoking in public places.",
+        "blankAnswer": "prohibits"
+      }
+    ],
+    "distractors": [
+      "罰する、懲らしめる",
+      "守る、防衛する",
+      "批判する、非難する"
+    ],
+    "confusableSpellings": [
+      "prohibt",
+      "probibit",
+      "prohibbit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 prohibēre から。pro-（前に）+ habēre（持つ）→「前に手を置いて止める」イメージ。",
+      "tips": "「prohibit + 目的語 + from + 動名詞」の構文が重要。'prohibit him from entering'のように使う。'ban'や'forbid'と違い、より公式・法律的な文脈でよく使われる。",
+      "confusables": "prohibit vs. forbid vs. ban：prohibit は法律・規則レベル。forbid は個人が「やめなさい」と命じる感じ。ban は公的に禁止する（同じく公式だが口語でも使える）。",
+      "collocations": [
+        "prohibit ~ from doing",
+        "strictly prohibited",
+        "prohibited by law"
+      ],
+      "trivia": "アメリカの禁酒法時代（1920〜1933）は「Prohibition（プロヒビション）」と呼ばれる。prohibit の名詞形がそのまま歴史用語になった！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 833,
+    "word": "compose",
+    "pos": "verb",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "作曲する、作成する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "構成する、組み立てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpoʊz/",
+    "syllables": "com-pose",
+    "audioHint": "コンポウズ",
+    "examples": [
+      {
+        "en": "She composed a beautiful symphony at the age of twenty.",
+        "ja": "彼女は20歳のときに美しい交響曲を作曲した。",
+        "blank": "She ___ a beautiful symphony at the age of twenty.",
+        "blankAnswer": "composed"
+      }
+    ],
+    "distractors": [
+      "描写する、表現する",
+      "展示する、展覧する",
+      "編集する、修正する"
+    ],
+    "confusableSpellings": [
+      "compouse",
+      "compoze",
+      "conpose"
+    ],
+    "passive": {
+      "etymology": "ラテン語 componere から。com-（共に）+ ponere（置く）→「要素を一緒に置く」= 組み合わせて作る。",
+      "tips": "「compose」には①作曲・作詩する、②（～を）構成する（Water is composed of hydrogen and oxygen.）の2つの主要な使い方がある。受動態 be composed of（～から成る）は特に大学入試でも頻出！",
+      "confusables": "compose vs. consist of：どちらも「構成」を表すが、be composed of は受動態で使い、consist of は能動態のみ（× be consisted of は誤り）。",
+      "collocations": [
+        "compose music",
+        "be composed of ~",
+        "compose oneself（気を落ち着かせる）"
+      ],
+      "trivia": "「compose oneself」で「気持ちを落ち着かせる」という意味になる。「作曲する」とは全然違う使い方！感情が「バラバラに」なったのを「まとめ直す」イメージ。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 834,
+    "word": "misunderstand",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "誤解する、理解を誤る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌmɪsʌndərˈstænd/",
+    "syllables": "mis-un-der-stand",
+    "audioHint": "ミスアンダースタンド",
+    "examples": [
+      {
+        "en": "I think you misunderstood what I said earlier.",
+        "ja": "私が先ほど言ったことを誤解していると思います。",
+        "blank": "I think you ___ what I said earlier.",
+        "blankAnswer": "misunderstood"
+      }
+    ],
+    "distractors": [
+      "無視する、軽視する",
+      "忘れる、記憶を失う",
+      "疑う、懐疑的になる"
+    ],
+    "confusableSpellings": [
+      "misunderstand",
+      "misunderstaand",
+      "missunderstand"
+    ],
+    "passive": {
+      "etymology": "mis-（誤って）+ understand（理解する）。mis- はラテン語由来の接頭辞で「悪く・誤って」を意味し、misuse, mislead なども同じ構造。",
+      "tips": "過去形・過去分詞は misunderstood（understand → understood と同じ不規則変化）。'I was misunderstood.'（私は誤解された）のように受動態でもよく使う。",
+      "confusables": "misunderstand vs. misinterpret：misunderstand は日常会話的で全般的な誤解。misinterpret は文章・行動・データなどを「誤って解釈する」というやや書き言葉的なニュアンス。",
+      "collocations": [
+        "easily misunderstood",
+        "be misunderstood by ~",
+        "misunderstand the situation"
+      ],
+      "trivia": "英語でよく使われる表現「Don't get me wrong」は「誤解しないで」という意味。misunderstand を使わずに誤解を防ぐ、ネイティブらしい言い方！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 835,
+    "word": "punish",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "罰する、懲らしめる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpʌnɪʃ/",
+    "syllables": "pun-ish",
+    "audioHint": "パニッシュ",
+    "examples": [
+      {
+        "en": "The teacher punished the students for cheating on the test.",
+        "ja": "先生はテストでカンニングした生徒たちを罰した。",
+        "blank": "The teacher ___ the students for cheating on the test.",
+        "blankAnswer": "punished"
+      }
+    ],
+    "distractors": [
+      "禁止する、制限する",
+      "批判する、非難する",
+      "脅す、おどす"
+    ],
+    "confusableSpellings": [
+      "punich",
+      "punnis",
+      "punsh"
+    ],
+    "passive": {
+      "etymology": "ラテン語 punire（罰する）から、古フランス語 puniss- を経て英語へ。語根 poena（罰・苦しみ）はギリシャ語 poinē に由来。penalty（罰則）と同じ語根！",
+      "tips": "「punish + 人 + for + 理由」の形が基本。'punish him for lying' のように使う。'be punished' の受動態も頻出。名詞形 punishment も合わせて覚えよう。",
+      "confusables": "punish vs. discipline：punish は「罰を与える」こと自体に焦点。discipline は「規律を通じて正しい行動を教える」というより建設的なニュアンスを持つ。",
+      "collocations": [
+        "punish ~ for ~",
+        "be punished severely",
+        "punish a crime"
+      ],
+      "trivia": "「punishment」の略語っぽいスラングとして、スポーツの世界では相手を圧倒することを 'punishing performance'（容赦ない試合運び）と表現することがある。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 836,
+    "word": "ruin",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "台無しにする、破壊する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "廃墟、破滅",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈruːɪn/",
+    "syllables": "ru-in",
+    "audioHint": "ルーイン",
+    "examples": [
+      {
+        "en": "The heavy rain ruined our plans for the picnic.",
+        "ja": "大雨がピクニックの計画を台無しにした。",
+        "blank": "The heavy rain ___ our plans for the picnic.",
+        "blankAnswer": "ruined"
+      }
+    ],
+    "distractors": [
+      "取り除く、解放する",
+      "変更する、修正する",
+      "資格を与える"
+    ],
+    "confusableSpellings": [
+      "rune",
+      "ruine",
+      "ruin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ruina（崩壊・倒壊）から。ruere（崩れ落ちる）が語根。「何かが崩れ落ちた結果の状態」がもともとの意味。",
+      "tips": "動詞としても名詞としても使える。'ruin my day'（一日を台無しにする）という口語表現は超頻出。ruins（複数形）は「遺跡・廃墟」という意味になることに注意。",
+      "confusables": "ruin vs. destroy vs. spoil：destroy は物理的に完全に壊す。spoil は食べ物が腐る・子供を甘やかすなどの意味も持つ。ruin は計画・人間関係・機会などを「台無しにする」感覚が強い。",
+      "collocations": [
+        "ruin one's reputation",
+        "fall into ruin",
+        "ancient ruins"
+      ],
+      "trivia": "「rune（ルーン文字）」と「ruin（廃墟）」は全然別の語源なのにスペルが似ていて混乱しがち。rune は北欧の秘密文字、ruin はローマ語源の「崩壊」。まったく無関係！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 837,
+    "word": "defend",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "守る、防衛する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "弁護する、擁護する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈfɛnd/",
+    "syllables": "de-fend",
+    "audioHint": "ディフェンド",
+    "examples": [
+      {
+        "en": "She defended her thesis in front of the entire committee.",
+        "ja": "彼女は委員会全員の前で論文を弁護した。",
+        "blank": "She ___ her thesis in front of the entire committee.",
+        "blankAnswer": "defended"
+      }
+    ],
+    "distractors": [
+      "禁止する、制限する",
+      "罰する、懲らしめる",
+      "交渉する、取り決める"
+    ],
+    "confusableSpellings": [
+      "defand",
+      "difend",
+      "defened"
+    ],
+    "passive": {
+      "etymology": "ラテン語 defendere から。de-（離れて・下に）+ fendere（打つ）→「打ちつけて遠ざける」= 守る。offense（攻撃）と対になる概念。",
+      "tips": "スポーツでは defense（ディフェンス）として名詞でもおなじみ。法律文脈では「弁護する」の意味で使い、'defend the accused'（被告を弁護する）のように使う。",
+      "confusables": "defend vs. protect vs. guard：protect は危険から「保護する」全般的な語。guard は監視して「警護する」。defend はより積極的に「攻撃に対抗して守る」ニュアンス。",
+      "collocations": [
+        "defend oneself",
+        "defend a position",
+        "defend against attack"
+      ],
+      "trivia": "「devil's advocate（悪魔の代弁者）」は、わざと反論する役割を指す表現。もともとカトリックの列聖審査で、聖人候補の悪い点をあえて指摘して「弁護（defend）」の正当性を試した役職から来ている！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 838,
+    "word": "embrace",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "抱きしめる、抱擁する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "受け入れる、取り入れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈbreɪs/",
+    "syllables": "em-brace",
+    "audioHint": "エンブレイス",
+    "examples": [
+      {
+        "en": "He embraced his daughter tightly when she returned home.",
+        "ja": "彼は帰宅した娘をぎゅっと抱きしめた。",
+        "blank": "He ___ his daughter tightly when she returned home.",
+        "blankAnswer": "embraced"
+      }
+    ],
+    "distractors": [
+      "つかむ、握る",
+      "押す、圧迫する",
+      "引っ張る、引き寄せる"
+    ],
+    "confusableSpellings": [
+      "enbrace",
+      "embracce",
+      "embrase"
+    ],
+    "passive": {
+      "etymology": "古フランス語 embracer から。em-（中に）+ brace（腕）→「腕の中に入れる」= 抱きしめる。brace はラテン語 bracchium（腕）に由来。",
+      "tips": "物理的な「抱擁」だけでなく、「新しい考えを受け入れる」という抽象的な意味でもよく使う。'embrace diversity'（多様性を受け入れる）はビジネス・社会分野の英文でよく出てくる。",
+      "confusables": "embrace vs. hug：hug はカジュアルな日常的な「ハグ」。embrace はより感情的・文学的・フォーマルなニュアンスがある。また embrace は「受け入れる」の意味で使えるが hug にはその用法はない。",
+      "collocations": [
+        "embrace change",
+        "embrace diversity",
+        "warm embrace"
+      ],
+      "trivia": "「brace yourself（覚悟しろ）」と「embrace（抱擁）」は同じ語根「腕（brace）」から来ている。「腕でしっかり固定する」→「覚悟を決める」という発想が面白い！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 839,
+    "word": "modify",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "修正する、変更する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（文法で）修飾する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈmɒdɪfaɪ/",
+    "syllables": "mod-i-fy",
+    "audioHint": "モディファイ",
+    "examples": [
+      {
+        "en": "We had to modify our schedule due to the weather.",
+        "ja": "天候のためにスケジュールを変更しなければならなかった。",
+        "blank": "We had to ___ our schedule due to the weather.",
+        "blankAnswer": "modify"
+      }
+    ],
+    "distractors": [
+      "取り除く、解放する",
+      "台無しにする、破壊する",
+      "資格を与える、適任にする"
+    ],
+    "confusableSpellings": [
+      "modifie",
+      "modfy",
+      "modifly"
+    ],
+    "passive": {
+      "etymology": "ラテン語 modificare から。modus（尺度・様式）+ facere（する・作る）→「適切な形に整える」。mode（モード）や model と同じ語根。",
+      "tips": "IT・テクノロジー分野で超頻出。ソフトウェアの「改変」や設定の「変更」に使う。文法用語としては「修飾語（modifier）」の動詞形でもある。三単現は modifies（y→ies に変化）。",
+      "confusables": "modify vs. change vs. alter：change は最も一般的。alter はやや改まった言い方で部分的な変更。modify は「より良く・適切に調整する」というニュアンスが強く、エンジニアリング・文法分野でよく使われる。",
+      "collocations": [
+        "modify behavior",
+        "modify a design",
+        "genetically modified（遺伝子組み換え）"
+      ],
+      "trivia": "「GMO（Genetically Modified Organism＝遺伝子組み換え生物）」の M が modify の過去分詞 modified！食品ラベルでおなじみの略語に modify が隠れていた。"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  },
+  {
+    "id": 840,
+    "word": "qualify",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "資格を与える、適任にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（条件を）満たす、資格を得る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkwɒlɪfaɪ/",
+    "syllables": "qual-i-fy",
+    "audioHint": "クウォリファイ",
+    "examples": [
+      {
+        "en": "She qualified for the national championship last weekend.",
+        "ja": "彼女は先週末に全国大会への出場資格を得た。",
+        "blank": "She ___ for the national championship last weekend.",
+        "blankAnswer": "qualified"
+      }
+    ],
+    "distractors": [
+      "修正する、変更する",
+      "取り除く、処分する",
+      "台無しにする、破壊する"
+    ],
+    "confusableSpellings": [
+      "qualifie",
+      "quallify",
+      "qualfy"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 qualificare から。qualis（どのような・性質の）+ facere（する・作る）→「ある性質・資質を持たせる」。quality（質）と同じ語根。",
+      "tips": "自動詞（qualify for ～＝～の資格を得る）と他動詞（qualify + 人＝人に資格を与える）の両方で使える。三単現は qualifies（y→ies 変化）。名詞形 qualification も頻出。",
+      "confusables": "qualify vs. be eligible for：qualify はプロセスを経て「資格を得る・条件を満たす」こと。be eligible for は「最初から条件を満たしていて対象となる」という状態を指す。",
+      "collocations": [
+        "qualify for ~",
+        "qualify as ~（～として認定される）",
+        "qualifying exam（予選・資格試験）"
+      ],
+      "trivia": "スポーツの「予選」を qualifying round と言う。オリンピック選手たちが「qualify（資格を得る）」するための戦いがまさに予選！quality と語源が同じというのも納得で、「質を証明する」のが予選の本質。"
+    },
+    "frequency": 2300,
+    "cefr": "B1"
+  }
+]

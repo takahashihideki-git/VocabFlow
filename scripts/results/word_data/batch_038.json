@@ -1,0 +1,987 @@
+[
+  {
+    "id": 741,
+    "word": "wisdom",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "知恵、英知",
+        "pos": "noun"
+      },
+      {
+        "meaning": "賢明さ、分別",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɪzdəm/",
+    "syllables": "wis-dom",
+    "audioHint": "ウィズダム",
+    "examples": [
+      {
+        "en": "She shared her wisdom with the younger generation.",
+        "ja": "彼女は若い世代に自分の知恵を分かち合った。",
+        "blank": "She shared her ___ with the younger generation.",
+        "blankAnswer": "wisdom"
+      }
+    ],
+    "distractors": [
+      "信仰",
+      "使命感",
+      "意識"
+    ],
+    "confusableSpellings": [
+      "wisdem",
+      "wisdome"
+    ],
+    "passive": {
+      "etymology": "古英語 wīsdōm から。wīs（賢い）＋ dōm（状態・判断）の合成語。dom は「kingdom（王国）」などにも見られる接尾辞。",
+      "tips": "「wise（賢い）」の名詞形だが、wise → *wiseness ではなく wisdom になる点に注意。knowledge（知識）は学んで得るもの、wisdom（知恵）は経験を通じて磨かれるもの、というニュアンスの違いを押さえよう。",
+      "confusables": "knowledge（知識）との違いが重要。knowledge は「情報として知っている」こと、wisdom は「それをどう使うかを知っている」深い判断力のこと。",
+      "collocations": [
+        "conventional wisdom（一般通念）",
+        "words of wisdom（金言）",
+        "wisdom tooth（親知らず）"
+      ],
+      "trivia": "「親知らず」は英語で wisdom tooth。大人になって分別がついた頃に生えてくる歯だから、という理由でこの名前がついた。哲学的すぎる歯の名前！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 742,
+    "word": "literacy",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "読み書き能力、識字能力",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（特定分野の）知識・能力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlɪtərəsi/",
+    "syllables": "lit-er-a-cy",
+    "audioHint": "リタラシー",
+    "examples": [
+      {
+        "en": "Digital literacy is essential for modern workers.",
+        "ja": "デジタルリテラシーは現代の労働者に不可欠だ。",
+        "blank": "Digital ___ is essential for modern workers.",
+        "blankAnswer": "literacy"
+      }
+    ],
+    "distractors": [
+      "専門的な訓練",
+      "学術的な資格",
+      "研究の方法論"
+    ],
+    "confusableSpellings": [
+      "literasy",
+      "litteracy",
+      "litercy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 littera（文字）から。接尾辞 -acy は「状態・能力」を表す（例：accuracy, democracy）。litteral → literal → literacy と変化してきた。",
+      "tips": "日本語の「リテラシー」はカタカナで定着しているが、英語では literacy と綴る。「リテラシー」と書いてしまうと literarcy などのスペルミスに繋がりやすい。発音は「リタラシー」が近い。",
+      "confusables": "literature（文学）と語根は同じだが全く別の意味。また、illiteracy（非識字）は反対語で接頭辞 il-（否定）が付く。",
+      "collocations": [
+        "media literacy（メディアリテラシー）",
+        "financial literacy（金融リテラシー）",
+        "literacy rate（識字率）"
+      ],
+      "trivia": "世界の識字率は現在約86%だが、200年前はわずか約12%だった。読み書きが「当たり前」になったのは人類史的にはごく最近の話！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 743,
+    "word": "heritage",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "遺産、文化遺産",
+        "pos": "noun"
+      },
+      {
+        "meaning": "伝統、受け継がれたもの",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈherɪtɪdʒ/",
+    "syllables": "her-i-tage",
+    "audioHint": "ヘリテージ",
+    "examples": [
+      {
+        "en": "This temple is a UNESCO World Heritage Site.",
+        "ja": "この寺院はユネスコ世界遺産である。",
+        "blank": "This temple is a UNESCO World ___ Site.",
+        "blankAnswer": "Heritage"
+      }
+    ],
+    "distractors": [
+      "日常的な慣習",
+      "個人の所有物",
+      "地域の祭り"
+    ],
+    "confusableSpellings": [
+      "heretage",
+      "heratage",
+      "heriage"
+    ],
+    "passive": {
+      "etymology": "古フランス語 heritage から。ラテン語 heres（相続人）が語根。inherit（相続する）と同じ語根を持つ。-age は名詞を作る接尾辞。",
+      "tips": "heritage は「過去から引き継がれた価値あるもの」というポジティブなニュアンスが強い。inheritance（相続財産）と混同しやすいが、heritage は有形・無形の文化的価値に使い、inheritance は法的・金銭的な相続に使うことが多い。",
+      "confusables": "inheritance（相続）は法律・財産文脈、heritage（遺産）は文化・歴史文脈で使い分ける。「World Heritage（世界遺産）」は固有表現として丸ごと覚えよう。",
+      "collocations": [
+        "cultural heritage（文化遺産）",
+        "World Heritage Site（世界遺産）",
+        "heritage site（遺産地）"
+      ],
+      "trivia": "「ヘリテージ」はブランド名や商品名にもよく使われる。ティンバーランドの「Heritage」ラインや、フォードの復刻モデルなど、「本物の伝統感」を演出するのに大人気の単語！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 744,
+    "word": "mission",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "使命、任務",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（軍・宇宙などの）作戦、ミッション",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɪʃən/",
+    "syllables": "mis-sion",
+    "audioHint": "ミッション",
+    "examples": [
+      {
+        "en": "The astronauts completed their mission successfully.",
+        "ja": "宇宙飛行士たちは任務を無事に完了した。",
+        "blank": "The astronauts completed their ___ successfully.",
+        "blankAnswer": "mission"
+      }
+    ],
+    "distractors": [
+      "内なる葛藤",
+      "道徳的な判断",
+      "精神的な平和"
+    ],
+    "confusableSpellings": [
+      "mision",
+      "missoin",
+      "mession"
+    ],
+    "passive": {
+      "etymology": "ラテン語 missio（送ること）から。動詞 mittere（送る）の過去分詞 missus が語源。submit（提出する）、permit（許可する）、emit（放出する）など -mit/-miss 語根は英語に多数存在する。",
+      "tips": "「ミッション」はカタカナ語として定着しているが、英語では mission（ss＋ion）と綴る。s を一つにしてしまうミスが多い。また「使命感」は a sense of mission と言う。",
+      "confusables": "task（個別の作業）、duty（義務・職務）との違いに注意。mission はより大きな目標・使命感を伴うニュアンスがある。",
+      "collocations": [
+        "mission accomplished（任務完了）",
+        "on a mission（使命を帯びて）",
+        "mission statement（企業理念）"
+      ],
+      "trivia": "映画「Mission: Impossible」のタイトルは「不可能な任務」という意味。実はこのフレーズ、1960年代のテレビドラマが元祖で、「もし捕まっても政府は関知しない」という設定が当時の視聴者をドキドキさせた！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 745,
+    "word": "license",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "免許（証）、許可証",
+        "pos": "noun"
+      },
+      {
+        "meaning": "許可、認可",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlaɪsəns/",
+    "syllables": "li-cense",
+    "audioHint": "ライセンス",
+    "examples": [
+      {
+        "en": "You need a license to drive a car legally.",
+        "ja": "合法的に車を運転するには免許が必要だ。",
+        "blank": "You need a ___ to drive a car legally.",
+        "blankAnswer": "license"
+      }
+    ],
+    "distractors": [
+      "法律上の義務",
+      "選挙権",
+      "国籍"
+    ],
+    "confusableSpellings": [
+      "lisence",
+      "licence",
+      "licnese"
+    ],
+    "passive": {
+      "etymology": "ラテン語 licentia（自由・許可）から。動詞 licēre（許される）が語根。「合法的に許されること」が原義。",
+      "tips": "アメリカ英語では名詞・動詞ともに license と綴るが、イギリス英語では名詞を licence、動詞を license と使い分ける。日本の試験では米英どちらも出るので両方の綴りを認識しておこう。",
+      "confusables": "permit（許可証・動詞「許可する」）と区別を。license はより公式・長期的な認可、permit は特定目的・一時的な許可というニュアンスがある。",
+      "collocations": [
+        "driver's license（運転免許証）",
+        "software license（ソフトウェアライセンス）",
+        "license plate（ナンバープレート）"
+      ],
+      "trivia": "「poetic license（詩的許諾）」という表現があり、詩人や作家が文法や事実を意図的に曲げることへの「許し」を意味する。つまりシェイクスピアの変な文法も「詩的許諾」のせい！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 746,
+    "word": "elite",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "エリート、精鋭集団",
+        "pos": "noun"
+      },
+      {
+        "meaning": "最上位の、精鋭の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈliːt/",
+    "syllables": "e-lite",
+    "audioHint": "イリート",
+    "examples": [
+      {
+        "en": "Only a small elite controls most of the country's wealth.",
+        "ja": "ごく少数のエリートが国の富の大部分を支配している。",
+        "blank": "Only a small ___ controls most of the country's wealth.",
+        "blankAnswer": "elite"
+      }
+    ],
+    "distractors": [
+      "選挙で選ばれた代表者",
+      "法律の施行機関",
+      "市民運動の参加者"
+    ],
+    "confusableSpellings": [
+      "eliet",
+      "ellite",
+      "elíte"
+    ],
+    "passive": {
+      "etymology": "フランス語 élite（選ばれた者）から。ラテン語 eligere（選び出す）が語根。elect（選出する）、eligible（資格のある）と同じ語根 -lig-（選ぶ）を持つ。",
+      "tips": "発音は「エリート」ではなく「イリート」に近い（強勢は第2音節）。カタカナの「エリート」に引きずられると通じにくい。形容詞としても使え、「elite university（一流大学）」のように名詞を修飾できる。",
+      "confusables": "aristocracy（貴族制・特権階級）と混同されがちだが、elite は生まれではなく能力・成果による選抜という意味合いが強い。",
+      "collocations": [
+        "elite athlete（トップアスリート）",
+        "political elite（政治エリート）",
+        "elite school（名門校）"
+      ],
+      "trivia": "フランス語由来なので、もともとアクセント記号付きで élite と書く。英語でも文脈によっては élite と綴ることがある。フランス語の「選ばれし者」感が今も漂う単語！"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 747,
+    "word": "layer",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "層、重なり",
+        "pos": "noun"
+      },
+      {
+        "meaning": "重ねる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈleɪər/",
+    "syllables": "lay-er",
+    "audioHint": "レイヤー",
+    "examples": [
+      {
+        "en": "There is a thick layer of ice on the road.",
+        "ja": "道路には厚い氷の層がある。",
+        "blank": "There is a thick ___ of ice on the road.",
+        "blankAnswer": "layer"
+      }
+    ],
+    "distractors": [
+      "広大な面積",
+      "深い奥行き",
+      "長い距離"
+    ],
+    "confusableSpellings": [
+      "layor",
+      "lauer",
+      "laier"
+    ],
+    "passive": {
+      "etymology": "古英語 lecgan（横たえる）に由来。lay（置く）の派生語で、「横に置かれたもの」→「層」という意味に発展。接尾辞 -er は「〜するもの・〜の状態」を作る。",
+      "tips": "layer と lawyer（弁護士）は発音が非常に似ているので注意！layer は /ˈleɪər/、lawyer は /ˈlɔːjər/。動詞としても使え、「layer the clothes（服を重ね着する）」のように使える。",
+      "confusables": "level（水平面・レベル）と混同しないように。layer は「重なり・厚み」の概念で、level は「高さの段階・平らさ」の概念。",
+      "collocations": [
+        "ozone layer（オゾン層）",
+        "layer cake（層状のケーキ）",
+        "layer of paint（塗料の層）"
+      ],
+      "trivia": "Photoshopの「レイヤー」機能はまさにこの単語から。透明なシートを重ねていくイメージは、地質学でも使われる概念と全く同じ。地球の断面図とデザインソフトが同じ単語でつながっている！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 748,
+    "word": "motor",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "モーター、電動機",
+        "pos": "noun"
+      },
+      {
+        "meaning": "運動の、原動力となる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmoʊtər/",
+    "syllables": "mo-tor",
+    "audioHint": "モウター",
+    "examples": [
+      {
+        "en": "The electric motor runs silently and efficiently.",
+        "ja": "電気モーターは静かに効率よく動く。",
+        "blank": "The electric ___ runs silently and efficiently.",
+        "blankAnswer": "motor"
+      }
+    ],
+    "distractors": [
+      "データを処理する装置",
+      "信号を送受信する機器",
+      "情報を保存する媒体"
+    ],
+    "confusableSpellings": [
+      "moter",
+      "motore",
+      "mottor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 motor（動かすもの）から。動詞 movēre（動かす）の派生語。move、motion、moment、mobile もすべて同じ語根 mov-/mot- を持つ。",
+      "tips": "motor と engine は日本語では両方「エンジン」と訳されがちだが、厳密には motor は電気や磁力で動く「モーター」、engine は燃料を燃やして動く「エンジン」を指すことが多い。EVの普及でこの区別がさらに重要に。",
+      "confusables": "engine（エンジン・燃焼式）との使い分けに注意。motor vehicle（自動車）は法律・行政用語でよく使われる慣用表現。",
+      "collocations": [
+        "electric motor（電動モーター）",
+        "motor skills（運動能力）",
+        "motor vehicle（自動車）"
+      ],
+      "trivia": "「motor skills（運動技能）」という表現では「運動の」という形容詞として使われる。赤ちゃんの発達を語るときに「fine motor skills（微細運動能力）」などと言うが、これもラテン語の「動かす」から来ている！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 749,
+    "word": "protein",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "タンパク質",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈproʊtiːn/",
+    "syllables": "pro-tein",
+    "audioHint": "プロウティーン",
+    "examples": [
+      {
+        "en": "Eggs are an excellent source of protein.",
+        "ja": "卵は優れたタンパク質の供給源だ。",
+        "blank": "Eggs are an excellent source of ___.",
+        "blankAnswer": "protein"
+      }
+    ],
+    "distractors": [
+      "体内の脂肪組織",
+      "血液中の糖分",
+      "細胞膜の成分"
+    ],
+    "confusableSpellings": [
+      "protien",
+      "proteine",
+      "proteen"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 prōteios（第一位の、最も重要な）から。科学者ベルゼリウスが1838年に命名。語根 prōt-（最初の）は prototype（原型）、protagonist（主人公）にも共通する。",
+      "tips": "日本語の「プロテイン」は「protein」から来ているが、英語の発音は「プロウティーン」に近く、最初の音が「プロ」ではなく「プロウ」。また「protien」というスペルミスが非常に多いので、-tein の順番に注意。",
+      "confusables": "fat（脂質）、carbohydrate（炭水化物）とともに三大栄養素の一つ。この3つをセットで覚えると栄養・健康の英文読解が格段に楽になる。",
+      "collocations": [
+        "protein intake（タンパク質摂取量）",
+        "high-protein diet（高タンパク食）",
+        "protein shake（プロテインシェイク）"
+      ],
+      "trivia": "「protein」の語源は「最も重要なもの」という意味のギリシャ語。命名した科学者が「これは体の中で一番大事な分子だ！」と考えてつけた名前。筋トレ民が毎日飲むプロテインが哲学的な名前を持っていたとは！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 750,
+    "word": "profession",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "職業、専門職",
+        "pos": "noun"
+      },
+      {
+        "meaning": "公言、宣言",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/prəˈfeʃən/",
+    "syllables": "pro-fes-sion",
+    "audioHint": "プロフェッション",
+    "examples": [
+      {
+        "en": "Teaching is a rewarding profession that shapes society.",
+        "ja": "教職は社会を形成するやりがいのある職業だ。",
+        "blank": "Teaching is a rewarding ___ that shapes society.",
+        "blankAnswer": "profession"
+      }
+    ],
+    "distractors": [
+      "企業の収益",
+      "市場での競争",
+      "労働契約の条件"
+    ],
+    "confusableSpellings": [
+      "proffession",
+      "profesion",
+      "professoin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 professio（公言・宣言）から。pro-（前に）＋ fateri（認める・告白する）の合成。もともと「神に誓って仕える」という宗教的な意味から、「専門的な職業」へと意味が拡大した。",
+      "tips": "profession は医師・弁護士・教師など専門的な訓練や資格を要する「専門職」を指すことが多い。job（仕事一般）、occupation（職業・職種）より格調が高いニュアンス。「What's your profession?」は少しフォーマル。",
+      "confusables": "occupation（職業・仕事）はより広い意味、career（職歴・キャリア）は長期的な仕事の歩みを指す。profession は特に専門性・倫理観を伴う職業に使う。",
+      "collocations": [
+        "medical profession（医療専門職）",
+        "by profession（職業として）",
+        "professional（プロの・専門家）"
+      ],
+      "trivia": "professor（教授）と profession は同じ語根。大学教授はもともと「知識を公に宣言・伝授する人」という意味だった。「プロフェッショナル」という言葉には「誓いを立てた専門家」という由緒ある歴史が込められている！"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  },
+  {
+    "id": 751,
+    "word": "editor",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "編集者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "編集長",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɛdɪtər/",
+    "syllables": "ed-i-tor",
+    "audioHint": "エディター",
+    "examples": [
+      {
+        "en": "The editor revised the manuscript before publication.",
+        "ja": "編集者は出版前に原稿を修正した。",
+        "blank": "The ___ revised the manuscript before publication.",
+        "blankAnswer": "editor"
+      }
+    ],
+    "distractors": [
+      "監督",
+      "作曲家",
+      "彫刻家"
+    ],
+    "confusableSpellings": [
+      "edittor",
+      "editer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'edere'（出す・発行する）＋ '-tor'（行為者を示す接尾辞）。'edit' の行為者形。",
+      "tips": "「エディター」とカタカナで使われるが、発音は「エディタ（ー）」が自然。edit（動詞）→ editor（名詞）の派生を意識しよう。",
+      "confusables": "'author'（著者・作者）と混同しやすいが、editor は他人の作品を整える人。author は自分で書く人。",
+      "collocations": [
+        "chief editor",
+        "photo editor",
+        "editor in chief"
+      ],
+      "trivia": "スマホのアプリにある「写真エディター」も editor の一種！昔は赤ペン片手に紙を直す職業だったが、今はソフトウェアも editor と呼ばれる。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 752,
+    "word": "agent",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "代理人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "工作員・エージェント",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈeɪdʒənt/",
+    "syllables": "a-gent",
+    "audioHint": "エイジェント",
+    "examples": [
+      {
+        "en": "My agent negotiated a better deal for me.",
+        "ja": "私の代理人が私のためにより良い契約を交渉した。",
+        "blank": "My ___ negotiated a better deal for me.",
+        "blankAnswer": "agent"
+      }
+    ],
+    "distractors": [
+      "株主",
+      "融資担当者",
+      "会計士"
+    ],
+    "confusableSpellings": [
+      "agant",
+      "aigent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'agere'（行動する）＋ '-ent'（行為者を示す接尾辞）。「行動する者」が原義。",
+      "tips": "発音は「アジェント」ではなく「エイジェント」。'a' をエイと伸ばすのがポイント。また、不動産・保険・芸能など分野によって意味が変わる多義語。",
+      "confusables": "'representative'（代表者）と似ているが、agent はより独立した権限を持つニュアンスがある。",
+      "collocations": [
+        "real estate agent",
+        "travel agent",
+        "secret agent"
+      ],
+      "trivia": "007の「シークレットエージェント」が有名だが、ビジネスでは「不動産エージェント」が日常的。同じ単語がスパイにも営業マンにも使える！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 753,
+    "word": "globe",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "地球・地球儀",
+        "pos": "noun"
+      },
+      {
+        "meaning": "球体",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡloʊb/",
+    "syllables": "globe",
+    "audioHint": "グロウブ",
+    "examples": [
+      {
+        "en": "She has traveled across the globe for her research.",
+        "ja": "彼女は研究のために世界中を旅した。",
+        "blank": "She has traveled across the ___ for her research.",
+        "blankAnswer": "globe"
+      }
+    ],
+    "distractors": [
+      "大陸",
+      "気候帯",
+      "海流"
+    ],
+    "confusableSpellings": [
+      "glode",
+      "gloab"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'globus'（球・塊）に由来。丸い形のものを広く指す語根。",
+      "tips": "「グローブ」と伸ばしがちだが、発音は「グロウブ」に近い。'globe' 単体で「地球」を意味するが、'the globe' と定冠詞をつけると「地球全体」のニュアンスが強まる。",
+      "confusables": "'earth' は惑星としての地球、'world' は人間社会も含む世界、'globe' は球体としての地球や「世界中」のイメージ。",
+      "collocations": [
+        "around the globe",
+        "globe-trotting",
+        "globe-shaped"
+      ],
+      "trivia": "シェイクスピアの劇場「グローブ座（Globe Theatre）」はその名の通り丸い形をしていた。世界を舞台にするという意味も込められていたとか！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 754,
+    "word": "haven",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "避難所・安息の地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "港（古語）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈheɪvən/",
+    "syllables": "ha-ven",
+    "audioHint": "ヘイヴン",
+    "examples": [
+      {
+        "en": "The cabin became a haven from the busy city life.",
+        "ja": "その小屋は忙しい都市生活からの避難所になった。",
+        "blank": "The cabin became a ___ from the busy city life.",
+        "blankAnswer": "haven"
+      }
+    ],
+    "distractors": [
+      "市場",
+      "工房",
+      "集会所"
+    ],
+    "confusableSpellings": [
+      "heaven",
+      "haiven"
+    ],
+    "passive": {
+      "etymology": "古英語 'hæfen'（港）に由来。安全な場所・避難できる港という概念から「安息の地」へ意味が広がった。",
+      "tips": "最大の注意点は 'heaven'（天国）との混同。スペルが一字違いなので要注意。'tax haven'（タックスヘイブン）はニュースでよく登場する表現。",
+      "confusables": "'heaven'（天国・天）と一字違い。'haven' は現実世界の安全な場所、'heaven' は宗教的・比喩的な「天国」。",
+      "collocations": [
+        "safe haven",
+        "tax haven",
+        "a haven of peace"
+      ],
+      "trivia": "「タックスヘイブン（tax haven）」は「税金の避難所」という意味。よく「タックスヘブン（heaven）」と誤記されるが、正しくは haven。港に逃げ込むイメージ！"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 755,
+    "word": "row",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "列・並び",
+        "pos": "noun"
+      },
+      {
+        "meaning": "口論（英英）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/roʊ/",
+    "syllables": "row",
+    "audioHint": "ロウ",
+    "examples": [
+      {
+        "en": "We sat in the front row of the theater.",
+        "ja": "私たちは劇場の最前列に座った。",
+        "blank": "We sat in the front ___ of the theater.",
+        "blankAnswer": "row"
+      }
+    ],
+    "distractors": [
+      "面積",
+      "距離",
+      "角度"
+    ],
+    "confusableSpellings": [
+      "roe",
+      "rowe"
+    ],
+    "passive": {
+      "etymology": "古英語 'rāw'（列・並び）に由来。ゲルマン語系の基本語。動詞「漕ぐ」の row とは別語源。",
+      "tips": "「列」の意味では /roʊ/（ロウ）、「漕ぐ」の動詞も /roʊ/（ロウ）と同じ発音。英国英語では「口論」の意味もあり /raʊ/（ラウ）と発音が変わるので注意。",
+      "confusables": "'column' は縦の列、'row' は横の列を指す。スプレッドシートで row＝横、column＝縦、と覚えるのが定番。",
+      "collocations": [
+        "front row",
+        "back row",
+        "in a row"
+      ],
+      "trivia": "「3連勝」を 'three wins in a row' と言う。「列」の意味から「連続」のニュアンスが生まれた。コンサートのチケットで row A、row B と使われるのもおなじみ！"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 756,
+    "word": "sacrifice",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "犠牲・生け贄",
+        "pos": "noun"
+      },
+      {
+        "meaning": "犠牲にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsækrɪfaɪs/",
+    "syllables": "sac-ri-fice",
+    "audioHint": "サクリファイス",
+    "examples": [
+      {
+        "en": "She sacrificed her free time to help her friend.",
+        "ja": "彼女は友人を助けるために自分の自由時間を犠牲にした。",
+        "blank": "She ___ her free time to help her friend.",
+        "blankAnswer": "sacrificed"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "交渉する",
+      "競争する"
+    ],
+    "confusableSpellings": [
+      "sacrifise",
+      "sacrafice"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sacer'（神聖な）＋ 'facere'（行う・作る）。「神聖なことを行う」が原義で、宗教的な生け贄の儀式から転じた。",
+      "tips": "名詞・動詞どちらにも使える。発音は「サクリファイス」で、アクセントは最初の「サ」。'make a sacrifice'（犠牲を払う）という表現が自然。",
+      "confusables": "'compromise'（妥協する）は互いに譲り合うが、'sacrifice' は一方的に何かを失う・差し出すニュアンス。",
+      "collocations": [
+        "make a sacrifice",
+        "sacrifice oneself",
+        "sacrifice for"
+      ],
+      "trivia": "野球の「犠牲バント」は英語でも 'sacrifice bunt'！スポーツ用語として日本語にもそのまま輸入されている珍しい例。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 757,
+    "word": "means",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "手段・方法",
+        "pos": "noun"
+      },
+      {
+        "meaning": "財力・資力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/miːnz/",
+    "syllables": "means",
+    "audioHint": "ミーンズ",
+    "examples": [
+      {
+        "en": "Hard work is the best means to achieve your goals.",
+        "ja": "努力は目標を達成するための最良の手段だ。",
+        "blank": "Hard work is the best ___ to achieve your goals.",
+        "blankAnswer": "means"
+      }
+    ],
+    "distractors": [
+      "目的",
+      "結果",
+      "定義"
+    ],
+    "confusableSpellings": [
+      "menas",
+      "meens"
+    ],
+    "passive": {
+      "etymology": "古英語 'mænan'（意図する・示す）に由来。名詞形 'means' は「意図するもの＝手段」へと発展。",
+      "tips": "「means は単数・複数同形」という点が最重要。'by all means'（もちろん）、'by no means'（決して〜ない）は慣用表現として丸ごと覚えよう。",
+      "confusables": "'way'（やり方）や 'method'（方法）と似ているが、means はやや格式ばった語。'means of transportation'（交通手段）のように特定の手段を指す場合に多用。",
+      "collocations": [
+        "by means of",
+        "by all means",
+        "means of communication"
+      ],
+      "trivia": "「目的は手段を正当化する」は英語で 'The end justifies the means.' まさに means が「手段」の意味で使われる哲学的格言！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 758,
+    "word": "session",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "セッション・会議・授業",
+        "pos": "noun"
+      },
+      {
+        "meaning": "期間・開催期間",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɛʃən/",
+    "syllables": "ses-sion",
+    "audioHint": "セッション",
+    "examples": [
+      {
+        "en": "The training session lasted two hours.",
+        "ja": "トレーニングのセッションは2時間続いた。",
+        "blank": "The training ___ lasted two hours.",
+        "blankAnswer": "session"
+      }
+    ],
+    "distractors": [
+      "試験",
+      "教科書",
+      "研究論文"
+    ],
+    "confusableSpellings": [
+      "sesion",
+      "sesson"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sessio'（座ること）← 'sedere'（座る）。「座って行う集まり・審議」が原義。",
+      "tips": "スペルに 'ss' と 'ion' が連続するので書き間違えやすい。発音は「セション」ではなく「セッション」で ss をしっかり発音する。",
+      "confusables": "'meeting'（会議）は一般的な打ち合わせ、'session' は特定の目的・テーマを持つ継続的な活動や会議に使うことが多い。",
+      "collocations": [
+        "training session",
+        "recording session",
+        "question-and-answer session"
+      ],
+      "trivia": "音楽スタジオで演奏するミュージシャンを 'session musician'（セッションミュージシャン）と呼ぶ。有名アーティストの裏で弾いている縁の下の力持ち！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 759,
+    "word": "league",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "リーグ・同盟",
+        "pos": "noun"
+      },
+      {
+        "meaning": "レベル・格（口語）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/liːɡ/",
+    "syllables": "league",
+    "audioHint": "リーグ",
+    "examples": [
+      {
+        "en": "She joined the local soccer league this spring.",
+        "ja": "彼女は今春、地域のサッカーリーグに加入した。",
+        "blank": "She joined the local soccer ___ this spring.",
+        "blankAnswer": "league"
+      }
+    ],
+    "distractors": [
+      "対立",
+      "競争",
+      "交渉"
+    ],
+    "confusableSpellings": [
+      "leage",
+      "leauge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ligare'（結ぶ・縛る）← 古フランス語 'ligue'。「結ばれた集団・同盟」が原義。",
+      "tips": "スペルは 'eague' の並びが難しい。'in league with'（〜と結託して）という慣用句も重要。スポーツのリーグ戦の意味が最もなじみやすい。",
+      "confusables": "'alliance'（同盟・連合）は政治・外交で使われることが多く、'league' よりフォーマル。'league' はスポーツや組合的なニュアンスが強い。",
+      "collocations": [
+        "in league with",
+        "major league",
+        "out of one's league"
+      ],
+      "trivia": "「あの人は自分には高嶺の花だ」を英語では 'She's out of my league.'（彼女は自分のリーグ外だ）と言う。スポーツ用語が恋愛表現に転用された！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 760,
+    "word": "contest",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "コンテスト・競争",
+        "pos": "noun"
+      },
+      {
+        "meaning": "異議を唱える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒntɛst/",
+    "syllables": "con-test",
+    "audioHint": "コンテスト",
+    "examples": [
+      {
+        "en": "She entered a writing contest and won first prize.",
+        "ja": "彼女は作文コンテストに参加し、一等賞を取った。",
+        "blank": "She entered a writing ___ and won first prize.",
+        "blankAnswer": "contest"
+      }
+    ],
+    "distractors": [
+      "同盟を結ぶ",
+      "犠牲を払う",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "conteest",
+      "contestt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contestari'（証人を呼んで争う）← 'con-'（共に）＋ 'testis'（証人）。「互いに主張し合う」が原義。",
+      "tips": "名詞では「コンテスト（kɒn-test）」とアクセントが前、動詞では「コンテスト（kən-TEST）」とアクセントが後ろになる。アクセント移動に注意！",
+      "confusables": "'competition'（競争・大会）は広い意味での競争全般、'contest' はより特定の種目・技能を競うイメージ。'contest a result'（結果に異議を唱える）は動詞用法として重要。",
+      "collocations": [
+        "beauty contest",
+        "contest a result",
+        "enter a contest"
+      ],
+      "trivia": "英語の 'contest' には「異議を唱える」という動詞の意味もある。選挙結果に異議を唱えることを 'contest the election' と言い、ニュースで頻出する表現！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  }
+]

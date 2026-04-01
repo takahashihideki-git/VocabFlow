@@ -1,0 +1,994 @@
+[
+  {
+    "id": 941,
+    "word": "privilege",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "特権、特典",
+        "pos": "noun"
+      },
+      {
+        "meaning": "光栄、名誉",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɪvɪlɪdʒ/",
+    "syllables": "priv-i-lege",
+    "audioHint": "プリヴィリッジ",
+    "examples": [
+      {
+        "en": "Education is a privilege that not everyone has access to.",
+        "ja": "教育は、誰もがアクセスできるわけではない特権だ。",
+        "blank": "Education is a ___ that not everyone has access to.",
+        "blankAnswer": "privilege"
+      }
+    ],
+    "distractors": [
+      "権利の侵害",
+      "選挙の義務",
+      "法的な制裁"
+    ],
+    "confusableSpellings": [
+      "priviledge",
+      "privelege",
+      "privelidge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'privilegium'（個人に与えられた法律）から。'privus'（個人の）＋ 'lex/legis'（法律）の組み合わせ。",
+      "tips": "日本人はよく 'priviledge' とスペルしがちだが、正しくは 'privilege'（語末は -lege）。また「特権」の意味だけでなく、'It's a privilege to meet you.'（お会いできて光栄です）という使い方も覚えておこう。",
+      "confusables": "'right'（権利）と混同しやすい。'right' は誰もが持つ基本的なものであるのに対し、'privilege' は一部の人にのみ与えられた特別な利益や機会を指す。",
+      "collocations": [
+        "have the privilege of",
+        "a privilege to do",
+        "check one's privilege"
+      ],
+      "trivia": "近年、SNSでは 'check your privilege'（自分の特権を見直せ）という表現が社会正義の文脈で頻繁に使われるようになり、単なる「特典」以上の政治的・社会的重みを持つ単語に進化した。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 942,
+    "word": "formation",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "形成、生成",
+        "pos": "noun"
+      },
+      {
+        "meaning": "地層、岩層",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fɔːrˈmeɪʃən/",
+    "syllables": "for-ma-tion",
+    "audioHint": "フォーメイション",
+    "examples": [
+      {
+        "en": "The formation of clouds depends on temperature and humidity.",
+        "ja": "雲の形成は気温と湿度に依存する。",
+        "blank": "The ___ of clouds depends on temperature and humidity.",
+        "blankAnswer": "formation"
+      }
+    ],
+    "distractors": [
+      "侵食作用",
+      "気候変動",
+      "絶滅の危機"
+    ],
+    "confusableSpellings": [
+      "formasion",
+      "formaton",
+      "fromation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'formatio' から。'forma'（形）＋ '-tion'（名詞化接尾辞）。動詞 'form'（形成する）の名詞形。",
+      "tips": "スポーツや軍事の「フォーメーション」として日本語にもなっているが、英語では地質学的な「地層・岩層」の意味でも頻繁に使われる。'rock formation'（岩の地層）などの表現は試験にも出やすい。",
+      "confusables": "'formation' と 'form' はセットで覚えよう。また 'transformation'（変形・変容）と混同しないように。'trans-'（超えて）が付くと「別の形に変わる」というニュアンスになる。",
+      "collocations": [
+        "rock formation",
+        "cloud formation",
+        "in formation"
+      ],
+      "trivia": "ビヨンセの楽曲「Formation」（2016年）は、社会的・文化的アイデンティティの「形成」を多義的に表現した題名とも言われ、英語圏でこの単語の認知度を一気に高めた。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 943,
+    "word": "dimension",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "次元、寸法",
+        "pos": "noun"
+      },
+      {
+        "meaning": "側面、様相",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈmɛnʃən/",
+    "syllables": "di-men-sion",
+    "audioHint": "ディメンション",
+    "examples": [
+      {
+        "en": "The problem has a new dimension we hadn't considered before.",
+        "ja": "その問題には、以前は考慮していなかった新たな側面がある。",
+        "blank": "The problem has a new ___ we hadn't considered before.",
+        "blankAnswer": "dimension"
+      }
+    ],
+    "distractors": [
+      "距離の単位",
+      "重量の計測",
+      "速度の変化"
+    ],
+    "confusableSpellings": [
+      "dimention",
+      "dimmension",
+      "dimenssion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'dimensio' から。'di-'（完全に）＋ 'mensio'（測ること、'mensura'（測定）の関連語）。「完全に測られたもの」が原義。",
+      "tips": "日本語で「3次元」「4次元」と言うときの「次元」として使われるが、英語では抽象的な「側面・局面」の意味でも非常によく使われる。'add a new dimension to ~'（〜に新たな側面を加える）は論文やニュースで頻出。",
+      "confusables": "'dimension'（次元・側面）と 'extent'（程度・範囲）は似た場面で使われるが、'dimension' は多面的な「軸」のイメージ、'extent' は一つの軸上での「広がり」のイメージ。",
+      "collocations": [
+        "three-dimensional",
+        "add a new dimension",
+        "in all dimensions"
+      ],
+      "trivia": "物理学では時間を「第4の次元」と捉える考え方があり、アインシュタインの相対性理論を機に 'the fourth dimension' という表現がSFやポップカルチャーに広まった。"
+    },
+    "frequency": 1900,
+    "cefr": "B2"
+  },
+  {
+    "id": 944,
+    "word": "neuron",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "ニューロン、神経細胞",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnjʊərɒn/",
+    "syllables": "neu-ron",
+    "audioHint": "ニュアロン",
+    "examples": [
+      {
+        "en": "Each neuron sends signals to thousands of other cells.",
+        "ja": "各ニューロンは何千もの他の細胞に信号を送る。",
+        "blank": "Each ___ sends signals to thousands of other cells.",
+        "blankAnswer": "neuron"
+      }
+    ],
+    "distractors": [
+      "抗体、免疫タンパク質",
+      "遺伝子、DNA配列",
+      "ホルモン、内分泌物質"
+    ],
+    "confusableSpellings": [
+      "nueron",
+      "nuerone",
+      "neauron"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'neuron'（神経、腱）から直接由来。'neuro-' は「神経」を意味する接頭辞として 'neuroscience'（神経科学）などにも使われる。",
+      "tips": "発音は「ニューロン」だが、英語では /ˈnjʊərɒn/ と「ニュア」に近い音。複数形は 'neurons'。'nerve'（神経）と混同しやすいが、'neuron' は細胞1個を指し、'nerve' は神経細胞の束（神経線維）を指す。",
+      "confusables": "'neuron'（神経細胞・単体）と 'nerve'（神経・束）の違いに注意。また 'neural'（神経の）は形容詞形で、'neural network'（ニューラルネットワーク）はAI分野でも頻出。",
+      "collocations": [
+        "motor neuron",
+        "neuron firing",
+        "mirror neuron"
+      ],
+      "trivia": "「ミラーニューロン」は他者の行動を見るだけで自分が同じ行動をするかのように反応する神経細胞で、共感や言語習得の基盤とも言われる。1990年代にサルの実験で偶然発見された。"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 945,
+    "word": "sensation",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "感覚、知覚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "センセーション、大評判",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sɛnˈseɪʃən/",
+    "syllables": "sen-sa-tion",
+    "audioHint": "センセイション",
+    "examples": [
+      {
+        "en": "She felt a burning sensation in her throat after eating the chili.",
+        "ja": "チリを食べた後、喉に灼熱感を覚えた。",
+        "blank": "She felt a burning ___ in her throat after eating the chili.",
+        "blankAnswer": "sensation"
+      }
+    ],
+    "distractors": [
+      "症状の悪化",
+      "免疫反応の低下",
+      "ホルモンの分泌"
+    ],
+    "confusableSpellings": [
+      "sensasion",
+      "sensatiom",
+      "senstion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sensatio' から。'sentire'（感じる）＋ '-ation'（名詞化接尾辞）。'sense'（感覚）と同じ語根を持つ。",
+      "tips": "「センセーション」として日本語にもなっているが、日本語では「大騒ぎ・話題」の意味に限られることが多い。英語では身体的な「感覚」（'a tingling sensation' しびれる感覚）の意味で非常によく使われるので要注意。",
+      "confusables": "'sensation'（感覚・センセーション）と 'feeling'（感情・感じ）の違い。'sensation' は主に身体的・物理的な知覚を指し、'feeling' は感情的・心理的なニュアンスが強い。",
+      "collocations": [
+        "a burning sensation",
+        "cause a sensation",
+        "physical sensation"
+      ],
+      "trivia": "英語で誰かが大ヒットを飛ばしたときに 'overnight sensation'（一夜にして有名になった人）と言う。BTSやビリー・アイリッシュなどのアーティストを紹介するニュースでよく登場する表現だ。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 946,
+    "word": "chart",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "図表、グラフ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "チャート、順位表",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tʃɑːrt/",
+    "syllables": "chart",
+    "audioHint": "チャート",
+    "examples": [
+      {
+        "en": "The sales chart shows a clear upward trend this quarter.",
+        "ja": "売上グラフは今四半期に明確な上昇傾向を示している。",
+        "blank": "The sales ___ shows a clear upward trend this quarter.",
+        "blankAnswer": "chart"
+      }
+    ],
+    "distractors": [
+      "ソフトウェアの更新",
+      "ネットワークの接続",
+      "データの暗号化"
+    ],
+    "confusableSpellings": [
+      "chrat",
+      "cahrt",
+      "chert"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'charta'（紙、地図）から。ギリシャ語 'khartes'（パピルスの葉）が語源で、もともとは「地図・海図」を意味していた。",
+      "tips": "名詞だけでなく動詞としても使われることを覚えておこう。'chart a course'（進路を決める）、'chart progress'（進捗を記録する）のように使う。また音楽の「チャート入り」は 'top the charts' や 'chart-topping' という表現になる。",
+      "confusables": "'chart'（図表・グラフ）と 'graph'（グラフ）はほぼ同義で使われることもあるが、'chart' はより広い概念で地図・表・ランキングも含む。'table'（表）は数値を格子状に並べたものに限定される。",
+      "collocations": [
+        "bar chart",
+        "flow chart",
+        "top the charts"
+      ],
+      "trivia": "音楽業界の 'Billboard Hot 100' チャートは1958年から続く歴史ある順位表。かつてはレコード店の売上データを手集計していたが、現在はストリーミング再生数もカウントされ、K-POPの台頭でランキングが劇的に変化した。"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 947,
+    "word": "geography",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "地理学",
+        "pos": "noun"
+      },
+      {
+        "meaning": "地形、地勢",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dʒiˈɒɡrəfi/",
+    "syllables": "ge-og-ra-phy",
+    "audioHint": "ジオグラフィ",
+    "examples": [
+      {
+        "en": "Her knowledge of world geography helped her win the quiz.",
+        "ja": "世界地理の知識がクイズ優勝に役立った。",
+        "blank": "Her knowledge of world ___ helped her win the quiz.",
+        "blankAnswer": "geography"
+      }
+    ],
+    "distractors": [
+      "言語学の研究方法",
+      "歴史的な年代測定",
+      "数学的な証明手法"
+    ],
+    "confusableSpellings": [
+      "geograpy",
+      "jeography",
+      "geografy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'geographia' から。'geo-'（地球・土地）＋ 'graphia'（描くこと、記述）。文字通り「地球を描く・記述する」学問。",
+      "tips": "スペルに注意。'-graphy' の部分を 'grapy' や 'grafy' と書くミスが多い。また 'ge-og-ra-phy' と4音節あることを意識しよう。関連語として 'geological'（地質学的な）、'geopolitics'（地政学）も一緒に覚えると便利。",
+      "confusables": "'geography'（地理学）と 'geology'（地質学）の違いに注意。'geography' は土地の位置・気候・人間活動を扱い、'geology' は岩石・地層・地球の構造を扱う。両方とも 'geo-' を含むが研究対象が異なる。",
+      "collocations": [
+        "human geography",
+        "physical geography",
+        "knowledge of geography"
+      ],
+      "trivia": "古代ギリシャの学者エラトステネスは紀元前240年頃に地球の円周をほぼ正確に計算した。彼は事実上「最初の地理学者」とも呼ばれ、'geography' という言葉を使った最初期の人物でもある。"
+    },
+    "frequency": 2000,
+    "cefr": "A2"
+  },
+  {
+    "id": 948,
+    "word": "panel",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "パネル、委員会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "板、仕切り板",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpænəl/",
+    "syllables": "pan-el",
+    "audioHint": "パネル",
+    "examples": [
+      {
+        "en": "A panel of experts reviewed the government's new policy.",
+        "ja": "専門家のパネルが政府の新政策を審査した。",
+        "blank": "A ___ of experts reviewed the government's new policy.",
+        "blankAnswer": "panel"
+      }
+    ],
+    "distractors": [
+      "選挙の投票数",
+      "法律の条文",
+      "政党の党首"
+    ],
+    "confusableSpellings": [
+      "pannel",
+      "panle",
+      "pannle"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'panel'（布切れ、仕切り）から。ラテン語 'pannus'（布）が語源。もともとは「布の切れ端」を意味し、後に「板・区画」、さらに「陪審員リスト・委員会」へと意味が拡張した。",
+      "tips": "「パネルディスカッション」として日本語にもなっているが、英語では 'a panel of judges'（審査員団）、'control panel'（操作パネル）など用途が広い。動詞としても使え、'paneled walls'（羽目板張りの壁）という表現もある。",
+      "confusables": "'panel'（委員会・専門家集団）と 'committee'（委員会）の違い。'committee' は継続的・常設的な組織を指すことが多いのに対し、'panel' は特定の目的のために一時的に集められた専門家グループのイメージが強い。",
+      "collocations": [
+        "panel discussion",
+        "a panel of experts",
+        "solar panel"
+      ],
+      "trivia": "法廷で陪審員を選ぶプロセスを英語で 'jury selection' または 'voir dire' と言うが、候補者リストのことを 'jury panel' と呼ぶ。「布の切れ端」から「陪審員名簿」への意味の変遷は、中世の法廷文書が羊皮紙の切れ端に書かれていたことに由来する。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 949,
+    "word": "semester",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "学期（半年制）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sɪˈmɛstər/",
+    "syllables": "se-mes-ter",
+    "audioHint": "セメスター",
+    "examples": [
+      {
+        "en": "She studied abroad for one semester in her junior year.",
+        "ja": "彼女は3年生のときに1学期間留学した。",
+        "blank": "She studied abroad for one ___ in her junior year.",
+        "blankAnswer": "semester"
+      }
+    ],
+    "distractors": [
+      "卒業論文の審査",
+      "学位取得の要件",
+      "授業料の免除制度"
+    ],
+    "confusableSpellings": [
+      "semister",
+      "semeter",
+      "semmester"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'semestris' から。'sex'（6）＋ 'mensis'（月）＝「6ヶ月間」。もともと「6ヶ月の」という形容詞だった。",
+      "tips": "日本では学期制度として「前期・後期」の2学期制が多く、これがまさに 'semester' に対応する。一方、3学期制は 'trimester'、4学期制は 'quarter' と呼ぶ。米国の大学はほとんどが semester 制か quarter 制を採用している。",
+      "confusables": "'semester'（約15〜18週の半年制学期）と 'term'（より一般的な「学期・期間」）の違い。英国では大学の学期を 'term' と呼ぶことが多く、1年に3学期あることが多い。'semester' は主に米国・ドイツなどの制度を指す。",
+      "collocations": [
+        "fall semester",
+        "spring semester",
+        "semester abroad"
+      ],
+      "trivia": "ドイツの大学制度もラテン語由来の 'Semester' を使い、「夏学期（Sommersemester）」「冬学期（Wintersemester）」に分かれている。ドイツ語の影響で英語の学術用語として定着したという説もある。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 950,
+    "word": "workforce",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "労働力、労働人口",
+        "pos": "noun"
+      },
+      {
+        "meaning": "従業員全体",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɜːrkfɔːrs/",
+    "syllables": "work-force",
+    "audioHint": "ワークフォース",
+    "examples": [
+      {
+        "en": "AI is expected to transform the global workforce significantly.",
+        "ja": "AIは世界の労働力を大幅に変革すると期待されている。",
+        "blank": "AI is expected to transform the global ___ significantly.",
+        "blankAnswer": "workforce"
+      }
+    ],
+    "distractors": [
+      "株式市場の変動",
+      "貿易赤字の拡大",
+      "通貨の切り下げ"
+    ],
+    "confusableSpellings": [
+      "workfoce",
+      "workforse",
+      "workfource"
+    ],
+    "passive": {
+      "etymology": "'work'（仕事）＋ 'force'（力・集団）の複合語。'force' には「軍団・集団」の意味があり（例：air force 空軍）、それが転じて「働く人々の集まり」を意味するようになった。",
+      "tips": "単数扱いが基本だが、「従業員全体」を指すときは複数動詞を使うこともある（特に英国英語）。'labor force'（米）と 'labour force'（英）も同義で使われる。ビジネス文書や経済ニュースで非常に頻出の語。",
+      "confusables": "'workforce'（労働力全体・従業員集団）と 'staff'（スタッフ・職員）の違い。'workforce' はより広い「社会全体の労働人口」や「企業の全従業員」を指すのに対し、'staff' は特定組織の「職員」に限定されるニュアンスが強い。",
+      "collocations": [
+        "skilled workforce",
+        "aging workforce",
+        "enter the workforce"
+      ],
+      "trivia": "国際労働機関（ILO）の調査によると、世界の workforce は約34億人。「働き方改革」を英語で言うと 'work style reform' だが、ネイティブには 'workforce reform' や 'labor reform' の方が自然に伝わる。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 951,
+    "word": "mill",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "製粉所、工場",
+        "pos": "noun"
+      },
+      {
+        "meaning": "粉砕する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/mɪl/",
+    "syllables": "mill",
+    "audioHint": "ミル",
+    "examples": [
+      {
+        "en": "The old mill by the river still grinds wheat today.",
+        "ja": "川沿いの古い製粉所は今でも小麦を挽いている。",
+        "blank": "The old ___ by the river still grinds wheat today.",
+        "blankAnswer": "mill"
+      }
+    ],
+    "distractors": [
+      "利益",
+      "株式",
+      "予算"
+    ],
+    "confusableSpellings": [
+      "mil",
+      "mils",
+      "mille"
+    ],
+    "passive": {
+      "etymology": "古英語 mylen、ラテン語 molina（粉砕する場所）から。語根 mol-（挽く）はギリシャ語 mylos（臼）と同源。",
+      "tips": "「コーヒーミル」など日本語にもなっているが、英語では製粉所・工場全般を指す広い意味も持つ。動詞で「（群衆が）うろうろする」という意味（mill around）もあるので覚えておこう。",
+      "confusables": "mill（製粉所・工場）vs. mine（鉱山）：どちらも生産施設だが、millは加工・粉砕、mineは採掘を意味する。",
+      "collocations": [
+        "coffee mill（コーヒーミル）",
+        "mill around（うろうろする）",
+        "paper mill（製紙工場）"
+      ],
+      "trivia": "「run-of-the-mill」という表現は「並みの・平凡な」という意味。もともと特別な選別をしていない普通の製粉所の産物を指していたことが語源！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 952,
+    "word": "abuse",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "虐待、乱用",
+        "pos": "noun"
+      },
+      {
+        "meaning": "虐待する、乱用する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈbjuːs/",
+    "syllables": "a-buse",
+    "audioHint": "アビュース",
+    "examples": [
+      {
+        "en": "Drug abuse is a serious problem in many countries.",
+        "ja": "薬物乱用は多くの国で深刻な問題だ。",
+        "blank": "Drug ___ is a serious problem in many countries.",
+        "blankAnswer": "abuse"
+      }
+    ],
+    "distractors": [
+      "選挙",
+      "条約",
+      "税制"
+    ],
+    "confusableSpellings": [
+      "abouse",
+      "abbuse",
+      "abuze"
+    ],
+    "passive": {
+      "etymology": "ラテン語 abusus から。接頭辞 ab-（離れて・誤って）＋ usus（使用）。つまり「本来の使い方から外れた使い方」が原義。",
+      "tips": "名詞と動詞で発音が異なる点に注意。名詞は /əˈbjuːs/（末尾がs音）、動詞は /əˈbjuːz/（末尾がz音）。書き方は同じなのでスペルで悩む必要はないが発音で区別しよう。",
+      "confusables": "abuse（虐待・乱用）vs. misuse（誤用・不正使用）：abuseはより深刻な意味合い、misuseは意図しない間違った使い方のニュアンスが強い。",
+      "collocations": [
+        "child abuse（児童虐待）",
+        "drug abuse（薬物乱用）",
+        "abuse of power（権力乱用）"
+      ],
+      "trivia": "「verbal abuse（言語的虐待）」という概念は近年注目されており、身体的な暴力だけでなく言葉による傷つけも社会問題として認識されるようになったのは比較的最近のこと！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 953,
+    "word": "vice",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "悪徳、不道徳な行為",
+        "pos": "noun"
+      },
+      {
+        "meaning": "副〜（接頭辞的用法）",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/vaɪs/",
+    "syllables": "vice",
+    "audioHint": "ヴァイス",
+    "examples": [
+      {
+        "en": "Greed is often considered a dangerous vice.",
+        "ja": "強欲はしばしば危険な悪徳とみなされる。",
+        "blank": "Greed is often considered a dangerous ___.",
+        "blankAnswer": "vice"
+      }
+    ],
+    "distractors": [
+      "運命",
+      "理念",
+      "意識"
+    ],
+    "confusableSpellings": [
+      "vise",
+      "voce",
+      "visce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 vitium（欠点・罪悪）から。フランス語 vice を経て英語へ。接頭辞的な「副〜」の意味は別語源で、ラテン語 vice（〜の代わりに）から来ている。",
+      "tips": "「vice versa（逆もまた然り）」の vice はこの語で「逆の立場として」という意味。また vice president（副大統領）の vice は「代理・副」の意味で、悪徳とは全く別の用法なので混同しないよう注意。",
+      "confusables": "vice（悪徳）vs. virtue（美徳）：完全な対義語。vice and virtue（悪徳と美徳）はセットで使われることが多い。",
+      "collocations": [
+        "vice and virtue（悪徳と美徳）",
+        "vice squad（風紀警察）",
+        "a life of vice（退廃的な生活）"
+      ],
+      "trivia": "英語圏では「7つの大罪（seven deadly sins）」に対応する概念として vice が使われる。中世の道徳劇（morality play）では「Vice（悪徳の擬人化）」というキャラクターが登場し、道化的な役割を担っていた！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 954,
+    "word": "fate",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "運命、宿命",
+        "pos": "noun"
+      },
+      {
+        "meaning": "死、破滅",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/feɪt/",
+    "syllables": "fate",
+    "audioHint": "フェイト",
+    "examples": [
+      {
+        "en": "She believed that fate brought them together.",
+        "ja": "彼女は運命が二人を引き合わせたと信じていた。",
+        "blank": "She believed that ___ brought them together.",
+        "blankAnswer": "fate"
+      }
+    ],
+    "distractors": [
+      "仮説",
+      "概念",
+      "感情"
+    ],
+    "confusableSpellings": [
+      "fait",
+      "fате",
+      "faite"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fatum（語られたこと・神の宣告）から。動詞 fari（話す）の過去分詞形。つまり「神々によって語られた（決定された）こと」が原義。",
+      "tips": "fate と destiny はほぼ同義だが、destiny はポジティブな「使命・天命」のニュアンスが強く、fate はより中立的または悲劇的な結末を示すことが多い。",
+      "confusables": "fate（運命・宿命）vs. fortune（幸運・財産）：fortune は良い意味合いが強く、fate はより必然的・受動的なニュアンス。",
+      "collocations": [
+        "seal one's fate（運命を決定する）",
+        "tempt fate（運命に逆らう）",
+        "twist of fate（運命の皮肉）"
+      ],
+      "trivia": "ギリシャ神話には「モイライ（運命の三女神）」がいて、英語の Fates はこれを指す。一人が糸を紡ぎ、一人が長さを測り、一人が糸を切る＝生死を決めるというイメージは現代のファンタジー作品にも引き継がれている！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 955,
+    "word": "tragedy",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "悲劇、惨事",
+        "pos": "noun"
+      },
+      {
+        "meaning": "悲劇（演劇のジャンル）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtrædʒɪdi/",
+    "syllables": "trag-e-dy",
+    "audioHint": "トラジェディ",
+    "examples": [
+      {
+        "en": "Shakespeare's Hamlet is one of the greatest tragedies ever written.",
+        "ja": "シェイクスピアの『ハムレット』は史上最も偉大な悲劇の一つだ。",
+        "blank": "Shakespeare's Hamlet is one of the greatest ___s ever written.",
+        "blankAnswer": "tragedies"
+      }
+    ],
+    "distractors": [
+      "叙事詩",
+      "喜劇",
+      "彫刻"
+    ],
+    "confusableSpellings": [
+      "tradgedy",
+      "tragedie",
+      "tragidy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 tragōidia から。tragos（ヤギ）＋ ōidē（歌）で「ヤギの歌」が原義。古代ギリシャの祭りでヤギを生贄にする際に歌われた歌に由来するという説がある。",
+      "tips": "スペルミスが非常に多い単語。tragedy の中に「age」が含まれていると覚えると良い（trag-age-dy）。日本人は「トラジェディ」と発音しがちだが、アクセントは第1音節（TRAG）に置く。",
+      "confusables": "tragedy（悲劇）vs. disaster（災害・惨事）：tragedyは文学的・感情的なニュアンスが強く、disasterは物理的・規模的な被害に焦点を当てる。",
+      "collocations": [
+        "Greek tragedy（ギリシャ悲劇）",
+        "personal tragedy（個人的な悲劇）",
+        "end in tragedy（悲劇に終わる）"
+      ],
+      "trivia": "「tragedy of the commons（共有地の悲劇）」は経済学・環境学の有名な概念。みんなが共有の資源を使いすぎて枯渇する現象で、1968年にGarrett Hardinが発表。今でもSNSやインターネット資源の議論に使われている！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 956,
+    "word": "scenario",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "シナリオ、想定される状況",
+        "pos": "noun"
+      },
+      {
+        "meaning": "脚本、筋書き",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sɪˈnɛərioʊ/",
+    "syllables": "sce-nar-i-o",
+    "audioHint": "シネアリオウ",
+    "examples": [
+      {
+        "en": "In the worst-case scenario, the project could fail completely.",
+        "ja": "最悪のシナリオでは、プロジェクトは完全に失敗する可能性がある。",
+        "blank": "In the worst-case ___, the project could fail completely.",
+        "blankAnswer": "scenario"
+      }
+    ],
+    "distractors": [
+      "本質",
+      "感覚",
+      "哲学"
+    ],
+    "confusableSpellings": [
+      "senario",
+      "scenerio",
+      "sceario"
+    ],
+    "passive": {
+      "etymology": "イタリア語 scenario（舞台背景・脚本）から。ラテン語 scena（舞台・場面）を語根とし、さらにギリシャ語 skēnē（テントの小屋→舞台）に遡る。",
+      "tips": "日本語の「シナリオ」はほぼそのままの意味で使えるが、英語では「最悪のシナリオ（worst-case scenario）」のようにビジネスや議論での想定状況を指す用法が非常に多い。複数形は scenarios（-osではなく-os）。",
+      "confusables": "scenario（具体的な想定状況・筋書き）vs. situation（現在の状況）：scenarioは未来の可能性や仮定を含む一方、situationは現在の状態を指す。",
+      "collocations": [
+        "worst-case scenario（最悪のシナリオ）",
+        "best-case scenario（最善のシナリオ）",
+        "play out a scenario（シナリオを展開する）"
+      ],
+      "trivia": "もともとイタリアのコメディア・デラルテ（即興喜劇）で役者が持つ「あらすじメモ」のことをscenarioと呼んでいた。今のビジネス用語になるまでに映画産業を経由したというルーツがある！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 957,
+    "word": "allergy",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "アレルギー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "強い嫌悪感（比喩的）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈælɚdʒi/",
+    "syllables": "al-ler-gy",
+    "audioHint": "アラジー",
+    "examples": [
+      {
+        "en": "She has a severe allergy to peanuts.",
+        "ja": "彼女はピーナッツに重度のアレルギーを持っている。",
+        "blank": "She has a severe ___ to peanuts.",
+        "blankAnswer": "allergy"
+      }
+    ],
+    "distractors": [
+      "手術",
+      "症状",
+      "処方"
+    ],
+    "confusableSpellings": [
+      "alergy",
+      "allergie",
+      "allarg"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 allos（他の・異なる）＋ ergon（働き・反応）から。20世紀初頭にオーストリアの医師Clemens von Pirquetが造語した比較的新しい医学用語。",
+      "tips": "「アレルギー」は日本語にもなっているが、英語での発音は「アラジー」に近く、最初の「a」は「ア」ではなく「æ（アとエの中間）」の音。-lergyの部分を「ラジー」と読むのがポイント。",
+      "confusables": "allergy（アレルギー・免疫反応）vs. intolerance（不耐性）：food intolerance（食物不耐性）は免疫系ではなく消化器系の問題で、アレルギーより軽度な場合が多い。",
+      "collocations": [
+        "food allergy（食物アレルギー）",
+        "seasonal allergy（季節性アレルギー）",
+        "allergy test（アレルギー検査）"
+      ],
+      "trivia": "「花粉症」は英語で hay fever と言う。直訳すると「干し草の熱」で、昔は干し草の収穫時期に症状が出ることからこう呼ばれた。実際には花粉が原因なのに「fever（熱）」もないというツッコミどころ満載な名前！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 958,
+    "word": "wound",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "傷、負傷",
+        "pos": "noun"
+      },
+      {
+        "meaning": "傷つける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wuːnd/",
+    "syllables": "wound",
+    "audioHint": "ウーンド",
+    "examples": [
+      {
+        "en": "The doctor cleaned the wound carefully.",
+        "ja": "医師は傷を丁寧に洗浄した。",
+        "blank": "The doctor cleaned the ___ carefully.",
+        "blankAnswer": "wound"
+      }
+    ],
+    "distractors": [
+      "診断",
+      "投薬",
+      "回復"
+    ],
+    "confusableSpellings": [
+      "wond",
+      "woond",
+      "wund"
+    ],
+    "passive": {
+      "etymology": "古英語 wund（傷・負傷）から。ゲルマン語系の語根で、ドイツ語の Wunde（傷）と同源。wind（巻く）の過去形 wound /waʊnd/ とは別の単語。",
+      "tips": "最大の注意点は発音の区別。「傷」の wound は /wuːnd/（ウーンド）。一方、wind（巻く）の過去形 wound は /waʊnd/（ワウンド）。スペルが全く同じなのに発音が違う同綴異音語（heteronym）！",
+      "confusables": "wound（傷・特に外傷）vs. injury（負傷・怪我全般）：wound は特に刃物や弾丸による切り傷・貫通傷のイメージが強く、injury はより広い怪我全般を指す。",
+      "collocations": [
+        "open wound（開放創）",
+        "wound healing（傷の治癒）",
+        "lick one's wounds（傷を癒す・立ち直る）"
+      ],
+      "trivia": "「lick your wounds（傷を舐める）」は比喩的に「敗北や失敗から立ち直る時間を取る」という意味。動物が本能的に傷を舐めて治そうとする行動から来ており、唾液には実際に軽い抗菌作用があると科学的に証明されている！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 959,
+    "word": "antibiotic",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "抗生物質",
+        "pos": "noun"
+      },
+      {
+        "meaning": "抗菌性の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌæntɪbaɪˈɒtɪk/",
+    "syllables": "an-ti-bi-ot-ic",
+    "audioHint": "アンティバイオティック",
+    "examples": [
+      {
+        "en": "The doctor prescribed an antibiotic for the infection.",
+        "ja": "医師は感染症のために抗生物質を処方した。",
+        "blank": "The doctor prescribed an ___ for the infection.",
+        "blankAnswer": "antibiotic"
+      }
+    ],
+    "distractors": [
+      "ワクチン",
+      "麻酔薬",
+      "消毒液"
+    ],
+    "confusableSpellings": [
+      "antibiotic",
+      "antibiotik",
+      "antybiotic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 anti-（対抗する）＋ bios（生命）＋ -tic（形容詞語尾）。「生命に対抗するもの」が原義で、細菌の生命活動を阻害・破壊することを指す。",
+      "tips": "抗生物質はウイルスには効かない！風邪やインフルエンザはウイルス性なので antibiotic は無効。日本では過剰処方が問題になっているが、英語圏でも antibiotic resistance（抗生物質耐性）は深刻な社会問題。",
+      "confusables": "antibiotic（抗生物質・細菌に効く）vs. antiviral（抗ウイルス薬・ウイルスに効く）vs. antifungal（抗真菌薬・カビに効く）：対象の病原体が異なる。",
+      "collocations": [
+        "prescribe antibiotics（抗生物質を処方する）",
+        "antibiotic resistance（抗生物質耐性）",
+        "course of antibiotics（抗生物質の一コース）"
+      ],
+      "trivia": "最初の抗生物質ペニシリンは1928年にアレクサンダー・フレミングが「うっかり」発見した。カビに汚染されたシャーレの周りに細菌が育っていないことに気づいたのがきっかけ。歴史上最も有名な「ラッキーな発見」の一つ！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 960,
+    "word": "vaccine",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "ワクチン",
+        "pos": "noun"
+      },
+      {
+        "meaning": "予防接種液",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvæksiːn/",
+    "syllables": "vac-cine",
+    "audioHint": "ヴァクシーン",
+    "examples": [
+      {
+        "en": "Children receive a flu vaccine every year.",
+        "ja": "子供たちは毎年インフルエンザワクチンを接種する。",
+        "blank": "Children receive a flu ___ every year.",
+        "blankAnswer": "vaccine"
+      }
+    ],
+    "distractors": [
+      "抗生物質",
+      "手術",
+      "アレルギー反応"
+    ],
+    "confusableSpellings": [
+      "vaccin",
+      "vaksine",
+      "vacceen"
+    ],
+    "passive": {
+      "etymology": "ラテン語 vacca（牛）から。vaccinus は「牛の」という意味の形容詞。ジェンナーが牛痘（cowpox）ウイルスを使って天然痘を予防したことから、「牛由来の（予防接種）」という名前がついた。",
+      "tips": "vaccine の発音は「ヴァクシーン」で、アクセントは第2音節（-CINE）。日本語の「ワクチン」はドイツ語 Vakzin の発音に近い形で輸入されたため、英語発音とは異なる。英語では末尾が「シーン」と伸びる点に注意。",
+      "confusables": "vaccine（ワクチン・予防接種液そのもの）vs. vaccination（ワクチン接種・行為）vs. immunization（免疫化・より広い概念）：vaccineは物質、vaccinationはその行為を指す。",
+      "collocations": [
+        "get a vaccine（ワクチンを接種する）",
+        "vaccine rollout（ワクチン接種の展開）",
+        "vaccine hesitancy（ワクチン躊躇・忌避）"
+      ],
+      "trivia": "「ワクチン」という言葉は牛（vacca）から来ているが、Edward Jennerが1796年に牛痘を使って天然痘ワクチンを開発した時、当時の人々は「牛になる」と恐れて反対したという。現代のワクチン忌避問題、実は200年以上前からあった！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  }
+]

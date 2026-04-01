@@ -1,0 +1,1003 @@
+[
+  {
+    "id": 1741,
+    "word": "tactics",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "戦術、策略",
+        "pos": "noun"
+      },
+      {
+        "meaning": "手段、方法",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtæktɪks/",
+    "syllables": "tac-tics",
+    "audioHint": "タクティクス",
+    "examples": [
+      {
+        "en": "The coach changed his tactics at halftime to win the game.",
+        "ja": "コーチはゲームに勝つためにハーフタイムに戦術を変えた。",
+        "blank": "The coach changed his ___ at halftime to win the game.",
+        "blankAnswer": "tactics"
+      }
+    ],
+    "distractors": [
+      "仮説、前提",
+      "分析、解析",
+      "概念、観念"
+    ],
+    "confusableSpellings": [
+      "tacticts",
+      "tactics",
+      "taktiks"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'taktike' （配置・秩序の技術）に由来。語根 'tassein'（配置する）から。",
+      "tips": "常に複数形で使われることが多い（tactics）。単数形 'tactic' も存在し「一つの手段」という意味で使える。",
+      "confusables": "'strategy'（戦略・大局的計画）と区別する。tactics は短期的・具体的な手段、strategy は長期的・全体的な計画を指す。",
+      "collocations": [
+        "military tactics（軍事戦術）",
+        "scare tactics（恐怖戦術）",
+        "negotiating tactics（交渉術）"
+      ],
+      "trivia": "ゲーム名『ファイナルファンタジータクティクス』でも有名なこの語、もともとは軍隊の「部隊配置の技術」を指していた。スポーツ解説でも頻出！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1742,
+    "word": "feat",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "偉業、功績",
+        "pos": "noun"
+      },
+      {
+        "meaning": "技、離れ業",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fiːt/",
+    "syllables": "feat",
+    "audioHint": "フィート",
+    "examples": [
+      {
+        "en": "Climbing that mountain alone was an incredible feat.",
+        "ja": "あの山に一人で登るのは信じられない偉業だった。",
+        "blank": "Climbing that mountain alone was an incredible ___.",
+        "blankAnswer": "feat"
+      }
+    ],
+    "distractors": [
+      "意図、目的",
+      "信念、確信",
+      "直感、本能"
+    ],
+    "confusableSpellings": [
+      "feet",
+      "feit",
+      "feeat"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'fait'（行為・行い）に由来し、ラテン語 'factum'（なされたこと）が語根。'fact' と同じ語源を持つ。",
+      "tips": "'feet'（足の複数形）と発音が全く同じなのに注意。文脈で判断すること。'a feat of engineering'（工学の偉業）のように形容詞や of と組み合わせて使うことが多い。",
+      "confusables": "'achievement'（達成・業績）と近いが、feat はより困難な偉業や技巧的な行為に使う。日常的な達成には achievement を使う方が自然。",
+      "collocations": [
+        "remarkable feat（驚くべき偉業）",
+        "feat of strength（力の偉業）",
+        "no mean feat（並大抵でない偉業）"
+      ],
+      "trivia": "音楽の世界で『feat.』と書くと 'featuring'（フィーチャリング）の略。全く意味が違う同音異義語として覚えると混乱防止に役立つ！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1743,
+    "word": "prestige",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "名声、威信",
+        "pos": "noun"
+      },
+      {
+        "meaning": "権威、ステータス",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/prɛˈstiːʒ/",
+    "syllables": "pres-tige",
+    "audioHint": "プレスティージュ",
+    "examples": [
+      {
+        "en": "Winning the award brought great prestige to the university.",
+        "ja": "その賞を受賞することで大学に大きな名声がもたらされた。",
+        "blank": "Winning the award brought great ___ to the university.",
+        "blankAnswer": "prestige"
+      }
+    ],
+    "distractors": [
+      "権限、権力",
+      "統治、支配",
+      "政策、方針"
+    ],
+    "confusableSpellings": [
+      "prestidge",
+      "prestiege",
+      "prestege"
+    ],
+    "passive": {
+      "etymology": "フランス語 'prestige' に由来し、ラテン語 'praestigiae'（手品・幻惑）が語源。もともとは「目くらまし・幻想」という意味だった。",
+      "tips": "発音が難しい単語。最後の '-ge' は「ジュ」と発音する（フランス語由来の音）。アクセントは後ろの音節 'stige' にある点に注意。",
+      "confusables": "'reputation'（評判・名声）と近いが、prestige はより格式や社会的地位に関連する名声。reputation は良い評判にも悪い評判にも使える。",
+      "collocations": [
+        "social prestige（社会的名声）",
+        "prestige of a brand（ブランドの威信）",
+        "international prestige（国際的地位）"
+      ],
+      "trivia": "もともとは「手品師のトリック・幻惑」を意味していた語。「人を惑わすほどすごい」から「名声」へと意味が変化した面白い歴史を持つ！"
+    },
+    "frequency": 3200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1744,
+    "word": "analogy",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "類推、アナロジー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "類似、比較",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈnælədʒi/",
+    "syllables": "a-nal-o-gy",
+    "audioHint": "アナロジー",
+    "examples": [
+      {
+        "en": "He used an analogy to explain how the human brain works.",
+        "ja": "彼は人間の脳の働きを説明するために類推を使った。",
+        "blank": "He used an ___ to explain how the human brain works.",
+        "blankAnswer": "analogy"
+      }
+    ],
+    "distractors": [
+      "定理、原理",
+      "仮説、仮定",
+      "観察、所見"
+    ],
+    "confusableSpellings": [
+      "analogy",
+      "anallogy",
+      "analogie",
+      "analogy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'analogia'（比例・対応）に由来。'ana-'（に従って）＋ 'logos'（比率・言葉）の組み合わせ。",
+      "tips": "動詞形は 'analogize'、形容詞形は 'analogous'。'draw an analogy'（類推する）という表現が頻出。日本語の「アナロジー思考」がそのまま使える。",
+      "confusables": "'metaphor'（隠喩）と混同しやすいが、analogy は2つの事物の構造的・論理的な類似関係を指し、より論理的・説明的な文脈で使う。",
+      "collocations": [
+        "draw an analogy（類推を引く）",
+        "analogy between A and B（AとBの類似）",
+        "false analogy（誤った類推）"
+      ],
+      "trivia": "SAT（米国の大学入試テスト）には昔「アナロジー問題」があり、『医者：患者＝弁護士：？』のような問題が出ていた。2005年に廃止されたが今でも頭の体操として人気！"
+    },
+    "frequency": 2600,
+    "cefr": "C1"
+  },
+  {
+    "id": 1745,
+    "word": "conscience",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "良心、道徳心",
+        "pos": "noun"
+      },
+      {
+        "meaning": "善悪の判断力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒnʃəns/",
+    "syllables": "con-science",
+    "audioHint": "コンシャンス",
+    "examples": [
+      {
+        "en": "Her conscience told her to tell the truth.",
+        "ja": "彼女の良心が真実を話すよう告げた。",
+        "blank": "Her ___ told her to tell the truth.",
+        "blankAnswer": "conscience"
+      }
+    ],
+    "distractors": [
+      "意識、自覚",
+      "感情、情緒",
+      "意志、決意"
+    ],
+    "confusableSpellings": [
+      "concience",
+      "consience",
+      "consciense"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conscientia'（共に知ること）に由来。'con-'（共に）＋ 'scientia'（知識）の組み合わせ。",
+      "tips": "'conscious'（意識的な）とスペルが似ており混同しやすい。conscience は「良心」（名詞のみ）、conscious は「意識している」（形容詞）と品詞も意味も違う。",
+      "confusables": "'consciousness'（意識・自覚）と混同しやすい。conscience は道徳的な善悪の感覚、consciousness は自分や周囲への気づき・覚醒状態を指す。",
+      "collocations": [
+        "guilty conscience（罪悪感）",
+        "clear conscience（やましいことのない良心）",
+        "follow one's conscience（良心に従う）"
+      ],
+      "trivia": "ピノキオの物語に登場するコオロギ『ジミニー・クリケット』は、良心（conscience）を擬人化したキャラクター。英語圏では「良心の声」の象徴として有名！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1746,
+    "word": "textile",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "織物、繊維製品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "布地、テキスタイル",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtɛkstaɪl/",
+    "syllables": "tex-tile",
+    "audioHint": "テクスタイル",
+    "examples": [
+      {
+        "en": "The textile industry plays a major role in this country's economy.",
+        "ja": "繊維産業はこの国の経済において重要な役割を果たしている。",
+        "blank": "The ___ industry plays a major role in this country's economy.",
+        "blankAnswer": "textile"
+      }
+    ],
+    "distractors": [
+      "陶磁器、焼き物",
+      "家具、調度品",
+      "装飾品、アクセサリー"
+    ],
+    "confusableSpellings": [
+      "textil",
+      "texttile",
+      "textille"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'textilis'（織られた）に由来。'texere'（織る）が語根で、'text'（テキスト）と同じ語源。テキストも「言葉を織り合わせたもの」！",
+      "tips": "形容詞としても使え、'textile factory'（繊維工場）、'textile design'（布地デザイン）のように名詞の前に置く。日本語の「テキスタイル」はそのまま使える。",
+      "confusables": "'fabric'（布・生地）と近いが、textile はより工業的・産業的な文脈で使われ、fabric は日常的な「布地」を指すことが多い。",
+      "collocations": [
+        "textile industry（繊維産業）",
+        "textile design（テキスタイルデザイン）",
+        "synthetic textile（合成繊維）"
+      ],
+      "trivia": "'text'（文章）と 'textile'（織物）は同じ語源。ローマ人は「言葉を織り上げる」ことを文章と呼んでいた。書くことと織ることの概念が同じなんて面白い！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1747,
+    "word": "deficit",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "赤字、財政赤字",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不足、欠乏",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɛfɪsɪt/",
+    "syllables": "def-i-cit",
+    "audioHint": "デフィシット",
+    "examples": [
+      {
+        "en": "The government announced a large budget deficit this year.",
+        "ja": "政府は今年度の大きな財政赤字を発表した。",
+        "blank": "The government announced a large budget ___ this year.",
+        "blankAnswer": "deficit"
+      }
+    ],
+    "distractors": [
+      "利益、収益",
+      "負債、借金",
+      "投資、出資"
+    ],
+    "confusableSpellings": [
+      "defecit",
+      "deficiet",
+      "defisit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'deficit'（不足する）に由来。'de-'（離れて・下に）＋ 'facere'（する・作る）の組み合わせ。「作られない・足りない」状態を表す。",
+      "tips": "アクセントは最初の音節 'DEF' にある。'deficits'（複数形）も頻出。'trade deficit'（貿易赤字）、'budget deficit'（財政赤字）が最もよく使われる組み合わせ。",
+      "confusables": "'debt'（借金・負債）と混同しやすいが、deficit は収支の差額（赤字）、debt は累積した負債の総額を指す。毎年の赤字が積み重なったものが debt。",
+      "collocations": [
+        "budget deficit（財政赤字）",
+        "trade deficit（貿易赤字）",
+        "attention deficit（注意欠如）"
+      ],
+      "trivia": "医学でも使われる語で、'attention deficit disorder（ADD）'や 'ADHD' の中の deficit がまさにこれ。政治経済から医療まで幅広く活躍する単語！"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1748,
+    "word": "plague",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "疫病、ペスト",
+        "pos": "noun"
+      },
+      {
+        "meaning": "苦悩の原因、悩みの種",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pleɪɡ/",
+    "syllables": "plague",
+    "audioHint": "プレイグ",
+    "examples": [
+      {
+        "en": "The plague wiped out nearly a third of Europe's population.",
+        "ja": "ペストはヨーロッパの人口の約3分の1を死滅させた。",
+        "blank": "The ___ wiped out nearly a third of Europe's population.",
+        "blankAnswer": "plague"
+      }
+    ],
+    "distractors": [
+      "症状、症候",
+      "治療、療法",
+      "遺伝子、遺伝"
+    ],
+    "confusableSpellings": [
+      "plauge",
+      "plegue",
+      "plagve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'plaga'（打撃・傷）に由来。ギリシャ語 'plege'（打つこと）とも関連。神が人々を「打つ」ことから災厄・疫病の意味になった。",
+      "tips": "名詞だけでなく動詞としても使え、'be plagued by problems'（問題に悩まされる）という表現が特に重要。語末の -gue は発音しないので注意。",
+      "confusables": "'epidemic'（流行病・急速な感染拡大）と区別する。plague は特定の歴史的疫病や深刻な災害を指す重い語感があり、epidemic はより科学的・中立的な語。",
+      "collocations": [
+        "bubonic plague（腺ペスト）",
+        "plague of locusts（バッタの大群）",
+        "be plagued by（〜に悩まされる）"
+      ],
+      "trivia": "中世の Black Death（黒死病）は plague の代名詞だが、実はネズミのノミが媒介するペスト菌が原因と判明したのは19世紀末のこと。長らく「神の罰」と信じられていた！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1749,
+    "word": "hazard",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "危険、危険物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "偶然の出来事、運",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhæzərd/",
+    "syllables": "haz-ard",
+    "audioHint": "ハザード",
+    "examples": [
+      {
+        "en": "Ice on the road is a serious hazard for drivers.",
+        "ja": "道路上の氷は運転者にとって深刻な危険だ。",
+        "blank": "Ice on the road is a serious ___ for drivers.",
+        "blankAnswer": "hazard"
+      }
+    ],
+    "distractors": [
+      "気候、気象",
+      "地形、地勢",
+      "生態系、生態"
+    ],
+    "confusableSpellings": [
+      "hazzard",
+      "hazzerd",
+      "hazerd"
+    ],
+    "passive": {
+      "etymology": "アラビア語 'az-zahr'（サイコロ）に由来し、スペイン語 'azar'（偶然・運）を経て英語へ。サイコロの目＝不確かなリスクという発想から「危険」の意味になった。",
+      "tips": "動詞としても使え、'hazard a guess'（思い切って推測する）は慣用表現として重要。日本語の「ハザードランプ」はこの語から来ている。",
+      "confusables": "'risk'（リスク・危険性）と近いが、hazard は客観的に存在する危険の原因・要因、risk はその危険にさらされる可能性を指すニュアンスの違いがある。",
+      "collocations": [
+        "health hazard（健康上の危険）",
+        "fire hazard（火災の危険）",
+        "hazard a guess（推測する）"
+      ],
+      "trivia": "アラビアのサイコロゲームが中世ヨーロッパに伝わり、「賭けの不確かさ＝危険」という意味に変化。ハザードランプ（hazard lights）も「危険を知らせる」という意味でそのまま使われている！"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1750,
+    "word": "metabolism",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "代謝、新陳代謝",
+        "pos": "noun"
+      },
+      {
+        "meaning": "物質変換プロセス",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/məˈtæbəlɪzəm/",
+    "syllables": "me-tab-o-lism",
+    "audioHint": "メタボリズム",
+    "examples": [
+      {
+        "en": "Regular exercise helps boost your metabolism.",
+        "ja": "定期的な運動は代謝を高めるのに役立つ。",
+        "blank": "Regular exercise helps boost your ___.",
+        "blankAnswer": "metabolism"
+      }
+    ],
+    "distractors": [
+      "免疫、免疫機能",
+      "遺伝、遺伝子",
+      "神経系、神経"
+    ],
+    "confusableSpellings": [
+      "metabalism",
+      "metabolizm",
+      "metabbolism"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'metabole'（変化）に由来。'meta-'（変化・超えて）＋ 'bole'（投げること・変えること）の組み合わせ。",
+      "tips": "アクセントは2番目の音節 'TAB' にある（メTABolism）。'metabolic'（代謝の）という形容詞形も頻出。日本語の「メタボ」は 'metabolic syndrome' の略。",
+      "confusables": "'digestion'（消化）と混同しやすいが、metabolism は体内でエネルギーを作り出す化学反応全体、digestion は食物を分解・吸収するプロセスに限定される。",
+      "collocations": [
+        "boost metabolism（代謝を高める）",
+        "slow metabolism（低い代謝）",
+        "metabolic rate（代謝率）"
+      ],
+      "trivia": "日本で「メタボ検診」として定着した 'metabolic syndrome'（メタボリックシンドローム）。実はこの言葉、日本の厚生労働省が世界でも珍しいほど国民に広めた成功例のひとつ！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1751,
+    "word": "paralysis",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "麻痺",
+        "pos": "noun"
+      },
+      {
+        "meaning": "機能停止",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pəˈræləsɪs/",
+    "syllables": "pa-ral-y-sis",
+    "audioHint": "パラリシス",
+    "examples": [
+      {
+        "en": "The accident caused permanent paralysis in his legs.",
+        "ja": "その事故で彼の足に永続的な麻痺が残った。",
+        "blank": "The accident caused permanent ___ in his legs.",
+        "blankAnswer": "paralysis"
+      }
+    ],
+    "distractors": [
+      "炎症",
+      "感染症",
+      "骨折"
+    ],
+    "confusableSpellings": [
+      "paralasis",
+      "paralysis",
+      "parralysis"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'paralysis'（緩める）に由来。接頭辞 'para-'（傍ら・異常）＋語根 'lysis'（解放・分解）。つまり「正常な働きから外れた状態」が原義。",
+      "tips": "複数形は'paralyses'と語尾が変わる点に注意。動詞形は'paralyze'（米）または'paralyse'（英）。'paralysis of decision-making'のように比喩的に「決断できない状態」にも使える。",
+      "confusables": "'palsy'も麻痺を意味するが、'palsy'は主に医療用語（例：cerebral palsy＝脳性麻痺）で使われ、'paralysis'より口語的ニュアンスは薄い。",
+      "collocations": [
+        "suffer from paralysis",
+        "complete paralysis",
+        "paralysis of fear"
+      ],
+      "trivia": "「paralysis by analysis（分析による麻痺）」というビジネス用語があり、考えすぎて行動できなくなる現象を指す。現代のビジネス書でも頻出フレーズ！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1752,
+    "word": "grid",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "格子（状のもの）、グリッド",
+        "pos": "noun"
+      },
+      {
+        "meaning": "送電網",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡrɪd/",
+    "syllables": "grid",
+    "audioHint": "グリッド",
+    "examples": [
+      {
+        "en": "The city is designed on a simple grid pattern.",
+        "ja": "その都市はシンプルな格子状のパターンで設計されている。",
+        "blank": "The city is designed on a simple ___ pattern.",
+        "blankAnswer": "grid"
+      }
+    ],
+    "distractors": [
+      "回路",
+      "データベース",
+      "プロトコル"
+    ],
+    "confusableSpellings": [
+      "gride",
+      "girid",
+      "grrid"
+    ],
+    "passive": {
+      "etymology": "古英語 'gridiron'（格子状の焼き網）を短縮したもの。語根は格子や鉄格子を意味するラテン語系統に連なる。",
+      "tips": "'power grid'（電力網）、'grid system'（格子システム）、'off the grid'（電力網から切り離された）などの表現が重要。デザイン・都市計画・IT・電力すべてで使われる万能語。",
+      "confusables": "'network'も「網・ネットワーク」を意味するが、'grid'は規則的・格子状の構造を強調する。'network'は有機的なつながりに使われることが多い。",
+      "collocations": [
+        "power grid",
+        "grid system",
+        "off the grid"
+      ],
+      "trivia": "ニューヨーク市のマンハッタンは1811年に「グリッドプラン」として設計された。碁盤の目状の街並みが今もその名残。日本の京都も似たグリッド構造！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1753,
+    "word": "carriage",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "馬車",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（列車の）客車",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkærɪdʒ/",
+    "syllables": "car-riage",
+    "audioHint": "キャリッジ",
+    "examples": [
+      {
+        "en": "The queen arrived in a golden carriage.",
+        "ja": "女王は黄金の馬車で到着した。",
+        "blank": "The queen arrived in a golden ___.",
+        "blankAnswer": "carriage"
+      }
+    ],
+    "distractors": [
+      "荷物",
+      "家具",
+      "衣装"
+    ],
+    "confusableSpellings": [
+      "cariage",
+      "carrriage",
+      "carriege"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'cariage'（運ぶこと）から。語根は'carry'（運ぶ）と共通のラテン語 'carricare'。「運搬するもの」が原義。",
+      "tips": "英国英語では列車の客車を'carriage'と呼ぶが、米国英語では'car'が一般的。また'baby carriage'（乳母車）という表現は米国でよく使われる。",
+      "confusables": "'cart'は荷物運搬用の荷車、'carriage'は人を乗せるための乗り物というニュアンスの違いがある。現代では主に歴史的・文学的文脈で登場する。",
+      "collocations": [
+        "horse-drawn carriage",
+        "baby carriage",
+        "train carriage"
+      ],
+      "trivia": "シンデレラの「かぼちゃの馬車」は英語で'pumpkin carriage'。ディズニー映画のおかげでこの単語を知っている子どもは世界中にいる！"
+    },
+    "frequency": 5500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1754,
+    "word": "friction",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "摩擦",
+        "pos": "noun"
+      },
+      {
+        "meaning": "軋轢、対立",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfrɪkʃən/",
+    "syllables": "fric-tion",
+    "audioHint": "フリクション",
+    "examples": [
+      {
+        "en": "Friction between the two teams slowed the project.",
+        "ja": "2つのチーム間の軋轢がプロジェクトを遅らせた。",
+        "blank": "___ between the two teams slowed the project.",
+        "blankAnswer": "Friction"
+      }
+    ],
+    "distractors": [
+      "圧力",
+      "重力",
+      "放射線"
+    ],
+    "confusableSpellings": [
+      "friciton",
+      "fricton",
+      "frection"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'frictio'（こすること）から。語根 'fricare'（こする・摩擦する）に由来。物理的な「こすり合わせ」が原義で、そこから比喩的な「対立」へと意味が広がった。",
+      "tips": "物理学的な摩擦だけでなく、「人間関係の摩擦（対立・軋轢）」としても頻繁に使われる。'cause friction'（軋轢を生む）、'reduce friction'（摩擦を減らす）はビジネス英語でも頻出。",
+      "confusables": "'conflict'は明確な「争い・対立」を指すが、'friction'はまだ表面化していない緊張感や微妙な対立感を指すことが多い。",
+      "collocations": [
+        "cause friction",
+        "surface friction",
+        "friction between"
+      ],
+      "trivia": "消せるボールペン「フリクション」はまさにこの単語が語源。パイロット社が「摩擦熱で消えるインク」という特性をそのまま商品名にした日本発の大ヒット商品！"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1755,
+    "word": "rebel",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "反乱者、反逆者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "反抗する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈrebəl/ (n.), /rɪˈbel/ (v.)",
+    "syllables": "reb-el",
+    "audioHint": "レベル（名詞）／リベル（動詞）",
+    "examples": [
+      {
+        "en": "The rebels fought against the corrupt government.",
+        "ja": "反乱者たちは腐敗した政府に対して戦った。",
+        "blank": "The ___ fought against the corrupt government.",
+        "blankAnswer": "rebels"
+      }
+    ],
+    "distractors": [
+      "独裁者",
+      "外交官",
+      "議員"
+    ],
+    "confusableSpellings": [
+      "rebal",
+      "rebble",
+      "rebell"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'rebellare'（再び戦う）から。接頭辞 're-'（再び）＋'bellare'（戦う）。語根 'bellum'（戦争）はラテン語で、'bellicose'（好戦的な）とも同族語。",
+      "tips": "名詞・形容詞のとき「レベル」、動詞のとき「リベル」とアクセントが変わる！これは英語でよくあるパターン（'record'、'permit'も同様）で日本人が間違えやすいポイント。",
+      "confusables": "'revolution'は組織的・大規模な革命、'rebellion'は局地的・感情的な反乱というニュアンスの違いがある。'rebel'はそれを行う人物を指す。",
+      "collocations": [
+        "rebel against",
+        "armed rebel",
+        "rebel forces"
+      ],
+      "trivia": "スター・ウォーズの「反乱軍」は英語で'Rebel Alliance'。まさにこの単語が使われている。ジェームズ・ディーン主演映画'Rebel Without a Cause'（理由なき反抗）も有名！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1756,
+    "word": "regime",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "政権、体制",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（管理・規制の）制度、方式",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/reɪˈʒiːm/",
+    "syllables": "re-gime",
+    "audioHint": "レイジーム",
+    "examples": [
+      {
+        "en": "The authoritarian regime banned free speech.",
+        "ja": "その権威主義的政権は言論の自由を禁止した。",
+        "blank": "The authoritarian ___ banned free speech.",
+        "blankAnswer": "regime"
+      }
+    ],
+    "distractors": [
+      "条約",
+      "選挙制度",
+      "憲法改正"
+    ],
+    "confusableSpellings": [
+      "regieme",
+      "reagime",
+      "regim"
+    ],
+    "passive": {
+      "etymology": "フランス語 'régime'（統治・支配）から英語へ。さらにラテン語 'regimen'（支配・管理）に由来。語根 'regere'（支配する・導く）は'rule'や'regulate'とも関連する。",
+      "tips": "日本語でも「レジーム」として政治・経済文脈で使われる。発音は「レジーム」ではなく「レイジーム」に近い点に注意。語尾の'e'は読まず、-ime は「ィーム」。",
+      "confusables": "'government'は中立的な「政府」全般、'regime'はやや否定的ニュアンスを持ち、強権的・権威主義的な政権を指すことが多い。ニュースでは使い分けが重要。",
+      "collocations": [
+        "authoritarian regime",
+        "regime change",
+        "under the regime"
+      ],
+      "trivia": "医学・健康分野では'treatment regime'（治療計画）や'exercise regime'（運動習慣）のようにも使われる。「政権」だけじゃなく「ルーティン・方式」という意味もあるのが面白い！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1757,
+    "word": "monopoly",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "独占、独占権",
+        "pos": "noun"
+      },
+      {
+        "meaning": "独占企業",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/məˈnɒpəli/",
+    "syllables": "mo-nop-o-ly",
+    "audioHint": "モノポリー",
+    "examples": [
+      {
+        "en": "The company has a monopoly on the local water supply.",
+        "ja": "その会社は地域の水道供給を独占している。",
+        "blank": "The company has a ___ on the local water supply.",
+        "blankAnswer": "monopoly"
+      }
+    ],
+    "distractors": [
+      "合併",
+      "倒産",
+      "株式公開"
+    ],
+    "confusableSpellings": [
+      "monoppoly",
+      "monopoly",
+      "monoply"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'monos'（一つ・単一）＋'polein'（売る）から。「一者だけが売る状態」が原義。接頭辞 'mono-' はmonorail（モノレール）やmonologue（独白）と共通。",
+      "tips": "'have a monopoly on〜'（〜を独占する）の形が頻出。比喩的に'Nobody has a monopoly on good ideas.'（良いアイデアを独占できる人はいない）のような使い方もある。",
+      "confusables": "'oligopoly'は「少数による市場支配（寡占）」、'monopoly'は「一者による完全独占」。経済学では明確に区別される重要な概念。",
+      "collocations": [
+        "have a monopoly",
+        "break up a monopoly",
+        "monopoly power"
+      ],
+      "trivia": "ボードゲーム「モノポリー」はまさにこの単語が名前の由来。1930年代の大恐慌時代にアメリカで大ヒットしたゲームで、「資本主義の独占」を皮肉った設計だとも言われている！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1758,
+    "word": "staple",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "主要産物、定番品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ホチキスの針",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsteɪpəl/",
+    "syllables": "sta-ple",
+    "audioHint": "ステイプル",
+    "examples": [
+      {
+        "en": "Rice is a staple food in many Asian countries.",
+        "ja": "米はアジア多くの国で主食だ。",
+        "blank": "Rice is a ___ food in many Asian countries.",
+        "blankAnswer": "staple"
+      }
+    ],
+    "distractors": [
+      "贅沢品",
+      "調味料",
+      "装飾品"
+    ],
+    "confusableSpellings": [
+      "stapel",
+      "staipel",
+      "staipal"
+    ],
+    "passive": {
+      "etymology": "中世オランダ語 'stapel'（市場・倉庫）に由来。中世ヨーロッパの「特定商品を集積・取引する公認市場」を指したことから、「主要商品」という意味に発展した。",
+      "tips": "形容詞として'staple food'（主食）、'staple diet'（定番の食事）、'staple item'（定番アイテム）のように使う。「ホチキスの針」と「主食」で意味が全然違うので文脈に注意！",
+      "confusables": "'staple'（主要な・定番の）と'basic'は似ているが、'staple'は「なくてはならない定番」というニュアンスが強く、'basic'は「基本的な・シンプルな」というニュアンス。",
+      "collocations": [
+        "staple food",
+        "staple diet",
+        "staple crop"
+      ],
+      "trivia": "ホチキスを英語で'stapler'というのもこの単語から。「針で留める道具」＝'stapler'。日本では「ホチキス」（Hotchkissという発明者名）が定着しているが、英語では通じないので注意！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1759,
+    "word": "merchandise",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "商品、品物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "販売促進グッズ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɜːrtʃəndaɪz/",
+    "syllables": "mer-chan-dise",
+    "audioHint": "マーチャンダイズ",
+    "examples": [
+      {
+        "en": "The store displays its merchandise attractively.",
+        "ja": "その店は商品を魅力的に陳列している。",
+        "blank": "The store displays its ___ attractively.",
+        "blankAnswer": "merchandise"
+      }
+    ],
+    "distractors": [
+      "利益",
+      "契約",
+      "負債"
+    ],
+    "confusableSpellings": [
+      "mercandise",
+      "merchandize",
+      "merchantdise"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'marchandise'（商業・取引）から。語根はラテン語 'mercari'（取引する）で、'merchant'（商人）や'market'（市場）とも同族語。",
+      "tips": "不可算名詞として使われることが多く、'a merchandise'とは言わない。'some merchandise'や'the merchandise'が自然。動詞として'merchandise a product'（商品を販売促進する）の使い方もある。",
+      "confusables": "'goods'は単純に「品物・商品」全般、'merchandise'は販売・商業目的の商品というニュアンスが強い。'merch'という略語はファングッズ（アーティストの公式グッズ）文化で若者に広く使われる。",
+      "collocations": [
+        "sell merchandise",
+        "merchandise display",
+        "licensed merchandise"
+      ],
+      "trivia": "「merch（マーチ）」はK-POPやYouTuberのグッズを指す若者言葉として世界中で浸透中。BTS公式グッズは「BTS merch」と呼ばれる。merchandiseがここまでポップになるとは！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1760,
+    "word": "vendor",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "販売業者、売り手",
+        "pos": "noun"
+      },
+      {
+        "meaning": "露天商、屋台の売り子",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvendər/",
+    "syllables": "ven-dor",
+    "audioHint": "ベンダー",
+    "examples": [
+      {
+        "en": "The street vendor sold fresh fruit every morning.",
+        "ja": "その露天商は毎朝新鮮な果物を売っていた。",
+        "blank": "The street ___ sold fresh fruit every morning.",
+        "blankAnswer": "vendor"
+      }
+    ],
+    "distractors": [
+      "投資家",
+      "消費者",
+      "仲介人"
+    ],
+    "confusableSpellings": [
+      "vender",
+      "vandor",
+      "venndor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vendere'（売る）から。'vend'（販売する）＋行為者を表す接尾辞 '-or'。'vending machine'（自動販売機）とも同語源。",
+      "tips": "ITビジネスでは'vendor'はソフトウェア・ハードウェアの「メーカー・供給業者」を指す（例：software vendor）。日本語のIT業界でも「ベンダー」として定着しており、意味を広く押さえておくと便利。",
+      "confusables": "'supplier'はメーカーから素材・部品を供給する業者、'vendor'は最終的に製品やサービスを販売する業者というニュアンスの違いがある。ただし日常会話では混用されることも多い。",
+      "collocations": [
+        "street vendor",
+        "software vendor",
+        "vendor contract"
+      ],
+      "trivia": "ニューヨークの「hot dog vendor（ホットドッグの露天商）」は映画・ドラマの定番シーン。実はニューヨーク市でストリートベンダーの営業許可は非常に取りにくく、権利が数百万円で売買されることもある！"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  }
+]

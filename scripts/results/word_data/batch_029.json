@@ -1,0 +1,998 @@
+[
+  {
+    "id": 561,
+    "word": "immigration",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "移民、入国",
+        "pos": "noun"
+      },
+      {
+        "meaning": "入国管理（局）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪmɪˈɡreɪʃən/",
+    "syllables": "im-mi-gra-tion",
+    "audioHint": "イミグレイション",
+    "examples": [
+      {
+        "en": "The government introduced new immigration laws last year.",
+        "ja": "政府は昨年、新しい移民法を導入した。",
+        "blank": "The government introduced new ___ laws last year.",
+        "blankAnswer": "immigration"
+      }
+    ],
+    "distractors": [
+      "選挙権",
+      "市民権の剥奪",
+      "行政改革"
+    ],
+    "confusableSpellings": [
+      "imigration",
+      "immigrasion",
+      "immgration"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'immigrare'（中に移動する）から。接頭辞 'im-'（中へ）＋語根 'migrare'（移動する）＋名詞化接尾辞 '-ation'。",
+      "tips": "'immigration'（他国から入ってくること）と 'emigration'（自国から出ていくこと）は混同しがち。「in＝入ってくる」と覚えると区別しやすい。",
+      "confusables": "'immigration'（入国・移民）vs 'emigration'（出国・移住）。視点が逆になる。'migration' は方向を問わない一般的な移動。",
+      "collocations": [
+        "immigration policy（移民政策）",
+        "immigration control（入国管理）",
+        "illegal immigration（不法移民）"
+      ],
+      "trivia": "空港の「イミグレ」はこの単語の略。正式には 'immigration control' だが、日本人には「イミグレ」という略称の方がなじみ深い。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 562,
+    "word": "barrier",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "障壁、障害",
+        "pos": "noun"
+      },
+      {
+        "meaning": "バリケード、仕切り",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbæriər/",
+    "syllables": "bar-ri-er",
+    "audioHint": "バリア",
+    "examples": [
+      {
+        "en": "Language is a major barrier to communication abroad.",
+        "ja": "言語は海外でのコミュニケーションにおける大きな障壁だ。",
+        "blank": "Language is a major ___ to communication abroad.",
+        "blankAnswer": "barrier"
+      }
+    ],
+    "distractors": [
+      "先入観",
+      "不利な条件",
+      "感情の起伏"
+    ],
+    "confusableSpellings": [
+      "barier",
+      "barreir",
+      "barriar"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'barriere'（棒、横木）から。語根 'barre'（棒）＋接尾辞 '-iere'。物理的な「棒」が転じて「障害」の意味に。",
+      "tips": "'barrier to ...' の形で使うことが多い（例：barrier to entry）。'barricade' と混同しやすいが、'barricade' は緊急的・物理的な遮断物に限られる。",
+      "confusables": "'barrier'（恒常的・抽象的な障壁）vs 'barricade'（緊急設置の物理的障壁）vs 'obstacle'（行く手を阻むもの全般）。",
+      "collocations": [
+        "trade barrier（貿易障壁）",
+        "break down barriers（障壁を取り除く）",
+        "barrier to entry（参入障壁）"
+      ],
+      "trivia": "ゲームやアニメで使われる「バリア」はこの単語から。英語では防御シールドの意味では通じないことが多いので注意！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 563,
+    "word": "disadvantage",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "不利、デメリット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不利な立場に置く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌdɪsədˈvæntɪdʒ/",
+    "syllables": "dis-ad-van-tage",
+    "audioHint": "ディスアドヴァンテッジ",
+    "examples": [
+      {
+        "en": "Being short can be a disadvantage in basketball.",
+        "ja": "背が低いことはバスケットボールでは不利になりうる。",
+        "blank": "Being short can be a ___ in basketball.",
+        "blankAnswer": "disadvantage"
+      }
+    ],
+    "distractors": [
+      "矛盾",
+      "偏見",
+      "限界"
+    ],
+    "confusableSpellings": [
+      "disadvntage",
+      "disadavantage",
+      "disadvantege"
+    ],
+    "passive": {
+      "etymology": "接頭辞 'dis-'（否定・反対）＋ 'advantage'（有利）。語根はラテン語 'abante'（前方に）から来る 'advantage' を否定した形。",
+      "tips": "'at a disadvantage'（不利な状況で）というフレーズが重要。'disadvantage' は名詞・動詞両方あるが、日本人は名詞用法しか知らないことが多い。",
+      "confusables": "'disadvantage'（不利・デメリット）vs 'weakness'（弱点）vs 'drawback'（欠点、副作用的なマイナス面）。'drawback' はある選択肢の欠点に使うことが多い。",
+      "collocations": [
+        "at a disadvantage（不利な立場で）",
+        "overcome a disadvantage（不利を克服する）",
+        "social disadvantage（社会的不利）"
+      ],
+      "trivia": "スポーツの世界では選手間の能力差を補正するために 'handicap' が使われるが、日本語の「ハンデ」はこちらが語源。'disadvantage' とは微妙にニュアンスが違う。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 564,
+    "word": "mood",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "気分、気持ち",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（文法）法（直接法・仮定法など）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/muːd/",
+    "syllables": "mood",
+    "audioHint": "ムード",
+    "examples": [
+      {
+        "en": "I'm not in the mood for going out tonight.",
+        "ja": "今夜は外出する気分じゃない。",
+        "blank": "I'm not in the ___ for going out tonight.",
+        "blankAnswer": "mood"
+      }
+    ],
+    "distractors": [
+      "思い込み",
+      "直感",
+      "衝動"
+    ],
+    "confusableSpellings": [
+      "moud",
+      "moood",
+      "mude"
+    ],
+    "passive": {
+      "etymology": "古英語 'mōd'（心、精神、勇気）から。ゲルマン語系の語で、ドイツ語の 'Mut'（勇気）と同族語。",
+      "tips": "'be in a good/bad mood'（気分が良い・悪い）が基本表現。日本語の「ムード」は雰囲気の意味で使うが、英語の 'mood' は主に個人の気分を指すことに注意。",
+      "confusables": "'mood'（個人の一時的な気分）vs 'emotion'（感情、より具体的）vs 'atmosphere'（場の雰囲気）。日本語の「ムード」は 'atmosphere' に近い。",
+      "collocations": [
+        "in a good mood（上機嫌で）",
+        "mood swings（気分の波）",
+        "set the mood（雰囲気を作る）"
+      ],
+      "trivia": "英文法で習う「仮定法」のことを英語で 'subjunctive mood' という。「気分」と「文法の法」が同じ単語なのは、どちらも「心の状態・傾き」を表す概念から来ているから。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 565,
+    "word": "motion",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "動き、運動",
+        "pos": "noun"
+      },
+      {
+        "meaning": "動議、提案",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmoʊʃən/",
+    "syllables": "mo-tion",
+    "audioHint": "モーション",
+    "examples": [
+      {
+        "en": "The slow motion replay showed the exact moment of impact.",
+        "ja": "スローモーション再生が衝突の正確な瞬間を映し出した。",
+        "blank": "The slow ___ replay showed the exact moment of impact.",
+        "blankAnswer": "motion"
+      }
+    ],
+    "distractors": [
+      "距離",
+      "方向性",
+      "速度"
+    ],
+    "confusableSpellings": [
+      "motin",
+      "motoin",
+      "mocion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'motio'（動くこと）から。語根 'movere'（動く）の過去分詞 'motus' ＋名詞化接尾辞 '-ion'。'move', 'motor', 'emotion' と同族語。",
+      "tips": "'motion' は「継続的・物理的な動き」を指す。動議の意味では 'pass/reject a motion'（動議を可決・否決する）という形で使う。日本語の「モーション」はスポーツや映像の文脈が中心。",
+      "confusables": "'motion'（動いている状態・プロセス）vs 'movement'（動作・運動一般）vs 'move'（1回の動き）。'in motion' で「動いている状態で」という表現が重要。",
+      "collocations": [
+        "in motion（動いている）",
+        "slow motion（スローモーション）",
+        "motion sickness（乗り物酔い）"
+      ],
+      "trivia": "「モーションキャプチャー」は日本語でもよく使う言葉だが、英語では 'motion capture' と略さずに言う。映画業界でも医療リハビリでも使われる技術。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 566,
+    "word": "routine",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "日課、ルーティン",
+        "pos": "noun"
+      },
+      {
+        "meaning": "決まりきった、日常的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ruːˈtiːn/",
+    "syllables": "rou-tine",
+    "audioHint": "ルーティーン",
+    "examples": [
+      {
+        "en": "Morning exercise has become part of her daily routine.",
+        "ja": "朝の運動は彼女の日課の一部になっている。",
+        "blank": "Morning exercise has become part of her daily ___.",
+        "blankAnswer": "routine"
+      }
+    ],
+    "distractors": [
+      "習慣的な儀式",
+      "流行",
+      "生活様式"
+    ],
+    "confusableSpellings": [
+      "routin",
+      "rouutine",
+      "rutine"
+    ],
+    "passive": {
+      "etymology": "フランス語 'routine'（慣れた道）から。語根 'route'（道）＋指小接尾辞 '-ine'。「いつもの道を通る」という感覚が転じて「決まった習慣」に。",
+      "tips": "日本語では「ルーティン」と書くが、英語の発音は「ルーティーン」（第2音節にアクセント）。形容詞として 'a routine check'（定期検査）のようにも使える。",
+      "confusables": "'routine'（習慣的・繰り返しの行動）vs 'habit'（個人の癖や習慣）vs 'custom'（社会・文化的慣習）。'routine' は意図的に組み立てたスケジュール感がある。",
+      "collocations": [
+        "daily routine（日課）",
+        "stick to a routine（ルーティンを守る）",
+        "routine check（定期点検）"
+      ],
+      "trivia": "スポーツ心理学では、試合前の 'pre-game routine' がパフォーマンスに大きく影響すると言われている。イチロー選手の打席前の動作もまさにこれ！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 567,
+    "word": "discipline",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "規律、訓練",
+        "pos": "noun"
+      },
+      {
+        "meaning": "学問分野",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɪsɪplɪn/",
+    "syllables": "dis-ci-pline",
+    "audioHint": "ディスィプリン",
+    "examples": [
+      {
+        "en": "Self-discipline is essential for achieving long-term goals.",
+        "ja": "長期的な目標を達成するには自己規律が不可欠だ。",
+        "blank": "Self-___ is essential for achieving long-term goals.",
+        "blankAnswer": "discipline"
+      }
+    ],
+    "distractors": [
+      "知識体系",
+      "評価基準",
+      "研究手法"
+    ],
+    "confusableSpellings": [
+      "disipline",
+      "discpline",
+      "disciplin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'disciplina'（教え、訓練）から。語根 'discipulus'（弟子）から来ており、さらに 'discere'（学ぶ）に由来。'disciple'（弟子）と同族語。",
+      "tips": "名詞・動詞・形容詞（disciplined）すべて重要。'discipline someone'（人を罰する・しつける）という動詞用法も覚えておくと便利。アクセントは第1音節。",
+      "confusables": "'discipline'（訓練・規律）vs 'punishment'（罰）vs 'training'（技術的訓練）。'discipline' は精神的・行動的な自己制御に重点がある。",
+      "collocations": [
+        "self-discipline（自己規律）",
+        "strict discipline（厳しいしつけ）",
+        "academic discipline（学問分野）"
+      ],
+      "trivia": "'disciple'（弟子）と 'discipline'（規律）は同じ語源を持つ。つまり「弟子になって学ぶこと」がそのまま「規律ある訓練」の概念につながっているのだ。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  },
+  {
+    "id": 568,
+    "word": "myth",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "神話",
+        "pos": "noun"
+      },
+      {
+        "meaning": "根拠のない通説、俗説",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/mɪθ/",
+    "syllables": "myth",
+    "audioHint": "ミス（th音）",
+    "examples": [
+      {
+        "en": "It's a common myth that we only use 10% of our brain.",
+        "ja": "私たちは脳の10%しか使っていないというのはよくある俗説だ。",
+        "blank": "It's a common ___ that we only use 10% of our brain.",
+        "blankAnswer": "myth"
+      }
+    ],
+    "distractors": [
+      "伝説上の人物",
+      "民間伝承",
+      "寓話"
+    ],
+    "confusableSpellings": [
+      "mith",
+      "myht",
+      "mythe"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'mythos'（言葉、物語、伝説）から直接英語に入った語。科学的な意味での「根拠のない信念」という意味は20世紀に発展した。",
+      "tips": "'myth' は「神話」だけでなく「根拠のない俗説」の意味でも非常によく使う。'That's a myth!'（それは俗説だよ！）は日常会話でも頻出。",
+      "confusables": "'myth'（神話・俗説）vs 'legend'（歴史的英雄の伝説）vs 'fable'（道徳的教訓を持つ寓話）。'myth' は真偽が問われる点がポイント。",
+      "collocations": [
+        "Greek myth（ギリシャ神話）",
+        "common myth（よくある誤解）",
+        "bust a myth（俗説を覆す）"
+      ],
+      "trivia": "YouTubeの人気番組 'MythBusters'（怪しい伝説）はまさにこの単語が由来。科学で「俗説」を「バスト（破壊）」するという意味で、単語の2つの意味が見事に活きている。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 569,
+    "word": "hypothesis",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "仮説",
+        "pos": "noun"
+      },
+      {
+        "meaning": "前提、仮定",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/haɪˈpɒθɪsɪs/",
+    "syllables": "hy-poth-e-sis",
+    "audioHint": "ハイポセシス",
+    "examples": [
+      {
+        "en": "The scientist tested her hypothesis through a series of experiments.",
+        "ja": "その科学者は一連の実験を通じて仮説を検証した。",
+        "blank": "The scientist tested her ___ through a series of experiments.",
+        "blankAnswer": "hypothesis"
+      }
+    ],
+    "distractors": [
+      "研究結果",
+      "実験手順",
+      "学術的結論"
+    ],
+    "confusableSpellings": [
+      "hypothisis",
+      "hypothesys",
+      "hypthesis"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'hypothesis'（下に置くこと、前提）から。接頭辞 'hypo-'（下に）＋語根 'thesis'（置くこと、命題）。「議論の下に置く土台」が原義。",
+      "tips": "複数形は 'hypotheses'（ハイポセシーズ）。日本人はここで詰まりやすい。'hypothesis' は検証前の段階、'theory' は検証済みの段階というニュアンスの違いも重要。",
+      "confusables": "'hypothesis'（検証前の仮説）vs 'theory'（検証を経た理論）vs 'assumption'（証明なしに前提とすること）。日常会話では 'theory' を仮説の意味で使うこともある。",
+      "collocations": [
+        "test a hypothesis（仮説を検証する）",
+        "null hypothesis（帰無仮説）",
+        "working hypothesis（作業仮説）"
+      ],
+      "trivia": "「ヒポクラテス」もギリシャ語の 'hypo-'（下に）＋ 'kratos'（力）が語源。接頭辞 'hypo-' は医学用語にも頻出で、'hypodermic'（皮下の）などにも使われる。"
+    },
+    "frequency": 3200,
+    "cefr": "C1"
+  },
+  {
+    "id": 570,
+    "word": "physician",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "内科医、医師",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fɪˈzɪʃən/",
+    "syllables": "phy-si-cian",
+    "audioHint": "フィジシャン",
+    "examples": [
+      {
+        "en": "You should consult your physician before starting a new diet.",
+        "ja": "新しいダイエットを始める前に医師に相談すべきだ。",
+        "blank": "You should consult your ___ before starting a new diet.",
+        "blankAnswer": "physician"
+      }
+    ],
+    "distractors": [
+      "薬剤師",
+      "外科医",
+      "看護師"
+    ],
+    "confusableSpellings": [
+      "physican",
+      "physicain",
+      "phisician"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'fisicien'（自然哲学者・医者）から。語根はギリシャ語 'physis'（自然）＋接尾辞 '-ian'。古代ギリシャでは医学と自然哲学が一体だった。",
+      "tips": "'physician' は主に内科医を指す格式ある語。日常会話では 'doctor' が一般的。アメリカでは 'physician' が 'surgeon'（外科医）と区別するために使われることが多い。",
+      "confusables": "'physician'（内科医・医師、格式語）vs 'doctor'（医師全般、日常語）vs 'surgeon'（外科医）vs 'physicist'（物理学者）。'physician' と 'physicist' はスペルが似て非なるので要注意。",
+      "collocations": [
+        "primary care physician（かかりつけ医）",
+        "consult a physician（医師に相談する）",
+        "physician assistant（医師助手）"
+      ],
+      "trivia": "'physician, heal thyself'（医者よ、自分自身を癒せ）という聖書由来の格言がある。「専門家ほど自分のことは後回しにしがち」という皮肉を込めた表現として今も使われる。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 571,
+    "word": "client",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "顧客、依頼人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "クライアント（ITでの接続端末）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈklaɪənt/",
+    "syllables": "cli-ent",
+    "audioHint": "クライアント",
+    "examples": [
+      {
+        "en": "The lawyer met with her client early in the morning.",
+        "ja": "その弁護士は朝早くに依頼人と面会した。",
+        "blank": "The lawyer met with her ___ early in the morning.",
+        "blankAnswer": "client"
+      }
+    ],
+    "distractors": [
+      "株主",
+      "供給業者",
+      "競合他社"
+    ],
+    "confusableSpellings": [
+      "cleint",
+      "cliant",
+      "clienet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'cliens'（庇護を受ける者）から。語根 'cli-' は「傾く・寄りかかる」の意味で、保護者に寄りかかる依存関係を表す。",
+      "tips": "日本語の「クライアント」と同じ意味で使えるが、ビジネス以外にも弁護士・医師などの「依頼人・患者」にも使う。customerとの違いは、clientは継続的・専門的なサービス関係を指す点。",
+      "confusables": "customer（一般的な買い物客）との違いに注意。clientは専門的サービス（法律・広告・コンサル）を受ける人、customerはモノを購入する人というニュアンス。",
+      "collocations": [
+        "potential client（潜在顧客）",
+        "client base（顧客基盤）",
+        "meet with a client（顧客と会う）"
+      ],
+      "trivia": "IT用語の「クライアント」（サーバーに接続する端末）も同じ単語。「サービスを受ける側」という本来の意味がそのままコンピュータ用語に転用された！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 572,
+    "word": "colony",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "植民地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "集落、群体（生物）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒləni/",
+    "syllables": "col-o-ny",
+    "audioHint": "コロニー",
+    "examples": [
+      {
+        "en": "Australia was once a British colony.",
+        "ja": "オーストラリアはかつてイギリスの植民地だった。",
+        "blank": "Australia was once a British ___.",
+        "blankAnswer": "colony"
+      }
+    ],
+    "distractors": [
+      "自治区",
+      "同盟国",
+      "首都"
+    ],
+    "confusableSpellings": [
+      "colonly",
+      "coloney",
+      "collony"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'colonia'（農場・定住地）から。語根 'colonus'（農民・入植者）→ 'colere'（耕す）に由来。「耕すために移り住んだ土地」が原義。",
+      "tips": "複数形は colonies（y→ies）。また「アリのコロニー」など生物学でも頻出。政治的文脈では歴史的な植民地支配を指すため、使う文脈に注意が必要。",
+      "confusables": "territory（領土・支配地域）との違いに注意。colonyは歴史的な植民地支配を強く含意するが、territoryは現在の行政的な管轄地域を指すことが多い。",
+      "collocations": [
+        "British colony（英国植民地）",
+        "establish a colony（植民地を設立する）",
+        "ant colony（アリの群体）"
+      ],
+      "trivia": "アメリカの「13植民地（13 colonies）」が独立して今のアメリカになった。コロニーという言葉がアメリカ建国と直結しているのは面白い！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 573,
+    "word": "statistics",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "統計、統計学",
+        "pos": "noun"
+      },
+      {
+        "meaning": "統計データ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/stəˈtɪstɪks/",
+    "syllables": "sta-tis-tics",
+    "audioHint": "スタティスティクス",
+    "examples": [
+      {
+        "en": "Statistics show that exercise improves mental health.",
+        "ja": "統計によると、運動は精神的健康を改善する。",
+        "blank": "___ show that exercise improves mental health.",
+        "blankAnswer": "Statistics"
+      }
+    ],
+    "distractors": [
+      "仮説",
+      "理論",
+      "実験"
+    ],
+    "confusableSpellings": [
+      "statistcs",
+      "statitics",
+      "statisticks"
+    ],
+    "passive": {
+      "etymology": "ドイツ語 'Statistik' → ラテン語 'statisticum'（国家に関する）から。'status'（状態・国家）が語根。もともと「国家の数値データ」を指していた。",
+      "tips": "学問として「統計学」を指す場合は不可算名詞扱いで単数動詞（Statistics is hard）、データの集合を指す場合は複数扱い（Statistics show...）になる点が日本人には難しい。",
+      "confusables": "data（データ）との違い：statisticsはデータを分析・集計したもの。dataは生の数値や事実の集まり。また statistic（単数形）は「一つの統計値」を指す。",
+      "collocations": [
+        "crime statistics（犯罪統計）",
+        "according to statistics（統計によると）",
+        "vital statistics（人口動態統計）"
+      ],
+      "trivia": "「嘘には3種類ある：嘘、真っ赤な嘘、そして統計だ（Lies, damned lies, and statistics）」という有名な格言がある。数字は使い方次第で何でも言えちゃうという皮肉！"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 574,
+    "word": "grain",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "穀物、穀粒",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（砂・塩などの）粒",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡreɪn/",
+    "syllables": "grain",
+    "audioHint": "グレイン",
+    "examples": [
+      {
+        "en": "Farmers harvest grain every autumn.",
+        "ja": "農家は毎年秋に穀物を収穫する。",
+        "blank": "Farmers harvest ___ every autumn.",
+        "blankAnswer": "grain"
+      }
+    ],
+    "distractors": [
+      "果実",
+      "土壌",
+      "降水量"
+    ],
+    "confusableSpellings": [
+      "grian",
+      "grein",
+      "graen"
+    ],
+    "passive": {
+      "etymology": "古英語 'grǣn' → ラテン語 'granum'（種・粒）から。同じ語根から 'granule'（顆粒）、'pomegranate'（ザクロ＝多くの種を持つもの）も派生。",
+      "tips": "「a grain of salt（塩一粒）」は「話半分に聞く」という慣用句。また wood grain（木目）、grain of sand（砂粒）など「細かい粒状のもの」全般に使える。",
+      "confusables": "cereal（シリアル・穀物食品）との違い：grainは収穫前の「穀物・穀粒」全般、cerealは食用として加工された穀物製品を指すことが多い。",
+      "collocations": [
+        "whole grain（全粒穀物）",
+        "grain of sand（砂粒）",
+        "grain of salt（塩ひとつまみ）"
+      ],
+      "trivia": "「take it with a grain of salt（塩一粒添えて受け取る）」という表現は古代ローマ時代の解毒剤の調合法に由来するという説がある。食塩が毒を和らげると信じられていた！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 575,
+    "word": "ingredient",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "材料、成分",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（成功などの）要素",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈɡriːdiənt/",
+    "syllables": "in-gre-di-ent",
+    "audioHint": "イングリーディエント",
+    "examples": [
+      {
+        "en": "The recipe lists all the ingredients clearly.",
+        "ja": "そのレシピには材料が全て明確に記載されている。",
+        "blank": "The recipe lists all the ___ clearly.",
+        "blankAnswer": "ingredients"
+      }
+    ],
+    "distractors": [
+      "道具",
+      "調理法",
+      "分量"
+    ],
+    "confusableSpellings": [
+      "ingrediant",
+      "ingredent",
+      "ingreedient"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ingredi'（中に入る）から。'in-'（中に）＋ 'gradi'（歩く・進む）が語源。「料理の中に入っていくもの」というイメージ。",
+      "tips": "料理の「材料」だけでなく「成功の秘訣（an ingredient for success）」のように比喩的にも使える。日本語の「インクリメント」と混同しないよう注意。",
+      "confusables": "component（構成要素）との違い：ingredientは主に料理・混合物の「材料」に使い、componentは機械・システムなどの「部品・構成要素」に使う。",
+      "collocations": [
+        "key ingredient（重要な要素）",
+        "fresh ingredients（新鮮な材料）",
+        "active ingredient（有効成分）"
+      ],
+      "trivia": "食品パッケージの成分表示欄は英語で 'ingredient list' という。アメリカでは成分を多い順に記載する法律があるので、砂糖が最初に来てるのを見てびっくりすることも！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 576,
+    "word": "treasure",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "宝、財宝",
+        "pos": "noun"
+      },
+      {
+        "meaning": "大切にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtreʒər/",
+    "syllables": "treas-ure",
+    "audioHint": "トレジャー",
+    "examples": [
+      {
+        "en": "She treasures the necklace her grandmother gave her.",
+        "ja": "彼女は祖母からもらったネックレスを大切にしている。",
+        "blank": "She ___ the necklace her grandmother gave her.",
+        "blankAnswer": "treasures"
+      }
+    ],
+    "distractors": [
+      "骨董品",
+      "遺産",
+      "記念品"
+    ],
+    "confusableSpellings": [
+      "tresure",
+      "treasuer",
+      "treassure"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'tresor' → ギリシャ語 'thesauros'（宝庫）から。同じ語根から 'thesaurus'（類語辞典）も来ており、「言葉の宝庫」が原義。",
+      "tips": "名詞（宝）だけでなく動詞「大切にする・秘蔵する」としても使える。'treasure the moment'（その瞬間を大切にする）のように感情的な意味でよく使う。",
+      "confusables": "treasure（財宝・大切にする）と pleasure（喜び）はスペルが似ているので注意。また fortune（財産・運）との違いも意識して：treasureは「蓄積された宝」のニュアンス。",
+      "collocations": [
+        "treasure hunt（宝探し）",
+        "national treasure（国宝）",
+        "treasure the memory（思い出を大切にする）"
+      ],
+      "trivia": "英語の類語辞典 'Thesaurus' はギリシャ語で「宝庫」の意味。ピーター・ロジェットが1852年に出版したのが始まりで、まさに「言葉の財宝箱」！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 577,
+    "word": "contract",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "契約（書）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "収縮する、契約する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒntrækt/ (noun), /kənˈtrækt/ (verb)",
+    "syllables": "con-tract",
+    "audioHint": "コントラクト（名詞）／コントラクト（動詞）",
+    "examples": [
+      {
+        "en": "Both parties signed the contract yesterday.",
+        "ja": "両者は昨日契約書に署名した。",
+        "blank": "Both parties signed the ___ yesterday.",
+        "blankAnswer": "contract"
+      }
+    ],
+    "distractors": [
+      "請求書",
+      "領収書",
+      "保険証書"
+    ],
+    "confusableSpellings": [
+      "contarct",
+      "conract",
+      "contrakt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contractus' から。'con-'（共に）＋ 'trahere'（引く）で「共に引き合う＝合意で結びつく」が原義。同じ語根から 'tractor'（トラクター）も派生。",
+      "tips": "名詞（コントラクト：契約）と動詞（コントラクト：収縮する）でアクセント位置が変わる。名詞は第1音節（CON-tract）、動詞は第2音節（con-TRACT）にアクセント。",
+      "confusables": "agreement（合意・契約）との違い：contractは法的拘束力のある書面を指し、agreementは口頭のものも含む広いニュアンス。ビジネスではcontractの方が正式。",
+      "collocations": [
+        "sign a contract（契約に署名する）",
+        "breach of contract（契約違反）",
+        "contract negotiations（契約交渉）"
+      ],
+      "trivia": "筋肉が「収縮する」という意味の contract も同じ単語。握手で契約を結ぶ行為と筋肉がぎゅっと縮む動作、どちらも「引き合わせる」イメージから来ている！"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 578,
+    "word": "welfare",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "福祉、幸福",
+        "pos": "noun"
+      },
+      {
+        "meaning": "生活保護（制度）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwelfeər/",
+    "syllables": "wel-fare",
+    "audioHint": "ウェルフェア",
+    "examples": [
+      {
+        "en": "The government increased spending on child welfare.",
+        "ja": "政府は児童福祉への支出を増やした。",
+        "blank": "The government increased spending on child ___.",
+        "blankAnswer": "welfare"
+      }
+    ],
+    "distractors": [
+      "治安",
+      "選挙制度",
+      "外交政策"
+    ],
+    "confusableSpellings": [
+      "wellfare",
+      "welfar",
+      "wellfair"
+    ],
+    "passive": {
+      "etymology": "中英語 'wel faren'（良く過ごす）から。'well'（良く）＋ 'fare'（進む・過ごす）の組み合わせ。'fare' は「運賃」とも同じ語でもともと「旅の様子・生活状態」の意味。",
+      "tips": "アメリカ英語では「生活保護・社会保障給付」を口語で welfare と言うことが多い。イギリスでは social security や benefits という表現が一般的。文脈に注意。",
+      "confusables": "well-being（幸福感・健康）との違い：welfareは社会制度的な「福祉」、well-beingは個人の心身の「幸福状態」を指すことが多い。",
+      "collocations": [
+        "social welfare（社会福祉）",
+        "child welfare（児童福祉）",
+        "welfare state（福祉国家）"
+      ],
+      "trivia": "「welfare state（福祉国家）」という概念は第二次世界大戦後のイギリスで生まれた。戦争で傷ついた国民を国が丸ごとケアしようというアイデアが今の社会保障制度の原型！"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 579,
+    "word": "prime",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "最高の、主要な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "全盛期",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/praɪm/",
+    "syllables": "prime",
+    "audioHint": "プライム",
+    "examples": [
+      {
+        "en": "Location is the prime factor in real estate.",
+        "ja": "不動産において立地は最も重要な要素だ。",
+        "blank": "Location is the ___ factor in real estate.",
+        "blankAnswer": "prime"
+      }
+    ],
+    "distractors": [
+      "平均的な",
+      "最低限の",
+      "暫定的な"
+    ],
+    "confusableSpellings": [
+      "priem",
+      "pryme",
+      "praim"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'primus'（最初の・最高の）から。'premier'（首相）、'primary'（初等の・主要な）、'primitive'（原始の）などすべて同じ語根を持つ。",
+      "tips": "Prime Minister（首相）のprimeは「最も重要な」の意味。また Amazon Prime や prime time（ゴールデンタイム）など現代英語でも頻出。名詞で「全盛期」の意味もある（in one's prime）。",
+      "confusables": "primary（第一の・初等の）との違い：primeは「最高品質・最重要」のニュアンスが強く、primaryは「第一順位・基礎的」という順序やカテゴリを示すニュアンスが強い。",
+      "collocations": [
+        "prime minister（首相）",
+        "prime time（ゴールデンタイム）",
+        "in one's prime（全盛期に）"
+      ],
+      "trivia": "数学の「素数（prime number）」も同じ単語。「それ以上分解できない最初の数」という意味で prime が使われている。アマゾンプライムも「最高・最速」のイメージを狙った命名！"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 580,
+    "word": "curious",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "好奇心旺盛な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "奇妙な、不思議な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkjʊəriəs/",
+    "syllables": "cu-ri-ous",
+    "audioHint": "キュアリアス",
+    "examples": [
+      {
+        "en": "The curious child asked endless questions about space.",
+        "ja": "好奇心旺盛なその子は宇宙についていくつもの質問をした。",
+        "blank": "The ___ child asked endless questions about space.",
+        "blankAnswer": "curious"
+      }
+    ],
+    "distractors": [
+      "臆病な",
+      "頑固な",
+      "無関心な"
+    ],
+    "confusableSpellings": [
+      "currious",
+      "curios",
+      "cureous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'curiosus'（注意深い・探求する）から。'cura'（気遣い・配慮）が語根で、'cure'（治療）や 'accurate'（正確な）も同じ語根を持つ。",
+      "tips": "「好奇心がある」という意味では 'be curious about ~'（〜について興味がある）という形で使う。'I'm curious about you.' は「あなたのことが気になる」というニュアンスも出る。",
+      "confusables": "curious（好奇心がある）と interested（興味がある）の違い：curiousは「なぜ？どうして？」と積極的に知りたがるニュアンスが強く、interestedは関心を持っているという広い意味。",
+      "collocations": [
+        "curious about（〜について興味がある）",
+        "curious look（好奇心に満ちた表情）",
+        "curious case（奇妙な事件）"
+      ],
+      "trivia": "『不思議の国のアリス』の原題は 'Alice's Adventures in Wonderland' だが、アリスはまさに curious の塊として描かれている。作者ルイス・キャロルはこの言葉をとても気に入っていたとされる！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1121,
+    "word": "exaggerate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "誇張する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "大げさに言う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzædʒəreɪt/",
+    "syllables": "ex-ag-ger-ate",
+    "audioHint": "イグザジャレイト",
+    "examples": [
+      {
+        "en": "He always exaggerates how difficult his job is.",
+        "ja": "彼はいつも自分の仕事がいかに大変かを誇張する。",
+        "blank": "He always ___ how difficult his job is.",
+        "blankAnswer": "exaggerates"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "説得する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "exagerate",
+      "exaggerrate",
+      "exaggarate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ex-（強意の接頭辞）＋aggerare（積み上げる）← agger（堤防・山積み）。「積み上げ過ぎる」が原義。",
+      "tips": "ggが連続するスペルに注意。「エグザジャレイト」と発音し、gは/dʒ/の音になる点を意識すると良い。また「誇張する」という意味なので over-exaggerate は厳密には意味の重複だが、会話では普通に使われる。",
+      "confusables": "overstate（公式・書き言葉的に「誇大に述べる」）と似ているが、exaggerate は日常会話でより広く使われる。embellish は「話を面白くするために飾り立てる」というニュアンスで、やや肯定的。",
+      "collocations": [
+        "exaggerate the facts",
+        "tend to exaggerate",
+        "wildly exaggerate"
+      ],
+      "trivia": "「誇張」を表す英語の慣用句 'to make a mountain out of a molehill'（モグラ塚から山を作る）はまさにexaggerateの精神そのもの。英語圏では自己卑下的な謙遜よりも誇張ジョークの方が場を和ませると思われている文化がある。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1122,
+    "word": "accuse",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "告発する、非難する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "責める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkjuːz/",
+    "syllables": "ac-cuse",
+    "audioHint": "アキューズ",
+    "examples": [
+      {
+        "en": "She accused him of stealing her wallet.",
+        "ja": "彼女は彼が財布を盗んだと責めた。",
+        "blank": "She ___ him of stealing her wallet.",
+        "blankAnswer": "accused"
+      }
+    ],
+    "distractors": [
+      "和解する",
+      "支援する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "accues",
+      "acuse",
+      "accusse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 accusare ← ad-（～に向けて）＋ causa（原因・訴訟）。「訴訟の原因を誰かに向ける」が原義。",
+      "tips": "accuse は必ず accuse A of B（AをBで告発する）の形で使う。of を忘れて accuse him stealing とするのは日本人の典型的なミス。また suspect（疑う）と違い、accuse はより断定的・対面的なニュアンスがある。",
+      "confusables": "blame（責任を負わせる）は結果責任に焦点、suspect（疑う）は証拠なしの疑念、accuse は明示的に相手に向かって「あなたがやった」と主張する点が異なる。",
+      "collocations": [
+        "accuse A of B",
+        "falsely accused",
+        "publicly accuse"
+      ],
+      "trivia": "法廷ドラマで頻出の 'The accused'（被告人）という名詞的用法もある。映画タイトルにもなった表現で、「accusedと言えば有罪確定前の人」という無罪推定の精神が英語には根付いている。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1123,
+    "word": "vanish",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "消える、姿を消す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "消滅する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈvænɪʃ/",
+    "syllables": "van-ish",
+    "audioHint": "ヴァニッシュ",
+    "examples": [
+      {
+        "en": "The magician made the rabbit vanish in seconds.",
+        "ja": "マジシャンはウサギを数秒で消した。",
+        "blank": "The magician made the rabbit ___ in seconds.",
+        "blankAnswer": "vanish"
+      }
+    ],
+    "distractors": [
+      "爆発する",
+      "磨く",
+      "拭き取る"
+    ],
+    "confusableSpellings": [
+      "vannish",
+      "vanich",
+      "vanesh"
+    ],
+    "passive": {
+      "etymology": "古フランス語 evaniss- ← ラテン語 evanescere（消え去る）← e-（外へ）＋ vanescere（消える）← vanus（空の・むなしい）。",
+      "tips": "vanish は自動詞なので目的語を取らない。「消す」と言いたいときは make ~ vanish か make ~ disappear を使う。disappear との違いは、vanish の方が「突然・跡形もなく」消えるニュアンスが強い。",
+      "confusables": "disappear（消える）は最も一般的な語、vanish は劇的・突然の消失に使い、fade（徐々に薄れる）は緩やかな消失。evaporate は液体が蒸発するイメージで比喩的にも使う。",
+      "collocations": [
+        "vanish into thin air",
+        "vanish without a trace",
+        "vanish overnight"
+      ],
+      "trivia": "'vanish into thin air'（薄い空気の中へ消える）はシェイクスピアの『テンペスト』が起源とされる。今でも「跡形もなく消える」を表す決まり文句として世界中で使われている。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1124,
+    "word": "polish",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "磨く、つやを出す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "洗練させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpɒlɪʃ/",
+    "syllables": "pol-ish",
+    "audioHint": "ポリッシュ",
+    "examples": [
+      {
+        "en": "He polished his shoes before the interview.",
+        "ja": "彼は面接の前に靴を磨いた。",
+        "blank": "He ___ his shoes before the interview.",
+        "blankAnswer": "polished"
+      }
+    ],
+    "distractors": [
+      "拭き取る",
+      "掃く",
+      "消える"
+    ],
+    "confusableSpellings": [
+      "pollish",
+      "polesh",
+      "pollesh"
+    ],
+    "passive": {
+      "etymology": "古フランス語 poliss- ← ラテン語 polire（磨く・滑らかにする）。語根 pol- は「滑らか」を意味し、sophisticated（洗練された）とも遠い親戚。",
+      "tips": "polish は物理的な「磨く」だけでなく polish up one's English（英語に磨きをかける）のように比喩的にも使える。また名詞としても shoe polish（靴墨）や nail polish（マニキュア）と使うので品詞の切り替えに注意。",
+      "confusables": "shine（光らせる）は結果の輝きに焦点、buff（やわらかい布で磨く）は仕上げ磨きのニュアンス、polish は「手間をかけて磨き上げる」プロセス全体を指す。",
+      "collocations": [
+        "polish shoes",
+        "polish up",
+        "nail polish"
+      ],
+      "trivia": "Polish（大文字）はポーランド語・ポーランド人を指す全く別の単語。小文字の polish と大文字の Polish は同じスペルに見えて意味が180度違うため、英語のスペルの面白さを体感できる単語。"
+    },
+    "frequency": 4800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1125,
+    "word": "wipe",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "拭く、ふき取る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "消去する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/waɪp/",
+    "syllables": "wipe",
+    "audioHint": "ワイプ",
+    "examples": [
+      {
+        "en": "Please wipe the table before we eat.",
+        "ja": "食事の前にテーブルを拭いてください。",
+        "blank": "Please ___ the table before we eat.",
+        "blankAnswer": "wipe"
+      }
+    ],
+    "distractors": [
+      "磨く",
+      "掃く",
+      "砕く"
+    ],
+    "confusableSpellings": [
+      "wype",
+      "whipe",
+      "wip"
+    ],
+    "passive": {
+      "etymology": "古英語 wīpian（拭く）← ゲルマン語系語根。sweep（掃く）や whip とも同じゲルマン語系の「払う動作」という遠い親戚。",
+      "tips": "wipe out（全滅させる・疲労困憊させる）は口語で非常によく使われるフレーズ。I'm wiped out.（ヘトヘトだ）は日常会話必須表現。wipe と rub の違いは、wipe は「表面をなぞるように拭く」、rub は「こすりつける」動作。",
+      "confusables": "wipe（拭い取る）は布などで汚れを除去する動作、clean（清潔にする）はより広い概念、mop（モップがけする）は床限定でより濡れた動作を指す。",
+      "collocations": [
+        "wipe out",
+        "wipe clean",
+        "wipe away tears"
+      ],
+      "trivia": "テレビのワイプ（画面の隅に小窓が出る演出）は英語の wipe（画面を拭き消して別画面に切り替える映像技術）が語源。日本語で使われているカタカナのワイプはまさにその映像編集用語が転用されたもの。"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1126,
+    "word": "sweep",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "掃く、一掃する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "さっと動く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/swiːp/",
+    "syllables": "sweep",
+    "audioHint": "スウィープ",
+    "examples": [
+      {
+        "en": "She swept the floor with a broom after dinner.",
+        "ja": "彼女は夕食後にほうきで床を掃いた。",
+        "blank": "She ___ the floor with a broom after dinner.",
+        "blankAnswer": "swept"
+      }
+    ],
+    "distractors": [
+      "拭き取る",
+      "磨く",
+      "消え去る"
+    ],
+    "confusableSpellings": [
+      "swep",
+      "sweap",
+      "sweept"
+    ],
+    "passive": {
+      "etymology": "古英語 swāpan（掃く・動かす）← ゲルマン語系。wipe と同じ「払う」系の語根を持つ。sweep の過去形は swept（不規則変化）。",
+      "tips": "sweep の過去形・過去分詞は swept（不規則変化）なので sweepd や sweeped は誤り。「sweep + 感情/流行」は比喩的に「～が席巻する」という意味でよく使われる（例：The trend swept the nation.）。",
+      "confusables": "sweep（ほうきなどで掃く・広範囲に動く）、wipe（布で拭く）、mop（モップで水拭きする）の三語は動作が似ているが道具と対象が異なる。sweep は乾式で広範囲向き。",
+      "collocations": [
+        "sweep the floor",
+        "sweep under the rug",
+        "swept away"
+      ],
+      "trivia": "sweep something under the rug（カーペットの下に掃き込む）は「問題を隠蔽する」という慣用句。日本語の「臭いものに蓋をする」と完全対応するイディオムで、政治スキャンダルの記事でよく登場する。"
+    },
+    "frequency": 2600,
+    "cefr": "A2"
+  },
+  {
+    "id": 1127,
+    "word": "mislead",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "誤解させる、欺く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "誤った方向に導く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌmɪsˈliːd/",
+    "syllables": "mis-lead",
+    "audioHint": "ミスリード",
+    "examples": [
+      {
+        "en": "The advertisement misled consumers about the product's benefits.",
+        "ja": "その広告は製品の効能について消費者を誤解させた。",
+        "blank": "The advertisement ___ consumers about the product's benefits.",
+        "blankAnswer": "misled"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "推測する",
+      "理解させる"
+    ],
+    "confusableSpellings": [
+      "misleed",
+      "mislaid",
+      "missled"
+    ],
+    "passive": {
+      "etymology": "mis-（誤った・悪い）＋ lead（導く）← 古英語 mislǣdan。mis- はドイツ語の miss- と同語源で「ずれた方向へ」という意味を加える接頭辞。",
+      "tips": "過去形・過去分詞は misled（/mɪsˈlɛd/）で、mislaid（mis＋lay の過去形、「置き忘れた」）と混同しやすいので注意。misleading（形容詞：誤解を招くような）の形でも頻出。",
+      "confusables": "deceive（意図的に騙す）は悪意が強い、mislead は意図的でなくても使える（accidentally misled）、confuse（混乱させる）は騙す意図なしに混乱させるという点で異なる。",
+      "collocations": [
+        "deliberately mislead",
+        "misleading information",
+        "mislead the public"
+      ],
+      "trivia": "日本語の「ミスリード」はそのまま英語から来ているが、日本語では「読み間違え」の意味でも使われることがある。英語では mislead は「読む」とは無関係で、あくまで「誤った方向へ導く」こと。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1128,
+    "word": "spoil",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "台無しにする、損なう",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（食べ物が）腐る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/spɔɪl/",
+    "syllables": "spoil",
+    "audioHint": "スポイル",
+    "examples": [
+      {
+        "en": "Don't spoil the ending of the movie for me!",
+        "ja": "映画の結末をネタバレしないで！",
+        "blank": "Don't ___ the ending of the movie for me!",
+        "blankAnswer": "spoil"
+      }
+    ],
+    "distractors": [
+      "修復する",
+      "組み立てる",
+      "分解する"
+    ],
+    "confusableSpellings": [
+      "spoile",
+      "spool",
+      "spoill"
+    ],
+    "passive": {
+      "etymology": "古フランス語 espoillier ← ラテン語 spoliare（略奪する・剥ぎ取る）← spolium（獲物・戦利品）。「略奪して台無しにする」が原義。",
+      "tips": "spoil の過去形は spoiled（米）と spoilt（英）の両方が正しい。映画・ゲームの「ネタバレ」を spoiler と呼ぶのはこの動詞から。be spoiled（甘やかされている）という意味でも日常会話で頻出。",
+      "confusables": "ruin（完全に破壊する）はより壊滅的、damage（損傷を与える）は部分的な損傷、spoil は「楽しみや新鮮さを奪う」ニュアンスが強く、食べ物の腐敗にも使える。",
+      "collocations": [
+        "spoil the fun",
+        "spoiled child",
+        "food spoils"
+      ],
+      "trivia": "映画・ゲームのネタバレを意味する 'spoiler' は、自動車のスポイラー（空力パーツ）と同じ spelling だが全く別物。でも「楽しみを邪魔する」という意味では両方とも「何かを妨げる存在」という共通点がある、とも言える。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1129,
+    "word": "compound",
+    "pos": "verb",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "悪化させる、複雑にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（化合物などを）合成する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpaʊnd/",
+    "syllables": "com-pound",
+    "audioHint": "コンパウンド（動詞はコンパウンドにアクセント）",
+    "examples": [
+      {
+        "en": "Stress can compound existing health problems.",
+        "ja": "ストレスは既存の健康問題を悪化させる可能性がある。",
+        "blank": "Stress can ___ existing health problems.",
+        "blankAnswer": "compound"
+      }
+    ],
+    "distractors": [
+      "分析する",
+      "診断する",
+      "予防する"
+    ],
+    "confusableSpellings": [
+      "compond",
+      "combound",
+      "compund"
+    ],
+    "passive": {
+      "etymology": "ラテン語 componere ← com-（共に）＋ ponere（置く）。「複数のものを一緒に置く」が原義。名詞・形容詞としての「複合物・化合物」とも同根。",
+      "tips": "compound は名詞（化合物、複合施設）・形容詞（複合の）・動詞（悪化させる）と品詞が3つある。動詞のアクセントは第2音節（comPOUND）、名詞・形容詞は第1音節（COMpound）にくる点に注意。",
+      "confusables": "worsen（悪化させる）はシンプルに状態が悪くなる、aggravate（悪化させる・いらだたせる）は刺激的なニュアンス、compound は「すでにある問題に重ねて」悪化させる積み重ね感がある。",
+      "collocations": [
+        "compound the problem",
+        "chemical compound",
+        "compound interest"
+      ],
+      "trivia": "compound interest（複利）はアインシュタインが「世界第8の不思議」と呼んだとされる概念。お金が利子を生み、その利子がまた利子を生む仕組みで、まさに「悪化させる」動詞の意味と複利の「増幅」が繋がっている。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1130,
+    "word": "explode",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "爆発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "急増する、激増する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈspləʊd/",
+    "syllables": "ex-plode",
+    "audioHint": "イクスプロウド",
+    "examples": [
+      {
+        "en": "The gas tank exploded and shook the entire building.",
+        "ja": "ガスタンクが爆発し、建物全体を揺らした。",
+        "blank": "The gas tank ___ and shook the entire building.",
+        "blankAnswer": "exploded"
+      }
+    ],
+    "distractors": [
+      "消え去る",
+      "拭き取る",
+      "掃く"
+    ],
+    "confusableSpellings": [
+      "exploade",
+      "explod",
+      "expload"
+    ],
+    "passive": {
+      "etymology": "ラテン語 explodere ← ex-（外へ）＋ plaudere（拍手する・叩く）。古代ローマの劇場で観客が役者を拍手で追い出す（野次る）行為が原義。「爆発」の意味は後から発展した。",
+      "tips": "explode は自動詞（爆発する）と他動詞（爆発させる）の両方で使える。「人気が爆発的に増える」「怒りが爆発する」など比喩用法も非常に多い。explosion（爆発・名詞）、explosive（爆発的な・形容詞）も一緒に覚えるとよい。",
+      "confusables": "burst（破裂する）は内部圧力で破れる感じ、blow up（爆発する・口語）は爆発または怒りの爆発、explode はより大規模・劇的な爆発で比喩的にも広く使われる。",
+      "collocations": [
+        "explode in anger",
+        "population explodes",
+        "explode a myth"
+      ],
+      "trivia": "explode a myth（神話を打ち砕く）という表現があるが、これはまさに語源の「野次って追い出す」に近い用法。「間違った考えを論破して追い出す」という意味で、爆発物とは全く関係ない知的な文脈で使われる。"
+    },
+    "frequency": 2400,
+    "cefr": "A2"
+  },
+  {
+    "id": 1131,
+    "word": "disgust",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜に嫌悪感を抱かせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "嫌悪感",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪsˈɡʌst/",
+    "syllables": "dis-gust",
+    "audioHint": "ディスガスト",
+    "examples": [
+      {
+        "en": "The smell of rotting food disgusted everyone in the room.",
+        "ja": "腐った食べ物の臭いが部屋にいる全員を嫌悪させた。",
+        "blank": "The smell of rotting food ___ everyone in the room.",
+        "blankAnswer": "disgusted"
+      }
+    ],
+    "distractors": [
+      "〜を喜ばせる",
+      "〜を驚かせる",
+      "〜を安心させる"
+    ],
+    "confusableSpellings": [
+      "discust",
+      "disgist",
+      "disguts"
+    ],
+    "passive": {
+      "etymology": "接頭辞 dis-（否定・反対）＋ラテン語 gustus（味）。「味が受け付けない」が原義で、そこから転じて「嫌悪」を意味するようになった。",
+      "tips": "動詞として使うとき「I disgust」ではなく「I am disgusted by〜」の受動態が自然。感情動詞は受動態で使うことが多い点に注意。",
+      "confusables": "「dislike（嫌う）」より強い感情。disgusted は「吐き気を催すほど嫌」というニュアンスで、disliked より感情が激しい。",
+      "collocations": [
+        "be disgusted by",
+        "express disgust",
+        "feel disgust"
+      ],
+      "trivia": "「disgust」は進化心理学的に「腐敗物を避ける」ための本能から来ているとされ、人間が持つ最も原始的な感情の一つと言われている。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1132,
+    "word": "commute",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "通勤・通学する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "通勤",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəˈmjuːt/",
+    "syllables": "com-mute",
+    "audioHint": "コミュート",
+    "examples": [
+      {
+        "en": "She commutes to work by train every day.",
+        "ja": "彼女は毎日電車で通勤している。",
+        "blank": "She ___ to work by train every day.",
+        "blankAnswer": "commutes"
+      }
+    ],
+    "distractors": [
+      "〜を運搬する",
+      "〜を走る",
+      "〜を泳ぐ"
+    ],
+    "confusableSpellings": [
+      "comunte",
+      "commut",
+      "comute"
+    ],
+    "passive": {
+      "etymology": "ラテン語 commutare（完全に変える）から。com-（共に・完全に）＋ mutare（変える）。定期券の意味でも使われるのはここから派生。",
+      "tips": "「commute to〜」で「〜へ通勤する」。日本語の「コミュート」はカタカナ語として定着しつつあるが、英語では動詞・名詞両方使える点を覚えよう。",
+      "confusables": "「travel（移動する）」は広い移動全般、「commute」は自宅と職場・学校の間を定期的に往復する行為に限定される。",
+      "collocations": [
+        "commute to work",
+        "long commute",
+        "daily commute"
+      ],
+      "trivia": "英語の「commuter pass（定期券）」はここから来ている。もともとは鉄道会社が「往復分の料金をまとめて変換（commute）する」切符だったから！"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1133,
+    "word": "decorate",
+    "pos": "verb",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "〜を飾る・装飾する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に勲章を授与する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdekəreɪt/",
+    "syllables": "dec-o-rate",
+    "audioHint": "デコレイト",
+    "examples": [
+      {
+        "en": "They decorated the Christmas tree with colorful lights.",
+        "ja": "彼らはカラフルなライトでクリスマスツリーを飾った。",
+        "blank": "They ___ the Christmas tree with colorful lights.",
+        "blankAnswer": "decorated"
+      }
+    ],
+    "distractors": [
+      "〜を演奏する",
+      "〜を描く",
+      "〜を展示する"
+    ],
+    "confusableSpellings": [
+      "decorrate",
+      "decorate",
+      "dekorete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 decorare（美しくする）から。decor-（美・品位）＋-ate（動詞を作る接尾辞）。英語の decor（室内装飾）と同語根。",
+      "tips": "「decorate A with B」（AをBで飾る）の形が最頻出。前置詞 with を忘れずに。「decoration（装飾）」という名詞形も重要。",
+      "confusables": "「adorn（飾る）」は文語的・詩的な表現で、decorateより格式が高い。日常会話では decorate を使う方が自然。",
+      "collocations": [
+        "decorate a room",
+        "decorate with flowers",
+        "decorated soldier"
+      ],
+      "trivia": "軍で「decorated（勲章を受けた）」という意味でも使われる。映画の字幕で「decorated war hero（勲章を受けた英雄）」という表現をよく見かける。"
+    },
+    "frequency": 3800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1134,
+    "word": "postpone",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を延期する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を先送りにする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/poʊstˈpoʊn/",
+    "syllables": "post-pone",
+    "audioHint": "ポウストポウン",
+    "examples": [
+      {
+        "en": "The meeting was postponed due to bad weather.",
+        "ja": "悪天候のため会議は延期された。",
+        "blank": "The meeting was ___ due to bad weather.",
+        "blankAnswer": "postponed"
+      }
+    ],
+    "distractors": [
+      "〜を中止する",
+      "〜を前倒しにする",
+      "〜を繰り返す"
+    ],
+    "confusableSpellings": [
+      "postphone",
+      "postpond",
+      "posptone"
+    ],
+    "passive": {
+      "etymology": "ラテン語 postponere から。post-（後に）＋ ponere（置く）。「後に置く」が原義で、そこから「延期する」の意味に。",
+      "tips": "「postpone + 動名詞（-ing）」が正しい形。「postpone to do」は誤り。同様に delay も -ing を取る。cancel との使い分けも重要（postponeは後でやる、cancelは完全にやめる）。",
+      "confusables": "「delay（遅らせる）」は出発・到着など時間軸のずれ全般、「postpone」はイベントや予定を別の日時に変更することに特化している。",
+      "collocations": [
+        "postpone a meeting",
+        "postpone indefinitely",
+        "postpone until"
+      ],
+      "trivia": "「post-」は「ポストモダン」「ポスト冷戦」など日本語でも頻出の接頭辞。この一つを覚えるだけで多くの単語の意味が推測できるようになる！"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1135,
+    "word": "cease",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を止める・終わる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "停止する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/siːs/",
+    "syllables": "cease",
+    "audioHint": "スィース",
+    "examples": [
+      {
+        "en": "The factory ceased production after the accident.",
+        "ja": "事故の後、工場は生産を停止した。",
+        "blank": "The factory ___ production after the accident.",
+        "blankAnswer": "ceased"
+      }
+    ],
+    "distractors": [
+      "〜を開始する",
+      "〜を増やす",
+      "〜を変更する"
+    ],
+    "confusableSpellings": [
+      "seize",
+      "ceace",
+      "sease"
+    ],
+    "passive": {
+      "etymology": "古フランス語 cesser、ラテン語 cessare（止まる・やめる）から。ces-（譲る・引く）が語根で、「引いてやめる」が原義。",
+      "tips": "「cease to do」と「cease doing」はどちらも使えるが、cease to do はより文語的。日常会話では stop を使う方が自然で、cease はフォーマル・書き言葉向き。",
+      "confusables": "「seize（つかむ）」と発音が似ているので混同しやすい。cease＝止まる、seize＝つかむ、とセットで覚えよう。",
+      "collocations": [
+        "cease fire",
+        "cease to exist",
+        "cease operations"
+      ],
+      "trivia": "「ceasefire（停戦）」は世界のニュースで頻出単語。cease＋fire（発砲）で「撃つのをやめる」という意味。戦争報道を読むときに必ず出てくる！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1136,
+    "word": "compromise",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "妥協する・折り合いをつける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を危険にさらす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒmprəmaɪz/",
+    "syllables": "com-pro-mise",
+    "audioHint": "コンプロマイズ",
+    "examples": [
+      {
+        "en": "They compromised and agreed to meet halfway.",
+        "ja": "彼らは妥協して折り合いをつけることに合意した。",
+        "blank": "They ___ and agreed to meet halfway.",
+        "blankAnswer": "compromised"
+      }
+    ],
+    "distractors": [
+      "〜を約束する",
+      "〜を拒否する",
+      "〜を交渉する"
+    ],
+    "confusableSpellings": [
+      "comprimise",
+      "compromize",
+      "comprommise"
+    ],
+    "passive": {
+      "etymology": "ラテン語 compromittere から。com-（共に）＋ promittere（約束する）。「互いに約束し合う」が原義で、そこから「双方が譲歩する」の意味に発展。",
+      "tips": "日本語の「コンプロマイズ」は「妥協」の意味で使われるが、英語では「安全・品質を危険にさらす」という否定的な意味もある（例：compromise security）。文脈で判断しよう。",
+      "confusables": "「negotiate（交渉する）」は合意に向けて話し合うプロセス全体、「compromise」は双方が互いに譲歩した結果の合意点を指す。",
+      "collocations": [
+        "reach a compromise",
+        "compromise on",
+        "compromise security"
+      ],
+      "trivia": "英語圏の政治ニュースで「compromise bill（妥協案）」は頻出。アメリカ建国の父たちも数々の「Great Compromise（大妥協）」を経て憲法を作ったと言われている。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1137,
+    "word": "elect",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "〜を選挙で選ぶ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を選ぶ・決める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈlekt/",
+    "syllables": "e-lect",
+    "audioHint": "イレクト",
+    "examples": [
+      {
+        "en": "The citizens elected a new mayor last month.",
+        "ja": "市民たちは先月、新しい市長を選出した。",
+        "blank": "The citizens ___ a new mayor last month.",
+        "blankAnswer": "elected"
+      }
+    ],
+    "distractors": [
+      "〜を任命する",
+      "〜を指名する",
+      "〜を推薦する"
+    ],
+    "confusableSpellings": [
+      "elcet",
+      "ellect",
+      "electe"
+    ],
+    "passive": {
+      "etymology": "ラテン語 eligere から。e-（外へ）＋ legere（選ぶ・集める）。「多くの中から選び出す」が原義。election、eligible、select もすべて同語根。",
+      "tips": "「elect A as B」（AをBとして選ぶ）または「elect A to B」（AをBの職に選ぶ）の形をセットで覚えよう。また elect は必ず「投票による選出」に限定され、一般的な「選ぶ」には choose を使う。",
+      "confusables": "「select（選ぶ）」は広く使えるが、「elect」は必ず投票・正式な選出プロセスを含む。また「appoint（任命する）」は上位者が決める点で異なる。",
+      "collocations": [
+        "elect a president",
+        "be elected to office",
+        "elect by majority"
+      ],
+      "trivia": "「elite（エリート）」も同じ語根 eligere から来ている。「選ばれし者」という意味を持つ elect と elite は兄弟語。ニュースで両方頻出！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1138,
+    "word": "extract",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を抽出する・取り出す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "抽出物・エキス",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪkˈstrækt/",
+    "syllables": "ex-tract",
+    "audioHint": "イクストラクト",
+    "examples": [
+      {
+        "en": "The dentist extracted the damaged tooth carefully.",
+        "ja": "歯科医は丁寧に損傷した歯を抜いた。",
+        "blank": "The dentist ___ the damaged tooth carefully.",
+        "blankAnswer": "extracted"
+      }
+    ],
+    "distractors": [
+      "〜を挿入する",
+      "〜を混ぜる",
+      "〜を圧縮する"
+    ],
+    "confusableSpellings": [
+      "extarct",
+      "exstract",
+      "extrakt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 extrahere から。ex-（外へ）＋ trahere（引く）。「外に引き出す」が原義。tractor（トラクター）や attract（引き付ける）も同語根 trahere を持つ。",
+      "tips": "名詞の extract は「バニラエキス」など料理用語でも頻出。アクセントに注意：動詞は ex-TRACT（後ろ強調）、名詞は EX-tract（前強調）と変わる。",
+      "confusables": "「remove（取り除く）」は広く使えるが、「extract」は力を使って内部から引き出すイメージ。歯を抜く・情報を引き出す・原材料を抽出するなど専門的な文脈で使われる。",
+      "collocations": [
+        "extract information",
+        "extract oil",
+        "vanilla extract"
+      ],
+      "trivia": "「extract」は化学・料理・歯科・情報処理と幅広い分野で使われるオールラウンダー単語。科学論文でも「data extraction（データ抽出）」として毎日使われている！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1139,
+    "word": "inherit",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を相続する・受け継ぐ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を遺伝として受け継ぐ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈherɪt/",
+    "syllables": "in-her-it",
+    "audioHint": "インヘリット",
+    "examples": [
+      {
+        "en": "She inherited her grandmother's house after she passed away.",
+        "ja": "祖母が亡くなった後、彼女は祖母の家を相続した。",
+        "blank": "She ___ her grandmother's house after she passed away.",
+        "blankAnswer": "inherited"
+      }
+    ],
+    "distractors": [
+      "〜を贈与する",
+      "〜を貸し与える",
+      "〜を売却する"
+    ],
+    "confusableSpellings": [
+      "inheret",
+      "inherrit",
+      "enherit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inhereditare から。in-（中に）＋ heres（相続人）。heres は heir（相続人）と同語根。「相続人の立場に入る」が原義。",
+      "tips": "「inherit A from B」（BからAを受け継ぐ）の形が基本。財産だけでなく「性格・才能を遺伝で受け継ぐ」場合にも使えるのがポイント（例：She inherited her father's talent for music）。",
+      "confusables": "「succeed（後を継ぐ）」は地位・役職の継承、「inherit」は財産・性質・遺伝子など幅広い「受け継ぎ」に使える。succeed to の後は役職名、inherit の後は物や性質が来る。",
+      "collocations": [
+        "inherit a fortune",
+        "inherit from parents",
+        "inherit a trait"
+      ],
+      "trivia": "プログラミング用語の「継承（inheritance）」もこの単語から来ている。コードでも家族でも「親から子へ受け継ぐ」イメージは同じ！IT業界でも毎日使われる単語。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1140,
+    "word": "rear",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を育てる・養育する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "後部・背面",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪər/",
+    "syllables": "rear",
+    "audioHint": "リア",
+    "examples": [
+      {
+        "en": "They reared three children in a small house.",
+        "ja": "彼らは小さな家で3人の子どもを育てた。",
+        "blank": "They ___ three children in a small house.",
+        "blankAnswer": "reared"
+      }
+    ],
+    "distractors": [
+      "〜を教育する",
+      "〜を保護する",
+      "〜を支援する"
+    ],
+    "confusableSpellings": [
+      "reer",
+      "rair",
+      "reear"
+    ],
+    "passive": {
+      "etymology": "古英語 rǣran（立てる・育てる）から。原義は「立ち上がらせる」で、動物や子どもを「一人前に立てる」イメージ。名詞の「後部」は別語源（古フランス語 rere）。",
+      "tips": "「raise（育てる）」と同じ意味で使えるが、rear はやや格式張った表現。アメリカ英語では raise children が一般的で、rear はイギリス英語や書き言葉でよく見る。",
+      "confusables": "「raise（育てる）」との使い分けがポイント。raise は日常的、rear はやや書き言葉的。また rear の名詞「後部」の意味と混同しないよう文脈で判断しよう。",
+      "collocations": [
+        "rear children",
+        "rear animals",
+        "bring up / rear"
+      ],
+      "trivia": "車の「リアガラス（rear window）」や「リアカメラ」のリアもこの単語。「後ろ」と「育てる」という正反対に見える意味が同じ単語に共存している面白い語！"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  }
+]

@@ -1,0 +1,989 @@
+[
+  {
+    "id": 1061,
+    "word": "nationality",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "国籍",
+        "pos": "noun"
+      },
+      {
+        "meaning": "国民性・民族",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌnæʃəˈnælɪti/",
+    "syllables": "na-tion-al-i-ty",
+    "audioHint": "ナショナリティ",
+    "examples": [
+      {
+        "en": "She applied for dual nationality after living abroad for ten years.",
+        "ja": "彼女は10年間海外に住んだ後、二重国籍を申請した。",
+        "blank": "She applied for dual ___ after living abroad for ten years.",
+        "blankAnswer": "nationality"
+      }
+    ],
+    "distractors": [
+      "市民権",
+      "投票権",
+      "居住許可"
+    ],
+    "confusableSpellings": [
+      "nationallity",
+      "nacionality",
+      "nationalety"
+    ],
+    "passive": {
+      "etymology": "「nation（国家）」＋「-al（形容詞化）」＋「-ity（名詞化）」。ラテン語 'natio'（生まれ・民族）が語源。",
+      "tips": "「nationality」は法的な国籍を指し、「citizenship（市民権）」とは異なる概念。「What is your nationality?」は自然な表現だが、「What nationality are you?」も同様に使われる。",
+      "confusables": "「nationality」（国籍・法的帰属）vs「citizenship」（市民権・権利・義務の観点）。移民が永住権を持つ場合、nationalityは出身国のままcitizenship（市民権）は取得済みという状況もある。",
+      "collocations": [
+        "dual nationality（二重国籍）",
+        "nationality certificate（国籍証明書）",
+        "change one's nationality（国籍を変える）"
+      ],
+      "trivia": "世界で最も多くの国の市民権を得られる最強パスポートランキングが毎年話題になるが、「nationality」と「passport strength」は別物。国籍はあくまで法的帰属であって、パスポートのビザなし渡航数とは直接リンクしない！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1062,
+    "word": "poll",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "世論調査・投票",
+        "pos": "noun"
+      },
+      {
+        "meaning": "投票する・調査する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/poʊl/",
+    "syllables": "poll",
+    "audioHint": "ポウル",
+    "examples": [
+      {
+        "en": "The latest poll shows the two candidates are almost tied.",
+        "ja": "最新の世論調査では、2人の候補者はほぼ拮抗している。",
+        "blank": "The latest ___ shows the two candidates are almost tied.",
+        "blankAnswer": "poll"
+      }
+    ],
+    "distractors": [
+      "国籍",
+      "法案",
+      "議会"
+    ],
+    "confusableSpellings": [
+      "pall",
+      "pole",
+      "pols"
+    ],
+    "passive": {
+      "etymology": "中英語・低地ドイツ語の 'pol'（頭・頭頂部）が語源。かつて投票を「頭数を数える」ことで行ったことから「投票・選挙」の意味に発展。",
+      "tips": "「poll」は名詞（世論調査・投票）でも動詞（調査する・票を得る）でも使われる。「go to the polls」で「投票所に行く」という慣用表現も重要。",
+      "confusables": "「poll」（世論調査・選挙投票）vs「vote」（個人の一票・投票行為）。pollはデータ収集や集計全体を指し、voteは個々の行為を指す。",
+      "collocations": [
+        "conduct a poll（世論調査を実施する）",
+        "opinion poll（世論調査）",
+        "go to the polls（投票に行く）"
+      ],
+      "trivia": "「poll」はもともと「頭」を意味する言葉！昔の選挙は文字通り頭を数えて（head count）行われていたので、この単語が「投票」になった。だから「tadpole（オタマジャクシ）」の「pole」も同じ語源で「丸い頭」の意味なんです。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1063,
+    "word": "clinic",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "診療所・クリニック",
+        "pos": "noun"
+      },
+      {
+        "meaning": "専門外来・講習会",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈklɪnɪk/",
+    "syllables": "clin-ic",
+    "audioHint": "クリニック",
+    "examples": [
+      {
+        "en": "I made an appointment at the dental clinic for next Monday.",
+        "ja": "来週月曜日に歯科クリニックの予約を入れた。",
+        "blank": "I made an appointment at the dental ___ for next Monday.",
+        "blankAnswer": "clinic"
+      }
+    ],
+    "distractors": [
+      "症状",
+      "処方箋",
+      "手術"
+    ],
+    "confusableSpellings": [
+      "clenic",
+      "clinick",
+      "clinnic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'klinikos'（床に伏した人に関する）← 'kline'（寝台・ベッド）。患者がベッドに横たわる場所というイメージが語源。",
+      "tips": "日本語の「クリニック」は個人病院のイメージが強いが、英語の「clinic」は総合病院内の「専門外来」も指す。また「a writing clinic」「a basketball clinic」のように「技術向上のための講習会」という意味でも使われる。",
+      "confusables": "「clinic」（比較的小規模な診療施設・専門外来）vs「hospital」（入院設備のある総合病院）。日本人はどちらも「病院」と訳しがちだが、英語では規模と機能で使い分ける。",
+      "collocations": [
+        "dental clinic（歯科クリニック）",
+        "outpatient clinic（外来診療所）",
+        "run a clinic（診療所を運営する）"
+      ],
+      "trivia": "英語の「clinic」はスポーツの世界でも大活躍！NBAのスター選手が子どもたちにバスケを教えるイベントも「basketball clinic」と呼ばれる。医療と全く関係なさそうなのに同じ単語を使うのは、「専門家が指導する場」という意味が共通しているから。"
+    },
+    "frequency": 2800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1064,
+    "word": "dementia",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "認知症・痴呆",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈmenʃə/",
+    "syllables": "de-men-tia",
+    "audioHint": "ディメンシャ",
+    "examples": [
+      {
+        "en": "Early diagnosis of dementia can significantly improve quality of life.",
+        "ja": "認知症の早期診断は生活の質を大幅に改善できる。",
+        "blank": "Early diagnosis of ___ can significantly improve quality of life.",
+        "blankAnswer": "dementia"
+      }
+    ],
+    "distractors": [
+      "疲労",
+      "骨折",
+      "アレルギー"
+    ],
+    "confusableSpellings": [
+      "demensia",
+      "dimenthia",
+      "dimentia"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'de-'（離れて・失う）＋ 'mens'（心・精神）＋ '-ia'（病態を示す名詞語尾）。「精神が失われた状態」がそのまま意味になっている。",
+      "tips": "「dementia」は特定の病名ではなく、記憶・思考・行動の障害を引き起こす症状群の総称。「Alzheimer's disease（アルツハイマー病）」はdementiaの最も一般的な原因の一つ。日本語の「痴呆」は差別的とされ「認知症」に改称されたが、英語でも「dementia」は医学的中立語として使われる。",
+      "confusables": "「dementia」（認知症：症状群の総称）vs「Alzheimer's」（アルツハイマー病：最多原因の特定疾患）。All Alzheimer's is dementia, but not all dementia is Alzheimer's.",
+      "collocations": [
+        "develop dementia（認知症を発症する）",
+        "dementia care（認知症ケア）",
+        "signs of dementia（認知症の兆候）"
+      ],
+      "trivia": "「dementia」の語源は「精神から離れる」。実はローマ時代からこの概念はあって、哲学者キケロも老年期の精神衰退について書いている。2,000年以上前から人類が向き合ってきた問題なんです。"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1065,
+    "word": "fatigue",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "疲労・倦怠感",
+        "pos": "noun"
+      },
+      {
+        "meaning": "疲れさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fəˈtiːɡ/",
+    "syllables": "fa-tigue",
+    "audioHint": "ファティーグ",
+    "examples": [
+      {
+        "en": "Chronic fatigue can be a symptom of many underlying health conditions.",
+        "ja": "慢性疲労は多くの根本的な健康状態の症状である可能性がある。",
+        "blank": "Chronic ___ can be a symptom of many underlying health conditions.",
+        "blankAnswer": "fatigue"
+      }
+    ],
+    "distractors": [
+      "認知症",
+      "骨折",
+      "発熱"
+    ],
+    "confusableSpellings": [
+      "fatiuge",
+      "fatige",
+      "fategue"
+    ],
+    "passive": {
+      "etymology": "フランス語 'fatigue' ←ラテン語 'fatigare'（疲れ果てさせる）。フランス語経由で英語に入った比較的新しい借用語。",
+      "tips": "発音に注意！語尾の「-gue」は「グ」ではなく「グ（gの音のみ）」。日本人は「ファティーグ」と発音しがちだが、アクセントは第2音節。また軍事用語として「fatigues（戦闘服）」という複数形も頻出。",
+      "confusables": "「fatigue」（医学的・慢性的な疲労感）vs「tiredness」（日常的な眠さや疲れ）。fatiqueの方がより深刻で慢性的なニュアンスがある。",
+      "collocations": [
+        "chronic fatigue（慢性疲労）",
+        "combat fatigue（戦闘疲労）",
+        "fatigue syndrome（疲労症候群）"
+      ],
+      "trivia": "「compassion fatigue（共感疲労）」という言葉が近年注目されている。SNSで毎日悲惨なニュースを見続けると感情が麻痺してしまう現象のこと。フォローしすぎて「もう無理…」ってなるアレに、ちゃんと医学的な名前があった！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1066,
+    "word": "dilemma",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "ジレンマ・板挟み",
+        "pos": "noun"
+      },
+      {
+        "meaning": "難題・困難な選択",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈlemə/",
+    "syllables": "di-lem-ma",
+    "audioHint": "ディレマ",
+    "examples": [
+      {
+        "en": "She faced a dilemma: accept the promotion or stay close to her family.",
+        "ja": "彼女は昇進を受け入れるか家族の近くにいるかというジレンマに直面した。",
+        "blank": "She faced a ___: accept the promotion or stay close to her family.",
+        "blankAnswer": "dilemma"
+      }
+    ],
+    "distractors": [
+      "偏見",
+      "矛盾",
+      "幻想"
+    ],
+    "confusableSpellings": [
+      "dilemna",
+      "dilema",
+      "dillema"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'di-'（2つの）＋ 'lemma'（前提・命題）。元々は論理学用語で「2つの選択肢どちらを選んでも不都合が生じる論法」を指していた。",
+      "tips": "非常に多くの英語ネイティブが「dilemna」とスペルミスをする（nを入れてしまう）。日本人にとっても「mm」の重子音を忘れがち。また本来は「2択」の状況を指すが、現代では「難しい選択・状況」全般に使われる。",
+      "confusables": "「dilemma」（2つの選択肢で板挟み）vs「paradox」（一見矛盾しているが真実を含む命題）。dilemmaは実際の選択困難、paradoxは論理・概念上の矛盾。",
+      "collocations": [
+        "face a dilemma（ジレンマに直面する）",
+        "moral dilemma（道徳的ジレンマ）",
+        "resolve a dilemma（ジレンマを解決する）"
+      ],
+      "trivia": "「ジレンマ」は日本語にもなっているが、実は多くの人が「dilemna」とnを入れて覚えている！英語ネイティブでもこのスペルミスは超有名で、「Why do so many people spell it dilemna?」というスレッドがRedditで何百万回も議論されている。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1067,
+    "word": "queue",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "列・行列",
+        "pos": "noun"
+      },
+      {
+        "meaning": "列に並ぶ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kjuː/",
+    "syllables": "queue",
+    "audioHint": "キュー",
+    "examples": [
+      {
+        "en": "There was a long queue outside the popular bakery on Sunday morning.",
+        "ja": "日曜の朝、人気のパン屋の外に長い行列があった。",
+        "blank": "There was a long ___ outside the popular bakery on Sunday morning.",
+        "blankAnswer": "queue"
+      }
+    ],
+    "distractors": [
+      "割引",
+      "領収書",
+      "棚"
+    ],
+    "confusableSpellings": [
+      "que",
+      "cue",
+      "queu"
+    ],
+    "passive": {
+      "etymology": "フランス語 'queue'（尻尾）←ラテン語 'cauda'（尻尾）。長く伸びた尻尾の形が「人の列」に見えることから転じた。",
+      "tips": "「queue」はイギリス英語で一般的。アメリカ英語では「line」を使うことが多い（「stand in line」）。発音は「キュー」で、後ろの4文字（ueue）は全て黙字！英語で最も黙字が多い単語の一つ。",
+      "confusables": "「queue」（列・行列：イギリス英語）vs「line」（列：アメリカ英語）。「cue」（きっかけ・キュー棒）とは発音が全く同じで意味が異なるので文脈で判断する。",
+      "collocations": [
+        "join the queue（列に加わる）",
+        "queue up（列に並ぶ）",
+        "jump the queue（割り込む）"
+      ],
+      "trivia": "「queue」は5文字あるのに発音は「Q」の一文字と全く同じ。つまり後ろの「ueue」は完全に無言！英語の黙字（silent letters）の中でも最強クラス。イギリス人はこの単語に誇りを持っており、「列を守る」文化もイギリスのアイデンティティのひとつとされている。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1068,
+    "word": "curve",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "曲線・カーブ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "曲がる・湾曲する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kɜːrv/",
+    "syllables": "curve",
+    "audioHint": "カーヴ",
+    "examples": [
+      {
+        "en": "The road curves sharply to the left after the bridge.",
+        "ja": "橋を過ぎると道路は左に急カーブしている。",
+        "blank": "The road ___ sharply to the left after the bridge.",
+        "blankAnswer": "curves"
+      }
+    ],
+    "distractors": [
+      "距離",
+      "面積",
+      "深さ"
+    ],
+    "confusableSpellings": [
+      "curv",
+      "kurve",
+      "cuve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'curvus'（曲がった）← 印欧祖語語根 '*sker-'（曲げる）。「circle（円）」「circus（円形競技場）」とも同じ語根を持つ。",
+      "tips": "「curve」は名詞・動詞両方で使える。「throw someone a curve（ball）」で「予期しない問題を投げかける」という慣用表現も重要。また「learning curve（学習曲線）」はビジネス英語で頻出。",
+      "confusables": "「curve」（なだらかな曲線・湾曲）vs「bend」（角度のある曲がり）vs「turn」（方向転換）。道路の緩やかなカーブはcurve、急な曲がりはbendやsharp turnが自然。",
+      "collocations": [
+        "learning curve（学習曲線）",
+        "sharp curve（急カーブ）",
+        "curve ball（変化球）"
+      ],
+      "trivia": "「ahead of the curve」は「時代の先を行く」という意味のイディオム。逆に「behind the curve」は「時代遅れ」。コロナ禍で「flatten the curve（感染曲線を平坦にする）」という表現が世界中で一気に広まったのは記憶に新しいですね。"
+    },
+    "frequency": 2500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1069,
+    "word": "narrative",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "物語・叙述",
+        "pos": "noun"
+      },
+      {
+        "meaning": "語りの・叙述的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnærətɪv/",
+    "syllables": "nar-ra-tive",
+    "audioHint": "ナラティヴ",
+    "examples": [
+      {
+        "en": "The film uses a non-linear narrative to keep viewers engaged.",
+        "ja": "その映画は観客を引きつけ続けるために非線形の物語構造を使っている。",
+        "blank": "The film uses a non-linear ___ to keep viewers engaged.",
+        "blankAnswer": "narrative"
+      }
+    ],
+    "distractors": [
+      "彫刻",
+      "旋律",
+      "演技"
+    ],
+    "confusableSpellings": [
+      "narrativ",
+      "narative",
+      "narriative"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'narrare'（語る・話す）＋ '-ive'（性質を示す形容詞・名詞語尾）。'narrare' はさらに 'gnarus'（知っている）に由来し、「知っていることを語る」が本来の意味。",
+      "tips": "「narrative」は文学・映画批評だけでなく、政治・ビジネスでも「（特定の立場からの）物語・説明の枠組み」として頻繁に使われる。「change the narrative（物語を変える＝見方を変える）」はメディア英語の頻出表現。",
+      "confusables": "「narrative」（物語全体の構造・語り方）vs「story」（出来事の内容・ストーリー）vs「plot」（筋書き・プロット）。narrativeはより広い概念で「誰が・どのように語るか」も含む。",
+      "collocations": [
+        "personal narrative（個人の物語）",
+        "narrative structure（物語構造）",
+        "dominant narrative（支配的な語り）"
+      ],
+      "trivia": "最近の政治やSNSで「ナラティブ」という言葉が乱用されているのは世界共通！「That's just a narrative」と言えば「それは作られた話だ」という批判になる。物語を語ることは人間の本能で、研究によれば人間の会話の約65%は「物語形式」だそう。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1070,
+    "word": "fingerprint",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "指紋",
+        "pos": "noun"
+      },
+      {
+        "meaning": "指紋を採取する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfɪŋɡərprɪnt/",
+    "syllables": "fin-ger-print",
+    "audioHint": "フィンガープリント",
+    "examples": [
+      {
+        "en": "The detective found a clear fingerprint on the glass near the door.",
+        "ja": "刑事はドアの近くのグラスに鮮明な指紋を発見した。",
+        "blank": "The detective found a clear ___ on the glass near the door.",
+        "blankAnswer": "fingerprint"
+      }
+    ],
+    "distractors": [
+      "血液型",
+      "骨密度",
+      "体温"
+    ],
+    "confusableSpellings": [
+      "fingerprint",
+      "fingurprint",
+      "fingreprint"
+    ],
+    "passive": {
+      "etymology": "「finger（指）」＋「print（跡・印）」の複合語。'print' はラテン語 'premere'（押す）に由来。「指で押した跡」がそのまま単語になった。",
+      "tips": "「fingerprint」は名詞・動詞両方で使える。「The suspect was fingerprinted（容疑者の指紋が採取された）」のように動詞でも使う。また比喩的に「a genetic fingerprint（遺伝子の指紋＝DNAプロファイル）」のように「固有の識別情報」を指すことも多い。",
+      "confusables": "「fingerprint」（指紋：物理的な隆線の跡）vs「DNA」（遺伝子情報による個人識別）。どちらも個人識別に使われるが、fingerprintは後天的に変化しない表面の特徴、DNAは遺伝子レベルの情報。",
+      "collocations": [
+        "leave a fingerprint（指紋を残す）",
+        "fingerprint scanner（指紋スキャナー）",
+        "fingerprint evidence（指紋証拠）"
+      ],
+      "trivia": "指紋認証がスマートフォンに搭載されたのは2013年のiPhone 5sが初めて。でも実は指紋による個人識別の歴史は古く、19世紀末にはすでに犯罪捜査に使われていた。しかも双子でも指紋は異なる！遺伝子が同じでも指紋だけは完全なオリジナルなんです。"
+    },
+    "frequency": 5100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1071,
+    "word": "file",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "ファイル、書類",
+        "pos": "noun"
+      },
+      {
+        "meaning": "整理する、提出する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/faɪl/",
+    "syllables": "file",
+    "audioHint": "ファイル",
+    "examples": [
+      {
+        "en": "Please save the file before closing the program.",
+        "ja": "プログラムを閉じる前にファイルを保存してください。",
+        "blank": "Please save the ___ before closing the program.",
+        "blankAnswer": "file"
+      }
+    ],
+    "distractors": [
+      "プログラム",
+      "ネットワーク接続",
+      "データベース"
+    ],
+    "confusableSpellings": [
+      "flie",
+      "fiel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 filum（糸）が語源。書類を糸で綴じて保管していた習慣から「ファイル」の意味が生まれた。",
+      "tips": "名詞「ファイル」と動詞「提出する・整理する」の両方の用法を覚えよう。'file a complaint'（苦情を申し立てる）のような動詞用法は日本人に盲点になりやすい。",
+      "confusables": "file（ファイル・提出）vs. pile（積み重ね）。見た目が似ているが意味は異なる。",
+      "collocations": [
+        "file a report",
+        "file a complaint",
+        "save a file"
+      ],
+      "trivia": "「nail file（爪やすり）」も同じ単語！やすりで削る動作が「整える」イメージと繋がっている。"
+    },
+    "frequency": 350,
+    "cefr": "A2"
+  },
+  {
+    "id": 1072,
+    "word": "wilderness",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "荒野、手つかずの自然",
+        "pos": "noun"
+      },
+      {
+        "meaning": "混沌とした状態",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɪldərnəs/",
+    "syllables": "wil-der-ness",
+    "audioHint": "ウィルダーネス",
+    "examples": [
+      {
+        "en": "They hiked through the vast wilderness for three days.",
+        "ja": "彼らは広大な荒野を3日間かけてハイキングした。",
+        "blank": "They hiked through the vast ___ for three days.",
+        "blankAnswer": "wilderness"
+      }
+    ],
+    "distractors": [
+      "生態系",
+      "気候変動",
+      "砂漠化"
+    ],
+    "confusableSpellings": [
+      "wildernes",
+      "wilderniss",
+      "wildreness"
+    ],
+    "passive": {
+      "etymology": "古英語 wildēornes（野生動物の土地）から。wild（野生の）＋ dēor（動物）＋ ness（状態・場所を表す接尾辞）の組み合わせ。",
+      "tips": "発音は「ワイルダーネス」ではなく「ウィルダーネス」。wil- の部分は「ワイル」ではなく「ウィル」と短く発音する。",
+      "confusables": "wilderness（手つかずの自然・荒野）vs. desert（砂漠）。desertは乾燥地帯に限定されるが、wildernessは森林・山岳地帯なども含む広い概念。",
+      "collocations": [
+        "vast wilderness",
+        "wilderness area",
+        "wilderness survival"
+      ],
+      "trivia": "聖書では「イエスが40日間過ごした荒野」を指すため、英語圏では精神的な試練の場というニュアンスも持つ。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1073,
+    "word": "pesticide",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "農薬、殺虫剤",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɛstɪsaɪd/",
+    "syllables": "pes-ti-cide",
+    "audioHint": "ペスティサイド",
+    "examples": [
+      {
+        "en": "Farmers use pesticides to protect crops from insects.",
+        "ja": "農家は害虫から作物を守るために農薬を使う。",
+        "blank": "Farmers use ___ to protect crops from insects.",
+        "blankAnswer": "pesticides"
+      }
+    ],
+    "distractors": [
+      "温室効果ガス",
+      "化学肥料",
+      "土壌汚染"
+    ],
+    "confusableSpellings": [
+      "pestacide",
+      "pestiside",
+      "pesticied"
+    ],
+    "passive": {
+      "etymology": "ラテン語 pestis（疫病・害虫）＋ caedere（殺す）から。-cide は「殺すもの」を意味する語根で、homicide（殺人）や suicide（自殺）にも共通する。",
+      "tips": "pesticide は農薬全般を指す広い語。虫専用なら insecticide、雑草用なら herbicide、菌用なら fungicide と使い分けることも覚えておこう。",
+      "confusables": "pesticide（農薬・殺虫剤）vs. fertilizer（肥料）。どちらも農業で使うが、前者は害を「除く」もの、後者は植物を「育てる」もの。",
+      "collocations": [
+        "use pesticides",
+        "pesticide residue",
+        "ban pesticides"
+      ],
+      "trivia": "-cide（殺す）という語根はラテン語由来で、genocide（虐殺）、infanticide（幼児殺し）など物騒な単語ファミリーを形成している。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1074,
+    "word": "panic",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "パニック、恐慌",
+        "pos": "noun"
+      },
+      {
+        "meaning": "パニックになる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpænɪk/",
+    "syllables": "pan-ic",
+    "audioHint": "パニック",
+    "examples": [
+      {
+        "en": "Don't panic — just follow the emergency instructions calmly.",
+        "ja": "パニックにならずに、落ち着いて緊急指示に従ってください。",
+        "blank": "Don't ___ — just follow the emergency instructions calmly.",
+        "blankAnswer": "panic"
+      }
+    ],
+    "distractors": [
+      "幸福感",
+      "強い意志",
+      "道徳的価値"
+    ],
+    "confusableSpellings": [
+      "panick",
+      "pannick",
+      "panik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ神話の神 Pan（パン）に由来。山の神パンが突然大きな叫び声を上げて旅人を恐怖に陥れたという逸話から「突然の恐怖」を意味するようになった。",
+      "tips": "動詞として使う場合の過去形は panicked（cを足してから -ed）。'paniced' は誤り。この -ick- パターンは picnicked や mimicked でも同様。",
+      "confusables": "panic（突発的な恐怖・パニック）vs. anxiety（慢性的な不安）。panic は短時間の強烈な反応で、anxiety は持続的な心配を指すことが多い。",
+      "collocations": [
+        "panic attack",
+        "in a panic",
+        "panic button"
+      ],
+      "trivia": "「panic buying（パニック買い）」はコロナ禍で世界共通語になったが、もとはギリシャ神話の神の名前というのがロマンある！"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1075,
+    "word": "fabric",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "生地、布地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "構造、骨格",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfæbrɪk/",
+    "syllables": "fab-ric",
+    "audioHint": "ファブリック",
+    "examples": [
+      {
+        "en": "This shirt is made from a soft cotton fabric.",
+        "ja": "このシャツは柔らかいコットン生地でできている。",
+        "blank": "This shirt is made from a soft cotton ___.",
+        "blankAnswer": "fabric"
+      }
+    ],
+    "distractors": [
+      "家具",
+      "調理器具",
+      "照明器具"
+    ],
+    "confusableSpellings": [
+      "fabrick",
+      "fabrik",
+      "fabbric"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fabrica（工房・職人の仕事）から。faber（職人・鍛冶師）が語根で、工芸品全般を指していたが、のちに「織物・布」の意味に絞られた。",
+      "tips": "fabric は「布・生地」の物理的な意味の他に、'the fabric of society'（社会の構造・骨格）のように比喩的にも使われる。この抽象用法を知っていると一気に上級者っぽく見える。",
+      "confusables": "fabric（生地・布）vs. cloth（布・布地）vs. textile（繊維製品）。fabric はより加工された布地、cloth は布一般、textile は産業・技術的な文脈で使われることが多い。",
+      "collocations": [
+        "cotton fabric",
+        "fabric softener",
+        "the fabric of society"
+      ],
+      "trivia": "fabric softener（柔軟剤）の fabric はもちろん「布」だが、'the fabric of spacetime'（時空の構造）という物理学用語にも使われる汎用性の高い単語。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1076,
+    "word": "fantasy",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "空想、幻想",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ファンタジー（ジャンル）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfæntəsi/",
+    "syllables": "fan-ta-sy",
+    "audioHint": "ファンタシー",
+    "examples": [
+      {
+        "en": "The novel blends reality and fantasy in a beautiful way.",
+        "ja": "その小説は現実とファンタジーを美しく融合させている。",
+        "blank": "The novel blends reality and ___ in a beautiful way.",
+        "blankAnswer": "fantasy"
+      }
+    ],
+    "distractors": [
+      "彫刻技法",
+      "演劇の演出",
+      "楽器の種類"
+    ],
+    "confusableSpellings": [
+      "fantacy",
+      "phantasy",
+      "fantasie"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 phantasia（想像・幻像）から。phainein（見せる・現れる）が語根で、phantom（幻霊）や phenomenon（現象）と同じ語族。",
+      "tips": "fantasy と phantasy は同じ語源だが、現代英語では fantasy が標準的なスペル。また形容詞形は fantastic で「空想的な→素晴らしい」に意味が転じているので注意。",
+      "confusables": "fantasy（空想・幻想）vs. imagination（想像力・想像）。fantasy は現実から離れた夢や空想を指し、imagination は創造的に物事を思い描く能力そのもの。",
+      "collocations": [
+        "live in a fantasy",
+        "fantasy world",
+        "fantasy novel"
+      ],
+      "trivia": "「ファイナルファンタジー」の英題は Final Fantasy。日本生まれのゲームが英単語 fantasy を世界中に広めた、というのも語学的に面白い逆輸入現象。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1077,
+    "word": "fancy",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "華やかな、高級な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "好む、したいと思う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfænsi/",
+    "syllables": "fan-cy",
+    "audioHint": "ファンシー",
+    "examples": [
+      {
+        "en": "She wore a fancy dress to the New Year's party.",
+        "ja": "彼女は新年パーティーに華やかなドレスを着ていった。",
+        "blank": "She wore a ___ dress to the New Year's party.",
+        "blankAnswer": "fancy"
+      }
+    ],
+    "distractors": [
+      "非常に小さい",
+      "非常に古い",
+      "非常に重い"
+    ],
+    "confusableSpellings": [
+      "fency",
+      "fansy",
+      "fancie"
+    ],
+    "passive": {
+      "etymology": "fantasy の短縮形として中英語で生まれた語。「空想・好み」という意味から「好む」という動詞、さらに「凝った・華やか」という形容詞へと意味が広がった。",
+      "tips": "日本語の「ファンシー」はかわいらしいものを指すが、英語の fancy は「高級な・豪華な・しゃれた」という意味。'That's a fancy restaurant'は「高級レストラン」の意味になる。",
+      "confusables": "fancy（高級な・しゃれた）vs. elegant（上品な・エレガントな）。fancy は派手さや豪華さ、elegant は洗練された品格を強調する点で異なる。",
+      "collocations": [
+        "fancy restaurant",
+        "fancy dress",
+        "fancy a drink"
+      ],
+      "trivia": "イギリス英語で 'Do you fancy a cup of tea?'（お茶はいかが？）のように「～したいですか」という動詞用法が日常的。アメリカ英語ではこの動詞用法はほぼ使わないので要注意！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1078,
+    "word": "virtue",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "美徳、徳",
+        "pos": "noun"
+      },
+      {
+        "meaning": "長所、利点",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvɜːrtʃuː/",
+    "syllables": "vir-tue",
+    "audioHint": "ヴァーチュー",
+    "examples": [
+      {
+        "en": "Patience is considered a great virtue in many cultures.",
+        "ja": "忍耐は多くの文化で素晴らしい美徳とみなされている。",
+        "blank": "Patience is considered a great ___ in many cultures.",
+        "blankAnswer": "virtue"
+      }
+    ],
+    "distractors": [
+      "意識、意識状態",
+      "混乱した状態",
+      "固定観念"
+    ],
+    "confusableSpellings": [
+      "virtew",
+      "vertue",
+      "virture"
+    ],
+    "passive": {
+      "etymology": "ラテン語 virtus（力・勇気・卓越性）から。vir（男性・人）が語根で、「男性らしい力強さ」が転じて「道徳的な卓越性」を意味するようになった。",
+      "tips": "'by virtue of'（〜のおかげで・〜という理由で）という熟語は論文やビジネス文書に頻出。'He succeeded by virtue of his hard work.' のように使う。",
+      "confusables": "virtue（美徳・道徳的な長所）vs. merit（メリット・功績）。virtue は人格的・道徳的な善さを指し、merit は成果・実績・論理的な優位性を指す。",
+      "collocations": [
+        "by virtue of",
+        "virtue and vice",
+        "make a virtue of"
+      ],
+      "trivia": "「virtue signaling（美徳シグナリング）」はSNS時代の新語で、「自分がいかに道徳的かを周りに見せつける行為」を揶揄する表現として近年広まった。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1079,
+    "word": "grateful",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "感謝している",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɡreɪtfəl/",
+    "syllables": "grate-ful",
+    "audioHint": "グレイトフル",
+    "examples": [
+      {
+        "en": "I am so grateful for your help during the difficult time.",
+        "ja": "つらい時期に助けてくれて本当に感謝しています。",
+        "blank": "I am so ___ for your help during the difficult time.",
+        "blankAnswer": "grateful"
+      }
+    ],
+    "distractors": [
+      "非常に興奮した",
+      "深く悲しんでいる",
+      "強く不満を持っている"
+    ],
+    "confusableSpellings": [
+      "greatful",
+      "gratefull",
+      "gratful"
+    ],
+    "passive": {
+      "etymology": "ラテン語 gratus（喜ばしい・ありがたい）＋ -ful（〜に満ちた）から構成される。gratitude（感謝）や grace（恵み）とも同じ語根 grat- を持つ。",
+      "tips": "最も多いスペルミスは 'greatful'（great と混同）。語源は great ではなく grate（ラテン語由来）なので注意。また、'grateful to 人'・'grateful for 物事' の前置詞の使い分けも要確認。",
+      "confusables": "grateful（感謝している）vs. thankful（ありがたく思う）。grateful はより深い感情的な感謝、thankful は具体的な出来事への安堵・感謝のニュアンスがある。",
+      "collocations": [
+        "grateful for",
+        "feel grateful",
+        "deeply grateful"
+      ],
+      "trivia": "伝説的ロックバンド「Grateful Dead」の名前はこの単語から。感謝の気持ちで死んでいく……という民話に由来するとされており、バンド名の由来としてはかなりダークで面白い。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1080,
+    "word": "valid",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "有効な、妥当な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "論理的に正当な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvælɪd/",
+    "syllables": "val-id",
+    "audioHint": "ヴァリッド",
+    "examples": [
+      {
+        "en": "Your passport must be valid for at least six months.",
+        "ja": "パスポートは少なくとも6ヶ月有効でなければならない。",
+        "blank": "Your passport must be ___ for at least six months.",
+        "blankAnswer": "valid"
+      }
+    ],
+    "distractors": [
+      "測定可能な",
+      "一時的な",
+      "複雑な"
+    ],
+    "confusableSpellings": [
+      "vallid",
+      "valied",
+      "valide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 validus（力強い・健康な）から。valere（力がある・価値がある）が語根で、value（価値）や evaluate（評価する）とも同族語。",
+      "tips": "valid は「有効期限がある」という意味と「論理的に妥当である」という意味の両方で使われる。'That's a valid point.'（それは妥当な指摘です）という表現はディスカッションで非常に便利。",
+      "confusables": "valid（有効な・妥当な）vs. valuable（価値のある）。共通の語根 val- を持つが、valid は「効力・正当性」、valuable は「価値・有用性」を強調する。",
+      "collocations": [
+        "valid passport",
+        "valid argument",
+        "valid reason"
+      ],
+      "trivia": "プログラミングでは 'validate'（バリデートする・検証する）という動詞が頻出で、フォームの入力チェックなどを指す。IT用語として valid はエンジニアにとって日常語になっている。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 441,
+    "word": "comment",
+    "pos": "noun",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "コメント、意見",
+        "pos": "noun"
+      },
+      {
+        "meaning": "コメントする、論評する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒment/",
+    "syllables": "com-ment",
+    "audioHint": "コメント",
+    "examples": [
+      {
+        "en": "She made a helpful comment about my presentation.",
+        "ja": "彼女は私のプレゼンについて役立つコメントをした。",
+        "blank": "She made a helpful ___ about my presentation.",
+        "blankAnswer": "comment"
+      }
+    ],
+    "distractors": [
+      "指示、命令",
+      "存在、出席",
+      "自信、確信"
+    ],
+    "confusableSpellings": [
+      "coment",
+      "commant",
+      "commet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 commentum（発明・考案）から。com-（共に）+ mentum（心・精神）の意。",
+      "tips": "動詞としても名詞としても使える。「コメントする」は comment on ～ と前置詞 on を伴うことが多い。「コメントを残す」は leave a comment が自然。",
+      "confusables": "remark も「発言・コメント」の意だが、remark はより短い口頭の発言に使われ、comment は書き言葉でも使われる。",
+      "collocations": [
+        "make a comment",
+        "comment on ~",
+        "no comment"
+      ],
+      "trivia": "SNS時代の「コメント欄」はそのまま comment section と言う。実は「コメント」は日本語に完全輸入されている数少ない英単語の一つ！"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 442,
+    "word": "instruction",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "指示、説明書",
+        "pos": "noun"
+      },
+      {
+        "meaning": "教授、指導",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈstrʌkʃən/",
+    "syllables": "in-struc-tion",
+    "audioHint": "インストラクション",
+    "examples": [
+      {
+        "en": "Please follow the instructions carefully before assembling the furniture.",
+        "ja": "家具を組み立てる前に説明書をよく読んでください。",
+        "blank": "Please follow the ___ carefully before assembling the furniture.",
+        "blankAnswer": "instructions"
+      }
+    ],
+    "distractors": [
+      "実験室、研究室",
+      "分類、カテゴリー",
+      "信仰、宗教"
+    ],
+    "confusableSpellings": [
+      "instrution",
+      "instrunction",
+      "intruction"
+    ],
+    "passive": {
+      "etymology": "ラテン語 instructio から。in-（中に）+ struere（積み上げる・建てる）→「心の中に積み上げる」が原義。",
+      "tips": "複数形 instructions で「取扱説明書」の意味になる。単数形 instruction は「指導・教授」の意味で使われることが多い。",
+      "confusables": "direction も「指示」の意味を持つが、instructions は手順の説明に、directions は道案内や大まかな指示に使われやすい。",
+      "collocations": [
+        "follow instructions",
+        "give instructions",
+        "instruction manual"
+      ],
+      "trivia": "IKEAの組み立て説明書は instruction manual の代表例として英語の授業でよく引用される。なんとIKEAの説明書には文字がほとんどない！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 443,
+    "word": "religion",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "宗教、信仰",
+        "pos": "noun"
+      },
+      {
+        "meaning": "信条、信念体系",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈlɪdʒən/",
+    "syllables": "re-li-gion",
+    "audioHint": "リリジョン",
+    "examples": [
+      {
+        "en": "Freedom of religion is protected by law in many countries.",
+        "ja": "信仰の自由は多くの国で法律によって守られている。",
+        "blank": "Freedom of ___ is protected by law in many countries.",
+        "blankAnswer": "religion"
+      }
+    ],
+    "distractors": [
+      "自信、確信",
+      "存在、出席",
+      "調和、一致"
+    ],
+    "confusableSpellings": [
+      "religon",
+      "releigion",
+      "religeon"
+    ],
+    "passive": {
+      "etymology": "ラテン語 religio から。re-（再び）+ ligare（結びつける）→「神と人を再び結びつけるもの」という説が有力。",
+      "tips": "religion は不可算名詞としても可算名詞としても使える。「宗教を信じる」は believe in a religion より practice a religion が自然。",
+      "confusables": "faith は個人の信仰心・信頼に焦点、belief は信念一般に使う。religion は制度・組織としての宗教を指す。",
+      "collocations": [
+        "practice a religion",
+        "freedom of religion",
+        "world religion"
+      ],
+      "trivia": "日本人は「宗教はありますか？」と聞かれると答えに困りがちだが、英語圏では Do you have a religion? は普通の会話トピック。ただし相手によってはデリケートな話題！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 444,
+    "word": "neighborhood",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "近所、地域",
+        "pos": "noun"
+      },
+      {
+        "meaning": "隣人たち、周辺住民",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈneɪbərhʊd/",
+    "syllables": "neigh-bor-hood",
+    "audioHint": "ネイバーフッド",
+    "examples": [
+      {
+        "en": "We moved to a quiet neighborhood near the park.",
+        "ja": "私たちは公園近くの静かな地域に引っ越した。",
+        "blank": "We moved to a quiet ___ near the park.",
+        "blankAnswer": "neighborhood"
+      }
+    ],
+    "distractors": [
+      "実験室、研究室",
+      "指示、説明書",
+      "楽器、道具"
+    ],
+    "confusableSpellings": [
+      "nieghborhood",
+      "neighborhod",
+      "nieborhood"
+    ],
+    "passive": {
+      "etymology": "neighbor（隣人）＋ -hood（状態・集団を表す接尾辞）。neighbor は古英語 neahgebur（neah＝近い＋gebur＝農民・住人）から。",
+      "tips": "アメリカ英語では neighborhood、イギリス英語では neighbourhood とスペルが異なる。「近所の人」は neighbor（イギリス: neighbour）。",
+      "confusables": "community は共通の利益や属性で結びついた集団を指し、neighborhood より広い概念。district は行政区域のニュアンスが強い。",
+      "collocations": [
+        "friendly neighborhood",
+        "neighborhood watch",
+        "in the neighborhood"
+      ],
+      "trivia": "「ご近所さん」感満載のアメリカのテレビ番組『Mister Rogers' Neighborhood』のタイトルがまさにこの単語。子ども番組なのに大人も泣けると話題になった！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 445,
+    "word": "laboratory",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "実験室、研究室",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ラボ（略称 lab）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlæbərətɔːri/",
+    "syllables": "lab-o-ra-to-ry",
+    "audioHint": "ラボラトリー",
+    "examples": [
+      {
+        "en": "The scientists worked all night in the laboratory.",
+        "ja": "科学者たちは実験室で一晩中作業した。",
+        "blank": "The scientists worked all night in the ___.",
+        "blankAnswer": "laboratory"
+      }
+    ],
+    "distractors": [
+      "指示、説明書",
+      "分類、カテゴリー",
+      "信仰、宗教"
+    ],
+    "confusableSpellings": [
+      "labratory",
+      "laborotory",
+      "labortory"
+    ],
+    "passive": {
+      "etymology": "ラテン語 laboratorium から。labor（労働・努力）＋ -atorium（場所を表す接尾辞）→「努力・作業をする場所」。",
+      "tips": "口語では lab と省略される。アメリカ英語の発音は /ˈlæbərətɔːri/、イギリス英語は /ləˈbɒrətri/ と大きく異なるので注意。",
+      "confusables": "studio は芸術・映像の作業場、workshop は工作や研修の場を指す。laboratory は科学的実験・研究に限定されることが多い。",
+      "collocations": [
+        "science laboratory",
+        "laboratory experiment",
+        "laboratory test"
+      ],
+      "trivia": "英語ネイティブも laboratory の発音が難しいと言う。アメリカ人とイギリス人が話すと「え、同じ単語？」と驚くほど発音が違う代表例！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 446,
+    "word": "presence",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "存在、出席",
+        "pos": "noun"
+      },
+      {
+        "meaning": "存在感、風格",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprezəns/",
+    "syllables": "pres-ence",
+    "audioHint": "プレゼンス",
+    "examples": [
+      {
+        "en": "Her presence in the room made everyone feel calm.",
+        "ja": "彼女がその部屋にいるだけで、みんな落ち着いた。",
+        "blank": "Her ___ in the room made everyone feel calm.",
+        "blankAnswer": "presence"
+      }
+    ],
+    "distractors": [
+      "自信、確信",
+      "コメント、意見",
+      "信仰、宗教"
+    ],
+    "confusableSpellings": [
+      "presense",
+      "presance",
+      "prescence"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praesentia から。prae-（前に）＋ esse（存在する）→「目の前にいること」が原義。",
+      "tips": "absence（不在）の反意語。「存在感がある人」は have a strong presence と言う。日本語の「プレゼン」はプレゼンテーションの略で presence とは別物なので注意。",
+      "confusables": "attendance は学校・会議への出席を指す制度的なニュアンス。presence はより物理的・感覚的な「その場にいること」。",
+      "collocations": [
+        "in the presence of",
+        "strong presence",
+        "presence of mind"
+      ],
+      "trivia": "「presence of mind」は「冷静さ・機転」という意味のイディオム。「存在の冷静さ」→ピンチでも落ち着いていられる、という発想が面白い！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 447,
+    "word": "confidence",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "自信、確信",
+        "pos": "noun"
+      },
+      {
+        "meaning": "信頼、信用",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒnfɪdəns/",
+    "syllables": "con-fi-dence",
+    "audioHint": "コンフィデンス",
+    "examples": [
+      {
+        "en": "She spoke with great confidence during the interview.",
+        "ja": "彼女は面接中に大きな自信を持って話した。",
+        "blank": "She spoke with great ___ during the interview.",
+        "blankAnswer": "confidence"
+      }
+    ],
+    "distractors": [
+      "存在、出席",
+      "信仰、宗教",
+      "コメント、意見"
+    ],
+    "confusableSpellings": [
+      "confidance",
+      "confedence",
+      "confidense"
+    ],
+    "passive": {
+      "etymology": "ラテン語 confidentia から。con-（完全に）＋ fidere（信じる）→「完全に信じること」。fidelity（忠実）や faith と同じ語根。",
+      "tips": "confident（形容詞）と混同しないこと。「自信がある」は I have confidence または I am confident。「自信を持って」は with confidence。",
+      "confusables": "trust は相手への信頼、faith は証拠がなくても信じること。confidence は自分自身や物事への確信・自信のニュアンスが強い。",
+      "collocations": [
+        "build confidence",
+        "with confidence",
+        "confidence in ~"
+      ],
+      "trivia": "「confidence trick」は「詐欺」の意味。詐欺師が相手の信用（confidence）を利用して騙すことから。「コン・マン（con man）」の con はここから来ている！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 448,
+    "word": "harm",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "傷つける、害を与える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "害、損害",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/hɑːrm/",
+    "syllables": "harm",
+    "audioHint": "ハーム",
+    "examples": [
+      {
+        "en": "Smoking can seriously harm your health.",
+        "ja": "喫煙は健康に深刻な害を与える可能性がある。",
+        "blank": "Smoking can seriously ___ your health.",
+        "blankAnswer": "harm"
+      }
+    ],
+    "distractors": [
+      "変化させる、変える",
+      "修正する、修理する",
+      "破壊する、壊す"
+    ],
+    "confusableSpellings": [
+      "hram",
+      "harme",
+      "haerm"
+    ],
+    "passive": {
+      "etymology": "古英語 hearm（悲しみ・損害）から。ゲルマン祖語 *harmaz に由来し、ドイツ語 Harm（悲嘆）と同族語。",
+      "tips": "名詞・動詞の両方で使える。「害はない」は no harm done または it won't do any harm。「意図的に傷つける」は hurt よりやや書き言葉的なニュアンス。",
+      "confusables": "hurt は身体的・感情的な痛みに広く使う。damage は物や評判への損害。harm はより長期的・深刻な悪影響のニュアンスがある。",
+      "collocations": [
+        "do harm",
+        "cause harm",
+        "harm reduction"
+      ],
+      "trivia": "「no harm, no foul」はスポーツ用語から来たイディオムで「実害がなければ問題なし」という意味。バスケットボールのファウル（foul）から派生した表現！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 449,
+    "word": "instrument",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "楽器",
+        "pos": "noun"
+      },
+      {
+        "meaning": "器具、道具",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnstrəmənt/",
+    "syllables": "in-stru-ment",
+    "audioHint": "インストゥルメント",
+    "examples": [
+      {
+        "en": "She plays three musical instruments including the violin.",
+        "ja": "彼女はバイオリンを含む3つの楽器を演奏する。",
+        "blank": "She plays three musical ___ including the violin.",
+        "blankAnswer": "instruments"
+      }
+    ],
+    "distractors": [
+      "コメント、意見",
+      "近所、地域",
+      "指示、説明書"
+    ],
+    "confusableSpellings": [
+      "instrament",
+      "instriment",
+      "instrumant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 instrumentum から。in-（中に）＋ struere（積み上げる・整える）＋ -mentum（手段を表す名詞接尾辞）→「整えるための手段・道具」。",
+      "tips": "「楽器」の意味では musical instrument と言うことが多い。「計測器具」としても使われるため、文脈で判断が必要。",
+      "confusables": "tool は手を使う実用的な道具、device は機械的な装置。instrument はより精密・専門的な器具や楽器に使われることが多い。",
+      "collocations": [
+        "musical instrument",
+        "play an instrument",
+        "precision instrument"
+      ],
+      "trivia": "「instrument」は法律用語で「法的文書（契約書など）」の意味もある。ギターと契約書が同じ単語で表せるなんて、英語は不思議！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 450,
+    "word": "category",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "カテゴリー、分類",
+        "pos": "noun"
+      },
+      {
+        "meaning": "種類、部門",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkætəɡɔːri/",
+    "syllables": "cat-e-go-ry",
+    "audioHint": "キャテゴリー",
+    "examples": [
+      {
+        "en": "This book falls into the category of science fiction.",
+        "ja": "この本はSFのカテゴリーに入る。",
+        "blank": "This book falls into the ___ of science fiction.",
+        "blankAnswer": "category"
+      }
+    ],
+    "distractors": [
+      "実験室、研究室",
+      "指示、説明書",
+      "存在、出席"
+    ],
+    "confusableSpellings": [
+      "catagory",
+      "categary",
+      "catogory"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 kategoria（非難・述語）から。kata-（下に・反対に）＋ agoreuein（公に語る）→「公の場で指摘・分類すること」。",
+      "tips": "複数形は categories（y → ies に変化）。「～のカテゴリーに入る」は fall into the category of ～ または belong to the category of ～ が自然。",
+      "confusables": "classification は分類する行為・システム全体、type や kind はより口語的。category はやや正式・学術的なニュアンス。",
+      "collocations": [
+        "fall into a category",
+        "broad category",
+        "category mistake"
+      ],
+      "trivia": "哲学者アリストテレスが世界のすべてを10の category（カテゴリー）に分類しようとしたのがこの単語の起源。2400年前から人間は「整理整頓」が好きだった！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 451,
+    "word": "capital",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "資本；首都",
+        "pos": "noun"
+      },
+      {
+        "meaning": "大文字",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkæpɪtəl/",
+    "syllables": "cap-i-tal",
+    "audioHint": "キャピタル",
+    "examples": [
+      {
+        "en": "The company raised capital from investors to expand its business.",
+        "ja": "その会社は事業拡大のために投資家から資本を集めた。",
+        "blank": "The company raised ___ from investors to expand its business.",
+        "blankAnswer": "capital"
+      }
+    ],
+    "distractors": [
+      "利益",
+      "負債",
+      "株式配当"
+    ],
+    "confusableSpellings": [
+      "capitall",
+      "cappital",
+      "capitol"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'caput'（頭）が語源。'cap-'（頭・主要な）＋'-ital'（形容詞化）。「頭＝最も重要なもの」から「首都」「資本」へと意味が広がった。",
+      "tips": "『資本』の意味では不可算名詞として使われることが多い（capital is raised）。また、「大文字」の意味でも使われる（Write in capitals）ので文脈に注意。capital city（首都）と単独の capital（資本）を混同しないこと。",
+      "confusables": "'capitol'（国会議事堂・建物）と混同しやすい。アメリカの国会議事堂は 'the Capitol'（大文字・建物）で、capital（首都・資本）とは別語。スペルに注意。",
+      "collocations": [
+        "raise capital（資本を調達する）",
+        "capital city（首都）",
+        "venture capital（ベンチャー資本）"
+      ],
+      "trivia": "英語で「死刑」を 'capital punishment' というのも同語源。「頭（命）を取る罰」という意味で、昔の処刑は首を切っていたことに由来する。"
+    },
+    "frequency": 320,
+    "cefr": "B1"
+  },
+  {
+    "id": 452,
+    "word": "outcome",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "結果；成果",
+        "pos": "noun"
+      },
+      {
+        "meaning": "結末",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaʊtkʌm/",
+    "syllables": "out-come",
+    "audioHint": "アウトカム",
+    "examples": [
+      {
+        "en": "The outcome of the negotiation surprised everyone on the team.",
+        "ja": "交渉の結果はチーム全員を驚かせた。",
+        "blank": "The ___ of the negotiation surprised everyone on the team.",
+        "blankAnswer": "outcome"
+      }
+    ],
+    "distractors": [
+      "前提条件",
+      "動機",
+      "意図"
+    ],
+    "confusableSpellings": [
+      "outccome",
+      "outcom",
+      "oucome"
+    ],
+    "passive": {
+      "etymology": "'out-'（外へ）＋'come'（来る）。「外へ出てくるもの」＝「結果として現れるもの」という合成語。古英語由来のシンプルな構造。",
+      "tips": "'result' との違いに注意。'outcome' はプロセスや行為の終わりに生じるものに使い、'result' より最終的・全体的なニュアンスが強い。学術・ビジネス文書では特に頻出（learning outcomes＝学習成果）。",
+      "confusables": "'result'（結果）と意味は近いが、'outcome' は予測・期待と照らし合わせる文脈で使われやすい。'consequence' は因果関係（特に否定的）を強調する点が異なる。",
+      "collocations": [
+        "positive outcome（良い結果）",
+        "expected outcome（予想された結果）",
+        "outcome of the meeting（会議の結果）"
+      ],
+      "trivia": "医療・教育・政策の分野では 'outcome' が非常に重要なキーワード。患者の治療結果を 'patient outcome' と呼び、病院の評価指標にもなっている。"
+    },
+    "frequency": 580,
+    "cefr": "B1"
+  },
+  {
+    "id": 453,
+    "word": "notion",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "概念；考え",
+        "pos": "noun"
+      },
+      {
+        "meaning": "漠然とした印象",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnoʊʃən/",
+    "syllables": "no-tion",
+    "audioHint": "ノウション",
+    "examples": [
+      {
+        "en": "She had no notion of how difficult the exam would be.",
+        "ja": "彼女は試験がどれほど難しいか全く見当がつかなかった。",
+        "blank": "She had no ___ of how difficult the exam would be.",
+        "blankAnswer": "notion"
+      }
+    ],
+    "distractors": [
+      "証拠",
+      "結論",
+      "事実"
+    ],
+    "confusableSpellings": [
+      "noton",
+      "nottion",
+      "noshion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'notio'（認識・概念）から。'not-'（知る・印をつける）＋'-ion'（名詞語尾）。'note'（注目する）と同じ語根を持つ。",
+      "tips": "'idea' や 'concept' より曖昧・漠然とした「なんとなくの考え」というニュアンスを持つ。'have a notion that...' のように使うと「〜のような気がする」という婉曲表現になる。",
+      "confusables": "'concept'（概念・体系立った考え）、'idea'（アイデア・思いつき）と比べ、'notion' はより非公式・主観的。「根拠のうすい思い込み」に近いニュアンスで使われることも多い。",
+      "collocations": [
+        "popular notion（一般的な通念）",
+        "vague notion（漠然とした考え）",
+        "challenge the notion（概念に異を唱える）"
+      ],
+      "trivia": "タスク管理ツール「Notion」の名前もこの単語から。「あらゆる考えをまとめる場所」というコンセプトで命名されたといわれている。"
+    },
+    "frequency": 950,
+    "cefr": "B2"
+  },
+  {
+    "id": 454,
+    "word": "review",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "復習；再検討",
+        "pos": "noun"
+      },
+      {
+        "meaning": "レビュー；批評",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈvjuː/",
+    "syllables": "re-view",
+    "audioHint": "リビュー",
+    "examples": [
+      {
+        "en": "Please review the document before submitting it tomorrow.",
+        "ja": "明日提出する前にその文書を見直してください。",
+        "blank": "Please ___ the document before submitting it tomorrow.",
+        "blankAnswer": "review"
+      }
+    ],
+    "distractors": [
+      "発見",
+      "発明",
+      "記憶"
+    ],
+    "confusableSpellings": [
+      "reveiw",
+      "reviw",
+      "revew"
+    ],
+    "passive": {
+      "etymology": "'re-'（再び）＋'view'（見る）。「もう一度見る」が原義。フランス語経由でラテン語 'videre'（見る）に遡る。'vision'（視覚）や 'video' と同語根。",
+      "tips": "動詞としても名詞としても使える。'review for the exam'（試験のために復習する）と 'a movie review'（映画評）では品詞と意味が違う。カタカナ英語「レビュー」は主に批評・評価の意味で使われるが、英語では「見直し・再検討」の意味が最も基本的。",
+      "confusables": "'revise'（修正する・英国英語で復習する）と混同しやすい。アメリカ英語では試験勉強は 'review'、イギリス英語では 'revise' が一般的。",
+      "collocations": [
+        "under review（審査中）",
+        "peer review（査読）",
+        "annual review（年次評価）"
+      ],
+      "trivia": "Amazonや食べログなどのレビュー文化は英語の 'review' から来ているが、日本語化した「レビュー」は主に口コミ評価の意味に限定されている。英語では政策の見直しや医療の再評価にも普通に使う。"
+    },
+    "frequency": 280,
+    "cefr": "A2"
+  },
+  {
+    "id": 455,
+    "word": "trait",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "特性；特質",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（性格上の）特徴",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/treɪt/",
+    "syllables": "trait",
+    "audioHint": "トレイト",
+    "examples": [
+      {
+        "en": "Curiosity is a key personality trait for scientists.",
+        "ja": "好奇心は科学者にとって重要な性格特性だ。",
+        "blank": "Curiosity is a key personality ___ for scientists.",
+        "blankAnswer": "trait"
+      }
+    ],
+    "distractors": [
+      "信念",
+      "感情",
+      "記憶"
+    ],
+    "confusableSpellings": [
+      "trate",
+      "triat",
+      "traite"
+    ],
+    "passive": {
+      "etymology": "フランス語 'trait'（線・引っ張ること）から。ラテン語 'trahere'（引く）が語源。「その人を特徴付けるもの」というイメージで性格の特性を指すようになった。",
+      "tips": "主に人や生物の性質・特徴に使う。'personality trait'（性格特性）、'genetic trait'（遺伝的特質）のようにセットで使われることが多い。形容詞と組み合わせて使うのが自然。",
+      "confusables": "'feature'（特徴・機能）は物にも使えるが、'trait' は主に人・性格・遺伝に限定的。'characteristic' は trait の類語だがより広い文脈で使える。",
+      "collocations": [
+        "personality trait（性格特性）",
+        "genetic trait（遺伝的特質）",
+        "common trait（共通の特徴）"
+      ],
+      "trivia": "心理学の「ビッグファイブ理論」（Five-Factor Model）では、人の性格を5つの trait で説明する。開放性・誠実性・外向性・協調性・神経症傾向がその5つ。"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 456,
+    "word": "diversity",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "多様性",
+        "pos": "noun"
+      },
+      {
+        "meaning": "多種多様さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/daɪˈvɜːrsɪti/",
+    "syllables": "di-ver-si-ty",
+    "audioHint": "ダイバーシティ",
+    "examples": [
+      {
+        "en": "The company values diversity and inclusion in the workplace.",
+        "ja": "その会社は職場における多様性と包括性を重視している。",
+        "blank": "The company values ___ and inclusion in the workplace.",
+        "blankAnswer": "diversity"
+      }
+    ],
+    "distractors": [
+      "平等性",
+      "公正さ",
+      "連帯"
+    ],
+    "confusableSpellings": [
+      "divercity",
+      "diversety",
+      "diversiy"
+    ],
+    "passive": {
+      "etymology": "'di-'（分かれて）＋'vers'（向く・回る）＋'-ity'（名詞語尾）。ラテン語 'diversus'（異なる方向を向いた）が語源。'divert'（そらす）や 'universe'（一方向に向いた全体）と同語根。",
+      "tips": "現代英語では特にDEI（Diversity, Equity, Inclusion）のキーワードとして使われる。'diverse'（形容詞）も一緒に覚えると便利。日本語の「ダイバーシティ」はカタカナ化しているが、発音は「ダイ」にアクセントがある点に注意。",
+      "confusables": "'variety'（種類の多さ・バラエティ）と意味が近いが、'diversity' は特に人種・性別・文化などの社会的文脈で使われる。単純な「種類の豊富さ」なら 'variety' の方が自然。",
+      "collocations": [
+        "cultural diversity（文化的多様性）",
+        "diversity and inclusion（多様性と包括）",
+        "biological diversity（生物多様性）"
+      ],
+      "trivia": "「ダイバーシティ」という言葉、実はビジネスより先に生態学で使われていた。生物多様性（biodiversity）の重要性が叫ばれ始めた1980年代から社会全体に広まったとされる。"
+    },
+    "frequency": 650,
+    "cefr": "B2"
+  },
+  {
+    "id": 457,
+    "word": "victim",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "被害者；犠牲者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（病気・災害などの）犠牲者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvɪktɪm/",
+    "syllables": "vic-tim",
+    "audioHint": "ヴィクティム",
+    "examples": [
+      {
+        "en": "The victims of the disaster received support from volunteers.",
+        "ja": "災害の犠牲者たちはボランティアから支援を受けた。",
+        "blank": "The ___ of the disaster received support from volunteers.",
+        "blankAnswer": "victims"
+      }
+    ],
+    "distractors": [
+      "容疑者",
+      "目撃者",
+      "支援者"
+    ],
+    "confusableSpellings": [
+      "victom",
+      "victum",
+      "victem"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'victima'（生贄・供物）から。古代ローマで神への捧げ物を意味していた。「何らかの力によって傷つけられる存在」という意味に拡張された。",
+      "tips": "'victim' は犯罪・災害・病気など幅広い被害に使える。'victim of fraud'（詐欺被害者）、'victim of cancer'（がんで亡くなった人）のように使う。'victim blaming'（被害者非難）という表現も現代英語で重要。",
+      "confusables": "'survivor'（生存者）は被害を生き延いた人を指し、victim と対比して使われることが多い。また 'casualty'（死傷者）は軍事・事故文脈での被害者を指す。",
+      "collocations": [
+        "crime victim（犯罪被害者）",
+        "fall victim to（〜の犠牲になる）",
+        "victim support（被害者支援）"
+      ],
+      "trivia": "英語には 'victim mentality'（被害者意識）という表現があり、自分を常に被害者と思い込む心理状態を指す。近年の自己啓発本では「victim から victor（勝者）へ」という語呂合わせを使う例も多い。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 458,
+    "word": "occasion",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "場合；機会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "特別な行事；催し",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈkeɪʒən/",
+    "syllables": "oc-ca-sion",
+    "audioHint": "オケイジョン",
+    "examples": [
+      {
+        "en": "We only wear traditional clothes on special occasions.",
+        "ja": "私たちは特別な行事のときだけ伝統的な服を着る。",
+        "blank": "We only wear traditional clothes on special ___.",
+        "blankAnswer": "occasions"
+      }
+    ],
+    "distractors": [
+      "道具",
+      "習慣",
+      "場所"
+    ],
+    "confusableSpellings": [
+      "ocassion",
+      "occassion",
+      "ocasion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'occasio'（好機・きっかけ）から。'ob-'（〜に向かって）＋'cadere'（落ちる）。「ちょうどよく落ちてくる（巡ってくる）機会」というイメージ。",
+      "tips": "'on this occasion'（この場合に）、'on special occasions'（特別な機会に）のように 'on + occasion' の形が基本。'occasionally'（時折）という副詞も頻出。'opportunity' と違い、'occasion' はタイミング・場の雰囲気を含む文脈で使われる。",
+      "confusables": "'opportunity'（機会・チャンス）は何かをするための好機を指すが、'occasion' は特定のイベントや出来事そのものを指すことが多い。'event' より改まったニュアンスがある。",
+      "collocations": [
+        "on occasion（時々）",
+        "special occasion（特別な機会）",
+        "rise to the occasion（難局に立ち向かう）"
+      ],
+      "trivia": "'rise to the occasion' という表現は「その場の状況に応じた行動をとる」という意味で、スポーツや映画の名シーンでよく使われる。直訳すると「機会のために立ち上がる」という格好いいフレーズ。"
+    },
+    "frequency": 820,
+    "cefr": "B1"
+  },
+  {
+    "id": 459,
+    "word": "facility",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "施設；設備",
+        "pos": "noun"
+      },
+      {
+        "meaning": "才能；容易さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fəˈsɪlɪti/",
+    "syllables": "fa-cil-i-ty",
+    "audioHint": "ファシリティ",
+    "examples": [
+      {
+        "en": "The sports facility is open to all residents of the town.",
+        "ja": "そのスポーツ施設は町の全住民に開放されている。",
+        "blank": "The sports ___ is open to all residents of the town.",
+        "blankAnswer": "facility"
+      }
+    ],
+    "distractors": [
+      "商品",
+      "サービス",
+      "道具"
+    ],
+    "confusableSpellings": [
+      "facilty",
+      "facillity",
+      "fasility"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'facilitas'（容易さ）から。'facilis'（簡単な）＋'-ity'。'facere'（する・作る）が語根で、'factory'（工場）や 'fact'（事実）とも同語源。「物事を容易にする場所・手段」がベースの意味。",
+      "tips": "複数形 'facilities' で「トイレ・設備一式」を意味することがある（Where are the facilities?＝トイレはどこですか）。また「才能・容易さ」の意味（facility for languages＝語学の才能）は日本人に意外と知られていないので注意。",
+      "confusables": "'equipment'（機器・備品）は物体に焦点を当てるが、'facility' は建物・スペースも含む広い概念。'institution' は社会的・制度的な機関を指し、より正式。",
+      "collocations": [
+        "medical facility（医療施設）",
+        "production facility（製造施設）",
+        "facility management（施設管理）"
+      ],
+      "trivia": "「ファシリテーター」（facilitator）も同語源。会議やワークショップをスムーズに「容易にする人」という意味で、'facilitate'（促進する）＋'-or'（人）から来ている。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 460,
+    "word": "stock",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "株式；在庫",
+        "pos": "noun"
+      },
+      {
+        "meaning": "蓄え；在庫品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/stɒk/",
+    "syllables": "stock",
+    "audioHint": "ストック",
+    "examples": [
+      {
+        "en": "The stock price fell sharply after the company's announcement.",
+        "ja": "会社の発表後、株価は急落した。",
+        "blank": "The ___ price fell sharply after the company's announcement.",
+        "blankAnswer": "stock"
+      }
+    ],
+    "distractors": [
+      "予算",
+      "負債",
+      "利子"
+    ],
+    "confusableSpellings": [
+      "stok",
+      "stoock",
+      "stcok"
+    ],
+    "passive": {
+      "etymology": "古英語 'stocc'（幹・切り株）から。「根っこにある固定されたもの」→「蓄え・元手」→「資本・株式」へと意味が変化。'livestock'（家畜）の 'live' 部分と組み合わさった名残も残る。",
+      "tips": "'stock' は「株式」（stock market）と「在庫」（out of stock）という全く異なる意味を持つ多義語。文脈判断が必須。'stock up on'（〜を買いだめする）という句動詞も日常で頻出。",
+      "confusables": "'share'（英国英語での株式）と 'stock'（米国英語での株式）はほぼ同義だが、地域差がある。'inventory'（在庫管理・棚卸し）はビジネス文書での在庫を指す正式語。",
+      "collocations": [
+        "stock market（株式市場）",
+        "out of stock（在庫切れ）",
+        "stock up（買いだめする）"
+      ],
+      "trivia": "ウォール街の「stock exchange」（証券取引所）の 'stock' は、かつて貸し出した金額の記録を木の棒（stock）に刻んでいたことに由来するという説がある。デジタル化の今も「木の棒」の名残が残っている。"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  }
+]

@@ -1,0 +1,1001 @@
+[
+  {
+    "id": 501,
+    "word": "interpret",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "解釈する、理解する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "通訳する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈtɜːrprɪt/",
+    "syllables": "in-ter-pret",
+    "audioHint": "インタープリット",
+    "examples": [
+      {
+        "en": "How do you interpret this poem?",
+        "ja": "この詩をどのように解釈しますか？",
+        "blank": "How do you ___ this poem?",
+        "blankAnswer": "interpret"
+      }
+    ],
+    "distractors": [
+      "集中する",
+      "批判する",
+      "翻訳する"
+    ],
+    "confusableSpellings": [
+      "interprit",
+      "intrepret",
+      "interprete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inter-（間に）＋ pret-（価値をつける・交渉する）→「間に入って意味を取り持つ」が語源。",
+      "tips": "「解釈する」と「通訳する」の両方の意味を持つ点に注意。会議や医療の「通訳」には interpret を、書かれたテキストの「翻訳」には translate を使う。",
+      "confusables": "translate は文字・テキストを別言語に変換すること、interpret は意味を読み取ったり口頭通訳をすること。「この文を解釈する」なら interpret、「この文を日本語に訳す」なら translate。",
+      "collocations": [
+        "interpret data（データを解釈する）",
+        "interpret a dream（夢を解釈する）",
+        "interpret for someone（〜のために通訳する）"
+      ],
+      "trivia": "「インタープリター（interpreter）」はプログラミング用語にもなっている。コードを1行ずつ「解釈して」実行するソフトウェアのこと。Python はインタープリター型言語の代表例！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 502,
+    "word": "translate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "翻訳する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "変換する、転換する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trænsˈleɪt/",
+    "syllables": "trans-late",
+    "audioHint": "トランスレイト",
+    "examples": [
+      {
+        "en": "She translated the letter into English.",
+        "ja": "彼女はその手紙を英語に翻訳した。",
+        "blank": "She ___ the letter into English.",
+        "blankAnswer": "translated"
+      }
+    ],
+    "distractors": [
+      "解釈する",
+      "通知する",
+      "集中する"
+    ],
+    "confusableSpellings": [
+      "translait",
+      "transalte",
+      "translatee"
+    ],
+    "passive": {
+      "etymology": "ラテン語 trans-（向こうへ）＋ latus（運ばれた、ferre の過去分詞）→「向こう側へ運ぶ」が語源。言葉を別の言語の「向こう側」へ運ぶイメージ。",
+      "tips": "「translate A into B」の形が基本。into を in と書いてしまうミスが多い。また「努力が結果に転換する」のような抽象的な使い方（translate into results）も頻出。",
+      "confusables": "interpret との違いに注意。translate は書き言葉の翻訳、interpret は口頭の通訳が主な意味。ただし実際には translate も口頭で使われることがある。",
+      "collocations": [
+        "translate into Japanese（日本語に翻訳する）",
+        "translate a document（文書を翻訳する）",
+        "translate into action（行動に移す）"
+      ],
+      "trivia": "Google 翻訳（Google Translate）は2006年に登場。最初はアラビア語と英語のみ対応だったが、今では100以上の言語に対応している。「trans（向こうへ）」は transport や transfer にも共通する接頭辞！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 503,
+    "word": "concentrate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "集中する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "濃縮する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒnsəntreɪt/",
+    "syllables": "con-cen-trate",
+    "audioHint": "コンセントレイト",
+    "examples": [
+      {
+        "en": "I can't concentrate with all this noise.",
+        "ja": "こんな騒音の中では集中できない。",
+        "blank": "I can't ___ with all this noise.",
+        "blankAnswer": "concentrate"
+      }
+    ],
+    "distractors": [
+      "解釈する",
+      "批判する",
+      "発表する"
+    ],
+    "confusableSpellings": [
+      "concantrate",
+      "concenterate",
+      "concentrait"
+    ],
+    "passive": {
+      "etymology": "ラテン語 con-（共に・強意）＋ centrum（中心）→「中心に向かって一点に集める」が語源。",
+      "tips": "「concentrate on ～」の形が基本。「concentrate to」とするのは誤り。また「集中ジュース」の concentrate（濃縮果汁）も同じ単語で、意味のつながりを覚えると忘れにくい。",
+      "confusables": "focus も「集中する」の意味を持つが、concentrate はより努力・意志を必要とする精神的な集中感が強い。focus はカメラのピントのようにある点に向ける感覚。",
+      "collocations": [
+        "concentrate on work（仕事に集中する）",
+        "concentrate one's efforts（努力を集中させる）",
+        "concentrate on studying（勉強に集中する）"
+      ],
+      "trivia": "「コンサートレイト」と読み間違える人も多いが、con-CEN-trate とアクセントは第1音節！そして「集中」も「濃縮」もどちらも「一点に集める」という同じ発想から来ている。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 504,
+    "word": "request",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "依頼する、要請する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "要求する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈkwest/",
+    "syllables": "re-quest",
+    "audioHint": "リクウェスト",
+    "examples": [
+      {
+        "en": "She requested more time to finish the project.",
+        "ja": "彼女はプロジェクトを終えるためにもっと時間を要請した。",
+        "blank": "She ___ more time to finish the project.",
+        "blankAnswer": "requested"
+      }
+    ],
+    "distractors": [
+      "発表する",
+      "解釈する",
+      "集中する"
+    ],
+    "confusableSpellings": [
+      "requst",
+      "requiest",
+      "reguest"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び）＋ quaerere（求める・探す）→「再び求める」が語源。quest（探求）や question（質問）と同じ語根。",
+      "tips": "request は ask よりも丁寧・フォーマルな響きがある。ビジネスメールで「〜をお願いします」は I would like to request ～ が自然。「request + 人 + to不定詞」の形も重要（例：request him to come）。",
+      "confusables": "demand は強い要求・権利主張、require は必要条件として求める、request は礼儀を保ちながら依頼する。ニュアンスの強さは demand > require > request。",
+      "collocations": [
+        "request information（情報を要請する）",
+        "request a meeting（会議を要請する）",
+        "request permission（許可を求める）"
+      ],
+      "trivia": "ラジオの「リクエスト」はこの単語から。「あの曲をかけてください」とお願いすることそのものが request。語根の quest は「探求の旅」という意味でも使われ、RPGの「クエスト」もここから来ている！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 505,
+    "word": "criticize",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "批判する、批評する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "非難する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkrɪtɪsaɪz/",
+    "syllables": "crit-i-cize",
+    "audioHint": "クリティサイズ",
+    "examples": [
+      {
+        "en": "The manager criticized the team for missing the deadline.",
+        "ja": "マネージャーは締め切りに遅れたチームを批判した。",
+        "blank": "The manager ___ the team for missing the deadline.",
+        "blankAnswer": "criticized"
+      }
+    ],
+    "distractors": [
+      "依頼する",
+      "集中する",
+      "通知する"
+    ],
+    "confusableSpellings": [
+      "critisize",
+      "critizice",
+      "criticise"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 krinein（判断する・分ける）→ kritikos（判断力のある）→ criticize。「分けて判断する」が元の意味。",
+      "tips": "criticize は必ずしも否定的な意味だけではなく「批評する（良い点も悪い点も評価する）」場合もあるが、日常会話では否定的なニュアンスで使われることが多い。「criticize A for B」（BのことでAを批判する）の形を覚えよう。",
+      "confusables": "criticize（批判・非難する）と critique（批評する・名詞では批評）は似ているが、critique はより学術・芸術的な文脈で使われる丁寧なニュアンス。また、criticise はイギリス英語のスペル。",
+      "collocations": [
+        "criticize harshly（厳しく批判する）",
+        "criticize the government（政府を批判する）",
+        "criticize someone's work（誰かの仕事を批評する）"
+      ],
+      "trivia": "「クリティカルシンキング（critical thinking）」の critical も同じ語根。もともとは「しっかり分けて考える」という中立的な意味。批判的思考とは「否定すること」ではなく「根拠をもって判断すること」なのだ！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 506,
+    "word": "overcome",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "克服する、乗り越える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "打ち負かす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈkʌm/",
+    "syllables": "o-ver-come",
+    "audioHint": "オウヴァーカム",
+    "examples": [
+      {
+        "en": "He worked hard to overcome his fear of public speaking.",
+        "ja": "彼は人前で話す恐怖を克服するために努力した。",
+        "blank": "He worked hard to ___ his fear of public speaking.",
+        "blankAnswer": "overcome"
+      }
+    ],
+    "distractors": [
+      "取得する",
+      "確保する",
+      "依頼する"
+    ],
+    "confusableSpellings": [
+      "overcame（過去形であり原形スペルミスとして混同）",
+      "overcom",
+      "overccome"
+    ],
+    "passive": {
+      "etymology": "古英語 ofer-（超えて・上に）＋ cuman（来る）→「上を越えてやってくる」＝乗り越えるという意味になった。",
+      "tips": "活用形に注意：overcome（原形）→ overcame（過去形）→ overcome（過去分詞）。過去形を overcomed と誤る日本人学習者が多い。不規則動詞の come と同じ変化をする。",
+      "confusables": "get over も「乗り越える・回復する」の意味を持つが、overcome はよりフォーマルで困難・障害・感情などに使われる。get over は病気や失恋からの回復にもよく使う。",
+      "collocations": [
+        "overcome obstacles（障害を克服する）",
+        "overcome fear（恐怖を克服する）",
+        "overcome challenges（課題を乗り越える）"
+      ],
+      "trivia": "「We Shall Overcome」はアメリカの公民権運動の象徴的な歌。overcome という単語そのものに「困難に立ち向かい勝つ」という力強いニュアンスが込められている！"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 507,
+    "word": "obtain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取得する、入手する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "得る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əbˈteɪn/",
+    "syllables": "ob-tain",
+    "audioHint": "オブテイン",
+    "examples": [
+      {
+        "en": "You need to obtain a visa before traveling.",
+        "ja": "旅行の前にビザを取得する必要がある。",
+        "blank": "You need to ___ a visa before traveling.",
+        "blankAnswer": "obtain"
+      }
+    ],
+    "distractors": [
+      "確保する",
+      "克服する",
+      "発表する"
+    ],
+    "confusableSpellings": [
+      "obtian",
+      "obtein",
+      "obtaine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ob-（向かって）＋ tenere（保つ・持つ）→「手を伸ばして保持する」→取得するという意味。maintain（維持する）や contain（含む）も同じ tenere が語根。",
+      "tips": "obtain は get よりフォーマルな表現。ビジネス文書・学術文章では obtain を使う場面が多い。「obtain information（情報を入手する）」「obtain a degree（学位を取得する）」など公式な文脈で自然。",
+      "confusables": "get は日常的・口語的、obtain はフォーマル・書き言葉向き、acquire は努力や時間をかけて身に付けるニュアンス（スキルや知識に使いやすい）。",
+      "collocations": [
+        "obtain permission（許可を得る）",
+        "obtain a license（免許を取得する）",
+        "obtain data（データを取得する）"
+      ],
+      "trivia": "maintain（維持する）、contain（含む）、retain（保持する）、sustain（支える）はすべて tenere（保つ）が語根の仲間。ob-tain と合わせて「tenere ファミリー」として覚えると語彙が一気に増える！"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 508,
+    "word": "inform",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "知らせる、通知する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "情報を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈfɔːrm/",
+    "syllables": "in-form",
+    "audioHint": "インフォーム",
+    "examples": [
+      {
+        "en": "Please inform me when the package arrives.",
+        "ja": "荷物が届いたら知らせてください。",
+        "blank": "Please ___ me when the package arrives.",
+        "blankAnswer": "inform"
+      }
+    ],
+    "distractors": [
+      "解釈する",
+      "批判する",
+      "集中する"
+    ],
+    "confusableSpellings": [
+      "infrom",
+      "enfform",
+      "inforrm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 in-（中に）＋ formare（形を作る）→「心の中に形を作る」＝知識を与えるという意味に発展した。form（形）と同じ語根。",
+      "tips": "「inform 人 of/about 事柄」の形が正しい。「inform 人 that 節」も使える。× inform to 人、× inform 人 事柄 という間違いが多い。フォーマルな通知には tell より inform が適切。",
+      "confusables": "tell は日常的で口語的、inform はフォーマルで「公式に通知する」ニュアンスが強い。notify も通知するという意味だが、システムや規則に基づいた公式通知に使われることが多い。",
+      "collocations": [
+        "inform someone of the details（詳細を知らせる）",
+        "keep someone informed（最新情報を伝え続ける）",
+        "inform a decision（判断に情報を与える）"
+      ],
+      "trivia": "「インフォームドコンセント（informed consent）」という医療用語もこの単語から。「十分な情報を与えられた（informed）上での同意」という意味。information（情報）も同じ語根で、すべて「形を与える」という発想からきている！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 509,
+    "word": "ensure",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "確保する、保証する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "確実にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈʃʊər/",
+    "syllables": "en-sure",
+    "audioHint": "インシュア",
+    "examples": [
+      {
+        "en": "Please ensure that all doors are locked before leaving.",
+        "ja": "退出前に全てのドアが施錠されているか確認してください。",
+        "blank": "Please ___ that all doors are locked before leaving.",
+        "blankAnswer": "ensure"
+      }
+    ],
+    "distractors": [
+      "取得する",
+      "克服する",
+      "依頼する"
+    ],
+    "confusableSpellings": [
+      "insure",
+      "ensuer",
+      "assure"
+    ],
+    "passive": {
+      "etymology": "古フランス語 en-（〜にする）＋ seur（確かな、ラテン語 securus から）→「確かな状態にする」が語源。secure（安全な）と同じ語根。",
+      "tips": "ensure / insure / assure の3つは混同しやすい。ensure は「〜を確実にする（物事の確実性）」、insure は「保険をかける」、assure は「人を安心させる・確信させる」。ensure that S+V の形が最頻出。",
+      "confusables": "ensure（確実にする）、insure（保険をかける）、assure（保証して安心させる）は発音も似ているため要注意。ensure safety（安全を確保する）、insure a car（車に保険をかける）、assure someone（人を安心させる）で区別しよう。",
+      "collocations": [
+        "ensure safety（安全を確保する）",
+        "ensure quality（品質を保証する）",
+        "ensure that ～（〜を確実にする）"
+      ],
+      "trivia": "secure（安全な）、sure（確かな）、ensure（確実にする）はすべて「se-（離れた）＋ cura（心配）」→心配から離れている→安心という語源でつながっている。「セキュリティ」も同じ仲間！"
+    },
+    "frequency": 1300,
+    "cefr": "B2"
+  },
+  {
+    "id": 510,
+    "word": "announce",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "発表する、告知する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "宣言する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈnaʊns/",
+    "syllables": "an-nounce",
+    "audioHint": "アナウンス",
+    "examples": [
+      {
+        "en": "The company announced a new product at the event.",
+        "ja": "その会社はイベントで新製品を発表した。",
+        "blank": "The company ___ a new product at the event.",
+        "blankAnswer": "announced"
+      }
+    ],
+    "distractors": [
+      "解釈する",
+      "依頼する",
+      "集中する"
+    ],
+    "confusableSpellings": [
+      "anounce",
+      "annonce",
+      "announse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（に向かって）＋ nuntiare（知らせを伝える）→「人々に向かって知らせを伝える」が語源。nuntius（使者・メッセージ）が語根で、pronounce（発音する）とも関連。",
+      "tips": "日本語の「アナウンス」はそのままこの単語から来ているが、英語の announce は動詞のみ。「アナウンスする」→ make an announcement または announce。名詞は announcement。また announce that S+V や announce a plan のように後に内容が続く形が自然。",
+      "confusables": "declare は法律・戦争・独立など公式かつ重大な宣言に使う。announce はより広く使われ、新製品・結果・決定などを広く知らせるニュアンス。proclaim はさらに公式で権威ある宣言に使う。",
+      "collocations": [
+        "announce a decision（決定を発表する）",
+        "announce the results（結果を発表する）",
+        "announce publicly（公式に発表する）"
+      ],
+      "trivia": "「アナウンサー（announcer）」は日本語でもすっかり定着しているが、英語では TV presenter や news anchor とも言う。語根の nuntius はラテン語で「使者」。古代ローマでは重要なニュースは人が走って届けていた！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 511,
+    "word": "grant",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "与える、授与する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "認める、承認する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡrænt/",
+    "syllables": "grant",
+    "audioHint": "グラント",
+    "examples": [
+      {
+        "en": "The university granted her a full scholarship.",
+        "ja": "大学は彼女に全額奨学金を授与した。",
+        "blank": "The university ___ her a full scholarship.",
+        "blankAnswer": "granted"
+      }
+    ],
+    "distractors": [
+      "雇用する",
+      "反対する",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "grannt",
+      "graunt"
+    ],
+    "passive": {
+      "etymology": "古フランス語 granter（保証する）← ラテン語 credere（信じる）の変形。「保証を与える」が原義。",
+      "tips": "「take ~ for granted（～を当然と思う）」という熟語は頻出。grant だけで「与える」と理解していると、この熟語でつまずく日本人が多い。",
+      "confusables": "give との違い：grant はより公式・権威的な文脈で使われ、申請や許可に対して用いる。give は日常的な場面で広く使える。",
+      "collocations": [
+        "grant permission",
+        "grant a wish",
+        "take for granted"
+      ],
+      "trivia": "「グラント」は英語圏では人名としても超メジャー。アメリカ第18代大統領の名前も Ulysses S. Grant！「与えられた名前」という意味が名前に込められているのかも。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 512,
+    "word": "freeze",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "凍る、凍らせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "停止する、動けなくなる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/friːz/",
+    "syllables": "freeze",
+    "audioHint": "フリーズ",
+    "examples": [
+      {
+        "en": "The lake freezes every winter.",
+        "ja": "その湖は毎年冬に凍る。",
+        "blank": "The lake ___ every winter.",
+        "blankAnswer": "freezes"
+      }
+    ],
+    "distractors": [
+      "変化する",
+      "建設する",
+      "異なる"
+    ],
+    "confusableSpellings": [
+      "freez",
+      "frieze",
+      "freese"
+    ],
+    "passive": {
+      "etymology": "古英語 frēosan（凍る）← ゲルマン語根 *freusaną。「凍る」という物理現象そのものが語源。",
+      "tips": "活用が不規則：freeze → froze → frozen。「frozen（冷凍の）」は形容詞としてスーパーでよく使う単語。frozen food で「冷凍食品」。",
+      "confusables": "frieze（建築用語で壁の帯状装飾）と発音が同じ同音異義語。スペルが違うので注意。",
+      "collocations": [
+        "freeze to death",
+        "freeze account",
+        "brain freeze"
+      ],
+      "trivia": "コンピュータが「フリーズする」は英語でもそのまま freeze が使われる。日本語のIT用語がそのまま英語由来なのは珍しくないが、freeze はとくにそのまま輸入された好例。"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 513,
+    "word": "oppose",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "反対する、対抗する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "対立する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈpoʊz/",
+    "syllables": "op-pose",
+    "audioHint": "アポウズ",
+    "examples": [
+      {
+        "en": "Many citizens opposed the new tax policy.",
+        "ja": "多くの市民が新しい税制に反対した。",
+        "blank": "Many citizens ___ the new tax policy.",
+        "blankAnswer": "opposed"
+      }
+    ],
+    "distractors": [
+      "認める",
+      "雇用する",
+      "与える"
+    ],
+    "confusableSpellings": [
+      "opose",
+      "oppoze",
+      "oppos"
+    ],
+    "passive": {
+      "etymology": "ラテン語 opponere（対して置く）← ob-（対して）+ ponere（置く）。「向かい側に置く」が原義。",
+      "tips": "oppose は他動詞なので oppose to とは言わない。「I oppose the plan.」が正しく「I oppose to the plan.」は誤り。be opposed to という形で使う場合は to が付く点に注意。",
+      "confusables": "object to との違い：oppose はより広い反対・対立を示し、object to は特定の事柄への異議申し立てのニュアンスが強い。",
+      "collocations": [
+        "oppose a plan",
+        "strongly oppose",
+        "be opposed to"
+      ],
+      "trivia": "opposite（反対の）、opposition（反対・野党）など、同じ語根から派生した単語がたくさん。英国議会では野党のことを「the Opposition」と大文字で呼ぶのがルール。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 514,
+    "word": "differ",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "異なる、違う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意見が合わない",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɪfər/",
+    "syllables": "dif-fer",
+    "audioHint": "ディファー",
+    "examples": [
+      {
+        "en": "Our opinions differ on this matter.",
+        "ja": "この件について私たちの意見は異なる。",
+        "blank": "Our opinions ___ on this matter.",
+        "blankAnswer": "differ"
+      }
+    ],
+    "distractors": [
+      "凍る",
+      "変換する",
+      "建設する"
+    ],
+    "confusableSpellings": [
+      "difer",
+      "differe",
+      "diifer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 differre ← dis-（離れて）+ ferre（運ぶ）。「別の方向へ運ぶ」＝「違いが生まれる」が原義。",
+      "tips": "differ from で「～と異なる」。differ と different は混同しやすいが、differ は動詞、different は形容詞。「They differ.」と「They are different.」は同じ意味だが品詞が違う。",
+      "confusables": "vary との違い：differ は2つの対象間の相違、vary はひとつのものが状況によって変化するニュアンスが強い。",
+      "collocations": [
+        "differ from",
+        "differ in opinion",
+        "beg to differ"
+      ],
+      "trivia": "「beg to differ」は「あえて反論させてください」という丁寧な反論表現。ディベートやビジネスでよく使われる大人っぽいフレーズで、そのまま覚えると一目置かれる！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 515,
+    "word": "hate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "憎む、嫌う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～したくない（遺憾に思う）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/heɪt/",
+    "syllables": "hate",
+    "audioHint": "ヘイト",
+    "examples": [
+      {
+        "en": "She hates getting up early in the morning.",
+        "ja": "彼女は朝早く起きるのが大嫌いだ。",
+        "blank": "She ___ getting up early in the morning.",
+        "blankAnswer": "hates"
+      }
+    ],
+    "distractors": [
+      "強調する",
+      "認識する",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "haet",
+      "hait",
+      "hte"
+    ],
+    "passive": {
+      "etymology": "古英語 hatian（憎む）← ゲルマン語根 *hatōną。感情を表す最古の語のひとつ。",
+      "tips": "hate は後ろに動名詞(hate doing)も不定詞(hate to do)も取れるが、不定詞の場合はやや「丁寧・婉曲」なニュアンスになる。「I hate to say this, but…」は「言いたくないのですが…」という前置き表現。",
+      "confusables": "dislike との違い：hate はより強い嫌悪感、dislike はマイルドな不好意。フォーマルな場では dislike の方が適切なことが多い。",
+      "collocations": [
+        "hate crime",
+        "hate speech",
+        "I hate to say"
+      ],
+      "trivia": "SNS時代に「ヘイト」は日本語にもなったが、英語の hate は実は古代ゲルマン語から来た由緒正しい単語。「hate」の反義語 love と並んで人類最古クラスの感情語。"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 516,
+    "word": "emphasize",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "強調する、力説する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "際立たせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈemfəsaɪz/",
+    "syllables": "em-pha-size",
+    "audioHint": "エンファサイズ",
+    "examples": [
+      {
+        "en": "The teacher emphasized the importance of daily practice.",
+        "ja": "先生は毎日の練習の重要性を強調した。",
+        "blank": "The teacher ___ the importance of daily practice.",
+        "blankAnswer": "emphasized"
+      }
+    ],
+    "distractors": [
+      "憎む",
+      "推測する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "emphazise",
+      "emphisize",
+      "emphasise"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 emphasis（強調）← em-（中に）+ phainein（示す）。「内側から際立たせて示す」が原義。",
+      "tips": "アクセントは第1音節：EM-pha-size。emphasis（名詞）は EM-pha-sis。日本人はエンファ「シ」ズと平坦に読みがちだが、最初の「エ」を強く読む。英国英語では emphasise とスペルが変わる点も覚えておこう。",
+      "confusables": "stress との違い：強調する意味ではほぼ同義だが、stress は音節のアクセントにも使い、emphasize はより論理的・言語的な「強調」に使うことが多い。",
+      "collocations": [
+        "emphasize the importance",
+        "emphasize a point",
+        "strongly emphasize"
+      ],
+      "trivia": "emphasis の複数形は emphases（エンファシーズ）と変則的。ギリシャ語由来の名詞はこういった複数形になるものが多く、analysis→analyses、crisis→crises と同じパターン。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 517,
+    "word": "employ",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "雇用する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "使用する、活用する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈplɔɪ/",
+    "syllables": "em-ploy",
+    "audioHint": "インプロイ",
+    "examples": [
+      {
+        "en": "The company employs over 500 people.",
+        "ja": "その会社は500人以上を雇用している。",
+        "blank": "The company ___ over 500 people.",
+        "blankAnswer": "employs"
+      }
+    ],
+    "distractors": [
+      "反対する",
+      "与える",
+      "承認する"
+    ],
+    "confusableSpellings": [
+      "imploy",
+      "emploi",
+      "employe"
+    ],
+    "passive": {
+      "etymology": "フランス語 employer ← ラテン語 implicare（巻き込む）← im-（中に）+ plicare（折る）。「仕事の中に巻き込む」が原義。",
+      "tips": "employ は「雇う」だけでなく「（手段・方法を）使う」の意味も重要。\"employ a strategy\"（戦略を用いる）のようにフォーマルな文章でよく使われる。hire は口語的でカジュアル。",
+      "confusables": "hire との違い：hire はカジュアルな採用や一時的な雇用（hire a taxi driver など）、employ はより正式・長期的な雇用関係を指すことが多い。",
+      "collocations": [
+        "employ workers",
+        "employ a method",
+        "self-employed"
+      ],
+      "trivia": "employee（従業員）と employer（雇用者）は -ee と -er の違いで立場が逆転する。-ee は「される側」を表すフランス語由来の接尾辞で、trainee（研修生）、refugee（難民）なども同じパターン。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 518,
+    "word": "credit",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "信用する、評価する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（口座に）入金する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkredɪt/",
+    "syllables": "cred-it",
+    "audioHint": "クレディット",
+    "examples": [
+      {
+        "en": "The bank credited $500 to her account.",
+        "ja": "銀行は彼女の口座に500ドルを入金した。",
+        "blank": "The bank ___ $500 to her account.",
+        "blankAnswer": "credited"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "購入する",
+      "負債を負う"
+    ],
+    "confusableSpellings": [
+      "credet",
+      "creadit",
+      "creditt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 credere（信じる、預ける）← cred-（信頼）。「信じて預ける」が原義で、金融の「信用」概念とそのままつながる。",
+      "tips": "名詞・動詞・形容詞すべてで使われる多機能語。動詞では「credit A with B（AにBの手柄を認める）」という構文が重要。例：\"They credited him with the invention.\"",
+      "confusables": "debit との対比：credit は「入金・貸し方」、debit は「出金・借り方」。クレジットカードは将来払いで「信用」を使う＝credit、デビットカードはその場で引き落とし＝debitという違いがある。",
+      "collocations": [
+        "credit card",
+        "credit score",
+        "take credit for"
+      ],
+      "trivia": "映画のエンドロールを「クレジット」と呼ぶのは英語の credits から。「誰の貢献か（信用・功績）を示すリスト」という意味。映画の最後まで席を立たないのは、スタッフへの credit を見るためとも言える。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 519,
+    "word": "transform",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "変換する、変形させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "一変させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trænsˈfɔːrm/",
+    "syllables": "trans-form",
+    "audioHint": "トランスフォーム",
+    "examples": [
+      {
+        "en": "Exercise transformed her body completely.",
+        "ja": "運動が彼女の体を完全に変えた。",
+        "blank": "Exercise ___ her body completely.",
+        "blankAnswer": "transformed"
+      }
+    ],
+    "distractors": [
+      "凍らせる",
+      "異なる",
+      "建設する"
+    ],
+    "confusableSpellings": [
+      "transfrom",
+      "trasnsform",
+      "transforme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 transformare ← trans-（超えて・向こうへ）+ formare（形を作る）← forma（形）。「形を超えて変える」が原義。",
+      "tips": "transform は劇的・根本的な変化を表す。単なる「変える」は change や alter でもよいが、transform は「別物になるほど変わる」という強いニュアンス。ビジネス用語の「デジタルトランスフォーメーション（DX）」もこの語。",
+      "confusables": "convert との違い：convert は目的・用途・形式の変換（convert a file, convert to Christianity）、transform はより広範な根本的変化を指す。",
+      "collocations": [
+        "transform into",
+        "digital transformation",
+        "transform society"
+      ],
+      "trivia": "「トランスフォーマーズ」はまさに transform（変形する）+ -er（もの）の造語。ロボットが車などに「変形」するおもちゃだから transform が使われた。英単語の意味を知ると映画タイトルも深く読める！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 520,
+    "word": "construct",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "建設する、建造する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "組み立てる、構築する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈstrʌkt/",
+    "syllables": "con-struct",
+    "audioHint": "コンストラクト",
+    "examples": [
+      {
+        "en": "They are constructing a new bridge over the river.",
+        "ja": "彼らは川に新しい橋を建設している。",
+        "blank": "They are ___ a new bridge over the river.",
+        "blankAnswer": "constructing"
+      }
+    ],
+    "distractors": [
+      "凍る",
+      "変換する",
+      "異なる"
+    ],
+    "confusableSpellings": [
+      "constract",
+      "costrut",
+      "constuct"
+    ],
+    "passive": {
+      "etymology": "ラテン語 construere ← con-（共に・完全に）+ struere（積み上げる）。「一緒に積み上げて作る」が原義。",
+      "tips": "construct は build より書き言葉・技術的文脈で使われる。論文や報告書では construct a theory（理論を構築する）のように抽象的な意味でも頻出。build の方が日常会話向き。",
+      "confusables": "build との違い：build は最も一般的な「建てる」、construct はより計画的・大規模な建設や論理的構築に使う。また、construct は名詞で「概念・構成物」の意味にもなる。",
+      "collocations": [
+        "construct a building",
+        "construct a sentence",
+        "under construction"
+      ],
+      "trivia": "under construction（工事中）は英語でも日本語でもお馴染みの表現。Webサイトが未完成のときに使う「工事中ページ」も元をたどればこの construct から。ストラクチャー（structure）も同じ語根！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  }
+]

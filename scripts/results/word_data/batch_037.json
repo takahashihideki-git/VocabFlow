@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 721,
+    "word": "secure",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "確保する、固定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "安全にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɪˈkjʊər/",
+    "syllables": "se-cure",
+    "audioHint": "スィキュア",
+    "examples": [
+      {
+        "en": "She secured a seat on the train before it got crowded.",
+        "ja": "彼女は混む前に電車の席を確保した。",
+        "blank": "She ___ a seat on the train before it got crowded.",
+        "blankAnswer": "secured"
+      }
+    ],
+    "distractors": [
+      "逆転させる",
+      "解放する",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "secuer",
+      "secrue",
+      "sekure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'securus'（se-「離れて」+ cura「心配」）→「心配から離れた」→安全・確保の意味へ",
+      "tips": "形容詞としても使われる（a secure place「安全な場所」）ので、品詞の判断に注意。動詞では「手に入れる・固定する」、形容詞では「安全な・安定した」と訳し分けよう。",
+      "confusables": "insure（保険をかける）・ensure（確実にする）と混同しやすい。secure は「物理的に固定・確保する」ニュアンスが強い。",
+      "collocations": [
+        "secure a job（仕事を確保する）",
+        "secure a building（建物を安全にする）",
+        "secure funding（資金を確保する）"
+      ],
+      "trivia": "サイバーセキュリティ用語の「セキュリティ」もこの語源。「心配ゼロ状態」が語源というのはなんとも平和な由来！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 722,
+    "word": "specialize",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "専門とする、専攻する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "特化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈspeʃəlaɪz/",
+    "syllables": "spe-cial-ize",
+    "audioHint": "スペシャライズ",
+    "examples": [
+      {
+        "en": "He specializes in treating children with rare diseases.",
+        "ja": "彼は希少疾患を持つ子どもの治療を専門としている。",
+        "blank": "He ___ in treating children with rare diseases.",
+        "blankAnswer": "specializes"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "交渉する",
+      "支援する"
+    ],
+    "confusableSpellings": [
+      "specialise",
+      "specalize",
+      "speicalize"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'specialis'（species「種」）+ -ize（動詞化接尾辞）→「特定の種・分野に絞る」",
+      "tips": "必ず 'specialize in ～' の形で使う。前置詞 in を忘れがち！「～を専門とする」と言いたいとき 'specialize for' は誤り。",
+      "confusables": "focus on（集中する）と意味が近いが、specialize はキャリアや学問など長期的な専門性を指す。focus は一時的な注意集中にも使える。",
+      "collocations": [
+        "specialize in law（法律を専門とする）",
+        "specialize in Asian cuisine（アジア料理を専門とする）",
+        "highly specialized（高度に専門化した）"
+      ],
+      "trivia": "英国英語では 'specialise'（s表記）が標準。同じ意味なのにスペルが違うのは、-ize/-ise の米英差のせい。どちらも正解！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 723,
+    "word": "attribute",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜のせいにする、〜に帰する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（作品などを）〜の作と見なす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈtrɪbjuːt/",
+    "syllables": "at-trib-ute",
+    "audioHint": "アトリビュート",
+    "examples": [
+      {
+        "en": "She attributed her success to hard work and good luck.",
+        "ja": "彼女は成功を努力と幸運のおかげだと思った。",
+        "blank": "She ___ her success to hard work and good luck.",
+        "blankAnswer": "attributed"
+      }
+    ],
+    "distractors": [
+      "ふりをする",
+      "怖がらせる",
+      "模倣する"
+    ],
+    "confusableSpellings": [
+      "atribute",
+      "attibute",
+      "attribut"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'attribuere'（ad-「〜に向かって」+ tribuere「与える」）→「何かを誰かに割り当てる」",
+      "tips": "'attribute A to B'（AをBのせい/おかげにする）という構文を必ずセットで覚えよう。名詞の attribute（/ˈætrɪbjuːt/ アトリビュート）とはアクセント位置が違うので注意！",
+      "confusables": "ascribe（〜に帰する）もほぼ同義だが、attribute の方が日常的。blame（〜のせいにする）は否定的なニュアンスが強い。",
+      "collocations": [
+        "attribute A to B（AをBに帰する）",
+        "attribute the painting to Picasso（絵をピカソの作とする）",
+        "commonly attributed to（一般的に〜のせいとされる）"
+      ],
+      "trivia": "「アトリビュート」はゲームやプログラミングでも「属性・パラメータ」の意味で使われる。勇者のHPも英語では character attribute！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 724,
+    "word": "pretend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "ふりをする、見せかける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（子どもが）ごっこ遊びをする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈtɛnd/",
+    "syllables": "pre-tend",
+    "audioHint": "プリテンド",
+    "examples": [
+      {
+        "en": "He pretended to be asleep when his mom came in.",
+        "ja": "お母さんが入ってきたとき、彼は寝たふりをした。",
+        "blank": "He ___ to be asleep when his mom came in.",
+        "blankAnswer": "pretended"
+      }
+    ],
+    "distractors": [
+      "〜を恐れる",
+      "〜に帰する",
+      "真似をする"
+    ],
+    "confusableSpellings": [
+      "pretened",
+      "pretand",
+      "preetend"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praetendere'（prae-「前に」+ tendere「伸ばす」）→「前に何かを掲げて隠す」→見せかける",
+      "tips": "'pretend to do'（〜するふりをする）の形が基本。'pretend that ...' も可。「プリテンドする」と動詞のまま和製英語的に使うのは不自然なので注意。",
+      "confusables": "fake（偽る）は物・感情に使いやすく、pretend は行動や状態のふりをする場面が多い。act（演じる）は演技全般を指す。",
+      "collocations": [
+        "pretend to be sick（病気のふりをする）",
+        "pretend nothing happened（何もなかったふりをする）",
+        "let's pretend（ごっこしよう）"
+      ],
+      "trivia": "子どもの「ごっこ遊び」は英語で 'let's pretend' が定番フレーズ。英語圏の子どもたちが自然に使う最初の動詞のひとつ！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 725,
+    "word": "bury",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "埋める、埋葬する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情などを）隠す、抑圧する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbɛri/",
+    "syllables": "bur-y",
+    "audioHint": "ベリ",
+    "examples": [
+      {
+        "en": "The dog buried its bone under the big oak tree.",
+        "ja": "犬は大きなオークの木の下に骨を埋めた。",
+        "blank": "The dog ___ its bone under the big oak tree.",
+        "blankAnswer": "buried"
+      }
+    ],
+    "distractors": [
+      "持ち上げる",
+      "引っ張る",
+      "押しつぶす"
+    ],
+    "confusableSpellings": [
+      "bery",
+      "burry",
+      "burie"
+    ],
+    "passive": {
+      "etymology": "古英語 'byrgan'（隠す・埋める）→ ゲルマン語系の基本語。",
+      "tips": "発音が /ˈbɛri/（ベリ）なので、berry（ベリー、果実）と同音！スペルと発音の不一致に要注意。過去形は buried（語尾 y → ied）。",
+      "confusables": "hide（隠す）は地面に埋めなくてもよい。bury は土の中・雪の下など「物の中に埋没させる」イメージ。",
+      "collocations": [
+        "bury the dead（死者を埋葬する）",
+        "bury one's face in hands（顔を両手で覆う）",
+        "bury the hatchet（争いを終わらせる）"
+      ],
+      "trivia": "'bury the hatchet'（斧を埋める）は「和解する」という慣用句。ネイティブアメリカンの和平儀式で武器を土に埋めた習慣が由来とされている！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 726,
+    "word": "reverse",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "逆にする、逆転させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（車を）バックさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈvɜːrs/",
+    "syllables": "re-verse",
+    "audioHint": "リヴァース",
+    "examples": [
+      {
+        "en": "The court reversed the judge's original decision.",
+        "ja": "裁判所は裁判官の最初の判決を覆した。",
+        "blank": "The court ___ the judge's original decision.",
+        "blankAnswer": "reversed"
+      }
+    ],
+    "distractors": [
+      "確保する",
+      "変換する",
+      "修正する"
+    ],
+    "confusableSpellings": [
+      "revers",
+      "reverese",
+      "rivirse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'reversus'（re-「後ろへ」+ vertere「回す」）→「後ろへ回す」→逆転させる",
+      "tips": "動詞・名詞・形容詞すべてで使われる多機能語。'in reverse'（逆の順序で）、'reverse the car'（車をバックさせる）など文脈で使い分けよう。",
+      "confusables": "revert（元に戻る）は自動詞が多く「元の状態に戻る」意味。reverse は「方向を逆にする」こと。invert（上下を逆にする）は物理的な反転に限る。",
+      "collocations": [
+        "reverse a decision（決定を覆す）",
+        "reverse the car（車をバックさせる）",
+        "reverse the trend（傾向を逆転させる）"
+      ],
+      "trivia": "音楽の「リバース再生」も reverse から。昔のレコードを逆回転させると悪魔のメッセージが聞こえると信じた人々がいた、いわゆる『バックマスキング』騒動！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 727,
+    "word": "resist",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "抵抗する、反抗する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（誘惑などを）我慢する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈzɪst/",
+    "syllables": "re-sist",
+    "audioHint": "リジスト",
+    "examples": [
+      {
+        "en": "I couldn't resist eating the last piece of chocolate cake.",
+        "ja": "チョコレートケーキの最後の一切れを食べるのを我慢できなかった。",
+        "blank": "I couldn't ___ eating the last piece of chocolate cake.",
+        "blankAnswer": "resist"
+      }
+    ],
+    "distractors": [
+      "専門とする",
+      "支援する",
+      "協力する"
+    ],
+    "confusableSpellings": [
+      "resisit",
+      "rezist",
+      "ressist"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'resistere'（re-「反対に」+ sistere「立つ」）→「反対方向に立ちはだかる」→抵抗する",
+      "tips": "'resist doing'（〜することに抵抗する）の形に注意。'resist to do' は誤り！また「我慢できない」は 'can't resist doing' が自然な表現。",
+      "confusables": "oppose（反対する）は意見・立場への反対。resist は物理的・感情的な抵抗・我慢を指す。withstand（持ちこたえる）は外力に対して持続的に耐える意味。",
+      "collocations": [
+        "resist temptation（誘惑に抵抗する）",
+        "resist arrest（逮捕に抵抗する）",
+        "hard to resist（抗いがたい）"
+      ],
+      "trivia": "\"I can't resist it!\" は英語圏でケーキやお菓子の前で使われる最も頻繁なフレーズのひとつ。ダイエット中の人の心の声、万国共通！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 728,
+    "word": "scare",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "怖がらせる、脅かす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（受動形で）怖くなる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/skɛər/",
+    "syllables": "scare",
+    "audioHint": "スケア",
+    "examples": [
+      {
+        "en": "The loud thunder scared the little girl.",
+        "ja": "大きな雷が小さな女の子を怖がらせた。",
+        "blank": "The loud thunder ___ the little girl.",
+        "blankAnswer": "scared"
+      }
+    ],
+    "distractors": [
+      "ふりをする",
+      "〜に帰する",
+      "模倣する"
+    ],
+    "confusableSpellings": [
+      "scear",
+      "scaire",
+      "skare"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'skirra'（避ける・怖がる）→ 中英語 'skerren' → scare に変化",
+      "tips": "「怖い」と言いたいとき 'I'm scared'（私は怖い）が正しく、'I'm scary' は「私は怖い存在だ」という意味になるので注意！scary は「怖い（怖がらせるもの）」の形容詞。",
+      "confusables": "frighten（怖がらせる）はより文語的で強い恐怖。startle（びっくりさせる）は突然の驚きに限定。scare は日常的に幅広く使える。",
+      "collocations": [
+        "scare away（怖がらせて追い払う）",
+        "scare someone off（〜を怖がらせて遠ざける）",
+        "be scared of（〜が怖い）"
+      ],
+      "trivia": "ハロウィンの「スケアクロウ（scarecrow）」もこの単語が語源。直訳は「カラスを怖がらせるもの」→かかし！英語って直球すぎる。"
+    },
+    "frequency": 2000,
+    "cefr": "A2"
+  },
+  {
+    "id": 729,
+    "word": "imitate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "模倣する、真似をする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に似せて作る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪmɪteɪt/",
+    "syllables": "im-i-tate",
+    "audioHint": "イミテイト",
+    "examples": [
+      {
+        "en": "The child imitated her teacher's funny accent perfectly.",
+        "ja": "その子は先生の面白いアクセントを完璧に真似した。",
+        "blank": "The child ___ her teacher's funny accent perfectly.",
+        "blankAnswer": "imitated"
+      }
+    ],
+    "distractors": [
+      "ふりをする",
+      "怖がらせる",
+      "〜に帰する"
+    ],
+    "confusableSpellings": [
+      "imitiate",
+      "immitate",
+      "imitete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'imitari'（似せる・真似る）→「元のものに近づけようとする行為」",
+      "tips": "'imitate someone'（人を真似る）の形が基本。'imitate after'のようにafterを続けるのは誤り。名詞形 imitation（イミテーション）も日本語に入っているので覚えやすい！",
+      "confusables": "copy（コピーする）は完全な複製のニュアンスが強い。mimic（物まねする）は声や動きの模倣に使いやすい。imitate は行動・スタイル全般の模倣に幅広く使える。",
+      "collocations": [
+        "imitate a sound（音を真似る）",
+        "imitate someone's behavior（行動を模倣する）",
+        "imitate nature（自然を模倣する）"
+      ],
+      "trivia": "「イミテーションゴールド」など日本語にも定着しているが、英語の imitation gold は「偽の金」という意味でやや否定的。日本語ではお洒落な響きとして使われているギャップが面白い！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 730,
+    "word": "assist",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "手伝う、支援する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（スポーツで）アシストする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsɪst/",
+    "syllables": "as-sist",
+    "audioHint": "アシスト",
+    "examples": [
+      {
+        "en": "Nurses assist doctors during complex surgical procedures.",
+        "ja": "看護師は複雑な外科手術の際に医師を補佐する。",
+        "blank": "Nurses ___ doctors during complex surgical procedures.",
+        "blankAnswer": "assist"
+      }
+    ],
+    "distractors": [
+      "専門とする",
+      "抵抗する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "asist",
+      "assit",
+      "assistt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'assistere'（ad-「そばに」+ sistere「立つ」）→「そばに立つ」→助ける",
+      "tips": "'assist someone with something' または 'assist someone in doing' の形が正しい。'assist to do' はやや古い用法。help と違い、assist はよりフォーマルな場面向き。",
+      "confusables": "help（手伝う）は日常的・カジュアル。assist はビジネス・医療・公式文書などフォーマルな文脈に合う。support（支援する）は継続的な後ろ盾のニュアンスが強い。",
+      "collocations": [
+        "assist with a task（作業を手伝う）",
+        "assist in the investigation（捜査を支援する）",
+        "technical assistance（技術支援）"
+      ],
+      "trivia": "サッカーの「アシスト」は世界共通語だが、英語では動詞・名詞両方で使われる。NBAのアシスト王は 'assists leader' と呼ばれる。スポーツ用語として世界を旅した単語！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 731,
+    "word": "resemble",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜に似ている",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜と共通点がある",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈzɛmbəl/",
+    "syllables": "re-sem-ble",
+    "audioHint": "リゼンブル",
+    "examples": [
+      {
+        "en": "She resembles her mother in many ways.",
+        "ja": "彼女は多くの点で母親に似ている。",
+        "blank": "She ___ her mother in many ways.",
+        "blankAnswer": "resembles"
+      }
+    ],
+    "distractors": [
+      "〜を認識する",
+      "〜を推測する",
+      "〜を記憶する"
+    ],
+    "confusableSpellings": [
+      "resemble",
+      "resembel",
+      "resmemble"
+    ],
+    "passive": {
+      "etymology": "re-（再び・強意）+ 古フランス語 sembler（似ている）← ラテン語 simulare（模倣する）。'similar'や'simulate'と同じ語根を持つ。",
+      "tips": "resemble は進行形にしない状態動詞！'She is resembling her mother' は×。'She resembles her mother' と現在形で表す。また resemble は受動態もほぼ使わない点に注意。",
+      "confusables": "resemble（似ている・状態）vs. imitate（意図的に真似る・動作）。「親に似ている」は resemble、「親の話し方を真似る」は imitate が自然。",
+      "collocations": [
+        "resemble each other",
+        "closely resemble",
+        "strongly resemble"
+      ],
+      "trivia": "語根の 'sembl' はフランス語で「同時に集まる」という意味も持ち、ここから「同じように見える＝似ている」という意味が生まれた。'assemble'（集める）も同じ仲間！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 732,
+    "word": "retire",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "退職する、引退する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "引き下がる、退く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈtaɪər/",
+    "syllables": "re-tire",
+    "audioHint": "リタイア",
+    "examples": [
+      {
+        "en": "He plans to retire at the age of 65.",
+        "ja": "彼は65歳で退職する計画だ。",
+        "blank": "He plans to ___ at the age of 65.",
+        "blankAnswer": "retire"
+      }
+    ],
+    "distractors": [
+      "〜を非難する",
+      "〜に抵抗する",
+      "〜を無視する"
+    ],
+    "confusableSpellings": [
+      "retier",
+      "retiree",
+      "retyre"
+    ],
+    "passive": {
+      "etymology": "re-（後ろへ）+ tirer（引く、フランス語）。「後ろへ引く」→「社会や仕事の場から引き下がる」という意味に発展した。",
+      "tips": "日本語の「リタイア」はほぼ「仕事を辞める」意味だが、英語では retire from a race（レースを棄権する）や retire to bed（就寝する）など幅広く使う。retire from ～ で「〜から退く」の形が頻出。",
+      "confusables": "retire（自発的・年齢的に引退）vs. resign（自ら辞職する・意図的な辞職）vs. be fired（解雇される）。ニュアンスが大きく異なるので注意。",
+      "collocations": [
+        "retire from work",
+        "retire early",
+        "retire on a pension"
+      ],
+      "trivia": "フランス語の tirer は「引く」という意味で、アーチェリーで弓を引く動作からきている。'retire' はもともと「戦場から兵士を引き下げる」軍事用語だった！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 733,
+    "word": "neglect",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を怠る、放置する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "怠慢、無視（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/nɪˈɡlɛkt/",
+    "syllables": "neg-lect",
+    "audioHint": "ニグレクト",
+    "examples": [
+      {
+        "en": "She neglected her health for years.",
+        "ja": "彼女は何年も健康を怠った。",
+        "blank": "She ___ her health for years.",
+        "blankAnswer": "neglected"
+      }
+    ],
+    "distractors": [
+      "〜を批判する",
+      "〜に同意する",
+      "〜を支援する"
+    ],
+    "confusableSpellings": [
+      "neglet",
+      "neglact",
+      "neglegt"
+    ],
+    "passive": {
+      "etymology": "neg-（否定・ラテン語 nec）+ legere（選ぶ・拾い上げる）。「選ばない」→「取り上げない」→「無視する・放置する」という流れ。'collect'や'select'も同じ legere 語根。",
+      "tips": "neglect to do（〜するのを怠る）と neglect doing（〜するのをないがしろにする）はほぼ同義だが、neglect to do のほうが「うっかり忘れた」ニュアンス、neglect doing は「習慣的に怠った」ニュアンスが強い。",
+      "confusables": "neglect（放置・注意を払わない）vs. ignore（意識して無視する）vs. overlook（見落とす・見逃す）。neglect は責任の放棄感が最も強い。",
+      "collocations": [
+        "neglect one's duty",
+        "neglect to mention",
+        "child neglect"
+      ],
+      "trivia": "医療・福祉分野では 'neglect' は虐待（abuse）の一形態として定義される。「何もしない」ことが「する」よりも深刻な害を生む、という概念を法的に位置づけた言葉だ。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 734,
+    "word": "collapse",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "崩壊する、倒れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "崩壊、倒壊（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəˈlæps/",
+    "syllables": "col-lapse",
+    "audioHint": "コラプス",
+    "examples": [
+      {
+        "en": "The old bridge collapsed during the storm.",
+        "ja": "嵐の中、古い橋が崩壊した。",
+        "blank": "The old bridge ___ during the storm.",
+        "blankAnswer": "collapsed"
+      }
+    ],
+    "distractors": [
+      "〜を伸ばす",
+      "〜を持ち上げる",
+      "〜を膨張させる"
+    ],
+    "confusableSpellings": [
+      "colapse",
+      "collaps",
+      "collapsse"
+    ],
+    "passive": {
+      "etymology": "col-（共に・完全に、cum の変形）+ labi（滑る・落ちる、ラテン語）の過去分詞 lapsus から。「完全に滑り落ちる」→「崩れ落ちる」。'lapse'（時間の経過・失効）も同じ語根。",
+      "tips": "collapse は自動詞が基本で「崩れる・倒れる」。他動詞として 'collapse the tent'（テントをたたむ）という使い方もあるが、日本人は自動詞用法だけ覚えがち。また名詞としても頻繁に使われる（a collapse of talks＝交渉の決裂）。",
+      "confusables": "collapse（急激に全体が崩れる）vs. fall（落ちる・一般的）vs. break down（機能が壊れる・故障する）。感情・健康にも使え、'He collapsed from exhaustion'（疲労で倒れた）は自然。",
+      "collocations": [
+        "collapse under pressure",
+        "economic collapse",
+        "collapse into a chair"
+      ],
+      "trivia": "語源の 'lapsus' はラテン語で「滑り」を意味し、心理学用語 'Freudian lapse'（フロイト的失言）にも残っている。うっかり本音を言ってしまう「滑り」は崩落と同じ語源だ！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 735,
+    "word": "reform",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "〜を改革する、改善する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "改革、改正（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈfɔːrm/",
+    "syllables": "re-form",
+    "audioHint": "リフォーム",
+    "examples": [
+      {
+        "en": "The government aims to reform the tax system.",
+        "ja": "政府は税制を改革することを目指している。",
+        "blank": "The government aims to ___ the tax system.",
+        "blankAnswer": "reform"
+      }
+    ],
+    "distractors": [
+      "〜を廃止する",
+      "〜を制定する",
+      "〜を侵害する"
+    ],
+    "confusableSpellings": [
+      "refoem",
+      "refrom",
+      "refoarm"
+    ],
+    "passive": {
+      "etymology": "re-（再び）+ formare（形作る、ラテン語）。「再び形を作り直す」→「制度や習慣を作り直す＝改革する」。'form'、'formation'、'transform' も同じ語根。",
+      "tips": "日本語の「リフォーム」は主に建物の改修を指すが、英語の reform は社会・政治・制度の改革に使うのが中心。建物の改修は renovation や remodel を使う。日本語の使い方で覚えると大きなずれが生じるので要注意！",
+      "confusables": "reform（既存の制度を修正・改善）vs. transform（根本的に別物に変える）vs. revise（文書・計画を修正する）。スケールとニュアンスが異なる。",
+      "collocations": [
+        "reform the system",
+        "educational reform",
+        "sweeping reforms"
+      ],
+      "trivia": "宗教改革（Protestant Reformation）も同じ語。マルティン・ルターが「教会を作り直す」と宣言したのが16世紀。reform という一語が世界史を動かした！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 736,
+    "word": "protest",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜に抗議する、異議を唱える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "抗議（運動）、デモ（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/prəˈtɛst/ (verb), /ˈproʊtɛst/ (noun)",
+    "syllables": "pro-test",
+    "audioHint": "プロテスト（名詞）/ プロテスト（動詞）",
+    "examples": [
+      {
+        "en": "Students protested against the new policy.",
+        "ja": "学生たちは新しい方針に抗議した。",
+        "blank": "Students ___ against the new policy.",
+        "blankAnswer": "protested"
+      }
+    ],
+    "distractors": [
+      "〜を承認する",
+      "〜に服従する",
+      "〜を称賛する"
+    ],
+    "confusableSpellings": [
+      "protet",
+      "porttest",
+      "protestt"
+    ],
+    "passive": {
+      "etymology": "pro-（公に・前に）+ testari（証言する、ラテン語）。「公に証言する」→「公に異議を主張する」。'testify'（証言する）や'testimony'（証言）も同じ testari 語根。",
+      "tips": "動詞 protest はアメリカ英語では protest the decision のように他動詞で使えるが、イギリス英語では protest against the decision と against を伴うのが一般的。どちらも覚えておくと安心。",
+      "confusables": "protest（集団的・公的に異議を唱える）vs. complain（不満を述べる・個人的）vs. object（論理的に反論する）。温度感とスケールが異なる。",
+      "collocations": [
+        "protest against",
+        "hold a protest",
+        "peaceful protest"
+      ],
+      "trivia": "プロテスタント（Protestant）という言葉はまさにこの protest から。16世紀にカトリック教会に「公に異議を唱えた」人々がそう呼ばれた。宗教史上最大の抗議運動が語源だ！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 737,
+    "word": "owe",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "〜を借りている、〜の義務がある",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜のおかげである",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/oʊ/",
+    "syllables": "owe",
+    "audioHint": "オウ",
+    "examples": [
+      {
+        "en": "I owe him fifty dollars from last week.",
+        "ja": "先週から彼に50ドル借りている。",
+        "blank": "I ___ him fifty dollars from last week.",
+        "blankAnswer": "owe"
+      }
+    ],
+    "distractors": [
+      "〜を投資する",
+      "〜を節約する",
+      "〜を請求する"
+    ],
+    "confusableSpellings": [
+      "ow",
+      "oww",
+      "awe"
+    ],
+    "passive": {
+      "etymology": "古英語 āgan（持つ・所有する）から。もともと「自分のものとして持っている」という意味だったが、中英語期に「人に対して負債を持っている」という意味に特化した。",
+      "tips": "owe は「借りている」だけでなく、I owe my success to my teacher.（成功は先生のおかげだ）のように感謝・恩義を表す用法も重要。また進行形にしない状態動詞なので 'I am owing' は×。",
+      "confusables": "owe（負債・恩義がある・状態）vs. borrow（借りる・動作）vs. lend（貸す・動作）。'I owe you money' と 'I borrowed money from you' は意味は近いが品詞と文構造が異なる。",
+      "collocations": [
+        "owe money",
+        "owe an apology",
+        "owe it to someone"
+      ],
+      "trivia": "'You owe me one.'（借り一つだぞ）は映画やドラマで頻出のフレーズ。お金ではなく「恩」や「貸し」を意味するスラング的用法で、友人間の交渉でよく使われる！"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 738,
+    "word": "sustain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を維持する、持続させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を支える、耐える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈsteɪn/",
+    "syllables": "sus-tain",
+    "audioHint": "サステイン",
+    "examples": [
+      {
+        "en": "It is hard to sustain motivation over a long period.",
+        "ja": "長期間にわたってモチベーションを維持するのは難しい。",
+        "blank": "It is hard to ___ motivation over a long period.",
+        "blankAnswer": "sustain"
+      }
+    ],
+    "distractors": [
+      "〜を廃棄する",
+      "〜を縮小する",
+      "〜を分離する"
+    ],
+    "confusableSpellings": [
+      "sustian",
+      "sustain",
+      "sustein"
+    ],
+    "passive": {
+      "etymology": "sub-（下から・支えて）+ tenere（保つ・持つ、ラテン語）。「下から保つ」→「支え続ける・維持する」。'contain'、'retain'、'obtain' も同じ tenere 語根ファミリー。",
+      "tips": "sustainable（持続可能な）は環境文脈で超頻出。sustain 自体も法律用語で 'The court sustained the objection.'（裁判所は異議を認めた）という使い方がある。日常〜専門まで幅広い。",
+      "confusables": "sustain（継続的に維持・支える）vs. maintain（現状を保つ・管理する）vs. support（支持する・助ける）。sustain はより「力をかけて持ちこたえる」ニュアンスが強い。",
+      "collocations": [
+        "sustain growth",
+        "sustain an injury",
+        "sustain life"
+      ],
+      "trivia": "音楽用語にも sustain があり、ギターなどの音が鳴り続ける時間を指す。サステインペダル（ピアノ）も同じ語源。「音を保ち続ける」も「状態を維持する」も根っこは同じ！"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  },
+  {
+    "id": 739,
+    "word": "assign",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を割り当てる、配属する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を指定する、任命する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsaɪn/",
+    "syllables": "as-sign",
+    "audioHint": "アサイン",
+    "examples": [
+      {
+        "en": "The teacher assigned a new project to the class.",
+        "ja": "先生はクラスに新しいプロジェクトを割り当てた。",
+        "blank": "The teacher ___ a new project to the class.",
+        "blankAnswer": "assigned"
+      }
+    ],
+    "distractors": [
+      "〜を除去する",
+      "〜を延期する",
+      "〜を合併する"
+    ],
+    "confusableSpellings": [
+      "asign",
+      "assigne",
+      "assaign"
+    ],
+    "passive": {
+      "etymology": "ad-（〜へ）+ signare（印をつける、ラテン語）← signum（印・記号）。「特定の印をつけて渡す」→「役割・仕事を指定して割り当てる」。'sign'、'signal'、'signature' も同じ signum 語根。",
+      "tips": "assign A to B（AをBに割り当てる）と assign B A（BにAを割り当てる）の語順に注意。また be assigned to（〜に配属される）という受動態も非常によく使われる。",
+      "confusables": "assign（権限をもって割り当てる）vs. allocate（資源・予算を配分する）vs. appoint（役職・地位に任命する）。assign は仕事・課題・役割に最もよく使う。",
+      "collocations": [
+        "assign a task",
+        "be assigned to a team",
+        "assign responsibility"
+      ],
+      "trivia": "プログラミングでは変数に値を入れることを 'assignment'（代入）と呼ぶ。x = 5 という操作も「xに5という役割を割り当てる」という発想で、まったく同じ語源から来ている！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 740,
+    "word": "accomplish",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を成し遂げる、達成する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を完遂する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkɒmplɪʃ/",
+    "syllables": "ac-com-plish",
+    "audioHint": "アカンプリッシュ",
+    "examples": [
+      {
+        "en": "She accomplished her goal of running a marathon.",
+        "ja": "彼女はマラソンを走るという目標を達成した。",
+        "blank": "She ___ her goal of running a marathon.",
+        "blankAnswer": "accomplished"
+      }
+    ],
+    "distractors": [
+      "〜を開始する",
+      "〜を中断する",
+      "〜を変更する"
+    ],
+    "confusableSpellings": [
+      "acomplish",
+      "accomplsh",
+      "accompish"
+    ],
+    "passive": {
+      "etymology": "ad-（〜へ）+ complere（満たす・完成させる、ラテン語）。「完全に満たす」→「目標を完全に果たす」。'complete'、'complement'、'comply' も同じ complere 語根ファミリー。",
+      "tips": "accomplish は目標・使命・偉業など、努力を要する大きな達成に使う。'I accomplished my homework' はやや大げさで不自然。日常の小さなことには finish や complete のほうが自然。",
+      "confusables": "accomplish（努力して目標を達成する）vs. achieve（能力・努力で目標に到達する）vs. complete（作業・課題を終わらせる）。accomplish と achieve は似ているが、accomplish はより「偉業感」が強い。",
+      "collocations": [
+        "accomplish a goal",
+        "sense of accomplishment",
+        "accomplish nothing"
+      ],
+      "trivia": "accomplished は形容詞で「多才な・熟達した」という意味になる。'an accomplished musician'（熟練した音楽家）のように使う。動詞から形容詞になると「達成した結果として身についた」という含みが加わる！"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  }
+]

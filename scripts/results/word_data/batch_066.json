@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1301,
+    "word": "assure",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "保証する、確信させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "安心させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈʃʊər/",
+    "syllables": "as-sure",
+    "audioHint": "アシュア",
+    "examples": [
+      {
+        "en": "I can assure you that the information is correct.",
+        "ja": "その情報が正しいと保証します。",
+        "blank": "I can ___ you that the information is correct.",
+        "blankAnswer": "assure"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "伝達する",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "assuer",
+      "asure",
+      "asseure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ad-'（～へ）+ 'securus'（安全な）が起源。フランス語 'assurer' を経て英語に入った。「安全な状態へ導く」というイメージ。",
+      "tips": "assure は必ず人を目的語に取る（assure someone that …）。ensure（～を確実にする）と混同しやすいが、ensure の目的語は物事や状況。「人に保証する」なら assure、「事柄を確実にする」なら ensure を使う。",
+      "confusables": "ensure（確実にする：目的語は物事）、insure（保険をかける）と三つ巴で混乱しがち。assure だけが「人を安心させる」ニュアンスを持つ。",
+      "collocations": [
+        "assure someone that",
+        "assure someone of something",
+        "rest assured"
+      ],
+      "trivia": "「rest assured」（ご安心ください）というフレーズはビジネスメールの定番表現。assured の形容詞形は「自信に満ちた」という意味にもなり、「self-assured」で「自信家」を表す。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1302,
+    "word": "precede",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～に先行する、～の前に来る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～より重要である",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈsiːd/",
+    "syllables": "pre-cede",
+    "audioHint": "プリスィード",
+    "examples": [
+      {
+        "en": "A loud thunder preceded the heavy rain.",
+        "ja": "激しい雷が大雨の前に鳴った。",
+        "blank": "A loud thunder ___ the heavy rain.",
+        "blankAnswer": "preceded"
+      }
+    ],
+    "distractors": [
+      "追いかける",
+      "引き起こす",
+      "取り替える"
+    ],
+    "confusableSpellings": [
+      "preceed",
+      "presede",
+      "preceed"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'prae-'（前に）+ 'cedere'（行く）から。「前へ行く」が原義。proceed（前進する）、exceed（超える）など '-cede/-ceed' ファミリーの一つ。",
+      "tips": "proceed（進む）と発音が似ているため混同注意。precede は「前に位置する」、proceed は「前へ進む」。また、preceding（前の）という形容詞も頻出。",
+      "confusables": "proceed（進む・続ける）とスペルが似ているが意味が正反対に近い。precede＝「前に来る」、proceed＝「前へ進む」と整理しよう。",
+      "collocations": [
+        "precede an event",
+        "in the preceding paragraph",
+        "precede someone in rank"
+      ],
+      "trivia": "「unprecedented（前例のない）」は un-（否定）+ precedent（先例）から来ており、precede と同じ語根。ニュースで頻繁に登場する単語の親戚だと知ると覚えやすい。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1303,
+    "word": "revive",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "復活させる、よみがえらせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意識を回復する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈvaɪv/",
+    "syllables": "re-vive",
+    "audioHint": "リヴァイヴ",
+    "examples": [
+      {
+        "en": "The doctor managed to revive the patient in time.",
+        "ja": "医師はなんとか間に合って患者を蘇生させた。",
+        "blank": "The doctor managed to ___ the patient in time.",
+        "blankAnswer": "revive"
+      }
+    ],
+    "distractors": [
+      "破壊する",
+      "変形させる",
+      "分離させる"
+    ],
+    "confusableSpellings": [
+      "reviev",
+      "reviev",
+      "rivive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 're-'（再び）+ 'vivere'（生きる）から。「再び生きる」が原義。vital（活力）、vivid（鮮やかな）と同じ 'viv-' 語根ファミリー。",
+      "tips": "自動詞・他動詞両方使える。「患者が意識を取り戻した」は The patient revived.（自動詞）、「医師が患者を蘇生させた」は The doctor revived the patient.（他動詞）。日本語の「リバイバル」はこの名詞形 revival から。",
+      "confusables": "restore（元に戻す）と意味が近いが、revive は「命・活気・関心が戻る」ニュアンスで使われ、restore は「物や状態を元通りにする」場面で使われることが多い。",
+      "collocations": [
+        "revive the economy",
+        "revive a tradition",
+        "revive someone's interest"
+      ],
+      "trivia": "ゲームの「リバイブ（蘇生）」アイテムはまさにこの単語から。古代ローマ人もこの語根を使っていたと思うと、ゲームと古典ラテン語がつながっている不思議さがある。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1304,
+    "word": "compel",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "強いる、余儀なくさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情的に）引きつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpɛl/",
+    "syllables": "com-pel",
+    "audioHint": "コンペル",
+    "examples": [
+      {
+        "en": "The new law compels companies to report their emissions.",
+        "ja": "新しい法律は企業に排出量を報告することを義務づけている。",
+        "blank": "The new law ___ companies to report their emissions.",
+        "blankAnswer": "compels"
+      }
+    ],
+    "distractors": [
+      "禁止する",
+      "許可する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "compell",
+      "compeal",
+      "conpel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'com-'（共に・強意）+ 'pellere'（押す・駆り立てる）から。「強く押し進める」が原義。expel（追放する）、propel（推進する）も同じ 'pel-' 語根。",
+      "tips": "compel は「外部の力や状況が人を強制する」ニュアンスが強い。force と似ているが、compel は法律・状況・感情による強制に使いやすく、force は物理的強制にも使う。後ろは compel + 人 + to 不定詞の形。",
+      "confusables": "force（強制する）と意味は似るが、compelling（説得力のある）という形容詞形も非常に重要。「compelling argument（説得力ある議論）」のように使う場面も多い。",
+      "collocations": [
+        "compel someone to do",
+        "feel compelled to",
+        "a compelling reason"
+      ],
+      "trivia": "「compelling」は映画や小説のレビューで「compelling story（目が離せないストーリー）」として頻出。「強制する」の compel が「魅力的な」という形容詞にもなる面白い単語だ。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1305,
+    "word": "blossom",
+    "pos": "verb",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "花が咲く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（才能・関係などが）開花する、成長する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈblɒsəm/",
+    "syllables": "blos-som",
+    "audioHint": "ブロッサム",
+    "examples": [
+      {
+        "en": "The cherry trees blossom beautifully every spring.",
+        "ja": "桜の木は毎年春に美しく花を咲かせる。",
+        "blank": "The cherry trees ___ beautifully every spring.",
+        "blankAnswer": "blossom"
+      }
+    ],
+    "distractors": [
+      "枯れる",
+      "根を張る",
+      "散る"
+    ],
+    "confusableSpellings": [
+      "blosem",
+      "blosom",
+      "blossem"
+    ],
+    "passive": {
+      "etymology": "古英語 'blōstm'（花）から。ゲルマン語系の語で、bloom（咲く）と同じ語根 'blō-'（花開く）を持つ。",
+      "tips": "名詞（花・開花）と動詞（花が咲く）の両方で使える。比喩的に人や物事の成長にも使うのが英語らしいポイント。「Their friendship blossomed.（友情が育まれた）」のような表現は日本語訳がなかなか難しいが英語では自然。",
+      "confusables": "bloom（咲く）とほぼ同義だが、blossom は特に果樹・桜などの樹木の花に使いやすい。bloom はより広く花全般や比喩的成長に使われる。",
+      "collocations": [
+        "blossom into",
+        "cherry blossom",
+        "in full blossom"
+      ],
+      "trivia": "日本の「花見（hanami）」文化は英語圏でも注目され、'cherry blossom season' として広く知られる。blossom という単語が日本文化と深く結びついているのは皮肉なほど自然なことだ。"
+    },
+    "frequency": 5500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1306,
+    "word": "terrify",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "ひどく怖がらせる、恐怖に陥れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "脅かす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtɛrɪfaɪ/",
+    "syllables": "ter-ri-fy",
+    "audioHint": "テリファイ",
+    "examples": [
+      {
+        "en": "The sudden loud noise terrified the young children.",
+        "ja": "突然の大きな音が幼い子どもたちを恐怖に陥れた。",
+        "blank": "The sudden loud noise ___ the young children.",
+        "blankAnswer": "terrified"
+      }
+    ],
+    "distractors": [
+      "驚かせる",
+      "混乱させる",
+      "悲しませる"
+    ],
+    "confusableSpellings": [
+      "terrifie",
+      "terify",
+      "terrfy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'terrere'（恐怖を与える）+ '-fy'（～にする・動詞化接尾辞）から。terror（恐怖）、terrible（ひどい）と同じ 'terr-' 語根。",
+      "tips": "terrify は他動詞なので必ず目的語を取る。「I was terrified.（私はひどく怖かった）」のように受動態で使うことが非常に多い。frighten より強い恐怖を表し、scare よりフォーマルな印象がある。",
+      "confusables": "frighten（驚かせる・怖がらせる）より強度が高く、scare は日常的・軽い文脈でも使う。terrify は「心底から恐怖を与える」ニュアンスで最も強い。",
+      "collocations": [
+        "terrified of",
+        "terrifying experience",
+        "be terrified to death"
+      ],
+      "trivia": "terrorism（テロリズム）も同じ語根 'terr-'（恐怖）から来ている。つまり terrify と terrorism は「恐怖を与える」という同じDNAを持つ単語だ。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1307,
+    "word": "violate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（法律・規則などを）違反する、侵害する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（プライバシー・場所などを）侵す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈvaɪəleɪt/",
+    "syllables": "vi-o-late",
+    "audioHint": "ヴァイオレイト",
+    "examples": [
+      {
+        "en": "The company was fined for violating environmental regulations.",
+        "ja": "その会社は環境規制に違反したとして罰金を科せられた。",
+        "blank": "The company was fined for ___ environmental regulations.",
+        "blankAnswer": "violating"
+      }
+    ],
+    "distractors": [
+      "強制する",
+      "抑圧する",
+      "欺く"
+    ],
+    "confusableSpellings": [
+      "violete",
+      "violait",
+      "violaet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'violare'（力で傷つける）から。'vis'（力）と関連があり、violent（暴力的な）、violence（暴力）と同じ語族。",
+      "tips": "violate は法律・規則・権利・プライバシーなど「守られるべきもの」を破る場合に使う。break a rule と同じ意味で使えるが、violate の方がよりフォーマルで深刻なニュアンスがある。",
+      "confusables": "infinge（侵害する）と似ているが、violate はより広く「規則・人権・場所」すべてに使える。infringe は主に「著作権・特許権」などの侵害に使われることが多い。",
+      "collocations": [
+        "violate the law",
+        "violate human rights",
+        "violate privacy"
+      ],
+      "trivia": "violate の名詞形 'violation' は交通違反の切符（traffic violation）にも使われる。アメリカのドラマで警察官が「That's a violation!」と言う場面は、まさにこの使い方だ。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1308,
+    "word": "suppress",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "抑圧する、鎮圧する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・情報などを）抑える、隠す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈprɛs/",
+    "syllables": "sup-press",
+    "audioHint": "サプレス",
+    "examples": [
+      {
+        "en": "She tried hard to suppress her laughter during the meeting.",
+        "ja": "彼女は会議中に笑いを懸命にこらえた。",
+        "blank": "She tried hard to ___ her laughter during the meeting.",
+        "blankAnswer": "suppress"
+      }
+    ],
+    "distractors": [
+      "操作する",
+      "強制する",
+      "違反する"
+    ],
+    "confusableSpellings": [
+      "supress",
+      "suprese",
+      "suppres"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sub-'（下に）+ 'premere'（押す）から。「下へ押しつける」が原義。compress（圧縮する）、express（表現する）も同じ 'press' 語根を持つ。",
+      "tips": "suppress は「出てくるものを意識的に押し込める」ニュアンス。感情（suppress anger/tears）、情報（suppress evidence）、反乱（suppress a revolt）と幅広く使える。日本語で「サプレッサー（銃の消音器）」もこの語から。",
+      "confusables": "repress（抑圧する）と意味が近いが、suppress はより意識的・物理的な抑制、repress は心理学的・無意識的な抑圧（フロイト的な意味）に使われることが多い。",
+      "collocations": [
+        "suppress emotions",
+        "suppress evidence",
+        "suppress a rebellion"
+      ],
+      "trivia": "心理学用語で「suppression（抑圧）」はストレス対処法の一つとされている。suppress は自分の感情を押し込めることだが、それが健康に悪影響を与えるという研究もある。感情に正直になる大切さを思い知らせてくれる単語だ。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1309,
+    "word": "deceive",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "だます、欺く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（目・感覚などが）誤解させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈsiːv/",
+    "syllables": "de-ceive",
+    "audioHint": "ディスィーヴ",
+    "examples": [
+      {
+        "en": "He deceived his friends by pretending to be sick.",
+        "ja": "彼は病気のふりをして友人たちをだました。",
+        "blank": "He ___ his friends by pretending to be sick.",
+        "blankAnswer": "deceived"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "保証する",
+      "確信させる"
+    ],
+    "confusableSpellings": [
+      "decieve",
+      "deceve",
+      "deceave"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'de-'（離れて・否定）+ 'capere'（つかむ・取る）から。「正しい認識から引き離す」が原義。receive（受け取る）、perceive（知覚する）も同じ '-ceive' 語根。",
+      "tips": "スペルミスが非常に多い単語。'i before e except after c' のルール通り、deceive は c の後なので 'ei' の順になる（de-c-ei-ve）。deceive の名詞形は deception、形容詞形は deceptive（人を欺くような）。",
+      "confusables": "lie（嘘をつく）よりも broader な概念で、言葉だけでなく行動・見た目による欺きにも使える。cheat（ずるをする・浮気する）は規則や約束を破るニュアンスで、deceive は「信じ込ませる」ニュアンスが強い。",
+      "collocations": [
+        "deceive someone into doing",
+        "deceive yourself",
+        "be deceived by appearances"
+      ],
+      "trivia": "'appearances can be deceiving（見た目は当てにならない）' は英語の有名なことわざ。「見た目に欺かれるな」という意味で、日本語の「見かけ倒し」に近い。SNS映えの時代にますます使われる表現だ。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1310,
+    "word": "manipulate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（人・状況を）巧みに操る、操作する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（機器・データなどを）巧みに扱う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/məˈnɪpjʊleɪt/",
+    "syllables": "ma-nip-u-late",
+    "audioHint": "マニピュレイト",
+    "examples": [
+      {
+        "en": "She manipulated the situation to her advantage.",
+        "ja": "彼女は状況を自分に有利なように操った。",
+        "blank": "She ___ the situation to her advantage.",
+        "blankAnswer": "manipulated"
+      }
+    ],
+    "distractors": [
+      "抑圧する",
+      "違反する",
+      "強制する"
+    ],
+    "confusableSpellings": [
+      "manipualte",
+      "manipulait",
+      "manupulate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'manus'（手）+ 'plere'（満たす・扱う）から。「手で扱う」が原義。manual（手動の）、manuscript（手書き原稿）も同じ 'manus' 語根を持つ。",
+      "tips": "物理的な操作（機器・道具を扱う）とネガティブな人心操作の両方に使える。文脈でニュアンスが大きく変わるので注意。医療現場では「骨格を整える手技」にも使われる（spinal manipulation など）。",
+      "confusables": "control（コントロールする）は中立的だが、manipulate は「自分の利益のために巧みに操る」ネガティブなニュアンスが強い。人に対して使うと「人を駒のように扱う」という意味合いになりやすい。",
+      "collocations": [
+        "manipulate data",
+        "manipulate someone's emotions",
+        "manipulate public opinion"
+      ],
+      "trivia": "「マニピュレーター（manipulator）」はロボットアームの名称でもある。宇宙ステーションの「カナダアーム」は英語で 'Remote Manipulator System' と呼ばれており、「手で扱う」という語源がそのまま生きている。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1311,
+    "word": "starve",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "餓死する、飢えて苦しむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ひどく欲しがる、渇望する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɑːrv/",
+    "syllables": "starve",
+    "audioHint": "スターヴ",
+    "examples": [
+      {
+        "en": "Many people starved during the long drought.",
+        "ja": "長い干ばつの間、多くの人が飢えに苦しんだ。",
+        "blank": "Many people ___ during the long drought.",
+        "blankAnswer": "starved"
+      }
+    ],
+    "distractors": [
+      "震える",
+      "叫ぶ",
+      "ひそひそ話す"
+    ],
+    "confusableSpellings": [
+      "starv",
+      "stave",
+      "strarve"
+    ],
+    "passive": {
+      "etymology": "古英語 'steorfan'（死ぬ）に由来。現代では特に「飢えによる死・苦しみ」を指すように意味が narrowing（意味の縮小）した。",
+      "tips": "『I'm starving!』は日常会話で「お腹ペコペコ！」の意味でよく使われます。文字通り死ぬほど飢えているわけではなく、誇張表現として頻繁に使われる点を覚えておきましょう。",
+      "confusables": "'starve' は飢えること、'stave off' は「防ぐ・食い止める」という全く別の表現。見た目が似ているので混同しないこと。",
+      "collocations": [
+        "starve to death（餓死する）",
+        "starving children（飢えた子どもたち）",
+        "starve for attention（注目を渇望する）"
+      ],
+      "trivia": "英語で「I'm starving」と言うと大げさに聞こえますが、ネイティブは毎日のように使う超カジュアルな表現。日本語の「腹ペコ」感覚で使えます！"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1312,
+    "word": "flee",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "逃げる、逃走する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（危険・場所から）立ち去る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fliː/",
+    "syllables": "flee",
+    "audioHint": "フリー",
+    "examples": [
+      {
+        "en": "The refugees fled the war-torn country last year.",
+        "ja": "難民たちは昨年、戦争で荒廃した国から逃げた。",
+        "blank": "The refugees ___ the war-torn country last year.",
+        "blankAnswer": "fled"
+      }
+    ],
+    "distractors": [
+      "転がる",
+      "震える",
+      "餓死する"
+    ],
+    "confusableSpellings": [
+      "flea",
+      "flie",
+      "flee'd"
+    ],
+    "passive": {
+      "etymology": "古英語 'fleon'（逃げる）に由来。ゲルマン語系の語根で、ドイツ語の 'fliehen' と同源。",
+      "tips": "過去形・過去分詞はどちらも 'fled' と不規則変化します。'fly – flew – flown' と混同して 'fleed' と書く間違いが多いので注意！",
+      "confusables": "'flee'（逃げる）と 'flea'（ノミ）は同音異義語。スペルに注意。また 'escape' は手段や方法を強調するのに対し、'flee' はとにかく素早く逃げ去るニュアンス。",
+      "collocations": [
+        "flee the country（国外逃亡する）",
+        "flee from danger（危険から逃れる）",
+        "flee in panic（パニックで逃げ出す）"
+      ],
+      "trivia": "「flee market（フリーマーケット）」のスペルは実は 'flea market'（ノミの市）で、'flee' とは別単語。意外と間違える人が多い豆知識！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1313,
+    "word": "whisper",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "ささやく、ひそひそ話す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ささやき声、ひそひそ話",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɪspər/",
+    "syllables": "whis-per",
+    "audioHint": "ウィスパー",
+    "examples": [
+      {
+        "en": "She whispered his name so no one else could hear.",
+        "ja": "彼女は誰にも聞こえないように彼の名前をささやいた。",
+        "blank": "She ___ his name so no one else could hear.",
+        "blankAnswer": "whispered"
+      }
+    ],
+    "distractors": [
+      "叫ぶ",
+      "描写する",
+      "概説する"
+    ],
+    "confusableSpellings": [
+      "wisper",
+      "wisperer",
+      "whishper"
+    ],
+    "passive": {
+      "etymology": "古英語 'hwisprian' に由来。音の擬音的起源を持ち、息が漏れる「シュ」という音を語源とする。",
+      "tips": "'whisper to someone' の形が基本。'whisper someone' とは言わないので注意。また名詞としても使え、'in a whisper'（ひそひそ声で）という表現は頻出。",
+      "confusables": "'whisper'（ひそひそ話す）vs. 'murmur'（ぶつぶつ言う）vs. 'mutter'（不満をつぶやく）。どれも小声だが、whisper は意図的に声を抑える場面、murmur は柔らかく連続的な音。",
+      "collocations": [
+        "whisper to someone（人にささやく）",
+        "whisper a secret（秘密をそっと話す）",
+        "in a whisper（ひそひそ声で）"
+      ],
+      "trivia": "「ASMR」ブームの火付け役は囁き声。英語の 'whisper' はASMRコンテンツのキーワードとしても大注目で、YouTubeタイトルに頻出しています！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1314,
+    "word": "yell",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "大声で叫ぶ、怒鳴る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "叫び声",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/jɛl/",
+    "syllables": "yell",
+    "audioHint": "イェル",
+    "examples": [
+      {
+        "en": "He yelled at his team to keep moving.",
+        "ja": "彼はチームに動き続けるよう怒鳴った。",
+        "blank": "He ___ at his team to keep moving.",
+        "blankAnswer": "yelled"
+      }
+    ],
+    "distractors": [
+      "ささやく",
+      "輪郭を描く",
+      "描写する"
+    ],
+    "confusableSpellings": [
+      "yel",
+      "yeal",
+      "yells'd"
+    ],
+    "passive": {
+      "etymology": "古英語 'giellan'（叫ぶ）に由来。ゲルマン語系で、ドイツ語の 'gellen'（甲高く響く）と同源。",
+      "tips": "'yell at someone' は「人を怒鳴りつける」、'yell to someone' は「人に向かって大声で呼びかける」と前置詞で意味が変わります。日本人はここを曖昧にしがち。",
+      "confusables": "'yell'（激しく叫ぶ・怒鳴る）vs. 'shout'（大声を出す、必ずしも怒りを含まない）vs. 'scream'（恐怖・痛みで甲高く叫ぶ）。感情のニュアンスが異なります。",
+      "collocations": [
+        "yell at someone（人を怒鳴る）",
+        "yell for help（助けを求めて叫ぶ）",
+        "yell with excitement（興奮して叫ぶ）"
+      ],
+      "trivia": "アメリカの大学では応援団のことを 'yell leaders' と呼ぶことがあります。特にテキサスA&M大学では今も伝統的に使われている呼称で、ガチな役職です！"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1315,
+    "word": "deposit",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "預ける、預金する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "預金、手付金、堆積物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈpɒzɪt/",
+    "syllables": "de-pos-it",
+    "audioHint": "ディポジット",
+    "examples": [
+      {
+        "en": "I need to deposit this check before Friday.",
+        "ja": "金曜日までにこの小切手を預け入れる必要がある。",
+        "blank": "I need to ___ this check before Friday.",
+        "blankAnswer": "deposit"
+      }
+    ],
+    "distractors": [
+      "融資する",
+      "株式を発行する",
+      "破産する"
+    ],
+    "confusableSpellings": [
+      "deposite",
+      "diposit",
+      "depositt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'deponere'（下に置く）から。接頭辞 'de-'（下に・離れて）＋ 'ponere'（置く）。物理的に「置く」から転じて「預ける」の意味へ。",
+      "tips": "銀行に「預金する」は 'deposit money into an account'。逆に「引き出す」は 'withdraw'。この対義語セットは金融英語の基本なので一緒に覚えましょう。",
+      "confusables": "'deposit'（預け入れる・手付金）vs. 'invest'（投資する）。どちらも銀行関連で使われますが、deposit は元本が保護されるイメージ、invest はリスクを伴うニュアンスがあります。",
+      "collocations": [
+        "make a deposit（預金する）",
+        "security deposit（敷金）",
+        "deposit account（預金口座）"
+      ],
+      "trivia": "賃貸でよく聞く 'security deposit'（敷金）は、日本の「敷金」制度と似ていますが、欧米では退去時に全額返ってくることが多く、返金トラブルが社会問題にもなっています！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1316,
+    "word": "confine",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "閉じ込める、制限する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "限界、境界（複数形 confines）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈfaɪn/",
+    "syllables": "con-fine",
+    "audioHint": "コンファイン",
+    "examples": [
+      {
+        "en": "The patient was confined to bed for two weeks.",
+        "ja": "その患者は2週間、床に就いていなければならなかった。",
+        "blank": "The patient was ___ to bed for two weeks.",
+        "blankAnswer": "confined"
+      }
+    ],
+    "distractors": [
+      "延長する",
+      "組み立てる",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "confign",
+      "conffine",
+      "confin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'confinis'（境界を共にする）から。接頭辞 'con-'（共に・完全に）＋ 'finis'（終わり・境界）。境界の中に閉じ込めるイメージ。",
+      "tips": "'be confined to ~'（〜に閉じ込められている・限定される）というbe動詞＋受動態の形が特に頻出。'confine yourself to ~'（〜に限定する）も重要表現です。",
+      "confusables": "'confine'（範囲・空間を制限する）vs. 'restrict'（規則・条件で制限する）vs. 'limit'（数量・程度を制限する）。似ていますが confine は空間的な閉じ込めのニュアンスが強い。",
+      "collocations": [
+        "confined to a room（部屋に閉じ込められた）",
+        "within the confines of（〜の範囲内で）",
+        "confine oneself to（〜に限定する）"
+      ],
+      "trivia": "'solitary confinement'（独居拘禁）は刑務所で最も厳しい処罰のひとつ。心理学的研究では数日で幻覚が起きることもあるとされ、国際人権団体が問題視しています！"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1317,
+    "word": "swing",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "振る、揺れる、ブランコで遊ぶ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ブランコ、揺れ、変動",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/swɪŋ/",
+    "syllables": "swing",
+    "audioHint": "スウィング",
+    "examples": [
+      {
+        "en": "The children were swinging happily in the park.",
+        "ja": "子どもたちは公園でうれしそうにブランコに乗っていた。",
+        "blank": "The children were ___ happily in the park.",
+        "blankAnswer": "swinging"
+      }
+    ],
+    "distractors": [
+      "逃げる",
+      "飢えて苦しむ",
+      "叫ぶ"
+    ],
+    "confusableSpellings": [
+      "swimg",
+      "swign",
+      "swning"
+    ],
+    "passive": {
+      "etymology": "古英語 'swingan'（鞭打つ、揺れる）に由来。ゲルマン語系で、円弧を描く動作が語源の中心。",
+      "tips": "過去形・過去分詞はどちらも 'swung'（スワング）と不規則変化。'singed / sung / swung' などの -ung 系不規則動詞グループとして一緒に覚えると楽。",
+      "confusables": "'swing'（弧を描いて揺れる・振る）vs. 'sway'（ゆっくりゆらゆら揺れる）vs. 'shake'（細かく震える・振る）。動きの様子が異なります。",
+      "collocations": [
+        "swing open（勢いよく開く）",
+        "mood swing（気分の波）",
+        "in full swing（最高潮に達して）"
+      ],
+      "trivia": "ジャズ音楽の一ジャンル「スウィング」はこの単語から。1930〜40年代に大流行し、ベニー・グッドマンらが活躍。リズムが「揺れる」感じからその名がついたんです！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1318,
+    "word": "prolong",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "延長する、長引かせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（苦痛・状況などを）引き延ばす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈlɒŋ/",
+    "syllables": "pro-long",
+    "audioHint": "プロロング",
+    "examples": [
+      {
+        "en": "Surgery can prolong the patient's life by several years.",
+        "ja": "手術により患者の寿命を数年延ばすことができる。",
+        "blank": "Surgery can ___ the patient's life by several years.",
+        "blankAnswer": "prolong"
+      }
+    ],
+    "distractors": [
+      "閉じ込める",
+      "変換する",
+      "結合する"
+    ],
+    "confusableSpellings": [
+      "prolonge",
+      "proloong",
+      "prologn"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'prolongare' から。接頭辞 'pro-'（前へ・先に）＋ 'longus'（長い）。「長さを前方に伸ばす」イメージ。",
+      "tips": "'prolong' は時間的な延長に使います。物理的な長さを伸ばすときは 'extend' や 'lengthen' の方が自然。また「延長する」は 'extend' と近いですが、prolong にはやや「不必要に長引かせる」ネガティブニュアンスが含まれることもあります。",
+      "confusables": "'prolong'（時間を引き延ばす、やや否定的）vs. 'extend'（時間・空間を伸ばす、中立的）vs. 'lengthen'（物理的・時間的に長くする）。ニュアンスの差に注意。",
+      "collocations": [
+        "prolong life（寿命を延ばす）",
+        "prolong suffering（苦痛を長引かせる）",
+        "prolong a meeting（会議を延長する）"
+      ],
+      "trivia": "'pro-' が「前・先に」を意味するラテン語由来の接頭辞だと知ると、progress（前進）、project（前に投げる）、prologue（前の言葉）などが全部つながって一気に覚えやすくなります！"
+    },
+    "frequency": 5100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1319,
+    "word": "depict",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "描写する、表現する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（絵・文章などで）描く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈpɪkt/",
+    "syllables": "de-pict",
+    "audioHint": "ディピクト",
+    "examples": [
+      {
+        "en": "The painting depicts a peaceful countryside scene.",
+        "ja": "その絵は穏やかな田舎の風景を描いている。",
+        "blank": "The painting ___ a peaceful countryside scene.",
+        "blankAnswer": "depicts"
+      }
+    ],
+    "distractors": [
+      "ささやく",
+      "概説する",
+      "叫ぶ"
+    ],
+    "confusableSpellings": [
+      "depickt",
+      "depikt",
+      "dipict"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'depingere' から。接頭辞 'de-'（完全に）＋ 'pingere'（描く・塗る）。'picture'（絵）も同じ語根 'pingere' を持ちます。",
+      "tips": "'depict' は絵画・映画・文学などの芸術作品が何かを「描写する」場面で特によく使われます。日常会話より文章・批評の場面向けの語。'describe' との違いは、depict がより視覚的・具体的なイメージを伝えるニュアンス。",
+      "confusables": "'depict'（視覚的・芸術的に描写する）vs. 'describe'（言葉で説明・描写する）vs. 'portray'（人物・性格を演じる・描く）。媒体や焦点が異なります。",
+      "collocations": [
+        "depict a scene（場面を描写する）",
+        "as depicted in（〜に描かれているように）",
+        "depict characters（登場人物を描く）"
+      ],
+      "trivia": "'picture' と 'depict' は同じラテン語根 'pingere'（描く）から生まれた仲間。絵（picture）を作ることそのものが 'depict' という行為だったんです。語源を知ると単語が家族に見えてくる！"
+    },
+    "frequency": 4700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1320,
+    "word": "outline",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "概説する、要点を述べる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "輪郭、概要、アウトライン",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaʊtlaɪn/",
+    "syllables": "out-line",
+    "audioHint": "アウトライン",
+    "examples": [
+      {
+        "en": "She outlined the main goals of the project clearly.",
+        "ja": "彼女はプロジェクトの主な目標を明確に概説した。",
+        "blank": "She ___ the main goals of the project clearly.",
+        "blankAnswer": "outlined"
+      }
+    ],
+    "distractors": [
+      "描写する",
+      "ささやく",
+      "怒鳴る"
+    ],
+    "confusableSpellings": [
+      "outlin",
+      "outlline",
+      "outlyne"
+    ],
+    "passive": {
+      "etymology": "英語の 'out-'（外に・超えて）＋ 'line'（線）の複合語。物の外側を線でなぞる→全体像を示す→概要を述べる、と意味が発展した。",
+      "tips": "ライティングでは 'outline your essay before writing'（書く前にアウトラインを作る）という使い方が重要。動詞・名詞どちらでも使えるので、文脈で品詞を見極める練習をしましょう。",
+      "confusables": "'outline'（大枠・要点を示す）vs. 'summarize'（内容を短くまとめる）vs. 'describe'（詳しく説明する）。outline は詳細には踏み込まず骨格だけを示すイメージ。",
+      "collocations": [
+        "outline a plan（計画の概要を述べる）",
+        "in outline（概略的に）",
+        "brief outline（簡単な概要）"
+      ],
+      "trivia": "プレゼンや論文で使う「アウトライン」は完全に日本語にもなっていますが、英語の 'outline' には「シルエット・輪郭線」の意味もあります。犯罪現場の床にある体の輪郭線（チョークアウトライン）もこの単語！"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  }
+]

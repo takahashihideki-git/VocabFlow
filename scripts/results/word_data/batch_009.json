@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 161,
+    "word": "impact",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "影響、衝撃",
+        "pos": "noun"
+      },
+      {
+        "meaning": "影響を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪmpækt/",
+    "syllables": "im-pact",
+    "audioHint": "インパクト",
+    "examples": [
+      {
+        "en": "The new policy had a huge impact on local businesses.",
+        "ja": "新しい政策は地元のビジネスに大きな影響を与えた。",
+        "blank": "The new policy had a huge ___ on local businesses.",
+        "blankAnswer": "impact"
+      }
+    ],
+    "distractors": [
+      "意図、目的",
+      "結果、成果",
+      "過程、手続き"
+    ],
+    "confusableSpellings": [
+      "impect",
+      "inpact",
+      "impakt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'impactus'（打ち込まれた）から。接頭辞 'im-'（中に）＋語根 'pangere'（固定する・打つ）。",
+      "tips": "名詞では 'impact on ～'（～への影響）が定番。動詞としての 'impact' は日本では馴染みが薄いが、ビジネス英語では 'This will impact our sales.' のように頻繁に使われる。",
+      "confusables": "'effect'（結果としての影響）と混同しやすい。'impact' は特に大きな・直接的な影響を指すことが多く、衝撃的なニュアンスを含む。",
+      "collocations": [
+        "have an impact on",
+        "major impact",
+        "environmental impact"
+      ],
+      "trivia": "もともと「物理的な衝突」を表す言葉だったのに、今では「社会的影響」にまで使われるようになった。宇宙飛行士が帰還する際の「着水衝撃」も impact と呼ぶ！"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 162,
+    "word": "method",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "方法、手法",
+        "pos": "noun"
+      },
+      {
+        "meaning": "秩序、規則性",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmeθəd/",
+    "syllables": "meth-od",
+    "audioHint": "メソッド",
+    "examples": [
+      {
+        "en": "She used a new method to solve the math problem.",
+        "ja": "彼女は数学の問題を解くために新しい方法を使った。",
+        "blank": "She used a new ___ to solve the math problem.",
+        "blankAnswer": "method"
+      }
+    ],
+    "distractors": [
+      "理論、学説",
+      "原則、原理",
+      "目標、目的"
+    ],
+    "confusableSpellings": [
+      "methord",
+      "methode",
+      "methed"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'methodos'（追求する道）から。接頭辞 'meta-'（～に沿って）＋語根 'hodos'（道）。",
+      "tips": "'method' は具体的・体系的な手順を指す。'way' より正式で学術的なニュアンスがある。'method of doing' または 'method for doing' どちらも正しいが、'for' の方がやや目的志向。",
+      "confusables": "'way'（一般的な方法）・'means'（手段・媒体）・'approach'（取り組み方）と混同しやすい。'method' は手順が明確で体系的な場合に使う。",
+      "collocations": [
+        "scientific method",
+        "teaching method",
+        "method of payment"
+      ],
+      "trivia": "俳優の演技技法「メソッド演技」（Method Acting）もこの単語から。自分がキャラクターそのものになりきる演技法で、ジャック・ニコルソンやダニエル・デイ＝ルイスが有名！"
+    },
+    "frequency": 280,
+    "cefr": "A2"
+  },
+  {
+    "id": 163,
+    "word": "resource",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "資源、リソース",
+        "pos": "noun"
+      },
+      {
+        "meaning": "財源、手段",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈriːsɔːrs/",
+    "syllables": "re-source",
+    "audioHint": "リーソース",
+    "examples": [
+      {
+        "en": "The company lacks the resources to expand overseas.",
+        "ja": "その会社は海外展開する資源が不足している。",
+        "blank": "The company lacks the ___ to expand overseas.",
+        "blankAnswer": "resources"
+      }
+    ],
+    "distractors": [
+      "利益、収益",
+      "費用、経費",
+      "契約、合意"
+    ],
+    "confusableSpellings": [
+      "resourse",
+      "rescource",
+      "resouce"
+    ],
+    "passive": {
+      "etymology": "フランス語 'ressource' から。接頭辞 're-'（再び）＋古フランス語 'sourdre'（立ち上がる）。「再び立ち上がるもの」＝頼れるもの、という意味。",
+      "tips": "複数形 'resources' で使われることが多い。'human resources'（人的資源・人事部）は就活でよく出るので要チェック。'natural resources' は環境問題の文脈で頻出。",
+      "confusables": "'source'（源・情報源）と混同しやすい。'resource' は活用できるもの全般、'source' は何かが生まれる出所を指す。",
+      "collocations": [
+        "natural resources",
+        "human resources",
+        "limited resources"
+      ],
+      "trivia": "「HR（ヒューアール）」と略される 'Human Resources' は「人事部」のこと。英語圏では「人も会社の資源」という考え方が当たり前。日本語の「人材」に近いニュアンスがある！"
+    },
+    "frequency": 320,
+    "cefr": "B1"
+  },
+  {
+    "id": 164,
+    "word": "region",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "地域、地方",
+        "pos": "noun"
+      },
+      {
+        "meaning": "領域、範囲",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈriːdʒən/",
+    "syllables": "re-gion",
+    "audioHint": "リージョン",
+    "examples": [
+      {
+        "en": "This region is known for its beautiful mountains.",
+        "ja": "この地域は美しい山々で知られている。",
+        "blank": "This ___ is known for its beautiful mountains.",
+        "blankAnswer": "region"
+      }
+    ],
+    "distractors": [
+      "気候、天候",
+      "生態系、環境",
+      "資源、鉱物"
+    ],
+    "confusableSpellings": [
+      "regoin",
+      "regeon",
+      "reagion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'regio'（方向・地区）から。語根 'regere'（支配する・導く）と同根。「王が支配する範囲」が原義。",
+      "tips": "'area'（一般的な区域）より広い・行政的なニュアンスがある。'the region of ～'（～の領域）は「約～」という意味でも使われる（例: in the region of $100 で「約100ドル」）。",
+      "confusables": "'area'（面積・区域）・'district'（行政区）・'zone'（特定目的の区域）と比較。'region' は文化・地理的にまとまった広めのエリアを指す。",
+      "collocations": [
+        "polar region",
+        "in the region of",
+        "regional development"
+      ],
+      "trivia": "動画配信サービスで「この地域では視聴できません」と表示されるのが 'region lock'（リージョンロック）。DVDのリージョンコードもこの単語から来ている！"
+    },
+    "frequency": 400,
+    "cefr": "B1"
+  },
+  {
+    "id": 165,
+    "word": "medicine",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "薬、医薬品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "医学、医療",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmedɪsɪn/",
+    "syllables": "med-i-cine",
+    "audioHint": "メディスン",
+    "examples": [
+      {
+        "en": "The doctor gave her medicine for her cold.",
+        "ja": "医者は彼女に風邪薬を処方した。",
+        "blank": "The doctor gave her ___ for her cold.",
+        "blankAnswer": "medicine"
+      }
+    ],
+    "distractors": [
+      "治療法、療法",
+      "症状、徴候",
+      "診断、所見"
+    ],
+    "confusableSpellings": [
+      "medicin",
+      "medecine",
+      "medisine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'medicina'（医術）から。語根 'mederi'（治す）＋接尾辞 '-cina'（術・技）。'medical'・'medic' と同語源。",
+      "tips": "「薬」を表す 'medicine' は不可算名詞（数えられない）で使われることが多いが、「特定の種類の薬」なら 'a medicine' ともなる。'drug' は違法薬物のイメージも強いので文脈に注意。",
+      "confusables": "'drug'（薬・麻薬）・'medication'（処方薬・投薬）と使い分けが必要。日常会話では 'medicine' が最も無難で幅広く使える。",
+      "collocations": [
+        "take medicine",
+        "traditional medicine",
+        "study medicine"
+      ],
+      "trivia": "「良薬は口に苦し」は英語で 'Good medicine always tastes bitter.' そのまま！でも英語圏では 'Laughter is the best medicine.'（笑いが最良の薬）のほうが有名なことわざ。"
+    },
+    "frequency": 500,
+    "cefr": "A2"
+  },
+  {
+    "id": 166,
+    "word": "detail",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "詳細、細部",
+        "pos": "noun"
+      },
+      {
+        "meaning": "詳しく述べる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdiːteɪl/",
+    "syllables": "de-tail",
+    "audioHint": "ディーテイル",
+    "examples": [
+      {
+        "en": "Please send me the details of the meeting.",
+        "ja": "会議の詳細を送ってください。",
+        "blank": "Please send me the ___ of the meeting.",
+        "blankAnswer": "details"
+      }
+    ],
+    "distractors": [
+      "概要、要旨",
+      "特徴、性質",
+      "構造、仕組み"
+    ],
+    "confusableSpellings": [
+      "detale",
+      "detial",
+      "deatil"
+    ],
+    "passive": {
+      "etymology": "フランス語 'détail'（切り分けること）から。接頭辞 'de-'（分離）＋語根 'tailler'（切る）。「細かく切り分けた部分」が原義。",
+      "tips": "複数形 'details' で「詳細情報」を表すことが多い。'in detail'（詳しく）は副詞句として頻出。ビジネスメールで 'Please find the details below.'（詳細は以下をご覧ください）はよく使う表現。",
+      "confusables": "'summary'（要約）と対義語の関係。'detail' は細部、'summary' は全体をまとめたもの。'in detail' と 'in details'（×）は誤りに注意。",
+      "collocations": [
+        "in detail",
+        "pay attention to detail",
+        "for further details"
+      ],
+      "trivia": "「the devil is in the details」（細部に悪魔が宿る）という英語の慣用句がある。「小さなことを疎かにすると大きな問題になる」という意味で、ビジネスでよく引用される名言！"
+    },
+    "frequency": 420,
+    "cefr": "A2"
+  },
+  {
+    "id": 167,
+    "word": "feature",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "特徴、特性",
+        "pos": "noun"
+      },
+      {
+        "meaning": "～を特集する、目玉にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfiːtʃər/",
+    "syllables": "fea-ture",
+    "audioHint": "フィーチャー",
+    "examples": [
+      {
+        "en": "The phone's best feature is its long battery life.",
+        "ja": "そのスマホの最大の特徴は長いバッテリー寿命だ。",
+        "blank": "The phone's best ___ is its long battery life.",
+        "blankAnswer": "feature"
+      }
+    ],
+    "distractors": [
+      "機能、役割",
+      "影響、衝撃",
+      "概念、観念"
+    ],
+    "confusableSpellings": [
+      "feautre",
+      "feture",
+      "featuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'factura'（作られたもの）から。語根 'facere'（作る）と同根。'fact'・'factory' とも同語源。",
+      "tips": "動詞で使うと「～を呼び物にする」という意味になる。映画のクレジットで 'featuring ～'（～が出演）や、スマホの広告で 'new features'（新機能）は日本でも馴染みのある使い方。",
+      "confusables": "'characteristic'（特性・特有の）は形容詞にもなるが、'feature' は主に名詞。'function'（機能）は動作に焦点、'feature' は目立つ特徴に焦点がある。",
+      "collocations": [
+        "key feature",
+        "feature film",
+        "feature article"
+      ],
+      "trivia": "「フィーチャーフォン」という言葉、実は日本独自の和製英語に近い表現！英語圏では普通のスマートフォン以前の携帯を 'feature phone' と呼んでいたが、日本では独特の文脈で使われている。"
+    },
+    "frequency": 390,
+    "cefr": "B1"
+  },
+  {
+    "id": 168,
+    "word": "function",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "機能、役割",
+        "pos": "noun"
+      },
+      {
+        "meaning": "機能する、作動する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfʌŋkʃən/",
+    "syllables": "func-tion",
+    "audioHint": "ファンクション",
+    "examples": [
+      {
+        "en": "The main function of the liver is to filter blood.",
+        "ja": "肝臓の主な機能は血液をろ過することだ。",
+        "blank": "The main ___ of the liver is to filter blood.",
+        "blankAnswer": "function"
+      }
+    ],
+    "distractors": [
+      "目的、意図",
+      "影響、効果",
+      "特徴、性質"
+    ],
+    "confusableSpellings": [
+      "fuction",
+      "functon",
+      "funciton"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'functio'（実行・履行）から。語根 'fungi'（果たす・実行する）。'fungi'（キノコ）とは別単語なので注意。",
+      "tips": "名詞では 'the function of ～'（～の機能）、動詞では 'function as ～'（～として機能する）が定番パターン。プログラミングでも 'function'（関数）として使われ、ITの文脈では必須単語。",
+      "confusables": "'role'（役割・立場）は社会的・組織的な位置づけを指すが、'function' は実際に果たす動作・働きを強調する。",
+      "collocations": [
+        "main function",
+        "function as",
+        "loss of function"
+      ],
+      "trivia": "数学の「関数」も 'function' と呼ぶ。「y は x の関数である」は 'y is a function of x.' キーボードの「Fnキー」も 'Function key' の略。実は日常のあらゆるところで使われている！"
+    },
+    "frequency": 360,
+    "cefr": "B1"
+  },
+  {
+    "id": 169,
+    "word": "access",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "アクセス、利用する権利",
+        "pos": "noun"
+      },
+      {
+        "meaning": "アクセスする、接続する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈækses/",
+    "syllables": "ac-cess",
+    "audioHint": "アクセス",
+    "examples": [
+      {
+        "en": "You need a password to access this website.",
+        "ja": "このウェブサイトにアクセスするにはパスワードが必要だ。",
+        "blank": "You need a password to ___ this website.",
+        "blankAnswer": "access"
+      }
+    ],
+    "distractors": [
+      "接続、通信",
+      "処理、計算",
+      "保存、記録"
+    ],
+    "confusableSpellings": [
+      "acces",
+      "acess",
+      "accses"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'accessus'（近づくこと）から。接頭辞 'ac-'（ad- の変形：～へ）＋語根 'cedere'（行く）。「そこへ向かう」が原義。",
+      "tips": "動詞として使うとき 'access to ～' ではなく 'access ～'（前置詞不要）が正しい。日本語の「アクセスする」につられて 'access to the internet'（×動詞用法）としてしまいがちなので注意。",
+      "confusables": "'access to ～'（名詞用法）と動詞 'access ～'（前置詞なし）の区別が重要。'have access to information'（情報へのアクセス権を持つ）は名詞用法。",
+      "collocations": [
+        "have access to",
+        "internet access",
+        "gain access"
+      ],
+      "trivia": "「アクセス」は日本語でも完全に定着した外来語だが、英語では「道路の入口・進入路」という意味もある。住宅広告で 'easy access to downtown'（市街地へのアクセス良好）は道路・交通の話！"
+    },
+    "frequency": 310,
+    "cefr": "B1"
+  },
+  {
+    "id": 170,
+    "word": "item",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "品目、項目",
+        "pos": "noun"
+      },
+      {
+        "meaning": "商品、物品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaɪtəm/",
+    "syllables": "i-tem",
+    "audioHint": "アイテム",
+    "examples": [
+      {
+        "en": "Please check each item on the shopping list.",
+        "ja": "買い物リストの各項目を確認してください。",
+        "blank": "Please check each ___ on the shopping list.",
+        "blankAnswer": "item"
+      }
+    ],
+    "distractors": [
+      "道具、器具",
+      "材料、素材",
+      "習慣、慣習"
+    ],
+    "confusableSpellings": [
+      "itam",
+      "ietm",
+      "itme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'item'（同じく・また）から。リストの各項目を列挙するときに使われた副詞が名詞化したもの。「また、次に…」と並べていくイメージ。",
+      "tips": "日本語の「アイテム」はゲームや漫画のイメージが強いが、英語では「リストの項目」「レストランのメニューの一品」など非常に幅広く使われる。履歴書や議事録の箇条書き項目も 'item' と呼ぶ。",
+      "confusables": "'article'（記事・品物）と混同しやすい。'item' はリスト上の一つ、'article'（品物として）はより独立した物品を指すことが多い。",
+      "collocations": [
+        "menu item",
+        "news item",
+        "line item"
+      ],
+      "trivia": "カップルを指して 'They are an item.'（あの二人は付き合っている）という表現がある。なぜ「アイテム」がカップルの意味になるのかは謎めいているが、スラングとして英語圏で広く通じる表現！"
+    },
+    "frequency": 460,
+    "cefr": "A2"
+  },
+  {
+    "id": 171,
+    "word": "income",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "収入",
+        "pos": "noun"
+      },
+      {
+        "meaning": "所得",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnkʌm/",
+    "syllables": "in-come",
+    "audioHint": "インカム",
+    "examples": [
+      {
+        "en": "Her annual income is enough to support her family.",
+        "ja": "彼女の年収は家族を養うのに十分だ。",
+        "blank": "Her annual ___ is enough to support her family.",
+        "blankAnswer": "income"
+      }
+    ],
+    "distractors": [
+      "利益",
+      "投資",
+      "予算"
+    ],
+    "confusableSpellings": [
+      "inccome",
+      "incom",
+      "imcome"
+    ],
+    "passive": {
+      "etymology": "ラテン語由来。in-（中へ）+ come（来る）→「入ってくるもの」→収入。古英語 incuman（入る）が名詞化した形。",
+      "tips": "「salary（給与）」「wage（賃金）」「revenue（売上収益）」と混同しやすい。income は労働・投資などあらゆる源泉から「入ってくるお金」全般を指す広い概念。income tax（所得税）のように複合語でもよく使われる。",
+      "confusables": "salary は雇用契約に基づく固定給与、wage は時給・日給など労働時間に比例する報酬、income はそれら全てを含む「所得・収入」の総称。",
+      "collocations": [
+        "annual income（年収）",
+        "household income（世帯収入）",
+        "income tax（所得税）"
+      ],
+      "trivia": "英語圏では「What's your income?」と直接聞くのはかなり失礼とされる。日本でもデリケートな話題だが、英語圏では特にタブー視される文化がある。"
+    },
+    "frequency": 400,
+    "cefr": "B1"
+  },
+  {
+    "id": 172,
+    "word": "attitude",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "態度",
+        "pos": "noun"
+      },
+      {
+        "meaning": "姿勢・考え方",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈætɪtjuːd/",
+    "syllables": "at-ti-tude",
+    "audioHint": "アティテュード",
+    "examples": [
+      {
+        "en": "He has a positive attitude toward new challenges.",
+        "ja": "彼は新しい挑戦に対して前向きな姿勢を持っている。",
+        "blank": "He has a positive ___ toward new challenges.",
+        "blankAnswer": "attitude"
+      }
+    ],
+    "distractors": [
+      "意見",
+      "価値観",
+      "信念"
+    ],
+    "confusableSpellings": [
+      "attitute",
+      "atitude",
+      "attitood"
+    ],
+    "passive": {
+      "etymology": "イタリア語 attitudine（姿勢・構え）→ フランス語 attitude を経て英語へ。ラテン語 aptitudo（適性）が語源で、もともとは「体の姿勢・構え」を意味していた。",
+      "tips": "日本語で「アティチュード」と言うと音楽・ファッション的な「強さ・個性」のニュアンスが強いが、英語では「attitude problem（反抗的な態度）」のようにネガティブな文脈でも多用される。attitude toward / to ～ の前置詞の使い方に注意。",
+      "confusables": "behavior は外から見える「行動」そのもの、manner は行動の「様式・礼儀」、attitude は内面から来る「心構え・姿勢」を指す。",
+      "collocations": [
+        "positive attitude（前向きな姿勢）",
+        "attitude toward（～に対する態度）",
+        "change one's attitude（態度を変える）"
+      ],
+      "trivia": "「attitude」はもともと彫刻や絵画で人物の「ポーズ・構え」を表す美術用語だった。それが転じて「心の構え」を意味するようになったという歴史がある。"
+    },
+    "frequency": 550,
+    "cefr": "B1"
+  },
+  {
+    "id": 173,
+    "word": "site",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "場所・用地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（ウェブ）サイト",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/saɪt/",
+    "syllables": "site",
+    "audioHint": "サイト",
+    "examples": [
+      {
+        "en": "The construction site is closed on weekends.",
+        "ja": "その建設現場は週末は閉鎖されている。",
+        "blank": "The construction ___ is closed on weekends.",
+        "blankAnswer": "site"
+      }
+    ],
+    "distractors": [
+      "システム",
+      "データ",
+      "ネットワーク"
+    ],
+    "confusableSpellings": [
+      "syte",
+      "siet",
+      "cyte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 situs（位置・場所）に由来。フランス語 site を経て英語へ。「何かが置かれている場所」という根本的な意味は現代まで変わっていない。",
+      "tips": "sight（視力・見どころ）と発音が全く同じ同音異義語なので文脈で判断する必要がある。また cite（引用する）も似た発音。Web site は website と一語にする表記が現代では一般的。",
+      "confusables": "sight は「見ること・視覚・名所」、cite は動詞で「引用する・召喚する」。サイト（場所）= site、視力 = sight、引用する = cite と整理すると覚えやすい。",
+      "collocations": [
+        "construction site（建設現場）",
+        "website（ウェブサイト）",
+        "on-site（現地での）"
+      ],
+      "trivia": "「website」は1990年代初頭に誕生した比較的新しい用法。もともと site は考古学の「遺跡発掘現場」を指す言葉としても専門用語として定着しており、archaeological site（遺跡）という表現は今でも頻出。"
+    },
+    "frequency": 350,
+    "cefr": "A2"
+  },
+  {
+    "id": 174,
+    "word": "aspect",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "側面・観点",
+        "pos": "noun"
+      },
+      {
+        "meaning": "様相・局面",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæspekt/",
+    "syllables": "as-pect",
+    "audioHint": "アスペクト",
+    "examples": [
+      {
+        "en": "We need to consider every aspect of the problem.",
+        "ja": "私たちはその問題のあらゆる側面を考慮する必要がある。",
+        "blank": "We need to consider every ___ of the problem.",
+        "blankAnswer": "aspect"
+      }
+    ],
+    "distractors": [
+      "原則",
+      "概念",
+      "構造"
+    ],
+    "confusableSpellings": [
+      "aspact",
+      "asspect",
+      "aspekt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 aspectus（外見・眺め）から。ad-（～に向かって）+ specere（見る）が語源。「ある角度から見た姿」というビジュアルな原義が「側面・観点」へと発展した。",
+      "tips": "「aspect」は「面（めん）」と訳されることも多い。in every aspect of life（人生のあらゆる面で）のように、of と一緒に使うのが典型パターン。viewpoint や perspective と混同しやすいが、aspect は対象物の「側面」そのもの、viewpoint は「見る立場・視点」を指す。",
+      "confusables": "perspective は「視点・遠近法」で見る側の立場、viewpoint は「意見・見地」、aspect は対象物が持つ「側面・局面」そのもの。",
+      "collocations": [
+        "every aspect（あらゆる側面）",
+        "aspect of life（生活の側面）",
+        "key aspect（重要な側面）"
+      ],
+      "trivia": "言語学では「アスペクト（相）」という専門用語として使われ、動作の「完了・継続・反復」などを表す文法カテゴリを指す。英語の進行形も「アスペクト」の一種。"
+    },
+    "frequency": 480,
+    "cefr": "B1"
+  },
+  {
+    "id": 175,
+    "word": "structure",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "構造・仕組み",
+        "pos": "noun"
+      },
+      {
+        "meaning": "建造物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈstrʌktʃər/",
+    "syllables": "struc-ture",
+    "audioHint": "ストラクチャー",
+    "examples": [
+      {
+        "en": "The structure of this organization is very complex.",
+        "ja": "この組織の構造はとても複雑だ。",
+        "blank": "The ___ of this organization is very complex.",
+        "blankAnswer": "structure"
+      }
+    ],
+    "distractors": [
+      "概念",
+      "様相",
+      "思想"
+    ],
+    "confusableSpellings": [
+      "structur",
+      "struture",
+      "stucture"
+    ],
+    "passive": {
+      "etymology": "ラテン語 structura（建設・配置）から。struere（積み重ねる・建てる）が語根。construct（建設する）、instruct（指導する）と同じ語根を持つ。",
+      "tips": "名詞としても動詞（to structure = 構成する）としても使う。「structure your essay（エッセイを構成する）」のような動詞用法は日本人が見落としがち。また「a large structure」と言えば大きな建造物を指せる多義語。",
+      "confusables": "framework は「枠組み・体制」で比較的抽象的、system は「組織だった体系・制度」、structure はそれらの土台となる「内部の構造・配置」。",
+      "collocations": [
+        "social structure（社会構造）",
+        "sentence structure（文の構造）",
+        "organizational structure（組織構造）"
+      ],
+      "trivia": "DNA の二重らせん構造を発見したワトソンとクリックの論文タイトルは「A Structure for Deoxyribose Nucleic Acid」。この一語が生命科学の歴史を変えた。"
+    },
+    "frequency": 320,
+    "cefr": "B1"
+  },
+  {
+    "id": 176,
+    "word": "habit",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "習慣",
+        "pos": "noun"
+      },
+      {
+        "meaning": "癖",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhæbɪt/",
+    "syllables": "hab-it",
+    "audioHint": "ハビット",
+    "examples": [
+      {
+        "en": "She has a habit of checking her phone every morning.",
+        "ja": "彼女は毎朝スマホを確認する習慣がある。",
+        "blank": "She has a ___ of checking her phone every morning.",
+        "blankAnswer": "habit"
+      }
+    ],
+    "distractors": [
+      "趣味",
+      "伝統",
+      "儀式"
+    ],
+    "confusableSpellings": [
+      "habbit",
+      "habite",
+      "hapit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 habitus（状態・性質）から。habere（持つ・保つ）が語根。have や habitat（生息地）とも同じ語根を持つ。「繰り返し保ち続ける状態」が「習慣」の意味に発展。",
+      "tips": "「have a habit of doing」が最も自然なパターン。「I'm in the habit of ～」も正しいが少しフォーマル。custom（社会・文化的慣習）との区別に注意。habit は個人の癖・習慣、custom は集団・社会レベルの慣習。",
+      "confusables": "custom は文化・社会に根付いた「慣習・風習」、routine は日々の「決まった手順・ルーティン」、habit は個人の繰り返し行動の「癖・習慣」。",
+      "collocations": [
+        "bad habit（悪い習慣）",
+        "break a habit（習慣をやめる）",
+        "form a habit（習慣をつける）"
+      ],
+      "trivia": "心理学的研究によると、新しい習慣が定着するまでに平均66日かかるとされている。よく「21日」と言われるが、それは最短ケース。habit 形成の科学は「行動経済学」でも熱い研究テーマ。"
+    },
+    "frequency": 620,
+    "cefr": "A2"
+  },
+  {
+    "id": 177,
+    "word": "link",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "つながり・関連",
+        "pos": "noun"
+      },
+      {
+        "meaning": "リンク・接続",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/lɪŋk/",
+    "syllables": "link",
+    "audioHint": "リンク",
+    "examples": [
+      {
+        "en": "Click the link to visit the official website.",
+        "ja": "公式ウェブサイトにアクセスするにはリンクをクリックしてください。",
+        "blank": "Click the ___ to visit the official website.",
+        "blankAnswer": "link"
+      }
+    ],
+    "distractors": [
+      "画面",
+      "ファイル",
+      "プログラム"
+    ],
+    "confusableSpellings": [
+      "linck",
+      "llink",
+      "lynk"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 hlekkr（鎖の輪）に由来。「鎖の一輪」→「つなぐもの」→「関連・接続」と意味が広がった。chain（鎖）の比喩的発展形とも言える。",
+      "tips": "名詞・動詞の両方で使える。「link A to B（AとBをつなぐ）」「a link between A and B（AとBの関連）」が頻出パターン。IT文脈での「ハイパーリンク」の意味と、一般的な「つながり・関連」の意味を使い分けられるようにしよう。",
+      "confusables": "connection は「接続・つながり」全般、bond は感情的・化学的な「絆・結合」、link はやや具体的な「経路・経緯でつながっている関係」のニュアンス。",
+      "collocations": [
+        "link between（～の間のつながり）",
+        "missing link（失われた環）",
+        "hyperlink（ハイパーリンク）"
+      ],
+      "trivia": "「missing link（ミッシング・リンク）」はもともと進化論で人間と類人猿の間に存在するはずの「失われた環（化石）」を指す言葉。今は比喩的に「謎を解く鍵となる欠けたピース」として日常会話でも使われる。"
+    },
+    "frequency": 430,
+    "cefr": "A2"
+  },
+  {
+    "id": 178,
+    "word": "instance",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "例・事例",
+        "pos": "noun"
+      },
+      {
+        "meaning": "場合・事情",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnstəns/",
+    "syllables": "in-stance",
+    "audioHint": "インスタンス",
+    "examples": [
+      {
+        "en": "For instance, you can use recycled materials to save money.",
+        "ja": "例えば、お金を節約するためにリサイクル素材を使うことができる。",
+        "blank": "For ___, you can use recycled materials to save money.",
+        "blankAnswer": "instance"
+      }
+    ],
+    "distractors": [
+      "観点",
+      "側面",
+      "原則"
+    ],
+    "confusableSpellings": [
+      "instanse",
+      "instence",
+      "instnace"
+    ],
+    "passive": {
+      "etymology": "ラテン語 instantia（存在・切迫）から。in-（上に）+ stare（立つ）が語源。「目の前に立っている具体的なもの」→「具体的な例」という意味の流れ。",
+      "tips": "「for instance（例えば）」= for example と同義で使えるが、for instance の方がやや格式張った印象。「in this instance（この場合は）」のように「特定の状況・ケース」を指す用法も重要。プログラミング用語のインスタンスもここから来ている。",
+      "confusables": "example は最も一般的な「例」、case は「事件・ケース・場合」、instance は「具体的な一例・実例」で例示の文脈で使われることが多い。",
+      "collocations": [
+        "for instance（例えば）",
+        "in this instance（この場合）",
+        "instance of（～の例）"
+      ],
+      "trivia": "プログラミングの「インスタンス（instance）」はオブジェクト指向で「クラスの具体的な実体」を指す。これも「抽象概念を具体化した一例」という語源の意味とぴったり一致している。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 179,
+    "word": "positive",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "前向きな・積極的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "陽性の・プラスの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpɒzɪtɪv/",
+    "syllables": "pos-i-tive",
+    "audioHint": "ポジティブ",
+    "examples": [
+      {
+        "en": "Try to stay positive even when things get difficult.",
+        "ja": "物事が難しくなっても、前向きでいるようにしよう。",
+        "blank": "Try to stay ___ even when things get difficult.",
+        "blankAnswer": "positive"
+      }
+    ],
+    "distractors": [
+      "明確な",
+      "活発な",
+      "安定した"
+    ],
+    "confusableSpellings": [
+      "possitive",
+      "positiv",
+      "pozitive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 positivus（確定された・置かれた）から。ponere（置く）が語根。「確かに置かれている＝確実・明確」→「プラス・前向き」へと意味が発展。deposit（預金）や position とも同根。",
+      "tips": "日本語の「ポジティブ」はほぼ「前向き」の意味だが、英語では「positive result（陽性反応）」「positive proof（確かな証拠）」など「確実・明確」の意味も非常に重要。医療・科学文脈では「陽性」の意味で頻出。",
+      "confusables": "optimistic は「楽観的」で将来に対する見通しの良さ、cheerful は「明るく元気な」で感情・表情の様子、positive は「前向き・確実・陽性」と幅広い意味を持つ。",
+      "collocations": [
+        "positive attitude（前向きな姿勢）",
+        "positive result（陽性結果）",
+        "think positive（前向きに考える）"
+      ],
+      "trivia": "数学・電気の「プラス（+）」記号は positive の略。血液型でいう「A positive（A陽性）」もこの意味。日本でよく使われるカタカナ英語「ポジティブ思考」は英語では positive thinking と言い、1950年代のアメリカで自己啓発ブームとともに広まった。"
+    },
+    "frequency": 300,
+    "cefr": "A2"
+  },
+  {
+    "id": 180,
+    "word": "negative",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "否定的な・マイナスの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "陰性の・消極的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈneɡətɪv/",
+    "syllables": "neg-a-tive",
+    "audioHint": "ネガティブ",
+    "examples": [
+      {
+        "en": "Negative comments can really hurt someone's confidence.",
+        "ja": "否定的なコメントは誰かの自信を本当に傷つける可能性がある。",
+        "blank": "___ comments can really hurt someone's confidence.",
+        "blankAnswer": "Negative"
+      }
+    ],
+    "distractors": [
+      "危険な",
+      "不明確な",
+      "不安定な"
+    ],
+    "confusableSpellings": [
+      "negatve",
+      "negitive",
+      "negattive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 negativus（否定する）から。negare（否定する・拒む）が語根。deny（否定する）や negate（無効にする）とも同根。neg- という接頭辞が「否・無」を表す。",
+      "tips": "positive と対になる単語。「negative feedback（否定的フィードバック）」と「negative test result（陰性結果）」は全く逆のニュアンスを持つので文脈が重要。また写真フィルムの「ネガ」は negative から来ており、光の明暗が反転した状態を指す。",
+      "confusables": "pessimistic は「悲観的」で将来を悪く見がち、critical は「批判的・否定的な評価」、negative はそれら全体を包む「マイナス・否定・陰性」の広い概念。",
+      "collocations": [
+        "negative impact（悪影響）",
+        "negative thinking（否定的思考）",
+        "test negative（陰性反応が出る）"
+      ],
+      "trivia": "写真の「ネガフィルム」は英語で negative と言い、光が当たった部分が暗くなる「反転像」のこと。デジタルカメラが普及した現代では死語になりつつあるが、「ネガを残す」という表現から転じて「悪い記憶・証拠を残す」という比喩的な使い方が文学・映画でされることがある。"
+    },
+    "frequency": 310,
+    "cefr": "A2"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 321,
+    "word": "confuse",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "混乱させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "混同する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈfjuːz/",
+    "syllables": "con-fuse",
+    "audioHint": "コンフューズ",
+    "examples": [
+      {
+        "en": "The instructions confused everyone in the class.",
+        "ja": "その説明はクラスの全員を混乱させた。",
+        "blank": "The instructions ___ everyone in the class.",
+        "blankAnswer": "confused"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "思い出す",
+      "警告する"
+    ],
+    "confusableSpellings": [
+      "confuze",
+      "conffuse",
+      "confues"
+    ],
+    "passive": {
+      "etymology": "ラテン語 confundere（混ぜ合わせる）が起源。接頭辞 con-（共に）＋ fundere（注ぐ）。つまり「一緒に注いでごちゃ混ぜにする」イメージ。",
+      "tips": "confuse A with B（AをBと混同する）という構文が頻出。「I'm confused」と受動態で使うと「私は混乱している」の意味になる。confuse と confuseD を使い間違える日本人が多い。",
+      "confusables": "confuse（混乱させる・混同する）vs. disturb（邪魔する・乱す）。confuse は頭の中の整理がつかない状態、disturb は物理的・精神的な妨害に使う。",
+      "collocations": [
+        "confuse A with B",
+        "easily confused",
+        "confuse the issue"
+      ],
+      "trivia": "英語圏では試験中に「confusing question（紛らわしい問題）」という言葉が頻繁に使われる。confusing（物が主語）と confused（人が主語）の違いを覚えるのに「confusing movie = 映画が混乱させる」「confused viewer = 視聴者が混乱する」と考えると覚えやすい。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 322,
+    "word": "select",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "選ぶ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "選択する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɪˈlɛkt/",
+    "syllables": "se-lect",
+    "audioHint": "セレクト",
+    "examples": [
+      {
+        "en": "She selected the best candidate for the job.",
+        "ja": "彼女はその仕事に最適な候補者を選んだ。",
+        "blank": "She ___ the best candidate for the job.",
+        "blankAnswer": "selected"
+      }
+    ],
+    "distractors": [
+      "変化する",
+      "整理する",
+      "保存する"
+    ],
+    "confusableSpellings": [
+      "selekt",
+      "seleect",
+      "sellect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 seligere（選び取る）が起源。接頭辞 se-（分けて）＋ legere（集める・選ぶ）。「分けながら集める」→「選ぶ」というイメージ。",
+      "tips": "choose よりもやや改まったニュアンスがあり、複数の選択肢から慎重に選ぶ場面で使われる。PCやスマホの操作でも「ファイルを選択する」というときに select が自然。",
+      "confusables": "select（複数から慎重に選ぶ）vs. choose（より一般的・感覚的に選ぶ）vs. pick（気軽に・直感的に選ぶ）。フォーマルな文書では select が好まれる。",
+      "collocations": [
+        "select from",
+        "carefully selected",
+        "select a team"
+      ],
+      "trivia": "「セレクトショップ」という言葉は和製英語的ニュアンスが強いが、英語でも select shop / selected items という表現は存在する。もともとはバイヤーが「厳選した」商品を集めた店を指す。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 323,
+    "word": "evolve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "進化する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "発展する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈvɒlv/",
+    "syllables": "e-volve",
+    "audioHint": "イヴォルヴ",
+    "examples": [
+      {
+        "en": "Languages evolve over time to reflect cultural changes.",
+        "ja": "言語は文化的変化を反映して時間とともに進化する。",
+        "blank": "Languages ___ over time to reflect cultural changes.",
+        "blankAnswer": "evolve"
+      }
+    ],
+    "distractors": [
+      "選ぶ",
+      "破壊する",
+      "整理する"
+    ],
+    "confusableSpellings": [
+      "evolv",
+      "evovle",
+      "evvolve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 evolvere（展開する・転がり出る）が起源。接頭辞 e-（外へ）＋ volvere（転がる・巻く）。「内側から外へ転がり出る」→「発展・進化する」というイメージ。",
+      "tips": "evolve は自動詞・他動詞どちらにも使えるが、「進化する」という意味では自動詞用法が圧倒的に多い。Technology evolves rapidly. のように主語が物・概念でも使える。",
+      "confusables": "evolve（継続的・段階的な変化）vs. change（単純な変化）vs. develop（発展・成長）。evolve はとくに生物学・歴史・技術の文脈で「より複雑に変化する」ときに使われる。",
+      "collocations": [
+        "evolve over time",
+        "evolve into",
+        "continuously evolving"
+      ],
+      "trivia": "ポケモンの「進化」は英語でも evolve / evolution が使われているが、生物学的な進化とは異なり「変態（metamorphosis）」に近い現象。ダーウィンの進化論（Theory of Evolution）の evolve と同じ単語が使われているのはある意味すごいことかも。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 324,
+    "word": "convince",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "説得する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "確信させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈvɪns/",
+    "syllables": "con-vince",
+    "audioHint": "コンヴィンス",
+    "examples": [
+      {
+        "en": "He convinced his parents to let him study abroad.",
+        "ja": "彼は両親を説得して留学させてもらった。",
+        "blank": "He ___ his parents to let him study abroad.",
+        "blankAnswer": "convinced"
+      }
+    ],
+    "distractors": [
+      "思い出させる",
+      "混乱させる",
+      "警告する"
+    ],
+    "confusableSpellings": [
+      "convice",
+      "convinc",
+      "convinnce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 convincere（完全に打ち負かす・証明する）が起源。接頭辞 con-（完全に）＋ vincere（勝つ・征服する）。「相手を完全に打ち負かす」→「説得する・確信させる」というイメージ。",
+      "tips": "convince は convince A to do または convince A that ... の構文を取る。persuade とほぼ同義だが、convince はより「頭・論理で納得させる」ニュアンスが強く、persuade は「感情・粘り強さで説き伏せる」ニュアンスがある。",
+      "confusables": "convince（知的・論理的に確信させる）vs. persuade（説き伏せる・動機付ける）。convince someone to do は口語でよく使われるが、一部の文法家は「convince A of B / that S V」の形が正式とする。",
+      "collocations": [
+        "convince someone of",
+        "fully convinced",
+        "convince yourself"
+      ],
+      "trivia": "語根 vincere（勝つ）は victor（勝者）や victory（勝利）にも含まれている。つまり convince は「言葉で相手に勝つ」こと。ディベートやプレゼンが得意な人は convince の達人といえる。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 325,
+    "word": "recall",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "思い出す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "回収する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈkɔːl/",
+    "syllables": "re-call",
+    "audioHint": "リコール",
+    "examples": [
+      {
+        "en": "I can't recall where I left my keys.",
+        "ja": "鍵をどこに置いたか思い出せない。",
+        "blank": "I can't ___ where I left my keys.",
+        "blankAnswer": "recall"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "混乱させる",
+      "取り組む"
+    ],
+    "confusableSpellings": [
+      "recal",
+      "recalll",
+      "reccall"
+    ],
+    "passive": {
+      "etymology": "接頭辞 re-（再び・戻す）＋ call（呼ぶ）。「記憶を呼び戻す」または「物・人を呼び戻す」という二つの意味を持つ。",
+      "tips": "recall は remember よりやや改まった表現で、特に過去の出来事・情報を意識的に記憶から引き出すニュアンスがある。また、製品の「リコール（欠陥回収）」という意味でも使われるので文脈判断が大切。",
+      "confusables": "recall（意識的に記憶から引き出す）vs. remember（記憶している・思い出す）vs. remind（思い出させる）。remind は他者が主語になって「思い出させる」、recall と remember は自分が主語になって「思い出す」。",
+      "collocations": [
+        "recall a memory",
+        "product recall",
+        "recall details"
+      ],
+      "trivia": "自動車の「リコール」は日本語でもそのまま使われているが、もとは英語の recall（呼び戻す）から来ている。欠陥のある車を工場に「呼び戻す」わけだ。記憶の recall も、脳が情報を「呼び戻す」というメタファーがあって面白い。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 326,
+    "word": "destroy",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "破壊する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "壊滅させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstrɔɪ/",
+    "syllables": "de-stroy",
+    "audioHint": "ディストロイ",
+    "examples": [
+      {
+        "en": "The storm destroyed several houses in the town.",
+        "ja": "その嵐は町のいくつかの家を破壊した。",
+        "blank": "The storm ___ several houses in the town.",
+        "blankAnswer": "destroyed"
+      }
+    ],
+    "distractors": [
+      "進化する",
+      "保存する",
+      "選ぶ"
+    ],
+    "confusableSpellings": [
+      "destory",
+      "distroy",
+      "destroi"
+    ],
+    "passive": {
+      "etymology": "ラテン語 destruere（取り壊す）が起源。接頭辞 de-（下へ・分離）＋ struere（積み上げる・建てる）。「積み上げたものを崩す」→「破壊する」というイメージ。",
+      "tips": "destroy は完全な破壊を意味するため、break（壊れる）や damage（損傷する）と使い分けが必要。「建物が破壊された」は The building was destroyed、軽い損傷なら damaged を使う。",
+      "confusables": "destroy（完全に破壊する）vs. damage（部分的に損傷する）vs. ruin（台無しにする・だいなしにする）。ruinは物理的破壊に限らず「計画や評判を台無しにする」ときにも使える。",
+      "collocations": [
+        "destroy evidence",
+        "destroy a relationship",
+        "completely destroyed"
+      ],
+      "trivia": "語根 struere（積む・建てる）は construct（建設する）や structure（構造）にも含まれている。de-stroy は「建てる」の真逆の行為というわけで、接頭辞の力を実感できる単語。"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 327,
+    "word": "preserve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "保存する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "維持する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈzɜːrv/",
+    "syllables": "pre-serve",
+    "audioHint": "プリザーヴ",
+    "examples": [
+      {
+        "en": "We must preserve the natural environment for future generations.",
+        "ja": "私たちは将来の世代のために自然環境を守らなければならない。",
+        "blank": "We must ___ the natural environment for future generations.",
+        "blankAnswer": "preserve"
+      }
+    ],
+    "distractors": [
+      "破壊する",
+      "選ぶ",
+      "進化する"
+    ],
+    "confusableSpellings": [
+      "prezerve",
+      "preseve",
+      "preserv"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praeservare（前もって守る）が起源。接頭辞 pre-（前もって）＋ servare（守る・保つ）。「前もってしっかり守る」→「保存する・維持する」というイメージ。",
+      "tips": "preserve は「現状を変えずに守る・保つ」ニュアンスが強い。食品の「保存」にも文化遺産の「保護」にも使える便利な動詞。save とは異なり、preserve は状態を維持することに重点を置く。",
+      "confusables": "preserve（現状を保つ・保存する）vs. conserve（節約・自然保護）vs. protect（外部の脅威から守る）。conserve energy（エネルギーを節約する）のように、conserve はリソースの倹約ニュアンスがある。",
+      "collocations": [
+        "preserve nature",
+        "preserve food",
+        "preserve a tradition"
+      ],
+      "trivia": "「プリザーブドフラワー」の preserved は、この preserve の過去分詞。花を「保存した」状態にしたものだから preserved flower と呼ばれる。ジャムも英語では preserves（保存食）と呼ばれることがある。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 328,
+    "word": "organize",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "整理する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "組織する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɔːrɡənaɪz/",
+    "syllables": "or-ga-nize",
+    "audioHint": "オーガナイズ",
+    "examples": [
+      {
+        "en": "She organized all the files before the meeting.",
+        "ja": "彼女は会議の前に全ファイルを整理した。",
+        "blank": "She ___ all the files before the meeting.",
+        "blankAnswer": "organized"
+      }
+    ],
+    "distractors": [
+      "破壊する",
+      "保存する",
+      "進化する"
+    ],
+    "confusableSpellings": [
+      "organise",
+      "organaize",
+      "oraganize"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 organon（道具・楽器）が起源。organ（器官）と同じ語根で、「各部分を道具のように機能させる」→「組織する・整理する」というイメージ。",
+      "tips": "organize はイギリス英語では organise とスペルされることが多い（-ise が英式）。どちらも正しいが、試験によっては統一が求められる。また、「自分を整理する」は organize yourself、「イベントを企画する」は organize an event と使う。",
+      "confusables": "organize（体系的に整理・組織する）vs. arrange（配置する・手配する）vs. sort（分類する・仕分ける）。arrange は物の配置や予定の手配、sort はカテゴリ分けに重点がある。",
+      "collocations": [
+        "organize an event",
+        "organize thoughts",
+        "well-organized"
+      ],
+      "trivia": "organ（臓器・楽器）と organize は同じ語根。体の各臓器がそれぞれの役割を持って機能するように「物事を役割ごとにうまく配置する」のが organize というわけ。音楽もパートごとに整理されているから organ＝オルガンとも繋がっている。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 329,
+    "word": "warn",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "警告する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "注意する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wɔːrn/",
+    "syllables": "warn",
+    "audioHint": "ウォーン",
+    "examples": [
+      {
+        "en": "The doctor warned him to avoid eating too much sugar.",
+        "ja": "医師は彼に砂糖を取りすぎないよう警告した。",
+        "blank": "The doctor ___ him to avoid eating too much sugar.",
+        "blankAnswer": "warned"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "思い出す",
+      "混乱させる"
+    ],
+    "confusableSpellings": [
+      "wran",
+      "warnn",
+      "worn"
+    ],
+    "passive": {
+      "etymology": "古英語 warnian（注意する・用心させる）が起源。古ゲルマン語系の語根 wer-（注意する・見張る）から来ており、aware（気づいている）や beware（用心する）とも関連する。",
+      "tips": "warn は warn A about B（AにBについて警告する）または warn A to do / not to do（Aにするよう/しないよう警告する）の形をよく使う。warn と worn（wear の過去分詞）はスペルが似ているので注意。",
+      "confusables": "warn（危険・悪い結果について事前に告げる）vs. caution（慎重に注意を促す）vs. advise（アドバイスする）。warn はより緊急性・危険性が高いニュアンスで使われる。",
+      "collocations": [
+        "warn about dangers",
+        "issue a warning",
+        "warn in advance"
+      ],
+      "trivia": "aware（気づいている）・beware（用心せよ）・warn（警告する）はすべて同じ古ゲルマン語の語根から来ている単語ファミリー。BEWARE OF THE DOG（猛犬注意）の看板でよく見る beware は「be + ware（用心する）」で、warn の遠い親戚だ。"
+    },
+    "frequency": 950,
+    "cefr": "A2"
+  },
+  {
+    "id": 330,
+    "word": "address",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "取り組む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "演説する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈdrɛs/",
+    "syllables": "ad-dress",
+    "audioHint": "アドレス",
+    "examples": [
+      {
+        "en": "The government needs to address the housing shortage immediately.",
+        "ja": "政府はすぐに住宅不足の問題に取り組む必要がある。",
+        "blank": "The government needs to ___ the housing shortage immediately.",
+        "blankAnswer": "address"
+      }
+    ],
+    "distractors": [
+      "思い出す",
+      "警告する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "adress",
+      "addres",
+      "addresse"
+    ],
+    "passive": {
+      "etymology": "古フランス語 adrecier（まっすぐ向ける）が起源。接頭辞 ad-（〜へ）＋ directus（まっすぐな）。「問題や人に向かってまっすぐ対処する」→「取り組む・演説する」というイメージ。",
+      "tips": "address は名詞（住所・アドレス）として馴染みがあるが、動詞として「問題に取り組む」という意味で使えると一気に表現の幅が広がる。address an issue / problem / concern がビジネス・学術文書で非常に頻出。",
+      "confusables": "address（正面から向き合って対処する）vs. deal with（扱う・対処する）vs. tackle（積極的に取り組む）。address はフォーマルな文書・スピーチ向けで、tackle はより積極的・力強いニュアンス、deal with は日常的に広く使える。",
+      "collocations": [
+        "address a problem",
+        "address the audience",
+        "address concerns"
+      ],
+      "trivia": "メールの「アドレス」も演説の「address」も同じ単語。もともとは「向ける・宛てる」という意味から来ているので、手紙を誰かに「宛てる」のも、問題に「向き合う」のも、聴衆に「語りかける」のも、すべて同じ発想なのが面白い。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 331,
+    "word": "operate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "操作する、動かす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "手術する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɒpəreɪt/",
+    "syllables": "op-er-ate",
+    "audioHint": "オペレイト",
+    "examples": [
+      {
+        "en": "She learned how to operate the new machine quickly.",
+        "ja": "彼女はその新しい機械の操作をすぐに覚えた。",
+        "blank": "She learned how to ___ the new machine quickly.",
+        "blankAnswer": "operate"
+      }
+    ],
+    "distractors": [
+      "組み合わせる",
+      "取り囲む",
+      "延長する"
+    ],
+    "confusableSpellings": [
+      "opperate",
+      "operrate",
+      "oprate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 operari（働く）から。語根 opus/oper-（作品・仕事）＋ -ate（動詞化接尾辞）。opus はクラシック音楽の「作品番号」で使われる opus と同根。",
+      "tips": "「機械を操作する」意味では operate a machine のように目的語を取る他動詞として使う。「手術する」場合は operate on a patient のように on を使うことに注意。",
+      "confusables": "operate（機械・組織を動かす・手術する）vs. manipulate（巧みに・時に策略的に操る）。manipulate には否定的ニュアンスが含まれることが多い。",
+      "collocations": [
+        "operate a machine",
+        "operate on a patient",
+        "operate a business"
+      ],
+      "trivia": "「オペ室（手術室）」の「オペ」はまさにこの operate の短縮形！日本語に溶け込んでいる英語起源の医療用語の代表例。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 332,
+    "word": "participate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "参加する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "関与する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pɑːrˈtɪsɪpeɪt/",
+    "syllables": "par-tic-i-pate",
+    "audioHint": "パーティシペイト",
+    "examples": [
+      {
+        "en": "All students are encouraged to participate in class discussions.",
+        "ja": "全生徒がクラスでの議論に参加することを奨励されている。",
+        "blank": "All students are encouraged to ___ in class discussions.",
+        "blankAnswer": "participate"
+      }
+    ],
+    "distractors": [
+      "主催する",
+      "苦情を言う",
+      "感謝する"
+    ],
+    "confusableSpellings": [
+      "participiate",
+      "partisipate",
+      "participaite"
+    ],
+    "passive": {
+      "etymology": "ラテン語 participare から。pars/part-（部分）＋ capere（取る）＋ -ate。「部分を取る」→「分かち合う・参加する」という意味の変化。",
+      "tips": "participate は必ず participate in ～ の形で使う。✕ participate the event ではなく ○ participate in the event が正しい。join は直接目的語を取れるので join the event でOK。",
+      "confusables": "participate in（より公式・フォーマルな場面）vs. join（日常的・カジュアルな場面）。会議や研究では participate、友人グループへの合流には join が自然。",
+      "collocations": [
+        "participate in a discussion",
+        "participate in a program",
+        "actively participate"
+      ],
+      "trivia": "英語の「分詞（participle）」という文法用語も、同じ語根 pars＋capere から来ている。文の「一部を分かち合う」形だから分詞、という命名がとても論理的！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 333,
+    "word": "surround",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り囲む、囲む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "包囲する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈraʊnd/",
+    "syllables": "sur-round",
+    "audioHint": "サラウンド",
+    "examples": [
+      {
+        "en": "Tall trees surround the old house.",
+        "ja": "高い木々がその古い家を取り囲んでいる。",
+        "blank": "Tall trees ___ the old house.",
+        "blankAnswer": "surround"
+      }
+    ],
+    "distractors": [
+      "操作する",
+      "組み合わせる",
+      "流れる"
+    ],
+    "confusableSpellings": [
+      "surrround",
+      "suround",
+      "surrond"
+    ],
+    "passive": {
+      "etymology": "古フランス語 souronder（넘치다・溢れる）から。ラテン語 super-（上）＋ undare（波打つ）が語源。「波が上からあふれ囲む」イメージが元になっている。",
+      "tips": "surround は他動詞なので surround ～ with … の形が頻出。例：They surrounded the building with police.（警察が建物を包囲した）。受動態 be surrounded by/with も非常によく使われる。",
+      "confusables": "surround（物理的・比喩的に囲む）vs. enclose（壁・柵などで閉じ込めるように囲む）。enclose は「外から切り離す」ニュアンスが強い。",
+      "collocations": [
+        "be surrounded by nature",
+        "surround with guards",
+        "surrounding area"
+      ],
+      "trivia": "音響システムの「サラウンドサウンド」はまさにこの単語！音が四方八方から「囲んでくる」技術名称として完璧なネーミング。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 334,
+    "word": "flow",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "流れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "流れ、流量",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/floʊ/",
+    "syllables": "flow",
+    "audioHint": "フロウ",
+    "examples": [
+      {
+        "en": "The river flows slowly through the valley.",
+        "ja": "川は谷間をゆっくりと流れている。",
+        "blank": "The river ___ slowly through the valley.",
+        "blankAnswer": "flows"
+      }
+    ],
+    "distractors": [
+      "取り囲む",
+      "手術する",
+      "退屈させる"
+    ],
+    "confusableSpellings": [
+      "flaw",
+      "floe",
+      "flo"
+    ],
+    "passive": {
+      "etymology": "古英語 flowan（流れる）から。ゲルマン語根に由来し、flood（洪水）とも同語族。1音節の強さが「流れ」の勢いを象徴するような単語。",
+      "tips": "flow は自動詞として使うのが基本（flow through/into/out of など前置詞と組み合わせる）。名詞としても the flow of traffic（交通の流れ）のように非常に多く使われる。",
+      "confusables": "flow（液体・気体・情報などが継続的に流れる）vs. run（水が流れる：より速い・一時的なイメージ）vs. stream（細く一定方向に流れる）。",
+      "collocations": [
+        "flow freely",
+        "cash flow",
+        "traffic flow"
+      ],
+      "trivia": "心理学者チクセントミハイが提唱した「フロー状態（集中の絶頂）」も、この flow から来ている。活動に完全に没入して時を忘れる状態を「川の流れに乗るよう」に表現したもの。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 335,
+    "word": "bore",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "退屈させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "穴を開ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɔːr/",
+    "syllables": "bore",
+    "audioHint": "ボー",
+    "examples": [
+      {
+        "en": "The long lecture bored most of the students.",
+        "ja": "長い講義はほとんどの学生を退屈させた。",
+        "blank": "The long lecture ___ most of the students.",
+        "blankAnswer": "bored"
+      }
+    ],
+    "distractors": [
+      "参加する",
+      "感謝する",
+      "不満を言う"
+    ],
+    "confusableSpellings": [
+      "boar",
+      "boare",
+      "bor"
+    ],
+    "passive": {
+      "etymology": "「退屈させる」の bore は18世紀に突然現れた語で、語源は不明とされる。「穴を開ける」の bore は古英語 borian（掘る）から。同じスペルで全く異なる語源を持つ面白いケース。",
+      "tips": "日本人が最も間違えやすいのが bore と bored の使い分け。「人が退屈している」→ I am bored.（私は退屈している）、「物・人が退屈させる」→ The movie is boring.（映画が退屈だ）。感情を引き起こす動詞は -ed（人の状態）と -ing（原因）を区別すること。",
+      "confusables": "bore（退屈させる）vs. tire（疲れさせる・うんざりさせる）。bore はつまらなさから、tire は疲労感やしつこさからくる嫌気のニュアンス。",
+      "collocations": [
+        "bore someone to tears",
+        "feel bored",
+        "a boring speech"
+      ],
+      "trivia": "「bore to tears（涙が出るほど退屈させる）」という表現がある。退屈が極まると泣くという発想が面白い。同様に「bore to death（退屈死させる）」も慣用句として使われる。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 336,
+    "word": "complain",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "不満を言う、苦情を言う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "訴える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpleɪn/",
+    "syllables": "com-plain",
+    "audioHint": "コンプレイン",
+    "examples": [
+      {
+        "en": "She always complains about the cold weather.",
+        "ja": "彼女はいつも寒い天気について不満を言う。",
+        "blank": "She always ___ about the cold weather.",
+        "blankAnswer": "complains"
+      }
+    ],
+    "distractors": [
+      "感謝する",
+      "退屈させる",
+      "主催する"
+    ],
+    "confusableSpellings": [
+      "complian",
+      "complane",
+      "complaine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 plangere（胸を叩く・嘆く）に由来。com-（強調の接頭辞）＋ plangere → 「強く嘆く」という原義。英語の plague（疫病・苦しめる）とも遠い親戚。",
+      "tips": "complain は自動詞なので前置詞が必要。complain about（～について不満を言う）、complain to（～に訴える）の形が基本。✕ complain the noise ではなく ○ complain about the noise。",
+      "confusables": "complain（口頭・書面で不満を表明する）vs. grumble（ぶつぶつとぼやく・低音で不満をこぼす）vs. whine（子どもっぽく甲高い声で愚痴る）。grumble と whine はより口語的でネガティブなニュアンスが強い。",
+      "collocations": [
+        "complain about a problem",
+        "complain to the manager",
+        "file a complaint"
+      ],
+      "trivia": "英語圏では「complaining weather（天気の話で愚痴る）」がイギリス人の国民的会話と言われるほど。特にイギリス英語では complain が日常の潤滑油的な役割を果たしている、というジョークも存在する。"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  },
+  {
+    "id": 337,
+    "word": "host",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "主催する、もてなす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "主人、ホスト",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/hoʊst/",
+    "syllables": "host",
+    "audioHint": "ホウスト",
+    "examples": [
+      {
+        "en": "Japan will host the international conference next year.",
+        "ja": "日本は来年その国際会議を主催する。",
+        "blank": "Japan will ___ the international conference next year.",
+        "blankAnswer": "host"
+      }
+    ],
+    "distractors": [
+      "参加する",
+      "感謝する",
+      "不満を言う"
+    ],
+    "confusableSpellings": [
+      "hoast",
+      "hose",
+      "hoste"
+    ],
+    "passive": {
+      "etymology": "ラテン語 hospes（客人・主人）から。語根 hos-（客・異邦人）は hotel（ホテル）、hospital（病院）、hospitality（おもてなし）とも同語族。「主人であり客でもある」という双方向の語根が面白い。",
+      "tips": "host は動詞として「イベント・番組を主催・司会する」意味でよく使われる。host a party / host a TV show のように直接目的語を取る他動詞。「テレビ司会者」も a TV host という。",
+      "confusables": "host（主催者・もてなす側）vs. guest（招かれる客側）。また hostess は女性の主催者や客室乗務員（旧称）を指す。",
+      "collocations": [
+        "host an event",
+        "host country",
+        "game show host"
+      ],
+      "trivia": "コンピュータ用語の「ホストサーバー」もこの host から。データを「もてなす（格納・提供する）」サーバーという発想がネーミングのもと。ホテルも病院も元は「旅人をもてなす場所」という意味で、みんな同じ語根から生まれた兄弟語！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 338,
+    "word": "combine",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "組み合わせる、結合する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "コンバイン（農業機械）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəmˈbaɪn/",
+    "syllables": "com-bine",
+    "audioHint": "コンバイン",
+    "examples": [
+      {
+        "en": "Combine flour and eggs to make the dough.",
+        "ja": "小麦粉と卵を組み合わせて生地を作りなさい。",
+        "blank": "___ flour and eggs to make the dough.",
+        "blankAnswer": "Combine"
+      }
+    ],
+    "distractors": [
+      "取り囲む",
+      "延長する",
+      "操作する"
+    ],
+    "confusableSpellings": [
+      "combaine",
+      "combin",
+      "conbine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 combinare から。com-（共に）＋ bini（2つずつ・対の）→「2つを共にまとめる」が原義。binary（二進法）とも同語根。",
+      "tips": "combine A with B（AとBを組み合わせる）、combine A and B の2パターンが頻出。「複数のものを1つにまとめる」ときは combine、「別々のものを並べる」だけなら mix の方が自然なことも。",
+      "confusables": "combine（異なる要素を統合して1つにする）vs. mix（均一に混ぜる）vs. merge（組織・データが1つに融合する）。combine はそれぞれの要素が識別できる場合にも使えるが、mix は均質化のニュアンスが強い。",
+      "collocations": [
+        "combine efforts",
+        "combine with",
+        "combined effect"
+      ],
+      "trivia": "農業用の「コンバイン（刈り取り機）」は、刈り取り・脱穀・選別を「組み合わせた（combine）」機械だからその名がついた。機能を統合したから combine harvester→コンバインという命名、実に直球！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 339,
+    "word": "extend",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "延長する、拡張する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "伸ばす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈstend/",
+    "syllables": "ex-tend",
+    "audioHint": "イクステンド",
+    "examples": [
+      {
+        "en": "The company decided to extend the deadline by one week.",
+        "ja": "会社は締め切りを1週間延長することにした。",
+        "blank": "The company decided to ___ the deadline by one week.",
+        "blankAnswer": "extend"
+      }
+    ],
+    "distractors": [
+      "組み合わせる",
+      "操作する",
+      "取り囲む"
+    ],
+    "confusableSpellings": [
+      "extand",
+      "exstend",
+      "entend"
+    ],
+    "passive": {
+      "etymology": "ラテン語 extendere から。ex-（外へ）＋ tendere（伸ばす）→「外へ伸ばす」が原義。tend（向かう）、tension（緊張）、tent（テント）とも同語族。tendere は「張る・伸ばす」という共通イメージを持つ。",
+      "tips": "extend は「時間・空間・範囲を延ばす」意味。extend a visa（ビザを延長する）/ extend a road（道路を延長する）のように具体的な対象と共に使う。また extend an invitation（招待を申し出る）のように抽象的な使い方もある。",
+      "confusables": "extend（元のものをさらに伸ばす・広げる）vs. expand（全方向に拡大する）vs. stretch（弾力的に引き伸ばす）。extend は一方向的、expand はより多方向的な広がりを指すことが多い。",
+      "collocations": [
+        "extend a deadline",
+        "extend an offer",
+        "extended family"
+      ],
+      "trivia": "「extended family（拡大家族）」という言葉も extend から。核家族（nuclear family）に対して、祖父母・叔父叔母まで「伸ばした」家族を指す。日本の大家族制度に近い概念で、英語でこれを言いたいときにすぐ使える表現！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 340,
+    "word": "appreciate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "感謝する、ありがたく思う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "正しく理解する、真価を認める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈpriːʃieɪt/",
+    "syllables": "ap-pre-ci-ate",
+    "audioHint": "アプリーシエイト",
+    "examples": [
+      {
+        "en": "I really appreciate your help with this project.",
+        "ja": "このプロジェクトへのあなたの助けに本当に感謝します。",
+        "blank": "I really ___ your help with this project.",
+        "blankAnswer": "appreciate"
+      }
+    ],
+    "distractors": [
+      "不満を言う",
+      "退屈させる",
+      "参加する"
+    ],
+    "confusableSpellings": [
+      "apreciate",
+      "appreiciate",
+      "apprecieate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 appretiare（価値を付ける）から。ad-（～に向けて）＋ pretium（価格・価値）→「価値を認める方向に向かう」が原義。price（値段）、precious（貴重な）とも同語族。",
+      "tips": "appreciate は「感謝する」の意味で使うとき、後ろに名詞または動名詞（-ing）を取る。✕ I appreciate that you come ではなく ○ I appreciate your coming / I appreciate it が自然。また「値段が上がる」という自動詞の意味もあり、The house appreciated in value.（家の価値が上がった）のように使う。",
+      "confusables": "appreciate（深く・心から感謝する・価値を認める）vs. thank（感謝の言葉を伝える行為）。appreciate はより内面的・感情的な感謝、thank はより行動的・表現的な感謝のニュアンス。",
+      "collocations": [
+        "I would appreciate it if",
+        "appreciate the effort",
+        "appreciate in value"
+      ],
+      "trivia": "ビジネスメールの定番フレーズ「I would appreciate it if you could...（～していただけると幸いです）」はこの単語の丁寧形。知っておくと一気にメールの印象が上品になる魔法の表現！"
+    },
+    "frequency": 1000,
+    "cefr": "B1"
+  }
+]

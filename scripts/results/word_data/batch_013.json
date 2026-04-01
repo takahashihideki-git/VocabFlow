@@ -1,0 +1,992 @@
+[
+  {
+    "id": 241,
+    "word": "concept",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "概念、考え",
+        "pos": "noun"
+      },
+      {
+        "meaning": "構想、アイデア",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒnsept/",
+    "syllables": "con-cept",
+    "audioHint": "コンセプト",
+    "examples": [
+      {
+        "en": "The concept of freedom means different things to different people.",
+        "ja": "自由という概念は人によって異なる意味を持つ。",
+        "blank": "The ___ of freedom means different things to different people.",
+        "blankAnswer": "concept"
+      }
+    ],
+    "distractors": [
+      "信念",
+      "感情",
+      "意識"
+    ],
+    "confusableSpellings": [
+      "concpet",
+      "consept",
+      "koncept"
+    ],
+    "passive": {
+      "etymology": "ラテン語 conceptus（把握されたもの）から。con-（共に）+ capere（つかむ）が語根。「頭の中でつかみ取ったもの」が原義。",
+      "tips": "日本語の「コンセプト」としてそのまま使われるが、英語では「a concept of ~」や「the concept that ~」という形でよく使われる。「コンセプトを立てる」は develop a concept。",
+      "confusables": "idea は日常的・口語的な「思いつき」、concept はより抽象的・哲学的な「概念」。また theory（理論）とも混同しやすいが、theory は根拠に基づいた体系的な説明を指す。",
+      "collocations": [
+        "abstract concept（抽象的概念）",
+        "key concept（重要概念）",
+        "grasp a concept（概念を理解する）"
+      ],
+      "trivia": "マーケティングの世界では「コンセプトカー」など日本語でも多用されるが、実は英語の concept car は「試作・構想段階の車」という意味で、量産予定のない夢の車を指す。"
+    },
+    "frequency": 400,
+    "cefr": "B1"
+  },
+  {
+    "id": 242,
+    "word": "fashion",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "流行、ファッション",
+        "pos": "noun"
+      },
+      {
+        "meaning": "やり方、方法",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfæʃən/",
+    "syllables": "fash-ion",
+    "audioHint": "ファッション",
+    "examples": [
+      {
+        "en": "She always dresses in the latest fashion.",
+        "ja": "彼女はいつも最新の流行に合わせた服を着ている。",
+        "blank": "She always dresses in the latest ___.",
+        "blankAnswer": "fashion"
+      }
+    ],
+    "distractors": [
+      "習慣",
+      "文化",
+      "伝統"
+    ],
+    "confusableSpellings": [
+      "fasion",
+      "fashon",
+      "fashion"
+    ],
+    "passive": {
+      "etymology": "古フランス語 façon（形、様式）、ラテン語 factio（作ること）から。facere（作る）が語根。「形を作ること」が原義。",
+      "tips": "「in a … fashion」で「～な方法で」という意味になる（例：in a timely fashion＝適時に）ことを知らない学習者が多い。「流行」だけでなく「やり方」の意味も重要。",
+      "confusables": "trend は数値や動向の「傾向」にも使えるが、fashion は主に服飾・スタイルの流行。style は個人の「スタイル・様式」で流行とは無関係に使える。",
+      "collocations": [
+        "high fashion（ハイファッション）",
+        "out of fashion（時代遅れで）",
+        "in fashion（流行して）"
+      ],
+      "trivia": "「fashion」には動詞形もあり「fashion A out of B（BからAを作り出す）」という使い方がある。サバイバル映画のセリフに登場しやすい、意外と知られていない用法。"
+    },
+    "frequency": 650,
+    "cefr": "A2"
+  },
+  {
+    "id": 243,
+    "word": "device",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "装置、機器",
+        "pos": "noun"
+      },
+      {
+        "meaning": "手段、工夫",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈvaɪs/",
+    "syllables": "de-vice",
+    "audioHint": "ディヴァイス",
+    "examples": [
+      {
+        "en": "She uses her mobile device to check emails every morning.",
+        "ja": "彼女は毎朝モバイル端末でメールを確認する。",
+        "blank": "She uses her mobile ___ to check emails every morning.",
+        "blankAnswer": "device"
+      }
+    ],
+    "distractors": [
+      "ネットワーク",
+      "データ",
+      "プログラム"
+    ],
+    "confusableSpellings": [
+      "devide",
+      "divice",
+      "deivce"
+    ],
+    "passive": {
+      "etymology": "古フランス語 devis（計画、分割）、ラテン語 dividere（分ける）から。de-（分離）+ videre（見る・分ける）が語根。「目的に向けて分割・設計されたもの」が原義。",
+      "tips": "device（名詞）と devise（動詞：考案する）はスペルが似ているが別語。「デバイスを考案する」と言いたいとき devise a device となる。日本人が混同しやすい典型例。",
+      "confusables": "machine は動力を使う「機械」全般、device はより小型・特定目的の「装置・器具」。gadget はさらに口語的で「便利な小道具」のニュアンス。",
+      "collocations": [
+        "mobile device（モバイル端末）",
+        "storage device（記憶装置）",
+        "literary device（文学的手法）"
+      ],
+      "trivia": "IT分野では「device」が当たり前に使われるが、もともとは「計略・策略」の意味もあった。シェイクスピアの時代には「悪だくみ」を指す言葉として登場する。"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 244,
+    "word": "charge",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "請求する、充電する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "告発する、突進する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tʃɑːrdʒ/",
+    "syllables": "charge",
+    "audioHint": "チャージ",
+    "examples": [
+      {
+        "en": "The hotel charged us extra for the late checkout.",
+        "ja": "ホテルはレイトチェックアウトで追加料金を請求してきた。",
+        "blank": "The hotel ___ us extra for the late checkout.",
+        "blankAnswer": "charged"
+      }
+    ],
+    "distractors": [
+      "設定する",
+      "押す",
+      "回転させる"
+    ],
+    "confusableSpellings": [
+      "charg",
+      "chardge",
+      "charje"
+    ],
+    "passive": {
+      "etymology": "古フランス語 chargier（荷を積む）、後期ラテン語 carricare（車に積む）から。carrus（荷車）が語根。「荷を積む→負担・費用を課す」へと意味が拡大。",
+      "tips": "charge は名詞・動詞の両方で使えるが、意味が多すぎて混乱しやすい。「充電する」「料金を請求する」「罪で告訴する」「突撃する」と全く違う場面で使われる。文脈の確認が必須。",
+      "confusables": "fee は専門サービスへの「報酬・手数料」、cost は「費用・コスト」全般、charge はサービスに対して「請求する行為・金額」。in charge of（～を担当して）も重要表現。",
+      "collocations": [
+        "charge a fee（料金を請求する）",
+        "charge a phone（スマホを充電する）",
+        "in charge of（～を担当して）"
+      ],
+      "trivia": "「charge」はもともと「荷車に荷物を積む」意味。そこから「責任を負わせる」→「料金を課す」→「バッテリーに電力を積む（充電）」と意味が進化した歴史がある。"
+    },
+    "frequency": 300,
+    "cefr": "A2"
+  },
+  {
+    "id": 245,
+    "word": "contrast",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "対比する、対照をなす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "対照、コントラスト",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈtræst/",
+    "syllables": "con-trast",
+    "audioHint": "コントラスト／コントラスト（動詞はコントラスト）",
+    "examples": [
+      {
+        "en": "His cheerful mood contrasted sharply with her sadness.",
+        "ja": "彼の陽気な気分は彼女の悲しみと際立った対照をなしていた。",
+        "blank": "His cheerful mood ___ sharply with her sadness.",
+        "blankAnswer": "contrasted"
+      }
+    ],
+    "distractors": [
+      "説明する",
+      "推測する",
+      "同意する"
+    ],
+    "confusableSpellings": [
+      "constrast",
+      "contarst",
+      "contrest"
+    ],
+    "passive": {
+      "etymology": "ラテン語 contrahere（引き合わせる）から派生。contra-（反対に）+ stare（立つ）が語根。「反対に立たせる＝対比させる」が原義。",
+      "tips": "動詞の contrast は「contrast A with B（AをBと対比する）」または「A contrasts with B（AはBと対照をなす）」の形で使う。名詞としてアクセントが変わることも要注意（名詞：CONtrast、動詞：conTRAST）。",
+      "confusables": "compare は類似点・相違点の両方を比べる「比較する」、contrast は差異・相違点を強調して「対比する」。in contrast to（～と対照的に）は論文やエッセイで頻出。",
+      "collocations": [
+        "in contrast to（～と対照的に）",
+        "sharp contrast（鮮明な対比）",
+        "contrast with（～と対照をなす）"
+      ],
+      "trivia": "写真・デザインの世界では「コントラスト」を上げると明暗の差が大きくなる。この視覚的な意味が日本語にも輸入され、英語本来の「対比・対照」という抽象的意味が薄れやすい。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 246,
+    "word": "colleague",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "同僚、仕事仲間",
+        "pos": "noun"
+      },
+      {
+        "meaning": "同業者、同職者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒliːɡ/",
+    "syllables": "col-league",
+    "audioHint": "コリーグ",
+    "examples": [
+      {
+        "en": "My colleague helped me finish the report on time.",
+        "ja": "同僚が時間内にレポートを仕上げるのを手伝ってくれた。",
+        "blank": "My ___ helped me finish the report on time.",
+        "blankAnswer": "colleague"
+      }
+    ],
+    "distractors": [
+      "友人",
+      "上司",
+      "顧客"
+    ],
+    "confusableSpellings": [
+      "collegue",
+      "colleage",
+      "colleague"
+    ],
+    "passive": {
+      "etymology": "フランス語 collègue、ラテン語 collega（同じ職務を分かち合う者）から。col-（共に）+ legare（任命する・派遣する）が語根。「共に任命された者」が原義。",
+      "tips": "スペルで最も間違えやすい単語の一つ。-league の部分は「リーグ（league）」と同じ綴りだと覚えると良い。また coworker より colleague の方がフォーマルで書き言葉向き。",
+      "confusables": "coworker は同じ職場で働く人（より口語的）、colleague は同じ職業・専門を持つ仲間（医師同士、研究者同士など）にも使える。associate はやや距離感のある「関係者」のニュアンス。",
+      "collocations": [
+        "close colleague（親しい同僚）",
+        "former colleague（元同僚）",
+        "colleague at work（職場の同僚）"
+      ],
+      "trivia": "colleague の -league はスポーツの「リーグ（league）」と同語源。どちらも「同じ目標に向かって結びついた人々」という意味で繋がっている。チームメイトと同僚は語源的に親戚！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 247,
+    "word": "pain",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "痛み、苦痛",
+        "pos": "noun"
+      },
+      {
+        "meaning": "苦労、骨折り",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/peɪn/",
+    "syllables": "pain",
+    "audioHint": "ペイン",
+    "examples": [
+      {
+        "en": "She felt a sharp pain in her lower back after lifting the box.",
+        "ja": "箱を持ち上げた後、腰に鋭い痛みを感じた。",
+        "blank": "She felt a sharp ___ in her lower back after lifting the box.",
+        "blankAnswer": "pain"
+      }
+    ],
+    "distractors": [
+      "症状",
+      "疲労",
+      "発熱"
+    ],
+    "confusableSpellings": [
+      "paen",
+      "pian",
+      "paine"
+    ],
+    "passive": {
+      "etymology": "古フランス語 peine、ラテン語 poena（罰、苦しみ）から。ギリシャ語 poinē（罰金、報復）が語根。「罰として与えられる苦しみ」が原義。",
+      "tips": "「take pains to do」で「～するために骨を折る、苦労する」という慣用表現がある。pain が複数形になると「努力・骨折り」の意味になる点は要注意。",
+      "confusables": "pain は身体的・精神的な「痛み」全般、ache は鈍くずっと続く痛み（headache, stomachache）、hurt は動詞で「痛む」。pane（窓ガラス）と発音が同じなので注意。",
+      "collocations": [
+        "chronic pain（慢性的な痛み）",
+        "be in pain（痛みを感じている）",
+        "take pains（骨を折る）"
+      ],
+      "trivia": "英語の「pain in the neck」は「首の痛み」ではなく「うんざりする人・もの」という慣用句。もともとは別の体の部位を指す表現が上品な形に変化したとされている。"
+    },
+    "frequency": 350,
+    "cefr": "A2"
+  },
+  {
+    "id": 248,
+    "word": "bill",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "請求書、勘定書",
+        "pos": "noun"
+      },
+      {
+        "meaning": "紙幣、法案",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bɪl/",
+    "syllables": "bill",
+    "audioHint": "ビル",
+    "examples": [
+      {
+        "en": "Could you split the bill between the four of us?",
+        "ja": "4人で割り勘にしてもらえますか？",
+        "blank": "Could you split the ___ between the four of us?",
+        "blankAnswer": "bill"
+      }
+    ],
+    "distractors": [
+      "収益",
+      "資産",
+      "予算"
+    ],
+    "confusableSpellings": [
+      "bil",
+      "bille",
+      "biil"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 bulla（公文書の封印）から。もともとは「封印された文書」を意味し、そこから「公式な書類→請求書・法案」へ意味が拡大。",
+      "tips": "bill はイギリス英語で「レストランの勘定書」、アメリカ英語で「紙幣（dollar bill）」や「議会の法案」にも使う。check はアメリカ英語で「レストランの勘定書」に使うので、地域差に注意。",
+      "confusables": "invoice は主にビジネス取引での「請求書」、bill は日常場面（飲食店・公共料金）での「請求書」、receipt は支払い後の「領収書」。",
+      "collocations": [
+        "pay the bill（勘定を払う）",
+        "electricity bill（電気料金の請求書）",
+        "pass a bill（法案を可決する）"
+      ],
+      "trivia": "アメリカの「ドル紙幣」は dollar bill と呼ばれるが、これは昔の「公文書」から来ている。つまり1ドル札は法的に「価値を保証する公式文書」という意味が込められている。"
+    },
+    "frequency": 450,
+    "cefr": "A2"
+  },
+  {
+    "id": 249,
+    "word": "content",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "内容、コンテンツ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "満足している",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒntent/ (noun) /kənˈtent/ (adjective)",
+    "syllables": "con-tent",
+    "audioHint": "コンテント（名詞）／コンテント（形容詞）",
+    "examples": [
+      {
+        "en": "The content of his speech surprised everyone in the room.",
+        "ja": "彼のスピーチの内容は会場にいる全員を驚かせた。",
+        "blank": "The ___ of his speech surprised everyone in the room.",
+        "blankAnswer": "content"
+      }
+    ],
+    "distractors": [
+      "目的",
+      "信条",
+      "価値観"
+    ],
+    "confusableSpellings": [
+      "contant",
+      "contnent",
+      "conetnt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 contentus（含まれているもの）から。con-（共に、完全に）+ tenere（持つ・保つ）が語根。「中に保持されているもの」が原義。",
+      "tips": "名詞（CONtent：内容）と形容詞（conTENT：満足している）でアクセントの位置が変わる。SNS時代の「コンテンツ」は複数形 contents で使われることも多い。",
+      "confusables": "content（内容・満足）と context（文脈・状況）はスペルが似ていて非常に混同しやすい。「con-text（テキストと共に）」と覚えると区別しやすい。",
+      "collocations": [
+        "digital content（デジタルコンテンツ）",
+        "table of contents（目次）",
+        "feel content（満足感を覚える）"
+      ],
+      "trivia": "YouTuberやインスタグラマーを「コンテンツクリエイター（content creator）」と呼ぶが、これは「内容を作る人」が原義。昔は本や映画の作者を指していたのに、今や個人SNS投稿者まで指す時代になった。"
+    },
+    "frequency": 380,
+    "cefr": "B1"
+  },
+  {
+    "id": 250,
+    "word": "section",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "部分、区画",
+        "pos": "noun"
+      },
+      {
+        "meaning": "節、セクション（文書の）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsekʃən/",
+    "syllables": "sec-tion",
+    "audioHint": "セクション",
+    "examples": [
+      {
+        "en": "Please read the first section of the report before the meeting.",
+        "ja": "会議の前にレポートの最初のセクションを読んでください。",
+        "blank": "Please read the first ___ of the report before the meeting.",
+        "blankAnswer": "section"
+      }
+    ],
+    "distractors": [
+      "距離",
+      "期間",
+      "数量"
+    ],
+    "confusableSpellings": [
+      "seciton",
+      "sectoin",
+      "secton"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sectio（切ること）から。secare（切る）が語根。sect-（切る）は dissect（解剖する）や bisect（二等分する）とも共通の語根。",
+      "tips": "section は「切り取られた一部分」が原義なので、文書・空間・組織どれにも使える汎用語。日本語の「セクション（部署）」にも対応するが、英語では department の方がより一般的。",
+      "confusables": "part は最も一般的な「部分」、section はより明確に区切られた「区画・節」、segment は円やオレンジのように自然に分かれた「断片・区分」。",
+      "collocations": [
+        "cross-section（断面、横断面）",
+        "sports section（スポーツ欄）",
+        "section of the city（市内の区画）"
+      ],
+      "trivia": "「セクション」の語根 sect- は「切る」意味で、宗教の「セクト（sect）」も同語源。「主流から切り離されたグループ」という意味で派生した。語根一つで単語の意味が芋づる式に覚えられる！"
+    },
+    "frequency": 550,
+    "cefr": "A2"
+  },
+  {
+    "id": 251,
+    "word": "audience",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "観客、聴衆",
+        "pos": "noun"
+      },
+      {
+        "meaning": "視聴者、読者層",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɔːdiəns/",
+    "syllables": "au-di-ence",
+    "audioHint": "オーディエンス",
+    "examples": [
+      {
+        "en": "The audience applauded loudly at the end of the performance.",
+        "ja": "観客はパフォーマンスの終わりに大きな拍手を送った。",
+        "blank": "The ___ applauded loudly at the end of the performance.",
+        "blankAnswer": "audience"
+      }
+    ],
+    "distractors": [
+      "作品",
+      "舞台",
+      "楽器"
+    ],
+    "confusableSpellings": [
+      "audiance",
+      "audiense"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'audire'（聞く）＋ '-ence'（名詞化接尾辞）。'audio'（音声）と同じ語根を持つ。",
+      "tips": "「オーディエンス」は観客全体を指す集合名詞で、複数扱いが可能。'a large audience'（大勢の観客）のように形容詞を伴う使い方が頻出。",
+      "confusables": "'spectator' は主にスポーツ観戦の観客、'viewer' はテレビの視聴者、'audience' は舞台・音楽・講演など幅広い場面に使える。",
+      "collocations": [
+        "target audience（ターゲット層）",
+        "live audience（生の観客）",
+        "audience reaction（観客の反応）"
+      ],
+      "trivia": "かつて「audience」はローマ皇帝に謁見することを意味した。今でも外交的な場で 'an audience with the king'（王との謁見）という表現が使われる。"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 252,
+    "word": "surface",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "表面、面",
+        "pos": "noun"
+      },
+      {
+        "meaning": "表面化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsɜːrfɪs/",
+    "syllables": "sur-face",
+    "audioHint": "サーフィス",
+    "examples": [
+      {
+        "en": "The surface of the lake was completely still this morning.",
+        "ja": "今朝、湖の表面はまったく静かだった。",
+        "blank": "The ___ of the lake was completely still this morning.",
+        "blankAnswer": "surface"
+      }
+    ],
+    "distractors": [
+      "深さ",
+      "距離",
+      "重さ"
+    ],
+    "confusableSpellings": [
+      "surfice",
+      "suface"
+    ],
+    "passive": {
+      "etymology": "フランス語 'surface' から。ラテン語 'super-'（上に）＋ 'facies'（顔・面）に由来。まさに「上の面」という意味。",
+      "tips": "「on the surface」で「表面上は、見かけは」という慣用句になる。物理的な面だけでなく「問題の表面しか見ていない」のような比喩的用法も多い。",
+      "confusables": "'surface' は2D的な面全体、'face' は特定の一面（たとえばサイコロの一面）を指すことが多い。",
+      "collocations": [
+        "surface area（表面積）",
+        "on the surface（表面上）",
+        "surface tension（表面張力）"
+      ],
+      "trivia": "Microsoftのタブレット「Surface」はこの単語が由来。「あらゆる作業の『表面（作業台）』になる」というコンセプトから名付けられた。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 253,
+    "word": "crop",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "農作物、収穫物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "切り取る、刈り込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/krɒp/",
+    "syllables": "crop",
+    "audioHint": "クロップ",
+    "examples": [
+      {
+        "en": "Farmers in this region grow crops like wheat and corn.",
+        "ja": "この地域の農家は小麦やトウモロコシなどの農作物を育てる。",
+        "blank": "Farmers in this region grow ___ like wheat and corn.",
+        "blankAnswer": "crops"
+      }
+    ],
+    "distractors": [
+      "河川",
+      "気候",
+      "地形"
+    ],
+    "confusableSpellings": [
+      "crob",
+      "cropp"
+    ],
+    "passive": {
+      "etymology": "古英語 'cropp'（植物の穂・頂部）に由来。植物の「上部を刈り取る」行為から「収穫物」へと意味が広がった。",
+      "tips": "農業文脈では 'a good crop'（豊作）、写真編集では 'crop the image'（画像をトリミングする）と使う。同じ単語でも文脈で意味が大きく変わるので注意。",
+      "confusables": "'harvest' は収穫という行為・時期そのもの、'crop' は収穫された作物・産物を指す。",
+      "collocations": [
+        "cash crop（換金作物）",
+        "crop failure（作物の不作）",
+        "crop rotation（輪作）"
+      ],
+      "trivia": "SNSで「crop」は「画像をトリミングする」意味でよく使われるが、もともとは馬の乗馬用ムチを指す言葉でもあった。英語は本当に多義語だらけ！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 254,
+    "word": "topic",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "話題、テーマ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "論題、議題",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtɒpɪk/",
+    "syllables": "top-ic",
+    "audioHint": "トピック",
+    "examples": [
+      {
+        "en": "We changed the topic when things got too serious.",
+        "ja": "話が深刻になりすぎたとき、私たちは話題を変えた。",
+        "blank": "We changed the ___ when things got too serious.",
+        "blankAnswer": "topic"
+      }
+    ],
+    "distractors": [
+      "実験",
+      "証明",
+      "資格"
+    ],
+    "confusableSpellings": [
+      "topick",
+      "toppic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'topika'（場所に関すること）→ラテン語 'topica' に由来。アリストテレスの論述論「トポス（場所）」から派生した学術用語。",
+      "tips": "'subject' と混同されがちだが、'topic' はより具体的な話題の一点を指し、'subject' は授業科目や大きなテーマ全体を指すことが多い。",
+      "confusables": "'topic' は会話・文章の具体的テーマ、'subject' は授業科目・メールの件名など幅広く使う、'theme' は作品・議論全体を貫く主題。",
+      "collocations": [
+        "off topic（話題から外れて）",
+        "topic sentence（トピックセンテンス）",
+        "hot topic（ホットな話題）"
+      ],
+      "trivia": "アメリカのファッションブランド「Hot Topic」はこの言葉から。「今一番熱い話題の服を売る」というコンセプトで1989年に誕生した。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 255,
+    "word": "technique",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "技術、技法",
+        "pos": "noun"
+      },
+      {
+        "meaning": "手法、やり方",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tekˈniːk/",
+    "syllables": "tech-nique",
+    "audioHint": "テクニーク",
+    "examples": [
+      {
+        "en": "She learned a new painting technique from her teacher.",
+        "ja": "彼女は先生から新しい絵画技法を学んだ。",
+        "blank": "She learned a new painting ___ from her teacher.",
+        "blankAnswer": "technique"
+      }
+    ],
+    "distractors": [
+      "理論",
+      "評価",
+      "調査"
+    ],
+    "confusableSpellings": [
+      "technic",
+      "tecnique"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'tekhnē'（技術・技芸）＋フランス語経由で英語へ。'technology'（テクノロジー）と同じ語根 'tekhn-' を持つ。",
+      "tips": "発音注意：アクセントは後ろの 'nique' にある（テク'ニーク）。'technology' や 'technical' とアクセント位置が異なるので間違えやすい。",
+      "confusables": "'technique' は特定の技術的なやり方・手法、'technology' は技術・科学技術全般の体系を指す。",
+      "collocations": [
+        "advanced technique（高度な技術）",
+        "technique for ~ing（〜するための技法）",
+        "master a technique（技術を習得する）"
+      ],
+      "trivia": "バレエの世界では「テクニック」は最重要概念で、ターンアウトやポアントなど基礎的身体技法の総称。芸術と科学が交差する言葉。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 256,
+    "word": "status",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "地位、身分",
+        "pos": "noun"
+      },
+      {
+        "meaning": "状態、状況",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsteɪtəs/",
+    "syllables": "sta-tus",
+    "audioHint": "ステイタス",
+    "examples": [
+      {
+        "en": "Her social status changed after she became a doctor.",
+        "ja": "医者になってから、彼女の社会的地位は変わった。",
+        "blank": "Her social ___ changed after she became a doctor.",
+        "blankAnswer": "status"
+      }
+    ],
+    "distractors": [
+      "政策",
+      "選挙",
+      "権力"
+    ],
+    "confusableSpellings": [
+      "statis",
+      "statuse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'status'（立っている状態）→ 'stare'（立つ）に由来。'state'（状態・州）や 'station'（駅）と同じ語根。",
+      "tips": "「ステータス」はSNS上の投稿（Facebook の status update）の意味でも使われる。社会的地位と状態の両方の意味があるので文脈を確認しよう。",
+      "confusables": "'status' は地位や現在の状態、'state' はより広い「状況・状態・国家」を指す。'status quo' は「現状維持」という重要なイディオム。",
+      "collocations": [
+        "social status（社会的地位）",
+        "status quo（現状）",
+        "marital status（婚姻状況）"
+      ],
+      "trivia": "LINEやWhatsAppの「ステータス」機能はこの言葉から。もともとはローマ社会の「身分証明」概念が、現代ではSNSの一言コメントに進化した。"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 257,
+    "word": "option",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "選択肢、オプション",
+        "pos": "noun"
+      },
+      {
+        "meaning": "選択する権利",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɒpʃən/",
+    "syllables": "op-tion",
+    "audioHint": "オプション",
+    "examples": [
+      {
+        "en": "You have several options, so take your time deciding.",
+        "ja": "いくつかの選択肢があるので、時間をかけて決めてください。",
+        "blank": "You have several ___, so take your time deciding.",
+        "blankAnswer": "options"
+      }
+    ],
+    "distractors": [
+      "義務",
+      "価値観",
+      "目的"
+    ],
+    "confusableSpellings": [
+      "opshon",
+      "optoin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'optio'（選択）→ 'optare'（選ぶ、望む）に由来。'optional'（任意の）や 'adopt'（採用する）も同じ語根。",
+      "tips": "'option' は名詞のみ。「選択する」という動詞には 'choose' や 'opt for ~'（〜を選ぶ）を使う。'opt in/out'（参加する/しない）も頻出表現。",
+      "confusables": "'option' は複数ある選択肢のひとつ、'choice' は選択という行為・結果そのもの。'I have no choice.'（選択の余地がない）と 'I have no option.'（同様）は両方使える。",
+      "collocations": [
+        "keep one's options open（選択肢を残す）",
+        "viable option（現実的な選択肢）",
+        "stock option（ストックオプション）"
+      ],
+      "trivia": "金融用語の「オプション取引」もこの単語。将来のある時点で決められた価格で株を買う『権利』のことで、まさに「選ぶ権利」という語源そのまま。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 258,
+    "word": "reward",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "報酬、褒美",
+        "pos": "noun"
+      },
+      {
+        "meaning": "報いる、報酬を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈwɔːrd/",
+    "syllables": "re-ward",
+    "audioHint": "リウォード",
+    "examples": [
+      {
+        "en": "Hard work eventually brings its own reward.",
+        "ja": "努力はいつかそれ自体の報酬をもたらす。",
+        "blank": "Hard work eventually brings its own ___.",
+        "blankAnswer": "reward"
+      }
+    ],
+    "distractors": [
+      "意図",
+      "信念",
+      "理性"
+    ],
+    "confusableSpellings": [
+      "reword",
+      "rewerd"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'rewarder'（注意を払う、認める）→ゲルマン語 'ward'（守る・見守る）に由来。'reward' は「見守った結果として与えるもの」というニュアンスを持つ。",
+      "tips": "'reward' と 'prize' の違いに注意。'prize' はコンテスト等で勝ち取る賞、'reward' は良い行いや努力・情報提供への謝礼。迷子犬ポスターの「謝礼あり」は 'reward' を使う。",
+      "confusables": "'reward' は努力・功績への報酬、'prize' はコンテストや競争の賞、'bonus' は給与に加えた特別手当。",
+      "collocations": [
+        "financial reward（金銭的報酬）",
+        "reward for ~（〜に対する報酬）",
+        "intrinsic reward（内的報酬）"
+      ],
+      "trivia": "ゲームの「リワード広告」はこの単語から。動画を見ると報酬（コインなど）がもらえる仕組みで、ゲーム業界で最も多く使われるマネタイズ手法のひとつ。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 259,
+    "word": "race",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "人種、民族",
+        "pos": "noun"
+      },
+      {
+        "meaning": "競走、レース",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/reɪs/",
+    "syllables": "race",
+    "audioHint": "レイス",
+    "examples": [
+      {
+        "en": "People of every race gathered to celebrate the festival.",
+        "ja": "あらゆる人種の人々がそのフェスティバルを祝うために集まった。",
+        "blank": "People of every ___ gathered to celebrate the festival.",
+        "blankAnswer": "race"
+      }
+    ],
+    "distractors": [
+      "法律",
+      "制度",
+      "税金"
+    ],
+    "confusableSpellings": [
+      "raice",
+      "rece"
+    ],
+    "passive": {
+      "etymology": "「競走」の意味は古ノルド語 'rás'（走ること）から。「人種」の意味はフランス語 'race' → イタリア語 'razza' に由来し、語源が異なる同形語。",
+      "tips": "同じスペルで「競走」と「人種」という全く異なる意味を持つ多義語。'racial'（人種的な）は人種の意味からの派生。会話の文脈によって意味が変わることに注意。",
+      "confusables": "'race' は大きな人種区分（Black, White, Asianなど）、'ethnicity' は民族的・文化的背景（イタリア系、韓国系など）。現代では両者を混同しないよう意識が高まっている。",
+      "collocations": [
+        "race relations（人種関係）",
+        "arms race（軍拡競争）",
+        "race against time（時間との戦い）"
+      ],
+      "trivia": "「宇宙開発競争（Space Race）」はこの言葉の代表的な比喩用法。米ソ冷戦時代の宇宙開発競争を指し、現在でも宇宙ビジネス競争を指して使われる。"
+    },
+    "frequency": 500,
+    "cefr": "A2"
+  },
+  {
+    "id": 260,
+    "word": "crime",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "犯罪、罪",
+        "pos": "noun"
+      },
+      {
+        "meaning": "非道な行為",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kraɪm/",
+    "syllables": "crime",
+    "audioHint": "クライム",
+    "examples": [
+      {
+        "en": "The city has introduced new measures to reduce crime.",
+        "ja": "市は犯罪を減らすための新しい施策を導入した。",
+        "blank": "The city has introduced new measures to reduce ___.",
+        "blankAnswer": "crime"
+      }
+    ],
+    "distractors": [
+      "政党",
+      "外交",
+      "議会"
+    ],
+    "confusableSpellings": [
+      "crim",
+      "cryme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'crimen'（告発・罪）→ 'cernere'（判別する・決定する）に由来。'criminal'（犯罪者）、'incriminate'（罪に問う）も同語根。",
+      "tips": "'crime' は法律上の「犯罪」全般（不可算名詞的にも使う）、'sin' は宗教・道徳上の「罪」。'crime doesn't pay'（犯罪は割に合わない）は英語の有名な格言。",
+      "confusables": "'crime' は法的に違反する行為、'sin' は道徳・宗教的な罪、'offense' はより軽い違反や不快を与える行為を指すことが多い。",
+      "collocations": [
+        "organized crime（組織犯罪）",
+        "crime rate（犯罪率）",
+        "commit a crime（犯罪を犯す）"
+      ],
+      "trivia": "「クライムノベル（crime novel）」は世界で最も売れるジャンルのひとつ。アガサ・クリスティは聖書の次に翻訳された作家とも言われ、'crime' という単語を文学の中心に置いた人物。"
+    },
+    "frequency": 550,
+    "cefr": "A2"
+  }
+]

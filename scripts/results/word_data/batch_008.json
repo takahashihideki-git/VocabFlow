@@ -1,0 +1,998 @@
+[
+  {
+    "id": 141,
+    "word": "opportunity",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "機会、チャンス",
+        "pos": "noun"
+      },
+      {
+        "meaning": "好機、有利な状況",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɒpəˈtjuːnɪti/",
+    "syllables": "op-por-tu-ni-ty",
+    "audioHint": "オポテューニティ",
+    "examples": [
+      {
+        "en": "This is a great opportunity to improve your skills.",
+        "ja": "これはあなたのスキルを向上させる素晴らしい機会です。",
+        "blank": "This is a great ___ to improve your skills.",
+        "blankAnswer": "opportunity"
+      }
+    ],
+    "distractors": [
+      "義務、責任",
+      "自由、解放",
+      "意識、認識"
+    ],
+    "confusableSpellings": [
+      "oppotunity",
+      "oppertunity",
+      "opportunty"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'opportunitas' から。'ob-'（～に向かって）＋ 'portus'（港）→「港に向かう風が吹いている」状態、つまり「好都合な瞬間」が語源。",
+      "tips": "「opportunity to do」と「opportunity for doing」どちらも使えるが、直後に動詞が続くときは 'to do' が自然。'a chance' より改まったニュアンスがある。",
+      "confusables": "'chance' と似ているが、'opportunity' はより計画的・具体的な好機を指す。'possibility' は「可能性」でまだ実現していない概念。",
+      "collocations": [
+        "seize an opportunity（機会をつかむ）",
+        "miss an opportunity（機会を逃す）",
+        "equal opportunity（機会均等）"
+      ],
+      "trivia": "「opportunity」はNASAの火星探査ローバーの名前でもある。2004年に着陸し、予定寿命90日を大幅に超えて15年近く活動した伝説のロボット！"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 142,
+    "word": "task",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "課題、仕事",
+        "pos": "noun"
+      },
+      {
+        "meaning": "任務、作業",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tæsk/",
+    "syllables": "task",
+    "audioHint": "タスク",
+    "examples": [
+      {
+        "en": "She completed every task before the deadline.",
+        "ja": "彼女は締め切り前にすべての課題を完了した。",
+        "blank": "She completed every ___ before the deadline.",
+        "blankAnswer": "task"
+      }
+    ],
+    "distractors": [
+      "目的、目標",
+      "信念、確信",
+      "概念、観念"
+    ],
+    "confusableSpellings": [
+      "taks",
+      "task",
+      "tsak"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'tasque'、中世ラテン語 'tasca'（税、課せられた仕事）に由来。もともと「税として課される労働」という意味だった。",
+      "tips": "日本語でも「タスク」と言うが、英語では動詞としても使える。'task someone with doing something'（～に…を課す）という形が使えると上級者っぽい。",
+      "confusables": "'job' は職・仕事全般、'work' は不可算名詞で作業全体、'task' は個別の具体的な作業を指す。ToDoリストの一項目が 'task'。",
+      "collocations": [
+        "complete a task（課題を完了する）",
+        "assign a task（課題を割り当てる）",
+        "multitask（マルチタスクをする）"
+      ],
+      "trivia": "「task force」（特別任務部隊）は元々軍事用語だったが、今やビジネス会議で普通に使われるようになった。言葉が軍から会議室へ出世した例！"
+    },
+    "frequency": 420,
+    "cefr": "A2"
+  },
+  {
+    "id": 143,
+    "word": "industry",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "産業、工業",
+        "pos": "noun"
+      },
+      {
+        "meaning": "勤勉さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪndəstri/",
+    "syllables": "in-dus-try",
+    "audioHint": "インダストリ",
+    "examples": [
+      {
+        "en": "The tech industry is growing rapidly worldwide.",
+        "ja": "テクノロジー産業は世界中で急速に成長している。",
+        "blank": "The tech ___ is growing rapidly worldwide.",
+        "blankAnswer": "industry"
+      }
+    ],
+    "distractors": [
+      "利益、収益",
+      "需要、要求",
+      "競争、競合"
+    ],
+    "confusableSpellings": [
+      "industy",
+      "industrie",
+      "indsutry"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'industria'（勤勉さ、熱心さ）から。'indu-'（中に）＋ 'struere'（積み上げる）→「内側から積み上げる努力」が原義。現在の「産業」の意味は産業革命以降に定着。",
+      "tips": "「産業」の意味では可算・不可算どちらも使う。'the film industry'（映画産業）のように特定分野に 'the' をつけるパターンが頻出。「勤勉さ」の意味は試験や文学でよく出る。",
+      "confusables": "'industry' は産業全体を指し、'business' は個々の商取引や企業活動を指す。'commerce' は特に売買・貿易の側面を強調する。",
+      "collocations": [
+        "heavy industry（重工業）",
+        "industry leader（業界リーダー）",
+        "service industry（サービス産業）"
+      ],
+      "trivia": "「industry」にはもともと「勤勉」という意味があり、辞書の古い例文には「彼の成功は industry によるものだ」という文が載っていた。今では「産業」の意味が強すぎて誤解必至！"
+    },
+    "frequency": 280,
+    "cefr": "B1"
+  },
+  {
+    "id": 144,
+    "word": "medium",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "媒体、手段",
+        "pos": "noun"
+      },
+      {
+        "meaning": "中間の、中程度の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmiːdiəm/",
+    "syllables": "me-di-um",
+    "audioHint": "ミーディアム",
+    "examples": [
+      {
+        "en": "Social media is a powerful medium for communication.",
+        "ja": "ソーシャルメディアはコミュニケーションの強力な媒体だ。",
+        "blank": "Social media is a powerful ___ for communication.",
+        "blankAnswer": "medium"
+      }
+    ],
+    "distractors": [
+      "装置、機器",
+      "信号、命令",
+      "記録、データ"
+    ],
+    "confusableSpellings": [
+      "meduim",
+      "medim",
+      "mediun"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'medius'（中間の）から。'med-' は「中央」を意味する語根で、'middle'、'median'、'mediocre' とも同根。",
+      "tips": "複数形が2つある。「媒体」の意味では 'media'（マスメディアなど）、「霊媒師」や「中間物」の意味では 'mediums' を使う。'media' を単数形として使うのは誤り。",
+      "confusables": "'media' は 'medium' の複数形なのに、日本語では「メディア」と単数扱いしがち。英語で 'The media are...' と複数扱いすることも多い。",
+      "collocations": [
+        "social medium / social media（ソーシャルメディア）",
+        "medium-sized（中型の）",
+        "through the medium of（～を通じて）"
+      ],
+      "trivia": "ステーキの焼き加減「ミディアム（medium）」も同じ語源。レア→ミディアム→ウェルダンの「中間」だから。食卓でもITでも「中間」の語が活躍中！"
+    },
+    "frequency": 390,
+    "cefr": "B1"
+  },
+  {
+    "id": 145,
+    "word": "economy",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "経済、経済状況",
+        "pos": "noun"
+      },
+      {
+        "meaning": "節約、倹約",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈkɒnəmi/",
+    "syllables": "e-con-o-my",
+    "audioHint": "イコノミ",
+    "examples": [
+      {
+        "en": "The global economy recovered faster than expected.",
+        "ja": "世界経済は予想より早く回復した。",
+        "blank": "The global ___ recovered faster than expected.",
+        "blankAnswer": "economy"
+      }
+    ],
+    "distractors": [
+      "財政、予算",
+      "投資、出資",
+      "消費、支出"
+    ],
+    "confusableSpellings": [
+      "econamy",
+      "economey",
+      "ecomony"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'oikonomia'（家の管理）から。'oikos'（家）＋ 'nomos'（法、管理）→「家を管理すること」が転じて国家・社会規模の資源管理を指すようになった。",
+      "tips": "「economy class」（エコノミークラス）は「節約クラス」の意味。形容詞形 'economic'（経済の）と 'economical'（節約になる）の使い分けに注意。",
+      "confusables": "'economic' は「経済に関する」（例：economic policy）、'economical' は「費用対効果が高い・節約的な」（例：an economical car）という違いがある。混同しやすい！",
+      "collocations": [
+        "global economy（世界経済）",
+        "economy class（エコノミークラス）",
+        "market economy（市場経済）"
+      ],
+      "trivia": "「エコノミー症候群」は和製英語で、英語では 'deep vein thrombosis（DVT）' または 'economy class syndrome' という。後者は実は英語でも通じる！"
+    },
+    "frequency": 200,
+    "cefr": "B1"
+  },
+  {
+    "id": 146,
+    "word": "policy",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "政策、方針",
+        "pos": "noun"
+      },
+      {
+        "meaning": "保険証券",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɒlɪsi/",
+    "syllables": "pol-i-cy",
+    "audioHint": "ポリシー",
+    "examples": [
+      {
+        "en": "The government announced a new economic policy.",
+        "ja": "政府は新しい経済政策を発表した。",
+        "blank": "The government announced a new economic ___.",
+        "blankAnswer": "policy"
+      }
+    ],
+    "distractors": [
+      "権利、資格",
+      "規則、条例",
+      "制度、体制"
+    ],
+    "confusableSpellings": [
+      "polisy",
+      "policiy",
+      "polcy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'politeia'（市民の管理）→ラテン語 'politia' → 古フランス語 'policie'。'polis'（都市国家）が語根で、'politics'、'police' とも同じ起源を持つ。",
+      "tips": "「ポリシー」は日本語でも使うが、英語では「会社の方針」「保険の証書」など幅広く使う。'foreign policy'（外交政策）、'company policy'（会社の方針）が頻出。",
+      "confusables": "'policy' は具体的な方針・指針、'politics' は政治活動全般、'law' は法律で強制力を伴う。三者は混同しやすいが意味の強さが異なる。",
+      "collocations": [
+        "foreign policy（外交政策）",
+        "insurance policy（保険証券）",
+        "company policy（社内規定）"
+      ],
+      "trivia": "「policy」と「police」は同じ語源。どちらも「都市（polis）を秩序立てる」ことから来ている。警察も政策も「街を管理する」という意味では兄弟語！"
+    },
+    "frequency": 180,
+    "cefr": "B1"
+  },
+  {
+    "id": 147,
+    "word": "account",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "口座、勘定",
+        "pos": "noun"
+      },
+      {
+        "meaning": "説明する、占める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkaʊnt/",
+    "syllables": "ac-count",
+    "audioHint": "アカウント",
+    "examples": [
+      {
+        "en": "Please open a bank account before payday.",
+        "ja": "給料日前に銀行口座を開いてください。",
+        "blank": "Please open a bank ___ before payday.",
+        "blankAnswer": "account"
+      }
+    ],
+    "distractors": [
+      "融資、ローン",
+      "手数料、費用",
+      "株式、持ち分"
+    ],
+    "confusableSpellings": [
+      "acount",
+      "accout",
+      "acconut"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'aconter'（計算する）から。'a-'（～に）＋ 'conter'（数える）→「数を合わせる」が原義。ラテン語 'computare'（計算する）にも関連。",
+      "tips": "'account for'（～を説明する、～を占める）という句動詞が非常に重要。'Sales account for 60% of revenue.'（売上は収益の60%を占める）のような使い方を覚えておこう。",
+      "confusables": "'account'（口座・SNSアカウント）と日本語の「アカウント」は意味がほぼ一致するが、動詞用法を知らない学習者が多い。'on account of'（～のせいで）も要チェック。",
+      "collocations": [
+        "bank account（銀行口座）",
+        "account for（～を占める・説明する）",
+        "take into account（考慮に入れる）"
+      ],
+      "trivia": "SNSの「アカウント」も英語の 'account' から来ているが、元の意味は「帳簿への記録」。フォロワー数を「計算・管理する」という発想が現代のSNSアカウントにも生きている！"
+    },
+    "frequency": 160,
+    "cefr": "A2"
+  },
+  {
+    "id": 148,
+    "word": "trade",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "貿易、取引",
+        "pos": "noun"
+      },
+      {
+        "meaning": "交換する、取引する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/treɪd/",
+    "syllables": "trade",
+    "audioHint": "トレイド",
+    "examples": [
+      {
+        "en": "Japan relies heavily on international trade.",
+        "ja": "日本は国際貿易に大きく依存している。",
+        "blank": "Japan relies heavily on international ___.",
+        "blankAnswer": "trade"
+      }
+    ],
+    "distractors": [
+      "合併、統合",
+      "債務、負債",
+      "補助金、助成金"
+    ],
+    "confusableSpellings": [
+      "trede",
+      "traed",
+      "traid"
+    ],
+    "passive": {
+      "etymology": "中英語・低地ドイツ語 'trade'（道、踏み固められた道）から。「商人が通る道」→「商取引」へと意味が拡張した。'tread'（踏む）と同語源。",
+      "tips": "'trade' は名詞・動詞どちらも使える。'free trade'（自由貿易）、'trade off'（トレードオフ）など複合語も多い。'business' より国際的・公式な取引のイメージ。",
+      "confusables": "'trade' は物やサービスの交換全般、'commerce' はより広い商業活動、'deal' は具体的な一回の取引を指す。'trade war'（貿易戦争）は 'commerce war' とは言わない。",
+      "collocations": [
+        "free trade（自由貿易）",
+        "trade deficit（貿易赤字）",
+        "trade off（トレードオフ）"
+      ],
+      "trivia": "「トレードマーク（trademark）」の「トレード」もこの語。もともと「その商人・職人の印」という意味で、今や「その人らしさのシンボル」として日常語に進化！"
+    },
+    "frequency": 220,
+    "cefr": "B1"
+  },
+  {
+    "id": 149,
+    "word": "model",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "模型、モデル",
+        "pos": "noun"
+      },
+      {
+        "meaning": "手本、模範",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɒdl/",
+    "syllables": "mod-el",
+    "audioHint": "モデル",
+    "examples": [
+      {
+        "en": "Scientists use this model to predict climate change.",
+        "ja": "科学者たちは気候変動を予測するためにこのモデルを使う。",
+        "blank": "Scientists use this ___ to predict climate change.",
+        "blankAnswer": "model"
+      }
+    ],
+    "distractors": [
+      "仮説、推論",
+      "定理、法則",
+      "実験、検証"
+    ],
+    "confusableSpellings": [
+      "modle",
+      "modell",
+      "mdoel"
+    ],
+    "passive": {
+      "etymology": "イタリア語 'modello'（小さな計測物）→ラテン語 'modulus'（小さな基準）から。'modus'（方法、尺度）が語根で、'mode'、'modify'、'moderate' とも同根。",
+      "tips": "学術文では 'model' は「理論的な枠組み」を指すことが多い。'role model'（お手本となる人物）、'working model'（実働モデル）など複合語も押さえよう。",
+      "confusables": "'model' はシステム・構造の抽象的な表現、'prototype' は実物の試作品、'example' は具体的な例示。研究論文では 'model' を使うのが適切。",
+      "collocations": [
+        "role model（手本となる人物）",
+        "business model（ビジネスモデル）",
+        "model after（～を手本にする）"
+      ],
+      "trivia": "数学・AIの「モデル」も同じ語。ChatGPTのような AI も「言語モデル（language model）」と呼ばれ、元をたどれば「小さな計測の基準」という意味の語が巨大AIの名前になった！"
+    },
+    "frequency": 260,
+    "cefr": "A2"
+  },
+  {
+    "id": 150,
+    "word": "figure",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "数字、図",
+        "pos": "noun"
+      },
+      {
+        "meaning": "人物、姿",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɪɡə/",
+    "syllables": "fig-ure",
+    "audioHint": "フィガ",
+    "examples": [
+      {
+        "en": "The unemployment figure dropped to a record low.",
+        "ja": "失業率の数字が過去最低に落ちた。",
+        "blank": "The unemployment ___ dropped to a record low.",
+        "blankAnswer": "figure"
+      }
+    ],
+    "distractors": [
+      "象徴、シンボル",
+      "価値、意義",
+      "理念、思想"
+    ],
+    "confusableSpellings": [
+      "figuer",
+      "figre",
+      "firgue"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'figura'（形、外見）から。'fingere'（形作る）が語根で、'fiction'（作り話）、'feign'（ふりをする）とも同根。",
+      "tips": "'figure out'（理解する、解決する）という句動詞が日常英語で超頻出。'I can't figure it out.'（どうしてもわからない）は会話でそのまま使える。",
+      "confusables": "'figure'（具体的な数値・人物の姿）と 'number'（抽象的な数）は似ているが、統計や報告書では 'figures' を使うことが多い。'a key figure'（重要人物）は 'number' では言えない。",
+      "collocations": [
+        "figure out（理解する）",
+        "public figure（公人）",
+        "sales figures（売上数字）"
+      ],
+      "trivia": "フィギュアスケートの「フィギュア（figure）」は「図形」の意味で、氷上に8の字などの図形を描いていた競技から来ている。今はほぼやらないのに名前だけ残った歴史の名残！"
+    },
+    "frequency": 240,
+    "cefr": "B1"
+  },
+  {
+    "id": 151,
+    "word": "cell",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "細胞",
+        "pos": "noun"
+      },
+      {
+        "meaning": "独房；電池",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sɛl/",
+    "syllables": "cell",
+    "audioHint": "セル",
+    "examples": [
+      {
+        "en": "Every living organism is made up of cells.",
+        "ja": "すべての生き物は細胞でできている。",
+        "blank": "Every living organism is made up of ___s.",
+        "blankAnswer": "cells"
+      }
+    ],
+    "distractors": [
+      "遺伝子",
+      "神経",
+      "組織"
+    ],
+    "confusableSpellings": [
+      "ceel",
+      "cel",
+      "sell"
+    ],
+    "passive": {
+      "etymology": "ラテン語 cella（小部屋・貯蔵室）が語源。修道士が住む小さな部屋→独房→生物学的な「細胞」へと意味が拡張された。",
+      "tips": "「細胞」の意味で使うとき複数形 cells が基本。また cell phone（携帯電話）の cell は「基地局エリア」の意味で、同じ語源から来ている。",
+      "confusables": "sell（売る）と発音が全く同じ同音異義語。文脈で判断すること。",
+      "collocations": [
+        "blood cell（血球）",
+        "cell division（細胞分裂）",
+        "fuel cell（燃料電池）"
+      ],
+      "trivia": "人間の体には約37兆個の細胞があると言われている。「37兆」という数字、スマホの画素数とは桁違いのスケール感！"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 152,
+    "word": "image",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "画像；映像",
+        "pos": "noun"
+      },
+      {
+        "meaning": "イメージ；印象",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪmɪdʒ/",
+    "syllables": "im-age",
+    "audioHint": "イミッジ",
+    "examples": [
+      {
+        "en": "The photographer captured a stunning image of the sunset.",
+        "ja": "カメラマンは夕日の見事な画像を撮影した。",
+        "blank": "The photographer captured a stunning ___ of the sunset.",
+        "blankAnswer": "image"
+      }
+    ],
+    "distractors": [
+      "作品",
+      "色彩",
+      "音楽"
+    ],
+    "confusableSpellings": [
+      "imige",
+      "imagge",
+      "imaje"
+    ],
+    "passive": {
+      "etymology": "ラテン語 imago（似姿・肖像）が語源。im-（似せる）＋ ago（行為）の組み合わせで「似せて作ったもの」という意味。",
+      "tips": "日本語の「イメージする」は英語では imagine を使う。image は基本的に名詞。「イメージアップする」は improve one's image が自然。",
+      "confusables": "imagine（想像する）は動詞、image は名詞が主。「イメージする」と言いたいとき image を動詞として使うのは文語的でやや硬い。",
+      "collocations": [
+        "public image（世間的なイメージ）",
+        "brand image（ブランドイメージ）",
+        "body image（身体イメージ）"
+      ],
+      "trivia": "英語の imagination（想像力）と image は同じ語根。つまり「想像」とは「心の中に画像を作る」行為だった！"
+    },
+    "frequency": 420,
+    "cefr": "A2"
+  },
+  {
+    "id": 153,
+    "word": "emotion",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "感情；情動",
+        "pos": "noun"
+      },
+      {
+        "meaning": "感動；興奮",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈmoʊʃən/",
+    "syllables": "e-mo-tion",
+    "audioHint": "イモウション",
+    "examples": [
+      {
+        "en": "She tried to hide her emotions during the speech.",
+        "ja": "彼女はスピーチ中、感情を隠そうとした。",
+        "blank": "She tried to hide her ___s during the speech.",
+        "blankAnswer": "emotions"
+      }
+    ],
+    "distractors": [
+      "思想",
+      "記憶",
+      "意識"
+    ],
+    "confusableSpellings": [
+      "emosion",
+      "emoton",
+      "emmotion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 emovere（外に動かす）が語源。e-（外へ）＋ movere（動かす）→「内側から外へ動き出るもの」＝感情。",
+      "tips": "emotion は「比較的強い感情」のニュアンス。日常的な「気分」には feeling の方が自然。「感情的になる」は get emotional。",
+      "confusables": "feeling は日常的・軽めの感情全般、emotion はより強く動かされる感情。また mood は「その時の気分・機嫌」のニュアンス。",
+      "collocations": [
+        "express emotions（感情を表現する）",
+        "mixed emotions（複雑な感情）",
+        "emotional support（情緒的サポート）"
+      ],
+      "trivia": "「emoticon（絵文字）」の emoti- は emotion から来ている。つまり絵文字は「感情＋アイコン」の合体語。"
+    },
+    "frequency": 780,
+    "cefr": "B1"
+  },
+  {
+    "id": 154,
+    "word": "stress",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "ストレス；精神的緊張",
+        "pos": "noun"
+      },
+      {
+        "meaning": "強調；アクセント",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/strɛs/",
+    "syllables": "stress",
+    "audioHint": "ストレス",
+    "examples": [
+      {
+        "en": "Too much stress can seriously affect your health.",
+        "ja": "過度なストレスは健康に深刻な影響を与えることがある。",
+        "blank": "Too much ___ can seriously affect your health.",
+        "blankAnswer": "stress"
+      }
+    ],
+    "distractors": [
+      "症状",
+      "治療",
+      "体力"
+    ],
+    "confusableSpellings": [
+      "strees",
+      "strss",
+      "stres"
+    ],
+    "passive": {
+      "etymology": "ラテン語 strictus（きつく締めた）が語源。strict（厳格な）と同語根。「ギュッと締め付けられる感覚」がストレスのイメージ。",
+      "tips": "日本語では「ストレス」は名詞だが、英語では動詞としても使える。stress the importance of～（～の重要性を強調する）のように。",
+      "confusables": "stress は心理的・身体的負荷の意味の他に、言語学では「強勢（アクセント）」の意味もある。stressed syllable（強勢音節）のように使う。",
+      "collocations": [
+        "under stress（ストレス下で）",
+        "stress management（ストレス管理）",
+        "stress out（ストレスを感じさせる）"
+      ],
+      "trivia": "「ストレス」という概念を科学用語として広めたのはハンス・セリエという医学者で、1936年のこと。それまで人類はストレスという言葉なしで生きていた！"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 155,
+    "word": "decade",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "10年間",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɛkeɪd/",
+    "syllables": "dec-ade",
+    "audioHint": "デケイド",
+    "examples": [
+      {
+        "en": "She has been living in Tokyo for over a decade.",
+        "ja": "彼女は10年以上東京に住んでいる。",
+        "blank": "She has been living in Tokyo for over a ___.",
+        "blankAnswer": "decade"
+      }
+    ],
+    "distractors": [
+      "瞬間",
+      "世紀",
+      "期間"
+    ],
+    "confusableSpellings": [
+      "decaid",
+      "decad",
+      "dekade"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 deka（10）が語源。dec-（10）＋ade（集まり）で「10のまとまり＝10年」。decimal（小数）やDecember（もともと10番目の月）と同語根。",
+      "tips": "decade は「10年間」で century（100年）、millennium（1000年）と区別する。「1980年代」は the 1980s または the eighties と言い、in the decade of the 1980s は少し冗長。",
+      "confusables": "decade（10年）/ century（100年）/ millennium（1000年）の3つをセットで覚えるとよい。「デケイド仮面ライダー」でおなじみの人も多いはず。",
+      "collocations": [
+        "over a decade（10年以上）",
+        "in the past decade（過去10年で）",
+        "for decades（何十年もの間）"
+      ],
+      "trivia": "「仮面ライダーディケイド」の「ディケイド」はこの decade から。平成10作品を旅するライダーだから「10」という意味が込められている！"
+    },
+    "frequency": 710,
+    "cefr": "B1"
+  },
+  {
+    "id": 156,
+    "word": "range",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "範囲；幅",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（山の）連なり；射程",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/reɪndʒ/",
+    "syllables": "range",
+    "audioHint": "レインジ",
+    "examples": [
+      {
+        "en": "The store offers a wide range of products.",
+        "ja": "その店は幅広い品揃えを提供している。",
+        "blank": "The store offers a wide ___ of products.",
+        "blankAnswer": "range"
+      }
+    ],
+    "distractors": [
+      "距離",
+      "数量",
+      "容量"
+    ],
+    "confusableSpellings": [
+      "rainge",
+      "rnage",
+      "rangue"
+    ],
+    "passive": {
+      "etymology": "古フランス語 rengier（列を作る・整列させる）が語源。「一列に並んだもの」→「ずらりと並ぶ幅・範囲」へと意味が広がった。",
+      "tips": "a range of ～で「さまざまな〜」という意味になり、a wide range of ～（幅広い〜）が頻出表現。動詞としても使え、Prices range from $10 to $50.（値段は10ドルから50ドルの範囲だ）のように使う。",
+      "confusables": "range（幅・範囲）vs. scope（目的や活動の及ぶ範囲）vs. extent（広がりの程度）。range は「最小〜最大」の幅、scope は「何がカバーされるか」の境界線のイメージ。",
+      "collocations": [
+        "a wide range of（幅広い〜）",
+        "price range（価格帯）",
+        "mountain range（山脈）"
+      ],
+      "trivia": "料理用コンロを range（レンジ）と呼ぶのはアメリカ英語。日本語の「レンジ」（電子レンジ）は microwave が正しく、range とは別物！"
+    },
+    "frequency": 380,
+    "cefr": "B1"
+  },
+  {
+    "id": 157,
+    "word": "character",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "性格；人格",
+        "pos": "noun"
+      },
+      {
+        "meaning": "登場人物；文字",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkærəktər/",
+    "syllables": "char-ac-ter",
+    "audioHint": "キャラクター",
+    "examples": [
+      {
+        "en": "Her honest character earned her everyone's trust.",
+        "ja": "彼女の誠実な性格が皆の信頼を勝ち取った。",
+        "blank": "Her honest ___ earned her everyone's trust.",
+        "blankAnswer": "character"
+      }
+    ],
+    "distractors": [
+      "価値観",
+      "才能",
+      "信念"
+    ],
+    "confusableSpellings": [
+      "charactor",
+      "charcter",
+      "charachter"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 kharaktēr（刻み込まれた印・刻印）が語源。kharassein（刻む）から来ており、「その人に刻み込まれた特徴＝性格」という発想。",
+      "tips": "日本語の「キャラ」は character の短縮形。ただし英語で chara とは言わない。「その人らしさ」を表すときは personality と混同しやすいが、character は道徳的な側面（誠実さ・正直さ等）を含むことが多い。",
+      "confusables": "character（生まれながらの・道徳的な性格）vs. personality（他者に見せる個性・魅力）。「彼は個性的だ」は He has a strong personality. が自然。",
+      "collocations": [
+        "strong character（強い性格）",
+        "fictional character（架空の登場人物）",
+        "character development（人物の成長）"
+      ],
+      "trivia": "漢字やアルファベットなどの「文字」も character と呼ぶ。コンピュータ用語の「文字コード」も character code。つまり「性格」も「文字」も「その人・ものに刻まれた個性」という点で同じ言葉！"
+    },
+    "frequency": 310,
+    "cefr": "A2"
+  },
+  {
+    "id": 158,
+    "word": "advantage",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "利点；有利",
+        "pos": "noun"
+      },
+      {
+        "meaning": "優位；メリット",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ədˈvæntɪdʒ/",
+    "syllables": "ad-van-tage",
+    "audioHint": "アドヴァンティッジ",
+    "examples": [
+      {
+        "en": "Being bilingual gives you a big advantage in business.",
+        "ja": "バイリンガルであることはビジネスで大きな強みになる。",
+        "blank": "Being bilingual gives you a big ___ in business.",
+        "blankAnswer": "advantage"
+      }
+    ],
+    "distractors": [
+      "可能性",
+      "目的",
+      "結果"
+    ],
+    "confusableSpellings": [
+      "advantege",
+      "advatage",
+      "advantige"
+    ],
+    "passive": {
+      "etymology": "古フランス語 avantage（前に出ること）が語源。avant-（前に）＋ -age（状態）→「前に出た状態＝有利な立場」。advance（前進）と同語根。",
+      "tips": "take advantage of ～ は「〜を利用する」の意味で、良い意味（機会を活かす）にも悪い意味（人を利用する）にも使える。文脈に注意！",
+      "confusables": "advantage（具体的な有利な点）vs. benefit（恩恵・利益）vs. merit（長所・功績）。「この方法の利点は」は The advantage of this method is... が自然。",
+      "collocations": [
+        "take advantage of（〜を利用する）",
+        "competitive advantage（競争上の優位）",
+        "have an advantage over（〜より有利だ）"
+      ],
+      "trivia": "テニスで「アドバンテージ」と言うのはデュースの後に一方が1点リードした状態。つまりテニス用語もこの単語から来ている！スポーツの実況でも英語が活きる。"
+    },
+    "frequency": 560,
+    "cefr": "B1"
+  },
+  {
+    "id": 159,
+    "word": "phrase",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "句；フレーズ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "言い回し；表現",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/freɪz/",
+    "syllables": "phrase",
+    "audioHint": "フレイズ",
+    "examples": [
+      {
+        "en": "Can you explain the meaning of this phrase?",
+        "ja": "このフレーズの意味を説明してもらえますか？",
+        "blank": "Can you explain the meaning of this ___?",
+        "blankAnswer": "phrase"
+      }
+    ],
+    "distractors": [
+      "文法",
+      "段落",
+      "語彙"
+    ],
+    "confusableSpellings": [
+      "pharse",
+      "frase",
+      "phraze"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 phrazein（示す・表現する）が語源。phrase は「表現された言葉のまとまり」という意味。paraphrase（言い換え）の para-（横に）＋ phrase も同語根。",
+      "tips": "phrase（句）は主語＋動詞を含まない語のまとまり。主語＋動詞があれば clause（節）。この区別は英文法で頻出なので要注意。",
+      "confusables": "phrase（句・フレーズ）vs. clause（節）vs. sentence（文）。phrase は動詞のない語のかたまり、clause は主語＋動詞を持つ。",
+      "collocations": [
+        "a set phrase（決まり文句）",
+        "coin a phrase（表現を作り出す）",
+        "key phrase（キーフレーズ）"
+      ],
+      "trivia": "「to coin a phrase（ちょっと決まり文句ですが）」という表現があるが、実際には決まり文句を言うときの前置きとして使われる。皮肉たっぷりの英語表現！"
+    },
+    "frequency": 880,
+    "cefr": "B1"
+  },
+  {
+    "id": 160,
+    "word": "damage",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "損害；被害",
+        "pos": "noun"
+      },
+      {
+        "meaning": "〜に損害を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdæmɪdʒ/",
+    "syllables": "dam-age",
+    "audioHint": "ダミッジ",
+    "examples": [
+      {
+        "en": "The storm caused serious damage to the building.",
+        "ja": "嵐はその建物に深刻な被害をもたらした。",
+        "blank": "The storm caused serious ___ to the building.",
+        "blankAnswer": "damage"
+      }
+    ],
+    "distractors": [
+      "影響",
+      "危険",
+      "欠点"
+    ],
+    "confusableSpellings": [
+      "damege",
+      "dammage",
+      "damige"
+    ],
+    "passive": {
+      "etymology": "ラテン語 damnum（損失・罰金）が語源。法律用語として「賠償金」の意味の damages（複数形）も重要。condemn（非難する）とも遠い親戚。",
+      "tips": "「損害を受ける」は be damaged、「損害を与える」は damage ～と動詞でも使える。また法律用語の damages（複数形）は「損害賠償金」の意味になる。",
+      "confusables": "damage（物・関係などへの具体的な損傷）vs. harm（人・健康・評判への悪影響）vs. injury（人体への傷）。物が壊れたら damage、人が怪我したら injury が自然。",
+      "collocations": [
+        "cause damage（損害を引き起こす）",
+        "assess the damage（被害を評価する）",
+        "brain damage（脳損傷）"
+      ],
+      "trivia": "英語のスラングで「What's the damage?」は「いくらですか？（お勘定は？）」という意味。財布への「ダメージ」をユーモラスに表現した言い方！"
+    },
+    "frequency": 490,
+    "cefr": "B1"
+  }
+]

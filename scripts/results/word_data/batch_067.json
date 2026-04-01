@@ -1,0 +1,989 @@
+[
+  {
+    "id": 1321,
+    "word": "shed",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（皮・毛・葉などを）脱ぎ落とす、抜け落ちる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（涙・血などを）流す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʃɛd/",
+    "syllables": "shed",
+    "audioHint": "シェッド",
+    "examples": [
+      {
+        "en": "Snakes shed their skin several times a year.",
+        "ja": "ヘビは年に数回脱皮する。",
+        "blank": "Snakes ___ their skin several times a year.",
+        "blankAnswer": "shed"
+      }
+    ],
+    "distractors": [
+      "吸い込む",
+      "押しつぶす",
+      "収縮する"
+    ],
+    "confusableSpellings": [
+      "shedd",
+      "shede"
+    ],
+    "passive": {
+      "etymology": "古英語 'scēadan'（分ける・散らす）に由来。語根は「分割する」という意味を持ち、現代英語の shed につながっている。",
+      "tips": "shed は過去形・過去分詞も shed（変化なし）という不規則動詞。「shed-shed-shed」と覚えよう。shed tears（涙を流す）、shed light on（〜を明らかにする）などイディオムも重要。",
+      "confusables": "shed（脱ぎ落とす）と shred（細かく切り裂く）は見た目が似ているが意味が全く異なる。また名詞の shed は「小屋」という意味もある。",
+      "collocations": [
+        "shed light on",
+        "shed tears",
+        "shed skin"
+      ],
+      "trivia": "「shed light on（光を当てる）」というフレーズは比喩的に「謎を解明する」という意味で使われ、ニュースや学術文章で非常に頻繁に登場する表現。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1322,
+    "word": "emit",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（光・熱・音などを）放出する、発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（声・叫びを）発する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈmɪt/",
+    "syllables": "e-mit",
+    "audioHint": "イミット",
+    "examples": [
+      {
+        "en": "The factory emits large amounts of carbon dioxide daily.",
+        "ja": "その工場は毎日大量の二酸化炭素を排出している。",
+        "blank": "The factory ___ large amounts of carbon dioxide daily.",
+        "blankAnswer": "emits"
+      }
+    ],
+    "distractors": [
+      "吸収する",
+      "押しつぶす",
+      "脱皮する"
+    ],
+    "confusableSpellings": [
+      "emmit",
+      "emitt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'emittere'（外へ送り出す）に由来。接頭辞 'e-'（ex-：外へ）＋語根 'mittere'（送る）の組み合わせ。",
+      "tips": "emit の名詞形は emission（排出）。環境問題の文脈で「CO2 emissions（二酸化炭素排出量）」として頻出。活用は emit → emits → emitted → emitting で t を重ねることに注意。",
+      "confusables": "emit（放出する）と omit（省略する）はスペルが非常に似ているが意味が正反対に近いので要注意。'e' と 'o' の違いに気をつけること。",
+      "collocations": [
+        "emit carbon dioxide",
+        "emit light",
+        "emit a sound"
+      ],
+      "trivia": "LEDが発明されたとき、科学者たちは「emit light efficiently（効率よく光を発する）」という表現を多用した。今や emit はサステナビリティ議論に欠かせない単語になっている。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1323,
+    "word": "renew",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（契約・資格などを）更新する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（活力・関係などを）新たにする、再開する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈnjuː/",
+    "syllables": "re-new",
+    "audioHint": "リニュー",
+    "examples": [
+      {
+        "en": "She renewed her passport before the trip abroad.",
+        "ja": "彼女は海外旅行の前にパスポートを更新した。",
+        "blank": "She ___ her passport before the trip abroad.",
+        "blankAnswer": "renewed"
+      }
+    ],
+    "distractors": [
+      "廃止する",
+      "分解する",
+      "分配する"
+    ],
+    "confusableSpellings": [
+      "reniew",
+      "renue"
+    ],
+    "passive": {
+      "etymology": "接頭辞 're-'（再び）＋ 'new'（新しい）の組み合わせ。「再び新しくする」という直感的に理解しやすい構造。",
+      "tips": "renew は契約や資格の「更新」という事務的な場面でよく使われる。renewal（名詞）も頻出。renewable energy（再生可能エネルギー）は環境トピックで必須表現。",
+      "confusables": "renew（更新する）と review（見直す）は接頭辞が違うが混同しやすい。renew は「もう一度新しくする行為」、review は「もう一度見て評価する行為」と区別しよう。",
+      "collocations": [
+        "renew a contract",
+        "renew a subscription",
+        "renew energy"
+      ],
+      "trivia": "「renewable energy（再生可能エネルギー）」という言葉は1970年代のオイルショック後に急速に広まった。renew という動詞が環境問題のキーワードになるとは、語源を作った人も思わなかっただろう。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1324,
+    "word": "utilize",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（有効に）利用する、活用する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（資源・能力を）効率的に使う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈjuːtəlaɪz/",
+    "syllables": "u-til-ize",
+    "audioHint": "ユーティライズ",
+    "examples": [
+      {
+        "en": "We should utilize renewable energy sources more effectively.",
+        "ja": "私たちは再生可能エネルギー源をより効果的に活用すべきだ。",
+        "blank": "We should ___ renewable energy sources more effectively.",
+        "blankAnswer": "utilize"
+      }
+    ],
+    "distractors": [
+      "廃棄する",
+      "更新する",
+      "分解する"
+    ],
+    "confusableSpellings": [
+      "utilise",
+      "utillize"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'utilis'（役に立つ）＋接尾辞 '-ize'（〜する）に由来。語根 'uti'（使う）は utility（実用性）や utensil（道具）とも共通。",
+      "tips": "utilize は use よりもフォーマルでやや大げさな印象を与える。日常会話では単純に use を使う方が自然な場合が多い。ビジネスや学術論文で使うと格調が上がる。",
+      "confusables": "utilize（有効活用する）と use（使う）は同義に見えるが、utilize には「本来の目的以外のものを上手く転用する」というニュアンスが含まれることがある。",
+      "collocations": [
+        "utilize resources",
+        "utilize technology",
+        "fully utilize"
+      ],
+      "trivia": "「utilize を使いすぎると文章が堅くなりすぎる」と指摘する英語ライティング指南書は多い。George Orwell の有名なエッセイ「Politics and the English Language」でも、不必要に難しい語を避けることが推奨されている。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1325,
+    "word": "assert",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（自信を持って）主張する、断言する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（権利・権威などを）行使する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsɜːrt/",
+    "syllables": "as-sert",
+    "audioHint": "アサート",
+    "examples": [
+      {
+        "en": "She asserted that the report contained several errors.",
+        "ja": "彼女はその報告書にいくつかの誤りが含まれていると主張した。",
+        "blank": "She ___ that the report contained several errors.",
+        "blankAnswer": "asserted"
+      }
+    ],
+    "distractors": [
+      "懇願する",
+      "自慢する",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "assirt",
+      "asert"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'asserere'（手を添えて宣言する）に由来。接頭辞 'ad-'（〜へ）＋語根 'serere'（結びつける・並べる）の組み合わせ。",
+      "tips": "assert oneself で「自分の意見をはっきり言う、自己主張する」という重要表現になる。assertion（名詞）、assertive（形容詞：自己主張の強い）も合わせて覚えよう。",
+      "confusables": "assert（断言する）と insist（強く主張する）は似ているが、insist は「相手の反論に対してもなお主張し続ける」という粘り強さのニュアンスが強い。",
+      "collocations": [
+        "assert oneself",
+        "assert one's rights",
+        "assert that ~"
+      ],
+      "trivia": "「assertiveness training（自己主張トレーニング）」は1970年代のアメリカで心理療法として広まった。自分の意見を言えない日本人学習者にとって、この単語は言語だけでなく文化的な壁も感じさせる一語だ。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1326,
+    "word": "strain",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（筋肉・目などを）酷使する、痛める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（液体を）こし取る、濾過する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/streɪn/",
+    "syllables": "strain",
+    "audioHint": "ストレイン",
+    "examples": [
+      {
+        "en": "He strained his back lifting heavy boxes at work.",
+        "ja": "彼は職場で重い箱を持ち上げて腰を痛めた。",
+        "blank": "He ___ his back lifting heavy boxes at work.",
+        "blankAnswer": "strained"
+      }
+    ],
+    "distractors": [
+      "脱皮する",
+      "放出する",
+      "膨らむ"
+    ],
+    "confusableSpellings": [
+      "strian",
+      "strayn"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'estreindre'（締め付ける）→ラテン語 'stringere'（引き締める）に由来。stress や strict と同じ語根を共有している。",
+      "tips": "strain は名詞でも「ストレス・緊張・負担」の意味で使われる（例：the strain of work）。動詞と名詞の両方の用法を覚えておくと使い勝手が良い。",
+      "confusables": "strain（酷使する・痛める）と sprain（捻挫する）は医療・スポーツの文脈でよく混同される。strain は筋肉・腱の「引き伸ばし損傷」、sprain は関節の「捻挫」で使い分ける。",
+      "collocations": [
+        "strain a muscle",
+        "strain one's eyes",
+        "under strain"
+      ],
+      "trivia": "料理の「strain（こす）」も同じ語で、パスタをザルでこすときも strain を使う。「体に無理をする」も「スープをこす」も同じ単語というのが英語の面白さ。"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1327,
+    "word": "strive",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（目標に向けて）懸命に努力する、奮闘する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（困難に対して）立ち向かう",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/straɪv/",
+    "syllables": "strive",
+    "audioHint": "ストライヴ",
+    "examples": [
+      {
+        "en": "The team strives to improve its performance every season.",
+        "ja": "そのチームは毎シーズン成績を向上させようと努力している。",
+        "blank": "The team ___ to improve its performance every season.",
+        "blankAnswer": "strives"
+      }
+    ],
+    "distractors": [
+      "廃棄する",
+      "更新する",
+      "分配する"
+    ],
+    "confusableSpellings": [
+      "strive",
+      "strieve",
+      "stryve"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'estriver'（争う・競う）に由来。もともとは「競争する」という意味が強かったが、現代では「努力する」という意味が中心になった。",
+      "tips": "strive は strive to do（〜しようと努力する）または strive for（〜を目指して努力する）という形で使われることが多い。過去形は strove または strived、過去分詞は striven または strived。",
+      "confusables": "strive（努力する）と struggle（もがく・苦闘する）は似ているが、struggle はより「苦しさ・困難さ」を強調し、strive は「前向きな努力」のニュアンスが強い。",
+      "collocations": [
+        "strive for excellence",
+        "strive to achieve",
+        "strive toward a goal"
+      ],
+      "trivia": "企業のミッションステートメントでよく使われるのが「We strive to...（私たちは〜に努力します）」という表現。Apple や Google など有名企業のウェブサイトをチェックすると strive が頻繁に登場する。"
+    },
+    "frequency": 3400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1328,
+    "word": "dare",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "あえて〜する、〜する勇気がある",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人に）〜するよう挑発する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɛr/",
+    "syllables": "dare",
+    "audioHint": "デア",
+    "examples": [
+      {
+        "en": "Nobody dared to speak against the manager's decision.",
+        "ja": "誰もマネージャーの決定に反対する勇気がなかった。",
+        "blank": "Nobody ___ to speak against the manager's decision.",
+        "blankAnswer": "dared"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "服従する",
+      "協力する"
+    ],
+    "confusableSpellings": [
+      "dair",
+      "daer"
+    ],
+    "passive": {
+      "etymology": "古英語 'durran'（勇気を持つ）に由来。ゲルマン語系の語根で、ドイツ語の 'dürfen'（〜してよい）とも遠い親戚関係にある。",
+      "tips": "dare は助動詞的にも使われ、その場合は三単現でも dares にならず dare のまま（例：He dare not say it.）。ただし現代英語では dare to do の形で一般動詞として使うことの方が多い。How dare you! は「よくもそんなことを！」という怒りの慣用表現。",
+      "confusables": "dare（あえてする）と risk（リスクを冒す）は似ているが、dare は「勇気や度胸」に焦点があり、risk は「損失の可能性」に焦点がある。",
+      "collocations": [
+        "dare to do",
+        "How dare you",
+        "dare someone to do"
+      ],
+      "trivia": "「Truth or Dare（真実か挑戦か）」はパーティーゲームの名前として世界中で知られている。dare の「挑発する」という意味がそのままゲーム名になった好例。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1329,
+    "word": "boast",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "自慢する、誇らしげに語る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（場所や組織が何かを）誇りを持って有する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/boʊst/",
+    "syllables": "boast",
+    "audioHint": "ボウスト",
+    "examples": [
+      {
+        "en": "He always boasts about his high salary to everyone.",
+        "ja": "彼はいつも皆に自分の高い給料を自慢している。",
+        "blank": "He always ___ about his high salary to everyone.",
+        "blankAnswer": "boasts"
+      }
+    ],
+    "distractors": [
+      "断言する",
+      "懇願する",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "boaste",
+      "boest"
+    ],
+    "passive": {
+      "etymology": "中英語 'bosten'（自慢する）に由来。語源は不明確な部分もあるが、古ノルド語系の語との関連が指摘されている。",
+      "tips": "boast about〜（〜を自慢する）が最も一般的な使い方。ただし「The city boasts a rich history（その街は豊かな歴史を誇る）」のように主語が場所・組織の場合は肯定的なニュアンスになるので注意。",
+      "confusables": "boast（自慢する）と brag（ほら吹き・大げさに自慢する）は似ているが、brag の方がより口語的でネガティブなニュアンスが強い。boast はやや文語的な響き。",
+      "collocations": [
+        "boast about",
+        "boast of",
+        "boast a record"
+      ],
+      "trivia": "SNS時代になって boast の使用頻度が上がったという研究がある。自慢投稿が「humble brag（謙遜しているふりをしながら自慢する）」と呼ばれるのも現代らしい言語現象だ。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1330,
+    "word": "startle",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（人を）びっくりさせる、驚かせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ハッと驚く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈstɑːrtl/",
+    "syllables": "star-tle",
+    "audioHint": "スタートル",
+    "examples": [
+      {
+        "en": "The loud noise startled the sleeping baby.",
+        "ja": "大きな音が眠っている赤ちゃんをびっくりさせた。",
+        "blank": "The loud noise ___ the sleeping baby.",
+        "blankAnswer": "startled"
+      }
+    ],
+    "distractors": [
+      "自慢する",
+      "断言する",
+      "懇願する"
+    ],
+    "confusableSpellings": [
+      "startel",
+      "starttle"
+    ],
+    "passive": {
+      "etymology": "古英語 'steartlian'（つまずく・飛び上がる）に由来。語根の 'start' には「突然動く」という原義があり、現代英語の start（始める・びくっとする）とも関連している。",
+      "tips": "startle は他動詞として「人をびっくりさせる」という形で使うことが多い。startled（形容詞）は「びっくりした（状態の）」という形容詞としても頻出。startled look（驚いた顔）など。",
+      "confusables": "startle（突然びっくりさせる）と surprise（驚かせる）の違いは、startle はより「反射的・瞬間的な驚き」に特化しており、surprise は「予期していなかった出来事全般」に使える。",
+      "collocations": [
+        "be startled by",
+        "startle someone",
+        "a startled expression"
+      ],
+      "trivia": "赤ちゃんが突然の大きな音でびくっとする反応を「モロー反射（Moro reflex）」と呼ぶが、英語では 'startle reflex' とも言う。startle は生物学的な反応にも使われる本能的な単語だ。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1331,
+    "word": "offend",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜の感情を害する、不快にさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "罪を犯す、違反する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈfɛnd/",
+    "syllables": "of-fend",
+    "audioHint": "オフェンド",
+    "examples": [
+      {
+        "en": "His rude comment offended everyone in the room.",
+        "ja": "彼の失礼なコメントは部屋にいた全員を不快にさせた。",
+        "blank": "His rude comment ___ everyone in the room.",
+        "blankAnswer": "offended"
+      }
+    ],
+    "distractors": [
+      "励ます",
+      "和解する",
+      "褒める"
+    ],
+    "confusableSpellings": [
+      "offened",
+      "ofend",
+      "offennd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 offendere（ob-「向かって」＋ fendere「打つ」）が語源。文字通り「相手に向かって打ちつける」イメージ。",
+      "tips": "「offend someone」で「人を不快にさせる」。be offended by〜で「〜に気分を害される」という受け身もよく使う。日本人はつい「make angry」と言いがちだが、offendは怒りより「傷つき・不快感」のニュアンスが強い。",
+      "confusables": "offense（名詞）・offensive（形容詞）と混同しないこと。スポーツの「オフェンス（攻撃）」も同じ語根だが、動詞offendは「感情を傷つける」意味で使われることが多い。",
+      "collocations": [
+        "offend someone's feelings",
+        "easily offended",
+        "no offense meant"
+      ],
+      "trivia": "スポーツ用語の「オフェンス（攻撃側）」と同じ語源。相手を「精神的に攻撃する」→「傷つける」という意味の流れが面白い。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1332,
+    "word": "compute",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "計算する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（コンピュータで）処理する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpjuːt/",
+    "syllables": "com-pute",
+    "audioHint": "コンピュート",
+    "examples": [
+      {
+        "en": "She computed the total cost in her head quickly.",
+        "ja": "彼女はすばやく頭の中で総費用を計算した。",
+        "blank": "She ___ the total cost in her head quickly.",
+        "blankAnswer": "computed"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "記憶する",
+      "説明する"
+    ],
+    "confusableSpellings": [
+      "compuet",
+      "conpute",
+      "computte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 computare（com-「共に、まとめて」＋ putare「考える、数える」）が語源。「まとめて数え上げる」が原義。",
+      "tips": "computerはこの動詞から来た語。「計算する」という意味では正式・書き言葉的で、日常会話ではcalculateの方がよく使われる。試験や技術文書ではcomputeが自然。",
+      "confusables": "calculateは手動の計算にも広く使えるが、computeはコンピュータや複雑な演算のニュアンスが強い。「暗算する」はcalculate in one's headが一般的。",
+      "collocations": [
+        "compute the result",
+        "compute data",
+        "compute statistics"
+      ],
+      "trivia": "「コンピュータ」はもともと「計算する人（人間）」を指す言葉だった。1940年代まで、大学や研究所では女性が手計算で弾道計算を行い「コンピューター」と呼ばれていた。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1333,
+    "word": "assemble",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "組み立てる、集める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "集合する、集まる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsɛmbəl/",
+    "syllables": "as-sem-ble",
+    "audioHint": "アセンブル",
+    "examples": [
+      {
+        "en": "The workers assembled the furniture in two hours.",
+        "ja": "作業員たちは2時間で家具を組み立てた。",
+        "blank": "The workers ___ the furniture in two hours.",
+        "blankAnswer": "assembled"
+      }
+    ],
+    "distractors": [
+      "分解する",
+      "修理する",
+      "運搬する"
+    ],
+    "confusableSpellings": [
+      "asemble",
+      "assembel",
+      "assemmble"
+    ],
+    "passive": {
+      "etymology": "古フランス語 assembler（as-「〜へ」＋ sembler「一緒に」← ラテン語 simul「同時に」）が語源。「一か所に集める」が原義。",
+      "tips": "「組み立てる（物）」と「集まる（人）」の両方に使える便利な動詞。IKEAの家具説明書でよく見るassemble the partsはまさにこの用法。自動詞（人が集まる）と他動詞（物を組み立てる）を区別して覚えよう。",
+      "confusables": "gatherは人や物が自然に集まるニュアンス、assembleはより「目的を持って集まる・組み立てる」意味合いが強い。",
+      "collocations": [
+        "assemble a team",
+        "assemble furniture",
+        "assemble in the hall"
+      ],
+      "trivia": "プログラミングの「アセンブリ言語（assembly language）」もこの語源。機械語命令を「組み立てる」ことからきている。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1334,
+    "word": "worsen",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "悪化する、悪化させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈwɜːrsən/",
+    "syllables": "wors-en",
+    "audioHint": "ワースン",
+    "examples": [
+      {
+        "en": "The patient's condition worsened overnight.",
+        "ja": "患者の状態は一晩で悪化した。",
+        "blank": "The patient's condition ___ overnight.",
+        "blankAnswer": "worsened"
+      }
+    ],
+    "distractors": [
+      "回復する",
+      "安定する",
+      "改善する"
+    ],
+    "confusableSpellings": [
+      "worsten",
+      "worsern",
+      "worsne"
+    ],
+    "passive": {
+      "etymology": "形容詞 worse（悪い）＋ 接尾辞 -en（〜にする・なる）。-enはdarken（暗くなる）やsoften（柔らかくなる）と同じ形容詞→動詞化の仕組み。",
+      "tips": "自動詞（状態が悪化する）と他動詞（状態を悪化させる）どちらにも使える。日本語の「悪化する」に対してget worseと言いがちだが、worsenは一語で同じ意味を表せる洗練された表現。",
+      "confusables": "deteriorateは物・状態・関係が長期的にゆっくり悪化するニュアンス、worsenはより広く短期的な悪化にも使える。",
+      "collocations": [
+        "worsen the situation",
+        "worsen over time",
+        "worsen the crisis"
+      ],
+      "trivia": "-enを付けるだけで形容詞が動詞になる英語の法則、他にもlighten（明るくする）、strengthen（強くする）など多数。worsenはこのシリーズの中でも「最悪方向専用」の珍しい単語。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1335,
+    "word": "flip",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "パッとひっくり返す、素早く動かす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（コインを）弾く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/flɪp/",
+    "syllables": "flip",
+    "audioHint": "フリップ",
+    "examples": [
+      {
+        "en": "He flipped the pancake perfectly without breaking it.",
+        "ja": "彼はパンケーキを崩さずに完璧にひっくり返した。",
+        "blank": "He ___ the pancake perfectly without breaking it.",
+        "blankAnswer": "flipped"
+      }
+    ],
+    "distractors": [
+      "持ち上げる",
+      "押しつぶす",
+      "引っ張る"
+    ],
+    "confusableSpellings": [
+      "filp",
+      "flipp",
+      "fllip"
+    ],
+    "passive": {
+      "etymology": "16世紀の擬音語が起源とされ、素早い動きの音「フリッ」を表す。fillip（指ではじく）と関連があるとも言われる。",
+      "tips": "flip a coinで「コインを投げて決める」、flip throughで「ページをパラパラめくる」、flip outで「激怒する・興奮する」など、フレーズ動詞としての用法も豊富。日本人はこれを全部flipで押さえると会話力がぐっと上がる。",
+      "confusables": "turnは一般的な「回す・向きを変える」、flipは素早く・勢いよくひっくり返すニュアンスが強い。",
+      "collocations": [
+        "flip a coin",
+        "flip through pages",
+        "flip over"
+      ],
+      "trivia": "「フリップ（プレゼン用ボード）」も同語源。パラパラとめくるからflip chart。また「flip flop（ビーチサンダル）」は足がペタペタ鳴る音からきている。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1336,
+    "word": "rub",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "こする、摩擦する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（クリームなどを）塗り込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rʌb/",
+    "syllables": "rub",
+    "audioHint": "ラブ",
+    "examples": [
+      {
+        "en": "She rubbed her eyes after waking up.",
+        "ja": "彼女は目が覚めた後、目をこすった。",
+        "blank": "She ___ her eyes after waking up.",
+        "blankAnswer": "rubbed"
+      }
+    ],
+    "distractors": [
+      "叩く",
+      "握る",
+      "引っかく"
+    ],
+    "confusableSpellings": [
+      "rubb",
+      "rube",
+      "rub'd"
+    ],
+    "passive": {
+      "etymology": "中英語 rubben が語源で、低地ドイツ語 rubben と関連するとされる。擬似的に摩擦音を表す語根から派生したと考えられる。",
+      "tips": "rub it inで「（相手の失敗を）わざわざ繰り返し言う」、rub off onで「（習慣・性格が）うつる」など慣用表現が多い。過去形・ing形でbを重ねる（rubbed / rubbing）のを忘れずに。",
+      "confusables": "scrubは力を入れてゴシゴシこすること（掃除・ブラシ使用）、rubはより軽く・手でなでるようにこするニュアンス。",
+      "collocations": [
+        "rub one's eyes",
+        "rub in lotion",
+        "rub against"
+      ],
+      "trivia": "「there's the rub（そこが問題だ）」はシェイクスピアのハムレット「To be or not to be」のスピーチから来た表現。「こする障害物」が転じて「問題・困難」の意味になった。"
+    },
+    "frequency": 2500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1337,
+    "word": "descend",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "下降する、降りる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（家系を）受け継ぐ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈsɛnd/",
+    "syllables": "de-scend",
+    "audioHint": "ディセンド",
+    "examples": [
+      {
+        "en": "The hikers descended the mountain before sunset.",
+        "ja": "ハイカーたちは日没前に山を下りた。",
+        "blank": "The hikers ___ the mountain before sunset.",
+        "blankAnswer": "descended"
+      }
+    ],
+    "distractors": [
+      "浮かび上がる",
+      "横断する",
+      "停止する"
+    ],
+    "confusableSpellings": [
+      "decend",
+      "descened",
+      "desend"
+    ],
+    "passive": {
+      "etymology": "ラテン語 descendere（de-「下へ」＋ scandere「登る」）が語源。「上る」を意味するscandereにde-（下）をつけて「下りる」になった。",
+      "tips": "be descended from〜で「〜の子孫である」という重要表現がある。ascend（上る）の対義語として合わせて覚えると効率的。scが続く子音クラスターのスペルが難しいので注意。",
+      "confusables": "descendはゆっくり・じっくり下りるニュアンス、dropは突然落ちる感覚。また名詞形はdescent（発音注意：/dɪˈsɛnt/）。",
+      "collocations": [
+        "descend the stairs",
+        "descend from ancestors",
+        "descend into chaos"
+      ],
+      "trivia": "「クレッシェンド（crescendo）」もscandere（登る）が語源で「音が高まる」意味。descendとは兄弟語。音楽用語と英単語がつながっている！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1338,
+    "word": "compensate",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "補償する、埋め合わせをする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（損失・不足を）補う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒmpənseɪt/",
+    "syllables": "com-pen-sate",
+    "audioHint": "コンペンセイト",
+    "examples": [
+      {
+        "en": "The company compensated workers for their overtime hours.",
+        "ja": "会社は残業時間に対して従業員に補償した。",
+        "blank": "The company ___ workers for their overtime hours.",
+        "blankAnswer": "compensated"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "節約する",
+      "請求する"
+    ],
+    "confusableSpellings": [
+      "conpensate",
+      "compansate",
+      "compenssate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 compensare（com-「共に」＋ pensare「重さを量る、支払う」）が語源。天秤で両側の重さを釣り合わせるイメージ。",
+      "tips": "compensate for〜（〜を補う）とcompensate someone for〜（〜に対して誰かを補償する）の2つの構文を区別して覚えよう。forを忘れるミスが多い。",
+      "confusables": "reimburseは「実費を払い戻す」（領収書ベース）、compensateは「損害・損失・労働などへの対価として支払う」より広い意味。",
+      "collocations": [
+        "compensate for the loss",
+        "compensate employees",
+        "fully compensate"
+      ],
+      "trivia": "「ペンション（年金）」はpensareと同語源。お金の「重さを量って支払う」→「定期的な支払い」がペンションの語源。compensateと年金がつながっている！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1339,
+    "word": "comprise",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜から成る、構成する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を占める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpraɪz/",
+    "syllables": "com-prise",
+    "audioHint": "コンプライズ",
+    "examples": [
+      {
+        "en": "The committee comprises ten members from different countries.",
+        "ja": "委員会は異なる国からの10名のメンバーで構成されている。",
+        "blank": "The committee ___ ten members from different countries.",
+        "blankAnswer": "comprises"
+      }
+    ],
+    "distractors": [
+      "分割する",
+      "除外する",
+      "拡張する"
+    ],
+    "confusableSpellings": [
+      "comprice",
+      "comprize",
+      "compris"
+    ],
+    "passive": {
+      "etymology": "古フランス語 comprendre（com-「共に」＋ prendere「取る」）の過去分詞 compris が英語に入ったもの。「すべてを一緒に取り込む」が原義。",
+      "tips": "「The whole comprises the parts（全体が部分を含む）」が正しい用法。be comprised ofは誤用とされることもあるが実際には広く使われる。consist ofと混同せず、compriseは能動態で使うのが基本。",
+      "confusables": "consist of〜（〜から成り立つ）と意味は似るが、comprise は「全体が部分を従える」視点、consist of は「全体が部分の集まりである」視点。",
+      "collocations": [
+        "comprise the majority",
+        "is comprised of",
+        "comprise several parts"
+      ],
+      "trivia": "フランス語のcompris（含まれる）は「サービス料込み」を意味する「service compris」でも使われる。フランスのレストランでよく見る表現で、英語のcompriseと同じ語根。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1340,
+    "word": "prevail",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "勝る、優勢になる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "広まっている、一般的である",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈveɪl/",
+    "syllables": "pre-vail",
+    "audioHint": "プリヴェイル",
+    "examples": [
+      {
+        "en": "Justice will prevail in the end, she believed.",
+        "ja": "彼女は正義が最終的に勝ると信じていた。",
+        "blank": "Justice will ___ in the end, she believed.",
+        "blankAnswer": "prevail"
+      }
+    ],
+    "distractors": [
+      "崩壊する",
+      "停滞する",
+      "消滅する"
+    ],
+    "confusableSpellings": [
+      "prevale",
+      "preval",
+      "prevaile"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praevalere（prae-「前に・より優れて」＋ valere「強い・価値がある」）が語源。「他よりも強い力を持つ」が原義。",
+      "tips": "prevail over〜（〜に打ち勝つ）とprevail among/in〜（〜の中で広まっている）という2つの用法がある。「善が悪に勝つ」文脈でよく使われるやや格調ある表現。",
+      "confusables": "winは具体的な試合・競争での勝利、prevailは状況・考え・傾向が「広く優勢になる」抽象的なニュアンスが強い。",
+      "collocations": [
+        "prevail over the enemy",
+        "prevail in court",
+        "common attitudes that prevail"
+      ],
+      "trivia": "valere（強い）はvalue（価値）、valid（有効な）、valor（勇気）と同語源。「価値がある＝強い」という古代ローマ的な価値観がここに凝縮されている。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 981,
+    "word": "prompt",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "迅速な、即座の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "促す、引き起こす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɒmpt/",
+    "syllables": "prompt",
+    "audioHint": "プロンプト",
+    "examples": [
+      {
+        "en": "She gave a prompt reply to the customer's email.",
+        "ja": "彼女は顧客のメールに迅速に返信した。",
+        "blank": "She gave a ___ reply to the customer's email.",
+        "blankAnswer": "prompt"
+      }
+    ],
+    "distractors": [
+      "曖昧な",
+      "相互の",
+      "中立の"
+    ],
+    "confusableSpellings": [
+      "promt",
+      "promped",
+      "propt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 promptus（手元に用意されている）から。pro-（前に）＋ emere（取る）が語源。「すぐ取り出せる状態」が原義。",
+      "tips": "形容詞「迅速な」と動詞「促す」の2用法を混同しやすい。'a prompt response'（迅速な返答）と 'prompt someone to do'（人に～するよう促す）の両方を押さえよう。",
+      "confusables": "prompt（即座の）vs. quick（速い）：promptは「遅れなく対応する」ニュアンス、quickは単に速度が速いこと。ビジネスシーンではpromptが丁寧。",
+      "collocations": [
+        "prompt reply",
+        "prompt action",
+        "prompt someone to do"
+      ],
+      "trivia": "AIの世界では「プロンプト」は指示文のことを指す。元々の「すぐ使える手がかり」という意味が、AIへの命令文にぴったり当てはまった結果だ！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 982,
+    "word": "informal",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "非公式の、くだけた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "形式張らない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈfɔːrməl/",
+    "syllables": "in-for-mal",
+    "audioHint": "インフォーマル",
+    "examples": [
+      {
+        "en": "The meeting was informal, so everyone wore casual clothes.",
+        "ja": "その会議は非公式だったので、全員カジュアルな服装だった。",
+        "blank": "The meeting was ___, so everyone wore casual clothes.",
+        "blankAnswer": "informal"
+      }
+    ],
+    "distractors": [
+      "迅速な",
+      "受動的な",
+      "外部の"
+    ],
+    "confusableSpellings": [
+      "infromal",
+      "informel",
+      "imformal"
+    ],
+    "passive": {
+      "etymology": "in-（否定）＋ formal（形式的な）。formalはラテン語 forma（形・様式）に由来。「形式を否定した」状態が informal。",
+      "tips": "日本語では「インフォーマル」とカタカナで使われるが、「非公式」と「くだけた雰囲気」の両方の意味があることを忘れずに。formal の反対語として試験に出やすい。",
+      "confusables": "informal（くだけた）vs. casual（カジュアルな）：informalは「公式でない」という状況を指し、casualは服装や態度の軽さに使われることが多い。",
+      "collocations": [
+        "informal meeting",
+        "informal language",
+        "informal setting"
+      ],
+      "trivia": "言語学では「インフォーマルな言葉遣い」を研究する分野がある。LINEやSNSの文体は典型的な informal English の宝庫だ！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 983,
+    "word": "mutual",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "相互の、互いの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "共通の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmjuːtʃuəl/",
+    "syllables": "mu-tu-al",
+    "audioHint": "ミューチュアル",
+    "examples": [
+      {
+        "en": "They reached a mutual agreement after long negotiations.",
+        "ja": "長い交渉の末、彼らは相互合意に達した。",
+        "blank": "They reached a ___ agreement after long negotiations.",
+        "blankAnswer": "mutual"
+      }
+    ],
+    "distractors": [
+      "中立の",
+      "迅速な",
+      "外部の"
+    ],
+    "confusableSpellings": [
+      "mutal",
+      "mutuel",
+      "mututal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 mutuus（相互の、貸し借りの）から。語根 mu-は「交換する」という意味を持つ。",
+      "tips": "「mutual friend」は「共通の友人」という意味。「お互いの友人」という日本語訳につられて 'each other's friend' と言いがちだが、ネイティブは 'mutual friend' を好む。",
+      "confusables": "mutual（双方向の）vs. reciprocal（互恵的な）：mutualは感情・関係が「お互いに同じ」、reciprocalは行為が「お互いに返し合う」ニュアンスが強い。",
+      "collocations": [
+        "mutual respect",
+        "mutual benefit",
+        "mutual friend"
+      ],
+      "trivia": "SNSで「mutual（ミューチュアル）」と言うと「お互いにフォローし合っている関係」の意味。Z世代の英語ネットスラングとしても定着している！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 984,
+    "word": "neutral",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "中立の、中性の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "どちらにも偏らない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnjuːtrəl/",
+    "syllables": "neu-tral",
+    "audioHint": "ニュートラル",
+    "examples": [
+      {
+        "en": "Switzerland has remained neutral in many conflicts.",
+        "ja": "スイスは多くの紛争において中立を保ってきた。",
+        "blank": "Switzerland has remained ___ in many conflicts.",
+        "blankAnswer": "neutral"
+      }
+    ],
+    "distractors": [
+      "相互の",
+      "非公式の",
+      "受動的な"
+    ],
+    "confusableSpellings": [
+      "nutral",
+      "neutrral",
+      "neatral"
+    ],
+    "passive": {
+      "etymology": "ラテン語 neutralis（どちらでもない）から。ne-（否定）＋ uter（どちらか一方）が組み合わさり「どちらでもない」が原義。",
+      "tips": "化学では「中性（pH7）」の意味でも使う。車のギアの「ニュートラル」も同じ単語。日常・理科・政治の3分野で使えるコスパ最高の単語！",
+      "confusables": "neutral（中立）vs. impartial（公平な）：neutralは「どちらの側にも加担しない」、impartialは「えこひいきなく公平に判断する」というニュアンスの違いがある。",
+      "collocations": [
+        "remain neutral",
+        "neutral color",
+        "neutral ground"
+      ],
+      "trivia": "「ニュートラルカラー」（白・グレー・ベージュなど）という言葉はファッション業界から広まった。どんな色にも合う「中立な色」というわけだ！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 985,
+    "word": "alert",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "警戒した、油断のない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "警報、警告",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈlɜːrt/",
+    "syllables": "a-lert",
+    "audioHint": "アラート",
+    "examples": [
+      {
+        "en": "Stay alert while walking alone at night.",
+        "ja": "夜一人で歩くときは油断しないようにしよう。",
+        "blank": "Stay ___ while walking alone at night.",
+        "blankAnswer": "alert"
+      }
+    ],
+    "distractors": [
+      "形式張らない",
+      "中立の",
+      "相互の"
+    ],
+    "confusableSpellings": [
+      "alart",
+      "allert",
+      "alret"
+    ],
+    "passive": {
+      "etymology": "イタリア語 all'erta（見張り台にいる）から。erta は「急な坂・見張り台」の意味。「高いところから警戒する」イメージが語源。",
+      "tips": "形容詞「be alert」と名詞「an alert」の両方を使いこなそう。スマホの「アラート（通知）」はすでに日本語化しているので、名詞用法はなじみやすいはず。",
+      "confusables": "alert（警戒している）vs. aware（気づいている）：alertは「危険に備えて緊張している」能動的なニュアンス、awareは単に「認識している」こと。",
+      "collocations": [
+        "be on alert",
+        "amber alert",
+        "alert someone to"
+      ],
+      "trivia": "米国の「Amber Alert（アンバーアラート）」は誘拐された子供の情報を流す緊急警報システム。Amberは1996年に誘拐された少女の名前から来ている。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 986,
+    "word": "magnetic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "磁気の、磁石の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "人を引きつける魅力的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/mæɡˈnetɪk/",
+    "syllables": "mag-net-ic",
+    "audioHint": "マグネティック",
+    "examples": [
+      {
+        "en": "The speaker had a magnetic personality that drew everyone in.",
+        "ja": "その話者は人をひきつける魅力的な人柄だった。",
+        "blank": "The speaker had a ___ personality that drew everyone in.",
+        "blankAnswer": "magnetic"
+      }
+    ],
+    "distractors": [
+      "流暢な",
+      "極地の",
+      "中立の"
+    ],
+    "confusableSpellings": [
+      "magnatic",
+      "magnetick",
+      "magntic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 magnētis（マグネシア地方の石）から。小アジアのマグネシア地方で磁石が産出されたことに由来する固有名詞起源の単語。",
+      "tips": "物理的な「磁気の」意味だけでなく「人を引きつける」比喩的用法も頻出。'magnetic personality' や 'magnetic charm' はTOEICや英検でも狙われる表現。",
+      "confusables": "magnetic（磁気の）vs. electric（電気の）：両方とも物理現象だが、比喩的に使うと magnetic は「引き寄せる魅力」、electric は「興奮・高揚感」のニュアンスになる。",
+      "collocations": [
+        "magnetic field",
+        "magnetic personality",
+        "magnetic force"
+      ],
+      "trivia": "地球自体が巨大な磁石であることはあまり知られていない。北極点と磁北極は実は違う場所にあり、しかも毎年少しずつ動いている！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 987,
+    "word": "polar",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "極地の、極の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "正反対の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpoʊlər/",
+    "syllables": "po-lar",
+    "audioHint": "ポウラー",
+    "examples": [
+      {
+        "en": "Polar bears are well adapted to cold Arctic environments.",
+        "ja": "ホッキョクグマは寒い北極環境によく適応している。",
+        "blank": "___ bears are well adapted to cold Arctic environments.",
+        "blankAnswer": "Polar"
+      }
+    ],
+    "distractors": [
+      "磁気の",
+      "流暢な",
+      "相互の"
+    ],
+    "confusableSpellings": [
+      "poler",
+      "pollar",
+      "polor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 polaris（極の）＜ polus（天の極、軸）＜ ギリシャ語 polos（軸、回転）。地球の「軸の端」が pole（極）で、polar はその形容詞形。",
+      "tips": "「polar opposite（正反対）」は比喩的表現として非常によく使われる。「彼らの意見は polar opposite だ」のように人の意見や性格の対比に便利！",
+      "confusables": "polar（極の）vs. arctic（北極の）：polarは「南極・北極どちらの極にも使える」汎用語、arcticは特定の北極地域を指す固有の表現。",
+      "collocations": [
+        "polar bear",
+        "polar opposite",
+        "polar vortex"
+      ],
+      "trivia": "「ポーラー・ボーテックス（極渦）」という気象用語が2010年代から話題に。北極の冷気が南下して大寒波を引き起こす現象で、SNSで一気に広まったキーワードだ！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 988,
+    "word": "fluent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "流暢な、滑らかな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "すらすらと話せる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfluːənt/",
+    "syllables": "flu-ent",
+    "audioHint": "フルーエント",
+    "examples": [
+      {
+        "en": "She is fluent in three languages, including Japanese.",
+        "ja": "彼女は日本語を含む3言語を流暢に話す。",
+        "blank": "She is ___ in three languages, including Japanese.",
+        "blankAnswer": "fluent"
+      }
+    ],
+    "distractors": [
+      "磁気の",
+      "極地の",
+      "警戒した"
+    ],
+    "confusableSpellings": [
+      "fulent",
+      "fleuent",
+      "fluant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fluens（流れる）の現在分詞形から。fluere（流れる）が語根で、fluid（流体）やflow（流れ）と同じ語族。「言葉が流れるように出てくる」が原義。",
+      "tips": "「fluent in 言語」の形が基本。「fluent English」とは言わず「fluent in English」と言うことに注意。また'I'm fluent'だけでは何の言語か不明なので必ず in ～ を続けよう。",
+      "confusables": "fluent（流暢な）vs. proficient（熟達した）：fluentは「滑らかに話せる」、proficientは「技能が高い」という意味で、語学以外にも使えるのはproficient。",
+      "collocations": [
+        "fluent in English",
+        "speak fluently",
+        "fluent speaker"
+      ],
+      "trivia": "英語学習者の永遠の目標「fluency（流暢さ）」。実は言語学的には「詰まらずに話せる速さ」を指し、完璧な文法とは別物。多少の間違いがあっても fluent と言える！"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 989,
+    "word": "external",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "外部の、外側の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "対外的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈstɜːrnəl/",
+    "syllables": "ex-ter-nal",
+    "audioHint": "イクスターナル",
+    "examples": [
+      {
+        "en": "External factors affected the company's performance last year.",
+        "ja": "外部要因が昨年の会社の業績に影響した。",
+        "blank": "___ factors affected the company's performance last year.",
+        "blankAnswer": "External"
+      }
+    ],
+    "distractors": [
+      "相互の",
+      "迅速な",
+      "非公式の"
+    ],
+    "confusableSpellings": [
+      "externel",
+      "externall",
+      "exturnal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 externus（外の）から。exter-（外の）が語根で、exterior（外装）や extra-（超えて）と同じ語族。-al は形容詞を作る接尾辞。",
+      "tips": "internal（内部の）の対義語として必ずセットで覚えよう。「external hard drive（外付けハードディスク）」のようにIT用語でも頻出。",
+      "confusables": "external（外部の）vs. outer（外側の）：externalは組織・システムの「外部」という概念的な意味が強く、outerは物理的な「外側」に使いやすい。",
+      "collocations": [
+        "external factors",
+        "external hard drive",
+        "external pressure"
+      ],
+      "trivia": "「外部の目」という意味で external auditor（外部監査人）という言葉がある。企業の不正を防ぐために外から監査する人のことで、内部監査(internal audit)とセットで覚えると便利！"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 990,
+    "word": "passive",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "受動的な、消極的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "受け身の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpæsɪv/",
+    "syllables": "pas-sive",
+    "audioHint": "パッシブ",
+    "examples": [
+      {
+        "en": "He took a passive role in the group discussion.",
+        "ja": "彼はグループディスカッションで受け身の役割を取った。",
+        "blank": "He took a ___ role in the group discussion.",
+        "blankAnswer": "passive"
+      }
+    ],
+    "distractors": [
+      "警戒した",
+      "外部の",
+      "迅速な"
+    ],
+    "confusableSpellings": [
+      "pasive",
+      "passiv",
+      "passieve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 passivus（被ることのできる）から。pati（苦しむ、受ける）が語根で、patient（患者・忍耐強い）とも同語族。「受け取る側」が原義。",
+      "tips": "文法用語の「受動態（passive voice）」と同じ単語。「active（能動的）」の反対語として覚えよう。passive income（不労所得）はビジネス英語でも必須表現！",
+      "confusables": "passive（受動的）vs. inactive（活動していない）：passiveは「自分から動かない・働きかけない」態度、inactiveは単に「動いていない状態」を指す。",
+      "collocations": [
+        "passive income",
+        "passive voice",
+        "passive behavior"
+      ],
+      "trivia": "「パッシブ収入（passive income）」はYouTubeやブログで稼ぐ不労所得のこと。FIREムーブメントとともに世界中で使われるようになり、今や英語圏の若者の口癖になっている！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 991,
+    "word": "awful",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "ひどい、最悪の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "すさまじい、恐ろしい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɔːfəl/",
+    "syllables": "aw-ful",
+    "audioHint": "オーフル",
+    "examples": [
+      {
+        "en": "The weather was awful during our vacation.",
+        "ja": "休暇中の天気はひどかった。",
+        "blank": "The weather was ___ during our vacation.",
+        "blankAnswer": "awful"
+      }
+    ],
+    "distractors": [
+      "素晴らしい",
+      "平均的な",
+      "奇妙な"
+    ],
+    "confusableSpellings": [
+      "aweful",
+      "awfull",
+      "awfal"
+    ],
+    "passive": {
+      "etymology": "古英語 'egeful'（畏敬を起こさせる）が変化。'awe'（畏怖）＋ '-ful'（～に満ちた）。元は「畏敬の念を起こさせる」という肯定的な意味だった。",
+      "tips": "口語では 'awful' を副詞的に「とても」という意味で使うことがある（例: awful good）が、フォーマルな文章では避けること。",
+      "confusables": "'terrible' も「ひどい」だが、'awful' の方が口語的。'horrible' は特に嫌悪感を伴う場合に使う。",
+      "collocations": [
+        "awful weather",
+        "awful smell",
+        "feel awful"
+      ],
+      "trivia": "元々 'awful' は 'awesome' と同じ意味（神々しい・畏敬の念を起こさせる）だった。意味が真逆に近い方向に変化した珍しい単語！"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 992,
+    "word": "unrelated",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "無関係の、関連のない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "血縁関係のない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌʌnrɪˈleɪtɪd/",
+    "syllables": "un-re-lat-ed",
+    "audioHint": "アンリレイテッド",
+    "examples": [
+      {
+        "en": "The two incidents are completely unrelated to each other.",
+        "ja": "その2つの出来事は互いに全く無関係だ。",
+        "blank": "The two incidents are completely ___ to each other.",
+        "blankAnswer": "unrelated"
+      }
+    ],
+    "distractors": [
+      "不完全な",
+      "不安定な",
+      "不明確な"
+    ],
+    "confusableSpellings": [
+      "unreleted",
+      "unrelatted",
+      "unreladed"
+    ],
+    "passive": {
+      "etymology": "'un-'（否定）＋ 'related'（関連した）。'related' は動詞 'relate'（関係する）の過去分詞形で、ラテン語 'relatus'（再び運ぶ）に由来。",
+      "tips": "'unrelated to' の形で使うのが基本。'unrelated with' とは言わないので注意。前置詞 'to' とセットで覚えること。",
+      "confusables": "'irrelevant' も「無関係の」だが、'unrelated' は存在・性質上の無関係さ、'irrelevant' は文脈や議論に対する無関係さを表す。",
+      "collocations": [
+        "completely unrelated",
+        "unrelated to the topic",
+        "seemingly unrelated"
+      ],
+      "trivia": "遺伝学の研究では、見た目が似ていても遺伝的に 'unrelated' なケースが多く報告されており、「他人の空似」を科学的に説明するキーワードになっている。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 993,
+    "word": "cruel",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "残酷な、冷酷な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "厳しい、過酷な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkruːəl/",
+    "syllables": "cru-el",
+    "audioHint": "クルーエル",
+    "examples": [
+      {
+        "en": "It was cruel to ignore her when she needed help.",
+        "ja": "彼女が助けを必要としているときに無視するのは残酷だった。",
+        "blank": "It was ___ to ignore her when she needed help.",
+        "blankAnswer": "cruel"
+      }
+    ],
+    "distractors": [
+      "優しい",
+      "内気な",
+      "誠実な"
+    ],
+    "confusableSpellings": [
+      "cruell",
+      "crule",
+      "crewel"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'cruel'、ラテン語 'crudelis'（生の、粗野な）から。語根 'crudus'（生の・加工されていない）に由来し、「感情が洗練されていない＝残酷」というイメージ。",
+      "tips": "'cruel to' と 'cruel about' の使い分けに注意。人に対して残酷なときは 'cruel to'（例: cruel to animals）、物事への態度は 'cruel about' を使う。",
+      "confusables": "'harsh' は言動が「厳しい」ニュアンス、'brutal' は暴力的・容赦ない残酷さ、'cruel' は意図的に苦しめることに重点がある。",
+      "collocations": [
+        "cruel joke",
+        "cruel treatment",
+        "be cruel to"
+      ],
+      "trivia": "英語には 'cruel to be kind'（親切のための厳しさ）というフレーズがある。ハムレットの台詞が起源で、「あえて厳しくすることが相手のため」というパラドックス的な名言。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 994,
+    "word": "fake",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "偽の、本物でない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "作り物の、不誠実な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/feɪk/",
+    "syllables": "fake",
+    "audioHint": "フェイク",
+    "examples": [
+      {
+        "en": "He was wearing a fake smile throughout the meeting.",
+        "ja": "彼は会議中ずっと作り笑いをしていた。",
+        "blank": "He was wearing a ___ smile throughout the meeting.",
+        "blankAnswer": "fake"
+      }
+    ],
+    "distractors": [
+      "空の",
+      "古い",
+      "重い"
+    ],
+    "confusableSpellings": [
+      "faike",
+      "feak",
+      "faek"
+    ],
+    "passive": {
+      "etymology": "18世紀の犯罪者俗語 'feague'（ごまかす）が変化したとも言われる。語源は不明な部分が多いが、ドイツ語 'fegen'（磨く・整える）との関連も指摘されている。",
+      "tips": "名詞・動詞・形容詞すべてで使える便利な単語。'fake news'（偽ニュース）、'fake it'（ふりをする）など多様に使える。名詞で「偽物」の意味でも頻出。",
+      "confusables": "'false' は論理的・事実的な「誤り・偽」、'fake' は意図的に本物に見せかけた「偽物」、'counterfeit' は通貨や書類の「偽造品」に使う。",
+      "collocations": [
+        "fake news",
+        "fake ID",
+        "fake smile"
+      ],
+      "trivia": "SNS時代に 'fake' の使用頻度が激増した単語。特に 'fake news' というフレーズは2017年の流行語大賞（英語圏）にも選ばれており、現代社会を象徴するワードになっている。"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  },
+  {
+    "id": 995,
+    "word": "vulnerable",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "傷つきやすい、脆弱な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "影響を受けやすい、無防備な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvʌlnərəbəl/",
+    "syllables": "vul-ner-a-ble",
+    "audioHint": "ヴァルナラブル",
+    "examples": [
+      {
+        "en": "Children are especially vulnerable to online scams.",
+        "ja": "子どもたちはオンライン詐欺に特に影響を受けやすい。",
+        "blank": "Children are especially ___ to online scams.",
+        "blankAnswer": "vulnerable"
+      }
+    ],
+    "distractors": [
+      "勇敢な",
+      "几帳面な",
+      "寛大な"
+    ],
+    "confusableSpellings": [
+      "vunerable",
+      "vulnerble",
+      "vulnurable"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vulnerabilis'（傷つけられうる）から。語根 'vulnus'（傷）＋ '-abilis'（～できる）。同じ語根から 'wound'（傷）も派生。",
+      "tips": "'vulnerable to' の形が基本。'vulnerable to attack'（攻撃に無防備）、'vulnerable to disease'（病気にかかりやすい）のように使う。サイバーセキュリティ分野でも頻出。",
+      "confusables": "'fragile' は物理的にもろい・壊れやすい、'sensitive' は感情的・感覚的に敏感、'vulnerable' は外部の危険・攻撃・影響に対して無防備なニュアンス。",
+      "collocations": [
+        "vulnerable to attack",
+        "vulnerable population",
+        "feel vulnerable"
+      ],
+      "trivia": "心理学者ブレネー・ブラウンが 'vulnerability'（脆弱性）を「人との深いつながりに必要な勇気」と再定義したTEDトーク（2千万回以上再生）で一躍注目ワードになった。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 996,
+    "word": "urgent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "緊急の、急を要する",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "強く求める、切迫した",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɜːrdʒənt/",
+    "syllables": "ur-gent",
+    "audioHint": "アージェント",
+    "examples": [
+      {
+        "en": "Please call me back — it's urgent.",
+        "ja": "折り返し電話してください——緊急です。",
+        "blank": "Please call me back — it's ___.",
+        "blankAnswer": "urgent"
+      }
+    ],
+    "distractors": [
+      "曖昧な",
+      "一時的な",
+      "複雑な"
+    ],
+    "confusableSpellings": [
+      "urgant",
+      "urgient",
+      "urjent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'urgens'（押し迫る）から。動詞 'urgere'（押す・迫る）の現在分詞形。同語源に 'urge'（強く促す）がある。",
+      "tips": "'urgent' は形容詞、名詞形は 'urgency'。'with urgency'（緊急性をもって）という表現も覚えておくと便利。ビジネスメールで頻出。",
+      "confusables": "'emergency' は名詞で「緊急事態」そのもの、'urgent' は形容詞で状況の「緊急性」を表す。'URGENT' とメールの件名に大文字で書くのは英語圏でもよく使われる慣習。",
+      "collocations": [
+        "urgent matter",
+        "urgent need",
+        "urgent care"
+      ],
+      "trivia": "医療施設の 'urgent care'（緊急クリニック）は、救急（emergency）ほどではないが今日中に診てほしい症状向けの施設。アメリカで急増中の医療形態で、この単語なしには語れない。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 997,
+    "word": "spiritual",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "精神的な、霊的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "宗教的な、神聖な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈspɪrɪtʃuəl/",
+    "syllables": "spir-i-tu-al",
+    "audioHint": "スピリチュアル",
+    "examples": [
+      {
+        "en": "She found spiritual peace through meditation.",
+        "ja": "彼女は瞑想を通して精神的な平和を見つけた。",
+        "blank": "She found ___ peace through meditation.",
+        "blankAnswer": "spiritual"
+      }
+    ],
+    "distractors": [
+      "理論的な",
+      "統計的な",
+      "地理的な"
+    ],
+    "confusableSpellings": [
+      "spirtual",
+      "spirituel",
+      "spirituall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'spiritualis'（霊に関する）から。語根 'spiritus'（息・霊）＋ '-alis'（～に関する）。'spirit'（精神・霊）と同語源。",
+      "tips": "日本語の「スピリチュアル」よりも英語の 'spiritual' は宗教・哲学的な文脈で使われることが多い。'spiritual growth'（精神的成長）などの表現はビジネス・自己啓発でも頻出。",
+      "confusables": "'religious' は特定の宗教の信仰・実践に関わる意味、'spiritual' はより個人的・内面的な霊的体験を指す。「宗教は信じないけど精神性は大切にする」人を 'spiritual but not religious' と表現する。",
+      "collocations": [
+        "spiritual growth",
+        "spiritual leader",
+        "spiritual practice"
+      ],
+      "trivia": "欧米の調査では「自分は spiritual だが religious ではない」と答える人が急増中。'SBNR'（Spiritual But Not Religious）という略語も生まれており、現代の信仰観の変化を示すキーワードになっている。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 998,
+    "word": "modest",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "謙虚な、控えめな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "適度な、さほど多くない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmɒdɪst/",
+    "syllables": "mod-est",
+    "audioHint": "モデスト",
+    "examples": [
+      {
+        "en": "She was modest about her achievements despite winning the award.",
+        "ja": "賞を受賞したにもかかわらず、彼女は自分の功績について謙虚だった。",
+        "blank": "She was ___ about her achievements despite winning the award.",
+        "blankAnswer": "modest"
+      }
+    ],
+    "distractors": [
+      "攻撃的な",
+      "粘り強い",
+      "悲観的な"
+    ],
+    "confusableSpellings": [
+      "modist",
+      "moddest",
+      "modast"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'modestus'（自制心のある）から。語根 'modus'（尺度・限度）に由来。'moderate'（適度な）と同語源で「適切な範囲に収まる」が原義。",
+      "tips": "「謙虚な」と「控えめな量・程度」の2つの意味を持つ。'a modest salary'（それほど高くない給料）のように量を表す用法を忘れがち。",
+      "confusables": "'humble' は自己を低く置く謙虚さ、'modest' は自分の能力や功績を誇示しない控えめさ。'modest' はポジティブな文脈で使われることが多い。",
+      "collocations": [
+        "modest salary",
+        "modest improvement",
+        "be modest about"
+      ],
+      "trivia": "日本人は謙虚さを美徳とする文化があるが、英語圏では過度な謙虚さが「自信のなさ」に見えることも。'modest' と 'self-deprecating'（自己卑下）は紙一重だと心得ておこう。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 999,
+    "word": "keen",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "熱心な、意欲的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "鋭い、敏感な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kiːn/",
+    "syllables": "keen",
+    "audioHint": "キーン",
+    "examples": [
+      {
+        "en": "She is keen to learn new languages.",
+        "ja": "彼女は新しい言語を学ぶことに熱心だ。",
+        "blank": "She is ___ to learn new languages.",
+        "blankAnswer": "keen"
+      }
+    ],
+    "distractors": [
+      "内向的な",
+      "楽観的な",
+      "頑固な"
+    ],
+    "confusableSpellings": [
+      "kean",
+      "kene",
+      "keene"
+    ],
+    "passive": {
+      "etymology": "古英語 'cene'（勇敢な・鋭い）から。古ノルド語 'kænn'（知識のある・鋭い）とも関連。原義は「刃が鋭い」で、そこから「感覚・知性が鋭い」「意欲が鋭い」へと意味が広がった。",
+      "tips": "'keen on'（～に熱心）と 'keen to do'（～したくてたまらない）の2パターンを覚えよう。イギリス英語で特によく使われ、アメリカ英語では 'eager' の方が一般的。",
+      "confusables": "'eager' は積極的に何かをしたい強い意欲、'enthusiastic' は広く熱狂的・情熱的なニュアンス、'keen' はイギリス英語的でやや落ち着いた熱心さを表す。",
+      "collocations": [
+        "keen interest",
+        "keen on sports",
+        "keen sense of smell"
+      ],
+      "trivia": "英語の 'keen' はアメリカの古いスラングで「素晴らしい・かっこいい」という意味でも使われていた（1930〜50年代）。今では古風な表現だが、映画やレトロな小説でたまに登場する。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1000,
+    "word": "nonetheless",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "それにもかかわらず、それでもやはり",
+        "pos": "adverb"
+      },
+      {
+        "meaning": "とはいえ",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˌnʌnðəˈles/",
+    "syllables": "none-the-less",
+    "audioHint": "ナンザレス",
+    "examples": [
+      {
+        "en": "The task was difficult; nonetheless, she completed it on time.",
+        "ja": "その作業は難しかったが、それでも彼女は時間通りに終わらせた。",
+        "blank": "The task was difficult; ___, she completed it on time.",
+        "blankAnswer": "nonetheless"
+      }
+    ],
+    "distractors": [
+      "したがって",
+      "さらに",
+      "たとえば"
+    ],
+    "confusableSpellings": [
+      "nontheless",
+      "nonethe less",
+      "nontheless"
+    ],
+    "passive": {
+      "etymology": "'none'（まったく～でない）＋ 'the'（それだけ）＋ 'less'（より少なく）の3語が融合。直訳すると「それだけ少ないわけでもない」＝「それでも同様に」というニュアンス。",
+      "tips": "文頭・文中どちらでも使えるが、セミコロンや接続詞の後に置くことが多い。'nevertheless' とほぼ同義だが、'nonetheless' の方がやや現代的でフォーマルな文章に多く使われる。",
+      "confusables": "'however' は話題の転換も伴う逆接、'nevertheless / nonetheless' は前の内容を認めながらも「それでも」と主張を続ける逆接。ニュアンスは微妙に異なる。",
+      "collocations": [
+        "nonetheless important",
+        "nonetheless effective",
+        "nonetheless true"
+      ],
+      "trivia": "'none the less' と3語に分けて書くのも正しい英語。実は 'nonetheless' は3つの単語がくっついてできた合成語で、時代とともに1語表記が標準になった英語の進化を体感できる単語だ。"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  }
+]

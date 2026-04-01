@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 181,
+    "word": "complex",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "複雑な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "複合体",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒmpleks/",
+    "syllables": "com-plex",
+    "audioHint": "コンプレックス",
+    "examples": [
+      {
+        "en": "This is a very complex problem to solve.",
+        "ja": "これは解決するのが非常に複雑な問題です。",
+        "blank": "This is a very ___ problem to solve.",
+        "blankAnswer": "complex"
+      }
+    ],
+    "distractors": [
+      "現在の",
+      "重要な",
+      "公式の"
+    ],
+    "confusableSpellings": [
+      "compleks",
+      "complix",
+      "commplex"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'complexus'（絡み合った）から。'com-'（共に）＋'plectere'（編む・絡める）。plexはplexus（神経叢）とも関係。",
+      "tips": "日本語の「コンプレックス（劣等感）」は英語では 'inferiority complex' のこと。英語の 'complex' 単体では「複雑な」または「複合体」の意味なので注意。",
+      "confusables": "'complicated' も「複雑な」だが、'complex' は構造的に多くの要素が絡み合うニュアンス。'complicated' は手順や状況が面倒・やっかいな場合に使いやすい。",
+      "collocations": [
+        "complex system（複雑なシステム）",
+        "complex situation（複雑な状況）",
+        "apartment complex（集合住宅）"
+      ],
+      "trivia": "日本語の「コンプレックス」は英語から来ているのに、意味が全然違う！英語ネイティブに 'I have a complex about my height.' と言うと通じるが、単に 'complex' と言っても「劣等感」にはならない。"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 182,
+    "word": "current",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "現在の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "流れ・潮流",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkʌrənt/",
+    "syllables": "cur-rent",
+    "audioHint": "カレント",
+    "examples": [
+      {
+        "en": "What is your current address?",
+        "ja": "現在の住所はどちらですか？",
+        "blank": "What is your ___ address?",
+        "blankAnswer": "current"
+      }
+    ],
+    "distractors": [
+      "複雑な",
+      "精神的な",
+      "重要な"
+    ],
+    "confusableSpellings": [
+      "curent",
+      "currrent",
+      "currant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'currere'（走る・流れる）から派生した 'currens'（流れている）が語源。'currency'（通貨）や 'occur'（起こる）も同じ語根。",
+      "tips": "'currant'（カシス・スグリという果物）と同音異義語なので注意。また 'current' は「現在の」という意味では名詞の前に置く限定用法が基本（current situation など）。",
+      "confusables": "'present' も「現在の」を意味するが、'current' は「今まさに進行中・通用中」のニュアンスが強い。'the present king' より 'the current king' のほうが「現役の王」感が強い。",
+      "collocations": [
+        "current situation（現状）",
+        "current events（時事問題）",
+        "electric current（電流）"
+      ],
+      "trivia": "'current' は川の「流れ」という意味もあるが、実は「通貨（currency）」も同じ語根。お金が社会を「流れる」からこの名前になったという説がある。"
+    },
+    "frequency": 280,
+    "cefr": "B1"
+  },
+  {
+    "id": 183,
+    "word": "mental",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "精神的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "知的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmentl/",
+    "syllables": "men-tal",
+    "audioHint": "メンタル",
+    "examples": [
+      {
+        "en": "Regular exercise improves your mental health.",
+        "ja": "定期的な運動は精神的な健康を改善します。",
+        "blank": "Regular exercise improves your ___ health.",
+        "blankAnswer": "mental"
+      }
+    ],
+    "distractors": [
+      "財政的な",
+      "公式の",
+      "学術的な"
+    ],
+    "confusableSpellings": [
+      "mentall",
+      "mantel",
+      "mentel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'mens'（心・精神）＋接尾辞 '-al'（〜の・〜に関する）。'mind' とは別の語根だが意味は近い。'mention'（言及）も同じ語根。",
+      "tips": "日本語では「メンタルが強い」と言うが、英語では 'have strong mental health' や 'be mentally strong' が自然。'mental' だけでは形容詞なので単独では使えない。",
+      "confusables": "'psychological' も「心理的な」を意味するが、'mental' はより一般的・日常的な表現。学術論文では 'psychological' が好まれることが多い。",
+      "collocations": [
+        "mental health（精神的健康）",
+        "mental illness（精神疾患）",
+        "mental strength（精神力）"
+      ],
+      "trivia": "英語圏では 'mental' を俗語でイギリス英語の「頭がおかしい・クレイジーな」という意味で使うことがある。'That's mental!' は「信じられない！」というスラング表現。"
+    },
+    "frequency": 520,
+    "cefr": "B1"
+  },
+  {
+    "id": 184,
+    "word": "specific",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "特定の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "具体的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/spəˈsɪfɪk/",
+    "syllables": "spe-cif-ic",
+    "audioHint": "スペシフィック",
+    "examples": [
+      {
+        "en": "Please give me a specific example.",
+        "ja": "具体的な例を教えてください。",
+        "blank": "Please give me a ___ example.",
+        "blankAnswer": "specific"
+      }
+    ],
+    "distractors": [
+      "現在の",
+      "必要不可欠な",
+      "複雑な"
+    ],
+    "confusableSpellings": [
+      "speciffic",
+      "spesific",
+      "specifik"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'species'（種・外見）＋'-ficus'（〜を作る）から。'species'（生物の種）と同じ語根で、「特定の種類を示す」が原義。",
+      "tips": "「スペシフィックに言うと」という日本語的表現はやや不自然。英語では 'to be more specific' や 'specifically' を使うのが自然。副詞形 'specifically' も重要。",
+      "confusables": "'particular' も「特定の」を意味するが、'specific' はより「明確に定義された・詳細な」ニュアンス。'a specific reason' は明確な理由、'a particular reason' はある特定の（曖昧でもよい）理由。",
+      "collocations": [
+        "specific purpose（特定の目的）",
+        "specific details（具体的な詳細）",
+        "be specific about（〜について具体的に述べる）"
+      ],
+      "trivia": "科学用語の 'species specific'（種特異的）という表現があり、「ある生物種だけに現れる特徴」を指す。つまり 'specific' には「ある一つの種に絞る」という生物学的なルーツがある。"
+    },
+    "frequency": 310,
+    "cefr": "B1"
+  },
+  {
+    "id": 185,
+    "word": "significant",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "重要な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "著しい・かなりの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/sɪɡˈnɪfɪkənt/",
+    "syllables": "sig-nif-i-cant",
+    "audioHint": "シグニフィカント",
+    "examples": [
+      {
+        "en": "There has been a significant improvement in her health.",
+        "ja": "彼女の健康状態は著しく改善しました。",
+        "blank": "There has been a ___ improvement in her health.",
+        "blankAnswer": "significant"
+      }
+    ],
+    "distractors": [
+      "必要不可欠な",
+      "公式の",
+      "現在の"
+    ],
+    "confusableSpellings": [
+      "significent",
+      "signifigant",
+      "significannt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'signum'（しるし・記号）＋'facere'（作る）＋'-ant'（〜している）。「意味を持つしるしを作る」が原義。'sign'（サイン）と同じ語根。",
+      "tips": "学術論文でよく使われる 'statistically significant'（統計的に有意な）は「偶然ではない差がある」という意味。日常会話でも「かなりの・大きな」という意味で頻出。",
+      "confusables": "'important' は主観的な重要性、'significant' はデータや結果に基づく客観的な重要性・意味深さを示すことが多い。ビジネスや学術では 'significant' が好まれる。",
+      "collocations": [
+        "significant difference（大きな違い）",
+        "significant impact（大きな影響）",
+        "statistically significant（統計的に有意な）"
+      ],
+      "trivia": "'significant other' という表現は「大切なパートナー（恋人・配偶者）」の意味で、性別を問わず使えるニュートラルな表現として1970年代から広まった。略して 'S.O.' とも言う。"
+    },
+    "frequency": 290,
+    "cefr": "B2"
+  },
+  {
+    "id": 186,
+    "word": "essential",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "必要不可欠な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "本質的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈsenʃl/",
+    "syllables": "es-sen-tial",
+    "audioHint": "イセンシャル",
+    "examples": [
+      {
+        "en": "Water is essential for all living things.",
+        "ja": "水はすべての生き物にとって必要不可欠です。",
+        "blank": "Water is ___ for all living things.",
+        "blankAnswer": "essential"
+      }
+    ],
+    "distractors": [
+      "著しい",
+      "複雑な",
+      "学術的な"
+    ],
+    "confusableSpellings": [
+      "essencial",
+      "essensial",
+      "esential"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'essentia'（本質・存在）から。'esse'（あること・存在すること）が語根で、'essence'（エッセンス・本質）と同じ語源。「存在に必要なもの」が原義。",
+      "tips": "'essential' は述語でも限定用法でも使える。'It is essential to do' の形で「〜することが不可欠だ」というフォーマルな表現によく使う。'essential oil' は「精油（エッセンシャルオイル）」。",
+      "confusables": "'necessary' も「必要な」だが、'essential' はより強く「絶対に欠かせない」というニュアンス。'necessary evil'（必要悪）のように 'necessary' は「望ましくないが必要」でも使える。",
+      "collocations": [
+        "essential skills（必須スキル）",
+        "essential oil（精油）",
+        "it is essential that〜（〜が不可欠だ）"
+      ],
+      "trivia": "コロナ禍に世界中で話題になった 'essential workers'（エッセンシャルワーカー）という言葉。医療・物流・食料など「社会に欠かせない仕事をする人たち」を指す表現が一気に広まった。"
+    },
+    "frequency": 400,
+    "cefr": "B1"
+  },
+  {
+    "id": 187,
+    "word": "official",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "公式の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "公務員・役人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈfɪʃl/",
+    "syllables": "of-fi-cial",
+    "audioHint": "オフィシャル",
+    "examples": [
+      {
+        "en": "The official results will be announced tomorrow.",
+        "ja": "公式の結果は明日発表される予定です。",
+        "blank": "The ___ results will be announced tomorrow.",
+        "blankAnswer": "official"
+      }
+    ],
+    "distractors": [
+      "特定の",
+      "精神的な",
+      "著しい"
+    ],
+    "confusableSpellings": [
+      "offical",
+      "officail",
+      "offiicial"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'officium'（職務・義務）から。'op-'（に向かって）＋'facere'（する・作る）が合わさり「職務を果たす」が原義。'office'（オフィス）と同じ語根。",
+      "tips": "'official' と 'formal' はどちらも「正式な」だが、'official' は機関・組織・政府が認定したニュアンス。'formal' は形式・礼儀に関するニュアンスが強い。",
+      "confusables": "'formal' は「形式的・礼儀正しい」で服装や文体にも使う。'official' は「権威・機関によって認められた」ニュアンス。'official statement'（公式声明）に 'formal' は使いにくい。",
+      "collocations": [
+        "official statement（公式声明）",
+        "official language（公用語）",
+        "government official（政府高官）"
+      ],
+      "trivia": "スポーツで審判を 'official' と呼ぶことがある（特にアメリカンフットボールなど）。「公式の権限を持つ人」という意味からきており、審判が「公式の判断者」だからこそその名が付いた。"
+    },
+    "frequency": 370,
+    "cefr": "B1"
+  },
+  {
+    "id": 188,
+    "word": "financial",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "財政的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "金融の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/faɪˈnænʃl/",
+    "syllables": "fi-nan-cial",
+    "audioHint": "ファイナンシャル",
+    "examples": [
+      {
+        "en": "She received financial support from her parents.",
+        "ja": "彼女は両親から経済的な支援を受けた。",
+        "blank": "She received ___ support from her parents.",
+        "blankAnswer": "financial"
+      }
+    ],
+    "distractors": [
+      "精神的な",
+      "学術的な",
+      "公式の"
+    ],
+    "confusableSpellings": [
+      "finantial",
+      "financail",
+      "finacial"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'finis'（終わり・決済）から 'financia'（支払い・財政）が派生し、接尾辞 '-al' が付いた。'fine'（罰金・決着）や 'finish'（終わらせる）も同じ語根。",
+      "tips": "'financial' と 'economic' はどちらも経済に関わるが、'financial' はお金・資金の流れ（個人・企業レベルも含む）、'economic' はより広い経済システム全体を指すことが多い。",
+      "confusables": "'economic' は「経済の・経済学的な」でマクロ視点、'financial' は「財務・資金の」でミクロ〜メゾ視点。'financial crisis' と 'economic crisis' は重複することも多いが微妙に使い分けられる。",
+      "collocations": [
+        "financial support（経済的支援）",
+        "financial crisis（金融危機）",
+        "financial advisor（ファイナンシャルアドバイザー）"
+      ],
+      "trivia": "'finance' の語源は「支払いで終わらせる」こと。つまりお金を払って決着をつけるのが 'finance' の原義。「ファイナル（final）」と同じ語根なので、どちらも「終わり」に関係している。"
+    },
+    "frequency": 330,
+    "cefr": "B1"
+  },
+  {
+    "id": 189,
+    "word": "academic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "学術的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "大学の・学問の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌækəˈdemɪk/",
+    "syllables": "ac-a-dem-ic",
+    "audioHint": "アカデミック",
+    "examples": [
+      {
+        "en": "She has an excellent academic record.",
+        "ja": "彼女は優秀な学業成績を持っています。",
+        "blank": "She has an excellent ___ record.",
+        "blankAnswer": "academic"
+      }
+    ],
+    "distractors": [
+      "財政的な",
+      "精神的な",
+      "現在の"
+    ],
+    "confusableSpellings": [
+      "academik",
+      "academmic",
+      "accademic"
+    ],
+    "passive": {
+      "etymology": "古代ギリシャの哲学者プラトンが教えた場所 'Akademia'（アカデメイア）が語源。アテネ郊外の英雄アカデモスにちなんだ聖域に設けられた学園の名前から。",
+      "tips": "発音のアクセントは3音節目（dem）にある：アカ**デ**ミック。日本語の「アカデミック」とアクセント位置が異なるので注意。名詞として 'an academic'（大学研究者）の意味もある。",
+      "confusables": "'scholarly' も「学術的な」だが、'academic' は大学や教育機関との繋がりを含意し、'scholarly' はより「深く研究された・学識がある」という質のニュアンス。",
+      "collocations": [
+        "academic performance（学業成績）",
+        "academic year（学年度）",
+        "academic research（学術研究）"
+      ],
+      "trivia": "プラトンが紀元前387年ごろに開いた 'Akademia' が世界最古の大学のひとつとされ、そこから 'academy'（アカデミー）→'academic' という言葉が生まれた。映画賞「アカデミー賞」もここに繋がっている。"
+    },
+    "frequency": 490,
+    "cefr": "B1"
+  },
+  {
+    "id": 190,
+    "word": "aware",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "気づいている",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "意識している",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈweər/",
+    "syllables": "a-ware",
+    "audioHint": "アウェア",
+    "examples": [
+      {
+        "en": "Are you aware of the risks involved?",
+        "ja": "関係するリスクについて把握していますか？",
+        "blank": "Are you ___ of the risks involved?",
+        "blankAnswer": "aware"
+      }
+    ],
+    "distractors": [
+      "公式の",
+      "特定の",
+      "複雑な"
+    ],
+    "confusableSpellings": [
+      "awere",
+      "awair",
+      "awarr"
+    ],
+    "passive": {
+      "etymology": "古英語 'gewær'（用心深い・気づいている）から。ゲルマン語系の語根 'war-'（注意する・守る）に由来。'wary'（用心深い）や 'beware'（気をつける）と同じ語根。",
+      "tips": "'aware' は必ず 'be aware of〜' または 'be aware that〜' の形で使う。単独で 'I am aware.' とだけ言うことも可能だが、何について気づいているかを 'of' や 'that' 節で補うのが一般的。",
+      "confusables": "'conscious' も「意識している」だが、'aware' は外部の事実・状況への気づき、'conscious' は自分自身の内部状態・感覚への意識というニュアンスの違いがある。",
+      "collocations": [
+        "be aware of（〜に気づいている）",
+        "become aware（気づく）",
+        "self-aware（自己認識がある）"
+      ],
+      "trivia": "日本語の「物の哀れ（もののあわれ）」の「あわれ」と英語の 'aware' は偶然にも発音が似ているが、語源は全く無関係。ただし日本語学者のドナルド・キーンはこの偶然の一致を面白がっていたという逸話がある。"
+    },
+    "frequency": 460,
+    "cefr": "B1"
+  },
+  {
+    "id": 191,
+    "word": "worth",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "〜の価値がある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "価値、値打ち",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/wɜːrθ/",
+    "syllables": "worth",
+    "audioHint": "ワース",
+    "examples": [
+      {
+        "en": "This book is worth reading at least once.",
+        "ja": "この本は少なくとも一度読む価値がある。",
+        "blank": "This book is ___ reading at least once.",
+        "blankAnswer": "worth"
+      }
+    ],
+    "distractors": [
+      "重要な",
+      "十分な",
+      "適切な"
+    ],
+    "confusableSpellings": [
+      "worht",
+      "woth",
+      "werth"
+    ],
+    "passive": {
+      "etymology": "古英語 'weorþ'（価値のある）に由来。ゲルマン語根で「価値・尊厳」を意味する。",
+      "tips": "worth の後には動名詞（〜ing）が続くのが基本。'worth to do' とは言わないので注意。また 'it is worth doing' の形も頻出。",
+      "confusables": "'worthy'（〜にふさわしい、形容詞）と混同しやすい。worth は前置詞的に使われ、worthy は 'worthy of praise' のように of と組み合わせる。",
+      "collocations": [
+        "worth trying（試してみる価値がある）",
+        "worth noting（注目に値する）",
+        "net worth（純資産）"
+      ],
+      "trivia": "「百聞は一見にしかず」の英語表現 'A picture is worth a thousand words' にも登場する超頻出単語。価値を表す場面でほぼどこでも使える万能ワード。"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 192,
+    "word": "potential",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "潜在的な、可能性のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "可能性、潜在力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pəˈtenʃəl/",
+    "syllables": "po-ten-tial",
+    "audioHint": "ポテンシャル",
+    "examples": [
+      {
+        "en": "She has the potential to become a great leader.",
+        "ja": "彼女には偉大なリーダーになる可能性がある。",
+        "blank": "She has the ___ to become a great leader.",
+        "blankAnswer": "potential"
+      }
+    ],
+    "distractors": [
+      "明らかな",
+      "一般的な",
+      "個人的な"
+    ],
+    "confusableSpellings": [
+      "potencial",
+      "potentail",
+      "potenital"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'potentia'（力・権力）から。語根 'potent-'（力のある）＋接尾辞 '-ial'。'potent'（強力な）とも同語源。",
+      "tips": "形容詞として 'potential risk'（潜在的リスク）のように名詞の前に置く用法と、名詞として 'have potential'（可能性を持つ）の用法を使い分けよう。",
+      "confusables": "'possible'（可能な）と似た意味だが、potential は「まだ顕在化していない力や可能性」に焦点を当てる。possible は単に「起こりうる」こと全般に使う。",
+      "collocations": [
+        "full potential（最大限の可能性）",
+        "potential customer（見込み客）",
+        "unlock potential（潜在力を引き出す）"
+      ],
+      "trivia": "日本語でも「ポテンシャルが高い」と言うほど定着したカタカナ語。ただし英語の発音は「ポ**テン**シャル」とテンに強勢がある点に注意。"
+    },
+    "frequency": 280,
+    "cefr": "B1"
+  },
+  {
+    "id": 193,
+    "word": "active",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "活動的な、積極的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "活発な、機能している",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæktɪv/",
+    "syllables": "ac-tive",
+    "audioHint": "アクティヴ",
+    "examples": [
+      {
+        "en": "He stays active by jogging every morning.",
+        "ja": "彼は毎朝ジョギングをして活動的でいる。",
+        "blank": "He stays ___ by jogging every morning.",
+        "blankAnswer": "active"
+      }
+    ],
+    "distractors": [
+      "静かな",
+      "複雑な",
+      "柔軟な"
+    ],
+    "confusableSpellings": [
+      "activ",
+      "activve",
+      "aktive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'activus'（行動する）から。語根 'act-'（行為・動き）＋接尾辞 '-ive'（〜の性質を持つ）。'act'（行動する）と同語源。",
+      "tips": "文法用語の「能動態」も 'active voice' という。また 'be active in〜'（〜に積極的に参加する）の形をセットで覚えると便利。",
+      "confusables": "'energetic'（精力的な）は体力・エネルギーの豊かさを強調するが、active は「実際に動いている・参加している」状態を指す。",
+      "collocations": [
+        "active member（活発なメンバー）",
+        "physically active（体を動かしている）",
+        "active volcano（活火山）"
+      ],
+      "trivia": "SNSで「アクティブ（オンライン中）」という意味でも使われるが、英語の 'active' はずっと昔から火山・戦場・薬の成分など様々な場面で使われてきた超守備範囲が広い単語。"
+    },
+    "frequency": 320,
+    "cefr": "A2"
+  },
+  {
+    "id": 194,
+    "word": "digital",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "デジタルの、電子的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "指の、数字の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdɪdʒɪtəl/",
+    "syllables": "dig-i-tal",
+    "audioHint": "ディジタル",
+    "examples": [
+      {
+        "en": "Digital technology has changed how we communicate.",
+        "ja": "デジタル技術は私たちのコミュニケーション方法を変えた。",
+        "blank": "___ technology has changed how we communicate.",
+        "blankAnswer": "Digital"
+      }
+    ],
+    "distractors": [
+      "自動的な",
+      "物理的な",
+      "理論的な"
+    ],
+    "confusableSpellings": [
+      "digitall",
+      "digitel",
+      "digiatal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'digitus'（指・つま先）から。もともと「指で数える」意味が転じてコンピュータの「0と1の数字信号」を表すようになった。",
+      "tips": "日本語の「デジタル」は正しい発音に近いが、英語では「**ディ**ジタル」と第一音節に強勢を置く。また analog（アナログ）の対義語として使われることが多い。",
+      "confusables": "'electronic'（電子的な）と混同されやすいが、digital はデータが離散的な数値（0と1）で表される方式を指し、electronic はより広く電子機器全般に使う。",
+      "collocations": [
+        "digital transformation（デジタル変革）",
+        "digital marketing（デジタルマーケティング）",
+        "digital nomad（デジタルノマド）"
+      ],
+      "trivia": "「指」を意味するラテン語が語源で、人間が指で数を数えていた古代からの概念が現代のデジタル技術につながっている。指が10本だから10進法、コンピュータは2進法…すべて「指で数える」文化の延長線上にある。"
+    },
+    "frequency": 410,
+    "cefr": "A2"
+  },
+  {
+    "id": 195,
+    "word": "mobile",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "移動できる、携帯の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "携帯電話",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmoʊbəl/",
+    "syllables": "mo-bile",
+    "audioHint": "モウバル",
+    "examples": [
+      {
+        "en": "Most people now access the internet on mobile devices.",
+        "ja": "今やほとんどの人がモバイル端末でインターネットを利用する。",
+        "blank": "Most people now access the internet on ___ devices.",
+        "blankAnswer": "mobile"
+      }
+    ],
+    "distractors": [
+      "安定した",
+      "独立した",
+      "自動的な"
+    ],
+    "confusableSpellings": [
+      "moblie",
+      "moble",
+      "mobilе"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'mobilis'（動かせる）から。語根 'mov-/mob-'（動く）＋接尾辞 '-ilis'（〜できる）。'move' や 'motion' と同語源。",
+      "tips": "英語での発音は「モウ**バ**ル」と第一音節に強勢。日本語の「モバイル」とはアクセントが異なる。イギリス英語では /ˈmoʊbaɪl/ と末尾を「バイル」と発音することもある。",
+      "confusables": "'portable'（携帯できる）と似ているが、mobile は「自力で動ける・移動そのものの能力」を強調し、portable は「持ち運び可能なサイズ・重量」に焦点を当てる。",
+      "collocations": [
+        "mobile phone（携帯電話）",
+        "mobile app（モバイルアプリ）",
+        "socially mobile（社会的流動性がある）"
+      ],
+      "trivia": "芸術作品の「モビール（宙吊りの動く彫刻）」も同じ単語。アレクサンダー・カルダーが作った風で揺れる吊り彫刻が 'mobile' と名付けられ、芸術ジャンルになった。"
+    },
+    "frequency": 500,
+    "cefr": "A2"
+  },
+  {
+    "id": 196,
+    "word": "novel",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "新奇な、斬新な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "小説",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnɒvəl/",
+    "syllables": "nov-el",
+    "audioHint": "ノヴェル",
+    "examples": [
+      {
+        "en": "The scientist proposed a novel approach to treating cancer.",
+        "ja": "その科学者はがん治療への斬新なアプローチを提案した。",
+        "blank": "The scientist proposed a ___ approach to treating cancer.",
+        "blankAnswer": "novel"
+      }
+    ],
+    "distractors": [
+      "明白な",
+      "複雑な",
+      "否定的な"
+    ],
+    "confusableSpellings": [
+      "novell",
+      "novle",
+      "noveel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'novellus'（新しい）から。語根 'nov-'（新しい）＋縮小辞 '-ellus'。'new' や 'innovation'（革新）と同語源。",
+      "tips": "名詞の「小説」として覚えている人が多いが、形容詞「斬新な・新しい」の意味も重要。学術論文やビジネス文書では形容詞としてよく使われる。",
+      "confusables": "'new'（新しい）は単に「新品・最近の」を指すが、novel は「今まで見たことのないような独自性・斬新さ」を強調する。より高い評価ニュアンスがある。",
+      "collocations": [
+        "novel idea（斬新なアイデア）",
+        "novel approach（新しいアプローチ）",
+        "graphic novel（グラフィックノベル）"
+      ],
+      "trivia": "新型コロナウイルスの正式名称 'novel coronavirus'（新型コロナウイルス）の 'novel' がまさにこの形容詞。「今まで人類が知らなかった新しい種類のウイルス」という意味で使われた。"
+    },
+    "frequency": 620,
+    "cefr": "B2"
+  },
+  {
+    "id": 197,
+    "word": "plastic",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "プラスチック、合成樹脂",
+        "pos": "noun"
+      },
+      {
+        "meaning": "可塑性の、柔軟な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈplæstɪk/",
+    "syllables": "plas-tic",
+    "audioHint": "プラスティック",
+    "examples": [
+      {
+        "en": "We should reduce our use of single-use plastic.",
+        "ja": "使い捨てプラスチックの使用を減らすべきだ。",
+        "blank": "We should reduce our use of single-use ___.",
+        "blankAnswer": "plastic"
+      }
+    ],
+    "distractors": [
+      "金属",
+      "布地",
+      "木材"
+    ],
+    "confusableSpellings": [
+      "plastik",
+      "plasctic",
+      "plaastic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'plastikos'（形を作ることができる）から。語根 'plassein'（形作る・こねる）に由来。'plasma'（プラズマ）とも同語源。",
+      "tips": "形容詞としての「可塑性のある・柔軟な」という意味（例：plastic surgery＝形成外科）も押さえておこう。素材としてのプラスチックは不可算名詞として使われることが多い。",
+      "confusables": "'flexible'（柔軟な）と形容詞の plastic は似ているが、plastic surgery（美容・形成外科）のように「形を変えられる」という医学・生物学的な文脈では plastic を使う。",
+      "collocations": [
+        "plastic bottle（ペットボトル）",
+        "plastic surgery（形成外科）",
+        "plastic bag（レジ袋）"
+      ],
+      "trivia": "「プラスチック」が発明されたのは1907年。それ以前は「プラスチック」という言葉は「形を作れる」という形容詞としてしか存在しなかった。素材名が形容詞から生まれた珍しいケース。"
+    },
+    "frequency": 730,
+    "cefr": "A2"
+  },
+  {
+    "id": 198,
+    "word": "chemical",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "化学的な、化学の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "化学物質、薬品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkemɪkəl/",
+    "syllables": "chem-i-cal",
+    "audioHint": "ケミカル",
+    "examples": [
+      {
+        "en": "The factory released harmful chemical waste into the river.",
+        "ja": "その工場は有害な化学廃棄物を川に流した。",
+        "blank": "The factory released harmful ___ waste into the river.",
+        "blankAnswer": "chemical"
+      }
+    ],
+    "distractors": [
+      "物理的な",
+      "生物学的な",
+      "機械的な"
+    ],
+    "confusableSpellings": [
+      "chemicle",
+      "cemical",
+      "chemikal"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'chimicus'（錬金術師）から。アラビア語 'al-kīmiyā'（錬金術）が語源で、これがさらにギリシャ語やコプト語に遡る。'chemistry' と同語源。",
+      "tips": "発音は「**ケ**ミカル」で、ch を /k/ と読む点に注意。'chemistry'（化学）と同じ読み方のルール。スペルの最初が 'ch' でも /tʃ/ ではないので要注意。",
+      "confusables": "'biological'（生物学的な）とは区別が必要。chemical weapon（化学兵器）と biological weapon（生物兵器）は全くの別物。",
+      "collocations": [
+        "chemical reaction（化学反応）",
+        "chemical compound（化学化合物）",
+        "chemical engineering（化学工学）"
+      ],
+      "trivia": "「ケミストリー」は化学という意味だが、英語では「二人の間の相性・引力」という意味でも日常的に使われる（例：They have great chemistry.）。元は錬金術から来た言葉が、人間関係の「魔法のような相性」を表すようになったのは面白い。"
+    },
+    "frequency": 580,
+    "cefr": "B1"
+  },
+  {
+    "id": 199,
+    "word": "necessary",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "必要な、不可欠な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "必然的な、避けられない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnesəseri/",
+    "syllables": "nec-es-sar-y",
+    "audioHint": "ネセセリ",
+    "examples": [
+      {
+        "en": "Is it really necessary to bring an umbrella today?",
+        "ja": "今日は本当に傘を持っていく必要がありますか？",
+        "blank": "Is it really ___ to bring an umbrella today?",
+        "blankAnswer": "necessary"
+      }
+    ],
+    "distractors": [
+      "十分な",
+      "可能な",
+      "重要な"
+    ],
+    "confusableSpellings": [
+      "neccessary",
+      "necesary",
+      "necessery"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'necessarius'（避けられない）から。'ne-'（〜でない）＋'cedere'（退く・離れる）→「退くことができない」→「必要不可欠な」という意味の変化。",
+      "tips": "スペルミスが最も多い英単語のひとつ。語呂合わせ：「Never Eat Crisps, Eat Salad Sandwiches And Remain Young（NECESSARY）」という覚え方が英語圏で有名。c が1つ、s が2つ。",
+      "confusables": "'essential'（本質的に不可欠な）は「なければ根本的に成り立たない」という強い意味合いがあるが、necessary は「その状況で必要とされる」という文脈的な必要性。",
+      "collocations": [
+        "if necessary（必要であれば）",
+        "necessary condition（必要条件）",
+        "make necessary changes（必要な変更を加える）"
+      ],
+      "trivia": "世界で最もスペルを間違えられる単語トップ10の常連。c が2つ入っているように見えるが実は1つ（s が2つ）というのが罠のポイント。英語圏の学生も苦労する。"
+    },
+    "frequency": 260,
+    "cefr": "A2"
+  },
+  {
+    "id": 200,
+    "word": "eventually",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "最終的に、結局は",
+        "pos": "adverb"
+      },
+      {
+        "meaning": "いつかは、やがて",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ɪˈventʃuəli/",
+    "syllables": "e-ven-tu-al-ly",
+    "audioHint": "イヴェンチュアリ",
+    "examples": [
+      {
+        "en": "She practiced every day and eventually won the competition.",
+        "ja": "彼女は毎日練習し、最終的に大会で優勝した。",
+        "blank": "She practiced every day and ___ won the competition.",
+        "blankAnswer": "eventually"
+      }
+    ],
+    "distractors": [
+      "すぐに",
+      "おそらく",
+      "頻繁に"
+    ],
+    "confusableSpellings": [
+      "eventualy",
+      "evenutally",
+      "eventaully"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'eventus'（結果・出来事）から。'e-'（外へ）＋'venire'（来る）→「外に出てくるもの＝結果」。'-al'＋'-ly' で副詞化。'event' と同語源。",
+      "tips": "日本人学習者は 'finally' と混同しやすいが、eventually は「長い時間や紆余曲折の末に」という時間的な経過を含意する。finally はただの「最後に・ついに」でよりシンプルな終結感。",
+      "confusables": "'finally'（ついに・最後に）と最も混同される。eventually は「いくつかのステップや時間を経て結局」、finally は「長い待ち望みの末ついに」または単に「最後に（列挙の締め）」として使う。",
+      "collocations": [
+        "eventually succeed（最終的に成功する）",
+        "eventually lead to（結局〜につながる）",
+        "eventually realize（最終的に気づく）"
+      ],
+      "trivia": "「event（出来事）」と同じ語源なのに、eventually は「出来事が起きる」より「その出来事がいつかやってくる」という時間軸に焦点が移った面白い単語。時間がかかるストーリーを語るときの必須ワード。"
+    },
+    "frequency": 430,
+    "cefr": "B1"
+  }
+]

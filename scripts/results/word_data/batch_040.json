@@ -1,0 +1,992 @@
+[
+  {
+    "id": 781,
+    "word": "classic",
+    "pos": "adjective",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "古典的な、一流の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "典型的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈklæsɪk/",
+    "syllables": "clas-sic",
+    "audioHint": "クラシック",
+    "examples": [
+      {
+        "en": "This is a classic example of poor communication.",
+        "ja": "これはコミュニケーション不足の典型的な例だ。",
+        "blank": "This is a ___ example of poor communication.",
+        "blankAnswer": "classic"
+      }
+    ],
+    "distractors": [
+      "前衛的な",
+      "即興的な",
+      "装飾的な"
+    ],
+    "confusableSpellings": [
+      "clasic",
+      "klassic"
+    ],
+    "passive": {
+      "etymology": "ラテン語 classicus（最高階級の市民）から。classis（艦隊・階級）が語根。「一流の」という意味が転じて「古典的」になった。",
+      "tips": "名詞としても使える（a classic＝名作）。「クラシック音楽」は英語では classical music であり、classic music とは言わないので注意。",
+      "confusables": "classical との違いに注意。classic は「典型的・一流」の意味で使い、classical は「古典派（音楽・建築等）」の様式・時代を指す。",
+      "collocations": [
+        "a classic example",
+        "a classic novel",
+        "classic style"
+      ],
+      "trivia": "「それは classic だね」と英語で言うとき、皮肉的に「いかにも君らしい失敗だ」という意味でも使われる。ユーモアのある表現として日常会話でも頻出！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 782,
+    "word": "liberal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "自由主義の、リベラルな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "寛大な、惜しみない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈlɪbərəl/",
+    "syllables": "lib-er-al",
+    "audioHint": "リベラル",
+    "examples": [
+      {
+        "en": "She has a liberal attitude toward different cultures.",
+        "ja": "彼女は異文化に対して寛容な態度を持っている。",
+        "blank": "She has a ___ attitude toward different cultures.",
+        "blankAnswer": "liberal"
+      }
+    ],
+    "distractors": [
+      "保守的な",
+      "官僚的な",
+      "連邦制の"
+    ],
+    "confusableSpellings": [
+      "libral",
+      "liberel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 liberalis（自由人にふさわしい）から。liber（自由）が語根。liberty（自由）と同じ家族の単語。",
+      "tips": "政治用語として「左派・進歩派」を指すこともあるが、日常会話では「寛大な・気前のよい」の意味でも使う。日本語の「リベラル」は政治的意味が強いが、英語はより広い。",
+      "confusables": "generous（気前がよい）と似ているが、liberal は量・範囲の広さを強調する（liberal use of butter＝バターをたっぷり使う）。",
+      "collocations": [
+        "liberal arts",
+        "liberal democracy",
+        "a liberal amount of"
+      ],
+      "trivia": "liberal arts（リベラルアーツ）の liberal は「自由人の学問」という意味。古代ギリシャ・ローマで奴隷ではなく自由市民が学ぶべき教養のことだった！"
+    },
+    "frequency": 600,
+    "cefr": "B2"
+  },
+  {
+    "id": 783,
+    "word": "concrete",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "具体的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "コンクリート製の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒŋkriːt/",
+    "syllables": "con-crete",
+    "audioHint": "コンクリート",
+    "examples": [
+      {
+        "en": "Please give me a concrete example of what you mean.",
+        "ja": "あなたの言いたいことの具体的な例を挙げてください。",
+        "blank": "Please give me a ___ example of what you mean.",
+        "blankAnswer": "concrete"
+      }
+    ],
+    "distractors": [
+      "曖昧な",
+      "微妙な",
+      "わずかな"
+    ],
+    "confusableSpellings": [
+      "concret",
+      "concreet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 concretus（固まった）から。con-（共に）＋ crescere（成長する・固まる）。「一緒に固まった」→「具体的」という意味の変遷。",
+      "tips": "「コンクリート」と日本語でも使うため建材の意味は覚えやすいが、形容詞として「具体的な」という意味で使うのが英語では圧倒的に多い。abstract（抽象的）の反対語として覚えると効果的。",
+      "confusables": "specific（特定の・詳細な）と似ているが、concrete は「形があって掴める感じ」のニュアンス。specific は「特定の一つを指す」場合に使う。",
+      "collocations": [
+        "concrete evidence",
+        "concrete plan",
+        "concrete steps"
+      ],
+      "trivia": "concrete jungle（コンクリートジャングル）は都市の比喩表現。ボブ・マーリーの名曲タイトルにもなっており、「自然がなく冷たい都市」のイメージを表す言葉として世界中で使われている！"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 784,
+    "word": "slight",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "わずかな、かすかな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ほっそりした",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/slaɪt/",
+    "syllables": "slight",
+    "audioHint": "スライト",
+    "examples": [
+      {
+        "en": "There is a slight chance of rain this afternoon.",
+        "ja": "今日の午後はわずかながら雨の可能性がある。",
+        "blank": "There is a ___ chance of rain this afternoon.",
+        "blankAnswer": "slight"
+      }
+    ],
+    "distractors": [
+      "過度な",
+      "明らかな",
+      "重大な"
+    ],
+    "confusableSpellings": [
+      "slite",
+      "slght"
+    ],
+    "passive": {
+      "etymology": "古英語 sliht（滑らか・平ら）から。スカンジナビア語系の sléttr（平らな）とも関連。「薄い・わずか」という意味に発展した。",
+      "tips": "not the slightest（少しも〜ない）という否定強調表現は頻出。「I don't mind in the slightest.（少しも気にしない）」のように使う。副詞形は slightly。",
+      "confusables": "minor（小さい・重要でない）と似ているが、slight は量・程度が「かすか」なことを強調。minor は重要度の低さを指す。a slight difference（わずかな差）vs a minor problem（小さな問題）。",
+      "collocations": [
+        "a slight difference",
+        "a slight improvement",
+        "not in the slightest"
+      ],
+      "trivia": "動詞の slight には「人を軽んじる・侮辱する」という意味もある。形容詞と全然違う意味なので注意！映画のセリフで「I felt slighted.（馬鹿にされた気がした）」と使われることがある。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 785,
+    "word": "federal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "連邦の、連邦政府の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "中央政府の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfedərəl/",
+    "syllables": "fed-er-al",
+    "audioHint": "フェデラル",
+    "examples": [
+      {
+        "en": "The federal government passed a new law last week.",
+        "ja": "連邦政府は先週新しい法律を可決した。",
+        "blank": "The ___ government passed a new law last week.",
+        "blankAnswer": "federal"
+      }
+    ],
+    "distractors": [
+      "自由主義の",
+      "原始的な",
+      "民主的な"
+    ],
+    "confusableSpellings": [
+      "fedreal",
+      "fedral"
+    ],
+    "passive": {
+      "etymology": "ラテン語 foedus（条約・同盟）から。foederalis（同盟の）が語源。複数の州や国が条約で結びついた「連邦」の概念を表す。",
+      "tips": "アメリカでは federal は「連邦（国家レベル）」を指し、state（州）レベルと区別される。「FBI＝Federal Bureau of Investigation」のように頭文字でも使われる。",
+      "confusables": "national（国家の）と混同しやすい。federal は複数の構成単位が連合している構造を強調する。単一国家には federal は使わない（日本には federal government は存在しない）。",
+      "collocations": [
+        "federal government",
+        "federal law",
+        "federal court"
+      ],
+      "trivia": "スイスは「Swiss Confederation（スイス連邦）」という国名だが、実は連邦制（federal）国家。あの中立国のイメージとは裏腹に、政治構造はとても複雑な連邦システムなんです！"
+    },
+    "frequency": 500,
+    "cefr": "B2"
+  },
+  {
+    "id": 786,
+    "word": "primitive",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "原始的な、未発達の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "初期の、最初期の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈprɪmɪtɪv/",
+    "syllables": "prim-i-tive",
+    "audioHint": "プリミティヴ",
+    "examples": [
+      {
+        "en": "They used primitive tools to build the shelter.",
+        "ja": "彼らは原始的な道具を使って避難所を建てた。",
+        "blank": "They used ___ tools to build the shelter.",
+        "blankAnswer": "primitive"
+      }
+    ],
+    "distractors": [
+      "連邦制の",
+      "自由主義的な",
+      "革新的な"
+    ],
+    "confusableSpellings": [
+      "primative",
+      "primitve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 primitivus（最初の・原初の）から。primus（最初）が語根。prime、primary と同じ家族の単語。",
+      "tips": "人々や文化に対して使うと差別的なニュアンスになる場合がある。技術・道具・環境に対しては「シンプルで未発達」という中立的な意味で使える。文脈に注意。",
+      "confusables": "ancient（古代の）と混同しやすいが、primitive は発達度・洗練度の低さを指し、ancient は時代の古さを指す。古代ローマは ancient だが primitive ではない。",
+      "collocations": [
+        "primitive tools",
+        "primitive technology",
+        "primitive instinct"
+      ],
+      "trivia": "アート界では「プリミティブアート」は侮辱ではなく、独自のスタイルを持つ民俗芸術として高く評価される。ピカソもアフリカのプリミティブアートから多大な影響を受けた！"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 787,
+    "word": "unfamiliar",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "なじみのない、知らない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不慣れな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌʌnfəˈmɪliər/",
+    "syllables": "un-fa-mil-i-ar",
+    "audioHint": "アンファミリア",
+    "examples": [
+      {
+        "en": "I was unfamiliar with the local customs when I arrived.",
+        "ja": "到着したとき、私は地元の習慣をよく知らなかった。",
+        "blank": "I was ___ with the local customs when I arrived.",
+        "blankAnswer": "unfamiliar"
+      }
+    ],
+    "distractors": [
+      "明確な",
+      "微妙な",
+      "簡素な"
+    ],
+    "confusableSpellings": [
+      "unfamilliar",
+      "unfamilier"
+    ],
+    "passive": {
+      "etymology": "un-（否定）＋ familiar（なじみのある）。familiar はラテン語 familiaris（家族の・親しい）から。familia（家族）が語根。",
+      "tips": "be unfamiliar with〜（〜をよく知らない）という形で使うことが多い。with を忘れやすいので注意。「I'm unfamiliar with this area.」のように使う。",
+      "confusables": "strange（奇妙な・見知らぬ）と混同しやすいが、unfamiliar は「自分がよく知らない」という主観的な状態を指す。strange はものや人が「普通でない・奇妙」という客観的な印象を表す。",
+      "collocations": [
+        "unfamiliar with",
+        "unfamiliar territory",
+        "unfamiliar face"
+      ],
+      "trivia": "「unfamiliar territory（なじみのない領域）」は比喩表現としてビジネス英語で超よく使われる。新しいプロジェクトや未知の分野に挑戦するとき「This is unfamiliar territory for us.」と言う！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 788,
+    "word": "subtle",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "微妙な、かすかな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "巧妙な、ひそかな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsʌtl/",
+    "syllables": "sub-tle",
+    "audioHint": "サトル",
+    "examples": [
+      {
+        "en": "There is a subtle difference between these two colors.",
+        "ja": "この2つの色にはわずかな違いがある。",
+        "blank": "There is a ___ difference between these two colors.",
+        "blankAnswer": "subtle"
+      }
+    ],
+    "distractors": [
+      "明白な",
+      "具体的な",
+      "粗雑な"
+    ],
+    "confusableSpellings": [
+      "suttle",
+      "subtile"
+    ],
+    "passive": {
+      "etymology": "ラテン語 subtilis（細かく織られた）から。sub-（下に）＋ tela（織物）。「糸が細かく織られている」→「繊細・微妙」という意味に発展した。",
+      "tips": "b が黙字でサイレントになる（発音は「サトル」）。スペルどおりに「サブトル」と読まないよう注意。日本人学習者が最も発音・スペルで迷う単語の一つ。",
+      "confusables": "slight（わずかな）と似ているが、subtle は「気づきにくい繊細さ・巧みさ」を強調。slight は量や程度の少なさを指す。subtle hint（遠回しなヒント）はあり、slight hint とは言わない。",
+      "collocations": [
+        "subtle difference",
+        "subtle hint",
+        "subtle humor"
+      ],
+      "trivia": "subtle の b はサイレントだが、なぜ残っているの？実は中世英語では「suttle」と書いていたが、ルネサンス期にラテン語ブームが起き、語源に合わせて b が追加されたのにそのまま読まれなくなったという面白い歴史がある！"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 789,
+    "word": "plain",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "質素な、飾り気のない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "明白な、わかりやすい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pleɪn/",
+    "syllables": "plain",
+    "audioHint": "プレイン",
+    "examples": [
+      {
+        "en": "She wore a plain white shirt to the interview.",
+        "ja": "彼女は面接にシンプルな白いシャツを着ていった。",
+        "blank": "She wore a ___ white shirt to the interview.",
+        "blankAnswer": "plain"
+      }
+    ],
+    "distractors": [
+      "微妙な",
+      "なじみのない",
+      "わずかな"
+    ],
+    "confusableSpellings": [
+      "plian",
+      "plaen"
+    ],
+    "passive": {
+      "etymology": "ラテン語 planus（平らな・明確な）から。plane（平面）や explain（説明する）と同じ語根。「平らで余分なものがない」→「質素・明白」。",
+      "tips": "plane（飛行機・平面）と発音が同じホモフォン（同音異義語）。混同しないよう注意。also、plain English（平易な英語）という表現はビジネスや公式文書でよく使われる。",
+      "confusables": "simple（シンプルな）と似ているが、plain は「装飾がなく地味」なニュアンスがやや強い。simple は「複雑でない・使いやすい」という肯定的な意味合いが強い。",
+      "collocations": [
+        "plain English",
+        "plain food",
+        "plain and simple"
+      ],
+      "trivia": "「plain as day（日のように明らか）」という慣用表現がある。また、アメリカの Great Plains（グレートプレーンズ）は広大な平原地帯を指す地名でもあり、名詞の plain（平原）としても重要！"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 790,
+    "word": "marine",
+    "pos": "adjective",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "海の、海洋の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "海兵隊の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/məˈriːn/",
+    "syllables": "ma-rine",
+    "audioHint": "マリーン",
+    "examples": [
+      {
+        "en": "Marine life in this area is incredibly diverse.",
+        "ja": "この地域の海洋生物は信じられないほど多様だ。",
+        "blank": "___ life in this area is incredibly diverse.",
+        "blankAnswer": "Marine"
+      }
+    ],
+    "distractors": [
+      "陸地の",
+      "大気の",
+      "熱帯の"
+    ],
+    "confusableSpellings": [
+      "marin",
+      "maerine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 marinus（海の）から。mare（海）が語根。イタリアのマリーナ（marina）や女性名のMarinaも同じ語源。",
+      "tips": "名詞として Marine（大文字）は「海兵隊員」を指す（アメリカの U.S. Marines）。形容詞として marine biology（海洋生物学）や marine environment（海洋環境）のように使う。",
+      "confusables": "maritime（海事の・航海の）と混同しやすい。marine は「海中・海の生物や環境」を指すことが多く、maritime は「航海・船舶・港」など人間の海上活動に関連する。",
+      "collocations": [
+        "marine life",
+        "marine biology",
+        "marine environment"
+      ],
+      "trivia": "「Marine blue（マリンブルー）」は日本語でも使われるが、英語では navy blue（ネイビーブルー）の方が一般的。また、marines（海兵隊）のモットーは「Semper Fidelis（常に忠実に）」で、ラテン語が今も現役で使われている！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 791,
+    "word": "apparent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "明らかな、明白な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "外見上の、見かけ上の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈpærənt/",
+    "syllables": "ap-par-ent",
+    "audioHint": "アパレント",
+    "examples": [
+      {
+        "en": "It was apparent that she hadn't slept well.",
+        "ja": "彼女がよく眠れていなかったのは明らかだった。",
+        "blank": "It was ___ that she hadn't slept well.",
+        "blankAnswer": "apparent"
+      }
+    ],
+    "distractors": [
+      "一時的な",
+      "純粋な",
+      "不本意な"
+    ],
+    "confusableSpellings": [
+      "apparant",
+      "apperent",
+      "apparrent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 apparēre（現れる）から。ad-（〜へ）+ parēre（現れる、見える）が語源。apparent の 'par' は 'appear（現れる）' と同じ語根。",
+      "tips": "「明らかな」と「見かけ上の」という2つの意味が逆のように見えるが、どちらも「表面に現れている」という共通点を持つ。It is apparent that... の構文でよく使われる。",
+      "confusables": "obvious との違い：obvious は誰の目にも完全に明白なニュアンス、apparent は「表面上そう見える」という含意もあり、実態が違う可能性を残す場合がある。",
+      "collocations": [
+        "apparent reason（明らかな理由）",
+        "apparent contradiction（見かけ上の矛盾）",
+        "become apparent（明らかになる）"
+      ],
+      "trivia": "「heir apparent（推定相続人）」という表現では「見かけ上の」意味で使われており、王位継承のドラマでよく登場する格式ある表現。日常語と法律用語の両方で活躍する二刀流単語！"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 792,
+    "word": "reluctant",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "気が進まない、不本意な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "渋々の、いやいやの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/rɪˈlʌktənt/",
+    "syllables": "re-luc-tant",
+    "audioHint": "リラクタント",
+    "examples": [
+      {
+        "en": "He was reluctant to admit his mistake.",
+        "ja": "彼は自分の間違いを認めることに気が進まなかった。",
+        "blank": "He was ___ to admit his mistake.",
+        "blankAnswer": "reluctant"
+      }
+    ],
+    "distractors": [
+      "熱心な",
+      "罪悪感のある",
+      "貪欲な"
+    ],
+    "confusableSpellings": [
+      "reluctent",
+      "relunctant",
+      "reluctunt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 reluctari（抵抗する）から。re-（反対に）+ luctari（格闘する、もがく）が語源。luctari はレスリングを意味するラテン語とも関連。",
+      "tips": "reluctant to do の形で使うのが基本。「〜することに気が進まない」という意味で、reluctant + 不定詞のセットで覚えよう。unwilling との違いは、reluctant の方がより感情的な抵抗感を含む。",
+      "confusables": "unwilling との比較：どちらも「したくない」だが、unwilling はより意志的・意図的な拒否、reluctant は感情的な躊躇・ためらいのニュアンスが強い。",
+      "collocations": [
+        "reluctant to accept（受け入れたがらない）",
+        "reluctant agreement（渋々の同意）",
+        "reluctant hero（不本意なヒーロー）"
+      ],
+      "trivia": "映画や小説では「reluctant hero（不本意なヒーロー）」というキャラクタータイプが大人気。ハリー・ポッターもフロドも、実は典型的な reluctant hero！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 793,
+    "word": "temporary",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "一時的な、仮の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "暫定的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtempəreri/",
+    "syllables": "tem-po-rar-y",
+    "audioHint": "テンポラリー",
+    "examples": [
+      {
+        "en": "This is just a temporary solution to the problem.",
+        "ja": "これはその問題に対する一時的な解決策に過ぎない。",
+        "blank": "This is just a ___ solution to the problem.",
+        "blankAnswer": "temporary"
+      }
+    ],
+    "distractors": [
+      "明らかな",
+      "純粋な",
+      "十分な"
+    ],
+    "confusableSpellings": [
+      "temporery",
+      "tempory",
+      "temporaray"
+    ],
+    "passive": {
+      "etymology": "ラテン語 temporarius（時間的な）から。tempus（時間）が語根で、temperature（温度）や contemporary（同時代の）と同じ tempus ファミリー。",
+      "tips": "temporary は「今だけ」という一時性を強調する形容詞。副詞形 temporarily もよく使われる。「臨時の〇〇」という日本語訳がぴったりな場面で活躍。",
+      "confusables": "temporal との混同に注意。temporal は「時間の」「現世の」という意味で、宗教・哲学的文脈で使われる別の単語。temporary とは用途が全く異なる。",
+      "collocations": [
+        "temporary job（臨時の仕事）",
+        "temporary measure（暫定的措置）",
+        "temporary relief（一時的な安堵）"
+      ],
+      "trivia": "プログラミングの世界では「temp ファイル」といえばお馴染みの temporary file のこと。PCを掃除するとき大量に出てくる、あの一時ファイルの正体がこの単語！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 794,
+    "word": "guilty",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "罪悪感のある、やましい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "有罪の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɡɪlti/",
+    "syllables": "guil-ty",
+    "audioHint": "ギルティ",
+    "examples": [
+      {
+        "en": "She felt guilty about forgetting his birthday.",
+        "ja": "彼女は彼の誕生日を忘れたことに罪悪感を感じた。",
+        "blank": "She felt ___ about forgetting his birthday.",
+        "blankAnswer": "guilty"
+      }
+    ],
+    "distractors": [
+      "熱心な",
+      "気が進まない",
+      "誠実な"
+    ],
+    "confusableSpellings": [
+      "gilty",
+      "guity",
+      "guilti"
+    ],
+    "passive": {
+      "etymology": "古英語 gyltig（犯罪を犯した）から。gylt（犯罪、過失）が語根。ゲルマン語系の純粋な英語単語で、ラテン語由来ではない珍しいケース。",
+      "tips": "feel guilty about〜（〜について罪悪感を感じる）と find someone guilty（〜を有罪と判決する）という2パターンの使い方が重要。法的・感情的の両方で使える。",
+      "confusables": "ashamed との違い：guilty は「悪いことをしてしまった」という具体的な行為への後悔、ashamed は「恥ずかしい」という自己イメージへのダメージが中心。",
+      "collocations": [
+        "feel guilty（罪悪感を感じる）",
+        "plead guilty（有罪を認める）",
+        "guilty pleasure（やましい楽しみ）"
+      ],
+      "trivia": "「guilty pleasure（ギルティプレジャー）」は「やましいのについついやってしまう趣味」のこと。深夜のジャンクフードやB級映画など、SNSで「私の guilty pleasure は…」という投稿が世界中で大流行中！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 795,
+    "word": "royal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "王室の、王族の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "堂々とした、壮大な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈrɔɪəl/",
+    "syllables": "roy-al",
+    "audioHint": "ロイアル",
+    "examples": [
+      {
+        "en": "The royal family attended the ceremony yesterday.",
+        "ja": "昨日、王族がその式典に出席した。",
+        "blank": "The ___ family attended the ceremony yesterday.",
+        "blankAnswer": "royal"
+      }
+    ],
+    "distractors": [
+      "一時的な",
+      "明らかな",
+      "十分な"
+    ],
+    "confusableSpellings": [
+      "roayal",
+      "royel",
+      "roial"
+    ],
+    "passive": {
+      "etymology": "古フランス語 roial、ラテン語 regalis（王の）から。rex / reg-（王）が語根。regulate（規制する）や reign（治世）と同じ語根ファミリー。",
+      "tips": "Royal は名詞の前に置く限定用法が多い（royal family, royal blue など）。名詞として「王族の人」を指す場合もある（the royals）。",
+      "confusables": "regal との比較：royal は「王室・王族に属する」という所属の意味、regal は「王にふさわしい威厳ある」という質・様子を表す。どちらも格調高い単語。",
+      "collocations": [
+        "royal family（王室）",
+        "royal blue（ロイヤルブルー）",
+        "royal treatment（特別待遇）"
+      ],
+      "trivia": "「royal blue（ロイヤルブルー）」という色は、イギリス王室がヴィクトリア女王の衣装に使ったことで命名されたとされる。今では世界中のスポーツチームが使うほどメジャーな色に！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 796,
+    "word": "pure",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "純粋な、混じりけのない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "全くの、完全な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pjʊər/",
+    "syllables": "pure",
+    "audioHint": "ピュア",
+    "examples": [
+      {
+        "en": "The water from this spring is pure and safe to drink.",
+        "ja": "この湧き水は純粋で飲むのに安全だ。",
+        "blank": "The water from this spring is ___ and safe to drink.",
+        "blankAnswer": "pure"
+      }
+    ],
+    "distractors": [
+      "一時的な",
+      "明らかな",
+      "十分な"
+    ],
+    "confusableSpellings": [
+      "prure",
+      "puer",
+      "pyre"
+    ],
+    "passive": {
+      "etymology": "ラテン語 purus（清潔な、純粋な）から直接英語に入った。purify（浄化する）、purity（純度）、impure（不純な）などと同じ語根ファミリー。",
+      "tips": "pure には「完全な・まったくの」という強調の意味もある（pure luck = 全くの運）。また pure science（純粋科学）のように「応用でない」という学術的な意味でも使われる。",
+      "confusables": "clean との違い：clean は「汚れのない」という物理的な清潔さ、pure は「混じりけがない」という本質的な純粋さを表す。pure gold（純金）はclean goldとは言わない。",
+      "collocations": [
+        "pure water（純水）",
+        "pure luck（全くの運）",
+        "pure gold（純金）"
+      ],
+      "trivia": "日本語でも「ピュア」という言葉は「純粋・無邪気な人」を指すカタカナ語として定着している。でも英語の pure は「純金」「純粋科学」など幅広く使えるから、日本語の「ピュア」よりずっと守備範囲が広い！"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 797,
+    "word": "incredible",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "信じられない、驚くべき",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "素晴らしい、すごい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈkredɪbl/",
+    "syllables": "in-cred-i-ble",
+    "audioHint": "インクレディブル",
+    "examples": [
+      {
+        "en": "The view from the mountain top was incredible.",
+        "ja": "山頂からの眺めは信じられないほど素晴らしかった。",
+        "blank": "The view from the mountain top was ___.",
+        "blankAnswer": "incredible"
+      }
+    ],
+    "distractors": [
+      "十分な",
+      "適切な",
+      "明らかな"
+    ],
+    "confusableSpellings": [
+      "incredable",
+      "increadible",
+      "incredibel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 incredibilis から。in-（否定）+ credere（信じる）+ -ible（できる）の構造。「信じることができない」が原義。credit（信用）や believe と同じ語根。",
+      "tips": "口語では「素晴らしい・すごい」という肯定的な強調語として使われることがほとんど。「信じられない（悪い意味）」より「信じられないくらいすごい（良い意味）」で使われるケースが現代英語では多い。",
+      "confusables": "unbelievable との違い：ほぼ同義だが、unbelievable は「信じがたい（驚き・疑念）」のニュアンスが残りやすく、incredible はより感動・称賛の意味合いが強い傾向がある。",
+      "collocations": [
+        "incredible story（信じられない話）",
+        "incredible talent（驚くべき才能）",
+        "simply incredible（本当に信じられない）"
+      ],
+      "trivia": "ピクサー映画『Mr. インクレディブル（The Incredibles）』のタイトルはこの単語から。「信じられないほどすごい一家」という意味が込められていて、タイトルだけで映画の全てを表現した天才的なネーミング！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 798,
+    "word": "eager",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "熱心な、熱望している",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "渇望している、意欲的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈiːɡər/",
+    "syllables": "ea-ger",
+    "audioHint": "イーガー",
+    "examples": [
+      {
+        "en": "She was eager to learn new skills at the workshop.",
+        "ja": "彼女はワークショップで新しいスキルを学ぶことに熱心だった。",
+        "blank": "She was ___ to learn new skills at the workshop.",
+        "blankAnswer": "eager"
+      }
+    ],
+    "distractors": [
+      "罪悪感のある",
+      "気が進まない",
+      "やましい"
+    ],
+    "confusableSpellings": [
+      "eagre",
+      "eagar",
+      "egear"
+    ],
+    "passive": {
+      "etymology": "古フランス語 aigre（鋭い、するどい）、ラテン語 acer（鋭い、熱烈な）から。もともと「鋭い・辛い」という意味だったが、「熱心な」へと意味が変化した。",
+      "tips": "eager to do（〜することに熱心な）の形が基本。be eager for〜（〜を熱望する）も使われる。enthusiastic より軽めのカジュアルな熱意を表すときに使いやすい。",
+      "confusables": "enthusiastic との違い：enthusiastic は「(すでに)熱狂している状態」、eager は「(これから)何かをしたいという強い意欲」というニュアンス。eagerness は未来への期待感を含む。",
+      "collocations": [
+        "eager to please（喜ばせようとする熱心さ）",
+        "eager learner（熱心な学習者）",
+        "eager beaver（働き者）"
+      ],
+      "trivia": "「eager beaver（イーガービーバー）」は「猛烈に働く人・仕事熱心すぎる人」を指す英語のイディオム。ビーバーがせっせとダムを作る姿から生まれた表現で、褒め言葉にも皮肉にもなる面白い言い回し！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 799,
+    "word": "adequate",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "十分な、適切な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "まずまずの、合格点の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈædɪkwət/",
+    "syllables": "ad-e-quate",
+    "audioHint": "アデクウェット",
+    "examples": [
+      {
+        "en": "Make sure you get adequate sleep before the exam.",
+        "ja": "試験前には十分な睡眠をとるようにしてください。",
+        "blank": "Make sure you get ___ sleep before the exam.",
+        "blankAnswer": "adequate"
+      }
+    ],
+    "distractors": [
+      "信じられない",
+      "驚くべき",
+      "明らかな"
+    ],
+    "confusableSpellings": [
+      "adaquate",
+      "adequite",
+      "adequat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 adaequatus（等しくされた）から。ad-（〜へ）+ aequus（等しい）+ -ate（形容詞語尾）の構造。equal（等しい）や equation（方程式）と同じ語根。",
+      "tips": "adequate は「必要最低限を満たしている」というニュアンスで、褒め言葉としては少し弱い。「十分だけど特別ではない」という含意を持つことが多く、excellent とは全然違うレベル感。",
+      "confusables": "sufficient との違い：両者はほぼ同義だが、sufficient は「必要量を正確に満たす」という論理的・定量的なニュアンス、adequate は「目的に対してそこそこ適切」という実用的なニュアンスが強い。",
+      "collocations": [
+        "adequate preparation（十分な準備）",
+        "adequate funding（十分な資金）",
+        "barely adequate（かろうじて十分な）"
+      ],
+      "trivia": "映画やレストランのレビューで「adequate」と書かれたら要注意！英語ネイティブには「まあ悪くはないけど特筆すべき点もない」という婉曲的な低評価として受け取られることが多い、実は怖い単語。"
+    },
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 800,
+    "word": "via",
+    "pos": "other",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "〜を経由して、〜を通じて",
+        "pos": "other"
+      },
+      {
+        "meaning": "〜によって、〜の手段で",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/ˈvaɪə/",
+    "syllables": "vi-a",
+    "audioHint": "ヴァイア",
+    "examples": [
+      {
+        "en": "We flew to Rome via Dubai.",
+        "ja": "私たちはドバイ経由でローマへ飛んだ。",
+        "blank": "We flew to Rome ___ Dubai.",
+        "blankAnswer": "via"
+      }
+    ],
+    "distractors": [
+      "〜の間に",
+      "〜にもかかわらず",
+      "〜の代わりに"
+    ],
+    "confusableSpellings": [
+      "veia",
+      "vya",
+      "viia"
+    ],
+    "passive": {
+      "etymology": "ラテン語 via（道、道路）がそのまま英語に定着した前置詞。「道を通って」が原義で、イタリアの「ヴィア（通り）」も同じ語源。",
+      "tips": "via は前置詞として名詞の前に置く（via email, via Tokyo）。「〜経由で」「〜を通じて」の両方の意味で使えるため、交通・通信・手段のどの文脈でも活躍する便利な単語。",
+      "confusables": "through との違い：through は「〜の中を通り抜けて」という空間的移動、via は「〜を経由点として」という中継・手段を表す。via email は「メールという手段を通じて」、through email も同様に使えるが via の方が簡潔。",
+      "collocations": [
+        "via email（メールで）",
+        "via satellite（衛星を通じて）",
+        "via Tokyo（東京経由で）"
+      ],
+      "trivia": "古代ローマの「Via Appia（アッピア街道）」はまさにこの via そのもの。ローマ帝国が築いた道路網はヨーロッパ中に広がり、「すべての道はローマに通ず」という格言の主役。2000年以上前の単語が今も毎日使われているって、すごくない？"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  }
+]

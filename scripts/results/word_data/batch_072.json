@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1421,
+    "word": "oblige",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "義務づける、強いる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "親切にする、恩義を施す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈblaɪdʒ/",
+    "syllables": "o-blige",
+    "audioHint": "オブライジュ",
+    "examples": [
+      {
+        "en": "The law obliges companies to report their emissions annually.",
+        "ja": "法律は企業に毎年排出量を報告することを義務づけている。",
+        "blank": "The law ___ companies to report their emissions annually.",
+        "blankAnswer": "obliges"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "拒絶する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "oblidgе",
+      "oblidge",
+      "obligge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'obligare'（ob-「向かって」+ ligare「縛る」）→「縛りつける」が原義。ligare は 'ligament'（靭帯）と同語根。",
+      "tips": "be obliged to do で「〜せざるを得ない」という義務の表現になる。また、I'm much obliged. は「大変ありがたく存じます」という改まったお礼表現。oblige と obligate はほぼ同義だが、obligate はより法的・正式な文脈で使われやすい。",
+      "confusables": "obligate との違いに注意。oblige はより口語的・対人的な文脈（親切にする意味もある）、obligate は法律・契約など硬い文脈で使われることが多い。",
+      "collocations": [
+        "be obliged to do",
+        "feel obliged",
+        "oblige someone to do"
+      ],
+      "trivia": "フランス語の noblesse oblige（「高貴さは義務を課す」）という有名なフレーズにも同じ語根が入っている。「地位ある者には相応の責任がある」という意味で英語にも定着している。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1422,
+    "word": "cram",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "詰め込む、ぎゅうぎゅうに入れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "試験勉強を詰め込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kræm/",
+    "syllables": "cram",
+    "audioHint": "クラム",
+    "examples": [
+      {
+        "en": "She crammed all her clothes into one small suitcase.",
+        "ja": "彼女はすべての服を一つの小さなスーツケースに詰め込んだ。",
+        "blank": "She ___ all her clothes into one small suitcase.",
+        "blankAnswer": "crammed"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "記憶を消す",
+      "分析する"
+    ],
+    "confusableSpellings": [
+      "crame",
+      "kramm",
+      "cramp"
+    ],
+    "passive": {
+      "etymology": "古英語 'crammian'（「詰め込む、押し込む」）に由来。北欧語の cramm と関連があるとされる。シンプルな1音節の語で語根の分解はほぼない。",
+      "tips": "cram for an exam で「試験のために一夜漬けする」という意味になる。日本語の「詰め込み教育」は cramming education と言う。子音字を重ねて cramming, crammed となるスペルに注意。",
+      "confusables": "stuff や pack とも「詰め込む」を意味するが、cram は特に「無理やりぎゅうぎゅうに詰め込む」ニュアンスが強い。pack は整然と詰める感じ、stuff はやや雑に詰める感じ。",
+      "collocations": [
+        "cram for an exam",
+        "cram into",
+        "cram school（塾）"
+      ],
+      "trivia": "日本語の「塾」を英語で cram school と言う。これは日本の詰め込み教育文化が英語圏に紹介される際に使われた表現で、今や辞書にも載る定着語になっている。"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1423,
+    "word": "flock",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "（鳥・羊などの）群れ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "群れをなして集まる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/flɒk/",
+    "syllables": "flock",
+    "audioHint": "フロック",
+    "examples": [
+      {
+        "en": "Tourists flocked to the beach on the sunny weekend.",
+        "ja": "晴れた週末、観光客がビーチに群がった。",
+        "blank": "Tourists ___ to the beach on the sunny weekend.",
+        "blankAnswer": "flocked"
+      }
+    ],
+    "distractors": [
+      "生態系",
+      "地形",
+      "気候帯"
+    ],
+    "confusableSpellings": [
+      "floc",
+      "flocke",
+      "fllok"
+    ],
+    "passive": {
+      "etymology": "古英語 'flocc'（「群れ、集団」）に由来し、古ノルド語 flokkr と関連。動詞用法は名詞から転用されたもの。",
+      "tips": "flock は主に鳥や羊の群れに使うが、人が大勢集まる場面にも比喩的に使える（flock to a concert など）。群れを表す集合名詞は動物ごとに違い、魚は school、牛は herd、ライオンは pride など要注意。",
+      "confusables": "herd（牛・馬・象などの哺乳類の群れ）、pack（オオカミ・犬の群れ）、school（魚の群れ）と使い分けが必要。flock は鳥と羊が基本。",
+      "collocations": [
+        "a flock of birds",
+        "a flock of sheep",
+        "flock together"
+      ],
+      "trivia": "「同じ羽を持つ鳥は群れる」という英語のことわざ Birds of a feather flock together は「類は友を呼ぶ」に相当する。flock が動詞として活躍する数少ないことわざのひとつ。"
+    },
+    "frequency": 4600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1424,
+    "word": "underestimate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "過小評価する、軽く見る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "低く見積もる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌʌndərˈestɪmeɪt/",
+    "syllables": "un-der-es-ti-mate",
+    "audioHint": "アンダーエスティメイト",
+    "examples": [
+      {
+        "en": "Never underestimate the power of a good night's sleep.",
+        "ja": "十分な睡眠の力を決して軽く見てはいけない。",
+        "blank": "Never ___ the power of a good night's sleep.",
+        "blankAnswer": "underestimate"
+      }
+    ],
+    "distractors": [
+      "明確にする",
+      "記憶する",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "underestimat",
+      "underestimete",
+      "underestimait"
+    ],
+    "passive": {
+      "etymology": "under-（「下に、不十分に」）+ estimate（「見積もる」← ラテン語 aestimare「価値を評価する」）。つまり「十分な水準より低く評価する」が文字通りの意味。",
+      "tips": "反意語は overestimate（過大評価する）。estimate 単体は中立的な「見積もる」だが、under- を付けると「実際より低く見る」という否定的ニュアンスになる。Don't underestimate yourself. は励ましの常套句。",
+      "confusables": "undervalue（価値を低く見る）と似ているが、underestimate はより広く能力・数量・時間など様々な対象に使える。undervalue は特に金銭的・感情的な「価値」を低く見る場面で多い。",
+      "collocations": [
+        "underestimate the risk",
+        "underestimate the cost",
+        "underestimate someone's ability"
+      ],
+      "trivia": "心理学では「計画錯誤（planning fallacy）」という概念があり、人はプロジェクトの所要時間を underestimate しがちだと言われている。宿題や工事の完成が常に遅れる原因がこれ。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1425,
+    "word": "clarify",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "明確にする、はっきりさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（液体を）澄ませる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈklærɪfaɪ/",
+    "syllables": "clar-i-fy",
+    "audioHint": "クラリファイ",
+    "examples": [
+      {
+        "en": "Could you clarify what you mean by that statement?",
+        "ja": "その発言の意味をはっきりさせていただけますか？",
+        "blank": "Could you ___ what you mean by that statement?",
+        "blankAnswer": "clarify"
+      }
+    ],
+    "distractors": [
+      "過小評価する",
+      "詰め込む",
+      "否定する"
+    ],
+    "confusableSpellings": [
+      "clarfiy",
+      "clairfy",
+      "clarrify"
+    ],
+    "passive": {
+      "etymology": "ラテン語 clarificare（clarus「明るい、明確な」+ facere「する、作る」）に由来。clarus は clarity（明確さ）、declare（宣言する）とも同語根。",
+      "tips": "ビジネスや学術文脈で頻出。Let me clarify.（明確にしておきます）や I'd like to clarify that...（〜ということを明確にしたいのですが）は会議や論文でよく使う。clarify と explain の違いは、explain は新しい情報を伝えるのに対し、clarify はすでにある情報の曖昧さを取り除くこと。",
+      "confusables": "explain（説明する）と混同しやすいが、clarify は「誤解・曖昧さを解消する」ニュアンスが強い。また simplify（単純化する）と語形が似ているが意味は異なる。",
+      "collocations": [
+        "clarify a point",
+        "clarify the situation",
+        "clarify misunderstandings"
+      ],
+      "trivia": "料理用語でも clarify は使われる。clarified butter（澄ましバター）は butter を加熱して不純物を除いたもので、インド料理のギー（ghee）に近い。言語も料理も「不純物を取り除いてクリアにする」のが clarify の本質。"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1426,
+    "word": "spark",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "引き起こす、きっかけになる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "火花を散らす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/spɑːrk/",
+    "syllables": "spark",
+    "audioHint": "スパーク",
+    "examples": [
+      {
+        "en": "The speech sparked a heated debate among students.",
+        "ja": "そのスピーチは学生たちの間で激しい議論を引き起こした。",
+        "blank": "The speech ___ a heated debate among students.",
+        "blankAnswer": "sparked"
+      }
+    ],
+    "distractors": [
+      "静止させる",
+      "修理する",
+      "縮小させる"
+    ],
+    "confusableSpellings": [
+      "sprak",
+      "sparck",
+      "sparke"
+    ],
+    "passive": {
+      "etymology": "古英語 spearca（「火花」）に由来。動詞用法は名詞から転用。語源的に「飛び散る小さな火」が原義で、そこから比喩的に「何かを引き起こすきっかけ」の意味に発展。",
+      "tips": "spark は名詞（火花、きっかけ）としても頻出。spark a debate / spark interest / spark controversy のようにネガティブ・ポジティブ両方の文脈で使える。ignite や trigger とほぼ同義だが、spark はやや口語的でジャーナリズムでも多用される。",
+      "confusables": "trigger（引き金を引く→引き起こす）と意味が近いが、trigger はやや機械的・直接的な因果関係、spark はインスピレーションや感情的なきっかけのニュアンスがある。",
+      "collocations": [
+        "spark a debate",
+        "spark interest",
+        "spark controversy"
+      ],
+      "trivia": "Marie Kondo の片付け術で有名な「ときめく」は英語では spark joy と訳された。これが世界的にヒットしたことで、spark は「喜びや感情を引き起こす」という意味でSNSにも広まった。Does it spark joy? は今や定番フレーズ。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1427,
+    "word": "seize",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "つかむ、捕らえる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "没収する、制圧する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/siːz/",
+    "syllables": "seize",
+    "audioHint": "スィーズ",
+    "examples": [
+      {
+        "en": "He seized the opportunity to introduce himself to the CEO.",
+        "ja": "彼はCEOに自己紹介する機会をとらえた。",
+        "blank": "He ___ the opportunity to introduce himself to the CEO.",
+        "blankAnswer": "seized"
+      }
+    ],
+    "distractors": [
+      "浮かぶ、上昇する",
+      "輝く、発光する",
+      "滑る、移動する"
+    ],
+    "confusableSpellings": [
+      "sieze",
+      "seise",
+      "seeze"
+    ],
+    "passive": {
+      "etymology": "古フランス語 saisir（「占有する、つかむ」）← 中世ラテン語 sacire に由来。法律用語として「財産を差し押さえる」意味で英語に入り、後に「素早くつかむ」の一般的な意味に広がった。",
+      "tips": "seize the opportunity（機会をとらえる）は非常に頻出の熟語。スペルに注意：i before e except after c の法則の例外で、ei の順になる（seize, receive などは例外）。seize up で「（エンジンなどが）動かなくなる」という熟語も重要。",
+      "confusables": "grab（素早く雑につかむ）、grasp（しっかりとつかむ・理解する）と比べると、seize は特に「素早く・強引に」捕まえるニュアンスがあり、法的・軍事的文脈でも使える。",
+      "collocations": [
+        "seize the opportunity",
+        "seize power",
+        "seize control"
+      ],
+      "trivia": "英語のスペルルールで有名な「i before e except after c」の例外単語として seize は教科書に必ず登場する。weird（変な）や their も同じ例外組で、「ルールの例外の例」として語呂合わせ教材によく使われる。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1428,
+    "word": "soar",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "急上昇する、高騰する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "大空を舞う、高く飛ぶ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɔːr/",
+    "syllables": "soar",
+    "audioHint": "ソーア",
+    "examples": [
+      {
+        "en": "Gas prices soared after the supply chain was disrupted.",
+        "ja": "サプライチェーンが混乱した後、ガス価格が急騰した。",
+        "blank": "Gas prices ___ after the supply chain was disrupted.",
+        "blankAnswer": "soared"
+      }
+    ],
+    "distractors": [
+      "つかむ、捕らえる",
+      "輝く、発光する",
+      "崩れる、落下する"
+    ],
+    "confusableSpellings": [
+      "sore",
+      "soarr",
+      "soear"
+    ],
+    "passive": {
+      "etymology": "古フランス語 essorer（「風にあてる」← ラテン語 ex-「外へ」+ aura「空気、そよ風」）に由来。「空気の中へ外に出る」が原義で、そこから「高く舞い上がる」の意味になった。",
+      "tips": "経済・ニュース記事で prices soar、temperatures soar のように頻出。soar は sore（痛い）と発音が同じなので注意。文脈で判断するしかないホモフォン（同音異義語）の典型例。",
+      "confusables": "rise（上がる）、climb（上る）、surge（急増する）と比較すると、soar は特に「劇的に、大きく」上昇するニュアンスが強い。surge も急増だが soar はより詩的・視覚的イメージを伴う。",
+      "collocations": [
+        "prices soar",
+        "soar to new heights",
+        "soar above the clouds"
+      ],
+      "trivia": "英語では感情や精神が高ぶることも soar で表す。His spirits soared.（彼の気分は高揚した）のように使える。鳥が空を舞うイメージが転じて、人の心も空高く飛ぶという詩的な表現として定着した。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1429,
+    "word": "glow",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "輝く、ほのかに光る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（顔が）紅潮する、生き生きとする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡloʊ/",
+    "syllables": "glow",
+    "audioHint": "グロウ",
+    "examples": [
+      {
+        "en": "The city skyline glowed beautifully against the night sky.",
+        "ja": "夜空を背景に都市のスカイラインが美しく輝いていた。",
+        "blank": "The city skyline ___ beautifully against the night sky.",
+        "blankAnswer": "glowed"
+      }
+    ],
+    "distractors": [
+      "急上昇する",
+      "つかむ、捕らえる",
+      "震える、揺れる"
+    ],
+    "confusableSpellings": [
+      "glo",
+      "gloe",
+      "glowe"
+    ],
+    "passive": {
+      "etymology": "古英語 glōwan（「燃える、輝く」）に由来。古ノルド語 glóa とも関連があり、「内側から発する柔らかい光」が原義。glory（栄光）とは語根が異なるので注意。",
+      "tips": "glow は「炎ではなく内側から発する柔らかい光」というニュアンスが重要。shine は強い光全般、glitter/sparkle はキラキラした光に使う。glow up はSNSスラングで「見た目や内面が以前より格段に良くなること」を意味し、若者文化で非常に人気の表現。",
+      "confusables": "shine（輝く）と混同しやすいが、shine は光を反射または強く発する、glow は穏やかに内側から光る感じ。また flow（流れる）とスペルが似ているので注意。",
+      "collocations": [
+        "glow in the dark",
+        "glow with pride",
+        "a warm glow"
+      ],
+      "trivia": "glow up という表現はSNSで大流行し、Merriam-Webster にも「a positive transformation」として収録された。もともとはヒップホップスラングで、今では10代が日常的に使う現代英語の象徴的表現になっている。"
+    },
+    "frequency": 3400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1430,
+    "word": "disguise",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "変装させる、偽装する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・事実を）隠す、偽る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪsˈɡaɪz/",
+    "syllables": "dis-guise",
+    "audioHint": "ディスガイズ",
+    "examples": [
+      {
+        "en": "She disguised herself as a doctor to enter the building.",
+        "ja": "彼女はビルに入るために医師に変装した。",
+        "blank": "She ___ herself as a doctor to enter the building.",
+        "blankAnswer": "disguised"
+      }
+    ],
+    "distractors": [
+      "義務づける、強いる",
+      "許可する、認める",
+      "称賛する、褒める"
+    ],
+    "confusableSpellings": [
+      "discuise",
+      "disguize",
+      "disguis"
+    ],
+    "passive": {
+      "etymology": "古フランス語 desguiser（des-「反対・除去」+ guise「外見、様子」）に由来。guise はゲルマン語源で「方法、様子」を意味し、現代英語でも in the guise of（〜の姿で）という形で残っている。",
+      "tips": "disguise oneself as 〜（〜に変装する）という形が基本。名詞でも使え、in disguise（変装して）は熟語として重要。a blessing in disguise（一見不幸に見えて実は幸運なこと）は超頻出イディオムなので必ず覚えておきたい。",
+      "confusables": "conceal（隠す）、camouflage（カモフラージュする）と似ているが、disguise は外見を別のものに変える点が特徴。conceal は単に見えなくするだけ、camouflage は背景に溶け込ませる意味。",
+      "collocations": [
+        "disguise oneself as",
+        "in disguise",
+        "a blessing in disguise"
+      ],
+      "trivia": "a blessing in disguise（変装した祝福）というイディオムは18世紀の詩に由来するとされる。「一見悪いことが実はよかった」という逆転の発想を一言で表せるこの表現は、ビジネスや日常会話でも重宝される英語の知恵のひとつ。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1431,
+    "word": "distort",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "歪める、ゆがめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "誤って伝える、曲解する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstɔːrt/",
+    "syllables": "dis-tort",
+    "audioHint": "ディストート",
+    "examples": [
+      {
+        "en": "The media can distort the truth to attract more viewers.",
+        "ja": "メディアは視聴者を引きつけるために真実を歪めることがある。",
+        "blank": "The media can ___ the truth to attract more viewers.",
+        "blankAnswer": "distort"
+      }
+    ],
+    "distractors": [
+      "理解する",
+      "伝達する",
+      "認識する"
+    ],
+    "confusableSpellings": [
+      "distrot",
+      "distourt",
+      "distord"
+    ],
+    "passive": {
+      "etymology": "dis-（離れて・反対）＋ tort（ねじる、ラテン語 torquere 由来）→「本来の形からねじり離す」が原義。torture（拷問）や contort（ねじ曲げる）とも同じ語根。",
+      "tips": "物理的に形を「歪める」場合にも、情報・事実を「曲解する」場合にも使える。日本人は「誤解する」と混同しやすいが、distort は意図的・結果的にゆがめるニュアンス。misunderstand とは異なる。",
+      "confusables": "distort vs. misrepresent：どちらも「誤った伝え方」だが、distort は元の形を歪めるイメージ、misrepresent はあえて違う表現で伝えるニュアンス。",
+      "collocations": [
+        "distort the truth",
+        "distort reality",
+        "distort the image"
+      ],
+      "trivia": "ギターエフェクターの「ディストーション（distortion）」も同じ語源。音を意図的にゆがませるエフェクト名として日本でも定着している。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1432,
+    "word": "undermine",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "徐々に弱体化させる、損なう",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（地盤などを）掘り崩す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌʌndərˈmaɪn/",
+    "syllables": "un-der-mine",
+    "audioHint": "アンダーマイン",
+    "examples": [
+      {
+        "en": "Constant criticism can undermine a child's confidence.",
+        "ja": "絶え間ない批判は子どもの自信を損なう可能性がある。",
+        "blank": "Constant criticism can ___ a child's confidence.",
+        "blankAnswer": "undermine"
+      }
+    ],
+    "distractors": [
+      "強化する",
+      "支持する",
+      "構築する"
+    ],
+    "confusableSpellings": [
+      "undermyne",
+      "undermind",
+      "undermin"
+    ],
+    "passive": {
+      "etymology": "under-（下に）＋ mine（坑道を掘る）→「建物の下を掘って崩す」が原義。中世の戦争で城壁の下を掘って崩す戦術から来ている。",
+      "tips": "「じわじわと、気づかないうちに」弱体化させるニュアンスが強い。weaken より長期的・隠密的なプロセスを指す。主語は人だけでなく「stress」「doubt」などの抽象名詞もよく使われる。",
+      "confusables": "undermine vs. weaken：weaken は単に弱くするだけだが、undermine は土台・基盤を崩すイメージで、より根本的・じわじわとした破壊を示す。",
+      "collocations": [
+        "undermine confidence",
+        "undermine authority",
+        "undermine efforts"
+      ],
+      "trivia": "もともとは文字通り「地雷（mine）を城の下（under）に仕掛ける」戦術用語。現代語の「地雷を踏む」的な感覚に通じるものがある。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1433,
+    "word": "abolish",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "（制度・法律などを）廃止する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "撤廃する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈbɒlɪʃ/",
+    "syllables": "a-bol-ish",
+    "audioHint": "アボリッシュ",
+    "examples": [
+      {
+        "en": "Many countries have abolished the death penalty.",
+        "ja": "多くの国が死刑制度を廃止している。",
+        "blank": "Many countries have ___ the death penalty.",
+        "blankAnswer": "abolished"
+      }
+    ],
+    "distractors": [
+      "制定する",
+      "改正する",
+      "施行する"
+    ],
+    "confusableSpellings": [
+      "abolesh",
+      "abollish",
+      "abolich"
+    ],
+    "passive": {
+      "etymology": "ラテン語 abolēre（消し去る、破壊する）由来。ab-（離れて）＋ olēre（育てる）の反意から「育てたものを消し去る」が原義とも。",
+      "tips": "法律・制度・習慣など「正式に存在していたもの」を公的に廃止する場合に使う。単にやめる（stop）や取り除く（remove）よりフォーマルで、政治・法律の文脈でよく登場する。",
+      "confusables": "abolish vs. cancel vs. eliminate：cancel は予定・契約のキャンセル、eliminate は問題・障害の除去、abolish は制度・慣行の公的廃止に限定して使う。",
+      "collocations": [
+        "abolish slavery",
+        "abolish the law",
+        "abolish capital punishment"
+      ],
+      "trivia": "19世紀アメリカの奴隷制度廃止運動家を「Abolitionist（アボリショニスト）」と呼ぶ。この単語一つに人類の歴史的転換点が詰まっている。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1434,
+    "word": "strip",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "はぎ取る、取り除く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（権利・地位などを）剥奪する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/strɪp/",
+    "syllables": "strip",
+    "audioHint": "ストリップ",
+    "examples": [
+      {
+        "en": "Workers stripped the old paint from the walls.",
+        "ja": "作業員たちは壁から古いペンキをはぎ取った。",
+        "blank": "Workers ___ the old paint from the walls.",
+        "blankAnswer": "stripped"
+      }
+    ],
+    "distractors": [
+      "覆う",
+      "装飾する",
+      "付け加える"
+    ],
+    "confusableSpellings": [
+      "strip",
+      "stripp",
+      "strep"
+    ],
+    "passive": {
+      "etymology": "古英語 strīepan（奪う、剥ぐ）に由来。ゲルマン語系の基本語で「表面を引き剥がす」動作が原義。",
+      "tips": "「strip A of B」で「AからBをはぎ取る・剥奪する」という重要構文がある。He was stripped of his title.（彼は称号を剥奪された）のように権利・地位の剥奪に多用される。",
+      "confusables": "strip vs. peel：peel は皮・薄い層をめくり取るイメージ（りんごの皮など）、strip はより強引・大きな範囲ではぎ取るイメージ。",
+      "collocations": [
+        "strip away",
+        "strip of rights",
+        "strip the bark"
+      ],
+      "trivia": "comic strip（コミックストリップ）も同じ語で「細長い紙の帯」の意味。4コマ漫画の形式が紙を縦や横に「帯状に」使っていたことが由来。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1435,
+    "word": "dispose",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "処分する、捨てる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "配置する、整える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈspəʊz/",
+    "syllables": "dis-pose",
+    "audioHint": "ディスポウズ",
+    "examples": [
+      {
+        "en": "You must dispose of hazardous waste properly.",
+        "ja": "有害廃棄物は適切に処分しなければならない。",
+        "blank": "You must ___ of hazardous waste properly.",
+        "blankAnswer": "dispose"
+      }
+    ],
+    "distractors": [
+      "蓄積する",
+      "製造する",
+      "運搬する"
+    ],
+    "confusableSpellings": [
+      "dispoze",
+      "displose",
+      "dipose"
+    ],
+    "passive": {
+      "etymology": "dis-（分けて）＋ pose（置く、ラテン語 ponere 由来）→「ばらばらに置く・配置する」が原義。propose、compose なども同じ語根 pose を持つ。",
+      "tips": "「dispose of ～」で「～を処分する・処理する」という意味になる。of を忘れて dispose waste と言ってしまう日本人が多いので注意。また「気分・傾向にさせる」という意味も辞書にはあるが、日常では dispose of の形が圧倒的に多い。",
+      "confusables": "dispose vs. discard vs. dump：discard はただ捨てるだけ、dump は乱雑に投棄するネガティブなニュアンス、dispose of はより中立・手続きに沿った処分を指す。",
+      "collocations": [
+        "dispose of waste",
+        "dispose of evidence",
+        "dispose of assets"
+      ],
+      "trivia": "使い捨て製品を英語で「disposable（ディスポーザブル）」と言う。日本語でもそのまま使われており、dispose の形容詞形が日常語になっている身近な例。"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1436,
+    "word": "dump",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（ドサッと）投げ捨てる、廃棄する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（恋人などを）突然捨てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dʌmp/",
+    "syllables": "dump",
+    "audioHint": "ダンプ",
+    "examples": [
+      {
+        "en": "He dumped his bag on the floor and sat down.",
+        "ja": "彼はカバンを床に放り投げ、座った。",
+        "blank": "He ___ his bag on the floor and sat down.",
+        "blankAnswer": "dumped"
+      }
+    ],
+    "distractors": [
+      "丁寧に置く",
+      "整理する",
+      "運搬する"
+    ],
+    "confusableSpellings": [
+      "damp",
+      "domp",
+      "dunp"
+    ],
+    "passive": {
+      "etymology": "スカンジナビア語 dumpa（ドスンと落とす）に由来。北欧語の影響を受けた語で、「重いものをドサッと落とす」音そのものを表す擬音的な語感がある。",
+      "tips": "単に捨てるだけでなく「乱雑に・無造作に」というニュアンスが常に伴う。また口語では「恋人をフる」意味でも使われ、She dumped him.（彼女が彼をフった）は日常会話で頻出。",
+      "confusables": "dump vs. dispose of vs. discard：dump は最も乱雑・無責任なニュアンス。不法投棄は illegal dumping と言い、dispose はより適切な処分手続き、discard は単に不要品を捨てる。",
+      "collocations": [
+        "dump waste",
+        "dump data",
+        "dump someone"
+      ],
+      "trivia": "IT用語の「ダンプ（dump）」はメモリの内容をそのまま出力すること。「データをドサッと吐き出す」という動詞の原義がそのままIT語になった例。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1437,
+    "word": "weave",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "織る、編む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "縫うように進む、巧みに組み合わせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wiːv/",
+    "syllables": "weave",
+    "audioHint": "ウィーヴ",
+    "examples": [
+      {
+        "en": "She weaved through the crowd to reach the exit.",
+        "ja": "彼女は出口に向かって人混みを縫うように進んだ。",
+        "blank": "She ___ through the crowd to reach the exit.",
+        "blankAnswer": "weaved"
+      }
+    ],
+    "distractors": [
+      "切り裂く",
+      "投げる",
+      "押しつぶす"
+    ],
+    "confusableSpellings": [
+      "weave",
+      "weev",
+      "weve"
+    ],
+    "passive": {
+      "etymology": "古英語 wefan（織る）に由来。ゲルマン語系の古い語で、web（クモの巣・ウェブ）とも同じ語根。クモが糸を「織る」ように張ることから web という語ができた。",
+      "tips": "過去形が2通りある：規則変化 weaved（縫うように動く意味）と不規則変化 wove（布を織る意味）。文脈によって使い分けが必要。「織物を織る」なら wove、「道をくねくね進む」なら weaved が自然。",
+      "confusables": "weave vs. knit：weave は縦糸と横糸を交差させて「機織り」する、knit は針を使って「編み物」をする。どちらも「編む」と訳されがちだが工程が全く異なる。",
+      "collocations": [
+        "weave a story",
+        "weave through traffic",
+        "weave fabric"
+      ],
+      "trivia": "World Wide Web の「web」も weave と同語根。インターネットの張り巡らされた構造をクモの巣に見立てた命名で、「織る」という動詞がデジタル時代の象徴語になっている。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1438,
+    "word": "refine",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "精製する、精錬する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "洗練させる、磨き上げる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈfaɪn/",
+    "syllables": "re-fine",
+    "audioHint": "リファイン",
+    "examples": [
+      {
+        "en": "She spent months refining her presentation skills.",
+        "ja": "彼女はプレゼンテーションのスキルを磨くのに数ヶ月かけた。",
+        "blank": "She spent months ___ her presentation skills.",
+        "blankAnswer": "refining"
+      }
+    ],
+    "distractors": [
+      "粗削りにする",
+      "破壊する",
+      "複雑にする"
+    ],
+    "confusableSpellings": [
+      "refien",
+      "reifne",
+      "reffine"
+    ],
+    "passive": {
+      "etymology": "re-（再び・より完全に）＋ fine（細かい、純粋な、ラテン語 finis 由来）→「より純粋・細かい状態にする」が原義。fine には「上質の」という意味があり、refinement は高い洗練さを意味する。",
+      "tips": "物理的な精製（石油・砂糖を精製する）と抽象的な洗練（技術・文章を磨く）の両方に使える。日本語の「リファイン」はソフトウェア・デザインの改善文脈で使われており、英語の感覚と近い。",
+      "confusables": "refine vs. improve：improve は単純に「良くする」、refine はすでに良いものをさらに精密・洗練させるニュアンスで、より上級の改善を指す。",
+      "collocations": [
+        "refine oil",
+        "refine a technique",
+        "refine one's style"
+      ],
+      "trivia": "「refined sugar（精製砂糖）」は日本語でも「精製糖」として使われる。白砂糖が「refined」なのに対し、黒糖は「unrefined」。食の世界でもこの単語は活躍している。"
+    },
+    "frequency": 4300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1439,
+    "word": "enrich",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "豊かにする、充実させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（栄養・濃度などを）高める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈrɪtʃ/",
+    "syllables": "en-rich",
+    "audioHint": "エンリッチ",
+    "examples": [
+      {
+        "en": "Travel enriches your understanding of other cultures.",
+        "ja": "旅は他の文化への理解を豊かにする。",
+        "blank": "Travel ___ your understanding of other cultures.",
+        "blankAnswer": "enriches"
+      }
+    ],
+    "distractors": [
+      "貧しくする",
+      "単純化する",
+      "取り除く"
+    ],
+    "confusableSpellings": [
+      "enrich",
+      "inrich",
+      "enriche"
+    ],
+    "passive": {
+      "etymology": "en-（〜にする、状態に変える接頭辞）＋ rich（豊かな、古フランス語 riche 由来）→「豊かな状態にする」が原義。enable（可能にする）、endanger（危険にさらす）と同じ en- の使い方。",
+      "tips": "「人生・経験・知識を豊かにする」という抽象的な意味で最もよく使われる。また核の文脈では「enriched uranium（濃縮ウラン）」のように物質の濃度を高める意味も重要。日本語の「エンリッチ」はWebやアプリ開発でも使われる。",
+      "confusables": "enrich vs. enhance：enrich は内容・質・価値を「豊かに・充実させる」、enhance はすでにあるものを「さらに高める・引き立てる」で、enrich の方がより根本的な充実感を含む。",
+      "collocations": [
+        "enrich one's life",
+        "enrich the soil",
+        "enrich uranium"
+      ],
+      "trivia": "ビタミン強化食品のパッケージに「enriched with vitamins」と書かれていることが多い。スーパーで手に取った食品ラベルにこの単語が隠れているかもしれない。"
+    },
+    "frequency": 4700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1440,
+    "word": "coordinate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "調整する、まとめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "協調させる、連携させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəʊˈɔːrdɪneɪt/",
+    "syllables": "co-or-di-nate",
+    "audioHint": "コーオーディネイト",
+    "examples": [
+      {
+        "en": "She coordinated all the teams to meet the deadline.",
+        "ja": "彼女は締め切りに間に合わせるため全チームを調整した。",
+        "blank": "She ___ all the teams to meet the deadline.",
+        "blankAnswer": "coordinated"
+      }
+    ],
+    "distractors": [
+      "分散させる",
+      "混乱させる",
+      "妨害する"
+    ],
+    "confusableSpellings": [
+      "co-ordinate",
+      "coordenate",
+      "cooridnate"
+    ],
+    "passive": {
+      "etymology": "co-（共に）＋ ordinare（順序立てる、ラテン語 ordo「秩序・順序」由来）→「共に順序立てて整える」が原義。order（順序）や ordinary（普通の＝規則通りの）とも同語根。",
+      "tips": "動詞・名詞・形容詞すべてで使われる多機能語。名詞形 coordinator（コーディネーター）は日本語にも定着。「座標」を意味する数学用語 coordinates もこの語。発音の「コーオーディネイト」は4音節なので、「コーディネイト」と短く言わないよう注意。",
+      "confusables": "coordinate vs. organize：organize は「ゼロから仕組みを作る・整理する」、coordinate は「既にある複数の要素を連携させて動かす」ニュアンス。役割が明確で調整が必要な場面には coordinate が適切。",
+      "collocations": [
+        "coordinate efforts",
+        "coordinate with teams",
+        "coordinate a response"
+      ],
+      "trivia": "ファッション業界で「コーディネート」は和製英語的に使われるが、英語では coordinate outfits と動詞で言う。日本語の「コーデ」は coordinate の完全な略語で、略し方まで日本流になっている。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  }
+]

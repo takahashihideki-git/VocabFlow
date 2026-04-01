@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1761,
+    "word": "supervisor",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "監督者、上司",
+        "pos": "noun"
+      },
+      {
+        "meaning": "管理者、指導教員",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsuːpərvaɪzər/",
+    "syllables": "su-per-vi-sor",
+    "audioHint": "スーパーヴァイザー",
+    "examples": [
+      {
+        "en": "My supervisor gave me feedback on the quarterly report.",
+        "ja": "上司は四半期報告書についてフィードバックをくれた。",
+        "blank": "My ___ gave me feedback on the quarterly report.",
+        "blankAnswer": "supervisor"
+      }
+    ],
+    "distractors": [
+      "従業員",
+      "取引先",
+      "株主"
+    ],
+    "confusableSpellings": [
+      "supervisior",
+      "superviser",
+      "suppervisor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 super-（上に）＋ videre（見る）→ 上から見る人。vision（視覚）や supervise（監督する）と同じ語根。",
+      "tips": "supervise（動詞）と supervisor（名詞）をセットで覚えよう。「スーパーバイザー」とカタカナ表記でも使われるが、英語では -er ではなく -or で終わることに注意。",
+      "confusables": "manager は広く「管理職」全般を指すが、supervisor は現場レベルで直接スタッフを監督する立場を指すことが多い。",
+      "collocations": [
+        "direct supervisor（直属の上司）",
+        "report to a supervisor（上司に報告する）",
+        "supervisor's approval（上司の承認）"
+      ],
+      "trivia": "アメリカの行政では、郡の長を「Board of Supervisors」と呼ぶ。「スーパーバイザー」が政治家の肩書きになるとは意外でしょ？"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1762,
+    "word": "predecessor",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "前任者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "先行するもの、前身",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpredɪsesər/",
+    "syllables": "pred-e-ces-sor",
+    "audioHint": "プレデセサー",
+    "examples": [
+      {
+        "en": "The new CEO reversed many policies of her predecessor.",
+        "ja": "新CEOは前任者の多くの方針を覆した。",
+        "blank": "The new CEO reversed many policies of her ___.",
+        "blankAnswer": "predecessor"
+      }
+    ],
+    "distractors": [
+      "後継者",
+      "競争相手",
+      "協力者"
+    ],
+    "confusableSpellings": [
+      "predesessor",
+      "predecesser",
+      "predacessor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 prae-（前に）＋ decessor（退く人、de-「離れて」＋ cedere「行く」）→ 先に去った人。",
+      "tips": "successor（後継者）とセットで覚えると混乱しにくい。pre-（前）→ predecessor、suc-（後）→ successor と整理しよう。スペルが長いので -cessor の部分を「セッサー」とリズムで覚えると◎。",
+      "confusables": "successor は「後継者・後任」で predecessor の反対語。ancestor は「祖先」で血縁関係を示す点が異なる。",
+      "collocations": [
+        "immediate predecessor（直前の前任者）",
+        "predecessor model（前世代モデル）",
+        "predecessor in office（前職者）"
+      ],
+      "trivia": "iPhoneのニュース記事では必ずといっていいほど登場する単語。「iPhone 16 is more powerful than its predecessor.」のように、テック系メディアが大好きな表現です。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1763,
+    "word": "personnel",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "人員、従業員（集合的）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "人事部門",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌpɜːrsəˈnel/",
+    "syllables": "per-son-nel",
+    "audioHint": "パーソネル",
+    "examples": [
+      {
+        "en": "All personnel must attend the safety training session.",
+        "ja": "全従業員は安全訓練セッションに参加しなければならない。",
+        "blank": "All ___ must attend the safety training session.",
+        "blankAnswer": "personnel"
+      }
+    ],
+    "distractors": [
+      "設備、備品",
+      "予算、資金",
+      "業績、実績"
+    ],
+    "confusableSpellings": [
+      "personel",
+      "personnell",
+      "personnnel"
+    ],
+    "passive": {
+      "etymology": "フランス語 personnel（個人の）から借用。ラテン語 persona（人、仮面）が語源。personal（個人的な）と同じ起源を持つ。",
+      "tips": "personal（個人的な）と混同しやすいが、personnel は「従業員全体・人事」という名詞。アクセントの位置も違い、personnel は最後の -nel にアクセントが来る（パーソ**ネル**）。",
+      "confusables": "personal は形容詞で「個人の」、personnel は名詞で「人員・人事」。スペルが似ているので要注意。staff も似た意味だが、personnel はよりフォーマルで書き言葉に多い。",
+      "collocations": [
+        "military personnel（軍人）",
+        "personnel department（人事部）",
+        "key personnel（主要人員）"
+      ],
+      "trivia": "英語に入ったのはフランス語経由で、もともと軍隊用語だった。今でも「military personnel（軍人）」という用法は超頻出。フランス語が軍事・外交分野で強い影響を残した証拠です。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1764,
+    "word": "vessel",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "船、艦船",
+        "pos": "noun"
+      },
+      {
+        "meaning": "容器；血管",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvesəl/",
+    "syllables": "ves-sel",
+    "audioHint": "ヴェッセル",
+    "examples": [
+      {
+        "en": "The research vessel sailed into the Arctic Ocean.",
+        "ja": "その調査船は北極海へと航行した。",
+        "blank": "The research ___ sailed into the Arctic Ocean.",
+        "blankAnswer": "vessel"
+      }
+    ],
+    "distractors": [
+      "岬、半島",
+      "潮流、海流",
+      "堆積物、土砂"
+    ],
+    "confusableSpellings": [
+      "vesel",
+      "vessle",
+      "vessel（正しい）→ vessal"
+    ],
+    "passive": {
+      "etymology": "古フランス語 vaissel、ラテン語 vascellum（小さな容器）から。vas（容器・管）が語根で、vase（花瓶）とも関連する。",
+      "tips": "「船」の意味では ship や boat より格式が高く、ニュースや法律文書で多用される。また医学では blood vessel（血管）という形で必須表現。「容器」「船」「血管」と意味が広いので文脈で判断しよう。",
+      "confusables": "ship は大型の船を指すことが多く、boat は小型。vessel はどちらにも使える格式ある語。また vein（静脈）と blood vessel を混同しないように。",
+      "collocations": [
+        "blood vessel（血管）",
+        "fishing vessel（漁船）",
+        "naval vessel（軍艦）"
+      ],
+      "trivia": "「Empty vessels make the most noise.（空の器ほど大きな音を立てる）」ということわざがあり、中身のない人ほどよくしゃべるという意味。vessel が「容器」と「船」両方を意味するからこそ生まれた表現です。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1765,
+    "word": "liver",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "肝臓",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（ある生活をする）人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlɪvər/",
+    "syllables": "liv-er",
+    "audioHint": "リヴァー",
+    "examples": [
+      {
+        "en": "Drinking too much alcohol can seriously damage your liver.",
+        "ja": "過度の飲酒は肝臓に深刻なダメージを与える可能性がある。",
+        "blank": "Drinking too much alcohol can seriously damage your ___.",
+        "blankAnswer": "liver"
+      }
+    ],
+    "distractors": [
+      "腎臓",
+      "膵臓",
+      "脾臓"
+    ],
+    "confusableSpellings": [
+      "livir",
+      "livar",
+      "livver"
+    ],
+    "passive": {
+      "etymology": "古英語 lifer から。ゲルマン語系の語で、live（生きる）とは語源的に関連するとも言われる（肝臓は生命に不可欠な臓器だから）。",
+      "tips": "river（川）と1文字違い。r と l の発音の区別が苦手な日本人には「リバー（river）」と「リヴァー（liver）」が混同しやすいので、発音練習に最適な単語セット。",
+      "confusables": "kidney（腎臓）と混同する学習者が多い。liver は右上腹部にある最大の内臓、kidney は腰のあたりに左右一対ある。",
+      "collocations": [
+        "liver disease（肝臓病）",
+        "liver transplant（肝臓移植）",
+        "fatty liver（脂肪肝）"
+      ],
+      "trivia": "古代ギリシャでは肝臓が感情や魂の宿る場所と信じられていた。現代でも「勇気がない」を英語で「lily-livered（百合色の肝臓を持つ）」と表現するのはその名残！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1766,
+    "word": "duration",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "持続時間、期間",
+        "pos": "noun"
+      },
+      {
+        "meaning": "継続、存続",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/djʊˈreɪʃən/",
+    "syllables": "du-ra-tion",
+    "audioHint": "デュレイション",
+    "examples": [
+      {
+        "en": "The duration of the flight is approximately ten hours.",
+        "ja": "そのフライトの所要時間は約10時間です。",
+        "blank": "The ___ of the flight is approximately ten hours.",
+        "blankAnswer": "duration"
+      }
+    ],
+    "distractors": [
+      "頻度、頻繁さ",
+      "間隔、合間",
+      "順序、順番"
+    ],
+    "confusableSpellings": [
+      "durration",
+      "duretion",
+      "duracion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 durare（続く、硬くなる）＋ -tion（名詞化接尾辞）。durable（耐久性のある）や endure（耐える）と同じ語根 dur-。",
+      "tips": "「for the duration of ~（〜の期間中ずっと）」という前置詞句でよく使われる。period や length of time と言い換えられるが、duration はやや改まった文脈に向く。",
+      "confusables": "period は区切られた時間の「区間」、duration はその「長さ・継続時間」に焦点が当たる。interval は「間隔・合間」で意味が異なる。",
+      "collocations": [
+        "for the duration of（〜の間中）",
+        "short duration（短期間）",
+        "duration of stay（滞在期間）"
+      ],
+      "trivia": "第二次世界大戦中、「for the duration」という表現がとても流行した。戦争が終わるまでの間という意味で、誰もいつ終わるかわからない不確かな期間を表す切ない言い回しとして使われた。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1767,
+    "word": "certificate",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "証明書、資格証",
+        "pos": "noun"
+      },
+      {
+        "meaning": "認定書、修了証",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sərˈtɪfɪkɪt/",
+    "syllables": "cer-tif-i-cate",
+    "audioHint": "サティフィケット",
+    "examples": [
+      {
+        "en": "She received a certificate after completing the online course.",
+        "ja": "彼女はオンラインコースを修了した後、証明書を受け取った。",
+        "blank": "She received a ___ after completing the online course.",
+        "blankAnswer": "certificate"
+      }
+    ],
+    "distractors": [
+      "教科書、参考書",
+      "学位、学歴",
+      "論文、研究報告"
+    ],
+    "confusableSpellings": [
+      "certifcate",
+      "certificat",
+      "sertificate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 certificare（確実にする）→ certus（確かな）＋ facere（する、作る）。certain（確かな）や certify（証明する）と同族語。",
+      "tips": "名詞の発音は「サ**ティ**フィケット」、動詞（certificate: 公認する）は「サティフィ**ケイト**」とアクセントが変わる。日常ではほぼ名詞として使う。",
+      "confusables": "diploma は通常4年制大学・専門学校の卒業証書を指し、certificate は特定のコースや技能の修了証を指すことが多い。degree（学位）とも混同しないように。",
+      "collocations": [
+        "birth certificate（出生証明書）",
+        "gift certificate（商品券）",
+        "certificate of completion（修了証）"
+      ],
+      "trivia": "gift certificate（商品券）は日本でも身近なもの。アメリカでは年間数十億ドル分のギフトカードが使われないまま失効するとも言われ、発行会社にとってはおいしいビジネスらしい。"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1768,
+    "word": "geometry",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "幾何学",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（物体・空間の）形状・構造",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dʒiˈɒmɪtri/",
+    "syllables": "ge-om-e-try",
+    "audioHint": "ジオメトリー",
+    "examples": [
+      {
+        "en": "Students study geometry to understand shapes and angles.",
+        "ja": "生徒たちは形や角度を理解するために幾何学を学ぶ。",
+        "blank": "Students study ___ to understand shapes and angles.",
+        "blankAnswer": "geometry"
+      }
+    ],
+    "distractors": [
+      "代数学",
+      "統計学",
+      "生物学"
+    ],
+    "confusableSpellings": [
+      "geometery",
+      "geommetry",
+      "jeometry"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 geo-（大地）＋ metron（測る）→ 土地を測る学問。geography（地理学）の geo- と同じ、meter（メートル）の metr- と同じ語根。",
+      "tips": "発音は「ジオ**メ**トリー」で ge- を「ジ」と読む点が紛らわしい。geography（地理）は「ジオグラフィー」なのに、geometry の ge も同じく「ジ」と読む。",
+      "confusables": "algebra（代数学）は方程式と変数を扱い、geometry は形・空間・角度を扱う。trigonometry（三角法）は geometry の一分野。",
+      "collocations": [
+        "Euclidean geometry（ユークリッド幾何学）",
+        "geometry class（幾何学の授業）",
+        "molecular geometry（分子幾何学）"
+      ],
+      "trivia": "古代エジプトではナイル川の洪水後に農地を測り直す必要があり、それが幾何学の起源と言われている。「土地を測る」という言葉通りの歴史を持つ実用的な学問なんです。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1769,
+    "word": "symmetry",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "対称（性）、シンメトリー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "均整、釣り合い",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪmɪtri/",
+    "syllables": "sym-me-try",
+    "audioHint": "シミトリー",
+    "examples": [
+      {
+        "en": "The butterfly's wings display perfect symmetry.",
+        "ja": "その蝶の羽は完璧な対称性を示している。",
+        "blank": "The butterfly's wings display perfect ___.",
+        "blankAnswer": "symmetry"
+      }
+    ],
+    "distractors": [
+      "密度、濃度",
+      "屈折、偏光",
+      "加速度、勢い"
+    ],
+    "confusableSpellings": [
+      "symetry",
+      "symmetrey",
+      "simetry"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 syn-（共に、同じ）＋ metron（測る）→ 同じ尺度で測れること。symmetric（対称的な）、asymmetry（非対称）も同根。",
+      "tips": "スペルで mm が連続する（sym-me-try）点を忘れやすい。また発音は「シ**ミ**トリー」で、2番目の音節にアクセント。「シン**メ**トリー」と言いがちなので注意。",
+      "confusables": "asymmetry（非対称）は a-（否定の接頭辞）を付けた反対語。symmetry と asymmetry はセットで覚えよう。balance（均衡）は対称でなくてもよい均衡を指す点が異なる。",
+      "collocations": [
+        "bilateral symmetry（左右対称）",
+        "perfect symmetry（完全な対称）",
+        "lack of symmetry（対称性の欠如）"
+      ],
+      "trivia": "人間は対称な顔を「美しい」と感じるよう脳がプログラムされているらしい。進化的に「対称＝健康」というシグナルとして発達したためとも言われている。美のひみつは幾何学にあった！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1770,
+    "word": "biography",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "伝記",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（特定の人の）生涯の記録",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/baɪˈɒɡrəfi/",
+    "syllables": "bi-og-ra-phy",
+    "audioHint": "バイオグラフィー",
+    "examples": [
+      {
+        "en": "She wrote a biography of the famous jazz musician.",
+        "ja": "彼女はその有名なジャズミュージシャンの伝記を書いた。",
+        "blank": "She wrote a ___ of the famous jazz musician.",
+        "blankAnswer": "biography"
+      }
+    ],
+    "distractors": [
+      "詩集、詩篇",
+      "評論、批評",
+      "脚本、台本"
+    ],
+    "confusableSpellings": [
+      "biograpy",
+      "biograpghy",
+      "biografy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 bios（生命・人生）＋ graphein（書く）→ 人生を書いたもの。biology（bio-「生命」＋ -logy「学問」）、photograph（photo-「光」＋ graph「書く」）と同じ語根を含む。",
+      "tips": "autobiography（自伝）との違いに注意。auto-（自分）＋ bio-（生命）＋ graphy（書くこと）→ 自分で書いた自分の伝記。biography は第三者が書いたもの。",
+      "confusables": "autobiography は自分自身が書いた自伝、biography は他人が書いた伝記。memoir（回顧録）は自分の記憶や体験をつづったもので、autobiography より個人的・断片的な場合が多い。",
+      "collocations": [
+        "write a biography（伝記を書く）",
+        "authorized biography（公認伝記）",
+        "biography section（伝記コーナー）"
+      ],
+      "trivia": "Appleの創業者スティーブ・ジョブズの伝記『Steve Jobs』（ウォルター・アイザックソン著）は、ジョブズ本人が生前に取材に応じた公認伝記。亡くなる直前まで関わったという話が有名で、この本がきっかけで biography というジャンルへの関心が世界的に高まった。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1771,
+    "word": "masterpiece",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "傑作、名作",
+        "pos": "noun"
+      },
+      {
+        "meaning": "最高傑作",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmæstərpiːs/",
+    "syllables": "mas-ter-piece",
+    "audioHint": "マスタァピース",
+    "examples": [
+      {
+        "en": "This painting is considered a masterpiece of Renaissance art.",
+        "ja": "この絵画はルネサンス芸術の傑作とされている。",
+        "blank": "This painting is considered a ___ of Renaissance art.",
+        "blankAnswer": "masterpiece"
+      }
+    ],
+    "distractors": [
+      "韻を踏む言葉",
+      "即興演奏",
+      "彫刻作品"
+    ],
+    "confusableSpellings": [
+      "masterpice",
+      "masterpeace",
+      "masterpeice"
+    ],
+    "passive": {
+      "etymology": "「master（主人・達人）」＋「piece（作品）」の複合語。中世ヨーロッパのギルドで、職人が親方（master）になるために提出する試験作品を指したのが起源。",
+      "tips": "「傑作」という意味で使うとき、a masterpiece of〜のように「of＋ジャンル」を続けることが多い。「master piece」と2語に分けないよう注意。",
+      "confusables": "「masterwork」も同義語だが、masterpiece の方が日常的・広く使われる。「great work」は傑作というニュアンスが薄い。",
+      "collocations": [
+        "a true masterpiece",
+        "consider ~ a masterpiece",
+        "masterpiece of literature"
+      ],
+      "trivia": "ギルド制度では若い職人が親方試験のために渾身の一作を作ったことが語源。現代では「最高の作品」全般に使えるが、もともとは「昇格試験の課題作」という超実務的な言葉だった！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1772,
+    "word": "rhyme",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "韻、押韻",
+        "pos": "noun"
+      },
+      {
+        "meaning": "韻を踏む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/raɪm/",
+    "syllables": "rhyme",
+    "audioHint": "ライム",
+    "examples": [
+      {
+        "en": "Children love songs and poems that rhyme.",
+        "ja": "子どもたちは韻を踏んだ歌や詩が大好きだ。",
+        "blank": "Children love songs and poems that ___.",
+        "blankAnswer": "rhyme"
+      }
+    ],
+    "distractors": [
+      "旋律、メロディー",
+      "傑作、名作",
+      "即興演奏"
+    ],
+    "confusableSpellings": [
+      "rime",
+      "ryhme",
+      "rhym"
+    ],
+    "passive": {
+      "etymology": "古フランス語「rime」、ラテン語「rhythmus（リズム）」から。なぜか「h」が入っているのは「rhythm」との混同で綴りが変化したため。",
+      "tips": "「rime」という古いスペルも存在するため混乱しやすい。現代英語では「rhyme」が標準。動詞としても「cat rhymes with hat」のように使えることを覚えておこう。",
+      "confusables": "「rhythm（リズム）」と語源が近く混同しやすい。rhyme は「音の一致（末尾音）」、rhythm は「拍やテンポの流れ」を指す。",
+      "collocations": [
+        "nursery rhyme",
+        "rhyme with ~",
+        "without rhyme or reason"
+      ],
+      "trivia": "「without rhyme or reason（理由も脈絡もなく）」という慣用句がある。詩では「韻」も「理由」もないのは混沌の極み、ということでこの表現が生まれた！"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1773,
+    "word": "premium",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "割増料金、プレミアム",
+        "pos": "noun"
+      },
+      {
+        "meaning": "高品質の、プレミアムな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpriːmiəm/",
+    "syllables": "pre-mi-um",
+    "audioHint": "プリーミアム",
+    "examples": [
+      {
+        "en": "You pay a premium for organic products at this store.",
+        "ja": "この店では有機製品に割増料金を払うことになる。",
+        "blank": "You pay a ___ for organic products at this store.",
+        "blankAnswer": "premium"
+      }
+    ],
+    "distractors": [
+      "配当金、利益分配",
+      "負債、借金",
+      "為替レート"
+    ],
+    "confusableSpellings": [
+      "premiun",
+      "primium",
+      "preimum"
+    ],
+    "passive": {
+      "etymology": "ラテン語「praemium（報酬・賞）」から。「prae（前に）＋emere（取る）」が語源で、「先取りするもの」が転じて「特別な価値・上乗せ料金」の意味になった。",
+      "tips": "形容詞として「premium quality（高品質）」のように使うことも多い。「プレミアム」とそのままカタカナで使われるが、英語発音は「プリーミアム」に近いので注意。",
+      "confusables": "「bonus（ボーナス・特典）」と混同しやすい。premium は「余分に支払う金額や価値」、bonus は「予想外のおまけや報酬」のニュアンス。",
+      "collocations": [
+        "at a premium",
+        "insurance premium",
+        "premium quality"
+      ],
+      "trivia": "「at a premium」は「入手困難で値段が高い」という意味。コンサートチケットが転売で高騰しているときもこの表現が使える。経済用語でもあり日常語でもある万能ワード！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1774,
+    "word": "breakdown",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "崩壊、故障",
+        "pos": "noun"
+      },
+      {
+        "meaning": "詳細な分析、内訳",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbreɪkdaʊn/",
+    "syllables": "break-down",
+    "audioHint": "ブレイクダウン",
+    "examples": [
+      {
+        "en": "The car had a breakdown on the highway last night.",
+        "ja": "昨夜、車が高速道路で故障した。",
+        "blank": "The car had a ___ on the highway last night.",
+        "blankAnswer": "breakdown"
+      }
+    ],
+    "distractors": [
+      "突破口、大きな前進",
+      "精神的な高揚感",
+      "概念の統合"
+    ],
+    "confusableSpellings": [
+      "breakedown",
+      "braekdown",
+      "breakdoun"
+    ],
+    "passive": {
+      "etymology": "動詞「break down（壊れる・崩れる）」を名詞化したもの。「break（壊す）＋down（下へ）」で、何かが崩れ落ちるイメージが語源。",
+      "tips": "意味が複数あるので文脈を確認すること。機械の「故障」、精神的な「崩壊（nervous breakdown）」、データの「内訳・分析」と使い分けが重要。",
+      "confusables": "「breakthrough（突破口・大発見）」と混同しやすい。breakdown は「壊れる・崩れる」、breakthrough は「突き破る・前進する」と真逆のイメージ。",
+      "collocations": [
+        "nervous breakdown",
+        "breakdown of communication",
+        "cost breakdown"
+      ],
+      "trivia": "「breakdown」はダンスジャンルの「ブレイクダンス」とも間接的に関係あり。1970年代ヒップホップで「ブレイク（曲の間奏部分）」で踊るスタイルが生まれた。壊れるどころかむしろ爆発的にクール！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1775,
+    "word": "courtesy",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "礼儀、丁寧さ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "好意による（無償の）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɜːrtəsi/",
+    "syllables": "cour-te-sy",
+    "audioHint": "カーテシィ",
+    "examples": [
+      {
+        "en": "He had the courtesy to hold the door open for her.",
+        "ja": "彼は彼女のためにドアを押さえてあげる礼儀をわきまえていた。",
+        "blank": "He had the ___ to hold the door open for her.",
+        "blankAnswer": "courtesy"
+      }
+    ],
+    "distractors": [
+      "謙遜、控えめな態度",
+      "敵意、反感",
+      "服従、従順さ"
+    ],
+    "confusableSpellings": [
+      "courtisy",
+      "courtecy",
+      "courtosy"
+    ],
+    "passive": {
+      "etymology": "古フランス語「courtoisie（宮廷的な振る舞い）」から。「court（宮廷）」が語根で、もともと宮廷で求められる洗練された礼儀作法を意味していた。",
+      "tips": "「by courtesy of〜（〜のご厚意により）」という表現はビジネスや放送でよく使われる。また「courtesy call（表敬訪問）」「courtesy car（無料貸し出し車）」など形容詞的にも使う。",
+      "confusables": "「politeness（礼儀正しさ）」と似ているが、courtesy はより「相手への配慮・思いやりある行為」、politeness は「礼儀作法の規則に従うこと」のニュアンスが強い。",
+      "collocations": [
+        "common courtesy",
+        "by courtesy of",
+        "courtesy call"
+      ],
+      "trivia": "「courtesy」の語源は「宮廷（court）」。つまり礼儀正しさとは元々「王様の前での振る舞い方」だった。現代ではスタバの店員さんにも求められるので、民主化がすごい！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1776,
+    "word": "protocol",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "プロトコル、通信規約",
+        "pos": "noun"
+      },
+      {
+        "meaning": "外交儀礼、手順",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈproʊtəkɒl/",
+    "syllables": "pro-to-col",
+    "audioHint": "プロウトォコル",
+    "examples": [
+      {
+        "en": "The hospital staff must follow the safety protocol carefully.",
+        "ja": "病院スタッフは安全プロトコルを注意深く守らなければならない。",
+        "blank": "The hospital staff must follow the safety ___ carefully.",
+        "blankAnswer": "protocol"
+      }
+    ],
+    "distractors": [
+      "アルゴリズム、計算手順",
+      "インターフェース、接続部",
+      "データベース、情報集積"
+    ],
+    "confusableSpellings": [
+      "protocal",
+      "protacol",
+      "protocoll"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語「prōtokollon」から。「prōtos（最初の）＋kolla（膠・のり）」が語源で、巻物の最初に貼り付けられた「目次・要約ページ」を指したことが起源。",
+      "tips": "IT分野では「HTTP」「TCP/IP」などの通信規約を指し、外交・医療分野では「手順・規定」を指す。文脈によって意味が変わるので注意。カタカナ発音「プロトコール」は日本語的で、英語では「コル」に強勢はない。",
+      "confusables": "「procedure（手順）」と似ているが、protocol はより「公式・標準化された規約」、procedure は「具体的な作業ステップ」のニュアンス。",
+      "collocations": [
+        "follow the protocol",
+        "communication protocol",
+        "security protocol"
+      ],
+      "trivia": "「protocol」の語源は「巻物の最初のページ」。現代のHTTPプロトコルも、インターネットの「最初のルール」を決めるものだから、2000年以上前のパピルスの発想が今もネットを支えていると思うと感動的！"
+    },
+    "frequency": 3400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1777,
+    "word": "specimen",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "標本、見本",
+        "pos": "noun"
+      },
+      {
+        "meaning": "検体、サンプル",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈspɛsɪmən/",
+    "syllables": "spec-i-men",
+    "audioHint": "スペシマン",
+    "examples": [
+      {
+        "en": "The scientist examined a specimen under the microscope.",
+        "ja": "科学者は顕微鏡で標本を調べた。",
+        "blank": "The scientist examined a ___ under the microscope.",
+        "blankAnswer": "specimen"
+      }
+    ],
+    "distractors": [
+      "仮説、推論",
+      "症状、病状",
+      "治療法、処置"
+    ],
+    "confusableSpellings": [
+      "specimin",
+      "speciman",
+      "speciemen"
+    ],
+    "passive": {
+      "etymology": "ラテン語「specimen（見本・証拠）」から。「specere（見る）」が語根で、「inspect（検査する）」「spectacle（見せ物）」と同じ語根を持つ。",
+      "tips": "医療では「尿検体・血液検体」のように使われ、博物館では「昆虫標本・岩石標本」を指す。「sample」より専門的・学術的なニュアンスがある。",
+      "confusables": "「sample（サンプル）」と混同しやすい。specimen は「観察・研究のために保存・採取されたもの」、sample は「品質確認や試用のためのもの」と区別できる。",
+      "collocations": [
+        "biological specimen",
+        "specimen collection",
+        "urine specimen"
+      ],
+      "trivia": "博物館の昆虫標本（specimen）は数百年保存できるものもある。ダーウィンが採集した標本が今も大英自然史博物館に保管されており、最新のDNA解析にも使われている。過去と未来をつなぐタイムカプセルだ！"
+    },
+    "frequency": 5600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1778,
+    "word": "thesis",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "論文、学位論文",
+        "pos": "noun"
+      },
+      {
+        "meaning": "主張、命題",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈθiːsɪs/",
+    "syllables": "the-sis",
+    "audioHint": "シーシス",
+    "examples": [
+      {
+        "en": "She spent two years writing her doctoral thesis.",
+        "ja": "彼女は博士論文を書くのに2年間費やした。",
+        "blank": "She spent two years writing her doctoral ___.",
+        "blankAnswer": "thesis"
+      }
+    ],
+    "distractors": [
+      "研究助成金、奨学金",
+      "講義録、授業ノート",
+      "実験結果、測定値"
+    ],
+    "confusableSpellings": [
+      "thisis",
+      "theisis",
+      "thesiss"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語「thesis（置くこと・提案）」から。「tithenai（置く）」が語根。「ある主張を提示する」という行為が学術論文の本質であることが語源に表れている。",
+      "tips": "複数形は「theses（シーシーズ）」と不規則変化するので注意。「thesis」は修士・博士論文、「dissertation」も同様だがアメリカ英語では博士論文に dissertation を使うことが多い。",
+      "confusables": "「dissertation」と混同しやすい。イギリス英語では thesis＝博士論文、dissertation＝修士論文と使い分けることが多いが、アメリカでは逆になることもある。",
+      "collocations": [
+        "master's thesis",
+        "defend a thesis",
+        "thesis statement"
+      ],
+      "trivia": "「thesis statement（主題文）」は英語のエッセイで必須の概念。日本の作文では「起承転結」で結論を最後に持ってくるが、英語では冒頭で主張を述べるのが基本。文化の違いが構成に出るのがおもしろい！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1779,
+    "word": "eligible",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "資格のある、適格な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "条件を満たしている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɛlɪdʒɪbəl/",
+    "syllables": "el-i-gi-ble",
+    "audioHint": "エリジャブル",
+    "examples": [
+      {
+        "en": "Only citizens over 18 are eligible to vote.",
+        "ja": "18歳以上の市民のみが投票資格を持つ。",
+        "blank": "Only citizens over 18 are ___ to vote.",
+        "blankAnswer": "eligible"
+      }
+    ],
+    "distractors": [
+      "適切な、ふさわしい（状況に対して）",
+      "義務を負っている",
+      "免除されている"
+    ],
+    "confusableSpellings": [
+      "eligable",
+      "eligble",
+      "eligibal"
+    ],
+    "passive": {
+      "etymology": "ラテン語「eligibilis（選ばれるに値する）」から。「e-（外へ）＋legere（選ぶ）」が語源。「elect（選出する）」「select（選択する）」と同じ語根を持つ。",
+      "tips": "「eligible for〜（〜の資格がある）」「eligible to do〜（〜する資格がある）」の2つの構文を覚えよう。「be eligible」のように be動詞とセットで使うことがほとんど。",
+      "confusables": "「qualified（資格を持つ）」と似ているが、eligible は「条件や基準を満たして対象に入れる」、qualified は「能力・資格・経験を持っている」ことを強調する。",
+      "collocations": [
+        "eligible for benefits",
+        "eligible to vote",
+        "eligible candidate"
+      ],
+      "trivia": "「eligible bachelor（条件のいい独身男性）」という表現がある。財力・家柄・外見すべてOKな「結婚相手として適格な男性」を指す。恋愛も「資格審査」って、なんかシビアな感じがするね！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1780,
+    "word": "intrinsic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "本質的な、固有の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "内在的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtrɪnzɪk/",
+    "syllables": "in-trin-sic",
+    "audioHint": "イントゥリンズィク",
+    "examples": [
+      {
+        "en": "Learning has intrinsic value beyond just getting a job.",
+        "ja": "学ぶことには就職以上の本質的な価値がある。",
+        "blank": "Learning has ___ value beyond just getting a job.",
+        "blankAnswer": "intrinsic"
+      }
+    ],
+    "distractors": [
+      "外部から与えられた、外発的な",
+      "一時的な、短命の",
+      "普遍的な、万国共通の"
+    ],
+    "confusableSpellings": [
+      "intrinsick",
+      "intrinzic",
+      "intirnsic"
+    ],
+    "passive": {
+      "etymology": "ラテン語「intrinsecus（内側から）」から。「intra（内に）＋secus（沿って）」が語源。「外から与えられたものではなく、もともと内側にある性質」を意味する。",
+      "tips": "心理学でよく出る「intrinsic motivation（内発的動機）」と「extrinsic motivation（外発的動機）」の対比は頻出。intrinsic ↔ extrinsic の対義関係を押さえておくと使いやすい。",
+      "confusables": "「inherent（生来の・内在する）」と非常に近い意味。intrinsic は「その物の本質・本来の価値」、inherent は「生まれつき・元来備わっている性質」とわずかに使い分けられる。",
+      "collocations": [
+        "intrinsic value",
+        "intrinsic motivation",
+        "intrinsic to ~"
+      ],
+      "trivia": "「intrinsic value（本質的価値）」は哲学・経済・心理学すべてで登場するスーパーワード。株式投資でも「その株の本来の価値」を指す。ウォーレン・バフェットが大好きな概念でもある！"
+    },
+    "frequency": 5900,
+    "cefr": "C1"
+  }
+]

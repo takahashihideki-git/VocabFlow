@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1041,
+    "word": "premise",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "前提",
+        "pos": "noun"
+      },
+      {
+        "meaning": "構内、敷地",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɛmɪs/",
+    "syllables": "prem-ise",
+    "audioHint": "プレミス",
+    "examples": [
+      {
+        "en": "The argument is based on a false premise.",
+        "ja": "その議論は誤った前提に基づいている。",
+        "blank": "The argument is based on a false ___.",
+        "blankAnswer": "premise"
+      }
+    ],
+    "distractors": [
+      "結論",
+      "証拠",
+      "仮説"
+    ],
+    "confusableSpellings": [
+      "premiss",
+      "premice",
+      "premis"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praemissa' から。'prae-'（前に）＋ 'mittere'（送る）→「前もって述べられたこと」が語源。",
+      "tips": "複数形 'premises' は「建物・敷地」という全く別の意味になる点に注意。'on the premises'（構内で）という表現も頻出。",
+      "confusables": "'assumption'（仮定）と似ているが、premise は論理的議論の出発点として機能する命題を指し、より論理学的なニュアンスが強い。",
+      "collocations": [
+        "on the premise that",
+        "false premise",
+        "basic premise"
+      ],
+      "trivia": "映画や小説のあらすじを英語で説明するとき「この作品のpremiseは…」と使う。「設定・前提」という意味でエンタメ業界でも超よく使われる単語！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1042,
+    "word": "input",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "入力、インプット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "意見、貢献",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnpʊt/",
+    "syllables": "in-put",
+    "audioHint": "インプット",
+    "examples": [
+      {
+        "en": "We need your input on this project.",
+        "ja": "このプロジェクトについてあなたの意見が必要です。",
+        "blank": "We need your ___ on this project.",
+        "blankAnswer": "input"
+      }
+    ],
+    "distractors": [
+      "出力",
+      "処理",
+      "ネットワーク"
+    ],
+    "confusableSpellings": [
+      "imput",
+      "inputt",
+      "inpput"
+    ],
+    "passive": {
+      "etymology": "'in-'（中へ）＋ 'put'（置く）→「中に入れるもの」。シンプルな構造の合成語。",
+      "tips": "コンピューター用語の「入力」だけでなく、「意見・貢献」という意味でもビジネス英語で多用される。'Can I get your input?'（意見をもらえますか？）は会議で頻出。",
+      "confusables": "'output'（出力・産出）と対になる語。'feedback'（フィードバック）と似た使い方をする場面もあるが、input はより「情報や意見を提供する行為」に焦点がある。",
+      "collocations": [
+        "user input",
+        "input data",
+        "provide input"
+      ],
+      "trivia": "日本語の「インプット学習法」はこの単語から。英語でも 'input hypothesis'（インプット仮説）という第二言語習得理論があり、「大量に読む・聞くことが語学上達の鍵」という考え方を指す。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1043,
+    "word": "merit",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "長所、メリット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "価値、功績",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɛrɪt/",
+    "syllables": "mer-it",
+    "audioHint": "メリット",
+    "examples": [
+      {
+        "en": "Each proposal should be judged on its own merit.",
+        "ja": "各提案はそれ自体の価値で判断されるべきだ。",
+        "blank": "Each proposal should be judged on its own ___.",
+        "blankAnswer": "merit"
+      }
+    ],
+    "distractors": [
+      "欠点",
+      "義務",
+      "偏見"
+    ],
+    "confusableSpellings": [
+      "merrit",
+      "merite",
+      "merrit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'meritum'（報酬を受けるに値すること）から。'merere'（値する、稼ぐ）が語根。",
+      "tips": "日本語の「メリット」は「利点・長所」の意味で使うが、英語の merit はさらに「功績・価値」というニュアンスも持つ。また動詞として 'This issue merits attention.'（この問題は注目に値する）とも使える。",
+      "confusables": "'advantage'（有利な点）と似ているが、merit はより本質的・内在的な価値を指す。'demerit'（欠点）が対義語。",
+      "collocations": [
+        "on its merits",
+        "merit attention",
+        "academic merit"
+      ],
+      "trivia": "「メリットシステム（merit system）」は能力主義採用制度のこと。コネや血縁ではなく実力で評価する仕組みを指し、日本の公務員試験もこの考え方がベース！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1044,
+    "word": "sympathy",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "同情、共感",
+        "pos": "noun"
+      },
+      {
+        "meaning": "賛同、支持",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪmpəθi/",
+    "syllables": "sym-pa-thy",
+    "audioHint": "スィンパシー",
+    "examples": [
+      {
+        "en": "She expressed her sympathy for the victims.",
+        "ja": "彼女は被害者への同情を表明した。",
+        "blank": "She expressed her ___ for the victims.",
+        "blankAnswer": "sympathy"
+      }
+    ],
+    "distractors": [
+      "怒り",
+      "無関心",
+      "誇り"
+    ],
+    "confusableSpellings": [
+      "simpathy",
+      "sympathie",
+      "symapthy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'sympatheia' から。'sym-'（共に）＋ 'pathos'（感情・苦しみ）→「共に感じること」。",
+      "tips": "'sympathy'（同情・相手の気持ちを理解する）と 'empathy'（共感・相手の気持ちになりきる）の違いは重要。sympathy は距離を保ちながら気にかけること、empathy はより深く感情を共有すること。",
+      "confusables": "'empathy' と最も混同されやすい。'I feel sympathy for you.'（あなたをかわいそうに思う）vs 'I feel empathy for you.'（あなたの気持ちが分かる）のニュアンスの差を押さえよう。",
+      "collocations": [
+        "express sympathy",
+        "have sympathy for",
+        "sympathy card"
+      ],
+      "trivia": "お悔やみカードを英語で 'sympathy card' と呼ぶ。アメリカでは大切な文化で、Hallmarkなどのカード会社の売り上げの大きな部分を占めている。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1045,
+    "word": "compliment",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "褒め言葉、称賛",
+        "pos": "noun"
+      },
+      {
+        "meaning": "称賛する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒmplɪmənt/",
+    "syllables": "com-pli-ment",
+    "audioHint": "コンプリメント",
+    "examples": [
+      {
+        "en": "She paid him a compliment on his speech.",
+        "ja": "彼女は彼のスピーチを褒めた。",
+        "blank": "She paid him a ___ on his speech.",
+        "blankAnswer": "compliment"
+      }
+    ],
+    "distractors": [
+      "批判",
+      "謝罪",
+      "依頼"
+    ],
+    "confusableSpellings": [
+      "complement",
+      "complimant",
+      "complimente"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'complimentum'（礼儀として果たすこと）から。'com-'（完全に）＋ 'plere'（満たす）が語根。",
+      "tips": "最大の罠は 'complement'（補完する・補足物）との混同。'compliment'（褒める）は 'i' が入る。覚え方：「I（アイ）がある方が『あいさつ・褒め言葉』」と覚えると◎。",
+      "confusables": "'complement'（補完する）と発音が全く同じ（ホモフォン）。'This wine complements the dish.'（このワインは料理と合う）vs 'She complimented the chef.'（彼女はシェフを褒めた）で区別。",
+      "collocations": [
+        "pay a compliment",
+        "return the compliment",
+        "sincere compliment"
+      ],
+      "trivia": "英語圏では見知らぬ人に気軽に compliment を言う文化がある。「その服いいね！」と街で声をかけるのが普通。日本人には少し恥ずかしいかもしれないけど、ネイティブ感アップに効果的！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1046,
+    "word": "infrastructure",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "インフラ、社会基盤",
+        "pos": "noun"
+      },
+      {
+        "meaning": "基盤構造",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnfrəstrʌktʃər/",
+    "syllables": "in-fra-struc-ture",
+    "audioHint": "インフラストラクチャー",
+    "examples": [
+      {
+        "en": "The government invested heavily in digital infrastructure.",
+        "ja": "政府はデジタルインフラに多額の投資をした。",
+        "blank": "The government invested heavily in digital ___.",
+        "blankAnswer": "infrastructure"
+      }
+    ],
+    "distractors": [
+      "アルゴリズム",
+      "データベース",
+      "プログラム"
+    ],
+    "confusableSpellings": [
+      "infastructure",
+      "infrastracture",
+      "infrestructure"
+    ],
+    "passive": {
+      "etymology": "'infra-'（下に・基礎として）＋ 'structure'（構造）→「下支えする構造」。ラテン語 'infra'（下に）と 'struere'（積み上げる）から。",
+      "tips": "発音が長くて難しいが、日本語でも「インフラ」と言うので意味は分かりやすい。英語では省略せずに 'infrastructure' と言うのが基本。ビジネス・政治ニュースでは必須語。",
+      "confusables": "'structure'（構造）の方が広い概念。infrastructure は特に社会・経済活動を支える道路・電力・通信などの「基盤」に限定して使われることが多い。",
+      "collocations": [
+        "critical infrastructure",
+        "infrastructure investment",
+        "digital infrastructure"
+      ],
+      "trivia": "2021年にアメリカで成立した 'Infrastructure Investment and Jobs Act'（インフラ投資・雇用法）は通称 'Bipartisan Infrastructure Law' とも呼ばれ、総額1兆ドル超の大型法案。infrastructure は政治の超重要キーワード！"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1047,
+    "word": "ray",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "光線、放射線",
+        "pos": "noun"
+      },
+      {
+        "meaning": "わずかな希望・光",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/reɪ/",
+    "syllables": "ray",
+    "audioHint": "レイ",
+    "examples": [
+      {
+        "en": "A ray of sunlight came through the window.",
+        "ja": "一筋の日光が窓から差し込んだ。",
+        "blank": "A ___ of sunlight came through the window.",
+        "blankAnswer": "ray"
+      }
+    ],
+    "distractors": [
+      "細胞",
+      "元素",
+      "組織"
+    ],
+    "confusableSpellings": [
+      "rai",
+      "raye",
+      "rey"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'rai'（光線）から。ラテン語 'radius'（棒・光線・半径）に由来。",
+      "tips": "'ray' は物理的な光線（X線 = X-ray）にも比喩的な意味（a ray of hope = 一縷の望み）にも使える。特に 'a ray of hope/light' という表現は英作文で使えると表現力がアップする。",
+      "confusables": "'beam'（ビーム・太い光の束）と似ているが、ray はより細く直線的な光線を指す。レーザーポインターの光は ray に近いイメージ。",
+      "collocations": [
+        "ray of light",
+        "X-ray",
+        "ray of hope"
+      ],
+      "trivia": "スターウォーズのキャラクター「レイ（Rey）」の名前は綴りが違うが、英語圏では光のイメージと結びつけて解釈されることも。X-ray の発見者レントゲンは1895年にノーベル賞第1号を受賞！"
+    },
+    "frequency": 2800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1048,
+    "word": "distress",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "苦悩、苦痛",
+        "pos": "noun"
+      },
+      {
+        "meaning": "苦しめる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstrɛs/",
+    "syllables": "dis-tress",
+    "audioHint": "ディストレス",
+    "examples": [
+      {
+        "en": "The news caused great distress to the family.",
+        "ja": "そのニュースは家族に大きな苦悩をもたらした。",
+        "blank": "The news caused great ___ to the family.",
+        "blankAnswer": "distress"
+      }
+    ],
+    "distractors": [
+      "喜び",
+      "好奇心",
+      "安心"
+    ],
+    "confusableSpellings": [
+      "destress",
+      "distres",
+      "disstress"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'destresse' から。ラテン語 'distringere'（引き離す・拘束する）が語源。'dis-'（分離）＋ 'stringere'（締める）。",
+      "tips": "'distress' は精神的・身体的な強い苦しみを指す。'stress'（ストレス）より深刻なニュアンス。'in distress'（遭難している・危機状態の）という表現は緊急事態を示す定型句なので覚えておこう。",
+      "confusables": "'stress'（ストレス）と語源的につながるが、distress はより強い苦痛・危機状態を指す。また 'de-stress'（ストレスを解消する）とは全く別の単語なので混同しないよう注意。",
+      "collocations": [
+        "in distress",
+        "cause distress",
+        "emotional distress"
+      ],
+      "trivia": "船や航空機が遭難信号を出すことを 'send a distress signal' と言い、その代表が「SOS」。実は SOS に特定の意味の略語はなく、モールス信号で打ちやすい符号として選ばれたという雑学！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1049,
+    "word": "joint",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "関節、継ぎ目",
+        "pos": "noun"
+      },
+      {
+        "meaning": "共同の、合同の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dʒɔɪnt/",
+    "syllables": "joint",
+    "audioHint": "ジョイント",
+    "examples": [
+      {
+        "en": "She felt pain in her knee joint after running.",
+        "ja": "走った後、彼女は膝の関節に痛みを感じた。",
+        "blank": "She felt pain in her knee ___ after running.",
+        "blankAnswer": "joint"
+      }
+    ],
+    "distractors": [
+      "神経",
+      "骨髄",
+      "血管"
+    ],
+    "confusableSpellings": [
+      "jint",
+      "joiint",
+      "joit"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'joint'（つながれた）から。ラテン語 'jungere'（結ぶ・つなぐ）が語根。'junction'（接続点）や 'join'（合流する）と同じ語根。",
+      "tips": "名詞（関節・継ぎ目）と形容詞（共同の）の両方で使う。形容詞としては 'joint venture'（合弁事業）、'joint statement'（共同声明）がビジネス・ニュース頻出表現。",
+      "confusables": "'junction'（接続点・交差点）と語源は同じだが用法が異なる。junction は道路や配線の「接続箇所」、joint は体の「関節」や物理的な「継ぎ目」に使うことが多い。",
+      "collocations": [
+        "joint venture",
+        "knee joint",
+        "joint statement"
+      ],
+      "trivia": "英語のスラングで 'joint' はマリファナたばこを指すことがある（映画やドラマで耳にするかも）。また、安食堂・バーを 'a joint' と呼ぶ俗語用法もある。同じ単語でこんなに意味が変わるのが英語の面白さ！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1050,
+    "word": "expedition",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "遠征、探検",
+        "pos": "noun"
+      },
+      {
+        "meaning": "遠征隊",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɛkspɪˈdɪʃən/",
+    "syllables": "ex-pe-di-tion",
+    "audioHint": "エクスペディション",
+    "examples": [
+      {
+        "en": "The team prepared for an expedition to the South Pole.",
+        "ja": "チームは南極への遠征に備えた。",
+        "blank": "The team prepared for an ___ to the South Pole.",
+        "blankAnswer": "expedition"
+      }
+    ],
+    "distractors": [
+      "侵食",
+      "生態系",
+      "標高"
+    ],
+    "confusableSpellings": [
+      "expidition",
+      "expedision",
+      "expidision"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'expeditio' から。'ex-'（外へ）＋ 'pes/pedis'（足）→「足を（縛るものから）解き放ち外へ向かうこと」。'expedite'（迅速に進める）と同語根。",
+      "tips": "アクセントは第3音節 'di' にある（エクスペ'ディ'ション）。'trip' や 'journey' より目的が明確で規模が大きい旅・活動に使う。ショッピング遠征を冗談で 'a shopping expedition' と言うこともある。",
+      "confusables": "'exploration'（探索・探求）と似ているが、expedition は具体的な目的地への旅・チームでの行動を指す。exploration はより抽象的・知的な「探求」にも使える。",
+      "collocations": [
+        "go on an expedition",
+        "expedition team",
+        "polar expedition"
+      ],
+      "trivia": "エベレスト初登頂（1953年）は英国の 'British Mount Everest Expedition' と呼ばれた公式プロジェクト。現在は観光登山も増えたが、expedition という言葉には今でも「壮大な挑戦」のロマンが宿っている！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1051,
+    "word": "adolescent",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "青少年、思春期の若者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "思春期の、青春期の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌædəˈlesənt/",
+    "syllables": "ad-o-les-cent",
+    "audioHint": "アドレセント",
+    "examples": [
+      {
+        "en": "Many adolescents struggle with identity during their teenage years.",
+        "ja": "多くの青少年は十代の頃にアイデンティティに悩む。",
+        "blank": "Many ___ struggle with identity during their teenage years.",
+        "blankAnswer": "adolescents"
+      }
+    ],
+    "distractors": [
+      "病原体",
+      "免疫反応",
+      "慢性的な症状"
+    ],
+    "confusableSpellings": [
+      "adolecent",
+      "adolsecent",
+      "addolescent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'adolescere'（成長する）から。'ad-'（～へ）＋'alescere'（育つ）の組み合わせ。'adolescence'（思春期）の形容詞・名詞形。",
+      "tips": "名詞と形容詞の両方で使えることを覚えておこう。'teenager' との違いは、'adolescent' はより医学・心理学的なニュアンスがあり、13〜19歳に限定されない（10代前半から20代前半まで含む場合も）。",
+      "confusables": "'teenager' は13〜19歳を指す日常語。'adolescent' はより学術的・医療的文脈で使われる。'juvenile' は法律的文脈（少年犯罪など）でよく使われる。",
+      "collocations": [
+        "adolescent behavior（思春期の行動）",
+        "adolescent development（青年期の発達）",
+        "adolescent health（青少年の健康）"
+      ],
+      "trivia": "語源の 'adolescere' はラテン語で「燃え上がる」ニュアンスも持つ。思春期の「燃えるような感情」を語源が体現しているとも言える！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1052,
+    "word": "shade",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "影、日陰",
+        "pos": "noun"
+      },
+      {
+        "meaning": "色合い、濃淡",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ʃeɪd/",
+    "syllables": "shade",
+    "audioHint": "シェイド",
+    "examples": [
+      {
+        "en": "The artist chose a darker shade of blue for the background.",
+        "ja": "その芸術家は背景に濃い青の色合いを選んだ。",
+        "blank": "The artist chose a darker ___ of blue for the background.",
+        "blankAnswer": "shade"
+      }
+    ],
+    "distractors": [
+      "彫刻の技法",
+      "楽器の音色",
+      "詩の韻律"
+    ],
+    "confusableSpellings": [
+      "shaid",
+      "shaed",
+      "shde"
+    ],
+    "passive": {
+      "etymology": "古英語 'scead'（影、暗がり）から。ゲルマン語系の語根で、光が遮られた状態を表す。",
+      "tips": "'shadow' との違いに注意。'shade' は日陰・色の濃淡など面的な暗さ、'shadow' は特定の物体が作る輪郭のある影のこと。絵画や色の文脈では 'shade' を使うのが自然。",
+      "confusables": "'shadow' は物体の輪郭がはっきりした影（自分の影など）。'shade' は木陰や色合いなど広がりのある暗さ。'tint' は色に白を加えた明るい色合い、'shade' は黒を加えた暗い色合いを指す美術用語。",
+      "collocations": [
+        "a shade of green（緑の色合い）",
+        "sit in the shade（日陰に座る）",
+        "shade of meaning（意味のニュアンス）"
+      ],
+      "trivia": "スラングで 'throw shade' という表現があり、「陰口を言う・嫌みを言う」という意味！SNSやポップカルチャーで大人気の表現で、もとは黒人コミュニティのスラングから広まった。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1053,
+    "word": "jury",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "陪審員団",
+        "pos": "noun"
+      },
+      {
+        "meaning": "審査員団",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdʒʊəri/",
+    "syllables": "ju-ry",
+    "audioHint": "ジュアリ",
+    "examples": [
+      {
+        "en": "The jury reached a unanimous verdict after two days.",
+        "ja": "陪審員団は2日後に全員一致の評決に達した。",
+        "blank": "The ___ reached a unanimous verdict after two days.",
+        "blankAnswer": "jury"
+      }
+    ],
+    "distractors": [
+      "国会議員",
+      "行政機関",
+      "外交使節"
+    ],
+    "confusableSpellings": [
+      "jurry",
+      "jurey",
+      "jery"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'juree'（宣誓）から。ラテン語 'jurare'（誓う）が語根。'justice'（正義）や 'judge'（裁判官）と同じ語族。",
+      "tips": "英米では集合名詞として扱われ、アメリカ英語では 'The jury is...'（単数扱い）、イギリス英語では 'The jury are...'（複数扱い）も使われる。この違いに注意。",
+      "confusables": "'jury' は評決を下す一般市民の集まり。'judge' は法律の専門家である裁判官。'panel' は審査員・専門家集団（必ずしも法廷でなくてもよい）。",
+      "collocations": [
+        "serve on a jury（陪審員を務める）",
+        "jury duty（陪審員義務）",
+        "jury verdict（陪審評決）"
+      ],
+      "trivia": "アメリカでは市民が陪審員として召喚される 'jury duty' が義務で、拒否すると罰せられることも。日本の裁判員制度（2009年〜）はこの制度を参考に作られた！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1054,
+    "word": "ethic",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "倫理、道徳原則",
+        "pos": "noun"
+      },
+      {
+        "meaning": "行動規範",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈeθɪk/",
+    "syllables": "eth-ic",
+    "audioHint": "エシック",
+    "examples": [
+      {
+        "en": "A strong work ethic is valued in most professional environments.",
+        "ja": "強い勤労倫理はほとんどの職場環境で評価される。",
+        "blank": "A strong work ___ is valued in most professional environments.",
+        "blankAnswer": "ethic"
+      }
+    ],
+    "distractors": [
+      "抽象的な感情",
+      "精神的な幻想",
+      "哲学的なパラドックス"
+    ],
+    "confusableSpellings": [
+      "ethick",
+      "etic",
+      "etnic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'ethos'（性格、慣習）から。ラテン語 'ethica' を経て英語へ。'ethos' は現代英語でもそのまま使われる。",
+      "tips": "'ethics'（複数形）は「倫理学」という学問分野全体、'ethic'（単数）は「特定の倫理観・規範」を指すことが多い。'work ethic（勤労精神）' のような複合語でよく使う。",
+      "confusables": "'ethics' は倫理学・倫理体系全般、'moral' は個人の善悪判断、'value' はより広い価値観を指す。'ethical'（形容詞）と 'moral'（形容詞）はほぼ同義だが、'ethical' は職業・専門的文脈で使われやすい。",
+      "collocations": [
+        "work ethic（勤労精神）",
+        "code of ethics（倫理規定）",
+        "professional ethics（職業倫理）"
+      ],
+      "trivia": "ギリシャ語の 'ethos' はアリストテレスが弁論術で使った概念で、「話者の信頼性・人柄」を意味した。現代マーケティングでもブランドの「エトス（らしさ）」として使われている！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1055,
+    "word": "penalty",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "罰則、刑罰",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ペナルティ（スポーツ）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpenəlti/",
+    "syllables": "pen-al-ty",
+    "audioHint": "ペナルティ",
+    "examples": [
+      {
+        "en": "There is a heavy penalty for tax evasion in this country.",
+        "ja": "この国では脱税に対して重い罰則がある。",
+        "blank": "There is a heavy ___ for tax evasion in this country.",
+        "blankAnswer": "penalty"
+      }
+    ],
+    "distractors": [
+      "議会の決議",
+      "外交的な特権",
+      "市民の権利"
+    ],
+    "confusableSpellings": [
+      "penality",
+      "penalthy",
+      "pennalty"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'poenalitas' から。'poena'（罰）が語根で、'pain'（痛み）と同語源。法的・道徳的な「痛み」を与えることが原義。",
+      "tips": "日本語の「ペナルティ」はスポーツ文脈で定着しているが、英語では法律・税務・契約違反など幅広い場面で使われる。'fine'（罰金）は金銭的な罰、'penalty' はより広い概念。",
+      "confusables": "'penalty' は罰則全般。'fine' は金銭的罰金のみ。'punishment' はより一般的な「罰」で刑事・教育場面両方に使う。'sentence' は裁判で言い渡される刑期・判決。",
+      "collocations": [
+        "death penalty（死刑）",
+        "penalty kick（ペナルティキック）",
+        "pay a penalty（罰金を払う）"
+      ],
+      "trivia": "サッカーの 'penalty kick' は1891年にアイルランドの審判が考案したルール。当初はGKが前に出て防ぐことも禁止されており、今より厳しいルールだったとか！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1056,
+    "word": "faculty",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "能力、機能",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（大学の）学部、教授団",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfækəlti/",
+    "syllables": "fac-ul-ty",
+    "audioHint": "ファカルティ",
+    "examples": [
+      {
+        "en": "She joined the faculty of medicine at a leading university.",
+        "ja": "彼女は一流大学の医学部の教員陣に加わった。",
+        "blank": "She joined the ___ of medicine at a leading university.",
+        "blankAnswer": "faculty"
+      }
+    ],
+    "distractors": [
+      "試験の合格基準",
+      "研究の仮説",
+      "学習カリキュラム"
+    ],
+    "confusableSpellings": [
+      "facultey",
+      "facluty",
+      "facutly"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'facultas'（能力、容易さ）から。'facere'（する、作る）が語根で、'fact' や 'factory' と同語族。",
+      "tips": "「能力」の意味では通常複数形 'faculties' を使い（例：mental faculties＝精神的能力）、「学部・教員団」の意味では単数でも複数でも使う。日本語の「ファカルティ」は教員集団の意味で使われることが多い。",
+      "confusables": "'faculty' の「学部」は建物ではなく人・組織を指す。'department' は学科・部門（より細分化された単位）。'school' は大学内の学部（例：School of Law）として使われることも多い。",
+      "collocations": [
+        "faculty member（教員）",
+        "mental faculties（精神的能力）",
+        "faculty meeting（教員会議）"
+      ],
+      "trivia": "中世ヨーロッパの大学では学部が4つしかなかった：神学・法学・医学・哲学。今の大学の多様な学部は近代以降に爆発的に増えたもの！"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1057,
+    "word": "scheme",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "計画、案",
+        "pos": "noun"
+      },
+      {
+        "meaning": "陰謀、策略",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/skiːm/",
+    "syllables": "scheme",
+    "audioHint": "スキーム",
+    "examples": [
+      {
+        "en": "The government launched a new scheme to support small businesses.",
+        "ja": "政府は中小企業を支援する新しい計画を打ち出した。",
+        "blank": "The government launched a new ___ to support small businesses.",
+        "blankAnswer": "scheme"
+      }
+    ],
+    "distractors": [
+      "哲学的な信念",
+      "精神的な平和",
+      "道徳的な義務"
+    ],
+    "confusableSpellings": [
+      "sheme",
+      "scehem",
+      "skeme"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'skhema'（形、姿）から。ラテン語 'schema' を経由。元は「図式・形態」を意味し、転じて「計画・構想」となった。",
+      "tips": "イギリス英語では中立的な「計画・制度」（例：pension scheme＝年金制度）として使われるが、アメリカ英語では「陰謀・悪巧み」のネガティブなニュアンスが強い。文脈と地域に注意！",
+      "confusables": "'plan' は最も一般的な計画。'scheme' はより複雑・組織的な計画か陰謀。'plot' は特に悪意ある陰謀（小説の「プロット」にも使う）。'strategy' は長期的な戦略。",
+      "collocations": [
+        "color scheme（配色）",
+        "pension scheme（年金制度）",
+        "hatch a scheme（陰謀を企てる）"
+      ],
+      "trivia": "「スキーム」は日本のビジネス用語として定着しているが、英語ネイティブのアメリカ人に言うと「何か悪巧みしてるの？」と思われることがある。英米でこんなに印象が違う単語は珍しい！"
+    },
+    "frequency": 2300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1058,
+    "word": "nutrition",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "栄養（学）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "栄養摂取",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/njuːˈtrɪʃən/",
+    "syllables": "nu-tri-tion",
+    "audioHint": "ニュートリション",
+    "examples": [
+      {
+        "en": "Good nutrition is essential for maintaining a healthy body.",
+        "ja": "良い栄養摂取は健康な体を維持するのに不可欠だ。",
+        "blank": "Good ___ is essential for maintaining a healthy body.",
+        "blankAnswer": "nutrition"
+      }
+    ],
+    "distractors": [
+      "遺伝子の変異",
+      "免疫系の反応",
+      "神経系の障害"
+    ],
+    "confusableSpellings": [
+      "nutrision",
+      "nutricion",
+      "nutrtion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'nutritio'（養育）から。'nutrire'（養う、育てる）が語根。'nurse'（看護師）や 'nurture'（育てる）と同語族。",
+      "tips": "'nutrition' は学問・概念としての「栄養（学）」、'nutrient' は「栄養素」（具体的な物質）。'nutritious' は「栄養価が高い」という形容詞。この三つをセットで覚えると便利。",
+      "confusables": "'nutrition' は栄養全般・栄養学。'diet' は食事内容・ダイエット（必ずしも痩せることだけでない）。'nutrient' はビタミンやミネラルなど具体的な栄養素を指す可算名詞。",
+      "collocations": [
+        "nutrition label（栄養成分表示）",
+        "proper nutrition（適切な栄養）",
+        "nutrition science（栄養科学）"
+      ],
+      "trivia": "食品パッケージの「Nutrition Facts（栄養成分表）」はアメリカで1990年代に義務化されたもの。それ以前は何が入っているか、メーカーが積極的に公開しない場合も多かった！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1059,
+    "word": "particle",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "粒子、微粒子",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（文法）助詞・小辞",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɑːrtɪkəl/",
+    "syllables": "par-ti-cle",
+    "audioHint": "パーティクル",
+    "examples": [
+      {
+        "en": "Scientists detected a new particle in the high-energy experiment.",
+        "ja": "科学者たちは高エネルギー実験で新しい粒子を検出した。",
+        "blank": "Scientists detected a new ___ in the high-energy experiment.",
+        "blankAnswer": "particle"
+      }
+    ],
+    "distractors": [
+      "細胞の分裂過程",
+      "化学反応の触媒",
+      "染色体の構造"
+    ],
+    "confusableSpellings": [
+      "partical",
+      "particel",
+      "partikle"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'particula'（小さな部分）から。'pars'（部分）＋縮小辞 '-icula' の組み合わせ。'part'（部分）や 'partial'（部分的な）と同語族。",
+      "tips": "物理学の「素粒子」は 'elementary particle' または 'subatomic particle'。日常では「塵の粒子」なども 'particle' と言う。文法用語としては 'not' や 'up' など機能語を指す場合もある。",
+      "confusables": "'particle' は非常に小さな物質の断片。'molecule' は原子が結合した分子（次の単語！）。'atom' はさらに小さな原子。'element' は元素（水素、酸素など）。",
+      "collocations": [
+        "dust particle（塵の粒子）",
+        "particle physics（素粒子物理学）",
+        "subatomic particle（素粒子）"
+      ],
+      "trivia": "CERNの大型ハドロン衝突型加速器（LHC）は 'particle accelerator'（粒子加速器）で、2012年にヒッグス粒子を発見！この実験のために地下27kmのトンネルを掘ったというのが規模のロマン。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1060,
+    "word": "molecule",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "分子",
+        "pos": "noun"
+      },
+      {
+        "meaning": "極微量の物質",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɒlɪkjuːl/",
+    "syllables": "mol-e-cule",
+    "audioHint": "モレキュール",
+    "examples": [
+      {
+        "en": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+        "ja": "水分子は2つの水素原子と1つの酸素原子から成る。",
+        "blank": "A water ___ consists of two hydrogen atoms and one oxygen atom.",
+        "blankAnswer": "molecule"
+      }
+    ],
+    "distractors": [
+      "生物の細胞核",
+      "放射性同位体",
+      "電磁波のスペクトル"
+    ],
+    "confusableSpellings": [
+      "mollecule",
+      "molecuel",
+      "molecyle"
+    ],
+    "passive": {
+      "etymology": "フランス語 'molécule' から。ラテン語 'moles'（塊、質量）＋縮小辞 '-cule' の組み合わせ。「小さな塊」が原義。",
+      "tips": "'molecule'（分子）と 'atom'（原子）の違いを正確に使い分けよう。原子が結合して分子になる（H₂Oは分子、Hは原子）。形容詞は 'molecular'（分子の）で、'molecular biology'（分子生物学）のように使う。",
+      "confusables": "'molecule' は原子が結合したもの。'atom' は元素の最小単位。'compound' は異なる元素が結合した化合物（H₂Oなど）。'element' は一種類の原子のみからなる物質（純粋な酸素、純粋な金など）。",
+      "collocations": [
+        "water molecule（水分子）",
+        "DNA molecule（DNA分子）",
+        "molecular structure（分子構造）"
+      ],
+      "trivia": "ひとしずくの水（約0.05mL）の中に約1.67×10²¹個もの水分子が入っている。数字で書くと 1,670,000,000,000,000,000,000個！宇宙の星の数より多いと言われるほど小さな存在。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  }
+]

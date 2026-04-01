@@ -1,0 +1,990 @@
+[
+  {
+    "id": 1081,
+    "word": "elaborate",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "精巧な、手の込んだ",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "詳しく説明する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈlæbərɪt/",
+    "syllables": "e-lab-o-rate",
+    "audioHint": "イラボレット",
+    "examples": [
+      {
+        "en": "She wore an elaborate dress to the ceremony.",
+        "ja": "彼女は式典に手の込んだドレスを着ていった。",
+        "blank": "She wore an ___ dress to the ceremony.",
+        "blankAnswer": "elaborate"
+      }
+    ],
+    "distractors": [
+      "適度な",
+      "輝かしい",
+      "並外れた"
+    ],
+    "confusableSpellings": [
+      "ellaborate",
+      "elaborite",
+      "elaborat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 elaborare（努力して作り上げる）から。e-（外へ）＋ labor（労働）＋ -ate（動詞・形容詞語尾）。「労力を外に出す＝手をかける」イメージ。",
+      "tips": "形容詞と動詞で発音が変わる点に注意！形容詞は /ɪˈlæbərɪt/（イラボレット）、動詞は /ɪˈlæbəreɪt/（イラボレイト）。elaborate on ～「～について詳しく説明する」という動詞用法も頻出。",
+      "confusables": "elaborate（精巧な・手の込んだ）vs. intricate（複雑に絡み合った）：elaborateは「多くの努力や手間がかかった」ニュアンス、intricateは「細部が複雑に入り組んだ」ニュアンスが強い。",
+      "collocations": [
+        "elaborate plan（綿密な計画）",
+        "elaborate design（精巧なデザイン）",
+        "elaborate on a point（ある点を詳しく説明する）"
+      ],
+      "trivia": "「elaborate」は形容詞と動詞で発音が変わる数少ない単語の一つ。同じスペルなのに読み方が違うなんて、英語ってやっぱり手が込んでるよね！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1082,
+    "word": "moderate",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "適度な、穏やかな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "節度を保つ、司会をする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈmɒdərɪt/",
+    "syllables": "mod-er-ate",
+    "audioHint": "モデレット",
+    "examples": [
+      {
+        "en": "Exercise at a moderate pace to stay healthy.",
+        "ja": "健康を保つために適度なペースで運動しなさい。",
+        "blank": "Exercise at a ___ pace to stay healthy.",
+        "blankAnswer": "moderate"
+      }
+    ],
+    "distractors": [
+      "精巧な",
+      "輝かしい",
+      "勇敢な"
+    ],
+    "confusableSpellings": [
+      "modrate",
+      "moderat",
+      "modorete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 moderatus（制御された）から。modus（基準・尺度）＋ -ate。「尺度の範囲内に収める」が原義。",
+      "tips": "elaborateと同様に形容詞と動詞で発音が異なる。形容詞・名詞は /ˈmɒdərɪt/（モデレット）、動詞は /ˈmɒdəreɪt/（モデレイト）。SNSの「モデレーター（moderator）」はこの動詞形から来ている。",
+      "confusables": "moderate（適度な）vs. modest（控えめな）：moderateは量・程度が「中程度」であること、modestは態度や要求が「謙虚・控えめ」であることを指す。",
+      "collocations": [
+        "moderate exercise（適度な運動）",
+        "moderate temperature（温暖な気温）",
+        "moderate a debate（討論の司会をする）"
+      ],
+      "trivia": "「モデレーター」として知られる役割、実は「程よい状態を保つ人」という意味。ネットのコメント欄を荒れないよう管理する人も、まさに「適度」を守る役割なんだね。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1083,
+    "word": "dynamic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "活力のある、ダイナミックな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "力学的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/daɪˈnæmɪk/",
+    "syllables": "dy-nam-ic",
+    "audioHint": "ダイナミック",
+    "examples": [
+      {
+        "en": "She is a dynamic leader who inspires her team.",
+        "ja": "彼女はチームを鼓舞する活力ある指導者だ。",
+        "blank": "She is a ___ leader who inspires her team.",
+        "blankAnswer": "dynamic"
+      }
+    ],
+    "distractors": [
+      "口頭の",
+      "その後の",
+      "無罪の"
+    ],
+    "confusableSpellings": [
+      "dinamic",
+      "dynamik",
+      "dynaimc"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 dynamikos（力強い）から。dynamis（力）が語根で、dynamo（発電機）やdynamite（ダイナマイト）と同じファミリー。",
+      "tips": "日本語でも「ダイナミック」と使うが、英語では「活力がある人・組織・変化」に使うことが多い。static（静的な）の対義語として物理・コンピュータ用語でも頻出。",
+      "confusables": "dynamic（活力のある・変化する）vs. energetic（エネルギッシュな）：dynamicは「変化や相互作用」のニュアンスが強く、energeticは単純に「元気・活発」を指すことが多い。",
+      "collocations": [
+        "dynamic personality（活発な個性）",
+        "dynamic market（変動する市場）",
+        "dynamic range（ダイナミックレンジ）"
+      ],
+      "trivia": "「ダイナマイト」を発明したノーベルも、この「dynamis（力）」と語源が同じ。BTSの曲「Dynamite」にもこのパワフルな意味が込められているかも！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1084,
+    "word": "brave",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "勇敢な、勇気のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "勇敢に立ち向かう",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/breɪv/",
+    "syllables": "brave",
+    "audioHint": "ブレイヴ",
+    "examples": [
+      {
+        "en": "The brave firefighter saved the child from the fire.",
+        "ja": "その勇敢な消防士は火事から子供を救った。",
+        "blank": "The ___ firefighter saved the child from the fire.",
+        "blankAnswer": "brave"
+      }
+    ],
+    "distractors": [
+      "無罪の",
+      "精巧な",
+      "活力のある"
+    ],
+    "confusableSpellings": [
+      "braive",
+      "brav",
+      "breave"
+    ],
+    "passive": {
+      "etymology": "古フランス語 brave（勇敢な）から。語源はラテン語 barbarus（野蛮な）に遡るという説もあり、「荒々しい→勇敢な」へと意味が変化した。",
+      "tips": "courageous（勇気ある）との違いに注意。braveは「恐怖を感じながらも行動する」という日常的な勇敢さ、courageousはより格式張った・深い勇気のニュアンスがある。",
+      "confusables": "brave（勇敢な）vs. bold（大胆な）：braveは「危険や困難に立ち向かう」勇敢さ、boldは「遠慮なく積極的に行動する」大胆さを指す。",
+      "collocations": [
+        "brave soldier（勇敢な兵士）",
+        "brave the storm（嵐に立ち向かう）",
+        "brave decision（勇気ある決断）"
+      ],
+      "trivia": "ピクサー映画「Brave（メリダとおそろしの森）」のタイトルもこの単語。ヒロインのメリダが体現する「勇敢さ」がそのままタイトルになってるんだね。"
+    },
+    "frequency": 3500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1085,
+    "word": "brilliant",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "輝かしい、素晴らしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "才能ある、非常に賢い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈbrɪliənt/",
+    "syllables": "bril-liant",
+    "audioHint": "ブリリアント",
+    "examples": [
+      {
+        "en": "She had a brilliant idea that solved the problem.",
+        "ja": "彼女は問題を解決する素晴らしいアイデアを持っていた。",
+        "blank": "She had a ___ idea that solved the problem.",
+        "blankAnswer": "brilliant"
+      }
+    ],
+    "distractors": [
+      "適度な",
+      "手の込んだ",
+      "並外れて大きい"
+    ],
+    "confusableSpellings": [
+      "briliant",
+      "brillient",
+      "brillant"
+    ],
+    "passive": {
+      "etymology": "フランス語 brillant（輝く）から。イタリア語 brillare（輝く）が元で、「光り輝く→才能が際立つ」へと意味が拡張した。",
+      "tips": "イギリス英語では「素晴らしい！」という感嘆詞的な使い方が非常に一般的（'That's brilliant!'）。アメリカ英語では「知的に優れた」意味で使うことが多い。",
+      "confusables": "brilliant（輝かしい・天才的な）vs. excellent（優秀な）：brilliantは「群を抜いて光り輝く」感じ、excellentは「基準を大きく上回る」という意味で少し客観的。",
+      "collocations": [
+        "brilliant student（優秀な学生）",
+        "brilliant performance（輝かしい演技）",
+        "brilliant idea（素晴らしいアイデア）"
+      ],
+      "trivia": "ダイヤモンドのカット「ブリリアントカット」はまさにこの単語から。最も輝くカット方法だから「brilliant」という名前がついた。宝石と英語が繋がるって面白くない？"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1086,
+    "word": "tremendous",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "並外れて大きい、莫大な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "素晴らしい、すごい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/trɪˈmendəs/",
+    "syllables": "tre-men-dous",
+    "audioHint": "トゥリメンダス",
+    "examples": [
+      {
+        "en": "The new policy had a tremendous impact on the economy.",
+        "ja": "新政策は経済に並外れた影響を与えた。",
+        "blank": "The new policy had a ___ impact on the economy.",
+        "blankAnswer": "tremendous"
+      }
+    ],
+    "distractors": [
+      "精巧な",
+      "適度な",
+      "輝かしい"
+    ],
+    "confusableSpellings": [
+      "tremondous",
+      "tremendus",
+      "tremedous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 tremendus（震えさせるほどの）から。tremere（震える）が語根で、「恐怖で震えるほど大きい」が原義。trembleと同じ語根ファミリー。",
+      "tips": "a tremendous amount of ～（莫大な量の～）というコロケーションが特に頻出。プレゼンや報告書でも使いやすい強調表現。tremendouslyという副詞形も覚えておくと便利。",
+      "confusables": "tremendous（並外れた大きさ・すごさ）vs. enormous（巨大な）：tremendousは「感情的な驚き・感銘」のニュアンスを含み、enormousはより客観的に「非常に大きい」ことを示す。",
+      "collocations": [
+        "tremendous effort（多大な努力）",
+        "tremendous success（大成功）",
+        "tremendous pressure（莫大なプレッシャー）"
+      ],
+      "trivia": "もともとは「恐怖で体が震える（tremble）ほどの」という意味だった単語。今では「すごい！」という褒め言葉に使われるのだから、言葉って面白い進化をするよね。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1087,
+    "word": "oral",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "口頭の、口述の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "口の、口腔の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɔːrəl/",
+    "syllables": "o-ral",
+    "audioHint": "オーラル",
+    "examples": [
+      {
+        "en": "Students must pass an oral exam at the end of the course.",
+        "ja": "学生はコース終了時に口頭試問に合格しなければならない。",
+        "blank": "Students must pass an ___ exam at the end of the course.",
+        "blankAnswer": "oral"
+      }
+    ],
+    "distractors": [
+      "活力のある",
+      "その後の",
+      "力学的な"
+    ],
+    "confusableSpellings": [
+      "orel",
+      "orall",
+      "orral"
+    ],
+    "passive": {
+      "etymology": "ラテン語 os / oris（口）から。oral、オーラルケアのoral、さらにはoratory（雄弁術）もすべて同じ語根。",
+      "tips": "「オーラル」はカタカナ語でも馴染みがあるが、aural（聴覚の）と発音が非常に似ているため混同しやすい。oral（口頭の）vs. aural（耳の・聴覚の）は文脈で判断しよう。",
+      "confusables": "oral（口頭の）vs. verbal（言語の・言葉の）：oralは「音声で話す」ことに限定され、verbalは「書き言葉に対して言葉による」という広い意味を持つ。",
+      "collocations": [
+        "oral presentation（口頭発表）",
+        "oral hygiene（口腔衛生）",
+        "oral tradition（口承伝統）"
+      ],
+      "trivia": "「オーラルケア」という言葉を歯磨き粉のCMで聞いたことがあるはず。実はあの「オーラル」もこの単語！口の健康と口頭発表、同じ単語が結ぶ意外な繋がり。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1088,
+    "word": "innocent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "無罪の、潔白な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無邪気な、純真な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɪnəsənt/",
+    "syllables": "in-no-cent",
+    "audioHint": "イノセント",
+    "examples": [
+      {
+        "en": "The jury found the defendant innocent of all charges.",
+        "ja": "陪審員は被告をすべての罪において無罪と判断した。",
+        "blank": "The jury found the defendant ___ of all charges.",
+        "blankAnswer": "innocent"
+      }
+    ],
+    "distractors": [
+      "勇敢な",
+      "活力のある",
+      "輝かしい"
+    ],
+    "confusableSpellings": [
+      "inocent",
+      "innocant",
+      "innoscent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 innocens から。in-（否定）＋ nocere（害を与える）。「害を与えない人＝無罪・無邪気」という原義。nocereはnoxious（有害な）とも同語根。",
+      "tips": "innocent of ～（～の罪を犯していない）という前置詞との組み合わせが重要。また「無邪気な」意味で使う場合、innocent smile（無邪気な笑顔）のように肯定的なニュアンスになる。",
+      "confusables": "innocent（無罪の・無邪気な）vs. naive（世間知らずの）：innocentは「悪意がない・罪がない」、naiveは「経験が少なくて騙されやすい」というネガティブなニュアンスになることが多い。",
+      "collocations": [
+        "innocent bystander（無実の傍観者）",
+        "innocent mistake（悪意のないミス）",
+        "presumed innocent（無罪と推定される）"
+      ],
+      "trivia": "法律の世界では「無罪推定の原則（presumed innocent）」という重要な概念がある。つまり有罪が証明されるまでは誰もが「innocent」。この単語、実は人権の根本にある言葉なんだ。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1089,
+    "word": "subsequent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "その後の、続いて起こる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsʌbsɪkwənt/",
+    "syllables": "sub-se-quent",
+    "audioHint": "サブシクウェント",
+    "examples": [
+      {
+        "en": "Subsequent tests confirmed the initial findings.",
+        "ja": "その後の検査が最初の結果を確認した。",
+        "blank": "___ tests confirmed the initial findings.",
+        "blankAnswer": "Subsequent"
+      }
+    ],
+    "distractors": [
+      "口頭の",
+      "力学的な",
+      "口腔の"
+    ],
+    "confusableSpellings": [
+      "subsequant",
+      "subsiquent",
+      "subsequint"
+    ],
+    "passive": {
+      "etymology": "ラテン語 subsequi（後に続く）から。sub-（後に・下に）＋ sequi（従う・続く）。sequence（順序）、sequel（続編）と同じ語根 sequi を持つ。",
+      "tips": "フォーマルな文章や学術・ビジネス文書でよく使われる。日常会話ではlaterやafterwardsで代用できるが、レポートや論文ではsubsequentが自然。subsequent to ～（～の後に）という前置詞的用法も覚えよう。",
+      "confusables": "subsequent（その後の）vs. consequent（結果として生じる）：subsequentは単に「時間的に後に続く」こと、consequentは「原因と結果の関係」を含意する。",
+      "collocations": [
+        "subsequent events（その後の出来事）",
+        "subsequent to the meeting（会議の後に）",
+        "subsequent investigation（その後の調査）"
+      ],
+      "trivia": "映画の「sequel（続編）」も「subsequent」も語根は同じsequi（続く）。「シークエル」と「サブシクウェント」、スペルは違うけど親戚関係にある！映画好きなら覚えやすいかも。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1090,
+    "word": "shallow",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "浅い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "浅薄な、表面的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈʃæloʊ/",
+    "syllables": "shal-low",
+    "audioHint": "シャロウ",
+    "examples": [
+      {
+        "en": "The children played in the shallow end of the pool.",
+        "ja": "子供たちはプールの浅い方で遊んだ。",
+        "blank": "The children played in the ___ end of the pool.",
+        "blankAnswer": "shallow"
+      }
+    ],
+    "distractors": [
+      "勇敢な",
+      "無罪の",
+      "適度な"
+    ],
+    "confusableSpellings": [
+      "shellow",
+      "shalow",
+      "shalloe"
+    ],
+    "passive": {
+      "etymology": "古英語 sceald（浅い）から来た語で、ゲルマン語系の土着語。語源的に複雑な構造はなく、「底が近い」という感覚的な意味がそのまま引き継がれている。",
+      "tips": "物理的な「浅さ」だけでなく「浅薄な・上辺だけの」という比喩的な意味でも使う。shallow person（浅薄な人）、shallow thinking（表面的な考え）など批判的な文脈が多い。",
+      "confusables": "shallow（浅い）vs. superficial（表面的な）：shallowは物理的・比喩的両方に使えるが、superficialは主に比喩的に「本質を突かない」という意味で使われることが多い。",
+      "collocations": [
+        "shallow water（浅い水）",
+        "shallow breathing（浅い呼吸）",
+        "shallow understanding（浅い理解）"
+      ],
+      "trivia": "レディー・ガガ主演映画「A Star Is Born」の主題歌「Shallow」は「浅瀬から深みへ飛び込む」という意味が込められている。単なる「浅い」だけじゃなく、人生の転換点を表す言葉として使われた、深～い一曲！"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1091,
+    "word": "indifferent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "無関心な、冷淡な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "平凡な、どうでもよい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈdɪf.ər.ənt/",
+    "syllables": "in-dif-fer-ent",
+    "audioHint": "インディファレント",
+    "examples": [
+      {
+        "en": "She seemed indifferent to the outcome of the meeting.",
+        "ja": "彼女は会議の結果に無関心なようだった。",
+        "blank": "She seemed ___ to the outcome of the meeting.",
+        "blankAnswer": "indifferent"
+      }
+    ],
+    "distractors": [
+      "熱心な、情熱的な",
+      "敵対的な、攻撃的な",
+      "感謝している、ありがたく思う"
+    ],
+    "confusableSpellings": [
+      "indifferant",
+      "indiffirent",
+      "indifferrent"
+    ],
+    "passive": {
+      "etymology": "接頭辞 in-（否定）＋ different（異なる）→「差を感じない」→無関心。ラテン語 indifferens から。",
+      "tips": "be indifferent to ～ の形で使うのが基本。「～に無関心」と言うとき to を忘れがち。about を使うのは誤りではないが to が正式。",
+      "confusables": "unconcerned は心配していないというニュアンス、apathetic はより感情が欠如した状態を指す。indifferent は「どうでもいい」という中立的な冷淡さ。",
+      "collocations": [
+        "be indifferent to",
+        "remain indifferent",
+        "politically indifferent"
+      ],
+      "trivia": "哲学者ストア派は「indifference（無関心）」を理想的な精神状態として称えた。現代では悪い意味で使われることが多い逆転劇！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1092,
+    "word": "inferior",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "劣った、下位の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "部下、目下の人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈfɪər.i.ər/",
+    "syllables": "in-fe-ri-or",
+    "audioHint": "インフィアリア",
+    "examples": [
+      {
+        "en": "This product is inferior to the previous version.",
+        "ja": "この製品は前のバージョンより劣っている。",
+        "blank": "This product is ___ to the previous version.",
+        "blankAnswer": "inferior"
+      }
+    ],
+    "distractors": [
+      "優れた、卓越した",
+      "平均的な、普通の",
+      "革新的な、先進的な"
+    ],
+    "confusableSpellings": [
+      "inferrior",
+      "inferiour",
+      "inferiror"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inferior（より低い）＝ inferus（低い）の比較級。接頭辞 in-（下に）＋ -fer-（運ぶ）の変形。",
+      "tips": "inferior than ではなく inferior to が正しい。than と混同しやすいが、ラテン語由来の比較表現は to を使うのがルール。superior to と対になる。",
+      "confusables": "worse は一般的な「より悪い」、inferior はより格式張った表現で地位・品質の序列を強調する。",
+      "collocations": [
+        "inferior to",
+        "feel inferior",
+        "inferior quality"
+      ],
+      "trivia": "「インフェリオリティ・コンプレックス（劣等感）」はアドラー心理学の有名概念。英語では inferiority complex。日常会話でも普通に使われる！"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1093,
+    "word": "awkward",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "気まずい、ぎこちない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "扱いにくい、不便な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɔːk.wəd/",
+    "syllables": "awk-ward",
+    "audioHint": "オークワド",
+    "examples": [
+      {
+        "en": "There was an awkward silence after his comment.",
+        "ja": "彼のコメントの後、気まずい沈黙が流れた。",
+        "blank": "There was an ___ silence after his comment.",
+        "blankAnswer": "awkward"
+      }
+    ],
+    "distractors": [
+      "恥ずかしい、照れくさい",
+      "怒りっぽい、短気な",
+      "慎重な、用心深い"
+    ],
+    "confusableSpellings": [
+      "aukward",
+      "awkword",
+      "akward"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 afugr（逆向きの）＋ 英語の接尾辞 -ward（方向）→「逆の方向に向いた」→ぎこちない。",
+      "tips": "「awkward」はスペルが難しく、awk- の部分を「オーク」と覚えるのがコツ。感情（気まずい）と物理（扱いにくい）両方に使える。",
+      "confusables": "embarrassed は自分が恥ずかしい感情、clumsy は動作がぎこちない様子。awkward はその場の雰囲気や状況全体が不自然・不快なときに使う。",
+      "collocations": [
+        "awkward silence",
+        "feel awkward",
+        "awkward situation"
+      ],
+      "trivia": "SNSでは「That's so awkward」が流行語のように使われ、略して「awks」とも言う。日本語の「気まずい」にほぼぴったり対応する珍しい単語！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1094,
+    "word": "obese",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "肥満の、病的に太った",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/oʊˈbiːs/",
+    "syllables": "o-bese",
+    "audioHint": "オウビース",
+    "examples": [
+      {
+        "en": "The doctor said the patient was clinically obese.",
+        "ja": "医師はその患者が臨床的に肥満であると言った。",
+        "blank": "The doctor said the patient was clinically ___.",
+        "blankAnswer": "obese"
+      }
+    ],
+    "distractors": [
+      "慢性的な、長期の",
+      "感染性の、伝染する",
+      "遺伝的な、先天性の"
+    ],
+    "confusableSpellings": [
+      "obesse",
+      "obeese",
+      "obece"
+    ],
+    "passive": {
+      "etymology": "ラテン語 obesus＝ob-（過度に）＋ edere（食べる）の過去分詞→「食べ過ぎた」が語源。",
+      "tips": "fat は口語的で失礼な表現、overweight は一般的・中立的、obese は医学用語でBMIが30以上を指す。場面に応じて使い分けが必要。",
+      "confusables": "overweight（太り過ぎ）はBMI 25〜29.9、obese（肥満）はBMI 30以上と医学的に区別される。日常会話では overweight が無難。",
+      "collocations": [
+        "clinically obese",
+        "morbidly obese",
+        "obese patients"
+      ],
+      "trivia": "WHOは世界的な肥満増加を「obesogenic environment（肥満を促す環境）」と呼ぶ。食環境が体型を決めるという考え方、なるほど感あり！"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1095,
+    "word": "pregnant",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "妊娠している",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "意味深な、含蓄のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpreɡ.nənt/",
+    "syllables": "preg-nant",
+    "audioHint": "プレグナント",
+    "examples": [
+      {
+        "en": "She announced that she was three months pregnant.",
+        "ja": "彼女は妊娠3ヶ月であることを発表した。",
+        "blank": "She announced that she was three months ___.",
+        "blankAnswer": "pregnant"
+      }
+    ],
+    "distractors": [
+      "不妊の、子のない",
+      "授乳中の",
+      "閉経後の"
+    ],
+    "confusableSpellings": [
+      "pregnent",
+      "pregant",
+      "pragnant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praegnans＝prae-（前に）＋ gnasci（生まれる）→「生まれる前の状態」。",
+      "tips": "「pregnant with meaning」のように抽象的に「意味深な」という意味でも使える。日本人は医学的な意味しか知らないことが多い。",
+      "confusables": "expecting は妊娠していることの婉曲表現でカジュアル。pregnant は直接的で、医療場面でも日常でも使われる標準語。",
+      "collocations": [
+        "get pregnant",
+        "pregnant woman",
+        "pregnant pause"
+      ],
+      "trivia": "「a pregnant pause（意味深な間）」という表現があり、演劇・映画の脚本用語としてよく登場する。「沈黙にも命が宿っている」という詩的な表現！"
+    },
+    "frequency": 2800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1096,
+    "word": "intimate",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "親密な、打ち解けた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（物事を）示唆する、ほのめかす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪn.tɪ.mət/",
+    "syllables": "in-ti-mate",
+    "audioHint": "インティメット",
+    "examples": [
+      {
+        "en": "They had an intimate conversation over coffee.",
+        "ja": "彼らはコーヒーを飲みながら打ち解けた会話をした。",
+        "blank": "They had an ___ conversation over coffee.",
+        "blankAnswer": "intimate"
+      }
+    ],
+    "distractors": [
+      "敵対的な、攻撃的な",
+      "よそよそしい、距離を置く",
+      "支配的な、威圧的な"
+    ],
+    "confusableSpellings": [
+      "intimite",
+      "intamate",
+      "intimat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 intimus（最も内側の）＝接頭辞 in-（中に）の最上級形→「心の最も奥にある」→親密。",
+      "tips": "形容詞では /ˈɪntɪmət/、動詞「ほのめかす」では /ˈɪntɪmeɪt/ と発音が変わる。スペルが同じでも品詞によって発音が異なる点に注意。",
+      "confusables": "close は距離的・感情的な近さ全般、intimate はより深い精神的・肉体的つながりを含意する。sexual な意味合いも持つため使い方に注意。",
+      "collocations": [
+        "intimate relationship",
+        "intimate friends",
+        "intimate knowledge"
+      ],
+      "trivia": "「intimate knowledge」は「深い知識・精通」という意味で使われる。恋愛とは無関係なのに、英語初学者が誤解しやすい表現ランキング上位！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1097,
+    "word": "medieval",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "中世の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "時代遅れの、旧式の（比喩的）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌmed.iˈiː.vəl/",
+    "syllables": "me-di-e-val",
+    "audioHint": "メディイーヴァル",
+    "examples": [
+      {
+        "en": "The castle is a well-preserved medieval structure.",
+        "ja": "その城はよく保存された中世の建造物だ。",
+        "blank": "The castle is a well-preserved ___ structure.",
+        "blankAnswer": "medieval"
+      }
+    ],
+    "distractors": [
+      "現代的な、近代的な",
+      "古代の、太古の",
+      "植民地時代の"
+    ],
+    "confusableSpellings": [
+      "mediaeval",
+      "medevial",
+      "mideval"
+    ],
+    "passive": {
+      "etymology": "ラテン語 medium aevum＝medium（中間）＋ aevum（時代）→「中間の時代」＝中世（5〜15世紀ごろ）。",
+      "tips": "mediaeval という旧スペルも存在するが、現代英語では medieval が標準。アメリカ英語とイギリス英語でスペルのゆれがある珍しい単語。",
+      "confusables": "ancient は古代（〜5世紀）、medieval は中世（5〜15世紀）、modern は近世以降。歴史の時代区分で使い分ける。",
+      "collocations": [
+        "medieval times",
+        "medieval castle",
+        "medieval Europe"
+      ],
+      "trivia": "「That's so medieval!」は「超時代遅れ！」という口語的な批判として使われる。歴史用語が現代スラング化した面白い例！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1098,
+    "word": "sacred",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "神聖な、聖なる",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不可侵の、侵してはならない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈseɪ.krɪd/",
+    "syllables": "sa-cred",
+    "audioHint": "セイクリッド",
+    "examples": [
+      {
+        "en": "This mountain is considered sacred by the local people.",
+        "ja": "この山は地元の人々に神聖視されている。",
+        "blank": "This mountain is considered ___ by the local people.",
+        "blankAnswer": "sacred"
+      }
+    ],
+    "distractors": [
+      "世俗的な、宗教と無関係の",
+      "異端の、邪悪な",
+      "儀式的な、形式的な"
+    ],
+    "confusableSpellings": [
+      "sacread",
+      "sacrid",
+      "saccred"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sacrare（神聖にする）＝sacer（聖なる）の過去分詞→「神に捧げられた」。sacrifice（犠牲）と同じ語根。",
+      "tips": "sacred は宗教・信仰に関わる神聖さ、holy はより汎用的な「聖なる」。sacred cow（神聖な牛＝批判できないもの）は比喩的慣用句として頻出。",
+      "confusables": "holy は宗教的に清い・神に近いというニュアンス、sacred は特定の対象が神聖で不可侵であるという意味に使う。",
+      "collocations": [
+        "sacred ground",
+        "sacred text",
+        "sacred music"
+      ],
+      "trivia": "「sacred cow（神聖な牛）」はヒンドゥー教の牛への崇拝が語源。転じて「批判できない存在・慣習」を指す英語の慣用句になった！"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1099,
+    "word": "simultaneously",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "同時に",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˌsɪm.əlˈteɪ.ni.əs.li/",
+    "syllables": "si-mul-ta-ne-ous-ly",
+    "audioHint": "シマルテイニアスリ",
+    "examples": [
+      {
+        "en": "The two events happened simultaneously.",
+        "ja": "その二つの出来事は同時に起きた。",
+        "blank": "The two events happened ___.",
+        "blankAnswer": "simultaneously"
+      }
+    ],
+    "distractors": [
+      "順番に、次々と",
+      "断続的に、途切れながら",
+      "徐々に、少しずつ"
+    ],
+    "confusableSpellings": [
+      "simultaneusly",
+      "simultaneaously",
+      "simultaniously"
+    ],
+    "passive": {
+      "etymology": "ラテン語 simul（同時に）＋ -taneous（〜の性質を持つ）＋ -ly（副詞語尾）→「同じ時の性質を持って」。",
+      "tips": "スペルが長くて難しいが、simultaneous（形容詞）＋ -ly と覚えると楽。at the same time とほぼ同義だが、simultaneously はよりフォーマル。",
+      "confusables": "at the same time はカジュアルで会話向き、simultaneously はニュース・学術文で好まれる。concurrently はシステム・法律文脈で多用。",
+      "collocations": [
+        "happen simultaneously",
+        "broadcast simultaneously",
+        "simultaneously translate"
+      ],
+      "trivia": "「同時通訳」は英語で simultaneous interpretation。国連や外交の場で使われる高度なスキルで、脳の二つの部位を同時に使うため極限の集中力が必要！"
+    },
+    "frequency": 3300,
+    "cefr": "C1"
+  },
+  {
+    "id": 1100,
+    "word": "versus",
+    "pos": "other",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "〜対〜、〜に対して",
+        "pos": "other"
+      },
+      {
+        "meaning": "〜と比較して",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/ˈvɜː.səs/",
+    "syllables": "ver-sus",
+    "audioHint": "ヴァーサス",
+    "examples": [
+      {
+        "en": "Tonight's game is Japan versus Australia.",
+        "ja": "今夜の試合は日本対オーストラリアだ。",
+        "blank": "Tonight's game is Japan ___ Australia.",
+        "blankAnswer": "versus"
+      }
+    ],
+    "distractors": [
+      "〜と協力して",
+      "〜にもかかわらず",
+      "〜によれば"
+    ],
+    "confusableSpellings": [
+      "versas",
+      "versuss",
+      "vursus"
+    ],
+    "passive": {
+      "etymology": "ラテン語 versus＝vertere（向ける・回す）の過去分詞→「〜に向けられた」→対立・比較を表す前置詞に。",
+      "tips": "スポーツや法律では vs. と省略するのが一般的。法律文書では v.（Italy v. France）と書く。会話では「バーサス」とそのまま読んでOK。",
+      "confusables": "against は対立・反対を表すが versus より対等な戦いのニュアンスが薄い。versus は両者が対等に向き合う構図を強調。",
+      "collocations": [
+        "quality versus quantity",
+        "vs. in sports",
+        "price versus performance"
+      ],
+      "trivia": "「vs.」はもともとラテン語の省略で、英語圏では法廷用語として定着。有名な「Roe v. Wade（ロー対ウェイド）」もその例。スポーツ実況でも欠かせない！"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  }
+]

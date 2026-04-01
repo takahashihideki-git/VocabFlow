@@ -1,0 +1,998 @@
+[
+  {
+    "id": 1561,
+    "word": "spouse",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "配偶者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "夫または妻",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/spaʊs/",
+    "syllables": "spouse",
+    "audioHint": "スパウス",
+    "examples": [
+      {
+        "en": "You can add your spouse to your health insurance plan.",
+        "ja": "配偶者を健康保険プランに追加できます。",
+        "blank": "You can add your ___ to your health insurance plan.",
+        "blankAnswer": "spouse"
+      }
+    ],
+    "distractors": [
+      "近所の人",
+      "同僚",
+      "親友"
+    ],
+    "confusableSpellings": [
+      "spousse",
+      "spous",
+      "spowse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sponsus（婚約した男性）／sponsa（婚約した女性）から。動詞 spondere（誓う）が語根で、英語の sponsor とも同根。",
+      "tips": "husband／wife と違い spouse は性別を問わない中立的な語。公式書類や法律文書でよく使われる。日常会話では my husband / my wife の方が自然な場合も多い。",
+      "confusables": "partner も配偶者的な意味で使えるが、spouse は法的な婚姻関係を前提とする点が異なる。",
+      "collocations": [
+        "spouse's income",
+        "surviving spouse",
+        "working spouse"
+      ],
+      "trivia": "英語の「wedding sponsorship（婚礼の誓い）」の概念と語源が同じ。昔は婚約を公に「誓う」ことが結婚の本質だった！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1562,
+    "word": "makeup",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "化粧、メイクアップ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "構成、性質",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmeɪkʌp/",
+    "syllables": "make-up",
+    "audioHint": "メイクアップ",
+    "examples": [
+      {
+        "en": "She spent twenty minutes applying her makeup before work.",
+        "ja": "彼女は仕事前に20分かけて化粧をした。",
+        "blank": "She spent twenty minutes applying her ___ before work.",
+        "blankAnswer": "makeup"
+      }
+    ],
+    "distractors": [
+      "衣装",
+      "アクセサリー",
+      "香水"
+    ],
+    "confusableSpellings": [
+      "make-upp",
+      "makup",
+      "makeUp"
+    ],
+    "passive": {
+      "etymology": "動詞句 make up（作り上げる）が名詞化したもの。16世紀頃から「構成する」意味で使われ、後に「顔を作り上げる」化粧の意味へ拡張。",
+      "tips": "名詞として使う場合はハイフンあり（make-up）とハイフンなし（makeup）の両方が使われ、米国ではハイフンなしが主流。動詞として使う場合は make up と分けて書く（make up for lost time など）。",
+      "confusables": "cosmetics は化粧品全般を指す集合名詞で、makeup より正式な響き。makeup は行為・完成した状態を指すことが多い。",
+      "collocations": [
+        "wear makeup",
+        "apply makeup",
+        "remove makeup"
+      ],
+      "trivia": "古代エジプトでは男女ともに目の周りに kohl（コール）を塗っていた。現代の makeup の歴史は約6000年前にさかのぼる！"
+    },
+    "frequency": 2900,
+    "cefr": "A2"
+  },
+  {
+    "id": 1563,
+    "word": "mummy",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "ミイラ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ママ（英国の幼児語）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmʌmi/",
+    "syllables": "mum-my",
+    "audioHint": "マミー",
+    "examples": [
+      {
+        "en": "The ancient Egyptian mummy was discovered in a sealed tomb.",
+        "ja": "古代エジプトのミイラが密封された墓で発見された。",
+        "blank": "The ancient Egyptian ___ was discovered in a sealed tomb.",
+        "blankAnswer": "mummy"
+      }
+    ],
+    "distractors": [
+      "彫刻",
+      "壁画",
+      "遺跡"
+    ],
+    "confusableSpellings": [
+      "mumie",
+      "mummie",
+      "mommy"
+    ],
+    "passive": {
+      "etymology": "アラビア語 mūmiyā（蜜蝋・アスファルト）から。ペルシア語 mūm（蝋）が語根で、防腐処理に使われた物質に由来する。",
+      "tips": "英国英語では「お母さん」を mummy と呼ぶが、米国英語では mommy が一般的。文脈によって意味が全く変わるので注意！ミイラを指す場合はどちらの英語でも mummy。",
+      "confusables": "zombie は架空の「生きた死体」を指し、mummy は実際の保存処理された遺体またはホラー映画のキャラクター。",
+      "collocations": [
+        "Egyptian mummy",
+        "mummy case",
+        "mummy curse"
+      ],
+      "trivia": "「ミイラの呪い」はメディアが作った都市伝説で、ツタンカーメン発掘に関わった人の多くは長寿だったというデータもある！"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1564,
+    "word": "flesh",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "肉、皮膚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "肉体（精神に対する）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/flɛʃ/",
+    "syllables": "flesh",
+    "audioHint": "フレッシュ",
+    "examples": [
+      {
+        "en": "The wound cut deep into the flesh of his arm.",
+        "ja": "傷は彼の腕の肉深くまで切り込んだ。",
+        "blank": "The wound cut deep into the ___ of his arm.",
+        "blankAnswer": "flesh"
+      }
+    ],
+    "distractors": [
+      "骨格",
+      "神経",
+      "血液"
+    ],
+    "confusableSpellings": [
+      "fleash",
+      "flech",
+      "fleshe"
+    ],
+    "passive": {
+      "etymology": "古英語 flǣsc（肉）から。ゲルマン語系で、ドイツ語 Fleisch と同根。原インドヨーロッパ語の「裂く」意味の語根に由来するとも言われる。",
+      "tips": "fresh（新鮮な）と発音が似ているが全く別の単語。日本語でも「フレッシュ」と言うためカタカナ語感覚で混同しやすい。flesh は /flɛʃ/、fresh は /frɛʃ/ で子音が異なる。",
+      "confusables": "meat は食用の肉を指し、flesh は人間や動物の生きた・生の組織を指す。flesh は比喩的表現でも使われる（in the flesh＝実際に）。",
+      "collocations": [
+        "flesh wound",
+        "in the flesh",
+        "flesh and blood"
+      ],
+      "trivia": "「in the flesh（直接会って）」という表現は13世紀から使われている。今でいう「リアルで会う」をこんな表現で言うのが英語らしい！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1565,
+    "word": "limb",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "手足、四肢",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（木の）大枝",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/lɪm/",
+    "syllables": "limb",
+    "audioHint": "リム",
+    "examples": [
+      {
+        "en": "The surgeon worked to save the injured limb.",
+        "ja": "外科医は負傷した手足を救うために手術した。",
+        "blank": "The surgeon worked to save the injured ___.",
+        "blankAnswer": "limb"
+      }
+    ],
+    "distractors": [
+      "臓器",
+      "血管",
+      "筋肉"
+    ],
+    "confusableSpellings": [
+      "lim",
+      "limbe",
+      "limp"
+    ],
+    "passive": {
+      "etymology": "古英語 lim（四肢・枝）から。ゲルマン語系の語で、語末の b は黙字（発音しない）。中英語期に語尾に b が加わったとされる。",
+      "tips": "末尾の b は発音しない黙字（silent b）。lamb（子羊）、thumb（親指）、comb（くし）なども同じパターン。日本人は「リンブ」と言いたくなるが正しくは「リム」。",
+      "confusables": "limb は手足全体（腕・脚）を指すが、extremity も同じ意味で医学用語として使われる。より一般的・口語的なのが limb。",
+      "collocations": [
+        "upper limb",
+        "lower limb",
+        "out on a limb"
+      ],
+      "trivia": "「out on a limb（木の枝の先に出た状態）」は「危険な立場に立つ」という慣用句。木登り中に細い枝の先に行ったら怖いよね、そこから来てる！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1566,
+    "word": "odor",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "におい、臭気",
+        "pos": "noun"
+      },
+      {
+        "meaning": "気配、雰囲気（比喩的）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈoʊdər/",
+    "syllables": "o-dor",
+    "audioHint": "オウダー",
+    "examples": [
+      {
+        "en": "A strange odor was coming from the kitchen.",
+        "ja": "台所から奇妙なにおいがしていた。",
+        "blank": "A strange ___ was coming from the kitchen.",
+        "blankAnswer": "odor"
+      }
+    ],
+    "distractors": [
+      "感触",
+      "味覚",
+      "聴覚"
+    ],
+    "confusableSpellings": [
+      "oder",
+      "odour",
+      "odore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 odor（においの意）から直接英語に入った語。ギリシャ語 ozein（においを放つ）とも関連し、原インドヨーロッパ語の od-（においがする）が語根。",
+      "tips": "米国英語では odor、英国英語では odour とつづる。スペルが違うだけで意味は同じ。smell より客観的・科学的なニュアンスがあり、医学や環境の文脈でよく使われる。",
+      "confusables": "smell は最も一般的な語（良いにおいにも悪いにおいにも使える）。odor はやや不快なにおいを含意することが多い。scent は良いにおい・香り。stench は強烈な悪臭。",
+      "collocations": [
+        "body odor",
+        "foul odor",
+        "odor control"
+      ],
+      "trivia": "人間は約1兆種類のにおいを嗅ぎ分けられるという研究結果がある。でも英語のにおい関連語彙は意外と少ない。日本語の「香ばしい」「かぐわしい」に当たる単語を英語で言うのは難しい！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1567,
+    "word": "laundry",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "洗濯物、洗濯",
+        "pos": "noun"
+      },
+      {
+        "meaning": "クリーニング店",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlɔːndri/",
+    "syllables": "laun-dry",
+    "audioHint": "ローンドリー",
+    "examples": [
+      {
+        "en": "I need to do the laundry before it piles up.",
+        "ja": "洗濯物がたまる前に洗濯しなければならない。",
+        "blank": "I need to do the ___ before it piles up.",
+        "blankAnswer": "laundry"
+      }
+    ],
+    "distractors": [
+      "掃除機がけ",
+      "料理",
+      "買い物"
+    ],
+    "confusableSpellings": [
+      "laundrey",
+      "laundary",
+      "laundy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 lavandaria（洗うべきもの）から。lavare（洗う）が語根で、lava（溶岩）とは無関係だが、lavatory（洗面所）とは同根。フランス語を経由して英語へ。",
+      "tips": "do the laundry（洗濯をする）は不可算名詞として使う定番フレーズ。「洗濯機」は washing machine で laundry machine とは言わない点に注意。",
+      "confusables": "washing は英国英語で洗濯物を指すことが多く、米国では laundry が一般的。laundromat（米）/ launderette（英）はコインランドリーを指す。",
+      "collocations": [
+        "do the laundry",
+        "laundry basket",
+        "laundry detergent"
+      ],
+      "trivia": "英語に「dirty laundry（恥ずかしい秘密）」という表現があり、「don't air your dirty laundry in public（家の恥を外にさらすな）」という慣用句がある。日本語の「内輪の恥」にそっくり！"
+    },
+    "frequency": 2700,
+    "cefr": "A2"
+  },
+  {
+    "id": 1568,
+    "word": "tide",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "潮（の干満）、潮流",
+        "pos": "noun"
+      },
+      {
+        "meaning": "流れ、趨勢（比喩的）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/taɪd/",
+    "syllables": "tide",
+    "audioHint": "タイド",
+    "examples": [
+      {
+        "en": "The high tide covered the sandy beach completely.",
+        "ja": "満潮が砂浜を完全に覆った。",
+        "blank": "The high ___ covered the sandy beach completely.",
+        "blankAnswer": "tide"
+      }
+    ],
+    "distractors": [
+      "山脈",
+      "砂漠",
+      "平原"
+    ],
+    "confusableSpellings": [
+      "tyde",
+      "tied",
+      "taid"
+    ],
+    "passive": {
+      "etymology": "古英語 tīd（時間・季節・潮時）から。もともと「時」を意味し、現代英語の time と同語源。「潮の時間」から海の干満を指すように意味が変化した。",
+      "tips": "tide と tied（tie の過去形）は同じ発音 /taɪd/。文脈で判断するしかない。また「時代」の -tide は今も Christmastide（クリスマス時期）などに残っている。",
+      "confusables": "current は水の流れ（海流・川の流れ）を指し、tide は月の引力による周期的な干満を指す。wave は波動・波。",
+      "collocations": [
+        "high tide",
+        "low tide",
+        "turn the tide"
+      ],
+      "trivia": "「Time and tide wait for no man（時間と潮は誰も待たない）」は13世紀からある英語の格言。tide がもともと「時間」を意味していたから二重の意味があったんだ！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1569,
+    "word": "questionnaire",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "アンケート、質問票",
+        "pos": "noun"
+      },
+      {
+        "meaning": "調査票",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌkwɛstʃəˈnɛr/",
+    "syllables": "ques-tion-naire",
+    "audioHint": "クウェスチョネア",
+    "examples": [
+      {
+        "en": "Please fill out this questionnaire about your daily habits.",
+        "ja": "日常習慣についてのアンケートにご記入ください。",
+        "blank": "Please fill out this ___ about your daily habits.",
+        "blankAnswer": "questionnaire"
+      }
+    ],
+    "distractors": [
+      "教科書",
+      "論文",
+      "辞書"
+    ],
+    "confusableSpellings": [
+      "questionaire",
+      "questionnare",
+      "questionair"
+    ],
+    "passive": {
+      "etymology": "フランス語 questionnaire から直接借用。question（質問）＋接尾辞 -aire（〜に関するもの）。question はラテン語 quaestio（問い）から、quaerere（求める・尋ねる）が語根。",
+      "tips": "最もよくあるスペルミスは n が一つしかない questionairre または questionare。n が二つ続く（nn）のが正しい。アクセントは最後の音節 -naire にある点も注意。",
+      "confusables": "survey はより広い調査全体を指し、questionnaire はその手段（質問票）。interview は対面での質問形式。",
+      "collocations": [
+        "fill out a questionnaire",
+        "distribute a questionnaire",
+        "online questionnaire"
+      ],
+      "trivia": "フランス語由来の英単語はアクセントが語末寄りになることが多い。questionnaire もそのパターン。英語の中に約1万語のフランス語由来の単語が潜んでいる！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1570,
+    "word": "nonsense",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "ナンセンス、無意味なこと",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ばかげた考え・行動",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnɒnsɛns/",
+    "syllables": "non-sense",
+    "audioHint": "ノンセンス",
+    "examples": [
+      {
+        "en": "Stop talking nonsense and tell me the truth.",
+        "ja": "ナンセンスなことを言うのをやめて、本当のことを教えて。",
+        "blank": "Stop talking ___ and tell me the truth.",
+        "blankAnswer": "nonsense"
+      }
+    ],
+    "distractors": [
+      "皮肉",
+      "幻想",
+      "矛盾"
+    ],
+    "confusableSpellings": [
+      "nonsence",
+      "noncense",
+      "nonsens"
+    ],
+    "passive": {
+      "etymology": "接頭辞 non-（〜でない）＋sense（意味・感覚）の合成語。sense はラテン語 sensus（感覚・意味）から。つまり文字通り「意味のないもの」。",
+      "tips": "日本語でも「ナンセンス」と使うが、英語では形容詞的にも使える（a nonsense argument）。また nonsensical という形容詞形もある。「くだらない」と軽くあしらうニュアンスで使われることが多い。",
+      "confusables": "absurd は論理的・哲学的な意味で「不条理」を指しやや重い語。nonsense はより日常的で「バカなことを言うな」という軽い否定に使われる。rubbish（英国英語）も同様の意味。",
+      "collocations": [
+        "talk nonsense",
+        "absolute nonsense",
+        "nonsense words"
+      ],
+      "trivia": "文学ジャンルとして「literary nonsense（ナンセンス文学）」があり、ルイス・キャロルの『不思議の国のアリス』が代表作。意味がないようで深い意味があるのがナンセンス文学の醍醐味！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1571,
+    "word": "revenge",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "復讐、仕返し",
+        "pos": "noun"
+      },
+      {
+        "meaning": "復讐する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈvɛndʒ/",
+    "syllables": "re-venge",
+    "audioHint": "リヴェンジ",
+    "examples": [
+      {
+        "en": "She swore revenge on those who had betrayed her.",
+        "ja": "彼女は自分を裏切った者たちへの復讐を誓った。",
+        "blank": "She swore ___ on those who had betrayed her.",
+        "blankAnswer": "revenge"
+      }
+    ],
+    "distractors": [
+      "交渉",
+      "協力",
+      "謝罪"
+    ],
+    "confusableSpellings": [
+      "revange",
+      "revenege",
+      "reveng"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'revengier' から。接頭辞 're-'（再び）＋ 'vengier'（復讐する）。ラテン語 'vindicare'（主張する・罰する）に由来。",
+      "tips": "名詞として 'take revenge on ...' または 'get revenge' という形が最もよく使われる。'avenge'（動詞）と混同しやすいが、revenge は名詞・動詞どちらにも使える。",
+      "confusables": "'avenge' は「（正義のために）仇を討つ」というニュアンスで、主に動詞。revenge は個人的・感情的な「仕返し」。映画タイトルの『Avengers』は「仇を討つ者たち」という意味。",
+      "collocations": [
+        "take revenge",
+        "seek revenge",
+        "revenge on someone"
+      ],
+      "trivia": "「リベンジ」は日本語では「再挑戦」の意味で使われるが、英語の revenge に再挑戦のニュアンスはない。英語で「リベンジマッチ」は 'rematch' と言う。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1572,
+    "word": "intellect",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "知性、理性",
+        "pos": "noun"
+      },
+      {
+        "meaning": "知識人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪntəlɛkt/",
+    "syllables": "in-tel-lect",
+    "audioHint": "インテレクト",
+    "examples": [
+      {
+        "en": "Her intellect impressed everyone at the conference.",
+        "ja": "彼女の知性は会議の全員を感心させた。",
+        "blank": "Her ___ impressed everyone at the conference.",
+        "blankAnswer": "intellect"
+      }
+    ],
+    "distractors": [
+      "感情",
+      "記憶",
+      "直感"
+    ],
+    "confusableSpellings": [
+      "intelect",
+      "intellact",
+      "interlect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intellectus'（理解・認識）から。'inter-'（間に）＋ 'legere'（選ぶ・読む）の組み合わせ。「物事の間を読み取る能力」が原義。",
+      "tips": "'intelligence'（知能・情報）と混同しやすい。intellect は純粋な「思考・理性の能力」、intelligence は「実践的な頭の良さ・情報」のニュアンスが強い。",
+      "confusables": "'intelligence' は IQ や諜報活動にも使われる実用的な語。'intellect' は哲学・学術的文脈で「思考する能力そのもの」を指す抽象的な語。",
+      "collocations": [
+        "superior intellect",
+        "human intellect",
+        "intellect and emotion"
+      ],
+      "trivia": "スポック（スター・トレック）やシャーロック・ホームズは 'intellect over emotion'（感情より知性）の象徴として語られる。intellect は「冷静な頭脳」の代名詞。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1573,
+    "word": "hospitality",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "おもてなし、歓待",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ホスピタリティ産業",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌhɒspɪˈtælɪti/",
+    "syllables": "hos-pi-tal-i-ty",
+    "audioHint": "ホスピタリティ",
+    "examples": [
+      {
+        "en": "The family's hospitality made us feel very welcome.",
+        "ja": "その家族のおもてなしのおかげで、とても歓迎されていると感じた。",
+        "blank": "The family's ___ made us feel very welcome.",
+        "blankAnswer": "hospitality"
+      }
+    ],
+    "distractors": [
+      "節約",
+      "礼儀",
+      "慣習"
+    ],
+    "confusableSpellings": [
+      "hospitallity",
+      "hospitility",
+      "hospitalty"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'hospitalitas' から。'hospes'（客人・主人）が語根。同じ語根から 'hospital'（病院）や 'hostel'（ホステル）も派生している。",
+      "tips": "「ホスピタリティ」はカタカナ語として日本でも普及しているが、英語では hotel や restaurant 業界を指す 'hospitality industry' という表現が非常に多い。",
+      "confusables": "'courtesy'（礼儀正しさ）は形式的なマナーを指すのに対し、hospitality は温かみのある「もてなす心」そのもの。hospitality のほうがより感情的・積極的なニュアンス。",
+      "collocations": [
+        "show hospitality",
+        "hospitality industry",
+        "warm hospitality"
+      ],
+      "trivia": "hospital（病院）と hospitality（おもてなし）は同じ語源。中世ヨーロッパでは修道院が旅人を無料で泊めていた。その「客をもてなす場所」が病院の起源でもある。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1574,
+    "word": "librarian",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "図書館員、司書",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/laɪˈbrɛriən/",
+    "syllables": "li-brar-i-an",
+    "audioHint": "ライブレリアン",
+    "examples": [
+      {
+        "en": "The librarian helped me find the book I needed.",
+        "ja": "司書さんが必要な本を見つけるのを手伝ってくれた。",
+        "blank": "The ___ helped me find the book I needed.",
+        "blankAnswer": "librarian"
+      }
+    ],
+    "distractors": [
+      "教授",
+      "編集者",
+      "研究者"
+    ],
+    "confusableSpellings": [
+      "librerian",
+      "librarien",
+      "libarian"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'librarius'（書物に関する）から。'liber'（本・樹皮）が語根。古代ローマでは樹皮（bark）に文字を書いていたことから 'liber' が「本」を意味するようになった。",
+      "tips": "日本語では「図書館員」と「司書」の2つがあるが、英語では librarian 1語で済む。発音は「ライブラリアン」ではなく「ライブレリアン」に近い点に注意。",
+      "confusables": "'archivist'（公文書館員）は歴史的記録物を管理する専門職。librarian は一般的な図書資料の管理・提供が主な役割。",
+      "collocations": [
+        "school librarian",
+        "ask the librarian",
+        "chief librarian"
+      ],
+      "trivia": "現代の librarian はただ本を管理するだけでなく、デジタルリテラシー教育の専門家でもある。「情報のキュレーター」として再評価されている職業。"
+    },
+    "frequency": 6500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1575,
+    "word": "manuscript",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "原稿、手書き文書",
+        "pos": "noun"
+      },
+      {
+        "meaning": "写本",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmænjʊskrɪpt/",
+    "syllables": "man-u-script",
+    "audioHint": "マニュスクリプト",
+    "examples": [
+      {
+        "en": "The author submitted her manuscript to the publisher last week.",
+        "ja": "著者は先週、出版社に原稿を提出した。",
+        "blank": "The author submitted her ___ to the publisher last week.",
+        "blankAnswer": "manuscript"
+      }
+    ],
+    "distractors": [
+      "作品",
+      "台本",
+      "楽譜"
+    ],
+    "confusableSpellings": [
+      "manuscipt",
+      "manscript",
+      "manuscriptt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'manuscriptus' から。'manus'（手）＋ 'scriptus'（書かれた）の合成語。文字通り「手で書かれたもの」が原義。",
+      "tips": "現代では印刷前の「原稿」全般を指す。「手書きでなくてもよいのか」と疑問に思う学習者が多いが、今はタイプ打ちの原稿も manuscript と呼ぶ。",
+      "confusables": "'script' は映画・演劇の台本や手書き文字を指す。manuscript はより学術的・文学的な文脈で「出版前の原稿」や「歴史的写本」を指すことが多い。",
+      "collocations": [
+        "submit a manuscript",
+        "ancient manuscript",
+        "manuscript editor"
+      ],
+      "trivia": "グーテンベルクが活版印刷を発明する前、ヨーロッパでは修道士が manuscript を手で書き写す仕事を何十年もかけて行っていた。1冊の聖書を写すのに約1年かかったとも言われる。"
+    },
+    "frequency": 5000,
+    "cefr": "C1"
+  },
+  {
+    "id": 1576,
+    "word": "obsession",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "強迫観念、執着",
+        "pos": "noun"
+      },
+      {
+        "meaning": "病的なこだわり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əbˈsɛʃən/",
+    "syllables": "ob-ses-sion",
+    "audioHint": "オブセッション",
+    "examples": [
+      {
+        "en": "His obsession with cleanliness affected his daily life.",
+        "ja": "清潔さへの彼の強迫観念は日常生活に影響を与えた。",
+        "blank": "His ___ with cleanliness affected his daily life.",
+        "blankAnswer": "obsession"
+      }
+    ],
+    "distractors": [
+      "幻想",
+      "衝動",
+      "偏見"
+    ],
+    "confusableSpellings": [
+      "obsesion",
+      "obssession",
+      "obsesssion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'obsessio' から。'ob-'（に対して）＋ 'sedere'（座る・占領する）。「心が何かに占領されている状態」が原義。",
+      "tips": "'obsession with ...' の形で使うのが基本。'obsessed with ...' という形容詞版もよく使われる。日本語の「マイブーム」と違い、obsession はネガティブな過剰さのニュアンスがある。",
+      "confusables": "'passion'（情熱）はポジティブな強い関心。'obsession' は制御できないほど頭から離れない状態でネガティブなニュアンスが強い。同じ「好きなもの」でも度合いが違う。",
+      "collocations": [
+        "obsession with",
+        "become an obsession",
+        "unhealthy obsession"
+      ],
+      "trivia": "カルバン・クラインの香水『Obsession』で世界的に知られた単語。マーケティングでは「それなしではいられない」状態を演出するために意図的に使われる。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1577,
+    "word": "hygiene",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "衛生、清潔",
+        "pos": "noun"
+      },
+      {
+        "meaning": "衛生学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhaɪdʒiːn/",
+    "syllables": "hy-giene",
+    "audioHint": "ハイジーン",
+    "examples": [
+      {
+        "en": "Good personal hygiene helps prevent the spread of disease.",
+        "ja": "良好な個人の衛生管理は病気の蔓延を防ぐのに役立つ。",
+        "blank": "Good personal ___ helps prevent the spread of disease.",
+        "blankAnswer": "hygiene"
+      }
+    ],
+    "distractors": [
+      "栄養",
+      "免疫",
+      "診断"
+    ],
+    "confusableSpellings": [
+      "hygene",
+      "hygiene",
+      "hiegene"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'Hygieia'（健康の女神）から。ヒポクラテスの医学における「健康を保つ術」を意味する 'hygieinē technē' が語源。",
+      "tips": "発音は「ハイジーン」で、gi を「ジ」と読む。スペルの 'gn' の部分が難関。'hygiene' は不可算名詞なので 'a hygiene' とは言わない点に注意。",
+      "confusables": "'sanitation'（下水・廃棄物処理などの公衆衛生インフラ）と異なり、hygiene は個人または特定の場所の清潔さを指す。",
+      "collocations": [
+        "personal hygiene",
+        "oral hygiene",
+        "maintain hygiene"
+      ],
+      "trivia": "語源の Hygieia はギリシャ神話の健康の女神で、医神アスクレピオスの娘。ヨーロッパの薬局の看板によく登場する「蛇が巻きついた杯」はこの女神のシンボル。"
+    },
+    "frequency": 4800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1578,
+    "word": "paradigm",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "パラダイム、思考の枠組み",
+        "pos": "noun"
+      },
+      {
+        "meaning": "典型例、模範",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpærədaɪm/",
+    "syllables": "par-a-digm",
+    "audioHint": "パラダイム",
+    "examples": [
+      {
+        "en": "The internet caused a paradigm shift in how we communicate.",
+        "ja": "インターネットはコミュニケーションのあり方にパラダイムシフトをもたらした。",
+        "blank": "The internet caused a ___ shift in how we communicate.",
+        "blankAnswer": "paradigm"
+      }
+    ],
+    "distractors": [
+      "理論",
+      "仮説",
+      "定理"
+    ],
+    "confusableSpellings": [
+      "paradime",
+      "paradiagm",
+      "paradign"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'paradeigma'（模範・例）から。'para-'（並べて）＋ 'deiknynai'（示す）の合成。「比較のために並べて示したもの」が原義。",
+      "tips": "発音は「パラダイム」で、最後の 'gm' の g は黙字（発音しない）。'paradigm shift' というセットで使われることが非常に多い。ビジネス・学術文脈で頻出。",
+      "confusables": "'model'（モデル）は具体的な構造を指すが、paradigm はその時代・分野における「前提となる考え方の枠組み全体」を指す。より抽象度が高い語。",
+      "collocations": [
+        "paradigm shift",
+        "dominant paradigm",
+        "new paradigm"
+      ],
+      "trivia": "「パラダイムシフト」を広めたのは科学哲学者トーマス・クーン（1962年著『科学革命の構造』）。それまで「模範例」の意味しかなかった paradigm に「時代の思考枠組み」という意味を与えた。"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1579,
+    "word": "legitimate",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "正当な、合法的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "正規の、本物の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/lɪˈdʒɪtɪmɪt/",
+    "syllables": "le-git-i-mate",
+    "audioHint": "レジティメット",
+    "examples": [
+      {
+        "en": "She had a legitimate reason for missing the meeting.",
+        "ja": "彼女には会議を欠席するための正当な理由があった。",
+        "blank": "She had a ___ reason for missing the meeting.",
+        "blankAnswer": "legitimate"
+      }
+    ],
+    "distractors": [
+      "包括的な",
+      "曖昧な",
+      "暫定的な"
+    ],
+    "confusableSpellings": [
+      "legitmate",
+      "legetimate",
+      "legitimite"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'legitimatus'（法律に従った）から。'lex / legis'（法律）＋ '-imate'（〜にする）の構造。「法によって認められた」が原義。",
+      "tips": "口語では 'legit' という短縮形が非常によく使われる（例：That's totally legit.）。形容詞だけでなく動詞形 'legitimize'（正当化する）も重要。",
+      "confusables": "'legal'（法律上の）は法律の文言に関する客観的な話。'legitimate' は法律だけでなく「道徳的・社会的に正当である」という幅広い意味を持つ。",
+      "collocations": [
+        "legitimate concern",
+        "legitimate business",
+        "legitimate authority"
+      ],
+      "trivia": "英語スラングの 'legit' は SNS 世代に大人気。「マジで」「本物の」という意味で若者がよく使う。'That's legit awesome.' のように強調表現としても使われる。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1580,
+    "word": "authentic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "本物の、真正の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "信頼できる、信憑性のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɔːˈθɛntɪk/",
+    "syllables": "au-then-tic",
+    "audioHint": "オーセンティック",
+    "examples": [
+      {
+        "en": "This restaurant serves authentic Italian cuisine.",
+        "ja": "このレストランは本格的なイタリア料理を提供している。",
+        "blank": "This restaurant serves ___ Italian cuisine.",
+        "blankAnswer": "authentic"
+      }
+    ],
+    "distractors": [
+      "革新的な",
+      "客観的な",
+      "包括的な"
+    ],
+    "confusableSpellings": [
+      "authenitic",
+      "authenthic",
+      "authenic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'authentikos'（本人による）から。'autos'（自身）＋ 'hentes'（行為者）の構造。「自分自身によって作られた＝本物」が原義。",
+      "tips": "'authentic' は food・music・experience などと組み合わせて「本場の・正真正銘の」という意味でよく使われる。'genuine'（人の感情が本物の）とニュアンスが異なる点に注意。",
+      "confusables": "'genuine' は感情・人柄が「偽りのない・心からの」というニュアンス（例：genuine smile）。'authentic' はモノや経験が「原産地・オリジナルに忠実」というニュアンスが強い。",
+      "collocations": [
+        "authentic experience",
+        "authentic cuisine",
+        "authentic self"
+      ],
+      "trivia": "SNS 時代のキーワードとして 'Be authentic'（ありのままでいよう）が大流行。ブランドマーケティングでも「authenticity（真正性）」が消費者の信頼を得る最重要要素として注目されている。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  }
+]

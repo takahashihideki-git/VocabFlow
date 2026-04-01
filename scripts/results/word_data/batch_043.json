@@ -1,0 +1,1001 @@
+[
+  {
+    "id": 841,
+    "word": "passion",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "情熱",
+        "pos": "noun"
+      },
+      {
+        "meaning": "激情・強い感情",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpæʃ.ən/",
+    "syllables": "pas-sion",
+    "audioHint": "パッション",
+    "examples": [
+      {
+        "en": "She has a deep passion for music.",
+        "ja": "彼女は音楽への深い情熱を持っている。",
+        "blank": "She has a deep ___ for music.",
+        "blankAnswer": "passion"
+      }
+    ],
+    "distractors": [
+      "意識",
+      "信念",
+      "衝動"
+    ],
+    "confusableSpellings": [
+      "pasion",
+      "passoin",
+      "passhion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'passio'（苦しむこと）から。語根 'pati'（苦しむ）＋名詞化接尾辞 '-ion'。もともとはキリストの受難を指した言葉が「強い感情」へと意味が拡張された。",
+      "tips": "日本語の「パッション」はポジティブな意味で使われるが、英語の passion は恋愛・怒り・苦しみなど強い感情全般に使える。また 'passionate about ~' の形で「～に情熱的」という意味になるので、前置詞 about とセットで覚えよう。",
+      "confusables": "'enthusiasm' も「熱意」を表すが、passion は内から燃え上がる感情的な強さを強調し、enthusiasm は積極的な行動・態度のニュアンスが強い。",
+      "collocations": [
+        "passion for ~",
+        "burning passion",
+        "follow one's passion"
+      ],
+      "trivia": "英語の 'passionate' はもともと「受難を経験した人」を意味していた。情熱と苦しみが同じ語源を持つのは、愛と痛みが表裏一体だから…というロマンチックな話。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 842,
+    "word": "enthusiasm",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "熱意・熱狂",
+        "pos": "noun"
+      },
+      {
+        "meaning": "強い関心・意欲",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈθjuː.zi.æz.əm/",
+    "syllables": "en-thu-si-asm",
+    "audioHint": "エンスュージアズム",
+    "examples": [
+      {
+        "en": "The students showed great enthusiasm for the project.",
+        "ja": "生徒たちはそのプロジェクトに大きな熱意を示した。",
+        "blank": "The students showed great ___ for the project.",
+        "blankAnswer": "enthusiasm"
+      }
+    ],
+    "distractors": [
+      "誠実さ",
+      "忍耐",
+      "謙虚さ"
+    ],
+    "confusableSpellings": [
+      "enthusiasim",
+      "enthousiam",
+      "enthusiam"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'enthousiasmos'（神が乗り移った状態）から。'en-'（中に）＋ 'theos'（神）＋ '-iasmos'（状態を示す名詞化）。もともとは「神がかり」という宗教的な意味だった。",
+      "tips": "スペルが長くて間違えやすい単語の筆頭。'-siasm' の部分を「シアズム」と音で覚えるのがコツ。また 'enthusiastic about ~' の形で形容詞としてよく使われるので合わせて覚えよう。",
+      "confusables": "'passion' が感情的な燃え上がりを強調するのに対し、'enthusiasm' はより前向きで積極的な行動への意欲を示す。ビジネス場面では enthusiasm の方が使いやすい。",
+      "collocations": [
+        "show enthusiasm",
+        "with enthusiasm",
+        "enthusiasm for ~"
+      ],
+      "trivia": "語源の 'theos'（神）は 'theology'（神学）や 'atheist'（無神論者）とも同じ語根。「熱意がある人」は「神が宿っている人」だったなんて、ポジティブすぎる発想！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 843,
+    "word": "phase",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "段階・局面",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（月などの）位相・満ち欠け",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/feɪz/",
+    "syllables": "phase",
+    "audioHint": "フェイズ",
+    "examples": [
+      {
+        "en": "We are entering a new phase of the project.",
+        "ja": "私たちはプロジェクトの新しい段階に入っている。",
+        "blank": "We are entering a new ___ of the project.",
+        "blankAnswer": "phase"
+      }
+    ],
+    "distractors": [
+      "距離",
+      "容量",
+      "速度"
+    ],
+    "confusableSpellings": [
+      "faze",
+      "phaze",
+      "faize"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'phasis'（現れること・月の出）から。語根 'phainein'（輝く・現れる）に由来。月の満ち欠けが「現れ方の変化」を意味したことから「段階」へ拡張された。",
+      "tips": "発音は「フェイズ」で、同音異義語の 'faze'（動揺させる）と混同しないよう注意。'phase in/out'（段階的に導入／廃止する）という動詞用法もビジネス英語で頻出。",
+      "confusables": "'stage' も「段階」を意味するが、phase は時間の流れの中での変化の局面を強調し、stage はより明確に区切られたステップのニュアンスが強い。",
+      "collocations": [
+        "phase out",
+        "phase in",
+        "early phase"
+      ],
+      "trivia": "月の「満ち欠け」を英語で 'phases of the moon' という。この phase と「フェーズ1臨床試験」のような医学・科学用語の phase は完全に同じ単語。宇宙と医学をつなぐ語！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 844,
+    "word": "mode",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "方式・様式・モード",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（統計の）最頻値",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/moʊd/",
+    "syllables": "mode",
+    "audioHint": "モウド",
+    "examples": [
+      {
+        "en": "Switch the device to silent mode.",
+        "ja": "デバイスをサイレントモードに切り替えてください。",
+        "blank": "Switch the device to silent ___.",
+        "blankAnswer": "mode"
+      }
+    ],
+    "distractors": [
+      "速度",
+      "容量",
+      "接続"
+    ],
+    "confusableSpellings": [
+      "moad",
+      "moode",
+      "moide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'modus'（尺度・方法・様式）から直接借入。'mod-'（測る・制限する）という語根を持ち、'model'・'modern'・'modify' なども同じ語根から派生している。",
+      "tips": "日本語でも「セーフモード」「マナーモード」と使うが、英語では 'mode of transportation'（交通手段）のように「方式・手段」の意味でも広く使う。スマホ関連以外でも使えるようにしよう。",
+      "confusables": "'method' も「方法」だが、method は手順・やり方のプロセスを強調し、mode はある状態・様式・設定に焦点を当てる。'mode of payment'（支払い方式）のような言い方が典型。",
+      "collocations": [
+        "dark mode",
+        "mode of transport",
+        "in survival mode"
+      ],
+      "trivia": "統計用語の「最頻値」も mode という。平均（mean）・中央値（median）・最頻値（mode）の3つは統計の基本。なんと「流行（fashion）」を意味するフランス語 'la mode' も同語源で、「à la mode」は「流行の様式で」！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 845,
+    "word": "span",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "期間・範囲・幅",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（橋などの）スパン・径間",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/spæn/",
+    "syllables": "span",
+    "audioHint": "スパン",
+    "examples": [
+      {
+        "en": "His career spanned over thirty years.",
+        "ja": "彼のキャリアは30年以上にわたった。",
+        "blank": "His career ___ over thirty years.",
+        "blankAnswer": "spanned"
+      }
+    ],
+    "distractors": [
+      "高さ",
+      "深さ",
+      "重量"
+    ],
+    "confusableSpellings": [
+      "spann",
+      "spen",
+      "spun"
+    ],
+    "passive": {
+      "etymology": "古英語 'spann'（手の親指から小指までの長さ＝約9インチ）から。もともとは身体の「手の幅」という物理的な長さの単位だったが、時間・空間の広がり全般を指すように意味が拡張した。",
+      "tips": "動詞としても使えるのがポイント。'span'（〜にわたる）は過去形が 'spanned' と子音を重ねる。'attention span'（集中力が持続する時間）はよく使われる熟語なので必ず覚えよう。",
+      "confusables": "'period' も「期間」だが、period は明確に区切られた時間のかたまり、span は始点から終点までの広がりや距離感を強調する。'life span'（寿命）が典型的な使い方。",
+      "collocations": [
+        "attention span",
+        "life span",
+        "span of time"
+      ],
+      "trivia": "古代の長さの単位「スパン（span）」は約22.86cm。聖書にも登場する単位で、ノアの方舟の寸法もキュービット（cubit）やスパンで記されている。人間の体が物差し代わりだった時代の名残！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 846,
+    "word": "gravity",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "重力・引力",
+        "pos": "noun"
+      },
+      {
+        "meaning": "重大さ・深刻さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡræv.ɪ.ti/",
+    "syllables": "grav-i-ty",
+    "audioHint": "グラヴィティ",
+    "examples": [
+      {
+        "en": "Gravity keeps the planets in orbit around the sun.",
+        "ja": "重力が惑星を太陽の周囲の軌道に保っている。",
+        "blank": "___ keeps the planets in orbit around the sun.",
+        "blankAnswer": "Gravity"
+      }
+    ],
+    "distractors": [
+      "磁気",
+      "圧力",
+      "摩擦"
+    ],
+    "confusableSpellings": [
+      "gravety",
+      "graviti",
+      "graveity"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'gravitas'（重さ・重大さ）から。語根 'gravis'（重い）に由来し、'grave'（重大な・墓）・'grief'（悲しみ）とも同じ語根を持つ。重いものはすべてつながっている！",
+      "tips": "物理用語としての「重力」と、比喩的な「深刻さ」の両方の意味があることを意識しよう。'the gravity of the situation'（状況の深刻さ）は新聞・ニュース英語で非常によく出る表現。",
+      "confusables": "'gravity' は力としての重力全般を指し、'gravitation' は万有引力の法則のような物理学的概念を指すことが多い。日常会話では gravity でほぼ問題ない。",
+      "collocations": [
+        "center of gravity",
+        "gravity of the situation",
+        "defy gravity"
+      ],
+      "trivia": "ニュートンがリンゴが落ちるのを見て重力を発見したという話は半分伝説だが、ニュートン自身がその話をしていたのは本当。映画『Gravity』（2013年）のタイトルは「重力がない宇宙」と「状況の重大さ」のダブルミーニング！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 847,
+    "word": "orbit",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "軌道",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（影響の）範囲・領域",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɔːr.bɪt/",
+    "syllables": "or-bit",
+    "audioHint": "オービット",
+    "examples": [
+      {
+        "en": "The satellite travels in orbit around Earth.",
+        "ja": "その衛星は地球の周囲の軌道を飛行している。",
+        "blank": "The satellite travels in ___ around Earth.",
+        "blankAnswer": "orbit"
+      }
+    ],
+    "distractors": [
+      "気候",
+      "地形",
+      "生態系"
+    ],
+    "confusableSpellings": [
+      "orbite",
+      "orbet",
+      "orbitt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'orbita'（車輪の跡・円い道）から。語根 'orbis'（円・球）に由来し、'orb'（球・天体）とも関連。円形に動く道筋というイメージが語源。",
+      "tips": "名詞だけでなく動詞としても使える。'orbit the Earth'（地球を周回する）のように自動詞・他動詞両方で使える。'in orbit'（軌道上に）という熟語もよく出る。",
+      "confusables": "'trajectory'（弾道・軌跡）は一方向に進む経路を指すのに対し、orbit は繰り返す円軌道を指す。ロケットが月へ向かう経路は trajectory、月の周りを回るのは orbit。",
+      "collocations": [
+        "in orbit",
+        "orbit the Earth",
+        "enter orbit"
+      ],
+      "trivia": "人間を初めて地球軌道に乗せたのはソ連のガガーリン（1961年）で「地球は青かった」という言葉が有名。軌道を1周するのにかかった時間はわずか108分。新幹線で東京〜大阪を往復する時間より短い！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 848,
+    "word": "asteroid",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "小惑星",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（古）ヒトデ類",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæs.tər.ɔɪd/",
+    "syllables": "as-ter-oid",
+    "audioHint": "アスタロイド",
+    "examples": [
+      {
+        "en": "An asteroid hit Earth and wiped out the dinosaurs.",
+        "ja": "小惑星が地球に衝突し恐竜を絶滅させた。",
+        "blank": "An ___ hit Earth and wiped out the dinosaurs.",
+        "blankAnswer": "asteroid"
+      }
+    ],
+    "distractors": [
+      "火山",
+      "台風",
+      "津波"
+    ],
+    "confusableSpellings": [
+      "asteriod",
+      "asteroit",
+      "astreoid"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'asteroeides'（星のような）から。'aster'（星）＋ '-oid'（〜のような形をした）で構成。'aster' は 'astronomy'（天文学）・'disaster'（災害、元は「星の影響による不吉」）にも含まれる。",
+      "tips": "スペルで最も多いミスは '-oid' の前に 'r' を入れてしまうこと（asterOId の O の前が 'r' ではなく空）。「アスター（星）＋オイド（形）」と分解して覚えるとスペルが安定する。",
+      "confusables": "'comet'（彗星）は氷と塵でできていて尾を引くが、asteroid は岩石・金属でできた不規則な形の天体で尾はない。'meteor'（流星）は大気圏に入って燃えているもので地上に落ちると 'meteorite'（隕石）になる。",
+      "collocations": [
+        "asteroid belt",
+        "asteroid impact",
+        "near-Earth asteroid"
+      ],
+      "trivia": "'disaster'（災害）の語源は 'dis-'（悪い）＋ 'aster'（星）で「凶星」。古代人は不吉な出来事を悪い星のせいにしていた。そして実際に小惑星が恐竜を絶滅させたのだから、あながち間違いじゃなかった！"
+    },
+    "frequency": 5000,
+    "cefr": "B2"
+  },
+  {
+    "id": 849,
+    "word": "core",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "核心・中心",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（地球・リンゴなどの）核・芯",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kɔːr/",
+    "syllables": "core",
+    "audioHint": "コア",
+    "examples": [
+      {
+        "en": "Trust is the core of any strong relationship.",
+        "ja": "信頼はあらゆる強い関係の核心だ。",
+        "blank": "Trust is the ___ of any strong relationship.",
+        "blankAnswer": "core"
+      }
+    ],
+    "distractors": [
+      "表面",
+      "境界",
+      "象徴"
+    ],
+    "confusableSpellings": [
+      "cour",
+      "cor",
+      "kore"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'cor'（心臓）から、またはラテン語 'cor'（心）に由来するとも言われる。リンゴの「芯」という具体的な意味から「中心・核心」という抽象的な意味へと拡張した。",
+      "tips": "形容詞的に名詞を修飾して 'core value'（中核的価値観）・'core business'（中核事業）のように使うのがビジネス英語では非常に多い。'at the core of ~'（〜の核心に）という前置詞句も重要。",
+      "confusables": "'center' も「中心」だが、center は位置的な中央を指すのに対し、core は本質・要点・最も重要な部分というニュアンスが強い。'the core issue'（核心的な問題）は 'the center issue' とは言わない。",
+      "collocations": [
+        "core value",
+        "at the core of",
+        "core curriculum"
+      ],
+      "trivia": "地球の core（核）は外核（液体の鉄）と内核（固体の鉄）に分かれていて、内核の温度は約5,000〜6,000℃、太陽の表面温度とほぼ同じ！足の下にそんな灼熱の塊があるとは。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 850,
+    "word": "soul",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "魂・精神",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（音楽の）ソウル・感情表現",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/soʊl/",
+    "syllables": "soul",
+    "audioHint": "ソウル",
+    "examples": [
+      {
+        "en": "Music speaks directly to the soul.",
+        "ja": "音楽は直接魂に語りかける。",
+        "blank": "Music speaks directly to the ___.",
+        "blankAnswer": "soul"
+      }
+    ],
+    "distractors": [
+      "記憶",
+      "意志",
+      "感覚"
+    ],
+    "confusableSpellings": [
+      "sole",
+      "sowl",
+      "soal"
+    ],
+    "passive": {
+      "etymology": "古英語 'sāwol'（魂・生命力）から。ゲルマン祖語 '*saiwaz' に由来し、もともとは「海・湖」と関連する語だったとも言われる（魂は水に宿るという古代信仰から）。",
+      "tips": "同音異義語の 'sole'（唯一の・靴底）と混同しないよう注意。'soul food'（ソウルフード）は「魂の食べ物」つまりアフリカ系アメリカ人の伝統料理を指す。「地元の食べ物」という意味での「ソウルフード」は和製英語的な使い方なので注意。",
+      "confusables": "'spirit' も「精神・魂」を意味するが、soul は個人の内面的・永遠的な本質を指し、spirit はより活力・気力・雰囲気のニュアンスが強い。'team spirit'（チームの精神）は言えるが 'team soul' は不自然。",
+      "collocations": [
+        "heart and soul",
+        "soul music",
+        "bare one's soul"
+      ],
+      "trivia": "「ソウルミュージック」のジャンル名は文字通り 'soul'（魂）から来ている。1960年代にアフリカ系アメリカ人が生み出したこの音楽は、魂を込めた歌い方が特徴。アレサ・フランクリンは「クイーン・オブ・ソウル」と呼ばれた。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 851,
+    "word": "nerve",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "神経",
+        "pos": "noun"
+      },
+      {
+        "meaning": "勇気・度胸",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/nɜːrv/",
+    "syllables": "nerve",
+    "audioHint": "ナーヴ",
+    "examples": [
+      {
+        "en": "The doctor said the pain was caused by a pinched nerve.",
+        "ja": "医師は、痛みは神経の圧迫によるものだと言った。",
+        "blank": "The doctor said the pain was caused by a pinched ___.",
+        "blankAnswer": "nerve"
+      }
+    ],
+    "distractors": [
+      "感染症",
+      "免疫反応",
+      "細胞分裂"
+    ],
+    "confusableSpellings": [
+      "nerv",
+      "neerve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'nervus'（腱・神経）に由来。英語には古フランス語 'nerf' を経て流入。",
+      "tips": "「nerve」には「神経」という医学的意味のほかに「度胸・ずうずうしさ」という口語的意味がある。'He has a lot of nerve!' は「彼はなんてずうずうしいんだ！」という意味になるので要注意。",
+      "confusables": "'neural'（神経の）は形容詞で、'nerve' は名詞。'nerve-wracking'（神経をすり減らすような）はよく使われる複合語。",
+      "collocations": [
+        "nerve cell（神経細胞）",
+        "get on someone's nerves（神経に障る）",
+        "nerve-wracking（神経をすり減らす）"
+      ],
+      "trivia": "「nerve」はもともと「腱」を指す言葉だった。古代人は腱と神経を区別していなかったため、同じ語が両方に使われていた。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 852,
+    "word": "infection",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "感染（症）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "伝染",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈfekʃən/",
+    "syllables": "in-fec-tion",
+    "audioHint": "インフェクション",
+    "examples": [
+      {
+        "en": "She went to the clinic because she had a bacterial infection.",
+        "ja": "彼女は細菌感染症にかかったのでクリニックへ行った。",
+        "blank": "She went to the clinic because she had a bacterial ___.",
+        "blankAnswer": "infection"
+      }
+    ],
+    "distractors": [
+      "神経障害",
+      "骨折",
+      "アレルギー反応"
+    ],
+    "confusableSpellings": [
+      "infaction",
+      "infectoin",
+      "infecshon"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'inficere'（中に入れる・汚染する）から。'in-'（中に）＋ 'facere'（する）が語源。",
+      "tips": "「infection」は名詞で、動詞形は「infect」、形容詞形は「infectious」。'infectious disease' と 'contagious disease' は似ているが、'infectious' は病原体が体内に入って起きる感染、'contagious' は接触によって広がる感染を強調する。",
+      "confusables": "'infection'（感染症）と 'inflammation'（炎症）は混同しやすい。感染は病原体によるもの、炎症は体の免疫反応。",
+      "collocations": [
+        "bacterial infection（細菌感染）",
+        "prevent infection（感染を防ぐ）",
+        "spread infection（感染を広める）"
+      ],
+      "trivia": "英語の「infected」はコンピュータウイルスにも使われる。生物の感染とデジタルの感染で同じ単語を使う発想が面白い。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 853,
+    "word": "mall",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "ショッピングモール",
+        "pos": "noun"
+      },
+      {
+        "meaning": "遊歩道",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/mɔːl/",
+    "syllables": "mall",
+    "audioHint": "モール",
+    "examples": [
+      {
+        "en": "We spent the afternoon shopping at the new mall downtown.",
+        "ja": "私たちは午後、繁華街の新しいショッピングモールで買い物をした。",
+        "blank": "We spent the afternoon shopping at the new ___ downtown.",
+        "blankAnswer": "mall"
+      }
+    ],
+    "distractors": [
+      "食料品店",
+      "倉庫",
+      "市場"
+    ],
+    "confusableSpellings": [
+      "maul",
+      "moll",
+      "mal"
+    ],
+    "passive": {
+      "etymology": "17世紀のボール遊び 'pall-mall'（マレットでボールを打つゲーム）を行った遊歩道が語源。後に「遊歩道」→「商業施設」へ意味が拡張。",
+      "tips": "発音は「マル」ではなく「モール」。'maul'（引き裂く）と同音なので文脈が重要。アメリカでは 'shopping mall' が一般的だが、イギリスでは 'shopping centre' と言うことが多い。",
+      "confusables": "'mall' と 'market' はどちらも買い物の場所だが、'mall' は屋内型の大型商業施設を指し、'market' は露天市場や市場全般を指す。",
+      "collocations": [
+        "shopping mall（ショッピングモール）",
+        "mall food court（フードコート）",
+        "go to the mall（モールへ行く）"
+      ],
+      "trivia": "ワシントンD.C.の「The National Mall」はショッピングモールではなく、国会議事堂からリンカーン記念館まで続く広大な公園。同じ単語でも全然違う場所！"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 854,
+    "word": "grocery",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "食料雑貨（店）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "食料品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡroʊsəri/",
+    "syllables": "gro-cer-y",
+    "audioHint": "グロウサリ",
+    "examples": [
+      {
+        "en": "I need to stop by the grocery store on my way home.",
+        "ja": "帰り道に食料品店に寄る必要がある。",
+        "blank": "I need to stop by the ___ store on my way home.",
+        "blankAnswer": "grocery"
+      }
+    ],
+    "distractors": [
+      "薬局",
+      "デパート",
+      "ショッピングモール"
+    ],
+    "confusableSpellings": [
+      "groecry",
+      "groccery",
+      "grocerry"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'grossier'（卸売業者）に由来。'gross'（全体・12ダース）と同語根で、「大量に売る人」が原義。",
+      "tips": "日本語の「グローサリー」とは少しニュアンスが違い、アメリカでは主に「スーパーマーケット」を指す。'groceries'（複数形）は「買い物した食料品」を意味する。'grocery shopping' で「食料品の買い物」。",
+      "confusables": "'grocery store' と 'supermarket' はほぼ同義だが、'grocery store' の方がやや小規模なイメージ。'convenience store' はコンビニで規模が異なる。",
+      "collocations": [
+        "grocery store（食料品店）",
+        "grocery shopping（食料品の買い物）",
+        "grocery list（買い物リスト）"
+      ],
+      "trivia": "「grocery」の語源は「卸売業者」なのに、今では完全に小売の食料品店を指す言葉になった。言葉の意味って変わるものだ！"
+    },
+    "frequency": 2500,
+    "cefr": "A2"
+  },
+  {
+    "id": 855,
+    "word": "humor",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "ユーモア・おかしさ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "気分・機嫌",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhjuːmər/",
+    "syllables": "hu-mor",
+    "audioHint": "ヒューマー",
+    "examples": [
+      {
+        "en": "His sense of humor always makes everyone laugh.",
+        "ja": "彼のユーモアのセンスはいつも皆を笑わせる。",
+        "blank": "His sense of ___ always makes everyone laugh.",
+        "blankAnswer": "humor"
+      }
+    ],
+    "distractors": [
+      "悲劇",
+      "リズム",
+      "色彩感覚"
+    ],
+    "confusableSpellings": [
+      "humour",
+      "humer",
+      "humore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'humor'（液体・体液）に由来。中世医学では体内の4つの体液（血液・粘液・黄胆汁・黒胆汁）が気質を決めると考えられており、「気分」の意味が生まれた。",
+      "tips": "'humor' はアメリカ英語のスペルで、イギリス英語では 'humour'。どちらも正解だが混用しないように。'sense of humor'（ユーモアのセンス）はセットで覚えよう。",
+      "confusables": "'humorous'（形容詞：おかしな）と 'humoral'（体液に関する）は全く意味が違う。また 'humor' を「ユーモア」と書くと名詞だが、「humoring someone」は「（人の気分を）合わせる」という動詞用法もある。",
+      "collocations": [
+        "sense of humor（ユーモアのセンス）",
+        "dark humor（ブラックユーモア）",
+        "in a good humor（上機嫌で）"
+      ],
+      "trivia": "「ユーモア」の語源が「体液」だというのは意外！昔の医師は「黒胆汁が多い人は憂鬱」「血液が多い人は楽観的」と信じていた。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 856,
+    "word": "instinct",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "本能・直感",
+        "pos": "noun"
+      },
+      {
+        "meaning": "天性の才能",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnstɪŋkt/",
+    "syllables": "in-stinct",
+    "audioHint": "インスティンクト",
+    "examples": [
+      {
+        "en": "She trusted her instinct and made the right decision.",
+        "ja": "彼女は自分の直感を信じ、正しい判断を下した。",
+        "blank": "She trusted her ___ and made the right decision.",
+        "blankAnswer": "instinct"
+      }
+    ],
+    "distractors": [
+      "勇気",
+      "信仰心",
+      "動機"
+    ],
+    "confusableSpellings": [
+      "instint",
+      "instinckt",
+      "instink"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'instinctus'（衝動・促し）に由来。'in-'（中に）＋ 'stinguere'（刺す・突き動かす）が語根。",
+      "tips": "'instinct' は不可算名詞として使うことも多い（'by instinct'「本能的に」）。'instinctive'（形容詞）や 'instinctively'（副詞）も覚えておくと便利。「インスティンクティブに行動する」という表現が使いやすい。",
+      "confusables": "'instinct'（本能・直感）と 'intuition'（直観）は似ているが、'instinct' は生まれつきの動物的なもの、'intuition' は経験や感覚から来る知的な直感というニュアンスがある。",
+      "collocations": [
+        "survival instinct（生存本能）",
+        "trust one's instinct（直感を信じる）",
+        "by instinct（本能的に）"
+      ],
+      "trivia": "「instinct」の語根 'stinguere'（刺す）は 'distinguish'（区別する）や 'extinct'（絶滅した）とも同じ語根。「刺す→突き動かす→本能」という意味の流れが面白い！"
+    },
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 857,
+    "word": "faith",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "信頼・信念",
+        "pos": "noun"
+      },
+      {
+        "meaning": "信仰・宗教的信仰",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/feɪθ/",
+    "syllables": "faith",
+    "audioHint": "フェイス",
+    "examples": [
+      {
+        "en": "She has great faith in her team's ability to succeed.",
+        "ja": "彼女はチームが成功する能力を深く信頼している。",
+        "blank": "She has great ___ in her team's ability to succeed.",
+        "blankAnswer": "faith"
+      }
+    ],
+    "distractors": [
+      "勇気",
+      "本能",
+      "見通し"
+    ],
+    "confusableSpellings": [
+      "feith",
+      "faeth",
+      "faiht"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'fides'（信頼・誠実）に由来し、古フランス語 'foi' を経て英語へ。'fidelity'（忠実さ）や 'confident'（自信がある）と同語根。",
+      "tips": "'faith' は不可算名詞として使われることが多い。「信仰を持つ」は 'have faith'、「〜を信頼する」は 'have faith in someone'。'faith' と 'trust' はどちらも「信頼」だが、'faith' はより感情的・精神的なニュアンスが強い。",
+      "confusables": "'faith'（信頼・信仰）と 'belief'（信念・信じること）は近いが、'faith' はより深い信頼感や宗教的な含意がある。'trust' は実績に基づく信頼に使いやすい。",
+      "collocations": [
+        "have faith in（〜を信頼する）",
+        "religious faith（宗教的信仰）",
+        "in good faith（誠意を持って）"
+      ],
+      "trivia": "「in bad faith」（不誠実に）という表現は法律用語でもよく使われる。逆の「in good faith」（誠意を持って）は契約書などでもお馴染みの表現。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 858,
+    "word": "courage",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "勇気・度胸",
+        "pos": "noun"
+      },
+      {
+        "meaning": "精神的な強さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɜːrɪdʒ/",
+    "syllables": "cour-age",
+    "audioHint": "カーリッジ",
+    "examples": [
+      {
+        "en": "It takes courage to speak honestly in front of everyone.",
+        "ja": "皆の前で正直に話すには勇気が要る。",
+        "blank": "It takes ___ to speak honestly in front of everyone.",
+        "blankAnswer": "courage"
+      }
+    ],
+    "distractors": [
+      "信念",
+      "直感",
+      "動機"
+    ],
+    "confusableSpellings": [
+      "couarge",
+      "corrage",
+      "courrage"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'corage'（心・勇気）に由来。ラテン語 'cor'（心臓・心）が語根。'cordial'（心からの）や 'accord'（合意）とも同語根。",
+      "tips": "'courage' は不可算名詞。「勇気を出す」は 'have the courage to do' や 'take courage'、「勇気づける」は 'encourage'。'courageous' が形容詞形で、'bravery' とほぼ同義だが 'courage' はより内面的な強さを指す。",
+      "confusables": "'courage'（精神的な勇気）と 'bravery'（危険に立ち向かう勇敢さ）は似ているが、'courage' は恐れを感じながらもやり遂げる意志の強さ、'bravery' は恐れをあまり感じないような勇敢さというニュアンスの違いがある。",
+      "collocations": [
+        "have the courage（勇気を持つ）",
+        "show courage（勇気を示す）",
+        "courage to speak up（発言する勇気）"
+      ],
+      "trivia": "「勇気」の語源が「心臓（cor）」というのは面白い。古代人は感情や勇気が心臓にあると信じていた。'encourage'（励ます）は文字通り「心を入れてあげる」という意味！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 859,
+    "word": "incentive",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "動機・インセンティブ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "奨励・刺激",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈsentɪv/",
+    "syllables": "in-cen-tive",
+    "audioHint": "インセンティヴ",
+    "examples": [
+      {
+        "en": "The company offered a bonus as an incentive to work harder.",
+        "ja": "会社はより懸命に働く動機としてボーナスを提供した。",
+        "blank": "The company offered a bonus as an ___ to work harder.",
+        "blankAnswer": "incentive"
+      }
+    ],
+    "distractors": [
+      "信仰心",
+      "本能",
+      "勇気"
+    ],
+    "confusableSpellings": [
+      "incentative",
+      "inscentive",
+      "incetive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'incentivum'（火をつけるもの）に由来。'in-'（中に）＋ 'canere'（歌う・鳴らす）が語根で、「最初に音頭をとる」が原義から「刺激・動機」へ。",
+      "tips": "'incentive' は「やる気を引き出すための報酬や刺激」を指す。'motivation'（動機・やる気）と似ているが、'incentive' は外部から与えられるもの（ボーナス、割引など）、'motivation' は内外両方の動機に使える。",
+      "confusables": "'incentive'（外部からの動機付け）と 'motivation'（動機・やる気）の違いに注意。'incentive' は報酬や仕組みを伴うことが多く、ビジネス文書でよく使われる。",
+      "collocations": [
+        "financial incentive（金銭的な動機）",
+        "provide an incentive（動機を与える）",
+        "tax incentive（税制優遇措置）"
+      ],
+      "trivia": "「incentive」の語源が「歌う・音頭をとる」というのは意外！合唱で最初に音を出す人が全体を導く→「人を動かすきっかけ」という意味の変化が面白い。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 860,
+    "word": "prospect",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "見通し・可能性",
+        "pos": "noun"
+      },
+      {
+        "meaning": "将来性のある人・候補者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɒspekt/",
+    "syllables": "pro-spect",
+    "audioHint": "プロスペクト",
+    "examples": [
+      {
+        "en": "The job offers good prospects for career advancement.",
+        "ja": "その仕事はキャリアアップの良い見通しを提供している。",
+        "blank": "The job offers good ___ for career advancement.",
+        "blankAnswer": "prospects"
+      }
+    ],
+    "distractors": [
+      "信念",
+      "本能",
+      "動機"
+    ],
+    "confusableSpellings": [
+      "prospact",
+      "prospeckt",
+      "propsect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'prospectus'（眺め・展望）に由来。'pro-'（前に）＋ 'specere'（見る）が語根。'inspect'（検査する）や 'spectacle'（見世物）とも同語根。",
+      "tips": "'prospect' は単数で「見通し・展望」、複数形 'prospects' で「将来の可能性・見込み」を表すことが多い。動詞として「（金・石油などを）探査する」という意味もある（例: prospect for gold）。",
+      "confusables": "'prospect'（将来の見通し）と 'perspective'（見方・視点）は混同しやすい。'prospect' は「将来に何が起こるか」、'perspective' は「物事をどう見るか」というニュアンスの違いがある。",
+      "collocations": [
+        "future prospects（将来の見通し）",
+        "job prospects（就職の見込み）",
+        "bright prospect（明るい展望）"
+      ],
+      "trivia": "スポーツ界では 'prospect'（プロスペクト）が「将来有望な若手選手」を指す。野球などで「トッププロスペクト」というランキングがあるのはこの意味から！"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  }
+]

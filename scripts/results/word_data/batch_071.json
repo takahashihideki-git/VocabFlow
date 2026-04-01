@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1401,
+    "word": "update",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "更新する、アップデートする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "最新情報を提供する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʌpˈdeɪt/",
+    "syllables": "up-date",
+    "audioHint": "アップデイト",
+    "examples": [
+      {
+        "en": "Please update your software to the latest version.",
+        "ja": "ソフトウェアを最新バージョンに更新してください。",
+        "blank": "Please ___ your software to the latest version.",
+        "blankAnswer": "update"
+      }
+    ],
+    "distractors": [
+      "再起動する",
+      "削除する",
+      "バックアップを取る"
+    ],
+    "confusableSpellings": [
+      "updata",
+      "updaet"
+    ],
+    "passive": {
+      "etymology": "接頭辞 up-（上へ・最新へ）＋ date（日付・時代）。「日付を最新にする」が原義。",
+      "tips": "名詞としても使え、「an update」で「最新情報」「更新プログラム」の意味になる。動詞のアクセントは後ろ（upDATE）、名詞のアクセントは前（UPdate）と変わることに注意。",
+      "confusables": "upgrade との違い：update は「内容を最新にする」、upgrade は「より上位のランクや性能に上げる」というニュアンス。",
+      "collocations": [
+        "update the system",
+        "update a database",
+        "keep someone updated"
+      ],
+      "trivia": "「Windows Update」など固有名詞として浸透しすぎて、日本語でも「アップデートする」と動詞的に使われる数少ない英語由来の外来語の一つ。"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1402,
+    "word": "refresh",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "再読み込みする、更新する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "リフレッシュさせる、元気を回復させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈfrɛʃ/",
+    "syllables": "re-fresh",
+    "audioHint": "リフレッシュ",
+    "examples": [
+      {
+        "en": "Refresh the page to see the latest news.",
+        "ja": "最新ニュースを見るにはページを更新してください。",
+        "blank": "___ the page to see the latest news.",
+        "blankAnswer": "Refresh"
+      }
+    ],
+    "distractors": [
+      "暗号化する",
+      "ダウンロードする",
+      "圧縮する"
+    ],
+    "confusableSpellings": [
+      "refesh",
+      "refrsh"
+    ],
+    "passive": {
+      "etymology": "接頭辞 re-（再び）＋ fresh（新鮮な）。「再び新鮮にする」が語源。",
+      "tips": "IT文脈では「ページの再読み込み」を指すが、日常会話では「気分転換になる」という意味でもよく使う。'Let me refresh my memory.' は「記憶を呼び起こす」という慣用表現。",
+      "confusables": "reload との違い：refresh はページ全体を新鮮な状態に戻すニュアンス、reload は単純に再読み込みする動作を指す。",
+      "collocations": [
+        "refresh the page",
+        "refresh your memory",
+        "feel refreshed"
+      ],
+      "trivia": "飲み物のCMで「refreshing（さわやかな）」という形容詞がよく使われるが、実は「refresh」の原形は古フランス語の「refrescher」から来ており、文字通り「冷やして新鮮にする」という意味だった。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1403,
+    "word": "bloom",
+    "pos": "verb",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "花が咲く、開花する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "繁栄する、輝く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bluːm/",
+    "syllables": "bloom",
+    "audioHint": "ブルーム",
+    "examples": [
+      {
+        "en": "The cherry trees bloom beautifully every spring.",
+        "ja": "桜の木は毎年春に美しく花を咲かせる。",
+        "blank": "The cherry trees ___ beautifully every spring.",
+        "blankAnswer": "bloom"
+      }
+    ],
+    "distractors": [
+      "枯れる",
+      "根を張る",
+      "葉を落とす"
+    ],
+    "confusableSpellings": [
+      "bloon",
+      "blome"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 blóm（花）に由来。同じ語根から blossom も派生しており、花咲くことを表す古い北欧の言葉。",
+      "tips": "bloom と blossom はほぼ同義だが、bloom はより詩的・比喩的に使われることが多い。「in full bloom（満開で）」は頻出表現なので丸ごと覚えよう。",
+      "confusables": "blossom との違い：blossom は主に果樹の花に使われ、bloom はより広く使える。比喩的に「才能が開花する」には両方使えるが bloom の方が一般的。",
+      "collocations": [
+        "bloom in spring",
+        "in full bloom",
+        "bloom with color"
+      ],
+      "trivia": "英語の「bloom」は「青春期」「輝き」も意味し、「the bloom of youth（若さの輝き）」という表現がある。日本の「花が咲く」文化と見事にリンクする言葉だ。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1404,
+    "word": "conquer",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "征服する、制圧する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "克服する、打ち勝つ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒŋkər/",
+    "syllables": "con-quer",
+    "audioHint": "コンカー",
+    "examples": [
+      {
+        "en": "Alexander the Great conquered many lands in Asia.",
+        "ja": "アレクサンダー大王はアジアの多くの土地を征服した。",
+        "blank": "Alexander the Great ___ many lands in Asia.",
+        "blankAnswer": "conquered"
+      }
+    ],
+    "distractors": [
+      "統治する",
+      "交渉する",
+      "亡命する"
+    ],
+    "confusableSpellings": [
+      "conquor",
+      "conqer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 conquirere（完全に獲得する）から。con-（完全に）＋ quaerere（求める・獲得する）が語源。",
+      "tips": "スペルに注意！末尾は -quer であり -quor ではない。また「恐怖を克服する（conquer fear）」のように精神的な意味でもよく使われる。",
+      "confusables": "defeat との違い：defeat は「試合や戦闘で相手に勝つ」こと、conquer は「完全に支配下に置く」ニュアンスが強い。",
+      "collocations": [
+        "conquer a country",
+        "conquer fear",
+        "divide and conquer"
+      ],
+      "trivia": "「divide and conquer（分割統治）」はローマ帝国の統治戦略として有名で、現代のアルゴリズム（プログラミング）でも同名の手法がある。歴史とITが同じ言葉でつながる！"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1405,
+    "word": "induce",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "引き起こす、誘発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "説得する、誘う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈdjuːs/",
+    "syllables": "in-duce",
+    "audioHint": "インデュース",
+    "examples": [
+      {
+        "en": "Stress can induce serious health problems over time.",
+        "ja": "ストレスは時間とともに深刻な健康問題を引き起こしうる。",
+        "blank": "Stress can ___ serious health problems over time.",
+        "blankAnswer": "induce"
+      }
+    ],
+    "distractors": [
+      "抑制する",
+      "観察する",
+      "選択する"
+    ],
+    "confusableSpellings": [
+      "enduce",
+      "induse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inducere から。in-（中へ）＋ ducere（導く）。「中へ引き込む・導く」が原義。",
+      "tips": "「cause」より硬い文語的な表現。医療・科学文書では「誘発する」、法律では「説得して～させる」という意味で頻出。日常会話ではあまり使わない。",
+      "confusables": "deduce との違い：induce は「原因から結果を引き起こす」、deduce は「情報から論理的に結論を導き出す」という全く異なる意味。語根 duce（導く）は同じ。",
+      "collocations": [
+        "induce sleep",
+        "induce labor",
+        "induce vomiting"
+      ],
+      "trivia": "「induced labor（分娩誘発）」や「sleep-inducing（眠気を誘う）」など、医療現場で頻出。ホラー映画のレビューで「sleep-inducing（眠くなる＝退屈）」と皮肉として使われることもある。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1406,
+    "word": "attain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "達成する、獲得する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（年齢・地位に）達する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈteɪn/",
+    "syllables": "at-tain",
+    "audioHint": "アテイン",
+    "examples": [
+      {
+        "en": "She worked hard to attain her goal of becoming a doctor.",
+        "ja": "彼女は医者になるという目標を達成するために懸命に努力した。",
+        "blank": "She worked hard to ___ her goal of becoming a doctor.",
+        "blankAnswer": "attain"
+      }
+    ],
+    "distractors": [
+      "放棄する",
+      "妨害する",
+      "延期する"
+    ],
+    "confusableSpellings": [
+      "attian",
+      "atain"
+    ],
+    "passive": {
+      "etymology": "古フランス語 ataindre から。ラテン語 attingere（触れる・到達する）に由来。at-（～へ）＋ tangere（触れる）が語根。",
+      "tips": "achieve との違いを混同しがち。attain はより「高い目標や水準に到達する」フォーマルな語。資格・年齢・地位の到達に使うことが多い（例：attain the age of 18）。",
+      "confusables": "achieve との違い：achieve は努力の結果として何かを成し遂げるニュアンス全般に使えるが、attain はある高い水準や目標地点に「届く・到達する」イメージが強い。",
+      "collocations": [
+        "attain a goal",
+        "attain success",
+        "attain a high level"
+      ],
+      "trivia": "「attainment（達成・習得）」という名詞は英国の教育システムで頻繁に使われ、生徒の学力レベルを示す「attainment levels」という概念がある。日本の「到達目標」とほぼ同じ発想だ。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1407,
+    "word": "spray",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "噴霧する、スプレーする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（液体を）吹きかける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/spreɪ/",
+    "syllables": "spray",
+    "audioHint": "スプレイ",
+    "examples": [
+      {
+        "en": "She sprayed perfume on her wrist before leaving.",
+        "ja": "彼女は出かける前に手首に香水を吹きかけた。",
+        "blank": "She ___ perfume on her wrist before leaving.",
+        "blankAnswer": "sprayed"
+      }
+    ],
+    "distractors": [
+      "こする",
+      "握る",
+      "押しつける"
+    ],
+    "confusableSpellings": [
+      "sprey",
+      "spary"
+    ],
+    "passive": {
+      "etymology": "中オランダ語 spraeyen（水をまき散らす）に由来。「液体を細かく散らす」という古い動作を表す語。",
+      "tips": "名詞としても「スプレー（缶）」の意味で使えるため、動詞・名詞両方の用法を覚えておくと便利。「spray paint（スプレー塗料）」は名詞の複合語として頻出。",
+      "confusables": "sprinkle との違い：spray は液体を「霧状・噴射状」に吹きかけること、sprinkle は水や粉などを「パラパラと振りかける」こと。",
+      "collocations": [
+        "spray water",
+        "spray paint",
+        "spray perfume"
+      ],
+      "trivia": "グラフィティアート（落書きアート）は英語で「spray-can art」や「aerosol art」とも呼ばれ、spray という動詞が都市文化と深く結びついている。バンクシーも spray なしでは語れない！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1408,
+    "word": "retrieve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り戻す、回収する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（データを）検索・取得する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈtriːv/",
+    "syllables": "re-trieve",
+    "audioHint": "リトリーヴ",
+    "examples": [
+      {
+        "en": "The dog retrieved the ball from the water.",
+        "ja": "犬は水の中からボールを取り戻してきた。",
+        "blank": "The dog ___ the ball from the water.",
+        "blankAnswer": "retrieved"
+      }
+    ],
+    "distractors": [
+      "処分する",
+      "複製する",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "retreive",
+      "retrive"
+    ],
+    "passive": {
+      "etymology": "古フランス語 retrouver（再び見つける）に由来。re-（再び）＋ trouver（見つける）。「失ったものを再び見つけ出す」が原義。",
+      "tips": "ie/ei の並びに注意。retrieve は「i の前に e」ではなく「e の前に i」——「i before e except after c」の例外。スペルミスが非常に多い単語。",
+      "confusables": "recover との違い：recover は「失ったものを取り戻す・回復する」と広く使えるが、retrieve はより「特定の場所から意図的に取りに行く」動作的なニュアンスが強い。",
+      "collocations": [
+        "retrieve data",
+        "retrieve a file",
+        "retrieve information"
+      ],
+      "trivia": "「レトリーバー（Retriever）」という犬種名はこの動詞から来ている。猟師が撃ち落とした獲物を水中から「回収してくる」ために品種改良された犬だから。ゴールデンレトリーバーの名前の由来がここに！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1409,
+    "word": "portray",
+    "pos": "verb",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "描写する、表現する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（役を）演じる、演ずる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pɔːrˈtreɪ/",
+    "syllables": "por-tray",
+    "audioHint": "ポートレイ",
+    "examples": [
+      {
+        "en": "The film portrays the life of a young artist in Paris.",
+        "ja": "その映画はパリの若い芸術家の生活を描いている。",
+        "blank": "The film ___ the life of a young artist in Paris.",
+        "blankAnswer": "portrays"
+      }
+    ],
+    "distractors": [
+      "批評する",
+      "展示する",
+      "彫刻する"
+    ],
+    "confusableSpellings": [
+      "portrey",
+      "pourtray"
+    ],
+    "passive": {
+      "etymology": "古フランス語 portraire（描く）に由来。por-（前へ、完全に）＋ traire（引き出す）。「引き出して描く」が原義。portrait（肖像画）と同語源。",
+      "tips": "「portray A as B（AをBとして描写する）」という構文が頻出。例：The media portrayed him as a hero.（メディアは彼を英雄として描いた）",
+      "confusables": "depict との違い：depict は絵・写真などの視覚的描写に使いやすいが、portray はより幅広く文章・演技・映画での「人物像の描写」に使われる。",
+      "collocations": [
+        "portray a character",
+        "portray a scene",
+        "portray someone as"
+      ],
+      "trivia": "「portrait（肖像画）」と portray は同じ語根を持つ。昔は肖像画が「その人物を後世に描き残す」唯一の手段だったので、描くことと演じることが同じ語から来ているのは理にかなっている。"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1410,
+    "word": "scratch",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "引っかく、かく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（表面を）引っかいて傷つける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/skrætʃ/",
+    "syllables": "scratch",
+    "audioHint": "スクラッチ",
+    "examples": [
+      {
+        "en": "The cat scratched the wooden door with its claws.",
+        "ja": "猫は爪で木のドアをひっかいた。",
+        "blank": "The cat ___ the wooden door with its claws.",
+        "blankAnswer": "scratched"
+      }
+    ],
+    "distractors": [
+      "なでる",
+      "叩く",
+      "つかむ"
+    ],
+    "confusableSpellings": [
+      "scrach",
+      "scatch"
+    ],
+    "passive": {
+      "etymology": "中英語 scrachen に由来。おそらく scrat（引っかく）と cratch（かく）の混合語。擬音的な要素を持つ語とも言われる。",
+      "tips": "「from scratch（ゼロから）」は非常に重要な慣用表現。料理・プログラミング・ビジネスなど幅広い文脈で使える。「start from scratch」で「ゼロから始める」。",
+      "confusables": "scrape との違い：scratch はランダムに引っかく感じ、scrape は表面を「こすり取る・削る」方向性のある動作。どちらも「表面を傷つける」が微妙にニュアンスが異なる。",
+      "collocations": [
+        "scratch the surface",
+        "from scratch",
+        "scratch a lottery ticket"
+      ],
+      "trivia": "「scratch」はDJ文化でも重要な言葉。レコードを前後に動かして音を出すテクニックを「スクラッチ」と呼ぶが、まさに「引っかく」動作そのもの。ヒップホップ文化がこの単語に新しい命を吹き込んだ！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1411,
+    "word": "designate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "指定する、指名する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～と呼ぶ、称する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɛzɪɡneɪt/",
+    "syllables": "des-ig-nate",
+    "audioHint": "デズィグネイト",
+    "examples": [
+      {
+        "en": "The city designated this area as a historic district.",
+        "ja": "市はこのエリアを歴史地区に指定した。",
+        "blank": "The city ___ this area as a historic district.",
+        "blankAnswer": "designated"
+      }
+    ],
+    "distractors": [
+      "中断する",
+      "出発する",
+      "操作する"
+    ],
+    "confusableSpellings": [
+      "designiate",
+      "dessignate",
+      "dezignate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 designare（印をつける）から。de-（完全に）＋ signare（しるしをつける）＋ signum（印）が語源。",
+      "tips": "「指定する」という意味では as を使って designate A as B（AをBに指定する）という形が頻出。be designated as ～ の受動態もよく使われる。",
+      "confusables": "assign も「割り当てる」意味だが、designate は公式・正式な指定のニュアンスが強い。assign は個人への業務割り当てにも使う。",
+      "collocations": [
+        "designate as",
+        "officially designate",
+        "designated area"
+      ],
+      "trivia": "「designated driver（指定運転手）」という表現は、飲み会で一人だけお酒を飲まずに皆を送り届ける役割を指す英語圏の文化的慣習で、1980年代のアメリカで広まった。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1412,
+    "word": "contradict",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "矛盾する、否定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "反論する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌkɒntrəˈdɪkt/",
+    "syllables": "con-tra-dict",
+    "audioHint": "コントラディクト",
+    "examples": [
+      {
+        "en": "His actions contradict everything he said yesterday.",
+        "ja": "彼の行動は昨日言ったことと矛盾している。",
+        "blank": "His actions ___ everything he said yesterday.",
+        "blankAnswer": "contradict"
+      }
+    ],
+    "distractors": [
+      "診断する",
+      "理解する",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "contradikt",
+      "contradict",
+      "contradicte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 contradicere から。contra-（反対に）＋ dicere（言う）が語源。「反対のことを言う」が原義。",
+      "tips": "contradict は「言葉・事実・行動が矛盾する」のに対し、deny は「事実を否定する」というニュアンス。人を主語にして contradict someone（人に反論する）という使い方も自然。",
+      "confusables": "oppose は行動的に「反対する」意味。contradict は論理的・言語的な矛盾・否定を指す点で異なる。",
+      "collocations": [
+        "contradict oneself",
+        "directly contradict",
+        "contradict the evidence"
+      ],
+      "trivia": "「self-contradictory（自己矛盾している）」という言葉、哲学では有名な「クレタ人のパラドックス」（クレタ人が『クレタ人は嘘つきだ』と言う）がその代表例として古来議論されてきた。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1413,
+    "word": "sigh",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ため息をつく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ため息",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/saɪ/",
+    "syllables": "sigh",
+    "audioHint": "サイ",
+    "examples": [
+      {
+        "en": "She sighed deeply and put down her pen.",
+        "ja": "彼女は深くため息をついてペンを置いた。",
+        "blank": "She ___ deeply and put down her pen.",
+        "blankAnswer": "sighed"
+      }
+    ],
+    "distractors": [
+      "出発する",
+      "住む",
+      "つかむ"
+    ],
+    "confusableSpellings": [
+      "sigh",
+      "sygh",
+      "sihg"
+    ],
+    "passive": {
+      "etymology": "古英語 sīcan（ため息をつく）に由来。gh は発音しないが古英語では摩擦音として発音されていた名残。",
+      "tips": "gh が無音のため「サイ」と発音する。sight（視力）と同音に聞こえがちだが別語。動詞・名詞両方で使えることを覚えておこう。",
+      "confusables": "sight（視力・景色）と発音が同じ同音異義語。また sign（サイン）と混同されやすいが全く別の語。",
+      "collocations": [
+        "heave a sigh",
+        "sigh with relief",
+        "let out a sigh"
+      ],
+      "trivia": "科学的研究によると、人間は平均して1時間に約12回ため息をつくという。ため息は肺の小さな気嚢（alveoli）を再膨張させるための生理的リセット機能があることが判明している。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1414,
+    "word": "disrupt",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "混乱させる、妨害する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "崩壊させる、分断する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪsˈrʌpt/",
+    "syllables": "dis-rupt",
+    "audioHint": "ディスラプト",
+    "examples": [
+      {
+        "en": "The storm disrupted train services across the region.",
+        "ja": "嵐が地域一帯の鉄道サービスを混乱させた。",
+        "blank": "The storm ___ train services across the region.",
+        "blankAnswer": "disrupted"
+      }
+    ],
+    "distractors": [
+      "指定する",
+      "航行する",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "disrrupt",
+      "disrubt",
+      "disurupt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 disrumpere から。dis-（バラバラに）＋ rumpere（壊す・破る）が語源。「引き裂いてバラバラにする」が原義。",
+      "tips": "ビジネス英語では「既存市場を破壊的に変える」意味で disruptive technology（破壊的技術）のように頻出。disrupt は必ずしも悪い意味だけでなく、革新的変化にも使う。",
+      "confusables": "disturb は「邪魔する・不安にさせる」で個人レベルの妨害。disrupt はより大規模なシステム・仕組み全体への混乱を指すことが多い。",
+      "collocations": [
+        "disrupt the market",
+        "disrupt supply chains",
+        "severely disrupt"
+      ],
+      "trivia": "シリコンバレーでは「disruption（ディスラプション）」はポジティブな言葉として使われ、既存業界を覆すスタートアップは「disruptive（破壊的）」と称えられる。Uber や Airbnb がその代表例。"
+    },
+    "frequency": 4900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1415,
+    "word": "depart",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "出発する、離れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "逸脱する（from）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈpɑːrt/",
+    "syllables": "de-part",
+    "audioHint": "ディパート",
+    "examples": [
+      {
+        "en": "The flight departs at six in the morning.",
+        "ja": "フライトは朝6時に出発する。",
+        "blank": "The flight ___ at six in the morning.",
+        "blankAnswer": "departs"
+      }
+    ],
+    "distractors": [
+      "ため息をつく",
+      "住む",
+      "つかまえる"
+    ],
+    "confusableSpellings": [
+      "deppart",
+      "depaart",
+      "dipart"
+    ],
+    "passive": {
+      "etymology": "古フランス語 departir から。de-（離れて）＋ partir（分かれる・出発する）＜ラテン語 partire（分ける）が語源。",
+      "tips": "日本語の「デパート（百貨店）」は department store の略。depart と混同しないように。depart from ～（～から出発する）と前置詞 from とのセットを覚えよう。",
+      "confusables": "leave は日常的でカジュアルな「去る」表現。depart はやや改まった・公式な響きで、交通機関の発着アナウンスなどでよく使われる。",
+      "collocations": [
+        "depart from",
+        "depart for",
+        "depart on schedule"
+      ],
+      "trivia": "「the departed（故人）」という表現、depart には「この世を去る」という婉曲的な意味もある。マーティン・スコセッシ監督の映画『ディパーテッド』（2006年）はこのダブルミーニングをタイトルに使っている。"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1416,
+    "word": "navigate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "航行する、進路を定める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "うまく切り抜ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈnævɪɡeɪt/",
+    "syllables": "nav-i-gate",
+    "audioHint": "ナヴィゲイト",
+    "examples": [
+      {
+        "en": "He navigated the ship through the narrow channel.",
+        "ja": "彼は狭い水路を通って船を航行させた。",
+        "blank": "He ___ the ship through the narrow channel.",
+        "blankAnswer": "navigated"
+      }
+    ],
+    "distractors": [
+      "指定する",
+      "混乱させる",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "navigaet",
+      "navegate",
+      "naviggate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 navigare から。navis（船）＋ agere（動かす）が語源。「船を動かす」が原義。",
+      "tips": "物理的な航行だけでなく「困難な状況をうまく乗り越える」比喩表現でも頻出。navigate the challenges（課題を乗り越える）のような使い方が現代英語ではとても自然。",
+      "confusables": "steer も「操縦する」意味だが、navigate は目的地への経路全体を計画・管理するニュアンスで、steer は直接ハンドルを操作するイメージ。",
+      "collocations": [
+        "navigate through",
+        "navigate challenges",
+        "navigate a website"
+      ],
+      "trivia": "スマホの「ナビ（カーナビ）」はまさに navigate から。ポリネシア人の航海者は星や波のパターンだけで太平洋を横断した。現代GPSより数千年前の「生身のナビゲーション」は今も研究者を驚かせている。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1417,
+    "word": "beg",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "懇願する、頼み込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "物乞いをする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɛɡ/",
+    "syllables": "beg",
+    "audioHint": "ベグ",
+    "examples": [
+      {
+        "en": "She begged him not to leave her alone.",
+        "ja": "彼女は彼に一人にしないでくれと懇願した。",
+        "blank": "She ___ him not to leave her alone.",
+        "blankAnswer": "begged"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "謝罪する",
+      "命令する"
+    ],
+    "confusableSpellings": [
+      "begg",
+      "bege",
+      "baeg"
+    ],
+    "passive": {
+      "etymology": "古英語 bedecian（物乞いをする）に由来。中英語では beggen の形。語源はゲルマン語系で「求める」を意味する語根に関連。",
+      "tips": "beg to do（～するよう懇願する）と beg for ～（～を懇願する）の形を覚えよう。I beg your pardon. は「もう一度おっしゃっていただけますか？」や「失礼ですが」という丁寧表現でも使われる。",
+      "confusables": "ask は中立的に「頼む・尋ねる」。beg はより切迫した・必死なニュアンスが強い。plead も懇願だがより法的・正式な場面で使われることが多い。",
+      "collocations": [
+        "beg for forgiveness",
+        "beg to differ",
+        "I beg your pardon"
+      ],
+      "trivia": "「I beg to differ（異議を申し上げます）」は非常に丁寧な反論表現。直訳すれば「違う意見を申し上げることをお許しください」となる。議論の場でスマートに使うと一目置かれる表現だ。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1418,
+    "word": "inhabit",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（場所に）住む、生息する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "占有する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈhæbɪt/",
+    "syllables": "in-hab-it",
+    "audioHint": "インハビット",
+    "examples": [
+      {
+        "en": "Thousands of species inhabit the Amazon rainforest.",
+        "ja": "何千もの種がアマゾンの熱帯雨林に生息している。",
+        "blank": "Thousands of species ___ the Amazon rainforest.",
+        "blankAnswer": "inhabit"
+      }
+    ],
+    "distractors": [
+      "出発する",
+      "ため息をつく",
+      "押す"
+    ],
+    "confusableSpellings": [
+      "inhabitt",
+      "enhabit",
+      "inhabite"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inhabitare から。in-（中に）＋ habitare（住む・くつろぐ）＜ habere（持つ）が語源。「中にくつろいで住む」が原義。",
+      "tips": "inhabit は他動詞なので前置詞 in は不要。「inhabit in ～」は誤り。live in ～ と混同して前置詞をつけてしまう日本人学習者が多いので注意。",
+      "confusables": "live in は日常会話的。inhabit はやや文語的・学術的で、動物や生物の生息を述べるときにも多用される。habit（習慣）と同じ語根を持つのが面白い。",
+      "collocations": [
+        "inhabit the earth",
+        "inhabit a region",
+        "densely inhabited"
+      ],
+      "trivia": "inhabit と habit（習慣）は同じ語根 habere（持つ）から来ている。「習慣」とは自分の中に「持ち続けるもの」、「住む」とは場所を「自分のものとして持つ」こと。言葉の奥に共通のDNAが潜んでいる。"
+    },
+    "frequency": 5600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1419,
+    "word": "diagnose",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "診断する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（問題・原因を）特定する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdaɪəɡnoʊz/",
+    "syllables": "di-ag-nose",
+    "audioHint": "ダイアグノウズ",
+    "examples": [
+      {
+        "en": "The doctor diagnosed her with type 2 diabetes.",
+        "ja": "医師は彼女を2型糖尿病と診断した。",
+        "blank": "The doctor ___ her with type 2 diabetes.",
+        "blankAnswer": "diagnosed"
+      }
+    ],
+    "distractors": [
+      "矛盾する",
+      "理解する",
+      "推定する"
+    ],
+    "confusableSpellings": [
+      "diagnois",
+      "diagonose",
+      "diagnoze"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 diagnosis（識別・判断）から。dia-（通して・完全に）＋ gignōskein（知る・識別する）が語源。「完全に識別する」が原義。",
+      "tips": "diagnose A with B（AをBと診断する）という構文が最頻出。受動態 be diagnosed with ～（～と診断される）は医療ニュースでほぼ毎日登場する表現。",
+      "confusables": "examine は「検査する」プロセス、diagnose は「診断を下す」結論のステップ。また diagnosis（名詞形）と混同しないように注意。",
+      "collocations": [
+        "diagnose with",
+        "correctly diagnose",
+        "be diagnosed early"
+      ],
+      "trivia": "「diagnosis（診断）」の複数形は diagnoses（ダイアグノーシーズ）と変則的に変化する。ギリシャ語由来の語はこういった複数形のクセがある単語が多く、analysis→analyses、crisis→crisesも同パターン。"
+    },
+    "frequency": 5100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1420,
+    "word": "comprehend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "理解する、把握する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "含む、包含する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌkɒmprɪˈhɛnd/",
+    "syllables": "com-pre-hend",
+    "audioHint": "コンプリヘンド",
+    "examples": [
+      {
+        "en": "I could not fully comprehend the scale of the disaster.",
+        "ja": "その災害の規模を完全に理解することができなかった。",
+        "blank": "I could not fully ___ the scale of the disaster.",
+        "blankAnswer": "comprehend"
+      }
+    ],
+    "distractors": [
+      "矛盾する",
+      "診断する",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "comprahend",
+      "comprehand",
+      "comprihend"
+    ],
+    "passive": {
+      "etymology": "ラテン語 comprehendere から。com-（完全に・共に）＋ prehendere（つかむ・捉える）が語源。「完全につかみ取る」が原義。",
+      "tips": "understand よりもやや改まった・書き言葉的な表現。「頭でしっかりつかむ」ニュアンスがあり、難解な概念や感情的に受け入れにくい事実を理解するときに使うと自然。",
+      "confusables": "understand は最も汎用的な「理解する」。comprehend は「十分に・深く理解する」含意が強い。grasp も「把握する」だがより口語的で比喩的に使われる。",
+      "collocations": [
+        "fully comprehend",
+        "fail to comprehend",
+        "comprehend the meaning"
+      ],
+      "trivia": "「comprehension（理解力）」は英語の学力テストでよく見る単語だが、その名詞の語源は「つかむ」こと。英語の reading comprehension（読解）は「テキストを頭でつかむ力」という意味が込められている。"
+    },
+    "frequency": 6200,
+    "cefr": "B2"
+  }
+]

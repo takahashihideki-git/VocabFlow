@@ -1,0 +1,992 @@
+[
+  {
+    "id": 261,
+    "word": "conflict",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "対立、紛争",
+        "pos": "noun"
+      },
+      {
+        "meaning": "衝突する、矛盾する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒnflɪkt/",
+    "syllables": "con-flict",
+    "audioHint": "コンフリクト",
+    "examples": [
+      {
+        "en": "The conflict between the two countries lasted for years.",
+        "ja": "その二国間の紛争は何年も続いた。",
+        "blank": "The ___ between the two countries lasted for years.",
+        "blankAnswer": "conflict"
+      }
+    ],
+    "distractors": [
+      "選挙",
+      "条約",
+      "議会"
+    ],
+    "confusableSpellings": [
+      "conflikt",
+      "confict",
+      "conflct"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conflictus' から。接頭辞 'con-'（共に）＋語根 'fligere'（打つ）→「互いに打ち合う」が原義。",
+      "tips": "名詞と動詞でアクセント位置が変わる！名詞は『CONflict』（前にアクセント）、動詞は『conFLICT』（後にアクセント）。日本人は両方同じイントネーションで言いがち。",
+      "confusables": "'conflict' は武力・意見の対立全般に使う。'dispute' は主に言葉や法律上の争いに使い、武力紛争には使いにくい。",
+      "collocations": [
+        "armed conflict（武力紛争）",
+        "conflict of interest（利益相反）",
+        "resolve a conflict（対立を解消する）"
+      ],
+      "trivia": "ビジネス英語では 'conflict of interest'（利益相反）という表現が頻出。政治家や企業役員がよく問われる概念で、ニュースで毎日のように登場する表現だよ。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 262,
+    "word": "struggle",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "苦労する、もがく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "闘い、苦闘",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈstrʌɡl/",
+    "syllables": "strug-gle",
+    "audioHint": "ストラグル",
+    "examples": [
+      {
+        "en": "She struggled to understand the complicated instructions.",
+        "ja": "彼女は複雑な説明を理解しようと苦労した。",
+        "blank": "She ___ to understand the complicated instructions.",
+        "blankAnswer": "struggled"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "説得する",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "strugle",
+      "stuggle",
+      "struggl"
+    ],
+    "passive": {
+      "etymology": "中英語 'strogelen' が起源。語根は不確かだが「激しく動く」というイメージが核心。'struggle' の '-gle' は繰り返しの動作を示す接尾辞的な役割。",
+      "tips": "'struggle with ～'（～に苦労する）と 'struggle to do'（～しようともがく）の2つの使い方を押さえよう。日本人は 'struggle for' を使いすぎる傾向があるが、'struggle for freedom'（自由を求めて戦う）のように、目標を追い求める時に使う。",
+      "confusables": "'struggle' は努力しても上手くいかないニュアンスが強い。'try hard' は単に「一生懸命やる」で、失敗のニュアンスはない。",
+      "collocations": [
+        "struggle with poverty（貧困と戦う）",
+        "struggle to survive（生き残ろうともがく）",
+        "inner struggle（内なる葛藤）"
+      ],
+      "trivia": "SNSでは 'the struggle is real'（本当につらい）という表現がミーム化している。日常の小さな苦労（月曜日の朝や眠い授業）にも使われる超カジュアルな表現だよ。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 263,
+    "word": "context",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "文脈、背景",
+        "pos": "noun"
+      },
+      {
+        "meaning": "状況、前後関係",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒntekst/",
+    "syllables": "con-text",
+    "audioHint": "コンテクスト",
+    "examples": [
+      {
+        "en": "You need to understand the historical context of this event.",
+        "ja": "この出来事の歴史的背景を理解する必要がある。",
+        "blank": "You need to understand the historical ___ of this event.",
+        "blankAnswer": "context"
+      }
+    ],
+    "distractors": [
+      "仮説",
+      "証明",
+      "分類"
+    ],
+    "confusableSpellings": [
+      "contex",
+      "contexct",
+      "kontext"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contextus' から。'con-'（共に）＋'texere'（織る）→「一緒に織り上げられたもの」が語源。'text'（テキスト）も同じ語根！",
+      "tips": "'out of context'（文脈から外れて）という表現は必須。SNSで発言が切り取られるときによく使われる。'in context' と 'out of context' をセットで覚えよう。",
+      "confusables": "'context' は状況や背景全体を指す。'situation' は今起きている具体的な場面・状況。'background' は過去の経緯や知識的な背景に使う。",
+      "collocations": [
+        "in context（文脈の中で）",
+        "out of context（文脈を無視して）",
+        "historical context（歴史的背景）"
+      ],
+      "trivia": "日本語の「空気を読む」は英語で 'read the context' や 'read the room' と表現できる。文化的背景の違いを説明するときに 'context' は欠かせない単語だよ。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 264,
+    "word": "debate",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "討論、議論",
+        "pos": "noun"
+      },
+      {
+        "meaning": "討論する、議論する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈbeɪt/",
+    "syllables": "de-bate",
+    "audioHint": "ディベイト",
+    "examples": [
+      {
+        "en": "The students debated whether school uniforms should be required.",
+        "ja": "生徒たちは制服が必要かどうかを討論した。",
+        "blank": "The students ___ whether school uniforms should be required.",
+        "blankAnswer": "debated"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "協力する",
+      "支援する"
+    ],
+    "confusableSpellings": [
+      "debait",
+      "debat",
+      "dibate"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'debatre' から。'de-'（分離・強調）＋'battre'（打つ）→「互いに打ち合う」が原義。'battle'（戦い）と同じ語根を持つ。",
+      "tips": "日本語の「ディベート」はフォーマルな競技討論のイメージだが、英語の 'debate' はカジュアルな意見交換にも使える。'open to debate'（議論の余地がある）という表現も重要。",
+      "confusables": "'debate' は賛否が分かれる議題について意見を戦わせる。'discuss' は情報を共有しながら話し合う感じで対立のニュアンスが薄い。'argue' は感情的な口論を含む。",
+      "collocations": [
+        "heated debate（白熱した議論）",
+        "debate over ～（～についての議論）",
+        "open to debate（議論の余地がある）"
+      ],
+      "trivia": "アメリカの大統領選では 'presidential debate'（大統領討論会）が一大イベント。1960年のケネディ対ニクソンの討論はテレビ初の大統領討論で、見た目の印象が勝敗を左右したと言われているよ。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 265,
+    "word": "fuel",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "燃料",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（感情・問題などを）煽る、助長する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfjuːəl/",
+    "syllables": "fu-el",
+    "audioHint": "フュエル",
+    "examples": [
+      {
+        "en": "Rising prices fueled public anger across the country.",
+        "ja": "物価上昇が国中で国民の怒りを煽った。",
+        "blank": "Rising prices ___ public anger across the country.",
+        "blankAnswer": "fueled"
+      }
+    ],
+    "distractors": [
+      "汚染物質",
+      "生態系",
+      "気候"
+    ],
+    "confusableSpellings": [
+      "fule",
+      "feul",
+      "fuell"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'fouaille' から。ラテン語 'focus'（炉・火）が語源。'focus' と同じ祖先を持つ！",
+      "tips": "動詞の 'fuel' は比喩的に使われることが多い。'fuel the debate'（議論を煽る）、'fuel speculation'（憶測を呼ぶ）のように感情や状況を「燃やす」イメージ。新聞記事で頻出。",
+      "confusables": "'fuel' は燃料そのもの、またはエネルギー源のメタファー。'energy' はより広い概念でエネルギー全般。'gas' はアメリカ英語でガソリンの意味。",
+      "collocations": [
+        "fossil fuel（化石燃料）",
+        "fuel efficiency（燃費）",
+        "fuel the fire（火に油を注ぐ）"
+      ],
+      "trivia": "'add fuel to the fire / flames' は「火に油を注ぐ」という慣用句。日本語と全く同じ比喩表現で、英語でも日本語でも炎上を表すのに「燃料＋火」のイメージを使うのが面白い！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 266,
+    "word": "pollution",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "汚染、公害",
+        "pos": "noun"
+      },
+      {
+        "meaning": "汚染物質",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pəˈluːʃn/",
+    "syllables": "pol-lu-tion",
+    "audioHint": "ポルーション",
+    "examples": [
+      {
+        "en": "Air pollution in the city has reached dangerous levels.",
+        "ja": "その都市の大気汚染は危険なレベルに達した。",
+        "blank": "Air ___ in the city has reached dangerous levels.",
+        "blankAnswer": "pollution"
+      }
+    ],
+    "distractors": [
+      "生態系",
+      "再生可能エネルギー",
+      "気候変動"
+    ],
+    "confusableSpellings": [
+      "polution",
+      "polluton",
+      "pollusion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pollutio' から。'pol-'（完全に）＋'luere'（汚す・洗う）→「完全に汚すこと」が語源。",
+      "tips": "'pollution' は不可算名詞として扱うのが基本。'a pollution' とは言わない。種類を言う時は 'air pollution'、'water pollution'、'noise pollution' のように複合名詞にする。",
+      "confusables": "'pollution' は汚染状態・現象全体を指す。'pollutant' は汚染を引き起こす物質そのもの（可算名詞）。'contamination' は食品・土壌・放射性物質など有害物質による汚染に使う。",
+      "collocations": [
+        "air pollution（大気汚染）",
+        "reduce pollution（汚染を減らす）",
+        "pollution control（汚染対策）"
+      ],
+      "trivia": "英語には 'light pollution'（光害）や 'noise pollution'（騒音公害）、さらには 'visual pollution'（景観汚染）まである。汚染の概念が物理的なものだけでなく感覚的なものにも広がっているのが面白い！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 267,
+    "word": "trend",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "傾向、動向",
+        "pos": "noun"
+      },
+      {
+        "meaning": "流行、トレンド",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/trend/",
+    "syllables": "trend",
+    "audioHint": "トレンド",
+    "examples": [
+      {
+        "en": "There is a growing trend toward remote work.",
+        "ja": "リモートワークへの傾向が高まっている。",
+        "blank": "There is a growing ___ toward remote work.",
+        "blankAnswer": "trend"
+      }
+    ],
+    "distractors": [
+      "法律",
+      "選挙制度",
+      "政党"
+    ],
+    "confusableSpellings": [
+      "trand",
+      "trnd",
+      "treand"
+    ],
+    "passive": {
+      "etymology": "古英語 'trendan'（回る、転がる）から。「曲がりくねった道」から「一定の方向に進む流れ」という意味に発展した。",
+      "tips": "SNS用語の 'trending'（トレンド入りしている）は 'trend' の動詞形の現在分詞。'go viral' に似た意味だが、'trending' はランキングやタグに乗っている状態を指す。",
+      "confusables": "'trend' は中長期的な傾向・流れ。'fashion' は服装など外見の流行。'fad' は短期間の一時的ブームで、すぐ消えるものに使う（例: fidget spinner）。",
+      "collocations": [
+        "current trend（現在の傾向）",
+        "trend toward ～（～への傾向）",
+        "set a trend（流行を作る）"
+      ],
+      "trivia": "TwitterやInstagramの「トレンド」は日本語でもそのまま使われるが、英語では 'what's trending'（何がトレンドか）という動詞形が普通。動詞の 'trend' が使われるようになったのは実はSNS時代になってから！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 268,
+    "word": "balance",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "バランス、均衡",
+        "pos": "noun"
+      },
+      {
+        "meaning": "均衡を保つ、釣り合わせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbæləns/",
+    "syllables": "bal-ance",
+    "audioHint": "バランス",
+    "examples": [
+      {
+        "en": "It is important to maintain a balance between work and life.",
+        "ja": "仕事と生活のバランスを保つことが大切だ。",
+        "blank": "It is important to maintain a ___ between work and life.",
+        "blankAnswer": "balance"
+      }
+    ],
+    "distractors": [
+      "自由",
+      "矛盾",
+      "意識"
+    ],
+    "confusableSpellings": [
+      "ballance",
+      "balence",
+      "balanse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'bilanx' から。'bi-'（2つの）＋'lanx'（皿）→「2枚皿の秤」が語源。まさに天秤のイメージ。",
+      "tips": "'balance' は 'a balance between A and B' の形でよく使う。日本語でも「バランス」を使うが、英語では動詞としても頻繁に使われる点に注意（'balance the budget'＝予算を均衡させる）。",
+      "confusables": "'balance' は2つの要素の釣り合い。'harmony' は複数の要素が美しく調和している状態で、音楽的・芸術的なニュアンスが強い。'equilibrium' は科学・経済学などフォーマルな場面で使う均衡。",
+      "collocations": [
+        "work-life balance（ワークライフバランス）",
+        "balance of power（勢力均衡）",
+        "strike a balance（バランスをとる）"
+      ],
+      "trivia": "裁判の女神テミスが持つ天秤は 'scales of justice' と呼ばれ、まさに 'balance' の語源そのもの。公平・正義のシンボルとして世界中の裁判所に飾られているのは偶然じゃない！"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 269,
+    "word": "traffic",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "交通、交通量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（違法な）取引、売買",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtræfɪk/",
+    "syllables": "traf-fic",
+    "audioHint": "トラフィック",
+    "examples": [
+      {
+        "en": "There was heavy traffic on the highway this morning.",
+        "ja": "今朝、高速道路はひどい渋滞だった。",
+        "blank": "There was heavy ___ on the highway this morning.",
+        "blankAnswer": "traffic"
+      }
+    ],
+    "distractors": [
+      "買い物",
+      "食事",
+      "娯楽"
+    ],
+    "confusableSpellings": [
+      "traffik",
+      "trafic",
+      "traffick"
+    ],
+    "passive": {
+      "etymology": "イタリア語 'traffico' から。アラビア語 'tafriq'（分配）が語源という説もある。中世の貿易・物資のやり取りを指した言葉が交通全般に広がった。",
+      "tips": "'traffic' は不可算名詞なので 'a traffic' や 'traffics' とは言わない。「渋滞」は 'traffic jam' か 'heavy traffic'。'I was caught in traffic.' が自然な言い方。",
+      "confusables": "'traffic' は道路の交通量全般。'jam' は渋滞（traffic jam）の短縮形としても使う。ITの世界では 'web traffic'（サイトへのアクセス数）の意味でも頻出。",
+      "collocations": [
+        "traffic jam（交通渋滞）",
+        "traffic light（信号機）",
+        "heavy traffic（激しい交通量）"
+      ],
+      "trivia": "'human trafficking'（人身売買）という深刻な表現も 'traffic' の派生。「取引する」という古い意味が今も残っている。ITでは 'bot traffic'（自動プログラムによるアクセス）が問題になっていて、同じ単語が全然違う世界で活躍している！"
+    },
+    "frequency": 1000,
+    "cefr": "A2"
+  },
+  {
+    "id": 270,
+    "word": "strategy",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "戦略、策略",
+        "pos": "noun"
+      },
+      {
+        "meaning": "計画、方針",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈstrætədʒi/",
+    "syllables": "strat-e-gy",
+    "audioHint": "ストラテジー",
+    "examples": [
+      {
+        "en": "The company developed a new strategy to increase sales.",
+        "ja": "その会社は売上を伸ばすための新しい戦略を立てた。",
+        "blank": "The company developed a new ___ to increase sales.",
+        "blankAnswer": "strategy"
+      }
+    ],
+    "distractors": [
+      "実験",
+      "理論",
+      "定義"
+    ],
+    "confusableSpellings": [
+      "startegy",
+      "stratery",
+      "strategey"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'strategia' から。'stratos'（軍隊）＋'agein'（導く）→「軍隊を率いる技術」が語源。将軍（'strategos'）の仕事が語源になっている。",
+      "tips": "'strategy'（戦略）と 'tactic'（戦術）の違いを押さえよう。戦略は長期的・大局的な計画、戦術は目の前の具体的な手段。'strategic'（形容詞）も頻出。",
+      "confusables": "'strategy' は長期的・全体的な計画。'plan' はより具体的な手順や予定。'tactic' は戦略を実行するための個別の手段・テクニック。",
+      "collocations": [
+        "business strategy（ビジネス戦略）",
+        "marketing strategy（マーケティング戦略）",
+        "implement a strategy（戦略を実行する）"
+      ],
+      "trivia": "ボードゲームの『ストラテゴ（Stratego）』はこの単語が語源。古代ギリシャの将軍術から、現代のビジネス・ゲーム・スポーツまで使われる単語に進化した。スタバの成功も 'long-term strategy' の教科書例としてビジネススクールで語られているよ。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 271,
+    "word": "basis",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "基礎、根拠",
+        "pos": "noun"
+      },
+      {
+        "meaning": "基準、方式",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbeɪsɪs/",
+    "syllables": "ba-sis",
+    "audioHint": "ベイシス",
+    "examples": [
+      {
+        "en": "This theory has no scientific basis.",
+        "ja": "この理論には科学的な根拠がない。",
+        "blank": "This theory has no scientific ___.",
+        "blankAnswer": "basis"
+      }
+    ],
+    "distractors": [
+      "結果",
+      "目的",
+      "理想"
+    ],
+    "confusableSpellings": [
+      "bassis",
+      "baisis"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'basis'（基盤）、ギリシャ語 'bainein'（歩く・踏む）が語源。'base'（土台）と同じ根を持つ。",
+      "tips": "「on a … basis」という表現が頻出。on a daily basis（日常的に）、on a regular basis（定期的に）など、副詞的に使われる場面が多い。複数形は 'bases'（/ˈbeɪsiːz/）で、base の複数形 bases（/ˈbeɪsɪz/）と発音が異なるので注意。",
+      "confusables": "'base' は物理的な底部・拠点を指すことが多く、'basis' は抽象的な根拠・基準を指す。'The base of the mountain'（山のふもと）vs 'the basis of the argument'（議論の根拠）。",
+      "collocations": [
+        "on a daily basis",
+        "form the basis of",
+        "on the basis of"
+      ],
+      "trivia": "英語で「とりあえずの話で」という意味で使う 'on a … basis' は、ビジネス英語で非常に多用される。'on a trial basis'（試験的に）など、覚えておくとメールがぐっとプロらしくなる！"
+    },
+    "frequency": 450,
+    "cefr": "B1"
+  },
+  {
+    "id": 272,
+    "word": "consequence",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "結果、影響",
+        "pos": "noun"
+      },
+      {
+        "meaning": "重要性",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒnsɪkwəns/",
+    "syllables": "con-se-quence",
+    "audioHint": "コンシクウェンス",
+    "examples": [
+      {
+        "en": "He didn't think about the consequences of his actions.",
+        "ja": "彼は自分の行動の結果について考えなかった。",
+        "blank": "He didn't think about the ___ of his actions.",
+        "blankAnswer": "consequences"
+      }
+    ],
+    "distractors": [
+      "基礎",
+      "目的",
+      "進歩"
+    ],
+    "confusableSpellings": [
+      "consequance",
+      "consequnce",
+      "consequense"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'consequi'（続いて起こる）が語源。'con-'（共に）＋ 'sequi'（従う・続く）。sequence（順序）や sequel（続編）と同じ語根。",
+      "tips": "「as a consequence of …」（…の結果として）と「in consequence」（その結果）の使い分けを覚えよう。また、'suffer the consequences'（結果を受け入れる）というフレーズも重要。日本人は 'result' を多用しがちだが、'consequence' はネガティブな結果に使われることが多い。",
+      "confusables": "'result' は中立的な結果全般に使えるが、'consequence' はしばしば悪い・重大な結果を含意する。'effect' は原因に対する直接的な影響を指す。",
+      "collocations": [
+        "as a consequence",
+        "face the consequences",
+        "serious consequence"
+      ],
+      "trivia": "英語圏に『Consequences』というパーティーゲームがある。各人が文章の一部を書いて次の人に回し、ストーリーを作るゲームで、予測不能な「結果」が笑いを生む。まさに語源通りの遊び！"
+    },
+    "frequency": 680,
+    "cefr": "B1"
+  },
+  {
+    "id": 273,
+    "word": "aim",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "目的、目標",
+        "pos": "noun"
+      },
+      {
+        "meaning": "狙いをつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/eɪm/",
+    "syllables": "aim",
+    "audioHint": "エイム",
+    "examples": [
+      {
+        "en": "The aim of this project is to reduce waste.",
+        "ja": "このプロジェクトの目的はゴミを減らすことだ。",
+        "blank": "The ___ of this project is to reduce waste.",
+        "blankAnswer": "aim"
+      }
+    ],
+    "distractors": [
+      "根拠",
+      "結果",
+      "理想"
+    ],
+    "confusableSpellings": [
+      "aime",
+      "aym"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'esmer'（評価する・見積もる）から派生。ラテン語 'aestimare'（評価する）が遠い祖先。'estimate'（見積もる）と意外なつながりがある。",
+      "tips": "動詞として使うときは 'aim to do'（～することを目指す）と 'aim at doing'（～することを目指す）の両方が使えるが、'aim to do' のほうがフォーマルな文脈で好まれる。'goal' や 'objective' との違いとして、'aim' は少し漠然とした方向性を示すニュアンスがある。",
+      "confusables": "'goal' は達成すべき具体的なゴール、'objective' はさらに具体的で測定可能な目標、'aim' は方向性・意図に近い。'purpose' は存在理由・根本的な目的。",
+      "collocations": [
+        "aim to do",
+        "take aim at",
+        "with the aim of"
+      ],
+      "trivia": "ゲームの「エイム（照準を合わせる）」はこの単語がそのまま使われている。FPSゲームで鍛えた「エイム力」は、英語でも 'aiming skill' として通じる。ゲーマーは気づかず英語を習得している！"
+    },
+    "frequency": 820,
+    "cefr": "A2"
+  },
+  {
+    "id": 274,
+    "word": "ancestor",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "先祖、祖先",
+        "pos": "noun"
+      },
+      {
+        "meaning": "原型、前身",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈænsestər/",
+    "syllables": "an-ces-tor",
+    "audioHint": "アンセスター",
+    "examples": [
+      {
+        "en": "Her ancestors came from Ireland two centuries ago.",
+        "ja": "彼女の先祖は2世紀前にアイルランドからやってきた。",
+        "blank": "Her ___ came from Ireland two centuries ago.",
+        "blankAnswer": "ancestors"
+      }
+    ],
+    "distractors": [
+      "子孫",
+      "遺伝子",
+      "革命"
+    ],
+    "confusableSpellings": [
+      "ancestore",
+      "ancester",
+      "ancenstor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'antecessor'（先に行く者）が語源。'ante-'（前に）＋ 'cedere'（行く）。'ante'（前）は antebellum（戦前の）や anteroom（前室）にも登場する。",
+      "tips": "日本語の「ご先祖様」は敬語だが、英語の 'ancestor' はそのまま使ってOK。複数形 'ancestors' で使うことが多い。'descendant'（子孫）が反対語。また、機器や言語の「前身」の意味でも使われる（例：The ancestor of the modern computer）。",
+      "confusables": "'ancestor' は生物・比喩の両方で「前身・先祖」を指す。'predecessor' は職や役職の前任者・前世代の機器を指すことが多く、人の先祖には通常使わない。",
+      "collocations": [
+        "distant ancestor",
+        "common ancestor",
+        "trace one's ancestors"
+      ],
+      "trivia": "DNA検査サービス（23andMeなど）の普及で 'ancestor' という単語の使用頻度が急増した。自分のルーツを調べると、思わぬ民族のDNAが出てくることがあり、SNSで「私の ancestor はバイキングだった！」という投稿が溢れている。"
+    },
+    "frequency": 1950,
+    "cefr": "B1"
+  },
+  {
+    "id": 275,
+    "word": "gene",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "遺伝子",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dʒiːn/",
+    "syllables": "gene",
+    "audioHint": "ジーン",
+    "examples": [
+      {
+        "en": "Scientists discovered the gene responsible for the disease.",
+        "ja": "科学者たちはその病気に関わる遺伝子を発見した。",
+        "blank": "Scientists discovered the ___ responsible for the disease.",
+        "blankAnswer": "gene"
+      }
+    ],
+    "distractors": [
+      "細胞",
+      "染色体",
+      "ウイルス"
+    ],
+    "confusableSpellings": [
+      "jean",
+      "geen",
+      "jene"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'genos'（生まれ・種族）が語源。'genesis'（起源）、'generate'（生み出す）、'genus'（属）と同じ語根ファミリー。",
+      "tips": "発音は「ジーン」で、人名の Jean（ジャン）やズボンの jeans（ジーンズ）と同音異義語。スペルが異なるので注意。'genetic'（遺伝的な）、'genome'（ゲノム）など派生語も多い。文脈でほぼ意味が決まるが、スペルミスに注意。",
+      "confusables": "'gene' は遺伝情報の単位。'chromosome'（染色体）はgeneが集まったもの、'DNA' はgeneの物理的な本体であるが、日常会話では gene が最も広く「遺伝的特徴」を指す語として使われる。",
+      "collocations": [
+        "gene expression",
+        "gene therapy",
+        "carry a gene"
+      ],
+      "trivia": "「ジーンズ（jeans）」と「遺伝子（gene）」は発音が同じ /dʒiːn/。ジーンズの語源はイタリアの都市ジェノバ（Genoa）なので全く無関係なのに、英語ネイティブもたまに混乱するらしい。スペルで判断しよう！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 276,
+    "word": "track",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "追跡する、記録する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "跡、線路",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/træk/",
+    "syllables": "track",
+    "audioHint": "トラック",
+    "examples": [
+      {
+        "en": "The app tracks your daily steps automatically.",
+        "ja": "そのアプリは毎日の歩数を自動的に記録する。",
+        "blank": "The app ___ your daily steps automatically.",
+        "blankAnswer": "tracks"
+      }
+    ],
+    "distractors": [
+      "変化させる",
+      "目指す",
+      "進歩する"
+    ],
+    "confusableSpellings": [
+      "trakc",
+      "treck",
+      "trak"
+    ],
+    "passive": {
+      "etymology": "中期オランダ語 'trek'（引く・旅）が語源とされる。物理的な「跡をたどる」から「追跡する」「記録する」へと意味が拡張した。",
+      "tips": "日本語でも「トラック競技」「サウンドトラック」として使われるが、動詞の「追跡する・記録する」という使い方が学術・ビジネス英語で重要。'keep track of …'（…を把握し続ける）は超頻出表現。反対は 'lose track of …'（…を見失う）。",
+      "confusables": "'track' は継続的な追跡・記録。'trace' は痕跡をたどる・発見すること。'monitor' はリアルタイムで監視する。'follow' は後をついていく・従う。",
+      "collocations": [
+        "keep track of",
+        "track record",
+        "on track"
+      ],
+      "trivia": "スマホの位置情報が普及して以来、'track' は日常語として爆発的に増加。Googleマップで自分の移動履歴が 'Timeline' として残るのも、まさに 'tracking'。現代人は毎日無意識に追跡されている！"
+    },
+    "frequency": 520,
+    "cefr": "A2"
+  },
+  {
+    "id": 277,
+    "word": "revolution",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "革命",
+        "pos": "noun"
+      },
+      {
+        "meaning": "回転、公転",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌrevəˈluːʃən/",
+    "syllables": "rev-o-lu-tion",
+    "audioHint": "レヴォルーション",
+    "examples": [
+      {
+        "en": "The French Revolution changed European politics forever.",
+        "ja": "フランス革命はヨーロッパの政治を永遠に変えた。",
+        "blank": "The French ___ changed European politics forever.",
+        "blankAnswer": "Revolution"
+      }
+    ],
+    "distractors": [
+      "改革案",
+      "法律制度",
+      "民主主義"
+    ],
+    "confusableSpellings": [
+      "revoloution",
+      "revolusion",
+      "revolotion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'revolutio'（回転・転覆）が語源。're-'（再び）＋ 'volvere'（回す）。'revolve'（回転する）、'involve'（巻き込む）、'evolve'（進化する）も同じ 'volvere' 由来。",
+      "tips": "政治的な「革命」と物理的な「回転・公転」の両方を意味する。rpm（revolutions per minute：毎分回転数）の略語にも登場する。形容詞 'revolutionary'（革命的な）も頻出で、新製品を「革命的」と表現するときにも使われる。",
+      "confusables": "'revolution' は根本的・急激な変革。'reform' は既存の制度を改善する改革。'evolution' は緩やかな進化・発展。ビジネスで「革命的な変化」と言いたいとき、revolution は少し大げさになる場合もある。",
+      "collocations": [
+        "industrial revolution",
+        "bring about a revolution",
+        "revolution in technology"
+      ],
+      "trivia": "ビートルズの楽曲「Revolution」（1968年）は社会変革を求める若者へのメッセージだった。当時のジョン・レノンは「暴力的な革命には賛成できない」という複雑な立場を歌詞に込めた。音楽でも政治でも、この単語は時代を動かしてきた。"
+    },
+    "frequency": 890,
+    "cefr": "B1"
+  },
+  {
+    "id": 278,
+    "word": "progress",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "進歩、前進",
+        "pos": "noun"
+      },
+      {
+        "meaning": "進む、発展する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈprəʊɡrəs/",
+    "syllables": "pro-gress",
+    "audioHint": "プログレス",
+    "examples": [
+      {
+        "en": "We are making great progress on the new project.",
+        "ja": "新しいプロジェクトで大きな進歩を遂げている。",
+        "blank": "We are making great ___ on the new project.",
+        "blankAnswer": "progress"
+      }
+    ],
+    "distractors": [
+      "結果",
+      "基礎",
+      "目的"
+    ],
+    "confusableSpellings": [
+      "progres",
+      "proggress",
+      "progross"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'progressus'（前進）が語源。'pro-'（前へ）＋ 'gradi'（歩く）。'grade'（段階）、'gradual'（徐々の）、'degrade'（低下させる）も同じ語根。",
+      "tips": "名詞の progress は不可算名詞なので、'a progress' や 'progresses' とは言わない。'make progress'（進歩する）が超頻出フレーズ。動詞として使う場合は /prəˈɡrɛs/ とアクセントが後ろに移動する（名詞は /ˈprəʊɡrɛs/）。",
+      "confusables": "'progress' は継続的な前進・発展のプロセス。'improvement' は具体的な改善・向上。'development' はより広い発展・開発。'advancement' はより公式・フォーマルな文脈で使われる前進。",
+      "collocations": [
+        "make progress",
+        "in progress",
+        "progress report"
+      ],
+      "trivia": "「work in progress（WIP）」は、絵画・プログラムから人生まで、あらゆる「まだ完成していない状態」を指すネットスラングとして定着。SNSで '#WorkInProgress' タグを付けて成長過程を発信するのが流行している。"
+    },
+    "frequency": 570,
+    "cefr": "A2"
+  },
+  {
+    "id": 279,
+    "word": "cognitive",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "認知の、認識に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒɡnɪtɪv/",
+    "syllables": "cog-ni-tive",
+    "audioHint": "コグニティヴ",
+    "examples": [
+      {
+        "en": "Sleep deprivation causes serious cognitive decline.",
+        "ja": "睡眠不足は深刻な認知機能の低下を引き起こす。",
+        "blank": "Sleep deprivation causes serious ___ decline.",
+        "blankAnswer": "cognitive"
+      }
+    ],
+    "distractors": [
+      "感情的な",
+      "身体的な",
+      "遺伝的な"
+    ],
+    "confusableSpellings": [
+      "cognative",
+      "cognetive",
+      "cogntive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'cognoscere'（知る・認識する）が語源。'co-'（共に）＋ 'gnoscere'（知る）。'recognize'（認識する）、'cognizant'（気づいている）、'incognito'（身分を隠して）も同じ語根ファミリー。",
+      "tips": "心理学・教育・医学・AIの文脈で頻繁に登場する専門語。'cognitive science'（認知科学）、'cognitive bias'（認知バイアス）、'cognitive behavioral therapy（CBT）'（認知行動療法）はセットで覚えよう。日本人はカタカナで「コグニティブ」と使う場面も増えている。",
+      "confusables": "'cognitive'（認知の）は思考・知覚・記憶などの精神プロセスに関する。'intellectual'（知的な）は知性・頭の良さを示す。'conscious'（意識的な）は気づいている状態を指す。'perceptive'（洞察力のある）は観察力を意味する。",
+      "collocations": [
+        "cognitive ability",
+        "cognitive bias",
+        "cognitive development"
+      ],
+      "trivia": "「認知バイアス（cognitive bias）」は200種類以上あると言われており、私たちの判断はほぼすべて何らかのバイアスに影響されている。最も有名な「確証バイアス（confirmation bias）」は、SNSのアルゴリズムが意図的に利用しているとも言われている。"
+    },
+    "frequency": 2800,
+    "cefr": "C1"
+  },
+  {
+    "id": 280,
+    "word": "ideal",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "理想的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "理想、理念",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/aɪˈdɪəl/",
+    "syllables": "i-de-al",
+    "audioHint": "アイディアル",
+    "examples": [
+      {
+        "en": "This park is ideal for a family picnic.",
+        "ja": "この公園は家族のピクニックに理想的だ。",
+        "blank": "This park is ___ for a family picnic.",
+        "blankAnswer": "ideal"
+      }
+    ],
+    "distractors": [
+      "革命的な",
+      "認知的な",
+      "論理的な"
+    ],
+    "confusableSpellings": [
+      "idael",
+      "ideall",
+      "idial"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'idea'（形・概念）が語源。'idein'（見る）から派生し、「完全な形として心に描かれるもの」が原義。'idea'（アイデア）と同じ語根で、まさに「完璧なアイデアが形になったもの」。",
+      "tips": "形容詞として 'ideal for …'（…に理想的）の形が最頻出。名詞として 'live up to one's ideals'（理想に生きる）という使い方も重要。'ideally'（理想的には）という副詞形も便利で、'Ideally, we should finish by Friday.'（理想を言えば金曜までに終えたい）のように使える。",
+      "confusables": "'ideal' は完全に望ましい状態・概念を指す。'perfect' は欠点のない完璧さを強調。'optimal' はデータ・条件に基づく最適な状態（より技術的）。'suitable' は単に適切・ふさわしいという意味で、理想的とまでは言わない。",
+      "collocations": [
+        "ideal for",
+        "ideal world",
+        "live up to an ideal"
+      ],
+      "trivia": "哲学者プラトンが提唱した「イデア論（Theory of Ideas/Forms）」がこの単語の精神的な原点。現実世界の椅子は全て不完全で、「完璧な椅子のイデア（ideal）」だけが真の存在だという考え方。日常語として使われる『ideal』の裏にはそんな深い哲学がある！"
+    },
+    "frequency": 760,
+    "cefr": "B1"
+  }
+]

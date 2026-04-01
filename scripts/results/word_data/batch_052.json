@@ -1,0 +1,983 @@
+[
+  {
+    "id": 1021,
+    "word": "cheat",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "ずるをする、不正をする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "だます、欺く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tʃiːt/",
+    "syllables": "cheat",
+    "audioHint": "チート",
+    "examples": [
+      {
+        "en": "He cheated on the exam and got caught.",
+        "ja": "彼は試験でカンニングをして見つかった。",
+        "blank": "He ___ on the exam and got caught.",
+        "blankAnswer": "cheated"
+      }
+    ],
+    "distractors": [
+      "世話をする",
+      "従う",
+      "統治する"
+    ],
+    "confusableSpellings": [
+      "cheet",
+      "cheat's",
+      "cheate"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'escheat'（財産没収）から。もともとは法的な没収を意味し、そこから「不正に奪う」→「だます」へ意味が転じた。",
+      "tips": "cheat on someone で「（恋人・配偶者を）裏切る、浮気する」、cheat on a test で「試験でカンニングする」と前置詞 on と組み合わせることが多い。日本人は cheat in a test としがちだが自然ではない。",
+      "confusables": "deceive は言葉巧みに信じ込ませる知的な欺きのニュアンス。cheat はルール違反や不公正な行為全般に使いやすい。trick はいたずら的・軽いニュアンスが強い。",
+      "collocations": [
+        "cheat on an exam",
+        "cheat on a partner",
+        "cheat out of money"
+      ],
+      "trivia": "ゲームの「チートコード」はまさにこの cheat が語源。本来ルール外の手段でゲームを有利に進めることから来ている。「チート級に強い」という日本語スラングもここから！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1022,
+    "word": "foster",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "育む、促進する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "里親として育てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfɒstər/",
+    "syllables": "fos-ter",
+    "audioHint": "フォスター",
+    "examples": [
+      {
+        "en": "Good teachers foster creativity in their students.",
+        "ja": "よい教師は生徒の創造性を育む。",
+        "blank": "Good teachers ___ creativity in their students.",
+        "blankAnswer": "foster"
+      }
+    ],
+    "distractors": [
+      "命令する",
+      "だます",
+      "奪う"
+    ],
+    "confusableSpellings": [
+      "forster",
+      "fostar",
+      "fostter"
+    ],
+    "passive": {
+      "etymology": "古英語 'fōstrian'（食べ物を与えて育てる）から。'fōstor' は「食料・養育」を意味する語根に由来し、「育て上げる」という核心的な意味を持つ。",
+      "tips": "foster は抽象的なもの（関係・スキル・環境）にも使える点が重要。foster a relationship（関係を育む）、foster an environment（環境を醸成する）など、ビジネス英語でも頻出。日本人は「育てる」に raise を使いがちだが、raise は主に人・動物の成長に使い、概念・感情には foster が自然。",
+      "confusables": "nurture は愛情をかけて丁寧に育てるニュアンス。foster は条件や環境を整えて促進するイメージが強い。promote は外に向けて広める・昇進させる意味合い。",
+      "collocations": [
+        "foster creativity",
+        "foster relationships",
+        "foster care"
+      ],
+      "trivia": "foster child（里子）、foster parent（里親）という形でも使われる。映画や小説でもよく登場する表現で、英語圏の社会福祉制度の中核ワード。姓として有名な作曲家スティーブン・フォスターもいる。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1023,
+    "word": "obey",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "従う、服従する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（法律・命令を）守る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈbeɪ/",
+    "syllables": "o-bey",
+    "audioHint": "オベイ",
+    "examples": [
+      {
+        "en": "Soldiers are trained to obey orders without question.",
+        "ja": "兵士は疑問を持たずに命令に従うよう訓練される。",
+        "blank": "Soldiers are trained to ___ orders without question.",
+        "blankAnswer": "obey"
+      }
+    ],
+    "distractors": [
+      "だます",
+      "育む",
+      "統治する"
+    ],
+    "confusableSpellings": [
+      "obay",
+      "obei",
+      "obbey"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'oboedire'（耳を傾ける）から。ob-（向かって）+ audire（聞く）が語源。「相手に向かって聞く」→「従う」という流れ。",
+      "tips": "obey は他動詞として直接目的語を取る（obey the law）。日本人は obey to the rules のように to を入れがちだが、これは誤り。follow the rules や comply with the rules との使い分けも意識しよう。",
+      "confusables": "follow は従う中でも自発的・行動的なニュアンス。comply with はフォーマルで規則・要求に合わせる文脈。obey は権威や命令に対して服従するやや強い響きがある。",
+      "collocations": [
+        "obey the law",
+        "obey orders",
+        "obey rules"
+      ],
+      "trivia": "ロボット工学の「アシモフの三原則」第2条は「ロボットは人間の命令に obey しなければならない」という内容。SF世界でも欠かせない単語！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1024,
+    "word": "bend",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "曲げる、曲がる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "かがむ、かがめる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɛnd/",
+    "syllables": "bend",
+    "audioHint": "ベンド",
+    "examples": [
+      {
+        "en": "She bent down to pick up the fallen pen.",
+        "ja": "彼女は落ちたペンを拾うためにかがんだ。",
+        "blank": "She ___ down to pick up the fallen pen.",
+        "blankAnswer": "bent"
+      }
+    ],
+    "distractors": [
+      "飛び跳ねる",
+      "引き裂く",
+      "握る"
+    ],
+    "confusableSpellings": [
+      "bened",
+      "bende",
+      "bennd"
+    ],
+    "passive": {
+      "etymology": "古英語 'bendan'（弓を張る、縛る）から。ゲルマン語系の語根で「張力をかけて形を変える」という原義を持つ。",
+      "tips": "bend の過去形・過去分詞はともに bent（不規則変化）。bend the rules で「ルールを都合よく曲げる」という慣用表現も重要。日本人は bend と curve を混同しがちだが、bend は能動的に力を加えて曲げるイメージ、curve は自然にカーブしている状態。",
+      "confusables": "curve は自然な曲線・カーブを指す。fold は紙や布を折り畳む動作。bend はより力をかけて角度を変えるニュアンス。",
+      "collocations": [
+        "bend the rules",
+        "bend over",
+        "bend backwards"
+      ],
+      "trivia": "「bend over backwards」は「後ろに大きくのけぞる」から転じて「懸命に努力する・無理してでも対応する」という慣用句。直訳すると体がかなり大変そう…でも英語ではよく使う表現！"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1025,
+    "word": "deprive",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "奪う、剥奪する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（権利・機会などを）与えない",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈpraɪv/",
+    "syllables": "de-prive",
+    "audioHint": "ディプライヴ",
+    "examples": [
+      {
+        "en": "Lack of sleep deprives you of concentration.",
+        "ja": "睡眠不足は集中力を奪う。",
+        "blank": "Lack of sleep ___ you of concentration.",
+        "blankAnswer": "deprives"
+      }
+    ],
+    "distractors": [
+      "育む",
+      "だます",
+      "従う"
+    ],
+    "confusableSpellings": [
+      "depryve",
+      "depreive",
+      "deprive's"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'deprivare' から。de-（完全に・除去）+ privare（私有物から切り離す）が語源。'private'（私的な）と同じ語根 priv- を持つ。",
+      "tips": "deprive は必ず deprive A of B（AからBを奪う）の形をとる。of を忘れて deprive A B としないよう注意。受動態 be deprived of も頻出で、「〜を奪われている」という意味になる。",
+      "confusables": "rob は物理的に盗む行為（rob a bank）。strip は衣服・権利などを剥ぎ取る強い表現。deprive はより抽象的で、権利・機会・必需品などが失われる文脈で使われる。",
+      "collocations": [
+        "deprive of sleep",
+        "deprive of rights",
+        "feel deprived"
+      ],
+      "trivia": "「sleep-deprived」（睡眠を奪われた）は現代の健康記事で超頻出ワード。SNSやスマホ依存の時代にぴったりの表現で、科学論文からSNSまで広く使われている。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1026,
+    "word": "govern",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "統治する、支配する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（規則などが）左右する、制御する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɡʌvərn/",
+    "syllables": "gov-ern",
+    "audioHint": "ガヴァン",
+    "examples": [
+      {
+        "en": "The president governs the country with strong policies.",
+        "ja": "大統領は強力な政策で国を統治する。",
+        "blank": "The president ___ the country with strong policies.",
+        "blankAnswer": "governs"
+      }
+    ],
+    "distractors": [
+      "奪う",
+      "育む",
+      "いじめる"
+    ],
+    "confusableSpellings": [
+      "govren",
+      "goverment",
+      "gouvern"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'gubernare'（舵をとる）から。ギリシャ語 'kybernan'（操縦する）が語源で、「サイバネティクス（cybernetics）」や「cyber-」と同じ語根を共有している。",
+      "tips": "govern は国・地域の統治だけでなく、「法律が行動を govern する（規定する）」のように抽象的な主語にも使える。government（政府）、governor（知事）など派生語も重要。日本人は rule と混同しがちだが、rule はより一般的な「支配・規則」、govern は組織的な統治運営のニュアンス。",
+      "confusables": "rule は広く「支配・規則に従わせる」。manage は実務的な管理・運営。govern は特に政治・法的な統治や、抽象的な原則が物事を制御するという文脈で使う。",
+      "collocations": [
+        "govern a country",
+        "governing body",
+        "rules governing behavior"
+      ],
+      "trivia": "「cyber」の語源はギリシャ語の「操縦する」で、govern と同じ語根！インターネット空間を意味する「cyber」が、もともと「舵取り」を意味していたとは…まさに現代社会の比喩そのもの。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1027,
+    "word": "log",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "記録する、ログに残す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（システムに）ログインする／ログアウトする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/lɒɡ/",
+    "syllables": "log",
+    "audioHint": "ログ",
+    "examples": [
+      {
+        "en": "The system automatically logs all user activity.",
+        "ja": "システムはすべてのユーザー活動を自動的に記録する。",
+        "blank": "The system automatically ___ all user activity.",
+        "blankAnswer": "logs"
+      }
+    ],
+    "distractors": [
+      "送信する",
+      "処理する",
+      "暗号化する"
+    ],
+    "confusableSpellings": [
+      "logg",
+      "logge",
+      "loge"
+    ],
+    "passive": {
+      "etymology": "もともとは「丸太（log）」の意味。航海で船員が丸太に結んだ縄を海に投げ、速度を測定して航海日誌に記録したことから「記録する」という動詞用法が生まれた。",
+      "tips": "コンピュータ用語では log in / log on（ログインする）、log out / log off（ログアウトする）のように副詞と組み合わせて使う。「ログる」という日本語IT俗語はここから。ただし log into と log in to は区別が曖昧で、log in to your account が標準的。",
+      "confusables": "record はより広い「記録する」全般。register は公式に登録する手続き的なニュアンス。log はデジタル・航海など、継続的な動作記録に特有のニュアンスがある。",
+      "collocations": [
+        "log in",
+        "log out",
+        "log data",
+        "log a complaint"
+      ],
+      "trivia": "船の速度を測る道具「チップログ」から派生した「logbook（航海日誌）」が、現代のコンピュータのログの語源。つまりエラーログもシステムログも、元をたどれば大航海時代の丸太にたどり着く！"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1028,
+    "word": "transmit",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "送信する、伝える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（病気・信号などを）伝播させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trænsˈmɪt/",
+    "syllables": "trans-mit",
+    "audioHint": "トランスミット",
+    "examples": [
+      {
+        "en": "The satellite transmits data to stations on the ground.",
+        "ja": "衛星は地上の基地局にデータを送信する。",
+        "blank": "The satellite ___ data to stations on the ground.",
+        "blankAnswer": "transmits"
+      }
+    ],
+    "distractors": [
+      "記録する",
+      "変換する",
+      "圧縮する"
+    ],
+    "confusableSpellings": [
+      "transmitt",
+      "transmite",
+      "transmitt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'transmittere' から。trans-（向こうへ・横切って）+ mittere（送る）が語源。mittere は「missile（ミサイル）」「emit（放出する）」「permit（許可する）」などとも語根を共有する。",
+      "tips": "transmit は情報・信号・病気など幅広いものを「送る・伝える」に使える高汎用語。過去形・過去分詞は transmitted（tを重ねる）ことに注意。名詞形 transmission（変速機・送信）も頻出。日本人は「トランスミッション」を車の変速機としか知らないことが多いが、放送・伝達の意味でも重要。",
+      "confusables": "send は日常的な「送る」全般。broadcast は不特定多数への一斉送信。transmit は技術的・科学的な文脈で、信号・データ・ウイルスなどが媒体を通じて伝わるイメージが強い。",
+      "collocations": [
+        "transmit data",
+        "transmit a signal",
+        "transmit a disease"
+      ],
+      "trivia": "「trans-」は「横切る」を意味する接頭辞で、transport（輸送）、translate（翻訳）、transform（変形）など超頻出語を量産している。trans- を覚えると英単語の見え方がガラッと変わる！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1029,
+    "word": "bully",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "いじめる、脅す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "強要する、圧力をかける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbʊli/",
+    "syllables": "bul-ly",
+    "audioHint": "ブリ",
+    "examples": [
+      {
+        "en": "He was bullied at school for being different.",
+        "ja": "彼は違うという理由で学校でいじめられた。",
+        "blank": "He was ___ at school for being different.",
+        "blankAnswer": "bullied"
+      }
+    ],
+    "distractors": [
+      "統治する",
+      "育む",
+      "奪う"
+    ],
+    "confusableSpellings": [
+      "bullie",
+      "bulli",
+      "bulley"
+    ],
+    "passive": {
+      "etymology": "16世紀のオランダ語 'boel'（愛人・兄弟）から転じたとされ、もともとは「仲間・友人」を意味したが、次第に「弱者を脅す者」という否定的な意味に変化した。",
+      "tips": "bully は動詞・名詞どちらにも使える。bully A into doing で「Aを脅して〜させる」という構文は頻出。名詞では「いじめっ子」の意味。日本語の「いじめ」と完全に一致する唯一の英単語とも言える。cyberbullying（ネットいじめ）という複合語も現代では必須語。",
+      "confusables": "intimidate はより広く「恐怖を与えて萎縮させる」。harass は継続的な嫌がらせ全般。bully は力関係の非対称を伴ういじめ行為に特に使われる。",
+      "collocations": [
+        "bully into doing",
+        "cyberbullying",
+        "school bully"
+      ],
+      "trivia": "かつて英語で bully には「すごい！最高！」というポジティブな意味もあった。19世紀の表現「bully for you!」は「よくやった！」という褒め言葉。同じ単語がここまで意味が変わるとは…言葉の歴史は深い。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1030,
+    "word": "leap",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "跳ぶ、跳躍する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "急増する、一気に進む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/liːp/",
+    "syllables": "leap",
+    "audioHint": "リープ",
+    "examples": [
+      {
+        "en": "The cat leaped onto the kitchen counter.",
+        "ja": "猫はキッチンのカウンターに飛び乗った。",
+        "blank": "The cat ___ onto the kitchen counter.",
+        "blankAnswer": "leaped"
+      }
+    ],
+    "distractors": [
+      "曲がる",
+      "握る",
+      "引き裂く"
+    ],
+    "confusableSpellings": [
+      "leep",
+      "leape",
+      "leaap"
+    ],
+    "passive": {
+      "etymology": "古英語 'hlēapan'（跳ぶ、走る）から。ゲルマン語系の語根で、ドイツ語 'laufen'（走る）と親戚関係にある。",
+      "tips": "過去形は leaped（米）または leapt（英）の両方が正しい。「a leap of faith（信念の跳躍）」「leap forward（大きく前進する）」などの慣用表現が特に重要。jump との違いは leap がより大きく・力強く・劇的な跳躍を指すこと。",
+      "confusables": "jump は日常的な「跳ぶ」全般に使える最汎用語。leap は距離や勢いを強調したい時や比喩的表現に向く。hop は片足で軽くピョンと跳ぶイメージ。",
+      "collocations": [
+        "leap forward",
+        "a leap of faith",
+        "leap at an opportunity"
+      ],
+      "trivia": "「leap year（うるう年）」の leap は「跳ぶ」から来ている。通常の年なら日付が1日ずつ「歩く」のに、うるう年は2月29日があるせいで曜日が2日分「跳ぶ」ことが語源という説がある。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1031,
+    "word": "astonish",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を驚かせる、仰天させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈstɒnɪʃ/",
+    "syllables": "as-ton-ish",
+    "audioHint": "アストニッシュ",
+    "examples": [
+      {
+        "en": "The magician's trick astonished the entire audience.",
+        "ja": "マジシャンの手品は観客全員を仰天させた。",
+        "blank": "The magician's trick ___ the entire audience.",
+        "blankAnswer": "astonished"
+      }
+    ],
+    "distractors": [
+      "〜を説得する",
+      "〜を混乱させる",
+      "〜を失望させる"
+    ],
+    "confusableSpellings": [
+      "astonich",
+      "astonesh",
+      "astonisch"
+    ],
+    "passive": {
+      "etymology": "古フランス語 estoner（驚かせる）に由来。接頭辞 a-（強意）＋ラテン語 tonare（雷を鳴らす）から派生。文字通り「雷に打たれたように驚かせる」イメージ。",
+      "tips": "astonish は他動詞なので必ず目的語が必要。「I was astonished at the news」のように受動態で使うことが非常に多い。at / by のどちらも使えるが by のほうが原因を強調する。",
+      "confusables": "surprise（普通に驚く）＜ astonish（仰天する）＜ astound（もっと強い衝撃）の強度差に注意。日常会話なら surprise でも十分だが、劇的な驚きには astonish を使おう。",
+      "collocations": [
+        "be astonished at/by",
+        "astonish the world",
+        "astonishing feat"
+      ],
+      "trivia": "「astonish」の語根 tonare（雷）は「tonic（強壮剤）」とも関係がある。古代人にとって雷は「強大な力」の象徴で、そこから「圧倒的に驚かせる」という意味が生まれた。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1032,
+    "word": "thrill",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜をわくわくさせる、興奮させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "わくわくする感覚、スリル",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/θrɪl/",
+    "syllables": "thrill",
+    "audioHint": "スリル",
+    "examples": [
+      {
+        "en": "The live concert thrilled everyone in the stadium.",
+        "ja": "ライブコンサートはスタジアムの全員を興奮させた。",
+        "blank": "The live concert ___ everyone in the stadium.",
+        "blankAnswer": "thrilled"
+      }
+    ],
+    "distractors": [
+      "〜を安心させる",
+      "〜を驚かせる",
+      "〜を退屈させる"
+    ],
+    "confusableSpellings": [
+      "thril",
+      "thrill",
+      "trhill"
+    ],
+    "passive": {
+      "etymology": "古英語 þyrlian（穴を開ける、突き刺す）に由来。「胸をぐっと突き刺すような興奮」がもとの感覚。",
+      "tips": "thrill は動詞としても名詞としても頻繁に使われる。「I was thrilled to hear the news.」のように受動態で感情を表す使い方が自然。日本語の「スリル」はどちらかと言えば恐怖感も含む場合があるが、英語の thrill はポジティブな興奮が中心。",
+      "confusables": "excite（広く興奮させる）と thrill（ぞくぞくするような強い興奮）は似ているが、thrill のほうがより感情的な高揚感が強い。また thrill には名詞用法もあり「the thrill of victory」のようにも使う。",
+      "collocations": [
+        "be thrilled about/with",
+        "thrill the crowd",
+        "a thrill of excitement"
+      ],
+      "trivia": "「thrill」は元々「穴を開ける」という意味の動詞だった。「胸に穴が開くほどドキドキする」という感覚から現在の意味に変化したと考えると、なんとも詩的な語源だ。"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1033,
+    "word": "nod",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "うなずく、首を縦に振る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "うなずき",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/nɒd/",
+    "syllables": "nod",
+    "audioHint": "ノッド",
+    "examples": [
+      {
+        "en": "She nodded her head in agreement during the meeting.",
+        "ja": "彼女は会議中に同意してうなずいた。",
+        "blank": "She ___ her head in agreement during the meeting.",
+        "blankAnswer": "nodded"
+      }
+    ],
+    "distractors": [
+      "ウインクする",
+      "腕を組む",
+      "握手する"
+    ],
+    "confusableSpellings": [
+      "nodd",
+      "knod",
+      "nood"
+    ],
+    "passive": {
+      "etymology": "中英語 nodden（頭を下げる）に由来。語源は不明瞭だが、頭を上下に動かす動作をそのまま表す擬態語的な語とされる。",
+      "tips": "nod は自動詞・他動詞どちらも使える。「nod one's head」と head を伴うのは冗長に見えるが、強調や文脈明確化のため実際によく使われる。また「nod off（居眠りする）」という句動詞も頻出。",
+      "confusables": "bow（お辞儀する）と混同しやすい。nod は頭だけを縦に動かすカジュアルな動作、bow は上半身を傾けるより丁寧な動作。文化的に日本人は bow を頻繁に使うが、英語圏では nod で十分なことが多い。",
+      "collocations": [
+        "nod in agreement",
+        "nod one's head",
+        "give a nod"
+      ],
+      "trivia": "文化によってうなずきの意味は違う。日本・欧米では「はい／同意」だが、ブルガリアやインドの一部では逆に「いいえ」を意味する。nod ひとつで誤解が生じることも！"
+    },
+    "frequency": 3200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1034,
+    "word": "bow",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "お辞儀をする、腰をかがめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "弓、リボンの結び目",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/baʊ/",
+    "syllables": "bow",
+    "audioHint": "バウ",
+    "examples": [
+      {
+        "en": "The actor bowed deeply after the final performance.",
+        "ja": "俳優は最後の公演の後、深くお辞儀をした。",
+        "blank": "The actor ___ deeply after the final performance.",
+        "blankAnswer": "bowed"
+      }
+    ],
+    "distractors": [
+      "走り回る",
+      "手を振る",
+      "微笑む"
+    ],
+    "confusableSpellings": [
+      "bouw",
+      "boe",
+      "baw"
+    ],
+    "passive": {
+      "etymology": "古英語 būgan（曲げる、かがむ）に由来。同じ語根から bend（曲げる）も派生している。「体を曲げる」という物理動作がそのまま語の核心。",
+      "tips": "bow には発音が2種類あり、お辞儀の意味では /baʊ/（バウ）、弓・リボンの意味では /boʊ/（ボウ）と発音が全く異なるので要注意。日本人学習者が混同しやすい典型例。",
+      "confusables": "nod（軽く頭を縦に振る）と bow（上半身を傾けるお辞儀）の違いに注意。また「bow out（降板する、引退する）」という句動詞もよく使われる。",
+      "collocations": [
+        "bow deeply",
+        "bow and arrow",
+        "take a bow"
+      ],
+      "trivia": "英語の bow（弓）と bow（お辞儀）は綴りが同じでも発音が違う「同形異音語（heteronym）」の代表例。英語ネイティブですら文脈を確認しないと混乱することがある珍しい単語だ。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1035,
+    "word": "blend",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を混ぜ合わせる、ブレンドする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "混合物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/blɛnd/",
+    "syllables": "blend",
+    "audioHint": "ブレンド",
+    "examples": [
+      {
+        "en": "Blend the ingredients together until the mixture is smooth.",
+        "ja": "混合物が滑らかになるまで材料を混ぜ合わせてください。",
+        "blank": "___ the ingredients together until the mixture is smooth.",
+        "blankAnswer": "Blend"
+      }
+    ],
+    "distractors": [
+      "〜を壊す",
+      "〜を分離する",
+      "〜を固める"
+    ],
+    "confusableSpellings": [
+      "blent",
+      "blennd",
+      "blende"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 blanda（混ぜる）に由来。スカンジナビア系の語彙がイギリスに持ち込まれたもの。",
+      "tips": "blend は「なじませる・調和させる」ニュアンスが強く、単に混ぜるだけの mix よりも「要素が溶け合う」感覚がある。料理・音楽・色など幅広い文脈で使える。「blend in（溶け込む）」という句動詞も日常会話で頻出。",
+      "confusables": "mix（ただ混ぜる）と blend（調和よく混ぜる）の違いに注意。mix は異質なものを合わせるだけだが、blend は各要素が自然に調和しているイメージ。merge（合併する）とも混同されがち。",
+      "collocations": [
+        "blend in",
+        "blend together",
+        "a blend of cultures"
+      ],
+      "trivia": "英語の「blend」はそのままカタカナ語「ブレンド」として日本語にも入っている。コーヒーショップで「ブレンドコーヒー」と言えば通じるが、英語では「a blend coffee」とは言わず「blended coffee」か単に「blend」と言う。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1036,
+    "word": "complicate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を複雑にする、ややこしくする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒmplɪkeɪt/",
+    "syllables": "com-pli-cate",
+    "audioHint": "コンプリケイト",
+    "examples": [
+      {
+        "en": "Adding too many rules will only complicate the process.",
+        "ja": "ルールを増やしすぎるとプロセスが複雑になるだけだ。",
+        "blank": "Adding too many rules will only ___ the process.",
+        "blankAnswer": "complicate"
+      }
+    ],
+    "distractors": [
+      "〜を簡単にする",
+      "〜を完成させる",
+      "〜を調整する"
+    ],
+    "confusableSpellings": [
+      "complecate",
+      "complicait",
+      "compliacte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 complicare（折り重ねる）に由来。com-（共に）＋plicare（折る）の組み合わせ。「何枚も折り重なって複雑になる」イメージ。",
+      "tips": "complicate は他動詞なので「Things complicated.」とは言えず「Things got complicated.」のように使う。形容詞 complicated（複雑な）と名詞 complication（合併症、複雑化）もセットで覚えておくと便利。",
+      "confusables": "complex（もともと複雑な性質）と complicated（複雑にされた・なった）の違いに注意。また confuse（混乱させる）と意味が近いと感じる学習者が多いが、complicate は「構造が複雑」、confuse は「頭が混乱」という違いがある。",
+      "collocations": [
+        "complicate matters",
+        "complicate the situation",
+        "unnecessarily complicate"
+      ],
+      "trivia": "「complicated」はテイラー・スウィフトや他のアーティストにも使われた歌詞の定番ワード。「It's complicated（複雑なんです）」はSNSの「交際状況（relationship status）」選択肢にもあり、英語ネイティブには「彼氏彼女かよくわからない状態」を指すスラング的表現としても通じる。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1037,
+    "word": "pitch",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜を投げる、ピッチングする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "音の高さ、売り込み、ピッチ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pɪtʃ/",
+    "syllables": "pitch",
+    "audioHint": "ピッチ",
+    "examples": [
+      {
+        "en": "He pitched the ball with incredible speed and accuracy.",
+        "ja": "彼は信じられないほどのスピードと正確さでボールを投げた。",
+        "blank": "He ___ the ball with incredible speed and accuracy.",
+        "blankAnswer": "pitched"
+      }
+    ],
+    "distractors": [
+      "〜を蹴る",
+      "〜を押す",
+      "〜を受け取る"
+    ],
+    "confusableSpellings": [
+      "pich",
+      "pitsh",
+      "pich"
+    ],
+    "passive": {
+      "etymology": "古英語 piccean（突き刺す、固定する）に由来。「先端で突く→勢いよく投げる」という動作の発展で現在の意味に。",
+      "tips": "pitch は非常に多義語。野球の「投げる」だけでなく、テントを「張る（pitch a tent）」、ビジネスで「売り込む（pitch an idea）」、船が「縦揺れする」など用法が多岐にわたる。まず「投げる」と「提案する」を押さえよう。",
+      "confusables": "throw（広く何かを投げる）と pitch（特定の技術や方向で投げる）の違いに注意。野球では必ず pitch を使い throw とは言わない。また tone（音のトーン）と pitch（音の高低）の使い分けも意識しておくとよい。",
+      "collocations": [
+        "pitch a tent",
+        "sales pitch",
+        "pitch an idea"
+      ],
+      "trivia": "ビジネス英語で「elevator pitch（エレベーターピッチ）」という表現がある。エレベーターに乗っている短時間（約30秒〜1分）で自分のアイデアを売り込めるほど簡潔なプレゼンのこと。スタートアップ界では必須スキルだ。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1038,
+    "word": "persist",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "持続する、やり続ける、こだわる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pəˈsɪst/",
+    "syllables": "per-sist",
+    "audioHint": "パーシスト",
+    "examples": [
+      {
+        "en": "If you persist in practicing, you will definitely improve.",
+        "ja": "練習し続ければ、必ず上達するだろう。",
+        "blank": "If you ___ in practicing, you will definitely improve.",
+        "blankAnswer": "persist"
+      }
+    ],
+    "distractors": [
+      "〜を諦める",
+      "〜を加速させる",
+      "〜を変化させる"
+    ],
+    "confusableSpellings": [
+      "persisit",
+      "perist",
+      "persistt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 persistere に由来。per-（完全に・ずっと）＋ sistere（立つ、とどまる）の組み合わせ。「ずっとそこに立ち続ける」がもとの意味。",
+      "tips": "persist は自動詞で「persist in doing」または「persist with something」のように使う。「persist to do」は誤りなので注意。また名詞形 persistence（持続、粘り強さ）、形容詞 persistent（しつこい、持続的な）もよく使われる。",
+      "confusables": "insist（主張する）と persist（続ける）は混同しやすい。insist は「意見を押し通す」、persist は「行動や状態が続く」というニュアンスの違いがある。continue とも似ているが、persist には「困難があっても続ける」という粘り強さの含意がある。",
+      "collocations": [
+        "persist in doing",
+        "persist with effort",
+        "persistent pain"
+      ],
+      "trivia": "コンピュータ用語でも「persistent（永続的な）」は頻出。「persistent storage（永続ストレージ）」「persistent connection（持続的接続）」など。エンジニアがよく使うので、IT業界を目指す人はぜひ覚えておきたい。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1039,
+    "word": "dedicate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を捧げる、専念させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɛdɪkeɪt/",
+    "syllables": "ded-i-cate",
+    "audioHint": "デディケイト",
+    "examples": [
+      {
+        "en": "She dedicated her life to helping people in need.",
+        "ja": "彼女は困っている人々を助けることに生涯を捧げた。",
+        "blank": "She ___ her life to helping people in need.",
+        "blankAnswer": "dedicated"
+      }
+    ],
+    "distractors": [
+      "〜を禁止する",
+      "〜を批判する",
+      "〜を無視する"
+    ],
+    "confusableSpellings": [
+      "dedicait",
+      "deddicate",
+      "dedicaet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 dedicare（宣言して捧げる）に由来。de-（完全に）＋ dicare（宣言する、示す）の組み合わせ。「完全にそれに宣言する＝捧げる」という意味。",
+      "tips": "「dedicate A to B」または「dedicate oneself to B」の形が基本。to の後ろには名詞か動名詞（-ing）が来る。「dedicate to do」とは言わないので注意。形容詞 dedicated（献身的な）も履歴書などでよく使われる重要語。",
+      "confusables": "devote（〜を捧げる）と非常に似ているが、dedicate は儀式的・公式的なニュアンスが強く、本を「〜に捧げる」という献辞の意味でも使われる。devote はより個人的・日常的な使用が多い。",
+      "collocations": [
+        "dedicate oneself to",
+        "dedicated to the cause",
+        "dedicated server"
+      ],
+      "trivia": "本の冒頭にある「This book is dedicated to...（この本を〜に捧げます）」という献辞も dedicate の用法のひとつ。IT用語の「dedicated server（専用サーバー）」も同じ語から来ており、「ひとつの目的に完全に捧げられたサーバー」という意味だ。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1040,
+    "word": "equip",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜に装備させる、備えさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈkwɪp/",
+    "syllables": "e-quip",
+    "audioHint": "イクウィップ",
+    "examples": [
+      {
+        "en": "The school equipped every student with a new laptop.",
+        "ja": "学校はすべての生徒に新しいノートパソコンを支給した。",
+        "blank": "The school ___ every student with a new laptop.",
+        "blankAnswer": "equipped"
+      }
+    ],
+    "distractors": [
+      "〜を修理する",
+      "〜を取り除く",
+      "〜を輸送する"
+    ],
+    "confusableSpellings": [
+      "equipp",
+      "equipt",
+      "equipe"
+    ],
+    "passive": {
+      "etymology": "古フランス語 esquiper（船に乗り込む、装備する）に由来。古ノルド語 skipa（船を整える）とも関係がある。もともとは「船の装備を整える」という海事用語だった。",
+      "tips": "equip の過去形・過去分詞は equipped（p を二重にする）なのでスペルに注意。「equip A with B（AにBを装備させる）」の語順を覚えておこう。be equipped with（〜を備えている）という受動態も非常によく使われる。",
+      "confusables": "provide（提供する）と equip（装備・能力を与える）の違いに注意。provide はただ「渡す」だが、equip には「使えるように整える・準備させる」というニュアンスがある。supply（物資を供給する）とも似ているが、equip はより「能力・道具で備えさせる」感覚が強い。",
+      "collocations": [
+        "equip with tools",
+        "well-equipped facility",
+        "equip students with skills"
+      ],
+      "trivia": "ゲームの「装備（equipment）」もまさにこの equip から来ている。RPGで「剣を装備する」を英語にすると「equip a sword」。ゲーマーには馴染み深い単語で、語源を知ると「装備する＝使えるように整える」という本来の意味がスッと入ってくる。"
+    },
+    "frequency": 3700,
+    "cefr": "B1"
+  }
+]

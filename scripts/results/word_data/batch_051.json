@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1001,
+    "word": "negotiate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "交渉する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "乗り越える・切り抜ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/nɪˈɡoʊʃieɪt/",
+    "syllables": "ne-go-ti-ate",
+    "audioHint": "ニゴウシエイト",
+    "examples": [
+      {
+        "en": "They negotiated a new contract with the supplier.",
+        "ja": "彼らはサプライヤーと新しい契約を交渉した。",
+        "blank": "They ___ a new contract with the supplier.",
+        "blankAnswer": "negotiated"
+      }
+    ],
+    "distractors": [
+      "寄付する",
+      "批判する",
+      "協力する"
+    ],
+    "confusableSpellings": [
+      "negociate",
+      "negotiatte",
+      "negotitate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 negotiari（商売する）から。neg-（否定）+ otium（余暇・休息）→「休んでいない＝仕事している」という発想が語源。",
+      "tips": "negotiate with（人）for（目的）の形が頻出。「negotiate about」は使えないわけではないが、ネイティブは「negotiate over」や「negotiate for」を好む。",
+      "confusables": "discuss と混同しがち。discuss は単なる話し合い、negotiate は利益をめぐる駆け引きのある交渉を指す。",
+      "collocations": [
+        "negotiate a deal",
+        "negotiate with the government",
+        "negotiate terms"
+      ],
+      "trivia": "「negotiate a curve（カーブを上手く曲がる）」のように、物理的な障害を「切り抜ける」意味でも使われる。運転の話でも登場するので要チェック！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1002,
+    "word": "grasp",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "しっかり握る・つかむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "理解する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡræsp/",
+    "syllables": "grasp",
+    "audioHint": "グラスプ",
+    "examples": [
+      {
+        "en": "She grasped the rope tightly to avoid falling.",
+        "ja": "彼女は落ちないようにロープをしっかりつかんだ。",
+        "blank": "She ___ the rope tightly to avoid falling.",
+        "blankAnswer": "grasped"
+      }
+    ],
+    "distractors": [
+      "ひびを入れる",
+      "軽く叩く",
+      "押しつぶす"
+    ],
+    "confusableSpellings": [
+      "gracp",
+      "graps",
+      "grassp"
+    ],
+    "passive": {
+      "etymology": "古英語 grǣpsan（つかむ）に由来。grip や grab と同じ語族で、「g-r」の組み合わせが「つかむ動作」を表す語に多く見られる。",
+      "tips": "物理的に「握る」意味と、抽象的に「概念を理解する」意味の両方がある。「I can't grasp the concept.（概念が理解できない）」のような比喩的用法を忘れがち。",
+      "confusables": "grab は素早く・乱暴につかむイメージ。grasp はしっかりと・意図的につかむニュアンスがある。hold は握り続けること。",
+      "collocations": [
+        "grasp the concept",
+        "grasp someone's hand",
+        "grasp the opportunity"
+      ],
+      "trivia": "「within one's grasp（手の届く範囲）」という慣用句もよく使われる。チャンスが近づいているときに使うフレーズとして映画やスピーチにも頻出！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1003,
+    "word": "donate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "寄付する・寄贈する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "提供する（臓器・血液など）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdoʊneɪt/",
+    "syllables": "do-nate",
+    "audioHint": "ドウネイト",
+    "examples": [
+      {
+        "en": "He donated all his savings to the local charity.",
+        "ja": "彼は全貯金を地元の慈善団体に寄付した。",
+        "blank": "He ___ all his savings to the local charity.",
+        "blankAnswer": "donated"
+      }
+    ],
+    "distractors": [
+      "交渉する",
+      "逮捕する",
+      "支持する"
+    ],
+    "confusableSpellings": [
+      "donete",
+      "donnate",
+      "donat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 donare（贈る・与える）から。donum（贈り物）が語根で、donor（寄付者）も同じ語族。",
+      "tips": "donate to（団体）または donate A to B（AをBに寄付する）の形が基本。「donate for」は誤用なので注意。",
+      "confusables": "give は広い意味で「与える」、donate は慈善・公共目的に無償で提供するニュアンスが強い。contribute は時間や労力も含む広い貢献を指す。",
+      "collocations": [
+        "donate blood",
+        "donate to charity",
+        "donate organs"
+      ],
+      "trivia": "血液や臓器の「提供」にも使われる。「donate a kidney（腎臓を提供する）」という表現は医療ドラマで頻出。お金だけじゃないんです！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1004,
+    "word": "arrest",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "逮捕する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "食い止める・阻止する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈrɛst/",
+    "syllables": "ar-rest",
+    "audioHint": "アレスト",
+    "examples": [
+      {
+        "en": "The police arrested the suspect near the station.",
+        "ja": "警察は駅の近くで容疑者を逮捕した。",
+        "blank": "The police ___ the suspect near the station.",
+        "blankAnswer": "arrested"
+      }
+    ],
+    "distractors": [
+      "釈放する",
+      "投票する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "arrets",
+      "arest",
+      "arrset"
+    ],
+    "passive": {
+      "etymology": "古フランス語 arester（止まる）から。ラテン語 ad-（方向）+ restare（止まる・残る）が語源。「動きを止める」が根本の意味。",
+      "tips": "under arrest（逮捕されて）という表現は頻出。また「arrest attention（注目を集める）」のように「目を引き止める」比喩的用法もある。",
+      "confusables": "detain は拘留・留置（逮捕より広い）、imprison は投獄。arrest は法的手続きの最初の段階を指す。",
+      "collocations": [
+        "under arrest",
+        "arrest a suspect",
+        "cardiac arrest"
+      ],
+      "trivia": "「cardiac arrest（心停止）」の arrest も「止まる」という同じ語源。心臓が「止められた」状態というわけで、医療用語でもバリバリ現役！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1005,
+    "word": "crack",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ひびを入れる・割る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "解読する・解決する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kræk/",
+    "syllables": "crack",
+    "audioHint": "クラック",
+    "examples": [
+      {
+        "en": "He cracked the egg carefully into the bowl.",
+        "ja": "彼は慎重に卵をボウルに割り入れた。",
+        "blank": "He ___ the egg carefully into the bowl.",
+        "blankAnswer": "cracked"
+      }
+    ],
+    "distractors": [
+      "しっかりつかむ",
+      "軽く叩く",
+      "引っ張る"
+    ],
+    "confusableSpellings": [
+      "creck",
+      "crak",
+      "crach"
+    ],
+    "passive": {
+      "etymology": "古英語 cracian（パキッと音を立てる）に由来。音の擬音的な起源を持つ語で、「パキッ」という音そのものが語源になっている。",
+      "tips": "crack a joke（冗談を言う）、crack a code（暗号を解読する）など比喩的表現が豊富。物理的な「割る」だけと思い込むと損。",
+      "confusables": "break は完全に壊れること、crack はひびが入る・割れ目ができる段階。「The glass cracked but didn't break.」のように使い分ける。",
+      "collocations": [
+        "crack a joke",
+        "crack the code",
+        "crack under pressure"
+      ],
+      "trivia": "「crack under pressure（プレッシャーで崩れる）」は精神的に限界を迎える表現。スポーツ解説や職場の話でよく出てくるので覚えておくと会話で使えます！"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1006,
+    "word": "tap",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "軽く叩く・タップする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "活用する・引き出す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tæp/",
+    "syllables": "tap",
+    "audioHint": "タップ",
+    "examples": [
+      {
+        "en": "She tapped her foot impatiently while waiting.",
+        "ja": "彼女は待ちながらいらいらして足を軽く叩いた。",
+        "blank": "She ___ her foot impatiently while waiting.",
+        "blankAnswer": "tapped"
+      }
+    ],
+    "distractors": [
+      "ひびを入れる",
+      "押しつぶす",
+      "しっかりつかむ"
+    ],
+    "confusableSpellings": [
+      "tep",
+      "taap",
+      "tapp"
+    ],
+    "passive": {
+      "etymology": "古フランス語 taper（叩く）に由来。スマートフォン時代になり「画面をタップする」という意味が日常語として定着した新用法も持つ。",
+      "tips": "tap into（〜を活用する・引き出す）は現代ビジネス英語で超頻出。「tap into one's potential（潜在能力を引き出す）」の形で覚えるとよい。",
+      "confusables": "knock は比較的強くドアなどを叩く動作、pat はなだめるように優しく叩く動作。tap は軽く・短くが特徴。",
+      "collocations": [
+        "tap into potential",
+        "tap on the shoulder",
+        "tap a phone"
+      ],
+      "trivia": "「tap a phone（電話を盗聴する）」という意味もある。スパイ映画でよく出てくる表現で、元は電話線に「軽く触れる」イメージから来ています！"
+    },
+    "frequency": 1700,
+    "cefr": "A2"
+  },
+  {
+    "id": 1007,
+    "word": "split",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "分割する・割る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "分裂する・別れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/splɪt/",
+    "syllables": "split",
+    "audioHint": "スプリット",
+    "examples": [
+      {
+        "en": "Let's split the bill equally between us.",
+        "ja": "お勘定を均等に割り勘にしましょう。",
+        "blank": "Let's ___ the bill equally between us.",
+        "blankAnswer": "split"
+      }
+    ],
+    "distractors": [
+      "除外する",
+      "混ぜる",
+      "取り替える"
+    ],
+    "confusableSpellings": [
+      "splitt",
+      "spilt",
+      "spilit"
+    ],
+    "passive": {
+      "etymology": "中期オランダ語 splitten（割る）に由来。「sp-」の組み合わせは英語に「広がる・分かれる」意味の語（spread, spring など）に多い。",
+      "tips": "split は過去形・過去分詞も split（不変）。「He splitted」は誤りなので要注意！また split up（カップルが別れる）という句動詞も重要。",
+      "confusables": "divide は数学的・計画的に分ける、split はより突然・物理的に割れるニュアンス。separate は離れ離れにする・分離するイメージ。",
+      "collocations": [
+        "split the bill",
+        "split up",
+        "split personality"
+      ],
+      "trivia": "「banana split（バナナスプリット）」はアイスクリームのデザート。バナナを縦に「割って」アイスを乗せることが名前の由来。スイーツ名にも英文法が隠れてる！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1008,
+    "word": "forecast",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "予測する・予報する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "予測・予報",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɔːrkæst/",
+    "syllables": "fore-cast",
+    "audioHint": "フォーキャスト",
+    "examples": [
+      {
+        "en": "Meteorologists forecast heavy rain for the weekend.",
+        "ja": "気象予報士たちは週末に大雨を予報した。",
+        "blank": "Meteorologists ___ heavy rain for the weekend.",
+        "blankAnswer": "forecast"
+      }
+    ],
+    "distractors": [
+      "見落とす",
+      "記憶する",
+      "誤解する"
+    ],
+    "confusableSpellings": [
+      "forcast",
+      "forecat",
+      "forecaste"
+    ],
+    "passive": {
+      "etymology": "fore-（前もって）+ cast（投げる・計算する）の合成語。「前もって投げる＝先を見通す」という意味が語源。",
+      "tips": "過去形は forecast（不変）または forecasted の両方が使われるが、forecast が正式・一般的。天気予報以外に「経済予測」などにも使われる。",
+      "confusables": "predict はより科学的・論理的な予測、forecast は気象や経済など定期的・専門的な予測に使われることが多い。foresee は将来を見通す抽象的な予見。",
+      "collocations": [
+        "weather forecast",
+        "forecast growth",
+        "economic forecast"
+      ],
+      "trivia": "天気アプリで毎日見る「forecast」は実は中世英語から来た語。「cast（弓矢を放つ）」が転じて「未来に向けて見通す」になったというのが面白い！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1009,
+    "word": "exclude",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "除外する・排除する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "締め出す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈskluːd/",
+    "syllables": "ex-clude",
+    "audioHint": "イクスクルード",
+    "examples": [
+      {
+        "en": "The price excludes tax and shipping costs.",
+        "ja": "その価格は税金と送料を除外している。",
+        "blank": "The price ___ tax and shipping costs.",
+        "blankAnswer": "excludes"
+      }
+    ],
+    "distractors": [
+      "分割する",
+      "取り替える",
+      "含める"
+    ],
+    "confusableSpellings": [
+      "exclued",
+      "exlude",
+      "ecxlude"
+    ],
+    "passive": {
+      "etymology": "ラテン語 excludere から。ex-（外へ）+ claudere（閉じる）→「外に閉め出す」が原義。include の対義語として同じ語根を持つ。",
+      "tips": "exclude A from B（AをBから除外する）の形が基本。反義語の include と一緒に覚えると定着しやすい。exclusive（排他的な・高級な）も同語源。",
+      "confusables": "exclude は意図的に対象から外すこと、omit は書き落とし・省略のニュアンス、remove は物理的に取り除くこと。",
+      "collocations": [
+        "exclude from the list",
+        "exclude tax",
+        "feel excluded"
+      ],
+      "trivia": "「exclusive restaurant（会員制レストラン）」の exclusive も「外を閉め出す」という exclude の語根から来ている。高級感と排除は語源レベルでつながっています！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1010,
+    "word": "overlook",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "見落とす・見過ごす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "見渡す・見下ろす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈlʊk/",
+    "syllables": "o-ver-look",
+    "audioHint": "オウヴァルック",
+    "examples": [
+      {
+        "en": "Don't overlook the important details in the contract.",
+        "ja": "契約書の重要な詳細を見落とさないようにしてください。",
+        "blank": "Don't ___ the important details in the contract.",
+        "blankAnswer": "overlook"
+      }
+    ],
+    "distractors": [
+      "予測する",
+      "記憶する",
+      "想像する"
+    ],
+    "confusableSpellings": [
+      "overlok",
+      "ovarlook",
+      "overlokk"
+    ],
+    "passive": {
+      "etymology": "over-（上から・超えて）+ look（見る）の合成語。「上から見る→見渡す」と「上を通り過ぎて見る→見落とす」の2つの意味が生まれた。",
+      "tips": "「見落とす」と「見渡す」で意味が逆に見えるが、どちらも文脈で明確に区別できる。日本語の「見過ごす」に近い用法が試験でよく問われる。",
+      "confusables": "overlook は意図せず見落とす・または大目に見る、ignore は意図的に無視する。neglect は怠慢により注意を払わないこと。",
+      "collocations": [
+        "overlook a mistake",
+        "overlook the city",
+        "easy to overlook"
+      ],
+      "trivia": "ホテルの「オーシャンビューの部屋」を英語では「a room that overlooks the ocean」と表現する。「見落とす」とは逆の「見渡す」意味が観光・旅行英語では大活躍！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1011,
+    "word": "burst",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "破裂する、爆発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "突然～し始める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɜːrst/",
+    "syllables": "burst",
+    "audioHint": "バースト",
+    "examples": [
+      {
+        "en": "The balloon burst when she touched it.",
+        "ja": "彼女が触れると風船が破裂した。",
+        "blank": "The balloon ___ when she touched it.",
+        "blankAnswer": "burst"
+      }
+    ],
+    "distractors": [
+      "治癒する",
+      "窒息する",
+      "震える"
+    ],
+    "confusableSpellings": [
+      "brust",
+      "berst"
+    ],
+    "passive": {
+      "etymology": "古英語 'berstan'（壊れる・割れる）に由来。単音節語で原形・過去形・過去分詞がすべて同じ 'burst' という不規則動詞。",
+      "tips": "burst は過去形・過去分詞も 'burst' のまま変化しない不規則動詞。'busted' と混同しがちだが、busted は 'bust' の過去形で別の語。",
+      "confusables": "'explode' は爆発物による大きな爆発を指すが、'burst' はパンクや風船が割れるような内側からの破裂に使いやすい。",
+      "collocations": [
+        "burst into tears（突然泣き出す）",
+        "burst out laughing（笑い出す）",
+        "burst a bubble（夢を打ち砕く）"
+      ],
+      "trivia": "'burst into tears' はドラマや映画で頻出フレーズ。日本語の「泣き崩れる」に近い表現で、感情が抑えきれず爆発するイメージが語源そのまま！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1012,
+    "word": "heal",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "治癒する、癒す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（傷・関係などが）回復する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/hiːl/",
+    "syllables": "heal",
+    "audioHint": "ヒール",
+    "examples": [
+      {
+        "en": "The wound healed completely within a week.",
+        "ja": "傷は1週間で完全に治癒した。",
+        "blank": "The wound ___ completely within a week.",
+        "blankAnswer": "healed"
+      }
+    ],
+    "distractors": [
+      "破裂する",
+      "呼吸する",
+      "消化する"
+    ],
+    "confusableSpellings": [
+      "heil",
+      "hael"
+    ],
+    "passive": {
+      "etymology": "古英語 'hǣlan'（健康にする）から。語根 'hal'（全体・健全）はドイツ語の 'heil'（万歳）とも同族で「完全な状態に戻す」がコア。",
+      "tips": "'heal' は自動詞でも他動詞でも使える。'The cut healed.'（傷が治った）と 'She healed the patient.'（患者を治した）の両方OK。'cure' との混同注意。",
+      "confusables": "'cure' は病気そのものを完治させるのに対し、'heal' は傷や感情的な痛みも含め広く「癒す・回復する」に使う。",
+      "collocations": [
+        "heal a wound（傷を癒す）",
+        "heal the rift（亀裂を修復する）",
+        "time heals（時が癒す）"
+      ],
+      "trivia": "「heel（かかと）」と同音異義語。スペルに注意！実は RPG ゲームの「ヒーラー（healer）」の語源はこの heal。ゲーム英語が日常英語と直結してる！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1013,
+    "word": "forbid",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "禁止する、許さない",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（状況が）～を不可能にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fərˈbɪd/",
+    "syllables": "for-bid",
+    "audioHint": "ファビッド",
+    "examples": [
+      {
+        "en": "The teacher forbade students from using phones in class.",
+        "ja": "先生は授業中の携帯電話使用を禁じた。",
+        "blank": "The teacher ___ students from using phones in class.",
+        "blankAnswer": "forbade"
+      }
+    ],
+    "distractors": [
+      "交渉する",
+      "謝罪する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "forbide",
+      "forbidd"
+    ],
+    "passive": {
+      "etymology": "古英語 'forbēodan' から。接頭辞 'for-'（反対・阻止）＋ 'bid'（命令する）。「命令して阻止する」がコア意味。",
+      "tips": "過去形は 'forbade'（フォーバッド）または 'forbid'（両方可）、過去分詞は 'forbidden'。'forbidden' は形容詞としてもよく使われる（forbidden fruit＝禁断の果実）。",
+      "confusables": "'ban' は法律・規則による公式な禁止、'prohibit' はフォーマルな文章語。'forbid' は人が人に対して直接禁じる語感が強い。",
+      "collocations": [
+        "strictly forbidden（厳禁）",
+        "forbid entry（立入禁止）",
+        "God forbid（神様そうなりませんように）"
+      ],
+      "trivia": "'Forbidden City'（紫禁城）の forbidden はまさにこの語。かつて一般人が立ち入りを「禁じられた」城という意味で、英語名にしっかり歴史が刻まれてる！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1014,
+    "word": "install",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り付ける、設置する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（ソフトウェアを）インストールする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈstɔːl/",
+    "syllables": "in-stall",
+    "audioHint": "インストール",
+    "examples": [
+      {
+        "en": "He installed a new app on his smartphone.",
+        "ja": "彼はスマートフォンに新しいアプリをインストールした。",
+        "blank": "He ___ a new app on his smartphone.",
+        "blankAnswer": "installed"
+      }
+    ],
+    "distractors": [
+      "縮小する",
+      "分解する",
+      "置き換える"
+    ],
+    "confusableSpellings": [
+      "instal",
+      "installe"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'installare'（椅子に座らせる）から。'in-'（中に）＋ 'stallum'（場所・席）。「正しい場所に据える」がコアイメージ。",
+      "tips": "イギリス英語では 'instal'（l が1つ）も認められるが、アメリカ英語・IT文脈では 'install'（l が2つ）が標準。名詞形 'installation' も重要。",
+      "confusables": "'set up' はより口語的で広い意味をもつ。'install' は物理的または技術的に「組み込む・据える」ニュアンスが強い。",
+      "collocations": [
+        "install software（ソフトをインストールする）",
+        "install a camera（カメラを設置する）",
+        "install a government（政府を樹立する）"
+      ],
+      "trivia": "IT用語の「インストール」は完全に日本語に定着しているが、もともとは「王を玉座に座らせる」という厳かな意味。ソフトをスマホに「即位」させるイメージ！"
+    },
+    "frequency": 2500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1015,
+    "word": "diminish",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "減少する、小さくなる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（価値・重要性を）低下させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈmɪnɪʃ/",
+    "syllables": "di-min-ish",
+    "audioHint": "ディミニッシュ",
+    "examples": [
+      {
+        "en": "Her enthusiasm for the project slowly diminished.",
+        "ja": "そのプロジェクトへの彼女の熱意はゆっくりと薄れていった。",
+        "blank": "Her enthusiasm for the project slowly ___.",
+        "blankAnswer": "diminished"
+      }
+    ],
+    "distractors": [
+      "拡大する",
+      "変換する",
+      "組み立てる"
+    ],
+    "confusableSpellings": [
+      "dimminish",
+      "diminsh"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'diminuere'（小さくする）から。'di-'（離れて）＋ 'minuere'（小さくする）。語根 'min-' は 'minimum'（最小）とも同族。",
+      "tips": "'decrease' や 'reduce' より文語・書き言葉的なニュアンスが強い。レポートや論文では 'diminish' の方が格調が出る。他動詞・自動詞どちらも使える。",
+      "confusables": "'decrease' は数量の客観的な減少、'diminish' は価値・影響力・重要性が「薄れる・小さくなる」文脈でよく使う。",
+      "collocations": [
+        "diminish in value（価値が下がる）",
+        "diminish the risk（リスクを減らす）",
+        "diminishing returns（収穫逓減）"
+      ],
+      "trivia": "音楽理論の「ディミニッシュコード」はこの語から来ていて、音が「縮小された」和音のこと。音楽好きはすでに単語を知っていた！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1016,
+    "word": "cite",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "引用する、出典を示す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（例・証拠として）挙げる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/saɪt/",
+    "syllables": "cite",
+    "audioHint": "サイト",
+    "examples": [
+      {
+        "en": "She cited several studies to support her argument.",
+        "ja": "彼女は自分の主張を裏付けるためにいくつかの研究を引用した。",
+        "blank": "She ___ several studies to support her argument.",
+        "blankAnswer": "cited"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "否定する",
+      "記憶する"
+    ],
+    "confusableSpellings": [
+      "syte",
+      "cyte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'citare'（呼び出す・動かす）から。'cit-'（動かす・呼ぶ）は 'recite'（朗読する）や 'excite'（興奮させる）とも同族。",
+      "tips": "同音異義語の 'site'（場所）と 'sight'（視力）と混同しやすい。アカデミックライティングでは 'cite' は必須動詞で、引用文献を明示する動作を指す。",
+      "confusables": "'quote' は文章をそのままの言葉で引用する、'cite' は出典を参照・言及するニュアンス。論文で使うなら 'cite' が適切なことが多い。",
+      "collocations": [
+        "cite a source（出典を引用する）",
+        "cite an example（例を挙げる）",
+        "cite evidence（証拠を示す）"
+      ],
+      "trivia": "学術論文の参考文献欄を『Citations（シテーションズ）』と呼ぶ。Google Scholar の引用数が研究者の「格」を示すと言われ、現代では SNS のフォロワー数より重要とも！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1017,
+    "word": "quote",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（言葉・文章を）引用する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（価格を）見積もる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kwoʊt/",
+    "syllables": "quote",
+    "audioHint": "クウォート",
+    "examples": [
+      {
+        "en": "He quoted a famous line from Shakespeare.",
+        "ja": "彼はシェイクスピアの有名な一節を引用した。",
+        "blank": "He ___ a famous line from Shakespeare.",
+        "blankAnswer": "quoted"
+      }
+    ],
+    "distractors": [
+      "判断する",
+      "想像する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "qoute",
+      "quoet"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 'quotare'（章番号を付ける）から。'quot'（いくつの）が語根で、もともとは参照箇所に番号を振る行為を指した。",
+      "tips": "'q' の後には必ず 'u' が来るのが英語のルール。'qoute' は非常に多いスペルミス。名詞の 'quote' は口語で 'quotation' の短縮形としても広く使われる。",
+      "confusables": "'cite' は出典を示す行為全般、'quote' は原文の言葉をそのまま再現して引用する行為。'Quote, unquote'（いわゆる）という表現は口語でよく使う。",
+      "collocations": [
+        "quote a price（価格を提示する）",
+        "quote from a book（本から引用する）",
+        "quote me on that（私の言葉として引用してよい）"
+      ],
+      "trivia": "インターネットの名言サイトには誤って有名人の言葉として引用された「偽名言」が溢れている。これを 'misquote'（誤引用）と言い、リンカーンやアインシュタインは最大の被害者！"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1018,
+    "word": "dispute",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "異議を唱える、反論する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（問題・権利などを）争う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈspjuːt/",
+    "syllables": "dis-pute",
+    "audioHint": "ディスピュート",
+    "examples": [
+      {
+        "en": "He disputed the referee's decision loudly.",
+        "ja": "彼は審判の判定に大声で異議を唱えた。",
+        "blank": "He ___ the referee's decision loudly.",
+        "blankAnswer": "disputed"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "交渉する",
+      "承認する"
+    ],
+    "confusableSpellings": [
+      "dispuite",
+      "despute"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'disputare'（計算する・議論する）から。'dis-'（分けて）＋ 'putare'（考える・計算する）。互いの考えを「分けて検討する」がコア。",
+      "tips": "名詞の 'dispute' はアクセントが前（DIS-pute）になる場合も多く、動詞は後ろ（dis-PUTE）にアクセントが来ることが多い。同綴り語のアクセント移動に注意。",
+      "confusables": "'argue' は口語的で個人的な言い争い、'dispute' はより公式・法的な文脈での争いや異議申し立てに使いやすい。",
+      "collocations": [
+        "dispute a claim（主張に反論する）",
+        "territorial dispute（領土紛争）",
+        "in dispute（争いの最中で）"
+      ],
+      "trivia": "スポーツ中継で選手が審判に抗議するシーンを 'disputing the call' と言う。VAR（ビデオ判定）導入の背景にも、この 'dispute' を減らしたいという意図があるとか！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1019,
+    "word": "highlight",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "強調する、際立たせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（テキストを）ハイライトする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈhaɪlaɪt/",
+    "syllables": "high-light",
+    "audioHint": "ハイライト",
+    "examples": [
+      {
+        "en": "The report highlights the need for better education.",
+        "ja": "その報告書はより良い教育の必要性を強調している。",
+        "blank": "The report ___ the need for better education.",
+        "blankAnswer": "highlights"
+      }
+    ],
+    "distractors": [
+      "解体する",
+      "圧縮する",
+      "延長する"
+    ],
+    "confusableSpellings": [
+      "highlite",
+      "hilight"
+    ],
+    "passive": {
+      "etymology": "'high'（高い）＋ 'light'（光）の複合語。絵画技法で最も明るく光が当たる部分を指す 'highlight' から転じて「最も目立たせる」の動詞義へ。",
+      "tips": "プレゼンや論文で 'This study highlights...' のように使うと洗練された印象を与える。日本語カタカナの「ハイライト」とほぼ同じ感覚で使えるのが利点。",
+      "confusables": "'emphasize' は話し言葉・書き言葉どちらでも使うが、'highlight' は視覚的に「照らし出す」メタファーが強く、発表・レポートで特に自然。",
+      "collocations": [
+        "highlight an issue（問題を強調する）",
+        "highlight text（文章をハイライトする）",
+        "highlight reel（名場面集）"
+      ],
+      "trivia": "SNS の Instagram には「ハイライト（Highlights）」機能があり、英語そのままを機能名に使っている。毎日英語に触れていたのに気づいていなかった！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1020,
+    "word": "distract",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "気を散らす、注意をそらす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（心配などから）気をまぎらわす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstrækt/",
+    "syllables": "dis-tract",
+    "audioHint": "ディストラクト",
+    "examples": [
+      {
+        "en": "Loud music distracted her while she was studying.",
+        "ja": "大きな音楽が彼女の勉強中の集中を妨げた。",
+        "blank": "Loud music ___ her while she was studying.",
+        "blankAnswer": "distracted"
+      }
+    ],
+    "distractors": [
+      "記憶する",
+      "説得する",
+      "想像する"
+    ],
+    "confusableSpellings": [
+      "destract",
+      "disstract"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'distrahere'（引き離す）から。'dis-'（離れて）＋ 'trahere'（引く）。注意を「引き離す」がコアイメージ。'attract'（引き付ける）の逆！",
+      "tips": "'distract A from B'（AのBへの注意をそらす）という構文が頻出。形容詞 'distracted'（上の空の）や名詞 'distraction'（気を散らすもの）もセットで覚えると効率的。",
+      "confusables": "'disturb' は行動や状態を乱すこと（邪魔する）、'distract' は特に注意・集中を別方向に引き離すこと。'Do Not Disturb' は部屋への侵入禁止、'distract' はあくまで注意の問題。",
+      "collocations": [
+        "distract from work（仕事の邪魔をする）",
+        "easily distracted（注意散漫な）",
+        "distract oneself（気を紛らわす）"
+      ],
+      "trivia": "スマートフォンは史上最大の 'distraction machine'（注意散漫装置）と言われている。研究によると通知音を聞くだけで作業効率が下がるとか。まさに dis + tract の体現！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  }
+]

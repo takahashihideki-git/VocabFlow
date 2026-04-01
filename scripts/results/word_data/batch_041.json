@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 801,
+    "word": "assess",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "評価する、査定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "見積もる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsɛs/",
+    "syllables": "as-sess",
+    "audioHint": "アセス",
+    "examples": [
+      {
+        "en": "The teacher assessed each student's writing skills carefully.",
+        "ja": "先生は各生徒のライティングスキルを丁寧に評価した。",
+        "blank": "The teacher ___ each student's writing skills carefully.",
+        "blankAnswer": "assessed"
+      }
+    ],
+    "distractors": [
+      "承認する",
+      "指摘する",
+      "問題を提起する"
+    ],
+    "confusableSpellings": [
+      "asess",
+      "asscess",
+      "assese"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'assidere'（傍らに座る）が語源。'ad-'（～へ）＋ 'sedere'（座る）→ 審判官が傍らに座って評価する、という意味に発展。",
+      "tips": "assess は「評価・査定する」という意味で、テストの採点や損害の見積もりなど、客観的な判断を伴う場面で使います。'estimate'（大まかな見積もり）より正式・専門的なニュアンスがあります。",
+      "confusables": "'evaluate' も「評価する」ですが、assess は数値・等級などの定量的評価に使われることが多く、evaluate はより総合的・質的な評価に用いられます。",
+      "collocations": [
+        "assess the damage（損害を評価する）",
+        "assess the risk（リスクを査定する）",
+        "assess the situation（状況を見極める）"
+      ],
+      "trivia": "不動産の固定資産税（property tax）は assessed value（査定価格）をもとに計算されます。あなたの家の価値を決める人も 'assessor（査定官）' と呼ばれています！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 802,
+    "word": "approve",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "承認する、賛成する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "認可する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈpruːv/",
+    "syllables": "ap-prove",
+    "audioHint": "アプルーヴ",
+    "examples": [
+      {
+        "en": "The manager approved the new project proposal yesterday.",
+        "ja": "マネージャーは昨日、新しいプロジェクトの提案を承認した。",
+        "blank": "The manager ___ the new project proposal yesterday.",
+        "blankAnswer": "approved"
+      }
+    ],
+    "distractors": [
+      "評価する",
+      "意見を述べる",
+      "問いかける"
+    ],
+    "confusableSpellings": [
+      "aprove",
+      "approv",
+      "apporve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'approbare' が語源。'ad-'（～に向かって）＋ 'probare'（良いと証明する、試す）→ 良いと認める、承認するという意味。",
+      "tips": "approve of ～ で「～を良いと思う、賛成する」、approve ～ で「～を正式に承認する」と使い分けます。'I approve of your plan.' と 'I approved your plan.' ではニュアンスが微妙に異なります。",
+      "confusables": "'agree' は意見が一致することですが、approve は権限を持つ人が公式に許可・賛成するニュアンスが強い。上司が部下の申請を認める場面では approve が自然です。",
+      "collocations": [
+        "approve a request（申請を承認する）",
+        "approve of the decision（その決定に賛成する）",
+        "approve a budget（予算を承認する）"
+      ],
+      "trivia": "SNSの「いいね！」は英語で 'like' ですが、昔は 'approve' に近い概念でした。実は Facebook が 'like' ボタンを導入する前の案には 'awesome' ボタンや 'approve' ボタンもあったそうです！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 803,
+    "word": "remark",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "述べる、言及する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "コメント、発言",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈmɑːrk/",
+    "syllables": "re-mark",
+    "audioHint": "リマーク",
+    "examples": [
+      {
+        "en": "She remarked that the weather was unusually warm for December.",
+        "ja": "彼女は12月にしては珍しく暖かい天気だと述べた。",
+        "blank": "She ___ that the weather was unusually warm for December.",
+        "blankAnswer": "remarked"
+      }
+    ],
+    "distractors": [
+      "評価する",
+      "承認する",
+      "査定する"
+    ],
+    "confusableSpellings": [
+      "remarck",
+      "remmark",
+      "remarke"
+    ],
+    "passive": {
+      "etymology": "フランス語 'remarquer' が語源。're-'（再び）＋ 'marquer'（印をつける）→ 再び注目する・指摘する、という意味に発展。",
+      "tips": "remark は「ちょっと一言述べる」というカジュアルな発言ニュアンスがあります。remark that ～ の形で使うことが多く、'She remarked that...' のように that 節を続けるのが一般的です。",
+      "confusables": "'comment' は remark とほぼ同義ですが、remark はより口語的・即興的な発言に使われ、comment はより熟考された意見に使われる傾向があります。名詞の remark は 'make a remark' の形でよく使われます。",
+      "collocations": [
+        "make a remark（発言する）",
+        "remark on ～（～について言及する）",
+        "passing remark（ちょっとした一言）"
+      ],
+      "trivia": "remarkable（注目すべき、驚くべき）は remark の形容詞形。「もう一度印をつけたくなるほどすごい」という語源的ニュアンスが含まれているのが面白いですね！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 804,
+    "word": "pose",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（問題・危険などを）引き起こす、提起する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ポーズをとる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/poʊz/",
+    "syllables": "pose",
+    "audioHint": "ポウズ",
+    "examples": [
+      {
+        "en": "The new policy poses a serious challenge to small businesses.",
+        "ja": "新しい政策は中小企業にとって深刻な課題をもたらす。",
+        "blank": "The new policy ___ a serious challenge to small businesses.",
+        "blankAnswer": "poses"
+      }
+    ],
+    "distractors": [
+      "承認する",
+      "述べる",
+      "評価する"
+    ],
+    "confusableSpellings": [
+      "poze",
+      "poes",
+      "pozse"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'poser'（置く、据える）が語源。ラテン語 'pausare'（止める）とも関連。「何かを前に置く・提示する」という概念から「問題を提起する」へ発展。",
+      "tips": "pose a question（質問を提起する）、pose a threat（脅威をもたらす）、pose a risk（リスクをもたらす）のように、問題・危険・質問を「前に置く」感覚で使います。写真撮影の「ポーズをとる」も同じ単語です。",
+      "confusables": "'raise a question' も「質問を提起する」ですが、pose はよりフォーマルで書き言葉的。また 'pause'（一時停止する）と発音が似ているので注意。スペルが違います。",
+      "collocations": [
+        "pose a threat（脅威をもたらす）",
+        "pose a question（問いを立てる）",
+        "pose a challenge（課題を提起する）"
+      ],
+      "trivia": "写真の「ポーズ」も英語では pose。実はファッション誌 'Vogue' には動詞の 'vogue'（ポーズをとって歩く）があり、Madonna の曲でも有名ですが、もともと pose と意味が重なる言葉です！"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 805,
+    "word": "yield",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "産出する、もたらす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "譲歩する、降参する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/jiːld/",
+    "syllables": "yield",
+    "audioHint": "イールド",
+    "examples": [
+      {
+        "en": "The farm yielded an abundant harvest this autumn.",
+        "ja": "その農場は今秋、豊かな収穫をもたらした。",
+        "blank": "The farm ___ an abundant harvest this autumn.",
+        "blankAnswer": "yielded"
+      }
+    ],
+    "distractors": [
+      "展示する",
+      "配布する",
+      "占領する"
+    ],
+    "confusableSpellings": [
+      "yeild",
+      "yeld",
+      "yiled"
+    ],
+    "passive": {
+      "etymology": "古英語 'gieldan'（支払う、報いる）が語源。ゲルマン語系で「返す・報酬を与える」という概念から、「産出する・もたらす」へと意味が広がった。",
+      "tips": "yield は「収益・収穫をもたらす」という意味と「譲る・降参する」という正反対に見える2つの意味を持ちます。交通標識の 'YIELD'（日本の「徐行・譲れ」に相当）はアメリカで頻出。",
+      "confusables": "'produce' も「産出する」ですが、yield は特に農業・投資・実験などの結果として何かが「生み出される」ニュアンスが強い。また 'surrender' も「降参する」ですが、yield の方がより穏やかな譲歩を含みます。",
+      "collocations": [
+        "yield results（結果をもたらす）",
+        "yield to pressure（圧力に屈する）",
+        "high yield（高利回り）"
+      ],
+      "trivia": "投資の世界では 'yield'（利回り）は超重要用語。株や債券が生み出す収益率のことで、'high-yield bond'（ハイイールド債）はリターンが高い代わりにリスクも高い債券のことです！"
+    },
+    "frequency": 1700,
+    "cefr": "B2"
+  },
+  {
+    "id": 806,
+    "word": "exhibit",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "展示する、陳列する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "示す、表す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzɪbɪt/",
+    "syllables": "ex-hib-it",
+    "audioHint": "イグジビット",
+    "examples": [
+      {
+        "en": "The artist is exhibiting her paintings at a local gallery.",
+        "ja": "そのアーティストは地元のギャラリーで絵画を展示している。",
+        "blank": "The artist is ___ her paintings at a local gallery.",
+        "blankAnswer": "exhibiting"
+      }
+    ],
+    "distractors": [
+      "配布する",
+      "産出する",
+      "占有する"
+    ],
+    "confusableSpellings": [
+      "exibit",
+      "exhibt",
+      "exhbit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'exhibere' が語源。'ex-'（外へ）＋ 'habere'（持つ）→ 外に向けて持ち出す・見せるという意味に発展。",
+      "tips": "exhibit は「展示する（物理的に飾る）」という意味だけでなく、'exhibit signs of stress'（ストレスの兆候を示す）のように抽象的な「兆候・性質を示す」にも使えます。名詞では法廷の「証拠品」（Exhibit A）も意味します。",
+      "confusables": "'display' も「展示する」ですが、exhibit はより正式・芸術的な展示に使われます。'show' はより日常的・広義。法廷ドラマで 'Exhibit A' と言うのを聞いたことがある人も多いはず！",
+      "collocations": [
+        "exhibit artwork（芸術作品を展示する）",
+        "exhibit symptoms（症状を示す）",
+        "exhibit at a museum（美術館に出展する）"
+      ],
+      "trivia": "展覧会（exhibition）と同じ語源。オリンピックでは正式競技ではなく「見せるため」だけに行われる競技を 'exhibition event' と呼びます。スケートボードが正式競技になる前もそうでした！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 807,
+    "word": "distribute",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "配布する、配給する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "分配する、流通させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstrɪbjuːt/",
+    "syllables": "dis-trib-ute",
+    "audioHint": "ディストリビュート",
+    "examples": [
+      {
+        "en": "Volunteers distributed food to people in the affected area.",
+        "ja": "ボランティアたちは被災地の人々に食料を配布した。",
+        "blank": "Volunteers ___ food to people in the affected area.",
+        "blankAnswer": "distributed"
+      }
+    ],
+    "distractors": [
+      "展示する",
+      "産出する",
+      "占有する"
+    ],
+    "confusableSpellings": [
+      "distrubute",
+      "distribut",
+      "distibute"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'distribuere' が語源。'dis-'（バラバラに）＋ 'tribuere'（割り当てる、与える）→ 分けて各所に与えるという意味。",
+      "tips": "distribute は「広範囲にわたって配る」という概念が核心です。アクセントは 'dis-TRIB-ute' と第2音節にあります。日本人は 'DIS-trib-ute' と第1音節にアクセントを置きがちなので注意！",
+      "confusables": "'hand out' はより口語的で「手渡しで配る」感覚、'distribute' はより大規模・組織的な配布や流通に使われます。商品の「流通・販売」には distributor（代理店・販売業者）という名詞も頻出。",
+      "collocations": [
+        "distribute flyers（チラシを配布する）",
+        "distribute profits（利益を分配する）",
+        "distribute evenly（均等に分配する）"
+      ],
+      "trivia": "コンピューターの世界では 'distributed system'（分散システム）が重要用語。データを一か所に集めず世界中に散らばらせて管理する仕組みで、インターネット自体もその一例です！"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 808,
+    "word": "command",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "命令する、指揮する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "支配する、統率する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈmænd/",
+    "syllables": "com-mand",
+    "audioHint": "コマンド",
+    "examples": [
+      {
+        "en": "The general commanded his troops to advance at dawn.",
+        "ja": "将軍は夜明けに前進するよう部隊に命令した。",
+        "blank": "The general ___ his troops to advance at dawn.",
+        "blankAnswer": "commanded"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "交渉する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "comand",
+      "commnad",
+      "commamd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'commandare' が語源。'com-'（完全に）＋ 'mandare'（委ねる、命じる）→ 完全に委ねる・強く命じるという意味。mandate（命令）と同語源。",
+      "tips": "command は「命令する」だけでなく、'command respect'（尊敬を勝ち取る）のように「（自然と）～を引きつける・集める」という意味でも使われます。'command a high salary'（高い給料をもらえる立場にある）も頻出表現です。",
+      "confusables": "'order' も命令ですが、command はより軍事的・権威的なニュアンスが強い。'request'（お願いする）とは権力関係が全く異なります。コンピューターの「コマンド」もこの単語です。",
+      "collocations": [
+        "command respect（尊敬を集める）",
+        "in command of（～を指揮して）",
+        "command a view（眺望を誇る）"
+      ],
+      "trivia": "コンピューターのキーボードにある 'command キー'（Macの⌘）は「命令を実行せよ」という意味。この記号⌘はスウェーデンの古い地図記号（城や名所を示すもの）が起源で、Apple の Steve Jobs が採用したそうです！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 809,
+    "word": "occupy",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "占有する、占領する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（時間・注意を）費やす、従事させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɒkjʊpaɪ/",
+    "syllables": "oc-cu-py",
+    "audioHint": "オキュパイ",
+    "examples": [
+      {
+        "en": "The new sofa occupies too much space in the living room.",
+        "ja": "新しいソファはリビングのスペースを取りすぎている。",
+        "blank": "The new sofa ___ too much space in the living room.",
+        "blankAnswer": "occupies"
+      }
+    ],
+    "distractors": [
+      "配布する",
+      "展示する",
+      "産出する"
+    ],
+    "confusableSpellings": [
+      "occuppy",
+      "occuupy",
+      "ocupy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'occupare' が語源。'ob-'（上に、に向かって）＋ 'capere'（取る、捕まえる）→ 場所を取る・占めるという意味に発展。capture（捕まえる）と同語根。",
+      "tips": "occupy は「物理的な場所を占める」だけでなく、'occupied with work'（仕事で忙しい）のように「時間・関心を占めている」にも使います。トイレの「使用中」サインも 'Occupied' です！",
+      "confusables": "'occupy' は状態として「占有している」、'seize'（奪取する）は動作として「強制的に占領する」というニュアンスの違いがあります。2011年の 'Occupy Wall Street'（ウォール街を占拠せよ）運動でも有名になった単語。",
+      "collocations": [
+        "occupy a seat（席を占める）",
+        "occupied with ～（～で忙しい）",
+        "occupy territory（領土を占領する）"
+      ],
+      "trivia": "2011年に世界中に広がった社会運動「Occupy（オキュパイ）運動」はこの単語から。Wall Street を文字通り「占拠」することで経済格差への抗議を示した運動で、SNS時代に世界へ広がった最初期の社会運動の一つです！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 810,
+    "word": "pop",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ポンと破裂する、弾ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ひょいと動く、ふと現れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pɒp/",
+    "syllables": "pop",
+    "audioHint": "ポップ",
+    "examples": [
+      {
+        "en": "The balloon popped loudly and scared the children.",
+        "ja": "風船が大きな音でパンと割れて、子供たちを驚かせた。",
+        "blank": "The balloon ___ loudly and scared the children.",
+        "blankAnswer": "popped"
+      }
+    ],
+    "distractors": [
+      "はじき飛ばす",
+      "飛び跳ねる",
+      "ぶつかる"
+    ],
+    "confusableSpellings": [
+      "popp",
+      "poop",
+      "poap"
+    ],
+    "passive": {
+      "etymology": "中英語 'poppen' が語源で、破裂音を表す擬音語（オノマトペ）起源。'pop' という音そのものが単語になった、音象徴（sound symbolism）の典型例。",
+      "tips": "pop は非常に多義語で、「弾ける」「ひょいと出る」「薬を飲む」（pop a pill）など口語で幅広く使われます。'pop up'（突然現れる）、'pop in'（ちょっと立ち寄る）など句動詞も豊富。スペルは短いですが過去形は 'popped'（pを重ねる）と覚えましょう。",
+      "confusables": "'burst'（破裂する）は pop より激しい破裂、'snap'（パチンと折れる・鳴る）は固いものが割れる音。pop はより軽くて小さい破裂に使われます。音楽の 'pop'（ポップス）も同じ単語で「大衆的・弾けるような」イメージから来ています。",
+      "collocations": [
+        "pop a balloon（風船を割る）",
+        "pop up（突然現れる）",
+        "pop into ～（～にちょっと立ち寄る）"
+      ],
+      "trivia": "ポップコーン（popcorn）の 'pop' まさにこの単語！コーンが熱で内側から弾けることが語源です。また炭酸飲料を北米では 'soda' とも 'pop' とも言い、どちらを使うかで出身地がバレてしまうことも！"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 811,
+    "word": "pile",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "積み重ねる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "山積みにする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/paɪl/",
+    "syllables": "pile",
+    "audioHint": "パイル",
+    "examples": [
+      {
+        "en": "She piled the books on the desk.",
+        "ja": "彼女は本を机の上に積み重ねた。",
+        "blank": "She ___ the books on the desk.",
+        "blankAnswer": "piled"
+      }
+    ],
+    "distractors": [
+      "混ぜ合わせる",
+      "引き裂く",
+      "ひっくり返す"
+    ],
+    "confusableSpellings": [
+      "pyle",
+      "piле"
+    ],
+    "passive": {
+      "etymology": "古フランス語 pile（柱・堆積）、ラテン語 pila（柱）に由来。「積み上げた柱状のもの」が原義。",
+      "tips": "pile up で「どんどん溜まる・積み上がる」という句動詞になります。Work is piling up.（仕事が山積みになっている）のように自動詞でも使えることを覚えておきましょう。",
+      "confusables": "heap（雑然と積む）と似ていますが、pile はやや整然と重ねるニュアンスが強く、heap は乱雑さを含む場合が多いです。",
+      "collocations": [
+        "pile up（積み上げる）",
+        "pile of papers（書類の山）",
+        "pile into（詰め込む）"
+      ],
+      "trivia": "「パイル生地（タオル素材）」も pile から来ており、繊維が積み重なっている様子が語源です。バスタオルを触るたびに pile を思い出せます！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 812,
+    "word": "greet",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "挨拶する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "迎える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡriːt/",
+    "syllables": "greet",
+    "audioHint": "グリート",
+    "examples": [
+      {
+        "en": "He greeted his guests at the door.",
+        "ja": "彼はドアのところでゲストを迎えた。",
+        "blank": "He ___ his guests at the door.",
+        "blankAnswer": "greeted"
+      }
+    ],
+    "distractors": [
+      "謝罪する",
+      "批判する",
+      "拒絶する"
+    ],
+    "confusableSpellings": [
+      "greit",
+      "greeet"
+    ],
+    "passive": {
+      "etymology": "古英語 grētan（話しかける・攻撃する）に由来。印欧語根 *ghredh-（歩み寄る）が原義で、「相手に近づいて声をかける」感覚です。",
+      "tips": "greet は他動詞なので greet to someone とは言いません。greet someone（人を迎える）が正しい形。日本語の「〜に挨拶する」につられて to を入れないよう注意！",
+      "confusables": "welcome（歓迎する）と似ていますが、greet は単に挨拶・出迎えの動作を指し、welcome は「来てくれてうれしい」という感情を含みます。",
+      "collocations": [
+        "greet someone warmly（温かく迎える）",
+        "greet with a smile（笑顔で挨拶する）",
+        "greet the news（知らせを受け取る）"
+      ],
+      "trivia": "greeting card（グリーティングカード）はもはや日本語化していますが、動詞 greet からの派生です。実は古英語では「攻撃する」という意味もあり、言葉で相手に向かっていく行為が挨拶になったのは興味深いですね。"
+    },
+    "frequency": 3200,
+    "cefr": "A2"
+  },
+  {
+    "id": 813,
+    "word": "apologize",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "謝罪する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "詫びる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈpɒlədʒaɪz/",
+    "syllables": "a-pol-o-gize",
+    "audioHint": "アポロジャイズ",
+    "examples": [
+      {
+        "en": "She apologized for being late to the meeting.",
+        "ja": "彼女は会議に遅れたことを謝罪した。",
+        "blank": "She ___ for being late to the meeting.",
+        "blankAnswer": "apologized"
+      }
+    ],
+    "distractors": [
+      "賞賛する",
+      "挨拶する",
+      "議論する"
+    ],
+    "confusableSpellings": [
+      "appologize",
+      "apologise",
+      "apologyze"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 apologia（弁明・弁護）から。apo-（離れて）＋ logos（言葉・理由）。もともとは「自分を弁護する言葉」という意味で、謝罪というより「釈明」に近かった。",
+      "tips": "apologize for ～（〜について謝る）と apologize to 人（人に謝る）を組み合わせて使います。I apologize to you for my mistake. のように両方使えるのがポイントです。",
+      "confusables": "sorry は形容詞（I'm sorry）、apologize は動詞。フォーマルな場面では I apologize の方が丁寧な印象を与えます。",
+      "collocations": [
+        "apologize for（〜について謝る）",
+        "apologize to（〜に謝る）",
+        "sincerely apologize（心から謝罪する）"
+      ],
+      "trivia": "英語圏では謝りすぎる日本人が驚かれることも。一方でカナダ人は sorry を口癖のように使うことで有名で、「Sorry Culture」と呼ばれるほど。謝りすぎるのは万国共通？"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 814,
+    "word": "frustrate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "欲求不満にさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "挫折させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfrʌstreɪt/",
+    "syllables": "frus-trate",
+    "audioHint": "フラストレイト",
+    "examples": [
+      {
+        "en": "The slow internet frustrated him greatly.",
+        "ja": "遅いインターネットが彼をひどくイライラさせた。",
+        "blank": "The slow internet ___ him greatly.",
+        "blankAnswer": "frustrated"
+      }
+    ],
+    "distractors": [
+      "安心させる",
+      "納得させる",
+      "喜ばせる"
+    ],
+    "confusableSpellings": [
+      "frusterate",
+      "frustrat",
+      "frustate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 frustrare（無駄にする・欺く）から。frustra（無駄に・空しく）が語根で、「努力が無駄になる」感覚が原義です。",
+      "tips": "「フラストレーションを感じている」と言いたいとき、I feel frustration より I'm frustrated の方が自然です。また frustrate は「人をイライラさせる」他動詞なので、主語に注意しましょう。The problem frustrates me.（その問題が私をイライラさせる）",
+      "confusables": "annoy（うるさくてイライラさせる）は小さな苛立ち、frustrate は目標が阻まれるような深い欲求不満を指します。",
+      "collocations": [
+        "feel frustrated（欲求不満を感じる）",
+        "frustrate someone's efforts（努力を台無しにする）",
+        "deeply frustrated（深く挫折した）"
+      ],
+      "trivia": "「フラストレーション」はそのまま日本語になっていますが、フラストレーションの略「フラスト」は和製英語。英語では frus とは略しません。ちなみにフラストレーションを感じやすい状況1位はWi-Fiが繋がらないとき、という調査結果があります。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 815,
+    "word": "relieve",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "和らげる・軽減する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "安心させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈliːv/",
+    "syllables": "re-lieve",
+    "audioHint": "リリーヴ",
+    "examples": [
+      {
+        "en": "This medicine will relieve your pain quickly.",
+        "ja": "この薬はあなたの痛みをすぐに和らげてくれます。",
+        "blank": "This medicine will ___ your pain quickly.",
+        "blankAnswer": "relieve"
+      }
+    ],
+    "distractors": [
+      "欲求不満にさせる",
+      "誤解させる",
+      "混乱させる"
+    ],
+    "confusableSpellings": [
+      "releive",
+      "releve",
+      "releave"
+    ],
+    "passive": {
+      "etymology": "古フランス語 relever、ラテン語 relevare（再び持ち上げる）から。re-（再び）＋ levare（持ち上げる・軽くする）。重荷を持ち上げて楽にする、が原義。",
+      "tips": "relief（名詞）と relieve（動詞）のペアを一緒に覚えましょう。feel relief / be relieved（安心する）は日常会話でよく使います。スペルは -ie- の順番が混乱しやすいので「i before e（iが先）」と覚えて。",
+      "confusables": "ease（痛みなどを和らげる）と似ていますが、relieve は「完全に取り除く」に近いニュアンスがあり、ease は「徐々に和らげる」感じです。",
+      "collocations": [
+        "relieve pain（痛みを和らげる）",
+        "relieve stress（ストレスを解消する）",
+        "feel relieved（安心する）"
+      ],
+      "trivia": "「relief pitcher（救援投手）」も relieve から来ています。疲れた先発投手を「持ち上げて楽にする（交代させる）」イメージ。野球好きな人は覚えやすいはず！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 816,
+    "word": "derive",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜から得る・由来する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "引き出す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈraɪv/",
+    "syllables": "de-rive",
+    "audioHint": "ディライヴ",
+    "examples": [
+      {
+        "en": "She derives great joy from painting.",
+        "ja": "彼女は絵を描くことから大きな喜びを得ている。",
+        "blank": "She ___ great joy from painting.",
+        "blankAnswer": "derives"
+      }
+    ],
+    "distractors": [
+      "欲求不満にさせる",
+      "否定する",
+      "混乱させる"
+    ],
+    "confusableSpellings": [
+      "derrve",
+      "derrive",
+      "derive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 derivare（流れを引く）から。de-（離れて・下へ）＋ rivus（川・流れ）。川の流れを別の方向に引き込む、が原義で「源から引き出す」イメージ。",
+      "tips": "derive from ～（〜から由来する）という自動詞用法と、derive ～ from …（…から〜を得る）という他動詞用法があります。語源を説明するときは This word is derived from Latin. のように受動態がよく使われます。",
+      "confusables": "obtain（努力して得る）は行動的なニュアンスですが、derive はもともとの源から自然に引き出す感覚。語源説明には derive が定番です。",
+      "collocations": [
+        "derive from（〜に由来する）",
+        "derive pleasure（喜びを得る）",
+        "derive benefit（恩恵を受ける）"
+      ],
+      "trivia": "数学の「微分（derivative）」も derive と同じ語源。関数の変化の「源」を引き出す操作だから。文系・理系問わず使われるスゴイ単語です。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 817,
+    "word": "deserve",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜に値する・ふさわしい",
+        "pos": "verb"
+      },
+      {
+        "meaning": "受ける価値がある",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈzɜːrv/",
+    "syllables": "de-serve",
+    "audioHint": "ディザーヴ",
+    "examples": [
+      {
+        "en": "You deserve a break after all that hard work.",
+        "ja": "あれだけ頑張ったのだから、あなたは休憩に値する。",
+        "blank": "You ___ a break after all that hard work.",
+        "blankAnswer": "deserve"
+      }
+    ],
+    "distractors": [
+      "〜から得る",
+      "理解する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "deseve",
+      "deserv",
+      "diserve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 deservire（熱心に仕える）から。de-（完全に）＋ servire（仕える）。完全に奉仕した結果として報酬を得る資格がある、という意味。",
+      "tips": "deserve は進行形にしにくい状態動詞です。I am deserving a reward. とはほぼ言わず、I deserve a reward. と使います。また deserve to do（〜するに値する）の形も重要です。",
+      "confusables": "merit（功績によって値する）は客観的・正式な文脈、deserve は日常会話で「当然もらえるべき」という主観的なニュアンスを含みます。",
+      "collocations": [
+        "deserve a chance（チャンスに値する）",
+        "deserve credit（評価されるべきだ）",
+        "get what you deserve（自業自得）"
+      ],
+      "trivia": "You deserve it! は褒め言葉として「当然の報いだよ！（よかったね）」という意味ですが、皮肉で「自業自得だ」にもなります。文脈次第で天国と地獄が分かれる表現！"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 818,
+    "word": "peer",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "じっと見る・凝視する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "目を細めて見る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pɪər/",
+    "syllables": "peer",
+    "audioHint": "ピア",
+    "examples": [
+      {
+        "en": "She peered through the window into the dark room.",
+        "ja": "彼女は窓から暗い部屋の中をじっと覗き込んだ。",
+        "blank": "She ___ through the window into the dark room.",
+        "blankAnswer": "peered"
+      }
+    ],
+    "distractors": [
+      "挨拶する",
+      "謝罪する",
+      "打ち負かす"
+    ],
+    "confusableSpellings": [
+      "pear",
+      "pier",
+      "piere"
+    ],
+    "passive": {
+      "etymology": "中英語 piren（覗く）に由来。オランダ語 pieren との関連が指摘されており、「目を細めて注意深く見る」動作が原義。",
+      "tips": "peer は単に「見る」のではなく、暗さや遠さ、霧などで見えにくいときに「目を凝らして見る」というニュアンスです。peer at / peer through / peer into など前置詞とセットで使います。",
+      "confusables": "名詞の peer（同等の人・仲間）とは同綴り異義語。peer pressure（仲間からの圧力）の peer は別の意味。動詞のときは「覗き見る」なので文脈に注意！",
+      "collocations": [
+        "peer at（〜をじっと見る）",
+        "peer through（〜越しに覗く）",
+        "peer into（〜の中を覗き込む）"
+      ],
+      "trivia": "peer pressure（同調圧力）という名詞の peer は「同等の立場の人」という全く別の意味。同じスペルで全然違う意味を持つ、英語あるあるの罠単語です。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 819,
+    "word": "defeat",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "打ち負かす・敗北させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "挫折させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈfiːt/",
+    "syllables": "de-feat",
+    "audioHint": "ディフィート",
+    "examples": [
+      {
+        "en": "Our team defeated the champions in the final game.",
+        "ja": "私たちのチームは決勝戦で王者を打ち負かした。",
+        "blank": "Our team ___ the champions in the final game.",
+        "blankAnswer": "defeated"
+      }
+    ],
+    "distractors": [
+      "挨拶する",
+      "じっと見る",
+      "謝罪する"
+    ],
+    "confusableSpellings": [
+      "defeet",
+      "deffeat",
+      "defeate"
+    ],
+    "passive": {
+      "etymology": "古フランス語 desfait（元に戻す・壊す）から。des-（反対・取り消し）＋ faire（する・作る）。ラテン語 dis- + facere が源流で「なされたことを無にする」が原義。",
+      "tips": "defeat は他動詞なので必ず目的語（負かす相手）が必要です。「我々は勝った」と言いたいとき、We defeated. は間違いで We won. が正解。defeat は「相手を負かす」ときに使います。",
+      "confusables": "beat（打ち負かす）はカジュアルな口語、defeat はやや正式・ドラマチックな表現。We beat them 3-0. vs. We defeated the enemy army. のように使い分けます。",
+      "collocations": [
+        "defeat an opponent（対戦相手を倒す）",
+        "suffer a defeat（敗北を喫する）",
+        "defeat the purpose（目的を台無しにする）"
+      ],
+      "trivia": "defeat the purpose（本末転倒）という慣用表現は日常会話でよく使われます。「ダイエットのためにジムに行ったのに帰りにケーキを食べる」まさに defeats the purpose!"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 820,
+    "word": "convert",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "変換する・転換する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "改宗させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈvɜːrt/",
+    "syllables": "con-vert",
+    "audioHint": "コンヴァート",
+    "examples": [
+      {
+        "en": "They converted the old factory into luxury apartments.",
+        "ja": "彼らは古い工場を高級アパートに改築した。",
+        "blank": "They ___ the old factory into luxury apartments.",
+        "blankAnswer": "converted"
+      }
+    ],
+    "distractors": [
+      "積み重ねる",
+      "引き裂く",
+      "分類する"
+    ],
+    "confusableSpellings": [
+      "convart",
+      "conbert",
+      "covert"
+    ],
+    "passive": {
+      "etymology": "ラテン語 convertere（回転させる・向きを変える）から。con-（完全に・共に）＋ vertere（回す・変える）。「完全にひっくり返す」が原義で、方向転換のイメージ。",
+      "tips": "convert A into B（AをBに変える）の形が基本。単位変換なら convert miles into kilometers、宗教改宗なら convert to Islam のように into と to を使い分けます。",
+      "confusables": "transform（形や性質を大きく変える）と似ていますが、convert は「別の用途・形式・宗教に切り替える」実用的な変換、transform はより劇的な変化を指します。",
+      "collocations": [
+        "convert to（〜に改宗・変換する）",
+        "convert into（〜に変換する）",
+        "convert currency（通貨を両替する）"
+      ],
+      "trivia": "covert（秘密の）と convert はスペルが一文字違いで見間違えやすい！covert は「隠れた」という形容詞で、スパイ映画の covert operation（秘密作戦）でおなじみ。nを抜かすだけでスパイになります。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  }
+]

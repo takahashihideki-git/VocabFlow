@@ -1,0 +1,992 @@
+[
+  {
+    "id": 221,
+    "word": "reflect",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "反映する、反射する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "熟考する、振り返る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈflekt/",
+    "syllables": "re-flect",
+    "audioHint": "リフレクト",
+    "examples": [
+      {
+        "en": "His face reflected his deep concern about the situation.",
+        "ja": "彼の表情はその状況への深い懸念を反映していた。",
+        "blank": "His face ___ his deep concern about the situation.",
+        "blankAnswer": "reflected"
+      }
+    ],
+    "distractors": [
+      "無視する",
+      "引きつける",
+      "定義する"
+    ],
+    "confusableSpellings": [
+      "reflact",
+      "riflect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'reflectere' から。接頭辞 're-'（再び・戻す）＋語根 'flect'（曲げる）。光や考えを「折り返す」イメージ。",
+      "tips": "「反射する」と「熟考する」の2つの意味を使い分けること。reflect on ～ で「～について振り返る・熟考する」、reflect ～ で「～を反映する」という構造の違いに注意。",
+      "confusables": "reflect on（熟考する）vs think about（考える）：reflect は深く内省するニュアンスがあり、よりフォーマルな場面で使う。",
+      "collocations": [
+        "reflect on the past",
+        "reflect a change",
+        "reflect light"
+      ],
+      "trivia": "英語の「reflection」はもともと「光を折り返す」物理現象を指す言葉だったが、そこから「自分の内側を覗き込む（内省）」という比喩的意味が生まれた。鏡に映る自分を見ながら考える、という視覚的なイメージが語源に隠れている！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 222,
+    "word": "attract",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "引きつける、魅了する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（注目・関心を）集める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈtrækt/",
+    "syllables": "at-tract",
+    "audioHint": "アトラクト",
+    "examples": [
+      {
+        "en": "The new exhibit attracted thousands of visitors last weekend.",
+        "ja": "新しい展示は先週末に何千人もの来場者を引きつけた。",
+        "blank": "The new exhibit ___ thousands of visitors last weekend.",
+        "blankAnswer": "attracted"
+      }
+    ],
+    "distractors": [
+      "減少させる",
+      "適応させる",
+      "交換する"
+    ],
+    "confusableSpellings": [
+      "atract",
+      "attrakt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'attrahere' から。接頭辞 'at-'（＝ad-、～に向かって）＋語根 'tract'（引く）。文字通り「引っ張り寄せる」。",
+      "tips": "attract は他動詞なので、必ず目的語が必要。× She attracted to him. → ○ She was attracted to him. 受動態で使うパターンを忘れずに。",
+      "confusables": "attract（引きつける）vs fascinate（魅了する）：attract はより一般的で物理的・中立的なニュアンス。fascinate は強い感情的引力を伴う。",
+      "collocations": [
+        "attract attention",
+        "attract tourists",
+        "attract investment"
+      ],
+      "trivia": "「アトラクション（attraction）」はまさにこの単語の名詞形。遊園地のアトラクションが「人を引きつける仕掛け」という意味なのも、語源を知ると納得！"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 223,
+    "word": "decrease",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "減少する、減らす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "低下する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈkriːs/",
+    "syllables": "de-crease",
+    "audioHint": "ディクリース",
+    "examples": [
+      {
+        "en": "The number of accidents decreased significantly after the new law.",
+        "ja": "新しい法律の後、事故の件数は大幅に減少した。",
+        "blank": "The number of accidents ___ significantly after the new law.",
+        "blankAnswer": "decreased"
+      }
+    ],
+    "distractors": [
+      "展示する",
+      "引きつける",
+      "適応させる"
+    ],
+    "confusableSpellings": [
+      "decrcase",
+      "dicrese"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'decrescere' から。接頭辞 'de-'（下へ・離れて）＋語根 'cresc'（成長する）。「成長から離れる」→ 減少するイメージ。",
+      "tips": "decrease は自動詞・他動詞の両方に使える。「減少する（自）」と「～を減らす（他）」を区別しよう。名詞としても使え、その場合はアクセントが前（/ˈdiːkriːs/）に移ることに注意。",
+      "confusables": "decrease vs reduce：reduce は意図的に「削減する」というニュアンスが強く、他動詞専用。decrease は自然な変化にも使える。",
+      "collocations": [
+        "decrease in number",
+        "decrease sharply",
+        "decrease the risk"
+      ],
+      "trivia": "月の「下弦（waning crescent）」の 'crescent' と語根が同じ！月が満ちていく（増加）のが 'increase'、欠けていく（減少）のが 'decrease'。夜空と英語がつながる瞬間。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 224,
+    "word": "ignore",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "無視する、無視して通り過ぎる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（意図的に）取り合わない",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈnɔːr/",
+    "syllables": "ig-nore",
+    "audioHint": "イグノア",
+    "examples": [
+      {
+        "en": "She ignored his calls and went to bed early.",
+        "ja": "彼女は彼の電話を無視して、早めに寝た。",
+        "blank": "She ___ his calls and went to bed early.",
+        "blankAnswer": "ignored"
+      }
+    ],
+    "distractors": [
+      "反映する",
+      "定義する",
+      "熟考する"
+    ],
+    "confusableSpellings": [
+      "ignor",
+      "ingnore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ignorare' から。接頭辞 'i-'（＝in-、否定）＋語根 'gnor/gnoscere'（知る）。「知らないふりをする・知ろうとしない」が原義。",
+      "tips": "ignore は「意図的に無視する」ニュアンスが強い。うっかり気づかなかった場合は overlook や miss の方が自然。また、× ignore to do ではなく ○ ignore doing（または名詞句）の形で使う。",
+      "confusables": "ignore vs neglect：neglect は義務や責任を「怠る・放置する」ニュアンスで、より深刻な状況に使う。ignore は一時的・意図的な無視に使いやすい。",
+      "collocations": [
+        "ignore a warning",
+        "ignore the fact",
+        "ignore someone's advice"
+      ],
+      "trivia": "「無知（ignorance）」と「無視（ignore）」は同じ語根！「知らない状態＝ignorance」と「知っているのに知らないふりをする＝ignore」で、同じ根っこから真逆の行動が生まれているのが面白い。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 225,
+    "word": "match",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "一致する、合う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "釣り合う、対応させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/mætʃ/",
+    "syllables": "match",
+    "audioHint": "マッチ",
+    "examples": [
+      {
+        "en": "Her skills perfectly match the requirements of the job.",
+        "ja": "彼女のスキルはその仕事の要件に完璧に合致している。",
+        "blank": "Her skills perfectly ___ the requirements of the job.",
+        "blankAnswer": "match"
+      }
+    ],
+    "distractors": [
+      "展示する",
+      "減少させる",
+      "貢献する"
+    ],
+    "confusableSpellings": [
+      "mach",
+      "matche"
+    ],
+    "passive": {
+      "etymology": "古英語 'mæcca'（仲間・対になるもの）から。「対になるものを見つける」が原義。名詞の「マッチ（試合・火をつける棒）」とは別の語源。",
+      "tips": "match は自動詞・他動詞の両方あり。「～と一致する」は match with / match ～ どちらも使える。× correspond と混同しやすいが、match はより視覚的・直感的な一致に使う。",
+      "confusables": "match vs fit：match は「2つのものが互いに合う（色・スタイル・条件など）」、fit は「サイズや形がぴったり合う」というニュアンス。",
+      "collocations": [
+        "match the description",
+        "match a pattern",
+        "mix and match"
+      ],
+      "trivia": "マッチング（matching）アプリという言葉が世界中で使われているが、元々 'match' は「火打ち石で火をつける道具」とは語源が違う全くの別単語。同じスペルに2つの歴史が同居している！"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 226,
+    "word": "define",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "定義する、意味を明確にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（特徴などを）明確にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈfaɪn/",
+    "syllables": "de-fine",
+    "audioHint": "ディファイン",
+    "examples": [
+      {
+        "en": "Can you define the word 'culture' in your own words?",
+        "ja": "「文化」という言葉を自分の言葉で定義できますか？",
+        "blank": "Can you ___ the word 'culture' in your own words?",
+        "blankAnswer": "define"
+      }
+    ],
+    "distractors": [
+      "反映する",
+      "無視する",
+      "熟考する"
+    ],
+    "confusableSpellings": [
+      "defin",
+      "deffine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'definire' から。接頭辞 'de-'（完全に）＋語根 'finis'（境界・終わり）。「境界線を引いて明確にする」が原義。",
+      "tips": "define A as B（AをBと定義する）という構文を覚えよう。また、「定義」を日本語でするとき「～とは～です」と説明口調になりがちだが、英語では define はシンプルに他動詞で使える。",
+      "confusables": "define vs describe：define は概念や言葉の「境界・意味」を明確にする。describe は見た目や特徴を「説明・描写する」。辞書でするのが define、絵を説明するのが describe。",
+      "collocations": [
+        "define a term",
+        "define a role",
+        "clearly defined"
+      ],
+      "trivia": "英語の 'final'（最終の）や 'finish'（終える）も同じ語根 'finis'（境界・終わり）から来ている。define は「終わりを決める＝境界を引く」つまり「定義する」。言葉の意味に境界線を引くって、哲学的じゃない？"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 227,
+    "word": "adapt",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "適応する、順応する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "改作する、改変する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈdæpt/",
+    "syllables": "a-dapt",
+    "audioHint": "アダプト",
+    "examples": [
+      {
+        "en": "Animals must adapt to survive in changing environments.",
+        "ja": "動物は変化する環境の中で生き残るために適応しなければならない。",
+        "blank": "Animals must ___ to survive in changing environments.",
+        "blankAnswer": "adapt"
+      }
+    ],
+    "distractors": [
+      "一致する",
+      "展示する",
+      "減少させる"
+    ],
+    "confusableSpellings": [
+      "adabt",
+      "addapt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'adaptare' から。接頭辞 'ad-'（～に向かって）＋語根 'apt'（ふさわしい）。「ふさわしくなるように変える」が原義。",
+      "tips": "adapt to ～ で「～に適応する」、adapt A for B で「AをB向けに改変する」。adopt（採用する）と混同しやすいので注意。1文字違うだけで意味が全然違う！",
+      "confusables": "adapt vs adopt：adapt は「変化・順応する」、adopt は「そのまま取り入れる・採用する・養子にする」。adapt には「変える」プロセスが含まれているかどうかがポイント。",
+      "collocations": [
+        "adapt to change",
+        "adapt a novel",
+        "adapt quickly"
+      ],
+      "trivia": "映画やドラマの「原作小説を映像化しました」というとき、'adapted from the novel' と使う。ダーウィンの進化論と映画制作が同じ単語でつながっているなんてちょっと面白くない？"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 228,
+    "word": "contribute",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "貢献する、寄与する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "寄付する、拠出する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈtrɪbjuːt/",
+    "syllables": "con-trib-ute",
+    "audioHint": "コントリビュート",
+    "examples": [
+      {
+        "en": "Everyone can contribute to making the community a better place.",
+        "ja": "誰でも地域をより良い場所にするために貢献できる。",
+        "blank": "Everyone can ___ to making the community a better place.",
+        "blankAnswer": "contribute"
+      }
+    ],
+    "distractors": [
+      "交換する",
+      "展示する",
+      "引きつける"
+    ],
+    "confusableSpellings": [
+      "contribut",
+      "contriubte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contribuere' から。接頭辞 'con-'（共に）＋語根 'tribute'（与える・支払う）。「共に差し出す・持ち寄る」が原義。",
+      "tips": "contribute to ～ の 'to' は前置詞なので、後ろに動名詞（-ing形）が来る。× contribute to do ではなく ○ contribute to doing。また、アクセントは第2音節（-TRIB-）に置くこと。",
+      "confusables": "contribute to vs participate in：contribute to は「（結果・成果に）貢献する」、participate in は「（活動に）参加する」。貢献するのか参加するのかでニュアンスが変わる。",
+      "collocations": [
+        "contribute to society",
+        "contribute financially",
+        "contribute an article"
+      ],
+      "trivia": "「トリビュート（tribute）」というライブイベント名にも同じ語根が！tributeはもともと「征服した国が支払う貢ぎ物」のこと。con-tributeは「みんなで持ち寄る」という、より平和的な意味に進化したわけ。"
+    },
+    "frequency": 700,
+    "cefr": "B2"
+  },
+  {
+    "id": 229,
+    "word": "exchange",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "交換する、取り替える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（情報・意見などを）やり取りする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪksˈtʃeɪndʒ/",
+    "syllables": "ex-change",
+    "audioHint": "エクスチェンジ",
+    "examples": [
+      {
+        "en": "They exchanged phone numbers after the meeting.",
+        "ja": "彼らは会議の後で電話番号を交換した。",
+        "blank": "They ___ phone numbers after the meeting.",
+        "blankAnswer": "exchanged"
+      }
+    ],
+    "distractors": [
+      "貢献する",
+      "無視する",
+      "適応させる"
+    ],
+    "confusableSpellings": [
+      "excange",
+      "exhange"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'eschangier' から。接頭辞 'ex-'（外へ）＋語根 'change'（変える・交代する）。「外に出して別のものと入れ替える」が原義。",
+      "tips": "exchange A for B（AをBと交換する）という構文が重要。また、名詞としても非常によく使われる（currency exchange, stock exchange など）。",
+      "confusables": "exchange vs replace：exchange は「2つのもの・人の間での双方向の取り替え」、replace は「古いものを新しいもので一方的に置き換える」。",
+      "collocations": [
+        "exchange ideas",
+        "exchange rate",
+        "foreign exchange"
+      ],
+      "trivia": "「証券取引所（stock exchange）」や「外国為替（foreign exchange）」など、経済用語にめちゃくちゃ登場する単語。日常会話からビジネス英語まで幅広く活躍する、実は超実用的な単語！"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 230,
+    "word": "display",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "展示する、陳列する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・能力などを）示す、表す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈspleɪ/",
+    "syllables": "dis-play",
+    "audioHint": "ディスプレイ",
+    "examples": [
+      {
+        "en": "The museum displays ancient artifacts from around the world.",
+        "ja": "その博物館は世界中の古代遺物を展示している。",
+        "blank": "The museum ___ ancient artifacts from around the world.",
+        "blankAnswer": "displays"
+      }
+    ],
+    "distractors": [
+      "適応させる",
+      "一致させる",
+      "減少させる"
+    ],
+    "confusableSpellings": [
+      "displai",
+      "disply"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'desploier'（広げる）から。接頭辞 'dis-'（離れて・広げて）＋語根 'plic/play'（折る・広げる）。「折りたたまれたものを広げて見せる」が原義。",
+      "tips": "display は「意図的・視覚的に見せる」ニュアンスが強い。感情を「表に出す・見せる」にも使えるのがポイント（例：display courage／勇気を見せる）。show より改まった表現。",
+      "confusables": "display vs show vs exhibit：show は最も日常的。display は整えて「見せる・陳列する」、exhibit は美術館・博覧会など公式な展示に使いやすい。",
+      "collocations": [
+        "display artwork",
+        "display emotion",
+        "on display"
+      ],
+      "trivia": "スマホやPCの「ディスプレイ（画面）」はまさにこの単語の名詞形。「情報を広げて見せる板」という意味で、語源どおりのネーミングなんだ。毎日触っているあの画面に、中世フランス語の歴史が宿っている！"
+    },
+    "frequency": 720,
+    "cefr": "B1"
+  },
+  {
+    "id": 231,
+    "word": "respond",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "応答する、反応する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "対応する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈspɒnd/",
+    "syllables": "re-spond",
+    "audioHint": "リスポンド",
+    "examples": [
+      {
+        "en": "She did not respond to my message.",
+        "ja": "彼女は私のメッセージに返事をしなかった。",
+        "blank": "She did not ___ to my message.",
+        "blankAnswer": "respond"
+      }
+    ],
+    "distractors": [
+      "説明する",
+      "理解する",
+      "疑う"
+    ],
+    "confusableSpellings": [
+      "responde",
+      "rrespond",
+      "responnd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び・返して）＋ spondere（約束する・誓う）から。「返して約束する」→「応答する」という流れ。",
+      "tips": "respond to ～ の形で使うのが基本。「reply」との違いは、respond は返事だけでなく「状況に反応する」意味でも使える点。例：The patient responded well to the treatment.（患者は治療によく反応した）",
+      "confusables": "reply は主にメッセージや質問への言葉での返答。respond はより広く、物理的・感情的な反応も含む。answer はもっとカジュアルで口語的。",
+      "collocations": [
+        "respond to a question",
+        "respond quickly",
+        "respond to treatment"
+      ],
+      "trivia": "「レスポンシブデザイン（responsive design）」のresponsiveも同じ語根。スマホでもPCでも「反応してくれる」デザインという意味なんです。"
+    },
+    "frequency": 450,
+    "cefr": "B1"
+  },
+  {
+    "id": 232,
+    "word": "hide",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "隠す、隠れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情などを）秘める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/haɪd/",
+    "syllables": "hide",
+    "audioHint": "ハイド",
+    "examples": [
+      {
+        "en": "The child was hiding behind the door.",
+        "ja": "子供はドアの後ろに隠れていた。",
+        "blank": "The child was ___ behind the door.",
+        "blankAnswer": "hiding"
+      }
+    ],
+    "distractors": [
+      "運ぶ",
+      "壊す",
+      "集める"
+    ],
+    "confusableSpellings": [
+      "hied",
+      "hiide",
+      "hede"
+    ],
+    "passive": {
+      "etymology": "古英語 hydan（隠す）から。ゲルマン語系の古い語で、印欧祖語の *keudh-（覆う）が語源とされる。",
+      "tips": "hide の過去形は hid、過去分詞は hidden（または hid）。「I hided」は間違い！不規則変化動詞なので要注意。",
+      "confusables": "conceal はよりフォーマルで「意図的に隠す」ニュアンスが強い。hide は日常的に使える汎用語。cover は「覆う」で完全に見えなくする感じ。",
+      "collocations": [
+        "hide behind",
+        "hide the truth",
+        "hide-and-seek（かくれんぼ）"
+      ],
+      "trivia": "かくれんぼは英語で「hide-and-seek」。「隠れて（hide）、探す（seek）」がそのままゲーム名になっている。世界共通の遊びだからこそシンプルな名前なんですね。"
+    },
+    "frequency": 620,
+    "cefr": "A2"
+  },
+  {
+    "id": 233,
+    "word": "doubt",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "疑う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "疑念、疑い",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/daʊt/",
+    "syllables": "doubt",
+    "audioHint": "ダウト",
+    "examples": [
+      {
+        "en": "I doubt that he will come on time.",
+        "ja": "彼が時間通りに来るとは思えない。",
+        "blank": "I ___ that he will come on time.",
+        "blankAnswer": "doubt"
+      }
+    ],
+    "distractors": [
+      "信じる",
+      "記憶する",
+      "説明する"
+    ],
+    "confusableSpellings": [
+      "dout",
+      "dowbt",
+      "dooubt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 dubitare（ためらう、疑う）から。duo（二つ）が語根に含まれ、「二つの方向に揺れる」→「迷う・疑う」というイメージ。",
+      "tips": "doubt の b は黙字（発音しない）！「ダウブト」ではなく「ダウト」。また、doubt if / doubt whether は使えるが、doubt that は否定的なニュアンスを含む。",
+      "confusables": "suspect は「（悪いことを）疑う」ニュアンス。doubt は「信じられない・確信が持てない」感じ。question（動詞）は「問いただす」で疑問を表明するアクション寄り。",
+      "collocations": [
+        "no doubt",
+        "beyond doubt",
+        "doubt whether"
+      ],
+      "trivia": "カードゲームの「ダウト（Doubt）」は英語圏では「Cheat」や「BS」と呼ばれることが多い。「疑う」ゲームなのに英語では「ズル」ゲームと呼ばれているのが面白い！"
+    },
+    "frequency": 780,
+    "cefr": "B1"
+  },
+  {
+    "id": 234,
+    "word": "remove",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り除く、除去する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "移動させる、外す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈmuːv/",
+    "syllables": "re-move",
+    "audioHint": "リムーヴ",
+    "examples": [
+      {
+        "en": "Please remove your shoes at the entrance.",
+        "ja": "玄関で靴を脱いでください。",
+        "blank": "Please ___ your shoes at the entrance.",
+        "blankAnswer": "remove"
+      }
+    ],
+    "distractors": [
+      "修正する",
+      "集める",
+      "押す"
+    ],
+    "confusableSpellings": [
+      "remov",
+      "removve",
+      "reamove"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び・離れて）＋ movere（動かす）から。「離れる方向に動かす」→「取り除く」という意味に。",
+      "tips": "remove は「物理的に取る」だけでなく、「障害・問題・疑念を取り除く」など抽象的な意味でも使える。「take off」より正式な文脈に向く。",
+      "confusables": "delete はデジタルデータを消す場合に使う。eliminate はより完全に排除するニュアンス。remove は物理的にも抽象的にも広く使える万能語。",
+      "collocations": [
+        "remove stains",
+        "remove obstacles",
+        "remove from office"
+      ],
+      "trivia": "「リムーバー（remover）」はネイルや接着剤を「取り除く」ものとして日本語にも入っている。語源を知ると製品名の意味がスッキリわかる！"
+    },
+    "frequency": 520,
+    "cefr": "B1"
+  },
+  {
+    "id": 235,
+    "word": "wind",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "風",
+        "pos": "noun"
+      },
+      {
+        "meaning": "巻く、曲がりくねる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wɪnd/ (noun), /waɪnd/ (verb)",
+    "syllables": "wind",
+    "audioHint": "ウィンド（名詞）／ワインド（動詞）",
+    "examples": [
+      {
+        "en": "A cold wind blew from the north.",
+        "ja": "北から冷たい風が吹いた。",
+        "blank": "A cold ___ blew from the north.",
+        "blankAnswer": "wind"
+      }
+    ],
+    "distractors": [
+      "嵐",
+      "雨",
+      "雲"
+    ],
+    "confusableSpellings": [
+      "winde",
+      "wynd",
+      "wihnd"
+    ],
+    "passive": {
+      "etymology": "古英語 wind（風）から。印欧祖語 *we-（吹く）が語源で、ラテン語の ventus（風）と同じ語根。動詞「巻く」の wind は別語源で古英語 windan（曲がる・巻く）から。",
+      "tips": "名詞の wind は /wɪnd/（ウィンド）、動詞の wind（巻く）は /waɪnd/（ワインド）と発音が全く違う！同じスペルで別の単語（同形異音異義語）なので要注意。",
+      "confusables": "breeze は「そよ風」で穏やかな風。gale は「強風・暴風」。storm は嵐全体を指す。wind はすべての風の総称として使える。",
+      "collocations": [
+        "strong wind",
+        "wind power",
+        "wind up（巻く・終わらせる）"
+      ],
+      "trivia": "「wind up」は「時計を巻く」から転じて「結局〜になる」という意味でも使われる。'I wound up being late.'（結局遅刻した）のように日常会話で超頻出！"
+    },
+    "frequency": 410,
+    "cefr": "A1"
+  },
+  {
+    "id": 236,
+    "word": "assume",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜と思い込む、仮定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（役割・責任を）引き受ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsjuːm/",
+    "syllables": "as-sume",
+    "audioHint": "アスューム",
+    "examples": [
+      {
+        "en": "Don't assume that everyone agrees with you.",
+        "ja": "みんなが賛成していると思い込まないで。",
+        "blank": "Don't ___ that everyone agrees with you.",
+        "blankAnswer": "assume"
+      }
+    ],
+    "distractors": [
+      "記憶する",
+      "否定する",
+      "注目する"
+    ],
+    "confusableSpellings": [
+      "asume",
+      "assime",
+      "assumme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（〜に向かって）＋ sumere（取る）から assumere。「自分のものとして取り込む」→「当然そうだと思い込む」という意味に発展。",
+      "tips": "assume は「証拠なしに勝手に決める」ニュアンスがあり、ネガティブに使われることが多い。'Don't assume.' は「決めつけないで」という意味でよく使われる。",
+      "confusables": "suppose は「〜かもしれない」と可能性を示す柔らかい表現。presume は「（根拠があって）〜と推定する」。assume は「根拠なく思い込む」ニュアンスが強い。",
+      "collocations": [
+        "assume responsibility",
+        "assume that...",
+        "let's assume"
+      ],
+      "trivia": "英語圏には「ASSUME makes an ASS of U and ME（assumeするとあなたも私もバカになる）」という言葉遊びのことわざがある。assumeの文字の中にass・u・meが隠れているのがポイント！"
+    },
+    "frequency": 680,
+    "cefr": "B2"
+  },
+  {
+    "id": 237,
+    "word": "relax",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "くつろぐ、リラックスする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（緊張・規制などを）緩める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈlæks/",
+    "syllables": "re-lax",
+    "audioHint": "リラックス",
+    "examples": [
+      {
+        "en": "Just relax and enjoy the weekend.",
+        "ja": "週末はただのんびり楽しんで。",
+        "blank": "Just ___ and enjoy the weekend.",
+        "blankAnswer": "relax"
+      }
+    ],
+    "distractors": [
+      "呼吸する",
+      "眠る",
+      "震える"
+    ],
+    "confusableSpellings": [
+      "releax",
+      "realax",
+      "rellax"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び・元に）＋ laxare（緩める・広げる）から。「元の緩んだ状態に戻す」→「くつろぐ」という意味に。lax（緩い）と同じ語根。",
+      "tips": "日本語の「リラックス」は名詞的に使うが、英語の relax は動詞。'I want relaxing.'ではなく 'I want to relax.' が正しい。また relaxed（リラックスした状態）と relaxing（リラックスさせる）の使い分けも重要。",
+      "confusables": "rest は「休む・停止する」で睡眠や動作を止めるイメージ。relax は心身の緊張が解けるイメージ。unwind もrelaxの類語だが、よりくだけた表現。",
+      "collocations": [
+        "relax your muscles",
+        "relax the rules",
+        "sit back and relax"
+      ],
+      "trivia": "「Relax, don't do it」は1983年のFrankie Goes to Hollywoodの大ヒット曲のフレーズ。当時BBCに放送禁止にされたにもかかわらず1位になった伝説の曲！"
+    },
+    "frequency": 870,
+    "cefr": "A2"
+  },
+  {
+    "id": 238,
+    "word": "satisfy",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "満足させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（条件・要求を）満たす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsætɪsfaɪ/",
+    "syllables": "sat-is-fy",
+    "audioHint": "サティスファイ",
+    "examples": [
+      {
+        "en": "Nothing seems to satisfy him these days.",
+        "ja": "最近は何も彼を満足させられないようだ。",
+        "blank": "Nothing seems to ___ him these days.",
+        "blankAnswer": "satisfy"
+      }
+    ],
+    "distractors": [
+      "驚かせる",
+      "励ます",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "satisfie",
+      "satisify",
+      "sattisfy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 satis（十分に）＋ facere（作る・する）から satisfacere。「十分に作り上げる」→「満足させる」という意味に。",
+      "tips": "satisfy は「人を満足させる」他動詞なので、'I am satisfying.'（私は満足している）は間違い。正しくは 'I am satisfied.'（私は満足している）。satisfying は「満足させる（もの・こと）」の意味になる。",
+      "confusables": "please は感情的な喜びを与えるニュアンスが強い。fulfill は「夢・可能性を実現する」場合に使う。satisfy は条件や欲求を「満たす」という実用的なニュアンス。",
+      "collocations": [
+        "satisfy a need",
+        "satisfy the requirements",
+        "satisfy one's curiosity"
+      ],
+      "trivia": "ローリング・ストーンズの名曲「(I Can't Get No) Satisfaction」は文法的に二重否定だが、これは意図的な強調表現。「どうしても満足できない」という強い欲求不満を表している！"
+    },
+    "frequency": 740,
+    "cefr": "B1"
+  },
+  {
+    "id": 239,
+    "word": "desire",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "熱望する、強く望む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "欲求、願望",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈzaɪər/",
+    "syllables": "de-sire",
+    "audioHint": "ディザイア",
+    "examples": [
+      {
+        "en": "She has always desired to travel the world.",
+        "ja": "彼女はずっと世界を旅することを切望していた。",
+        "blank": "She has always ___ to travel the world.",
+        "blankAnswer": "desired"
+      }
+    ],
+    "distractors": [
+      "理解する",
+      "拒否する",
+      "比較する"
+    ],
+    "confusableSpellings": [
+      "desier",
+      "desyre",
+      "desiree"
+    ],
+    "passive": {
+      "etymology": "ラテン語 desiderare（星を待ち望む）から。de-（〜から離れて）＋ sidus（星）が語源という説があり、「星が消えた空を見つめて願う」というロマンチックな起源を持つ。",
+      "tips": "desire は want より改まった・文学的な表現。日常会話では want の方が自然。desire は名詞としても頻繁に使われる（a strong desire for success など）。",
+      "confusables": "want は日常的・口語的。wish は実現が難しいことへの願望。desire は強い・情熱的な欲求を表し、やや書き言葉・フォーマル寄り。",
+      "collocations": [
+        "strong desire",
+        "desire for power",
+        "leave much to be desired（まだまだ改善の余地がある）"
+      ],
+      "trivia": "「leave something to be desired」というイディオムは「まだ不十分だ」という意味。'Your work leaves a lot to be desired.'（あなたの仕事にはかなり改善の余地がある）と批判に使われる皮肉な表現！"
+    },
+    "frequency": 960,
+    "cefr": "B2"
+  },
+  {
+    "id": 240,
+    "word": "succeed",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "成功する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（地位・役職を）継ぐ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səkˈsiːd/",
+    "syllables": "suc-ceed",
+    "audioHint": "サクシード",
+    "examples": [
+      {
+        "en": "She worked hard and finally succeeded.",
+        "ja": "彼女は懸命に努力してついに成功した。",
+        "blank": "She worked hard and finally ___.",
+        "blankAnswer": "succeeded"
+      }
+    ],
+    "distractors": [
+      "失敗する",
+      "停止する",
+      "変化する"
+    ],
+    "confusableSpellings": [
+      "sucseed",
+      "succede",
+      "suceed"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sub-（後ろから・次に）＋ cedere（行く・進む）から succedere。「次に来る」→「後を継ぐ」→「うまくいく」という意味に発展。",
+      "tips": "succeed in ～ing（〜することに成功する）の形が重要。'I succeeded to do it.' は間違いで、'I succeeded in doing it.' が正しい。また名詞形は success、形容詞は successful。",
+      "confusables": "achieve は「目標を達成する」で努力の結果に焦点がある。accomplish は「課題・使命を完遂する」ニュアンス。succeed は「成功する」という結果全般を指す最も汎用的な語。",
+      "collocations": [
+        "succeed in business",
+        "succeed to the throne",
+        "succeed where others fail"
+      ],
+      "trivia": "「success」の語根 cedere（行く）は「proceed（進む）」「recede（後退する）」「exceed（超える）」にも含まれている。「超える・進む・引く」など方向が違うだけで全部同じ語根！語源を知ると英語がパズルみたいに見えてくる。"
+    },
+    "frequency": 560,
+    "cefr": "A2"
+  }
+]

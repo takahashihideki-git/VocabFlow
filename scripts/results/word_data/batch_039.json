@@ -1,0 +1,996 @@
+[
+  {
+    "id": 761,
+    "word": "guard",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "守る、警戒する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "警備員、番人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡɑːrd/",
+    "syllables": "guard",
+    "audioHint": "ガード",
+    "examples": [
+      {
+        "en": "The soldier was told to guard the entrance all night.",
+        "ja": "その兵士は一晩中入口を警備するよう言われた。",
+        "blank": "The soldier was told to ___ the entrance all night.",
+        "blankAnswer": "guard"
+      }
+    ],
+    "distractors": [
+      "争う",
+      "拒否する",
+      "攻撃する"
+    ],
+    "confusableSpellings": [
+      "gaurd",
+      "gurad"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'garder'（守る）に由来。語根は Germanic *wardaz（見張る）で、ward（病棟・監視）と同じ語源。",
+      "tips": "guard against ～で「～を防ぐ・警戒する」という意味になる。単に「守る」だけでなく「用心する」ニュアンスも重要。on guard（警戒して）もよく使われる表現。",
+      "confusables": "protect との違い：guard は「見張って危険を防ぐ」能動的・継続的な行為、protect は「傷つかないよう守る」という結果重視のニュアンス。",
+      "collocations": [
+        "guard against",
+        "security guard",
+        "on guard"
+      ],
+      "trivia": "バスケットボールの「ガード」もこの単語から。チームを「守る」司令塔的ポジションという意味で使われるようになった。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 762,
+    "word": "opponent",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "対戦相手、反対者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "敵対する人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈpoʊnənt/",
+    "syllables": "op-po-nent",
+    "audioHint": "アポウナント",
+    "examples": [
+      {
+        "en": "She defeated her opponent in the final match.",
+        "ja": "彼女は決勝戦で対戦相手を破った。",
+        "blank": "She defeated her ___ in the final match.",
+        "blankAnswer": "opponent"
+      }
+    ],
+    "distractors": [
+      "同盟者",
+      "支持者",
+      "仲裁者"
+    ],
+    "confusableSpellings": [
+      "opponant",
+      "oponent",
+      "opponennt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'opponere'（対置する）から。op-（反対に）＋ ponere（置く）。component（構成要素）の ponent と同語根。",
+      "tips": "「相手」を表す enemy（敵）・rival（ライバル）・competitor（競合者）との使い分けが重要。opponent はスポーツ・議論など特定の場面での「正式な対戦相手」に使う。個人的な敵意は含まない。",
+      "confusables": "rival は継続的なライバル関係、opponent は一時的な対戦相手や意見の反対者。enemy は個人的・感情的な敵を指す。",
+      "collocations": [
+        "political opponent",
+        "defeat an opponent",
+        "face an opponent"
+      ],
+      "trivia": "法廷ドラマで「opposing counsel（反対側の弁護士）」と言うが、それを一言で表すのが opponent。スポーツだけでなく議論・政治でも使える万能語。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 763,
+    "word": "glance",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ちらりと見る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "一瞥（いちべつ）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡlæns/",
+    "syllables": "glance",
+    "audioHint": "グランス",
+    "examples": [
+      {
+        "en": "He glanced at his watch and realized he was late.",
+        "ja": "彼は時計をちらりと見て、遅刻に気づいた。",
+        "blank": "He ___ at his watch and realized he was late.",
+        "blankAnswer": "glanced"
+      }
+    ],
+    "distractors": [
+      "じっと見つめる",
+      "目を閉じる",
+      "手を振る"
+    ],
+    "confusableSpellings": [
+      "glanse",
+      "glanc"
+    ],
+    "passive": {
+      "etymology": "中英語 'glansen'（滑るように光る）に由来。目線が「滑るように一瞬触れる」イメージが語源。",
+      "tips": "必ず at とセットで使う：glance at ～（～をちらりと見る）。look と混同しがちだが、glance は「短く・素早く・無意識的に」見る動作。一方 look は「意識して見る」ニュアンス。",
+      "confusables": "stare（じっと見る）・gaze（見つめる）・peek（こっそり見る）と比較：glance は時間の短さが特徴。「一目で分かる」は at a glance という熟語で表現。",
+      "collocations": [
+        "glance at",
+        "at a glance",
+        "a quick glance"
+      ],
+      "trivia": "「一目惚れ」は英語で love at first sight だが、その「一目」まさに glance のイメージ。映画や小説でドキドキシーンに頻出の単語。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 764,
+    "word": "divorce",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "離婚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "離婚する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈvɔːrs/",
+    "syllables": "di-vorce",
+    "audioHint": "ディヴォース",
+    "examples": [
+      {
+        "en": "They decided to get a divorce after ten years of marriage.",
+        "ja": "彼らは10年間の結婚生活の末、離婚することにした。",
+        "blank": "They decided to get a ___ after ten years of marriage.",
+        "blankAnswer": "divorce"
+      }
+    ],
+    "distractors": [
+      "結婚式",
+      "和解",
+      "仲裁"
+    ],
+    "confusableSpellings": [
+      "divorse",
+      "divroce",
+      "divurce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'divortium'（分岐・別れ）から。di-（離れて）＋ vertere（向きを変える）。divert（そらす）と同語根。",
+      "tips": "動詞として使う場合、日本人は divorce him のように直接目的語を取りがちだが、正しくは divorce から him を経由せず He divorced his wife. のように使う。get a divorce（離婚する）という名詞句も頻出。",
+      "confusables": "separation（別居）は法的離婚ではなく「別居状態」を指す。annulment は婚姻を最初から無効とする手続きで divorce とは異なる。",
+      "collocations": [
+        "get a divorce",
+        "file for divorce",
+        "divorce rate"
+      ],
+      "trivia": "英国では2022年まで「有責主義」で離婚に理由が必要だったが、法改正で「無過失離婚」が可能になった。divorce の概念も時代とともに変化中！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 765,
+    "word": "tissue",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "組織（生体の）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ティッシュペーパー",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtɪʃuː/",
+    "syllables": "tis-sue",
+    "audioHint": "ティシュー",
+    "examples": [
+      {
+        "en": "The doctor examined the tissue sample under a microscope.",
+        "ja": "医師は顕微鏡で組織サンプルを調べた。",
+        "blank": "The doctor examined the ___ sample under a microscope.",
+        "blankAnswer": "tissue"
+      }
+    ],
+    "distractors": [
+      "細胞核",
+      "血液型",
+      "神経信号"
+    ],
+    "confusableSpellings": [
+      "tissuse",
+      "tissure",
+      "tisue"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'tissu'（織られたもの）から。ラテン語 texere（織る）に由来。text（テキスト）や textile（繊維）と同語根で、「細胞が織り合わさったもの」が生物学的意味の起源。",
+      "tips": "日常英語の「ティッシュ」と生物学の「組織」が同じ単語。医療や生物の文脈では必ず「組織」の意味。a tissue（一枚のティッシュ）と tissue（組織・不可算）の使い分けに注意。",
+      "confusables": "cell（細胞）は tissue を構成する最小単位。organ（臓器）は tissue が集まったもの。cell → tissue → organ → system という階層構造を覚えよう。",
+      "collocations": [
+        "muscle tissue",
+        "tissue damage",
+        "connective tissue"
+      ],
+      "trivia": "ティッシュペーパーの名前は「薄く織ったような紙」というイメージから来ている。生物の「組織」と鼻をかむ「ティッシュ」が同じ単語というのは、英語のセンスが光る命名。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 766,
+    "word": "liquid",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "液体",
+        "pos": "noun"
+      },
+      {
+        "meaning": "液状の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈlɪkwɪd/",
+    "syllables": "liq-uid",
+    "audioHint": "リクウィッド",
+    "examples": [
+      {
+        "en": "Water is the most common liquid on Earth.",
+        "ja": "水は地球上で最も一般的な液体だ。",
+        "blank": "Water is the most common ___ on Earth.",
+        "blankAnswer": "liquid"
+      }
+    ],
+    "distractors": [
+      "固体物質",
+      "気体",
+      "粒子"
+    ],
+    "confusableSpellings": [
+      "liqiud",
+      "liqud",
+      "liquied"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'liquidus'（流れる・透明な）から。語根 liquere（流れる・澄む）に由来。liquor（酒）・liquidate（清算する）も同語根。",
+      "tips": "形容詞としても使え、liquid assets（流動資産）のように金融でも重要単語。日本語の「リキッド」はそのままだが、発音は「リクウィッド」に近い点に注意。",
+      "confusables": "fluid も「液体・流体」を意味するが、fluid はより広義（気体も含む流体）で、medical context（体液）では fluid が好まれる。liquid は日常的な「液体」全般に使いやすい。",
+      "collocations": [
+        "liquid form",
+        "liquid assets",
+        "boiling liquid"
+      ],
+      "trivia": "音楽プロデューサーが「liquid drum and bass」と呼ぶジャンルは、音がまるで液体のように「流れる」様子から命名。科学用語が音楽シーンにも流れ込んでいる好例。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 767,
+    "word": "inequality",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "不平等、格差",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不均衡",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪnɪˈkwɒlɪti/",
+    "syllables": "in-e-qual-i-ty",
+    "audioHint": "イニクウォリティ",
+    "examples": [
+      {
+        "en": "Economic inequality has grown significantly over the past decade.",
+        "ja": "経済的不平等はこの10年で大幅に拡大した。",
+        "blank": "Economic ___ has grown significantly over the past decade.",
+        "blankAnswer": "inequality"
+      }
+    ],
+    "distractors": [
+      "政治的自由",
+      "法的手続き",
+      "社会的連帯"
+    ],
+    "confusableSpellings": [
+      "inequalty",
+      "inequallity",
+      "iniquality"
+    ],
+    "passive": {
+      "etymology": "in-（否定）＋ equality（平等）。equality は ラテン語 aequalis（等しい）から。aequus（平らな・公平な）が語根で、equal・equator（赤道）と同語源。",
+      "tips": "inequality は数学（不等式）と社会問題（格差）の両方で使う。social inequality / income inequality のように修飾語と組み合わせることが多い。日本語の「格差」に近い文脈での使用頻度が高い。",
+      "confusables": "disparity も「格差・不均衡」を意味するが、より統計的・数値的な差異に使われる。inequality は道徳・社会正義のニュアンスが強い。",
+      "collocations": [
+        "income inequality",
+        "racial inequality",
+        "address inequality"
+      ],
+      "trivia": "国連のSDGs（持続可能な開発目標）の目標10が「Reduced Inequalities（不平等の削減）」。世界の共通課題として inequality という単語の使用頻度はここ20年で急増している。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 768,
+    "word": "prejudice",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "偏見、先入観",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不利益を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpredʒudɪs/",
+    "syllables": "prej-u-dice",
+    "audioHint": "プレジュディス",
+    "examples": [
+      {
+        "en": "Racial prejudice still exists in many parts of the world.",
+        "ja": "人種的偏見は世界の多くの地域でいまだに存在する。",
+        "blank": "Racial ___ still exists in many parts of the world.",
+        "blankAnswer": "prejudice"
+      }
+    ],
+    "distractors": [
+      "法的権利",
+      "政治的制度",
+      "社会的規範"
+    ],
+    "confusableSpellings": [
+      "predjudice",
+      "prejudise",
+      "prejudace"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praejudicium'（事前の判断）から。prae-（前に）＋ judicium（判断）。judge・judicial と同語根。「判断する前に」持ってしまう考えが語義の核心。",
+      "tips": "prejudice against ～（～に対する偏見）の形が最頻出。without prejudice は法律用語で「権利を損なわずに」という意味になり、日常語とは異なるので注意。",
+      "confusables": "bias（バイアス）は統計・認知科学でも使う中立的なニュアンス、prejudice はより感情的・道徳的に否定的な「偏見」。discrimination は偏見に基づく「差別行為」そのものを指す。",
+      "collocations": [
+        "racial prejudice",
+        "prejudice against",
+        "overcome prejudice"
+      ],
+      "trivia": "ジェーン・オースティンの名作『Pride and Prejudice（高慢と偏見）』のタイトルにも使われた単語。主人公が「偏見」を乗り越えて愛を見つける物語は、この単語の本質を体現している。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 769,
+    "word": "justice",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "正義、公正",
+        "pos": "noun"
+      },
+      {
+        "meaning": "司法、裁判",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdʒʌstɪs/",
+    "syllables": "jus-tice",
+    "audioHint": "ジャスティス",
+    "examples": [
+      {
+        "en": "Everyone deserves equal justice under the law.",
+        "ja": "誰もが法の下で平等な正義を受ける権利がある。",
+        "blank": "Everyone deserves equal ___ under the law.",
+        "blankAnswer": "justice"
+      }
+    ],
+    "distractors": [
+      "政治的権力",
+      "経済的格差",
+      "社会的慣習"
+    ],
+    "confusableSpellings": [
+      "justise",
+      "justis",
+      "jusitce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'justitia'（正しさ・公正）から。jus（法・権利）＋ -titia（状態・性質）。judge・jury・judicial・justify はすべて同語根 jus から派生。",
+      "tips": "justice は抽象概念（正義）と具体的制度（司法）の両方を指す。bring someone to justice（法の裁きを受けさせる）、do justice to（～を正当に評価する）は重要熟語。",
+      "confusables": "fairness は日常的な「公平さ」、justice はより法的・哲学的な「正義」。また Justice（大文字）はアメリカでは最高裁判所判事の敬称にもなる。",
+      "collocations": [
+        "criminal justice",
+        "social justice",
+        "seek justice"
+      ],
+      "trivia": "マーベルの「Justice League（ジャスティス・リーグ）」やスーパーヒーローが「justice」を叫ぶのは、この単語が「守るべき普遍的価値」を象徴するから。現代カルチャーで最もポップな法律用語かも。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 770,
+    "word": "guideline",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "指針、ガイドライン",
+        "pos": "noun"
+      },
+      {
+        "meaning": "指導原則",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡaɪdlaɪn/",
+    "syllables": "guide-line",
+    "audioHint": "ガイドライン",
+    "examples": [
+      {
+        "en": "Please follow the safety guidelines when using this equipment.",
+        "ja": "この機器を使用する際は安全指針に従ってください。",
+        "blank": "Please follow the safety ___ when using this equipment.",
+        "blankAnswer": "guidelines"
+      }
+    ],
+    "distractors": [
+      "教科書的理論",
+      "試験の採点基準",
+      "学習カリキュラム"
+    ],
+    "confusableSpellings": [
+      "guidline",
+      "guidelne",
+      "guidlines"
+    ],
+    "passive": {
+      "etymology": "guide（導く）＋ line（線）の合成語。guide はフランク語 *witan（知る・案内する）に由来。「進むべき方向を示す線」というイメージが語義の核心。",
+      "tips": "複数形 guidelines で使うことがほとんど。「1本の指針」でも guidelines と複数にするのが自然な英語。また guideline は強制力のない「推奨・目安」であり、rule（規則）や regulation（規制）より柔らかいニュアンス。",
+      "confusables": "rule は守るべき「規則」、regulation は法的・公式な「規制」、guideline は参考にする「指針・推奨」。強制力の強さは regulation > rule > guideline の順。",
+      "collocations": [
+        "follow guidelines",
+        "safety guidelines",
+        "set guidelines"
+      ],
+      "trivia": "WHO（世界保健機関）が発表する健康に関する文書は almost always「guidelines」と名付けられる。コロナ禍で世界中が毎日 guidelines という単語を聞いた2020年代、最もニュースに出た単語の一つ。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 771,
+    "word": "platform",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "プラットフォーム、基盤",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（駅の）ホーム",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈplætfɔːrm/",
+    "syllables": "plat-form",
+    "audioHint": "プラットフォーム",
+    "examples": [
+      {
+        "en": "The company launched a new digital platform for remote work.",
+        "ja": "その会社はリモートワーク用の新しいデジタルプラットフォームを立ち上げた。",
+        "blank": "The company launched a new digital ___ for remote work.",
+        "blankAnswer": "platform"
+      }
+    ],
+    "distractors": [
+      "回路網",
+      "符号化方式",
+      "伝送速度"
+    ],
+    "confusableSpellings": [
+      "platfom",
+      "platforme",
+      "platfoam"
+    ],
+    "passive": {
+      "etymology": "中英語 'plat'（平らな）＋ 'forme'（形）→ ラテン語 'planus'（平らな）＋ 'forma'（形・型）。文字どおり「平らな形の台」が語源。",
+      "tips": "IT文脈では「基盤となる環境・仕組み」を指し、物理的な台だけでなく抽象的な「場」にも使う。日本語の「プラットフォーム」がそのまま使われるが、英語では駅のホームも同じ単語。",
+      "confusables": "「base（基盤）」との違い：platform は利用者が上で活動できる「場」を強調し、base は土台・根拠を強調する。",
+      "collocations": [
+        "digital platform",
+        "launch a platform",
+        "platform for discussion"
+      ],
+      "trivia": "YouTubeやInstagramが「プラットフォーム企業」と呼ばれるのは、コンテンツを自ら作らず、他者が活動できる「舞台（platform）」を提供しているから。"
+    },
+    "frequency": 450,
+    "cefr": "B1"
+  },
+  {
+    "id": 772,
+    "word": "sector",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "部門、セクター",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（社会・経済の）分野",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsektər/",
+    "syllables": "sec-tor",
+    "audioHint": "セクター",
+    "examples": [
+      {
+        "en": "The private sector plays a key role in job creation.",
+        "ja": "民間部門は雇用創出において重要な役割を果たしている。",
+        "blank": "The private ___ plays a key role in job creation.",
+        "blankAnswer": "sector"
+      }
+    ],
+    "distractors": [
+      "合併",
+      "利益率",
+      "株式配当"
+    ],
+    "confusableSpellings": [
+      "secter",
+      "scetor",
+      "sectore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'secare'（切る）＋ '-tor'（行為者・結果）→ 「切り分けられた区画」が原義。数学の「扇形（sector）」も同じ語源。",
+      "tips": "「public sector（公共部門）」「private sector（民間部門）」「financial sector（金融部門）」はそのまま覚えると便利。日本語で「セクター」と言うときとほぼ同じ意味で使える。",
+      "confusables": "「industry（産業）」との違い：sector はより広い分類（公共・民間など）に、industry は具体的な産業種別（自動車産業など）に使うことが多い。",
+      "collocations": [
+        "public sector",
+        "private sector",
+        "financial sector"
+      ],
+      "trivia": "軍事用語でも「sector（区域・担当地区）」として使われる。ビジネス・軍・数学で同じ単語が活躍する汎用性の高さは語源「切り分け」の概念からきている。"
+    },
+    "frequency": 520,
+    "cefr": "B1"
+  },
+  {
+    "id": 773,
+    "word": "channel",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "チャンネル、経路",
+        "pos": "noun"
+      },
+      {
+        "meaning": "水路、海峡",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtʃænəl/",
+    "syllables": "chan-nel",
+    "audioHint": "チャネル",
+    "examples": [
+      {
+        "en": "We use multiple channels to reach our customers online.",
+        "ja": "私たちはオンラインで顧客にリーチするために複数の経路を使っている。",
+        "blank": "We use multiple ___ to reach our customers online.",
+        "blankAnswer": "channels"
+      }
+    ],
+    "distractors": [
+      "データ圧縮",
+      "暗号化方式",
+      "無線周波数帯"
+    ],
+    "confusableSpellings": [
+      "chanel",
+      "chanell",
+      "channle"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'chanel' → ラテン語 'canalis'（管・溝）→ さらに 'canna'（葦・管）が語源。「管を通って流れる」というイメージ。",
+      "tips": "TVチャンネルだけでなく「情報や連絡の経路」という意味でよく使う。'through official channels'（公式ルートを通じて）のようにビジネスメールでも頻出。",
+      "confusables": "「medium（媒体）」との違い：channel は情報が流れる「経路・ルート」を、medium はコミュニケーションに使う「手段・媒体」を指す。",
+      "collocations": [
+        "communication channel",
+        "distribution channel",
+        "through official channels"
+      ],
+      "trivia": "ファッションブランド「Chanel（シャネル）」とスペルが似ているが全くの別物。スペルミスが多い単語の代表格で、'channel' はLが2つ必要。"
+    },
+    "frequency": 480,
+    "cefr": "A2"
+  },
+  {
+    "id": 774,
+    "word": "glacier",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "氷河",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡleɪʃər/",
+    "syllables": "gla-cier",
+    "audioHint": "グレイシャー",
+    "examples": [
+      {
+        "en": "The glacier has been melting faster due to climate change.",
+        "ja": "気候変動により、その氷河は以前より速く融けている。",
+        "blank": "The ___ has been melting faster due to climate change.",
+        "blankAnswer": "glacier"
+      }
+    ],
+    "distractors": [
+      "活火山",
+      "大陸棚",
+      "熱帯雨林"
+    ],
+    "confusableSpellings": [
+      "glaciar",
+      "glaceir",
+      "glasier"
+    ],
+    "passive": {
+      "etymology": "フランス語 'glacier' → ラテン語 'glacies'（氷）が語源。同じ語根から 'glacial'（氷河の・氷のように冷たい）も派生。",
+      "tips": "発音注意：'cier'の部分は「シャー」と読む（/ʃər/）。スペルから「グラシアー」と読みがちだが、正しくは「グレイシャー」。",
+      "confusables": "「iceberg（氷山）」との違い：glacier は陸上をゆっくり動く巨大な氷の塊、iceberg は海に浮かぶ氷の塊。",
+      "collocations": [
+        "melting glacier",
+        "glacier retreat",
+        "alpine glacier"
+      ],
+      "trivia": "「at a glacial pace（氷河のようなスピードで）」という表現は「ものすごく遅い」という意味の慣用句。氷河が1日数センチしか動かないことから生まれた。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 775,
+    "word": "primate",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "霊長類",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（教会の）首席司教",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpraɪmeɪt/",
+    "syllables": "pri-mate",
+    "audioHint": "プライメイト",
+    "examples": [
+      {
+        "en": "Humans are classified as primates along with apes and monkeys.",
+        "ja": "人間は類人猿やサルとともに霊長類に分類される。",
+        "blank": "Humans are classified as ___ along with apes and monkeys.",
+        "blankAnswer": "primates"
+      }
+    ],
+    "distractors": [
+      "哺乳類全般",
+      "爬虫類",
+      "無脊椎動物"
+    ],
+    "confusableSpellings": [
+      "primmate",
+      "priamte",
+      "primiate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'primus'（最初の・最高の）＋ '-ate'（名詞化）→「最高位のもの」が原義。かつて人間や類人猿が動物の中で「最も高等」とみなされたことによる命名。",
+      "tips": "生物学文脈では「霊長類」の意味だが、キリスト教文脈では「首席司教」になる。どちらも「最上位・筆頭」という語根の意味が生きている。",
+      "confusables": "「mammal（哺乳類）」との違い：primate は哺乳類のさらに中の一分類。すべての primate は mammal だが、すべての mammal が primate ではない。",
+      "collocations": [
+        "non-human primate",
+        "primate research",
+        "primate behavior"
+      ],
+      "trivia": "人間も立派なprimate（霊長類）。チンパンジーとのDNA一致率は約98.7%で、私たちはほぼ「着服したチンパンジー」と言えなくもない。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 776,
+    "word": "usage",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "使用（法）、用法",
+        "pos": "noun"
+      },
+      {
+        "meaning": "慣習、慣例",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈjuːsɪdʒ/",
+    "syllables": "us-age",
+    "audioHint": "ユーセッジ",
+    "examples": [
+      {
+        "en": "The teacher explained the correct usage of the word in context.",
+        "ja": "教師は文脈の中でその単語の正しい用法を説明した。",
+        "blank": "The teacher explained the correct ___ of the word in context.",
+        "blankAnswer": "usage"
+      }
+    ],
+    "distractors": [
+      "仮説の検証",
+      "論文の引用形式",
+      "研究の方法論"
+    ],
+    "confusableSpellings": [
+      "useage",
+      "usuage",
+      "usege"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'usage' → ラテン語 'usus'（使用・慣習）＋ '-age'（名詞化接尾辞）。'use' と同じ語根を持ち、「使うこと・使われ方」が原義。",
+      "tips": "「use（使用）」との違いに注意。'usage' はより「方法・様式・パターン」のニュアンスが強く、言語の「用法」やデータの「使用量」などに使う。'drug usage' は薬物使用の様態を指す。",
+      "confusables": "「use（使用）」との違い：'the use of technology' は技術の使用という行為、'technology usage' は使用の仕方・傾向・パターンを表す。",
+      "collocations": [
+        "language usage",
+        "data usage",
+        "drug usage"
+      ],
+      "trivia": "スマホのデータ量も 'data usage' という。毎月キャリアのアプリで確認している「使用量」は、まさに英語では usage と呼ばれている。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 777,
+    "word": "fortune",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "財産、富",
+        "pos": "noun"
+      },
+      {
+        "meaning": "運命、幸運",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɔːrtʃən/",
+    "syllables": "for-tune",
+    "audioHint": "フォーチュン",
+    "examples": [
+      {
+        "en": "She made a fortune by investing in technology stocks early.",
+        "ja": "彼女はテクノロジー株に早期投資することで財産を築いた。",
+        "blank": "She made a ___ by investing in technology stocks early.",
+        "blankAnswer": "fortune"
+      }
+    ],
+    "distractors": [
+      "負債の返済",
+      "市場の規制",
+      "貿易赤字"
+    ],
+    "confusableSpellings": [
+      "forture",
+      "fortuen",
+      "fotune"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'Fortuna'（運命の女神の名）→ 古フランス語 'fortune'。もともと「女神フォルトゥナが与えるもの」→「運・富」という意味に発展。",
+      "tips": "「make a fortune（財を成す）」「fortune cookie（フォーチュンクッキー）」など熟語も多い。'tell someone's fortune'（占いをする）など「運命を告げる」意味でも使う。",
+      "confusables": "「wealth（富）」との違い：fortune は「幸運によってもたらされた富」というニュアンスがあり、wealth は蓄積された資産全般を指す。",
+      "collocations": [
+        "make a fortune",
+        "fortune cookie",
+        "fortune teller"
+      ],
+      "trivia": "アメリカの経済誌「Fortune 500」はアメリカ上位500社をランク付けするリスト。'Fortune'という誌名自体が「富と幸運」を意味している。"
+    },
+    "frequency": 980,
+    "cefr": "B1"
+  },
+  {
+    "id": 778,
+    "word": "correlation",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "相関（関係）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "対応関係、連関",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌkɒrəˈleɪʃən/",
+    "syllables": "cor-re-la-tion",
+    "audioHint": "コレレイション",
+    "examples": [
+      {
+        "en": "There is a strong correlation between exercise and mental health.",
+        "ja": "運動とメンタルヘルスの間には強い相関関係がある。",
+        "blank": "There is a strong ___ between exercise and mental health.",
+        "blankAnswer": "correlation"
+      }
+    ],
+    "distractors": [
+      "因果関係の証明",
+      "研究の再現性",
+      "標準偏差の計算"
+    ],
+    "confusableSpellings": [
+      "corelation",
+      "correlasion",
+      "correllation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'com-'（共に）＋ 'relatio'（関係・報告）→ 'correlatio'（相互関係）。'relation' と同じ語根で、「共に関係し合う」が原義。",
+      "tips": "統計・研究文脈で必須の語。'correlation does not imply causation'（相関は因果を意味しない）という格言は学術英語の基本。日本語の「相関」と対応するが、日常会話では 'connection' が使われることも多い。",
+      "confusables": "「causation（因果関係）」との違い：correlation はあくまで2変数が一緒に変動するという関係。causation は一方が他方を引き起こす関係。混同は研究論文で致命的なミスになる。",
+      "collocations": [
+        "positive correlation",
+        "negative correlation",
+        "correlation between A and B"
+      ],
+      "trivia": "「アイスクリームの売上が増えると溺死者が増える」という有名な相関データがある。もちろん因果関係はなく、どちらも夏に増えるだけ。これが 'correlation ≠ causation' の代表例。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 779,
+    "word": "artistic",
+    "pos": "adjective",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "芸術的な、芸術の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "美的センスのある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɑːrˈtɪstɪk/",
+    "syllables": "ar-tis-tic",
+    "audioHint": "アーティスティック",
+    "examples": [
+      {
+        "en": "Her artistic talent was recognized at a young age.",
+        "ja": "彼女の芸術的な才能は幼い頃から認められていた。",
+        "blank": "Her ___ talent was recognized at a young age.",
+        "blankAnswer": "artistic"
+      }
+    ],
+    "distractors": [
+      "文学的な",
+      "音楽理論の",
+      "舞台演出の"
+    ],
+    "confusableSpellings": [
+      "artistick",
+      "artstic",
+      "artisitc"
+    ],
+    "passive": {
+      "etymology": "'art'（芸術）＋ '-ist'（〜する人）＋ '-ic'（形容詞化）→「芸術家の・芸術に関する」。ラテン語 'ars/artis'（技術・技芸）が語根。",
+      "tips": "'artistic' は「芸術的センスがある・芸術に関する」という形容詞。名詞は 'art'、人は 'artist'。'artful'（巧みな・狡猾な）と混同しないよう注意。",
+      "confusables": "'artful' との違い：'artful' は「巧みな」という意味だが、しばしば「ずる賢い」という否定的ニュアンスも持つ。'artistic' は純粋に芸術的な才能・美意識を指す。",
+      "collocations": [
+        "artistic talent",
+        "artistic expression",
+        "artistic style"
+      ],
+      "trivia": "フィギュアスケートにかつてあった「artistic program（芸術プログラム）」は日本でも話題に。英語で「あの子、芸術的センスあるよね」は 'She's so artistic.' でOK。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 780,
+    "word": "literary",
+    "pos": "adjective",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "文学的な、文学の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "文学に造詣が深い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈlɪtəreri/",
+    "syllables": "lit-er-ar-y",
+    "audioHint": "リタレリ",
+    "examples": [
+      {
+        "en": "The novel won several literary awards last year.",
+        "ja": "その小説は昨年いくつかの文学賞を受賞した。",
+        "blank": "The novel won several ___ awards last year.",
+        "blankAnswer": "literary"
+      }
+    ],
+    "distractors": [
+      "演劇的な",
+      "映像美術の",
+      "民俗音楽の"
+    ],
+    "confusableSpellings": [
+      "litery",
+      "literery",
+      "litterary"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'littera'（文字・手紙）＋ '-ary'（形容詞化接尾辞）→「文字・文学に関する」。'letter'（手紙・文字）や 'literature'（文学）と同じ語根。",
+      "tips": "発音は「リタレリ」が近く、'liter-' の部分を「ライター」と読みがちだが誤り。'literary'（文学的）と 'literally'（文字どおりに）はスペルが似ているが全く別の語なので注意。",
+      "confusables": "'literally'（副詞：文字どおりに）との混同に注意。'I literally died laughing.'（笑いすぎて死ぬかと思った）は口語的誇張で、'literary'（形容詞：文学的な）とは全く別物。",
+      "collocations": [
+        "literary award",
+        "literary criticism",
+        "literary style"
+      ],
+      "trivia": "ノーベル文学賞は英語で 'Nobel Prize in Literature'。ただし文学界の権威ある賞として 'literary prize' という表現も多用される。ボブ・ディランが受賞したとき、「音楽家に literary prize とは？」と世界で話題になった。"
+    },
+    "frequency": 1900,
+    "cefr": "B2"
+  }
+]

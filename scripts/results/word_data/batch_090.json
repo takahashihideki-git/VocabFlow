@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1781,
+    "word": "diligent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "勤勉な、努力家の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "精励している、念入りな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdɪlɪdʒənt/",
+    "syllables": "dil-i-gent",
+    "audioHint": "ディリジェント",
+    "examples": [
+      {
+        "en": "She is a diligent student who never misses a class.",
+        "ja": "彼女は授業を一度も欠かさない勤勉な学生だ。",
+        "blank": "She is a ___ student who never misses a class.",
+        "blankAnswer": "diligent"
+      }
+    ],
+    "distractors": [
+      "厳格な",
+      "頑固な",
+      "母親のような"
+    ],
+    "confusableSpellings": [
+      "dilligent",
+      "diligant",
+      "deligent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 diligens（注意深い）から。dis-（完全に）+ legere（選ぶ、集める）が語源。「しっかりと選び取る」イメージ。",
+      "tips": "「勤勉な」と訳されるが、単なる「働き者」ではなく「丁寧かつ継続的に努力する」ニュアンスが強い。diligent in doing somethingの形でよく使われる。",
+      "confusables": "hardworkingとの違い：diligentは「丁寧さ・注意深さ」を含むのに対し、hardworkingは「とにかく働く量」に焦点。industriousも似た意味だが書き言葉寄り。",
+      "collocations": [
+        "diligent student",
+        "diligent worker",
+        "diligent in one's work"
+      ],
+      "trivia": "「勤勉」を表す言葉は文化によって価値観が違う。英語圏では「smart work（賢く働く）」も重視されるため、diligentだけを褒め言葉として使う場面はやや少なくなりつつある。"
+    },
+    "frequency": 8200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1782,
+    "word": "vocational",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "職業の、職業訓練の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "天職に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/voʊˈkeɪʃənəl/",
+    "syllables": "vo-ca-tion-al",
+    "audioHint": "ヴォウケイショナル",
+    "examples": [
+      {
+        "en": "He enrolled in a vocational training program after high school.",
+        "ja": "彼は高校卒業後に職業訓練プログラムに入学した。",
+        "blank": "He enrolled in a ___ training program after high school.",
+        "blankAnswer": "vocational"
+      }
+    ],
+    "distractors": [
+      "専門的な知識に基づく",
+      "時代遅れの",
+      "肥沃な"
+    ],
+    "confusableSpellings": [
+      "vocacional",
+      "vokational",
+      "vocatonal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 vocatio（召喚、呼びかけ）から。vocare（呼ぶ）＋ -al（形容詞化）。「神に呼ばれた仕事＝天職」という概念が語源。",
+      "tips": "vocational schoolは「職業学校・専門学校」の意味で頻出。「大学進学ではなく就職に直結した技術教育」という文脈で使われることが多い。",
+      "confusables": "professionalとの違い：professionalは「高い専門性や倫理を持つ職業人」を指すのに対し、vocationalは「技術・職業訓練」のシステムや教育制度に焦点が当たる。",
+      "collocations": [
+        "vocational training",
+        "vocational school",
+        "vocational education"
+      ],
+      "trivia": "vocationの語源は「神の召し」。だから「天職」という日本語訳がピッタリ。牧師や医師など「使命感のある仕事」に使われていた歴史がある。"
+    },
+    "frequency": 9500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1783,
+    "word": "bankrupt",
+    "pos": "adjective",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "破産した、倒産した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（比喩的に）欠如した、尽きた",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈbæŋkrʌpt/",
+    "syllables": "bank-rupt",
+    "audioHint": "バンクラプト",
+    "examples": [
+      {
+        "en": "The company went bankrupt after losing its biggest client.",
+        "ja": "その会社は最大の顧客を失った後に倒産した。",
+        "blank": "The company went ___ after losing its biggest client.",
+        "blankAnswer": "bankrupt"
+      }
+    ],
+    "distractors": [
+      "融資を受けた",
+      "黒字の",
+      "株式公開した"
+    ],
+    "confusableSpellings": [
+      "bankruppt",
+      "bankropt",
+      "bancrupt"
+    ],
+    "passive": {
+      "etymology": "イタリア語 banca rotta（壊れた机・台）から。中世イタリアの両替商が支払い不能になると取引台（banca）を壊す慣習があったことに由来。",
+      "tips": "go bankruptという動詞句が最頻出。形容詞としてbe bankruptも使えるが、動詞としてbankrupt someone（〜を破産させる）という他動詞用法も覚えておきたい。",
+      "confusables": "insolventとの違い：insolventは法律・会計用語として「支払い不能」を指す中立的な語。bankruptはより口語的で社会的なスティグマも含む。",
+      "collocations": [
+        "go bankrupt",
+        "declare bankrupt",
+        "morally bankrupt"
+      ],
+      "trivia": "morally bankruptという表現はとても皮肉的。政治家や組織に対して「道徳的に破綻している」と言うときに使われる強烈な批判表現。"
+    },
+    "frequency": 5800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1784,
+    "word": "stern",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "厳格な、厳しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（名詞）船尾",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/stɜːrn/",
+    "syllables": "stern",
+    "audioHint": "スターン",
+    "examples": [
+      {
+        "en": "The stern teacher gave no extra time during the exam.",
+        "ja": "その厳しい教師は試験中に追加時間を一切与えなかった。",
+        "blank": "The ___ teacher gave no extra time during the exam.",
+        "blankAnswer": "stern"
+      }
+    ],
+    "distractors": [
+      "勤勉な",
+      "頑固な",
+      "母親のような優しさのある"
+    ],
+    "confusableSpellings": [
+      "sturn",
+      "stearn",
+      "stren"
+    ],
+    "passive": {
+      "etymology": "古英語 styrne（厳しい、激しい）から。ゲルマン系の語根で「固く、曲げられない」というイメージが根底にある。",
+      "tips": "strictとの違いに注意。strictは「規則に厳しい」というニュアンスが強いのに対し、sternは「表情・態度・声が厳格で威圧感がある」という感情的な側面を含む。",
+      "confusables": "severe・strict・harsh との使い分け：sternは主に人の態度・表情に使う。severeは状況や罰に対して、harshは批判や環境の厳しさに対して使うことが多い。",
+      "collocations": [
+        "stern look",
+        "stern warning",
+        "stern teacher"
+      ],
+      "trivia": "sternには全く別の意味で「船尾」という名詞用法もある。形容詞のstern（厳しい）と船尾のstern（船の後ろ）は語源が異なり、後者は古ノルド語から。同じ綴りで全然違う意味になるトリビアが面白い。"
+    },
+    "frequency": 7100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1785,
+    "word": "stubborn",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "頑固な、強情な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（問題・汚れなどが）しつこい、なかなか消えない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈstʌbərn/",
+    "syllables": "stub-born",
+    "audioHint": "スタボーン",
+    "examples": [
+      {
+        "en": "He is too stubborn to admit when he is wrong.",
+        "ja": "彼は頑固すぎて、自分が間違っていると認めようとしない。",
+        "blank": "He is too ___ to admit when he is wrong.",
+        "blankAnswer": "stubborn"
+      }
+    ],
+    "distractors": [
+      "厳格な",
+      "勤勉な",
+      "母親のような"
+    ],
+    "confusableSpellings": [
+      "stuborn",
+      "stubern",
+      "stubbern"
+    ],
+    "passive": {
+      "etymology": "中英語 stoborn から。語源は不明確だが、stub（切り株）のように「根が張って動かない」イメージと結びつけて覚えやすい。",
+      "tips": "stubbornはネガティブな文脈で使われることが多いが、stubborn determination（頑固なまでの決意）のようにポジティブな文脈でも使える。日本語の「頑固」と同じく、文脈次第。",
+      "confusables": "obstinateとの違い：obstinateはstubbornより書き言葉的・フォーマルで、「説得にまったく耳を貸さない」というより強い否定的ニュアンスがある。",
+      "collocations": [
+        "stubborn person",
+        "stubborn stain",
+        "stubborn resistance"
+      ],
+      "trivia": "stubbornは人だけでなく「しつこい汚れ」や「なかなか治らない咳」にも使える。stubborn cold（なかなか治らない風邪）は日常会話で本当によく聞く表現。"
+    },
+    "frequency": 6900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1786,
+    "word": "maternal",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "母親の、母性の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "母方の（親族について）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/məˈtɜːrnəl/",
+    "syllables": "ma-ter-nal",
+    "audioHint": "マターナル",
+    "examples": [
+      {
+        "en": "Her maternal instinct kicked in the moment she held the baby.",
+        "ja": "彼女は赤ちゃんを抱いた瞬間、母性本能が目覚めた。",
+        "blank": "Her ___ instinct kicked in the moment she held the baby.",
+        "blankAnswer": "maternal"
+      }
+    ],
+    "distractors": [
+      "厳格な",
+      "勤勉な",
+      "頑固な"
+    ],
+    "confusableSpellings": [
+      "matrnal",
+      "maternel",
+      "materal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 maternus から。mater（母）＋ -al（形容詞化）。mater はmother と同じ印欧祖語の語根 *māter- から来ている。",
+      "tips": "maternal grandmotherは「母方の祖母」。paternalと対で覚えると便利。日本語で「外祖母」「内祖母」という区別は薄れているが、英語では使い分ける場面が多い。",
+      "confusables": "paternalとの対比が重要：maternal＝母方・母性、paternal＝父方・父性。maternal leaveは「産休（主に出産直後の休暇）」で、parental leaveは両親どちらにも使える育児休暇。",
+      "collocations": [
+        "maternal instinct",
+        "maternal grandmother",
+        "maternal care"
+      ],
+      "trivia": "motherとmaternalは語源が同じ。実はmatrix（子宮、行列）もmaterと同根。プログラムの「行列」もお母さんからきていると思うと、なんか温かい気持ちになる。"
+    },
+    "frequency": 7800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1787,
+    "word": "fertile",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "肥沃な、豊かな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（アイデアなどが）豊富な、想像力豊かな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfɜːrtəl/",
+    "syllables": "fer-tile",
+    "audioHint": "ファータイル",
+    "examples": [
+      {
+        "en": "The fertile soil along the river supports many crops.",
+        "ja": "川沿いの肥沃な土壌は多くの農作物を育てる。",
+        "blank": "The ___ soil along the river supports many crops.",
+        "blankAnswer": "fertile"
+      }
+    ],
+    "distractors": [
+      "時代遅れの",
+      "職業の",
+      "硬い"
+    ],
+    "confusableSpellings": [
+      "fertil",
+      "fertille",
+      "fertail"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fertilis（豊かに実る）から。ferre（運ぶ、生む）＋ -tilis（可能を示す形容詞語尾）。「実を運んでくる」イメージ。",
+      "tips": "fertilizeという動詞（肥料を与える）やfertilizer（肥料）も関連語。また生物学的に「受精能力のある」という意味でも使われる。コンテキストで意味を判断すること。",
+      "confusables": "fruitfulとの違い：fertileは「潜在的な生産力がある」状態を指すのに対し、fruitfulは「実際に成果・結果が出た」ことを強調する。fertile ground for ideas（アイデアが生まれやすい環境）のように比喩的にも使える。",
+      "collocations": [
+        "fertile soil",
+        "fertile imagination",
+        "fertile ground"
+      ],
+      "trivia": "「肥沃な三日月地帯（Fertile Crescent）」は人類文明の発祥地とされるメソポタミア・レバント地域の呼び名。歴史の教科書でも登場するキーワードで、fertileがこの地名に入っているのは覚えやすい。"
+    },
+    "frequency": 8100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1788,
+    "word": "ripe",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "熟した、熟れた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（時機・状況が）熟した、準備の整った",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/raɪp/",
+    "syllables": "ripe",
+    "audioHint": "ライプ",
+    "examples": [
+      {
+        "en": "The bananas are finally ripe and ready to eat.",
+        "ja": "バナナがついに熟れて食べ頃になった。",
+        "blank": "The bananas are finally ___ and ready to eat.",
+        "blankAnswer": "ripe"
+      }
+    ],
+    "distractors": [
+      "硬い",
+      "柔軟な",
+      "湿った"
+    ],
+    "confusableSpellings": [
+      "rype",
+      "ripe",
+      "ryp"
+    ],
+    "passive": {
+      "etymology": "古英語 rīpe（熟した）から。ゲルマン系語根 *rīpaz に由来し、「収穫できる状態」を意味した。reap（刈り取る）と同語根。",
+      "tips": "the time is ripe for〜（〜するのにちょうど良い時期だ）という慣用表現が重要。「果物が熟れる」だけでなく、ビジネスや政治の文脈でも「機が熟した」という比喩として頻出。",
+      "confusables": "matureとの違い：ripeは主に果物・農産物や「好機」について使い、matureは人・組織・計画などが「成熟した」という幅広い意味を持つ。",
+      "collocations": [
+        "ripe fruit",
+        "ripe for change",
+        "the time is ripe"
+      ],
+      "trivia": "ripeには「ひどく臭い」というスラング的な意味もある。That smells ripe!（なんかくさい！）という使い方で若者言葉として英語圏で使われることも。教科書には載らない生きた英語。"
+    },
+    "frequency": 7400,
+    "cefr": "A2"
+  },
+  {
+    "id": 1789,
+    "word": "stiff",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "硬い、こわばった",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（態度・文体が）堅苦しい、ぎこちない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/stɪf/",
+    "syllables": "stiff",
+    "audioHint": "スティフ",
+    "examples": [
+      {
+        "en": "My neck feels stiff after sitting at a desk all day.",
+        "ja": "一日中デスクに座っていたら首がこわばってしまった。",
+        "blank": "My neck feels ___ after sitting at a desk all day.",
+        "blankAnswer": "stiff"
+      }
+    ],
+    "distractors": [
+      "熟した",
+      "柔らかい",
+      "滑らかな"
+    ],
+    "confusableSpellings": [
+      "stif",
+      "styff",
+      "stiffe"
+    ],
+    "passive": {
+      "etymology": "古英語 stīf（硬い、固い）から。ゲルマン語族に広く共通する語根で「動かない、曲がらない」という物理的な性質を表した。",
+      "tips": "stiff には「厳しい・激しい」というニュアンスもある。stiff competition（激しい競争）、stiff penalty（重い罰）のように使える。「硬い」だけで覚えるのはもったいない。",
+      "confusables": "rigid・firm・hardとの違い：hardは物理的な硬さ全般、firmは「しっかりとした適度な硬さ」、rigidは「まったく曲げられない厳格さ」、stiffは「本来は動くはずのものが動かない」ニュアンスが強い。",
+      "collocations": [
+        "stiff neck",
+        "stiff competition",
+        "stiff drink"
+      ],
+      "trivia": "stiff drinkは「度数の強いお酒（一杯）」という意味。緊張した後に「一杯グッとやる」というシーンで使われる。stiffが「強い・きつい」という意味に転じた好例。"
+    },
+    "frequency": 6300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1790,
+    "word": "obsolete",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "時代遅れの、旧式の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "廃れた、使われなくなった",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌɒbsəˈliːt/",
+    "syllables": "ob-so-lete",
+    "audioHint": "オブソリート",
+    "examples": [
+      {
+        "en": "Fax machines have become obsolete in most modern offices.",
+        "ja": "ファックス機はほとんどの現代のオフィスで時代遅れになった。",
+        "blank": "Fax machines have become ___ in most modern offices.",
+        "blankAnswer": "obsolete"
+      }
+    ],
+    "distractors": [
+      "職業的な",
+      "肥沃な",
+      "専門的な"
+    ],
+    "confusableSpellings": [
+      "absolete",
+      "obselete",
+      "obsolete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 obsoletus（使い古された）から。ob-（向かって・離れて）＋ solere（習慣的に使う）の過去分詞形。「もはや使われる習慣がなくなった」というイメージ。",
+      "tips": "become obsoleteの形が最も頻出。テクノロジーや言語の変化を語る文脈でよく登場する。日本語では「廃れた」「お役御免になった」というニュアンス。",
+      "confusables": "outdatedとの違い：outdatedは「情報・知識が古くなった」というやや軽いニュアンス。obsoleteはより完全に「使われなくなった・機能しなくなった」という強い意味合い。",
+      "collocations": [
+        "become obsolete",
+        "render obsolete",
+        "obsolete technology"
+      ],
+      "trivia": "スマートフォンの登場でobsoleteになったものリストは止まらない：カメラ、電卓、地図帳、腕時計…。テック系ニュースでこの単語を見かけない日はないほど現代的な単語。"
+    },
+    "frequency": 8700,
+    "cefr": "C1"
+  },
+  {
+    "id": 1791,
+    "word": "vacant",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "空いている、空席の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "うつろな、無表情の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈveɪkənt/",
+    "syllables": "va-cant",
+    "audioHint": "ヴェイカント",
+    "examples": [
+      {
+        "en": "There is a vacant seat next to the window.",
+        "ja": "窓の隣に空席があります。",
+        "blank": "There is a ___ seat next to the window.",
+        "blankAnswer": "vacant"
+      }
+    ],
+    "distractors": [
+      "広大な",
+      "鮮明な",
+      "活発な"
+    ],
+    "confusableSpellings": [
+      "vaccant",
+      "vacent",
+      "vakant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 vacare（空である）から。接頭辞なしの語根 vac-（空）＋ -ant（形容詞語尾）。同じ語根に vacation（休暇）や vacuum（真空）がある。",
+      "tips": "「空席」の意味では a vacant seat / a vacant room のように名詞を修飾するのが自然。「うつろな表情」は a vacant look / a vacant stare と表現する。empty との違いは、vacant はやや格式があり「本来は使われるべき場所が空いている」ニュアンスが強い。",
+      "confusables": "empty との違い：empty は単に「中身がない」状態全般に使えるが、vacant は「人が占めるべき場所・役職が空いている」場面に使われることが多い（vacant position = 空きポスト）。",
+      "collocations": [
+        "vacant lot（空き地）",
+        "vacant position（空席・空きポスト）",
+        "vacant stare（うつろな眼差し）"
+      ],
+      "trivia": "英語圏のトイレの「空室」表示は Vacant（使用可）と Occupied（使用中）。日本の「空」「使用中」と発想は同じだが、Vacant はもとは「何も存在しない」というかなり哲学的な単語だったりする。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1792,
+    "word": "acoustic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "音響の、聴覚の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（楽器が）生音の、アコースティックの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈkuːstɪk/",
+    "syllables": "a-cous-tic",
+    "audioHint": "アクースティク",
+    "examples": [
+      {
+        "en": "She played an acoustic guitar by the campfire.",
+        "ja": "彼女はキャンプファイアのそばでアコースティックギターを弾いた。",
+        "blank": "She played an ___ guitar by the campfire.",
+        "blankAnswer": "acoustic"
+      }
+    ],
+    "distractors": [
+      "光学的な",
+      "磁気の",
+      "熱力学的な"
+    ],
+    "confusableSpellings": [
+      "accoustic",
+      "acoustick",
+      "acustic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 akoustikos（聴くことに関する）から。語根 akouein（聞く）＋ -tic（形容詞語尾）。英語の hear とは語源が異なり、より科学的・技術的な「音の物理現象」を指すニュアンスがある。",
+      "tips": "日本語の「アコースティック」はギター限定のイメージが強いが、英語では acoustic engineering（音響工学）や acoustic properties（音響特性）のように学術・建築分野でも頻繁に使う。アクセントは第2音節（-cous-）に置くことを忘れずに。",
+      "confusables": "sonic は「音速に関する」「音の」という広義の形容詞で、acoustic より物理的な速度のニュアンスが強い。auditory は「聴覚器官の」という意味で、人間の耳の機能に焦点を当てる点が異なる。",
+      "collocations": [
+        "acoustic guitar（アコースティックギター）",
+        "acoustic properties（音響特性）",
+        "acoustic engineer（音響エンジニア）"
+      ],
+      "trivia": "コンサートホールの設計では acoustic design（音響設計）が超重要で、有名建築家が何十年もかけて最適な反響を計算することもある。ウィーンの楽友協会大ホールは「世界最高の音響」と言われ、その秘密はいまだ完全には解明されていない。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1793,
+    "word": "preliminary",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "予備の、事前の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "予選の、準備段階の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/prɪˈlɪmɪneri/",
+    "syllables": "pre-lim-i-na-ry",
+    "audioHint": "プリリミナリ",
+    "examples": [
+      {
+        "en": "The preliminary results of the study look promising.",
+        "ja": "その研究の予備的な結果は有望に見える。",
+        "blank": "The ___ results of the study look promising.",
+        "blankAnswer": "preliminary"
+      }
+    ],
+    "distractors": [
+      "最終的な",
+      "包括的な",
+      "体系的な"
+    ],
+    "confusableSpellings": [
+      "prelimenary",
+      "prelimanary",
+      "preliminery"
+    ],
+    "passive": {
+      "etymology": "ラテン語 prae-（前に）＋ limen（敷居・閾）＋ -ary（形容詞語尾）。「敷居の前にある」→「本番の前段階」という発想。limen は eliminate（排除する）にも共通する語根。",
+      "tips": "名詞としても使えて a preliminary（予備審査）や the preliminaries（予選ラウンド）と複数形でも使う。論文や報告書では preliminary findings / preliminary data のように使われることが非常に多い。スペルが長くて混乱しやすいが、pre-（前）+ liminary と分解すると覚えやすい。",
+      "confusables": "preparatory も「準備の」という意味だが、preparatory は「次のステップに備えるための準備」に重点があり、preliminary は「本番の前段階・まだ確定していない」ニュアンスが強い。",
+      "collocations": [
+        "preliminary results（予備的結果）",
+        "preliminary round（予選ラウンド）",
+        "preliminary investigation（予備調査）"
+      ],
+      "trivia": "オリンピックでも予選は preliminary round と呼ばれることがある。選手が「予備」扱いされている感じがして少し失礼な気もするが、語源的には「本戦という大きな扉の前に立つ」という意味なので実は格調高い表現だったりする。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1794,
+    "word": "approximate",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "おおよその、近似の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "近似する、概算する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈprɒksɪmət/",
+    "syllables": "ap-prox-i-mate",
+    "audioHint": "アプロクシメット",
+    "examples": [
+      {
+        "en": "The approximate cost of the project is $10,000.",
+        "ja": "そのプロジェクトのおおよその費用は1万ドルだ。",
+        "blank": "The ___ cost of the project is $10,000.",
+        "blankAnswer": "approximate"
+      }
+    ],
+    "distractors": [
+      "精密な",
+      "段階的な",
+      "理論的な"
+    ],
+    "confusableSpellings": [
+      "aproximate",
+      "approxamate",
+      "approxiamte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（～へ）＋ proximus（最も近い）＋ -ate（形容詞・動詞語尾）。「最も近い状態に持っていく」が原義。proximus は proximity（近接性）や approximate（近似）の共通語根。",
+      "tips": "形容詞と動詞で発音が異なる：形容詞は /əˈprɒksɪmət/（最後が「メット」）、動詞は /əˈprɒksɪmeɪt/（最後が「メイト」）。approximately（副詞形）は論文や報告書で「約〜」と言いたいときに about より格式が高く便利。",
+      "confusables": "rough も「おおよその」という意味（a rough estimate）で使えるが、rough はよりくだけた口語的なニュアンスが強い。approximate は学術・ビジネス文書に向いている。",
+      "collocations": [
+        "approximate value（近似値）",
+        "approximate location（おおよその場所）",
+        "approximately X minutes（約X分）"
+      ],
+      "trivia": "数学では「近似」を英語で approximation と言う。π（パイ）を 3.14 と表すのも approximation の一種。人類はずっと「だいたいこのくらい」で宇宙を計算してきたわけで、approximate は科学の謙虚さを表す言葉とも言える。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1795,
+    "word": "implicit",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "暗黙の、言外の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "絶対的な、疑いのない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪmˈplɪsɪt/",
+    "syllables": "im-plic-it",
+    "audioHint": "インプリシット",
+    "examples": [
+      {
+        "en": "There was an implicit agreement between them.",
+        "ja": "彼らの間には暗黙の合意があった。",
+        "blank": "There was an ___ agreement between them.",
+        "blankAnswer": "implicit"
+      }
+    ],
+    "distractors": [
+      "明示的な",
+      "補助的な",
+      "論理的な"
+    ],
+    "confusableSpellings": [
+      "implict",
+      "implicite",
+      "implisit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 im-（中に）＋ plicare（折る）＋ -it（形容詞語尾）。「内側に折り込まれている」→「表に出ていないが含まれている」が原義。plicare は complicated（複雑な）や explicit（明示的な）にも共通する。",
+      "tips": "対義語の explicit（明示的な）とセットで覚えると効果的。implicit は「言わなくてもわかる」、explicit は「はっきり言っている」。日本語の「暗黙の了解」はまさに implicit understanding。プログラミングでも implicit conversion（暗黙の型変換）という用法がある。",
+      "confusables": "implied も「暗示された」という意味で似ているが、implied は動詞 imply の過去分詞形容詞で「発言などから暗示されている」、implicit はより内在的・構造的に「埋め込まれている」ニュアンスが強い。",
+      "collocations": [
+        "implicit trust（絶対的な信頼）",
+        "implicit assumption（暗黙の前提）",
+        "implicit bias（無意識の偏見）"
+      ],
+      "trivia": "心理学で話題の「implicit bias（無意識の偏見）」という概念は、自分では気づいていない偏見のこと。ハーバード大学が開発した「IAT（潜在的連合テスト）」でチェックできる。意識していなくても「折り込まれている」という implicit の語源そのままのコンセプトだ。"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1796,
+    "word": "punctual",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "時間を守る、時間厳守の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpʌŋktʃuəl/",
+    "syllables": "punc-tu-al",
+    "audioHint": "パンクチュアル",
+    "examples": [
+      {
+        "en": "She is always punctual for meetings.",
+        "ja": "彼女はいつも会議に時間通りに来る。",
+        "blank": "She is always ___ for meetings.",
+        "blankAnswer": "punctual"
+      }
+    ],
+    "distractors": [
+      "几帳面な",
+      "誠実な",
+      "社交的な"
+    ],
+    "confusableSpellings": [
+      "punctuall",
+      "puntual",
+      "punctuel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 punctum（点）＋ -al（形容詞語尾）。「点（時刻）をしっかり押さえる」が原義。punctum は punctuation（句読点）や acupuncture（鍼）にも共通する語根。",
+      "tips": "punctual は「時間を守る人の性質」を表す形容詞なので、be punctual for ～（〜に時間通りに来る）や be punctual in doing（〜を時間通りにする）という形が頻出。「時間を守る」を on time と言い換えることもできるが、punctual は人の性格・習慣を表す点が違う。",
+      "confusables": "prompt も「迅速な・即座の」という意味で似ているが、prompt は「すぐに行動する速さ」に重点があり、punctual は「約束した時刻に合わせる正確さ」に重点がある。",
+      "collocations": [
+        "be punctual for class（授業に時間通りに来る）",
+        "punctual delivery（時間厳守の配達）",
+        "notoriously punctual（時間厳守で有名な）"
+      ],
+      "trivia": "日本は世界有数の「時間厳守文化」の国として有名で、電車の遅延が1分でもあれば謝罪放送が流れる。英語圏では「5分前到着が礼儀」という考えが一般的だが、文化によっては30分遅れても punctual 扱いされる国もある。punctuality は完全に文化依存の美徳なのだ。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1797,
+    "word": "compatible",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "互換性のある、相性の良い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "両立できる、共存できる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kəmˈpætɪbl/",
+    "syllables": "com-pat-i-ble",
+    "audioHint": "コンパティブル",
+    "examples": [
+      {
+        "en": "This software is compatible with all major operating systems.",
+        "ja": "このソフトウェアはすべての主要なOSと互換性がある。",
+        "blank": "This software is ___ with all major operating systems.",
+        "blankAnswer": "compatible"
+      }
+    ],
+    "distractors": [
+      "持続可能な",
+      "段階的な",
+      "客観的な"
+    ],
+    "confusableSpellings": [
+      "compatable",
+      "compatibel",
+      "compatiple"
+    ],
+    "passive": {
+      "etymology": "ラテン語 com-（共に）＋ pati（耐える・受け入れる）＋ -ble（可能を示す語尾）。「共に耐えられる」→「一緒に存在できる」が原義。pati は patient（忍耐強い）や compassion（思いやり）にも共通する語根。",
+      "tips": "be compatible with ～ の形で使うのが基本。ITの文脈では「互換性がある」、人間関係では「相性が良い」という意味になる。「互換性がない」は incompatible。日本人は compatible を「コンパチブル」と読みがちだが、英語のアクセントは第2音節（-pat-）にある。",
+      "confusables": "consistent with も「〜と一致する」という意味で似ているが、consistent は「矛盾なく一致している」論理的整合性に重点があり、compatible は「共存・協調できる」相性に重点がある。",
+      "collocations": [
+        "backward compatible（後方互換性のある）",
+        "compatible with regulations（規制と両立できる）",
+        "mutually compatible（相互に互換性のある）"
+      ],
+      "trivia": "婚活サービスや交際アプリでは compatibility（相性・適合性）スコアがよく使われる。もともとIT用語として浸透した単語が恋愛の文脈でも普通に使われるようになったのは面白い。あなたのOSと彼氏・彼女は compatible ですか？"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1798,
+    "word": "ample",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "十分な、豊富な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "広々とした、余裕のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæmpl/",
+    "syllables": "am-ple",
+    "audioHint": "アンプル",
+    "examples": [
+      {
+        "en": "There is ample time to finish the assignment.",
+        "ja": "課題を終わらせるのに十分な時間がある。",
+        "blank": "There is ___ time to finish the assignment.",
+        "blankAnswer": "ample"
+      }
+    ],
+    "distractors": [
+      "空いている",
+      "均一な",
+      "鮮やかな"
+    ],
+    "confusableSpellings": [
+      "ampal",
+      "ampel",
+      "amble"
+    ],
+    "passive": {
+      "etymology": "ラテン語 amplus（広大な・豊富な）から直接英語に入った形容詞。接頭辞なしのシンプルな語根で、amplify（増幅する）や amplitude（振幅）と同じ語族。",
+      "tips": "enough と似た意味だが、ample は「余裕を持って十分」というニュアンスがあり、やや格式がある。ample evidence（十分な証拠）、ample space（十分なスペース）のように、量・空間・時間の豊富さを表す名詞と組み合わせやすい。「痩せていない体型」という婉曲表現にも使われることがある（an ample figure）。",
+      "confusables": "sufficient は「必要最低限を満たしている」に重点があり、ample は「それ以上に余裕がある」ニュアンスが強い。「ギリギリ足りる」は sufficient、「余裕で足りる」は ample。",
+      "collocations": [
+        "ample evidence（十分な証拠）",
+        "ample opportunity（十分な機会）",
+        "ample room（広々とした空間）"
+      ],
+      "trivia": "医療用語の「アンプル（ampoule）」はフランス語経由で、語源は別の ampulla（細い瓶）だが発音が似ているので混乱しがち。英単語の ample と医療のアンプルは全くの別物なので要注意。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1799,
+    "word": "pervasive",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "広く浸透した、蔓延した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "あらゆるところに及ぶ",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pərˈveɪsɪv/",
+    "syllables": "per-va-sive",
+    "audioHint": "パーヴェイシブ",
+    "examples": [
+      {
+        "en": "Social media has a pervasive influence on modern culture.",
+        "ja": "SNSは現代文化に広く浸透した影響を及ぼしている。",
+        "blank": "Social media has a ___ influence on modern culture.",
+        "blankAnswer": "pervasive"
+      }
+    ],
+    "distractors": [
+      "断続的な",
+      "局所的な",
+      "表面的な"
+    ],
+    "confusableSpellings": [
+      "pervasibe",
+      "pervaisive",
+      "pervasave"
+    ],
+    "passive": {
+      "etymology": "ラテン語 per-（完全に・隅々まで）＋ vadere（行く・進む）＋ -ive（形容詞語尾）。「隅々まで進んでいく」が原義。vadere は invade（侵略する）や evasive（回避的な）にも共通する語根。",
+      "tips": "「ネガティブなものが広がる」場面でよく使われるが、中立的・ポジティブな文脈でも使える（a pervasive optimism など）。ubiquitous（あらゆるところに存在する）との違いは、pervasive は「じわじわ浸透・拡散するプロセス」を含意する点。学術論文・社会批評でよく登場する語。",
+      "confusables": "ubiquitous は「すでにどこにでも存在している状態」を強調し、pervasive は「広がりの勢い・影響の深さ」に重点がある。a pervasive smell（どこまでも漂う臭い）のように感覚的な広がりにも使える。",
+      "collocations": [
+        "pervasive influence（広範な影響）",
+        "pervasive problem（蔓延した問題）",
+        "pervasive smell（どこにでも漂う臭い）"
+      ],
+      "trivia": "デジタル技術の世界では pervasive computing（ユビキタスコンピューティング）という概念があり、コンピュータがあらゆる生活空間に溶け込む未来像を指す。マーク・ワイザーが1991年に提唱したこの概念、今やスマート家電で現実になっている。"
+    },
+    "frequency": 4400,
+    "cefr": "C1"
+  },
+  {
+    "id": 1800,
+    "word": "ubiquitous",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "どこにでも存在する、遍在する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/juːˈbɪkwɪtəs/",
+    "syllables": "u-biq-ui-tous",
+    "audioHint": "ユービクウィタス",
+    "examples": [
+      {
+        "en": "Smartphones have become ubiquitous in everyday life.",
+        "ja": "スマートフォンは日常生活のどこにでも存在するようになった。",
+        "blank": "Smartphones have become ___ in everyday life.",
+        "blankAnswer": "ubiquitous"
+      }
+    ],
+    "distractors": [
+      "一時的な",
+      "希少な",
+      "特定の地域に限られた"
+    ],
+    "confusableSpellings": [
+      "ubiquitious",
+      "ubiqutous",
+      "ubiqitous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ubique（あらゆる場所に）＋ -ous（形容詞語尾）。ubique は ubi（どこ）＋ que（も・強調）から成る。神学では「神はどこにでも偏在する」という概念（divine ubiquity）を表すために使われてきた語。",
+      "tips": "スペルが難しい上に発音も yu-BIK-wi-tus と独特。日本語の「ユビキタス社会」はこの単語から来ている。「あまりにどこにでもあって当たり前になっている」というニュアンスで、社会批評的な文脈でよく使われる。日常会話より書き言葉・学術語として頻出。",
+      "confusables": "pervasive と比較すると、ubiquitous はすでに「どこにでも存在している完成した状態」を表し、pervasive は「広がっていくプロセス・影響力の浸透」に重点がある。ubiquitous は静的、pervasive はより動的なイメージ。",
+      "collocations": [
+        "become ubiquitous（どこにでも普及する）",
+        "ubiquitous presence（遍在する存在）",
+        "ubiquitous technology（あらゆる場所にある技術）"
+      ],
+      "trivia": "もともとは神学用語で「神はどこにでもいる（ubiquity of God）」という概念を表していた。それが現代では「スマホはどこにでもある」という意味で使われるようになった。技術が神の偏在性を獲得した時代、とも言えるかもしれない。"
+    },
+    "frequency": 4100,
+    "cefr": "C1"
+  }
+]

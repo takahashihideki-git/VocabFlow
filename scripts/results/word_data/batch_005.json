@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 81,
+    "word": "possible",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "可能な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ありうる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpɒsɪbəl/",
+    "syllables": "pos-si-ble",
+    "audioHint": "ポシブル",
+    "examples": [
+      {
+        "en": "Is it possible to finish the project by Friday?",
+        "ja": "金曜日までにプロジェクトを終わらせることは可能ですか？",
+        "blank": "Is it ___ to finish the project by Friday?",
+        "blankAnswer": "possible"
+      }
+    ],
+    "distractors": [
+      "確かな",
+      "最近の",
+      "主要な"
+    ],
+    "confusableSpellings": [
+      "possble",
+      "posible",
+      "possibel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'possibilis'（できる）から。'posse'（できる）＋ '-ibilis'（〜できる）の構成。'posse' はさらに 'pot-'（力）＋ 'esse'（ある）に分解できる。",
+      "tips": "「it is possible to〜」と「it is possible that〜」の2パターンをセットで覚えよう。日本人は 'I can possible do it' のように副詞的に使ってしまいがちだが誤り。",
+      "confusables": "'possible'（可能な・形容詞）と 'possibly'（もしかして・副詞）は品詞が違う。'possibly' は文頭や動詞前で使う。",
+      "collocations": [
+        "as soon as possible（できるだけ早く）",
+        "make it possible（可能にする）",
+        "possible solution（可能な解決策）"
+      ],
+      "trivia": "「ASAP」は 'as soon as possible' の略で、もともとは軍の通信用語として使われていた。今や日常英語でも超頻出のスラング！"
+    },
+    "frequency": 300,
+    "cefr": "A2"
+  },
+  {
+    "id": 82,
+    "word": "individual",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "個々の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "個人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪndɪˈvɪdʒuəl/",
+    "syllables": "in-di-vid-u-al",
+    "audioHint": "インディヴィジュアル",
+    "examples": [
+      {
+        "en": "Each individual student has different learning needs.",
+        "ja": "それぞれの生徒は異なる学習ニーズを持っている。",
+        "blank": "Each ___ student has different learning needs.",
+        "blankAnswer": "individual"
+      }
+    ],
+    "distractors": [
+      "公共の",
+      "共通の",
+      "類似した"
+    ],
+    "confusableSpellings": [
+      "individuel",
+      "indiviual",
+      "individaul"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'individuus'（分割できない）から。'in-'（否定）＋ 'dividuus'（分割できる）の構成。'dividuus' は 'dividere'（分ける）に由来。",
+      "tips": "名詞としても形容詞としても使えるが、名詞の場合は「一個人」というやや硬いニュアンス。口語では 'person' の方が自然なことも多い。",
+      "confusables": "'individual'（個々の）と 'personal'（個人的な）は似ているが、'individual' は「他と区別された一つひとつ」、'personal' は「私的・プライベート」のニュアンス。",
+      "collocations": [
+        "individual rights（個人の権利）",
+        "individual approach（個別のアプローチ）",
+        "each individual（各個人）"
+      ],
+      "trivia": "語根の 'divide'（分ける）と同じルーツを持つ。つまり 'individual' は文字通り「これ以上分割できない最小単位」という意味。原子を意味する 'atom' も同様の発想でできた言葉！"
+    },
+    "frequency": 420,
+    "cefr": "B1"
+  },
+  {
+    "id": 83,
+    "word": "public",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "公共の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "公衆",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpʌblɪk/",
+    "syllables": "pub-lic",
+    "audioHint": "パブリック",
+    "examples": [
+      {
+        "en": "The city opened a new public library last month.",
+        "ja": "市は先月、新しい公共図書館を開設した。",
+        "blank": "The city opened a new ___ library last month.",
+        "blankAnswer": "public"
+      }
+    ],
+    "distractors": [
+      "個々の",
+      "可能な",
+      "特定の"
+    ],
+    "confusableSpellings": [
+      "publik",
+      "publick",
+      "pubilc"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'publicus'（民衆の）から。'populus'（人民）が変化した形。'pub'（パブ）も同じ語源で、'public house'（公衆の家）の略。",
+      "tips": "「the public」と定冠詞をつけると「一般大衆」という名詞になる。'in public'（人前で）というイディオムも頻出。",
+      "confusables": "'public'（公共の）と 'civil'（市民の・礼儀正しい）は混同しやすい。'public school' はイギリスでは「私立学校」、アメリカでは「公立学校」と意味が逆になるので注意！",
+      "collocations": [
+        "public opinion（世論）",
+        "public transportation（公共交通機関）",
+        "in public（公の場で）"
+      ],
+      "trivia": "イギリスの 'pub' は 'public house' の略。つまりパブは「誰でも入れる公共の家」という意味。看板に 'The Public Bar' と書かれているのもそのため。"
+    },
+    "frequency": 250,
+    "cefr": "A2"
+  },
+  {
+    "id": 84,
+    "word": "common",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "共通の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "よくある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒmən/",
+    "syllables": "com-mon",
+    "audioHint": "コモン",
+    "examples": [
+      {
+        "en": "It is common to feel nervous before an exam.",
+        "ja": "試験前に緊張するのはよくあることだ。",
+        "blank": "It is ___ to feel nervous before an exam.",
+        "blankAnswer": "common"
+      }
+    ],
+    "distractors": [
+      "最近の",
+      "確かな",
+      "個々の"
+    ],
+    "confusableSpellings": [
+      "comon",
+      "comman",
+      "commin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'communis'（共有の）から。'com-'（共に）＋ 'munis'（義務・奉仕）の構成。'community'（コミュニティ）や 'communicate'（伝える）と同じ語根。",
+      "tips": "'common' には「共通の」と「ありふれた」の2つの意味があり、文脈で判断が必要。'common sense'（常識）は慣用句として丸ごと覚えよう。",
+      "confusables": "'common'（よくある・一般的な）と 'ordinary'（普通の・平凡な）はほぼ同義だが、'ordinary' の方がやや「平凡・特別でない」というネガティブなニュアンスを持ちやすい。",
+      "collocations": [
+        "common sense（常識）",
+        "common ground（共通点）",
+        "have in common（〜を共有している）"
+      ],
+      "trivia": "ロンドンにある 'Clapham Common' や 'Wimbledon Common' の 'common' は「村人が共同で使える土地」という古い意味。昔は芝刈りや放牧に使われていた！"
+    },
+    "frequency": 280,
+    "cefr": "A2"
+  },
+  {
+    "id": 85,
+    "word": "certain",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "確かな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ある（特定の）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsɜːrtən/",
+    "syllables": "cer-tain",
+    "audioHint": "サートゥン",
+    "examples": [
+      {
+        "en": "I am certain that she will pass the test.",
+        "ja": "彼女がテストに合格することは確かだ。",
+        "blank": "I am ___ that she will pass the test.",
+        "blankAnswer": "certain"
+      }
+    ],
+    "distractors": [
+      "類似した",
+      "公共の",
+      "最近の"
+    ],
+    "confusableSpellings": [
+      "certian",
+      "certan",
+      "certein"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'certus'（決められた・確かな）から。'cernere'（決める・区別する）の過去分詞形。'concern'（関係する）や 'discern'（見分ける）と同じ語根。",
+      "tips": "「be certain of〜」「be certain that〜」のどちらも使える。また 'a certain person'（ある人）のように「不特定だが特定の」意味でも使うのが日本人には意外なポイント。",
+      "confusables": "'certain'（確かな）と 'sure'（確信している）はほぼ同義だが、'certain' はやや書き言葉的でフォーマル。'sure' は口語で自然に使える。",
+      "collocations": [
+        "make certain（確かめる）",
+        "a certain amount（ある程度）",
+        "for certain（確かに）"
+      ],
+      "trivia": "'certainly'（もちろん）は返答として使うと非常に丁寧な印象を与える。ホテルやレストランのスタッフがよく使う接客英語の定番表現！"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 86,
+    "word": "similar",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "似ている",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "類似した",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsɪmɪlər/",
+    "syllables": "sim-i-lar",
+    "audioHint": "スィミラー",
+    "examples": [
+      {
+        "en": "Your idea is similar to mine.",
+        "ja": "あなたのアイデアは私のものに似ている。",
+        "blank": "Your idea is ___ to mine.",
+        "blankAnswer": "similar"
+      }
+    ],
+    "distractors": [
+      "確かな",
+      "個々の",
+      "よくある"
+    ],
+    "confusableSpellings": [
+      "similer",
+      "similiar",
+      "simillar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'similis'（同じような）から。印欧語根 'sem-'（一つ・同じ）に由来。'same'（同じ）、'simple'（単純な）、'assemble'（集める）なども同族語。",
+      "tips": "'similar to〜'（〜に似ている）のように必ず 'to' を使う。'similar with' は誤り。日本語の「〜と似ている」につられて 'with' にしてしまうミスが多い。",
+      "confusables": "'similar'（似ている）と 'same'（同じ）は違う。'similar' は「似ているが同一ではない」、'same' は「完全に同一」。'They wear similar clothes'（似た服）vs 'They wear the same clothes'（同じ服）。",
+      "collocations": [
+        "similar to（〜に似た）",
+        "in a similar way（同様の方法で）",
+        "similar results（同様の結果）"
+      ],
+      "trivia": "数学の「相似形」は英語で 'similar figures'。図形が 'similar' であるとは形は同じだが大きさが違うということ。語源の「同じような」という意味がそのまま生きている！"
+    },
+    "frequency": 390,
+    "cefr": "B1"
+  },
+  {
+    "id": 87,
+    "word": "recent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "最近の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "近ごろの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈriːsənt/",
+    "syllables": "re-cent",
+    "audioHint": "リーセント",
+    "examples": [
+      {
+        "en": "Have you seen any recent news about the election?",
+        "ja": "選挙に関する最近のニュースを見ましたか？",
+        "blank": "Have you seen any ___ news about the election?",
+        "blankAnswer": "recent"
+      }
+    ],
+    "distractors": [
+      "共通の",
+      "可能な",
+      "公共の"
+    ],
+    "confusableSpellings": [
+      "resent",
+      "recient",
+      "reecent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'recens'（新鮮な・新しい）から。're-'（再び）＋ 'cens'（評価する・始まる）という説もあるが、主に「直近の」という意味で定着。",
+      "tips": "'recently' は「最近」という副詞で、現在完了形や過去形と相性が良い。'I recent saw it' は誤りで 'I recently saw it' が正しい。形容詞と副詞を混同しないよう注意。",
+      "confusables": "'recent'（最近の・形容詞）と 'resent'（恨む・動詞）はスペルが1文字しか違わず、発音も似ているので注意。'resent' の発音は /rɪˈzent/。",
+      "collocations": [
+        "in recent years（近年）",
+        "recent developments（最近の動向）",
+        "most recent（最新の）"
+      ],
+      "trivia": "「最近」を英語で言うとき、'recently' のほかに 'lately' も使えるが、'lately' の方がやや「もうしばらく前から今まで」という継続ニュアンスが強い。どちらも現在完了と相性抜群！"
+    },
+    "frequency": 310,
+    "cefr": "A2"
+  },
+  {
+    "id": 88,
+    "word": "major",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "主要な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "専攻",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmeɪdʒər/",
+    "syllables": "ma-jor",
+    "audioHint": "メイジャー",
+    "examples": [
+      {
+        "en": "Pollution is a major problem in many cities.",
+        "ja": "汚染は多くの都市で主要な問題だ。",
+        "blank": "Pollution is a ___ problem in many cities.",
+        "blankAnswer": "major"
+      }
+    ],
+    "distractors": [
+      "似ている",
+      "確かな",
+      "個々の"
+    ],
+    "confusableSpellings": [
+      "majer",
+      "majore",
+      "mager"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'maior'（より大きい）から。'magnus'（大きい）の比較級。'magnitude'（規模）、'magnify'（拡大する）、'maximum'（最大）なども同族語。",
+      "tips": "大学の「専攻」を意味する名詞としても頻出。'My major is economics.'（専攻は経済学です）。また 'major in〜'（〜を専攻する）という動詞用法も覚えておこう。",
+      "confusables": "'major'（主要な）と 'minor'（少数の・副専攻）は対義語。音楽では長調（major）と短調（minor）の意味になる。'C major'（ハ長調）はご存じの方も多いはず。",
+      "collocations": [
+        "major role（主要な役割）",
+        "major city（主要都市）",
+        "major in（〜を専攻する）"
+      ],
+      "trivia": "野球の「メジャーリーグ」は 'Major League Baseball'。'major' には「一流の・最上位の」という意味が込められており、'minor league'（マイナーリーグ）の上位に位置することを示している。"
+    },
+    "frequency": 340,
+    "cefr": "B1"
+  },
+  {
+    "id": 89,
+    "word": "patient",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "忍耐強い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "患者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpeɪʃənt/",
+    "syllables": "pa-tient",
+    "audioHint": "ペイシェント",
+    "examples": [
+      {
+        "en": "You need to be patient when learning a new language.",
+        "ja": "新しい言語を学ぶときは忍耐強くいる必要がある。",
+        "blank": "You need to be ___ when learning a new language.",
+        "blankAnswer": "patient"
+      }
+    ],
+    "distractors": [
+      "勇気のある",
+      "思いやりのある",
+      "正直な"
+    ],
+    "confusableSpellings": [
+      "patiant",
+      "pateint",
+      "pacient"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'patiens'（耐えている）から。'pati'（苦しむ・耐える）の現在分詞形。'passion'（情熱・受難）、'passive'（受動的な）も同じ語根。",
+      "tips": "形容詞「忍耐強い」と名詞「患者」の両方があるが、発音・スペルは同じ。'be patient with〜'（〜に対して我慢する）という形でよく使う。",
+      "confusables": "'patient'（忍耐強い）と 'patience'（忍耐・名詞）は品詞が違う。'I have patience.'（忍耐がある）、'I am patient.'（忍耐強い）のように使い分けよう。",
+      "collocations": [
+        "be patient with（〜に対して辛抱する）",
+        "patient care（患者ケア）",
+        "patient enough（十分に辛抱強い）"
+      ],
+      "trivia": "「患者」と「忍耐強い」が同じ単語なのは偶然ではない。医者にかかるときは「待って耐える人」だから。語源の 'pati'（耐える）がそのまま両方の意味を結んでいる！"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 90,
+    "word": "particular",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "特定の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "特別な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pərˈtɪkjʊlər/",
+    "syllables": "par-tic-u-lar",
+    "audioHint": "パティキュラー",
+    "examples": [
+      {
+        "en": "Is there any particular reason you chose this school?",
+        "ja": "この学校を選んだ特別な理由はありますか？",
+        "blank": "Is there any ___ reason you chose this school?",
+        "blankAnswer": "particular"
+      }
+    ],
+    "distractors": [
+      "主要な",
+      "最近の",
+      "共通の"
+    ],
+    "confusableSpellings": [
+      "particuler",
+      "particualr",
+      "partikular"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'particularis'（部分的な・個々の）から。'particula'（小さな部分）＋ '-aris'（〜に関する）の構成。'particle'（粒子）と同じ語根。",
+      "tips": "'in particular'（特に・とりわけ）は頻出熟語。また 'be particular about〜'（〜にこだわる・うるさい）という表現も覚えておくと会話で使える。",
+      "confusables": "'particular'（特定の）と 'special'（特別な）は似ているが、'particular' は「他ではなくこれ」という絞り込みのニュアンス、'special' は「普通と異なる・優れた」というニュアンスが強い。",
+      "collocations": [
+        "in particular（特に）",
+        "particular attention（特別な注意）",
+        "nothing in particular（特に何もない）"
+      ],
+      "trivia": "物理学の「素粒子論（particle physics）」の 'particle' と 'particular' は同じ語根。つまり 'particular' は語源的には「ものすごく小さな一粒を特定する」イメージ。スケールが宇宙規模の言葉だった！"
+    },
+    "frequency": 360,
+    "cefr": "B1"
+  },
+  {
+    "id": 91,
+    "word": "physical",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "身体的な、肉体的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "物理的な、物質的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfɪzɪkəl/",
+    "syllables": "phys-i-cal",
+    "audioHint": "フィジカル",
+    "examples": [
+      {
+        "en": "Regular exercise improves your physical health significantly.",
+        "ja": "定期的な運動はあなたの身体的な健康を大幅に向上させます。",
+        "blank": "Regular exercise improves your ___ health significantly.",
+        "blankAnswer": "physical"
+      }
+    ],
+    "distractors": [
+      "化学的な",
+      "社会的な",
+      "感情的な"
+    ],
+    "confusableSpellings": [
+      "phisical",
+      "fysical",
+      "physicle"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'physis'（自然、本質）→ラテン語 'physica'（自然学）→ 'physic-' + '-al'（形容詞語尾）。「自然界に存在するもの」が原義。",
+      "tips": "「physical」は「肉体的」と「物理的」の2つの意味を持つ。『physical education（体育）』ではなく『physical』単体では「健康診断」の意味にもなる（例：have a physical）。日本語の『フィジカル』に引っ張られて名詞的に使いがちだが、英語では形容詞が基本。",
+      "confusables": "「physical（身体的な）」vs「mental（精神的な）」は対義語の関係。また「physical（物理的）」vs「chemical（化学的）」vs「biological（生物的）」はサイエンス文脈での使い分けに注意。",
+      "collocations": [
+        "physical exercise（身体的な運動）",
+        "physical appearance（外見）",
+        "physical contact（身体的接触）"
+      ],
+      "trivia": "『physics（物理学）』と同じ語根を持つ。つまり『physical』は本来「自然の法則に従うもの」という意味で、人間の体も物理世界の一部として捉えられていた。"
+    },
+    "frequency": 350,
+    "cefr": "B1"
+  },
+  {
+    "id": 92,
+    "word": "various",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "さまざまな、いろいろな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "多様な、種々の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɛriəs/",
+    "syllables": "var-i-ous",
+    "audioHint": "ヴェリアス",
+    "examples": [
+      {
+        "en": "The store sells various kinds of tea from around the world.",
+        "ja": "その店は世界中からのさまざまな種類のお茶を販売しています。",
+        "blank": "The store sells ___ kinds of tea from around the world.",
+        "blankAnswer": "various"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "古代の",
+      "入手可能な"
+    ],
+    "confusableSpellings": [
+      "varius",
+      "vareous",
+      "vairous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'varius'（まだらの、変化に富む）から直接来た語。語根 'var-' は「変化・多様性」を意味し、'variety'（多様性）や 'vary'（変化する）と同じ家族。",
+      "tips": "『various』は必ず名詞の前に置く限定用法のみで、『The reasons are various.』のように叙述用法（補語）では使えない点が要注意。叙述用法では 'varied' や 'diverse' を使う。",
+      "confusables": "「various（さまざまな）」vs「several（いくつかの）」：数の少なさを強調するなら 'several'、種類の多様さを強調するなら 'various' を使う。",
+      "collocations": [
+        "various reasons（さまざまな理由）",
+        "various types（いろいろな種類）",
+        "various ways（様々な方法）"
+      ],
+      "trivia": "英語の 'variety is the spice of life'（変化は人生のスパイス）という諺に使われる 'variety' と同じ語根。日本語でも「バラエティ番組」と借用されているほど浸透している。"
+    },
+    "frequency": 420,
+    "cefr": "B1"
+  },
+  {
+    "id": 93,
+    "word": "available",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "利用できる、入手可能な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "手が空いている、都合がつく",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈveɪləbəl/",
+    "syllables": "a-vail-a-ble",
+    "audioHint": "アヴェイラブル",
+    "examples": [
+      {
+        "en": "Is this product still available in the online store?",
+        "ja": "この商品はまだオンラインストアで入手できますか？",
+        "blank": "Is this product still ___ in the online store?",
+        "blankAnswer": "available"
+      }
+    ],
+    "distractors": [
+      "政治的な",
+      "空白の",
+      "土着の"
+    ],
+    "confusableSpellings": [
+      "availible",
+      "availeble",
+      "avaliable"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'availer'（役立つ）→ 'avail'（効果、役立つこと）+ '-able'（できる、という形容詞語尾）。'avail' 自体はラテン語 'valere'（価値がある、強い）に由来。",
+      "tips": "『available』は人にも物にも使える。人に使う場合は「（人が）手が空いている」の意味（Are you available tomorrow?）。物に使う場合は「（物が）入手可能・利用可能」の意。日本人は物に使う意味だけで覚えがちなので要注意。",
+      "confusables": "「available（利用可能な）」vs「accessible（アクセスしやすい）」：'available' は存在・入手できる状態、'accessible' は近づける・使いやすい状態に重点がある。",
+      "collocations": [
+        "available for（〜に利用可能）",
+        "readily available（すぐに入手できる）",
+        "available online（オンラインで入手可能）"
+      ],
+      "trivia": "スマホアプリで「Now Available on the App Store」という文を見たことがある人も多いはず。このフレーズで世界中で使われており、まさに現代を代表する 'available' の用例。"
+    },
+    "frequency": 380,
+    "cefr": "B1"
+  },
+  {
+    "id": 94,
+    "word": "native",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "生まれ故郷の、出身地の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "その土地固有の、在来の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈneɪtɪv/",
+    "syllables": "na-tive",
+    "audioHint": "ネイティヴ",
+    "examples": [
+      {
+        "en": "She still speaks her native language at home every day.",
+        "ja": "彼女は今でも毎日家で母国語を話しています。",
+        "blank": "She still speaks her ___ language at home every day.",
+        "blankAnswer": "native"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "空白の",
+      "古代の"
+    ],
+    "confusableSpellings": [
+      "nattive",
+      "naitive",
+      "natve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'nativus'（生まれながらの）→ 'natus'（生まれた）の過去分詞形。'natus' は 'nasci'（生まれる）から。'nature'（自然）や 'nation'（国家）と同じ語根 'nat-' を共有。",
+      "tips": "日本語では「ネイティブスピーカー」として定着しているが、英語では 'native speaker' または単に 'native' と言う。なお 'native' を名詞として「原住民」の意で使う場合、差別的なニュアンスを持つ場合があるので文脈に注意。",
+      "confusables": "「native（生まれ故郷の）」vs「local（地元の）」：'native' は出生・起源に焦点、'local' は現在その場所に属することに焦点。",
+      "collocations": [
+        "native language（母語）",
+        "native speaker（母語話者）",
+        "native country（出身国）"
+      ],
+      "trivia": "デジタル用語でも 'native app'（ネイティブアプリ）として使われる。これはスマホのOSに直接組み込まれたアプリのことで、「その環境で生まれた」というニュアンスが語源と一致していて面白い。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 95,
+    "word": "political",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "政治的な、政治に関する",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "政略的な、打算的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pəˈlɪtɪkəl/",
+    "syllables": "po-lit-i-cal",
+    "audioHint": "ポリティカル",
+    "examples": [
+      {
+        "en": "The two leaders discussed political issues for several hours.",
+        "ja": "2人の指導者は数時間にわたって政治的な問題を話し合いました。",
+        "blank": "The two leaders discussed ___ issues for several hours.",
+        "blankAnswer": "political"
+      }
+    ],
+    "distractors": [
+      "身体的な",
+      "さまざまな",
+      "古代の"
+    ],
+    "confusableSpellings": [
+      "politcal",
+      "politicial",
+      "politicle"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'politikos'（市民の、国家に関する）→ 'polis'（都市国家）が語根。'police'（警察）や 'policy'（政策）、'metropolis'（大都市）も同じ 'polis' 由来。",
+      "tips": "『political』と 'politics'（名詞）は混同しがち。また 'politic'（形容詞：賢明な、慎重な）という似た単語があるが、現代英語では 'political' の方がはるかに一般的。",
+      "confusables": "「political（政治的な）」vs「diplomatic（外交的な）」：政治全般なら 'political'、国家間の外交・交渉に特化すれば 'diplomatic'。",
+      "collocations": [
+        "political party（政党）",
+        "political system（政治制度）",
+        "political leader（政治的指導者）"
+      ],
+      "trivia": "アリストテレスは人間を 'political animal'（政治的動物＝社会的動物）と呼んだ。これが西洋思想の基盤になった言葉で、'political' の使われ方の原点ともいえる。"
+    },
+    "frequency": 310,
+    "cefr": "B1"
+  },
+  {
+    "id": 96,
+    "word": "due",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "支払うべき、期日が来た",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "〜のせいで、〜が原因で",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/djuː/",
+    "syllables": "due",
+    "audioHint": "デュー",
+    "examples": [
+      {
+        "en": "The assignment is due next Friday, so start early.",
+        "ja": "課題の提出期限は来週金曜日なので、早めに始めてください。",
+        "blank": "The assignment is ___ next Friday, so start early.",
+        "blankAnswer": "due"
+      }
+    ],
+    "distractors": [
+      "利用できる",
+      "正確な",
+      "空白の"
+    ],
+    "confusableSpellings": [
+      "dew",
+      "deu",
+      "duw"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'deu'（負われている）→ラテン語 'debitus'（借りている）→ 'debere'（負う、借りている）。'debt'（借金）や 'debit'（借方）と同じ語根 'deb-'。",
+      "tips": "『due to』は「〜のせいで」という意味だが、文頭での使用は厳密には形容詞的用法から外れると指摘されることがある（代わりに 'because of' を使う方が無難）。また 'be due to do'（〜する予定だ）という構文もよく使われる。",
+      "confusables": "「due（期日）」vs「overdue（期限超過の）」：'due' は「ちょうど今が期限」、'overdue' は「期限を過ぎた」。図書館の本の返却期限で覚えよう。",
+      "collocations": [
+        "due date（締め切り日）",
+        "due to（〜のため）",
+        "overdue（期限切れの）"
+      ],
+      "trivia": "『due』は音が 'dew'（露）や 'do'（する）と同じ発音。英語の同音異義語の代表例で、ネイティブの子どもたちもスペルを間違えやすいほどの曲者単語。"
+    },
+    "frequency": 550,
+    "cefr": "B1"
+  },
+  {
+    "id": 97,
+    "word": "blank",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "空白の、何も書かれていない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無表情の、茫然とした",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/blæŋk/",
+    "syllables": "blank",
+    "audioHint": "ブランク",
+    "examples": [
+      {
+        "en": "Please sign your name on the blank line at the bottom.",
+        "ja": "一番下の空白の欄にお名前をご署名ください。",
+        "blank": "Please sign your name on the ___ line at the bottom.",
+        "blankAnswer": "blank"
+      }
+    ],
+    "distractors": [
+      "さまざまな",
+      "政治的な",
+      "土着の"
+    ],
+    "confusableSpellings": [
+      "blannk",
+      "blanck",
+      "balnk"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'blanc'（白い）→ゲルマン語系の語根 '*blankaz'（輝く、白い）。'blanc'（フランス語で白）と同源で、現代フランス語の名前 'Blanche'（ブランシュ）も同じ語根。",
+      "tips": "日本語の「ブランク（空白期間）」と同じ感覚で使えるが、英語では名詞として 'fill in the blank'（空欄を埋める）という表現が特に試験・勉強の文脈で頻出。動詞としても 'blank out'（頭が真っ白になる）という形で使われる。",
+      "confusables": "「blank（空白の）」vs「empty（空の）」：'blank' は「何も書かれていない・表示されていない」こと、'empty' は「中身が何もない・空っぽ」というニュアンス。",
+      "collocations": [
+        "blank page（空白ページ）",
+        "blank expression（無表情）",
+        "fill in the blank（空欄を埋める）"
+      ],
+      "trivia": "映画や小説でよく登場する「point-blank（至近距離で）」という表現にも 'blank' が入っている。元々は「的の中心（白い点）」を意味し、至近距離から狙えば必ず的の中心に当たることから来た表現。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 98,
+    "word": "ancient",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "古代の、大昔の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "非常に古い、老齢の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈeɪnʃənt/",
+    "syllables": "an-cient",
+    "audioHint": "エインシャント",
+    "examples": [
+      {
+        "en": "The tourists were amazed by the ancient ruins of Rome.",
+        "ja": "観光客たちはローマの古代遺跡に驚嘆しました。",
+        "blank": "The tourists were amazed by the ___ ruins of Rome.",
+        "blankAnswer": "ancient"
+      }
+    ],
+    "distractors": [
+      "利用できる",
+      "正確な",
+      "身体的な"
+    ],
+    "confusableSpellings": [
+      "anciant",
+      "aincient",
+      "anchient"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'ancien'（古い）→ラテン語 'ante'（前に）+ '-anus'（〜の性質の）→ 'antianus'（以前のもの）。'ante-'（前）は 'antique'（アンティーク）や 'anterior'（前の）とも共通の語根。",
+      "tips": "発音に注意。'ancient' は「エインシャント」であり、'ci' の部分が「シ」の音になる。スペルと発音が一致しにくい単語の代表格。また「とても古い」というカジュアルな意味でも使われる（例：That joke is ancient!）。",
+      "confusables": "「ancient（古代の）」vs「old（古い）」vs「antique（骨董品的な）」：'ancient' は数百〜数千年前のスケール、'old' は単に古い、'antique' は価値ある古物に使う。",
+      "collocations": [
+        "ancient history（古代史）",
+        "ancient civilization（古代文明）",
+        "ancient ruins（古代遺跡）"
+      ],
+      "trivia": "ゲームやファンタジー作品でよく登場する「Ancient（古代）」という言葉。英語ネイティブにとっても歴史ロマンを感じさせる単語で、RPGゲームのダンジョン名などに多用される。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 99,
+    "word": "correct",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "正しい、正確な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "訂正する、修正する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈrɛkt/",
+    "syllables": "cor-rect",
+    "audioHint": "コレクト",
+    "examples": [
+      {
+        "en": "Make sure you give the correct address when you order online.",
+        "ja": "オンラインで注文するときは正しい住所を入力してください。",
+        "blank": "Make sure you give the ___ address when you order online.",
+        "blankAnswer": "correct"
+      }
+    ],
+    "distractors": [
+      "空白の",
+      "さまざまな",
+      "古代の"
+    ],
+    "confusableSpellings": [
+      "corect",
+      "correkt",
+      "correckt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'correctus'（直された）→ 'corrigere'（真っ直ぐにする）→ 'com-'（完全に）+ 'regere'（真っ直ぐにする、支配する）。'regulate'（規制する）や 'direct'（指示する）と同じ語根 'reg-'。",
+      "tips": "『correct』は形容詞（正しい）と動詞（訂正する）の2つの品詞で使われる。試験で答え合わせをする文脈では 'correct answer'（正解）という形で定番。動詞として使う場合は 'correct a mistake'（間違いを訂正する）。",
+      "confusables": "「correct（正確な）」vs「right（正しい）」：意味は近いが 'right' はよりカジュアル、'correct' はフォーマルなニュアンス。「politically correct（政治的に正しい）」という熟語は 'right' では代替できない。",
+      "collocations": [
+        "correct answer（正解）",
+        "correct mistake（間違いを直す）",
+        "politically correct（政治的に正しい）"
+      ],
+      "trivia": "「PC（politically correct）」という略語は 'politically correct'（ポリティカリー・コレクト）の略。コンピューターの 'PC' とは別物だが、現代社会では両方の意味で飛び交う。"
+    },
+    "frequency": 680,
+    "cefr": "A2"
+  },
+  {
+    "id": 100,
+    "word": "despite",
+    "pos": "other",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "〜にもかかわらず",
+        "pos": "other"
+      },
+      {
+        "meaning": "〜をものともせず",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/dɪˈspaɪt/",
+    "syllables": "de-spite",
+    "audioHint": "ディスパイト",
+    "examples": [
+      {
+        "en": "She finished the race despite having a bad knee injury.",
+        "ja": "彼女はひどい膝の怪我にもかかわらずレースを完走しました。",
+        "blank": "She finished the race ___ having a bad knee injury.",
+        "blankAnswer": "despite"
+      }
+    ],
+    "distractors": [
+      "〜のせいで",
+      "〜のために",
+      "〜と同時に"
+    ],
+    "confusableSpellings": [
+      "dispite",
+      "despight",
+      "despit"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'despit'（軽蔑、反抗）→ラテン語 'despectus'（見下すこと）→ 'de-'（下に）+ 'specere'（見る）。'inspect'（検査する）や 'respect'（尊重する）と同じ語根 'spect-'（見る）。",
+      "tips": "『despite』の後には名詞・動名詞（-ing形）が続き、節（SV構造）は来ない。『despite that SV』という形は文語的で、会話では 'although' や 'even though' を使う方が自然。日本人は 'despite of' と言いがちだが 'of' は不要。",
+      "confusables": "「despite（〜にもかかわらず）」vs「in spite of（〜にもかかわらず）」：意味はほぼ同じ。ただし 'despite' の方が簡潔でフォーマルな文体に多い。'inspite of' と1語にするスペルミスに注意。",
+      "collocations": [
+        "despite the fact that（〜という事実にもかかわらず）",
+        "despite difficulties（困難にもかかわらず）",
+        "despite everything（全てにもかかわらず）"
+      ],
+      "trivia": "『despite』の語根にある 'spect'（見る）は、英語の中でも最多の派生語を持つ語根の一つ。'spectacle'（見世物）、'spectator'（観客）、'inspector'（検査官）など、見ているだけで英単語が増える魔法の語根。"
+    },
+    "frequency": 490,
+    "cefr": "B1"
+  }
+]

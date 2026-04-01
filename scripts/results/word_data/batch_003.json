@@ -1,0 +1,642 @@
+[
+  {
+    "id": 41,
+    "word": "idea",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "考え、アイデア", "pos": "noun" },
+      { "meaning": "概念、観念", "pos": "noun" }
+    ],
+    "pronunciation": "/aɪˈdiːə/",
+    "syllables": "i-de-a",
+    "audioHint": "アイディーア",
+    "examples": [
+      {
+        "en": "She had a great idea for the new project.",
+        "ja": "彼女は新しいプロジェクトに対する素晴らしいアイデアを持っていた。",
+        "blank": "She had a great ___ for the new project.",
+        "blankAnswer": "idea"
+      }
+    ],
+    "distractors": ["記憶、思い出", "理由、根拠", "影響、効果"],
+    "confusableSpellings": ["idear", "ideea"],
+    "passive": {
+      "etymology": "ギリシャ語 idea（見えるもの、形）が語源。idein（見る）から派生。プラトン哲学における「イデア（永遠の形）」はこの語から来ている",
+      "tips": "idea は可算名詞。'I have an idea'（アイデアがある）が基本形。'I have no idea'（全く分からない）という定番フレーズも重要",
+      "confusables": "idea vs. thought: idea は具体的なアイデアや計画、thought はぼんやりした考えや思考過程。'a good idea to try' vs. 'lost in thought'",
+      "collocations": ["have an idea", "good idea", "no idea", "brilliant idea", "idea of"],
+      "trivia": "「eureka（ユーレカ）」はアルキメデスがお風呂でアイデアを思いついたときに叫んだとされる言葉。アイデアが浮かぶ瞬間を英語では 'a light bulb moment' と言う"
+    },
+    "frequency": 312,
+    "cefr": "A1"
+  },
+  {
+    "id": 42,
+    "word": "accord",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      { "meaning": "〜を与える、〜に付与する", "pos": "verb" },
+      { "meaning": "一致する、合致する", "pos": "verb" }
+    ],
+    "pronunciation": "/əˈkɔːrd/",
+    "syllables": "ac-cord",
+    "audioHint": "アコード",
+    "examples": [
+      {
+        "en": "The committee accorded her the highest honor.",
+        "ja": "委員会は彼女に最高の栄誉を与えた。",
+        "blank": "The committee ___ her the highest honor.",
+        "blankAnswer": "accorded"
+      }
+    ],
+    "distractors": ["〜を増加させる", "〜を削除する", "〜を変換する"],
+    "confusableSpellings": ["acord", "accorde"],
+    "passive": {
+      "etymology": "ラテン語 accordare（心を合わせる）が語源。ad-（〜に）+ cor（心）→「心を合わせる」。chord（和音）と同根で、音が調和するイメージ",
+      "tips": "名詞としても使い、'of one's own accord'（自発的に）は重要表現。'in accord with'（〜に一致して）もよく使う。動詞より名詞・前置詞句での使用が多い",
+      "confusables": "accord vs. award: accord は格式的な文脈で「付与する」、award は賞・報酬を「授与する」。'accord respect' vs. 'award a prize'",
+      "collocations": ["accord respect", "in accord with", "of one's own accord", "accord priority"],
+      "trivia": "Honda の車名「アコード」はこの単語から来ており、「調和」を意味する。1976年の発売時、「人・社会・環境との調和」をコンセプトに命名された"
+    },
+    "frequency": 3820,
+    "cefr": "B2"
+  },
+  {
+    "id": 43,
+    "word": "company",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      { "meaning": "会社、企業", "pos": "noun" },
+      { "meaning": "同行、仲間", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈkʌmpəni/",
+    "syllables": "com-pa-ny",
+    "audioHint": "カンパニー",
+    "examples": [
+      {
+        "en": "He founded a software company at the age of 25.",
+        "ja": "彼は25歳でソフトウェア会社を設立した。",
+        "blank": "He founded a software ___ at the age of 25.",
+        "blankAnswer": "company"
+      }
+    ],
+    "distractors": ["市場、相場", "利益、収益", "投資、出資"],
+    "confusableSpellings": ["compny", "companey"],
+    "passive": {
+      "etymology": "ラテン語 companio（パンを共にする仲間）が語源。com-（共に）+ panis（パン）。仲間と食事を共にするイメージから「仲間→会社」へと意味が発展した",
+      "tips": "イギリス英語では company（Co.）、アメリカ英語では corporation（Corp.）が一般的。'keep someone company'（〜の話し相手になる）という表現も重要",
+      "confusables": "company vs. corporation vs. firm: company は最も一般的、corporation は法人格を持つ大企業、firm は主に専門職（法律・会計）の事務所を指す",
+      "collocations": ["start a company", "run a company", "company policy", "keep company", "in good company"],
+      "trivia": "世界最古の株式会社は1602年設立のオランダ東インド会社（VOC）とされる。株式を発行して資金を集め、世界初の多国籍企業として香辛料貿易を独占した"
+    },
+    "frequency": 285,
+    "cefr": "A2"
+  },
+  {
+    "id": 44,
+    "word": "interest",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "興味、関心", "pos": "noun" },
+      { "meaning": "利子、利息", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈɪntrəst/",
+    "syllables": "in-ter-est",
+    "audioHint": "インタレスト",
+    "examples": [
+      {
+        "en": "She showed great interest in learning Japanese.",
+        "ja": "彼女は日本語学習に強い興味を示した。",
+        "blank": "She showed great ___ in learning Japanese.",
+        "blankAnswer": "interest"
+      }
+    ],
+    "distractors": ["考え、アイデア", "理由、根拠", "状況、事態"],
+    "confusableSpellings": ["intrest", "interset"],
+    "passive": {
+      "etymology": "ラテン語 interesse（間にある、重要である）が語源。inter-（間に）+ esse（ある）。「〜の間にある」→「関係がある」→「関心・利益」へと意味が発展",
+      "tips": "動詞としても使える。'I'm interested in...'（〜に興味がある）と 'It's interesting'（面白い）を区別する。'I'm interesting' は「自分が面白い人間だ」という意味になる",
+      "confusables": "interest vs. hobby: interest は知的好奇心・関心、hobby は余暇の趣味活動。'an interest in science' vs. 'my hobby is cycling'",
+      "collocations": ["show interest", "take interest in", "of interest", "lose interest", "vested interest"],
+      "trivia": "英語で「利子」を interest と呼ぶのは、お金を貸すことが「貸し手にとって重要な関心事（interesse）」だったことから。中世ヨーロッパでは利子を取ることが宗教的に禁じられていた"
+    },
+    "frequency": 198,
+    "cefr": "A2"
+  },
+  {
+    "id": 45,
+    "word": "research",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "研究、調査", "pos": "noun" },
+      { "meaning": "〜を研究する、調査する", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈriːsɜːrtʃ/",
+    "syllables": "re-search",
+    "audioHint": "リーサーチ",
+    "examples": [
+      {
+        "en": "The team conducted research on climate change.",
+        "ja": "チームは気候変動に関する研究を行った。",
+        "blank": "The team conducted ___ on climate change.",
+        "blankAnswer": "research"
+      }
+    ],
+    "distractors": ["技術、スキル", "知識、情報", "記憶、思い出"],
+    "confusableSpellings": ["reaserch", "researc"],
+    "passive": {
+      "etymology": "古フランス語 recerchier（徹底的に探す）が語源。re-（再び）+ cerchier（探す）→「繰り返し探す」→「研究」。research（リサーチ）はカタカナでも使われる",
+      "tips": "名詞の research は不可算名詞。'a research'（×）ではなく 'a piece of research' や 'research findings'（研究結果）が正しい。動詞として 'research a topic' のようにも使う",
+      "confusables": "research vs. study vs. investigation: research は学術的・系統的な調査、study は特定のテーマを学ぶこと、investigation は問題・事件の調査",
+      "collocations": ["conduct research", "research on/into", "research findings", "groundbreaking research", "peer-reviewed research"],
+      "trivia": "世界で最も引用される研究論文は1951年のタンパク質測定法に関する論文で、30万回以上引用されている。現代の研究では、論文の被引用数が研究者の「影響力」の指標となっている"
+    },
+    "frequency": 487,
+    "cefr": "B1"
+  },
+  {
+    "id": 46,
+    "word": "cause",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "原因、要因", "pos": "noun" },
+      { "meaning": "〜を引き起こす", "pos": "verb" }
+    ],
+    "pronunciation": "/kɔːz/",
+    "syllables": "cause",
+    "audioHint": "コーズ",
+    "examples": [
+      {
+        "en": "Stress is a major cause of health problems.",
+        "ja": "ストレスは健康問題の主要な原因だ。",
+        "blank": "Stress is a major ___ of health problems.",
+        "blankAnswer": "cause"
+      }
+    ],
+    "distractors": ["影響、効果", "状況、事態", "理由、根拠"],
+    "confusableSpellings": ["couse", "cuase"],
+    "passive": {
+      "etymology": "ラテン語 causa（原因、訴訟）が語源。法廷での「訴訟の理由」→「原因」へと意味が発展。'lost cause'（望みのない大義）のように運動・主義の意味も持つ",
+      "tips": "名詞（原因）と動詞（引き起こす）の両方で使う。'the cause of'（〜の原因）と 'cause + 目的語 + to不定詞'（〜に…させる）の構造を押さえる",
+      "confusables": "cause vs. reason: cause は物事が起きた直接的な原因（科学的・物理的）、reason は人が行動する理由（論理的・主観的）。'cause of the fire' vs. 'reason for leaving'",
+      "collocations": ["cause problems", "root cause", "common cause", "just cause", "cause of death"],
+      "trivia": "医学で「死因不明」を表す際、かつては 'Act of God'（神の御業）と記録されることがあった。現代では 'undetermined cause' または 'natural causes'（自然死）と記す"
+    },
+    "frequency": 342,
+    "cefr": "A2"
+  },
+  {
+    "id": 47,
+    "word": "reason",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "理由、根拠", "pos": "noun" },
+      { "meaning": "理性、思考力", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈriːzən/",
+    "syllables": "rea-son",
+    "audioHint": "リーズン",
+    "examples": [
+      {
+        "en": "Can you give me a reason for your decision?",
+        "ja": "あなたの決断の理由を教えてもらえますか？",
+        "blank": "Can you give me a ___ for your decision?",
+        "blankAnswer": "reason"
+      }
+    ],
+    "distractors": ["原因、要因", "考え、アイデア", "影響、効果"],
+    "confusableSpellings": ["reson", "reseon"],
+    "passive": {
+      "etymology": "ラテン語 ratio（計算、理性）が語源。reri（考える）から派生。数学の「ratio（比率）」と同根で、論理的に「数えて考える」イメージ",
+      "tips": "'the reason why' と 'the reason that' はどちらも正しい。'the reason is because'（×）は冗長で、'the reason is that'（〇）が正しい形。口語では 'because' もよく使われる",
+      "confusables": "reason vs. excuse: reason は客観的な理由・根拠、excuse は言い訳・弁解のニュアンス。'I have a good reason' vs. 'That's just an excuse'",
+      "collocations": ["give a reason", "for a reason", "reason for", "good reason", "without reason", "reason to believe"],
+      "trivia": "哲学者カントは「純粋理性批判」（Critique of Pure Reason）で reason（理性）を徹底分析した。この本は最も「難解な哲学書」の一つとして有名で、カント自身も「万人に向けて書いていない」と認めた"
+    },
+    "frequency": 276,
+    "cefr": "A2"
+  },
+  {
+    "id": 48,
+    "word": "effect",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "効果、影響", "pos": "noun" },
+      { "meaning": "結果", "pos": "noun" }
+    ],
+    "pronunciation": "/ɪˈfekt/",
+    "syllables": "ef-fect",
+    "audioHint": "イフェクト",
+    "examples": [
+      {
+        "en": "Exercise has a positive effect on mental health.",
+        "ja": "運動は精神的健康にプラスの効果がある。",
+        "blank": "Exercise has a positive ___ on mental health.",
+        "blankAnswer": "effect"
+      }
+    ],
+    "distractors": ["原因、要因", "考え、アイデア", "状況、事態"],
+    "confusableSpellings": ["efect", "effict"],
+    "passive": {
+      "etymology": "ラテン語 effectus（成し遂げたもの）が語源。ex-（外へ）+ facere（作る、する）→「外に作り出したもの」→「結果・効果」。factory（工場）と同根",
+      "tips": "affect（動詞）と effect（名詞）の混同に注意。「AはBに影響を与える」は 'A affects B'。効果を強調する 'take effect'（効力を発する）、'in effect'（事実上）も重要表現",
+      "confusables": "affect（動詞）vs. effect（名詞）: 'The medicine affected her'（動詞）vs. 'The medicine had an effect'（名詞）。AFFECT→A for Action、EFFECT→E for End result で覚える",
+      "collocations": ["side effect", "take effect", "in effect", "cause and effect", "greenhouse effect"],
+      "trivia": "「バタフライ効果」（butterfly effect）は、ブラジルの蝶の羽ばたきがテキサスで竜巻を起こすという例えで有名。カオス理論の概念で、小さな変化が大きな結果をもたらすことを示す"
+    },
+    "frequency": 368,
+    "cefr": "B1"
+  },
+  {
+    "id": 49,
+    "word": "influence",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "影響、影響力", "pos": "noun" },
+      { "meaning": "〜に影響を与える", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈɪnfluəns/",
+    "syllables": "in-flu-ence",
+    "audioHint": "インフルエンス",
+    "examples": [
+      {
+        "en": "Music has a strong influence on people's emotions.",
+        "ja": "音楽は人の感情に強い影響を与える。",
+        "blank": "Music has a strong ___ on people's emotions.",
+        "blankAnswer": "influence"
+      }
+    ],
+    "distractors": ["原因、要因", "効果、結果", "考え、アイデア"],
+    "confusableSpellings": ["influance", "influnce"],
+    "passive": {
+      "etymology": "ラテン語 influentia（流れ込むもの）が語源。in-（中へ）+ fluere（流れる）→「流れ込む」。インフルエンザ（influenza）も同じ語根で、中世には「星の影響で病気になる」と考えられていた",
+      "tips": "名詞は 'have an influence on'（〜に影響を持つ）、動詞は 'influence + 人 + to不定詞'（〜に…させる影響を与える）。'under the influence'（酩酊状態で）は法律・日常会話でよく登場する",
+      "confusables": "influence vs. effect vs. impact: influence は継続的・間接的な影響力、effect は具体的な結果・効果、impact は強い衝撃的な影響。'influence over time' vs. 'immediate effect' vs. 'huge impact'",
+      "collocations": ["have influence on", "under the influence", "positive influence", "influence over", "sphere of influence"],
+      "trivia": "SNS時代の「インフルエンサー」（influencer）はこの単語から。2004年頃から使われ始め、2019年にオックスフォード英語辞典に正式収録された。現在フォロワー数によって nano/micro/macro influencer と分類される"
+    },
+    "frequency": 521,
+    "cefr": "B1"
+  },
+  {
+    "id": 50,
+    "word": "situation",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "状況、事態", "pos": "noun" },
+      { "meaning": "立場、境遇", "pos": "noun" }
+    ],
+    "pronunciation": "/ˌsɪtʃuˈeɪʃən/",
+    "syllables": "sit-u-a-tion",
+    "audioHint": "シチュエーション",
+    "examples": [
+      {
+        "en": "The team handled the difficult situation calmly.",
+        "ja": "チームは難しい状況を冷静に対処した。",
+        "blank": "The team handled the difficult ___ calmly.",
+        "blankAnswer": "situation"
+      }
+    ],
+    "distractors": ["考え、アイデア", "影響、効果", "理由、根拠"],
+    "confusableSpellings": ["situacion", "situtation"],
+    "passive": {
+      "etymology": "ラテン語 situatio（位置、場所）が語源。situs（位置）+ -ation。「どこにいるか」→「立場・状況」へと意味が発展。site（場所）と同根",
+      "tips": "'situation comedy'（シチュエーションコメディ）を略した sitcom は日常会話でも使う。'in a situation'（状況にある）より 'in this situation'（この状況では）のように具体的に使うことが多い",
+      "confusables": "situation vs. circumstance vs. condition: situation は全体的な状況・場面、circumstance は周囲の具体的な事情・条件、condition は状態・条件（健康状態など）",
+      "collocations": ["in a situation", "difficult situation", "current situation", "assess the situation", "no-win situation"],
+      "trivia": "'No win situation'（どうあっても勝てない状況）はギリシャ神話が語源。ゼウスの息子ヘラクレスが遭遇したジレンマが由来とも言われ、現代では Catch-22 と同様に使われる"
+    },
+    "frequency": 412,
+    "cefr": "A2"
+  },
+  {
+    "id": 51,
+    "word": "environment",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      { "meaning": "環境", "pos": "noun" },
+      { "meaning": "周囲の状況、自然環境", "pos": "noun" }
+    ],
+    "pronunciation": "/ɪnˈvaɪrənmənt/",
+    "syllables": "en-vi-ron-ment",
+    "audioHint": "インヴァイロンメント",
+    "examples": [
+      {
+        "en": "We must protect the natural environment for future generations.",
+        "ja": "私たちは将来の世代のために自然環境を守らなければならない。",
+        "blank": "We must protect the natural ___ for future generations.",
+        "blankAnswer": "environment"
+      }
+    ],
+    "distractors": ["気候、天候", "地域、地帯", "生物、生命体"],
+    "confusableSpellings": ["enviroment", "envornment"],
+    "passive": {
+      "etymology": "フランス語 environner（囲む）が語源。en-（中に）+ viron（周囲、円）→「囲まれているもの」→「環境」。environ は古英語で「周囲に」という意味でも使われた",
+      "tips": "environment は可算名詞として使える珍しい単語。'a work environment'（職場環境）、'the business environment'（ビジネス環境）のように具体的な場面でも使う。environmentally friendly（環境に優しい）も重要",
+      "confusables": "environment vs. nature vs. ecology: environment は周囲の状況全般（職場環境含む）、nature は自然そのもの、ecology は生態系・生物と環境の関係",
+      "collocations": ["protect the environment", "work environment", "natural environment", "environmental impact", "learning environment"],
+      "trivia": "1970年4月22日は第1回アースデイ。アメリカで2000万人が参加した環境運動がきっかけで、同年にEPA（環境保護庁）が設立された。現在では世界193カ国で記念行事が行われている"
+    },
+    "frequency": 498,
+    "cefr": "B1"
+  },
+  {
+    "id": 52,
+    "word": "skill",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "技術、スキル", "pos": "noun" },
+      { "meaning": "能力、技能", "pos": "noun" }
+    ],
+    "pronunciation": "/skɪl/",
+    "syllables": "skill",
+    "audioHint": "スキル",
+    "examples": [
+      {
+        "en": "Communication is an important skill in any job.",
+        "ja": "コミュニケーションはどんな仕事にも重要なスキルだ。",
+        "blank": "Communication is an important ___ in any job.",
+        "blankAnswer": "skill"
+      }
+    ],
+    "distractors": ["知識、情報", "記憶、思い出", "研究、調査"],
+    "confusableSpellings": ["skil", "scill"],
+    "passive": {
+      "etymology": "古ノルド語 skil（識別力、理解）が語源。北欧のヴァイキングを経由して英語に入った。「区別できる力」→「識別する能力」→「技術・スキル」へと意味が発展",
+      "tips": "skill は特定の技術・能力を指す可算名詞。'soft skills'（コミュニケーション・協調性など）と 'hard skills'（プログラミング・会計など定量的な技術）の区別は就活でよく使う",
+      "confusables": "skill vs. ability vs. talent: skill は練習で習得できる技術、ability は生まれ持った/発揮できる能力、talent は生まれつきの才能。'learned skill' vs. 'natural ability' vs. 'rare talent'",
+      "collocations": ["develop a skill", "life skills", "soft skills", "hard skills", "skill set", "job skills"],
+      "trivia": "心理学者マルコム・グラッドウェルが提唱した「1万時間の法則」では、どんなスキルも1万時間の練習で習得できるとされる。ただし「量より質」という反論も多く、現在は「deliberate practice（意図的練習）」が重要とされている"
+    },
+    "frequency": 623,
+    "cefr": "B1"
+  },
+  {
+    "id": 53,
+    "word": "matter",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "問題、事柄", "pos": "noun" },
+      { "meaning": "物質、材料", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈmætər/",
+    "syllables": "mat-ter",
+    "audioHint": "マター",
+    "examples": [
+      {
+        "en": "This is a serious matter that needs immediate attention.",
+        "ja": "これはすぐに対処が必要な深刻な問題だ。",
+        "blank": "This is a serious ___ that needs immediate attention.",
+        "blankAnswer": "matter"
+      }
+    ],
+    "distractors": ["考え、アイデア", "状況、事態", "理由、根拠"],
+    "confusableSpellings": ["mater", "mattar"],
+    "passive": {
+      "etymology": "ラテン語 materia（木材、材料、物質）が語源。mater（母）と同根で、「産み出すもの」→「物質・材料」→「重要な事柄」へと意味が発展。material と同語源",
+      "tips": "'What's the matter?'（どうしたの？）は日常会話の定番。動詞 matter は「重要である」の意味で、'It doesn't matter'（どうでもいい）、'Every vote matters'（一票一票が大切）のように使う",
+      "confusables": "matter vs. issue vs. problem: matter は中立的な「事柄・問題」、issue はもっと深刻な「議題・問題点」、problem はネガティブな「困難・障害」",
+      "collocations": ["no matter what", "as a matter of fact", "subject matter", "take matters into one's hands", "matter of life and death"],
+      "trivia": "物理学では matter（物質）と energy（エネルギー）は E=mc² で変換可能。宇宙の96%は「ダークマター」と「ダークエネルギー」で構成されており、通常の物質はたった4%に過ぎない"
+    },
+    "frequency": 289,
+    "cefr": "A2"
+  },
+  {
+    "id": 54,
+    "word": "view",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "見解、意見", "pos": "noun" },
+      { "meaning": "眺め、景色", "pos": "noun" }
+    ],
+    "pronunciation": "/vjuː/",
+    "syllables": "view",
+    "audioHint": "ビュー",
+    "examples": [
+      {
+        "en": "In my view, this policy needs major changes.",
+        "ja": "私の見解では、この政策には大きな変更が必要だ。",
+        "blank": "In my ___, this policy needs major changes.",
+        "blankAnswer": "view"
+      }
+    ],
+    "distractors": ["影響、効果", "考え、アイデア", "状況、事態"],
+    "confusableSpellings": ["veiw", "veuw"],
+    "passive": {
+      "etymology": "古フランス語 veue（見ること）が語源。voir（見る）から派生。ラテン語 videre（見る）と同根で、video（映像）、vision（視覚）とも繋がっている",
+      "tips": "'in my view'（私の見解では）= 'in my opinion'。動詞 view は「〜を見る、見なす」の意味。'view X as Y'（XをYと見なす）の構文は論文・ビジネスメールで頻出",
+      "confusables": "view vs. opinion vs. perspective: view は個人的な考え・立場、opinion は判断・評価、perspective は特定の立場・視点からの見方。似ているが perspective は視点そのものを強調",
+      "collocations": ["point of view", "in view of", "world view", "bird's eye view", "come into view"],
+      "trivia": "Airbnbのアカウント分析によれば、部屋の写真で最も予約数を増やす要素は「眺め（view）」。海や山が見える部屋は、同じ広さ・設備でも30〜50%高い料金設定が可能とされる"
+    },
+    "frequency": 356,
+    "cefr": "A2"
+  },
+  {
+    "id": 55,
+    "word": "value",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "価値、重要性", "pos": "noun" },
+      { "meaning": "価格、金額", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈvæljuː/",
+    "syllables": "val-ue",
+    "audioHint": "ヴァリュー",
+    "examples": [
+      {
+        "en": "Education has great value for personal growth.",
+        "ja": "教育は個人の成長にとって大きな価値がある。",
+        "blank": "Education has great ___ for personal growth.",
+        "blankAnswer": "value"
+      }
+    ],
+    "distractors": ["考え、アイデア", "影響、効果", "状況、事態"],
+    "confusableSpellings": ["valu", "valeu"],
+    "passive": {
+      "etymology": "ラテン語 valere（強い、価値がある）が語源。valid（有効な）、valiant（勇敢な）と同根。「力がある」→「価値がある」というイメージ",
+      "tips": "複数形 values は「価値観」という別の意味を持つ。'family values'（家族の価値観）、'core values'（核心的価値観）のように。動詞 value は「〜を大切にする」。'I value your opinion'（あなたの意見を重視する）",
+      "confusables": "value vs. worth vs. price: value は主観的・社会的な価値、worth は交換・比較時の相対的な価値、price は実際の販売価格。'priceless'（値がつけられないほど価値がある）",
+      "collocations": ["add value", "face value", "market value", "core values", "value for money"],
+      "trivia": "行動経済学の研究で、人は「得ること」より「失うこと」を約2倍強く感じることが判明（損失回避バイアス）。これが「期間限定セール」や「残りわずか」が効果的な理由。value の心理的知覚は状況で大きく変わる"
+    },
+    "frequency": 298,
+    "cefr": "B1"
+  },
+  {
+    "id": 56,
+    "word": "species",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      { "meaning": "種（しゅ）、生物の種", "pos": "noun" },
+      { "meaning": "種類", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈspiːʃiːz/",
+    "syllables": "spe-cies",
+    "audioHint": "スピーシーズ",
+    "examples": [
+      {
+        "en": "Many species of birds are endangered today.",
+        "ja": "今日、多くの種の鳥が絶滅の危機に瀕している。",
+        "blank": "Many ___ of birds are endangered today.",
+        "blankAnswer": "species"
+      }
+    ],
+    "distractors": ["気候、天候", "環境、自然", "地域、生態系"],
+    "confusableSpellings": ["spicies", "specias"],
+    "passive": {
+      "etymology": "ラテン語 species（外見、種類）が語源。specere（見る）から派生。spectacle（見世物）、inspect（検査する）と同根。「見た目が似た仲間の集まり」→「種」",
+      "tips": "species は単数と複数が同じ形。'one species'（1種）、'many species'（多くの種）で s は変わらない。specie（貨幣）とは別物なので注意",
+      "confusables": "species vs. type vs. kind: species は生物学的な「種」（定義が厳密）、type と kind は日常的な「種類・タイプ」（より広い意味）",
+      "collocations": ["endangered species", "native species", "invasive species", "species diversity", "species extinction"],
+      "trivia": "地球上には推定870万種の生物がいるが、科学的に記載されているのは約150万種のみ。毎年約1.8万種の新種が発見される一方、1日に150種が絶滅していると推定される。その速度は自然絶滅速度の1000倍以上"
+    },
+    "frequency": 876,
+    "cefr": "B1"
+  },
+  {
+    "id": 57,
+    "word": "thought",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "考え、思考", "pos": "noun" },
+      { "meaning": "思いやり、配慮", "pos": "noun" }
+    ],
+    "pronunciation": "/θɔːt/",
+    "syllables": "thought",
+    "audioHint": "ソート",
+    "examples": [
+      {
+        "en": "She shared her thoughts on the new proposal.",
+        "ja": "彼女は新しい提案についての考えを共有した。",
+        "blank": "She shared her ___ on the new proposal.",
+        "blankAnswer": "thoughts"
+      }
+    ],
+    "distractors": ["考え→記憶", "影響、効果", "状況、事態"],
+    "confusableSpellings": ["thougt", "thougth"],
+    "passive": {
+      "etymology": "古英語 þōht（考え）が語源。think（考える）の名詞形で、þencan（考える）から派生。think→thought の不規則変化はゲルマン語系の古い変化パターン",
+      "tips": "複数形 thoughts（考え・気持ち）は 'share your thoughts'（意見を聞かせて）、'penny for your thoughts'（何を考えているの？）のようによく使われる。thought を使った 'food for thought'（考えさせる材料）も慣用句として重要",
+      "confusables": "thought vs. idea: thought はぼんやりした考え・思考の流れ、idea は具体的・明確なアイデアや計画。'random thoughts' vs. 'brilliant idea'",
+      "collocations": ["share thoughts", "second thoughts", "food for thought", "on second thought", "give thought to"],
+      "trivia": "哲学者デカルトの「我思う、ゆえに我あり（Cogito, ergo sum）」は、thought（思考）が存在証明の根拠とした。これが近代哲学の出発点となり、「自分の考えを疑うことで逆に思考する自己の存在を確認した」という逆説的な洞察"
+    },
+    "frequency": 389,
+    "cefr": "A2"
+  },
+  {
+    "id": 58,
+    "word": "knowledge",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "知識、知恵", "pos": "noun" },
+      { "meaning": "認識、理解", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈnɒlɪdʒ/",
+    "syllables": "knowl-edge",
+    "audioHint": "ノリッジ",
+    "examples": [
+      {
+        "en": "His knowledge of history is impressive.",
+        "ja": "歴史に関する彼の知識は素晴らしい。",
+        "blank": "His ___ of history is impressive.",
+        "blankAnswer": "knowledge"
+      }
+    ],
+    "distractors": ["技術、スキル", "研究、調査", "記憶、思い出"],
+    "confusableSpellings": ["knowlege", "knolwedge"],
+    "passive": {
+      "etymology": "古英語 cnāwlæċ（知ること）が語源。know（知る）+ -ledge（状態を示す接尾辞）。know の k は古英語では発音されていたが、現代英語では黙字になった",
+      "tips": "knowledge は不可算名詞。'a knowledge'（×）ではなく 'knowledge of'（〜に関する知識）、'general knowledge'（一般知識）が正しい。'to my knowledge'（私の知る限り）は重要な慣用表現",
+      "confusables": "knowledge vs. information vs. wisdom: knowledge は習得・体系化された知識、information は生の情報・データ、wisdom は経験から得た知恵・判断力。'book knowledge' vs. 'raw information' vs. 'life wisdom'",
+      "collocations": ["general knowledge", "knowledge of", "background knowledge", "to my knowledge", "prior knowledge"],
+      "trivia": "「知は力なり（Knowledge is power）」はフランシス・ベーコンの言葉とされるが、実際の著作には出てこない。彼の著書 Meditationes Sacrae（1597年）に近い表現があるが、正確な引用は別の文脈から来ている"
+    },
+    "frequency": 542,
+    "cefr": "B1"
+  },
+  {
+    "id": 59,
+    "word": "memory",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "記憶、思い出", "pos": "noun" },
+      { "meaning": "記憶力", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈmeməri/",
+    "syllables": "mem-o-ry",
+    "audioHint": "メモリー",
+    "examples": [
+      {
+        "en": "She has a vivid memory of her childhood.",
+        "ja": "彼女は子供の頃の鮮明な記憶を持っている。",
+        "blank": "She has a vivid ___ of her childhood.",
+        "blankAnswer": "memory"
+      }
+    ],
+    "distractors": ["考え、思考", "状況、事態", "影響、効果"],
+    "confusableSpellings": ["memorey", "memorie"],
+    "passive": {
+      "etymology": "ラテン語 memoria（記憶、心の中にとどめること）が語源。memor（記憶している）から派生。memorial（記念）、memorize（暗記する）と同根。コンピュータの「メモリ」もここから",
+      "tips": "単数 memory は一つの「思い出・記憶」（可算）または「記憶力」（不可算）。'have a good memory'（記憶力が良い）と 'a good memory of X'（Xの良い思い出）で使い分ける",
+      "confusables": "memory vs. souvenir: memory は心の中の記憶・思い出、souvenir は旅先などで買う「記念品・お土産」（物）。混同しやすいが全く別の意味",
+      "collocations": ["in memory of", "long-term memory", "short-term memory", "childhood memory", "commit to memory"],
+      "trivia": "「フラッシュバルブ記憶」は強い感情を伴う出来事（9.11同時多発テロ、東日本大震災など）が写真のように鮮明に記憶される現象。しかし研究では、こうした記憶も時間とともに歪んでいくことが判明している"
+    },
+    "frequency": 567,
+    "cefr": "A2"
+  },
+  {
+    "id": 60,
+    "word": "practice",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "練習、実践", "pos": "noun" },
+      { "meaning": "慣習、習慣", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈpræktɪs/",
+    "syllables": "prac-tice",
+    "audioHint": "プラクティス",
+    "examples": [
+      {
+        "en": "Regular practice is the key to improving your skills.",
+        "ja": "定期的な練習がスキルを向上させる鍵だ。",
+        "blank": "Regular ___ is the key to improving your skills.",
+        "blankAnswer": "practice"
+      }
+    ],
+    "distractors": ["知識、情報", "技術、スキル", "研究、調査"],
+    "confusableSpellings": ["practise", "pracctice"],
+    "passive": {
+      "etymology": "ギリシャ語 praktike（実践的な技術）が語源。prattein（行う、実行する）から派生。practical（実用的な）、pragmatic（実際的な）と同根",
+      "tips": "イギリス英語では名詞が practice、動詞が practise と区別する。アメリカ英語では両方 practice で統一。'put into practice'（実践する）と 'in practice'（実際には）は重要な表現",
+      "confusables": "practice vs. exercise vs. drill: practice は技術向上のための継続的な練習、exercise は体や頭を使う活動全般、drill は反復訓練・徹底的な練習（軍事的ニュアンスも）",
+      "collocations": ["put into practice", "in practice", "best practice", "common practice", "practice makes perfect"],
+      "trivia": "'Practice makes perfect'（習うより慣れろ）は古くからの格言。研究者のK・アンダース・エリクソンは「完璧な練習だけが完璧を作る（Perfect practice makes perfect）」と修正し、ただ繰り返すだけでなく意識的に改善することが重要だと主張した"
+    },
+    "frequency": 534,
+    "cefr": "A2"
+  }
+]

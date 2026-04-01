@@ -1,0 +1,993 @@
+[
+  {
+    "id": 481,
+    "word": "narrow",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "狭い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "わずかな、辛うじての",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnæroʊ/",
+    "syllables": "nar-row",
+    "audioHint": "ナロウ",
+    "examples": [
+      {
+        "en": "The road was too narrow for two cars to pass.",
+        "ja": "その道は2台の車が通り抜けるには狭すぎた。",
+        "blank": "The road was too ___ for two cars to pass.",
+        "blankAnswer": "narrow"
+      }
+    ],
+    "distractors": [
+      "広い",
+      "十分な",
+      "適切な"
+    ],
+    "confusableSpellings": [
+      "narow",
+      "narrou",
+      "narro"
+    ],
+    "passive": {
+      "etymology": "古英語 'nearu'（狭い、制限された）に由来。語根はゲルマン祖語 *narwaz（狭い）。",
+      "tips": "形容詞だけでなく動詞としても使え、'narrow down'（絞り込む）という句動詞は頻出。日本人は「narrow」を空間的な「狭さ」だけに使いがちだが、「a narrow escape（辛うじての脱出）」のように程度の意味でも使う。",
+      "confusables": "'thin'は物体の「薄さ・細さ」を表すが、'narrow'は幅・範囲の「狭さ」を表す。例：a thin book（薄い本）/ a narrow street（狭い通り）。",
+      "collocations": [
+        "narrow road",
+        "narrow escape",
+        "narrow down"
+      ],
+      "trivia": "「narrow-minded（狭量な）」という複合語は、文字通り「心が狭い」という意味で、英語圏では性格批判の定番表現。逆に「broad-minded」は褒め言葉として使われる。"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 482,
+    "word": "widespread",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "広まった、普及した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "広範囲にわたる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈwaɪdspred/",
+    "syllables": "wide-spread",
+    "audioHint": "ワイドスプレッド",
+    "examples": [
+      {
+        "en": "There is widespread concern about climate change.",
+        "ja": "気候変動に対する懸念が広まっている。",
+        "blank": "There is ___ concern about climate change.",
+        "blankAnswer": "widespread"
+      }
+    ],
+    "distractors": [
+      "狭い",
+      "十分な",
+      "反対の"
+    ],
+    "confusableSpellings": [
+      "widespred",
+      "wide-spreaded",
+      "widspread"
+    ],
+    "passive": {
+      "etymology": "'wide'（広い、古英語 wid）＋ 'spread'（広がる、古英語 sprǣdan）の複合語。「広く広がった」が原義。",
+      "tips": "名詞の前にのみ使う限定用法が基本で、'The damage was widespread'のように叙述用法（be動詞の後）でも使える。'widely spread'とは言わず、必ず一語または'wide-spread'とする点に注意。",
+      "confusables": "'common'は「よく見られる、一般的」、'widespread'は「地理的・範囲的に広く広まっている」というニュアンス。'common cold'とは言うが'widespread cold'は不自然。",
+      "collocations": [
+        "widespread use",
+        "widespread damage",
+        "widespread support"
+      ],
+      "trivia": "ニュースや学術論文で特によく使われる単語で、COCAコーパスではニュースジャンルでの出現頻度が日常会話の約5倍。まさに「報道英語」の定番語。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 483,
+    "word": "sufficient",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "十分な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "足りている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/səˈfɪʃənt/",
+    "syllables": "suf-fi-cient",
+    "audioHint": "サフィシャント",
+    "examples": [
+      {
+        "en": "We don't have sufficient time to finish the project.",
+        "ja": "プロジェクトを終わらせるのに十分な時間がない。",
+        "blank": "We don't have ___ time to finish the project.",
+        "blankAnswer": "sufficient"
+      }
+    ],
+    "distractors": [
+      "狭い",
+      "広まった",
+      "厳格な"
+    ],
+    "confusableSpellings": [
+      "sufficent",
+      "suffiecient",
+      "sufficiant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sufficere'（十分に供給する）から。'sub-'（下から）＋ 'facere'（作る・行う）が語源。「下からしっかり支える＝十分に満たす」が原義。",
+      "tips": "フォーマルな語で、日常会話では'enough'の方が自然。論文・ビジネス文書では'sufficient'が好まれる。語順に注意：'sufficient + 名詞' または 'be sufficient for + 名詞/動名詞'。",
+      "confusables": "'enough'とほぼ同義だが、'enough'は語順が柔軟（'time enough'も可）。'sufficient'は必ず名詞の前か'be'動詞の後。'adequate'は「最低限足りている」というニュアンスがやや強い。",
+      "collocations": [
+        "sufficient evidence",
+        "sufficient funds",
+        "sufficient condition"
+      ],
+      "trivia": "数学・論理学で「必要十分条件」は 'necessary and sufficient condition' と言う。'sufficient'単独だと「十分条件」（それだけで成立する）、'necessary'は「必要条件」（それなしでは成立しない）を指す。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 484,
+    "word": "proper",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "適切な、正しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "本来の、固有の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈprɒpər/",
+    "syllables": "prop-er",
+    "audioHint": "プロパー",
+    "examples": [
+      {
+        "en": "Please follow the proper procedure for this task.",
+        "ja": "この作業には適切な手順に従ってください。",
+        "blank": "Please follow the ___ procedure for this task.",
+        "blankAnswer": "proper"
+      }
+    ],
+    "distractors": [
+      "広範囲の",
+      "狭い",
+      "反対の"
+    ],
+    "confusableSpellings": [
+      "propper",
+      "prpper",
+      "propre"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'proprius'（自分自身の、固有の）から古フランス語 'propre' を経て英語へ。「自分のもの＝それ固有のもの＝正しい・適切」という意味の流れ。",
+      "tips": "日本語の「プロパー」（社員など）とは意味がズレる。英語では「適切・正式・本来の」が中心。イギリス英語では口語的に強調語としても使う（'a proper meal'＝ちゃんとした食事）。",
+      "confusables": "'appropriate'も「適切な」だが、状況・文脈に合った適切さを強調。'proper'は規則・礼儀・正式さに合った適切さのニュアンスが強い。",
+      "collocations": [
+        "proper way",
+        "proper noun",
+        "proper conduct"
+      ],
+      "trivia": "文法用語の「固有名詞（proper noun）」の'proper'がまさにこの単語。'Tokyo'や'Mary'は「固有の」名詞だからproper noun。'common noun'（普通名詞）との対比で覚えると語感がつかみやすい。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 485,
+    "word": "linguistic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "言語の、言語学の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "言語に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/lɪŋˈɡwɪstɪk/",
+    "syllables": "lin-guis-tic",
+    "audioHint": "リングウィスティク",
+    "examples": [
+      {
+        "en": "She has strong linguistic skills in three languages.",
+        "ja": "彼女は3つの言語で優れた言語能力を持っている。",
+        "blank": "She has strong ___ skills in three languages.",
+        "blankAnswer": "linguistic"
+      }
+    ],
+    "distractors": [
+      "年次の",
+      "現代の",
+      "市民の"
+    ],
+    "confusableSpellings": [
+      "linguisitc",
+      "lingustic",
+      "linguistik"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'lingua'（舌・言語）＋ 接尾辞 '-istic'（～に関する形容詞）。'lingua'はフランス語'langue'やスペイン語'lengua'（言語）と同じ語根。",
+      "tips": "発音は「リンガ」ではなく「リングウィスティク」。'linguistics'（名詞：言語学）と混同しないよう注意。'linguistic analysis'（言語分析）のように学術文脈でよく使われる。",
+      "confusables": "'linguistic'は「言語に関する」という形容詞。'lingual'も「舌・言語の」意味だが、主に医学・解剖学で使われる（例：lingual nerve＝舌神経）。",
+      "collocations": [
+        "linguistic analysis",
+        "linguistic diversity",
+        "linguistic ability"
+      ],
+      "trivia": "「lingua franca（リンガフランカ）」という表現は「共通語」の意味で英語にも入っている。中世地中海で商人たちが使った混合語が起源で、現代では英語そのものが世界のlinguafrancaとされている。"
+    },
+    "frequency": 3500,
+    "cefr": "C1"
+  },
+  {
+    "id": 486,
+    "word": "annual",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "年次の、毎年の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "1年間の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈænjuəl/",
+    "syllables": "an-nu-al",
+    "audioHint": "アニュアル",
+    "examples": [
+      {
+        "en": "The company holds an annual meeting every spring.",
+        "ja": "その会社は毎春、年次総会を開催している。",
+        "blank": "The company holds an ___ meeting every spring.",
+        "blankAnswer": "annual"
+      }
+    ],
+    "distractors": [
+      "言語の",
+      "現代の",
+      "市民の"
+    ],
+    "confusableSpellings": [
+      "anual",
+      "annuall",
+      "annuel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'annus'（年）＋ 接尾辞 '-al'（形容詞）。'annus'は「年」を意味し、'anniversary'（記念日）や'perennial'（多年生の）も同じ語根を持つ。",
+      "tips": "'annual'は形容詞だが名詞（年鑑、年報）としても使える（例：publish an annual）。副詞形は'annually'で「毎年」。'yearly'とほぼ同義だが'annual'の方がフォーマル。",
+      "confusables": "'annual'（毎年の）/ 'biannual'（年2回の or 2年に1回の・曖昧）/ 'biennial'（2年ごとの）/ 'perennial'（繰り返される・多年生の）。'biannual'は曖昧なので使用を避けるか文脈を明確にすること。",
+      "collocations": [
+        "annual report",
+        "annual income",
+        "annual event"
+      ],
+      "trivia": "英語には'annual rings'（年輪）という表現があり、木の断面に刻まれた1年ごとの成長記録を指す。樹木の年齢を調べる学問'dendrochronology'（年輪年代学）はこの'annual'なリングが頼り。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 487,
+    "word": "contemporary",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "現代の、同時代の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "同時代の人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈtempəreri/",
+    "syllables": "con-tem-po-rar-y",
+    "audioHint": "コンテンポラリー",
+    "examples": [
+      {
+        "en": "She studies contemporary art from around the world.",
+        "ja": "彼女は世界各地の現代芸術を研究している。",
+        "blank": "She studies ___ art from around the world.",
+        "blankAnswer": "contemporary"
+      }
+    ],
+    "distractors": [
+      "言語の",
+      "年次の",
+      "厳格な"
+    ],
+    "confusableSpellings": [
+      "contemporery",
+      "comtemporary",
+      "contemporay"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'con-'（共に）＋ 'tempus/temporis'（時）＋ '-ary'（形容詞接尾辞）。「同じ時を共にする」が原義。",
+      "tips": "「現代の」と「同時代の（同じ時代に生きている）」の2つの意味がある。名詞としても使え、'Shakespeare and his contemporaries'（シェイクスピアと彼の同時代人たち）のように使う。スペルが長いので注意。",
+      "confusables": "'modern'も「現代の」だが、より広く「近代・現代的」を指す。'contemporary'は「現在と同時期の」というニュアンスが強く、歴史的文脈で「同時代の」人・出来事にも使える。",
+      "collocations": [
+        "contemporary art",
+        "contemporary society",
+        "contemporary issue"
+      ],
+      "trivia": "ダンスジャンルの「コンテンポラリーダンス」はそのまま英語'contemporary dance'。クラシックバレエや民族舞踊と区別するために使われ始めた言葉で、「今この時代の踊り」という意味を込めている。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 488,
+    "word": "contrary",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "反対の、逆の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "逆、反対",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒntreri/",
+    "syllables": "con-trar-y",
+    "audioHint": "コントラリー",
+    "examples": [
+      {
+        "en": "Contrary to my expectations, the test was easy.",
+        "ja": "予想に反して、テストは簡単だった。",
+        "blank": "___ to my expectations, the test was easy.",
+        "blankAnswer": "Contrary"
+      }
+    ],
+    "distractors": [
+      "十分な",
+      "適切な",
+      "狭い"
+    ],
+    "confusableSpellings": [
+      "contrery",
+      "contary",
+      "contrarie"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contrarius'（反対の）から。'contra-'（反対に・対して）＋ '-arius'（形容詞接尾辞）。'contra-'は'contradict'（矛盾する）などにも共通する。",
+      "tips": "フレーズ'on the contrary'（それどころか、むしろ逆に）と'contrary to'（～に反して）は頻出。'on the contrary'は前の発言を否定して逆のことを述べる時に使う。'in contrast'（対照的に）と混同しやすい。",
+      "confusables": "'on the contrary'は前述の内容を否定するが、'on the other hand'は対立する2つの観点を並べる表現。使い分けに注意。",
+      "collocations": [
+        "contrary to",
+        "on the contrary",
+        "contrary opinion"
+      ],
+      "trivia": "英語には'Mary, Mary, quite contrary'という有名なマザーグース（童謡）がある。ここでの'contrary'は「ひねくれた・反抗的な」という意味で使われており、この単語が「扱いにくい人」も表せることを示している。"
+    },
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 489,
+    "word": "strict",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "厳しい、厳格な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "厳密な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/strɪkt/",
+    "syllables": "strict",
+    "audioHint": "ストリクト",
+    "examples": [
+      {
+        "en": "The teacher is very strict about punctuality.",
+        "ja": "その先生は時間厳守についてとても厳しい。",
+        "blank": "The teacher is very ___ about punctuality.",
+        "blankAnswer": "strict"
+      }
+    ],
+    "distractors": [
+      "広まった",
+      "反対の",
+      "十分な"
+    ],
+    "confusableSpellings": [
+      "strick",
+      "striict",
+      "strikt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'strictus'（引き締められた）から。'stringere'（締める・縛る）の過去分詞。'restrict'（制限する）や'constrict'（収縮させる）も同じ語根。",
+      "tips": "人・ルール・規則・解釈いずれにも使える。'strict'の副詞形'strictly'も重要で、'strictly speaking'（厳密に言えば）は論文や議論でよく使う表現。'sever'（厳しい）との使い分けも確認を。",
+      "confusables": "'strict'は規則や基準を厳格に守らせる「厳しさ」。'severe'は罰・状況・批判の「過酷さ・深刻さ」。'harsh'は態度・言葉・環境の「冷酷な厳しさ」。",
+      "collocations": [
+        "strict rules",
+        "strict diet",
+        "strictly speaking"
+      ],
+      "trivia": "アプリの'Do Not Disturb'モードは英語圏では'strict mode'と呼ばれることもある。プログラミング言語JavaScriptにも'strict mode'（厳格モード）があり、コードのバグを減らすために余分な書き方を禁止する仕組み。この単語、ITの世界にも生きている！"
+    },
+    "frequency": 1300,
+    "cefr": "A2"
+  },
+  {
+    "id": 490,
+    "word": "civil",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "市民の、民間の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "礼儀正しい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsɪvəl/",
+    "syllables": "civ-il",
+    "audioHint": "スィヴィル",
+    "examples": [
+      {
+        "en": "Everyone has basic civil rights in a democracy.",
+        "ja": "民主主義においては、すべての人が基本的市民権を持っている。",
+        "blank": "Everyone has basic ___ rights in a democracy.",
+        "blankAnswer": "civil"
+      }
+    ],
+    "distractors": [
+      "言語の",
+      "年次の",
+      "現代の"
+    ],
+    "confusableSpellings": [
+      "civill",
+      "sivil",
+      "ciivl"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'civilis'（市民の）から。'civis'（市民）が語根で、'city'（都市）・'citizen'（市民）・'civilization'（文明）も同じファミリー。",
+      "tips": "'civil war'（内戦）、'civil rights'（公民権）、'civil engineering'（土木工学）など複合語が非常に多い。また「礼儀正しい」という意味もあり、'Keep it civil'（礼儀をわきまえて）のような使い方も覚えておくとよい。",
+      "confusables": "'civil'（市民的・礼儀ある）/ 'civic'（市民としての義務・自治に関する）/ 'civilian'（民間人・非軍人）。'civic duty'（市民としての義務）、'civilian casualties'（民間人犠牲者）のように使い分ける。",
+      "collocations": [
+        "civil rights",
+        "civil war",
+        "civil engineering"
+      ],
+      "trivia": "アメリカの'Civil Rights Movement'（公民権運動）は1950〜60年代の歴史的な社会運動。マーティン・ルーサー・キング・ジュニアが中心となり、この'civil'という一語が歴史を動かした言葉の一つとなった。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 491,
+    "word": "odd",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "奇妙な、変な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "奇数の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɒd/",
+    "syllables": "odd",
+    "audioHint": "オッド",
+    "examples": [
+      {
+        "en": "It's odd that she didn't call me back.",
+        "ja": "彼女が折り返し電話をくれなかったのは変だ。",
+        "blank": "It's ___ that she didn't call me back.",
+        "blankAnswer": "odd"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "明らかな",
+      "複雑な"
+    ],
+    "confusableSpellings": [
+      "ood",
+      "odt"
+    ],
+    "passive": {
+      "etymology": "古英語 'odde'（三角形の第三点、余り）に由来。数が余る→奇数→普通でない→奇妙、という意味の広がりを持つ。",
+      "tips": "odd は「奇数」と「奇妙な」の両方の意味を持つ。'odd number'（奇数）と 'odd behavior'（奇妙な行動）を文脈で使い分けよう。また 'odd jobs'（雑用・臨時仕事）という表現も頻出。",
+      "confusables": "'strange' は中立的に「見慣れない」ニュアンス、'weird' はやや俗語的でより強い違和感、'odd' は軽いユーモアや疑問を伴う奇妙さを表すことが多い。",
+      "collocations": [
+        "odd number（奇数）",
+        "odd job（雑用）",
+        "feel odd（変な感じがする）"
+      ],
+      "trivia": "英語で「30代の半ば」を 'mid-thirties' というが、'thirty-odd' と言うと「30いくつか（正確には不明）」という意味になる。数字のあいまいさも 'odd' の仕事！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 492,
+    "word": "unknown",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "未知の、知られていない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無名の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ʌnˈnoʊn/",
+    "syllables": "un-known",
+    "audioHint": "アンノウン",
+    "examples": [
+      {
+        "en": "The cause of the disease remains unknown.",
+        "ja": "その病気の原因は依然として不明のままだ。",
+        "blank": "The cause of the disease remains ___.",
+        "blankAnswer": "unknown"
+      }
+    ],
+    "distractors": [
+      "不安定な",
+      "不完全な",
+      "不規則な"
+    ],
+    "confusableSpellings": [
+      "unknow",
+      "unkown",
+      "unnown"
+    ],
+    "passive": {
+      "etymology": "接頭辞 'un-'（否定）＋ 'known'（know の過去分詞）。「知られていない状態」を表す。",
+      "tips": "'unknown' は形容詞だけでなく名詞としても使われる。'the unknown'（未知なるもの）という表現は哲学・文学でよく登場する。また 'an unknown artist'（無名のアーティスト）のように人にも使える。",
+      "confusables": "'mysterious' は「謎めいた・神秘的な」という興味を引くニュアンス、'unknown' は単に「情報がない」という事実を表す。",
+      "collocations": [
+        "unknown cause（不明な原因）",
+        "unknown territory（未知の領域）",
+        "remain unknown（不明のままである）"
+      ],
+      "trivia": "数学では 'unknown' は「未知数（x など）」を指す。方程式の x を英語で 'the unknown' と呼ぶのは、まさにこの単語から来ている！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 493,
+    "word": "superior",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "優れた、上位の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "上司、目上の人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/suːˈpɪəriər/",
+    "syllables": "su-pe-ri-or",
+    "audioHint": "スーピアリア",
+    "examples": [
+      {
+        "en": "This model is superior to the previous one.",
+        "ja": "このモデルは前のものより優れている。",
+        "blank": "This model is ___ to the previous one.",
+        "blankAnswer": "superior"
+      }
+    ],
+    "distractors": [
+      "重要な",
+      "十分な",
+      "一般的な"
+    ],
+    "confusableSpellings": [
+      "superier",
+      "superoir",
+      "superrior"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'superus'（上にある）の比較級 'superior' から直接英語に入った語。'super-'（上）＋比較級語尾 '-ior'。",
+      "tips": "'superior' は比較級の意味を既に含んでいるため、'more superior' とは言わない。また「～より優れている」は 'superior than' ではなく 'superior to' を使う点が最大の注意点！",
+      "confusables": "'better' が一般的な比較表現、'superior' はやや格式ばった・技術的な文脈で使われることが多い。名詞で「上司」の意味は 'boss' より丁寧なニュアンス。",
+      "collocations": [
+        "superior quality（高品質）",
+        "superior to（～より優れている）",
+        "superior officer（上官）"
+      ],
+      "trivia": "スーパーマンの 'super' もこの語源と同じ。'Superior' はアメリカとカナダにまたがる世界最大の淡水湖「スペリオル湖」の名前でもある。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 494,
+    "word": "sensitive",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "敏感な、繊細な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "デリケートな、慎重を要する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsensɪtɪv/",
+    "syllables": "sen-si-tive",
+    "audioHint": "センスィティヴ",
+    "examples": [
+      {
+        "en": "She is very sensitive to criticism.",
+        "ja": "彼女は批判にとても敏感だ。",
+        "blank": "She is very ___ to criticism.",
+        "blankAnswer": "sensitive"
+      }
+    ],
+    "distractors": [
+      "攻撃的な",
+      "内向的な",
+      "衝動的な"
+    ],
+    "confusableSpellings": [
+      "sensative",
+      "sensitiv",
+      "senstive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sensus'（感覚）＋ '-itive'（形容詞語尾）。「感じ取る能力がある」という原義から派生。",
+      "tips": "'sensitive' は良い意味（共感力が高い）にも悪い意味（傷つきやすい）にも使える両面性がある。また 'sensitive information'（機密情報）のように物事にも使う。'sensible'（分別がある・賢明な）と混同しないよう注意！",
+      "confusables": "'sensible' は「分別がある、理にかなった」という意味で、'sensitive' とは全く別の意味。日本語の「センシティブ」は英語のニュアンスにかなり近いが、物事にも使える点を覚えておこう。",
+      "collocations": [
+        "sensitive skin（敏感肌）",
+        "sensitive issue（デリケートな問題）",
+        "emotionally sensitive（感情的に繊細な）"
+      ],
+      "trivia": "「センシティブな話題」という日本語の外来語的用法は英語の 'sensitive topic' と用法が一致している。日本語の外来語がそのまま使えるレアケース！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 495,
+    "word": "violent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "暴力的な、激しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "猛烈な（自然現象など）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvaɪələnt/",
+    "syllables": "vi-o-lent",
+    "audioHint": "ヴァイアレント",
+    "examples": [
+      {
+        "en": "The storm was so violent that trees fell down.",
+        "ja": "嵐はとても激しく、木が倒れた。",
+        "blank": "The storm was so ___ that trees fell down.",
+        "blankAnswer": "violent"
+      }
+    ],
+    "distractors": [
+      "臆病な",
+      "神経質な",
+      "頑固な"
+    ],
+    "confusableSpellings": [
+      "violant",
+      "violnet",
+      "viloent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'violentus'（力による、激しい）から。'vis'（力）が語根。'violate'（侵害する）と同じ語根を持つ。",
+      "tips": "'violent' は人の行動だけでなく、嵐・地震などの自然現象や色の鮮烈さ（a violent shade of red）にも使える。'aggressive'（攻撃的な）は意図的な敵対心を強調するが、'violent' は行動の激しさそのものに焦点がある。",
+      "confusables": "'aggressive' は攻撃的な態度・言動全般、'violent' は物理的な暴力や極端な激しさを示す。'fierce' は動物や競争の激しさに多く使われる。",
+      "collocations": [
+        "violent crime（暴力犯罪）",
+        "violent storm（激しい嵐）",
+        "violent reaction（激しい反応）"
+      ],
+      "trivia": "映画やゲームの「暴力描写」を英語で 'violent content' という。ゲームの対象年齢を示すレーティングで 'V for Violence' と表記されるのもこの単語からだ。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 496,
+    "word": "virtual",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "仮想の、バーチャルな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "事実上の、実質的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɜːrtʃuəl/",
+    "syllables": "vir-tu-al",
+    "audioHint": "ヴァーチュアル",
+    "examples": [
+      {
+        "en": "The team held a virtual meeting online.",
+        "ja": "チームはオンラインで仮想ミーティングを行った。",
+        "blank": "The team held a ___ meeting online.",
+        "blankAnswer": "virtual"
+      }
+    ],
+    "distractors": [
+      "理論的な",
+      "自動的な",
+      "統計的な"
+    ],
+    "confusableSpellings": [
+      "vertual",
+      "virtal",
+      "virtuall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'virtus'（力・美徳）＋ '-al'。中世では「実際の力はないが効果はある」という意味で使われ、のちに「実質的な」→「コンピュータ上の仮想」へと意味が拡張した。",
+      "tips": "'virtual' には「仮想の（IT用語）」と「事実上の（= practically）」という2つの全く異なる使い方がある。'He is a virtual prisoner.'（彼は事実上の囚人だ）のような使い方は日本人に盲点になりやすい。",
+      "confusables": "'virtual reality' の 'virtual' は「現実ではないが体験できる」意味。'actual'（実際の）とは対になる概念。'virtually'（副詞）は「ほぼ、事実上」という意味でよく使われる。",
+      "collocations": [
+        "virtual reality（仮想現実）",
+        "virtual meeting（オンライン会議）",
+        "virtual monopoly（事実上の独占）"
+      ],
+      "trivia": "VR（Virtual Reality）という言葉が世に広まる前、'virtual' は主に「事実上の」という意味で使われていた。IT革命がこの単語の意味を大きく塗り替えた！"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  },
+  {
+    "id": 497,
+    "word": "regardless",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "それにもかかわらず、とにかく",
+        "pos": "adverb"
+      },
+      {
+        "meaning": "～にかかわらず（regardless of）",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/rɪˈɡɑːrdlɪs/",
+    "syllables": "re-gard-less",
+    "audioHint": "リガードレス",
+    "examples": [
+      {
+        "en": "She continued working regardless of the noise.",
+        "ja": "彼女は騒音にもかかわらず働き続けた。",
+        "blank": "She continued working ___ of the noise.",
+        "blankAnswer": "regardless"
+      }
+    ],
+    "distractors": [
+      "かえって",
+      "それ以来",
+      "そのため"
+    ],
+    "confusableSpellings": [
+      "irregardless",
+      "regardles",
+      "regardlass"
+    ],
+    "passive": {
+      "etymology": "'regard'（注意を向ける）＋ '-less'（～がない）。「注意なしに」→「何があっても構わず」という意味に発展した。",
+      "tips": "'regardless of' の形で「～にかかわらず」という意味になる。よくある誤りとして 'irregardless' という形が口語で使われるが、これは標準英語では誤りとされる（二重否定的な形）。フォーマルな場では使わないこと。",
+      "confusables": "'despite'・'in spite of' も「～にもかかわらず」の意味だが、後ろに名詞句が来る前置詞。'regardless' は単独で副詞として使えたり、'regardless of' の形で使う点が異なる。",
+      "collocations": [
+        "regardless of age（年齢に関わらず）",
+        "regardless of cost（費用にかかわらず）",
+        "carry on regardless（かまわず続ける）"
+      ],
+      "trivia": "'irregardless' は辞書にも載っているが「非標準・誤用」と注記されている。にもかかわらず多くのネイティブが使う、英語界の「議論を呼ぶ単語」ランキング上位に常に入る存在だ！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 498,
+    "word": "immediate",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "即座の、すぐの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "直接の、最も近い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈmiːdiət/",
+    "syllables": "im-me-di-ate",
+    "audioHint": "イミーディエット",
+    "examples": [
+      {
+        "en": "We need an immediate response to this problem.",
+        "ja": "この問題には即座の対応が必要だ。",
+        "blank": "We need an ___ response to this problem.",
+        "blankAnswer": "immediate"
+      }
+    ],
+    "distractors": [
+      "永続的な",
+      "全体的な",
+      "一定の"
+    ],
+    "confusableSpellings": [
+      "immedate",
+      "immediete",
+      "imedirate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'immediatus'。'im-'（否定の接頭辞）＋ 'medius'（中間）。「間に何もない」→「直接の・即座の」という意味になった。",
+      "tips": "'immediate' は時間的な「すぐの」と空間・関係の「直接の」の両方を表す。'immediate family'（直系家族、つまり親・兄弟・配偶者・子）は頻出表現。副詞形 'immediately' も非常によく使われる。",
+      "confusables": "'instant' は「瞬間的な」でより瞬間性が強く、'prompt' は「迅速な・時間通りの」。'immediate' は「間に何もない」という直接性のニュアンスが核心にある。",
+      "collocations": [
+        "immediate response（即座の対応）",
+        "immediate family（直系家族）",
+        "immediate effect（即効性）"
+      ],
+      "trivia": "'immediate family' という言葉は法律・保険・航空会社のポリシーでよく登場する。「家族割引」が適用されるかどうか、この 'immediate' の定義次第で揉めることも！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 499,
+    "word": "crucial",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "非常に重要な、決定的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkruːʃəl/",
+    "syllables": "cru-cial",
+    "audioHint": "クルーシャル",
+    "examples": [
+      {
+        "en": "Exercise is crucial for maintaining good health.",
+        "ja": "運動は健康を維持するために非常に重要だ。",
+        "blank": "Exercise is ___ for maintaining good health.",
+        "blankAnswer": "crucial"
+      }
+    ],
+    "distractors": [
+      "優れた",
+      "適切な",
+      "明白な"
+    ],
+    "confusableSpellings": [
+      "crucual",
+      "cruciel",
+      "cruccial"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'crux'（十字架、交差点）から。十字路は決断の分かれ目→「決定的な場面」という意味に発展。'cross' や 'crisis' とも語源的に関連する。",
+      "tips": "'crucial' は 'important' よりも強く「それがなければ成立しない」という意味合い。'crucial to'・'crucial for' の両方の前置詞とともに使える。ビジネス・学術英語で特に頻出。",
+      "confusables": "'critical' も「決定的な」の意味を持つが、「批判的な」の意味も兼ねるため文脈注意。'vital' は「生命に関わるほど重要な」という強さ。'crucial' はその中間あたりの強度。",
+      "collocations": [
+        "crucial role（重要な役割）",
+        "crucial decision（決定的な決断）",
+        "crucial point（重要な点）"
+      ],
+      "trivia": "十字架（crux）が語源というのがロマンチック。かつて「十字路での試練」が人生の決定的瞬間とされたことから、'crucial' に「運命を左右する」ニュアンスが宿っている。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  },
+  {
+    "id": 500,
+    "word": "somewhat",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "いくぶん、やや、多少",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˈsʌmwɒt/",
+    "syllables": "some-what",
+    "audioHint": "サムワット",
+    "examples": [
+      {
+        "en": "The results were somewhat better than expected.",
+        "ja": "結果は予想よりもいくぶん良かった。",
+        "blank": "The results were ___ better than expected.",
+        "blankAnswer": "somewhat"
+      }
+    ],
+    "distractors": [
+      "完全に",
+      "突然",
+      "かなり強く"
+    ],
+    "confusableSpellings": [
+      "somwhat",
+      "somewat",
+      "somewhot"
+    ],
+    "passive": {
+      "etymology": "'some'（いくらか）＋ 'what'（もの・こと）。「何かしらの量だけ」という原義から「ある程度・やや」という副詞的意味が生まれた。",
+      "tips": "'somewhat' は程度を和らげる（hedging）言葉として、フォーマルな文章やビジネス英語でよく使われる。'a little' より書き言葉的で上品な響きがある。'somewhat of a problem'（ある意味問題）のような名詞句を導く使い方もある。",
+      "confusables": "'rather' は「むしろ・かなり」で主観的評価を含む、'fairly' は「なかなか・相当」でポジティブな文脈が多い、'somewhat' は中立的に「ある程度」という程度を表す。",
+      "collocations": [
+        "somewhat different（やや異なる）",
+        "somewhat surprised（やや驚いた）",
+        "somewhat of a challenge（ある意味挑戦）"
+      ],
+      "trivia": "'somewhat' は「はっきり言いたくないとき」に使う大人の言葉。政治家や研究者が断言を避けるときに多用するため、英語ニュースや論文を読むと非常によく出てくる。"
+    },
+    "frequency": 1700,
+    "cefr": "B2"
+  }
+]

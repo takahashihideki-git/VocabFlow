@@ -1,0 +1,989 @@
+[
+  {
+    "id": 1841,
+    "word": "advent",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "到来、出現",
+        "pos": "noun"
+      },
+      {
+        "meaning": "アドベント（キリスト降臨節）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæd.vent/",
+    "syllables": "ad-vent",
+    "audioHint": "アドヴェント",
+    "examples": [
+      {
+        "en": "The advent of smartphones changed how we communicate.",
+        "ja": "スマートフォンの到来は私たちのコミュニケーション方法を変えた。",
+        "blank": "The ___ of smartphones changed how we communicate.",
+        "blankAnswer": "advent"
+      }
+    ],
+    "distractors": [
+      "孤独、孤立",
+      "誤り、誤謬",
+      "苦境、窮状"
+    ],
+    "confusableSpellings": [
+      "advert",
+      "avent",
+      "addvent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'adventus'（到着）から。ad-（〜へ）＋ venire（来る）の組み合わせ。'event'（出来事）や'convention'（集会）と同じ語根 ven-（来る）を持つ。",
+      "tips": "「advent calendar」のイメージで覚えると○。クリスマス前の「待ちわびる期間」＝「何かの到来を待つ」というニュアンスが本質。日本語の「到来」と違い、technology・internet など大きな変化の登場に使うことが多い。",
+      "confusables": "'advent'（到来・出現）と 'event'（出来事）は語根が同じだが意味が異なる。'advent' は何か新しいもの・重要なものが初めて現れるときに使い、単なる出来事には使わない。",
+      "collocations": [
+        "the advent of technology",
+        "the advent of the internet",
+        "since the advent of"
+      ],
+      "trivia": "「アドベントカレンダー」の advent はキリスト降臨節（クリスマスまでの4週間）を指す。IT業界では毎年12月に技術ブログを書く「Advent Calendar」文化があるが、これもこの単語が語源！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1842,
+    "word": "reign",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "治世、統治",
+        "pos": "noun"
+      },
+      {
+        "meaning": "統治する、支配する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/reɪn/",
+    "syllables": "reign",
+    "audioHint": "レイン",
+    "examples": [
+      {
+        "en": "Queen Victoria's reign lasted over sixty years.",
+        "ja": "ヴィクトリア女王の治世は60年以上続いた。",
+        "blank": "Queen Victoria's ___ lasted over sixty years.",
+        "blankAnswer": "reign"
+      }
+    ],
+    "distractors": [
+      "亡命、追放",
+      "外交、折衝",
+      "避難、庇護"
+    ],
+    "confusableSpellings": [
+      "rein",
+      "rain",
+      "reighn"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'reigne'、ラテン語 'regnum'（王国・支配）から。reg-（王・支配する）という語根を持ち、'regal'（王らしい）や 'royal'（王室の）とも同じ系統。",
+      "tips": "rain（雨）・rein（手綱）・reign（統治）はすべて同じ発音 /reɪn/！スペルミスが多発する要注意トリオ。「王（king）が治める（reign）」と綴りで覚えよう。動詞では 'reign over a country'（国を統治する）の形が基本。",
+      "confusables": "'reign'（君主の統治）と 'rule'（支配・統治）は似ているが、reign は特に君主・王族の支配期間を指す。'The president reigns' とは言わず 'rules' を使う。",
+      "collocations": [
+        "reign over a country",
+        "during his reign",
+        "reign of terror"
+      ],
+      "trivia": "「reign of terror」（恐怖政治）はフランス革命時代の断頭台が大活躍した時期を指す表現。現在でも「スポーツチームの黄金時代」などに比喩的に使われる。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1843,
+    "word": "diplomacy",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "外交、外交術",
+        "pos": "noun"
+      },
+      {
+        "meaning": "巧みな交渉力、如才なさ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈploʊ.mə.si/",
+    "syllables": "di-plo-ma-cy",
+    "audioHint": "ディプロウマスィ",
+    "examples": [
+      {
+        "en": "Solving the conflict required careful diplomacy.",
+        "ja": "その紛争を解決するには慎重な外交が必要だった。",
+        "blank": "Solving the conflict required careful ___.",
+        "blankAnswer": "diplomacy"
+      }
+    ],
+    "distractors": [
+      "治世、統治期間",
+      "亡命、国外追放",
+      "大使館、公館"
+    ],
+    "confusableSpellings": [
+      "diplomasy",
+      "diplomaicy",
+      "diplomecy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'diploma'（二つ折りにした公文書）から。外交官が持つ公式文書 → 外交という意味に転じた。'-cy' は状態・性質を表す名詞接尾辞（accuracy, democracy なども同形）。",
+      "tips": "diplomat（外交官）→ diplomatic（外交的な）→ diplomacy（外交）という派生をセットで覚えよう。日常会話では「角が立たない上手い言い回し」という意味でも使われる（例：She handled the argument with diplomacy.）。",
+      "confusables": "'diplomacy'（外交という行為・スキル）と 'foreign policy'（外交政策）は似ているが、diplomacy は交渉のやり方・技術、foreign policy は国家の方針・方向性を指す。",
+      "collocations": [
+        "practice diplomacy",
+        "shuttle diplomacy",
+        "nuclear diplomacy"
+      ],
+      "trivia": "「シャトル外交（shuttle diplomacy）」という言葉は、1970年代に米国務長官キッシンジャーが中東諸国を往復して交渉したことが起源。シャトルは宇宙ではなく、往復する「梭（ひ）」のこと！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1844,
+    "word": "embassy",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "大使館",
+        "pos": "noun"
+      },
+      {
+        "meaning": "大使節団、大使の使命",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈem.bə.si/",
+    "syllables": "em-bas-sy",
+    "audioHint": "エンバスィ",
+    "examples": [
+      {
+        "en": "She renewed her passport at the Japanese embassy.",
+        "ja": "彼女は日本大使館でパスポートを更新した。",
+        "blank": "She renewed her passport at the Japanese ___.",
+        "blankAnswer": "embassy"
+      }
+    ],
+    "distractors": [
+      "外交、外交術",
+      "避難、庇護所",
+      "亡命、追放"
+    ],
+    "confusableSpellings": [
+      "embasy",
+      "ambassady",
+      "embasssy"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'ambassade' → 中英語 'embassee' から。ambassador（大使）と同語源で、ゲルマン語の 'ambaht'（使用人・使者）に由来する。",
+      "tips": "embassy（大使館）と consulate（領事館）の違いに注意。embassy は首都にある大使の公館、consulate は地方都市にある領事の公館。ビザ申請はどちらでできるかは国によって異なるので要確認！",
+      "confusables": "'embassy'（大使館）と 'consulate'（領事館）はどちらも海外の外交機関だが、embassy の方が格上で首都に置かれる。ビザや緊急事態の際の窓口として両者は重複することも多い。",
+      "collocations": [
+        "visit the embassy",
+        "the Japanese embassy",
+        "embassy staff"
+      ],
+      "trivia": "大使館の敷地は法律上、受け入れ国ではなく派遣国の領土扱いとされる（治外法権）。だから映画でよくある「大使館に駆け込んで亡命申請」というシーンが成立するんです！"
+    },
+    "frequency": 4000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1845,
+    "word": "exile",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "亡命、追放、流刑",
+        "pos": "noun"
+      },
+      {
+        "meaning": "追放する、亡命させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈek.saɪl/",
+    "syllables": "ex-ile",
+    "audioHint": "エクサイル",
+    "examples": [
+      {
+        "en": "The politician lived in exile for twenty years.",
+        "ja": "その政治家は20年間亡命生活を送った。",
+        "blank": "The politician lived in ___ for twenty years.",
+        "blankAnswer": "exile"
+      }
+    ],
+    "distractors": [
+      "治世、統治",
+      "外交的解決策",
+      "大使館員、外交団"
+    ],
+    "confusableSpellings": [
+      "excile",
+      "exille",
+      "exiel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'exilium'（追放）から。ex-（外へ）＋ solum（土地）の組み合わせ、つまり「自分の土地の外へ出される」こと。",
+      "tips": "名詞・動詞どちらも同じ形 'exile'。'in exile'（亡命中）というフレーズは頻出。日本語の「亡命」は自分から逃げるイメージだが、英語の exile は他者から追放されるニュアンスが強い点に注意。",
+      "confusables": "'exile'（政治的追放・亡命）と 'refugee'（難民）は似ているが、exile は政治的理由で追放・逃亡した人を指し、refugee はより広く迫害・戦争・災害から逃げた人を指す。",
+      "collocations": [
+        "live in exile",
+        "go into exile",
+        "send into exile"
+      ],
+      "trivia": "ダンテ（神曲の作者）はフィレンツェから追放され、exile 中に『神曲』を書いた。亡命・追放が歴史的名作を生み出した例は意外と多い。現代では EXILE というアーティストグループ名にも使われている！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1846,
+    "word": "refuge",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "避難（所）、庇護",
+        "pos": "noun"
+      },
+      {
+        "meaning": "安息の場、逃げ場",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈref.juːdʒ/",
+    "syllables": "ref-uge",
+    "audioHint": "レフュージ",
+    "examples": [
+      {
+        "en": "They sought refuge from the storm in an old barn.",
+        "ja": "彼らは嵐を避けるために古い納屋に避難した。",
+        "blank": "They sought ___ from the storm in an old barn.",
+        "blankAnswer": "refuge"
+      }
+    ],
+    "distractors": [
+      "外交的交渉、折衝",
+      "追放、亡命生活",
+      "統治、支配期間"
+    ],
+    "confusableSpellings": [
+      "refuje",
+      "refugue",
+      "refugde"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'refugium' から。re-（再び・後ろへ）＋ fugere（逃げる）。'fugitive'（逃亡者）と同じ語根 fug-（逃げる）を持つ。",
+      "tips": "'take refuge'（避難する）と 'seek refuge'（避難所を求める）が最も頻出パターン。'refugee'（難民）はここから派生。比喩的に「本・音楽が心の逃げ場になる」という意味でも使える。",
+      "confusables": "'refuge'（避難場所・庇護）と 'asylum'（亡命・庇護）は似ているが、asylum は特に政治的な庇護申請に使われる法律用語的なニュアンスが強い。refuge は物理的・精神的逃げ場にも使える。",
+      "collocations": [
+        "seek refuge",
+        "take refuge",
+        "refugee camp"
+      ],
+      "trivia": "Wildlife refuge（野生動物保護区）という使い方もあり、アメリカには500か所以上の National Wildlife Refuge がある。動物も人間も「逃げ込める安全な場所」という意味は共通！"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1847,
+    "word": "plight",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "苦境、窮状、悲惨な状態",
+        "pos": "noun"
+      },
+      {
+        "meaning": "誓う、誓約する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/plaɪt/",
+    "syllables": "plight",
+    "audioHint": "プライト",
+    "examples": [
+      {
+        "en": "The documentary highlighted the plight of homeless children.",
+        "ja": "そのドキュメンタリーはホームレスの子どもたちの窮状を訴えた。",
+        "blank": "The documentary highlighted the ___ of homeless children.",
+        "blankAnswer": "plight"
+      }
+    ],
+    "distractors": [
+      "到来、出現",
+      "孤独、独居",
+      "誤謬、詭弁"
+    ],
+    "confusableSpellings": [
+      "plite",
+      "plieght",
+      "plightt"
+    ],
+    "passive": {
+      "etymology": "古英語 'pliht'（危険・危うさ）から。もともとは「誓約」の意味も持っていたが、現代では「困難な状況」という名詞用法が主流になった。",
+      "tips": "「plight」は単なる困難ではなく、同情を誘う深刻で気の毒な状況に使う。'the plight of refugees'（難民の窮状）のように、社会的弱者の悲惨な状況を訴える文脈でよく登場する。",
+      "confusables": "'plight'（深刻な苦境）と 'predicament'（厄介な状況）はどちらも困難な状況を表すが、plight は感情的・同情的なニュアンスが強く、predicament はやや客観的・状況的なニュアンス。",
+      "collocations": [
+        "the plight of refugees",
+        "highlight the plight",
+        "understand their plight"
+      ],
+      "trivia": "古い英語では「plight one's troth」（誠実を誓う）という表現があり、これが現代の結婚式でも使われることがある。「窮状」と「誓い」、正反対のような2つの意味が同じ単語に同居している！"
+    },
+    "frequency": 5200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1848,
+    "word": "solitude",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "孤独、独居",
+        "pos": "noun"
+      },
+      {
+        "meaning": "人里離れた場所、静寂",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɒl.ɪ.tjuːd/",
+    "syllables": "sol-i-tude",
+    "audioHint": "ソリテュード",
+    "examples": [
+      {
+        "en": "She enjoyed the solitude of the mountain cabin.",
+        "ja": "彼女は山小屋の孤独をひとり楽しんだ。",
+        "blank": "She enjoyed the ___ of the mountain cabin.",
+        "blankAnswer": "solitude"
+      }
+    ],
+    "distractors": [
+      "苦境、窮状",
+      "到来、出現",
+      "誤謬、論理的誤り"
+    ],
+    "confusableSpellings": [
+      "solitute",
+      "solittude",
+      "sollitude"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'solitudo' から。solus（一人の）＋ -tude（状態を示す接尾辞）。'solo'（独奏）や 'sole'（唯一の）と同語根。-tude は attitude, gratitude なども同形。",
+      "tips": "'solitude'（望んで得る孤独・一人の時間）と 'loneliness'（望まない孤独・寂しさ）は大きく異なる。solitude はポジティブなニュアンスで使われることが多く、「自分だけの充実した時間」を意味する。",
+      "confusables": "'solitude'（自発的・肯定的な孤独）と 'loneliness'（非自発的・否定的な孤立感）は混同しやすい。'I enjoy solitude'（一人の時間を楽しむ）は自然だが、'I enjoy loneliness' は不自然。",
+      "collocations": [
+        "enjoy solitude",
+        "in solitude",
+        "seek solitude"
+      ],
+      "trivia": "哲学者や芸術家は solitude を創造性の源として重視した。ニーチェは「孤独の中にこそ自由がある」と説き、作家のカフカも一人の時間なしには書けなかったと告白している。インスタ映えする時代に、あえて solitude を求めるのがトレンドかも？"
+    },
+    "frequency": 4800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1849,
+    "word": "fallacy",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "誤謬、詭弁、論理的誤り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "誤った信念、誤解",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfæl.ə.si/",
+    "syllables": "fal-la-cy",
+    "audioHint": "ファラスィ",
+    "examples": [
+      {
+        "en": "It is a fallacy that more money always brings happiness.",
+        "ja": "お金が多いほど幸せになるというのは誤りだ。",
+        "blank": "It is a ___ that more money always brings happiness.",
+        "blankAnswer": "fallacy"
+      }
+    ],
+    "distractors": [
+      "孤独、ひとりの時間",
+      "到来、出現",
+      "苦境、気の毒な状況"
+    ],
+    "confusableSpellings": [
+      "phalacy",
+      "fallicy",
+      "falacy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'fallacia'（欺くこと）から。fallere（欺く・失敗させる）が語根。'false'（偽の）・'fail'（失敗する）とも同語源ファミリー。",
+      "tips": "論理学・議論の文脈で頻出。'logical fallacy'（論理的誤謬）、'common fallacy'（よくある誤解）という形で使われることが多い。日本語の「詭弁」より広く、単純な「誤った思い込み」も含む。",
+      "confusables": "'fallacy'（論理・思考上の誤り）と 'mistake'（一般的なミス）は異なる。fallacy は特に論理・信念・議論の文脈で使われ、行動のミスには通常使わない。'I made a fallacy' より 'I committed a fallacy' の方が自然。",
+      "collocations": [
+        "logical fallacy",
+        "common fallacy",
+        "commit a fallacy"
+      ],
+      "trivia": "「ad hominem（人身攻撃）」「straw man（藁人形論法）」など、論理的誤謬には名前がついている。ディベートや SNS 上の議論でこれらを見抜けると一気に「賢そう」に見える。fallacy を学ぶと騙されにくくなる！"
+    },
+    "frequency": 5500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1850,
+    "word": "latitude",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "緯度",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（行動・判断の）自由、裁量",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlæt.ɪ.tjuːd/",
+    "syllables": "lat-i-tude",
+    "audioHint": "ラティテュード",
+    "examples": [
+      {
+        "en": "Tokyo is located at approximately 35 degrees north latitude.",
+        "ja": "東京は北緯約35度に位置している。",
+        "blank": "Tokyo is located at approximately 35 degrees north ___.",
+        "blankAnswer": "latitude"
+      }
+    ],
+    "distractors": [
+      "避難所、庇護",
+      "孤独、ひとりの静寂",
+      "亡命、追放状態"
+    ],
+    "confusableSpellings": [
+      "latitute",
+      "lattitude",
+      "latituide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'latitudo'（広さ・幅）から。latus（広い・横の）＋ -tude（状態を示す接尾辞）。地球を横方向に測る線 → 緯度という意味になった。",
+      "tips": "latitude（緯度）と longitude（経度）の混同に注意。lat- は「横・広さ」→ 緯度（横の線）、long- は「長さ」→ 経度（縦の線）と覚えると混乱しない。比喩的な「裁量・自由」という意味も覚えておくと便利（例：give more latitude to employees）。",
+      "confusables": "'latitude'（緯度）と 'longitude'（経度）はセットで覚える必須ペア。latitude は東西に延びる水平線、longitude は南北に延びる垂直線。「lat = 横（laternal）」と関連付けると覚えやすい。",
+      "collocations": [
+        "north latitude",
+        "at a latitude of",
+        "give latitude to"
+      ],
+      "trivia": "「latitude」には地理的な緯度だけでなく「裁量・自由度」という意味もある。上司が部下に 'I'll give you more latitude on this project'（このプロジェクトはあなたに任せます）と言ったりする。地理と自由、どちらも「広がり」というイメージでつながっている！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1851,
+    "word": "eclipse",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "食（日食・月食）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（名声・権力などの）失墜",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈklɪps/",
+    "syllables": "e-clipse",
+    "audioHint": "イクリプス",
+    "examples": [
+      {
+        "en": "The solar eclipse lasted about three minutes.",
+        "ja": "その日食は約3分間続いた。",
+        "blank": "The solar ___ lasted about three minutes.",
+        "blankAnswer": "eclipse"
+      }
+    ],
+    "distractors": [
+      "浸食",
+      "堆積",
+      "地形の隆起"
+    ],
+    "confusableSpellings": [
+      "eclips",
+      "eclypse"
+    ],
+    "passive": {
+      "etymology": "古フランス語 éclipse、ラテン語 eclipsis、ギリシャ語 ékleipsis（「見捨てること」）から。接頭辞 ek-（外へ）＋ leípein（去る・離れる）。",
+      "tips": "名詞としてだけでなく動詞としても使える。「eclipse someone's fame（誰かの名声を影で隠す）」のように比喩的に使われることも多い。発音は「エク」ではなく「イク」が近い。",
+      "confusables": "ellipse（楕円）と混同しやすいが、全く別の単語。eclipse は天文現象や「陰に隠れる」意味。",
+      "collocations": [
+        "solar eclipse（日食）",
+        "lunar eclipse（月食）",
+        "total eclipse（皆既食）"
+      ],
+      "trivia": "古代の人々は日食を神の怒りや不吉な前兆と考えていた。コロンブスは1504年に月食を予言して原住民を驚かせ、食料を確保したという逸話が残っている。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1852,
+    "word": "basin",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "流域・盆地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "洗面器・たらい",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbeɪsən/",
+    "syllables": "ba-sin",
+    "audioHint": "ベイスン",
+    "examples": [
+      {
+        "en": "The Amazon basin is home to countless species.",
+        "ja": "アマゾン流域には無数の種が生息している。",
+        "blank": "The Amazon ___ is home to countless species.",
+        "blankAnswer": "basin"
+      }
+    ],
+    "distractors": [
+      "浸食",
+      "氷河",
+      "断層"
+    ],
+    "confusableSpellings": [
+      "basen",
+      "baison"
+    ],
+    "passive": {
+      "etymology": "古フランス語 bacin、中世ラテン語 bacinum（水を入れる容器）に由来。語根は bac-（容器）から派生。",
+      "tips": "地理では「〜流域」の意味で使われることが多い（例: the river basin）。日常では洗面器の意味もあるが、アカデミックな文脈では地理的意味が中心。",
+      "confusables": "bay（湾）と混同しないよう注意。basin は内陸の「くぼ地・流域」、bay は海岸の「入り江」。",
+      "collocations": [
+        "river basin（河川流域）",
+        "ocean basin（海盆）",
+        "drainage basin（排水流域）"
+      ],
+      "trivia": "「盆地」と「洗面器」が同じ単語なのは、どちらも「くぼんだ容器状の形」という共通点から。地球規模の地形を洗面器に例えた命名が面白い。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1853,
+    "word": "erosion",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "浸食・侵食",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（権利・価値などの）衰退・損耗",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈroʊʒən/",
+    "syllables": "e-ro-sion",
+    "audioHint": "イロウジョン",
+    "examples": [
+      {
+        "en": "Coastal erosion is destroying many beaches worldwide.",
+        "ja": "海岸浸食が世界中の多くのビーチを破壊している。",
+        "blank": "Coastal ___ is destroying many beaches worldwide.",
+        "blankAnswer": "erosion"
+      }
+    ],
+    "distractors": [
+      "噴火",
+      "氾濫",
+      "堆積"
+    ],
+    "confusableSpellings": [
+      "errosion",
+      "erosoin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 erosio（かじること）から。接頭辞 e-（外へ）＋語根 rodere（かじる・削る）＋接尾辞 -ion（名詞化）。rodent（げっ歯類）と同じ語根。",
+      "tips": "soil erosion（土壌浸食）や coastal erosion（海岸浸食）のように形容詞とセットで使われる場面が多い。比喩的に「the erosion of trust（信頼の失墜）」のように使うこともある。",
+      "confusables": "corrosion（腐食・金属の錆）と混同しやすい。erosion は物理的・自然的な削られ方、corrosion は化学的な腐食に多く使われる。",
+      "collocations": [
+        "soil erosion（土壌浸食）",
+        "coastal erosion（海岸浸食）",
+        "wind erosion（風食）"
+      ],
+      "trivia": "グランドキャニオンはコロラド川の浸食によって約600万年かけて形成された。わずかな水の力が岩を削り続けた結果があの絶景！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1854,
+    "word": "archaeology",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "考古学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɑːrkiˈɒlədʒi/",
+    "syllables": "ar-chae-ol-o-gy",
+    "audioHint": "アーキオロジー",
+    "examples": [
+      {
+        "en": "She studied archaeology to learn about ancient civilizations.",
+        "ja": "彼女は古代文明について学ぶために考古学を専攻した。",
+        "blank": "She studied ___ to learn about ancient civilizations.",
+        "blankAnswer": "archaeology"
+      }
+    ],
+    "distractors": [
+      "天文学",
+      "人類学",
+      "地質学"
+    ],
+    "confusableSpellings": [
+      "archeology",
+      "archaology",
+      "archaelogy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 arkhaios（古い）＋ logos（学問・言葉）から。接頭辞 arche-（起源・古い）は「archaic（時代遅れの）」とも共通する語根。",
+      "tips": "イギリス英語では archaeology、アメリカ英語では archeology と書くことが多い。試験や論文でどちらを使うか統一すること。発音は「アーキオロジー」で、ch は「チ」ではなく「キ」の音。",
+      "confusables": "anthropology（人類学）と混同しやすい。archaeology は「遺物・遺跡」から過去を探る学問、anthropology は「人間」そのものを研究する学問。",
+      "collocations": [
+        "study archaeology（考古学を学ぶ）",
+        "archaeology dig（発掘作業）",
+        "maritime archaeology（海洋考古学）"
+      ],
+      "trivia": "インディ・ジョーンズのおかげで考古学者はみんな冒険家のイメージがあるが、実際の仕事の大半は地道なデータ整理とラボ作業。でも夢があるのは本当！"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1855,
+    "word": "errand",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "使い走り・用事",
+        "pos": "noun"
+      },
+      {
+        "meaning": "短い外出（所用のための）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈerənd/",
+    "syllables": "er-rand",
+    "audioHint": "エランド",
+    "examples": [
+      {
+        "en": "I need to run a few errands before dinner.",
+        "ja": "夕食前にいくつか用事を済ませる必要がある。",
+        "blank": "I need to run a few ___s before dinner.",
+        "blankAnswer": "errands"
+      }
+    ],
+    "distractors": [
+      "家賃",
+      "習慣",
+      "宴会"
+    ],
+    "confusableSpellings": [
+      "errand",
+      "erand",
+      "errand"
+    ],
+    "passive": {
+      "etymology": "古英語 ærende（使いのメッセージ・任務）に由来。元々は「使者が伝える伝言・任務」という意味だった。",
+      "tips": "「run an errand / run errands」が最も一般的なコロケーション。do an errand よりも run an errand の方がネイティブらしい表現。複数形で使われることが多い。",
+      "confusables": "errant（さまよう・誤った）と混同しやすい。errand は「用事・使い走り」、errant は「道を外れた」という形容詞。",
+      "collocations": [
+        "run an errand（使い走りをする）",
+        "errand boy（使い走りの少年）",
+        "on an errand（用事で外出して）"
+      ],
+      "trivia": "「run errands」の run は「走る」ではなく「こなす・行う」の意味。実際に走る必要はない。英語の run は意外と多義語で、その数は100以上とも言われている。"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1856,
+    "word": "mercy",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "慈悲・情け",
+        "pos": "noun"
+      },
+      {
+        "meaning": "幸運・恵み",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɜːrsi/",
+    "syllables": "mer-cy",
+    "audioHint": "マーシー",
+    "examples": [
+      {
+        "en": "The judge showed mercy and reduced the sentence.",
+        "ja": "裁判官は慈悲を示し、刑を軽減した。",
+        "blank": "The judge showed ___ and reduced the sentence.",
+        "blankAnswer": "mercy"
+      }
+    ],
+    "distractors": [
+      "誠実さ",
+      "勇気",
+      "欲望"
+    ],
+    "confusableSpellings": [
+      "mersy",
+      "merci"
+    ],
+    "passive": {
+      "etymology": "古フランス語 merci（報酬・感謝）、ラテン語 merces（報酬・賃金）から。中世では「神からの恵み」という意味合いで使われるようになった。",
+      "tips": "「at the mercy of〜（〜のなすがままに）」というイディオムは頻出。また「have mercy on〜（〜に慈悲をかける）」も重要表現。フランス語の「merci（ありがとう）」と同じ語源で覚えると忘れにくい。",
+      "confusables": "pity（かわいそうと思う気持ち）と混同しやすいが、mercy は「罰を与えない・助ける行為」に焦点がある。pity は感情、mercy は行動に近い。",
+      "collocations": [
+        "show mercy（慈悲を示す）",
+        "at the mercy of（〜のなすがままに）",
+        "mercy killing（安楽死）"
+      ],
+      "trivia": "「mercy」の語源はラテン語の「報酬」。もともとは「神が人間に与える恵みへの感謝」という意味だった。フランス語で「ありがとう」を merci と言うのも同じ流れ！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1857,
+    "word": "rhetoric",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "修辞学・弁論術",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（内容のない）美辞麗句・言辞",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈretərɪk/",
+    "syllables": "rhet-o-ric",
+    "audioHint": "レトリック",
+    "examples": [
+      {
+        "en": "His speech was full of political rhetoric but lacked substance.",
+        "ja": "彼のスピーチは政治的な美辞麗句に満ちていたが、内容が乏しかった。",
+        "blank": "His speech was full of political ___ but lacked substance.",
+        "blankAnswer": "rhetoric"
+      }
+    ],
+    "distractors": [
+      "倫理学",
+      "文法規則",
+      "語彙力"
+    ],
+    "confusableSpellings": [
+      "rethoric",
+      "rethorick",
+      "rhetorick"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 rhētorikē（弁論家の技術）から。rhētōr（弁論家・演説家）＋接尾辞 -ike（技術・学）。アリストテレスが体系化した学問。",
+      "tips": "発音は「レトリック」。日本語でも「レトリック」として使われるが、英語では「中身のない大げさな言葉」という否定的なニュアンスで使われることが多い。",
+      "confusables": "logic（論理）と対比されることが多い。rhetoric は「説得の技術・表現」、logic は「正しい推論・論理構造」に焦点を当てる。",
+      "collocations": [
+        "political rhetoric（政治的言辞）",
+        "empty rhetoric（空虚な美辞麗句）",
+        "rhetorical question（修辞疑問文）"
+      ],
+      "trivia": "古代ギリシャでは rhetoric（弁論術）は必須科目だった。現代でも「rhetorical question（答えを求めない問いかけ）」という形で日常英語に残っている。「Is it too late to apologize?」みたいなやつ！"
+    },
+    "frequency": 4100,
+    "cefr": "C1"
+  },
+  {
+    "id": 1858,
+    "word": "verse",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "詩・韻文",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（聖書などの）節・一節",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/vɜːrs/",
+    "syllables": "verse",
+    "audioHint": "ヴァース",
+    "examples": [
+      {
+        "en": "She recited a verse from her favorite poem.",
+        "ja": "彼女はお気に入りの詩から一節を暗唱した。",
+        "blank": "She recited a ___ from her favorite poem.",
+        "blankAnswer": "verse"
+      }
+    ],
+    "distractors": [
+      "彫刻",
+      "旋律",
+      "演技"
+    ],
+    "confusableSpellings": [
+      "verce",
+      "vers"
+    ],
+    "passive": {
+      "etymology": "ラテン語 versus（行・列）から。vertere（回る・向きを変える）の過去分詞形。詩の「行が折り返す」イメージから命名された。",
+      "tips": "verse は「詩全体」というよりも「詩の一節・一連」を指すことが多い。prose（散文）の対義語として使われる。楽曲でも verse は「Aメロ」を指す。",
+      "confusables": "poetry（詩・詩全般）は抽象的・集合的な概念、verse は具体的な「詩の行や節」を指す。また verse には聖書の「節」の意味もある。",
+      "collocations": [
+        "free verse（自由詩）",
+        "Bible verse（聖書の一節）",
+        "write verse（詩を書く）"
+      ],
+      "trivia": "ラップ音楽の「バース（verse）」も同じ語源。古代の詩人が書いた「詩の行」が、21世紀のヒップホップにまで受け継がれているのは熱くない？"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1859,
+    "word": "congestion",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "混雑・渋滞",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（鼻・気道の）うっ血・詰まり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈdʒestʃən/",
+    "syllables": "con-ges-tion",
+    "audioHint": "コンジェスチョン",
+    "examples": [
+      {
+        "en": "Nasal congestion made it hard to sleep last night.",
+        "ja": "鼻づまりのせいで昨夜は眠りにくかった。",
+        "blank": "Nasal ___ made it hard to sleep last night.",
+        "blankAnswer": "congestion"
+      }
+    ],
+    "distractors": [
+      "骨折",
+      "免疫反応",
+      "脱水症状"
+    ],
+    "confusableSpellings": [
+      "congeston",
+      "congesion",
+      "conjestion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 congestio（詰め込むこと）から。接頭辞 con-（共に・一緒に）＋ gerere（運ぶ・詰め込む）＋接尾辞 -ion（名詞化）。",
+      "tips": "交通渋滞（traffic congestion）と医学的な鼻詰まり（nasal congestion）の両方に使える。日本人は「コンゲスチョン」と発音しがちだが、「コンジェスチョン」が正しい。",
+      "confusables": "traffic jam（渋滞）と似ているが、congestion はより形式的・公式的な表現。ニュースや報告書では congestion が好まれる。",
+      "collocations": [
+        "traffic congestion（交通渋滞）",
+        "nasal congestion（鼻づまり）",
+        "congestion charge（渋滞税）"
+      ],
+      "trivia": "ロンドンは2003年に世界初の「congestion charge（渋滞課税）」を導入し、市内への車の乗り入れに料金を課した。渋滞が減って空気もきれいになったというデータがある。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1860,
+    "word": "sewage",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "下水・汚水",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsuːɪdʒ/",
+    "syllables": "sew-age",
+    "audioHint": "スーイジ",
+    "examples": [
+      {
+        "en": "The sewage system in this city needs urgent repairs.",
+        "ja": "この街の下水システムは早急な修理が必要だ。",
+        "blank": "The ___ system in this city needs urgent repairs.",
+        "blankAnswer": "sewage"
+      }
+    ],
+    "distractors": [
+      "湧き水",
+      "海流",
+      "降水量"
+    ],
+    "confusableSpellings": [
+      "sewege",
+      "sewidge",
+      "sewege"
+    ],
+    "passive": {
+      "etymology": "sewer（下水道）＋接尾辞 -age（集合・状態）から。sewer は古フランス語 esseveur（水を流す）、ラテン語 ex-（外へ）＋ aqua（水）に由来するとされる。",
+      "tips": "sew（縫う）と綴りが似ているが全く別物。sewage の発音は「スーイジ」で、sew の発音「ソウ」とは異なる。混乱しやすいので注意。",
+      "confusables": "sewer（下水道・下水管）は施設そのもの、sewage（下水・汚水）は流れる中身（液体・廃水）を指す。施設と内容物の違い。",
+      "collocations": [
+        "sewage treatment（下水処理）",
+        "sewage system（下水システム）",
+        "raw sewage（未処理汚水）"
+      ],
+      "trivia": "19世紀のロンドンでは下水道が整備されておらず、テムズ川が汚水で溢れた。1858年の「大悪臭事件（Great Stink）」がきっかけで近代下水道が建設された。文明の進化は臭いとの戦いでもあった！"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  }
+]

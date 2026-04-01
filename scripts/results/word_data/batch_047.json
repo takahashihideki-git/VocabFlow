@@ -1,0 +1,998 @@
+[
+  {
+    "id": 921,
+    "word": "cultivate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を育てる、耕す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を養う、培養する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkʌltɪveɪt/",
+    "syllables": "cul-ti-vate",
+    "audioHint": "カルティヴェイト",
+    "examples": [
+      {
+        "en": "She cultivates roses in her garden every spring.",
+        "ja": "彼女は毎春、庭でバラを育てている。",
+        "blank": "She ___ roses in her garden every spring.",
+        "blankAnswer": "cultivates"
+      }
+    ],
+    "distractors": [
+      "〜を操作する",
+      "〜を変換する",
+      "〜を取り除く"
+    ],
+    "confusableSpellings": [
+      "cultiviate",
+      "cultavate",
+      "cultivte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'cultivare'（耕す）から。'cultus'（耕された）＋ '-ivate'（動詞化接尾辞）。'culture'（文化・培養）と同じ語根 'cult-' を持つ。",
+      "tips": "農業的な「耕す」だけでなく、人間関係や才能・習慣を「育む」という比喩的な意味でよく使われる。例：cultivate a friendship（友情を育む）。日本人は「育てる」にひっぱられて grow を使いがちだが、努力・計画的なニュアンスには cultivate が適切。",
+      "confusables": "grow は自然に育つ感覚、cultivate は意図的・継続的な努力で育てるニュアンス。nurture は感情的なケアに焦点がある点で異なる。",
+      "collocations": [
+        "cultivate a relationship",
+        "cultivate skills",
+        "cultivate land"
+      ],
+      "trivia": "「文化（culture）」と「耕す（cultivate）」は同じ語根。古代ローマ人にとって「土地を耕すこと」と「精神を磨くこと」は同じ概念だった。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 922,
+    "word": "underlie",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜の根底にある、基礎をなす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜の下に横たわる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌʌndəˈlaɪ/",
+    "syllables": "un-der-lie",
+    "audioHint": "アンダーライ",
+    "examples": [
+      {
+        "en": "Fear of failure underlies most of his decisions.",
+        "ja": "失敗への恐れが彼のほとんどの決断の根底にある。",
+        "blank": "Fear of failure ___ most of his decisions.",
+        "blankAnswer": "underlies"
+      }
+    ],
+    "distractors": [
+      "〜を予測する",
+      "〜を分類する",
+      "〜を正当化する"
+    ],
+    "confusableSpellings": [
+      "underlye",
+      "underlai",
+      "underly"
+    ],
+    "passive": {
+      "etymology": "古英語 'under-'（下に）＋ 'licgan'（横たわる）から。'lie'（横たわる）に接頭辞 'under-'（下・基礎）が付いた形。",
+      "tips": "三単現は 'underlies'、過去形は 'underlay'、過去分詞は 'underlain' と不規則変化する点に注意。'underline'（下線を引く）と混同しやすいが意味が全く異なる。",
+      "confusables": "underline は「強調する・下線を引く」という物理的・比喩的動作を指し、underlie は「根本原因・基盤として存在する」という状態を指す。",
+      "collocations": [
+        "underlie the problem",
+        "underlie the theory",
+        "underlie the decision"
+      ],
+      "trivia": "ビジネス文書や学術論文で頻出の単語。「問題の根本を見抜く力がある人」を印象づけたいときに使えると一気に知的な英語になる。"
+    },
+    "frequency": 5800,
+    "cefr": "C1"
+  },
+  {
+    "id": 923,
+    "word": "anticipate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を予期する、見越す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を楽しみに待つ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ænˈtɪsɪpeɪt/",
+    "syllables": "an-tic-i-pate",
+    "audioHint": "アンティシペイト",
+    "examples": [
+      {
+        "en": "We anticipate heavy traffic on the highway tonight.",
+        "ja": "今夜は高速道路が激しく渋滞すると予想している。",
+        "blank": "We ___ heavy traffic on the highway tonight.",
+        "blankAnswer": "anticipate"
+      }
+    ],
+    "distractors": [
+      "〜を正当化する",
+      "〜を分類する",
+      "〜を理解する"
+    ],
+    "confusableSpellings": [
+      "anticapate",
+      "anticipaite",
+      "antecipate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'anticipare' から。'ante-'（前に）＋ 'capere'（取る・つかむ）。「前もってつかむ」が原義。",
+      "tips": "expect は「ほぼ確実に起こると思う」ニュアンスが強いが、anticipate は「事前に準備・対応する」行動的なニュアンスを含む。また、楽しみにする意味では look forward to と近いが、やや改まった表現。",
+      "confusables": "expect は単なる予測、anticipate は予測して準備する・積極的に待ち望むニュアンス。predict は客観的・科学的な予測に使われる。",
+      "collocations": [
+        "anticipate problems",
+        "anticipate demand",
+        "widely anticipated"
+      ],
+      "trivia": "映画や音楽のリリース前に使われる 'highly anticipated'（待望の）というフレーズは映画宣伝の定番表現。「anticipated」がつくだけで一気に期待感が高まる魔法の単語。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 924,
+    "word": "justify",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を正当化する、弁明する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜の正しさを証明する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdʒʌstɪfaɪ/",
+    "syllables": "jus-ti-fy",
+    "audioHint": "ジャスティファイ",
+    "examples": [
+      {
+        "en": "She couldn't justify spending so much on a bag.",
+        "ja": "彼女はバッグにそれほど使うことを正当化できなかった。",
+        "blank": "She couldn't ___ spending so much on a bag.",
+        "blankAnswer": "justify"
+      }
+    ],
+    "distractors": [
+      "〜を予期する",
+      "〜を分析する",
+      "〜を否定する"
+    ],
+    "confusableSpellings": [
+      "justifiy",
+      "justfy",
+      "justifie"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'justificare' から。'justus'（正しい）＋ 'facere'（する・作る）。「正しいものにする」が原義。'justice'（正義）と同語根。",
+      "tips": "justify は「理由や根拠を示して正しさを主張する」という行為。日本人は「理由を言う」つもりで explain を使いがちだが、正当性を主張する文脈では justify が適切。justify oneself（自分を弁明する）という形もよく使う。",
+      "confusables": "explain は単に説明する、justify は正当性・妥当性を論証するニュアンス。excuse は言い訳するという若干ネガティブな響きがある。",
+      "collocations": [
+        "justify the cost",
+        "justify one's actions",
+        "hard to justify"
+      ],
+      "trivia": "Wordの「両端揃え（均等割り付け）」も justify と言う。テキストを「正しく整える」という原義がそのまま使われている。文書作成と議論で同じ単語が使われているのが面白い。"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 925,
+    "word": "regulate",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "〜を規制する、取り締まる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を調節する、制御する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈreɡjʊleɪt/",
+    "syllables": "reg-u-late",
+    "audioHint": "レギュレイト",
+    "examples": [
+      {
+        "en": "The government needs to regulate social media platforms.",
+        "ja": "政府はソーシャルメディアのプラットフォームを規制する必要がある。",
+        "blank": "The government needs to ___ social media platforms.",
+        "blankAnswer": "regulate"
+      }
+    ],
+    "distractors": [
+      "〜を廃止する",
+      "〜を選出する",
+      "〜を補助する"
+    ],
+    "confusableSpellings": [
+      "regulaite",
+      "regurate",
+      "regualte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'regulare'（支配する・調整する）から。'regula'（規則・定規）＋ '-ate'（動詞化接尾辞）。'rule'（規則）や 'regular'（規則的な）と同語根。",
+      "tips": "法律・制度的な「規制する」と、体温・感情などを「調節する」の2つの意味がある。日本語では前者に「規制」後者に「調節」を当てるが英語では同じ regulate で表現できる点に注意。",
+      "confusables": "control は広く「管理・支配する」、regulate は「規則・基準に基づいて管理する」という制度的なニュアンス。restrict は「制限して狭める」ことに焦点がある。",
+      "collocations": [
+        "regulate the industry",
+        "regulate body temperature",
+        "strictly regulated"
+      ],
+      "trivia": "「レギュレーション（regulation）」はモータースポーツでも超頻出語。F1のレギュレーション変更がチームの命運を左右するのは、まさに「規則で制御する」という語源そのもの。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 926,
+    "word": "scan",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜をざっと見る、훑어보다",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜をスキャンする、電子読み取りする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/skæn/",
+    "syllables": "scan",
+    "audioHint": "スキャン",
+    "examples": [
+      {
+        "en": "He quickly scanned the menu before ordering.",
+        "ja": "彼は注文する前にメニューをさっと見た。",
+        "blank": "He quickly ___ the menu before ordering.",
+        "blankAnswer": "scanned"
+      }
+    ],
+    "distractors": [
+      "〜を提出する",
+      "〜を修正する",
+      "〜を組み立てる"
+    ],
+    "confusableSpellings": [
+      "scann",
+      "skann",
+      "scane"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'scandere'（登る・韻を踏む）から。詩の韻律を「一音節ずつ上がりながら分析する」意味から、「細かく調べる」へと意味が広がった。",
+      "tips": "scan は「ざっと全体を見渡す」ことで、read は「じっくり読む」こととは対照的。医療の「CTスキャン」やバーコードスキャンも同じ単語。日常英語でよく使う動詞の1つ。過去形は scanned（n を重ねる）と覚えること。",
+      "confusables": "skim も「ざっと読む」意味だが、skim は内容をつかむための速読、scan は特定の情報を探すための読み方という使い分けがある。",
+      "collocations": [
+        "scan a document",
+        "scan the room",
+        "brain scan"
+      ],
+      "trivia": "空港のセキュリティチェックで荷物を「スキャン」するのも、詩の韻律を分析するのも同じ単語。ラテン語で「登りながら確認する」というイメージが現代技術にまで受け継がれている。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 927,
+    "word": "classify",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を分類する、区分する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を機密扱いにする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈklæsɪfaɪ/",
+    "syllables": "clas-si-fy",
+    "audioHint": "クラシファイ",
+    "examples": [
+      {
+        "en": "Scientists classify whales as mammals, not fish.",
+        "ja": "科学者はクジラを魚ではなく哺乳類に分類する。",
+        "blank": "Scientists ___ whales as mammals, not fish.",
+        "blankAnswer": "classify"
+      }
+    ],
+    "distractors": [
+      "〜を予期する",
+      "〜を正当化する",
+      "〜を解釈する"
+    ],
+    "confusableSpellings": [
+      "classifiy",
+      "clasify",
+      "classfy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'classis'（階級・クラス）＋ '-fy'（〜にする、facere から）。「クラスに入れる」が原義。'class' や 'classic' と同語根。",
+      "tips": "classify A as B（AをBに分類する）という構文が重要。as を忘れて classify A B とするのは誤り。また、機密情報を「classified（機密扱い）」と言い、スパイ映画でよく耳にする表現でもある。",
+      "confusables": "categorize は「カテゴリーに分ける」でほぼ同義だが、classify はやや学術的・正式なニュアンス。sort は物理的に仕分ける感覚が強い。",
+      "collocations": [
+        "classify as endangered",
+        "classify information",
+        "broadly classified"
+      ],
+      "trivia": "映画でよく出てくる「CLASSIFIED（機密）」のスタンプも classify から。「分類された＝一般公開されていない」という意味がそのまま転用されている。知らなかった人は次にスパイ映画を見るとき注目してみて。"
+    },
+    "frequency": 3400,
+    "cefr": "B2"
+  },
+  {
+    "id": 928,
+    "word": "submit",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を提出する、送付する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に服従する、従う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səbˈmɪt/",
+    "syllables": "sub-mit",
+    "audioHint": "サブミット",
+    "examples": [
+      {
+        "en": "Please submit your report by Friday afternoon.",
+        "ja": "金曜日の午後までにレポートを提出してください。",
+        "blank": "Please ___ your report by Friday afternoon.",
+        "blankAnswer": "submit"
+      }
+    ],
+    "distractors": [
+      "〜を変換する",
+      "〜を組み立てる",
+      "〜を削除する"
+    ],
+    "confusableSpellings": [
+      "submitt",
+      "submite",
+      "subbmit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'submittere' から。'sub-'（下に）＋ 'mittere'（送る）。「下に送り出す」が原義で、「権威ある者に差し出す」→「提出する・服従する」と意味が広がった。",
+      "tips": "過去形・過去分詞は submitted（t を重ねる）。また、submit to〜（〜に服従する）という形は「提出する」とは全く意味が異なるので注意。オンラインフォームの「送信ボタン」が Submit なのもこの単語。",
+      "confusables": "hand in / turn in は口語的で学校課題に使う、submit はより公式・ビジネス的。yield to は自分の意思を曲げて従うニュアンスが強い。",
+      "collocations": [
+        "submit a report",
+        "submit an application",
+        "submit to authority"
+      ],
+      "trivia": "Webフォームの「Submit」ボタンを毎日押しているのに、実は「服従する・差し出す」という意味だと知らない人は多い。インターネット普及とともに「提出する」意味が爆発的に広まった現代語の進化の好例。"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 929,
+    "word": "pause",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "一時停止する、中断する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〔名詞〕間、休止",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pɔːz/",
+    "syllables": "pause",
+    "audioHint": "ポーズ",
+    "examples": [
+      {
+        "en": "She paused for a moment before answering the question.",
+        "ja": "彼女は質問に答える前に少し間を置いた。",
+        "blank": "She ___ for a moment before answering the question.",
+        "blankAnswer": "paused"
+      }
+    ],
+    "distractors": [
+      "〜を曲げる",
+      "〜を引っ張る",
+      "〜を倒れさせる"
+    ],
+    "confusableSpellings": [
+      "pouse",
+      "pawse",
+      "paus"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'pausis'（停止）→ラテン語 'pausa' を経て英語へ。'pause'（一時停止）は純粋に「止まること」を意味し、接頭辞や語根の複合ではなく単一の古典語から。",
+      "tips": "発音は「ポーズ」で pose（ポーズをとる）と全く同じ発音だが、スペルと意味が異なるので注意。pause は「一時的に止まる・立ち止まる」で、stop（完全に止まる）とは違い再開が前提にある。",
+      "confusables": "stop は完全に終了・停止、pause は一時的な中断で後で再開する含みがある。hesitate は迷い・ためらいからくる停止でネガティブなニュアンス。",
+      "collocations": [
+        "pause for thought",
+        "press pause",
+        "a brief pause"
+      ],
+      "trivia": "動画の「一時停止」ボタン記号（‖）は pause button と呼ぶ。音楽テープ時代から使われ続けているこのシンボル、ストリーミング時代になっても変わっていない不思議な生き残り記号。"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 930,
+    "word": "lean",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "寄りかかる、傾く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〔形容詞〕無駄のない、引き締まった",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/liːn/",
+    "syllables": "lean",
+    "audioHint": "リーン",
+    "examples": [
+      {
+        "en": "He leaned against the wall and crossed his arms.",
+        "ja": "彼は壁に寄りかかり腕を組んだ。",
+        "blank": "He ___ against the wall and crossed his arms.",
+        "blankAnswer": "leaned"
+      }
+    ],
+    "distractors": [
+      "〜を跳ぶ",
+      "〜を握る",
+      "〜を震わせる"
+    ],
+    "confusableSpellings": [
+      "leen",
+      "lein",
+      "lene"
+    ],
+    "passive": {
+      "etymology": "古英語 'hleonian'（傾く・もたれる）から。ゲルマン語系の基本動詞で、接頭辞なしの純粋な古英語語根。同音異義語 'lien'（抵当権）とは無関係。",
+      "tips": "過去形は leaned（米語）または leant（英語）どちらも正しい。lean on〜（〜に頼る・寄りかかる）は比喩的に「誰かを頼る」という意味でよく使う。また形容詞として「無駄がない」の意味もあり、ビジネスの lean management（リーン経営）はこちら。",
+      "confusables": "tilt は物体そのものが角度をつけて傾くこと、lean は体や物が何かに寄りかかる・もたれかかるニュアンス。slant は意見・情報が偏っているときに使う。",
+      "collocations": [
+        "lean against the wall",
+        "lean on someone",
+        "lean forward"
+      ],
+      "trivia": "トヨタ生産方式から生まれた「リーン生産方式（Lean Manufacturing）」は「脂肪（無駄）を削ぎ落とした」という意味。「寄りかかる」と「無駄がない」が同じ単語なのは、どちらも「余計なものを省いたシンプルな状態」をイメージしているから。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 931,
+    "word": "bump",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ぶつかる、衝突する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "でこぼこ、こぶ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bʌmp/",
+    "syllables": "bump",
+    "audioHint": "バンプ",
+    "examples": [
+      {
+        "en": "She bumped her head on the low ceiling.",
+        "ja": "彼女は低い天井に頭をぶつけた。",
+        "blank": "She ___ her head on the low ceiling.",
+        "blankAnswer": "bumped"
+      }
+    ],
+    "distractors": [
+      "折りたたむ",
+      "押し上げる",
+      "経験する"
+    ],
+    "confusableSpellings": [
+      "bumb",
+      "bumo"
+    ],
+    "passive": {
+      "etymology": "中英語 'bompen'（打つ）に由来。擬音語的な起源を持ち、衝撃音「バン」を模した語根から派生したとされる。",
+      "tips": "自動詞（bump into ～：～にぶつかる）と他動詞の両方で使える。'bump into'は「偶然出会う」という意味にもなるので要注意！",
+      "confusables": "bump into（偶然ぶつかる・出会う）とrun into（偶然会う）は似た意味だが、run intoはより口語的で人に出会う文脈でよく使われる。",
+      "collocations": [
+        "bump into someone",
+        "bump one's head",
+        "speed bump"
+      ],
+      "trivia": "飛行機の座席が満席で予約した客に降りてもらうことを 'bump' と言う。旅行中に「bumpされた」と言ったら、席を失ったということ！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 932,
+    "word": "fold",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "折りたたむ、折る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "折り目、ひだ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/foʊld/",
+    "syllables": "fold",
+    "audioHint": "フォウルド",
+    "examples": [
+      {
+        "en": "Please fold the letter before putting it in the envelope.",
+        "ja": "手紙を封筒に入れる前に折りたたんでください。",
+        "blank": "Please ___ the letter before putting it in the envelope.",
+        "blankAnswer": "fold"
+      }
+    ],
+    "distractors": [
+      "ぶつかる",
+      "乗り越える",
+      "直面する"
+    ],
+    "confusableSpellings": [
+      "fould",
+      "fole"
+    ],
+    "passive": {
+      "etymology": "古英語 'fealdan'（折る）に由来。ゲルマン語系の語根 *falþan から発展し、「重ねる・包む」という動作の概念を内包する。",
+      "tips": "fold one's arms（腕を組む）、fold up（畳む）など句動詞が豊富。ビジネスでは「会社が倒産・撤退する」という意味でも使われる（The company folded.）。",
+      "confusables": "fold（折る・畳む）とwrap（包む）は似ているが、foldは「折りたたんで形を作る」、wrapは「覆い包む」ニュアンス。",
+      "collocations": [
+        "fold one's arms",
+        "fold a map",
+        "fold in half"
+      ],
+      "trivia": "日本の折り紙（origami）は英語でそのまま 'origami' と通じる。foldはorigamiの基本動作そのもの。折り紙が世界的に広まったことで、foldという単語も工作文脈でよく使われるようになった！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 933,
+    "word": "hesitate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "ためらう、躊躇する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "口ごもる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈhɛzɪteɪt/",
+    "syllables": "hes-i-tate",
+    "audioHint": "ヘズィテイト",
+    "examples": [
+      {
+        "en": "Don't hesitate to ask if you have any questions.",
+        "ja": "質問があれば遠慮なく聞いてください。",
+        "blank": "Don't ___ to ask if you have any questions.",
+        "blankAnswer": "hesitate"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "説得する",
+      "気づく"
+    ],
+    "confusableSpellings": [
+      "hessitate",
+      "hesatate",
+      "hezitate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'haesitare'（引っかかる・つかえる）に由来。'haerere'（くっつく）の反復形で、「動けずにいる」イメージが語源。",
+      "tips": "「hesitate to do」は「～するのをためらう」。日本語では「遠慮なく～してください」を 'Please don't hesitate to～' と表現するのがビジネス英語の定番フレーズ。",
+      "confusables": "hesitate（ためらう）とwaver（ぐらつく・迷う）はよく似るが、wavering は意見や信念がブレるニュアンスが強い。hesitateは行動をためらう場面に使う。",
+      "collocations": [
+        "hesitate to speak",
+        "without hesitation",
+        "don't hesitate to contact"
+      ],
+      "trivia": "心理学では「分析麻痺（analysis paralysis）」という概念があり、考えすぎてhesitateし続けることで行動できなくなる現象を指す。まさに現代病！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 934,
+    "word": "pump",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ポンプで送る、汲み上げる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ポンプ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pʌmp/",
+    "syllables": "pump",
+    "audioHint": "パンプ",
+    "examples": [
+      {
+        "en": "Workers pumped water out of the flooded basement.",
+        "ja": "作業員たちは浸水した地下室から水をポンプで排出した。",
+        "blank": "Workers ___ water out of the flooded basement.",
+        "blankAnswer": "pumped"
+      }
+    ],
+    "distractors": [
+      "折りたたむ",
+      "ためらう",
+      "直面する"
+    ],
+    "confusableSpellings": [
+      "pumb",
+      "poumo"
+    ],
+    "passive": {
+      "etymology": "中期オランダ語 'pompe'（パイプ・ポンプ）に由来。海洋用語として広まり、液体・気体を強制的に移動させる器具の概念が語根となっている。",
+      "tips": "pump up（盛り上げる・やる気を上げる）はスポーツや音楽シーンでよく使われる。また pump iron は「筋トレをする」という俗語表現。",
+      "confusables": "pump（ポンプで送る）とdrain（排水する）は方向が逆。pumpは「送り込む・汲み出す（能動的に力を加える）」、drainは「自然に流れ出る・抜ける」ニュアンス。",
+      "collocations": [
+        "pump water",
+        "pump up the volume",
+        "pump iron"
+      ],
+      "trivia": "「Pump up the Jam」「Pump Up the Volume」など、90年代のダンス音楽タイトルに多用されたpump。音楽シーンでは「テンションを上げる」の代名詞的な単語になっている！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 935,
+    "word": "mount",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "登る、乗る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "増大する、高まる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/maʊnt/",
+    "syllables": "mount",
+    "audioHint": "マウント",
+    "examples": [
+      {
+        "en": "Tension mounted as the deadline approached.",
+        "ja": "締め切りが近づくにつれ、緊張感が高まった。",
+        "blank": "Tension ___ as the deadline approached.",
+        "blankAnswer": "mounted"
+      }
+    ],
+    "distractors": [
+      "汲み上げる",
+      "超える",
+      "経験する"
+    ],
+    "confusableSpellings": [
+      "moutn",
+      "mownt"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'monter'（登る）、ラテン語 'montare'（山に登る）に由来。語根 'mont-'（山）は mountain と同じ語源。",
+      "tips": "「mount」は「登る」だけでなく「増大する（緊張・問題などが高まる）」の意味でも頻出。名詞として Mt.（Mount の略）が山の名称に使われる（Mt. Fuji など）。",
+      "confusables": "mount（登る・乗る）とclimb（よじ登る）の違いは、mountはよりフォーマル・文語的で馬や自転車に「乗る」にも使う。climbは手足を使った能動的な動きのイメージ。",
+      "collocations": [
+        "mount a horse",
+        "mounting pressure",
+        "mount an attack"
+      ],
+      "trivia": "インターネットスラングの「マウントを取る」は英語の mount からきている。もともと格闘技で相手の上に乗る（mount）ポジションから転じて、「優位に立つ」意味に使われるようになった！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 936,
+    "word": "exceed",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "超える、上回る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（限度・基準を）超過する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈsiːd/",
+    "syllables": "ex-ceed",
+    "audioHint": "イクシード",
+    "examples": [
+      {
+        "en": "Sales this quarter exceeded our expectations.",
+        "ja": "今四半期の売上は私たちの予想を上回った。",
+        "blank": "Sales this quarter ___ our expectations.",
+        "blankAnswer": "exceeded"
+      }
+    ],
+    "distractors": [
+      "達成する",
+      "減少する",
+      "交換する"
+    ],
+    "confusableSpellings": [
+      "excede",
+      "exseed",
+      "excied"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'excedere'（外へ出る）に由来。接頭辞 'ex-'（外へ）＋語根 'cedere'（行く・進む）の組み合わせ。「限界の外へ出る」のイメージ。",
+      "tips": "exceed はスペルに注意。-ceed で終わる動詞は succeed / proceed / exceed の3語のみ。それ以外は -cede（precede など）や -sede（supersede）なので要注意！",
+      "confusables": "exceed（数値・限度を上回る）とsurpass（質・能力で上回る）の違いは微妙。exceedは数値的な上限超過に使われやすく、surpassは能力や業績での逸脱ニュアンスが強い。",
+      "collocations": [
+        "exceed expectations",
+        "exceed the speed limit",
+        "exceed the budget"
+      ],
+      "trivia": "「exceed expectations」は英語圏のビジネス評価用語の定番フレーズ。人事評価シートに必ず登場するほど使われ、「期待以上の成果」を意味する最高評価の表現として定着している！"
+    },
+    "frequency": 1900,
+    "cefr": "B2"
+  },
+  {
+    "id": 937,
+    "word": "undergo",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "経験する、受ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（変化・処置などを）受ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌʌndərˈɡoʊ/",
+    "syllables": "un-der-go",
+    "audioHint": "アンダーゴウ",
+    "examples": [
+      {
+        "en": "She underwent surgery last month and is recovering well.",
+        "ja": "彼女は先月手術を受け、順調に回復している。",
+        "blank": "She ___ surgery last month and is recovering well.",
+        "blankAnswer": "underwent"
+      }
+    ],
+    "distractors": [
+      "登る",
+      "折りたたむ",
+      "汲み上げる"
+    ],
+    "confusableSpellings": [
+      "undergoe",
+      "undargo",
+      "undergoe"
+    ],
+    "passive": {
+      "etymology": "古英語 'undergan'（下を通る・経る）に由来。接頭辞 'under-'（下を・通り抜けて）＋ 'go'（行く）の合成語。困難や変化を「くぐり抜ける」イメージ。",
+      "tips": "undergo は不規則動詞（undergo → underwent → undergone）。受け身的な文脈（手術・訓練・変化を受ける）に使われ、主語は自ら望んでいないことが多い。",
+      "confusables": "undergo（（受動的に）経験する）とexperience（（広く）経験する）の違いは、undergoは困難・手術・変化など避けられない・受け身的な経験に限定されやすく、experienceはポジティブな場面でも使える。",
+      "collocations": [
+        "undergo surgery",
+        "undergo training",
+        "undergo changes"
+      ],
+      "trivia": "undergo の過去形 underwent は go の過去形 went と同じ変化をする。英語で「go」が変化するパターンはundergoにも引き継がれており、英語の不規則動詞の「遺伝」を感じられる例！"
+    },
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 938,
+    "word": "confront",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "直面する、立ち向かう",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人を）問い詰める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈfrʌnt/",
+    "syllables": "con-front",
+    "audioHint": "コンフラント",
+    "examples": [
+      {
+        "en": "He finally confronted his boss about the unfair treatment.",
+        "ja": "彼はついに不当な扱いについて上司に直接訴えた。",
+        "blank": "He finally ___ his boss about the unfair treatment.",
+        "blankAnswer": "confronted"
+      }
+    ],
+    "distractors": [
+      "相談する",
+      "超える",
+      "満たす"
+    ],
+    "confusableSpellings": [
+      "confromt",
+      "confrontt",
+      "confront"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'confrontare'（額を突き合わせる）に由来。接頭辞 'con-'（共に・向かい合って）＋ 'frons'（額・前面）の合成。「正面から向き合う」のイメージ。",
+      "tips": "confront は「問題に直面する（be confronted with ～）」と「人を問い詰める（confront someone about ～）」の2パターンを覚えておくと実用的。受け身形 'be confronted with' は入試頻出！",
+      "confusables": "confront（正面から立ち向かう・問い詰める）とface（～に直面する）の違いは、confrontは対立・衝突のニュアンスが強く、faceはより中立的に「状況に向き合う」感覚。",
+      "collocations": [
+        "confront a problem",
+        "be confronted with difficulties",
+        "confront someone about something"
+      ],
+      "trivia": "心理学のアプローチの一つに「コンフロンテーション（confrontation）」があり、カウンセラーがクライアントの矛盾を直接指摘する手法を指す。日常語と専門用語の両方で活躍する単語！"
+    },
+    "frequency": 2300,
+    "cefr": "B2"
+  },
+  {
+    "id": 939,
+    "word": "consult",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "相談する、助言を求める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（資料などを）参照する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈsʌlt/",
+    "syllables": "con-sult",
+    "audioHint": "コンサルト",
+    "examples": [
+      {
+        "en": "You should consult a doctor before taking any new medication.",
+        "ja": "新しい薬を飲む前に医師に相談すべきです。",
+        "blank": "You should ___ a doctor before taking any new medication.",
+        "blankAnswer": "consult"
+      }
+    ],
+    "distractors": [
+      "問い詰める",
+      "経験する",
+      "ためらう"
+    ],
+    "confusableSpellings": [
+      "consullt",
+      "consalt",
+      "consult"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'consultare'（熟慮する・助言を求める）に由来。語根 'consulere'（一緒に議論する）から派生し、'con-'（共に）＋ '-sulere'（取る・相談する）の構造を持つ。",
+      "tips": "consult は「consult with ～」（人と相談する）と「consult ～」（直接目的語を取る）の両方が可能。ただし、日本語で「相談する」と言うと with を付けたくなるが、「consult a doctor（医者に相談する）」のように with なしでも正しい。",
+      "confusables": "consult（専門家・資料に相談・参照する）とadvise（助言を与える）は方向が逆。consultは「助言をもらう側」、adviseは「助言をする側」。混同しやすいので注意。",
+      "collocations": [
+        "consult a doctor",
+        "consult a lawyer",
+        "consult a dictionary"
+      ],
+      "trivia": "「コンサルタント（consultant）」はconsultの名詞形。現代では「コンサル」と略して使われるほど日本語に浸透しているが、もともとは「相談に応じる人」という非常にシンプルな意味から来ている！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 940,
+    "word": "fulfill",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "果たす、実現する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（要件・条件を）満たす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fʊlˈfɪl/",
+    "syllables": "ful-fill",
+    "audioHint": "フルフィル",
+    "examples": [
+      {
+        "en": "She worked hard to fulfill her dream of becoming a doctor.",
+        "ja": "彼女は医者になるという夢を実現するために懸命に働いた。",
+        "blank": "She worked hard to ___ her dream of becoming a doctor.",
+        "blankAnswer": "fulfill"
+      }
+    ],
+    "distractors": [
+      "超える",
+      "直面する",
+      "相談する"
+    ],
+    "confusableSpellings": [
+      "fullfill",
+      "fulfil",
+      "fullfil"
+    ],
+    "passive": {
+      "etymology": "古英語 'fullfyllan'（完全に埋める）に由来。'full'（完全な）＋ 'fill'（満たす）の合成語。「完全に満たす・充足させる」のイメージがそのまま語源に反映されている。",
+      "tips": "アメリカ英語では 'fulfill'（l が2つ）、イギリス英語では 'fulfil'（l が1つ）とスペルが異なる。試験ではどちらも正解だが、統一して使うことが大切。",
+      "confusables": "fulfill（約束・夢・役割を果たす）とachieve（目標を達成する）の違いは、fulfillは「義務や期待に応える・内側から満たす」ニュアンス、achieveは「努力の末に外部的な目標を獲得する」ニュアンス。",
+      "collocations": [
+        "fulfill a dream",
+        "fulfill a promise",
+        "fulfill the requirements"
+      ],
+      "trivia": "「自己実現」を心理学用語で 'self-fulfillment' と言い、マズローの欲求5段階説の最上位に位置する。fulfillには「人生を完全に満たす」という深い意味があり、単なる「完了」を超えた充足感のニュアンスが宿っている！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  }
+]

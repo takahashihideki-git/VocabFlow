@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 661,
+    "word": "shelter",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "避難所、シェルター",
+        "pos": "noun"
+      },
+      {
+        "meaning": "保護する、かくまう",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈʃɛltər/",
+    "syllables": "shel-ter",
+    "audioHint": "シェルター",
+    "examples": [
+      {
+        "en": "They took shelter from the storm in a nearby barn.",
+        "ja": "彼らは近くの納屋で嵐をしのいだ。",
+        "blank": "They took ___ from the storm in a nearby barn.",
+        "blankAnswer": "shelter"
+      }
+    ],
+    "distractors": [
+      "道具、器具",
+      "衣服、衣類",
+      "食料品、食材"
+    ],
+    "confusableSpellings": [
+      "sheltar",
+      "shелter",
+      "sheltur"
+    ],
+    "passive": {
+      "etymology": "古英語 scildtruma（盾の部隊）が語源とも言われ、scield（盾）+ truma（隊列）。「盾で守る」イメージが「保護・避難」へと発展した。",
+      "tips": "名詞として「避難所」という意味で使う場合、take shelter（避難する）というフレーズが定番。動詞として「かくまう」意味でも使えることを覚えておこう。",
+      "confusables": "shelter（物理的な避難場所）と refuge（難民・逃げ場の意味が強い）は似ているが、shelterは「雨風をしのぐ場所」にも使える点が違う。",
+      "collocations": [
+        "take shelter",
+        "emergency shelter",
+        "shelter from the rain"
+      ],
+      "trivia": "英語圏では動物保護施設を「animal shelter」と呼ぶ。捨て犬・捨て猫が保護されている施設がこの名前で、日本の「保健所」とは違い里親を探すための施設であることが多い。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 662,
+    "word": "territory",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "領土、縄張り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "担当区域、テリトリー",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtɛrɪtɔːri/",
+    "syllables": "ter-ri-to-ry",
+    "audioHint": "テリトリー",
+    "examples": [
+      {
+        "en": "The wolves defended their territory fiercely.",
+        "ja": "オオカミたちは縄張りを激しく守った。",
+        "blank": "The wolves defended their ___ fiercely.",
+        "blankAnswer": "territory"
+      }
+    ],
+    "distractors": [
+      "生息地、すみか",
+      "気候、天候",
+      "地形、地勢"
+    ],
+    "confusableSpellings": [
+      "terrirory",
+      "teritory",
+      "teritorry"
+    ],
+    "passive": {
+      "etymology": "ラテン語 territorium（土地の広がり）から。terra（土地・大地）+ -orium（場所を示す接尾辞）。「terra」はテラリウムやMediterraneanにも含まれる。",
+      "tips": "territoryは政治的な「領土」から動物の「縄張り」、ビジネスの「担当エリア」まで幅広く使える。複数形はterritories（yをiesに変える）。",
+      "confusables": "territory（管轄・縄張りの範囲）とregion（地理的な地域）は違う。territoryは「権利・支配」のニュアンスを持つが、regionは単なる地理的区分。",
+      "collocations": [
+        "claim territory",
+        "enemy territory",
+        "sales territory"
+      ],
+      "trivia": "アメリカには「state（州）」になる前の段階として「territory（準州）」があった。アラスカやハワイもかつてterritoryだった時代がある。歴史の教科書にも登場するトリビア！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 663,
+    "word": "boundary",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "境界、境界線",
+        "pos": "noun"
+      },
+      {
+        "meaning": "限界、範囲",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbaʊndəri/",
+    "syllables": "bound-a-ry",
+    "audioHint": "バウンダリー",
+    "examples": [
+      {
+        "en": "The river forms a natural boundary between the two countries.",
+        "ja": "その川は2つの国の間の自然な境界線を形成している。",
+        "blank": "The river forms a natural ___ between the two countries.",
+        "blankAnswer": "boundary"
+      }
+    ],
+    "distractors": [
+      "距離、間隔",
+      "方向、向き",
+      "速度、速さ"
+    ],
+    "confusableSpellings": [
+      "boundry",
+      "boundery",
+      "boudnary"
+    ],
+    "passive": {
+      "etymology": "中英語 bounde（境界）+ -ary（場所・状態を示す接尾辞）。bounde自体は古フランス語 bonde（境界標）から来ており、土地の「杭」のイメージが語源。",
+      "tips": "「personal boundary（個人の境界線）」という心理学・自己啓発的な用法が近年増えている。「Set boundaries（境界線を設ける）」という表現は日常英会話でもよく使われる。",
+      "confusables": "boundary（境界線そのもの）とborder（国境・縁）は似ているが、borderは「接している縁」の意味が強く、boundaryは「区切られた線・限界」のニュアンスがある。",
+      "collocations": [
+        "set boundaries",
+        "cross a boundary",
+        "natural boundary"
+      ],
+      "trivia": "英語の心理学・カウンセリング用語として「healthy boundaries（健全な境界線）」という概念が注目されている。日本でも「バウンダリー」として自己啓発本でよく見かけるようになった。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 664,
+    "word": "habitat",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "生息地、生育地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "居住環境、生活環境",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhæbɪtæt/",
+    "syllables": "hab-i-tat",
+    "audioHint": "ハビタット",
+    "examples": [
+      {
+        "en": "Deforestation destroys the natural habitat of many animals.",
+        "ja": "森林伐採は多くの動物の自然の生息地を破壊する。",
+        "blank": "Deforestation destroys the natural ___ of many animals.",
+        "blankAnswer": "habitat"
+      }
+    ],
+    "distractors": [
+      "縄張り、テリトリー",
+      "天敵、捕食者",
+      "気候変動、環境変化"
+    ],
+    "confusableSpellings": [
+      "habittat",
+      "habitate",
+      "habibat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 habitat（「彼は住む」の三人称単数現在形）から。動詞 habitare（住む）の活用形で、生物学の教科書で「ここに住む」という見出し語として使われたのが語源とされる。",
+      "tips": "habitatは主に生物・動植物の「自然の生息地」に使う専門語。人間の「住環境」にも使えるが、その場合はlivingやresidentialを使う方が自然なこともある。",
+      "confusables": "habitat（生息環境・生物学的意味が強い）とenvironment（環境全般）は違う。habitatは特定の生物が「実際に暮らす場所」に限定されたニュアンスを持つ。",
+      "collocations": [
+        "natural habitat",
+        "habitat destruction",
+        "habitat loss"
+      ],
+      "trivia": "「Habitat for Humanity（ハビタット・フォー・ヒューマニティ）」という国際的なNGOがある。低所得者向けに家を建てるボランティア活動で、元米大統領カーターが参加したことでも有名。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 665,
+    "word": "district",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "地区、行政区",
+        "pos": "noun"
+      },
+      {
+        "meaning": "地域、区域",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɪstrɪkt/",
+    "syllables": "dis-trict",
+    "audioHint": "ディストリクト",
+    "examples": [
+      {
+        "en": "She works in the financial district of the city.",
+        "ja": "彼女は市内の金融街で働いている。",
+        "blank": "She works in the financial ___ of the city.",
+        "blankAnswer": "district"
+      }
+    ],
+    "distractors": [
+      "法律、法令",
+      "政策、方針",
+      "選挙、投票"
+    ],
+    "confusableSpellings": [
+      "districk",
+      "distrit",
+      "distrikt"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 districtus（管轄地域）から。dis-（分離・分散）+ stringere（縛る・締める）が語源で、「縛って区切られた区域」というイメージ。",
+      "tips": "districtは行政・政治的な区画に使うことが多い。日本語の「区」「郡」「地区」に相当するが、school district（学区）やbusiness district（ビジネス街）のようにジャンルを前に付けて使うパターンが定番。",
+      "confusables": "district（行政・機能的な区分）とarea（広義の地域）とzone（特定目的の区域）は似ているが、districtは「公式な行政区画」ニュアンスが最も強い。",
+      "collocations": [
+        "school district",
+        "business district",
+        "federal district"
+      ],
+      "trivia": "映画「Hunger Games（ハンガー・ゲーム）」の世界では、支配国家が国民をDistrict 1〜12に分けて管理している。この「district＝支配された区画」という設定はまさに本来の語源的イメージを使っている。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 666,
+    "word": "conservation",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "保護、保全",
+        "pos": "noun"
+      },
+      {
+        "meaning": "節約、保存",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌkɒnsəˈveɪʃən/",
+    "syllables": "con-ser-va-tion",
+    "audioHint": "コンサヴェイション",
+    "examples": [
+      {
+        "en": "Wildlife conservation is essential to protect endangered species.",
+        "ja": "野生生物の保護は絶滅危惧種を守るために不可欠だ。",
+        "blank": "Wildlife ___ is essential to protect endangered species.",
+        "blankAnswer": "conservation"
+      }
+    ],
+    "distractors": [
+      "汚染、公害",
+      "収穫、採取",
+      "生息地、すみか"
+    ],
+    "confusableSpellings": [
+      "conservasion",
+      "consevation",
+      "conserveation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 conservatio から。con-（共に・完全に）+ servare（保つ・守る）+ -tion（名詞化接尾辞）。「完全に保ち続ける」ことが語源のイメージ。",
+      "tips": "conservationはenvironmentと一緒に使われることが多い。また「energy conservation（省エネ）」のように環境以外でも使える。動詞形はconserve、形容詞はconservative（保守的）。",
+      "confusables": "conservation（積極的に守り維持すること）とpreservation（現状をそのまま維持・保存すること）は微妙に違う。conservationはより「管理・活用しながら守る」ニュアンスがある。",
+      "collocations": [
+        "wildlife conservation",
+        "conservation efforts",
+        "energy conservation"
+      ],
+      "trivia": "英語のconservative（保守的・保守党）と語源が同じ。「今あるものを守ろう」という発想が政治思想にも繋がっている。保守党が「Conservative Party」と呼ばれる理由もここにある。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 667,
+    "word": "harvest",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "収穫、刈り取り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "収穫する、採取する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈhɑːrvɪst/",
+    "syllables": "har-vest",
+    "audioHint": "ハーヴィスト",
+    "examples": [
+      {
+        "en": "Farmers celebrate after a good harvest in autumn.",
+        "ja": "農家の人々は秋の豊作の後に祝う。",
+        "blank": "Farmers celebrate after a good ___ in autumn.",
+        "blankAnswer": "harvest"
+      }
+    ],
+    "distractors": [
+      "保護、保全",
+      "天敵、捕食者",
+      "生態系、自然環境"
+    ],
+    "confusableSpellings": [
+      "harvist",
+      "harvast",
+      "haervest"
+    ],
+    "passive": {
+      "etymology": "古英語 hærfest（秋・収穫期）から。ゲルマン語派に共通する語根で、ドイツ語のHerbst（秋）と同源。もともとは「秋」そのものを指す言葉だった。",
+      "tips": "harvestは名詞でも動詞でも使える。「harvest crops（作物を収穫する）」のように動詞で使うと自然。また比喩的に「harvest data（データを収集する）」という使い方もIT分野で見られる。",
+      "confusables": "harvest（農作物など自然物を収穫・採取すること）とcollect（物を集めること全般）は違う。harvestは「育てたものを刈り取る」というニュアンスがある。",
+      "collocations": [
+        "harvest season",
+        "harvest crops",
+        "good harvest"
+      ],
+      "trivia": "ハロウィンのかぼちゃ飾りは、もともとケルト民族の収穫祭「サウィン（Samhain）」に由来する。harvestと秋のお祭りは古来から深く結びついており、harvest festival（収穫祭）は今もイギリスの学校で行われている。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 668,
+    "word": "predator",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "捕食者、天敵",
+        "pos": "noun"
+      },
+      {
+        "meaning": "略奪者、搾取する人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɛdətər/",
+    "syllables": "pred-a-tor",
+    "audioHint": "プレダター",
+    "examples": [
+      {
+        "en": "The lion is a top predator on the African savanna.",
+        "ja": "ライオンはアフリカのサバンナの頂点捕食者だ。",
+        "blank": "The lion is a top ___ on the African savanna.",
+        "blankAnswer": "predator"
+      }
+    ],
+    "distractors": [
+      "生息地、すみか",
+      "縄張り、テリトリー",
+      "収穫、採取物"
+    ],
+    "confusableSpellings": [
+      "preditor",
+      "predater",
+      "preddator"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praedator（略奪者）から。praeda（獲物・戦利品）+ -tor（行為者を示す接尾辞）。praedaはprey（獲物）とも同源で、「獲物を取る者」が語源。",
+      "tips": "predatorの対義語はprey（獲物）。「predator and prey（捕食者と被食者）」は生物学でセットで使う表現。形容詞形はpredatory（捕食性の・略奪的な）。",
+      "confusables": "predator（捕食する側）とprey（捕食される側）は混同しやすい。preyは動詞で「prey on ～（〜を餌食にする）」とも使える。スペルも似ているので注意。",
+      "collocations": [
+        "top predator",
+        "natural predator",
+        "predator and prey"
+      ],
+      "trivia": "1987年公開のSF映画「Predator（プレデター）」のタイトルはこの単語から。エイリアンが人間を「獲物」として狩るという設定で、まさに「捕食者」の語義をタイトルにした映画だ。"
+    },
+    "frequency": 5000,
+    "cefr": "B2"
+  },
+  {
+    "id": 669,
+    "word": "trap",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "閉じ込める、罠にかける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "罠、わな",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/træp/",
+    "syllables": "trap",
+    "audioHint": "トラップ",
+    "examples": [
+      {
+        "en": "The miners were trapped underground after the explosion.",
+        "ja": "爆発後、鉱山労働者たちは地下に閉じ込められた。",
+        "blank": "The miners were ___ underground after the explosion.",
+        "blankAnswer": "trapped"
+      }
+    ],
+    "distractors": [
+      "引っ張る、引き寄せる",
+      "押す、押しつける",
+      "持ち上げる、運ぶ"
+    ],
+    "confusableSpellings": [
+      "tarp",
+      "trapp",
+      "traap"
+    ],
+    "passive": {
+      "etymology": "古英語 træppe（罠・わな）から。中世の狩猟文化に由来し、「動物を捕まえる仕掛け」が原義。オランダ語 trappe（階段・踏み台）と同源とも言われる。",
+      "tips": "trapは動詞として使う場合、過去形・過去分詞はtrapped（子音字を重ねてからed）。be trapped（閉じ込められる）という受動態の形でよく使われる。名詞のtrapも日本語に入っている（トラップ）。",
+      "confusables": "trap（罠で動けなくする・閉じ込める）とcatch（捕まえる全般）は違う。trapは「逃げられない状況に追い込む」ニュアンスが強く、必ずしも手で捕まえるわけではない。",
+      "collocations": [
+        "set a trap",
+        "fall into a trap",
+        "be trapped in"
+      ],
+      "trivia": "音楽ジャンルの「トラップ（Trap music）」は、ドラッグの売買が行われる危険な集合住宅「trap house」に由来する。社会的に「逃げられない場所」という意味のtrapがそのままジャンル名になった。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 670,
+    "word": "trick",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "だます、欺く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "トリック、手品、策略",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/trɪk/",
+    "syllables": "trick",
+    "audioHint": "トリック",
+    "examples": [
+      {
+        "en": "He tricked her into giving away her password.",
+        "ja": "彼は彼女をだましてパスワードを教えさせた。",
+        "blank": "He ___ her into giving away her password.",
+        "blankAnswer": "tricked"
+      }
+    ],
+    "distractors": [
+      "説得する、納得させる",
+      "命令する、指示する",
+      "想像する、思い描く"
+    ],
+    "confusableSpellings": [
+      "trik",
+      "trikk",
+      "trict"
+    ],
+    "passive": {
+      "etymology": "古フランス語 trique（欺くこと）から来たとされる。さらにノルマン語系の語根に遡るとも言われ、「ずる賢い行為」が原義。魔法使いや曲芸師の「技」を指すようにもなった。",
+      "tips": "「trick A into doing B（AをだましてBさせる）」という構文は頻出。trickを「手品・コツ」という名詞で使う場合は「do a trick（手品をする）」「the trick is to...（コツは〜だ）」などが定番表現。",
+      "confusables": "trick（巧みに欺く）とdeceive（意図的に信じ込ませる）とlie（嘘をつく）は似ているが、trickは「巧みな仕掛けや行動で欺く」ニュアンス。deceiveはより計画的・継続的な欺きを指す。",
+      "collocations": [
+        "trick someone into",
+        "play a trick on",
+        "do a trick"
+      ],
+      "trivia": "ハロウィンの「Trick or Treat（トリック・オア・トリート）」はまさにこの単語。「お菓子をくれなければいたずらするぞ」という意味で、trickが「いたずら・悪ふざけ」の意味で使われている。"
+    },
+    "frequency": 2000,
+    "cefr": "A2"
+  },
+  {
+    "id": 671,
+    "word": "fault",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "欠点、過失",
+        "pos": "noun"
+      },
+      {
+        "meaning": "責任、落ち度",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fɔːlt/",
+    "syllables": "fault",
+    "audioHint": "フォールト",
+    "examples": [
+      {
+        "en": "It was my fault that we missed the train.",
+        "ja": "電車に乗り遅れたのは私のせいでした。",
+        "blank": "It was my ___ that we missed the train.",
+        "blankAnswer": "fault"
+      }
+    ],
+    "distractors": [
+      "偏見",
+      "協力",
+      "対話"
+    ],
+    "confusableSpellings": [
+      "falt",
+      "fould",
+      "foult"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'faute'（欠如）から。ラテン語 'fallere'（欺く・誤る）が語根。",
+      "tips": "「テニスのフォルト（fault）」として日本語でも使われるが、英語では「誰かのせい」という意味が最も頻出。'It's your fault.' のように blame の文脈で多用される。",
+      "confusables": "'mistake' は単純なミス、'fault' は責任・落ち度のニュアンスが強い。'error' はより技術的・客観的な誤り。",
+      "collocations": [
+        "at fault（責任がある）",
+        "find fault with（〜のあら探しをする）",
+        "fault line（断層）"
+      ],
+      "trivia": "地質学の「断層（fault）」も同じ単語。カリフォルニアのサンアンドレアス断層（San Andreas Fault）は世界的に有名で、地球の「欠点」とも言える亀裂。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 672,
+    "word": "discount",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "割引",
+        "pos": "noun"
+      },
+      {
+        "meaning": "割り引く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɪskaʊnt/",
+    "syllables": "dis-count",
+    "audioHint": "ディスカウント",
+    "examples": [
+      {
+        "en": "The store offered a 20% discount on all shoes.",
+        "ja": "その店は全ての靴を20%割引で提供した。",
+        "blank": "The store offered a 20% ___ on all shoes.",
+        "blankAnswer": "discount"
+      }
+    ],
+    "distractors": [
+      "特許",
+      "利益",
+      "予算"
+    ],
+    "confusableSpellings": [
+      "discont",
+      "discoount",
+      "diskount"
+    ],
+    "passive": {
+      "etymology": "'dis-'（離れて）＋ 'count'（数える）→ 「計算から引き離す」。ラテン語 'computare' が語根。",
+      "tips": "日本語の「ディスカウント」はほぼそのまま通じるが、動詞としても使える点を忘れずに。'Don't discount that idea.'（その考えを軽視するな）のように「無視する・軽く見る」という比喩的な意味もある。",
+      "confusables": "'sale' は期間限定のセール全体、'discount' は価格そのものの割引額・率を指す。'rebate' は後で返金される割引。",
+      "collocations": [
+        "offer a discount（割引を提供する）",
+        "at a discount（割引価格で）",
+        "discount rate（割引率）"
+      ],
+      "trivia": "経済学では『割引率（discount rate）』が将来のお金の価値を現在に換算する際に使われる。つまり「未来の100万円は今の何円か」を計算するための概念。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 673,
+    "word": "bias",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "偏見、バイアス",
+        "pos": "noun"
+      },
+      {
+        "meaning": "偏る、傾かせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbaɪəs/",
+    "syllables": "bi-as",
+    "audioHint": "バイアス",
+    "examples": [
+      {
+        "en": "The report showed a clear bias against women.",
+        "ja": "その報告書は女性への明らかな偏見を示していた。",
+        "blank": "The report showed a clear ___ against women.",
+        "blankAnswer": "bias"
+      }
+    ],
+    "distractors": [
+      "欠点",
+      "責任",
+      "信念"
+    ],
+    "confusableSpellings": [
+      "bais",
+      "byus",
+      "biass"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'biais'（斜め）から。元来は布を斜めに裁断する裁縫用語だった。",
+      "tips": "日本語でも「バイアス」と言うが、英語では 'confirmation bias'（確証バイアス）のように心理学・統計学でも頻出。複数形は 'biases'。動詞として使う場合は 'biased'（偏った）という形容詞が特に多い。",
+      "confusables": "'prejudice' は感情的・感情的な先入観、'bias' はより広く「傾き・かたより」全般。'stereotype' は集団に対する固定観念。",
+      "collocations": [
+        "cognitive bias（認知バイアス）",
+        "biased opinion（偏った意見）",
+        "unconscious bias（無意識の偏見）"
+      ],
+      "trivia": "テニスの「バイアス（bias）」は、ボウリング競技のボールが内側に曲がるように重りを入れた技術から来ている。「真っ直ぐ見えて実は傾いている」、これがバイアスの本質。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 674,
+    "word": "cooperation",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "協力、協調",
+        "pos": "noun"
+      },
+      {
+        "meaning": "連携、共同作業",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/koʊˌɒpəˈreɪʃən/",
+    "syllables": "co-op-er-a-tion",
+    "audioHint": "コウオペレイション",
+    "examples": [
+      {
+        "en": "The project succeeded thanks to everyone's cooperation.",
+        "ja": "そのプロジェクトは皆の協力のおかげで成功した。",
+        "blank": "The project succeeded thanks to everyone's ___.",
+        "blankAnswer": "cooperation"
+      }
+    ],
+    "distractors": [
+      "衝突",
+      "競争",
+      "孤立"
+    ],
+    "confusableSpellings": [
+      "coopertion",
+      "coopration",
+      "co-opration"
+    ],
+    "passive": {
+      "etymology": "'co-'（共に）＋ 'operari'（働く）＋ '-tion'（名詞語尾）。ラテン語 'opus'（仕事）が語根。",
+      "tips": "スペルが長いので、'co-'＋'operation' と分けて覚えると楽。'cooperation' は名詞、動詞は 'cooperate'。'Thank you for your cooperation.' はフォーマルな定型表現として覚えておくと便利。",
+      "confusables": "'collaboration' はよりクリエイティブ・対等なニュアンス、'cooperation' は目標達成のための協力全般。'coordination' は複数の要素を調整・統括する意味。",
+      "collocations": [
+        "international cooperation（国際協力）",
+        "in cooperation with（〜と協力して）",
+        "call for cooperation（協力を求める）"
+      ],
+      "trivia": "生物学では「協力行動（cooperation）」が進化の謎の一つ。自分を犠牲にして他者を助ける行動がなぜ進化したかは今も研究中で、アリやミツバチの社会が代表例。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 675,
+    "word": "patent",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "特許（権）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "明白な、露骨な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpætənt/",
+    "syllables": "pat-ent",
+    "audioHint": "パテント",
+    "examples": [
+      {
+        "en": "She filed a patent for her new invention last year.",
+        "ja": "彼女は昨年、新しい発明の特許を申請した。",
+        "blank": "She filed a ___ for her new invention last year.",
+        "blankAnswer": "patent"
+      }
+    ],
+    "distractors": [
+      "割引",
+      "予算",
+      "利益"
+    ],
+    "confusableSpellings": [
+      "patant",
+      "pattent",
+      "patnet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'patere'（開いている・公開されている）から。'letters patent'（公開状）が語源で、発明を公開する代わりに独占権を与える制度を表す。",
+      "tips": "日本語で「パテント」と言うが、英語発音は「パテント」より「パタント」に近い。形容詞として「明白な（patent lie ＝ 露骨な嘘）」という意味もあるが、試験では名詞が主。",
+      "confusables": "'copyright' は創作物の著作権、'trademark' はブランドの商標権、'patent' は発明・技術的アイデアの独占権。",
+      "collocations": [
+        "apply for a patent（特許を申請する）",
+        "patent infringement（特許侵害）",
+        "hold a patent（特許を保有する）"
+      ],
+      "trivia": "エジソンは生涯で1093件の特許を取得したと言われている。これは今でもアメリカ個人最多記録。特許は「公開する代わりに独占権をもらう」という社会的契約。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 676,
+    "word": "dialogue",
+    "pos": "noun",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "対話、会話",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（小説・脚本の）セリフ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdaɪəlɒɡ/",
+    "syllables": "di-a-logue",
+    "audioHint": "ダイアログ",
+    "examples": [
+      {
+        "en": "The two leaders held a dialogue to resolve the conflict.",
+        "ja": "二人の指導者は対立を解決するために対話を行った。",
+        "blank": "The two leaders held a ___ to resolve the conflict.",
+        "blankAnswer": "dialogue"
+      }
+    ],
+    "distractors": [
+      "判断",
+      "記憶",
+      "観察"
+    ],
+    "confusableSpellings": [
+      "dialog",
+      "dialouge",
+      "dialoge"
+    ],
+    "passive": {
+      "etymology": "'dia-'（通して）＋ 'logos'（言葉・理性）。ギリシャ語 'dialogos'（会話）から。'dia-' は「2つの間を通る」という意味。",
+      "tips": "アメリカ英語では 'dialog'（スペル短縮形）も使われる（PC画面の「ダイアログボックス」はこちら）。イギリス英語は 'dialogue'。日本の試験では 'dialogue' が標準。",
+      "confusables": "'conversation' は日常的な会話、'dialogue' は特に目的を持った対話・議論のニュアンス。'discussion' は意見交換・討論に近い。",
+      "collocations": [
+        "open a dialogue（対話を始める）",
+        "dialogue box（ダイアログボックス）",
+        "constructive dialogue（建設的な対話）"
+      ],
+      "trivia": "哲学者ソクラテスの思想は「ソクラテス的対話（Socratic dialogue）」という形式で記録された。一方的な講義ではなく、問答を繰り返して真実に近づく手法は現代の教育にも影響を与えている。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 677,
+    "word": "component",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "部品、構成要素",
+        "pos": "noun"
+      },
+      {
+        "meaning": "構成する、成分の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kəmˈpoʊnənt/",
+    "syllables": "com-po-nent",
+    "audioHint": "コンポーネント",
+    "examples": [
+      {
+        "en": "Each component of the system must work perfectly.",
+        "ja": "システムの各部品は完璧に機能しなければならない。",
+        "blank": "Each ___ of the system must work perfectly.",
+        "blankAnswer": "component"
+      }
+    ],
+    "distractors": [
+      "アルゴリズム",
+      "ネットワーク",
+      "インターフェース"
+    ],
+    "confusableSpellings": [
+      "componant",
+      "conponent",
+      "compnent"
+    ],
+    "passive": {
+      "etymology": "'com-'（共に）＋ 'ponere'（置く）＋ '-ent'（形容詞・名詞語尾）。ラテン語で「共に置かれたもの」→ 「構成要素」。",
+      "tips": "IT・工学で非常に頻出。複数形は 'components'。'key component'（重要な構成要素）という表現はビジネス文書でも多用される。",
+      "confusables": "'element' はより基本的・抽象的な「要素」、'component' は物理的・技術的な「部品・構成要素」に使うことが多い。'part' はより口語的。",
+      "collocations": [
+        "key component（重要な構成要素）",
+        "hardware component（ハードウェア部品）",
+        "component parts（構成部品）"
+      ],
+      "trivia": "ステレオの「コンポ」は英語の 'component stereo system' の略。日本語の「コンポ」は和製英語化していて、英語圏では 'stereo system' や 'hi-fi system' と言う。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 678,
+    "word": "reputation",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "評判、名声",
+        "pos": "noun"
+      },
+      {
+        "meaning": "信用、名誉",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌrɛpjʊˈteɪʃən/",
+    "syllables": "rep-u-ta-tion",
+    "audioHint": "レピュテイション",
+    "examples": [
+      {
+        "en": "The company has a reputation for excellent customer service.",
+        "ja": "その会社は優れた顧客サービスで評判が高い。",
+        "blank": "The company has a ___ for excellent customer service.",
+        "blankAnswer": "reputation"
+      }
+    ],
+    "distractors": [
+      "権限",
+      "法律",
+      "政策"
+    ],
+    "confusableSpellings": [
+      "reputaion",
+      "reputtion",
+      "repuation"
+    ],
+    "passive": {
+      "etymology": "'re-'（再び）＋ 'putare'（考える・計算する）＋ '-tion'（名詞語尾）。「繰り返し考えられること＝世間の評価」という意味で発展。",
+      "tips": "'have a reputation for + 名詞/動名詞' の形が最頻出。'a reputation for being honest'（誠実だという評判）のように使う。'reputation' は長期的な評判、'image' は短期的な印象というニュアンスの違いがある。",
+      "confusables": "'fame' は広く知られた名声（有名さ）、'reputation' は特定の特徴に関する評判。'prestige' は社会的威信・格式を指す。",
+      "collocations": [
+        "build a reputation（評判を築く）",
+        "damage one's reputation（評判を傷つける）",
+        "reputation management（評判管理）"
+      ],
+      "trivia": "テイラー・スウィフトの6thアルバム『reputation（レピュテーション）』は、メディアに作られた自分のイメージへの反撃がテーマ。評判（reputation）とは他者が作るもの、というメッセージが込められている。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 679,
+    "word": "verbal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "言葉の、口頭の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "動詞の（文法用語）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɜːrbəl/",
+    "syllables": "ver-bal",
+    "audioHint": "ヴァーバル",
+    "examples": [
+      {
+        "en": "We made a verbal agreement, not a written contract.",
+        "ja": "私たちは書面ではなく口頭での合意をした。",
+        "blank": "We made a ___ agreement, not a written contract.",
+        "blankAnswer": "verbal"
+      }
+    ],
+    "distractors": [
+      "内部の",
+      "外部の",
+      "定量的な"
+    ],
+    "confusableSpellings": [
+      "verble",
+      "varbal",
+      "verbel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'verbalis'（言葉に関する）から。'verbum'（言葉）が語根。英語の 'verb'（動詞）も同じ語根を持つ。",
+      "tips": "'verbal' は「口頭の」という意味が日常的に最頻出。'verbal communication'（言語コミュニケーション）と 'non-verbal communication'（非言語コミュニケーション）はセットで覚えると有用。",
+      "confusables": "'oral' も「口頭の」だが、'oral' は「口を使った」行為（oral exam など）、'verbal' は「言葉・言語を使った」ニュアンスが強い。",
+      "collocations": [
+        "verbal communication（言語コミュニケーション）",
+        "verbal abuse（言葉による暴力）",
+        "verbal agreement（口頭合意）"
+      ],
+      "trivia": "心理学者メラビアンの「7-38-55ルール」によると、コミュニケーションで言葉（verbal）が伝える内容はたった7%。残り93%は声のトーンや表情という研究結果が、今もSNSで語り継がれている。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 680,
+    "word": "internal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "内部の、社内の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "体内の、国内の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtɜːrnəl/",
+    "syllables": "in-ter-nal",
+    "audioHint": "インターナル",
+    "examples": [
+      {
+        "en": "The company launched an internal investigation into the issue.",
+        "ja": "その会社はその問題について社内調査を開始した。",
+        "blank": "The company launched an ___ investigation into the issue.",
+        "blankAnswer": "internal"
+      }
+    ],
+    "distractors": [
+      "口頭の",
+      "定性的な",
+      "理論的な"
+    ],
+    "confusableSpellings": [
+      "internel",
+      "internall",
+      "internale"
+    ],
+    "passive": {
+      "etymology": "'inter-'（内に）＋ 'nus'（語根：内部）＋ '-al'（形容詞語尾）。ラテン語 'internus'（内側の）から。",
+      "tips": "反意語は 'external'（外部の）。'internal' vs 'external' のペアは試験頻出。医学では「internal organ（内臓）」、ビジネスでは「internal memo（社内メモ）」のように使われる。",
+      "confusables": "'interior' は空間的な「内側・室内」、'internal' は組織・身体・システムの「内部」に使う。'inner' はより心理的・精神的な「内なる」ニュアンス。",
+      "collocations": [
+        "internal affairs（内政・内部事情）",
+        "internal medicine（内科）",
+        "internal combustion engine（内燃機関）"
+      ],
+      "trivia": "「内燃機関（internal combustion engine）」は車のエンジンの正式名称。エンジン内部で燃料を燃やす（internal combustion）からこの名が付いた。電気自動車の普及で、この言葉が「過去の遺物」になる日が来るかも。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  }
+]

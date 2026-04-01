@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1181,
+    "word": "acid",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "酸",
+        "pos": "noun"
+      },
+      {
+        "meaning": "酸性の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæsɪd/",
+    "syllables": "ac-id",
+    "audioHint": "アシッド",
+    "examples": [
+      {
+        "en": "Lemon juice contains a lot of acid.",
+        "ja": "レモン汁にはたくさんの酸が含まれている。",
+        "blank": "Lemon juice contains a lot of ___.",
+        "blankAnswer": "acid"
+      }
+    ],
+    "distractors": [
+      "細菌",
+      "遺伝子",
+      "抗体"
+    ],
+    "confusableSpellings": [
+      "acide",
+      "asid",
+      "accid"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'acidus'（酸っぱい）から。語根 'ac-' は「鋭い・とがった」を意味し、acne（ニキビ）や acute（鋭い）とも同根。",
+      "tips": "名詞（酸）と形容詞（酸性の）の両方で使われる。acid rainは「酸性雨」。日本人は「アシッド」と覚えやすいがスペルはacidと短め。",
+      "confusables": "acidic（形容詞のみ）との違いに注意。acid taste / acidic tasteどちらも使えるが、acidicのほうが形容詞として自然な場面が多い。",
+      "collocations": [
+        "acid rain（酸性雨）",
+        "stomach acid（胃酸）",
+        "acid test（厳しい試練）"
+      ],
+      "trivia": "「acid test」は金の純度を酸で調べた歴史的な試験法から来た表現。現代では「究極の試練」という比喩的意味で使われる。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1182,
+    "word": "bitter",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "苦い；つらい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "強い恨みを持った",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈbɪtər/",
+    "syllables": "bit-ter",
+    "audioHint": "ビター",
+    "examples": [
+      {
+        "en": "She felt bitter about losing the competition.",
+        "ja": "彼女は競争に負けてひどく悔しい思いをした。",
+        "blank": "She felt ___ about losing the competition.",
+        "blankAnswer": "bitter"
+      }
+    ],
+    "distractors": [
+      "陽気な",
+      "思いやりのある",
+      "誇り高い"
+    ],
+    "confusableSpellings": [
+      "biter",
+      "bittor",
+      "bitar"
+    ],
+    "passive": {
+      "etymology": "古英語 'biter' から。語根は 'bite'（噛む）と同じで、「噛むような刺激」が語源。",
+      "tips": "味覚（苦い）と感情（恨みがましい）の両方に使える。日本語の「苦い経験」のように比喩的に使うのが英語でも自然。a bitter lessonで「痛い教訓」。",
+      "confusables": "sour（酸っぱい）と混同しがち。bitterはコーヒーや恨みに、sourはレモンや不機嫌な態度（a sour look）に使う。",
+      "collocations": [
+        "bitter cold（身を切る寒さ）",
+        "bitter rivalry（激しい競争）",
+        "bitter truth（耳の痛い真実）"
+      ],
+      "trivia": "ビールの種類「ビター（Bitter）」はイギリスのエールビールで、ホップの苦みが特徴。「甘い勝利」に対して「苦い敗北」という対比はどの言語でも共通する感覚らしい。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1183,
+    "word": "sensible",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "分別のある；賢明な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "実用的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsensɪbl/",
+    "syllables": "sen-si-ble",
+    "audioHint": "センシブル",
+    "examples": [
+      {
+        "en": "It was sensible to bring an umbrella today.",
+        "ja": "今日は傘を持ってきたのは賢明だった。",
+        "blank": "It was ___ to bring an umbrella today.",
+        "blankAnswer": "sensible"
+      }
+    ],
+    "distractors": [
+      "明確な",
+      "平行した",
+      "曖昧な"
+    ],
+    "confusableSpellings": [
+      "sensable",
+      "sencible",
+      "sensibel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sensibilis'（感知できる）から。語根 'sens-'（感じる）＋ '-ible'（できる）だが、現代英語では「感じる能力がある→しっかり判断できる→分別がある」に意味が変化した。",
+      "tips": "最大の落とし穴は 'sensitive'（敏感な）との混同。sensibleは「賢明・分別がある」、sensitiveは「傷つきやすい・敏感」と全く異なる意味なので要注意。",
+      "confusables": "sensitive との混同が日本人学習者の最頻ミス。sensible shoes（実用的な靴）と言うが、sensitive shoes とは言わない。",
+      "collocations": [
+        "sensible decision（賢明な決断）",
+        "sensible advice（的確なアドバイス）",
+        "sensible shoes（実用的な靴）"
+      ],
+      "trivia": "フランス語の 'sensible' は逆に「敏感な・感情的な」という意味で、英語の sensitive に近い。同じ綴りでも言語が違うと意味が真逆になる「フォールス・フレンド」の好例。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1184,
+    "word": "noble",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "高貴な；崇高な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "貴族の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnoʊbl/",
+    "syllables": "no-ble",
+    "audioHint": "ノウブル",
+    "examples": [
+      {
+        "en": "It was a noble gesture to donate all the prize money.",
+        "ja": "賞金を全額寄付するのは崇高な行為だった。",
+        "blank": "It was a ___ gesture to donate all the prize money.",
+        "blankAnswer": "noble"
+      }
+    ],
+    "distractors": [
+      "落ち着いた",
+      "傷ついた",
+      "恥ずかしい"
+    ],
+    "confusableSpellings": [
+      "nobble",
+      "nobal",
+      "nobile"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'nobilis'（知られた・著名な）から。語根 'gno-/no-'（知る）は know や gnosis とも同根。「名の知れた家柄」→「貴族」→「崇高」へと意味が広がった。",
+      "tips": "人の行動や精神に対して使う場合（崇高な）と、身分・家柄に使う場合（貴族の）を区別しよう。a noble sacrifice（崇高な犠牲）のような比喩的用法が現代英語では多い。",
+      "confusables": "royal（王族の）との違いに注意。nobleは貴族全般を指し、royalは王室に限定される。また noble gas（貴ガス）は化学用語で「反応しにくい安定した気体」。",
+      "collocations": [
+        "noble cause（崇高な大義）",
+        "noble gas（貴ガス）",
+        "noble birth（高貴な生まれ）"
+      ],
+      "trivia": "「ノーブレス・オブリージュ（noblesse oblige）」はフランス語で「高貴さには義務が伴う」という意味。富や権力を持つ者が社会的責任を果たすべきという概念で、現代のCSRにも通じる。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1185,
+    "word": "vague",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "曖昧な；漠然とした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不明確な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/veɪɡ/",
+    "syllables": "vague",
+    "audioHint": "ヴェイグ",
+    "examples": [
+      {
+        "en": "His instructions were too vague to follow.",
+        "ja": "彼の指示は曖昧すぎて従えなかった。",
+        "blank": "His instructions were too ___ to follow.",
+        "blankAnswer": "vague"
+      }
+    ],
+    "distractors": [
+      "固定された",
+      "広大な",
+      "平均的な"
+    ],
+    "confusableSpellings": [
+      "vauge",
+      "vage",
+      "vagge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vagus'（さまよう・不定の）から。この語根は vagabond（放浪者）や extravagant（途方もない）の '-vag-' にも見られる。",
+      "tips": "スペルに注意：'a' と 'u' の順番を逆にして 'vauge' と書くミスが多い。最後の 'e' は黙字。発音はヴェイグ（1音節）。",
+      "confusables": "ambiguous（複数の解釈ができる）との違い。vagueは「情報が不足していて不明確」、ambiguousは「二通り以上の意味に取れる」というニュアンスの違いがある。",
+      "collocations": [
+        "vague answer（曖昧な返答）",
+        "vague memory（漠然とした記憶）",
+        "vague idea（漠然としたアイデア）"
+      ],
+      "trivia": "「バーグ・ウェーブ（vague wave）」という観光トレンド用語がある。訪問先を決めずにぼんやりと旅するスタイルのこと。「曖昧さを楽しむ」現代的な旅行哲学。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1186,
+    "word": "parallel",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "平行な；並行した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "類似した；対応する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpærəlel/",
+    "syllables": "par-al-lel",
+    "audioHint": "パラレル",
+    "examples": [
+      {
+        "en": "The two roads run parallel to each other.",
+        "ja": "その2本の道路は互いに平行に走っている。",
+        "blank": "The two roads run ___ to each other.",
+        "blankAnswer": "parallel"
+      }
+    ],
+    "distractors": [
+      "垂直な",
+      "対角線の",
+      "水平な"
+    ],
+    "confusableSpellings": [
+      "paralell",
+      "parallell",
+      "parralel"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'parallelos'（互いに並ぶ）から。'para-'（〜の横に・並んで）＋ 'allos'（他の）。para- は paragraph や paramedic にも登場する接頭辞。",
+      "tips": "スペルミスが非常に多い単語。'l' が2つ続く部分（-llel）を「パラ・レル」と声に出して覚えるのがコツ。名詞（類似点）・動詞（〜に匹敵する）としても使える。",
+      "confusables": "vertical（垂直）・horizontal（水平）との対比で覚えると整理しやすい。parallel to〜（〜と平行）というフレーズをそのまま覚えよう。",
+      "collocations": [
+        "parallel lines（平行線）",
+        "parallel universe（並行宇宙）",
+        "draw a parallel（類比を引く）"
+      ],
+      "trivia": "「パラレルワールド」は日本語にもなっているが、英語では parallel universe や parallel world と言う。物理学では「多世界解釈」として真剣に研究されているテーマ。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1187,
+    "word": "tense",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "緊張した；張り詰めた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "時制",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tens/",
+    "syllables": "tense",
+    "audioHint": "テンス",
+    "examples": [
+      {
+        "en": "The atmosphere in the room was very tense.",
+        "ja": "部屋の雰囲気はとても張り詰めていた。",
+        "blank": "The atmosphere in the room was very ___.",
+        "blankAnswer": "tense"
+      }
+    ],
+    "distractors": [
+      "穏やかな",
+      "誇り高い",
+      "情熱的な"
+    ],
+    "confusableSpellings": [
+      "tanse",
+      "tens",
+      "tence"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'tensus'（引き伸ばされた）から。動詞 'tendere'（伸ばす・張る）の過去分詞。tension（緊張）、extend（伸ばす）と同じ語根 '-tend/-tens-'。",
+      "tips": "形容詞「緊張した」と名詞「（文法の）時制」は同じ綴り・発音なので文脈で判断する。I feel tense.（緊張している）/ past tense（過去時制）。",
+      "confusables": "nervous（不安・心配で緊張）との違い。tenseは状況全体が「ピリピリしている」感覚、nervousは個人が「不安でドキドキしている」感覚。tense situationとは言うがnervous situationとは言わない。",
+      "collocations": [
+        "tense situation（緊迫した状況）",
+        "muscle tense（筋肉が張る）",
+        "past tense（過去時制）"
+      ],
+      "trivia": "筋肉の「テンション（tension）」と心理的な「テンション」は英語では別物。日本語で「テンション高い」は excitement に近いが、英語の tension は「緊張・張力」でむしろネガティブ。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1188,
+    "word": "vertical",
+    "pos": "adjective",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "垂直の；縦の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "頂点に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɜːrtɪkl/",
+    "syllables": "ver-ti-cal",
+    "audioHint": "ヴァーティカル",
+    "examples": [
+      {
+        "en": "Draw a vertical line from top to bottom.",
+        "ja": "上から下に縦線を引いてください。",
+        "blank": "Draw a ___ line from top to bottom.",
+        "blankAnswer": "vertical"
+      }
+    ],
+    "distractors": [
+      "平行な",
+      "斜めの",
+      "円形の"
+    ],
+    "confusableSpellings": [
+      "verticle",
+      "vertecal",
+      "virticle"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vertex'（頂点・渦の中心）から。'vertere'（回る・向ける）＋ '-ical'（形容詞語尾）。vertex（頂点）、vortex（渦）と同語根。",
+      "tips": "horizontal（水平・横）との対比で必ずセットで覚えよう。縦の棒がある 'v' の字のように「Vertical＝縦」と視覚的に関連付けると覚えやすい。",
+      "confusables": "horizontal（水平）との対比が基本。vertical integration（垂直統合）はビジネス用語で、製造から販売まで一社で行う経営戦略を指す。",
+      "collocations": [
+        "vertical line（垂直線）",
+        "vertical integration（垂直統合）",
+        "vertical drop（垂直の落差）"
+      ],
+      "trivia": "スキーやスノーボードの競技では「バーティカル（vertical）」という指標があり、滑り降りた高低差の合計を指す。標高差が大きいゲレンデほど「バーティカルが高い」と表現される。"
+    },
+    "frequency": 2300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1189,
+    "word": "indigenous",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "先住民の；固有の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "その土地固有の（生物など）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈdɪdʒɪnəs/",
+    "syllables": "in-dig-e-nous",
+    "audioHint": "インディジェナス",
+    "examples": [
+      {
+        "en": "The museum displays artifacts of indigenous cultures.",
+        "ja": "その博物館は先住民の文化の遺物を展示している。",
+        "blank": "The museum displays artifacts of ___ cultures.",
+        "blankAnswer": "indigenous"
+      }
+    ],
+    "distractors": [
+      "外来の",
+      "人工的な",
+      "絶滅した"
+    ],
+    "confusableSpellings": [
+      "indigenious",
+      "indiginous",
+      "indigeneous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'indigena'（その土地生まれの人）から。'indu-/indi-'（内部・中に）＋ 'gena'（生まれた）。'-gen-' は generate（生む）や genesis（起源）と同語根。",
+      "tips": "スペルに 'e' を余分に入れるミス（'indigenious'）が多い。4音節でin-DIG-e-nousと第2音節にアクセント。nativeより学術的・政治的に適切な文脈で使われる。",
+      "confusables": "aboriginal（先住民の）とほぼ同義だが、indigenousのほうが世界的に幅広く使える。Aboriginalは主にオーストラリアの先住民を指す固有名詞的用法がある。",
+      "collocations": [
+        "indigenous people（先住民族）",
+        "indigenous species（固有種）",
+        "indigenous knowledge（伝統的知識）"
+      ],
+      "trivia": "国連は毎年8月9日を「世界の先住民の国際デー（International Day of the World's Indigenous Peoples）」と制定。世界に約5000の先住民族グループ、約4億7600万人が存在するとされている。"
+    },
+    "frequency": 3200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1190,
+    "word": "aboriginal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "先住民の；原住民の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "原始的な；最初からの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌæbəˈrɪdʒɪnl/",
+    "syllables": "ab-o-rig-i-nal",
+    "audioHint": "アボリジナル",
+    "examples": [
+      {
+        "en": "Aboriginal art is famous for its dot painting style.",
+        "ja": "アボリジナルアートはドット絵のスタイルで有名だ。",
+        "blank": "___ art is famous for its dot painting style.",
+        "blankAnswer": "Aboriginal"
+      }
+    ],
+    "distractors": [
+      "植民地時代の",
+      "近代的な",
+      "外来種の"
+    ],
+    "confusableSpellings": [
+      "aborginal",
+      "aborigenal",
+      "aboriignal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ab origine'（起源から）が一語になったもの。'ab-'（〜から）＋ 'origo/origin'（起源）。origin（起源）や original（最初の）と同語根。",
+      "tips": "大文字のAboriginalはオーストラリア先住民を特定して指す固有名詞的用法。小文字のaboriginalは「その土地原来の」という一般的な形容詞。文脈や大文字小文字で意味が変わるので注意。",
+      "confusables": "indigenousとの違い：aboriginalは特にオーストラリアの文脈で頻用される。学術文書では両方とも使われるが、当事者コミュニティが好む表現を優先するのが現代の礼儀。",
+      "collocations": [
+        "Aboriginal culture（アボリジナル文化）",
+        "aboriginal rights（先住民の権利）",
+        "aboriginal language（先住民の言語）"
+      ],
+      "trivia": "オーストラリアのアボリジナルの人々の歴史は約6万5000年前にさかのぼり、現存する最古の連続した文化とされている。彼らの「ドリーミング（Dreamtime）」という世界観は、現代アートにも大きな影響を与えている。"
+    },
+    "frequency": 3500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1191,
+    "word": "seasonal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "季節的な、季節に応じた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "季節限定の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsiːzənəl/",
+    "syllables": "sea-son-al",
+    "audioHint": "シーズナル",
+    "examples": [
+      {
+        "en": "Many farmers depend on seasonal workers during the harvest.",
+        "ja": "多くの農家は収穫期に季節労働者に頼っている。",
+        "blank": "Many farmers depend on ___ workers during the harvest.",
+        "blankAnswer": "seasonal"
+      }
+    ],
+    "distractors": [
+      "技術的な",
+      "慢性的な",
+      "自発的な"
+    ],
+    "confusableSpellings": [
+      "seasonal",
+      "seasonnal",
+      "seasoal"
+    ],
+    "passive": {
+      "etymology": "「season（季節）」＋接尾辞「-al（〜の、〜に関する）」。seasonはラテン語 satio（種まきの時期）に由来。",
+      "tips": "「シーズン限定」という日本語でも使われているので意味はつかみやすいが、seasonableと混同しやすい。seasonalは「季節ごとに変わる」、seasonableは「時節に合った・適切な」という違いがある。",
+      "confusables": "seasonable（時節にかなった）と混同しがち。seasonal jobsのように職や気候に使うのがseasonal、seasonable weatherのように「この季節らしい天気」にはseasonableを使う。",
+      "collocations": [
+        "seasonal worker（季節労働者）",
+        "seasonal variation（季節変動）",
+        "seasonal affective disorder（季節性情動障害）"
+      ],
+      "trivia": "「季節性うつ病」はSeasonal Affective Disorder、略してSAD。頭文字がそのまま「悲しい」を意味するという、ちょっと切ないネーミング。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1192,
+    "word": "abundant",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "豊富な、たくさんの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "富んでいる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈbʌndənt/",
+    "syllables": "a-bun-dant",
+    "audioHint": "アバンダント",
+    "examples": [
+      {
+        "en": "The region has abundant natural resources.",
+        "ja": "その地域には豊富な天然資源がある。",
+        "blank": "The region has ___ natural resources.",
+        "blankAnswer": "abundant"
+      }
+    ],
+    "distractors": [
+      "傾向がある",
+      "つかの間の",
+      "意図的な"
+    ],
+    "confusableSpellings": [
+      "abundent",
+      "abbundant",
+      "abundunt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 abundare（넘れ流れる）から。ab-（離れて・強意）＋unda（波）→「波があふれ出る」イメージ。",
+      "tips": "「豊富」という意味では abundant in ～ か abundant with ～ が使われる。「この地域は魚が豊富」はThis area is abundant in fish. が正しく、abundant of fish とは言えない点に注意。",
+      "confusables": "plentiful（十分にある）と似ているが、abundantはplentifulより「あり余るほど」というニュアンスが強い。copious（大量の）も類義語だが、よりフォーマルな文脈で使われる。",
+      "collocations": [
+        "abundant resources（豊富な資源）",
+        "abundant evidence（豊富な証拠）",
+        "abundant in wildlife（野生動物が豊富な）"
+      ],
+      "trivia": "「アバンダンス思考（abundance mindset）」はビジネス書では有名な概念で、「世界には十分なリソースがある」と考える思考法。逆はscarcity mindset（欠乏思考）。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1193,
+    "word": "hybrid",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "ハイブリッドの、混合の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "雑種の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈhaɪbrɪd/",
+    "syllables": "hy-brid",
+    "audioHint": "ハイブリッド",
+    "examples": [
+      {
+        "en": "She drives a hybrid car to save fuel.",
+        "ja": "彼女は燃料を節約するためにハイブリッド車に乗っている。",
+        "blank": "She drives a ___ car to save fuel.",
+        "blankAnswer": "hybrid"
+      }
+    ],
+    "distractors": [
+      "季節的な",
+      "感覚的な",
+      "無関係な"
+    ],
+    "confusableSpellings": [
+      "hybred",
+      "hybride",
+      "hiybrid"
+    ],
+    "passive": {
+      "etymology": "ラテン語 hybrida（野生のイノシシと家豚の交配種）から。もともとは生物学用語で「雑種」を意味し、そこから「異なるものの組み合わせ」全般を指すようになった。",
+      "tips": "名詞としても形容詞としても使える。a hybrid（名詞：混成物）とhybrid technology（形容詞：混合技術）どちらもOK。日本語の「ハイブリッド」とほぼ同義なので意味は覚えやすい。",
+      "confusables": "composite（複合の）と意味が近いが、hybridは「異なる種類・システム」の組み合わせ、compositeは「複数の要素を組み合わせた一体物」というニュアンスがある。",
+      "collocations": [
+        "hybrid vehicle（ハイブリッド車）",
+        "hybrid model（ハイブリッドモデル）",
+        "hybrid work（ハイブリッドワーク）"
+      ],
+      "trivia": "テスラのような純電気自動車はEV、エンジンと電気モーターの両方を持つのがhybrid。さらにコンセントで充電できるハイブリッドはPHEV（Plug-in Hybrid Electric Vehicle）と呼ばれる。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1194,
+    "word": "irrelevant",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "無関係な、関係のない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "的外れな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈreləvənt/",
+    "syllables": "ir-rel-e-vant",
+    "audioHint": "イレレヴァント",
+    "examples": [
+      {
+        "en": "His comment was completely irrelevant to the topic.",
+        "ja": "彼のコメントはそのトピックとまったく無関係だった。",
+        "blank": "His comment was completely ___ to the topic.",
+        "blankAnswer": "irrelevant"
+      }
+    ],
+    "distractors": [
+      "自発的な",
+      "慢性的な",
+      "混合の"
+    ],
+    "confusableSpellings": [
+      "irrelavent",
+      "irrelevant",
+      "irrelvant"
+    ],
+    "passive": {
+      "etymology": "ir-（not、negation）＋relevant（関連した）。relevantはラテン語 relevare（持ち上げる、助ける）から。「持ち上げて支えるほどの関係もない」イメージ。",
+      "tips": "irrelevantの後には to が続く（irrelevant to the issue）。「〜に無関係」と言うとき for を使いがちだが、正しくはtoを使う。また「関係ない」と言いたいときにunrelatedを使うこともできるが、irrelevantは「的外れで重要でない」というニュアンスが強い。",
+      "confusables": "unrelated（無関係の）との違いに注意。unrelatedは単に「関係がない」だが、irrelevantは「議論・問題に対して的外れ・重要でない」という評価が含まれる。",
+      "collocations": [
+        "completely irrelevant（まったく無関係な）",
+        "irrelevant to the discussion（議論と無関係な）",
+        "deem irrelevant（無関係とみなす）"
+      ],
+      "trivia": "ビジネスメールで「That's irrelevant.」と言うのはかなり強い否定表現。英語ネイティブでもやや失礼に聞こえることがあるので、That might not be directly related. と和らげるほうが無難。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1195,
+    "word": "ridiculous",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "ばかげた、おかしな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "笑わせるほどの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/rɪˈdɪkjʊləs/",
+    "syllables": "ri-dic-u-lous",
+    "audioHint": "リディキュラス",
+    "examples": [
+      {
+        "en": "It's ridiculous to wait two hours for a table.",
+        "ja": "席を待つのに2時間かかるなんてばかげている。",
+        "blank": "It's ___ to wait two hours for a table.",
+        "blankAnswer": "ridiculous"
+      }
+    ],
+    "distractors": [
+      "豊富な",
+      "季節的な",
+      "感覚的な"
+    ],
+    "confusableSpellings": [
+      "ridiculus",
+      "rediculous",
+      "ridicoulous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ridiculus（笑いを引き起こす）から。ridēre（笑う）が語根。同じ語根にridi cule（あざ笑い）がある。",
+      "tips": "absurd（不条理な）やludicrous（まったくばかげた）と意味が近いが、ridiculousは日常会話で最も広く使われる。That's ridiculous!は驚きや怒りの感嘆としても使われる。",
+      "confusables": "absurd（論理的に不条理）はより哲学的・論理的な「ばかげた」、ludicrous（あざ笑いを誘うほどばかげた）はよりユーモラスな文脈で使われる。ridiculousは両方の中間的なニュアンス。",
+      "collocations": [
+        "absolutely ridiculous（まったくばかげた）",
+        "look ridiculous（ばかげて見える）",
+        "ridiculous price（ありえない値段）"
+      ],
+      "trivia": "SNSでは「This is ridiculous!」が怒りの表現としてよく使われるが、「ridiculously good（信じられないほど素晴らしい）」のように褒める文脈でも使われるのが面白い。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1196,
+    "word": "fairy",
+    "pos": "adjective",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "妖精の、妖精に関する",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "妖精（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfeəri/",
+    "syllables": "fair-y",
+    "audioHint": "フェアリー",
+    "examples": [
+      {
+        "en": "She loves reading fairy tales before bed.",
+        "ja": "彼女は寝る前に童話を読むのが好きだ。",
+        "blank": "She loves reading ___ tales before bed.",
+        "blankAnswer": "fairy"
+      }
+    ],
+    "distractors": [
+      "ばかげた",
+      "豊富な",
+      "無関係な"
+    ],
+    "confusableSpellings": [
+      "faery",
+      "fairie",
+      "fairie"
+    ],
+    "passive": {
+      "etymology": "古フランス語 faerie（妖精の国）から。さらにラテン語 fata（運命の女神たち）に遡る。Fate（運命）と同じ語根を持つ。",
+      "tips": "fairyは名詞としても形容詞としても使われる。「妖精話・おとぎ話」はfairy tale（名詞+名詞の複合語）で、fairy storyとも言う。「フェアリー」とカタカナ読みすると「フェリー（ferry）」と混同するので注意。",
+      "confusables": "ferry（渡し船）と発音が非常に似ている。「フェリー」と聞いて ferry か fairy か文脈で判断する必要がある。また、elf（エルフ）や sprite（小妖精）も似た存在だが、fairyはより小さくて羽のある女性的なイメージが強い。",
+      "collocations": [
+        "fairy tale（おとぎ話）",
+        "fairy godmother（魔法の名付け親）",
+        "fairy lights（イルミネーション）"
+      ],
+      "trivia": "イギリスではクリスマスツリーに飾る小さな電飾を「fairy lights」と呼ぶ。妖精が放つ光をイメージしたネーミングで、アメリカでは単に「Christmas lights」と言うことが多い。"
+    },
+    "frequency": 4800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1197,
+    "word": "sensory",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "感覚の、知覚の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "感覚器官に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsensəri/",
+    "syllables": "sen-so-ry",
+    "audioHint": "センソリー",
+    "examples": [
+      {
+        "en": "The baby has a strong sensory response to loud sounds.",
+        "ja": "その赤ちゃんは大きな音に強い感覚反応を示す。",
+        "blank": "The baby has a strong ___ response to loud sounds.",
+        "blankAnswer": "sensory"
+      }
+    ],
+    "distractors": [
+      "季節的な",
+      "混合の",
+      "自発的な"
+    ],
+    "confusableSpellings": [
+      "sensery",
+      "sencory",
+      "sensori"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sensus（感覚）＋接尾辞 -ory（〜に関する）。sensusはsentire（感じる）の過去分詞。sense・sensation・sensitiveと同じ語根ファミリー。",
+      "tips": "sensory は「五感に関する」という医学・心理学用語としてよく使われる。日本人はsensibleと混同しがちだが、sensible は「分別のある・賢明な」という意味で全く別物。",
+      "confusables": "sensible（分別のある）、sensitive（敏感な）、sentimental（感傷的な）はすべて同じ語根だが意味が異なる。sensoryは「感覚器官に関する生物学的・物理的な知覚」に絞って使う。",
+      "collocations": [
+        "sensory processing（感覚処理）",
+        "sensory overload（感覚過負荷）",
+        "sensory deprivation（感覚遮断）"
+      ],
+      "trivia": "「感覚過負荷（sensory overload）」はADHDや自閉スペクトラム症の文脈でよく使われる言葉。騒がしいショッピングモールで疲弊するのも一種のsensory overloadとされている。"
+    },
+    "frequency": 5100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1198,
+    "word": "chronic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "慢性的な、長期にわたる",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "習慣的な、常習的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkrɒnɪk/",
+    "syllables": "chron-ic",
+    "audioHint": "クロニック",
+    "examples": [
+      {
+        "en": "He suffers from chronic back pain every day.",
+        "ja": "彼は毎日慢性的な腰痛に悩んでいる。",
+        "blank": "He suffers from ___ back pain every day.",
+        "blankAnswer": "chronic"
+      }
+    ],
+    "distractors": [
+      "豊富な",
+      "混合の",
+      "感覚の"
+    ],
+    "confusableSpellings": [
+      "cronick",
+      "chronick",
+      "kronik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 khronos（時間）＋接尾辞 -ic。「時間が長くかかる」というイメージ。chronology（年代記）やchronometer（精密時計）と同じ語根。",
+      "tips": "医学用語では「慢性（chronic）」の反対は「急性（acute）」。chronic diseaseは「慢性疾患」、acute diseaseは「急性疾患」。また日常会話では a chronic liar（習慣的な嘘つき）のように否定的な習慣を表すこともある。",
+      "confusables": "acute（急性の・深刻な）が対義語。chronic painは「じわじわと続く痛み」、acute painは「突然の激しい痛み」。この対比を覚えると医療英語がぐっと理解しやすくなる。",
+      "collocations": [
+        "chronic disease（慢性疾患）",
+        "chronic pain（慢性疼痛）",
+        "chronic shortage（慢性的不足）"
+      ],
+      "trivia": "「クロノス」はギリシャ神話の時間の神。そこからchronicが来ているので、chronicとは「時間と戦い続けている状態」とも言える。映画の「Avengers: Endgame」での時間旅行もchronology（時系列）ネタが満載。"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1199,
+    "word": "voluntary",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "自発的な、任意の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ボランティアの、無償の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɒləntəri/",
+    "syllables": "vol-un-ta-ry",
+    "audioHint": "ヴォランタリー",
+    "examples": [
+      {
+        "en": "Participation in the survey is completely voluntary.",
+        "ja": "調査への参加は完全に任意です。",
+        "blank": "Participation in the survey is completely ___.",
+        "blankAnswer": "voluntary"
+      }
+    ],
+    "distractors": [
+      "季節的な",
+      "感覚的な",
+      "無関係な"
+    ],
+    "confusableSpellings": [
+      "voluntery",
+      "vouluntary",
+      "voluntray"
+    ],
+    "passive": {
+      "etymology": "ラテン語 voluntas（意志、望み）＋接尾辞 -ary。voluntasはvelle（望む）から。volunteer（ボランティア）と同じ語根ファミリー。",
+      "tips": "voluntaryの反対はcompulsory（強制的な）またはmandatory（義務的な）。「自主的に」という副詞形はvoluntarily（ヴォランタリリー）。日本語の「ボランティア」から意味は取れるが、形容詞として使う場面を意識して覚えよう。",
+      "confusables": "volunteer（ボランティアをする・名詞）とvoluntary（形容詞）を混同しないこと。volunteer workと言えばOKだが、voluntary workerという言い方もある。また、spontaneous（自然発生的な）は「事前計画なしに起こる自発性」で少し違うニュアンス。",
+      "collocations": [
+        "voluntary work（ボランティア活動）",
+        "voluntary agreement（自主的合意）",
+        "voluntary basis（任意ベース）"
+      ],
+      "trivia": "「voluntary muscles（随意筋）」は自分の意志で動かせる筋肉、「involuntary muscles（不随意筋）」は心臓や内臓など自動的に動く筋肉。この対比は解剖学の基本用語で、中高生の理科でも登場する。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1200,
+    "word": "inclined",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "〜したい気持ちがある、傾向がある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "傾いた、斜めの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈklaɪnd/",
+    "syllables": "in-clined",
+    "audioHint": "インクライン(ド)",
+    "examples": [
+      {
+        "en": "I'm inclined to agree with your suggestion.",
+        "ja": "あなたの提案に賛成したい気持ちがある。",
+        "blank": "I'm ___ to agree with your suggestion.",
+        "blankAnswer": "inclined"
+      }
+    ],
+    "distractors": [
+      "豊富な",
+      "慢性的な",
+      "自発的な"
+    ],
+    "confusableSpellings": [
+      "inclind",
+      "inclyned",
+      "enclined"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inclinare（傾ける）から。in-（〜に向かって）＋clinare（曲げる、傾ける）。decline（断る・下降する）とも同じ語根で、de-（下に）＋clinare。",
+      "tips": "be inclined to do の形でよく使われ、「〜しがちだ・〜したい傾向がある」という意味になる。tend toと意味が近いが、inclinedのほうが「今この瞬間の気持ちや傾向」を表すことが多い。feel inclinedとも言える。",
+      "confusables": "tend to（〜する傾向がある）と意味が近いが、tend toはより客観的・習慣的な傾向、be inclinedはその時点での心理的傾向を表す。also、prone to（〜しやすい）は否定的な状況に使われることが多い。",
+      "collocations": [
+        "inclined to believe（信じたい気持ちがある）",
+        "feel inclined to（〜したい気持ちになる）",
+        "inclined surface（斜面）"
+      ],
+      "trivia": "「インクライン」は日本語でも鉄道・物流用語として使われ、急な斜面を上る傾斜鉄道のことを指す。京都の蹴上インクラインは観光名所で、まさにinclineの「傾斜」の意味をそのまま使った名前。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  }
+]

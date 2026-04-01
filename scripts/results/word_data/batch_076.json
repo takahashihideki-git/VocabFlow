@@ -1,0 +1,988 @@
+[
+  {
+    "id": 1501,
+    "word": "bless",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "祝福する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "恵みを与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/blɛs/",
+    "syllables": "bless",
+    "audioHint": "ブレス",
+    "examples": [
+      {
+        "en": "She blessed the children before they left for school.",
+        "ja": "彼女は子供たちが学校に出かける前に祝福した。",
+        "blank": "She ___ the children before they left for school.",
+        "blankAnswer": "blessed"
+      }
+    ],
+    "distractors": [
+      "非難する",
+      "罰する",
+      "拒絶する"
+    ],
+    "confusableSpellings": [
+      "blees",
+      "blesss"
+    ],
+    "passive": {
+      "etymology": "古英語 'blētsian'（血で清める、聖別する）に由来。原始ゲルマン語の 'blōd'（血）と関連し、宗教的儀式で血を使って清めることから「祝福する」の意味に発展した。",
+      "tips": "「Bless you!」はくしゃみをした人に言う表現で、悪霊を追い払うという迷信から来ている。blessは他動詞なので必ず目的語が必要。「God bless you」のように命令形でもよく使われる。",
+      "confusables": "bless（祝福する）と praise（賞賛する）は似ているが、blessは神や運命からの恩恵・加護を与えるニュアンスで、praiseは人が人を褒めるときに使う。",
+      "collocations": [
+        "bless you",
+        "be blessed with",
+        "bless the food"
+      ],
+      "trivia": "「Bless you」はくしゃみをすると魂が飛び出すという中世ヨーロッパの迷信から来た表現。今では宗教と関係なく日常的に使われている。ちなみに英語では「くしゃみをする」を sneeze という。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1502,
+    "word": "regain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り戻す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "回復する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈɡeɪn/",
+    "syllables": "re-gain",
+    "audioHint": "リゲイン",
+    "examples": [
+      {
+        "en": "He worked hard to regain his confidence after the failure.",
+        "ja": "彼は失敗の後、自信を取り戻すために懸命に努力した。",
+        "blank": "He worked hard to ___ his confidence after the failure.",
+        "blankAnswer": "regain"
+      }
+    ],
+    "distractors": [
+      "手放す",
+      "変換する",
+      "積み重ねる"
+    ],
+    "confusableSpellings": [
+      "regaine",
+      "rigain"
+    ],
+    "passive": {
+      "etymology": "接頭辞 're-'（再び）＋ 'gain'（得る）。gain はフランス語 'gagner'（得る）に由来。「再び得る」が原義で、「失ったものを取り戻す」という意味になった。",
+      "tips": "regain は「失ったものを取り戻す」という文脈で使う。recover とほぼ同義だが、regain はより「元の状態に戻す」というニュアンスが強い。regain consciousness（意識を取り戻す）、regain control（支配権を取り戻す）が頻出。",
+      "confusables": "regain と recover は似ているが、recover は健康・経済など広い回復に使い、regain はより具体的に「失った特定のものを再び手に入れる」ときに使う傾向がある。",
+      "collocations": [
+        "regain consciousness",
+        "regain control",
+        "regain confidence"
+      ],
+      "trivia": "日本語の栄養ドリンク「リゲイン」はこの単語から来ている。「24時間戦えますか」のCMで有名になったが、英語の regain そのものが商品名のヒントになったとされる。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1503,
+    "word": "conform",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "従う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "順応する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈfɔːrm/",
+    "syllables": "con-form",
+    "audioHint": "コンフォーム",
+    "examples": [
+      {
+        "en": "Students are expected to conform to the school's rules.",
+        "ja": "生徒たちは学校の規則に従うことが期待されている。",
+        "blank": "Students are expected to ___ to the school's rules.",
+        "blankAnswer": "conform"
+      }
+    ],
+    "distractors": [
+      "反抗する",
+      "指示する",
+      "脅迫する"
+    ],
+    "confusableSpellings": [
+      "confrom",
+      "confoorm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conformare'（形を合わせる）に由来。接頭辞 'con-'（共に・一緒に）＋ 'forma'（形）。「同じ形にそろえる」が原義で、そこから「規範に合わせる・従う」の意味が生まれた。",
+      "tips": "conform は必ず 'conform to' または 'conform with' の形で使う。目的語に規則・基準・期待などが来る。日本人は「conform the rules」と to を抜かしがちなので注意。",
+      "confusables": "conform（規則や慣習に従う）と comply（命令・要求に応じる）は似ているが、conform はより社会的・文化的な規範への順応を指し、comply はより具体的な指示や要求に従うときに使う。",
+      "collocations": [
+        "conform to rules",
+        "conform to standards",
+        "conform with expectations"
+      ],
+      "trivia": "社会心理学では「conformity（同調）」という概念が重要で、アッシュの同調実験では多数派の誤った答えに75%の人が少なくとも一度は同調したことが示された。集団の圧力がいかに強いかを示す実験として有名。"
+    },
+    "frequency": 5000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1504,
+    "word": "enroll",
+    "pos": "verb",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "入学する・登録する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "入会させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈroʊl/",
+    "syllables": "en-roll",
+    "audioHint": "インロール",
+    "examples": [
+      {
+        "en": "She decided to enroll in an online coding course.",
+        "ja": "彼女はオンラインのコーディング講座に登録することにした。",
+        "blank": "She decided to ___ in an online coding course.",
+        "blankAnswer": "enroll"
+      }
+    ],
+    "distractors": [
+      "卒業する",
+      "試験を受ける",
+      "授業をさぼる"
+    ],
+    "confusableSpellings": [
+      "enrole",
+      "enroal",
+      "inroll"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'enroller'（巻物に記録する）に由来。接頭辞 'en-'（中に）＋ 'rolle'（巻物・リスト）。昔は学生名簿を巻物に書いていたことから「名簿に記入する＝入学する」の意味になった。",
+      "tips": "enroll in（～に登録する）の形が基本。米国英語では enroll、英国英語では enrol（l が1つ）とスペルが違う。日本人は register と混同しがちだが、enroll は特に学校・コース・プログラムへの入学・登録に使うことが多い。",
+      "confusables": "enroll（学校・コースに入学・登録する）と register（幅広い登録・記録一般）を使い分けること。enroll は教育・訓練プログラムへの参加に特化したニュアンスがある。",
+      "collocations": [
+        "enroll in a course",
+        "enroll at a university",
+        "enroll in a program"
+      ],
+      "trivia": "中世ヨーロッパの大学では、入学手続きは文字通り「羊皮紙の巻物（roll）に名前を書くこと」だった。そのため enroll という言葉が生まれた。現代のオンライン入学フォームも、デジタルの「巻物」といえるかもしれない。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1505,
+    "word": "entitle",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "権利を与える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "題名をつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈtaɪtl/",
+    "syllables": "en-ti-tle",
+    "audioHint": "インタイトル",
+    "examples": [
+      {
+        "en": "This coupon entitles you to a free drink.",
+        "ja": "このクーポンで無料ドリンクを1杯もらえます。",
+        "blank": "This coupon ___ you to a free drink.",
+        "blankAnswer": "entitles"
+      }
+    ],
+    "distractors": [
+      "義務を課す",
+      "禁止する",
+      "承認する"
+    ],
+    "confusableSpellings": [
+      "intitle",
+      "entital",
+      "entitle"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intitulare'（タイトルをつける）に由来。接頭辞 'en-'（～にする）＋ 'title'（タイトル・権利証書）。もともとは「題名をつける」の意味で、そこから「正式な権利・資格を与える」の意味が派生した。",
+      "tips": "「entitle A to B」で「AにBの権利を与える」という構文が重要。受け身形「be entitled to」で「～する権利がある」という意味でよく使われる。be entitled to の後ろは名詞か動詞の原形。",
+      "confusables": "entitle（権利・資格を付与する）と authorize（正式に許可・権限を与える）は似ているが、entitle はある条件・状況に基づく権利の付与を指し、authorize はより公式な許可・権限の付与を意味する。",
+      "collocations": [
+        "be entitled to",
+        "entitle someone to",
+        "feel entitled"
+      ],
+      "trivia": "近年「entitlement（当然の権利意識）」という言葉がネガティブな意味で使われることが増えた。特に「entitled generation（自分は特別扱いされて当然と思う若者世代）」という表現がSNSでよく見られる。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1506,
+    "word": "halt",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "止まる・止める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "停止",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/hɔːlt/",
+    "syllables": "halt",
+    "audioHint": "ホールト",
+    "examples": [
+      {
+        "en": "The soldier shouted 'Halt!' and the crowd stopped moving.",
+        "ja": "兵士が「止まれ！」と叫び、群衆は動くのをやめた。",
+        "blank": "The soldier shouted '___!' and the crowd stopped moving.",
+        "blankAnswer": "Halt"
+      }
+    ],
+    "distractors": [
+      "加速する",
+      "押し進める",
+      "回転させる"
+    ],
+    "confusableSpellings": [
+      "hault",
+      "hallt"
+    ],
+    "passive": {
+      "etymology": "ドイツ語 'halt'（止まれ）に由来し、16世紀に軍事用語として英語に入った。ゲルマン語系の 'haltan'（保つ・支える）とも関連。もともと軍隊の行進を止める命令語として使われた。",
+      "tips": "halt は stop よりもフォーマルで、突然・強制的に止まる・止めるニュアンスがある。特に軍事・官僚的文脈や報道でよく使われる。「come to a halt」（完全に止まる）という熟語も重要。",
+      "confusables": "halt（突然・完全に止まる）と pause（一時的に止まる・再開前提）は似ているが、halt はより完全な停止を意味し、pause は一時停止・小休止のニュアンスがある。",
+      "collocations": [
+        "come to a halt",
+        "grind to a halt",
+        "call a halt to"
+      ],
+      "trivia": "「Halt!」は映画や軍隊の場面でよく聞くが、実はドイツ語がそのまま英語になった珍しい例。第一次・第二次世界大戦で英独両軍が対峙したとき、お互いに同じ「Halt!」と叫んでいた可能性がある。"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1507,
+    "word": "provoke",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "挑発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "引き起こす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈvoʊk/",
+    "syllables": "pro-voke",
+    "audioHint": "プロヴォーク",
+    "examples": [
+      {
+        "en": "His rude comment provoked an angry response from the audience.",
+        "ja": "彼の失礼なコメントが観客から怒りの反応を引き起こした。",
+        "blank": "His rude comment ___ an angry response from the audience.",
+        "blankAnswer": "provoked"
+      }
+    ],
+    "distractors": [
+      "和解させる",
+      "称賛する",
+      "保護する"
+    ],
+    "confusableSpellings": [
+      "provoak",
+      "provock",
+      "provoке"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'provocare'（呼び出す・挑む）に由来。接頭辞 'pro-'（前へ）＋ 'vocare'（呼ぶ）。「前に呼び出して挑む」が原義で、そこから「挑発する・感情・反応を引き起こす」の意味になった。",
+      "tips": "provoke は「意図的に」挑発・刺激するニュアンスが強い。また provoke a reaction / debate / response のように「反応や議論を引き起こす」という中立的な使い方もある。日本人は「cause（引き起こす）」と区別できるようにしたい。",
+      "confusables": "provoke（意図的に挑発・感情を刺激する）と irritate（いらいらさせる）は異なり、provoke はより強い感情的反応や行動を引き起こすときに使い、irritate は軽い不快感を与えるときに使う。",
+      "collocations": [
+        "provoke a reaction",
+        "provoke anger",
+        "provoke thought"
+      ],
+      "trivia": "「thought-provoking（考えさせられる）」という形容詞は映画・本のレビューで頻出する。「挑発する」というネガティブなイメージのある provoke が、こんなにポジティブな複合語になるのが面白い。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1508,
+    "word": "invade",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "侵略する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "侵害する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈveɪd/",
+    "syllables": "in-vade",
+    "audioHint": "インヴェイド",
+    "examples": [
+      {
+        "en": "The army invaded the neighboring country at dawn.",
+        "ja": "軍は夜明けに隣国に侵略した。",
+        "blank": "The army ___ the neighboring country at dawn.",
+        "blankAnswer": "invaded"
+      }
+    ],
+    "distractors": [
+      "統治する",
+      "交渉する",
+      "撤退する"
+    ],
+    "confusableSpellings": [
+      "invaid",
+      "envade",
+      "invaed"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'invadere'（中に入り込む）に由来。接頭辞 'in-'（中へ）＋ 'vadere'（行く・進む）。「力ずくで中に踏み込む」が原義で、軍事的侵略から個人のプライバシー侵害まで幅広く使われる。",
+      "tips": "invade は軍事的侵略だけでなく「invade someone's privacy（プライバシーを侵害する）」のように比喩的にも使う。日本人は「attack（攻撃する）」と混同しがちだが、invade は「領域に踏み込む」というニュアンスがある点が異なる。",
+      "confusables": "invade（領域に侵入する・侵略する）と attack（攻撃する）は似ているが、invade は「領域・境界を越えて入り込む」ことを強調し、attack は「力を加えて傷つける」ことに焦点がある。",
+      "collocations": [
+        "invade a country",
+        "invade privacy",
+        "invade someone's space"
+      ],
+      "trivia": "「Space Invaders（スペースインベーダー）」の invaders はまさにこの invade から来ている。1978年に日本のタイトーが開発し、世界的大ヒットとなった。英語圏でも「invader」は「侵略者」として誰もが知る単語になっている。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1509,
+    "word": "squeeze",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "絞る・押しつぶす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "無理やり押し込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/skwiːz/",
+    "syllables": "squeeze",
+    "audioHint": "スクウィーズ",
+    "examples": [
+      {
+        "en": "She squeezed the lemon over the fresh salad.",
+        "ja": "彼女はフレッシュサラダにレモンを絞った。",
+        "blank": "She ___ the lemon over the fresh salad.",
+        "blankAnswer": "squeezed"
+      }
+    ],
+    "distractors": [
+      "引き伸ばす",
+      "振り回す",
+      "踏みつける"
+    ],
+    "confusableSpellings": [
+      "squeese",
+      "squeze",
+      "sqeeze"
+    ],
+    "passive": {
+      "etymology": "古英語 'cwȳsan'（押しつぶす）に由来し、16世紀頃に現在の形 squeeze に発展。ゲルマン語系の擬音的な語根で、液体を絞り出すときの音・動作を表した言葉とされる。",
+      "tips": "squeeze は「液体を絞る」「狭い場所に無理やり入る」「時間を無理やり作る」など幅広く使える。「squeeze in a meeting（打ち合わせの時間を何とか作る）」のような比喩的用法も重要。スペルが難しいので注意。",
+      "confusables": "squeeze（全体を圧迫して絞る）と press（一方向に押す）は似ているが、squeeze は両手や指でぎゅっと全方向から圧力をかけるイメージ、press は一方向への押しつけのイメージ。",
+      "collocations": [
+        "squeeze a lemon",
+        "squeeze into",
+        "squeeze out"
+      ],
+      "trivia": "経済用語で「credit squeeze（信用収縮）」や「profit squeeze（利益圧縮）」という表現があり、squeeze は金融・ビジネス界でも重要な単語。家計を圧迫することを「financial squeeze」ともいう。"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1510,
+    "word": "crawl",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "はって進む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "のろのろ進む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/krɔːl/",
+    "syllables": "crawl",
+    "audioHint": "クロール",
+    "examples": [
+      {
+        "en": "The baby crawled across the floor toward her mother.",
+        "ja": "赤ちゃんは床を這って母親の方へ進んだ。",
+        "blank": "The baby ___ across the floor toward her mother.",
+        "blankAnswer": "crawled"
+      }
+    ],
+    "distractors": [
+      "跳び跳ねる",
+      "滑る",
+      "倒れる"
+    ],
+    "confusableSpellings": [
+      "crawle",
+      "croll",
+      "crwal"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'krafla'（這う・かきながら進む）に由来。スカンジナビア語系の言葉で、中世英語に入った。手足を使って低い姿勢で進む動作を表す語根を持つ。",
+      "tips": "crawl は「赤ちゃんが這う」「虫が這う」「交通渋滞でのろのろ進む」など幅広く使える。「traffic is crawling（渋滞でのろのろ）」という比喩表現も重要。また「web crawling（ウェブクローリング）」のように IT用語にもなっている。",
+      "confusables": "crawl（腹ばい・手足で這う）と creep（こっそりゆっくり動く）は似ているが、crawl は移動の仕方（四つん這い・匍匐）に焦点があり、creep は音を立てずにこっそり動くニュアンスが強い。",
+      "collocations": [
+        "crawl on the floor",
+        "traffic crawl",
+        "pub crawl"
+      ],
+      "trivia": "水泳の「クロール」は英語で crawl（または front crawl）という。這うように水面を進む様子から名付けられた泳法で、競泳で最もポピュラーなスタイル。日本語の「クロール」はこの英単語がそのまま定着した例。"
+    },
+    "frequency": 4000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1511,
+    "word": "digest",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "消化する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "理解・吸収する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/daɪˈdʒɛst/",
+    "syllables": "di-gest",
+    "audioHint": "ダイジェスト",
+    "examples": [
+      {
+        "en": "It takes hours to digest a heavy meal.",
+        "ja": "重い食事を消化するには何時間もかかる。",
+        "blank": "It takes hours to ___ a heavy meal.",
+        "blankAnswer": "digest"
+      }
+    ],
+    "distractors": [
+      "呼吸する",
+      "排泄する",
+      "発汗する"
+    ],
+    "confusableSpellings": [
+      "diggest",
+      "dijest"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'digerere'（分解して運ぶ）から。di-（分離）+ gerere（運ぶ・行う）が語源。",
+      "tips": "名詞では /ˈdaɪdʒɛst/（ダイジェスト＝要約）、動詞では /daɪˈdʒɛst/ とアクセント位置が変わる点に注意。同じ綴りでも品詞で読み方が異なる典型例。",
+      "confusables": "digest（消化する・理解する）vs. absorb（吸収する）：digestは物理的な消化＋情報処理の両方に使えるが、absorbは情報・液体などを「吸い込む」ニュアンスが強い。",
+      "collocations": [
+        "digest food（食べ物を消化する）",
+        "digest information（情報を消化する）",
+        "easy to digest（消化しやすい）"
+      ],
+      "trivia": "「ダイジェスト版」という日本語は英語の名詞 digest（要約・抜粋）から来ている。元々は「重要な部分を消化してまとめたもの」という意味なのだ。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1512,
+    "word": "utter",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（声・言葉を）発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "全くの・完全な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈʌtər/",
+    "syllables": "ut-ter",
+    "audioHint": "アター",
+    "examples": [
+      {
+        "en": "She didn't utter a single word during the meeting.",
+        "ja": "彼女は会議中に一言も発しなかった。",
+        "blank": "She didn't ___ a single word during the meeting.",
+        "blankAnswer": "utter"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "黙認する",
+      "記憶する"
+    ],
+    "confusableSpellings": [
+      "uter",
+      "uttar"
+    ],
+    "passive": {
+      "etymology": "古英語 'utian'（外に出す）から。outer（外の）と同じ語根 ut-（外へ）を持つ。声を「外へ出す」イメージ。",
+      "tips": "形容詞の utter（完全な）と動詞の utter（発する）は同じ綴りで別の意味。'utter silence'（完全な沈黙）のような形容詞用法も頻出なので混乱しやすい。",
+      "confusables": "utter（言葉・声を発する）vs. speak（話す）vs. say（言う）：utterは一言・叫び・うめき声など短い発声に使いやすく、感情的・劇的な場面でよく登場する。",
+      "collocations": [
+        "utter a word（言葉を発する）",
+        "utter a cry（叫び声を上げる）",
+        "utter nonsense（全くのナンセンス）"
+      ],
+      "trivia": "'utter disaster'（完全な災害）のように形容詞として使われる utter は、強調表現として非常に便利。ネイティブが感情的になると自然と口から出てくる語だ。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1513,
+    "word": "refrain",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（〜を）控える・慎む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（歌の）リフレイン・繰り返し部分",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈfreɪn/",
+    "syllables": "re-frain",
+    "audioHint": "リフレイン",
+    "examples": [
+      {
+        "en": "Please refrain from smoking inside the building.",
+        "ja": "建物内での喫煙はご遠慮ください。",
+        "blank": "Please ___ from smoking inside the building.",
+        "blankAnswer": "refrain"
+      }
+    ],
+    "distractors": [
+      "強制する",
+      "命令する",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "refrane",
+      "reffrain"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'refrenare'（手綱を引く）から。re-（戻す）+ frenum（手綱・馬のくつわ）が語源。自分を「手綱で抑える」イメージ。",
+      "tips": "refrain は必ず 'refrain from +動名詞' の形で使う。'refrain to do' は誤り。また公共の案内（禁煙・禁止事項）でよく使われるフォーマルな表現。",
+      "confusables": "refrain from（〜を控える）vs. abstain from（〜を断つ）：refrainは一時的・その場での自制、abstainは投票棄権やアルコールを断つなど意志的・継続的な場合に使われる。",
+      "collocations": [
+        "refrain from comment（コメントを控える）",
+        "refrain from using（使用を控える）",
+        "please refrain（ご遠慮ください）"
+      ],
+      "trivia": "音楽用語のリフレイン（繰り返し部分）と同じ綴り・発音なのに「我慢する」という意味もある。もともとは「繰り返し引き戻す」というイメージが共通している。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1514,
+    "word": "populate",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "〜に住む・定住する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（データ等を）入力・充填する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpɒpjʊleɪt/",
+    "syllables": "pop-u-late",
+    "audioHint": "ポピュレイト",
+    "examples": [
+      {
+        "en": "Millions of people populate the coastal regions.",
+        "ja": "何百万もの人々が沿岸地域に住んでいる。",
+        "blank": "Millions of people ___ the coastal regions.",
+        "blankAnswer": "populate"
+      }
+    ],
+    "distractors": [
+      "統治する",
+      "選出する",
+      "課税する"
+    ],
+    "confusableSpellings": [
+      "populat",
+      "popullate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'populare'（人々で満たす）から。populus（人々・民衆）が語根で、people・public・popular とも同じ語族。",
+      "tips": "populate は自動詞ではなく他動詞として使うことが多い（'populate a region' のように）。'be populated by/with'（〜によって住まわれている）という受動態の形も重要。",
+      "confusables": "populate（住む・人口を構成する）vs. inhabit（〜に生息・居住する）：populateは集団・大勢が地域を「満たす」ニュアンス、inhabitは個人・生物がある場所に「住んでいる」状態を指す。",
+      "collocations": [
+        "densely populated（人口密度が高い）",
+        "populate a database（データベースを入力する）",
+        "sparsely populated（人口がまばらな）"
+      ],
+      "trivia": "IT分野では「フォームやデータベースにデータを自動入力する」意味でも使われる。プログラマーが「フィールドをpopulateする」と言ったら、人ではなくデータを詰め込んでいるのだ。"
+    },
+    "frequency": 5100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1515,
+    "word": "accommodate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "収容する・宿泊させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（要求・必要に）応じる・配慮する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkɒmədeɪt/",
+    "syllables": "ac-com-mo-date",
+    "audioHint": "アコモデイト",
+    "examples": [
+      {
+        "en": "The hotel can accommodate up to 300 guests.",
+        "ja": "そのホテルは最大300人の宿泊客を収容できる。",
+        "blank": "The hotel can ___ up to 300 guests.",
+        "blankAnswer": "accommodate"
+      }
+    ],
+    "distractors": [
+      "拒絶する",
+      "脅迫する",
+      "無視する"
+    ],
+    "confusableSpellings": [
+      "accomodate",
+      "acommodate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'accommodare'（適合させる）から。ac-（〜へ）+ commodus（適切な・便利な）が語源。com-（共に）+ modus（方法・尺度）も含む。",
+      "tips": "最も間違えやすいスペルは 'accomodate'（m が1つ）。正しくは -mm- と -cc- が両方必要。'accommodate + 名詞' で収容、'accommodate + 人' で要求に応じる、という使い分けを意識しよう。",
+      "confusables": "accommodate（収容する・対応する）vs. adapt（適応する）：accommodateは「相手・状況に合わせて場所・条件を提供する」視点、adaptは「自分が変化・適応する」視点。",
+      "collocations": [
+        "accommodate guests（宿泊客を収容する）",
+        "accommodate needs（ニーズに応える）",
+        "accommodate differences（違いを受け入れる）"
+      ],
+      "trivia": "英語ネイティブでもスペルを間違えやすい単語ランキング上位の常連。'2つのc、2つのm' と覚えると忘れにくい。英国の公用文でも誤記が多い伝説の難スペル語だ。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1516,
+    "word": "steer",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（乗り物・方向を）操縦する・操る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人・状況を）誘導する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɪər/",
+    "syllables": "steer",
+    "audioHint": "スティア",
+    "examples": [
+      {
+        "en": "She steered the car carefully through the narrow street.",
+        "ja": "彼女は狭い道を慎重に車を操縦した。",
+        "blank": "She ___ the car carefully through the narrow street.",
+        "blankAnswer": "steered"
+      }
+    ],
+    "distractors": [
+      "持ち上げる",
+      "押しつぶす",
+      "切り離す"
+    ],
+    "confusableSpellings": [
+      "stear",
+      "stier"
+    ],
+    "passive": {
+      "etymology": "古英語 'stēoran'（操舵する）から。ゲルマン語系で、ドイツ語の 'steuern'（操縦する）と同語源。steer wheel（ステアリングホイール）の語源でもある。",
+      "tips": "steer は車・船などの物理的な操縦だけでなく、'steer the conversation'（会話を誘導する）など抽象的な場面でも使える。日本語の「舵を切る」に近い比喩的用法も重要。",
+      "confusables": "steer（方向を操縦・誘導する）vs. drive（運転する）vs. navigate（航行・道案内する）：steerは方向転換や細かい操作のニュアンス、driveは総合的な運転行為、navigateはルートを読む・管理する意味が強い。",
+      "collocations": [
+        "steer a car（車を操縦する）",
+        "steer clear of（〜を避ける）",
+        "steer the conversation（会話を誘導する）"
+      ],
+      "trivia": "'steer clear of' は「〜に近づかない・避ける」という超頻出イディオム。船が岩礁を避けるように操舵する、というイメージから生まれた表現で、口語でもよく使われる。"
+    },
+    "frequency": 3400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1517,
+    "word": "drown",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "溺れる・溺死する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（音・声などを）かき消す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/draʊn/",
+    "syllables": "drown",
+    "audioHint": "ドラウン",
+    "examples": [
+      {
+        "en": "The loud music drowned out her voice completely.",
+        "ja": "大音量の音楽が彼女の声を完全にかき消した。",
+        "blank": "The loud music ___ out her voice completely.",
+        "blankAnswer": "drowned"
+      }
+    ],
+    "distractors": [
+      "震える",
+      "咳き込む",
+      "窒息する"
+    ],
+    "confusableSpellings": [
+      "drown'd",
+      "drownd"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'drukna'（溺れる）から。ゲルマン語系の語で、水に「引き込まれる」というイメージが語根にある。",
+      "tips": "'drown' は自動詞（溺れる）と他動詞（溺死させる）の両方で使う。'drown out' で「音をかき消す」という句動詞も非常に重要。drowningとdrownedを文脈で使い分けよう。",
+      "confusables": "drown（溺れる・かき消す）vs. sink（沈む）：drownは生き物が水中で命を失う・息ができなくなる意味、sinkは物体が水中に沈む意味で人以外にもよく使う。",
+      "collocations": [
+        "drown in debt（借金に溺れる）",
+        "drown out noise（騒音をかき消す）",
+        "nearly drowned（溺れかけた）"
+      ],
+      "trivia": "'drowning in work'（仕事に溺れる）のように比喩的な表現が豊富。「借金漬け」「悲しみに溺れる」など感情・状況の「溺れ感」を表すのにも使える万能語だ。"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1518,
+    "word": "dip",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（液体に）さっと浸ける・つける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（一時的に）下がる・低下する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪp/",
+    "syllables": "dip",
+    "audioHint": "ディップ",
+    "examples": [
+      {
+        "en": "He dipped the bread into the olive oil.",
+        "ja": "彼はパンをオリーブオイルにさっと浸けた。",
+        "blank": "He ___ the bread into the olive oil.",
+        "blankAnswer": "dipped"
+      }
+    ],
+    "distractors": [
+      "揉む・こする",
+      "すすぐ・洗い流す",
+      "撹拌する"
+    ],
+    "confusableSpellings": [
+      "dipp",
+      "dyp"
+    ],
+    "passive": {
+      "etymology": "古英語 'dyppan'（浸ける）から。ゲルマン語系の語で deep（深い）と同語源。「深みに入れる」イメージ。",
+      "tips": "dip は「ちょっとだけ浸ける」という短時間・浅いニュアンスが重要。soak（長時間浸す）と区別しよう。また経済・気温など数値が「一時的に下がる」際にも頻繁に使われる。",
+      "confusables": "dip（さっと浸ける・一時的に下がる）vs. soak（長時間浸す）vs. submerge（完全に水中に沈める）：浸け方の深さと時間のグラデーションで使い分ける。",
+      "collocations": [
+        "dip in sauce（ソースに浸ける）",
+        "dip in temperature（気温の低下）",
+        "skinny dip（裸で泳ぐ）"
+      ],
+      "trivia": "'skinny dipping' は「全裸で水泳すること」を表すスラング。dip（ちょっと水に入る）＋skinny（細い→裸）の組み合わせで、英語圏の若者文化では定番の表現だ。"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1519,
+    "word": "soak",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（長時間）浸す・漬け込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "びしょ濡れにする・吸い込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/soʊk/",
+    "syllables": "soak",
+    "audioHint": "ソウク",
+    "examples": [
+      {
+        "en": "Soak the beans in water overnight before cooking.",
+        "ja": "調理前に豆を一晩水に浸けておいてください。",
+        "blank": "___ the beans in water overnight before cooking.",
+        "blankAnswer": "Soak"
+      }
+    ],
+    "distractors": [
+      "蒸発させる",
+      "沸騰させる",
+      "振り落とす"
+    ],
+    "confusableSpellings": [
+      "soack",
+      "soake"
+    ],
+    "passive": {
+      "etymology": "古英語 'socian'（浸す・滲み込む）から。ゲルマン語系で、液体が「じっくりと染み渡る」イメージが根底にある。",
+      "tips": "'soak in'（〜に浸かる・吸収される）と 'soak up'（液体・情報・日光などを吸い込む）の2つの句動詞が特に重要。be soaked（びしょ濡れになった）という受動態も会話でよく使う。",
+      "confusables": "soak（じっくり長時間浸す）vs. dip（さっと浸ける）vs. rinse（さっと洗い流す）：時間・目的・液体量のニュアンスが異なる三兄弟。料理・洗濯場面で使い分けが問われる。",
+      "collocations": [
+        "soak in hot water（お湯に浸ける）",
+        "soaked to the skin（ずぶ濡れになる）",
+        "soak up the sun（日光浴する）"
+      ],
+      "trivia": "'soak up the atmosphere'（雰囲気を吸収する）のように、目に見えないものを「じっくり取り込む」比喩にも使える。旅先で文化を「吸収しまくる」感じを表すのにぴったりな語だ。"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1520,
+    "word": "stir",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "かき混ぜる・攪拌する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・騒動を）かき立てる・引き起こす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɜːr/",
+    "syllables": "stir",
+    "audioHint": "スター",
+    "examples": [
+      {
+        "en": "Stir the soup gently so it doesn't burn.",
+        "ja": "焦げないようにスープをゆっくりかき混ぜてください。",
+        "blank": "___ the soup gently so it doesn't burn.",
+        "blankAnswer": "Stir"
+      }
+    ],
+    "distractors": [
+      "冷やす・冷ます",
+      "注ぎ込む・満たす",
+      "刻む・切り分ける"
+    ],
+    "confusableSpellings": [
+      "stear",
+      "stirr"
+    ],
+    "passive": {
+      "etymology": "古英語 'styrian'（動かす・かき混ぜる）から。ゲルマン語系で「ぐるぐる動かす」という基本的な物理動作が語根にある。",
+      "tips": "'stir up trouble'（もめ事を起こす）、'stir emotions'（感情を揺さぶる）など抽象的な用法が重要。料理だけに限定して覚えると試験で痛い目を見る。stirとsteerは発音が似ていて混乱しやすいので注意。",
+      "confusables": "stir（かき混ぜる・感情を動かす）vs. mix（混ぜ合わせる）vs. blend（均一に混ぜる）：stirは円を描くように混ぜる動作、mixは合わせること全般、blendはなめらかに一体化させること。",
+      "collocations": [
+        "stir coffee（コーヒーをかき混ぜる）",
+        "stir up controversy（論争を巻き起こす）",
+        "cause a stir（騒動を引き起こす）"
+      ],
+      "trivia": "'cause a stir' は「世間をざわつかせる」という意味の超頻出表現。SNSで話題になった投稿を英語で説明するとき 'It caused quite a stir online.' と言えばネイティブっぽく聞こえる。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  }
+]

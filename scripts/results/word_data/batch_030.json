@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 581,
+    "word": "dramatic",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "劇的な、著しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "演劇的な、大げさな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/drəˈmætɪk/",
+    "syllables": "dra-mat-ic",
+    "audioHint": "ドラマティック",
+    "examples": [
+      {
+        "en": "The new policy led to a dramatic increase in sales.",
+        "ja": "新しい方針が売上の劇的な増加をもたらした。",
+        "blank": "The new policy led to a ___ increase in sales.",
+        "blankAnswer": "dramatic"
+      }
+    ],
+    "distractors": [
+      "重要な",
+      "安定した",
+      "柔軟な"
+    ],
+    "confusableSpellings": [
+      "dramatick",
+      "drammatic",
+      "dramatik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'drama'（行動・演劇）＋接尾辞 '-ic'（〜の性質を持つ）。drama は 'dran'（行う）に由来。",
+      "tips": "dramatic は「演劇のような大げささ」と「著しい変化」の両方の意味を持つ。日本語の「ドラマチック」は大げさなニュアンスが強いが、英語では 'a dramatic improvement'（著しい改善）のように中立的にも使われる。",
+      "confusables": "dramatic（著しい・劇的）vs theatrical（芝居がかった）: theatrical はネガティブなニュアンスが強く、わざとらしい演技を指すことが多い。",
+      "collocations": [
+        "dramatic change",
+        "dramatic effect",
+        "dramatic increase"
+      ],
+      "trivia": "「drama queen（ドラマクイーン）」という表現は、ちょっとしたことを大げさに騒ぎ立てる人を指す英語スラング。dramatic の「大げさ」な意味が生きている！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 582,
+    "word": "distinct",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "明確な、はっきりした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "異なる、別個の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dɪˈstɪŋkt/",
+    "syllables": "dis-tinct",
+    "audioHint": "ディスティンクト",
+    "examples": [
+      {
+        "en": "There is a distinct difference between the two methods.",
+        "ja": "その二つの方法には明確な違いがある。",
+        "blank": "There is a ___ difference between the two methods.",
+        "blankAnswer": "distinct"
+      }
+    ],
+    "distractors": [
+      "柔軟な",
+      "安定した",
+      "従来の"
+    ],
+    "confusableSpellings": [
+      "destinct",
+      "distinkt",
+      "distint"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'distinctus'（区別された）から。'dis-'（分離）＋ 'stinguere'（刺す・区別する）が語源。",
+      "tips": "distinct と distinctive はよく混同される。distinct は「はっきり区別できる」こと、distinctive は「その物だけの特徴的な」こと。'a distinct smell'（はっきりした臭い）と 'a distinctive smell'（独特の臭い）の差に注意。",
+      "confusables": "distinct（明確に区別できる）vs distinctive（独特の・特徴的な）: distinctive は「他にはない個性」を強調し、distinct は「混同できないほど明確」を強調する。",
+      "collocations": [
+        "distinct advantage",
+        "distinct possibility",
+        "distinct difference"
+      ],
+      "trivia": "音楽で使われる『distinction（ディスティンクション）』は優秀賞や特別賞の意味。「明確に他と違う」という語源がそのまま活きている！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 583,
+    "word": "anxious",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "不安な、心配な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "熱望して、切望して",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæŋkʃəs/",
+    "syllables": "anx-ious",
+    "audioHint": "アンクシャス",
+    "examples": [
+      {
+        "en": "She felt anxious about the exam results.",
+        "ja": "彼女は試験の結果について不安を感じていた。",
+        "blank": "She felt ___ about the exam results.",
+        "blankAnswer": "anxious"
+      }
+    ],
+    "distractors": [
+      "誇りに思っている",
+      "感謝している",
+      "嫉妬している"
+    ],
+    "confusableSpellings": [
+      "anxous",
+      "ancious",
+      "ankxious"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'anxius'（悩んでいる）から。語根 'angere'（締め付ける・窒息させる）に由来。不安で胸が締め付けられる感覚をそのまま表している。",
+      "tips": "anxious には「心配な」と「熱望している」の2つの意味がある。'be anxious about〜'（〜が心配）と 'be anxious to do'（〜したくてたまらない）を混同しないように注意。",
+      "confusables": "anxious（不安・心配）vs nervous（緊張・神経質）: nervous は特定のイベント前の緊張感、anxious はより漠然とした継続的な不安感を指すことが多い。",
+      "collocations": [
+        "feel anxious",
+        "anxious about",
+        "anxious to please"
+      ],
+      "trivia": "anxiety（不安）は現代の若者の間で最も話題になるメンタルヘルスワードの一つ。SNSで '#anxiety' を検索すると何億件もヒットする時代になった。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 584,
+    "word": "vital",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "不可欠な、極めて重要な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "生命の、活力に満ちた",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvaɪtl/",
+    "syllables": "vi-tal",
+    "audioHint": "ヴァイタル",
+    "examples": [
+      {
+        "en": "Exercise is vital for maintaining good health.",
+        "ja": "運動は健康を維持するために不可欠だ。",
+        "blank": "Exercise is ___ for maintaining good health.",
+        "blankAnswer": "vital"
+      }
+    ],
+    "distractors": [
+      "劇的な",
+      "普通の",
+      "小さな"
+    ],
+    "confusableSpellings": [
+      "vittal",
+      "viatal",
+      "vitel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vitalis'（生命の）から。語根 'vita'（生命）に由来。vitamin（ビタミン）も同じ語根を持つ兄弟語。",
+      "tips": "vital は 'very important' より強い。「これがなければ死ぬ（機能しない）」くらいのニュアンス。'It is vital that ...' の構文では that 節の中に仮定法現在（動詞の原形）が来ることに注意。",
+      "confusables": "vital（不可欠・生死に関わる重要性）vs essential（本質的・必須）vs crucial（決定的に重要）: vital は生命・存続に関わるニュアンス、essential は「それなしでは成立しない」、crucial は「その時点での決定的な重要性」を強調。",
+      "collocations": [
+        "vital role",
+        "vital information",
+        "vital signs"
+      ],
+      "trivia": "医療ドラマで頻出の 'vital signs（バイタルサイン）' は心拍数・血圧・体温などの「生命徴候」のこと。vital の「生命」という語源がそのまま使われている！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 585,
+    "word": "conventional",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "従来の、慣習的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "型にはまった、平凡な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kənˈvenʃənl/",
+    "syllables": "con-ven-tion-al",
+    "audioHint": "コンヴェンショナル",
+    "examples": [
+      {
+        "en": "He rejected conventional teaching methods.",
+        "ja": "彼は従来の教授法を拒否した。",
+        "blank": "He rejected ___ teaching methods.",
+        "blankAnswer": "conventional"
+      }
+    ],
+    "distractors": [
+      "明確な",
+      "柔軟な",
+      "安定した"
+    ],
+    "confusableSpellings": [
+      "conventonal",
+      "convensional",
+      "conventionel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conventio'（集会・合意）から。'con-'（共に）＋ 'venire'（来る）が語源。みんなが集まって決めたルール＝慣習、というイメージ。",
+      "tips": "conventional はほとんどの場合ニュートラルかやや否定的なニュアンス。'unconventional（型破りな）' の反対語として使われることが多く、「革新」や「創造性」の文脈では否定的含意が強くなる。",
+      "confusables": "conventional（慣習的・従来型）vs traditional（伝統的）: traditional は長い歴史と文化的尊重のニュアンスが強く、conventional は単に「今一般的に行われている」ことを指す。",
+      "collocations": [
+        "conventional wisdom",
+        "conventional medicine",
+        "conventional approach"
+      ],
+      "trivia": "'conventional wisdom（一般通念）' という表現は「みんながそうだと思っていること」を指すが、しばしば「実は間違い」という文脈で使われる皮肉な言い回しでもある。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 586,
+    "word": "abstract",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "抽象的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "難解な、具体性のない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæbstrækt/",
+    "syllables": "ab-stract",
+    "audioHint": "アブストラクト",
+    "examples": [
+      {
+        "en": "Love is an abstract concept that is hard to define.",
+        "ja": "愛は定義しにくい抽象的な概念だ。",
+        "blank": "Love is an ___ concept that is hard to define.",
+        "blankAnswer": "abstract"
+      }
+    ],
+    "distractors": [
+      "技術的な",
+      "論理的な",
+      "客観的な"
+    ],
+    "confusableSpellings": [
+      "abstact",
+      "abstarct",
+      "abstruct"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'abstractus' から。'ab-'（離れて）＋ 'trahere'（引く）＝「現実から引き離された」というイメージ。",
+      "tips": "abstract は形容詞・名詞・動詞の3品詞で使われる。形容詞・名詞はアクセントが前（ˈæbstrækt）、動詞はアクセントが後ろ（æbˈstrækt）になるので注意。論文の「要旨・概要」を abstract（名詞）と言う。",
+      "confusables": "abstract（抽象的）vs theoretical（理論的）: abstract は具体的な形を持たない概念を指し、theoretical は理論・仮説に基づくことを意味する。",
+      "collocations": [
+        "abstract concept",
+        "abstract art",
+        "abstract thinking"
+      ],
+      "trivia": "ピカソなどの「抽象画」も abstract art。論文の冒頭の「要旨」も abstract。「現実から引き離す」という語源から、これだけ多様な意味が生まれた！"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 587,
+    "word": "minor",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "小さな、軽微な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "二次的な、重要でない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmaɪnər/",
+    "syllables": "mi-nor",
+    "audioHint": "マイナー",
+    "examples": [
+      {
+        "en": "She suffered only minor injuries in the accident.",
+        "ja": "彼女はその事故で軽微なけがをしただけだった。",
+        "blank": "She suffered only ___ injuries in the accident.",
+        "blankAnswer": "minor"
+      }
+    ],
+    "distractors": [
+      "明確な",
+      "従来の",
+      "異なる"
+    ],
+    "confusableSpellings": [
+      "minnor",
+      "minore",
+      "minoer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'minor'（より小さい）から。'minus'（より少ない）の比較級形で、英語の minus とも兄弟語。",
+      "tips": "minor は名詞として「未成年者」「副専攻」の意味もある。'a minor'（未成年者）、'I majored in English and minored in history.'（英語を専攻し、歴史を副専攻にした）のように使われる。",
+      "confusables": "minor（小さい・軽微）vs slight（わずかな）: slight は程度がごく小さいことを強調し、minor は重要性や規模が小さいことを強調する。'a minor problem' vs 'a slight pain' のように使い分ける。",
+      "collocations": [
+        "minor injury",
+        "minor problem",
+        "minor role"
+      ],
+      "trivia": "音楽の「マイナー調（短調）」も minor。ラテン語「より小さい」から来ており、短調は長調（major）より音程の幅が「小さい」ことが語源的な由来。"
+    },
+    "frequency": 1100,
+    "cefr": "A2"
+  },
+  {
+    "id": 588,
+    "word": "extraordinary",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "並外れた、非凡な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "異常な、驚くべき",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈstrɔːrdəneri/",
+    "syllables": "ex-traor-di-na-ry",
+    "audioHint": "イクストローディネリ",
+    "examples": [
+      {
+        "en": "She has an extraordinary talent for music.",
+        "ja": "彼女は音楽に対して並外れた才能を持っている。",
+        "blank": "She has an ___ talent for music.",
+        "blankAnswer": "extraordinary"
+      }
+    ],
+    "distractors": [
+      "不可欠な",
+      "劇的な",
+      "重要な"
+    ],
+    "confusableSpellings": [
+      "extraordinery",
+      "extraordianry",
+      "extraordinairy"
+    ],
+    "passive": {
+      "etymology": "'extra-'（〜の外）＋ 'ordinary'（普通の）＝「普通の外にある」→並外れた。ラテン語 'extra ordinem'（規則の外）が語源。",
+      "tips": "発音が難しく、日本人はよく「エクストラオーディナリー」と読もうとするが、実際は 'extra-' の部分を速く読んで 'ɪkˈstrɔːrdəneri' と発音する。綴りも長いので、'extra + ordinary' に分解して覚えると楽。",
+      "confusables": "extraordinary（並外れた・驚くほどすごい）vs exceptional（例外的・特に優れた）: exceptional は「例外として突出している」、extraordinary は「普通の範囲をはるかに超えている」という強さのニュアンス。",
+      "collocations": [
+        "extraordinary talent",
+        "extraordinary circumstances",
+        "extraordinary measures"
+      ],
+      "trivia": "外交用語で 'Ambassador Extraordinary and Plenipotentiary（特命全権大使）' という肩書がある。extraordinary が「特命」を意味しており、普通の大使とは格が違うことを示している！"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  },
+  {
+    "id": 589,
+    "word": "stable",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "安定した、安定している",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "落ち着いた、変わらない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsteɪbl/",
+    "syllables": "sta-ble",
+    "audioHint": "ステイブル",
+    "examples": [
+      {
+        "en": "The patient's condition is now stable.",
+        "ja": "患者の状態は今は安定している。",
+        "blank": "The patient's condition is now ___.",
+        "blankAnswer": "stable"
+      }
+    ],
+    "distractors": [
+      "明確な",
+      "型にはまった",
+      "小さな"
+    ],
+    "confusableSpellings": [
+      "stabel",
+      "stabile",
+      "stabble"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'stabilis'（しっかり立っている）から。'stare'（立つ）が語根。stand・station・establish なども同じ語根を持つ。",
+      "tips": "stable は名詞として「馬小屋」の意味もある。形容詞と名詞でスペルが同じなので注意。また 'stable relationship（安定した関係）' は必ずしも「恋愛関係」だけでなく、国際関係や職場関係にも使える。",
+      "confusables": "stable（安定した・変化しない）vs steady（着実な・ぐらつかない）: steady は動かずにしっかりしているニュアンス（'Hold steady!'）、stable はより大きな文脈での安定性（経済・精神的安定）を指すことが多い。",
+      "collocations": [
+        "stable condition",
+        "stable economy",
+        "stable relationship"
+      ],
+      "trivia": "化学・物理では 'stable isotope（安定同位体）' という用語がある。放射線を出さずに安定して存在できる原子のこと。日常語の stable がそのまま科学用語になっている！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 590,
+    "word": "flexible",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "柔軟な、融通が利く",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "曲げやすい、しなやかな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfleksɪbl/",
+    "syllables": "flex-i-ble",
+    "audioHint": "フレクシブル",
+    "examples": [
+      {
+        "en": "We need a flexible approach to solve this problem.",
+        "ja": "この問題を解決するには柔軟なアプローチが必要だ。",
+        "blank": "We need a ___ approach to solve this problem.",
+        "blankAnswer": "flexible"
+      }
+    ],
+    "distractors": [
+      "安定した",
+      "明確な",
+      "従来の"
+    ],
+    "confusableSpellings": [
+      "flexable",
+      "flexibel",
+      "flexibal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'flexibilis' から。'flectere'（曲げる）＋ '-ible'（できる）＝「曲げられる」。flex（筋肉を曲げる・誇示する）も同じ語根。",
+      "tips": "flexible の反対語は inflexible（融通が利かない）。ビジネス英語では 'flexible working hours（フレックスタイム）' のように非常によく使われる。日本語の「フレキシブル」とほぼ同義だが、英語では物理的な「曲げやすさ」にも使う点が違う。",
+      "confusables": "flexible（柔軟・融通が利く）vs adaptable（適応できる）: flexible は状況に応じて変化できること、adaptable は新しい環境・条件に自分自身を合わせていけることを強調する。",
+      "collocations": [
+        "flexible schedule",
+        "flexible approach",
+        "flexible thinking"
+      ],
+      "trivia": "SNSで 'flex（フレックス）' という動詞は「自慢する・見せびらかす」というスラングとして大流行中。筋肉を曲げて見せる→自分の強みを見せびらかす、という意味の進化が面白い！"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 591,
+    "word": "brief",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "短い、簡潔な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "手短に説明する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/briːf/",
+    "syllables": "brief",
+    "audioHint": "ブリーフ",
+    "examples": [
+      {
+        "en": "Please keep your answer brief and to the point.",
+        "ja": "答えは簡潔に要点を押さえてください。",
+        "blank": "Please keep your answer ___ and to the point.",
+        "blankAnswer": "brief"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "異質な",
+      "積極的な"
+    ],
+    "confusableSpellings": [
+      "breif",
+      "brif"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'brevis'（短い）が語源。フランス語 'bref' を経て英語に入った。語根 'brev-' は 'abbreviate'（省略する）や 'brevity'（簡潔さ）にも共通する。",
+      "tips": "名詞として「ブリーフィング資料」「パンツ（briefs）」の意味もある。「brief meeting」は「短い会議」で、「short meeting」と似ているが、brief はより「内容が凝縮されている」ニュアンスが強い。",
+      "confusables": "'short' との違い：short は物理的な長さや時間の短さを指すが、brief は「簡潔にまとめられている」という質的なニュアンスを伴うことが多い。",
+      "collocations": [
+        "a brief moment",
+        "brief explanation",
+        "in brief"
+      ],
+      "trivia": "「ブリーフィング（briefing）」という言葉は軍隊用語が起源で、作戦前に指揮官が兵士に手短に状況を説明することを指していた。今ではビジネスでも当たり前に使われている。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 592,
+    "word": "aggressive",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "攻撃的な、積極的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "強引な、押しの強い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈɡrɛsɪv/",
+    "syllables": "ag-gres-sive",
+    "audioHint": "アグレッシブ",
+    "examples": [
+      {
+        "en": "The dog became aggressive when strangers approached.",
+        "ja": "その犬は見知らぬ人が近づくと攻撃的になった。",
+        "blank": "The dog became ___ when strangers approached.",
+        "blankAnswer": "aggressive"
+      }
+    ],
+    "distractors": [
+      "思いやりのある",
+      "内気な",
+      "のんきな"
+    ],
+    "confusableSpellings": [
+      "agressive",
+      "aggresive",
+      "aggressiv"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'aggressus'（攻撃した）が語源。接頭辞 'ad-'（〜に向かって）＋語根 'gradi'（歩く・進む）から成り、「相手に向かっていく」というイメージ。",
+      "tips": "日本語の「アグレッシブ」は「意欲的・積極的」というポジティブな意味で使われがちだが、英語の aggressive にはネガティブな「攻撃的」「強引」のニュアンスが強い。ビジネスで「積極的な戦略」を言いたい場合は 'proactive' や 'assertive' の方が無難。",
+      "confusables": "'assertive' との違い：assertive は「自分の意見をはっきり主張する」という自信あるポジティブな意味。aggressive はそれを超えて相手を圧迫するニュアンスがある。",
+      "collocations": [
+        "aggressive behavior",
+        "aggressive marketing",
+        "aggressive approach"
+      ],
+      "trivia": "スポーツ解説で「アグレッシブなプレー」と言うとき、英語では aggressive より 'assertive' や 'intense' の方が自然に聞こえることが多い。英語ネイティブに aggressive と言うと「危険な選手」に聞こえてしまうことも。"
+    },
+    "frequency": 950,
+    "cefr": "B1"
+  },
+  {
+    "id": 593,
+    "word": "visible",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "目に見える、可視の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "明らかな、明白な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɪzɪbəl/",
+    "syllables": "vis-i-ble",
+    "audioHint": "ヴィジブル",
+    "examples": [
+      {
+        "en": "The mountain peak was visible from the town.",
+        "ja": "山頂は町から見えた。",
+        "blank": "The mountain peak was ___ from the town.",
+        "blankAnswer": "visible"
+      }
+    ],
+    "distractors": [
+      "簡潔な",
+      "予期せぬ",
+      "正確な"
+    ],
+    "confusableSpellings": [
+      "visable",
+      "vissible"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'visibilis' が語源。語根 'vid-/vis-'（見る）＋接尾辞 '-ible'（〜できる）で「見ることができる」という意味。'vision'（視覚）、'visual'（視覚的な）と同じ語根を持つ。",
+      "tips": "反意語は 'invisible'（見えない）。接頭辞 'in-' を付けるだけで反対の意味になる。また 'visible' は「物理的に見える」だけでなく「社会的に存在感がある」（a visible leader など）という比喩的な意味でも使われる。",
+      "confusables": "'obvious' との違い：obvious は「論理的・状況的に明らかな」ことを指し、目で見えるかどうかに関係しない。visible はあくまで「視覚的に知覚できる」ことが基本。",
+      "collocations": [
+        "clearly visible",
+        "visible sign",
+        "visible minority"
+      ],
+      "trivia": "「visible minority（可視的少数派）」という用語はカナダで生まれた政治・社会用語で、外見的特徴から多数派と区別される人々を指す。法律文書で正式に使われるほど定着している。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 594,
+    "word": "unexpected",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "予期しない、突然の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "思いがけない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌʌnɪkˈspɛktɪd/",
+    "syllables": "un-ex-pect-ed",
+    "audioHint": "アニクスペクティド",
+    "examples": [
+      {
+        "en": "Her resignation came as an unexpected surprise to everyone.",
+        "ja": "彼女の辞任は誰にとっても予期せぬ驚きだった。",
+        "blank": "Her resignation came as an ___ surprise to everyone.",
+        "blankAnswer": "unexpected"
+      }
+    ],
+    "distractors": [
+      "目に見える",
+      "最初の",
+      "後者の"
+    ],
+    "confusableSpellings": [
+      "unexpexted",
+      "unexspected",
+      "unexpacted"
+    ],
+    "passive": {
+      "etymology": "接頭辞 'un-'（否定）＋'expected'（期待された）から成る。'expect' はラテン語 'exspectare'（待つ・期待する）が語源で、'ex-'（外に）＋'spectare'（見る）から「外を見て待つ」というイメージ。",
+      "tips": "副詞形 'unexpectedly' もよく使われる。「unexpectedly, he arrived early（予想外にも彼は早く到着した）」のように文頭に置くことも多い。形容詞として名詞の前に置く場合（an unexpected visit）と、補語として使う場合（the result was unexpected）の両方が自然。",
+      "confusables": "'surprising' との違い：surprising は「驚かせる性質がある」という意味で主観的な驚きに焦点。unexpected は「予測されていなかった」という客観的な事実に焦点が当たる。",
+      "collocations": [
+        "unexpected turn",
+        "unexpected visitor",
+        "unexpected result"
+      ],
+      "trivia": "心理学では「意外性」が記憶の定着に大きく貢献することが分かっている。これを「von Restorff効果」と呼ぶ。unexpected な出来事ほど人はよく覚えているのは、脳が生存のために異常を優先処理するからだ。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 595,
+    "word": "ethnic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "民族の、民族的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "異国風の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɛθnɪk/",
+    "syllables": "eth-nic",
+    "audioHint": "エスニック",
+    "examples": [
+      {
+        "en": "The city has a diverse ethnic population.",
+        "ja": "その都市は多様な民族の人々が暮らしている。",
+        "blank": "The city has a diverse ___ population.",
+        "blankAnswer": "ethnic"
+      }
+    ],
+    "distractors": [
+      "攻撃的な",
+      "目に見える",
+      "簡潔な"
+    ],
+    "confusableSpellings": [
+      "ethnik",
+      "ethinc",
+      "enthnic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'ethnikos'（国家の・民族の）が語源。'ethnos'（民族・国民）＋接尾辞 '-ic' から成る。'ethnology'（民族学）や 'ethnography'（民族誌）と同じ語根。",
+      "tips": "日本語の「エスニック」は「異国風のおしゃれな」という意味合いで使われるが、英語の ethnic は主に「特定の民族集団に関する」という中立的・学術的な意味が基本。'ethnic food' は「民族料理」だが、文脈によっては「異国風料理」にもなる。",
+      "confusables": "'racial' との違い：racial は「人種（race）」に基づく区分（肌の色など生物学的特徴）を指すことが多いのに対し、ethnic は言語・文化・宗教・慣習を共有する集団（民族）を指す。重なる部分もあるが、概念は異なる。",
+      "collocations": [
+        "ethnic group",
+        "ethnic minority",
+        "ethnic background"
+      ],
+      "trivia": "「エスニック料理」という言葉は1970年代にアメリカで広まったが、実は「誰から見て ethnic か」という問題をはらんでいる。アメリカでハンバーガーは ethnic food と呼ばれないが、タコスは呼ばれることがある。これは視点の偏りを示すとして近年議論になっている。"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  },
+  {
+    "id": 596,
+    "word": "alien",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "異質な、なじみのない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "外国人、宇宙人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈeɪliən/",
+    "syllables": "a-li-en",
+    "audioHint": "エイリアン",
+    "examples": [
+      {
+        "en": "The new culture felt completely alien to her.",
+        "ja": "その新しい文化は彼女にとって全く異質に感じられた。",
+        "blank": "The new culture felt completely ___ to her.",
+        "blankAnswer": "alien"
+      }
+    ],
+    "distractors": [
+      "簡潔な",
+      "正確な",
+      "最初の"
+    ],
+    "confusableSpellings": [
+      "alein",
+      "aliean",
+      "ailien"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'alienus'（他の・外国の）が語源。'alius'（他の）という語根から来ており、'alias'（別名）、'alternate'（交互の）とも遠い親戚関係にある。",
+      "tips": "法律用語では 'alien' は「外国人（居住者）」を意味し、アメリカの入国管理書類でも使われる。日本語で「エイリアン＝宇宙人」のイメージが強いが、英語では「異質なもの」「外国人」という意味の方が歴史的に古く、より一般的。",
+      "confusables": "'foreign' との違い：foreign は「外国の」という地理的・政治的な意味が中心。alien はそれに加えて「なじみがなく違和感がある」という心理的な疎外感のニュアンスが強い。",
+      "collocations": [
+        "alien concept",
+        "alien environment",
+        "illegal alien"
+      ],
+      "trivia": "SF映画の宇宙人を 'alien' と呼ぶようになったのは20世紀になってから。もともとは「地球外生命体」という意味ではなく「よそ者」「外国人」という意味だった。1979年の映画『エイリアン』のヒットで宇宙人イメージが世界中に定着した。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 597,
+    "word": "initial",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "最初の、初期の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "頭文字",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈnɪʃəl/",
+    "syllables": "i-ni-tial",
+    "audioHint": "イニシャル",
+    "examples": [
+      {
+        "en": "My initial reaction was complete surprise.",
+        "ja": "私の最初の反応は完全な驚きだった。",
+        "blank": "My ___ reaction was complete surprise.",
+        "blankAnswer": "initial"
+      }
+    ],
+    "distractors": [
+      "目に見える",
+      "攻撃的な",
+      "民族的な"
+    ],
+    "confusableSpellings": [
+      "inital",
+      "initail",
+      "initiall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'initialis'（始まりの）が語源。'initium'（始まり）＋接尾辞 '-al' から成り、'initium' は 'inire'（入る）から来ている。'in-'（中へ）＋'ire'（行く）で「入っていく＝始まり」というイメージ。",
+      "tips": "名詞の 'initials' は「頭文字（イニシャル）」として日本語にも入っているが、英語では複数形で使うのが基本。「J.K.」のように名前の頭文字を並べたもの。動詞 'initial' は「頭文字でサインする」という意味もあり、契約書の各ページに initials を書く慣習がある。",
+      "confusables": "'first' との違い：first は順序の「第一番目」を示す最も一般的な語。initial は「物事が始まったばかりの段階」というプロセスのニュアンスが強く、'initial stage'（初期段階）のようにより改まった・フォーマルな文脈で使われる。",
+      "collocations": [
+        "initial reaction",
+        "initial stage",
+        "initial investment"
+      ],
+      "trivia": "「イニシャル」は日本語でも使われるが、英語の 'initials' は名前の頭文字を指す。例えば John Fitzgerald Kennedy の頭文字は JFK。歴史上の大統領は頭文字で呼ばれることが多く、FDR（フランクリン・D・ルーズベルト）なども有名。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 598,
+    "word": "exact",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "正確な、厳密な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（服従などを）強要する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzækt/",
+    "syllables": "ex-act",
+    "audioHint": "イグザクト",
+    "examples": [
+      {
+        "en": "Can you tell me the exact time of the meeting?",
+        "ja": "会議の正確な時間を教えてもらえますか？",
+        "blank": "Can you tell me the ___ time of the meeting?",
+        "blankAnswer": "exact"
+      }
+    ],
+    "distractors": [
+      "簡潔な",
+      "異質な",
+      "後者の"
+    ],
+    "confusableSpellings": [
+      "excat",
+      "exakt",
+      "excact"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'exactus'（精密に測られた）が語源。'ex-'（完全に）＋'agere'（行う・追い立てる）の過去分詞形で、「完全にやり遂げた＝正確」というイメージ。動詞 'exacting'（厳しい要求をする）とも関連する。",
+      "tips": "副詞 'exactly' は会話でよく使われ、相手の言ったことに同意するときの「そのとおり！」という相槌にもなる。'Not exactly.'（必ずしもそうではない）という婉曲的な否定表現も重要。",
+      "confusables": "'accurate' との違い：accurate は「誤りがなく正確」という意味で、測定や描写の正確さを言う。exact はより「寸分の狂いもない・厳密な」というニュアンスが強く、exact change（ちょうどのお釣り）のように使われる。",
+      "collocations": [
+        "exact change",
+        "exact location",
+        "to be exact"
+      ],
+      "trivia": "英語で「ちょうどの金額を払うこと」を 'exact change' と言い、バスや自動販売機で「exact change only（おつりなし）」という表示を見かける。日本の電子マネー文化では死語になりつつあるが、現金社会の名残が英語表現にも残っている。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 599,
+    "word": "precise",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "正確な、精密な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "几帳面な、厳格な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/prɪˈsaɪs/",
+    "syllables": "pre-cise",
+    "audioHint": "プリサイス",
+    "examples": [
+      {
+        "en": "The scientist gave a precise measurement of the sample.",
+        "ja": "科学者はサンプルの正確な測定値を示した。",
+        "blank": "The scientist gave a ___ measurement of the sample.",
+        "blankAnswer": "precise"
+      }
+    ],
+    "distractors": [
+      "予期しない",
+      "最初の",
+      "目に見える"
+    ],
+    "confusableSpellings": [
+      "percise",
+      "precsie",
+      "precize"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praecisus'（切り取られた・削ぎ落とされた）が語源。'prae-'（前に）＋'caedere'（切る）から成り、「余分なものを切り落として核心だけにした＝精密」というイメージ。'incision'（切開）とも語根が同じ。",
+      "tips": "'precise' と 'exact' は非常に似ているが、precise は「細部まで厳密で精密」というニュアンスが強く、科学・技術的な文脈で好まれる。'to be precise'（正確に言えば）は前の発言を訂正・補足するときに使う便利なフレーズ。",
+      "confusables": "'exact' との違い：exact は「寸分違わず同じ・ぴったり一致する」こと（the exact same thing）、precise は「細かい点まで正確で精密」なこと（precise measurement）。文脈で使い分けるが、重なる場面も多い。",
+      "collocations": [
+        "precise measurement",
+        "to be precise",
+        "precise instructions"
+      ],
+      "trivia": "時計職人や外科医など「精密さ」を命とする職業では 'precision'（精度）という名詞形が頻繁に使われる。スイスの時計産業のキャッチフレーズにも 'Swiss precision' が登場するほど、この語は「職人の誇り」を象徴する言葉にもなっている。"
+    },
+    "frequency": 900,
+    "cefr": "B2"
+  },
+  {
+    "id": 600,
+    "word": "latter",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "後者の、後半の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（二つのうちの）後の方",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlætər/",
+    "syllables": "lat-ter",
+    "audioHint": "ラター",
+    "examples": [
+      {
+        "en": "Between tea and coffee, I prefer the latter.",
+        "ja": "紅茶とコーヒーのうち、私は後者が好きだ。",
+        "blank": "Between tea and coffee, I prefer the ___.",
+        "blankAnswer": "latter"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "簡潔な",
+      "異質な"
+    ],
+    "confusableSpellings": [
+      "latterr",
+      "laater",
+      "lattar"
+    ],
+    "passive": {
+      "etymology": "古英語 'lætra'（より遅い）が語源。'late'（遅い）の比較級が変化したもので、'late → later → latter' という流れで形成された。時間的・順序的な「後」を意味する語根 'lat-' を持つ。",
+      "tips": "'latter' は必ず「二つのうちの後の方」を指す。三つ以上の場合は 'last' を使う。'former'（前者）と対でよく使われ、'the former ... the latter ...' という構文は英語の論説文・学術文でよく登場する。日本人はこの使い分けを混同しがち。",
+      "confusables": "'later' との違い：later は「後で・あとで」という時間の副詞（I'll do it later）で比較の意味はない。latter は「二者の後者」を指す形容詞・名詞であり、副詞として使うことはない。発音も似ているので注意（later /ˈleɪtər/ vs latter /ˈlætər/）。",
+      "collocations": [
+        "the latter half",
+        "the former and the latter",
+        "in the latter stages"
+      ],
+      "trivia": "英語の正式な文章では 'the former' と 'the latter' を使うと読み手が前の文に戻って確認しなければならず、わかりにくくなることがある。そのため現代の文章作法では「具体的な名前を繰り返す方が親切」と指導されることも多い。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  }
+]

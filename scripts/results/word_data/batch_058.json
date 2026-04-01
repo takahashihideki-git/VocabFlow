@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1141,
+    "word": "empathy",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "共感",
+        "pos": "noun"
+      },
+      {
+        "meaning": "感情移入",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈempəθi/",
+    "syllables": "em-pa-thy",
+    "audioHint": "エンパシー",
+    "examples": [
+      {
+        "en": "She showed great empathy toward the grieving family.",
+        "ja": "彼女は悲しみに暮れる家族に深い共感を示した。",
+        "blank": "She showed great ___ toward the grieving family.",
+        "blankAnswer": "empathy"
+      }
+    ],
+    "distractors": [
+      "意識",
+      "直感",
+      "信念"
+    ],
+    "confusableSpellings": [
+      "empthy",
+      "empaty",
+      "emapthy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'em-'（中に）+ 'pathos'（感情・苦しみ）から。「相手の感情の中に入り込む」イメージ。",
+      "tips": "sympathyと混同しやすい。sympathyは「かわいそう」と外から同情すること、empathyは相手の立場に立って内側から感じること。使い分けに注意。",
+      "confusables": "sympathy（同情）と対比される。empathyは「あなたの気持ちが分かる」、sympathyは「あなたのことが気の毒だ」というニュアンスの違いがある。",
+      "collocations": [
+        "show empathy",
+        "feel empathy for",
+        "empathy with others"
+      ],
+      "trivia": "「empathy」という英単語が生まれたのは1900年代初頭で、比較的新しい言葉。もともとは美術批評の用語として使われ始め、後に心理学用語として広まった。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1142,
+    "word": "cue",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "合図、きっかけ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "手がかり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kjuː/",
+    "syllables": "cue",
+    "audioHint": "キュー",
+    "examples": [
+      {
+        "en": "The director gave the actor a cue to start speaking.",
+        "ja": "監督は俳優に話し始める合図を出した。",
+        "blank": "The director gave the actor a ___ to start speaking.",
+        "blankAnswer": "cue"
+      }
+    ],
+    "distractors": [
+      "象徴",
+      "衝動",
+      "概念"
+    ],
+    "confusableSpellings": [
+      "que",
+      "kue",
+      "qeue"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'quando'（いつ）が略されて舞台台本の注記になったとされる説が有力。演劇用語として発展した。",
+      "tips": "queue（列）と発音が同じ（同音異義語）なので文脈で区別すること。また動詞としても使え「cue someone」で「〜に合図する」という意味になる。",
+      "confusables": "queue（列・順番待ち）と発音が全く同じ。文脈で使い分ける。billiardのcue（ビリヤードのキュー棒）も同じ綴りで別の意味。",
+      "collocations": [
+        "take a cue from",
+        "give a cue",
+        "on cue"
+      ],
+      "trivia": "「right on cue」という表現は「ちょうどそのタイミングで」という意味で、映画やドラマの台詞でよく使われる。日常会話でも使えるおしゃれな表現！"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1143,
+    "word": "enterprise",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "企業、事業",
+        "pos": "noun"
+      },
+      {
+        "meaning": "起業家精神、冒険心",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈentərpraɪz/",
+    "syllables": "en-ter-prise",
+    "audioHint": "エンタープライズ",
+    "examples": [
+      {
+        "en": "The young entrepreneur launched a bold new enterprise.",
+        "ja": "その若い起業家は大胆な新事業を立ち上げた。",
+        "blank": "The young entrepreneur launched a bold new ___.",
+        "blankAnswer": "enterprise"
+      }
+    ],
+    "distractors": [
+      "利益",
+      "株式",
+      "予算"
+    ],
+    "confusableSpellings": [
+      "enterprize",
+      "enterprice",
+      "enterpise"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'entreprise'（引き受けること）から。'entre-'（間に）+ 'prendre'（取る）→「リスクを取って挑む」イメージ。",
+      "tips": "「会社」を意味する場合は company や business と互換的に使えるが、enterprise はやや大規模・公式なニュアンスがある。また「進取の気性」という抽象的意味でも使われる点に注意。",
+      "confusables": "company（一般的な会社）、corporation（法人・大企業）と比較するとenterpriseはやや大規模または事業プロジェクト的なニュアンスが強い。",
+      "collocations": [
+        "free enterprise",
+        "private enterprise",
+        "enterprise system"
+      ],
+      "trivia": "スタートレックの宇宙船名が「USS Enterprise」なのは偶然ではなく、「未知への冒険・挑戦」を意味するこの単語から取られている。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1144,
+    "word": "output",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "出力、産出量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "成果、生産高",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaʊtpʊt/",
+    "syllables": "out-put",
+    "audioHint": "アウトプット",
+    "examples": [
+      {
+        "en": "The factory increased its output by 20% this year.",
+        "ja": "その工場は今年、生産高を20%増加させた。",
+        "blank": "The factory increased its ___ by 20% this year.",
+        "blankAnswer": "output"
+      }
+    ],
+    "distractors": [
+      "処理能力",
+      "接続",
+      "プログラム"
+    ],
+    "confusableSpellings": [
+      "outpot",
+      "ouput",
+      "outpput"
+    ],
+    "passive": {
+      "etymology": "'out-'（外へ）+ 'put'（置く）→「外に出すもの」。inputの対義語として対称的に理解できる。",
+      "tips": "日本語でも「アウトプット」として定着しているが、英語では動詞としても使える（例：The machine outputs data）。名詞と動詞の両方に慣れておこう。",
+      "confusables": "input（入力・投入）の対義語。outcome（結果・成果）とも似ているが、outputは量的・技術的な産出を指すことが多く、outcomeは評価的な結果を指す。",
+      "collocations": [
+        "increase output",
+        "economic output",
+        "output data"
+      ],
+      "trivia": "コンピュータ用語としての「output」が広まったのは1940〜50年代。それ以前は主に工場の生産量に使われていた言葉で、デジタル時代が来て意味が拡張された。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1145,
+    "word": "congress",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "議会、国会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "大会、会議",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒŋɡrəs/",
+    "syllables": "con-gress",
+    "audioHint": "コングレス",
+    "examples": [
+      {
+        "en": "Congress passed a new bill on healthcare reform.",
+        "ja": "議会は医療改革に関する新しい法案を可決した。",
+        "blank": "___ passed a new bill on healthcare reform.",
+        "blankAnswer": "Congress"
+      }
+    ],
+    "distractors": [
+      "裁判所",
+      "政党",
+      "条約"
+    ],
+    "confusableSpellings": [
+      "congres",
+      "congross",
+      "congrass"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'congressus'（集まること）から。'con-'（共に）+ 'gradi'（歩く）→「共に歩み寄る」→「集会・議会」。",
+      "tips": "アメリカの「連邦議会」を指す場合は大文字でCongress。一般的な「会議・大会」を指す場合は小文字でcongress。大文字・小文字の違いで意味が変わる点に注意。",
+      "confusables": "parliament（英国など議院内閣制の議会）と区別する。Congressは特にアメリカの二院制議会（上院Senate＋下院House of Representatives）を指す。",
+      "collocations": [
+        "member of Congress",
+        "Congress approved",
+        "international congress"
+      ],
+      "trivia": "アメリカのCongressは上院（Senate）と下院（House of Representatives）の2つで成り立っている。日本の「国会」に当たるが、「国会議員」は「member of Congress」または「congressman」と言う。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1146,
+    "word": "millennium",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "千年間、千年紀",
+        "pos": "noun"
+      },
+      {
+        "meaning": "千年記念",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/mɪˈleniəm/",
+    "syllables": "mil-len-ni-um",
+    "audioHint": "ミレニアム",
+    "examples": [
+      {
+        "en": "The world celebrated the new millennium with fireworks.",
+        "ja": "世界は花火で新千年紀の幕開けを祝った。",
+        "blank": "The world celebrated the new ___ with fireworks.",
+        "blankAnswer": "millennium"
+      }
+    ],
+    "distractors": [
+      "瞬間",
+      "年代",
+      "季節"
+    ],
+    "confusableSpellings": [
+      "millenium",
+      "milenium",
+      "millenniun"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'mille'（千）+ 'annum'（年）→「千年」。同じ'mille'からmile（マイル＝千歩）も派生している。",
+      "tips": "スペルで最もよくあるミスは'l'と'n'の数。正しくは'millennium'（l×2、n×2）。「ミレニアム」と覚えたくなるが、英語のスペルは'millennium'と覚えよう。",
+      "confusables": "century（100年）、decade（10年）と合わせて時間単位として整理しておくと便利。millennium＞century＞decade＞year の順。",
+      "collocations": [
+        "new millennium",
+        "the turn of the millennium",
+        "millennium goals"
+      ],
+      "trivia": "2000年の「ミレニアム問題（Y2K）」では、コンピュータが1900年と2000年を区別できなくなると世界中がパニックになった。実際は大きな障害は起きなかったが、IT業界がここまで重要だと世間が気づいたきっかけでもある。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1147,
+    "word": "mankind",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "人類、人間",
+        "pos": "noun"
+      },
+      {
+        "meaning": "男性全体（古い用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/mænˈkaɪnd/",
+    "syllables": "man-kind",
+    "audioHint": "マンカインド",
+    "examples": [
+      {
+        "en": "Space exploration is a giant leap for mankind.",
+        "ja": "宇宙探査は人類にとっての大きな飛躍だ。",
+        "blank": "Space exploration is a giant leap for ___.",
+        "blankAnswer": "mankind"
+      }
+    ],
+    "distractors": [
+      "文明",
+      "精神",
+      "本能"
+    ],
+    "confusableSpellings": [
+      "mankinde",
+      "menkind",
+      "mankid"
+    ],
+    "passive": {
+      "etymology": "'man'（人間・男）+ 'kind'（種族・種類）→「人間という種族」。古英語 'mancynn' に由来する。",
+      "tips": "現代英語ではジェンダー中立的な humankind や humanity が好まれる場面が増えている。公式文書や学術的な文脈ではmankindよりhumanityを使う方が無難。",
+      "confusables": "humanity（人類・人間性）、humankind（人類）と同義で使えるが、mankindはやや古風・文語的なニュアンスがある。",
+      "collocations": [
+        "benefit of mankind",
+        "history of mankind",
+        "all mankind"
+      ],
+      "trivia": "アポロ11号でアームストロング船長が月面で言った「That's one small step for man, one giant leap for mankind.」は世界で最も有名な英語フレーズの一つ。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1148,
+    "word": "Muslim",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "イスラム教徒",
+        "pos": "noun"
+      },
+      {
+        "meaning": "イスラムの（形容詞的用法）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmʊzlɪm/",
+    "syllables": "Mus-lim",
+    "audioHint": "ムズリム",
+    "examples": [
+      {
+        "en": "Many Muslim families gather to celebrate Eid together.",
+        "ja": "多くのイスラム教徒の家族がイードを共に祝うために集まる。",
+        "blank": "Many ___ families gather to celebrate Eid together.",
+        "blankAnswer": "Muslim"
+      }
+    ],
+    "distractors": [
+      "礼拝堂",
+      "祭り",
+      "伝統的な衣装"
+    ],
+    "confusableSpellings": [
+      "Moslem",
+      "Muslum",
+      "Musliem"
+    ],
+    "passive": {
+      "etymology": "アラビア語 'muslim'（神に従う者）から。'aslama'（身を委ねる）が語根で、Islam（イスラム）と同じ語根を持つ。",
+      "tips": "かつては「Moslem」という表記も使われたが、現在は「Muslim」が標準的なスペル。常に大文字で始めること（固有名詞）。形容詞としても使える（Muslim culture など）。",
+      "confusables": "Islamic（イスラム的な）と似ているが、Muslimは人を指す語。「Muslim religion」は不自然で、「Islamic religion」や「Islam」が正しい。",
+      "collocations": [
+        "Muslim community",
+        "Muslim world",
+        "Muslim prayer"
+      ],
+      "trivia": "世界には約18億人のムスリムがいて、キリスト教に次ぐ世界第2位の宗教人口。インドネシアが世界最大のムスリム人口を抱える国で、中東だけがイスラム圏ではないことを知っておくと視野が広がる。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1149,
+    "word": "estate",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "不動産、土地・財産",
+        "pos": "noun"
+      },
+      {
+        "meaning": "遺産、相続財産",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈsteɪt/",
+    "syllables": "es-tate",
+    "audioHint": "エステイト",
+    "examples": [
+      {
+        "en": "She inherited a large estate from her grandfather.",
+        "ja": "彼女は祖父から広大な資産を相続した。",
+        "blank": "She inherited a large ___ from her grandfather.",
+        "blankAnswer": "estate"
+      }
+    ],
+    "distractors": [
+      "株式",
+      "融資",
+      "収益"
+    ],
+    "confusableSpellings": [
+      "estete",
+      "estaet",
+      "estait"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'estat'（状態・立場）から。ラテン語 'status' が語源で、「身分・財産上の状態」が原義。",
+      "tips": "「real estate（不動産）」というコロケーションは特に重要。estateだけでも「土地・財産」の意味だが、real estateで「土地・建物などの不動産」という意味になる。",
+      "confusables": "property（財産・不動産）と似ているが、estateはより広大な土地や相続に関わる財産全体を指すニュアンスがある。",
+      "collocations": [
+        "real estate",
+        "estate agent",
+        "estate tax"
+      ],
+      "trivia": "「real estate（不動産）」のrealはスペイン語・ポルトガル語の「royal（王の）」に由来するとも言われ、もともと「王の土地」という意味があった。不動産と王権が深く結びついていた歴史が透けて見える。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1150,
+    "word": "landmine",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "地雷",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（比喩的に）潜在的な危険・問題",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlændmaɪn/",
+    "syllables": "land-mine",
+    "audioHint": "ランドマイン",
+    "examples": [
+      {
+        "en": "Soldiers were trained to detect and disarm landmines safely.",
+        "ja": "兵士たちは地雷を安全に発見し解除する訓練を受けた。",
+        "blank": "Soldiers were trained to detect and disarm ___ safely.",
+        "blankAnswer": "landmines"
+      }
+    ],
+    "distractors": [
+      "停戦協定",
+      "難民",
+      "制裁"
+    ],
+    "confusableSpellings": [
+      "landmyne",
+      "landmind",
+      "landmien"
+    ],
+    "passive": {
+      "etymology": "'land'（陸地）+ 'mine'（鉱山・仕掛け爆弾）の複合語。mineの「爆発物」という意味はもともと地下に掘って爆薬を仕掛ける軍事技術に由来する。",
+      "tips": "比喩的に「political landmine（政治的地雷）」のように使われることも多い。「地雷を踏む」という日本語の比喩表現と同じ感覚で英語でも使える。",
+      "confusables": "mine（機雷・地雷）単体でも爆発物の意味があるが、lanmineは特に「地上に埋める地雷」を明確に指す。sea mine（機雷）と区別するための複合語。",
+      "collocations": [
+        "step on a landmine",
+        "clear landmines",
+        "landmine ban"
+      ],
+      "trivia": "ダイアナ妃は1997年に地雷廃絶運動に積極的に参加し、アンゴラやボスニアの地雷原を訪問して世界的な注目を集めた。同年、対人地雷禁止条約（オタワ条約）が採択されたのは彼女の活動と無縁ではない。"
+    },
+    "frequency": 6500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1151,
+    "word": "caution",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "注意、慎重さ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "警告する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɔːʃən/",
+    "syllables": "cau-tion",
+    "audioHint": "コーション",
+    "examples": [
+      {
+        "en": "You should proceed with caution in this situation.",
+        "ja": "この状況では慎重に進むべきだ。",
+        "blank": "You should proceed with ___ in this situation.",
+        "blankAnswer": "caution"
+      }
+    ],
+    "distractors": [
+      "意識",
+      "判断力",
+      "信念"
+    ],
+    "confusableSpellings": [
+      "causion",
+      "caustion",
+      "caotion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 cautio（用心）← cavere（気をつける）。「cave（洞窟）」と同じ語根で、「隠れた危険に気をつけろ」というイメージ。",
+      "tips": "「注意」として使う場合、名詞では with caution（慎重に）、動詞では caution someone against ~（〜しないよう警告する）という形が頻出。cautious（形容詞）との使い分けも重要。",
+      "confusables": "caution（一般的な注意・慎重さ）vs warning（具体的な危険への警告）vs advice（助言）。caution は行動全般への慎重な姿勢を指す。",
+      "collocations": [
+        "proceed with caution",
+        "exercise caution",
+        "caution against"
+      ],
+      "trivia": "交通標識の「CAUTION」は日本語の「注意」と同じ感覚で使われるが、英語では法的な意味で「令状なしの逮捕時に告げる権利説明」にも使われる。映画で警官が「You have the right to remain silent...」と言うシーン、あれも caution の一種！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1152,
+    "word": "controversy",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "論争、論議",
+        "pos": "noun"
+      },
+      {
+        "meaning": "物議を醸す問題",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒntrəvɜːrsi/",
+    "syllables": "con-tro-ver-sy",
+    "audioHint": "コントロヴァーシー",
+    "examples": [
+      {
+        "en": "The new policy sparked controversy among citizens.",
+        "ja": "新しい政策は市民の間で論争を引き起こした。",
+        "blank": "The new policy sparked ___ among citizens.",
+        "blankAnswer": "controversy"
+      }
+    ],
+    "distractors": [
+      "合意",
+      "規制",
+      "投票"
+    ],
+    "confusableSpellings": [
+      "contraversy",
+      "controversey",
+      "contravercy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 controversia ← contra（反対に）+ vertere（向ける・回す）。「反対方向に向き合う」ことが語源。versus（対）も同じ vertere から来ている。",
+      "tips": "発音が要注意！アメリカ英語では「コントロヴァーシー」、イギリス英語では「コントロヴァーシー」でもアクセント位置が異なる。controversial（形容詞）も一緒に覚えよう。",
+      "confusables": "controversy（論争・議論そのもの）vs dispute（具体的な紛争・争い）vs debate（公式な討論）。controversy はより感情的・社会的な対立を含意する。",
+      "collocations": [
+        "spark controversy",
+        "cause controversy",
+        "surrounded by controversy"
+      ],
+      "trivia": "SNS時代の「炎上」は英語で go viral with controversy と表現されることも。もともとは哲学・神学の論争に使われた格調高い言葉が、今では「推しの発言が炎上」にも使われるとは時代の流れを感じる。"
+    },
+    "frequency": 1900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1153,
+    "word": "consensus",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "合意、総意",
+        "pos": "noun"
+      },
+      {
+        "meaning": "意見の一致",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈsensəs/",
+    "syllables": "con-sen-sus",
+    "audioHint": "コンセンサス",
+    "examples": [
+      {
+        "en": "The committee reached a consensus on the new budget.",
+        "ja": "委員会は新予算について合意に達した。",
+        "blank": "The committee reached a ___ on the new budget.",
+        "blankAnswer": "consensus"
+      }
+    ],
+    "distractors": [
+      "論争",
+      "規制",
+      "多数決"
+    ],
+    "confusableSpellings": [
+      "concensus",
+      "consencus",
+      "consensous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 consensus ← con（共に）+ sentire（感じる）。「共に感じる＝同じ意見を持つ」。同じ語根から consent（同意）や sense（感覚）も生まれた。",
+      "tips": "日本語でも「コンセンサスを得る」とビジネスで使われるが、英語では reach a consensus または build consensus が自然な表現。「コンセンサスをとる」を take a consensus とするのは誤り。",
+      "confusables": "consensus（全員または大多数の合意）vs agreement（二者間・少人数の合意）vs majority（多数決）。consensus はより広範な一致を含意する。",
+      "collocations": [
+        "reach a consensus",
+        "build consensus",
+        "consensus opinion"
+      ],
+      "trivia": "「コンセンサス」は日本のビジネス用語として定着しているが、もともと「神経系が全体に信号を送る」という医学用語としても使われる。体も会議も「みんなが同じ方向を向くこと」が大事、というわけ。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1154,
+    "word": "retail",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "小売り、小売業",
+        "pos": "noun"
+      },
+      {
+        "meaning": "小売りの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈriːteɪl/",
+    "syllables": "re-tail",
+    "audioHint": "リーテイル",
+    "examples": [
+      {
+        "en": "She works in retail and manages a clothing store.",
+        "ja": "彼女は小売業で働いており、洋服店を管理している。",
+        "blank": "She works in ___ and manages a clothing store.",
+        "blankAnswer": "retail"
+      }
+    ],
+    "distractors": [
+      "投資",
+      "輸出",
+      "融資"
+    ],
+    "confusableSpellings": [
+      "retale",
+      "retaill",
+      "reatil"
+    ],
+    "passive": {
+      "etymology": "古フランス語 retailler（切り分ける）← re（再び）+ tailler（切る）。「大きな塊から切り分けて売る」＝小売り。tailor（仕立て屋）も同じ語根。",
+      "tips": "retail は名詞・形容詞・副詞・動詞と多品詞で使える。at retail price（小売価格で）、retail sector（小売セクター）などの形が頻出。wholesale（卸売り）の対義語として必ずセットで覚えよう。",
+      "confusables": "retail（消費者への直接販売）vs wholesale（業者への大量販売）vs distribution（流通全般）。価格も retail price > wholesale price となる。",
+      "collocations": [
+        "retail price",
+        "retail store",
+        "retail sector"
+      ],
+      "trivia": "Amazonの登場で「retail apocalypse（小売の黙示録）」という言葉が生まれた。実店舗が次々閉まる現象を「黙示録」と呼ぶのは大げさにも思えるが、アメリカでは年間数千店舗が閉店している現実がある。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1155,
+    "word": "fiber",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "繊維、食物繊維",
+        "pos": "noun"
+      },
+      {
+        "meaning": "素材、線維質",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfaɪbər/",
+    "syllables": "fi-ber",
+    "audioHint": "ファイバー",
+    "examples": [
+      {
+        "en": "Eating vegetables gives you plenty of dietary fiber.",
+        "ja": "野菜を食べると食物繊維が豊富に摂れる。",
+        "blank": "Eating vegetables gives you plenty of dietary ___.",
+        "blankAnswer": "fiber"
+      }
+    ],
+    "distractors": [
+      "抗体",
+      "酵素",
+      "ホルモン"
+    ],
+    "confusableSpellings": [
+      "fibre",
+      "fibor",
+      "faiber"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fibra（繊維・糸）が語源。古くは植物の糸状組織を指した。現代では光ファイバー（optical fiber）など技術分野にも広く使われる。",
+      "tips": "アメリカ英語では fiber、イギリス英語では fibre とスペルが異なる。日本人は「ファイバー＝繊維素材」のイメージが強いが、健康文脈では dietary fiber（食物繊維）として非常に重要な単語。",
+      "confusables": "fiber（繊維・食物繊維）vs protein（タンパク質）vs mineral（ミネラル）。栄養素の文脈では dietary fiber と必ず dietary をつけると明確になる。",
+      "collocations": [
+        "dietary fiber",
+        "optical fiber",
+        "high-fiber diet"
+      ],
+      "trivia": "光ファイバーは「光の全反射」で信号を伝えるが、この技術の原理はなんと19世紀にジョン・チンダルが水の流れで光を曲げる実験で発見した。繊維（fiber）と光がつながるとは、言葉の意味って面白い。"
+    },
+    "frequency": 2300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1156,
+    "word": "scent",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "香り、においの痕跡",
+        "pos": "noun"
+      },
+      {
+        "meaning": "嗅ぎつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sent/",
+    "syllables": "scent",
+    "audioHint": "セント",
+    "examples": [
+      {
+        "en": "The scent of fresh flowers filled the room.",
+        "ja": "新鮮な花の香りが部屋に広がった。",
+        "blank": "The ___ of fresh flowers filled the room.",
+        "blankAnswer": "scent"
+      }
+    ],
+    "distractors": [
+      "症状",
+      "細胞",
+      "反射"
+    ],
+    "confusableSpellings": [
+      "sent",
+      "sceant",
+      "scenit"
+    ],
+    "passive": {
+      "etymology": "古フランス語 sentir（感じる・嗅ぐ）← ラテン語 sentire（感じる）。「感じる」という語根から「嗅覚で感じるもの」＝香りへと意味が特化した。",
+      "tips": "scent、sent、cent はすべて同じ発音（/sent/）の同音異義語。スペルを間違えやすいので要注意。scent の c は無音。動物が「においをたどる」meaning でも使われる（The dog followed the scent）。",
+      "confusables": "scent（心地よい香り・においの痕跡）vs smell（中立的なにおい）vs odor（不快なにおいのニュアンスが強い）vs fragrance（主に香水・花の上品な香り）。",
+      "collocations": [
+        "floral scent",
+        "follow a scent",
+        "scent of perfume"
+      ],
+      "trivia": "人間が認識できるにおいの種類は約1兆種とも言われている。記憶と嗅覚は脳の同じ部位（扁桃体・海馬）と深く結びついており、昔嗅いだ香りで突然記憶がよみがえる現象は「プルースト効果」と呼ばれる。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1157,
+    "word": "beverage",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "飲み物、飲料",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbevərɪdʒ/",
+    "syllables": "bev-er-age",
+    "audioHint": "ベヴァリッジ",
+    "examples": [
+      {
+        "en": "The café offers a wide range of hot beverages.",
+        "ja": "そのカフェは幅広いホットドリンクを提供している。",
+        "blank": "The café offers a wide range of hot ___s.",
+        "blankAnswer": "beverages"
+      }
+    ],
+    "distractors": [
+      "食器",
+      "調味料",
+      "食材"
+    ],
+    "confusableSpellings": [
+      "beveridge",
+      "beaverage",
+      "bevrage"
+    ],
+    "passive": {
+      "etymology": "古フランス語 bevrage ← beivre（飲む）← ラテン語 bibere（飲む）。同じ語根から beer（ビール）も来ているという説もある。",
+      "tips": "beverage は drink より改まったフォーマルな表現。レストランのメニューや公式な文書でよく使われる。日常会話では drink の方が自然。「アルコール飲料」は alcoholic beverage、「ソフトドリンク」は non-alcoholic beverage または soft drink。",
+      "confusables": "beverage（フォーマルな「飲み物」全般）vs drink（カジュアルな「飲み物」）vs liquid（液体全般）。TPOに合わせて使い分けよう。",
+      "collocations": [
+        "alcoholic beverage",
+        "hot beverage",
+        "beverage industry"
+      ],
+      "trivia": "スターバックスの公式メニューでは drink ではなく beverage という言葉が使われている。「コーヒー一杯」のことをわざわざ beverage と呼ぶことで、少し特別感を演出しているのかも。言葉一つでブランド価値が変わる。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1158,
+    "word": "supplement",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "補足、栄養補助食品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "補う、補足する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsʌplɪmənt/",
+    "syllables": "sup-ple-ment",
+    "audioHint": "サプリメント",
+    "examples": [
+      {
+        "en": "She takes vitamin supplements every morning.",
+        "ja": "彼女は毎朝ビタミンのサプリメントを飲む。",
+        "blank": "She takes vitamin ___s every morning.",
+        "blankAnswer": "supplements"
+      }
+    ],
+    "distractors": [
+      "処方薬",
+      "ワクチン",
+      "抗生物質"
+    ],
+    "confusableSpellings": [
+      "suppliment",
+      "supliment",
+      "suplementt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 supplementum ← sub（下から・追加で）+ plere（満たす）。「不足を下から満たす」のが語源。plenty（豊かさ）や complete（完成させる）も同じ plere から来ている。",
+      "tips": "名詞と動詞で発音が異なる場合があるので注意（名詞：/ˈsʌplɪmənt/、動詞も同形だが一部の辞書では末尾が /ment/ ではなく /mɛnt/ に変化）。「サプリメント」として日本語に定着しているが、英語では dietary supplement と言う方が正確。",
+      "confusables": "supplement（栄養補助食品・補足するもの）vs medication（医薬品）vs prescription（処方薬）。supplement は薬ではなく食品扱いである点が重要。",
+      "collocations": [
+        "dietary supplement",
+        "vitamin supplement",
+        "supplement income"
+      ],
+      "trivia": "アメリカのサプリメント市場は年間約500億ドル規模。日本語の「サプリ」という略称は完全に日本独自の言い方で、英語ネイティブに「サプリ」と言っても通じない。英語では supplement か vitamins と言おう。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1159,
+    "word": "diabetes",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "糖尿病",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌdaɪəˈbiːtɪz/",
+    "syllables": "di-a-be-tes",
+    "audioHint": "ダイアビーティズ",
+    "examples": [
+      {
+        "en": "Type 2 diabetes is linked to poor diet and lack of exercise.",
+        "ja": "2型糖尿病は不健康な食事と運動不足に関連している。",
+        "blank": "Type 2 ___ is linked to poor diet and lack of exercise.",
+        "blankAnswer": "diabetes"
+      }
+    ],
+    "distractors": [
+      "高血圧",
+      "骨粗しょう症",
+      "貧血"
+    ],
+    "confusableSpellings": [
+      "diabeties",
+      "diabetis",
+      "diabetese"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 diabētēs（通り抜けるもの）← dia（通って）+ bainein（行く）。尿が大量に出る症状から「通り抜ける病」と命名された。古代医師が尿の甘い味で診断していたのがルーツ。",
+      "tips": "複数形のように見えるが diabetes は単数扱い（Diabetes is a serious disease.）。発音は「ダイアベティス」または「ダイアビーティズ」で、最後の s を忘れずに。diabetic（糖尿病の・糖尿病患者）も重要な関連語。",
+      "confusables": "diabetes（糖尿病全般）vs Type 1 diabetes（インスリン依存型）vs Type 2 diabetes（生活習慣病型）。両者はメカニズムが異なる別疾患として区別される。",
+      "collocations": [
+        "type 2 diabetes",
+        "diabetes management",
+        "risk of diabetes"
+      ],
+      "trivia": "古代ローマの医師アレタイオスは糖尿病を「肉と四肢が尿に溶け出す病」と記述した。実際、インスリンが発見されたのは1921年で、それ以前は糖尿病の診断はほぼ死刑宣告だった。インスリンの発見は医学史上最大の革命の一つ。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1160,
+    "word": "province",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "州、省、地方",
+        "pos": "noun"
+      },
+      {
+        "meaning": "専門分野、管轄",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɒvɪns/",
+    "syllables": "prov-ince",
+    "audioHint": "プロヴィンス",
+    "examples": [
+      {
+        "en": "Quebec is a French-speaking province in Canada.",
+        "ja": "ケベックはカナダのフランス語圏の州だ。",
+        "blank": "Quebec is a French-speaking ___ in Canada.",
+        "blankAnswer": "province"
+      }
+    ],
+    "distractors": [
+      "政党",
+      "議会",
+      "条約"
+    ],
+    "confusableSpellings": [
+      "provience",
+      "provinse",
+      "provins"
+    ],
+    "passive": {
+      "etymology": "ラテン語 provincia（ローマの属州）← pro（前に）+ vincere（征服する）。「征服して前に置いたもの」＝支配下に置いた地域。vintage（ワインの収穫年）も vincere と関連する。",
+      "tips": "province は国の行政区分（カナダ・中国・南アフリカなどで使用）を指すが、アメリカとオーストラリアでは state が使われる。「地方・田舎」という意味で the provinces（複数形）とも使われ、「都会でない地方」のニュアンスになる。",
+      "confusables": "province（主にカナダ・中国など特定の国の行政区分）vs state（アメリカ・オーストラリア・ドイツなど）vs region（一般的な地理的区分）vs district（より小さな行政区）。",
+      "collocations": [
+        "province of Canada",
+        "home province",
+        "the provinces"
+      ],
+      "trivia": "カナダには10の province と3つの territory がある。province と territory の違いは「自治の程度」で、province の方が権限が強い。カナダ人に「どこ出身？」と聞くと state ではなく province と答えるので覚えておこう。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  }
+]

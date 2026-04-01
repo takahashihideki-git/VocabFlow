@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 541,
+    "word": "insight",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "洞察（力）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "見識、深い理解",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnsaɪt/",
+    "syllables": "in-sight",
+    "audioHint": "インサイト",
+    "examples": [
+      {
+        "en": "Her research provided valuable insights into human behavior.",
+        "ja": "彼女の研究は人間の行動に関する貴重な洞察を与えてくれた。",
+        "blank": "Her research provided valuable ___ into human behavior.",
+        "blankAnswer": "insights"
+      }
+    ],
+    "distractors": [
+      "霊感、直感",
+      "論理的思考",
+      "先入観、偏見"
+    ],
+    "confusableSpellings": [
+      "insigt",
+      "incite",
+      "insigh"
+    ],
+    "passive": {
+      "etymology": "古英語 'insiht'（内部を見ること）から。接頭辞 in-（中に）＋ sight（視覚、見ること）。「内側を見る力」が原義。",
+      "tips": "insight into ～ という前置詞 into とセットで使うのが定番。「～に対する洞察」という意味になる。insight of とは言わないので注意。",
+      "confusables": "incite（扇動する）とスペルが似ているが意味は全く異なる。発音も /ɪnˈsaɪt/ と /ˈɪnsaɪt/ でアクセントが違う。",
+      "collocations": [
+        "gain insight into",
+        "valuable insight",
+        "provide insight"
+      ],
+      "trivia": "マーケティング業界では「消費者インサイト（consumer insight）」という言葉で頻繁に使われ、消費者の隠れた本音や動機を指す業界用語になっている。"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 542,
+    "word": "innovation",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "革新、イノベーション",
+        "pos": "noun"
+      },
+      {
+        "meaning": "新しい考え方・技術",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪnəˈveɪʃən/",
+    "syllables": "in-no-va-tion",
+    "audioHint": "イノヴェイション",
+    "examples": [
+      {
+        "en": "Technological innovation has changed the way we communicate.",
+        "ja": "技術革新は私たちのコミュニケーションの方法を変えた。",
+        "blank": "Technological ___ has changed the way we communicate.",
+        "blankAnswer": "innovation"
+      }
+    ],
+    "distractors": [
+      "情報収集、データ分析",
+      "システムの故障",
+      "ネットワーク接続"
+    ],
+    "confusableSpellings": [
+      "inovation",
+      "innovasion",
+      "innovtion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 innovatio から。接頭辞 in-（中に）＋ novus（新しい）＋ -tion（名詞化）。「新しいものを取り入れること」が原義。novel（小説・新奇な）と同じ語根。",
+      "tips": "日本語の「イノベーション」はすでに定着しているが、英語では「単なる新しさ」ではなく「既存のものを変革する」というニュアンスが強い。invention（発明）との違いに注意。",
+      "confusables": "invention（発明）は全く新しいものを生み出すこと。innovation は既存のものを改良・応用して価値を生み出すことを指すことが多い。",
+      "collocations": [
+        "technological innovation",
+        "drive innovation",
+        "foster innovation"
+      ],
+      "trivia": "経済学者ヨーゼフ・シュンペーターが「創造的破壊（creative destruction）」の概念とともにこの言葉を広めた。起業家精神の文脈では外せないキーワード。"
+    },
+    "frequency": 900,
+    "cefr": "B2"
+  },
+  {
+    "id": 543,
+    "word": "budget",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "予算",
+        "pos": "noun"
+      },
+      {
+        "meaning": "予算を組む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbʌdʒɪt/",
+    "syllables": "bud-get",
+    "audioHint": "バジェット",
+    "examples": [
+      {
+        "en": "We need to stick to our budget this month.",
+        "ja": "今月は予算内に収める必要がある。",
+        "blank": "We need to stick to our ___ this month.",
+        "blankAnswer": "budget"
+      }
+    ],
+    "distractors": [
+      "負債、借金",
+      "手数料、料金",
+      "利益、収益"
+    ],
+    "confusableSpellings": [
+      "buget",
+      "budjet",
+      "budgit"
+    ],
+    "passive": {
+      "etymology": "古フランス語 bougette（小さな袋）から。ラテン語 bulga（革袋）が語源。かつて英国財務大臣が議会に予算書を入れた「袋」を持参したことから現在の意味に。",
+      "tips": "budget は名詞だけでなく動詞としても使える（budget for ～：～のために予算を組む）。また形容詞的に「格安の」という意味でも使われる（budget hotel）。",
+      "confusables": "expense（支出・経費）は実際に使ったお金、budget は計画上の上限額。「予算オーバー」は over budget、「予算内」は within budget と表現する。",
+      "collocations": [
+        "annual budget",
+        "on a budget",
+        "budget cuts"
+      ],
+      "trivia": "イギリスでは毎年秋に財務大臣が議会に予算案を提出する日を「Budget Day」と呼び、ニュースでも大々的に報道される国民的イベントになっている。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 544,
+    "word": "fee",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "料金、手数料",
+        "pos": "noun"
+      },
+      {
+        "meaning": "報酬（専門職への）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fiː/",
+    "syllables": "fee",
+    "audioHint": "フィー",
+    "examples": [
+      {
+        "en": "The lawyer charged a high fee for his services.",
+        "ja": "弁護士はサービスに対して高い報酬を請求した。",
+        "blank": "The lawyer charged a high ___ for his services.",
+        "blankAnswer": "fee"
+      }
+    ],
+    "distractors": [
+      "利息、金利",
+      "予算、資金計画",
+      "賃金、給与"
+    ],
+    "confusableSpellings": [
+      "fea",
+      "fie",
+      "fée"
+    ],
+    "passive": {
+      "etymology": "古フランス語 fief（封土）から。中世ヨーロッパの封建制度で土地（fief）の代わりに支払われた対価が語源。現代では専門サービスへの対価を指す。",
+      "tips": "fee は医師・弁護士・コンサルタントなど専門職への「報酬・手数料」に使う。一般的な商品の「値段」には price、サービスの利用料には charge や cost を使うことが多い。",
+      "confusables": "charge は広く「請求する・料金」の意味。fare は交通機関の運賃。tuition fee（授業料）のように fee は特定サービスへの対価として使われることが多い。",
+      "collocations": [
+        "tuition fee",
+        "entrance fee",
+        "pay a fee"
+      ],
+      "trivia": "「フリーミアム（freemium）」ビジネスモデルの「free」と対になる概念として、ITサービス業界では subscription fee（サブスク料金）という使い方が急増している。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 545,
+    "word": "expense",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "費用、出費",
+        "pos": "noun"
+      },
+      {
+        "meaning": "経費（複数形で）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪkˈspɛns/",
+    "syllables": "ex-pense",
+    "audioHint": "イクスペンス",
+    "examples": [
+      {
+        "en": "Travel expenses will be covered by the company.",
+        "ja": "交通費は会社が負担します。",
+        "blank": "Travel ___ will be covered by the company.",
+        "blankAnswer": "expenses"
+      }
+    ],
+    "distractors": [
+      "利益、収益",
+      "融資、ローン",
+      "税金、課税"
+    ],
+    "confusableSpellings": [
+      "expence",
+      "expens",
+      "exspense"
+    ],
+    "passive": {
+      "etymology": "ラテン語 expensa（支払われたもの）から。ex-（外に）＋ pendere（重さを量る・支払う）。「外に払い出すもの」が原義。spend（使う）や pension とも同じ語根。",
+      "tips": "expenses（複数形）は「経費精算」のような会社の業務経費を指すことが多い。at the expense of ～ は「～を犠牲にして」という重要熟語。",
+      "confusables": "cost は「コスト・費用（価値としての代価）」でより広い概念。expense は実際に支出したお金のニュアンス。日本語では両方「費用」と訳されるので混同しやすい。",
+      "collocations": [
+        "at the expense of",
+        "living expenses",
+        "cut expenses"
+      ],
+      "trivia": "ビジネス英語で「経費を申請する」は「claim expenses」または「file an expense report」という。日本の「経費精算」文化は欧米でも同様で expense report という書類が使われる。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 546,
+    "word": "debt",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "負債、借金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "恩義、恩（比喩的）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɛt/",
+    "syllables": "debt",
+    "audioHint": "デット",
+    "examples": [
+      {
+        "en": "She worked hard to pay off her student debt.",
+        "ja": "彼女は学生ローンを返済するために懸命に働いた。",
+        "blank": "She worked hard to pay off her student ___.",
+        "blankAnswer": "debt"
+      }
+    ],
+    "distractors": [
+      "利益、配当",
+      "予算、資金計画",
+      "資産、財産"
+    ],
+    "confusableSpellings": [
+      "dept",
+      "dett",
+      "dedt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 debitum（負われているもの）から。de-（離れて）＋ habere（持つ）が語源。debtor（債務者）、debit（借方）と同じ語族。中世英語では「debte」とスペルされていた。",
+      "tips": "最大の注意点は「b が発音されない」こと！ /dɛt/ と読む。debt の b はサイレント。doubt（疑う）の b も同様にサイレントで、どちらもラテン語由来の綴りの名残。",
+      "confusables": "loan（ローン・貸付金）は貸す側から見た「貸付」、debt は借りる側から見た「負債」。in debt（借金を抱えている）vs. have a loan（ローンを組んでいる）という視点の違い。",
+      "collocations": [
+        "in debt",
+        "pay off debt",
+        "national debt"
+      ],
+      "trivia": "「b が読めない単語」の代表格。これはルネサンス期の学者たちがラテン語らしく見せようとしてわざわざ b を追加した結果で、「発音は変えないまま綴りだけ変えた」という歴史的ないたずらの産物。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 547,
+    "word": "loan",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "ローン、貸付金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "貸す、融資する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/loʊn/",
+    "syllables": "loan",
+    "audioHint": "ローン",
+    "examples": [
+      {
+        "en": "He applied for a bank loan to start his business.",
+        "ja": "彼は事業を始めるために銀行ローンを申し込んだ。",
+        "blank": "He applied for a bank ___ to start his business.",
+        "blankAnswer": "loan"
+      }
+    ],
+    "distractors": [
+      "手数料、報酬",
+      "税金、関税",
+      "利益、黒字"
+    ],
+    "confusableSpellings": [
+      "loen",
+      "lone",
+      "lown"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 lán（貸し付け）から。古英語 lænan（貸す）と同じ語根。スカンジナビア系の言葉で、バイキングの交易文化が英語に残した痕跡のひとつ。",
+      "tips": "loan と lend は混同しやすい。loan は名詞用法が基本で「貸付金・ローン」。動詞としても使えるが、動詞では lend の方が一般的。「on loan」は「貸し出し中」という表現で美術館や図書館でよく使われる。",
+      "confusables": "lone（孤独な・形容詞）とスペルが1文字違いで見た目が非常に似ている。loan は金融用語、lone は「a lone wolf（一匹狼）」のように「単独の」という意味。",
+      "collocations": [
+        "take out a loan",
+        "student loan",
+        "loan repayment"
+      ],
+      "trivia": "英語には「loan word（借用語）」という表現があり、他言語から「借りてきた」単語を指す。皮肉なことに loan という単語自体が古ノルド語からの loan word（借用語）という二重の意味を持っている。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 548,
+    "word": "duty",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "義務、責務",
+        "pos": "noun"
+      },
+      {
+        "meaning": "関税、税（複数形で）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdjuːti/",
+    "syllables": "du-ty",
+    "audioHint": "デューティ",
+    "examples": [
+      {
+        "en": "It is our duty to protect the environment.",
+        "ja": "環境を守ることは私たちの義務だ。",
+        "blank": "It is our ___ to protect the environment.",
+        "blankAnswer": "duty"
+      }
+    ],
+    "distractors": [
+      "権利、特権",
+      "罰則、制裁",
+      "規則、規制"
+    ],
+    "confusableSpellings": [
+      "dutie",
+      "duity",
+      "duti"
+    ],
+    "passive": {
+      "etymology": "古フランス語 dueté（当然のこと）から。ラテン語 debere（負っている）が語根。debt（負債）と同じ語族で「負っている行為・義務」が原義。",
+      "tips": "on duty（勤務中）/ off duty（非番）は警察・医療・軍隊などの文脈で頻出。また duty-free（免税）は空港でお馴染みの表現。「義務」の強さは obligation > duty > responsibility の順に強い。",
+      "confusables": "obligation は法的・契約的な「義務」、responsibility は「責任・役割」、duty は道徳的・社会的・職業的な「義務」。duty には「やるべき正しいこと」という道義的ニュアンスがある。",
+      "collocations": [
+        "on duty",
+        "sense of duty",
+        "duty-free"
+      ],
+      "trivia": "Call of Duty（コール オブ デューティ）という世界的に有名なゲームシリーズのタイトルにも使われており、「義務への呼びかけ」＝「招集令状」というミリタリーな意味を持つ。"
+    },
+    "frequency": 950,
+    "cefr": "B1"
+  },
+  {
+    "id": 549,
+    "word": "alarm",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "警報、アラーム",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不安、警戒心",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈlɑːrm/",
+    "syllables": "a-larm",
+    "audioHint": "アラーム",
+    "examples": [
+      {
+        "en": "I forgot to set my alarm and woke up late.",
+        "ja": "アラームをセットし忘れて、寝坊した。",
+        "blank": "I forgot to set my ___ and woke up late.",
+        "blankAnswer": "alarm"
+      }
+    ],
+    "distractors": [
+      "道具、器具",
+      "習慣、慣習",
+      "贈り物、プレゼント"
+    ],
+    "confusableSpellings": [
+      "allarm",
+      "alram",
+      "alarrm"
+    ],
+    "passive": {
+      "etymology": "イタリア語 all'arme!（「武器へ！」の意）から。all'（～へ）＋ arme（武器）が語源。戦場で敵が来た際の「武器を取れ！」という叫び声が名詞・動詞化したもの。",
+      "tips": "alarm は名詞（警報器・不安）と動詞（不安にさせる）の両方で使える。「目覚まし時計」は alarm clock が正式だが、口語では just alarm だけでも通じる。be alarmed（不安になる）という形も重要。",
+      "confusables": "alert も警戒・警報の意味を持つが、alarm は「突発的な危険への驚きや恐怖」のニュアンスが強く、alert は「注意を促す・備える」という冷静な行動に近い。",
+      "collocations": [
+        "set an alarm",
+        "fire alarm",
+        "raise the alarm"
+      ],
+      "trivia": "「アラーム疲れ（alarm fatigue）」という医療用語がある。病院のモニターが鳴りすぎて医療スタッフが警報に慣れてしまい、本当に危険な警報を見逃すという現代医療の深刻な問題を指す。"
+    },
+    "frequency": 1050,
+    "cefr": "A2"
+  },
+  {
+    "id": 550,
+    "word": "emergency",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "緊急事態、非常事態",
+        "pos": "noun"
+      },
+      {
+        "meaning": "救急（の）、緊急用の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈmɜːrdʒənsi/",
+    "syllables": "e-mer-gen-cy",
+    "audioHint": "イマージェンシー",
+    "examples": [
+      {
+        "en": "Call 911 in case of a medical emergency.",
+        "ja": "医療上の緊急事態の場合は911に電話してください。",
+        "blank": "Call 911 in case of a medical ___.",
+        "blankAnswer": "emergency"
+      }
+    ],
+    "distractors": [
+      "選挙、投票",
+      "条約、協定",
+      "改革、変革"
+    ],
+    "confusableSpellings": [
+      "emergancy",
+      "emergenci",
+      "emargency"
+    ],
+    "passive": {
+      "etymology": "ラテン語 emergere（浮かび上がる）から。e-/ex-（外に）＋ mergere（沈む・浸かる）が語源。「水中から突然浮かび上がる」イメージから「突発的な事態」という意味に。emerge（現れる）と同語源。",
+      "tips": "emergency は形容詞的にも使える（emergency exit：非常口、emergency meeting：緊急会議）。in an emergency（緊急時には）とin case of emergency（万が一の場合に備えて）の使い分けも重要。",
+      "confusables": "crisis は「危機・重大局面」で必ずしも即時対応を要しない場合もある。emergency は「今すぐ行動が必要な緊急状態」というニュアンスが強く、より切迫した状況を指す。",
+      "collocations": [
+        "emergency exit",
+        "state of emergency",
+        "emergency services"
+      ],
+      "trivia": "アメリカのドラマ「ER（Emergency Room）」で広く知られるようになった emergency room（救急室）。日本の「ER」という言葉もここから来ているが、日本の救急外来とアメリカのERでは規模も役割も大きく異なる。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 551,
+    "word": "democracy",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "民主主義",
+        "pos": "noun"
+      },
+      {
+        "meaning": "民主国家",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈmɒkrəsi/",
+    "syllables": "de-moc-ra-cy",
+    "audioHint": "ディモクラシー",
+    "examples": [
+      {
+        "en": "Democracy gives every citizen the right to vote.",
+        "ja": "民主主義はすべての市民に投票権を与える。",
+        "blank": "___ gives every citizen the right to vote.",
+        "blankAnswer": "Democracy"
+      }
+    ],
+    "distractors": [
+      "独裁体制",
+      "官僚制度",
+      "選挙運動"
+    ],
+    "confusableSpellings": [
+      "democrasy",
+      "democrachy",
+      "demorcacy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 demos（人民）+ kratos（支配・権力）から。「人民による支配」が原義。接頭辞 demo- は「人民」を意味し、demographic（人口統計学的な）などにも共通する。",
+      "tips": "発音は「デモクラシー」で、アクセントは2音節目の「moc」に置く。「デモクレイシー」と伸ばさないよう注意。複数形 democracies は -cies になることも覚えておこう。",
+      "confusables": "republic（共和制）と混同されやすい。republic は「王のいない政体」を指し、democracy は「人民が主権を持つ政体」を指す。アメリカは両方に該当する。",
+      "collocations": [
+        "liberal democracy（自由民主主義）",
+        "democracy flourishes（民主主義が栄える）",
+        "threat to democracy（民主主義への脅威）"
+      ],
+      "trivia": "「デモ（demo）」という略語は本来「demonstration（示威運動）」の略だが、語源は democracy と同じ「人民」。つまりデモ活動は文字通り「人民の行動」なんです。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 552,
+    "word": "minister",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "大臣",
+        "pos": "noun"
+      },
+      {
+        "meaning": "聖職者・牧師",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɪnɪstər/",
+    "syllables": "min-is-ter",
+    "audioHint": "ミニスター",
+    "examples": [
+      {
+        "en": "The prime minister announced a new economic policy.",
+        "ja": "首相が新しい経済政策を発表した。",
+        "blank": "The prime ___ announced a new economic policy.",
+        "blankAnswer": "minister"
+      }
+    ],
+    "distractors": [
+      "大統領",
+      "議会議員",
+      "市長"
+    ],
+    "confusableSpellings": [
+      "ministor",
+      "minster",
+      "minisiter"
+    ],
+    "passive": {
+      "etymology": "ラテン語 minister（召使い・奉仕者）から。mini-（小さい・劣った）+ -ster（者）で、もともと「主人に仕える者」の意味。magister（主人・先生）の対義語として生まれた。",
+      "tips": "「大臣」の意味では Prime Minister（首相）、Foreign Minister（外務大臣）のように使う。日本人は minister を「ミニスター」と平板に発音しがちだが、最初の「min」にアクセントを置くこと。",
+      "confusables": "minister（大臣・牧師）と secretary（長官・秘書）は紛らわしい。米国では Secretary of State（国務長官）、英国では Foreign Minister（外務大臣）と呼ぶ慣習の違いがある。",
+      "collocations": [
+        "prime minister（首相）",
+        "minister of finance（財務大臣）",
+        "cabinet minister（閣僚）"
+      ],
+      "trivia": "「minister」はもともと「召使い」の意味。つまり大臣は本来「国民に仕える者」という建前で命名された言葉。語源が意外と謙虚で面白い。"
+    },
+    "frequency": 720,
+    "cefr": "B1"
+  },
+  {
+    "id": 553,
+    "word": "fellow",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "仲間・同僚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "男・やつ（口語）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɛloʊ/",
+    "syllables": "fel-low",
+    "audioHint": "フェロウ",
+    "examples": [
+      {
+        "en": "He is a fellow student in my history class.",
+        "ja": "彼は私の歴史の授業の同級生だ。",
+        "blank": "He is a ___ student in my history class.",
+        "blankAnswer": "fellow"
+      }
+    ],
+    "distractors": [
+      "敵対者",
+      "上司",
+      "見知らぬ人"
+    ],
+    "confusableSpellings": [
+      "felow",
+      "felloe",
+      "fello"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 félagi（財産を共に置く者）から。fe（財産・お金）+ lag（置くこと・法）が語源で、「共同出資者」が原義。そこから「仲間」へと意味が広がった。",
+      "tips": "形容詞的に使う場合（fellow student, fellow citizen）はハイフンなしで名詞の前に置く。「やつ」という口語的意味は古風・文学的なニュアンスがあるため、現代の会話では guy のほうがよく使われる。",
+      "confusables": "fellow（仲間・同士）と colleague（同僚）は似ているが、colleague はより職場・仕事上の関係に限定される。fellow はもっと広く「同じ立場にある人」を指す。",
+      "collocations": [
+        "fellow citizen（同市民）",
+        "fellow worker（同僚）",
+        "research fellow（研究員）"
+      ],
+      "trivia": "大学の「フェロー（Fellow）」は奨学金付きの特別研究員のこと。オックスフォードやケンブリッジではエリート称号として使われる。語源の「財産を共に置く」から「知識を共に持つ者」へと進化した。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 554,
+    "word": "candidate",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "候補者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "受験者・志願者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkændɪdət/",
+    "syllables": "can-di-date",
+    "audioHint": "キャンディデット",
+    "examples": [
+      {
+        "en": "Three candidates are running for mayor this year.",
+        "ja": "今年は3人の候補者が市長選に出馬している。",
+        "blank": "Three ___ are running for mayor this year.",
+        "blankAnswer": "candidates"
+      }
+    ],
+    "distractors": [
+      "現職議員",
+      "有権者",
+      "政党代表"
+    ],
+    "confusableSpellings": [
+      "candidat",
+      "canditate",
+      "candidete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 candidatus（白い衣をまとった者）から。candidus（白・輝く）が語源。古代ローマで公職に立候補する人は清廉さを示すために白いトーガを着ていたことに由来する。",
+      "tips": "発音は「キャンディデイト」ではなく「キャンディデット」と最後を弱く発音するのが自然。選挙の候補者だけでなく、就職・入試の「志願者」にも使えることを覚えておこう。",
+      "confusables": "candidate（候補者）と applicant（応募者）は似ているが、applicant は主に書類を提出した段階、candidate は選考プロセスに入った段階を指すことが多い。",
+      "collocations": [
+        "presidential candidate（大統領候補）",
+        "job candidate（求職者）",
+        "leading candidate（有力候補）"
+      ],
+      "trivia": "「候補者は白い服を着なければならなかった」という古代ローマの慣習が語源。清廉潔白さをアピールするための白い服…現代の政治家にも守ってほしい精神ですね。"
+    },
+    "frequency": 680,
+    "cefr": "B1"
+  },
+  {
+    "id": 555,
+    "word": "corporation",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "企業・法人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "株式会社",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌkɔːrpəˈreɪʃən/",
+    "syllables": "cor-po-ra-tion",
+    "audioHint": "コーポレイション",
+    "examples": [
+      {
+        "en": "The corporation employs over ten thousand workers worldwide.",
+        "ja": "その企業は世界中で1万人以上を雇用している。",
+        "blank": "The ___ employs over ten thousand workers worldwide.",
+        "blankAnswer": "corporation"
+      }
+    ],
+    "distractors": [
+      "財政赤字",
+      "株式配当",
+      "労働組合"
+    ],
+    "confusableSpellings": [
+      "corperation",
+      "corporaton",
+      "coropration"
+    ],
+    "passive": {
+      "etymology": "ラテン語 corpus（体・集合体）+ -ation（名詞化接尾辞）から。「体（body）として一つにまとまったもの」が原義。corporate（企業の）、corpse（死体）なども同じ語根を持つ。",
+      "tips": "略語は Corp. または Inc.（Incorporated）。日本語の「株式会社」にあたるが、英語の corporation は必ずしも株式会社だけを指さない。アクセントは「-ra-tion」の「ra」に置くことに注意。",
+      "confusables": "corporation（大企業・法人）と company（会社）と firm（会社・商会）は似ているが、corporation は法的に独立した法人格を持つ大規模組織を指すことが多い。firm は主に法律・会計事務所などに使う。",
+      "collocations": [
+        "multinational corporation（多国籍企業）",
+        "run a corporation（企業を経営する）",
+        "corporate culture（企業文化）"
+      ],
+      "trivia": "corporation の語源は「体（body）」。会社が「法的に一つの人格を持つ存在」として扱われるのはこの概念から。法律用語で会社を「法人（legal person）」と呼ぶのも同じ発想から来ている。"
+    },
+    "frequency": 590,
+    "cefr": "B2"
+  },
+  {
+    "id": 556,
+    "word": "stereotype",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "固定観念・ステレオタイプ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "〜を固定観念で見る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈstɛriəˌtaɪp/",
+    "syllables": "ster-e-o-type",
+    "audioHint": "ステリオタイプ",
+    "examples": [
+      {
+        "en": "We should avoid relying on stereotypes about other cultures.",
+        "ja": "他の文化に関する固定観念に頼ることは避けるべきだ。",
+        "blank": "We should avoid relying on ___ about other cultures.",
+        "blankAnswer": "stereotypes"
+      }
+    ],
+    "distractors": [
+      "差別政策",
+      "国家権力",
+      "社会的特権"
+    ],
+    "confusableSpellings": [
+      "sterotype",
+      "steriotype",
+      "stereotipe"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 stereos（固体・立体的な）+ typos（型・印）から。もともとは印刷業界の「鉛版印刷」の用語で、同じ型から何度も同じものを刷ることを指した。そこから「変わらない固定したイメージ」の意味になった。",
+      "tips": "名詞（固定観念）と動詞（〜をステレオタイプ化する）の両方で使える。動詞用法 'stereotype someone as ~'（〜として決めつける）は試験にも頻出。カタカナの「ステレオタイプ」はほぼ英語の発音通りだが、英語では「ステリオタイプ」に近い音になる。",
+      "confusables": "stereotype（固定観念）と prejudice（偏見）と discrimination（差別）は関連するが異なる。stereotype は思い込み、prejudice は感情的な偏見、discrimination は実際の差別行為という流れで区別するとよい。",
+      "collocations": [
+        "racial stereotype（人種的固定観念）",
+        "challenge a stereotype（固定観念に挑む）",
+        "stereotype someone（〜を決めつける）"
+      ],
+      "trivia": "「ステレオ（stereo）」は「立体音響」の意味でも使われるが、語源は「固体・立体的」という意味のギリシャ語。つまりステレオタイプとステレオサウンドは同じ語源を持つ兄弟語。意外な繋がり！"
+    },
+    "frequency": 1050,
+    "cefr": "B2"
+  },
+  {
+    "id": 557,
+    "word": "route",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "ルート・道筋",
+        "pos": "noun"
+      },
+      {
+        "meaning": "経路・手段",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ruːt/",
+    "syllables": "route",
+    "audioHint": "ルート",
+    "examples": [
+      {
+        "en": "We took a different route to avoid the traffic jam.",
+        "ja": "渋滞を避けるために別のルートを取った。",
+        "blank": "We took a different ___ to avoid the traffic jam.",
+        "blankAnswer": "route"
+      }
+    ],
+    "distractors": [
+      "目的地",
+      "乗り物・交通手段",
+      "地図・案内図"
+    ],
+    "confusableSpellings": [
+      "rout",
+      "roote",
+      "reoute"
+    ],
+    "passive": {
+      "etymology": "古フランス語 route（切り開かれた道）から。ラテン語 rupta（via）（壊された道）が語源で、rumpere（破る・切り開く）に由来する。rupture（破裂）も同じ語根を持つ。",
+      "tips": "英国英語では /ruːt/（ルート）、米国英語では /raʊt/（ラウト）と発音されることもある。日本人には「ルート」の発音が自然だが、アメリカ映画などでは「ラウト」と聞こえる場面もあるので混乱しないように。",
+      "confusables": "route（経路・ルート）と road（道路）と path（小道）は似ているが、route は「出発地から目的地までの道筋全体」、road は「物理的な道路」、path は「細い道や手段」を指す。",
+      "collocations": [
+        "trade route（交易路）",
+        "bus route（バス路線）",
+        "scenic route（景色のよい道）"
+      ],
+      "trivia": "アメリカの有名な幹線道路「Route 66」はこの単語。英語発音では「ルート 66」か「ラウト 66」か、アメリカ人の間でも議論になる。どちらも正しいというのが現在の結論です。"
+    },
+    "frequency": 920,
+    "cefr": "A2"
+  },
+  {
+    "id": 558,
+    "word": "disorder",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "障害・疾患",
+        "pos": "noun"
+      },
+      {
+        "meaning": "無秩序・混乱",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪsˈɔːrdər/",
+    "syllables": "dis-or-der",
+    "audioHint": "ディスオーダー",
+    "examples": [
+      {
+        "en": "She was diagnosed with an anxiety disorder last year.",
+        "ja": "彼女は昨年、不安障害と診断された。",
+        "blank": "She was diagnosed with an anxiety ___ last year.",
+        "blankAnswer": "disorder"
+      }
+    ],
+    "distractors": [
+      "症状・症候",
+      "治療法・療法",
+      "感染・伝染"
+    ],
+    "confusableSpellings": [
+      "disordar",
+      "disordor",
+      "dissorder"
+    ],
+    "passive": {
+      "etymology": "接頭辞 dis-（否定・逆）+ order（秩序・順序）から。「秩序のない状態」が原義。dis- は disconnect（切断）や disagree（反対する）と同様に「逆・否定」を表す接頭辞。",
+      "tips": "医学・心理学では「障害」の意味でよく使われる（eating disorder「摂食障害」、sleep disorder「睡眠障害」）。日本語の「障害」は disability とも訳されるが、disorder は機能の乱れ、disability は能力の制限というニュアンスの違いがある。",
+      "confusables": "disorder（障害・混乱）と disease（疾病）と illness（病気）は異なる。disease は特定の病名を持つ疾患、illness は主観的な「具合が悪い」状態、disorder は機能や秩序が乱れた状態を指す。",
+      "collocations": [
+        "mental disorder（精神障害）",
+        "eating disorder（摂食障害）",
+        "cause disorder（混乱を引き起こす）"
+      ],
+      "trivia": "disorder は医学書でも日常会話でも使える便利な単語。DSM（精神障害の診断マニュアル）の正式名称も「Diagnostic and Statistical Manual of Mental Disorders」でdisorderを使っている。"
+    },
+    "frequency": 760,
+    "cefr": "B1"
+  },
+  {
+    "id": 559,
+    "word": "depression",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "うつ病・抑うつ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不況・景気後退",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˈprɛʃən/",
+    "syllables": "de-pres-sion",
+    "audioHint": "ディプレッション",
+    "examples": [
+      {
+        "en": "Many people suffer from depression without seeking help.",
+        "ja": "多くの人が助けを求めずにうつ病に苦しんでいる。",
+        "blank": "Many people suffer from ___ without seeking help.",
+        "blankAnswer": "depression"
+      }
+    ],
+    "distractors": [
+      "アレルギー反応",
+      "慢性疲労",
+      "免疫機能の低下"
+    ],
+    "confusableSpellings": [
+      "depresion",
+      "depretion",
+      "dipression"
+    ],
+    "passive": {
+      "etymology": "ラテン語 deprimere（押し下げる）から。de-（下に）+ premere（押す）が語源。press（押す）、pressure（圧力）と同じ語根。「気分が押し下げられた状態」が医学的意味の原義。",
+      "tips": "「うつ病」の意味では depression または clinical depression と言う。「気分が落ち込む」程度なら I feel depressed. で表現できるが、病気としての depression と日常的な落ち込みを混同しないよう注意。また「経済不況」の意味では the Great Depression（世界大恐慌）が有名。",
+      "confusables": "depression（うつ病・深刻な不況）と recession（景気後退）は経済用語として紛らわしい。recession は比較的軽度の景気後退、depression はより深刻・長期的なものを指す。",
+      "collocations": [
+        "suffer from depression（うつ病を患う）",
+        "economic depression（経済恐慌）",
+        "treat depression（うつを治療する）"
+      ],
+      "trivia": "1929年の世界恐慌が「The Great Depression」と呼ばれるのは、経済が文字通り「押しつぶされた」から。面白いことに、医学的な「うつ病」も経済的な「大恐慌」も同じ単語で表現される。どちらも「どん底」という意味では一致している。"
+    },
+    "frequency": 640,
+    "cefr": "B1"
+  },
+  {
+    "id": 560,
+    "word": "weapon",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "武器・兵器",
+        "pos": "noun"
+      },
+      {
+        "meaning": "手段・道具（比喩）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɛpən/",
+    "syllables": "weap-on",
+    "audioHint": "ウェポン",
+    "examples": [
+      {
+        "en": "Education is the most powerful weapon against poverty.",
+        "ja": "教育は貧困に対する最も強力な武器だ。",
+        "blank": "Education is the most powerful ___ against poverty.",
+        "blankAnswer": "weapon"
+      }
+    ],
+    "distractors": [
+      "軍事同盟",
+      "戦略的政策",
+      "国防予算"
+    ],
+    "confusableSpellings": [
+      "wepon",
+      "wapon",
+      "weapoon"
+    ],
+    "passive": {
+      "etymology": "古英語 wǣpen（武器）から。ゲルマン祖語 *wēpną が語源で、ゴート語 wepn なども同じ起源を持つ。語源的に「戦うための道具」という意味が一貫している。",
+      "tips": "発音は「ウェーポン」ではなく「ウェポン」と短く発音する。wea- の部分を「ウィー」と長く伸ばさないこと。比喩的に「education as a weapon（武器としての教育）」のような使い方も英語では自然でよく見られる。",
+      "confusables": "weapon（武器一般）と arm（武器・兵器、複数形 arms がよく使われる）と firearm（銃器）は似ている。arms は正式・法律的な文脈で使われることが多く、weapon はより一般的・口語的。",
+      "collocations": [
+        "deadly weapon（凶器）",
+        "nuclear weapon（核兵器）",
+        "secret weapon（秘密兵器）"
+      ],
+      "trivia": "「secret weapon（秘密兵器）」という表現はスポーツや職場でも比喩的に使われる。「うちのチームの秘密兵器は新入社員だ」のように。また Nelson Mandela の名言「Education is the most powerful weapon」は英語学習の教材にも頻出。"
+    },
+    "frequency": 870,
+    "cefr": "B1"
+  }
+]

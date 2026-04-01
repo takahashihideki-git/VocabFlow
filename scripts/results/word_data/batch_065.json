@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1281,
+    "word": "straightforward",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "わかりやすい、単純な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "率直な、正直な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌstreɪtˈfɔːrwərd/",
+    "syllables": "straight-for-ward",
+    "audioHint": "ストレイトフォーワード",
+    "examples": [
+      {
+        "en": "The instructions were straightforward and easy to follow.",
+        "ja": "その説明はわかりやすく、簡単に従えるものだった。",
+        "blank": "The instructions were ___ and easy to follow.",
+        "blankAnswer": "straightforward"
+      }
+    ],
+    "distractors": [
+      "複雑な",
+      "曖昧な",
+      "間接的な"
+    ],
+    "confusableSpellings": [
+      "straightfoward",
+      "straigthforward",
+      "straightforeward"
+    ],
+    "passive": {
+      "etymology": "straight（まっすぐな）＋ forward（前向きに）の複合語。「まっすぐ前に進む」イメージから「回りくどくない」「単純明快」の意味に発展した。",
+      "tips": "「簡単な」という意味では easy と似ているが、straightforward は「複雑さがなくシンプル」というニュアンス。また「率直な」意味では frank や honest とも近いが、straightforward はより「隠し事がない」感が強い。",
+      "confusables": "simple は「構造が単純」、easy は「難しくない」、straightforward は「わかりにくさや複雑さがない」という点が核心。",
+      "collocations": [
+        "a straightforward answer",
+        "straightforward process",
+        "fairly straightforward"
+      ],
+      "trivia": "straight と forward を合わせるだけでこんなに多義的な単語になるのが英語の面白さ。ビジネスメールで「This is fairly straightforward.」と書くと「これは簡単な話です」という自然なニュアンスになる。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1282,
+    "word": "cosmetic",
+    "pos": "adjective",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "化粧の、美容の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "表面的な、見かけだけの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kɒzˈmetɪk/",
+    "syllables": "cos-met-ic",
+    "audioHint": "コズメティック",
+    "examples": [
+      {
+        "en": "The changes to the policy were purely cosmetic.",
+        "ja": "その政策の変更は純粋に見かけだけのものだった。",
+        "blank": "The changes to the policy were purely ___.",
+        "blankAnswer": "cosmetic"
+      }
+    ],
+    "distractors": [
+      "実用的な",
+      "機能的な",
+      "耐久性のある"
+    ],
+    "confusableSpellings": [
+      "cosmatic",
+      "cosmetik",
+      "cozmatic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 kosmetikos（秩序をもたらす、飾る）から。語根 kosmos は「秩序・宇宙」の意味で、cosmos（宇宙）と同語源。「整える・飾る」→「化粧の」という流れ。",
+      "tips": "名詞複数形 cosmetics で「化粧品」の意味になる。形容詞として使うとき「cosmetic surgery（美容整形）」は頻出表現。「表面的な改善」という比喩的用法も重要で、ニュース・政治文脈でよく登場する。",
+      "confusables": "superficial（表面的な）と意味が近いが、cosmetic はより「見た目だけ取り繕う」感が強い。decorative は「装飾的な」でポジティブなニュアンスもある。",
+      "collocations": [
+        "cosmetic surgery",
+        "cosmetic changes",
+        "cosmetic industry"
+      ],
+      "trivia": "cosmos（宇宙）と cosmetic（化粧）が同じ語根というのはロマンがある。古代ギリシャ人は「美しく秩序立てること」が宇宙の本質だと考えていた。化粧も宇宙も「整える」行為なのだ。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1283,
+    "word": "delicate",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "繊細な、壊れやすい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "微妙な、難しい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdelɪkət/",
+    "syllables": "del-i-cate",
+    "audioHint": "デリケット",
+    "examples": [
+      {
+        "en": "The situation is very delicate and needs careful handling.",
+        "ja": "その状況は非常に微妙で、慎重な対応が必要だ。",
+        "blank": "The situation is very ___ and needs careful handling.",
+        "blankAnswer": "delicate"
+      }
+    ],
+    "distractors": [
+      "頑丈な",
+      "大胆な",
+      "明確な"
+    ],
+    "confusableSpellings": [
+      "delecate",
+      "delicat",
+      "dellicate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 delicatus（快楽を与える、柔らかい）から。de-（強意）＋ licere（誘惑する、魅了する）が語源とされる。「快楽的なほど繊細」というイメージ。",
+      "tips": "日本語の「デリケートな問題」はそのまま英語でも a delicate issue / a delicate matter と使える。ただし「デリケート肌」は英語では delicate skin より sensitive skin が自然。",
+      "confusables": "fragile は「物理的に壊れやすい」、sensitive は「感情や感覚が敏感」、delicate はその両方をカバーしつつ「微妙で扱いに注意が要る」ニュアンスが強い。",
+      "collocations": [
+        "delicate balance",
+        "delicate issue",
+        "delicate flavor"
+      ],
+      "trivia": "delicate の語根は「delight（喜び）」とも関係しているという説がある。もともと「繊細な喜び・快楽」を表す言葉だったのが、「繊細＝壊れやすい」という意味に広がった。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1284,
+    "word": "interior",
+    "pos": "adjective",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "内部の、室内の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "内部、インテリア",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈtɪəriər/",
+    "syllables": "in-te-ri-or",
+    "audioHint": "インティアリア",
+    "examples": [
+      {
+        "en": "She redesigned the interior of her apartment last year.",
+        "ja": "彼女は昨年、アパートの内部をリデザインした。",
+        "blank": "She redesigned the ___ of her apartment last year.",
+        "blankAnswer": "interior"
+      }
+    ],
+    "distractors": [
+      "外側の",
+      "上部の",
+      "装飾的な"
+    ],
+    "confusableSpellings": [
+      "interrior",
+      "interoir",
+      "intirior"
+    ],
+    "passive": {
+      "etymology": "ラテン語 interior（より内側の）から。inter（〜の間に）の比較級形で、「内側により近い」という意味を持つ。",
+      "tips": "名詞・形容詞の両方で使われる。「インテリアデザイン」は interior design と言うが、日本語の「インテリア」は英語の interior そのもの。exterior（外側）の反意語として覚えると整理しやすい。",
+      "confusables": "interior（内部全体）vs. inside（内側の面や空間）。interior はよりフォーマルで建築・デザイン文脈で多用。inner は「心の内側」などの比喩にも使いやすい。",
+      "collocations": [
+        "interior design",
+        "interior space",
+        "interior minister"
+      ],
+      "trivia": "「内務大臣」は Minister of the Interior。なぜ「内」かというと、国内の治安・行政を担当するから。インテリアデザインの「インテリア」が「内閣」と同じ語源というのは少し意外かも。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1285,
+    "word": "transparent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "透明な、透き通った",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "明瞭な、わかりやすい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/trænsˈpærənt/",
+    "syllables": "trans-par-ent",
+    "audioHint": "トランスパーレント",
+    "examples": [
+      {
+        "en": "The government promised to be transparent about its decisions.",
+        "ja": "政府は意思決定について透明性を持つことを約束した。",
+        "blank": "The government promised to be ___ about its decisions.",
+        "blankAnswer": "transparent"
+      }
+    ],
+    "distractors": [
+      "不透明な",
+      "複雑な",
+      "曖昧な"
+    ],
+    "confusableSpellings": [
+      "transparant",
+      "transparet",
+      "transparrent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 trans（通り抜けて）＋ parere（現れる、見える）から。「向こう側が見えるほど光を通す」という原義から「隠し事がない」という比喩的意味に発展。",
+      "tips": "ビジネス・政治文脈で「透明性がある」という意味で非常によく使われる。名詞形 transparency（透明性）も重要。「transparent about ~」という形で「〜について隠し事がない」という意味になる。",
+      "confusables": "translucent は「半透明」（光は通すが向こうが見えない）、transparent は「完全に透明」。比喩的には opaque（不透明な）が反意語として使われる。",
+      "collocations": [
+        "transparent process",
+        "transparent about",
+        "transparent material"
+      ],
+      "trivia": "SNSの時代になって transparency（透明性）という単語の使用頻度が急増している。企業や政府への「情報公開」要求が高まったためで、この単語を知っているだけで現代のニュースがぐっと読みやすくなる。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1286,
+    "word": "aesthetic",
+    "pos": "adjective",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "美的な、審美的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "美学、審美眼",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/iːsˈθetɪk/",
+    "syllables": "aes-thet-ic",
+    "audioHint": "イスセティック",
+    "examples": [
+      {
+        "en": "The building has a clean, modern aesthetic that I love.",
+        "ja": "その建物は私が好きなすっきりとした現代的な美しさを持っている。",
+        "blank": "The building has a clean, modern ___ that I love.",
+        "blankAnswer": "aesthetic"
+      }
+    ],
+    "distractors": [
+      "技術的な",
+      "歴史的な",
+      "機能的な"
+    ],
+    "confusableSpellings": [
+      "esthetic",
+      "aestetic",
+      "aesthetik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 aisthetikos（感覚で知覚される）から。aisthesis（感覚・知覚）が語根。18世紀にドイツの哲学者バウムガルテンが「美の学問＝Ästhetik」として確立した。",
+      "tips": "アメリカ英語では esthetic とも綴る。SNSで「〜aesthetic（〜な雰囲気・スタイル）」という使い方が若者に広まり、名詞としての用法が急増中。発音は「エステティック」でなく「イスセティック」に近い点に注意。",
+      "confusables": "artistic は「芸術的な技巧・才能」に関する語、aesthetic は「美の知覚・感覚」に関する語。「アーティスティックな踊り」は artistic dance だが、「美的センスが高い」は aesthetic sense。",
+      "collocations": [
+        "aesthetic appeal",
+        "aesthetic sense",
+        "visual aesthetic"
+      ],
+      "trivia": "Instagramや TikTok で「dark academic aesthetic」「cottagecore aesthetic」のように使われる aesthetic は、哲学用語が SNS スラングになった珍しい例。カントが聞いたら驚くだろう。"
+    },
+    "frequency": 3800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1287,
+    "word": "deliberate",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "故意の、意図的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "熟慮する、慎重に考える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈlɪbərət/",
+    "syllables": "de-lib-er-ate",
+    "audioHint": "ディリバレット",
+    "examples": [
+      {
+        "en": "It was a deliberate attempt to mislead the public.",
+        "ja": "それは大衆を誤解させるための意図的な試みだった。",
+        "blank": "It was a ___ attempt to mislead the public.",
+        "blankAnswer": "deliberate"
+      }
+    ],
+    "distractors": [
+      "偶然の",
+      "衝動的な",
+      "無意識の"
+    ],
+    "confusableSpellings": [
+      "deliberat",
+      "delibrate",
+      "deliberete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 deliberare（十分に考える）から。de-（完全に）＋ librare（天秤にかける、量る）が語根。libra（天秤座）と同語根で「心の天秤でじっくり量る」イメージ。",
+      "tips": "形容詞と動詞で発音が異なる！形容詞は /dɪˈlɪbərət/（ディリバレット）、動詞は /dɪˈlɪbəreɪt/（ディリバレイト）と語末が変わる。これは日本人が見落としがちなポイント。",
+      "confusables": "intentional・purposeful も「意図的な」の意味だが、deliberate はさらに「十分考えた末に行った」という慎重さのニュアンスが含まれる。",
+      "collocations": [
+        "deliberate act",
+        "deliberate choice",
+        "deliberate effort"
+      ],
+      "trivia": "Libra（天秤座）と deliberate が同じ語源。古代ローマでは「決断すること」は「心の天秤で量ること」だった。占星術と英語が繋がる瞬間、なんか好き。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1288,
+    "word": "demographic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "人口統計学的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "人口統計（上の特定集団）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌdeməˈɡræfɪk/",
+    "syllables": "dem-o-graph-ic",
+    "audioHint": "デモグラフィック",
+    "examples": [
+      {
+        "en": "The app targets a younger demographic.",
+        "ja": "そのアプリは若い年齢層をターゲットにしている。",
+        "blank": "The app targets a younger ___.",
+        "blankAnswer": "demographic"
+      }
+    ],
+    "distractors": [
+      "地理的な",
+      "経済的な",
+      "生態学的な"
+    ],
+    "confusableSpellings": [
+      "demograhic",
+      "demografic",
+      "demographik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 demos（人民）＋ graphein（書く、記録する）から。「人々のデータを記録する学問」という意味。democracy（民主主義）の demo- と同語源。",
+      "tips": "名詞として「特定の人口集団」の意味で使われることが増えており、「target demographic（ターゲット層）」はマーケティングの必須表現。複数形 demographics でデータ・統計の意味にもなる。",
+      "confusables": "demographic（人口統計の）vs. geographic（地理的な）。どちらも -graphic で終わるが、demo- は「人」、geo- は「地」。混同しやすいので語頭で判断しよう。",
+      "collocations": [
+        "demographic change",
+        "target demographic",
+        "demographic data"
+      ],
+      "trivia": "democracy（民主主義）と demographic は demo-（人民）という同じ語根を持つ兄弟語。「民主主義は人民のもの」「人口統計は人民のデータ」、どちらも demos が主役なのだ。"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1289,
+    "word": "prehistoric",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "有史以前の、先史時代の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "時代遅れの（口語）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌpriːhɪˈstɒrɪk/",
+    "syllables": "pre-his-tor-ic",
+    "audioHint": "プリヒストーリック",
+    "examples": [
+      {
+        "en": "Prehistoric cave paintings were discovered in the region.",
+        "ja": "その地域で先史時代の洞窟壁画が発見された。",
+        "blank": "___ cave paintings were discovered in the region.",
+        "blankAnswer": "Prehistoric"
+      }
+    ],
+    "distractors": [
+      "現代的な",
+      "中世の",
+      "古典的な"
+    ],
+    "confusableSpellings": [
+      "prehistorik",
+      "pre-historic",
+      "prehestoric"
+    ],
+    "passive": {
+      "etymology": "pre-（〜以前）＋ historic（歴史の）から構成される。historic の語根はギリシャ語 historia（探求・知識）。「記録された歴史が始まる前」の時代を指す。",
+      "tips": "historic（歴史的に重要な出来事）と historical（歴史に関する・過去の）の違いも整理しておこう。prehistoric はその前の時代、つまり文字記録が存在しない時代を指す。",
+      "confusables": "ancient（古代の）は文字記録がある古代文明を指すことが多いが、prehistoric は文字以前の時代。恐竜の時代や石器時代は prehistoric。古代エジプトは ancient。",
+      "collocations": [
+        "prehistoric times",
+        "prehistoric animal",
+        "prehistoric cave"
+      ],
+      "trivia": "「あの人の考え方はまるで prehistoric だ」と言うと「時代遅れすぎる」という口語的な皮肉になる。英語ネイティブはユーモアで使うことがあり、覚えておくとちょっと面白い。"
+    },
+    "frequency": 5000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1290,
+    "word": "innate",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "生まれつきの、先天的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "本来備わった、固有の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈneɪt/",
+    "syllables": "in-nate",
+    "audioHint": "イネイト",
+    "examples": [
+      {
+        "en": "She has an innate talent for music.",
+        "ja": "彼女は音楽に対する生まれつきの才能を持っている。",
+        "blank": "She has an ___ talent for music.",
+        "blankAnswer": "innate"
+      }
+    ],
+    "distractors": [
+      "後天的な",
+      "習得された",
+      "一時的な"
+    ],
+    "confusableSpellings": [
+      "inate",
+      "innait",
+      "innatte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 innatus（生まれながらにして与えられた）から。in-（中に）＋ natus（生まれた）が語源。natus は nature（自然）や native（生まれの）とも同語根。",
+      "tips": "「生まれつき」を表す語として inborn・natural・inherent なども類義語だが、innate は特に哲学・心理学・言語学などのアカデミックな文脈で好まれる。「innate ideas（生得観念）」はデカルトの哲学の核心概念。",
+      "confusables": "innate（生まれつき）vs. inherent（本質的に備わっている）。innate は「生まれたときから持つ」に焦点、inherent は「その性質に本来属している」に焦点。重なる部分も多いが文脈で使い分ける。",
+      "collocations": [
+        "innate ability",
+        "innate talent",
+        "innate instinct"
+      ],
+      "trivia": "言語学者チョムスキーが提唱した「生成文法」理論の核は「人間は言語能力を innate（生得的）に持つ」というもの。赤ちゃんが誰でも母語を習得できるのは、脳に言語の設計図が最初から入っているからかもしれない。"
+    },
+    "frequency": 4700,
+    "cefr": "C1"
+  },
+  {
+    "id": 1291,
+    "word": "mild",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "穏やかな、温和な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "軽度の、mild（症状が）軽い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/maɪld/",
+    "syllables": "mild",
+    "audioHint": "マイルド",
+    "examples": [
+      {
+        "en": "The weather today is mild and pleasant.",
+        "ja": "今日の天気は穏やかで心地よい。",
+        "blank": "The weather today is ___ and pleasant.",
+        "blankAnswer": "mild"
+      }
+    ],
+    "distractors": [
+      "鋭い、急峻な",
+      "奇妙な、独特の",
+      "継続中の"
+    ],
+    "confusableSpellings": [
+      "miled",
+      "myld"
+    ],
+    "passive": {
+      "etymology": "古英語 'milde'（優しい、穏やか）に由来。原インド・ヨーロッパ語根 *meldh-（柔らかい）から派生。",
+      "tips": "日本語でも「マイルド」として定着しているが、英語では味・気候・性格・症状など幅広い場面で使う。'gentle' は人の性格に限りやすいが、'mild' はもっと広い。",
+      "confusables": "'gentle' は人や行動の優しさ、'moderate' は程度の中庸さを指す。'mild' は刺激が少なく穏やかというニュアンス。",
+      "collocations": [
+        "mild weather",
+        "mild flavor",
+        "mild symptoms"
+      ],
+      "trivia": "「マイルドセブン」というタバコのブランド名で日本人には馴染み深いが、英語ネイティブにとって 'mild' はコーヒーやカレーの辛さレベルにも使う日常語。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1292,
+    "word": "toxic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "有毒な、毒性のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "有害な（関係・環境などが）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtɒksɪk/",
+    "syllables": "tox-ic",
+    "audioHint": "トクシク",
+    "examples": [
+      {
+        "en": "Some household chemicals can be toxic if mixed.",
+        "ja": "家庭用の化学薬品の中には混ぜると有毒になるものもある。",
+        "blank": "Some household chemicals can be ___ if mixed.",
+        "blankAnswer": "toxic"
+      }
+    ],
+    "distractors": [
+      "無線の、ワイヤレスの",
+      "継続中の",
+      "穏やかな、温和な"
+    ],
+    "confusableSpellings": [
+      "toxick",
+      "toxik"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'toxicum'（毒）、ギリシャ語 'toxikon'（弓矢の毒）から。語根 'tox-' は毒を意味する。",
+      "tips": "近年 SNS で「toxic relationship（有害な関係）」「toxic person（有害な人）」のように比喩的に使われる頻度が急増。科学用語だけではないことを覚えておこう。",
+      "confusables": "'poisonous' は食べると毒になるもの（ヘビなど自ら毒を持つ生物）、'venomous' は噛んで毒を注入するもの、'toxic' は化学的毒性全般に使う。",
+      "collocations": [
+        "toxic waste",
+        "toxic relationship",
+        "toxic substance"
+      ],
+      "trivia": "Britney Spears の名曲「Toxic」(2004) のおかげで、この単語は音楽好きなら一度は耳にしたはず。メリアム＝ウェブスターは2018年の「Word of the Year」に選んだほど現代語として爆発的に広まった。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1293,
+    "word": "ashamed",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "恥じている、恥ずかしく思っている",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "恥ずかしさから気が引ける",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈʃeɪmd/",
+    "syllables": "a-shamed",
+    "audioHint": "アシェイムド",
+    "examples": [
+      {
+        "en": "He was ashamed of his rude behavior at the party.",
+        "ja": "彼はパーティーでの自分の無礼な振る舞いを恥じていた。",
+        "blank": "He was ___ of his rude behavior at the party.",
+        "blankAnswer": "ashamed"
+      }
+    ],
+    "distractors": [
+      "謙虚な、謙遜した",
+      "誇りを持っている",
+      "感謝している"
+    ],
+    "confusableSpellings": [
+      "ashammed",
+      "ashaimed"
+    ],
+    "passive": {
+      "etymology": "古英語 'āscamian'（恥をかかせる）から。接頭辞 'a-'（強意）＋ 'shame'（恥）の形容詞形。",
+      "tips": "'ashamed of ~' または 'ashamed to do' の形で使う。'I'm ashamed' と言うと「自分の行動を後悔して恥じている」感覚。'embarrassed' は外からの視線による気まずさで、'ashamed' は自分の内側からの道徳的な恥の感覚。",
+      "confusables": "'embarrassed' は他人の目を気にした恥ずかしさ（顔が赤くなる感じ）、'ashamed' は自分の行為が道徳的に間違っていると感じる深い恥。",
+      "collocations": [
+        "ashamed of oneself",
+        "feel ashamed",
+        "deeply ashamed"
+      ],
+      "trivia": "英語圏では「shame culture（恥の文化）」と「guilt culture（罪悪感の文化）」を対比させる人類学的議論がある。'ashamed' はその両方に関わる感情を表せる便利な語。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1294,
+    "word": "humble",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "謙虚な、謙遜した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "粗末な、身分の低い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈhʌmbəl/",
+    "syllables": "hum-ble",
+    "audioHint": "ハンブル",
+    "examples": [
+      {
+        "en": "Despite her success, she remained humble and kind.",
+        "ja": "成功しているにもかかわらず、彼女は謙虚で親切なままだった。",
+        "blank": "Despite her success, she remained ___ and kind.",
+        "blankAnswer": "humble"
+      }
+    ],
+    "distractors": [
+      "恥じている、恥ずかしく思っている",
+      "誇り高い、うぬぼれた",
+      "大胆な、勇敢な"
+    ],
+    "confusableSpellings": [
+      "humbel",
+      "humbal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'humilis'（低い地面の）から。語根 'humus'（土、大地）が由来で、「地に足のついた」イメージ。",
+      "tips": "'humble' には「謙虚な」と「粗末な・質素な」の2つの意味がある。'a humble home'（粗末な家）のように物にも使えることを忘れずに。また動詞としても使え、'It humbled me.'（それで謙虚になった）と言える。",
+      "confusables": "'modest' も謙虚だが、能力や成果を過小評価するニュアンスが強い。'humble' はより精神的・人格的な謙虚さを指す。",
+      "collocations": [
+        "humble opinion",
+        "humble beginnings",
+        "stay humble"
+      ],
+      "trivia": "「In my humble opinion（私の謙虚な意見では）」を略した IMHO はネット・SNS でよく使われる定番フレーズ。実際は謙虚でなくても使うのが定番のネットジョーク。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1295,
+    "word": "peculiar",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "奇妙な、変わった",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "特有の、独特の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pɪˈkjuːliər/",
+    "syllables": "pe-cu-li-ar",
+    "audioHint": "ピキューリア",
+    "examples": [
+      {
+        "en": "There was a peculiar smell coming from the kitchen.",
+        "ja": "キッチンから奇妙な匂いがしていた。",
+        "blank": "There was a ___ smell coming from the kitchen.",
+        "blankAnswer": "peculiar"
+      }
+    ],
+    "distractors": [
+      "穏やかな、温和な",
+      "急峻な、険しい",
+      "継続中の"
+    ],
+    "confusableSpellings": [
+      "pecuilar",
+      "peculier",
+      "peculear"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'peculiaris'（個人の財産の）から。'pecu'（家畜、財産）が語根で、「自分だけのもの」→「独特」→「奇妙」と意味が拡張した。",
+      "tips": "'peculiar to ~' の形で「〜に特有の」という意味になる。'This custom is peculiar to Japan.' のように使う。'strange' や 'odd' より少し文語的・知的なニュアンスがある。",
+      "confusables": "'strange' は単純に「変」、'odd' は「予想外に変」、'peculiar' は「その人・場所・状況に特有の変さ」というニュアンス。",
+      "collocations": [
+        "peculiar smell",
+        "peculiar to Japan",
+        "rather peculiar"
+      ],
+      "trivia": "ラテン語で「家畜（財産）」を意味した語が「個人特有のもの」→「奇妙なもの」へと変化した語源の旅が面白い。お金を意味する 'pecuniary'（金銭的な）も同じ語根 'pecu' から来ている。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1296,
+    "word": "steep",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "急勾配の、険しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（値段が）法外な、高すぎる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/stiːp/",
+    "syllables": "steep",
+    "audioHint": "スティープ",
+    "examples": [
+      {
+        "en": "The trail up the mountain is very steep.",
+        "ja": "山の登山道はとても急勾配だ。",
+        "blank": "The trail up the mountain is very ___.",
+        "blankAnswer": "steep"
+      }
+    ],
+    "distractors": [
+      "穏やかな、温和な",
+      "奇妙な、独特の",
+      "継続中の"
+    ],
+    "confusableSpellings": [
+      "steepe",
+      "steap"
+    ],
+    "passive": {
+      "etymology": "古英語 'stēap'（高い、突き出た）に由来。北ゲルマン語と共通の語根を持ち、もともとは「高くそびえる」イメージ。",
+      "tips": "坂道の急さだけでなく「値段が高すぎる」意味でも使う。'That's a bit steep.'（それはちょっと高すぎる）は英国英語でよく使う口語表現。また動詞 'steep' には「浸す、漬ける」という全く別の意味もある（tea を steep する＝お茶を蒸らす）。",
+      "confusables": "'sharp' も急角度を表せるが、主に曲がり角や鋭さに使う。'steep' は傾斜・坂道に特化したニュアンスが強い。",
+      "collocations": [
+        "steep hill",
+        "steep price",
+        "steep learning curve"
+      ],
+      "trivia": "「steep learning curve（急な学習曲線）」は「習得が難しい」という慣用表現。グラフで急勾配＝すぐ上達するはずなのに、なぜか「難しい」の意味で使われる面白い逆転現象。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1297,
+    "word": "trivial",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "些細な、取るに足らない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "平凡な、重要でない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtrɪviəl/",
+    "syllables": "triv-i-al",
+    "audioHint": "トリヴィアル",
+    "examples": [
+      {
+        "en": "Don't waste time on trivial matters.",
+        "ja": "些細なことに時間を無駄にしないで。",
+        "blank": "Don't waste time on ___ matters.",
+        "blankAnswer": "trivial"
+      }
+    ],
+    "distractors": [
+      "壮大な、素晴らしい",
+      "重大な、深刻な",
+      "複雑な、込み入った"
+    ],
+    "confusableSpellings": [
+      "triveal",
+      "triviall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'trivialis'（三叉路の、どこにでもある）から。'tri-'（3）＋ 'via'（道）で「三叉路」→「誰でも通る場所」→「ありふれた、つまらない」へと意味が変化した。",
+      "tips": "'trivial' は「重要でない」という話し手の評価を含む。'That's trivial.' と言うと少し見下したニュアンスになることがあるので注意。ビジネスシーンでは 'minor' のほうが柔らかく聞こえる。",
+      "confusables": "'minor' は「重要度が低い」、'insignificant' は「意義がない」、'trivial' は「わざわざ取り上げるまでもない些細さ」というニュアンス。",
+      "collocations": [
+        "trivial matter",
+        "trivial detail",
+        "trivial pursuit"
+      ],
+      "trivia": "「Trivial Pursuit」は1981年にカナダで生まれた有名なクイズボードゲーム。ゲーム名自体が「些細な追求」という逆説的なユーモアを含んでいる。'trivia'（雑学）も同じ語源。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1298,
+    "word": "magnificent",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "壮大な、素晴らしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "豪華な、堂々とした",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/mæɡˈnɪfɪsənt/",
+    "syllables": "mag-nif-i-cent",
+    "audioHint": "マグニフィセント",
+    "examples": [
+      {
+        "en": "The view from the mountaintop was truly magnificent.",
+        "ja": "山頂からの景色は本当に壮大だった。",
+        "blank": "The view from the mountaintop was truly ___.",
+        "blankAnswer": "magnificent"
+      }
+    ],
+    "distractors": [
+      "些細な、取るに足らない",
+      "適切な、まずまずの",
+      "平凡な、普通の"
+    ],
+    "confusableSpellings": [
+      "magnificient",
+      "magnificant",
+      "magnifiscent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'magnificus' から。'magnus'（大きい）＋ 'facere'（作る）で「偉大なものを作る」→「壮大な」という意味。",
+      "tips": "スペルミスが非常に多い単語の一つ。'magnificient' と 'i' を余分に入れてしまうミスが頻発。語尾は '-cent' であることを意識しよう。感嘆詞的に 'Magnificent!' と一語でも使える。",
+      "confusables": "'wonderful' は感情的な喜び、'splendid' はやや古風な印象、'magnificent' は視覚的・空間的なスケールの大きさを強調する。",
+      "collocations": [
+        "magnificent view",
+        "magnificent performance",
+        "truly magnificent"
+      ],
+      "trivia": "ディズニー映画「Maleficent（マレフィセント）」のタイトルは 'magnificent' と 'maleficent'（邪悪な）を掛け合わせた造語。名前を聞いた瞬間にキャラクターの二面性が伝わる天才的なネーミング。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1299,
+    "word": "wireless",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "無線の、ワイヤレスの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無線通信（名詞的用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwaɪərləs/",
+    "syllables": "wire-less",
+    "audioHint": "ワイアレス",
+    "examples": [
+      {
+        "en": "The office has fast wireless internet throughout.",
+        "ja": "そのオフィスは全体に高速な無線インターネットが整っている。",
+        "blank": "The office has fast ___ internet throughout.",
+        "blankAnswer": "wireless"
+      }
+    ],
+    "distractors": [
+      "有毒な、毒性のある",
+      "継続中の、進行中の",
+      "専門的な、技術的な"
+    ],
+    "confusableSpellings": [
+      "wirelss",
+      "wireles"
+    ],
+    "passive": {
+      "etymology": "'wire'（電線、ワイヤ）＋ 接尾辞 '-less'（〜がない）で「電線のない」という意味。接尾辞 '-less' は 'homeless'（家のない）、'endless'（終わりのない）と同じパターン。",
+      "tips": "英国英語では昔 'wireless' がラジオを指す言葉だった。現代では主に Wi-Fi や Bluetooth などの無線通信技術に使う。名詞的にも使えるので文脈で判断しよう。",
+      "confusables": "'cordless' は電話機など特定の機器でコードがないこと、'wireless' はより広くネットワーク・通信全般に使う。",
+      "collocations": [
+        "wireless network",
+        "wireless connection",
+        "wireless charging"
+      ],
+      "trivia": "1900年代初頭、マルコーニが無線通信を発明したとき英国では 'wireless telegraphy（無線電信）' と呼ばれた。そのため英国では今でも年配者が Wi-Fi のことを 'wireless' と呼ぶことがある。"
+    },
+    "frequency": 3100,
+    "cefr": "A2"
+  },
+  {
+    "id": 1300,
+    "word": "ongoing",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "継続中の、進行中の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "現在も続いている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɒnɡəʊɪŋ/",
+    "syllables": "on-go-ing",
+    "audioHint": "オンゴウイング",
+    "examples": [
+      {
+        "en": "The ongoing investigation may take several months.",
+        "ja": "進行中の調査には数ヶ月かかるかもしれない。",
+        "blank": "The ___ investigation may take several months.",
+        "blankAnswer": "ongoing"
+      }
+    ],
+    "distractors": [
+      "穏やかな、温和な",
+      "急勾配の、険しい",
+      "奇妙な、独特の"
+    ],
+    "confusableSpellings": [
+      "on-going",
+      "ongowing"
+    ],
+    "passive": {
+      "etymology": "'on'（前に）＋ 'going'（進んでいる）という構造の複合形容詞。「前進し続けている」状態を表すシンプルな合成語。",
+      "tips": "ハイフンあり（on-going）とハイフンなし（ongoing）の両方が使われるが、現代では一語の 'ongoing' が主流。ニュース・ビジネス文書で非常によく使われる語なので確実に覚えたい。",
+      "confusables": "'continuing' は「続けて行う」という動作の継続、'ongoing' は「今まさに進行中」という状態を強調する。",
+      "collocations": [
+        "ongoing project",
+        "ongoing discussion",
+        "ongoing support"
+      ],
+      "trivia": "ニュース英語で頻出の語で、特に 'ongoing conflict'（継続する紛争）や 'ongoing pandemic'（進行中のパンデミック）のように深刻なトピックで使われることが多い。軽い話題にも使えるが、なぜかニュースでヘビーな文脈で耳にする機会が多い不思議な語。"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  }
+]

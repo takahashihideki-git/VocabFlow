@@ -1,0 +1,997 @@
+[
+  {
+    "id": 101,
+    "word": "notice",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "気づく、気が付く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "通知、お知らせ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnoʊtɪs/",
+    "syllables": "no-tice",
+    "audioHint": "ノウティス",
+    "examples": [
+      {
+        "en": "Did you notice the new sign on the door?",
+        "ja": "ドアの新しい看板に気づきましたか？",
+        "blank": "Did you ___ the new sign on the door?",
+        "blankAnswer": "notice"
+      }
+    ],
+    "distractors": [
+      "言及する",
+      "疑問に思う",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "notise",
+      "notics"
+    ],
+    "passive": {
+      "etymology": "ラテン語 notitia（知識・情報）← notus（知られた）← noscere（知る）。「知る」という語根 not- が核心。",
+      "tips": "notice は「意識の中に入ってくる」ニュアンス。意図せず気づく場合にも使える点が日本語の「気づく」と似ている。notice + that節、notice + O + doing の形が頻出。",
+      "confusables": "notice vs. realize：notice は感覚的・直感的に気づくこと。realize は「理解・認識が深まる」ニュアンス。'I noticed the smell.' / 'I realized I was wrong.'",
+      "collocations": [
+        "notice a difference",
+        "notice something strange",
+        "without notice"
+      ],
+      "trivia": "「2週間前に退職を告げる」英語で 'give two weeks' notice' と言う。notice には「予告」という意味もあり、job の世界では超重要ワード！"
+    },
+    "frequency": 450,
+    "cefr": "A2"
+  },
+  {
+    "id": 102,
+    "word": "refer",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "言及する、参照する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "紹介する、委ねる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈfɜːr/",
+    "syllables": "re-fer",
+    "audioHint": "リファー",
+    "examples": [
+      {
+        "en": "Please refer to the chart on page five.",
+        "ja": "5ページの図表を参照してください。",
+        "blank": "Please ___ to the chart on page five.",
+        "blankAnswer": "refer"
+      }
+    ],
+    "distractors": [
+      "気づく",
+      "想像する",
+      "解決する"
+    ],
+    "confusableSpellings": [
+      "rfer",
+      "refere",
+      "reffer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 referre（運び戻す）← re-（戻す）+ ferre（運ぶ）。「情報を送り戻す・向ける」イメージ。",
+      "tips": "refer to で「～に言及する」「～を参照する」の2つの意味がある。また refer A to B で「AをBに紹介・委ねる」。活用注意：referred（rを重ねる）！",
+      "confusables": "refer to vs. mention：refer to はやや意図的・明示的に指し示すニュアンス。mention はさらっと触れる感じ。",
+      "collocations": [
+        "refer to a dictionary",
+        "refer to as",
+        "be referred to a specialist"
+      ],
+      "trivia": "「レファレンス（reference）」は refer の名詞形。図書館の「レファレンスサービス」はここから来ており、調べ物を助けるサービスのこと。語源を知ると納得！"
+    },
+    "frequency": 620,
+    "cefr": "B1"
+  },
+  {
+    "id": 103,
+    "word": "approach",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "近づく、接近する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "取り組み方、アプローチ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈproʊtʃ/",
+    "syllables": "ap-proach",
+    "audioHint": "アプロウチ",
+    "examples": [
+      {
+        "en": "A strange dog approached me in the park.",
+        "ja": "公園で見知らぬ犬が私に近づいてきた。",
+        "blank": "A strange dog ___ me in the park.",
+        "blankAnswer": "approached"
+      }
+    ],
+    "distractors": [
+      "起こる、生じる",
+      "解決する",
+      "変化する"
+    ],
+    "confusableSpellings": [
+      "aproach",
+      "approch",
+      "approache"
+    ],
+    "passive": {
+      "etymology": "古フランス語 aprochier ← ラテン語 appropiare ← ad-（～へ）+ propius（より近い）。「より近い場所へ向かう」が原義。",
+      "tips": "動詞では approach + 目的語（前置詞不要）。'approach to the problem' ではなく 'approach the problem' が正しい。名詞では 'an approach to ~' と to を使う点に注意。",
+      "confusables": "approach vs. access：approach は「近づく行為・プロセス」、access は「到達・入手できる状態」。",
+      "collocations": [
+        "approach a problem",
+        "take a new approach",
+        "as the deadline approaches"
+      ],
+      "trivia": "飛行機が着陸態勢に入ることを 'on approach' という。パイロットのアナウンスで聞こえる 'we are now on final approach' はまさにこの単語！"
+    },
+    "frequency": 390,
+    "cefr": "B1"
+  },
+  {
+    "id": 104,
+    "word": "wonder",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "～かと思う、不思議に思う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "驚き、不思議",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwʌndər/",
+    "syllables": "won-der",
+    "audioHint": "ワンダー",
+    "examples": [
+      {
+        "en": "I wonder if she will come to the party.",
+        "ja": "彼女はパーティーに来るかな、と思った。",
+        "blank": "I ___ if she will come to the party.",
+        "blankAnswer": "wonder"
+      }
+    ],
+    "distractors": [
+      "認識する",
+      "気づく",
+      "言及する"
+    ],
+    "confusableSpellings": [
+      "wunder",
+      "wander",
+      "wounder"
+    ],
+    "passive": {
+      "etymology": "古英語 wundrian（驚く）← wundor（驚くべきもの）。ゲルマン語系の純英語ワードで、ラテン語由来ではない珍しい認知動詞。",
+      "tips": "I wonder if/whether ～ は「～かな」という丁寧な疑問や推量に使う。疑問文で I wonder if you could help me? は非常に丁寧な依頼表現になる。",
+      "confusables": "wonder vs. wander：スペルが似ているが全く別物。wander は「うろうろ歩く」。発音も異なる（wonder /wʌ-/, wander /wɒ-/）。",
+      "collocations": [
+        "I wonder if",
+        "wonder about",
+        "no wonder"
+      ],
+      "trivia": "'No wonder!' は「それは道理だ、なるほどね！」という相槌。'Wonder Woman' や 'Wonderland' など、英語の「ワンダー」には「魔法のような驚き」のポジティブな響きがある。"
+    },
+    "frequency": 530,
+    "cefr": "A2"
+  },
+  {
+    "id": 105,
+    "word": "imagine",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "想像する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "心に思い描く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈmædʒɪn/",
+    "syllables": "i-mag-ine",
+    "audioHint": "イマジン",
+    "examples": [
+      {
+        "en": "Can you imagine living without your smartphone?",
+        "ja": "スマートフォンなしで生活することを想像できますか？",
+        "blank": "Can you ___ living without your smartphone?",
+        "blankAnswer": "imagine"
+      }
+    ],
+    "distractors": [
+      "主張する",
+      "認識する",
+      "参照する"
+    ],
+    "confusableSpellings": [
+      "imagin",
+      "immagine",
+      "imagaine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 imaginari（心に思い描く）← imago（像・イメージ）。image と同じ語根で、「頭の中に像を作る」が原義。",
+      "tips": "imagine + -ing 形が基本。imagine + to不定詞は不可（'imagine to go' はNG）。また 'imagine that節' も使える。",
+      "confusables": "imagine vs. suppose：imagine は感覚的・創造的に思い描く。suppose は論理的に「～と仮定する・思う」ニュアンス。",
+      "collocations": [
+        "imagine doing",
+        "imagine a world",
+        "can you imagine"
+      ],
+      "trivia": "ジョン・レノンの名曲『Imagine』は1971年のリリース。歌詞の冒頭 'Imagine there's no heaven' は imagine + that節の省略形。英語の授業でも引用されることが多い！"
+    },
+    "frequency": 480,
+    "cefr": "A2"
+  },
+  {
+    "id": 106,
+    "word": "recognize",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "認識する、見覚えがある",
+        "pos": "verb"
+      },
+      {
+        "meaning": "認める、評価する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈrekəɡnaɪz/",
+    "syllables": "rec-og-nize",
+    "audioHint": "レコグナイズ",
+    "examples": [
+      {
+        "en": "I recognized her voice immediately on the phone.",
+        "ja": "電話での彼女の声をすぐに認識した。",
+        "blank": "I ___ her voice immediately on the phone.",
+        "blankAnswer": "recognized"
+      }
+    ],
+    "distractors": [
+      "不思議に思う",
+      "近づく",
+      "起こる"
+    ],
+    "confusableSpellings": [
+      "recognise",
+      "reckonize",
+      "reconize"
+    ],
+    "passive": {
+      "etymology": "ラテン語 recognoscere ← re-（再び）+ cognoscere（知る）← co-（共に）+ gnoscere（知る）。「再び知る＝思い出して判別する」が原義。",
+      "tips": "recognize は「以前の知識と照合して認識する」ニュアンス。初対面で「わかる」には使いにくい。また recognize A as B（AをBと認める）の形も重要。",
+      "confusables": "recognize vs. acknowledge：recognize は「識別・認識」、acknowledge は「存在や事実を正式に認める」。国際政治で '～を国家として認める' には recognize を使う。",
+      "collocations": [
+        "recognize a face",
+        "recognize the importance",
+        "be recognized as"
+      ],
+      "trivia": "AIの「顔認識」は face recognition。スマホのロック解除に使われるあの機能の名称はまさにこの語根から！cognize（認識）という動詞は単体ではほぼ使わない隠れた語根だ。"
+    },
+    "frequency": 560,
+    "cefr": "B1"
+  },
+  {
+    "id": 107,
+    "word": "solve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "解決する、解く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɒlv/",
+    "syllables": "solve",
+    "audioHint": "ソルヴ",
+    "examples": [
+      {
+        "en": "We need to solve this problem before tomorrow.",
+        "ja": "明日までにこの問題を解決しなければならない。",
+        "blank": "We need to ___ this problem before tomorrow.",
+        "blankAnswer": "solve"
+      }
+    ],
+    "distractors": [
+      "気づく",
+      "近づく",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "solv",
+      "solov",
+      "solvve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 solvere（解く、緩める）← se-（離して）+ luere（洗う・解放する）。「縛りを解き放つ」が原義。solution（溶液）も同じ語根！",
+      "tips": "solve は必ず他動詞（目的語が必要）。'solve for the problem' ではなく 'solve the problem' が正しい。数学でも 'solve for x'（xを求める）のように使う。",
+      "confusables": "solve vs. resolve：solve は問題・謎を「解く」。resolve はより感情的・対立的な問題を「解消する」ニュアンス。'solve a math problem' / 'resolve a conflict'",
+      "collocations": [
+        "solve a problem",
+        "solve a mystery",
+        "solve a crime"
+      ],
+      "trivia": "「solution（解決策）」と「solution（溶液）」は同じ単語。化学の「溶かす」も solvere から来ている。問題を解くのも物を溶かすのも、英語では同じ「ほどく」イメージ！"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 108,
+    "word": "occur",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "起こる、発生する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（考えが）浮かぶ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkɜːr/",
+    "syllables": "oc-cur",
+    "audioHint": "オカー",
+    "examples": [
+      {
+        "en": "The accident occurred late at night on the highway.",
+        "ja": "その事故は夜遅く高速道路で起きた。",
+        "blank": "The accident ___ late at night on the highway.",
+        "blankAnswer": "occurred"
+      }
+    ],
+    "distractors": [
+      "解決する",
+      "想像する",
+      "認識する"
+    ],
+    "confusableSpellings": [
+      "ocurr",
+      "occure",
+      "ocure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 occurrere ← ob-（～に向かって）+ currere（走る）。「走って向かってくる＝出来事が向こうからやってくる」が原義。",
+      "tips": "occur は自動詞（目的語不要）。'it occurred to me that...'（～と思い当たった）は重要表現。過去形は occurred（rを重ねる）のスペルに注意！",
+      "confusables": "occur vs. happen：occur はやや書き言葉・フォーマル寄り。happen は口語でも使いやすい。'What happened?' は自然だが 'What occurred?' は少し硬い。",
+      "collocations": [
+        "occur to someone",
+        "accidents occur",
+        "it occurred to me"
+      ],
+      "trivia": "「オカレンス（occurrence）」はITの世界で「イベント発生」の意味でよく使われる。プログラムのエラーログに 'occurrence of error' と書かれていたらこの単語！"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 109,
+    "word": "argue",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "主張する、論じる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "口論する、言い争う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɑːrɡjuː/",
+    "syllables": "ar-gue",
+    "audioHint": "アーギュー",
+    "examples": [
+      {
+        "en": "She argued that the new policy was unfair.",
+        "ja": "彼女はその新しい方針は不公平だと主張した。",
+        "blank": "She ___ that the new policy was unfair.",
+        "blankAnswer": "argued"
+      }
+    ],
+    "distractors": [
+      "気づく",
+      "想像する",
+      "参照する"
+    ],
+    "confusableSpellings": [
+      "argu",
+      "arguee",
+      "argeu"
+    ],
+    "passive": {
+      "etymology": "ラテン語 arguere（明らかにする、証明する）← ar-（強意）+ -guere（示す）。「明確に示す・証明する」が原義。",
+      "tips": "argue には「口論する」と「論理的に主張する」の2つの意味がある。学術文では後者が主流。argue that ～（～と主張する）、argue for/against ～（賛成・反対を主張する）を使い分けよう。",
+      "confusables": "argue vs. discuss：argue は対立・主張のニュアンスが強い。discuss は中立的に「話し合う」。'argue about money' vs. 'discuss plans'",
+      "collocations": [
+        "argue that",
+        "argue for/against",
+        "argue with someone"
+      ],
+      "trivia": "弁護士のことを英語で 'lawyer' というが、法廷で議論する役割から argument（主張・論拠）という単語は法律用語でも超頻出。裁判ドラマを見るとこの単語だらけ！"
+    },
+    "frequency": 590,
+    "cefr": "B1"
+  },
+  {
+    "id": 110,
+    "word": "claim",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "主張する、断言する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "請求する、要求する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kleɪm/",
+    "syllables": "claim",
+    "audioHint": "クレイム",
+    "examples": [
+      {
+        "en": "He claims that he saw a UFO last night.",
+        "ja": "彼は昨晩UFOを見たと主張している。",
+        "blank": "He ___ that he saw a UFO last night.",
+        "blankAnswer": "claims"
+      }
+    ],
+    "distractors": [
+      "不思議に思う",
+      "気づく",
+      "認識する"
+    ],
+    "confusableSpellings": [
+      "claime",
+      "cliam",
+      "clame"
+    ],
+    "passive": {
+      "etymology": "古フランス語 clamer ← ラテン語 clamare（大声で叫ぶ）。「声高に要求・主張する」が原義。acclaim（称賛）や exclaim（叫ぶ）も同じ語根。",
+      "tips": "日本語の「クレーム（苦情）」は和製英語。英語の claim は必ずしも苦情ではなく「主張・請求」全般。苦情は complaint を使おう。",
+      "confusables": "claim vs. argue：claim はある事実・権利を「（根拠があると思って）断言する」。argue はより論理的に「議論を通じて主張する」。claim は主観的確信が強い。",
+      "collocations": [
+        "claim that",
+        "make a claim",
+        "claim responsibility"
+      ],
+      "trivia": "保険の「クレーム（保険金請求）」は英語でも insurance claim と使われる正式な英語。空港の「手荷物受取所」は baggage claim。日常でも大活躍の単語！"
+    },
+    "frequency": 510,
+    "cefr": "B1"
+  },
+  {
+    "id": 111,
+    "word": "express",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "表現する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "急行の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈsprɛs/",
+    "syllables": "ex-press",
+    "audioHint": "イクスプレス",
+    "examples": [
+      {
+        "en": "She expressed her feelings through painting.",
+        "ja": "彼女は絵を通じて気持ちを表現した。",
+        "blank": "She ___ her feelings through painting.",
+        "blankAnswer": "expressed"
+      }
+    ],
+    "distractors": [
+      "説明する",
+      "議論する",
+      "記述する"
+    ],
+    "confusableSpellings": [
+      "expres",
+      "exspress",
+      "exprress"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ex-（外へ）+ pressare（押す）→「外に押し出す」が原義。感情や考えを外に押し出すイメージ。",
+      "tips": "express は「言葉・絵・音楽など手段を問わず表現する」という広い意味で使える。「英語で表現する」は express in English と言い、express to English とはしない点に注意。",
+      "confusables": "describe（描写する・詳しく説明する）と混同しやすいが、express は感情・意見などを外に出すニュアンス、describe は対象の特徴を言葉で説明するニュアンスが強い。",
+      "collocations": [
+        "express one's feelings",
+        "express concern",
+        "express gratitude"
+      ],
+      "trivia": "「エクスプレス」は日本語でも「急行列車」の意味で使われるが、これも「速く押し出す＝速達」というルーツが同じ。メール用語の「express delivery（速達）」も同語源！"
+    },
+    "frequency": 350,
+    "cefr": "A2"
+  },
+  {
+    "id": 112,
+    "word": "draw",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "引く、描く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "引き分け",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/drɔː/",
+    "syllables": "draw",
+    "audioHint": "ドロー",
+    "examples": [
+      {
+        "en": "He drew a map to show her the way.",
+        "ja": "彼は道を示すために地図を描いた。",
+        "blank": "He ___ a map to show her the way.",
+        "blankAnswer": "drew"
+      }
+    ],
+    "distractors": [
+      "押す",
+      "落とす",
+      "折る"
+    ],
+    "confusableSpellings": [
+      "drow",
+      "drawe",
+      "drwa"
+    ],
+    "passive": {
+      "etymology": "古英語 dragan（引く・運ぶ）に由来。「引っ張る」が核心義で、そこから「線を引く＝描く」「注意を引く」など多義に発展した。",
+      "tips": "draw の過去形は drew、過去分詞は drawn と不規則変化するため要注意。日本人は draw-drawed-drawed と規則変化させてしまいがち。",
+      "confusables": "pull（引っ張る）と意味が近いが、draw は「徐々に引き寄せる・線を引く」ニュアンスが強く、pull は「力を入れてぐいっと引く」場面で使う。",
+      "collocations": [
+        "draw a picture",
+        "draw attention",
+        "draw a conclusion"
+      ],
+      "trivia": "「ドロー」が「引き分け」を意味するのも「どちらも相手を引っ張り合って決着がつかない」イメージから来ている。スポーツ中継で「draw」と聞いたら引き分けのサインだ！"
+    },
+    "frequency": 180,
+    "cefr": "A2"
+  },
+  {
+    "id": 113,
+    "word": "waste",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "無駄にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "廃棄物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/weɪst/",
+    "syllables": "waste",
+    "audioHint": "ウェイスト",
+    "examples": [
+      {
+        "en": "Don't waste time on things that don't matter.",
+        "ja": "重要でないことに時間を無駄にしないで。",
+        "blank": "Don't ___ time on things that don't matter.",
+        "blankAnswer": "waste"
+      }
+    ],
+    "distractors": [
+      "節約する",
+      "消費する",
+      "集める"
+    ],
+    "confusableSpellings": [
+      "wast",
+      "waist",
+      "weste"
+    ],
+    "passive": {
+      "etymology": "ラテン語 vastus（荒れた・空の）→ 古フランス語 waster（荒廃させる）→ 英語へ。「土地を荒廃させる＝資源を台無しにする」が原義。",
+      "tips": "waste は他動詞として waste time / waste money のように使う。「時間の無駄だ」と言いたいとき It's a waste of time. という名詞用法も頻出。waste time doing と動名詞を続けることも多い。",
+      "confusables": "waist（ウエスト・腰）と発音が全く同じホモフォン。スペルを混同しやすいので、waste＝e が末尾にあると覚えておこう。",
+      "collocations": [
+        "waste time",
+        "waste money",
+        "waste energy"
+      ],
+      "trivia": "「mottainai（もったいない）」は英語圏で waste の概念に最も近い言葉として環境活動家から注目され、そのままローマ字で国際語になりつつある！"
+    },
+    "frequency": 620,
+    "cefr": "B1"
+  },
+  {
+    "id": 114,
+    "word": "advance",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "前進する、進歩する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "前払い、進歩",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ədˈvæns/",
+    "syllables": "ad-vance",
+    "audioHint": "アドヴァンス",
+    "examples": [
+      {
+        "en": "Technology has advanced rapidly in the last decade.",
+        "ja": "テクノロジーはここ10年で急速に進歩した。",
+        "blank": "Technology has ___ rapidly in the last decade.",
+        "blankAnswer": "advanced"
+      }
+    ],
+    "distractors": [
+      "後退する",
+      "停止する",
+      "回転する"
+    ],
+    "confusableSpellings": [
+      "advanse",
+      "advanc",
+      "addvance"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ab-（離れて）+ ante（前）→ 古フランス語 avancer（前に進める）→ 英語へ。「前方へ動かす」が核心。",
+      "tips": "advance は自動詞（前進する）と他動詞（～を進める）の両方で使える。in advance（事前に）という熟語は超頻出。「前もって予約する」は book in advance と言う。",
+      "confusables": "progress（進歩する）と意味が近いが、advance は「物理的・空間的な前進」や「技術的な前進」に使いやすく、progress は「作業・プロジェクトの進捗」に使うことが多い。",
+      "collocations": [
+        "advance in technology",
+        "in advance",
+        "advance notice"
+      ],
+      "trivia": "チェスでは駒を前に動かすことを advance と言う。「アドバンテージ（advantage）」も同じ語根で、「一歩前に出た有利な状態」という意味だ！"
+    },
+    "frequency": 540,
+    "cefr": "B1"
+  },
+  {
+    "id": 115,
+    "word": "spread",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "広がる、広める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "広がり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sprɛd/",
+    "syllables": "spread",
+    "audioHint": "スプレッド",
+    "examples": [
+      {
+        "en": "The news spread quickly through the town.",
+        "ja": "そのニュースは町中に素早く広まった。",
+        "blank": "The news ___ quickly through the town.",
+        "blankAnswer": "spread"
+      }
+    ],
+    "distractors": [
+      "集める",
+      "縮める",
+      "固める"
+    ],
+    "confusableSpellings": [
+      "spreed",
+      "spred",
+      "spraed"
+    ],
+    "passive": {
+      "etymology": "古英語 sprǣdan（広げる）に由来。「平らに伸ばす・展開する」が基本義で、情報・病気・バターを塗るなどあらゆる「広がり」に使われる。",
+      "tips": "spread は過去形・過去分詞ともに spread と形が変わらない不規則動詞。spread-spread-spread と覚えよう。「パンにバターを塗る」は spread butter on bread と言い、日本語の「塗る」より幅広い場面で使える。",
+      "confusables": "expand（拡大する）と混同されやすい。spread は「面的・平面的に広がる」イメージ、expand は「量・規模が膨張して大きくなる」イメージ。",
+      "collocations": [
+        "spread the news",
+        "spread disease",
+        "spread butter"
+      ],
+      "trivia": "SNSで情報が一気に拡散することを「viral spread（ウイルス的拡散）」と言うが、これもまさに spread の本来の意味「病気が広がる」から来ている！"
+    },
+    "frequency": 460,
+    "cefr": "B1"
+  },
+  {
+    "id": 116,
+    "word": "prepare",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "準備する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "用意する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈpɛr/",
+    "syllables": "pre-pare",
+    "audioHint": "プリペア",
+    "examples": [
+      {
+        "en": "She prepared a delicious meal for her guests.",
+        "ja": "彼女はゲストのためにおいしい食事を準備した。",
+        "blank": "She ___ a delicious meal for her guests.",
+        "blankAnswer": "prepared"
+      }
+    ],
+    "distractors": [
+      "完成させる",
+      "破壊する",
+      "延期する"
+    ],
+    "confusableSpellings": [
+      "prepaire",
+      "perpare",
+      "prepar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 prae-（前もって）+ parare（整える・用意する）→「前もって整える」が原義。prepare の par- は「用意する」を意味する語根。",
+      "tips": "prepare for ～（～に備える）と prepare ～ for …（…のために～を用意する）の2つの構文を区別しよう。I prepared for the exam. と I prepared notes for the exam. では意味が変わる。",
+      "confusables": "get ready（準備する）と意味は近いが、prepare はよりフォーマルで計画的なニュアンス。会議や料理など手間をかける場面で prepare が自然。",
+      "collocations": [
+        "prepare for an exam",
+        "prepare a report",
+        "prepare in advance"
+      ],
+      "trivia": "料理番組で「prep（プレップ）」と短縮して使われるのも prepare の略。料理界では食材の下準備全般を指す専門用語として定着している！"
+    },
+    "frequency": 400,
+    "cefr": "A2"
+  },
+  {
+    "id": 117,
+    "word": "gain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "得る、獲得する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "利益、増加",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡeɪn/",
+    "syllables": "gain",
+    "audioHint": "ゲイン",
+    "examples": [
+      {
+        "en": "He gained a lot of experience working abroad.",
+        "ja": "彼は海外で働いて多くの経験を得た。",
+        "blank": "He ___ a lot of experience working abroad.",
+        "blankAnswer": "gained"
+      }
+    ],
+    "distractors": [
+      "失う",
+      "返す",
+      "借りる"
+    ],
+    "confusableSpellings": [
+      "gane",
+      "gaim",
+      "gian"
+    ],
+    "passive": {
+      "etymology": "古フランス語 gaaignier（稼ぐ・獲得する）に由来し、さらにゲルマン語系の「牧草地で収穫する」という語根から来ている。「努力して手に入れる」が核心。",
+      "tips": "gain は「努力や時間をかけて徐々に手に入れる」ニュアンスが強い。gain weight（体重が増える）、gain experience（経験を積む）など、プロセスを経て増えるものに使う。get より改まった表現。",
+      "confusables": "get（得る）と意味は似ているが、gain は「徐々に・努力して得る」ニュアンスがあり、get より意図的・肯定的なニュアンスを持つことが多い。",
+      "collocations": [
+        "gain experience",
+        "gain weight",
+        "gain confidence"
+      ],
+      "trivia": "オーディオ機器の「ゲイン（gain）」つまみは「信号の増幅量」を意味する。「得る・増やす」という動詞 gain がそのまま技術用語になった例だ！"
+    },
+    "frequency": 430,
+    "cefr": "B1"
+  },
+  {
+    "id": 118,
+    "word": "achieve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "達成する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "成し遂げる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈtʃiːv/",
+    "syllables": "a-chieve",
+    "audioHint": "アチーヴ",
+    "examples": [
+      {
+        "en": "She worked hard to achieve her dream.",
+        "ja": "彼女は夢を達成するために懸命に働いた。",
+        "blank": "She worked hard to ___ her dream.",
+        "blankAnswer": "achieve"
+      }
+    ],
+    "distractors": [
+      "諦める",
+      "計画する",
+      "開始する"
+    ],
+    "confusableSpellings": [
+      "acheive",
+      "achive",
+      "acheeve"
+    ],
+    "passive": {
+      "etymology": "古フランス語 achever（完成させる）→ a（～へ）+ chef（頭・先端）→「先端まで到達する＝やり遂げる」が原義。chief（長）と同じ語根。",
+      "tips": "スペルミスの定番は acheive（iとeが逆）。「i before e except after c」というルールより、achieve は ch の後なので ei ではなく ie が正しいと覚えよう。",
+      "confusables": "accomplish（成し遂げる）と意味が近いが、achieve は「目標・夢・成功」といった抽象的なゴールに、accomplish は「具体的なタスク・任務の完了」に使うことが多い。",
+      "collocations": [
+        "achieve a goal",
+        "achieve success",
+        "achieve one's dream"
+      ],
+      "trivia": "achievement（業績）は学校のゲームで「実績解除」を意味する言葉としてゲーマーにはおなじみ。Xbox の「Achievements」や PlayStation の「Trophies」がまさにこの語だ！"
+    },
+    "frequency": 480,
+    "cefr": "B1"
+  },
+  {
+    "id": 119,
+    "word": "establish",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "設立する、確立する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "証明する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈstæblɪʃ/",
+    "syllables": "es-tab-lish",
+    "audioHint": "イスタブリッシュ",
+    "examples": [
+      {
+        "en": "They established a new company last year.",
+        "ja": "彼らは昨年新しい会社を設立した。",
+        "blank": "They ___ a new company last year.",
+        "blankAnswer": "established"
+      }
+    ],
+    "distractors": [
+      "廃止する",
+      "移動する",
+      "修理する"
+    ],
+    "confusableSpellings": [
+      "establich",
+      "estaablish",
+      "establsh"
+    ],
+    "passive": {
+      "etymology": "ラテン語 stabilire（安定させる）→ stabilis（安定した）→ sta-（立つ）が語根。「しっかりと立たせる＝確立する」が原義。stable（安定した）や stand と同じ語根。",
+      "tips": "establish は「組織・ルール・関係・事実」など幅広いものを「しっかり根付かせる」ときに使う。found（設立する）と似ているが、establish はより「基盤を固める」ニュアンスがあり、信頼や評判にも使える（establish a reputation）。",
+      "confusables": "found（設立する）と混同しやすい。found は組織の創設行為そのものを指し、establish はそれを「安定した形で確立する」プロセスに焦点を当てる。",
+      "collocations": [
+        "establish a company",
+        "establish trust",
+        "establish a record"
+      ],
+      "trivia": "「エスタブリッシュメント（the establishment）」は「既存の支配体制・上流階層」を意味する政治用語。「しっかり立ち位置を確立した人たち」という皮肉なニュアンスで使われることが多い！"
+    },
+    "frequency": 500,
+    "cefr": "B2"
+  },
+  {
+    "id": 120,
+    "word": "supply",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "供給する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "供給（量）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/səˈplaɪ/",
+    "syllables": "sup-ply",
+    "audioHint": "サプライ",
+    "examples": [
+      {
+        "en": "The factory supplies parts to many car makers.",
+        "ja": "その工場は多くの自動車メーカーに部品を供給している。",
+        "blank": "The factory ___ parts to many car makers.",
+        "blankAnswer": "supplies"
+      }
+    ],
+    "distractors": [
+      "需要する",
+      "消費する",
+      "輸入する"
+    ],
+    "confusableSpellings": [
+      "suplly",
+      "supplie",
+      "suply"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sub-（下から・補って）+ plere（満たす）→「不足を下から補って満たす」が原義。plenty（豊富）や complete と同じ語根 ple- を持つ。",
+      "tips": "supply A with B（AにBを供給する）と supply B to A（BをAに供給する）の2つの構文がある。日本人は「supply to」のみを覚えがちだが「supply with」も同じくらい重要。",
+      "confusables": "provide（提供する）と意味が近いが、supply は「物資・量・在庫」の供給に、provide はより広く「サービス・情報・機会」の提供にも使われる。",
+      "collocations": [
+        "supply and demand",
+        "supply chain",
+        "supply electricity"
+      ],
+      "trivia": "「サプライチェーン（supply chain）」はコロナ禍で世界中に広まったビジネス用語。「原料→製造→輸送→販売」という供給の連鎖を意味し、この言葉で supply の重要性を実感した人も多いはず！"
+    },
+    "frequency": 520,
+    "cefr": "B1"
+  }
+]

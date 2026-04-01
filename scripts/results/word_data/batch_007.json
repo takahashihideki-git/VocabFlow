@@ -1,0 +1,992 @@
+[
+  {
+    "id": 121,
+    "word": "suppose",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜と思う、仮定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜とされている（be supposed to）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈpoʊz/",
+    "syllables": "sup-pose",
+    "audioHint": "サポウズ",
+    "examples": [
+      {
+        "en": "I suppose we should leave early to avoid traffic.",
+        "ja": "渋滞を避けるために早めに出発した方がいいと思う。",
+        "blank": "I ___ we should leave early to avoid traffic.",
+        "blankAnswer": "suppose"
+      }
+    ],
+    "distractors": [
+      "証明する",
+      "伝える",
+      "決定する"
+    ],
+    "confusableSpellings": [
+      "supose",
+      "supposse",
+      "supppose"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'supponere'（下に置く）が起源。sub-（下に）+ ponere（置く）→「前提として下に置く」→「仮定する」という意味に発展。",
+      "tips": "'I suppose so.' は「まあそうだね」という曖昧な同意表現としてよく使われる。'be supposed to' は「〜することになっている」という義務・期待の意味になるが、'should' とは違いニュアンスが弱い点に注意。",
+      "confusables": "'assume' との違い：suppose は軽い推測・仮定、assume はより確信度が高い仮定や前提を指す。例：I suppose it might rain（ひょっとして）vs. I assumed he knew（知っているものと思い込んでいた）。",
+      "collocations": [
+        "be supposed to do",
+        "I suppose so",
+        "suppose (that) SV"
+      ],
+      "trivia": "'I suppose' は英国英語で会話のクッション言葉として非常に頻繁に使われる。日本語の「まあ…」に相当するニュアンスで、はっきり言い切りたくない英国人の文化と深く結びついている。"
+    },
+    "frequency": 480,
+    "cefr": "B1"
+  },
+  {
+    "id": 122,
+    "word": "perform",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "実行する、行う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "演じる、演奏する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pərˈfɔːrm/",
+    "syllables": "per-form",
+    "audioHint": "パフォーム",
+    "examples": [
+      {
+        "en": "The surgeon performed a difficult operation successfully.",
+        "ja": "その外科医は難しい手術を成功させた。",
+        "blank": "The surgeon ___ a difficult operation successfully.",
+        "blankAnswer": "performed"
+      }
+    ],
+    "distractors": [
+      "含む",
+      "適用する",
+      "扱う"
+    ],
+    "confusableSpellings": [
+      "preform",
+      "perfom",
+      "performm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'performare' が起源。per-（完全に・通じて）+ formare（形作る）→「最後まで形にする」→「やり遂げる・実行する」という意味に。",
+      "tips": "'do' との違いに注意。'perform' はより専門的・公式な行為や、芸術的なパフォーマンスに使う。'do an operation' とは言わず 'perform an operation' が正しい。",
+      "confusables": "'practice' との違い：perform は本番の実行・演技を指し、practice は練習を指す。舞台に立って演じるのが perform、稽古するのが practice。",
+      "collocations": [
+        "perform an operation",
+        "perform well/poorly",
+        "perform on stage"
+      ],
+      "trivia": "英語の 'performance' はビジネス用語としても超頻出で、「業績・パフォーマンス評価」の意味で使われる。日本語にも「パフォーマンス」として入ってきているが、英語では「実際にやり遂げる能力」がコアイメージ。"
+    },
+    "frequency": 390,
+    "cefr": "B1"
+  },
+  {
+    "id": 123,
+    "word": "prefer",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜の方を好む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を選ぶ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈfɜːr/",
+    "syllables": "pre-fer",
+    "audioHint": "プリファー",
+    "examples": [
+      {
+        "en": "She prefers tea to coffee in the morning.",
+        "ja": "彼女は朝はコーヒーよりお茶の方が好きだ。",
+        "blank": "She ___ tea to coffee in the morning.",
+        "blankAnswer": "prefers"
+      }
+    ],
+    "distractors": [
+      "証明する",
+      "仮定する",
+      "言及する"
+    ],
+    "confusableSpellings": [
+      "perfer",
+      "prefere",
+      "preferr"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praeferre' が起源。prae-（前に）+ ferre（運ぶ）→「前に持ってくる」→「他よりも前に置く＝好む」という意味に発展。",
+      "tips": "'prefer A to B'（BよりAを好む）の形が基本。'prefer A over B' も可。よくあるミスは 'prefer A than B' と書いてしまうこと。'than' ではなく 'to' を使うことに注意！",
+      "confusables": "'like better' との違い：意味はほぼ同じだが、prefer はより改まった・書き言葉的な表現。会話では 'I like tea better than coffee' の方が自然に聞こえることも多い。",
+      "collocations": [
+        "prefer A to B",
+        "would prefer to do",
+        "prefer doing"
+      ],
+      "trivia": "語根の 'ferre'（運ぶ）は英語の 'ferry'（フェリー）とも同じ。prefer・refer・transfer・differ など、-fer で終わる動詞の多くはこの「運ぶ」という語根を持っている。"
+    },
+    "frequency": 520,
+    "cefr": "A2"
+  },
+  {
+    "id": 124,
+    "word": "determine",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "決定する、〜を明らかにする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を決意させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈtɜːrmɪn/",
+    "syllables": "de-ter-mine",
+    "audioHint": "ディターミン",
+    "examples": [
+      {
+        "en": "Scientists are trying to determine the cause of the disease.",
+        "ja": "科学者たちはその病気の原因を突き止めようとしている。",
+        "blank": "Scientists are trying to ___ the cause of the disease.",
+        "blankAnswer": "determine"
+      }
+    ],
+    "distractors": [
+      "〜の方を好む",
+      "演じる",
+      "含む"
+    ],
+    "confusableSpellings": [
+      "determin",
+      "determne",
+      "deterrmine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'determinare' が起源。de-（完全に）+ terminare（境界を定める、terminus=終点・境界から）→「完全に境界を定める」→「決定する・確定する」という意味に。",
+      "tips": "'decide' との違い：determine はより客観的・論理的に結論を導き出すニュアンス（調査・分析の結果）。decide は個人の意思による選択のニュアンスが強い。学術論文では determine の方が自然。",
+      "confusables": "'decide' との使い分け：'determine the cause'（原因を特定する）のように、外部の事実を調べて明らかにする場合は determine。'decide what to eat'（何を食べるか決める）のように個人の意思決定は decide。",
+      "collocations": [
+        "determine the cause",
+        "be determined to do",
+        "determine whether"
+      ],
+      "trivia": "'determined'（形容詞）は「断固とした」という意味になる。'She is determined to succeed.'（彼女は成功すると固く決意している）のように人の強い意志を表す形容詞として日常会話でも超頻出。"
+    },
+    "frequency": 350,
+    "cefr": "B2"
+  },
+  {
+    "id": 125,
+    "word": "treat",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "扱う、対処する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "治療する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/triːt/",
+    "syllables": "treat",
+    "audioHint": "トゥリート",
+    "examples": [
+      {
+        "en": "The doctor treated her broken arm with a cast.",
+        "ja": "医師はギプスで彼女の骨折した腕を治療した。",
+        "blank": "The doctor ___ her broken arm with a cast.",
+        "blankAnswer": "treated"
+      }
+    ],
+    "distractors": [
+      "決定する",
+      "証明する",
+      "仮定する"
+    ],
+    "confusableSpellings": [
+      "treet",
+      "teat",
+      "treeat"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'traitier'、ラテン語 'tractare'（引っ張る・扱う）が起源。tractare は trahere（引く）の繰り返し形→「何度も引き回す＝扱う」というイメージ。",
+      "tips": "'treat A as B'（AをBとして扱う）と 'treat A like B' の形は頻出。医療文脈では 'treat a disease/patient' の形が基本。また名詞として 'a treat'（おごり・ご褒美）という意味もあるので文脈で判断する。",
+      "confusables": "'cure' との違い：treat は治療のプロセス全体を指し、完治を意味しない。cure は完全に治すことを意味する。'treat cancer'（がんを治療している）vs. 'cure cancer'（がんを根治する）。",
+      "collocations": [
+        "treat a patient",
+        "treat A as/like B",
+        "treat someone to dinner"
+      ],
+      "trivia": "'my treat'（私のおごり）は会話で超便利な表現。'Let's go for coffee — my treat!' のように使う。名詞の treat はもともと「特別な楽しみ」という意味で、trick or treat（ハロウィン）の treat もこれ。"
+    },
+    "frequency": 420,
+    "cefr": "B1"
+  },
+  {
+    "id": 126,
+    "word": "prove",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "証明する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜であることがわかる（prove to be）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pruːv/",
+    "syllables": "prove",
+    "audioHint": "プルーヴ",
+    "examples": [
+      {
+        "en": "He proved that the theory was correct with new data.",
+        "ja": "彼は新しいデータでその理論が正しいことを証明した。",
+        "blank": "He ___ that the theory was correct with new data.",
+        "blankAnswer": "proved"
+      }
+    ],
+    "distractors": [
+      "〜の方を好む",
+      "伝える",
+      "仮定する"
+    ],
+    "confusableSpellings": [
+      "proove",
+      "pruv",
+      "pruve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'probare'（テストする・承認する）が起源。probus（良い・正直な）から派生→「良いと確かめる」→「証明する」という意味に。英語の 'probe'（調査する）とも同語源。",
+      "tips": "'prove' の過去形は 'proved' が標準的だが、過去分詞は 'proven'（特に形容詞的用法）と 'proved' の両方が使われる。'a proven method'（実証済みの方法）のように形容詞では proven が多い。",
+      "confusables": "'show' との違い：prove はより厳密な証拠や論理によって確実に示すこと。show はより広く「示す・見せる」全般に使える。数学の証明問題では 'Prove that...' が定番表現。",
+      "collocations": [
+        "prove a point",
+        "prove to be",
+        "prove guilty/innocent"
+      ],
+      "trivia": "法廷ドラマで頻出の 'innocent until proven guilty'（有罪が証明されるまでは無罪）はまさに prove の過去分詞 proven を使った表現。無罪推定の原則を示すこのフレーズは英米法の根幹。"
+    },
+    "frequency": 460,
+    "cefr": "B1"
+  },
+  {
+    "id": 127,
+    "word": "apply",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "応募する、申し込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "適用する、当てはまる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈplaɪ/",
+    "syllables": "ap-ply",
+    "audioHint": "アプライ",
+    "examples": [
+      {
+        "en": "She applied for the marketing position last week.",
+        "ja": "彼女は先週マーケティングの職に応募した。",
+        "blank": "She ___ for the marketing position last week.",
+        "blankAnswer": "applied"
+      }
+    ],
+    "distractors": [
+      "証明する",
+      "言及する",
+      "仮定する"
+    ],
+    "confusableSpellings": [
+      "applie",
+      "aply",
+      "applay"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'applicare' が起源。ad-（〜に向かって）+ plicare（折り重ねる・くっつける）→「何かにくっつける・当てる」→「適用する・応募する」というイメージに発展。",
+      "tips": "「応募する」は 'apply for' + 職・奨学金など、「適用される」は 'apply to' + 対象という前置詞の使い分けが重要。'This rule applies to everyone.'（このルールは全員に適用される）のように。",
+      "confusables": "'apply for' vs. 'apply to'：apply for は何かを得ようとして申し込む（apply for a job）、apply to は規則・方法などを対象に当てはめる（apply the rule to the case）または応募先機関（apply to a university）。",
+      "collocations": [
+        "apply for a job",
+        "apply to a university",
+        "apply pressure"
+      ],
+      "trivia": "スマホの「アプリ」は 'application' の略。もともとは「適用するもの（ソフトウェア）」という意味で、apply（適用する）から来ている。日常語の「アプリ」に英語の語源が隠れているのは面白い。"
+    },
+    "frequency": 370,
+    "cefr": "B1"
+  },
+  {
+    "id": 128,
+    "word": "mention",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "言及する、〜に触れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "述べる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈmenʃən/",
+    "syllables": "men-tion",
+    "audioHint": "メンション",
+    "examples": [
+      {
+        "en": "Did he mention where the meeting would be held?",
+        "ja": "彼は会議がどこで開かれるか言っていましたか？",
+        "blank": "Did he ___ where the meeting would be held?",
+        "blankAnswer": "mention"
+      }
+    ],
+    "distractors": [
+      "決定する",
+      "〜の方を好む",
+      "仮定する"
+    ],
+    "confusableSpellings": [
+      "mension",
+      "mentoin",
+      "mencion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'mentio'（言及）が起源。mens（心・思考）から派生→「心に浮かんでいることを言葉にする」→「言及する」という意味に。",
+      "tips": "'mention' の後には that節や動名詞（doing）が続くが、不定詞（to do）は続かない。'He mentioned going to Tokyo.'（東京に行くと言っていた）は正しいが 'He mentioned to go' は誤り。",
+      "confusables": "'say' vs. 'mention'：say はただ言う行為全般、mention は「ちらっと触れる・さらっと言う」ニュアンスが強い。重要ではないこととして軽く述べる時に mention を使うことが多い。",
+      "collocations": [
+        "mention that SV",
+        "as mentioned above",
+        "not to mention"
+      ],
+      "trivia": "SNSの「メンション（@付き言及）」はまさにこの単語から。'not to mention'（〜は言うまでもなく）は会話でも文章でも使える便利フレーズ。'It's cold, not to mention the wind!'（寒いし、風も言うまでもない！）"
+    },
+    "frequency": 510,
+    "cefr": "B1"
+  },
+  {
+    "id": 129,
+    "word": "communicate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "伝える、コミュニケーションをとる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意思疎通する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈmjuːnɪkeɪt/",
+    "syllables": "com-mu-ni-cate",
+    "audioHint": "コミューニケイト",
+    "examples": [
+      {
+        "en": "It's important to communicate clearly with your team.",
+        "ja": "チームと明確にコミュニケーションをとることが重要だ。",
+        "blank": "It's important to ___ clearly with your team.",
+        "blankAnswer": "communicate"
+      }
+    ],
+    "distractors": [
+      "証明する",
+      "決定する",
+      "仮定する"
+    ],
+    "confusableSpellings": [
+      "comunicate",
+      "communicat",
+      "comminicate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'communicare'（共有する）が起源。communis（共通の・公共の）から派生。com-（共に）+ munis（義務・贈り物）→「共に分かち合う」→「情報を伝え合う」という意味に。",
+      "tips": "'communicate with + 人'（〜と意思疎通する）と 'communicate + 情報'（情報を伝える）の2つのパターンを押さえよう。日本語の「コミュニケーション」感覚と近いが、名詞形は communication（5音節）と長いので発音注意。",
+      "confusables": "'tell' との違い：tell は一方向的に情報を伝えること、communicate は双方向的な意思疎通のニュアンスが強い。良い relationships を築くには communicate することが大切というのがポイント。",
+      "collocations": [
+        "communicate with",
+        "communicate effectively",
+        "communicate ideas"
+      ],
+      "trivia": "community（コミュニティ）・common（共通の）・communion（聖餐）・communism（共産主義）はすべて同じ語根 communis（共通の）から生まれた兄弟語。「みんなで共有する」がコアイメージ。"
+    },
+    "frequency": 430,
+    "cefr": "B1"
+  },
+  {
+    "id": 130,
+    "word": "contain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "含む、収容する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "抑える、封じ込める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈteɪn/",
+    "syllables": "con-tain",
+    "audioHint": "コンテイン",
+    "examples": [
+      {
+        "en": "This juice contains a lot of vitamin C.",
+        "ja": "このジュースにはビタミンCがたくさん含まれている。",
+        "blank": "This juice ___ a lot of vitamin C.",
+        "blankAnswer": "contains"
+      }
+    ],
+    "distractors": [
+      "応募する",
+      "実行する",
+      "扱う"
+    ],
+    "confusableSpellings": [
+      "contian",
+      "containe",
+      "conatin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'continere' が起源。con-（共に・完全に）+ tenere（保つ・持つ）→「完全に中に保つ」→「含む・封じ込める」という意味に。",
+      "tips": "contain は状態動詞なので、進行形（is containing）にはほぼしない。'This box is containing apples.' は不自然で、'This box contains apples.' が正しい。include との違いは、contain は物理的・成分的に「中に入っている」ニュアンスが強い。",
+      "confusables": "'include' との違い：contain は「物質・成分として内部に持つ」（this soup contains salt）、include は「リストや集合の一部として含む」（the price includes tax）というニュアンス。",
+      "collocations": [
+        "contain information",
+        "contain a virus",
+        "contain one's emotions"
+      ],
+      "trivia": "container（コンテナ）・content（内容）・continent（大陸）・entertain（楽しませる）は同じ語根 tenere（保つ）を持つ仲間。大陸（continent）は「陸地を保ち続けるもの」という意味が語源に隠れている。"
+    },
+    "frequency": 400,
+    "cefr": "A2"
+  },
+  {
+    "id": 131,
+    "word": "contact",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "連絡する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "接触する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒntækt/",
+    "syllables": "con-tact",
+    "audioHint": "コンタクト",
+    "examples": [
+      {
+        "en": "Please contact me if you have any questions.",
+        "ja": "何か質問があれば私に連絡してください。",
+        "blank": "Please ___ me if you have any questions.",
+        "blankAnswer": "contact"
+      }
+    ],
+    "distractors": [
+      "尊重する",
+      "拒否する",
+      "検索する"
+    ],
+    "confusableSpellings": [
+      "contect",
+      "cantact"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contactus' から。con-（共に）+ tangere（触れる）が語源。「共に触れる」が原義。",
+      "tips": "動詞として使う場合、'contact with' とせず 'contact him' のように直接目的語を取るのが正しい用法。日本語の「コンタクトを取る」と直訳して 'take a contact' とするのは誤り。",
+      "confusables": "'reach' との比較：どちらも「連絡する」だが、contact はより正式・ビジネス的なニュアンス。reach は 'reach out' の形でカジュアルな場面でよく使われる。",
+      "collocations": [
+        "contact someone",
+        "contact information",
+        "make contact with"
+      ],
+      "trivia": "「コンタクトレンズ」の contact も同じ語源で「目に直接触れる」レンズという意味。英語では 'contact lens' が正式名称。"
+    },
+    "frequency": 400,
+    "cefr": "A2"
+  },
+  {
+    "id": 132,
+    "word": "regard",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜とみなす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "敬意・関心",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈɡɑːrd/",
+    "syllables": "re-gard",
+    "audioHint": "リガード",
+    "examples": [
+      {
+        "en": "She regards honesty as the most important value.",
+        "ja": "彼女は正直さを最も重要な価値だとみなしている。",
+        "blank": "She ___ honesty as the most important value.",
+        "blankAnswer": "regards"
+      }
+    ],
+    "distractors": [
+      "思い出す",
+      "想像する",
+      "伝える"
+    ],
+    "confusableSpellings": [
+      "regerd",
+      "reagard"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'regarder'（見る・観察する）から。re-（再び・強意）+ garder（守る・見張る）が語源。「しっかり見る」が原義。",
+      "tips": "'regard A as B'（AをBとみなす）の構文が最重要。'consider A as B' と混同して 'regard A to be B' としがちだが、正しくは 'regard A as B'。",
+      "confusables": "'consider' との比較：ほぼ同義で 'regard A as B' ≒ 'consider A B'。ただし consider は as を省略できるが regard は as が必須。",
+      "collocations": [
+        "regard A as B",
+        "with regard to",
+        "in this regard"
+      ],
+      "trivia": "メールの締めの言葉 'Best regards' の regards もこの単語。元々は「敬意を込めて」という意味で使われていた。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 133,
+    "word": "respect",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "尊重する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "敬意・尊重",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈspekt/",
+    "syllables": "re-spect",
+    "audioHint": "リスペクト",
+    "examples": [
+      {
+        "en": "We must respect other people's opinions.",
+        "ja": "私たちは他人の意見を尊重しなければならない。",
+        "blank": "We must ___ other people's opinions.",
+        "blankAnswer": "respect"
+      }
+    ],
+    "distractors": [
+      "連絡する",
+      "無視する",
+      "支援する"
+    ],
+    "confusableSpellings": [
+      "respact",
+      "repsect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'respectus' から。re-（再び）+ specere（見る）が語源。「振り返ってよく見る」→「敬意を持って見る」という意味に発展。",
+      "tips": "'respect for 〜' で「〜への敬意」という名詞用法が頻出。動詞と名詞で形が同じなので文脈で判断する必要がある。",
+      "confusables": "'admire' との比較：admire は「感心する・称賛する」でやや感情的なニュアンス。respect は行動・価値観・立場への「尊重」でより客観的。",
+      "collocations": [
+        "respect someone's opinion",
+        "have respect for",
+        "mutual respect"
+      ],
+      "trivia": "ヒップホップ文化で 'respect' は挨拶代わりに使われる。アレサ・フランクリンの名曲「RESPECT」は女性の権利運動のアンセムにもなった。"
+    },
+    "frequency": 500,
+    "cefr": "A2"
+  },
+  {
+    "id": 134,
+    "word": "search",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "探す・検索する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "捜索・検索",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sɜːrtʃ/",
+    "syllables": "search",
+    "audioHint": "サーチ",
+    "examples": [
+      {
+        "en": "I searched for the lost key everywhere in the house.",
+        "ja": "私は家中で失くした鍵を探した。",
+        "blank": "I ___ for the lost key everywhere in the house.",
+        "blankAnswer": "searched"
+      }
+    ],
+    "distractors": [
+      "接続する",
+      "防ぐ",
+      "低下する"
+    ],
+    "confusableSpellings": [
+      "serch",
+      "saerch"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'cerchier'（調べる）から。ラテン語 'circare'（円を描いて回る）が語源。「くまなく回って調べる」が原義。",
+      "tips": "'search for 〜'（〜を探す）と 'search 〜'（〜を捜索する）の使い分けに注意。'I searched her bag.'（バッグを調べた）のように場所・物を直接目的語に取る場合は for 不要。",
+      "confusables": "'look for' との比較：意味はほぼ同じだが search はより体系的・徹底的に探すニュアンス。インターネット検索は 'search' が自然。",
+      "collocations": [
+        "search for information",
+        "search engine",
+        "search the internet"
+      ],
+      "trivia": "Google の動詞化「to google」が普及する前は「to search」が一般的だった。Google は今や辞書にも動詞として掲載されている。"
+    },
+    "frequency": 350,
+    "cefr": "A2"
+  },
+  {
+    "id": 135,
+    "word": "connect",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "つなぐ・接続する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "関連付ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈnekt/",
+    "syllables": "con-nect",
+    "audioHint": "コネクト",
+    "examples": [
+      {
+        "en": "Please connect your laptop to the projector before the meeting.",
+        "ja": "会議の前にノートパソコンをプロジェクターに接続してください。",
+        "blank": "Please ___ your laptop to the projector before the meeting.",
+        "blankAnswer": "connect"
+      }
+    ],
+    "distractors": [
+      "探す",
+      "公表する",
+      "断る"
+    ],
+    "confusableSpellings": [
+      "conect",
+      "connext"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'connectere' から。con-（共に）+ nectere（結ぶ）が語源。「共に結び付ける」が原義。",
+      "tips": "'connect A to B' または 'connect A with B' の両方が使える。インターネット接続なら 'connect to the internet'、人と人との繋がりなら 'connect with someone' が自然。",
+      "confusables": "'link' との比較：link はより抽象的・論理的な繋がりに使われやすい。connect は物理的な接続にも使える。",
+      "collocations": [
+        "connect to the internet",
+        "connect with people",
+        "connect A to B"
+      ],
+      "trivia": "LinkedIn（リンクトイン）の名前は 'link'＋'in' から来ており、「繋がる」という概念がそのままサービス名に。"
+    },
+    "frequency": 450,
+    "cefr": "A2"
+  },
+  {
+    "id": 136,
+    "word": "decline",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "断る・辞退する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "減少する・低下する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈklaɪn/",
+    "syllables": "de-cline",
+    "audioHint": "ディクライン",
+    "examples": [
+      {
+        "en": "She politely declined the job offer.",
+        "ja": "彼女は丁重にその仕事のオファーを断った。",
+        "blank": "She politely ___ the job offer.",
+        "blankAnswer": "declined"
+      }
+    ],
+    "distractors": [
+      "防ぐ",
+      "接続する",
+      "探す"
+    ],
+    "confusableSpellings": [
+      "declin",
+      "declain"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'declinare' から。de-（下に・離れて）+ clinare（傾ける）が語源。「下に傾く」→「減少する」「避ける」という意味に発展。",
+      "tips": "「断る」と「減少する」の2つの意味を混同しないよう注意。'refuse' との違いは decline の方が丁寧で formal なニュアンス。面接のお断りメールには decline が適切。",
+      "confusables": "'refuse' との比較：refuse は強い意志での拒否、decline は丁寧・礼儀正しい辞退のニュアンス。",
+      "collocations": [
+        "decline an offer",
+        "decline in sales",
+        "politely decline"
+      ],
+      "trivia": "経済ニュースでよく見る「売上が decline した」というのとビジネスメールの「お断りします（decline）」が同じ単語というのは意外と知られていない。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 137,
+    "word": "prevent",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "防ぐ・妨げる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "阻止する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈvent/",
+    "syllables": "pre-vent",
+    "audioHint": "プリベント",
+    "examples": [
+      {
+        "en": "Washing your hands regularly can prevent many diseases.",
+        "ja": "定期的に手を洗うことで多くの病気を防ぐことができる。",
+        "blank": "Washing your hands regularly can ___ many diseases.",
+        "blankAnswer": "prevent"
+      }
+    ],
+    "distractors": [
+      "断る",
+      "接続する",
+      "出版する"
+    ],
+    "confusableSpellings": [
+      "prevant",
+      "prvent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praevenire' から。pre-（前に）+ venire（来る）が語源。「前もってやって来る」→「先手を打って防ぐ」という意味に発展。",
+      "tips": "'prevent A from doing'（AがするのをBが防ぐ）の構文が重要。'prevent A to do' は誤り。from doing を忘れずに。",
+      "confusables": "'avoid' との比較：avoid は主語自身が避ける行為、prevent は他者や何かがするのを妨げる行為。",
+      "collocations": [
+        "prevent disease",
+        "prevent A from doing",
+        "prevent crime"
+      ],
+      "trivia": "「予防は治療に勝る（Prevention is better than cure）」はベンジャミン・フランクリンの言葉として広まったが、実は17世紀の医学書が起源とされている。"
+    },
+    "frequency": 550,
+    "cefr": "B1"
+  },
+  {
+    "id": 138,
+    "word": "suffer",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "苦しむ・苦痛を受ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（悪影響を）受ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsʌfər/",
+    "syllables": "suf-fer",
+    "audioHint": "サファー",
+    "examples": [
+      {
+        "en": "He has been suffering from back pain for months.",
+        "ja": "彼は何ヶ月もの間、腰痛に苦しんでいる。",
+        "blank": "He has been ___ from back pain for months.",
+        "blankAnswer": "suffering"
+      }
+    ],
+    "distractors": [
+      "生き延びる",
+      "運動する",
+      "息をする"
+    ],
+    "confusableSpellings": [
+      "sufer",
+      "suffar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sufferre' から。sub-（下に・耐えて）+ ferre（運ぶ・耐える）が語源。「下から支えて耐える」が原義。",
+      "tips": "'suffer from 〜'（〜で苦しむ）は病気・問題に使う定番表現。from を抜かして 'suffer pain' と直接目的語を取ることもあるが、病名・症状には from が自然。",
+      "confusables": "'endure' との比較：endure は「我慢して耐え続ける」という意志的なニュアンス。suffer はより受動的で「被る・苦しめられる」感が強い。",
+      "collocations": [
+        "suffer from illness",
+        "suffer a loss",
+        "suffer in silence"
+      ],
+      "trivia": "「サファリング」（苦しみ）という言葉も同語源。仏教の「苦（dukkha）」を英語で説明するとき suffering が使われることが多い。"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 139,
+    "word": "survive",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "生き延びる・生還する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "乗り越える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sərˈvaɪv/",
+    "syllables": "sur-vive",
+    "audioHint": "サバイブ",
+    "examples": [
+      {
+        "en": "Only a few passengers survived the plane crash.",
+        "ja": "飛行機事故で生き残ったのはわずか数名の乗客だった。",
+        "blank": "Only a few passengers ___ the plane crash.",
+        "blankAnswer": "survived"
+      }
+    ],
+    "distractors": [
+      "苦しむ",
+      "走る",
+      "倒れる"
+    ],
+    "confusableSpellings": [
+      "surviv",
+      "survibe"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'supervivere' から。super-（上に・越えて）+ vivere（生きる）が語源。「死を乗り越えて生きる」が原義。",
+      "tips": "'survive' は他動詞として 'survive the accident'（事故を生き延びる）のように目的語を直接取れる。'survive from' としないよう注意。",
+      "confusables": "'live through' との比較：意味はほぼ同じだが survive の方がより「危機的状況を乗り越えた」というドラマチックなニュアンスが強い。",
+      "collocations": [
+        "survive a disaster",
+        "survival of the fittest",
+        "barely survive"
+      ],
+      "trivia": "ダーウィンの名言として知られる「適者生存（survival of the fittest）」だが、実はこのフレーズを作ったのはダーウィンではなく哲学者ハーバート・スペンサー。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 140,
+    "word": "publish",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "出版する・公表する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "発表する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpʌblɪʃ/",
+    "syllables": "pub-lish",
+    "audioHint": "パブリッシュ",
+    "examples": [
+      {
+        "en": "The author published her first novel at age thirty.",
+        "ja": "その著者は30歳で初めての小説を出版した。",
+        "blank": "The author ___ her first novel at age thirty.",
+        "blankAnswer": "published"
+      }
+    ],
+    "distractors": [
+      "接続する",
+      "防ぐ",
+      "断る"
+    ],
+    "confusableSpellings": [
+      "publsh",
+      "publishe"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'publicare'（公にする）から。public（公の）と同語源で、「広く人々に知らせる」が原義。",
+      "tips": "「出版する」という意味では他動詞として 'publish a book' のように使う。SNSで「投稿する」の意味でも使われるようになっており、現代的な用法にも注目。",
+      "confusables": "'release' との比較：release は音楽・映画・ソフトウェアなどのリリースに使われる。publish は主に文書・論文・書籍などの出版・公表に使われる。",
+      "collocations": [
+        "publish a book",
+        "publish a paper",
+        "publish online"
+      ],
+      "trivia": "グーテンベルクが印刷機を発明したのは1440年頃。それ以前は「出版する」という概念自体がほぼ存在しなかった。今やスマホで誰でも世界に publish できる時代に。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  }
+]

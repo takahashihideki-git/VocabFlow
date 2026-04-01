@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1101,
+    "word": "proceed",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "進む、続ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（手続きなどを）開始する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈsiːd/",
+    "syllables": "pro-ceed",
+    "audioHint": "プロシード",
+    "examples": [
+      {
+        "en": "Please proceed to the next step when you are ready.",
+        "ja": "準備ができたら次のステップに進んでください。",
+        "blank": "Please ___ to the next step when you are ready.",
+        "blankAnswer": "proceed"
+      }
+    ],
+    "distractors": [
+      "変更する",
+      "収集する",
+      "強化する"
+    ],
+    "confusableSpellings": [
+      "procede",
+      "proceede",
+      "proseed"
+    ],
+    "passive": {
+      "etymology": "ラテン語 procedere（前へ進む）から。pro-（前へ）+ cedere（行く・進む）の組み合わせ。",
+      "tips": "proceed は「前進する・続ける」という意味で、後ろに to不定詞や with+名詞を取ることが多い。「proceed to do」や「proceed with the plan」のように使う。日本人は go ahead と混同しがちだが、proceed はよりフォーマルな場面で使われる。",
+      "confusables": "precede（先行する）と混同されやすい。precede は「〜より前にある」という意味で全く別物。",
+      "collocations": [
+        "proceed with caution",
+        "proceed to the next stage",
+        "proceed as planned"
+      ],
+      "trivia": "法廷ドラマでよく聞く「You may proceed（続けてください）」というセリフはこの単語。アメリカの法廷では判事が弁護士に話を続けさせるときに使う定番フレーズ！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1102,
+    "word": "orient",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "方向を定める、適応させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（東洋・アジアを指す）オリエント",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɔːriənt/",
+    "syllables": "o-ri-ent",
+    "audioHint": "オーリエント",
+    "examples": [
+      {
+        "en": "We need to orient new employees to our company culture.",
+        "ja": "新入社員を我が社の文化に適応させる必要がある。",
+        "blank": "We need to ___ new employees to our company culture.",
+        "blankAnswer": "orient"
+      }
+    ],
+    "distractors": [
+      "進む",
+      "蓄積する",
+      "過ごす"
+    ],
+    "confusableSpellings": [
+      "oriant",
+      "oriient",
+      "orientt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 oriens（日が昇る方向＝東）から。oriri（昇る）が語根で、「東の方向へ向ける」が原義。",
+      "tips": "orient oneself（自分の位置を把握する）という使い方が重要。アメリカ英語では orientate という形も使われるが、orient の方がシンプルで好まれる。",
+      "confusables": "orientation（名詞形）と混同しやすい。「orientation session（オリエンテーション）」という熟語を合わせて覚えよう。",
+      "collocations": [
+        "orient oneself",
+        "market-oriented",
+        "goal-oriented"
+      ],
+      "trivia": "「オリエント」はもともと「太陽が昇る方向＝東」を意味するラテン語。東洋を指す Orient もここからきており、「オリエント急行」の名前もこの語源。地図を「正しく向ける」行為を orienteering（オリエンテーリング）と言うのも同じ語源！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1103,
+    "word": "surf",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "サーフィンをする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（インターネットを）閲覧する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɜːrf/",
+    "syllables": "surf",
+    "audioHint": "サーフ",
+    "examples": [
+      {
+        "en": "She surfs the internet for hours every night.",
+        "ja": "彼女は毎晩何時間もインターネットを閲覧する。",
+        "blank": "She ___ the internet for hours every night.",
+        "blankAnswer": "surfs"
+      }
+    ],
+    "distractors": [
+      "縛る",
+      "飛び跳ねる",
+      "走る"
+    ],
+    "confusableSpellings": [
+      "serf",
+      "surff",
+      "sorf"
+    ],
+    "passive": {
+      "etymology": "surf は古英語で「海岸に打ち寄せる波」を意味する名詞から。波に乗る動作が動詞化し、1990年代にインターネットの普及とともに「ネットサーフィン」にも拡張された。",
+      "tips": "「surf the internet / web」はよく使うフレーズ。日本語の「ネットサーフィン」はそのまま英語から来ているが、英語では surf the net / surf the web と言う。",
+      "confusables": "serf（農奴）とまったく同じ発音！文脈で判断するしかないが、現代の会話でserf が出ることは稀。",
+      "collocations": [
+        "surf the web",
+        "surf the internet",
+        "go surfing"
+      ],
+      "trivia": "1990年代初頭、ジーン・アーマー・ポリーという図書館員が初めて「surfing the internet」という表現を使ったとされる。波乗りのサーファーが波を乗り継ぐように、情報を渡り歩くイメージから生まれた言葉！"
+    },
+    "frequency": 4200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1104,
+    "word": "filter",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "濾過する、フィルタリングする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "フィルター",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɪltər/",
+    "syllables": "fil-ter",
+    "audioHint": "フィルター",
+    "examples": [
+      {
+        "en": "This app filters out unwanted messages automatically.",
+        "ja": "このアプリは不要なメッセージを自動的に除外する。",
+        "blank": "This app ___ out unwanted messages automatically.",
+        "blankAnswer": "filters"
+      }
+    ],
+    "distractors": [
+      "進む",
+      "方向を定める",
+      "強化する"
+    ],
+    "confusableSpellings": [
+      "filtar",
+      "fillter",
+      "filtor"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 filtrum（フェルト・羊毛の布）から。羊毛に液体を通して不純物を取り除いていたことが語源。",
+      "tips": "「filter out（〜を除外する）」と「filter through（〜を通り抜ける）」の使い分けに注意。前者は除去、後者は透過のニュアンス。SNS の「フィルター」として日本語でも定着しているが、動詞としても使えることを覚えよう。",
+      "confusables": "sieve（ふるい）も「こす」意味を持つが、filter は液体・情報・光など幅広く使い、sieve は主に食材などの固体に使う。",
+      "collocations": [
+        "filter out",
+        "filter through",
+        "spam filter"
+      ],
+      "trivia": "コーヒーフィルターや水道のフィルター、SNSのフィルター加工まで、現代人は一日に何十回もこの単語の恩恵を受けている。もともと羊毛で水をこすという超アナログな行為が語源なのに、今や「インスタのフィルター」にまで使われるのは感慨深い！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1105,
+    "word": "bind",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "縛る、結びつける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "義務づける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/baɪnd/",
+    "syllables": "bind",
+    "audioHint": "バインド",
+    "examples": [
+      {
+        "en": "The contract binds both parties to the agreement.",
+        "ja": "その契約は双方の当事者を合意に縛りつける。",
+        "blank": "The contract ___ both parties to the agreement.",
+        "blankAnswer": "binds"
+      }
+    ],
+    "distractors": [
+      "サーフィンをする",
+      "走る",
+      "持ち上げる"
+    ],
+    "confusableSpellings": [
+      "bined",
+      "bynd",
+      "bund"
+    ],
+    "passive": {
+      "etymology": "古英語 bindan（縛る）から。ゲルマン語系の語根で、band（バンド）や bond（絆・結合）と同じ語根を持つ。",
+      "tips": "bind の過去形・過去分詞は bound（不規則変化）。「I am bound by the rules（規則に縛られている）」のように受動態でよく使われる。日本語の「バインダー」「バインドする」はこの語から。",
+      "confusables": "bond（絆・結合する）と意味が似ているが、bind は「物理的に縛る」「法的に義務付ける」という強制的ニュアンスが強く、bond は「感情的・化学的な結合」に使われることが多い。",
+      "collocations": [
+        "bind together",
+        "legally binding",
+        "bind a wound"
+      ],
+      "trivia": "プログラミングの世界では「データバインディング（data binding）」という言葉が日常的に使われる。変数と値を「縛りつける」イメージそのままの使い方。1000年以上前の「縄で縛る」という動詞がIT用語にまで生き続けているのはすごい！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1106,
+    "word": "resort",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "リゾート地、行楽地",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（好ましくない手段に）頼る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈzɔːrt/",
+    "syllables": "re-sort",
+    "audioHint": "リゾート",
+    "examples": [
+      {
+        "en": "They resorted to lying when the truth became too hard.",
+        "ja": "真実が厳しくなりすぎたとき、彼らは嘘に頼った。",
+        "blank": "They ___ to lying when the truth became too hard.",
+        "blankAnswer": "resorted"
+      }
+    ],
+    "distractors": [
+      "宿泊施設",
+      "観光案内所",
+      "公共交通機関"
+    ],
+    "confusableSpellings": [
+      "ressort",
+      "rezort",
+      "resorte"
+    ],
+    "passive": {
+      "etymology": "古フランス語 resortir（再び出かける・戻る）から。re-（再び）+ sortir（出る）が語源。もともと「頻繁に訪れる場所」という意味から「行楽地」に、また「最後の手段として向かう」という動詞の意味にも発展した。",
+      "tips": "動詞として使う場合は必ず「resort to + 名詞/動名詞」の形。「最後の手段として（好ましくない方法に）頼る」というネガティブなニュアンスを持つことが多い。名詞の「リゾート」は日本語でもお馴染みだが、動詞の用法を忘れずに。",
+      "confusables": "last resort（最後の手段）は頻出熟語。resort と resort to を混同しないよう注意。また、as a last resort（最後の手段として）という形も重要。",
+      "collocations": [
+        "resort to violence",
+        "last resort",
+        "beach resort"
+      ],
+      "trivia": "「リゾート」と聞くと南国の楽園をイメージするが、英語の resort to はほぼ「追い詰められて仕方なくする」という場面で使われる。楽しいリゾートとネガティブな動詞が同じ単語というギャップが面白い！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1107,
+    "word": "reinforce",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "強化する、補強する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（信念・習慣などを）裏づける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌriːɪnˈfɔːrs/",
+    "syllables": "re-in-force",
+    "audioHint": "リーインフォース",
+    "examples": [
+      {
+        "en": "Positive feedback reinforces good behavior in children.",
+        "ja": "ポジティブなフィードバックは子供の良い行動を強化する。",
+        "blank": "Positive feedback ___ good behavior in children.",
+        "blankAnswer": "reinforces"
+      }
+    ],
+    "distractors": [
+      "進む",
+      "蓄積する",
+      "縛る"
+    ],
+    "confusableSpellings": [
+      "reenforce",
+      "reinfoce",
+      "reinforce"
+    ],
+    "passive": {
+      "etymology": "re-（再び・より強く）+ enforce（強制する・実施する）の組み合わせ。enforce 自体は en-（〜にする）+ force（力）から来ている。",
+      "tips": "reinforce と strengthen はどちらも「強化する」だが、reinforce は「既にあるものをさらに補強する」ニュアンスが強い。心理学では「強化子（reinforcer）」として学習理論に頻出する単語。",
+      "confusables": "enforce（法律などを施行・強制する）と混同しやすい。reinforce は「補強・強化」、enforce は「規則などを守らせる」という違いがある。",
+      "collocations": [
+        "reinforce a belief",
+        "reinforce concrete",
+        "positive reinforcement"
+      ],
+      "trivia": "心理学者スキナーが提唱した「強化理論（reinforcement theory）」では、良い行動に報酬を与えて行動を定着させる手法を指す。スマホアプリのポイント機能やいいね！機能はまさにこの reinforcement の応用だと言われている！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1108,
+    "word": "accumulate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "蓄積する、積み重ねる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（徐々に）増加する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkjuːmjəleɪt/",
+    "syllables": "ac-cu-mu-late",
+    "audioHint": "アキュミュレイト",
+    "examples": [
+      {
+        "en": "Dust accumulates quickly if you don't clean regularly.",
+        "ja": "定期的に掃除しないとほこりはすぐに溜まる。",
+        "blank": "Dust ___ quickly if you don't clean regularly.",
+        "blankAnswer": "accumulates"
+      }
+    ],
+    "distractors": [
+      "進む",
+      "方向を定める",
+      "強化する"
+    ],
+    "confusableSpellings": [
+      "acumulate",
+      "accumalate",
+      "accummulate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 accumulare（山積みにする）から。ac-（〜へ）+ cumulus（山・積み重なり）が語根。cumulus cloud（積乱雲）も同じ語根。",
+      "tips": "accumulate は「徐々に・少しずつ積み上がる」プロセスを強調する。「富を蓄積する」「経験を積む」「ほこりが溜まる」のように、時間をかけて増えていくものに使う。collect（意図的に集める）とは異なり、意図せず溜まる場合にも使える。",
+      "confusables": "collect は「意図的に集める」、gather は「一ヶ所に集める」のに対し、accumulate は「時間をかけて自然と増える」ニュアンスが強い。",
+      "collocations": [
+        "accumulate wealth",
+        "accumulate experience",
+        "accumulate debt"
+      ],
+      "trivia": "天気用語の「積乱雲（cumulonimbus）」の cumulo- は accumulate と同じ語根。雲が「もくもくと積み重なる」様子と、富や経験が「少しずつ積み上がる」様子は語源レベルで繋がっているのが面白い！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1109,
+    "word": "bet",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "賭ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "賭け",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bɛt/",
+    "syllables": "bet",
+    "audioHint": "ベット",
+    "examples": [
+      {
+        "en": "I bet she will arrive late as usual.",
+        "ja": "彼女はいつも通り遅刻すると思う。",
+        "blank": "I ___ she will arrive late as usual.",
+        "blankAnswer": "bet"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "貯蓄する",
+      "借り入れる"
+    ],
+    "confusableSpellings": [
+      "bett",
+      "bat",
+      "bete"
+    ],
+    "passive": {
+      "etymology": "16世紀の英語で使われ始めた語。語源は諸説あり、古フランス語 abetter（扇動する）または古英語 bætan（改善する）から来ているという説がある。",
+      "tips": "bet の過去形は bet または betted（どちらも正しい）。また「I bet（きっと〜だと思う）」という口語表現は賭けの意味ではなく「確信している」という意味で非常によく使われる。You bet!（もちろん！）も必須フレーズ。",
+      "confusables": "wager（正式な賭け）とほぼ同じ意味だが、bet は日常的でカジュアル、wager はフォーマル・文語的なニュアンスがある。",
+      "collocations": [
+        "place a bet",
+        "safe bet",
+        "bet on a horse"
+      ],
+      "trivia": "「You bet!」は「もちろん！絶対そう！」という意味のスラング。アメリカのドラマや映画では you're welcome の代わりに使われることも多い。賭けとは無関係に「確信」を表す表現として定着した面白い例！"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1110,
+    "word": "advocate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "提唱する、支持する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "支持者、弁護士",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈædvəkeɪt/",
+    "syllables": "ad-vo-cate",
+    "audioHint": "アドヴォケイト",
+    "examples": [
+      {
+        "en": "She advocates for equal rights in the workplace.",
+        "ja": "彼女は職場における平等な権利を主張している。",
+        "blank": "She ___ for equal rights in the workplace.",
+        "blankAnswer": "advocates"
+      }
+    ],
+    "distractors": [
+      "反対する",
+      "無視する",
+      "批判する"
+    ],
+    "passive": {
+      "etymology": "ラテン語 advocatus（呼び出された人・弁護人）から。ad-（〜へ）+ vocare（呼ぶ）が語根。vocation（職業・使命）や vocal（声の）も同じ vocare から来ている。",
+      "tips": "動詞として使う場合は「advocate for〜（〜のために主張する）」の形が一般的。名詞として使う場合は「an advocate of/for〜（〜の支持者）」の形を取る。動詞と名詞でアクセントが変わる場合があるので注意（名詞は /ˈædvəkɪt/ と最後を弱く読む人もいる）。",
+      "confusables": "support（支持する）より advocate の方が「積極的に声を上げて主張する」というニュアンスが強い。promote（促進する）とも似ているが、advocate は特に権利・政策・理念への支持に使われる。",
+      "collocations": [
+        "advocate for change",
+        "devil's advocate",
+        "patient advocate"
+      ],
+      "trivia": "「devil's advocate（悪魔の弁護人）」という表現は、カトリック教会が聖人を認定する際に、あえて反対意見を述べる役職から生まれた言葉。今では「あえて反論する役」という意味で使われる。「悪魔の弁護士」を演じることが実は議論を深める重要な役割だという考えが面白い！"
+    },
+    "confusableSpellings": [
+      "advocat",
+      "advokate",
+      "advocaite"
+    ],
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1111,
+    "word": "constitute",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を構成する、〜を成す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に相当する、〜とみなされる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒnstɪtjuːt/",
+    "syllables": "con-sti-tute",
+    "audioHint": "コンスティテュート",
+    "examples": [
+      {
+        "en": "Women constitute over half of the workforce in this company.",
+        "ja": "女性がこの会社の労働力の半数以上を占めている。",
+        "blank": "Women ___ over half of the workforce in this company.",
+        "blankAnswer": "constitute"
+      }
+    ],
+    "distractors": [
+      "〜を変化させる",
+      "〜を操作する",
+      "〜を取り除く"
+    ],
+    "confusableSpellings": [
+      "consitute",
+      "constitue",
+      "constituite"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'constituere'（共に立てる）から。接頭辞 'con-'（共に）＋語根 'statuere'（立てる・置く）。'statute'（法令）や 'institution'（制度）と同じ語根を持つ。",
+      "tips": "『構成する』という意味では主語が部分・要素になり、「部分が全体を constitute する」という語順に注意。'consist of' と混同しやすいが、'constitute' は逆方向（部分→全体）で使う点が特徴的。",
+      "confusables": "'comprise' との使い分けが難しい。'constitute' は「AがBを構成する（A constitutes B）」の形が自然。'be composed of' や 'consist of' はその逆で「全体が部分から成る」表現。",
+      "collocations": [
+        "constitute a majority",
+        "constitute a crime",
+        "constitute evidence"
+      ],
+      "trivia": "'constitution'（憲法）と同じ語源で、アメリカ合衆国憲法（the Constitution）は「国家を構成するもの」という意味から名付けられた。英単語1語が国の根幹を表せる深い語！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1112,
+    "word": "undertake",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜に着手する、〜を引き受ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を約束する、保証する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌʌndəˈteɪk/",
+    "syllables": "un-der-take",
+    "audioHint": "アンダーテイク",
+    "examples": [
+      {
+        "en": "She undertook a major research project last year.",
+        "ja": "彼女は昨年、大規模な研究プロジェクトに着手した。",
+        "blank": "She ___ a major research project last year.",
+        "blankAnswer": "undertook"
+      }
+    ],
+    "distractors": [
+      "〜を隠す",
+      "〜を変形させる",
+      "〜を廃棄する"
+    ],
+    "confusableSpellings": [
+      "undertske",
+      "undretake",
+      "undertaek"
+    ],
+    "passive": {
+      "etymology": "古英語・中英語由来。接頭辞 'under-'（〜の下に、〜に対して）＋ 'take'（取る）。「何かを下から支えて取り上げる→引き受ける」というイメージ。",
+      "tips": "過去形は 'undertook'、過去分詞は 'undertaken' と不規則変化するため要注意。'take on' と似た意味だが、'undertake' はよりフォーマルで、論文・ビジネス文書でよく使われる。",
+      "confusables": "'undertaker'（葬儀屋）と同じ語だが意味は全く別。また 'take up'（趣味を始める）より責任感・重みがある表現。公式文書やアカデミックライティングで特に好まれる。",
+      "collocations": [
+        "undertake a task",
+        "undertake research",
+        "undertake responsibility"
+      ],
+      "trivia": "'undertaker'（葬儀屋）はもともと「遺体の面倒を引き受ける人」という意味。同じ単語から職業名が生まれたという、ちょっとダークな語源秘話がある。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1113,
+    "word": "grip",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜をしっかりつかむ、握る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・注意が）〜を強くとらえる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡrɪp/",
+    "syllables": "grip",
+    "audioHint": "グリップ",
+    "examples": [
+      {
+        "en": "He gripped the railing tightly as he climbed the stairs.",
+        "ja": "彼は階段を上りながら手すりをしっかりと握った。",
+        "blank": "He ___ the railing tightly as he climbed the stairs.",
+        "blankAnswer": "gripped"
+      }
+    ],
+    "distractors": [
+      "〜を噛む",
+      "〜を飲み込む",
+      "〜を吐き出す"
+    ],
+    "confusableSpellings": [
+      "gripp",
+      "greip",
+      "griep"
+    ],
+    "passive": {
+      "etymology": "古英語 'grippan'（つかむ）から。ゲルマン語系の語根 'grip-' に由来し、'grab'（つかむ）や 'grasp'（握る）と同じ語族。",
+      "tips": "動詞として使う際、過去形・過去分詞は 'gripped'（p を重ねる）と短母音のため子音を重ねることに注意。名詞としても使え 'a firm grip'（しっかりした握り）のように使う。",
+      "confusables": "'grasp' は「しっかり理解する」という比喩的意味でも使うが、'grip' も 'The story gripped me.'（その話に引き込まれた）のように感情的把握を表せる。どちらも身体的・比喩的に使える。",
+      "collocations": [
+        "grip tightly",
+        "lose one's grip",
+        "grip the audience"
+      ],
+      "trivia": "映画・テレビ業界では、カメラ機材を扱うスタッフを 'grip'（グリップ）と呼ぶ。エンドロールに必ず登場するのに意味を知らない人が多い映画用語の筆頭格！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1114,
+    "word": "dismiss",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を退ける、無視する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を解雇する、解散させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪsˈmɪs/",
+    "syllables": "dis-miss",
+    "audioHint": "ディスミス",
+    "examples": [
+      {
+        "en": "The manager dismissed her concerns without any explanation.",
+        "ja": "マネージャーは何の説明もなく彼女の懸念を退けた。",
+        "blank": "The manager ___ her concerns without any explanation.",
+        "blankAnswer": "dismissed"
+      }
+    ],
+    "distractors": [
+      "〜を記憶する",
+      "〜を称賛する",
+      "〜を説得する"
+    ],
+    "confusableSpellings": [
+      "dismis",
+      "dissmiiss",
+      "dismiss"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'dimittere'（送り去る）から。接頭辞 'dis-'（離れて、否定）＋語根 'mittere'（送る）。'mission'（使命）や 'submit'（提出する）も同じ 'mittere' 語根。",
+      "tips": "「解雇する」と「無視する・退ける」の2つの意味を混同しないこと。'dismiss an idea'（考えを退ける）、'dismiss an employee'（従業員を解雇する）のように文脈で判断する。日本語の「ディスる」とは別物！",
+      "confusables": "'ignore'（無視する）との違いは、'dismiss' には「一度向き合った上で却下する」というニュアンスがある。単に気づかないふりをする 'ignore' より能動的・判断的な行為。",
+      "collocations": [
+        "dismiss a claim",
+        "dismiss an employee",
+        "dismiss the case"
+      ],
+      "trivia": "法廷ドラマでよく聞く 'Case dismissed!'（閉廷！）はこの単語から。裁判官が言うこの一言で全てが終わる…英語の法廷用語の中でも最もドラマチックなセリフかもしれない。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1115,
+    "word": "fade",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "褪せる、薄れる、消えていく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（徐々に）弱まる、衰える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/feɪd/",
+    "syllables": "fade",
+    "audioHint": "フェイド",
+    "examples": [
+      {
+        "en": "The colors of the old photograph had faded over time.",
+        "ja": "古い写真の色は時間とともに褪せていた。",
+        "blank": "The colors of the old photograph had ___ over time.",
+        "blankAnswer": "faded"
+      }
+    ],
+    "distractors": [
+      "〜を密封する",
+      "〜を構成する",
+      "〜を移動させる"
+    ],
+    "confusableSpellings": [
+      "faed",
+      "faide",
+      "feade"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'fader'（薄れる）に由来し、さらにラテン語 'fatuus'（間の抜けた、味のない）に遡る説もある。「味・色・活気が抜けていく」というイメージが語源に宿っている。",
+      "tips": "'fade away'（徐々に消える）、'fade out'（フェードアウトする）のように副詞とセットで使うことが多い。自動詞・他動詞どちらにも使えるが、日常会話では自動詞用法が圧倒的に多い。",
+      "confusables": "'vanish'（突然消える）との違いは速度感。'fade' はゆっくりと徐々に消えるイメージ。音楽や映像の演出用語としても使われ、'fade in/out' は日本語でもそのままカタカナで定着している。",
+      "collocations": [
+        "fade away",
+        "fade out",
+        "fade into the background"
+      ],
+      "trivia": "音楽プロデューサーが曲の終わりを 'fade out' にする手法は1950年代にポップスで広まった。最初に大規模に使ったのはビング・クロスビーとも言われている。今ではむしろ「急に終わる曲」の方が新鮮に聞こえる時代！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1116,
+    "word": "conceal",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を隠す、秘密にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を覆い隠す、見えなくする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈsiːl/",
+    "syllables": "con-ceal",
+    "audioHint": "コンシール",
+    "examples": [
+      {
+        "en": "She tried to conceal her disappointment with a smile.",
+        "ja": "彼女は笑顔で失望を隠そうとした。",
+        "blank": "She tried to ___ her disappointment with a smile.",
+        "blankAnswer": "conceal"
+      }
+    ],
+    "distractors": [
+      "〜を褪せさせる",
+      "〜を引き受ける",
+      "〜を封じる"
+    ],
+    "confusableSpellings": [
+      "conseal",
+      "conceale",
+      "conceel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'concelare' から。接頭辞 'con-'（完全に）＋語根 'celare'（隠す）。'celare' は 'cell'（小部屋・隠れ場所）とも関連があると言われる。",
+      "tips": "'hide' より格式ばった語で、特に意図的に隠す場合に使う。'conceal the truth'（真実を隠す）、'conceal a weapon'（武器を隠し持つ）のように、意図的・計画的な隠蔽のニュアンスが強い。",
+      "confusables": "'hide' は日常的・中立的、'conceal' は意図的・秘密的。'disguise'（変装する）は外見を変えて正体を隠す点で異なる。法的文書では 'conceal' が好まれ、'concealment of evidence'（証拠隠滅）という表現で重要度が上がる。",
+      "collocations": [
+        "conceal the truth",
+        "conceal a weapon",
+        "conceal one's identity"
+      ],
+      "trivia": "コスメ用語の「コンシーラー（concealer）」はまさにこの語が語源。肌のシミを「隠す」化粧品だから concealer。英単語の知識がメイクアップの世界にも直結している好例！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1117,
+    "word": "chew",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜を噛む、咀嚼する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（問題などを）熟考する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tʃuː/",
+    "syllables": "chew",
+    "audioHint": "チュー",
+    "examples": [
+      {
+        "en": "Always chew your food slowly before swallowing.",
+        "ja": "食べ物は飲み込む前にいつもゆっくり噛みなさい。",
+        "blank": "Always ___ your food slowly before swallowing.",
+        "blankAnswer": "chew"
+      }
+    ],
+    "distractors": [
+      "〜を飲み込む",
+      "〜をつかむ",
+      "〜を移動する"
+    ],
+    "confusableSpellings": [
+      "chwe",
+      "cheu",
+      "chiew"
+    ],
+    "passive": {
+      "etymology": "古英語 'ceowan'（噛む）から。ゲルマン語系の語根で、ドイツ語の 'kauen'（噛む）と同族語。非常に古い日常動詞で、語形の変化が少なく現代英語に直接受け継がれている。",
+      "tips": "'chew' は規則動詞（chewed / chewed）なので変化は簡単。'chew on something' で「〜を熟考する・じっくり考える」という比喩表現になる。'chew the fat'（おしゃべりする）という慣用表現も覚えておくと◎。",
+      "confusables": "'swallow'（飲み込む）とセットで覚えると便利。「噛む→飲み込む」の順番で 'chew then swallow' と記憶すると混同を防げる。'bite'（噛み切る）は一度の動作、'chew' は繰り返す動作という違いもある。",
+      "collocations": [
+        "chew gum",
+        "chew food carefully",
+        "chew on an idea"
+      ],
+      "trivia": "アメリカ人がよくガムを噛みながら話すのは文化的に比較的許容されているが、日本では口を開けて 'chew' するのはマナー違反とされる。同じ動詞でも文化的背景がこんなに違うとは！"
+    },
+    "frequency": 3200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1118,
+    "word": "swallow",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜を飲み込む、嚥下する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・言葉を）抑え込む、飲み込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈswɒləʊ/",
+    "syllables": "swal-low",
+    "audioHint": "スワロウ",
+    "examples": [
+      {
+        "en": "He swallowed his pride and asked for help.",
+        "ja": "彼はプライドを飲み込んで助けを求めた。",
+        "blank": "He ___ his pride and asked for help.",
+        "blankAnswer": "swallowed"
+      }
+    ],
+    "distractors": [
+      "〜を噛む",
+      "〜をしっかりつかむ",
+      "〜を移住させる"
+    ],
+    "confusableSpellings": [
+      "swollow",
+      "swallov",
+      "swallow"
+    ],
+    "passive": {
+      "etymology": "古英語 'swelgan'（飲み込む）から。ゲルマン語系の語根で、ドイツ語 'schwelgen'（むさぼる）と同族。食べ物を「丸ごと取り込む」という原義が今も生きている。",
+      "tips": "'swallow' は名詞では「ツバメ（鳥）」も意味するため文脈に注意。'swallow one's pride'（プライドを飲み込む）、'swallow a story'（話を鵜呑みにする）など比喩表現が豊富で、これらはそのまま慣用表現として覚えるのが効率的。",
+      "confusables": "'gulp'（ごくりと飲み込む）は液体を一気に飲む動作で音・量感が強い。'swallow' は固体・液体どちらにも使え、比喩表現にも対応する点でより汎用的。",
+      "collocations": [
+        "swallow a pill",
+        "swallow one's pride",
+        "swallow whole"
+      ],
+      "trivia": "ツバメ（swallow）が飲み込む動作と同じ名前なのは偶然ではなく、ツバメの飛行中に虫を素早く「丸ごと飲み込む」食べ方が名前の由来とも言われている。同音異義どころか同形異義語に込められた自然観察眼！"
+    },
+    "frequency": 2900,
+    "cefr": "A2"
+  },
+  {
+    "id": 1119,
+    "word": "seal",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を封じる、密閉する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を確定させる、確かなものにする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/siːl/",
+    "syllables": "seal",
+    "audioHint": "シール",
+    "examples": [
+      {
+        "en": "Please seal the envelope before sending it.",
+        "ja": "送る前に封筒を封じてください。",
+        "blank": "Please ___ the envelope before sending it.",
+        "blankAnswer": "seal"
+      }
+    ],
+    "distractors": [
+      "〜を褪せさせる",
+      "〜を構成する",
+      "〜を隠す"
+    ],
+    "confusableSpellings": [
+      "seel",
+      "seale",
+      "sael"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'seel'、ラテン語 'sigillum'（小さな印・印章）から。'sign'（サイン）や 'signal'（信号）と同じ語根。封蝋に印章を押して「封じる」という中世の慣習が語源。",
+      "tips": "名詞では「アザラシ」「シール（貼り紙）」「封蝋」など多義語。動詞では「密封する」が基本。'seal a deal'（契約を確定する）は慣用表現として頻出。日本語の「シールを貼る」の「シール」はこの語の名詞用法から来ている。",
+      "confusables": "'close'（閉じる）との違いは密閉度。'seal' には「開けられないようにする」「気密・液密を保つ」という強いニュアンスがある。'seal off'（封鎖する）は場所にも使える。",
+      "collocations": [
+        "seal an envelope",
+        "seal a deal",
+        "seal off an area"
+      ],
+      "trivia": "中世ヨーロッパでは文書に封蝋（シーリングワックス）を垂らして印章を押すことが正式な証明方法だった。王族から騎士まで全員が自分のシールを持っていたとか。現代の電子署名も実はこの 'seal' の概念の延長線上にある！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1120,
+    "word": "migrate",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "移住する、移動する（特に季節的・定期的に）",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（データ・システムを）移行する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈmaɪɡreɪt/",
+    "syllables": "mi-grate",
+    "audioHint": "マイグレイト",
+    "examples": [
+      {
+        "en": "Many birds migrate south during the winter months.",
+        "ja": "多くの鳥は冬の間、南へ渡る。",
+        "blank": "Many birds ___ south during the winter months.",
+        "blankAnswer": "migrate"
+      }
+    ],
+    "distractors": [
+      "〜を飲み込む",
+      "〜を噛む",
+      "〜をしっかりつかむ"
+    ],
+    "confusableSpellings": [
+      "migerate",
+      "miggrate",
+      "migraet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'migrare'（移動する・場所を変える）から。語根 'migr-' は「動く・移る」を意味し、'emigrate'（国外に移住する）、'immigrate'（国内に移住してくる）も同じ語根を持つ。",
+      "tips": "'migrate'・'emigrate'・'immigrate' の3語は混同しやすい。'migrate' は中立的な移動全般、'emigrate' は「出ていく」（ex- = 外へ）、'immigrate' は「入ってくる」（in- = 内へ）と方向性で使い分ける。ITでは 'migrate data'（データを移行する）として頻出。",
+      "confusables": "'emigrate' は自国を離れる視点、'immigrate' は新しい国に入る視点。'migrate' はどちらの視点にも中立で、動物の渡りやデータ移行にも使える唯一の語。ニュアンスの違いを知っていると一気に語彙が広がる！",
+      "collocations": [
+        "migrate south",
+        "migrate to a new system",
+        "migrate seasonally"
+      ],
+      "trivia": "IT業界では 'migration'（マイグレーション）が「システム移行」として完全に業界用語化している。鳥が南へ飛ぶイメージとクラウドへデータが移るイメージが同じ1単語で表現できるなんて、英語ってなかなか詩的！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  }
+]

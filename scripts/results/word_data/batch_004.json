@@ -1,0 +1,642 @@
+[
+  {
+    "id": 61,
+    "word": "benefit",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "利益、恩恵", "pos": "noun" },
+      { "meaning": "〜の役に立つ", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈbenɪfɪt/",
+    "syllables": "ben-e-fit",
+    "audioHint": "ベネフィット",
+    "examples": [
+      {
+        "en": "Regular exercise has many benefits for your health.",
+        "ja": "定期的な運動はあなたの健康に多くの恩恵をもたらす。",
+        "blank": "Regular exercise has many ___ for your health.",
+        "blankAnswer": "benefits"
+      }
+    ],
+    "distractors": ["問題、事柄", "状況、事態", "影響、効果"],
+    "confusableSpellings": ["benifit", "benfit"],
+    "passive": {
+      "etymology": "ラテン語 benefactum（良い行い）が語源。bene-（良い）+ facere（する）→「良いことをする」。beneficial（有益な）、benefactor（恩人）と同根",
+      "tips": "名詞と動詞の両方で使う。'benefit from X'（Xから恩恵を受ける）、'for the benefit of'（〜のために）、'benefit of the doubt'（疑わしくても善意に解釈する）は重要表現",
+      "confusables": "benefit vs. advantage: benefit は具体的な利得・恩恵、advantage は比較的な優位性・有利さ。'health benefits' vs. 'competitive advantage'",
+      "collocations": ["benefit from", "mutual benefit", "for the benefit of", "benefit of the doubt", "health benefit"],
+      "trivia": "「ベネフィット・コンサート」（benefit concert）は社会的大義のために開催されるチャリティーライブ。1985年のLive Aidは世界72ヵ国でTV中継され、15億人が視聴。エチオピア飢饉のために約5000万ポンドを集めた"
+    },
+    "frequency": 478,
+    "cefr": "B1"
+  },
+  {
+    "id": 62,
+    "word": "theory",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "理論、学説", "pos": "noun" },
+      { "meaning": "仮説、推測", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈθɪəri/",
+    "syllables": "the-o-ry",
+    "audioHint": "シオリー",
+    "examples": [
+      {
+        "en": "Darwin's theory of evolution changed how we understand life.",
+        "ja": "ダーウィンの進化論は、私たちの生命への理解を変えた。",
+        "blank": "Darwin's ___ of evolution changed how we understand life.",
+        "blankAnswer": "theory"
+      }
+    ],
+    "distractors": ["研究、調査", "知識、情報", "練習、実践"],
+    "confusableSpellings": ["theroy", "thery"],
+    "passive": {
+      "etymology": "ギリシャ語 theōria（観察、思索）が語源。theōrein（見る、考察する）→「よく観察して得た考え」→「理論」。theater（劇場）とも同根で、どちらも「見る」が原義",
+      "tips": "科学的な theory は「仮説」ではなく「証拠に基づいた体系的な説明」のこと。'in theory'（理論上は）は実際と異なる可能性を示す。'conspiracy theory'（陰謀論）のような否定的な使い方にも注意",
+      "confusables": "theory vs. hypothesis: theory は証拠で裏付けられた体系的な説明、hypothesis は検証前の仮説。科学では hypothesis→実験→theory という流れ",
+      "collocations": ["in theory", "theory of", "conspiracy theory", "game theory", "learning theory"],
+      "trivia": "「相対性理論」（Theory of Relativity）はアインシュタインが特許局の審査官だったときに発表（1905年）。博士号取得前の無名の若者が、物理学を根底から覆す論文を同じ年に5本発表した。これを「奇跡の年（Annus Mirabilis）」と呼ぶ"
+    },
+    "frequency": 614,
+    "cefr": "B1"
+  },
+  {
+    "id": 63,
+    "word": "issue",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "問題、課題", "pos": "noun" },
+      { "meaning": "発行、号", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈɪʃuː/",
+    "syllables": "is-sue",
+    "audioHint": "イシュー",
+    "examples": [
+      {
+        "en": "Climate change is the most pressing issue of our time.",
+        "ja": "気候変動は私たちの時代の最も緊急な問題だ。",
+        "blank": "Climate change is the most pressing ___ of our time.",
+        "blankAnswer": "issue"
+      }
+    ],
+    "distractors": ["利益、恩恵", "考え、アイデア", "影響、効果"],
+    "confusableSpellings": ["issuse", "isue"],
+    "passive": {
+      "etymology": "ラテン語 exire（出て行く）が語源。ex-（外へ）+ ire（行く）→「外に出るもの」→「出版物・発行」→「生じた問題」。exit（出口）と同根",
+      "tips": "'have issues with X'（Xに問題がある）はカジュアルな表現。'take issue with'（〜に異議を唱える）は改まった表現。動詞として 'issue a statement'（声明を発する）のようにも使う",
+      "confusables": "issue vs. problem vs. matter: issue は議論・対処が必要な「問題・課題」、problem は困難な「問題・障害」、matter はより広い「事柄・問題」。issue はニュートラルで problem よりフォーマル",
+      "collocations": ["key issue", "raise an issue", "address an issue", "at issue", "take issue with"],
+      "trivia": "雑誌の「号」を issue と呼ぶのは、定期的に「発行（issue）」されるから。世界最古の継続発行科学雑誌は 'Philosophical Transactions'（1665年創刊）で、現在も Royal Society から発行され続けている"
+    },
+    "frequency": 402,
+    "cefr": "B1"
+  },
+  {
+    "id": 64,
+    "word": "experiment",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "実験、試み", "pos": "noun" },
+      { "meaning": "実験する、試みる", "pos": "verb" }
+    ],
+    "pronunciation": "/ɪkˈsperɪmənt/",
+    "syllables": "ex-per-i-ment",
+    "audioHint": "イクスペリメント",
+    "examples": [
+      {
+        "en": "Scientists conducted an experiment to test the new drug.",
+        "ja": "科学者たちは新しい薬をテストするための実験を行った。",
+        "blank": "Scientists conducted an ___ to test the new drug.",
+        "blankAnswer": "experiment"
+      }
+    ],
+    "distractors": ["理論、学説", "知識、情報", "技術、スキル"],
+    "confusableSpellings": ["experment", "experimant"],
+    "passive": {
+      "etymology": "ラテン語 experimentum（試み、証明）が語源。experiri（試す）→ ex-（外へ）+ periri（試みる、危険を冒す）。experience（経験）、expert（専門家）と同根",
+      "tips": "動詞は名詞と同形だが、名詞はアクセントが ex-PER-i-ment、動詞は ex-per-i-MENT と後ろよりになることがある。'experiment with X'（Xを試す・使ってみる）の形でカジュアルにも使う",
+      "confusables": "experiment vs. test vs. trial: experiment は科学的仮説の検証、test は性能・品質の確認、trial は新しいものを試用する期間（clinical trial = 臨床試験）",
+      "collocations": ["conduct an experiment", "experiment with", "scientific experiment", "experiment on", "thought experiment"],
+      "trivia": "「思考実験（thought experiment）」はドイツ語 Gedankenexperiment から。アインシュタインは「光と並んで走ったらどう見えるか」という思考実験から特殊相対性理論を着想した。実際には実験できないが、論理的に考えることで革命的な発見が生まれた"
+    },
+    "frequency": 731,
+    "cefr": "B1"
+  },
+  {
+    "id": 65,
+    "word": "article",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "記事、論文", "pos": "noun" },
+      { "meaning": "品物、物品", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈɑːrtɪkəl/",
+    "syllables": "ar-ti-cle",
+    "audioHint": "アーティクル",
+    "examples": [
+      {
+        "en": "She wrote an article about renewable energy for a science journal.",
+        "ja": "彼女は科学誌に再生可能エネルギーに関する記事を書いた。",
+        "blank": "She wrote an ___ about renewable energy for a science journal.",
+        "blankAnswer": "article"
+      }
+    ],
+    "distractors": ["研究、調査", "理論、学説", "練習、実践"],
+    "confusableSpellings": ["artical", "articel"],
+    "passive": {
+      "etymology": "ラテン語 articulus（関節、小さな部分）が語源。artus（関節）の指小辞→「小さな部分」→「条文・記事・品物」。arm（腕）と同根で、関節でつながっている部位のイメージ",
+      "tips": "文法用語として 'definite article'（定冠詞: the）、'indefinite article'（不定冠詞: a/an）も article と呼ぶ。日本語に冠詞がないため、日本人学習者が最も苦手とする英文法の一つ",
+      "confusables": "article vs. essay vs. paper: article は雑誌・新聞の記事、essay は個人的な見解・論述、paper は学術論文（査読付き）。'news article' vs. 'personal essay' vs. 'research paper'",
+      "collocations": ["newspaper article", "research article", "write an article", "journal article", "magazine article"],
+      "trivia": "世界最大の学術論文データベース Web of Science には2億本超の論文が収録されている。研究者は「公開か否か（publish or perish）」のプレッシャーから年間300万本の新論文が発表される。しかし読まれる論文はその一部に過ぎないとも言われる"
+    },
+    "frequency": 558,
+    "cefr": "A2"
+  },
+  {
+    "id": 66,
+    "word": "focus",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "焦点、集中", "pos": "noun" },
+      { "meaning": "〜に集中する", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈfoʊkəs/",
+    "syllables": "fo-cus",
+    "audioHint": "フォーカス",
+    "examples": [
+      {
+        "en": "You need to maintain your focus during the exam.",
+        "ja": "試験中は集中力を維持する必要がある。",
+        "blank": "You need to maintain your ___ during the exam.",
+        "blankAnswer": "focus"
+      }
+    ],
+    "distractors": ["問題、課題", "考え、アイデア", "利益、恩恵"],
+    "confusableSpellings": ["focas", "fokus"],
+    "passive": {
+      "etymology": "ラテン語 focus（炉、暖炉）が語源。暖炉は家の中心・焦点だったことから「中心点→焦点」へと意味が発展。数学・光学の「焦点」の意味は17世紀にケプラーが導入した",
+      "tips": "複数形は focuses と foci（フォーサイ）の両方が使われる。'focus on X'（Xに集中する）は最頻出の動詞用法。カメラの「フォーカス」、会議での 'keep the discussion focused'（議論を絞る）のようにも使う",
+      "confusables": "focus vs. concentrate: focus は特定の対象に向ける、concentrate は全力を注ぐ・凝縮する。'focus on a topic' vs. 'concentrate on studying'. concentrate はより強い集中を示す",
+      "collocations": ["focus on", "lose focus", "bring into focus", "key focus", "focus group"],
+      "trivia": "「フォーカスグループ」（focus group）は市場調査で使われる少人数インタビュー手法。1940年代にラジオ番組の視聴者反応調査として始まった。現在では政治・マーケティング・製品開発で広く使われ、AppleはiPodの開発時にあえてfocus groupを使わなかったことで有名"
+    },
+    "frequency": 489,
+    "cefr": "B1"
+  },
+  {
+    "id": 67,
+    "word": "subject",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "科目、教科", "pos": "noun" },
+      { "meaning": "主題、話題", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈsʌbdʒɪkt/",
+    "syllables": "sub-ject",
+    "audioHint": "サブジェクト",
+    "examples": [
+      {
+        "en": "Math is her favorite subject at school.",
+        "ja": "数学は学校で彼女のお気に入りの科目だ。",
+        "blank": "Math is her favorite ___ at school.",
+        "blankAnswer": "subject"
+      }
+    ],
+    "distractors": ["理論、学説", "研究、調査", "知識、情報"],
+    "confusableSpellings": ["subjet", "subjekt"],
+    "passive": {
+      "etymology": "ラテン語 subjectus（下に置かれたもの）が語源。sub-（下に）+ jacere（投げる）→「下に投げられた」→「支配下にある」→「話題・テーマ」。project（前に投げる）と同根",
+      "tips": "名詞（科目・主語）と形容詞（〜を受けやすい）の使い分けに注意。'be subject to X'（Xの支配下にある、Xを受けやすい）は形容詞的用法。文法用語では「主語」の意味もある",
+      "confusables": "subject vs. topic vs. theme: subject は学問・議論の全体的な対象、topic は特定の話題・論点、theme は作品・議論の中心的なテーマ（より抽象的）",
+      "collocations": ["change the subject", "on the subject of", "subject matter", "subject to", "favorite subject"],
+      "trivia": "「主語（subject）」と「臣民（subject）」が同じ単語なのは、どちらも「支配者の下にある」という語源から。英語では国王の支配下にある人を subject と呼び、文法では動詞の「支配下にある」名詞が subject となった"
+    },
+    "frequency": 395,
+    "cefr": "A2"
+  },
+  {
+    "id": 68,
+    "word": "project",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "プロジェクト、計画", "pos": "noun" },
+      { "meaning": "〜を投影する、予測する", "pos": "verb" }
+    ],
+    "pronunciation": "/ˈprɒdʒekt/",
+    "syllables": "pro-ject",
+    "audioHint": "プロジェクト",
+    "examples": [
+      {
+        "en": "Our team finished the project ahead of schedule.",
+        "ja": "私たちのチームはプロジェクトを予定より早く終わらせた。",
+        "blank": "Our team finished the ___ ahead of schedule.",
+        "blankAnswer": "project"
+      }
+    ],
+    "distractors": ["理論、学説", "実験、試み", "科目、教科"],
+    "confusableSpellings": ["projct", "projeckt"],
+    "passive": {
+      "etymology": "ラテン語 projectum（前に投げられたもの）が語源。pro-（前に）+ jacere（投げる）→「前方に投げる」→「計画・草案」。inject（注射する）、reject（拒否する）と同根",
+      "tips": "名詞（プロジェクト）はアクセントが前（PRO-ject）、動詞（投影する・予測する）はアクセントが後ろ（pro-JECT）になる。'project confidence'（自信を示す）のように様子を「発する」意味でも使う",
+      "confusables": "project vs. plan vs. program: project は特定の目標を持つ一時的な取り組み、plan は計画・方針全般、program は継続的な活動・プログラム",
+      "collocations": ["work on a project", "project management", "research project", "project deadline", "pilot project"],
+      "trivia": "「プロジェクト・マンハッタン」（Manhattan Project）は第二次大戦中の核兵器開発計画。13万人が関わり、費用は現在価値で約290億ドル。プロジェクトの規模と機密性から、参加者の多くは自分が何を作っているか知らなかった"
+    },
+    "frequency": 512,
+    "cefr": "A2"
+  },
+  {
+    "id": 69,
+    "word": "quality",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "質、品質", "pos": "noun" },
+      { "meaning": "特性、特質", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈkwɒlɪti/",
+    "syllables": "qual-i-ty",
+    "audioHint": "クオリティ",
+    "examples": [
+      {
+        "en": "The quality of this product is excellent.",
+        "ja": "この製品の品質は優れている。",
+        "blank": "The ___ of this product is excellent.",
+        "blankAnswer": "quality"
+      }
+    ],
+    "distractors": ["利益、恩恵", "価値、重要性", "問題、事柄"],
+    "confusableSpellings": ["quallity", "qualitty"],
+    "passive": {
+      "etymology": "ラテン語 qualitas（どのような性質か）が語源。qualis（どのような）→「どのようなものか」→「質・性質」。quantity（量）と対をなす概念として哲学的に使われた",
+      "tips": "quality は不可算（品質全般）にも可算（具体的な特質）にもなる。'quality of life'（生活の質）、'a quality product'（形容詞的に：高品質な製品）のように幅広く使う。'quality time'（充実した時間）もよく使われる",
+      "confusables": "quality vs. quantity: quality は「質」、quantity は「量」。'Quality over quantity'（量より質）は有名なフレーズ。日本語の「クオリティ」はほぼ quality の意味で使われている",
+      "collocations": ["quality of life", "high quality", "quality control", "quality time", "air quality"],
+      "trivia": "「クオリティ・オブ・ライフ（QoL）」は医療・政策で使われる概念で、1970年代から普及。WHOの調査によると、生活の質に最も影響する因子は健康状態、人間関係、仕事の満足度、安全感の4つとされている"
+    },
+    "frequency": 432,
+    "cefr": "B1"
+  },
+  {
+    "id": 70,
+    "word": "role",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "役割、役目", "pos": "noun" },
+      { "meaning": "（演技の）役", "pos": "noun" }
+    ],
+    "pronunciation": "/roʊl/",
+    "syllables": "role",
+    "audioHint": "ロール",
+    "examples": [
+      {
+        "en": "Teachers play an important role in shaping the future.",
+        "ja": "教師は未来を形作る上で重要な役割を果たす。",
+        "blank": "Teachers play an important ___ in shaping the future.",
+        "blankAnswer": "role"
+      }
+    ],
+    "distractors": ["焦点、集中", "利益、恩恵", "価値、重要性"],
+    "confusableSpellings": ["roel", "roal"],
+    "passive": {
+      "etymology": "フランス語 rôle（俳優が演じる台本）が語源。中世の演劇では台本を「巻き物（roll）」に書いたことから。roll（巻く）と同語源で、巻き物に書かれた役者の台詞→「役割」へ",
+      "tips": "roll（転がる）と同音異義語（同音異義語: homophone）。'play a role in'（〜において役割を果たす）は論文・ビジネス文書で最頻出の表現の一つ。'role model'（ロールモデル・模範）も重要",
+      "confusables": "role vs. roll: role（役割）と roll（転がる・巻き物）は発音が同じ。'bread roll'（丸パン）、'rock and roll'（音楽）は roll。'play a role'は role",
+      "collocations": ["play a role", "key role", "role model", "role-play", "leading role"],
+      "trivia": "「ロールプレイング・ゲーム（RPG）」の role playing も「役割を演じる」から。1970年代にD&D（ダンジョンズ＆ドラゴンズ）が登場し、RPGというジャンルを確立。その後コンピュータRPGとしてドラクエ・FFなどが日本で独自に発展した"
+    },
+    "frequency": 389,
+    "cefr": "B1"
+  },
+  {
+    "id": 71,
+    "word": "term",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "用語、言葉", "pos": "noun" },
+      { "meaning": "期間、学期", "pos": "noun" }
+    ],
+    "pronunciation": "/tɜːrm/",
+    "syllables": "term",
+    "audioHint": "ターム",
+    "examples": [
+      {
+        "en": "Can you explain this technical term in simple language?",
+        "ja": "この専門用語を簡単な言葉で説明してもらえますか？",
+        "blank": "Can you explain this technical ___ in simple language?",
+        "blankAnswer": "term"
+      }
+    ],
+    "distractors": ["科目、教科", "理論、学説", "研究、調査"],
+    "confusableSpellings": ["trem", "turm"],
+    "passive": {
+      "etymology": "ラテン語 terminus（境界、終点）が語源。「期間の終わり」→「期間・学期」、「定義の境界」→「用語・条件」へと発展。terminal（終点）、terminate（終了する）と同根",
+      "tips": "複数形 terms は「条件・規約」の意味でよく使う。'terms and conditions'（利用規約）、'on good terms'（仲良くして）、'in terms of'（〜の観点から）は重要表現。'long-term / short-term'（長期/短期）も頻出",
+      "confusables": "term vs. word vs. expression: term は特定分野の専門的な「用語」、word は一般的な「単語」、expression は「表現・フレーズ」（複数語の場合も）",
+      "collocations": ["in terms of", "long-term", "short-term", "term of office", "technical term", "on good terms"],
+      "trivia": "大学の「学期（semester/term）」はラテン語 semestris（6ヶ月）から。アメリカは主に2学期制（semester）、イギリスは3学期制（term）が多い。日本の「学期」制度は明治時代に欧米からterm/semesterを輸入したもの"
+    },
+    "frequency": 318,
+    "cefr": "B1"
+  },
+  {
+    "id": 72,
+    "word": "statement",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      { "meaning": "声明、陳述", "pos": "noun" },
+      { "meaning": "明細書、計算書", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈsteɪtmənt/",
+    "syllables": "state-ment",
+    "audioHint": "ステートメント",
+    "examples": [
+      {
+        "en": "The president issued a formal statement about the crisis.",
+        "ja": "大統領は危機についての正式な声明を発表した。",
+        "blank": "The president issued a formal ___ about the crisis.",
+        "blankAnswer": "statement"
+      }
+    ],
+    "distractors": ["考え、アイデア", "問題、課題", "影響、効果"],
+    "confusableSpellings": ["statment", "statemant"],
+    "passive": {
+      "etymology": "state（述べる、状態）+ -ment（名詞化接尾辞）。state はラテン語 status（立場、状態）から。「述べたこと」→「声明」。establish（確立する）、estate（不動産）と同根",
+      "tips": "'make a statement'（声明を出す・自己主張する）は最頻出の動詞句。ファッションで「fashion statement」（個性を表す服装）のようなカジュアルな使い方も。銀行の「bank statement」（銀行明細書）も日常でよく使う",
+      "confusables": "statement vs. announcement vs. declaration: statement は個人・組織の見解の表明、announcement は情報・ニュースを広く知らせること、declaration は公式・正式な宣言（Declaration of Independence など）",
+      "collocations": ["make a statement", "official statement", "mission statement", "bank statement", "opening statement"],
+      "trivia": "アメリカの「独立宣言（Declaration of Independence）」は1776年7月4日に署名された。冒頭の 'We hold these truths to be self-evident' は歴史上最も有名な political statement の一つ。起草したジェファーソンは当時33歳だった"
+    },
+    "frequency": 567,
+    "cefr": "B1"
+  },
+  {
+    "id": 73,
+    "word": "material",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      { "meaning": "材料、素材", "pos": "noun" },
+      { "meaning": "物質的な、重要な", "pos": "adjective" }
+    ],
+    "pronunciation": "/məˈtɪəriəl/",
+    "syllables": "ma-te-ri-al",
+    "audioHint": "マテリアル",
+    "examples": [
+      {
+        "en": "The jacket is made of high-quality material.",
+        "ja": "そのジャケットは高品質な素材でできている。",
+        "blank": "The jacket is made of high-quality ___.",
+        "blankAnswer": "material"
+      }
+    ],
+    "distractors": ["道具、器具", "製品、商品", "設備、機器"],
+    "confusableSpellings": ["materiel", "matieral"],
+    "passive": {
+      "etymology": "ラテン語 materialis（物質的な）が語源。materia（木材、原料）→ mater（母）と同根。「母が産み出すもの」→「原料・素材」。matter（物質）と同語源",
+      "tips": "名詞（素材・資料）と形容詞（重要な・物質的な）の両方で使う。法律では 'material evidence'（重要な証拠）。学習素材は 'learning materials'（教材）、建築では 'building materials'（建材）のように使う",
+      "confusables": "material vs. substance vs. fabric: material は物を構成する素材・材料全般、substance は物質・実質（化学的な文脈が多い）、fabric は布地・生地（textile系）",
+      "collocations": ["raw material", "building material", "study material", "material world", "hazardous material"],
+      "trivia": "マドンナの1984年のヒット曲「マテリアル・ガール（Material Girl）」は「物質主義的な女性」を描いた歌。この曲はマリリン・モンローの「Diamonds Are a Girl's Best Friend」へのオマージュで、80年代の消費社会を象徴する曲となった"
+    },
+    "frequency": 487,
+    "cefr": "B1"
+  },
+  {
+    "id": 74,
+    "word": "evidence",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "証拠、根拠", "pos": "noun" },
+      { "meaning": "証言、事実", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈevɪdəns/",
+    "syllables": "ev-i-dence",
+    "audioHint": "エヴィデンス",
+    "examples": [
+      {
+        "en": "The police found no evidence of a break-in.",
+        "ja": "警察は侵入の証拠を見つけられなかった。",
+        "blank": "The police found no ___ of a break-in.",
+        "blankAnswer": "evidence"
+      }
+    ],
+    "distractors": ["理論、学説", "知識、情報", "記事、論文"],
+    "confusableSpellings": ["evidance", "eviddence"],
+    "passive": {
+      "etymology": "ラテン語 evidentia（明らかなこと）が語源。ex-（外へ）+ videre（見る）→「はっきり見える」→「証拠」。video（映像）、vision（視覚）と同根で、「目で見てわかること」がもともとの意味",
+      "tips": "evidence は不可算名詞。'an evidence'（×）ではなく 'a piece of evidence'（1つの証拠）、'strong evidence'（強力な証拠）が正しい。'evidence-based'（証拠に基づく）は医療・政策で頻出の表現",
+      "confusables": "evidence vs. proof: evidence は証拠・根拠（積み重ねていくもの）、proof は完全な証明（数学的確実性）。法廷では 'beyond reasonable doubt'（合理的な疑いを超えた証拠）が必要",
+      "collocations": ["present evidence", "lack of evidence", "scientific evidence", "evidence-based", "give evidence"],
+      "trivia": "CSIなどの犯罪捜査ドラマの影響で「CSI効果」が起きており、陪審員が科学的証拠を過度に重視する傾向がある。DNA証拠がなければ無罪にしようとする陪審員が増え、検察側が苦労するケースも多いと報告されている"
+    },
+    "frequency": 598,
+    "cefr": "B1"
+  },
+  {
+    "id": 75,
+    "word": "source",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      { "meaning": "情報源、出典", "pos": "noun" },
+      { "meaning": "源、起源", "pos": "noun" }
+    ],
+    "pronunciation": "/sɔːrs/",
+    "syllables": "source",
+    "audioHint": "ソース",
+    "examples": [
+      {
+        "en": "The internet is a valuable source of information.",
+        "ja": "インターネットは貴重な情報源だ。",
+        "blank": "The internet is a valuable ___ of information.",
+        "blankAnswer": "source"
+      }
+    ],
+    "distractors": ["証拠、根拠", "理論、学説", "記事、論文"],
+    "confusableSpellings": ["soruce", "souce"],
+    "passive": {
+      "etymology": "古フランス語 sourse（湧き出るもの）が語源。ラテン語 surgere（立ち上がる、湧き出る）から。surge（急増する）と同根。「地面から湧き出る泉」→「源・起源」",
+      "tips": "'cite a source'（出典を示す）は学術文書で必須。'open source'（オープンソース）はソフトウェア開発の概念。'source code'（ソースコード）もここから。'reliable source'（信頼できる情報源）の見極めが現代の重要スキル",
+      "confusables": "source vs. origin vs. cause: source は情報・物の「出所・出典」、origin はものの「起源・始まり」（より抽象的）、cause は出来事の「原因・要因」",
+      "collocations": ["reliable source", "primary source", "source of income", "news source", "open source"],
+      "trivia": "「オープンソース」という言葉は1998年にNetscapeがブラウザのソースコードを公開したことを機に普及。Linuxはその象徴で、世界の97%のスーパーコンピュータ、アンドロイドスマホの基盤として使われている。全て無償で公開されたコードから生まれた"
+    },
+    "frequency": 423,
+    "cefr": "B1"
+  },
+  {
+    "id": 76,
+    "word": "community",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      { "meaning": "地域社会、コミュニティ", "pos": "noun" },
+      { "meaning": "共同体、集団", "pos": "noun" }
+    ],
+    "pronunciation": "/kəˈmjuːnɪti/",
+    "syllables": "com-mu-ni-ty",
+    "audioHint": "コミュニティ",
+    "examples": [
+      {
+        "en": "The local community came together to help flood victims.",
+        "ja": "地域社会は洪水の被害者を助けるために集まった。",
+        "blank": "The local ___ came together to help flood victims.",
+        "blankAnswer": "community"
+      }
+    ],
+    "distractors": ["政府、当局", "組織、団体", "制度、システム"],
+    "confusableSpellings": ["comunity", "communtiy"],
+    "passive": {
+      "etymology": "ラテン語 communitas（共有、共同）が語源。communis（共通の）→ com-（共に）+ munus（義務、贈り物）→「共に義務・恩恵を分かち合う集団」。communication（コミュニケーション）と同根",
+      "tips": "'community service'（社会奉仕活動）は刑事罰の一種としても使われる。'community college'（コミュニティカレッジ）はアメリカの2年制公立大学。オンラインコミュニティ（online community）はSNS時代に重要な概念",
+      "confusables": "community vs. society vs. group: community は地理的・利益的に結びついた「共同体」、society は社会全体・組織化された集団、group は単なる人の集まり（より中立的）",
+      "collocations": ["local community", "community service", "online community", "community center", "sense of community"],
+      "trivia": "「コミュニティ・ガーデン」（community garden）は都市農業の形態で、住民が共同で土地を管理・耕作する。ニューヨーク市には600以上のコミュニティ・ガーデンがあり、元々は1970年代の荒廃した空き地を住民が自主的に整備したことから始まった"
+    },
+    "frequency": 467,
+    "cefr": "B1"
+  },
+  {
+    "id": 77,
+    "word": "technology",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      { "meaning": "技術、テクノロジー", "pos": "noun" },
+      { "meaning": "科学技術", "pos": "noun" }
+    ],
+    "pronunciation": "/tekˈnɒlədʒi/",
+    "syllables": "tech-nol-o-gy",
+    "audioHint": "テクノロジー",
+    "examples": [
+      {
+        "en": "New technology is changing the way we communicate.",
+        "ja": "新しい技術が私たちのコミュニケーションの方法を変えている。",
+        "blank": "New ___ is changing the way we communicate.",
+        "blankAnswer": "technology"
+      }
+    ],
+    "distractors": ["システム、仕組み", "情報、データ", "機器、装置"],
+    "confusableSpellings": ["techonology", "tecnology"],
+    "passive": {
+      "etymology": "ギリシャ語 technologia（系統的な処理）が語源。tekhnē（技術、工芸）+ logos（論理、学問）→「技術の学問」。technique（テクニック）と同根。日本語の「テクノロジー」はほぼそのまま使われる",
+      "tips": "technology は不可算名詞として使うことが多いが、特定の技術を指す場合は可算にもなる（'new technologies'）。'state-of-the-art technology'（最先端技術）、'cutting-edge technology'（先端技術）は重要表現",
+      "confusables": "technology vs. technique vs. tool: technology は系統的な技術・技術体系全体、technique は特定の技法・やり方、tool は道具・手段",
+      "collocations": ["information technology", "cutting-edge technology", "technology company", "emerging technology", "assistive technology"],
+      "trivia": "「ルッダイト運動」（Luddism）は19世紀初頭のイギリスで、繊維工場の機械化に反発した職人たちが機械を打ち壊した運動。今も技術革新に反対する人を「ルッダイト」と呼ぶ。しかし歴史的には彼らは技術自体でなく、賃金低下・失業を招く「使われ方」に抵抗した"
+    },
+    "frequency": 398,
+    "cefr": "A2"
+  },
+  {
+    "id": 78,
+    "word": "culture",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      { "meaning": "文化、文明", "pos": "noun" },
+      { "meaning": "教養、洗練", "pos": "noun" }
+    ],
+    "pronunciation": "/ˈkʌltʃər/",
+    "syllables": "cul-ture",
+    "audioHint": "カルチャー",
+    "examples": [
+      {
+        "en": "Learning about other cultures helps you understand the world.",
+        "ja": "他の文化について学ぶことで、世界をより深く理解できる。",
+        "blank": "Learning about other ___ helps you understand the world.",
+        "blankAnswer": "cultures"
+      }
+    ],
+    "distractors": ["物品、商品", "習慣、伝統", "生活、暮らし"],
+    "confusableSpellings": ["cultre", "cultur"],
+    "passive": {
+      "etymology": "ラテン語 cultura（耕作、栽培）が語源。colere（耕す）→ cultivate（栽培する）と同根。「土地を耕す」→「精神・心を耕す」→「文化・教養」へと意味が発展した",
+      "tips": "'pop culture'（大衆文化）、'corporate culture'（企業文化）、'culture shock'（カルチャーショック）のように幅広く使える。'culture vulture'（文化に貪欲な人）という面白い表現も",
+      "confusables": "culture vs. civilization vs. tradition: culture は人々の生活様式・価値観の体系、civilization は高度に組織化された社会・文明、tradition は過去から受け継がれた慣習・伝統",
+      "collocations": ["popular culture", "culture shock", "corporate culture", "culture gap", "cultural diversity"],
+      "trivia": "「カルチャーショック」という言葉は1954年に人類学者カレルヴァルフが作った。その4段階は①ハネムーン期（新しい文化への興奮）→②フラストレーション期→③適応期→④統合期。多くの留学生がこのサイクルを経験する"
+    },
+    "frequency": 356,
+    "cefr": "A2"
+  },
+  {
+    "id": 79,
+    "word": "appropriate",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      { "meaning": "適切な、ふさわしい", "pos": "adjective" },
+      { "meaning": "〜を流用する、取り込む", "pos": "verb" }
+    ],
+    "pronunciation": "/əˈproʊpriɪt/",
+    "syllables": "ap-pro-pri-ate",
+    "audioHint": "アプロープリエット",
+    "examples": [
+      {
+        "en": "Is this clothing appropriate for a formal dinner?",
+        "ja": "この服装はフォーマルなディナーにふさわしいですか？",
+        "blank": "Is this clothing ___ for a formal dinner?",
+        "blankAnswer": "appropriate"
+      }
+    ],
+    "distractors": ["効果的な、有効な", "重要な、主要な", "正確な、精密な"],
+    "confusableSpellings": ["apropriate", "approriate"],
+    "passive": {
+      "etymology": "ラテン語 appropriare（自分のものにする）が語源。ad-（〜に）+ proprius（自分固有の）→「自分のものにする」→「その状況に固有のもの」→「適切な」。proper（適切な）と同根",
+      "tips": "動詞（〜を流用する）は accent が後ろ（ap-pro-pri-ATE）、形容詞は前より（ap-PRO-pri-ate）で区別することがある。'appropriate for X'（Xに適切な）と 'appropriate to X'（Xに見合う）は似た使い方",
+      "confusables": "appropriate vs. proper vs. suitable: appropriate はその状況・文脈に合っている、proper は社会的規範・礼儀に合っている、suitable はある目的・条件に向いている",
+      "collocations": ["appropriate for", "deemed appropriate", "culturally appropriate", "age-appropriate", "appropriate measures"],
+      "trivia": "「文化的流用（cultural appropriation）」は appropriate の動詞用法から。ある文化の要素を、その文化のコンテキストなしに他の文化が使うこと。ファッション・音楽・料理など様々な分野で議論となっており、尊重か創造的交流かで見解が分かれる"
+    },
+    "frequency": 712,
+    "cefr": "B1"
+  },
+  {
+    "id": 80,
+    "word": "likely",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      { "meaning": "ありそうな、〜しそうな", "pos": "adjective" },
+      { "meaning": "おそらく", "pos": "adverb" }
+    ],
+    "pronunciation": "/ˈlaɪkli/",
+    "syllables": "like-ly",
+    "audioHint": "ライクリー",
+    "examples": [
+      {
+        "en": "It is likely that she will win the competition.",
+        "ja": "彼女が大会で優勝する可能性が高い。",
+        "blank": "It is ___ that she will win the competition.",
+        "blankAnswer": "likely"
+      }
+    ],
+    "distractors": ["正確な、精密な", "明らかな、明白な", "重要な、必要な"],
+    "confusableSpellings": ["likly", "likeley"],
+    "passive": {
+      "etymology": "古ノルド語 líkligr（似ている、適切な）が語源。like（似ている）+ -ly（形容詞接尾辞）→「似ているような」→「ありそうな」。likewise（同様に）と同根",
+      "tips": "'It is likely that + 文'（〜する可能性が高い）と 'S is likely to + 動詞'（SはV しそうだ）の2パターンが基本。'more likely than not'（どちらかというと）、'most likely'（おそらく）も重要",
+      "confusables": "likely vs. probable vs. possible: likely は主観的可能性（ありそう・そうなりそう）、probable は客観的確率が高い、possible は可能性がゼロでない（最も範囲が広い）",
+      "collocations": ["most likely", "likely to", "less likely", "highly likely", "it is likely that"],
+      "trivia": "天気予報の「降水確率30%」は英語で '30% chance of rain' または 'rain is likely'. 気象学者が確率を「likely」と表現する際、IPCCの用語では 'likely' = 66〜100%の確率を意味する。日常用語と科学用語でニュアンスが異なるのは興味深い"
+    },
+    "frequency": 489,
+    "cefr": "B1"
+  }
+]

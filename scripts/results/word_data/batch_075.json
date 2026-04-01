@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1481,
+    "word": "naked",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "裸の、むき出しの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "露骨な、包み隠さない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈneɪkɪd/",
+    "syllables": "na-ked",
+    "audioHint": "ネイキッド",
+    "examples": [
+      {
+        "en": "The naked truth can sometimes be painful to hear.",
+        "ja": "赤裸々な真実は、時として聞くのが辛いことがある。",
+        "blank": "The ___ truth can sometimes be painful to hear.",
+        "blankAnswer": "naked"
+      }
+    ],
+    "distractors": [
+      "滑らかな",
+      "鋭い",
+      "薄暗い"
+    ],
+    "confusableSpellings": [
+      "nakid",
+      "naaked",
+      "neked"
+    ],
+    "passive": {
+      "etymology": "古英語 'nacod'（裸の）に由来。語根はゲルマン祖語 *nakwaz（裸）で、ドイツ語の 'nackt' と同源。",
+      "tips": "「naked eye（肉眼）」という表現は頻出。bare と混同されがちだが、naked はより感情的・比喩的な含意を持つことが多い。",
+      "confusables": "bare（むき出しの）と似ているが、naked はより「何も身に着けていない・隠さない」という強い意味合い。bare は単に「覆われていない」ニュアンス。",
+      "collocations": [
+        "naked eye（肉眼）",
+        "naked truth（赤裸々な真実）",
+        "naked flame（むき出しの炎）"
+      ],
+      "trivia": "「naked eye」は科学の文脈でよく使われ、望遠鏡なしで見える星を指す。実は宇宙の話をするときに大活躍する単語！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1482,
+    "word": "sincere",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "誠実な、真摯な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "本物の、偽りのない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/sɪnˈsɪər/",
+    "syllables": "sin-cere",
+    "audioHint": "シンシア",
+    "examples": [
+      {
+        "en": "She gave a sincere apology for her mistake.",
+        "ja": "彼女は自分の過ちに対して誠実な謝罪をした。",
+        "blank": "She gave a ___ apology for her mistake.",
+        "blankAnswer": "sincere"
+      }
+    ],
+    "distractors": [
+      "思いやりのある",
+      "気前のよい",
+      "勇敢な"
+    ],
+    "confusableSpellings": [
+      "sinceer",
+      "sinsere",
+      "sincear"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sincerus'（純粋な、混じりけのない）に由来。語源には「sine（なしに）＋ cera（ろう）」説があり、古代ローマで彫刻のひび割れをろうで隠さないことが「誠実」を意味したとも言われる。",
+      "tips": "手紙の結びに使う 'Sincerely yours' は定番表現。副詞形 'sincerely' も一緒に覚えよう。日本人は 'seriously' と混同しがち。",
+      "confusables": "serious（真剣な）と混同されやすいが、sincere は「心からの・偽りのない」、serious は「重大な・冗談でない」というニュアンス。",
+      "collocations": [
+        "sincere apology（誠実な謝罪）",
+        "sincere gratitude（心からの感謝）",
+        "sincere effort（真摯な努力）"
+      ],
+      "trivia": "「Yours sincerely」はビジネスレターの定番締め文句。実はこの言葉、古代ローマの彫刻家が「ごまかしなし！」と保証したのが起源という説がある。"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1483,
+    "word": "tame",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "飼いならされた、おとなしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "退屈な、刺激のない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/teɪm/",
+    "syllables": "tame",
+    "audioHint": "テイム",
+    "examples": [
+      {
+        "en": "The tame deer ate from the children's hands.",
+        "ja": "飼いならされた鹿が子供たちの手から食べた。",
+        "blank": "The ___ deer ate from the children's hands.",
+        "blankAnswer": "tame"
+      }
+    ],
+    "distractors": [
+      "薄暗い",
+      "裸の",
+      "交互の"
+    ],
+    "confusableSpellings": [
+      "taim",
+      "teim",
+      "taime"
+    ],
+    "passive": {
+      "etymology": "古英語 'tam'（飼いならされた）に由来。ゲルマン祖語 *tamaz から来ており、ドイツ語 'zahm' と同源。",
+      "tips": "形容詞だけでなく動詞としても使え、'tame a wild horse'（野生の馬を飼いならす）のように使う。比喩的に「退屈な」という意味でも使われる。",
+      "confusables": "mild（穏やかな）と意味が近いが、tame は「野生だったものが制御された」というニュアンスが強い。mild は生まれつき穏やかなイメージ。",
+      "collocations": [
+        "tame animal（飼いならされた動物）",
+        "tame response（物足りない反応）",
+        "tame ending（退屈な結末）"
+      ],
+      "trivia": "テイラー・スウィフトのアルバム「folklore」収録曲に 'tame' という言葉が使われたことで、若者の間で再注目されたとも言われている！"
+    },
+    "frequency": 5800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1484,
+    "word": "insufficient",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "不十分な、不足している",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不適切な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌɪnsəˈfɪʃənt/",
+    "syllables": "in-suf-fi-cient",
+    "audioHint": "インサフィシェント",
+    "examples": [
+      {
+        "en": "The evidence was insufficient to support the claim.",
+        "ja": "その主張を裏付けるには証拠が不十分だった。",
+        "blank": "The evidence was ___ to support the claim.",
+        "blankAnswer": "insufficient"
+      }
+    ],
+    "distractors": [
+      "不必要な",
+      "不正確な",
+      "不公平な"
+    ],
+    "confusableSpellings": [
+      "insufficent",
+      "insuffisient",
+      "insuficient"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'in-'（否定）＋ 'sufficere'（十分に供給する）。'sub-'（下から）＋ 'facere'（する・作る）が語根。「下から補う力が足りない」イメージ。",
+      "tips": "反意語 'sufficient' もセットで覚えるとよい。名詞形は 'insufficiency'。ビジネス・学術文書で頻出。日本人は 'not enough' で済ませがちだが、フォーマルな場面では insufficient が適切。",
+      "confusables": "inadequate（不適切な）と似ているが、insufficient は「量・程度が足りない」、inadequate は「質・適性が足りない」というニュアンスの違いがある。",
+      "collocations": [
+        "insufficient evidence（不十分な証拠）",
+        "insufficient funds（資金不足）",
+        "insufficient time（時間不足）"
+      ],
+      "trivia": "銀行の「残高不足」は英語で 'insufficient funds' という。ATMの画面に表示されるこの表現、実は日常的にとても使われている！"
+    },
+    "frequency": 6200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1485,
+    "word": "dim",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "薄暗い、ぼんやりした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "かすかな、不明瞭な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dɪm/",
+    "syllables": "dim",
+    "audioHint": "ディム",
+    "examples": [
+      {
+        "en": "The room was lit by a dim candle.",
+        "ja": "部屋はぼんやりとしたろうそくの光で照らされていた。",
+        "blank": "The room was lit by a ___ candle.",
+        "blankAnswer": "dim"
+      }
+    ],
+    "distractors": [
+      "鮮やかな",
+      "滑らかな",
+      "飼いならされた"
+    ],
+    "confusableSpellings": [
+      "dym",
+      "dimm",
+      "dime"
+    ],
+    "passive": {
+      "etymology": "古英語 'dimm'（暗い、かすんだ）に由来。ゲルマン祖語 *dimbaz から来ており、暗さや不明瞭さを表すのに古くから使われてきた。",
+      "tips": "動詞としても使え、'dim the lights'（明かりを暗くする）は映画館やレストランでの頻出表現。'dim sum'（点心）は広東語由来で全く別の語源。",
+      "confusables": "dark（暗い）と混同されやすいが、dim は「完全に暗い」のではなく「薄暗い・ぼんやりした」という中間的な暗さ。",
+      "collocations": [
+        "dim light（薄明かり）",
+        "dim memory（かすかな記憶）",
+        "dim the lights（明かりを落とす）"
+      ],
+      "trivia": "「dim sum（点心）」という料理名は広東語で「心をつつく一点」という意味。英語の dim（薄暗い）とは全く別の言葉なので混同しないで！"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1486,
+    "word": "acute",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "急性の、深刻な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "鋭い、鋭敏な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈkjuːt/",
+    "syllables": "a-cute",
+    "audioHint": "アキュート",
+    "examples": [
+      {
+        "en": "The patient was admitted with acute chest pain.",
+        "ja": "その患者は急性の胸の痛みで入院した。",
+        "blank": "The patient was admitted with ___ chest pain.",
+        "blankAnswer": "acute"
+      }
+    ],
+    "distractors": [
+      "慢性の",
+      "障害を持つ",
+      "都市の"
+    ],
+    "confusableSpellings": [
+      "acutte",
+      "akute",
+      "accute"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'acutus'（とがった、鋭い）に由来。語根 'acus'（針）から来ており、「鋭くとがった」→「鋭敏な」「急性の」へ意味が拡張した。",
+      "tips": "医療用語では「急性（acute）」は「慢性（chronic）」の対義語。数学では「鋭角（acute angle）」として使う。日本人は 'cute' に引っ張られて発音を間違えやすい。",
+      "confusables": "chronic（慢性の）と対になる言葉。acute は突然・短期間の症状に使い、chronic は長期間続く状態に使う。",
+      "collocations": [
+        "acute pain（急性の痛み）",
+        "acute angle（鋭角）",
+        "acute shortage（深刻な不足）"
+      ],
+      "trivia": "数学の「鋭角（acute angle）」も医療の「急性（acute illness）」も同じ単語。どちらも「鋭くとがった針」が語源という発見、なかなか面白くない？"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1487,
+    "word": "disabled",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "障害のある、身体が不自由な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "機能が無効化された",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dɪsˈeɪbəld/",
+    "syllables": "dis-a-bled",
+    "audioHint": "ディセイブルド",
+    "examples": [
+      {
+        "en": "The building has ramps for disabled visitors.",
+        "ja": "その建物には障害のある来訪者のためのスロープがある。",
+        "blank": "The building has ramps for ___ visitors.",
+        "blankAnswer": "disabled"
+      }
+    ],
+    "distractors": [
+      "急性の",
+      "都市圏の",
+      "金融の"
+    ],
+    "confusableSpellings": [
+      "disabeled",
+      "dissabled",
+      "disableed"
+    ],
+    "passive": {
+      "etymology": "'dis-'（否定・除去）＋ 'able'（できる）＋ '-d'（過去分詞・形容詞化）。「能力を取り除かれた」という構造。",
+      "tips": "近年は 'person with a disability' のように人を前に置く「パーソンファースト言語」が推奨される傾向がある。文脈に応じた配慮が必要。",
+      "confusables": "handicapped は古い表現で現在は避けられる傾向がある。disabled または person with a disability が現代の標準的な表現。",
+      "collocations": [
+        "disabled person（障害者）",
+        "disabled access（バリアフリーアクセス）",
+        "disabled parking（障害者用駐車場）"
+      ],
+      "trivia": "IT用語では 'disable a feature'（機能を無効にする）のように使われ、スマホの設定画面で毎日目にしている言葉。医療と技術で全く違う意味に使われる二刀流単語！"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1488,
+    "word": "metropolitan",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "大都市の、首都圏の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "都会的な、洗練された",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌmetrəˈpɒlɪtən/",
+    "syllables": "met-ro-pol-i-tan",
+    "audioHint": "メトロポリタン",
+    "examples": [
+      {
+        "en": "She works in the metropolitan area of Tokyo.",
+        "ja": "彼女は東京の首都圏で働いている。",
+        "blank": "She works in the ___ area of Tokyo.",
+        "blankAnswer": "metropolitan"
+      }
+    ],
+    "distractors": [
+      "急性の",
+      "金融の",
+      "障害のある"
+    ],
+    "confusableSpellings": [
+      "metropoliten",
+      "metropolitain",
+      "meropolitan"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'meter'（母）＋ 'polis'（都市）→ 'metropolis'（母なる都市・首都）に '-tan'（形容詞語尾）が付いた形。",
+      "tips": "名詞 'metropolis'（大都市）の形容詞形。東京メトロや東京都教育委員会の英語名にも使われているので馴染みやすい。スペルが長いので分割して覚えると楽。",
+      "confusables": "urban（都市の）と似ているが、metropolitan はより規模が大きく「複数の都市を含む大都市圏全体」を指す。urban は単に「都市部の」という意味。",
+      "collocations": [
+        "metropolitan area（大都市圏）",
+        "metropolitan government（都政府）",
+        "metropolitan museum（大都市の美術館）"
+      ],
+      "trivia": "ニューヨークの「メトロポリタン美術館（The Met）」は世界最大級の美術館。語源の「母なる都市」から来ているなんて、なんとも壮大な名前でしょ？"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1489,
+    "word": "monetary",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "金融の、通貨の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "金銭上の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmɒnɪtəri/",
+    "syllables": "mon-e-ta-ry",
+    "audioHint": "モニタリ",
+    "examples": [
+      {
+        "en": "The government adopted a new monetary policy.",
+        "ja": "政府は新しい金融政策を採用した。",
+        "blank": "The government adopted a new ___ policy.",
+        "blankAnswer": "monetary"
+      }
+    ],
+    "distractors": [
+      "大都市の",
+      "急性の",
+      "障害のある"
+    ],
+    "confusableSpellings": [
+      "monetory",
+      "monitary",
+      "monatary"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'moneta'（造幣局、お金）に由来。ローマの女神ユノー・モネタ（Juno Moneta）の神殿で貨幣が鋳造されたことから「お金」を意味するようになった。",
+      "tips": "economics（経済学）の文章で頻出。'monetary policy'（金融政策）は経済ニュースで毎日登場する表現。'money' と同語源だと覚えると忘れにくい。",
+      "confusables": "financial（財務の）と似ているが、monetary は特に「通貨・お金そのもの」に関する事柄に使い、financial はより広く「財務・金融全般」に使う。",
+      "collocations": [
+        "monetary policy（金融政策）",
+        "monetary value（金銭的価値）",
+        "monetary system（通貨制度）"
+      ],
+      "trivia": "英語の 'money'、'monetary'、そして 'monitor' まで、すべてローマの女神ユノー・モネタが語源という説がある。女神の名前が現代経済を動かしているとは！"
+    },
+    "frequency": 4900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1490,
+    "word": "alternate",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "交互の、隔つの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "代わりの、代替の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɔːltərnət/",
+    "syllables": "al-ter-nate",
+    "audioHint": "オールタネット",
+    "examples": [
+      {
+        "en": "The stripes are painted in alternate colors.",
+        "ja": "ストライプは交互の色で塗られている。",
+        "blank": "The stripes are painted in ___ colors.",
+        "blankAnswer": "alternate"
+      }
+    ],
+    "distractors": [
+      "薄暗い",
+      "裸の",
+      "飼いならされた"
+    ],
+    "confusableSpellings": [
+      "alternat",
+      "allternate",
+      "alternete"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'alternare'（交互にする）に由来。'alter'（もう一方の）が語根で、ドイツ語 'ander'（他の）と同源。",
+      "tips": "形容詞（交互の）と動詞（交互に行う）でアクセント位置が異なる。形容詞は /ˈɔːltərnət/（オールタネット）、動詞は /ˈɔːltərneɪt/（オールタネイト）。アメリカ英語では 'alternative' の代わりに使われることも多い。",
+      "confusables": "alternative（代替の、別の選択肢）と混同されやすい。alternate は「交互の・隔つ」が基本で、alternative は「もう一つの選択肢としての代替」というニュアンス。",
+      "collocations": [
+        "alternate days（隔日）",
+        "alternate route（代替ルート）",
+        "alternate between（〜と〜を交互に繰り返す）"
+      ],
+      "trivia": "「alternate universe（並行宇宙）」はSFやアニメで大人気の概念。Marvel映画でも頻出のこの単語、実は数学の「互い違いの角（alternate angles）」も同じ単語なんです！"
+    },
+    "frequency": 4300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1491,
+    "word": "partial",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "部分的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "〜が好きで、えこひいきする",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpɑːrʃəl/",
+    "syllables": "par-tial",
+    "audioHint": "パーシャル",
+    "examples": [
+      {
+        "en": "She has a partial understanding of the subject.",
+        "ja": "彼女はその科目を部分的にしか理解していない。",
+        "blank": "She has a ___ understanding of the subject.",
+        "blankAnswer": "partial"
+      }
+    ],
+    "distractors": [
+      "完全な",
+      "明確な",
+      "永続的な"
+    ],
+    "confusableSpellings": [
+      "parcial",
+      "partail",
+      "partiel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pars'（部分）+ '-ial'（形容詞語尾）。'part'（部分）と同語根で、「全体のうちの一部」という概念が根本にある。",
+      "tips": "「partial to〜」で「〜が好き、〜に目がない」という意味になる点を見落としがち。'I'm partial to chocolate.'（チョコレートが大好きです）という使い方も覚えよう。",
+      "confusables": "'partial'（部分的）vs 'impartial'（公平な、中立な）：接頭辞 'im-' がつくと意味が逆になる。報道では 'impartial reporting'（公平な報道）とよく使われる。",
+      "collocations": [
+        "partial solution",
+        "partial payment",
+        "partial eclipse"
+      ],
+      "trivia": "「パーシャル凍結」という冷蔵庫の機能名にも使われているように、日本語でも「パーシャル」はカタカナ語として定着しつつある。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1492,
+    "word": "divine",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "神聖な、神の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "すばらしい、絶妙な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dɪˈvaɪn/",
+    "syllables": "di-vine",
+    "audioHint": "ディヴァイン",
+    "examples": [
+      {
+        "en": "They believed it was divine intervention that saved them.",
+        "ja": "彼らはそれが神の介入によって救われたと信じた。",
+        "blank": "They believed it was ___ intervention that saved them.",
+        "blankAnswer": "divine"
+      }
+    ],
+    "distractors": [
+      "論理的な",
+      "実証的な",
+      "体系的な"
+    ],
+    "confusableSpellings": [
+      "devine",
+      "diviene",
+      "divne"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'divinus'（神の）← 'divus'（神）。同語根の単語に 'deity'（神）、'divinity'（神性）がある。",
+      "tips": "宗教的な「神聖な」という意味だけでなく、口語で「最高！素晴らしい！」という意味でも使われる。特に古い映画や英国英語でこの使い方が多いので混乱しないように。",
+      "confusables": "'divine'（神聖な）vs 'devout'（信心深い）：'divine' は神や概念そのものに使い、'devout' は人の信仰心の深さを表す。",
+      "collocations": [
+        "divine intervention",
+        "divine right",
+        "divine comedy"
+      ],
+      "trivia": "ダンテの『神曲』の英語タイトルは 'The Divine Comedy'。もともとダンテが自分でつけたタイトルは単に 'Commedia'（喜劇）で、「Divine（神聖な）」はのちに加えられた称賛の言葉。"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1493,
+    "word": "drastic",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "抜本的な、思い切った",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "激しい、極端な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdræstɪk/",
+    "syllables": "dras-tic",
+    "audioHint": "ドラスティック",
+    "examples": [
+      {
+        "en": "The government took drastic measures to control inflation.",
+        "ja": "政府はインフレを抑制するために抜本的な措置を取った。",
+        "blank": "The government took ___ measures to control inflation.",
+        "blankAnswer": "drastic"
+      }
+    ],
+    "distractors": [
+      "わずかな",
+      "適切な",
+      "平均的な"
+    ],
+    "confusableSpellings": [
+      "drastik",
+      "drastick",
+      "drastec"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'drastikos'（有効な、活発な）← 'dran'（行動する）。同語根に 'drama'（行動・演劇）がある。",
+      "tips": "日本語の「ドラスティック」はカタカナ語として定着しているが、英語では必ずしもポジティブではなく「行き過ぎた」というニュアンスを含むことが多い。'drastic action' と言うと「かなり思い切った、やりすぎかもしれない行動」のトーン。",
+      "confusables": "'drastic'（極端な）vs 'dramatic'（劇的な）：'dramatic' は演劇的・視覚的な印象の強さ、'drastic' は影響の大きさや過激さを強調する。",
+      "collocations": [
+        "drastic measures",
+        "drastic change",
+        "drastic action"
+      ],
+      "trivia": "'Desperate times call for drastic measures.'（絶体絶命のときは思い切った手段が必要）という英語のことわざがある。日本語の「背水の陣」に近い感覚。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1494,
+    "word": "fierce",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "激しい、猛烈な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "獰猛な、恐ろしい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/fɪrs/",
+    "syllables": "fierce",
+    "audioHint": "フィアース",
+    "examples": [
+      {
+        "en": "There is fierce competition among the top students.",
+        "ja": "トップの生徒たちの間では激しい競争がある。",
+        "blank": "There is ___ competition among the top students.",
+        "blankAnswer": "fierce"
+      }
+    ],
+    "distractors": [
+      "穏やかな",
+      "陽気な",
+      "慎重な"
+    ],
+    "confusableSpellings": [
+      "feirce",
+      "ferce",
+      "fierece"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'fiers'（野生の、残忍な）← ラテン語 'ferus'（野生の）。'feral'（野生化した）と同語根。",
+      "tips": "スペルが 'i' と 'e' の順で迷いやすい。「fi-e-r-ce」と覚える。'ei' と書いてしまうミスが多いので注意。発音は「フィース」ではなく「フィアース」と2音節ぽく。",
+      "confusables": "'fierce'（激しい・猛烈）vs 'intense'（強烈な・密度が高い）：'fierce' は動物的な荒々しさや感情の勢い、'intense' はエネルギーや集中の密度の高さを表す。",
+      "collocations": [
+        "fierce competition",
+        "fierce loyalty",
+        "fierce debate"
+      ],
+      "trivia": "スラングで 'fierce' は「めちゃくちゃカッコいい、最高にイケてる」という褒め言葉としても使われる。ファッション界やドラァグカルチャーでは定番の称賛表現。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1495,
+    "word": "sole",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "唯一の、単独の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "靴底、足の裏",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/soʊl/",
+    "syllables": "sole",
+    "audioHint": "ソウル",
+    "examples": [
+      {
+        "en": "She is the sole survivor of the accident.",
+        "ja": "彼女はその事故の唯一の生存者だ。",
+        "blank": "She is the ___ survivor of the accident.",
+        "blankAnswer": "sole"
+      }
+    ],
+    "distractors": [
+      "主要な",
+      "補助的な",
+      "共同の"
+    ],
+    "confusableSpellings": [
+      "soal",
+      "soel",
+      "soul"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'solus'（一人の、孤独な）。'solo'（ソロ）、'solitary'（孤独な）と同語根。",
+      "tips": "'sole'（唯一の）と 'soul'（魂）は同音異義語。文脈で区別するしかないが、形容詞として名詞の前に来るときは 'sole'。また、靴の「ソール」（底）も 'sole' と同じスペル。",
+      "confusables": "'sole'（唯一の）vs 'only'（唯一の）：ほぼ同義だが 'sole' はより書き言葉的・法的なニュアンスが強い。契約書などで 'sole responsibility'（単独責任）のように使われる。",
+      "collocations": [
+        "sole survivor",
+        "sole purpose",
+        "sole responsibility"
+      ],
+      "trivia": "「ソールフード（soul food）」はアフリカ系アメリカ人の伝統料理だが、スペルは 'soul'（魂）で 'sole' ではない。よく混同されるので注意！"
+    },
+    "frequency": 2300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1496,
+    "word": "spontaneous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "自発的な、自然発生的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "衝動的な、思いつきの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/spɒnˈteɪniəs/",
+    "syllables": "spon-ta-ne-ous",
+    "audioHint": "スポンテイニアス",
+    "examples": [
+      {
+        "en": "The crowd gave a spontaneous round of applause.",
+        "ja": "群衆は自然に拍手を送った。",
+        "blank": "The crowd gave a ___ round of applause.",
+        "blankAnswer": "spontaneous"
+      }
+    ],
+    "distractors": [
+      "計画的な",
+      "義務的な",
+      "反復的な"
+    ],
+    "confusableSpellings": [
+      "spontanious",
+      "spontaneus",
+      "spontaenous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sponte'（自分の意志で）+ '-aneous'（形容詞語尾）。外部の力なしに「自ら動く」ことが語源の核心。",
+      "tips": "スペルが長くて難しい。'spon-ta-ne-ous' と4音節に区切って覚えよう。よくあるミスは '-nious' と書いてしまうこと。副詞は 'spontaneously'。",
+      "confusables": "'spontaneous'（自発的）vs 'impulsive'（衝動的）：'spontaneous' は自然で前向きなニュアンス、'impulsive' は考えなしに行動するネガティブなニュアンスが強い。",
+      "collocations": [
+        "spontaneous combustion",
+        "spontaneous reaction",
+        "spontaneous decision"
+      ],
+      "trivia": "'spontaneous combustion'（自然発火）は物理・化学用語だが、昔は「人体自然発火現象」の都市伝説にも使われた。ホラー映画の題材にもなったほど謎めいた現象として語られた歴史がある。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1497,
+    "word": "spatial",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "空間の、空間的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "空間認識に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈspeɪʃəl/",
+    "syllables": "spa-tial",
+    "audioHint": "スペイシャル",
+    "examples": [
+      {
+        "en": "Good spatial awareness helps drivers avoid accidents.",
+        "ja": "優れた空間認識能力はドライバーが事故を避けるのに役立つ。",
+        "blank": "Good ___ awareness helps drivers avoid accidents.",
+        "blankAnswer": "spatial"
+      }
+    ],
+    "distractors": [
+      "時間的な",
+      "数値的な",
+      "言語的な"
+    ],
+    "confusableSpellings": [
+      "spacial",
+      "spasial",
+      "spatiel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'spatium'（空間、距離）+ '-al'（形容詞語尾）。'space'（空間）と同語根で、より学術的・専門的な形容詞形。",
+      "tips": "'space' から想像して 'spacial' と書きがちだが、正しくは 'spatial'。'spat-i-al' と意識してスペルを覚えよう。心理学・建築・地理学でよく登場する専門用語。",
+      "confusables": "'spatial'（空間の）vs 'temporal'（時間の）：この2語はセットで対比して使われることが多い。'spatial and temporal'（空間的・時間的）という表現は学術論文に頻出。",
+      "collocations": [
+        "spatial awareness",
+        "spatial reasoning",
+        "spatial data"
+      ],
+      "trivia": "Appleの複合現実（MR）ヘッドセット「Vision Pro」の体験を指す言葉として 'spatial computing'（空間コンピューティング）が注目を浴びた。ITの最前線でも使われる旬のワード！"
+    },
+    "frequency": 4000,
+    "cefr": "C1"
+  },
+  {
+    "id": 1498,
+    "word": "neat",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "きちんとした、整頓された",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "素晴らしい、うまい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/niːt/",
+    "syllables": "neat",
+    "audioHint": "ニート",
+    "examples": [
+      {
+        "en": "He always keeps his desk neat and organized.",
+        "ja": "彼はいつも机をきれいに整頓している。",
+        "blank": "He always keeps his desk ___ and organized.",
+        "blankAnswer": "neat"
+      }
+    ],
+    "distractors": [
+      "混乱した",
+      "騒がしい",
+      "薄暗い"
+    ],
+    "confusableSpellings": [
+      "neet",
+      "naet",
+      "neit"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'net'（清潔な、純粋な）← ラテン語 'nitidus'（輝く、きれいな）。'nitid'（光沢のある）と同語根。",
+      "tips": "日本語の「ニート（NEET：Not in Education, Employment or Training）」と同じスペルだが全く別の意味。文脈で混乱しないように。口語の米語で「かっこいい、いいね！」という意味でも使われる。",
+      "confusables": "'neat'（整頓された）vs 'tidy'（片付いた）：ほぼ同義だが 'neat' は見た目の清潔感・整然さ、'tidy' は物が適切な場所に収まっているニュアンスが強い。",
+      "collocations": [
+        "neat handwriting",
+        "neat appearance",
+        "neat solution"
+      ],
+      "trivia": "ウイスキーを「ストレート（水や氷なし）」で飲むことを英語で 'neat' と言う。'I'll have whiskey neat.'（ウイスキーをストレートで）。バーで使えばちょっとカッコいい！"
+    },
+    "frequency": 2800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1499,
+    "word": "tidy",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "整頓された、きれいな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "かなりの、相当の（金額など）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtaɪdi/",
+    "syllables": "ti-dy",
+    "audioHint": "タイディ",
+    "examples": [
+      {
+        "en": "Please keep your room tidy at all times.",
+        "ja": "部屋を常に整頓しておいてください。",
+        "blank": "Please keep your room ___ at all times.",
+        "blankAnswer": "tidy"
+      }
+    ],
+    "distractors": [
+      "散らかった",
+      "古めかしい",
+      "静かな"
+    ],
+    "confusableSpellings": [
+      "tiddy",
+      "tidi",
+      "tydy"
+    ],
+    "passive": {
+      "etymology": "中英語 'tidi'（時宜にかなった、適切な）← 古英語 'tīd'（時間、時）。「時間通りに整った状態」というニュアンスが語源。",
+      "tips": "動詞としても使え、'tidy up'（片付ける）という句動詞が日常的によく使われる。'Clean up' との違いは、'tidy up' が「散らかったものを整える」、'clean up' が「汚れを取る・掃除する」ニュアンス。",
+      "confusables": "'tidy'（整頓された）vs 'neat'（きちんとした）：ほぼ同義。'tidy' は物の配置・収納の秩序感、'neat' は全体的な清潔感や見栄えのよさを強調する。",
+      "collocations": [
+        "tidy room",
+        "tidy up",
+        "tidy sum"
+      ],
+      "trivia": "『こんまり』で有名な近藤麻理恵さんの英語名は「KonMari」だが、彼女の本のベストセラー英語版タイトルは 'The Life-Changing Magic of Tidying Up'。'tidy' が世界的ブームを巻き起こした一語に！"
+    },
+    "frequency": 3000,
+    "cefr": "A2"
+  },
+  {
+    "id": 1500,
+    "word": "loyal",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "忠実な、誠実な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "義理堅い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈlɔɪəl/",
+    "syllables": "loy-al",
+    "audioHint": "ロイアル",
+    "examples": [
+      {
+        "en": "He has been a loyal friend for over twenty years.",
+        "ja": "彼は20年以上ずっと忠実な友人だ。",
+        "blank": "He has been a ___ friend for over twenty years.",
+        "blankAnswer": "loyal"
+      }
+    ],
+    "distractors": [
+      "臆病な",
+      "嫉妬深い",
+      "無関心な"
+    ],
+    "confusableSpellings": [
+      "loial",
+      "loyel",
+      "loyle"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'loial'（法に従った）← ラテン語 'legalis'（法の）← 'lex'（法）。'legal'（法的な）と同語根で、「法や規則を守る誠実さ」が語源。",
+      "tips": "'loyal to〜'（〜に忠実な）という前置詞 'to' とのセットが基本。'loyal for〜' は誤り。名詞形は 'loyalty'（忠誠心）で、ブランドの「ロイヤルティプログラム（loyalty program）」でも馴染みがある。",
+      "confusables": "'loyal'（忠実な）vs 'royal'（王族の）：スペルが1文字違いで混同しやすい。'loyal' は 'l-o'、'royal' は 'r-o' で始まる。意味は全く異なるので注意。",
+      "collocations": [
+        "loyal customer",
+        "loyal supporter",
+        "loyal to the end"
+      ],
+      "trivia": "犬が「忠実」の象徴とされるのは世界共通で、英語でも 'as loyal as a dog' という表現がある。ちなみに日本の忠犬ハチ公の話は英語圏でも映画化され 'Hachi: A Dog's Tale' として広く知られている。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 601,
+    "word": "commit",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（罪・過ちを）犯す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（〜に）専念する・約束する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈmɪt/",
+    "syllables": "com-mit",
+    "audioHint": "コミット",
+    "examples": [
+      {
+        "en": "He committed a serious mistake at work yesterday.",
+        "ja": "彼は昨日仕事で重大なミスを犯した。",
+        "blank": "He ___ a serious mistake at work yesterday.",
+        "blankAnswer": "committed"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "拒絶する",
+      "報告する"
+    ],
+    "confusableSpellings": [
+      "comit",
+      "committ",
+      "commiit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 committere から。com-（共に・完全に）＋ mittere（送る・委ねる）。「完全に送り出す＝任せる・行う」が原義。",
+      "tips": "commit to ～ で「〜に専念する・コミットする」という意味になる。「コミット」はIT用語（Gitのコミット）としても使われるが、英語では「約束する」「犯す」の意味が中心。commit a crime（犯罪を犯す）のように、悪いことに使うイメージが強いので注意。",
+      "confusables": "promise（口頭の約束）との違い：commit は行動への関与・専念を強調し、より強い意志を含む。dedicate（捧げる）より責任感のニュアンスが強い。",
+      "collocations": [
+        "commit a crime",
+        "commit to a plan",
+        "commit suicide"
+      ],
+      "trivia": "ビジネス英語で「フルコミット」と言うが、これは和製英語的な使い方。英語では commit fully to the project のように使うのが自然。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 602,
+    "word": "stimulate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "刺激する・促進する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（興味・活動を）活性化させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈstɪmjʊleɪt/",
+    "syllables": "stim-u-late",
+    "audioHint": "スティミュレイト",
+    "examples": [
+      {
+        "en": "Music can stimulate creativity in children.",
+        "ja": "音楽は子どもたちの創造性を刺激することができる。",
+        "blank": "Music can ___ creativity in children.",
+        "blankAnswer": "stimulate"
+      }
+    ],
+    "distractors": [
+      "弱める",
+      "無視する",
+      "分解する"
+    ],
+    "confusableSpellings": [
+      "stimualte",
+      "stimullate",
+      "stimlulate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 stimulare から。stimulus（とがった棒・刺激物）が語根。動物を棒で突いて動かすイメージが原義。",
+      "tips": "stimulate は「外部から働きかけて活性化させる」という意味が核心。「刺激する」と訳すとエロい印象になる場合があるが、英語では知的・経済的・生理的刺激など中立的に幅広く使われる。",
+      "confusables": "encourage（励ます）は人に対して感情的に後押しするイメージ。stimulate はより客観的・物理的・化学的な活性化に使うことが多い。",
+      "collocations": [
+        "stimulate the economy",
+        "stimulate growth",
+        "stimulate interest"
+      ],
+      "trivia": "「スティミュラス（stimulus）」は経済用語として日本でも使われるが、これは stimulate の名詞形。コロナ禍のアメリカで「stimulus check（給付金小切手）」として一気に有名になった単語。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 603,
+    "word": "enhance",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "高める・強化する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（品質・価値を）向上させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈhæns/",
+    "syllables": "en-hance",
+    "audioHint": "インハンス",
+    "examples": [
+      {
+        "en": "Regular exercise can enhance your mental health significantly.",
+        "ja": "定期的な運動はあなたの精神的健康を大幅に向上させることができる。",
+        "blank": "Regular exercise can ___ your mental health significantly.",
+        "blankAnswer": "enhance"
+      }
+    ],
+    "distractors": [
+      "妨げる",
+      "置き換える",
+      "縮小する"
+    ],
+    "confusableSpellings": [
+      "inhance",
+      "enhanse",
+      "enhancce"
+    ],
+    "passive": {
+      "etymology": "古フランス語 enhaucier から。en-（〜にする）＋ haut（高い、ラテン語 altus に由来）。「高くする」が原義。",
+      "tips": "enhance は「すでに良いものをさらに良くする」ニュアンスがある。ゼロから作るのではなく、既存のものを底上げするイメージ。improve と似ているが、enhance はより「質・価値の向上」を強調し、フォーマルな文脈で好まれる。",
+      "confusables": "improve（改善する）はネガティブな状態からの改善にも使えるが、enhance は良いものをさらに良くする文脈が多い。boost（急激に高める）よりも上品なニュアンス。",
+      "collocations": [
+        "enhance performance",
+        "enhance the image",
+        "enhance security"
+      ],
+      "trivia": "写真編集や映像処理の分野で「enhance（画像を鮮明にする）」という意味でも使われる。刑事ドラマで「Enhance!」と叫んでぼやけた映像を鮮明にするシーンはおなじみ。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  },
+  {
+    "id": 604,
+    "word": "pursue",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "追求する・追いかける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（目標・夢を）追い続ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pərˈsjuː/",
+    "syllables": "pur-sue",
+    "audioHint": "パースー",
+    "examples": [
+      {
+        "en": "She decided to pursue a career in medicine.",
+        "ja": "彼女は医学の道を追求することに決めた。",
+        "blank": "She decided to ___ a career in medicine.",
+        "blankAnswer": "pursue"
+      }
+    ],
+    "distractors": [
+      "放棄する",
+      "修正する",
+      "分類する"
+    ],
+    "confusableSpellings": [
+      "persue",
+      "pursure",
+      "puruse"
+    ],
+    "passive": {
+      "etymology": "古フランス語 poursuivre から。pour-（前に）＋ suivre（従う・追う、ラテン語 sequi に由来）。「前に向かって追いかける」が原義。",
+      "tips": "persue と誤記するケースが非常に多い。per- ではなく pur- から始まることに注意。「パースー」と発音で覚えると綴りミスが減る。pursue happiness（幸福を追求する）はアメリカ独立宣言にも登場する重要表現。",
+      "confusables": "chase（追いかける）は物理的に走って追う場面が多い。pursue はより長期的・抽象的な目標の追求に使われることが多い。seek（求める）と似ているが、pursue はプロセス・継続性を強調する。",
+      "collocations": [
+        "pursue a dream",
+        "pursue happiness",
+        "pursue a goal"
+      ],
+      "trivia": "アメリカ独立宣言の「life, liberty and the pursuit of happiness（生命・自由・幸福の追求）」の pursuit が pursue の名詞形。世界で最も有名な pursue 関連フレーズかもしれない。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 605,
+    "word": "react",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "反応する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（〜に対して）応じる・対応する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/riˈækt/",
+    "syllables": "re-act",
+    "audioHint": "リアクト",
+    "examples": [
+      {
+        "en": "How did he react when he heard the news?",
+        "ja": "彼はそのニュースを聞いてどう反応しましたか？",
+        "blank": "How did he ___ when he heard the news?",
+        "blankAnswer": "react"
+      }
+    ],
+    "distractors": [
+      "理解する",
+      "説得する",
+      "記憶する"
+    ],
+    "confusableSpellings": [
+      "reakt",
+      "reackt",
+      "rreact"
+    ],
+    "passive": {
+      "etymology": "ラテン語由来。re-（再び・返して）＋ act（行動する、agere から）。「返して行動する＝反応する」が原義。",
+      "tips": "react to ～ で「〜に反応する」という形が基本。react against は「〜に反発する」という否定的なニュアンスになる。日本語の「リアクション（reaction）」は名詞形。「リアクトする」は和製英語なので注意。",
+      "confusables": "respond（応答する）は react より冷静で意図的なニュアンスがある。react は感情的・即座の反応を含意することが多い。answer は質問への回答に限定されることが多い。",
+      "collocations": [
+        "react to the news",
+        "react quickly",
+        "react with anger"
+      ],
+      "trivia": "Meta（旧Facebook）の「リアクション機能」（👍❤️😆など）は英語では reactions と呼ばれる。SNS文化が「react」という単語をさらに身近にした。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 606,
+    "word": "disagree",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "同意しない・反対する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（意見が）一致しない",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌdɪsəˈɡriː/",
+    "syllables": "dis-a-gree",
+    "audioHint": "ディサグリー",
+    "examples": [
+      {
+        "en": "I disagree with your opinion about the new policy.",
+        "ja": "私は新しい方針についてのあなたの意見に同意しません。",
+        "blank": "I ___ with your opinion about the new policy.",
+        "blankAnswer": "disagree"
+      }
+    ],
+    "distractors": [
+      "確認する",
+      "想像する",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "dissagree",
+      "disagre",
+      "disagree"
+    ],
+    "passive": {
+      "etymology": "dis-（否定・反対）＋ agree（同意する、古フランス語 agréer から）。「同意することの否定」が構造そのもの。",
+      "tips": "disagree with ～ が基本形。「〜と意見が合わない」と言うとき with を使うのがポイント。disagree on/about ～ は「〜について意見が一致しない」という形。dis- を付け忘れて agree と書いてしまうミスが多い。",
+      "confusables": "object to（〜に異議を唱える）はより強く公式な反対。protest（抗議する）はさらに積極的な行動を伴う反対。disagree は穏やかな意見の相違から強い反対まで幅広く使える中立的な語。",
+      "collocations": [
+        "disagree with someone",
+        "strongly disagree",
+        "agree to disagree"
+      ],
+      "trivia": "英語には「agree to disagree（意見の違いを認めて尊重し合う）」という慣用表現がある。言い争いを終わらせるときの大人の一言で、英語話者はよく使う。"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 607,
+    "word": "stare",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "じっと見つめる・凝視する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（驚きや好奇心で）目を見張る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɛr/",
+    "syllables": "stare",
+    "audioHint": "ステア",
+    "examples": [
+      {
+        "en": "She stared at the painting for a long time.",
+        "ja": "彼女はその絵をしばらくの間じっと見つめた。",
+        "blank": "She ___ at the painting for a long time.",
+        "blankAnswer": "stared"
+      }
+    ],
+    "distractors": [
+      "触れる",
+      "叫ぶ",
+      "走る"
+    ],
+    "confusableSpellings": [
+      "stair",
+      "starre",
+      "stear"
+    ],
+    "passive": {
+      "etymology": "古英語 starian（じっと見る）から。「硬直した目で見る」というイメージが語根にある。",
+      "tips": "stare at ～ で「〜をじっと見つめる」。look はただ見ること、watch は動くものを注意して見ること、stare は一点を凝視するイメージ。英語文化圏では他人を stare するのは失礼とされることが多い。",
+      "confusables": "gaze（うっとり眺める）は感情的・ロマンティックなニュアンスが強い。glare（にらみつける）は怒りを伴う凝視。stare は中立的だが、文脈によって失礼なニュアンスになることも。",
+      "collocations": [
+        "stare at someone",
+        "stare into space",
+        "stare blankly"
+      ],
+      "trivia": "「stare into the void（虚空を見つめる）」は英語圏のネットミームで、ぼーっとしている状態を表す。日本語の「魂が抜けた顔」に近い表現として若者文化でよく使われる。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 608,
+    "word": "abandon",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "捨てる・放棄する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人・場所を）見捨てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈbændən/",
+    "syllables": "a-ban-don",
+    "audioHint": "アバンダン",
+    "examples": [
+      {
+        "en": "They had to abandon their car in the heavy snow.",
+        "ja": "彼らは大雪の中、車を乗り捨てなければならなかった。",
+        "blank": "They had to ___ their car in the heavy snow.",
+        "blankAnswer": "abandon"
+      }
+    ],
+    "distractors": [
+      "収集する",
+      "変換する",
+      "強化する"
+    ],
+    "confusableSpellings": [
+      "abondon",
+      "abandone",
+      "abbandom"
+    ],
+    "passive": {
+      "etymology": "古フランス語 abandonner から。a bandon（支配の下に・自由に任せて）が語源。ban は「支配・権限」の意味。「自分の権限を手放す」が原義。",
+      "tips": "abandon は「完全に・永久に捨てる」という強い意味がある。give up より感情的な重さが大きく、特に人や大切なものを捨てるときに使う。abandon ship（船を捨てる＝逃げる）は比喩的にも使われる。",
+      "confusables": "give up（諦める）は挑戦や努力をやめること。desert（見捨てる）は人を孤独に残すニュアンス。abandon は物・場所・人・計画すべてに使える最も汎用的な語。",
+      "collocations": [
+        "abandon a plan",
+        "abandon ship",
+        "abandon hope"
+      ],
+      "trivia": "名詞の abandon は「自制心のなさ・奔放さ」という全く違う意味になる。with wild abandon（無我夢中で・奔放に）という表現で使われ、捨てるどころかむしろ開放的なニュアンスになる。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 609,
+    "word": "quit",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "辞める・やめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（習慣・行動を）中止する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kwɪt/",
+    "syllables": "quit",
+    "audioHint": "クウィット",
+    "examples": [
+      {
+        "en": "He quit smoking three years ago.",
+        "ja": "彼は3年前に喫煙をやめた。",
+        "blank": "He ___ smoking three years ago.",
+        "blankAnswer": "quit"
+      }
+    ],
+    "distractors": [
+      "始める",
+      "継続する",
+      "獲得する"
+    ],
+    "confusableSpellings": [
+      "qiut",
+      "quitt",
+      "kwit"
+    ],
+    "passive": {
+      "etymology": "古フランス語 quitter（解放する・立ち去る）から。ラテン語 quietus（安静な・解放された）が語根。「義務から解放される」が原義。",
+      "tips": "quit の過去形・過去分詞は quit（変化なし）が一般的（アメリカ英語）。quitted も文法的に正しいが現代英語では稀。quit doing ～ の形で使い、quit to do とはしない点に注意。",
+      "confusables": "stop（止まる）は一時的にも永久にも使えるが、quit は「完全にやめる」ニュアンスが強い。resign（辞職する）は仕事・役職に限定されるフォーマルな語。quit a job はカジュアルな表現。",
+      "collocations": [
+        "quit smoking",
+        "quit a job",
+        "quit trying"
+      ],
+      "trivia": "「quitter（すぐ諦める人）」という名詞もあり、英語では「Don't be a quitter!（諦めるな！）」のような使い方をする。quit から派生した「クイッター」は日本語にはない概念で面白い。"
+    },
+    "frequency": 1900,
+    "cefr": "A2"
+  },
+  {
+    "id": 610,
+    "word": "capture",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "捕まえる・捕獲する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（関心・雰囲気を）とらえる・記録する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkæptʃər/",
+    "syllables": "cap-ture",
+    "audioHint": "キャプチャー",
+    "examples": [
+      {
+        "en": "The photographer captured a beautiful sunset.",
+        "ja": "カメラマンは美しい夕焼けを撮影した。",
+        "blank": "The photographer ___ a beautiful sunset.",
+        "blankAnswer": "captured"
+      }
+    ],
+    "distractors": [
+      "解放する",
+      "運搬する",
+      "消費する"
+    ],
+    "confusableSpellings": [
+      "captur",
+      "caputre",
+      "captcher"
+    ],
+    "passive": {
+      "etymology": "ラテン語 captura から。capere（取る・つかむ）＋ -ture（行為を表す接尾辞）。「つかみ取る行為」が原義。capable や accept も同じ語根を持つ。",
+      "tips": "capture には「物理的に捕まえる」意味と「写真・映像に収める」「心・注意をつかむ」という抽象的な意味がある。「スクリーンショット」を capture screen や screen capture と言うのはこの意味から。",
+      "confusables": "catch（捕まえる）はより口語的・瞬間的。capture は意図的・計画的に捕らえるニュアンスが強い。arrest（逮捕する）は法執行の文脈に限定される。",
+      "collocations": [
+        "capture a criminal",
+        "capture attention",
+        "capture the moment"
+      ],
+      "trivia": "パソコンの「キャプチャー（capture）」は画面や映像を「捕まえる」という意味から来ている。また「capture someone's heart（誰かの心を射止める）」というロマンティックな表現でも使われる万能語。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 611,
+    "word": "transfer",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "移す、転送する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "乗り換える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trænsˈfɜːr/",
+    "syllables": "trans-fer",
+    "audioHint": "トランスファー",
+    "examples": [
+      {
+        "en": "She transferred all her files to the new computer.",
+        "ja": "彼女はすべてのファイルを新しいコンピュータに移した。",
+        "blank": "She ___ all her files to the new computer.",
+        "blankAnswer": "transferred"
+      }
+    ],
+    "distractors": [
+      "保存する",
+      "修正する",
+      "設置する"
+    ],
+    "confusableSpellings": [
+      "transferr",
+      "tranfer",
+      "transfar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 transferre から。trans-（向こうへ）＋ ferre（運ぶ）。「向こう側へ運ぶ」がそのまま意味になっている。",
+      "tips": "名詞と動詞でアクセント位置が変わる！名詞は TRANSfer（前にアクセント）、動詞は transFER（後ろにアクセント）。日本人はどちらも同じに読みがち。",
+      "confusables": "transmit（電波・信号などを「送信する」）と混同しやすいが、transfer は物・人・データを「物理的または論理的に移す」ニュアンスが強い。",
+      "collocations": [
+        "transfer money（送金する）",
+        "transfer files（ファイルを転送する）",
+        "transfer to another school（転校する）"
+      ],
+      "trivia": "銀行の「振込」も transfer（bank transfer）。世界中で1日に何兆円もの transfer が行われていると思うと、この単語の重さがわかる。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 612,
+    "word": "bother",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "悩ます、迷惑をかける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "わざわざ〜する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbɒðər/",
+    "syllables": "both-er",
+    "audioHint": "ボザー",
+    "examples": [
+      {
+        "en": "Does the noise bother you when you study?",
+        "ja": "勉強するとき、その騒音は気になりますか？",
+        "blank": "Does the noise ___ you when you study?",
+        "blankAnswer": "bother"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "想像する",
+      "理解する"
+    ],
+    "confusableSpellings": [
+      "boher",
+      "bothur",
+      "bothar"
+    ],
+    "passive": {
+      "etymology": "アイルランド語 buaidhirt（悩み、不安）から英語に入ったとされる。語源がアイルランド語という珍しいケース。",
+      "tips": "「Don't bother.」は「気にしないで／わざわざしなくていいよ」という意味。日本人は「迷惑をかける」の意味だけ覚えがちだが、「わざわざ〜する」の用法も超重要。",
+      "confusables": "disturb（邪魔をする）と似ているが、bother はより「心理的・感情的に煩わしい」ニュアンスで、disturb は「集中や睡眠などを物理的に妨げる」ことが多い。",
+      "collocations": [
+        "bother someone（〜を悩ます）",
+        "don't bother（気にしないで）",
+        "bother to do（わざわざ〜する）"
+      ],
+      "trivia": "「Sorry to bother you.」はビジネスメールの書き出しとして世界中で使われる定番フレーズ。日本語の「お手数をおかけしますが」にほぼ対応する。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 613,
+    "word": "persuade",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "説得する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "納得させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pərˈsweɪd/",
+    "syllables": "per-suade",
+    "audioHint": "パースウェイド",
+    "examples": [
+      {
+        "en": "He finally persuaded his parents to let him study abroad.",
+        "ja": "彼はついに両親を説得して留学を認めてもらった。",
+        "blank": "He finally ___ his parents to let him study abroad.",
+        "blankAnswer": "persuaded"
+      }
+    ],
+    "distractors": [
+      "命令する",
+      "批判する",
+      "無視する"
+    ],
+    "confusableSpellings": [
+      "perswade",
+      "persuaid",
+      "perswaed"
+    ],
+    "passive": {
+      "etymology": "ラテン語 persuadere から。per-（完全に）＋ suadere（勧める、アドバイスする）。「完全に勧め切る」→「説得する」。",
+      "tips": "persuade + 人 + to do の形が基本。「persuade that...」も使えるが、人を動かすニュアンスが薄れる。convince との違いに注意：convince は「頭で納得させる」、persuade は「行動まで促す」。",
+      "confusables": "convince（確信させる）と混同しやすい。persuade him to go（行くよう説得した＝実際に行った可能性が高い）vs convince him to go（行くよう納得させた）。",
+      "collocations": [
+        "persuade someone to do（〜するよう説得する）",
+        "persuade someone into doing（〜することへ説得する）",
+        "hard to persuade（説得しにくい）"
+      ],
+      "trivia": "ギリシャの哲学者ソクラテスは「対話による説得」を重視した。persuade の語源 suadere は「心地よく勧める」という意味で、force（強制）とは真逆の温かみがある。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 614,
+    "word": "rent",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "借りる、賃貸する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "家賃、賃料",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɛnt/",
+    "syllables": "rent",
+    "audioHint": "レント",
+    "examples": [
+      {
+        "en": "They decided to rent an apartment near the station.",
+        "ja": "彼らは駅の近くにアパートを借りることにした。",
+        "blank": "They decided to ___ an apartment near the station.",
+        "blankAnswer": "rent"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "購入する",
+      "輸出する"
+    ],
+    "confusableSpellings": [
+      "rend",
+      "reent",
+      "rnet"
+    ],
+    "passive": {
+      "etymology": "古フランス語 rente（収入、年金）から。ラテン語 reddita（返されたもの）が語源。「使用の対価として返すもの」→「賃料・借りる」。",
+      "tips": "rent は「借りる側」にも「貸す側」にも使える両方向の動詞。「I rent a car.」（借りる）も「I rent out my house.」（貸す）も正しい。rent out で「貸し出す」の意味になる。",
+      "confusables": "lease（リース、長期契約で借りる）と混同しやすいが、rent の方がカジュアルで短期・日常的。lease は法的契約や長期契約のニュアンスが強い。",
+      "collocations": [
+        "rent a car（車を借りる）",
+        "pay rent（家賃を払う）",
+        "rent out a room（部屋を貸し出す）"
+      ],
+      "trivia": "ミュージカル『RENT』（1996年）はNYのアーティストたちの家賃問題を描いた大ヒット作。タイトルの「RENT」は経済的苦しさと自由を同時に象徴している。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 615,
+    "word": "breed",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "繁殖する、育てる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "品種、種類",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/briːd/",
+    "syllables": "breed",
+    "audioHint": "ブリード",
+    "examples": [
+      {
+        "en": "These birds breed only once a year.",
+        "ja": "これらの鳥は年に一度しか繁殖しない。",
+        "blank": "These birds ___ only once a year.",
+        "blankAnswer": "breed"
+      }
+    ],
+    "distractors": [
+      "呼吸する",
+      "消化する",
+      "泳ぐ"
+    ],
+    "confusableSpellings": [
+      "braed",
+      "breid",
+      "breeed"
+    ],
+    "passive": {
+      "etymology": "古英語 bredan（温める、育てる）から。もともとは「卵を温めて育てる」というイメージ。「温かく育む」が語源の中心。",
+      "tips": "breed の過去形・過去分詞は bred（不規則変化）。「bread（パン）」と混同しやすいので注意。名詞では「犬の breed（犬種）」など品種の意味で日常的によく使う。",
+      "confusables": "raise（育てる）と混同しやすいが、breed は「生物が繁殖する・させる」に焦点を当て、raise は「子どもや動物を養育する」という継続的な育成に焦点がある。",
+      "collocations": [
+        "breed dogs（犬を繁殖させる）",
+        "breed contempt（軽蔑を生む）",
+        "a rare breed（珍しい品種・種類）"
+      ],
+      "trivia": "「Familiarity breeds contempt（親しみは軽蔑を生む）」という有名なことわざがある。breed は動物だけでなく「感情や状況を生み出す」という抽象的な使い方もできる。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 616,
+    "word": "invest",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "投資する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（時間・労力を）注ぎ込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈvɛst/",
+    "syllables": "in-vest",
+    "audioHint": "インヴェスト",
+    "examples": [
+      {
+        "en": "She decided to invest her savings in tech stocks.",
+        "ja": "彼女は貯金をテクノロジー株に投資することにした。",
+        "blank": "She decided to ___ her savings in tech stocks.",
+        "blankAnswer": "invest"
+      }
+    ],
+    "distractors": [
+      "節約する",
+      "借りる",
+      "輸入する"
+    ],
+    "confusableSpellings": [
+      "envest",
+      "invset",
+      "investt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 investire から。in-（中に）＋ vestire（衣服を着せる）。もともとは「権威の衣を着せる＝権限を与える」という意味。それが「資金を委ねる」へ発展した。",
+      "tips": "invest in ～ の形で使うのが基本。お金だけでなく「時間・努力」にも使える（invest time in studying）のが便利。日本人は「お金」にしか使わないと思いがち。",
+      "confusables": "spend（使う）と混同しやすいが、invest は「将来の利益を期待して使う」ニュアンスがあり、単なる消費（spend）とは区別される。",
+      "collocations": [
+        "invest in stocks（株に投資する）",
+        "invest time（時間を注ぎ込む）",
+        "invest heavily（大規模に投資する）"
+      ],
+      "trivia": "語源が「服を着せる」というのが面白い。中世ヨーロッパでは、王が臣下に服（vestment）を与えることで権力を「投資」した。今の金融用語がここからきているとは驚き。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 617,
+    "word": "reserve",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "予約する、確保する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "蓄え、保護区",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈzɜːrv/",
+    "syllables": "re-serve",
+    "audioHint": "リザーヴ",
+    "examples": [
+      {
+        "en": "I'd like to reserve a table for two tonight.",
+        "ja": "今夜、2名のテーブルを予約したいのですが。",
+        "blank": "I'd like to ___ a table for two tonight.",
+        "blankAnswer": "reserve"
+      }
+    ],
+    "distractors": [
+      "廃棄する",
+      "展示する",
+      "修理する"
+    ],
+    "confusableSpellings": [
+      "reseve",
+      "reserv",
+      "resevre"
+    ],
+    "passive": {
+      "etymology": "ラテン語 reservare から。re-（再び・取っておく）＋ servare（守る・保つ）。「後のために守っておく」がそのまま意味になった。",
+      "tips": "reserve（予約する）と book（予約する）は似ているが、reserve はやや格式高い表現でホテルや高級レストランで使いやすい。「reserved（控えめな性格）」という形容詞も重要。",
+      "confusables": "preserve（保存する・保護する）と混同しやすい。reserve は「後で使うために取っておく」、preserve は「現状を守り続ける」イメージの違いがある。",
+      "collocations": [
+        "reserve a seat（座席を予約する）",
+        "nature reserve（自然保護区）",
+        "reserve judgment（判断を保留する）"
+      ],
+      "trivia": "野球やサッカーの「リザーブ（控え選手）」も同じ語源。「いざという時のために確保してある人・物」という意味で、語源の「守っておく」がそのまま生きている。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 618,
+    "word": "trace",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "たどる、追跡する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "痕跡、形跡",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/treɪs/",
+    "syllables": "trace",
+    "audioHint": "トレイス",
+    "examples": [
+      {
+        "en": "Police traced the call back to a nearby phone booth.",
+        "ja": "警察はその電話を近くの公衆電話にまでたどった。",
+        "blank": "Police ___ the call back to a nearby phone booth.",
+        "blankAnswer": "traced"
+      }
+    ],
+    "distractors": [
+      "押しつぶす",
+      "分類する",
+      "測定する"
+    ],
+    "confusableSpellings": [
+      "trase",
+      "treace",
+      "traise"
+    ],
+    "passive": {
+      "etymology": "古フランス語 tracier（道を引く）から。ラテン語 tractiare（引っ張る）が語源。「線を引きながら追う」というイメージが core。",
+      "tips": "trace back to ～（〜にまでさかのぼる）という表現が非常に便利で頻出。また「トレーシングペーパー」の trace も同じ単語。物理的な「なぞり書き」から比喩的な「追跡」まで幅広く使える。",
+      "confusables": "track（追跡する）と混同しやすいが、trace は「痕跡をたどる・起源をさかのぼる」、track は「リアルタイムで動きを追う」ニュアンスが強い。",
+      "collocations": [
+        "trace the origin（起源をたどる）",
+        "trace back to（〜にさかのぼる）",
+        "leave no trace（痕跡を残さない）"
+      ],
+      "trivia": "「Leave No Trace（痕跡を残すな）」はアウトドア・登山界の有名な環境倫理原則。自然の中に人工的な痕跡を残さないという考え方で、世界中のハイカーに浸透している。"
+    },
+    "frequency": 1000,
+    "cefr": "B1"
+  },
+  {
+    "id": 619,
+    "word": "illustrate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "説明する、例示する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "挿絵を描く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪləstreɪt/",
+    "syllables": "il-lus-trate",
+    "audioHint": "イラストレイト",
+    "examples": [
+      {
+        "en": "This graph illustrates the rise in global temperatures.",
+        "ja": "このグラフは世界の気温上昇を示している。",
+        "blank": "This graph ___ the rise in global temperatures.",
+        "blankAnswer": "illustrates"
+      }
+    ],
+    "distractors": [
+      "批判する",
+      "想定する",
+      "否定する"
+    ],
+    "confusableSpellings": [
+      "ilustrate",
+      "illustrrate",
+      "illusrate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 illustrare から。in-（中を）＋ lustrare（光を当てる）。「光を当てて明るくする＝わかりやすくする」が語源。illuminate と同じ語根。",
+      "tips": "日本語の「イラスト」は「絵」のイメージだが、英語の illustrate は「例を挙げて説明する」という意味でも非常によく使う。論文やプレゼンで「This example illustrates...」という形が頻出。",
+      "confusables": "demonstrate（実演して示す）と混同しやすいが、illustrate は言葉・図・例で「わかりやすく説明する」、demonstrate は実際に行動して「証明・実演する」ニュアンスが強い。",
+      "collocations": [
+        "illustrate a point（要点を説明する）",
+        "illustrate with examples（例を挙げて説明する）",
+        "illustrated book（挿絵入りの本）"
+      ],
+      "trivia": "「illuminate（照らす）」「illustrious（著名な）」「luster（光沢）」はすべて同じラテン語の光（lux/lumen）の語根を持つ仲間。illustrate は「知識の光を当てる」という詩的な意味が隠れている。"
+    },
+    "frequency": 1300,
+    "cefr": "B2"
+  },
+  {
+    "id": 620,
+    "word": "advise",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "アドバイスする、助言する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "通知する、勧告する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ədˈvaɪz/",
+    "syllables": "ad-vise",
+    "audioHint": "アドヴァイズ",
+    "examples": [
+      {
+        "en": "The doctor advised her to rest for at least a week.",
+        "ja": "医師は彼女に少なくとも1週間休むよう助言した。",
+        "blank": "The doctor ___ her to rest for at least a week.",
+        "blankAnswer": "advised"
+      }
+    ],
+    "distractors": [
+      "命令する",
+      "批判する",
+      "禁止する"
+    ],
+    "confusableSpellings": [
+      "advize",
+      "adivse",
+      "advise"
+    ],
+    "passive": {
+      "etymology": "古フランス語 aviser から。ラテン語 ad-（〜に向けて）＋ visum（見ること・判断）。「相手に向けて自分の判断を伝える」が原義。vision（視覚）と同じ語根。",
+      "tips": "advise（動詞）と advice（名詞）のスペルの違いに注意！動詞は -ise、名詞は -ice。「give advice（アドバイスをする）」と言えても「advise him（彼に助言する）」を使いこなせるようになろう。",
+      "confusables": "suggest（提案する）と混同しやすいが、advise はより専門的・権威的な立場から「すべきことを示す」ニュアンスがある。suggest はよりカジュアルに「〜はどうかと提案する」感じ。",
+      "collocations": [
+        "advise someone to do（〜するよう助言する）",
+        "strongly advise（強く勧告する）",
+        "advise against（〜しないよう助言する）"
+      ],
+      "trivia": "英国英語では advise を「通知する・知らせる」という書き言葉的な意味でもよく使う（例：Please be advised that...）。ビジネスメールの定番フレーズで、知っていると一気にプロっぽくなる。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  }
+]

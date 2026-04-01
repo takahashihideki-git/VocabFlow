@@ -1,0 +1,992 @@
+[
+  {
+    "id": 681,
+    "word": "solid",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "固体の、固い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "しっかりした、堅実な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsɒlɪd/",
+    "syllables": "sol-id",
+    "audioHint": "ソリッド",
+    "examples": [
+      {
+        "en": "The table is made of solid oak.",
+        "ja": "そのテーブルは無垢のオークでできている。",
+        "blank": "The table is made of ___ oak.",
+        "blankAnswer": "solid"
+      }
+    ],
+    "distractors": [
+      "遠い、遠隔の",
+      "頻繁な",
+      "永続的な"
+    ],
+    "confusableSpellings": [
+      "sollid",
+      "solide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 solidus（固い、完全な）に由来。語根 sol- は「全体・完全」を意味し、英語の sole（唯一の）とも同根。",
+      "tips": "「固体」の意味だけでなく「信頼できる・堅実な」という抽象的な意味でも頻繁に使われる。'a solid plan'（しっかりした計画）のように使える。",
+      "confusables": "solid（固体・堅固）と rigid（硬直した・融通のきかない）は似ているが、rigid はネガティブなニュアンスを持つことが多い。",
+      "collocations": [
+        "solid foundation（堅固な基盤）",
+        "solid evidence（確かな証拠）",
+        "solid gold（純金）"
+      ],
+      "trivia": "ゲームや音楽で「ソリッド」はよく「本物感・重厚感」を表す形容詞として使われる。Metal Gear Solidの「Solid」もこの意味から来ている。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 682,
+    "word": "remote",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "遠隔の、人里離れた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "わずかな、ほとんどない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/rɪˈməʊt/",
+    "syllables": "re-mote",
+    "audioHint": "リモウト",
+    "examples": [
+      {
+        "en": "She lives in a remote village in the mountains.",
+        "ja": "彼女は山の中の人里離れた村に住んでいる。",
+        "blank": "She lives in a ___ village in the mountains.",
+        "blankAnswer": "remote"
+      }
+    ],
+    "distractors": [
+      "固い、堅実な",
+      "頻繁な",
+      "永続的な"
+    ],
+    "confusableSpellings": [
+      "reomte",
+      "remot"
+    ],
+    "passive": {
+      "etymology": "ラテン語 remotus（遠ざけられた）に由来。接頭辞 re-（離れて）＋語根 movere（動かす）が変化したもの。move と同じ語根を持つ。",
+      "tips": "現代では「リモートワーク（remote work）」として日本語にも浸透しているが、「可能性がほとんどない」という意味（a remote chance）も重要。",
+      "confusables": "remote（物理的・可能性的に遠い）と distant（距離的に遠い）は似ているが、distant は感情的な「よそよそしさ」にも使える。",
+      "collocations": [
+        "remote area（遠隔地）",
+        "remote control（リモコン）",
+        "remote possibility（わずかな可能性）"
+      ],
+      "trivia": "「リモコン」は和製英語ではなく remote control の略。英語でも口語で remote だけでリモコンを指すことがある。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 683,
+    "word": "principal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "主要な、最も重要な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "校長（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɪnsɪpəl/",
+    "syllables": "prin-ci-pal",
+    "audioHint": "プリンシパル",
+    "examples": [
+      {
+        "en": "The principal reason for her success was hard work.",
+        "ja": "彼女が成功した主な理由は努力だった。",
+        "blank": "The ___ reason for her success was hard work.",
+        "blankAnswer": "principal"
+      }
+    ],
+    "distractors": [
+      "合理的な、理性的な",
+      "洗練された",
+      "絶対的な"
+    ],
+    "confusableSpellings": [
+      "princapal",
+      "principel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 principalis（第一の、主要な）に由来。princeps（第一人者）＝ primus（最初）＋ capere（とる）が語源。",
+      "tips": "最大の罠は principle（原則・原理）との混同。「校長・主要な」は principal（最後が -pal）、「原則」は principle（最後が -ple）。'The principal has principles.' と覚えよう。",
+      "confusables": "principal（主要な・校長）と principle（原則・信条）は発音が同じ同音異義語。スペルで区別が必要。",
+      "collocations": [
+        "principal goal（主要目標）",
+        "principal role（主役）",
+        "principal office（本社）"
+      ],
+      "trivia": "バレエの世界では最高位のダンサーを「プリンシパル（principal dancer）」と呼ぶ。まさに「一番の人」という意味がそのまま使われている。"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  },
+  {
+    "id": 684,
+    "word": "sophisticated",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "洗練された、高度な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "複雑な、精巧な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/səˈfɪstɪkeɪtɪd/",
+    "syllables": "so-phis-ti-cat-ed",
+    "audioHint": "ソフィスティケイティッド",
+    "examples": [
+      {
+        "en": "This software uses a sophisticated algorithm.",
+        "ja": "このソフトウェアは洗練されたアルゴリズムを使っている。",
+        "blank": "This software uses a ___ algorithm.",
+        "blankAnswer": "sophisticated"
+      }
+    ],
+    "distractors": [
+      "主要な、最も重要な",
+      "合理的な",
+      "同等の"
+    ],
+    "confusableSpellings": [
+      "sophistocated",
+      "sophisticaed"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 sophistes（賢者・詭弁家）に由来。sophia（知恵）が語根で、philosophy（哲学）の philo-sophia とも同じ sophia を共有。",
+      "tips": "「ソフィスティケイティッド」と長い単語だが、-icated という形容詞語尾と覚えると楽。人に使うと「垢抜けた・教養がある」、機械や技術に使うと「高性能・精巧な」という意味になる。",
+      "confusables": "sophisticated（洗練・高度）と elaborate（念入りな・詳細な）は似ているが、elaborate は準備の手間に、sophisticated はレベルの高さに焦点がある。",
+      "collocations": [
+        "sophisticated technology（高度な技術）",
+        "sophisticated taste（洗練された趣味）",
+        "sophisticated system（精巧なシステム）"
+      ],
+      "trivia": "もともと「sophist（詭弁家）」から来ているため、かつては「小賢しい・ごまかしの」というネガティブな意味で使われていた。今ではほぼポジティブな意味に転換している。"
+    },
+    "frequency": 2000,
+    "cefr": "C1"
+  },
+  {
+    "id": 685,
+    "word": "equivalent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "同等の、相当する",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "同等のもの（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈkwɪvələnt/",
+    "syllables": "e-quiv-a-lent",
+    "audioHint": "イクウィヴァレント",
+    "examples": [
+      {
+        "en": "One mile is equivalent to about 1.6 kilometers.",
+        "ja": "1マイルは約1.6キロメートルに相当する。",
+        "blank": "One mile is ___ to about 1.6 kilometers.",
+        "blankAnswer": "equivalent"
+      }
+    ],
+    "distractors": [
+      "絶対的な",
+      "洗練された",
+      "関連する、適切な"
+    ],
+    "confusableSpellings": [
+      "equivelant",
+      "equivalant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 aequivalens に由来。接頭辞 aequi-（等しい）＋語根 valere（価値がある・強い）で「同じ価値を持つ」という意味。equal や value とも同根。",
+      "tips": "be equivalent to ～ の形で使うことが多い。「AはBに相当する」と言うとき equivalent to を使う。equal と似ているが、equivalent はより「機能・価値の同等性」を強調する。",
+      "confusables": "equivalent（同等・相当）と equal（等しい）の違い：equal は数値や量が完全に一致、equivalent は性質や機能が同等であることを示す。",
+      "collocations": [
+        "equivalent to（〜に相当する）",
+        "functional equivalent（機能的同等物）",
+        "rough equivalent（おおよその相当語句）"
+      ],
+      "trivia": "数学では「≡」という記号が equivalence（同値）を表す。日常会話でも「それって日本語で言えば何？」という場面で the Japanese equivalent of ～ という使い方がよくされる。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 686,
+    "word": "rational",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "合理的な、理性的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "論理的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈræʃənəl/",
+    "syllables": "ra-tion-al",
+    "audioHint": "ラショナル",
+    "examples": [
+      {
+        "en": "Try to make a rational decision based on the facts.",
+        "ja": "事実に基づいて合理的な判断をするようにしなさい。",
+        "blank": "Try to make a ___ decision based on the facts.",
+        "blankAnswer": "rational"
+      }
+    ],
+    "distractors": [
+      "主要な、最も重要な",
+      "同等の",
+      "絶対的な"
+    ],
+    "confusableSpellings": [
+      "racional",
+      "rationale"
+    ],
+    "passive": {
+      "etymology": "ラテン語 rationalis（理性の）に由来。語根 ratio（計算・理性）＋ -al（形容詞語尾）。ratio はそのまま英語でも「比率」を意味する。",
+      "tips": "rationale（ラショナール）という名詞と混同しやすい。rationale は「根拠・理由づけ」という名詞で、発音も異なる（/ˌræʃəˈnɑːl/）。",
+      "confusables": "rational（理性に基づいた）と reasonable（道理にかなった・穏当な）は似ているが、rational は感情の対義として「論理的」という意味を強調し、reasonable は「常識的・受け入れやすい」というニュアンスが強い。",
+      "collocations": [
+        "rational thinking（合理的思考）",
+        "rational choice（理性的選択）",
+        "rational explanation（論理的説明）"
+      ],
+      "trivia": "数学の「有理数（rational number）」もこの単語から。ratio（比）で表せる数が rational number で、表せない√2などは irrational number（無理数）と呼ばれる。"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 687,
+    "word": "relevant",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "関連のある、適切な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "重要な、意味のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈreləvənt/",
+    "syllables": "rel-e-vant",
+    "audioHint": "レレヴァント",
+    "examples": [
+      {
+        "en": "Please provide any relevant information you have.",
+        "ja": "お持ちの関連情報を何でも提供してください。",
+        "blank": "Please provide any ___ information you have.",
+        "blankAnswer": "relevant"
+      }
+    ],
+    "distractors": [
+      "合理的な",
+      "洗練された",
+      "主要な"
+    ],
+    "confusableSpellings": [
+      "relevent",
+      "relevnat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 relevare（持ち上げる・軽くする）に由来。接頭辞 re-（再び）＋ levare（持ち上げる）。lever（てこ）と同じ語根 lev- を持つ。",
+      "tips": "be relevant to ～ の形で「〜に関連する」と使う。反意語の irrelevant（無関係な）もセットで覚えると便利。ビジネス英語で頻出。",
+      "confusables": "relevant（関連・適切）と related（関係した）の違い：related は単に「関係がある」、relevant はその文脈・目的にとって「重要な関連性がある」というニュアンスが強い。",
+      "collocations": [
+        "relevant to（〜に関連する）",
+        "highly relevant（非常に関連する）",
+        "relevant experience（関連経験）"
+      ],
+      "trivia": "SNS時代のキーワードにもなっており、インフルエンサーが「自分はまだ relevantか（時代に合っているか）」を気にするという表現がよく使われる。stay relevant（時代に合い続ける）はビジネスでもよく聞くフレーズ。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 688,
+    "word": "absolute",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "絶対的な、完全な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無条件の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæbsəluːt/",
+    "syllables": "ab-so-lute",
+    "audioHint": "アブソルート",
+    "examples": [
+      {
+        "en": "She has absolute confidence in her team.",
+        "ja": "彼女は自分のチームに絶対的な信頼を置いている。",
+        "blank": "She has ___ confidence in her team.",
+        "blankAnswer": "absolute"
+      }
+    ],
+    "distractors": [
+      "関連のある",
+      "同等の",
+      "合理的な"
+    ],
+    "confusableSpellings": [
+      "absolut",
+      "absoulte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 absolutus（解放された・完全な）に由来。接頭辞 ab-（離れて）＋語根 solvere（解く・緩める）。解放されて何にも縛られない＝「絶対」という意味に。",
+      "tips": "absolutely は「まったくその通り！」と強く同意するときの口語表現として超頻出。'Are you sure?' 'Absolutely!' のような使い方を覚えよう。",
+      "confusables": "absolute（絶対的・完全）と complete（完全な・全部の）の違い：complete は「欠けているものがない」という意味、absolute は「例外や条件が一切ない」という強さを持つ。",
+      "collocations": [
+        "absolute power（絶対権力）",
+        "absolute zero（絶対零度）",
+        "absolute silence（完全な沈黙）"
+      ],
+      "trivia": "物理学の「絶対零度（absolute zero）」は−273.15°C。これ以上下がらない温度の「限界」を表すのにこの単語が使われているのは、まさに「絶対的」な意味にぴったり。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 689,
+    "word": "frequent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "頻繁な、しばしば起こる",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "よく訪れる（動詞用法）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfriːkwənt/",
+    "syllables": "fre-quent",
+    "audioHint": "フリークウェント",
+    "examples": [
+      {
+        "en": "She makes frequent trips to the library.",
+        "ja": "彼女はよく図書館に行く。",
+        "blank": "She makes ___ trips to the library.",
+        "blankAnswer": "frequent"
+      }
+    ],
+    "distractors": [
+      "固い、堅実な",
+      "永続的な",
+      "遠隔の"
+    ],
+    "confusableSpellings": [
+      "frequant",
+      "freqent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 frequens（混んでいる・頻繁な）に由来。語根 freq- は「詰め込む・繰り返す」というイメージを持つ。",
+      "tips": "形容詞 frequent と副詞 frequently はセットで覚えること。'frequent' はアクセントが FRE- だが、動詞用法（よく訪れる）では fre-QUENT とアクセントが変わる（ただし動詞用法は稀）。",
+      "confusables": "frequent（頻繁な）と regular（定期的な）の違い：regular は一定の間隔で、frequent はとにかく回数が多いことを強調する。",
+      "collocations": [
+        "frequent flyer（頻繁に飛行機を使う人）",
+        "frequent visits（頻繁な訪問）",
+        "frequent errors（頻出エラー）"
+      ],
+      "trivia": "航空会社の「マイレージプログラム」は英語で frequent flyer program と呼ばれる。あなたが貯めているマイルはまさにこの「頻繁に飛ぶ人へのご褒美」なのだ。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 690,
+    "word": "permanent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "永続的な、永久の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "固定した、常設の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpɜːrmənənt/",
+    "syllables": "per-ma-nent",
+    "audioHint": "パーマネント",
+    "examples": [
+      {
+        "en": "He is looking for a permanent job.",
+        "ja": "彼は正規の仕事を探している。",
+        "blank": "He is looking for a ___ job.",
+        "blankAnswer": "permanent"
+      }
+    ],
+    "distractors": [
+      "頻繁な",
+      "固い、堅実な",
+      "遠隔の"
+    ],
+    "confusableSpellings": [
+      "permanant",
+      "permenent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 permanere（とどまり続ける）に由来。接頭辞 per-（完全に・ずっと）＋語根 manere（とどまる）。remain（残る）とも同じ語根 man- を共有。",
+      "tips": "temporary（一時的な）の反意語として permanent を覚えると便利。'permanent residence'（永住権）、'permanent marker'（油性マジック）など日常でもよく使われる。",
+      "confusables": "permanent（永久的）と eternal（永遠の）の違い：eternal は哲学・宗教的な「時間を超えた永遠」を表し、permanent は実用的な「変わらない・長期的な」というニュアンスで使われる。",
+      "collocations": [
+        "permanent residence（永住権）",
+        "permanent damage（永続的なダメージ）",
+        "permanent solution（恒久的な解決策）"
+      ],
+      "trivia": "「パーマ（ヘアパーマ）」は permanent wave の略。「永続的なウェーブ」が語源だが、実際には数ヶ月で取れる…名前と現実のギャップが面白い。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 691,
+    "word": "intense",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "強烈な、激しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "熱心な、真剣な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtɛns/",
+    "syllables": "in-tense",
+    "audioHint": "インテンス",
+    "examples": [
+      {
+        "en": "The heat was so intense that we stayed indoors all day.",
+        "ja": "暑さがとても激しくて、私たちは一日中室内にいた。",
+        "blank": "The heat was so ___ that we stayed indoors all day.",
+        "blankAnswer": "intense"
+      }
+    ],
+    "distractors": [
+      "十分な",
+      "わずかな",
+      "明らかな"
+    ],
+    "confusableSpellings": [
+      "intence",
+      "inntense",
+      "intens"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intensus'（引き伸ばされた）から。接頭辞 'in-'（中に）＋語根 'tendere'（伸ばす）。",
+      "tips": "'intense' は感情・色・痛みなど幅広く使えるが、'intensive' と混同しやすい。'intensive' は「集中的な」（例：intensive care）という意味で、プログラムやトレーニングに使う。",
+      "confusables": "'intense' vs 'intensive'：intense は「強度が高い状態」、intensive は「集中的に行われる行為・プログラム」に使う。",
+      "collocations": [
+        "intense pressure",
+        "intense heat",
+        "intense competition"
+      ],
+      "trivia": "SNSでは「あの人、超 intense だよね」と人の性格を表すスラング的用法が広まっており、「近寄りがたいほど真剣すぎる人」というニュアンスで使われることがある。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 692,
+    "word": "meaningful",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "意味のある、有意義な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "重要な、深い意味を持つ",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmiːnɪŋfʊl/",
+    "syllables": "mean-ing-ful",
+    "audioHint": "ミーニングフル",
+    "examples": [
+      {
+        "en": "She wanted to have a meaningful conversation with her father.",
+        "ja": "彼女は父親と意味のある会話をしたかった。",
+        "blank": "She wanted to have a ___ conversation with her father.",
+        "blankAnswer": "meaningful"
+      }
+    ],
+    "distractors": [
+      "激しい",
+      "不十分な",
+      "曖昧な"
+    ],
+    "confusableSpellings": [
+      "meaningfull",
+      "meanigful",
+      "meaningfel"
+    ],
+    "passive": {
+      "etymology": "古英語 'mænan'（意味する）＋接尾辞 '-ful'（～に満ちた）。「意味に満ちた」が原義。",
+      "tips": "'meaningful' の反対語は 'meaningless'（無意味な）。日本語で「意味深」と言いたいとき、'meaningful look'（意味深な視線）という表現が使える。",
+      "confusables": "'meaningful' vs 'significant'：meaningful は「個人的・感情的な深み」を強調し、significant は「統計・重要性」の文脈で使われることが多い。",
+      "collocations": [
+        "meaningful relationship",
+        "meaningful work",
+        "meaningful dialogue"
+      ],
+      "trivia": "自己啓発系の英語コンテンツでは最頻出ワードの一つ。'meaningful life' というフレーズはポジティブ心理学の父マーティン・セリグマンが提唱したWELL-BEINGモデルにも登場する。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 693,
+    "word": "evil",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "邪悪な、悪の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "悪、邪悪（名詞）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈiːvəl/",
+    "syllables": "e-vil",
+    "audioHint": "イーヴル",
+    "examples": [
+      {
+        "en": "The villain in the movie had an evil plan to destroy the city.",
+        "ja": "映画の悪役は街を破壊する邪悪な計画を持っていた。",
+        "blank": "The villain in the movie had an ___ plan to destroy the city.",
+        "blankAnswer": "evil"
+      }
+    ],
+    "distractors": [
+      "無礼な",
+      "臆病な",
+      "贅沢な"
+    ],
+    "confusableSpellings": [
+      "evill",
+      "evel",
+      "eveil"
+    ],
+    "passive": {
+      "etymology": "古英語 'yfel'（悪い、邪悪な）から。ゲルマン祖語 '*ubilaz' に由来し、「限度を超えた」が原義とされる。",
+      "tips": "'evil' は道徳的・宗教的な「邪悪さ」を表し、単なる「悪い」という意味の 'bad' や 'wrong' より強い。日常会話では大げさに聞こえることもある。",
+      "confusables": "'evil' vs 'wicked'：evil は本質的・根源的な悪を指し、wicked はやや軽いニュアンスで使われ、スラングでは「すごい」という意味にもなる。",
+      "collocations": [
+        "evil spirit",
+        "evil deed",
+        "the lesser of two evils"
+      ],
+      "trivia": "英語圏では 'evil eye'（邪視）という概念が今も根強く、ジンクスとして語られる。また 'necessary evil'（必要悪）という表現は政治・ビジネスの文脈でよく使われる。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 694,
+    "word": "extinct",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "絶滅した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "消滅した、廃絶した",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈstɪŋkt/",
+    "syllables": "ex-tinct",
+    "audioHint": "イクスティンクト",
+    "examples": [
+      {
+        "en": "Dinosaurs became extinct millions of years ago.",
+        "ja": "恐竜は何百万年も前に絶滅した。",
+        "blank": "Dinosaurs became ___ millions of years ago.",
+        "blankAnswer": "extinct"
+      }
+    ],
+    "distractors": [
+      "熱帯の",
+      "化石の",
+      "進化した"
+    ],
+    "confusableSpellings": [
+      "extint",
+      "exctinct",
+      "extinkt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'extinctus'（消された）から。接頭辞 'ex-'（外に）＋語根 'stinguere'（消す）。'distinguish' や 'extinguish' と同じ語根。",
+      "tips": "'extinct' は状態を表す形容詞なので 'become extinct' や 'go extinct' という形で使うのが自然。'extinguish'（火を消す）と語根が同じと知ると覚えやすい。",
+      "confusables": "'extinct' vs 'endangered'：extinct はすでに絶滅した状態、endangered は絶滅危惧（まだ生存しているが危険な状態）を指す。",
+      "collocations": [
+        "become extinct",
+        "nearly extinct",
+        "extinct species"
+      ],
+      "trivia": "言語も 'extinct' になる。現在、世界では約2週間に1つの割合で言語が消滅しているとされており、言語学者はこれを 'language extinction'（言語の絶滅）と呼んでいる。"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 695,
+    "word": "random",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "無作為の、でたらめな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "突拍子もない、脈絡のない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈrændəm/",
+    "syllables": "ran-dom",
+    "audioHint": "ランダム",
+    "examples": [
+      {
+        "en": "The teacher picked students at random to answer questions.",
+        "ja": "先生は無作為に生徒を選んで質問に答えさせた。",
+        "blank": "The teacher picked students at ___ to answer questions.",
+        "blankAnswer": "random"
+      }
+    ],
+    "distractors": [
+      "生の、未加工の",
+      "単なる、ただの",
+      "激しい"
+    ],
+    "confusableSpellings": [
+      "randum",
+      "randome",
+      "ranndom"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'randon'（速度、勢い）から。'randir'（走る）に由来し、「制御なく勢いよく進む」が原義。",
+      "tips": "日本語でも「ランダム」は定着しているが、英語スラングでは 'That's so random!'（突拍子もない！）と感嘆の意味でも使う。ITや統計の文脈では「無作為」の意味が基本。",
+      "confusables": "'random' vs 'arbitrary'：random は確率的・統計的な無作為性、arbitrary は「恣意的・独断的」というニュアンスで人の判断に使う場合が多い。",
+      "collocations": [
+        "random selection",
+        "at random",
+        "random access"
+      ],
+      "trivia": "コンピュータの「ランダム」は実は完全なランダムではなく「疑似乱数」。本当のランダムを作るために、大気ノイズや放射線崩壊を使うシステムが実在する。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 696,
+    "word": "raw",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "生の、加工されていない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "未熟な、経験のない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/rɔː/",
+    "syllables": "raw",
+    "audioHint": "ロー",
+    "examples": [
+      {
+        "en": "You should never eat raw chicken because it can make you sick.",
+        "ja": "生の鶏肉は食べないほうがいい、体調を崩す可能性がある。",
+        "blank": "You should never eat ___ chicken because it can make you sick.",
+        "blankAnswer": "raw"
+      }
+    ],
+    "distractors": [
+      "無作為の",
+      "単なる、ただの",
+      "荒れた、でこぼこの"
+    ],
+    "confusableSpellings": [
+      "row",
+      "raaw",
+      "rraw"
+    ],
+    "passive": {
+      "etymology": "古英語 'hrēaw'（生の、調理されていない）から。ゲルマン祖語 '*khrawaz' に由来。",
+      "tips": "'raw data'（生データ）や 'raw talent'（磨かれていない才能）のように比喩的にも使う。'row'（列・漕ぐ）と同音異義語なので注意。",
+      "confusables": "'raw' vs 'fresh'：raw は「加工・調理されていない」ことを強調し、fresh は「新鮮さ・作りたて」を強調する。raw fish は生魚、fresh fish は新鮮な魚。",
+      "collocations": [
+        "raw data",
+        "raw material",
+        "raw deal"
+      ],
+      "trivia": "英語で不公平な扱いを受けることを 'get a raw deal' と言う。「生（raw）の取引＝おいしくない取引」というイメージから来ており、日常会話でよく使われる表現だ。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 697,
+    "word": "rude",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "無礼な、失礼な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "粗野な、下品な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ruːd/",
+    "syllables": "rude",
+    "audioHint": "ルード",
+    "examples": [
+      {
+        "en": "It is rude to talk with your mouth full at the dinner table.",
+        "ja": "食事中に口に食べ物を入れたまま話すのは失礼だ。",
+        "blank": "It is ___ to talk with your mouth full at the dinner table.",
+        "blankAnswer": "rude"
+      }
+    ],
+    "distractors": [
+      "邪悪な",
+      "臆病な",
+      "親切な"
+    ],
+    "confusableSpellings": [
+      "rood",
+      "ruede",
+      "rued"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'rudis'（未加工の、荒削りの）から古フランス語を経由。「磨かれていない＝礼儀知らず」という意味の変化が面白い。",
+      "tips": "'rude' は日本語の「失礼」とほぼ同じ感覚で使えるが、英語では直接的に 'That's rude!' と言うことが多い。'impolite' はより改まった表現。",
+      "confusables": "'rude' vs 'impolite' vs 'offensive'：rude は率直で強い非難、impolite はマナー違反の指摘、offensive は他者を傷つける発言・行動に使う。",
+      "collocations": [
+        "rude behavior",
+        "rude comment",
+        "rude awakening"
+      ],
+      "trivia": "実は 'rude awakening'（冷や水を浴びせるような体験）という慣用句が英語には存在する。「無礼な目覚め」ではなく「現実を突きつけられる経験」という意味で使われる。"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 698,
+    "word": "mere",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "単なる、ただの",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ほんの、わずかな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/mɪər/",
+    "syllables": "mere",
+    "audioHint": "ミア",
+    "examples": [
+      {
+        "en": "She finished the marathon in a mere three hours.",
+        "ja": "彼女はわずか3時間でマラソンを完走した。",
+        "blank": "She finished the marathon in a ___ three hours.",
+        "blankAnswer": "mere"
+      }
+    ],
+    "distractors": [
+      "生の、加工されていない",
+      "無作為の",
+      "強烈な"
+    ],
+    "confusableSpellings": [
+      "meer",
+      "mear",
+      "meere"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'merus'（純粋な、混じりけのない）から。「余計なものがない＝ただそれだけ」という意味に変化した。",
+      "tips": "'mere' は常に名詞の前に置く限定用法のみ（叙述用法では使わない）。'It is mere coincidence.'は正しいが、'The coincidence is mere.' は不自然。",
+      "confusables": "'mere' vs 'only'：mere は書き言葉的でやや文学的なニュアンス。口語では 'just' や 'only' を使う方が自然。",
+      "collocations": [
+        "a mere child",
+        "mere coincidence",
+        "mere formality"
+      ],
+      "trivia": "副詞形 'merely' は英語の議論や論文でよく登場する。「単に〜にすぎない」と相手の主張を軽く退けるときに使われ、論争的なニュアンスを持つこともある。"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 699,
+    "word": "tropical",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "熱帯の、熱帯性の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "非常に暑い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtrɒpɪkəl/",
+    "syllables": "trop-i-cal",
+    "audioHint": "トロピカル",
+    "examples": [
+      {
+        "en": "We spent our vacation on a beautiful tropical island.",
+        "ja": "私たちは美しい熱帯の島で休暇を過ごした。",
+        "blank": "We spent our vacation on a beautiful ___ island.",
+        "blankAnswer": "tropical"
+      }
+    ],
+    "distractors": [
+      "絶滅した",
+      "極地の",
+      "化石の"
+    ],
+    "confusableSpellings": [
+      "tropicale",
+      "tropicle",
+      "tropicall"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'tropikos'（回帰線の）から。'tropos'（転向・方向）＋接尾辞 '-ical'。太陽が「向きを変える」場所＝回帰線の意味から。",
+      "tips": "日本語の「トロピカル」はほぼ英語と同じ感覚で使える。天気予報では 'tropical storm'（熱帯性暴風雨）や 'tropical depression'（熱帯低気圧）といった専門用語もある。",
+      "confusables": "'tropical' vs 'subtropical'：tropical は赤道付近の熱帯地域、subtropical は熱帯と温帯の間の亜熱帯地域を指す。日本の沖縄は subtropical に分類される。",
+      "collocations": [
+        "tropical forest",
+        "tropical storm",
+        "tropical climate"
+      ],
+      "trivia": "「トロピカルジュース」や「トロピカルフルーツ」は和製英語的な使い方。英語では 'tropical fruit juice' が自然。でもネイティブにも通じるので安心していい。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 700,
+    "word": "forth",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "前へ、前方へ",
+        "pos": "adverb"
+      },
+      {
+        "meaning": "外へ、表に",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/fɔːrθ/",
+    "syllables": "forth",
+    "audioHint": "フォース",
+    "examples": [
+      {
+        "en": "The soldiers marched forth into the battlefield with courage.",
+        "ja": "兵士たちは勇敢に戦場へ前進した。",
+        "blank": "The soldiers marched ___ into the battlefield with courage.",
+        "blankAnswer": "forth"
+      }
+    ],
+    "distractors": [
+      "後方へ",
+      "静かに",
+      "突然に"
+    ],
+    "confusableSpellings": [
+      "fourh",
+      "forht",
+      "foarth"
+    ],
+    "passive": {
+      "etymology": "古英語 'forð'（前へ、前方へ）から。ゲルマン祖語 '*furþa' に由来し、'fore-'（前）と同じ語根。",
+      "tips": "'forth' と 'fourth'（4番目）は発音が同じ同音異義語。文脈で判断する必要がある。また 'and so forth'（〜など）は日常的によく使う慣用表現。",
+      "confusables": "'forth' vs 'forward'：forth はやや文語・詩的、forward はより口語的で方向性を強調する。'go forth' は聖書的・格調ある表現、'go forward' は現代的な表現。",
+      "collocations": [
+        "go forth",
+        "back and forth",
+        "and so forth"
+      ],
+      "trivia": "スター・ウォーズの有名な台詞 'May the Force be with you' の 'Force' と 'forth' は発音が似ているため、'May the Forth be with you'（5月4日）がスター・ウォーズの日（Star Wars Day）の洒落になっている。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  }
+]

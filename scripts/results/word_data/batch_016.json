@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 301,
+    "word": "predict",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "予測する、予言する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "予報する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈdɪkt/",
+    "syllables": "pre-dict",
+    "audioHint": "プリディクト",
+    "examples": [
+      {
+        "en": "Scientists can predict earthquakes using advanced technology.",
+        "ja": "科学者たちは先進技術を使って地震を予測できる。",
+        "blank": "Scientists can ___ earthquakes using advanced technology.",
+        "blankAnswer": "predict"
+      }
+    ],
+    "distractors": [
+      "理解する",
+      "判断する",
+      "検証する"
+    ],
+    "confusableSpellings": [
+      "predickt",
+      "predikt",
+      "predect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praedicere から。接頭辞 pre-（前に）＋語根 dicere（言う）→「前もって言う」が原義。dict は 'dictate'（命令する）や 'dictionary'（辞書）とも同根。",
+      "tips": "predict は「根拠に基づいて予測する」ニュアンス。「占いで予言する」には foretell や prophesy を使う方が自然。また predict の後ろには that 節や名詞句が来ることが多い（predict that S V / predict the outcome）。",
+      "confusables": "forecast との違いに注意。forecast は主に天気・経済など数値的な予測に使われ、predict はより広い文脈で使える。expect（期待する）とも意味が近いが、predict は客観的な根拠に基づくニュアンスが強い。",
+      "collocations": [
+        "predict the future",
+        "predict the outcome",
+        "predict accurately"
+      ],
+      "trivia": "prediction という名詞形は映画やゲームのタイトルによく登場する。映画『The Prediction』など、「未来が見える」系の作品が多いのは、この単語の持つ「時間を超えた洞察力」のイメージから来ているとも言われている。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 302,
+    "word": "examine",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "調べる、検査する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "試験する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzæmɪn/",
+    "syllables": "ex-am-ine",
+    "audioHint": "イグザミン",
+    "examples": [
+      {
+        "en": "The doctor examined the patient carefully.",
+        "ja": "医者は患者を丁寧に診察した。",
+        "blank": "The doctor ___ the patient carefully.",
+        "blankAnswer": "examined"
+      }
+    ],
+    "distractors": [
+      "予測する",
+      "伝達する",
+      "信頼する"
+    ],
+    "confusableSpellings": [
+      "exammine",
+      "examin",
+      "examen"
+    ],
+    "passive": {
+      "etymology": "ラテン語 examinare から。ex-（外へ）＋agmen（はかり、測定）が語源で、もともと「はかりで量る」という意味。ここから「詳しく調べる」という意味に発展した。",
+      "tips": "examine は「細かく・注意深く調べる」という丁寧なニュアンスがある。check（ざっと確認する）よりも本格的な調査を指す。日本人は 'examine' を 'exam（試験）' と結びつけやすいが、動詞としての主な意味は「検査する・調べる」であることを忘れずに。",
+      "confusables": "inspect（官的・業務的な点検）と混同されやすい。inspect は建物・製品など物の検査に多く使い、examine は医学的・学術的な文脈に多い。investigate は犯罪や問題の「捜査・調査」でより掘り下げるニュアンス。",
+      "collocations": [
+        "examine closely",
+        "examine a patient",
+        "examine the evidence"
+      ],
+      "trivia": "exam（試験）は examine の短縮形。正式な書き言葉では examination と書くが、話し言葉では exam が圧倒的に多い。つまり「試験を受ける」も「詳しく調べる」も同じ語根から来ているのは、「細かく問い質す」という共通イメージがあるから。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 303,
+    "word": "trust",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "信頼する、信用する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "委ねる、任せる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trʌst/",
+    "syllables": "trust",
+    "audioHint": "トラスト",
+    "examples": [
+      {
+        "en": "I trust my best friend with everything.",
+        "ja": "私は親友をすべてにおいて信頼している。",
+        "blank": "I ___ my best friend with everything.",
+        "blankAnswer": "trust"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "許可する",
+      "尊重する"
+    ],
+    "confusableSpellings": [
+      "turst",
+      "trast",
+      "trsut"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 traust（信頼、安心）に由来。ゲルマン系の語根 *trewwaz（忠実な）と関連し、true（真実の）とも同根。「確かなものに頼る」が原義。",
+      "tips": "trust は他動詞として trust someone（人を信頼する）の形が基本。「trust in」は神・運命など抽象的なものへの信頼（trust in God）、「trust with」は「〜を任せる」（trust her with the key）という違いに注意。日本人は全部 trust のみで済ませがちなので前置詞の使い分けを意識しよう。",
+      "confusables": "believe（事実として信じる）と区別が必要。trust は人や組織への「信頼感」に焦点、believe は「〜が真実だと思う」という認知的な判断。I believe you（あなたの言葉を信じる）と I trust you（あなたを信頼している）はニュアンスが異なる。",
+      "collocations": [
+        "trust someone completely",
+        "trust in the process",
+        "trust with a secret"
+      ],
+      "trivia": "英語圏では子どもへの「信頼教育」として Trust Fall（目を閉じて後ろに倒れ、仲間に受け止めてもらうゲーム）が有名。まさに trust を体で学ぶアクティビティで、チームビルディング研修でも世界中で使われている。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 304,
+    "word": "stick",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "貼り付ける、刺さる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "くっつく、固執する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɪk/",
+    "syllables": "stick",
+    "audioHint": "スティック",
+    "examples": [
+      {
+        "en": "Please stick the label on the bottle.",
+        "ja": "ボトルにラベルを貼ってください。",
+        "blank": "Please ___ the label on the bottle.",
+        "blankAnswer": "stick"
+      }
+    ],
+    "distractors": [
+      "引っ張る",
+      "押しつぶす",
+      "飛び跳ねる"
+    ],
+    "confusableSpellings": [
+      "stic",
+      "stikk",
+      "steck"
+    ],
+    "passive": {
+      "etymology": "古英語 stician（刺す、突き刺す）に由来。Proto-Germanic 語根 *stik-（突く）から来ており、sting（刺す）や stake（杭）とも同根ファミリー。",
+      "tips": "stick は自動詞・他動詞の両方で使われる。「stick to」は「〜に固執する・続ける」（stick to your plan）、「stick out」は「突き出る・目立つ」（stick out in a crowd）など、句動詞が非常に多い。「棒」という名詞の意味と混同して動詞用法を忘れないように。",
+      "confusables": "attach（取り付ける）と混同されやすい。attach はネジや機械的な接続など「しっかり取り付ける」ニュアンスが強く、stick は接着剤やテープで「くっつける」イメージ。また paste は糊やデジタルの「貼り付け」に使う。",
+      "collocations": [
+        "stick to a plan",
+        "stick out",
+        "stick together"
+      ],
+      "trivia": "スティックのりや付箋（Post-it）は英語圏でも日常品だが、Post-it を発明した 3M の科学者は「くっつかない接着剤」を作ろうとして偶然発明した。つまり stick の「くっつく」性質を弱めようとしたところから生まれた大ヒット商品というのが面白い。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 305,
+    "word": "emerge",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "現れる、出てくる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "明らかになる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈmɜːrdʒ/",
+    "syllables": "e-merge",
+    "audioHint": "イマージ",
+    "examples": [
+      {
+        "en": "A new theory emerged from the research.",
+        "ja": "その研究から新しい理論が生まれた。",
+        "blank": "A new theory ___ from the research.",
+        "blankAnswer": "emerged"
+      }
+    ],
+    "distractors": [
+      "変化する",
+      "分割する",
+      "解放する"
+    ],
+    "confusableSpellings": [
+      "immerge",
+      "emergge",
+      "emarge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 emergere から。e-/ex-（外へ）＋mergere（沈める、浸す）→「水の中から外へ出る」が原義。merge（合併する）とは逆方向のイメージ。",
+      "tips": "emerge は自動詞のみで使い、目的語を取らない（×emerge something は不可）。「何かが隠れた状態から表に出てくる」という受動的・自然なニュアンスがある。日本語で「現れる」と訳すが、appear よりもドラマチックで「徐々に・状況の中から」浮かび上がるイメージが強い。",
+      "confusables": "appear（目に見えて現れる）と混同されやすい。appear は視覚的・突然的な出現、emerge は「水面から浮かぶように」徐々に、あるいは状況・議論の中から自然に出てくるニュアンス。また submerge（水中に沈む）は正反対の意味なので合わせて覚えると◎。",
+      "collocations": [
+        "emerge from the water",
+        "emerge as a leader",
+        "emerge victorious"
+      ],
+      "trivia": "emergency（緊急事態）は emerge と同じ語根。もともと「突然水面に出てくる」ように「突発的に生じた事態」という意味。救急車を emergency vehicle と呼ぶのも、この「突然現れる危機」というイメージから来ている。"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 306,
+    "word": "vary",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "異なる、変わる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "変化させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈvɛri/",
+    "syllables": "var-y",
+    "audioHint": "ヴェアリ",
+    "examples": [
+      {
+        "en": "Prices vary depending on the season.",
+        "ja": "価格は季節によって異なる。",
+        "blank": "Prices ___ depending on the season.",
+        "blankAnswer": "vary"
+      }
+    ],
+    "distractors": [
+      "出現する",
+      "解放する",
+      "分割する"
+    ],
+    "confusableSpellings": [
+      "verry",
+      "varry",
+      "vairy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 variare（変える）から。語根 varius（さまざまな、雑多な）に由来。various（様々な）、variety（多様性）、variation（変化）はすべて同じ語根ファミリー。",
+      "tips": "vary は自動詞（価格が変わる）と他動詞（内容を変化させる）の両方に使う。「vary from A to B」（AからBまで幅がある）、「vary depending on」（〜によって異なる）は頻出表現。very（とても）と発音が似ているが別単語なので注意。",
+      "confusables": "change（変える）と differ（違う）の中間的な語。change は明確な前後の変化、differ は2つの比較での違いを強調するが、vary は「幅・範囲の中で変動する」というニュアンスが独特。",
+      "collocations": [
+        "vary widely",
+        "vary from person to person",
+        "vary in size"
+      ],
+      "trivia": "「バラエティ番組」の variety も vary と同語根。テレビの「バラエティ」はまさに「様々な内容が変わりながら展開する番組」という意味で、英語のニュアンスがそのまま日本語に入ってきている。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 307,
+    "word": "release",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "解放する、放出する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "公開する、発売する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈliːs/",
+    "syllables": "re-lease",
+    "audioHint": "リリース",
+    "examples": [
+      {
+        "en": "The band will release their new album next month.",
+        "ja": "そのバンドは来月新しいアルバムを発売する。",
+        "blank": "The band will ___ their new album next month.",
+        "blankAnswer": "release"
+      }
+    ],
+    "distractors": [
+      "変化させる",
+      "可能にする",
+      "出現する"
+    ],
+    "confusableSpellings": [
+      "relese",
+      "releese",
+      "realease"
+    ],
+    "passive": {
+      "etymology": "古フランス語 relesser から。re-（再び、戻す）＋laxare（緩める）が語源。ラテン語 laxus（ゆるい）にも繋がり、relax（リラックスする）とも同根。「縛りを緩めて戻す」が原義。",
+      "tips": "release は「拘束・制限から自由にする」という幅広いニュアンスを持つ。人（囚人の釈放）・物（製品発売）・情報（公開）・感情（発散）など多様な文脈で使える。日本語の「リリース」はほぼ英語そのままなので意味は取りやすいが、「情報を公開する」という意味でも使えることを覚えておくと◎。",
+      "confusables": "free（解放する）と比べると、release はより公式・手続き的なニュアンス。free は感情的・劇的な解放に使いやすい（set someone free）。また launch（製品・サービスを新たに立ち上げる）は release より「大々的に始める」感が強い。",
+      "collocations": [
+        "release a statement",
+        "release from prison",
+        "release tension"
+      ],
+      "trivia": "ソフトウェア開発では「リリース」が日常用語。バグ修正版を出すことを patch release、大型更新を major release と呼ぶ。日本のIT業界でも「リリースする」はそのまま英語由来で定着しており、英語と日本語でほぼ同じ意味で使われている珍しい単語。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 308,
+    "word": "divide",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "分ける、割る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "意見を分断する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈvaɪd/",
+    "syllables": "di-vide",
+    "audioHint": "ディヴァイド",
+    "examples": [
+      {
+        "en": "Divide the pizza into eight equal slices.",
+        "ja": "ピザを8等分に切り分けてください。",
+        "blank": "___ the pizza into eight equal slices.",
+        "blankAnswer": "Divide"
+      }
+    ],
+    "distractors": [
+      "解放する",
+      "変化させる",
+      "可能にする"
+    ],
+    "confusableSpellings": [
+      "devide",
+      "dividde",
+      "divied"
+    ],
+    "passive": {
+      "etymology": "ラテン語 dividere から。di-（分離）＋videre（分ける）が語源。individual（個人）の in-（否定）＋dividual（分けられる）も同語根で、「これ以上分けられないもの＝個人」という意味が面白い。",
+      "tips": "数学の「割り算」は divide を使う（divide 10 by 2）。「divide A into B」（AをBに分ける）と「divide A by B」（AをBで割る）の使い分けに注意。また「社会を分断する」という抽象的な意味でも使えるので、政治・社会系の英文でよく登場する。",
+      "confusables": "separate（別々にする）と混同されやすい。divide は「1つのものを複数に切り分ける」、separate は「すでにある複数のものを引き離す」イメージ。split は divide より口語的で「真っ二つに割る」感が強い。",
+      "collocations": [
+        "divide equally",
+        "divide and conquer",
+        "divide opinion"
+      ],
+      "trivia": "「divide and conquer（分割統治）」は古代ローマ・イギリス帝国が植民地支配に用いた戦略として有名。敵を内部分裂させて統治を容易にするこの手法は、現代のコンピュータアルゴリズム（分割統治法）にも同じ名前で使われている。"
+    },
+    "frequency": 1000,
+    "cefr": "A2"
+  },
+  {
+    "id": 309,
+    "word": "enable",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "可能にする、できるようにする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "有効にする（機能など）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈneɪbəl/",
+    "syllables": "en-a-ble",
+    "audioHint": "イネイブル",
+    "examples": [
+      {
+        "en": "This app enables you to track your fitness easily.",
+        "ja": "このアプリで簡単に体力管理ができる。",
+        "blank": "This app ___ you to track your fitness easily.",
+        "blankAnswer": "enables"
+      }
+    ],
+    "distractors": [
+      "分割する",
+      "出現させる",
+      "解放する"
+    ],
+    "confusableSpellings": [
+      "inable",
+      "enabel",
+      "enablee"
+    ],
+    "passive": {
+      "etymology": "en-（〜の状態にする）＋able（できる）で構成。able はラテン語 habilis（扱いやすい、有能な）に由来。「able の状態にする＝できるようにする」という構造がそのまま意味になっている。",
+      "tips": "enable の基本構文は「enable + 人/物 + to 不定詞」（enable him to succeed）。「〜できるようにする」という日本語に引っ張られて allow と混同しがちだが、allow は「許可する」ニュアンスが強く、enable は「手段・能力を与えて可能にする」ニュアンス。ITの「有効化」の意味でも頻出（enable cookies）。",
+      "confusables": "allow（許可する）と permit（正式に許可する）と混同されやすい。enable は許可というより「物理的・技術的に可能にする」に近い。また disable（無効にする）は enable の反対語で、セットで覚えると便利。",
+      "collocations": [
+        "enable someone to do",
+        "enable access",
+        "enable features"
+      ],
+      "trivia": "心理学では「イネーブリング（enabling）」という概念がある。依存症の家族が本人の問題行動を「助けてしまう」行為を指し、否定的な意味で使われる。同じ「可能にする」でも文脈によってはネガティブな意味になる、なかなか深い単語。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 310,
+    "word": "judge",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "判断する、評価する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "審判する、裁く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dʒʌdʒ/",
+    "syllables": "judge",
+    "audioHint": "ジャッジ",
+    "examples": [
+      {
+        "en": "Don't judge a book by its cover.",
+        "ja": "見かけで判断してはいけない。",
+        "blank": "Don't ___ a book by its cover.",
+        "blankAnswer": "judge"
+      }
+    ],
+    "distractors": [
+      "予測する",
+      "調べる",
+      "推測する"
+    ],
+    "confusableSpellings": [
+      "jugde",
+      "judje",
+      "judg"
+    ],
+    "passive": {
+      "etymology": "古フランス語 jugier、ラテン語 judicare から。jus/juris（法、正義）＋dicere（言う、宣言する）→「法に基づいて宣言する」が原義。jury（陪審員）、justice（正義）、judicial（司法の）はすべて同語根ファミリー。",
+      "tips": "judge は「裁判官として裁く」という公式な意味のほかに、日常会話で「人を批判的に評価する」という意味でも頻繁に使われる。Don't judge me.（批判しないで）は口語で非常によく使われる表現。また「コンテストの審査をする」という意味でも使える。",
+      "confusables": "evaluate（客観的に評価・分析する）と混同されやすい。judge はより主観的・最終的な判断のニュアンスがあり、evaluate はプロセスや基準に基づく分析に使いやすい。assess も似ているが、judge より専門的・定量的な評価を指す。",
+      "collocations": [
+        "judge fairly",
+        "judge by appearance",
+        "judge a competition"
+      ],
+      "trivia": "「Don't judge a book by its cover.」は英語で最も有名なことわざのひとつ。実はこのフレーズが書物として初めて記録されたのは1860年代で、思ったより歴史は浅い。しかし現代では外見主義への批判としてSNSで頻繁に引用されるなど、むしろ現代に花開いたことわざと言える。"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 311,
+    "word": "rely",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "頼る、依存する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "信頼する、当てにする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈlaɪ/",
+    "syllables": "re-ly",
+    "audioHint": "リライ",
+    "examples": [
+      {
+        "en": "You can rely on me to finish the project on time.",
+        "ja": "プロジェクトを時間通りに終わらせるために私を頼っていいよ。",
+        "blank": "You can ___ on me to finish the project on time.",
+        "blankAnswer": "rely"
+      }
+    ],
+    "distractors": [
+      "説明する",
+      "判断する",
+      "記憶する"
+    ],
+    "confusableSpellings": [
+      "reley",
+      "relie",
+      "reliy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 religare（結びつける）が由来。re-（再び）＋ ligare（縛る）から「しっかり結びつく＝頼る」という意味に発展。",
+      "tips": "rely は必ず rely on ～ の形で使う。rely の後に直接目的語は置けないので「I rely you」はNG。前置詞 on を忘れずに！",
+      "confusables": "depend on と似ているが、rely on はより「信頼・信用」のニュアンスが強い。depend on は「〜次第」という条件的な依存にも使える。",
+      "collocations": [
+        "rely on friends",
+        "rely heavily on",
+        "rely solely on"
+      ],
+      "trivia": "「信頼できる人」を reliable と言うが、rely → reliable の変化は語尾の y が i に変わるパターン。同じ変化が happy → happiness にも見られる！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 312,
+    "word": "engage",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "従事する、関与する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "引きつける、関心を持たせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈɡeɪdʒ/",
+    "syllables": "en-gage",
+    "audioHint": "エンゲイジ",
+    "examples": [
+      {
+        "en": "She engages students with creative activities every day.",
+        "ja": "彼女は毎日クリエイティブな活動で生徒たちを引きつけている。",
+        "blank": "She ___ students with creative activities every day.",
+        "blankAnswer": "engages"
+      }
+    ],
+    "distractors": [
+      "拒絶する",
+      "謝罪する",
+      "協力する"
+    ],
+    "confusableSpellings": [
+      "engauge",
+      "engaje",
+      "ingauge"
+    ],
+    "passive": {
+      "etymology": "古フランス語 engager（約束する）由来。en-（〜の中に）＋ gage（誓約・担保）から「約束の中に入る＝関与する」という意味に。",
+      "tips": "engage in ～（〜に従事する）、engage with ～（〜と関わる）と前置詞で意味が変わる。ビジネス英語では「エンゲージメント」として日本語化されているが、動詞 engage の使い方は要注意！",
+      "confusables": "involve は「巻き込まれる・関係している」という受動的なニュアンスが強いが、engage はより積極的・主体的な関与を表す。",
+      "collocations": [
+        "engage in conversation",
+        "engage with the audience",
+        "fully engaged"
+      ],
+      "trivia": "婚約指輪を「エンゲージリング」と言うのも同じ語源。「互いに誓約で結びついた」状態が engagement（婚約）なんです！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 313,
+    "word": "shift",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "移動する、転換する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（考え・方針などを）変える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʃɪft/",
+    "syllables": "shift",
+    "audioHint": "シフト",
+    "examples": [
+      {
+        "en": "The wind shifted direction suddenly during the storm.",
+        "ja": "嵐の中、風は突然方向を変えた。",
+        "blank": "The wind ___ direction suddenly during the storm.",
+        "blankAnswer": "shifted"
+      }
+    ],
+    "distractors": [
+      "獲得する",
+      "消費する",
+      "採用する"
+    ],
+    "confusableSpellings": [
+      "shifte",
+      "shiff",
+      "shitf"
+    ],
+    "passive": {
+      "etymology": "古英語 sciftan（分ける、整える）由来。「位置を変える」という基本義から、現代では「転換・変化」の意味でも広く使われる。",
+      "tips": "日本語の「シフト」は主に「勤務シフト（名詞）」の意味で使われるが、英語では動詞として「変化する」という意味が非常に多い。shift one's focus（焦点を変える）のような表現も頻出。",
+      "confusables": "change は広く「変化」を表すが、shift はより「徐々に・方向性をもって動く」というニュアンスがある。地殻変動（seismic shift）など大きな転換にも使われる。",
+      "collocations": [
+        "shift focus",
+        "shift blame",
+        "paradigm shift"
+      ],
+      "trivia": "「パラダイムシフト」という言葉は科学哲学者トーマス・クーンが広めた概念で、shift が「時代の大転換」を表す言葉として使われた歴史的な例！"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 314,
+    "word": "adopt",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "採用する、取り入れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "養子にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈdɒpt/",
+    "syllables": "a-dopt",
+    "audioHint": "アドプト",
+    "examples": [
+      {
+        "en": "The company adopted a new strategy to increase sales.",
+        "ja": "その会社は売上を伸ばすために新しい戦略を採用した。",
+        "blank": "The company ___ a new strategy to increase sales.",
+        "blankAnswer": "adopted"
+      }
+    ],
+    "distractors": [
+      "拡大する",
+      "繰り返す",
+      "移動する"
+    ],
+    "confusableSpellings": [
+      "addopt",
+      "adoppt",
+      "adop"
+    ],
+    "passive": {
+      "etymology": "ラテン語 adoptare 由来。ad-（〜に向かって）＋ optare（選ぶ）から「選んで自分のものにする」という意味。",
+      "tips": "adopt（採用する）と adapt（適応する）は発音・スペルが似ていて混同しやすい。adopt は「外からのものを選び取る」、adapt は「自分を状況に合わせて変える」という違いがある。",
+      "confusables": "adapt との混同が最大の注意点。adopt a policy（方針を採用する）vs. adapt to a new environment（新しい環境に適応する）で使い分けを練習しよう。",
+      "collocations": [
+        "adopt a policy",
+        "adopt a child",
+        "adopt an approach"
+      ],
+      "trivia": "日本語の「アドプト」という外来語はあまり普及していないが、英語では「ハイウェイ・アドプト・プログラム」（道路の清掃を企業が引き受ける制度）など社会的な文脈でよく使われる！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 315,
+    "word": "acquire",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "獲得する、習得する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "取得する、入手する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈkwaɪər/",
+    "syllables": "ac-quire",
+    "audioHint": "アクワイア",
+    "examples": [
+      {
+        "en": "He acquired new skills by taking online courses.",
+        "ja": "彼はオンラインコースを受講して新しいスキルを習得した。",
+        "blank": "He ___ new skills by taking online courses.",
+        "blankAnswer": "acquired"
+      }
+    ],
+    "distractors": [
+      "拡大する",
+      "採用する",
+      "消費する"
+    ],
+    "confusableSpellings": [
+      "aquire",
+      "aquier",
+      "acquiere"
+    ],
+    "passive": {
+      "etymology": "ラテン語 acquirere 由来。ac-（〜に向かって、ad- の変形）＋ quaerere（求める・探す）から「求めて手に入れる」という意味。",
+      "tips": "スペルに qu が含まれており、aquire と書くミスが非常に多い。ac-quire と頭の ac を意識して覚えよう。また「語学を身につける」文脈では learn より acquire の方がフォーマルで自然。",
+      "confusables": "obtain は努力や手続きによって「入手する」、acquire はより幅広く「時間をかけて身につける・取得する」ニュアンス。スキルや習慣には acquire が自然。",
+      "collocations": [
+        "acquire skills",
+        "acquire knowledge",
+        "acquire a company"
+      ],
+      "trivia": "「アクワイア」は日本のゲーム会社の名前でもある！「知識を獲得し続ける」という意味を込めた社名なのかも。acquired taste（食べ慣れないと好きになれない味）という表現も面白い！"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 316,
+    "word": "expand",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "拡大する、拡張する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "広がる、膨張する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈspænd/",
+    "syllables": "ex-pand",
+    "audioHint": "イクスパンド",
+    "examples": [
+      {
+        "en": "The company plans to expand its business into Asia.",
+        "ja": "その会社はアジアへのビジネス拡大を計画している。",
+        "blank": "The company plans to ___ its business into Asia.",
+        "blankAnswer": "expand"
+      }
+    ],
+    "distractors": [
+      "獲得する",
+      "繰り返す",
+      "移動する"
+    ],
+    "confusableSpellings": [
+      "expend",
+      "expamd",
+      "expaned"
+    ],
+    "passive": {
+      "etymology": "ラテン語 expandere 由来。ex-（外へ）＋ pandere（広げる）から「外へ向かって広げる」という意味。",
+      "tips": "expand と expend（費やす）はスペルが非常に似ているため要注意。expand は「広げる」、expend は「エネルギー・お金を費やす」で全く別の意味。",
+      "confusables": "extend は「長さや期間を延ばす」ニュアンスが強く、expand は「面積・規模・範囲を広げる」ニュアンス。「期限を延ばす」は extend a deadline、「事業を広げる」は expand a business。",
+      "collocations": [
+        "expand business",
+        "expand knowledge",
+        "expand into new markets"
+      ],
+      "trivia": "宇宙は今この瞬間も expanding（膨張）し続けている！ビッグバン以来ずっと広がっているという宇宙論の基本概念にもこの単語が使われている。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 317,
+    "word": "refuse",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "断る、拒否する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "拒絶する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈfjuːz/",
+    "syllables": "re-fuse",
+    "audioHint": "リフューズ",
+    "examples": [
+      {
+        "en": "She refused to answer any questions from the reporter.",
+        "ja": "彼女は記者からのどんな質問にも答えることを拒否した。",
+        "blank": "She ___ to answer any questions from the reporter.",
+        "blankAnswer": "refused"
+      }
+    ],
+    "distractors": [
+      "関与する",
+      "謝罪する",
+      "協力を求める"
+    ],
+    "confusableSpellings": [
+      "refuze",
+      "refuce",
+      "refeuse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 refusare 由来。re-（後ろへ、元に戻す）＋ fundere（注ぐ）が変化した形で「注ぎ返す＝突き返す」というイメージから「拒否する」に。",
+      "tips": "refuse は動詞と名詞で発音が違う。動詞は /rɪˈfjuːz/（リフューズ）、名詞「ごみ・廃棄物」の意味の refuse は /ˈrefjuːs/（レフュース）。アクセント位置に注意！",
+      "confusables": "reject は人や物を「突き返す・却下する」ニュアンスが強く、refuse は行為や申し出を「断る」ことに焦点がある。人を reject すると「拒絶した」という強い印象を与える。",
+      "collocations": [
+        "refuse an offer",
+        "refuse to comply",
+        "flatly refuse"
+      ],
+      "trivia": "「マフィアに断ることのできない提案をする」という名台詞（The Godfather）は make an offer one can't refuse。refuse が使われているこの表現、実は脅しの婉曲表現なんです！"
+    },
+    "frequency": 950,
+    "cefr": "A2"
+  },
+  {
+    "id": 318,
+    "word": "strike",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "打つ、たたく",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（考えが）心に浮かぶ、印象を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/straɪk/",
+    "syllables": "strike",
+    "audioHint": "ストライク",
+    "examples": [
+      {
+        "en": "Lightning struck the old tree in the backyard.",
+        "ja": "裏庭の古い木に雷が落ちた。",
+        "blank": "Lightning ___ the old tree in the backyard.",
+        "blankAnswer": "struck"
+      }
+    ],
+    "distractors": [
+      "呼吸する",
+      "消化する",
+      "眠る"
+    ],
+    "confusableSpellings": [
+      "stirke",
+      "stike",
+      "struike"
+    ],
+    "passive": {
+      "etymology": "古英語 strīcan（なでる、進む）由来。「素早く動いて当たる」という物理的なイメージが基本義。ゲルマン語系の古い語。",
+      "tips": "strike の過去形は struck（不規則変化）。strike–struck–struck/stricken。「ストライキ（労働争議）」も同じ語で、「仕事を打ち切る」イメージから来ている。",
+      "confusables": "hit は単純に「当たる・打つ」で最も一般的。strike はより「力強く・意図的に打つ」ニュアンスや比喩的用法が多い。It strikes me that…（〜という気がする）は慣用的表現。",
+      "collocations": [
+        "strike a deal",
+        "strike a balance",
+        "strike fear"
+      ],
+      "trivia": "野球の「ストライク」も英語の strike から。バッターを「打ち取る」という意味でこの語が使われた。ボウリングの「ストライク」も同様！スポーツ用語に大活躍の単語。"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 319,
+    "word": "repeat",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "繰り返す、反復する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "再び言う、復唱する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈpiːt/",
+    "syllables": "re-peat",
+    "audioHint": "リピート",
+    "examples": [
+      {
+        "en": "Please repeat the sentence after me slowly.",
+        "ja": "ゆっくりと私の後に文を繰り返してください。",
+        "blank": "Please ___ the sentence after me slowly.",
+        "blankAnswer": "repeat"
+      }
+    ],
+    "distractors": [
+      "拡大する",
+      "獲得する",
+      "採用する"
+    ],
+    "confusableSpellings": [
+      "repeet",
+      "repeate",
+      "repet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 repetere 由来。re-（再び）＋ petere（求める・向かう）から「再び向かう＝繰り返す」という意味。",
+      "tips": "日本語の「リピート」は外来語として定着しているが、英語では repeat oneself（同じことを繰り返し言う）という表現で「くどい」という否定的ニュアンスになることもある。",
+      "confusables": "redo は「やり直す」（失敗後に再度する）、repeat は「同じことをもう一度する」（必ずしも失敗後ではない）。Don't repeat the same mistake は「同じ間違いを繰り返すな」。",
+      "collocations": [
+        "repeat a mistake",
+        "repeat after me",
+        "repeat the process"
+      ],
+      "trivia": "人間の記憶は repeat（反復）によって強化されることが科学的に証明されている。「間隔反復法（spaced repetition）」は英単語学習にも使われる最強の暗記技術！"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 320,
+    "word": "consume",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "消費する、使い果たす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "食べる、飲む（大量に）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈsjuːm/",
+    "syllables": "con-sume",
+    "audioHint": "コンスューム",
+    "examples": [
+      {
+        "en": "We consume too much energy in our daily lives.",
+        "ja": "私たちは日常生活でエネルギーを使いすぎている。",
+        "blank": "We ___ too much energy in our daily lives.",
+        "blankAnswer": "consume"
+      }
+    ],
+    "distractors": [
+      "拡大する",
+      "移動する",
+      "繰り返す"
+    ],
+    "confusableSpellings": [
+      "consoom",
+      "conssume",
+      "consumme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 consumere 由来。con-（完全に）＋ sumere（取る）から「完全に取り尽くす＝消費する・使い果たす」という意味。",
+      "tips": "consume はフォーマルな語で、日常会話では eat / drink / use の方が自然なことが多い。ただしビジネス・環境・経済の文脈では consume が頻出。「コンシューマー（consumer＝消費者）」は日本語にもなっている。",
+      "confusables": "use は最も一般的な「使う」。consume は「使い尽くす・大量に消費する」という強調のニュアンスがある。また be consumed by fear（恐怖に飲み込まれる）のように感情表現にも使われる。",
+      "collocations": [
+        "consume energy",
+        "consume content",
+        "consume alcohol"
+      ],
+      "trivia": "SNSで動画や記事を見ることを「コンテンツを consume する」と言うのは最近の英語表現。デジタル時代の「情報消費」を表す言葉として今や日常的に使われている！"
+    },
+    "frequency": 850,
+    "cefr": "B2"
+  }
+]

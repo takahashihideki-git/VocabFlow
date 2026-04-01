@@ -1,0 +1,993 @@
+[
+  {
+    "id": 341,
+    "word": "target",
+    "pos": "noun",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "目標、ターゲット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "狙う、対象とする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtɑːrɡɪt/",
+    "syllables": "tar-get",
+    "audioHint": "ターゲット",
+    "examples": [
+      {
+        "en": "We need to set a clear target for this project.",
+        "ja": "このプロジェクトには明確な目標を設定する必要がある。",
+        "blank": "We need to set a clear ___ for this project.",
+        "blankAnswer": "target"
+      }
+    ],
+    "distractors": [
+      "変化させる",
+      "操作する",
+      "取り除く"
+    ],
+    "confusableSpellings": [
+      "taregt",
+      "targit",
+      "targate"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'targette'（小さな盾）に由来。語根は 'targe'（盾）で、矢を向ける「的」→「目標」へと意味が拡張した。",
+      "tips": "名詞と動詞の両方で使えるが、動詞として使う場合は 'target ~ at/toward ...' の形に注意。日本語の「ターゲット」はほぼ英語の名詞用法と一致している。",
+      "confusables": "'goal' は達成したい最終的な目標、'target' は数値・期限など具体的な基準を伴う目標。'aim' は方向性・意図に近い。",
+      "collocations": [
+        "set a target",
+        "target audience",
+        "hit the target"
+      ],
+      "trivia": "米国の小売チェーン「Target」の名は「的を絞った買い物」というコンセプトから来ている。ロゴの赤い的もそのまま。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 342,
+    "word": "element",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "要素、成分",
+        "pos": "noun"
+      },
+      {
+        "meaning": "元素",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɛlɪmənt/",
+    "syllables": "el-e-ment",
+    "audioHint": "エレメント",
+    "examples": [
+      {
+        "en": "Oxygen is an essential element for human life.",
+        "ja": "酸素は人間の生命にとって不可欠な元素だ。",
+        "blank": "Oxygen is an essential ___ for human life.",
+        "blankAnswer": "element"
+      }
+    ],
+    "distractors": [
+      "症状、兆候",
+      "治療法",
+      "遺伝子"
+    ],
+    "confusableSpellings": [
+      "elemant",
+      "eliment",
+      "elemnet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'elementum'（基本要素・初歩）に由来。古代ギリシャの「四元素（火・水・土・空気）」を指す言葉として使われていた。",
+      "tips": "化学の「元素」と「要素・構成要素」の両方の意味を持つ。'elements of a plan'（計画の要素）のように抽象的にも使える。複数形 'elements' は「（悪）天候」の意味にもなる点に注意。",
+      "confusables": "'component' は機械・システムの構成部品に使いやすく、'element' はより広く概念的な「要素」に使う。'factor' は結果に影響を与える要因。",
+      "collocations": [
+        "chemical element",
+        "key element",
+        "elements of surprise"
+      ],
+      "trivia": "周期表の元素記号は世界共通語。元素名は発見者の出身国にちなむものも多く、Americium（アメリシウム）やJaponium（ニホニウム）など国名由来が多数存在する。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 343,
+    "word": "principle",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "原則、原理",
+        "pos": "noun"
+      },
+      {
+        "meaning": "主義、信念",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɪnsɪpl/",
+    "syllables": "prin-ci-ple",
+    "audioHint": "プリンシプル",
+    "examples": [
+      {
+        "en": "She lives by the principle of treating others with respect.",
+        "ja": "彼女は他者を敬うという原則に従って生きている。",
+        "blank": "She lives by the ___ of treating others with respect.",
+        "blankAnswer": "principle"
+      }
+    ],
+    "distractors": [
+      "意識、自覚",
+      "感情、情緒",
+      "記憶、思い出"
+    ],
+    "confusableSpellings": [
+      "princple",
+      "principel",
+      "princeple"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'principium'（始まり・起源）に由来。'primus'（最初の）＋ 'capere'（取る）の合成語。「最初に取るもの」→「根本的なルール」へ。",
+      "tips": "最大の落とし穴は 'principal'（主要な・校長）との混同。'principle' は常に名詞のみ。「原則」は -ple で終わり、「主要な」は -pal で終わると覚えると良い。",
+      "confusables": "'principal' は形容詞・名詞で「主要な、校長」。'rule' は具体的なルール・規則、'principle' はより抽象的・哲学的な原理原則に使う。",
+      "collocations": [
+        "basic principle",
+        "in principle",
+        "moral principle"
+      ],
+      "trivia": "「in principle（原則として）」と「in practice（実際には）」はセットでよく使われる対比表現。政治家がよく使う言い訳フレーズとしても有名！"
+    },
+    "frequency": 700,
+    "cefr": "B2"
+  },
+  {
+    "id": 344,
+    "word": "phenomenon",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "現象",
+        "pos": "noun"
+      },
+      {
+        "meaning": "非凡な人・事物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fɪˈnɒmɪnən/",
+    "syllables": "phe-nom-e-non",
+    "audioHint": "フィノミノン",
+    "examples": [
+      {
+        "en": "The aurora is a stunning natural phenomenon.",
+        "ja": "オーロラは息を呑むような自然現象だ。",
+        "blank": "The aurora is a stunning natural ___.",
+        "blankAnswer": "phenomenon"
+      }
+    ],
+    "distractors": [
+      "仮説、推論",
+      "証拠、根拠",
+      "分析、解析"
+    ],
+    "confusableSpellings": [
+      "phenomemon",
+      "phenominon",
+      "fenomenon"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'phainomenon'（現れるもの）に由来。'phainein'（輝く・現れる）が語根で、'phase'（位相）や 'phantom'（幻影）とも同源。",
+      "tips": "複数形は 'phenomena'（フィノミナ）で、'phenomenons' は非公式。「この現象は…」と言うとき 'These phenomena are' と複数扱いにするミスに注意。",
+      "confusables": "'event' は出来事・イベント、'phenomenon' は観察・説明が必要な注目すべき現象に使う。'occurrence' は「起こること」全般。",
+      "collocations": [
+        "natural phenomenon",
+        "social phenomenon",
+        "cultural phenomenon"
+      ],
+      "trivia": "BTS や K-pop が世界的ブームになったとき、英語メディアは 'a global phenomenon' と表現した。「現象」という言葉がそのままスター称号になる面白い使い方！"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  },
+  {
+    "id": 345,
+    "word": "atmosphere",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "大気、空気",
+        "pos": "noun"
+      },
+      {
+        "meaning": "雰囲気、ムード",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈætməsfɪər/",
+    "syllables": "at-mos-phere",
+    "audioHint": "アトモスフィア",
+    "examples": [
+      {
+        "en": "The restaurant had a warm and cozy atmosphere.",
+        "ja": "そのレストランは温かくて居心地の良い雰囲気だった。",
+        "blank": "The restaurant had a warm and cozy ___.",
+        "blankAnswer": "atmosphere"
+      }
+    ],
+    "distractors": [
+      "地形、地勢",
+      "海流、潮流",
+      "生態系、生物群系"
+    ],
+    "confusableSpellings": [
+      "atmosfere",
+      "atmoshpere",
+      "atmosphear"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'atmos'（蒸気・水蒸気）＋ 'sphaira'（球）の合成語。「地球を包む蒸気の球」という意味。",
+      "tips": "科学的文脈（大気・空気）と日常的文脈（雰囲気）の両方で使える。'air' は物理的な空気、'atmosphere' は文脈によって「大気圏」か「場の雰囲気」かが変わる。",
+      "confusables": "'climate' は長期的な気候、'weather' は短期的な天気、'atmosphere' は大気層全体または場の雰囲気。'mood' は人や場の感情的な雰囲気。",
+      "collocations": [
+        "Earth's atmosphere",
+        "create an atmosphere",
+        "friendly atmosphere"
+      ],
+      "trivia": "圧力の単位「atm（気圧）」はこの単語の略。1気圧＝海面での大気圧という意味で、ダイビングや料理の圧力鍋の説明でも登場する！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 346,
+    "word": "origin",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "起源、発祥",
+        "pos": "noun"
+      },
+      {
+        "meaning": "出身、生まれ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɒrɪdʒɪn/",
+    "syllables": "or-i-gin",
+    "audioHint": "オリジン",
+    "examples": [
+      {
+        "en": "No one knows the exact origin of this tradition.",
+        "ja": "この伝統の正確な起源は誰も知らない。",
+        "blank": "No one knows the exact ___ of this tradition.",
+        "blankAnswer": "origin"
+      }
+    ],
+    "distractors": [
+      "目的、意図",
+      "結果、成果",
+      "価値観、信念"
+    ],
+    "confusableSpellings": [
+      "origion",
+      "origan",
+      "orighin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'origo'（始まり・源泉）に由来。'oriri'（生じる・昇る）が語根で、'orient'（東方・方向を定める）や 'abortion' とも同源。",
+      "tips": "'origin' は名詞のみ。「もともとの」と言いたいときは形容詞 'original' を使う。'original' には「独創的な」という意味もあるので文脈に注意。",
+      "confusables": "'source' は情報・川などの「源」、'origin' はより抽象的・歴史的な「起源」。'cause' は結果を引き起こす「原因」。",
+      "collocations": [
+        "country of origin",
+        "origin of life",
+        "ethnic origin"
+      ],
+      "trivia": "Marvel の映画で必ず作られる「オリジン・ストーリー（origin story）」はヒーローの誕生秘話。この表現は今やビジネスや自己紹介にも使われるほど広まっている！"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 347,
+    "word": "personality",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "個性、性格",
+        "pos": "noun"
+      },
+      {
+        "meaning": "著名人、有名人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌpɜːrsəˈnælɪti/",
+    "syllables": "per-son-al-i-ty",
+    "audioHint": "パーソナリティ",
+    "examples": [
+      {
+        "en": "She has a very outgoing and friendly personality.",
+        "ja": "彼女はとても外向的で親しみやすい性格だ。",
+        "blank": "She has a very outgoing and friendly ___.",
+        "blankAnswer": "personality"
+      }
+    ],
+    "distractors": [
+      "自由、解放",
+      "意識、認識",
+      "道徳、倫理"
+    ],
+    "confusableSpellings": [
+      "personallity",
+      "personalety",
+      "perssonality"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'persona'（仮面・役割）＋ '-ality'（性質を表す接尾辞）。古代ローマの劇で役者が付けた「仮面」が語源→人が外に見せる「人格」へ発展。",
+      "tips": "'personality' と 'character' はほぼ同義だが、'personality' は外から見える印象・魅力、'character' は内面的な道徳的資質に重きがある。日本語の「キャラ」はほぼ 'personality' に近い。",
+      "confusables": "'character' は道徳的・内面的な人格、'personality' は外に出る個性・魅力。'identity' は自分が何者かというアイデンティティ全体。",
+      "collocations": [
+        "strong personality",
+        "split personality",
+        "TV personality"
+      ],
+      "trivia": "MBTI（Myers-Briggs Type Indicator）は世界で最も有名な personality test。日本では「16タイプ」として若者の間でSNSで大流行した。"
+    },
+    "frequency": 950,
+    "cefr": "B1"
+  },
+  {
+    "id": 348,
+    "word": "capacity",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "能力、キャパシティ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "容量、収容能力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəˈpæsɪti/",
+    "syllables": "ca-pac-i-ty",
+    "audioHint": "カパシティ",
+    "examples": [
+      {
+        "en": "The hall has a seating capacity of five hundred people.",
+        "ja": "そのホールには500人の収容能力がある。",
+        "blank": "The hall has a seating ___ of five hundred people.",
+        "blankAnswer": "capacity"
+      }
+    ],
+    "distractors": [
+      "可能性、潜在性",
+      "意図、動機",
+      "限界、制限"
+    ],
+    "confusableSpellings": [
+      "capasity",
+      "capacety",
+      "capacitiy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'capacitas'（受け入れる広さ）に由来。'capere'（取る・受け入れる）が語根で、'capture'（捕まえる）・'accept'（受け入れる）とも同源。",
+      "tips": "'capacity' はスタジアムの「収容人数」から人間の「能力・潜在力」まで幅広く使える。'in my capacity as ~'（〜の立場として）というフォーマルな用法も覚えておくと便利。",
+      "confusables": "'ability' は現在持っている能力、'capacity' は最大限に持てる潜在的な能力・容量。'capability' は能力・適性の意味で 'capacity' に近いが、よりフォーマル。",
+      "collocations": [
+        "full capacity",
+        "mental capacity",
+        "capacity for change"
+      ],
+      "trivia": "スマホの「ストレージ容量」も capacity で表現される。「このスマホは128GBのcapacity」という言い方は技術文書では当たり前に登場する！"
+    },
+    "frequency": 1000,
+    "cefr": "B2"
+  },
+  {
+    "id": 349,
+    "word": "profit",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "利益、利潤",
+        "pos": "noun"
+      },
+      {
+        "meaning": "利益を得る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈprɒfɪt/",
+    "syllables": "prof-it",
+    "audioHint": "プロフィット",
+    "examples": [
+      {
+        "en": "The company made a huge profit last year.",
+        "ja": "その会社は昨年、莫大な利益を上げた。",
+        "blank": "The company made a huge ___ last year.",
+        "blankAnswer": "profit"
+      }
+    ],
+    "distractors": [
+      "予算、資金計画",
+      "税金、課税",
+      "需要、消費"
+    ],
+    "confusableSpellings": [
+      "proffit",
+      "profet",
+      "proffet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'profectus'（前進・進歩）に由来。'pro-'（前へ）＋ 'facere'（作る・進む）の合成語。「前に進む」→「利益を得る」へ意味が変化。",
+      "tips": "'profit' は売上から費用を引いた「純利益」、'revenue' は費用を引く前の「総売上高」。この区別は財務・ビジネスで非常に重要。'benefit' は金銭以外の利益全般。",
+      "confusables": "'revenue' は総売上収入、'profit' は純利益（コスト差し引き後）。'income' は個人や企業が受け取る収入全般。",
+      "collocations": [
+        "make a profit",
+        "profit margin",
+        "non-profit organization"
+      ],
+      "trivia": "「nonprofit（非営利）」は profit にひとつの接頭辞を付けるだけで真逆の組織形態を表す。NPO（Non-Profit Organization）の P がまさにこの profit！"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 350,
+    "word": "circumstance",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "状況、事情",
+        "pos": "noun"
+      },
+      {
+        "meaning": "境遇、環境",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɜːrkəmstæns/",
+    "syllables": "cir-cum-stance",
+    "audioHint": "サーカムスタンス",
+    "examples": [
+      {
+        "en": "Under no circumstances should you share your password.",
+        "ja": "いかなる状況でもパスワードを共有してはいけない。",
+        "blank": "Under no ___ should you share your password.",
+        "blankAnswer": "circumstances"
+      }
+    ],
+    "distractors": [
+      "判断、決断",
+      "目的、意図",
+      "習慣、慣行"
+    ],
+    "confusableSpellings": [
+      "circumstance",
+      "circumastance",
+      "circmstance",
+      "curcumstance"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'circumstantia' に由来。'circum-'（周りに）＋ 'stare'（立つ）の合成語。「周りに立っているもの」→「取り巻く状況」というイメージ。",
+      "tips": "ほとんどの場合、複数形 'circumstances' で使う。'under the circumstances'（状況を考えると）は決まり文句。'under no circumstances'（絶対に〜ない）は否定の強調表現として頻出。",
+      "confusables": "'situation' は今まさにある具体的な状況、'circumstance' は人を取り巻く背景・事情・環境。'condition' は物事が成立するための条件・状態。",
+      "collocations": [
+        "under the circumstances",
+        "financial circumstances",
+        "exceptional circumstances"
+      ],
+      "trivia": "エルガーの有名な行進曲「威風堂々（Pomp and Circumstance）」のタイトルにも登場。ここでの circumstance は「華やかな状況・儀式的な場」という意味で使われている！"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 351,
+    "word": "manner",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "方法、やり方",
+        "pos": "noun"
+      },
+      {
+        "meaning": "態度、マナー",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmænər/",
+    "syllables": "man-ner",
+    "audioHint": "マナー",
+    "examples": [
+      {
+        "en": "She spoke in a calm and polite manner.",
+        "ja": "彼女は落ち着いて礼儀正しい態度で話した。",
+        "blank": "She spoke in a calm and polite ___.",
+        "blankAnswer": "manner"
+      }
+    ],
+    "distractors": [
+      "意識",
+      "原則",
+      "感情"
+    ],
+    "confusableSpellings": [
+      "maner",
+      "mannor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'manuarius'（手に関する）→ 古フランス語 'maniere'（方法・手段）から。語根 'manus'（手）が元で、「手を使うやり方」が転じて「方法・態度」になった。",
+      "tips": "manners（複数形）は「礼儀作法」という意味になる。'good manners'（礼儀正しさ）のように複数形で使うことが多い。単数の manner は「方法・やり方」として使われることが多い。",
+      "confusables": "manner（方法・態度）と manor（荘園・大邸宅）は発音が同じ同音異義語。スペルに注意。",
+      "collocations": [
+        "in a ... manner（〜な方法で）",
+        "good manners（良い作法）",
+        "manner of speaking（話し方）"
+      ],
+      "trivia": "「マナー」は日本語でも使われるが、英語の 'manners' は複数形が基本。「彼はマナーがいい」を英語にすると 'He has good manners.' と複数形になるのが面白い！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 352,
+    "word": "threat",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "脅威、脅し",
+        "pos": "noun"
+      },
+      {
+        "meaning": "危険の兆し",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/θrɛt/",
+    "syllables": "threat",
+    "audioHint": "スレット",
+    "examples": [
+      {
+        "en": "The storm posed a serious threat to the coastal towns.",
+        "ja": "嵐は沿岸の町に深刻な脅威をもたらした。",
+        "blank": "The storm posed a serious ___ to the coastal towns.",
+        "blankAnswer": "threat"
+      }
+    ],
+    "distractors": [
+      "法律",
+      "選挙",
+      "制度"
+    ],
+    "confusableSpellings": [
+      "threet",
+      "thret"
+    ],
+    "passive": {
+      "etymology": "古英語 'thrēat'（圧力・強制）から。語根は「圧迫する」という意味を持ち、現代の「脅し・脅威」に発展した。",
+      "tips": "threat は名詞、threaten は動詞。'make a threat'（脅しをかける）と 'threaten someone'（人を脅す）の使い分けを覚えよう。",
+      "confusables": "threat（脅威・名詞）と threaten（脅す・動詞）を混同しないこと。また、danger（危険）は状態を、threat は意図的な危険源を強調する点が異なる。",
+      "collocations": [
+        "pose a threat（脅威をもたらす）",
+        "under threat（脅威にさらされて）",
+        "security threat（安全保障上の脅威）"
+      ],
+      "trivia": "英語の 'threat' はもともと「人混み・圧力」という意味だった。現代の「脅し」という意味への変化は、集団による圧力のイメージから来ているとも言われる。"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  },
+  {
+    "id": 353,
+    "word": "resident",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "居住者、住民",
+        "pos": "noun"
+      },
+      {
+        "meaning": "在住の、常駐の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈrɛzɪdənt/",
+    "syllables": "res-i-dent",
+    "audioHint": "レジデント",
+    "examples": [
+      {
+        "en": "All residents must register at the local office.",
+        "ja": "すべての住民は地元の事務所に登録しなければならない。",
+        "blank": "All ___ must register at the local office.",
+        "blankAnswer": "residents"
+      }
+    ],
+    "distractors": [
+      "代表者",
+      "候補者",
+      "権限"
+    ],
+    "confusableSpellings": [
+      "residant",
+      "rezident"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'residere'（留まる・座り続ける）から。're-'（再び・留まって）＋ 'sedere'（座る）が語源。「ある場所に座り続ける人」が「居住者」になった。",
+      "tips": "resident（居住者）と residence（住居・居住）は混同しがち。また、形容詞としても使え 'resident doctor'（常駐医師）のように使う。",
+      "confusables": "resident（居住者）と inhabitant（住民）は似ているが、resident は特定の場所に正式に住んでいるニュアンスが強く、inhabitant は広く「その土地に住む人」を指す。",
+      "collocations": [
+        "local residents（地域住民）",
+        "permanent resident（永住者）",
+        "resident doctor（常駐医師）"
+      ],
+      "trivia": "医療ドラマでよく聞く「レジデント」は研修医のこと。病院に「住み込みで働く」くらい長時間いることから来た表現で、今でも研修医を resident と呼ぶ！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 354,
+    "word": "wealth",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "富、財産",
+        "pos": "noun"
+      },
+      {
+        "meaning": "豊富さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/wɛlθ/",
+    "syllables": "wealth",
+    "audioHint": "ウェルス",
+    "examples": [
+      {
+        "en": "The nation's wealth depends on its natural resources.",
+        "ja": "その国の富は天然資源に依存している。",
+        "blank": "The nation's ___ depends on its natural resources.",
+        "blankAnswer": "wealth"
+      }
+    ],
+    "distractors": [
+      "負債",
+      "予算案",
+      "税収"
+    ],
+    "confusableSpellings": [
+      "welth",
+      "weath"
+    ],
+    "passive": {
+      "etymology": "古英語 'wela'（幸福・繁栄）に '-th'（状態を示す接尾辞）が付いた形。'well'（よい）と同じ語根を持ち、「よい状態」が「富」を意味するようになった。",
+      "tips": "wealth は不可算名詞なので 'a wealth' とは言えない（ただし 'a wealth of information'〈豊富な情報〉のように比喩的に使う例外あり）。wealthy（形容詞）も合わせて覚えよう。",
+      "confusables": "wealth（富・抽象的）と fortune（財産・運）は似ているが、fortune は「運」のニュアンスも含む。また richness は「豊かさ・濃厚さ」に使われることが多い。",
+      "collocations": [
+        "wealth distribution（富の分配）",
+        "create wealth（富を生み出す）",
+        "a wealth of（豊富な〜）"
+      ],
+      "trivia": "「Commonwealth（コモンウェルス）」という言葉は 'common'＋'wealth' で「共有の富」という意味。イギリス連邦の正式名称にも使われているが、もとは「みんなの幸せ」という意味だった！"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 355,
+    "word": "institution",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "機関、施設",
+        "pos": "noun"
+      },
+      {
+        "meaning": "制度、慣習",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪnstɪˈtjuːʃən/",
+    "syllables": "in-sti-tu-tion",
+    "audioHint": "インスティテューション",
+    "examples": [
+      {
+        "en": "The university is one of the oldest institutions in the country.",
+        "ja": "その大学はその国で最も古い機関の一つだ。",
+        "blank": "The university is one of the oldest ___ in the country.",
+        "blankAnswer": "institutions"
+      }
+    ],
+    "distractors": [
+      "選挙結果",
+      "外交政策",
+      "住民投票"
+    ],
+    "confusableSpellings": [
+      "instituion",
+      "instutition"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'instituere'（設立する・確立する）から。'in-'（中に）＋ 'statuere'（立てる・置く）が語源。「しっかりと立てられたもの」が「機関・制度」になった。",
+      "tips": "institution は「機関・施設」（大学・銀行など）と「制度・慣習」（結婚制度など）の2つの意味を持つ。文脈をよく見て判断しよう。",
+      "confusables": "institution（機関・制度）と organization（組織）は似ているが、institution はより歴史・権威・社会的役割を持つものに使われる。会社は organization で、大学や議会は institution。",
+      "collocations": [
+        "financial institution（金融機関）",
+        "educational institution（教育機関）",
+        "social institution（社会制度）"
+      ],
+      "trivia": "英語圏では「結婚は institution だ」という表現がある。これは結婚を「制度」として捉えた言い方。皮肉っぽく使われることも多く、'Marriage is a fine institution, but I'm not ready for an institution.'（結婚は素晴らしい制度だが、施設（精神病院）には入りたくない）という有名なジョークもある！"
+    },
+    "frequency": 700,
+    "cefr": "B2"
+  },
+  {
+    "id": 356,
+    "word": "authority",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "権威、権限",
+        "pos": "noun"
+      },
+      {
+        "meaning": "当局、行政機関",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɔːˈθɒrɪti/",
+    "syllables": "au-thor-i-ty",
+    "audioHint": "オーソリティ",
+    "examples": [
+      {
+        "en": "The local authority decided to close the road.",
+        "ja": "地方当局はその道路を閉鎖することを決定した。",
+        "blank": "The local ___ decided to close the road.",
+        "blankAnswer": "authority"
+      }
+    ],
+    "distractors": [
+      "居住地",
+      "投票行動",
+      "社会運動"
+    ],
+    "confusableSpellings": [
+      "autority",
+      "authoraty"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'auctoritas'（影響力・信頼性）から。語根 'auctor'（創始者・保証人）→ 'augere'（増やす・強める）が元。「力を増やす人・支える人」が「権威」になった。",
+      "tips": "authority は複数形 authorities で「当局」を意味することが多い。'the authorities'（当局・官憲）のように定冠詞付きの複数形で使う表現を覚えておこう。",
+      "confusables": "authority（権威・制度的な権力）と power（力・能力）は異なる。authority は地位や資格から生まれる正当な権限、power は物理的・政治的な力の意味合いが強い。",
+      "collocations": [
+        "have authority（権限を持つ）",
+        "local authority（地方当局）",
+        "authority figure（権威ある人物）"
+      ],
+      "trivia": "「オーソリティ」は日本語でも「その道の権威」という意味で使われる。英語でも 'He is an authority on Japanese history.'（彼は日本史の権威だ）のように使える。カタカナ英語がそのまま通じる珍しいケース！"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 357,
+    "word": "vote",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "投票する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "票、投票",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/voʊt/",
+    "syllables": "vote",
+    "audioHint": "ヴォウト",
+    "examples": [
+      {
+        "en": "Millions of citizens voted in the general election.",
+        "ja": "何百万人もの市民が総選挙で投票した。",
+        "blank": "Millions of citizens ___ in the general election.",
+        "blankAnswer": "voted"
+      }
+    ],
+    "distractors": [
+      "抗議する",
+      "立法する",
+      "統治する"
+    ],
+    "confusableSpellings": [
+      "voat",
+      "votte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'votum'（誓い・願い）から。'vovere'（誓う）が語根。古代ローマでは神への誓いとして意思表示をしたことが、「投票」の概念に発展した。",
+      "tips": "vote は自動詞・他動詞どちらも使える。'vote for〜'（〜に賛成票を投じる）と 'vote against〜'（〜に反対票を投じる）の使い分けを覚えよう。",
+      "confusables": "vote（投票する）と elect（選出する）の違いに注意。vote は投票行為そのもの、elect は選ばれた結果を強調する。'We voted for him.'（投票した）vs 'We elected him.'（選んだ）。",
+      "collocations": [
+        "vote for（〜に投票する）",
+        "cast a vote（票を投じる）",
+        "popular vote（一般投票）"
+      ],
+      "trivia": "英語の 'vow'（誓い）と vote は同じラテン語語根から来ている。投票とは「この人に任せます」という一種の誓いだったわけで、民主主義の重みが語源に込められている！"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 358,
+    "word": "sight",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "視力、視覚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "光景、眺め",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/saɪt/",
+    "syllables": "sight",
+    "audioHint": "サイト",
+    "examples": [
+      {
+        "en": "She lost her sight in the accident.",
+        "ja": "彼女は事故で視力を失った。",
+        "blank": "She lost her ___ in the accident.",
+        "blankAnswer": "sight"
+      }
+    ],
+    "distractors": [
+      "聴覚",
+      "治療法",
+      "症状"
+    ],
+    "confusableSpellings": [
+      "site",
+      "sigth"
+    ],
+    "passive": {
+      "etymology": "古英語 'sihþ'（見ること・視力）から。ゲルマン語根 'sehwan'（見る）が元で、'see' とも同じ語族。「見る能力・見たもの」が語義の中心。",
+      "tips": "sight、site、cite は発音が同じ同音異義語（ホモフォン）。sight（視力・光景）、site（場所・サイト）、cite（引用する）をしっかり区別しよう。",
+      "confusables": "sight（視力・視覚・光景）と vision（視力・ビジョン・未来像）は似ているが、vision は「将来の見通し・幻視」のニュアンスも含む。医学的な「視力」はどちらも使える。",
+      "collocations": [
+        "lose sight of（〜を見失う）",
+        "at first sight（一目で）",
+        "out of sight（見えなくなって）"
+      ],
+      "trivia": "'Love at first sight'（一目惚れ）という表現は世界中で使われる。日本語の「一目惚れ」とほぼ同じ発想で、英語でも同じ概念があることが面白い！ちなみに 'sight' には「名所」の意味もあり、'sightseeing'（観光）もここから来ている。"
+    },
+    "frequency": 550,
+    "cefr": "A2"
+  },
+  {
+    "id": 359,
+    "word": "campaign",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "キャンペーン、運動",
+        "pos": "noun"
+      },
+      {
+        "meaning": "選挙運動をする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kæmˈpeɪn/",
+    "syllables": "cam-paign",
+    "audioHint": "キャンペイン",
+    "examples": [
+      {
+        "en": "The senator launched a campaign to reduce poverty.",
+        "ja": "その上院議員は貧困削減のためのキャンペーンを開始した。",
+        "blank": "The senator launched a ___ to reduce poverty.",
+        "blankAnswer": "campaign"
+      }
+    ],
+    "distractors": [
+      "条約",
+      "判決",
+      "議会"
+    ],
+    "confusableSpellings": [
+      "campain",
+      "campaigne"
+    ],
+    "passive": {
+      "etymology": "フランス語 'campagne'（平野・野外）→ イタリア語 'campagna' から。もともと「野外での軍事行動（野戦）」を意味し、それが「組織的な活動・運動」全般に広がった。語根は 'campus'（広場・野原）。",
+      "tips": "campaign は名詞・動詞どちらも使える。'run a campaign'（運動を展開する）や 'campaign for〜'（〜のために運動する）などの形で使われる。アクセントは後ろ（-paign）にあることに注意。",
+      "confusables": "campaign（組織的な運動・選挙活動）と movement（社会運動）は似ているが、campaign は特定の目標・期間を持つ組織的活動、movement はより広範で継続的な社会変化の動きを指す。",
+      "collocations": [
+        "election campaign（選挙キャンペーン）",
+        "campaign for（〜のために運動する）",
+        "advertising campaign（広告キャンペーン）"
+      ],
+      "trivia": "「キャンペーン」は日本語でもセール促進の意味で使われるが、英語では政治・軍事・社会運動にも広く使われる。もともと「野原での戦い」が語源というのが、選挙の「戦い」とイメージが重なって面白い！"
+    },
+    "frequency": 720,
+    "cefr": "B1"
+  },
+  {
+    "id": 360,
+    "word": "fund",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "資金、基金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "資金を提供する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fʌnd/",
+    "syllables": "fund",
+    "audioHint": "ファンド",
+    "examples": [
+      {
+        "en": "The government funded the new research program.",
+        "ja": "政府はその新しい研究プログラムに資金を提供した。",
+        "blank": "The government ___ the new research program.",
+        "blankAnswer": "funded"
+      }
+    ],
+    "distractors": [
+      "負債",
+      "為替相場",
+      "景気後退"
+    ],
+    "confusableSpellings": [
+      "fand",
+      "funnd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'fundus'（底・基盤・土地）から。「しっかりした土台・底」が「資金の基盤」を意味するようになり、「資金・基金」へと発展した。'foundation'（基盤・財団）と同じ語根。",
+      "tips": "fund は名詞（資金・基金）と動詞（資金提供する）の両方で使える。'funds'（複数形）で「資金全般」を意味することが多い。'raise funds'（資金を集める）は頻出表現。",
+      "confusables": "fund（資金・基金）と budget（予算）は似ているが、fund はすでに集められた・割り当てられた資金、budget は計画的な支出の見積もりを指す。また、ヘッジファンドの 'fund' は「投資基金」の意味。",
+      "collocations": [
+        "raise funds（資金を集める）",
+        "hedge fund（ヘッジファンド）",
+        "fund a project（プロジェクトに資金提供する）"
+      ],
+      "trivia": "クラウドファンディングの 'funding' もここから来ている。インターネット時代に「みんなで底を支える（fund）」という語源の意味が現代的な形で復活した、と考えると面白い！"
+    },
+    "frequency": 680,
+    "cefr": "B1"
+  }
+]

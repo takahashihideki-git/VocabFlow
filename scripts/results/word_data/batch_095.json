@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1881,
+    "word": "earnest",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "真剣な、誠実な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "熱心な、本気の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɜːrnɪst/",
+    "syllables": "ear-nest",
+    "audioHint": "アーニスト",
+    "examples": [
+      {
+        "en": "She made an earnest effort to improve her English skills.",
+        "ja": "彼女は英語力を向上させるために真剣な努力をした。",
+        "blank": "She made an ___ effort to improve her English skills.",
+        "blankAnswer": "earnest"
+      }
+    ],
+    "distractors": [
+      "大胆な",
+      "臆病な",
+      "雄弁な"
+    ],
+    "confusableSpellings": [
+      "earnist",
+      "ernest",
+      "earnnest"
+    ],
+    "passive": {
+      "etymology": "古英語 'eornoste'（真剣な）に由来。語根は 'eorn-'（熱心な）で、中英語を経て現代英語に定着した。",
+      "tips": "『in earnest』というフレーズで「本気で、真剣に」という意味になる。'Are you in earnest?' で「本気ですか？」という表現が会話でよく使われる。",
+      "confusables": "'serious' も真剣な意味だが、'earnest' はより誠実さ・熱意のニュアンスが強い。'sincere' とも近いが、'earnest' は行動の熱心さを強調する。",
+      "collocations": [
+        "earnest effort（真剣な努力）",
+        "in earnest（本気で）",
+        "earnest appeal（真剣な訴え）"
+      ],
+      "trivia": "オスカー・ワイルドの有名な喜劇『The Importance of Being Earnest』のタイトルは、'earnest'（真剣な）と男性名 'Ernest' の同音異義語をかけたダジャレ。英語圏では超有名な言葉遊び！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1882,
+    "word": "intelligible",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "理解できる、明瞭な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "分かりやすい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtelɪdʒɪbl/",
+    "syllables": "in-tel-li-gi-ble",
+    "audioHint": "インテリジブル",
+    "examples": [
+      {
+        "en": "His explanation was barely intelligible to the students.",
+        "ja": "彼の説明は生徒たちにはほとんど理解できなかった。",
+        "blank": "His explanation was barely ___ to the students.",
+        "blankAnswer": "intelligible"
+      }
+    ],
+    "distractors": [
+      "湿気の多い",
+      "未成年の",
+      "悪名高い"
+    ],
+    "confusableSpellings": [
+      "intelligable",
+      "inteligible",
+      "intelligeble"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intelligibilis' から。'inter-'（間に）＋ 'legere'（読む・選ぶ）が合わさった 'intelligere'（理解する）が語源。",
+      "tips": "反意語は 'unintelligible'（理解不能な）。スピーチや音声の文脈で「聞き取れる・理解できる」という意味でよく使われる。'understandable' より少しフォーマルな語。",
+      "confusables": "'intelligible' は「理解できる状態にある」こと、'intelligent' は「知性がある」こと。語形が似ているが意味が全く異なるので注意。",
+      "collocations": [
+        "barely intelligible（かろうじて理解できる）",
+        "intelligible speech（明瞭な話し方）",
+        "mutually intelligible（相互に理解可能な）"
+      ],
+      "trivia": "言語学では『mutually intelligible』（相互理解可能）という概念がある。スペイン語とポルトガル語は互いにかなり intelligible で、話者同士がある程度通じ合えるとされている。"
+    },
+    "frequency": 7200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1883,
+    "word": "abrupt",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "突然の、不意の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ぶっきらぼうな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/əˈbrʌpt/",
+    "syllables": "a-brupt",
+    "audioHint": "アブラプト",
+    "examples": [
+      {
+        "en": "The meeting came to an abrupt end when the fire alarm rang.",
+        "ja": "火災警報が鳴り、会議は突然終わった。",
+        "blank": "The meeting came to an ___ end when the fire alarm rang.",
+        "blankAnswer": "abrupt"
+      }
+    ],
+    "distractors": [
+      "理解できる",
+      "湿気の多い",
+      "真剣な"
+    ],
+    "confusableSpellings": [
+      "abrubt",
+      "abruppt",
+      "abrrupt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'abruptus' から。'ab-'（離れて）＋ 'rumpere'（壊す・断ち切る）で「突然断ち切られた」が原義。",
+      "tips": "「突然の変化」には 'abrupt change'、「ぶっきらぼうな態度」には 'abrupt manner' と使う。副詞 'abruptly' もよく使われる。",
+      "confusables": "'sudden' も突然という意味だが、'abrupt' は特に「唐突さ・無礼さ」のニュアンスを持つ。人の態度に使うと「愛想のない」という否定的な意味になる。",
+      "collocations": [
+        "abrupt change（急激な変化）",
+        "abrupt end（突然の終わり）",
+        "abrupt manner（ぶっきらぼうな態度）"
+      ],
+      "trivia": "'rupture'（破裂）や 'interrupt'（遮る）も同じ語根 'rumpere' から来ている。「断ち切る」イメージでセットで覚えると語彙が一気に広がる！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1884,
+    "word": "reckless",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "無謀な、向こう見ずな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無鉄砲な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈreklɪs/",
+    "syllables": "reck-less",
+    "audioHint": "レックレス",
+    "examples": [
+      {
+        "en": "He was arrested for reckless driving on the highway.",
+        "ja": "彼は高速道路での無謀運転で逮捕された。",
+        "blank": "He was arrested for ___ driving on the highway.",
+        "blankAnswer": "reckless"
+      }
+    ],
+    "distractors": [
+      "真剣な",
+      "雄弁な",
+      "臆病な"
+    ],
+    "confusableSpellings": [
+      "reckeless",
+      "reckless",
+      "wreckless"
+    ],
+    "passive": {
+      "etymology": "古英語 'recceleas' から。'reccan'（気にかける）＋ '-less'（〜がない）で「注意を払わない」が原義。",
+      "tips": "法律用語では 'reckless driving'（危険運転）のように使われる。'careless'（不注意な）との違いは、'reckless' はリスクを知りながら無視する点にある。",
+      "confusables": "'careless' は単に「うっかりしている」だが、'reckless' は「リスクを承知の上で無謀に行動する」という強い意味。'wreckless' というスペルは存在しないので注意。",
+      "collocations": [
+        "reckless driving（危険運転）",
+        "reckless behavior（無謀な行動）",
+        "reckless abandon（無謀な開放感）"
+      ],
+      "trivia": "映画『ワイルド・スピード』シリーズのキャラクターはまさに 'reckless' の権化。英語圏では「reckless abandon」（何も気にせず無謀に）というフレーズが音楽・映画タイトルに頻出する。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1885,
+    "word": "furious",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "激怒した、猛烈に怒った",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "猛烈な、激しい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfjʊəriəs/",
+    "syllables": "fu-ri-ous",
+    "audioHint": "フュアリアス",
+    "examples": [
+      {
+        "en": "She was furious when she found out the truth.",
+        "ja": "真実を知ったとき、彼女は激怒した。",
+        "blank": "She was ___ when she found out the truth.",
+        "blankAnswer": "furious"
+      }
+    ],
+    "distractors": [
+      "臆病な",
+      "誠実な",
+      "無謀な"
+    ],
+    "confusableSpellings": [
+      "fureous",
+      "furious",
+      "furios"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'furiosus' から。'furia'（怒り・狂気）が語根で、英語の 'fury'（激怒）と同語源。",
+      "tips": "'angry' よりもはるかに強い怒りを表す。'furious' は「激怒している」状態、'fury' は「激怒そのもの」という名詞。'fast and furious' は「猛烈に速い」という意味にもなる。",
+      "confusables": "'angry' < 'mad' < 'furious' の順で怒りが強くなる。'furious' を軽い不満に使うと大げさになるので注意。",
+      "collocations": [
+        "furious anger（激しい怒り）",
+        "furious pace（猛烈なペース）",
+        "furious debate（激しい議論）"
+      ],
+      "trivia": "映画『ワイルド・スピード』の原題は『The Fast and the Furious』。ここでの 'furious' は「猛烈な」という意味で使われている。日本語タイトルとはニュアンスが微妙に違うのが面白い。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1886,
+    "word": "eloquent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "雄弁な、弁の立つ",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "表現力豊かな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈeləkwənt/",
+    "syllables": "el-o-quent",
+    "audioHint": "エロクウェント",
+    "examples": [
+      {
+        "en": "The senator gave an eloquent speech about climate change.",
+        "ja": "上院議員は気候変動について雄弁なスピーチをした。",
+        "blank": "The senator gave an ___ speech about climate change.",
+        "blankAnswer": "eloquent"
+      }
+    ],
+    "distractors": [
+      "激怒した",
+      "無謀な",
+      "臆病な"
+    ],
+    "confusableSpellings": [
+      "eloquant",
+      "elequent",
+      "eloqent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'eloquens' から。'e-'（外へ）＋ 'loqui'（話す）で「言葉を外へ流暢に出す」が原義。",
+      "tips": "スピーチや文章の表現力を褒めるときに使う。名詞は 'eloquence'（雄弁さ）。「沈黙も雄弁」と言いたいときは 'eloquent silence' という表現も使える。",
+      "confusables": "'fluent' は「流暢な（言語能力）」、'eloquent' は「表現力・説得力が高い」という意味。外国語が上手くてもすぐに 'eloquent' とは言えない。",
+      "collocations": [
+        "eloquent speech（雄弁なスピーチ）",
+        "eloquent silence（雄弁な沈黙）",
+        "eloquent expression（表現力豊かな表現）"
+      ],
+      "trivia": "古代ローマの弁論家キケロは 'eloquence' の象徴とされ、弁論術（rhetoric）の神様的存在。現代でも優れた演説者を 'eloquent' と表現するのは、この古代ローマの伝統が続いているから。"
+    },
+    "frequency": 5100,
+    "cefr": "C1"
+  },
+  {
+    "id": 1887,
+    "word": "juvenile",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "青少年の、少年の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "幼稚な、子供っぽい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdʒuːvənaɪl/",
+    "syllables": "ju-ve-nile",
+    "audioHint": "ジュービナイル",
+    "examples": [
+      {
+        "en": "The judge handled many juvenile crime cases each year.",
+        "ja": "裁判官は毎年多くの少年犯罪事件を担当した。",
+        "blank": "The judge handled many ___ crime cases each year.",
+        "blankAnswer": "juvenile"
+      }
+    ],
+    "distractors": [
+      "理解できる",
+      "湿気の多い",
+      "悪名高い"
+    ],
+    "confusableSpellings": [
+      "juvenil",
+      "juvenille",
+      "juvenal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'juvenilis' から。'juvenis'（若い人・青年）が語根で、英語の 'junior' や 'rejuvenate' とも同語源。",
+      "tips": "法律・司法の文脈では「少年の」という中立的な意味で使う（juvenile court = 少年裁判所）。日常会話では「幼稚な」という批判的ニュアンスになることが多い。",
+      "confusables": "'childish' も幼稚という意味だが、'juvenile' の方がフォーマルで法律・医学分野でも使われる。'youthful' はポジティブな「若々しい」という意味。",
+      "collocations": [
+        "juvenile delinquency（少年非行）",
+        "juvenile court（少年裁判所）",
+        "juvenile behavior（子供っぽい行動）"
+      ],
+      "trivia": "ローマの風刺詩人「ユウェナリス（Juvenalis）」の名前もこの語根から来ている。つまり 'juvenile' という単語は、2000年以上前のローマ人の名前と同じルーツを持っているということ！"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1888,
+    "word": "notorious",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "悪名高い、評判の悪い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "名うての（悪い意味で）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/nəʊˈtɔːriəs/",
+    "syllables": "no-to-ri-ous",
+    "audioHint": "ノトーリアス",
+    "examples": [
+      {
+        "en": "The city became notorious for its high crime rate.",
+        "ja": "その都市は高い犯罪率で悪名を馳せた。",
+        "blank": "The city became ___ for its high crime rate.",
+        "blankAnswer": "notorious"
+      }
+    ],
+    "distractors": [
+      "理解できる",
+      "突然の",
+      "雄弁な"
+    ],
+    "confusableSpellings": [
+      "notoreous",
+      "noterious",
+      "notorius"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'notorius' から。'notus'（知られた）＋ '-orius'（〜の性質を持つ）で「広く知れ渡った」が原義。'note'（注目する）とも同語源。",
+      "tips": "'notorious' は必ず悪い意味で「知られている」場合に使う。良い意味で有名なら 'famous' や 'renowned' を使う。'notorious for ~' の形で「〜で悪名高い」と表現する。",
+      "confusables": "'famous' は中立〜ポジティブ、'notorious' はネガティブな有名さ。'notorious criminal'（悪名高い犯罪者）は自然だが、'famous criminal' だと「有名人の犯罪者」のように聞こえる。",
+      "collocations": [
+        "notorious criminal（悪名高い犯罪者）",
+        "notorious for lying（嘘をつくことで有名）",
+        "become notorious（悪名を馳せる）"
+      ],
+      "trivia": "ラッパーの Notorious B.I.G.（ビギー・スモールズ）は、あえてこのネガティブな単語を芸名に使うことでアウトローなイメージを演出した。「悪名」を逆手に取ったネーミングセンス！"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1889,
+    "word": "timid",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "臆病な、内気な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "気が小さい、おどおどした",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtɪmɪd/",
+    "syllables": "tim-id",
+    "audioHint": "ティミッド",
+    "examples": [
+      {
+        "en": "The timid child hid behind her mother at the party.",
+        "ja": "その内気な子はパーティーで母親の後ろに隠れた。",
+        "blank": "The ___ child hid behind her mother at the party.",
+        "blankAnswer": "timid"
+      }
+    ],
+    "distractors": [
+      "激怒した",
+      "雄弁な",
+      "真剣な"
+    ],
+    "confusableSpellings": [
+      "timmid",
+      "timmed",
+      "timide"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'timidus' から。'timere'（恐れる）が語根で、英語の 'intimidate'（脅かす）とも同語源。",
+      "tips": "'shy' は「恥ずかしがり屋」という中立的な意味だが、'timid' は「臆病さ・恐れ」のニュアンスが強い。ビジネスの文脈で 'timid response'（及び腰の対応）のように使われることもある。",
+      "confusables": "'shy' は社交的な場での恥ずかしさ、'timid' は恐れや不安から来る消極性。'timid' の方がよりネガティブで弱さを強調する。",
+      "collocations": [
+        "timid smile（おどおどした微笑み）",
+        "timid voice（か細い声）",
+        "timid approach（及び腰のアプローチ）"
+      ],
+      "trivia": "'intimidate'（脅かす）は 'timid' と同じ語根から来ている。「in-（〜させる）＋ timid（臆病）」で「臆病にさせる」が原義。怖がらせる側と怖がる側が同じ語根というのが興味深い！"
+    },
+    "frequency": 4300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1890,
+    "word": "humid",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "湿気の多い、じめじめした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "蒸し暑い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈhjuːmɪd/",
+    "syllables": "hu-mid",
+    "audioHint": "ヒューミッド",
+    "examples": [
+      {
+        "en": "Tokyo summers are extremely hot and humid.",
+        "ja": "東京の夏は非常に暑くて蒸し暑い。",
+        "blank": "Tokyo summers are extremely hot and ___.",
+        "blankAnswer": "humid"
+      }
+    ],
+    "distractors": [
+      "悪名高い",
+      "突然の",
+      "青少年の"
+    ],
+    "confusableSpellings": [
+      "humide",
+      "humied",
+      "humed"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'humidus' から。'humor'（液体・体液）が語根で、中世医学の「四体液説」の 'humor' とも同語源。",
+      "tips": "天気予報では 'humidity'（湿度）という名詞形がよく使われる。'hot and humid'（暑くて蒸し暑い）は日本の夏を表すセットフレーズ。'muggy' も類義語で口語的。",
+      "confusables": "'humid' は空気中の水分（湿度）が高い状態、'wet' は表面が濡れている状態。「雨で濡れた」は 'wet'、「じめじめした空気」は 'humid' を使う。",
+      "collocations": [
+        "hot and humid（暑くて蒸し暑い）",
+        "humid climate（湿潤な気候）",
+        "humid air（湿った空気）"
+      ],
+      "trivia": "英語の 'humor'（ユーモア）は元々「体液」という意味で、古代ギリシャ医学の「四体液説」に由来する。'humid' と 'humor' が同じ語根という事実は、医学史と言語学が交差する面白いポイント！"
+    },
+    "frequency": 4000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1891,
+    "word": "contagious",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "伝染性の、うつる",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（感情などが）広まりやすい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kənˈteɪdʒəs/",
+    "syllables": "con-ta-gious",
+    "audioHint": "コンテイジャス",
+    "examples": [
+      {
+        "en": "Her laughter was so contagious that everyone in the room smiled.",
+        "ja": "彼女の笑いはとても伝染しやすく、部屋中の人が笑顔になった。",
+        "blank": "Her laughter was so ___ that everyone in the room smiled.",
+        "blankAnswer": "contagious"
+      }
+    ],
+    "distractors": [
+      "永続的な",
+      "単調な",
+      "致命的な"
+    ],
+    "confusableSpellings": [
+      "contageous",
+      "contagious",
+      "contagous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 contagio（接触による汚染）から。con-（共に）＋ tangere（触れる）＋ -ious（形容詞語尾）。「一緒に触れることで広がる」が原義。",
+      "tips": "「病気がうつる」だけでなく「笑いがうつる」「熱意がうつる」など感情や態度にも使える比喩的用法が頻出。日本人はinfectiousと混同しがちだが、contagiousは接触・近接による伝染に焦点を当てる。",
+      "confusables": "infectious（感染性の）は細菌・ウイルス全般の感染を指し、空気感染にも使える。contagiousは接触・飛沫など近接的な伝染に限定されることが多い。",
+      "collocations": [
+        "contagious disease（伝染病）",
+        "contagious laughter（伝染する笑い）",
+        "highly contagious（非常に感染力が高い）"
+      ],
+      "trivia": "Coldplayの曲タイトルにもなっており、「感情が伝染する」意味で音楽・広告業界でも頻繁に使われる。感染症ニュースではmost common adjective（最頻出形容詞）のひとつ。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1892,
+    "word": "cynical",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "冷笑的な、皮肉な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "人間不信の、懐疑的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsɪnɪkəl/",
+    "syllables": "cyn-i-cal",
+    "audioHint": "スィニカル",
+    "examples": [
+      {
+        "en": "He was cynical about politicians keeping their promises.",
+        "ja": "彼は政治家が約束を守ることに懐疑的だった。",
+        "blank": "He was ___ about politicians keeping their promises.",
+        "blankAnswer": "cynical"
+      }
+    ],
+    "distractors": [
+      "熱心な",
+      "疲れ果てた",
+      "無感覚な"
+    ],
+    "confusableSpellings": [
+      "cynical",
+      "sinical",
+      "cynacal"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 kynikos（犬のような）から。古代ギリシャの哲学派キュニコス派（Cynics）が由来で、彼らは社会の習慣や道徳を犬のように嘲笑したことから「冷笑的」の意味に。",
+      "tips": "「シニカル」とカタカナ語として日本語でも使われるが、英語ではcyが「サイ」ではなく「スィ」に近い発音。また、skeptical（懐疑的）との使い分けに注意：cynicalは人間の動機や誠実さへの不信感を含む。",
+      "confusables": "skeptical（懐疑的）は証拠がないことへの疑いで中立的なニュアンス。cynicalはもっとネガティブで「どうせ悪い動機があるだろう」という人間不信の含意がある。",
+      "collocations": [
+        "cynical about（～に懐疑的な）",
+        "cynical view（冷笑的な見方）",
+        "deeply cynical（非常に冷笑的な）"
+      ],
+      "trivia": "語源の「犬（kyon）」から来ているため、英語のcynとcynも犬つながり。古代哲学者ディオゲネスが「樽の中に住む犬の哲学者」として有名で、その冷笑的態度が語源に。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1893,
+    "word": "dumb",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "愚かな、間抜けな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "口がきけない、無言の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dʌm/",
+    "syllables": "dumb",
+    "audioHint": "ダム",
+    "examples": [
+      {
+        "en": "That was a really dumb mistake to make.",
+        "ja": "それは本当に愚かなミスだった。",
+        "blank": "That was a really ___ mistake to make.",
+        "blankAnswer": "dumb"
+      }
+    ],
+    "distractors": [
+      "冷笑的な",
+      "疲れ果てた",
+      "熱心な"
+    ],
+    "confusableSpellings": [
+      "dum",
+      "dumm",
+      "dombe"
+    ],
+    "passive": {
+      "etymology": "古英語 dumb（口がきけない、無言の）から。「愚か」の意味はアメリカ英語で発展した比喩的用法。bは発音されない黙字（silent b）で、dumbwaitersやdumbfoundedにも残る。",
+      "tips": "本来は「口がきけない（mute）」という意味で、障害のある方への差別的表現として避けられることもある。現代口語では「愚か」の意味が主流だが、フォーマルな文章では使用に注意。",
+      "confusables": "stupid（愚かな）より口語的でカジュアル。muteは「無言の・発声できない」の意味でdumbの本来の意味に近いが、mute はより中立的なニュアンス。",
+      "collocations": [
+        "dumb mistake（愚かなミス）",
+        "play dumb（知らないふりをする）",
+        "struck dumb（言葉を失う）"
+      ],
+      "trivia": "「dumbbell（ダンベル）」の語源はdumb（音が出ない）＋bell（鐘）で、「音のしない鐘」が原義。昔は鐘を鳴らす練習器具から形が発展したとされる。"
+    },
+    "frequency": 3900,
+    "cefr": "A2"
+  },
+  {
+    "id": 1894,
+    "word": "monotonous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "単調な、変化のない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "退屈な、一本調子の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/məˈnɒtənəs/",
+    "syllables": "mo-not-o-nous",
+    "audioHint": "モノトナス",
+    "examples": [
+      {
+        "en": "The speaker's monotonous voice made everyone sleepy.",
+        "ja": "その話者の単調な声は全員を眠くさせた。",
+        "blank": "The speaker's ___ voice made everyone sleepy.",
+        "blankAnswer": "monotonous"
+      }
+    ],
+    "distractors": [
+      "伝染性の",
+      "めまいのする",
+      "無感覚な"
+    ],
+    "confusableSpellings": [
+      "monotoneous",
+      "monotonus",
+      "monotonious"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 monotonos から。mono-（一つの）＋ tonos（音・調子）＋ -ous（形容詞語尾）。「一つの音だけ」が原義で、そこから「変化がない＝単調」へ。",
+      "tips": "アクセントは第2音節「not」に置く（モノ**ト**ナス）。日本語の「モノトーン」は和製英語的な使われ方もあるが、英語ではmonotone（単調な声・音）とmonotonous（形容詞）を区別する。",
+      "confusables": "boring（退屈な）はより口語的で主観的。monotonousは「変化がなく単調」という客観的な描写に使われることが多い。repetitive（繰り返しの多い）も近いが、こちらは繰り返し動作に焦点がある。",
+      "collocations": [
+        "monotonous voice（単調な声）",
+        "monotonous work（単調な仕事）",
+        "monotonous routine（単調な日課）"
+      ],
+      "trivia": "音楽の「monotone（一音）」と同語源。人間の脳は単調な刺激をデフォルトモードに入るきっかけとして処理するため、monotonousな講義中はむしろ創造的な思考が生まれやすいという研究もある。"
+    },
+    "frequency": 6100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1895,
+    "word": "perpetual",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "永続的な、絶え間ない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "永久の、終わりのない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pərˈpetʃuəl/",
+    "syllables": "per-pet-u-al",
+    "audioHint": "パペチュアル",
+    "examples": [
+      {
+        "en": "She lived in perpetual fear of losing her job.",
+        "ja": "彼女は仕事を失うことへの絶え間ない恐怖の中で生きていた。",
+        "blank": "She lived in ___ fear of losing her job.",
+        "blankAnswer": "perpetual"
+      }
+    ],
+    "distractors": [
+      "伝染性の",
+      "単調な",
+      "致命的な"
+    ],
+    "confusableSpellings": [
+      "perpetuel",
+      "perpetuall",
+      "perpectual"
+    ],
+    "passive": {
+      "etymology": "ラテン語 perpetuus（連続した、絶え間ない）から。per-（完全に・通じて）＋ petere（求める・向かう）＋ -al（形容詞語尾）。「完全に続いていく」が原義。",
+      "tips": "「永遠の」を表すeternalやeverlastingとの違いに注意。perpetualは「中断なく続く」ことに焦点があり、必ずしも「宇宙の始まりから終わりまで」の永遠を意味しない。日常会話でも「永続的な問題」など誇張表現として使える。",
+      "confusables": "eternal（永遠の）は時間的に限りがないことを強調し、より詩的・哲学的。perpetualは法律・技術文書にも使われる実用的な語。continuous（継続的な）は一時的な中断を許容する点でperpetualと異なる。",
+      "collocations": [
+        "perpetual motion（永久運動）",
+        "perpetual conflict（絶え間ない争い）",
+        "in perpetual（永続的に）"
+      ],
+      "trivia": "「perpetual motion machine（永久機関）」は物理学的に不可能とされているが、発明家が夢見てきた概念。この語はその不可能な夢を象徴するフレーズとして今も使われる。"
+    },
+    "frequency": 5700,
+    "cefr": "C1"
+  },
+  {
+    "id": 1896,
+    "word": "dizzy",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "めまいのする、目がくらむ",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（高さなどで）くらくらする",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdɪzi/",
+    "syllables": "diz-zy",
+    "audioHint": "ディズィ",
+    "examples": [
+      {
+        "en": "She felt dizzy after spinning around so fast.",
+        "ja": "彼女はとても速くくるくる回った後にめまいを感じた。",
+        "blank": "She felt ___ after spinning around so fast.",
+        "blankAnswer": "dizzy"
+      }
+    ],
+    "distractors": [
+      "単調な",
+      "無感覚な",
+      "疲れ果てた"
+    ],
+    "confusableSpellings": [
+      "dizy",
+      "dizzie",
+      "dizi"
+    ],
+    "passive": {
+      "etymology": "古英語 dysig（愚かな、正気でない）から。本来「頭がぼんやりした」という意味から、中世に「めまいのする」という身体的感覚を表すようになった。",
+      "tips": "feel dizzyが最も自然な使い方。「I'm dizzy」でもOKだが、「I have dizziness」は医療文書的でやや硬い。また「dizzy heights（目もくらむような高み）」は比喩表現として慣用句化している。",
+      "confusables": "lightheaded（頭がふらふらする）は血圧低下などで頭が軽くなる感覚。vertiginous（眩暈を催す）はより文学的・医学的な語。dizzyが最も口語的で日常的。",
+      "collocations": [
+        "feel dizzy（めまいがする）",
+        "dizzy spell（めまいの発作）",
+        "dizzy heights（目もくらむ高さ）"
+      ],
+      "trivia": "ジャズトランペッターDizzy Gillespieの「Dizzy」は「頭がくらくらするほど速い演奏スタイル」から付いたニックネーム。音楽と言語が交差する面白い例。"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1897,
+    "word": "weary",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "疲れ果てた、うんざりした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "飽き飽きした",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈwɪəri/",
+    "syllables": "wea-ry",
+    "audioHint": "ウィアリ",
+    "examples": [
+      {
+        "en": "The travelers were weary after the long journey.",
+        "ja": "旅人たちは長い旅の後に疲れ果てていた。",
+        "blank": "The travelers were ___ after the long journey.",
+        "blankAnswer": "weary"
+      }
+    ],
+    "distractors": [
+      "冷笑的な",
+      "熱心な",
+      "愚かな"
+    ],
+    "confusableSpellings": [
+      "weery",
+      "wearie",
+      "wary"
+    ],
+    "passive": {
+      "etymology": "古英語 wērig（疲れた、悲しい）から。ゲルマン語系の語で、古代から「疲弊した状態」を表す。wear out（すり減る）とも遠い語源的なつながりがある。",
+      "tips": "wary（用心深い）とのスペル・発音の混同が日本人学習者に非常に多い。wary=/ˈweəri/、weary=/ˈwɪəri/ で発音が異なる。「疲れた」ならtiredより文学的・書き言葉的なニュアンスがwearyにある。",
+      "confusables": "tired（疲れた）は最も一般的な口語表現。wearyはより深い疲労感や精神的なうんざり感を含む。wary（用心深い）はスペルが1字違いで全く別の意味なので要注意。",
+      "collocations": [
+        "grow weary（だんだん疲れる）",
+        "weary of（～にうんざりする）",
+        "world-weary（世の中に嫌気がさした）"
+      ],
+      "trivia": "「world-weary」は19世紀のロマン主義文学に頻出する表現で、Byronなどの詩人が好んで使った。現代ではSNS疲れを「social media-weary」と表現することも。"
+    },
+    "frequency": 5000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1898,
+    "word": "numb",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "感覚を失った、しびれた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（感情的に）麻痺した",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/nʌm/",
+    "syllables": "numb",
+    "audioHint": "ナム",
+    "examples": [
+      {
+        "en": "My fingers went numb from the cold.",
+        "ja": "寒さで指がしびれた。",
+        "blank": "My fingers went ___ from the cold.",
+        "blankAnswer": "numb"
+      }
+    ],
+    "distractors": [
+      "単調な",
+      "めまいのする",
+      "愚かな"
+    ],
+    "confusableSpellings": [
+      "num",
+      "nombe",
+      "numm"
+    ],
+    "passive": {
+      "etymology": "中英語 nome（つかまれた、麻痺した）から。古英語 niman（取る・奪う）の過去分詞が変化したもの。「感覚を奪われた状態」が原義。bは発音しない黙字（dumbと同様）。",
+      "tips": "語末のbは発音しない（ナム）。number（数字）とは全く別の語だが、スペルが似ているので混同しないこと。go numb（しびれる）、feel numb（麻痺した感じがする）が自然な動詞との組み合わせ。",
+      "confusables": "paralyzed（麻痺した）は医学的に動けない状態。numbは感覚の消失に焦点があり、動けるが感じない状態にも使える。emotionally numb（感情的に麻痺した）は比喩的用法として頻出。",
+      "collocations": [
+        "go numb（しびれる）",
+        "emotionally numb（感情的に麻痺した）",
+        "numb with cold（寒さでしびれた）"
+      ],
+      "trivia": "Linkin Parkの名曲「Numb」は感情的麻痺・無感覚感を歌ったもので、この比喩的用法を世界中に広めた一曲。音楽を通じて覚えると忘れにくい。"
+    },
+    "frequency": 4300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1899,
+    "word": "mortal",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "死を免れない、死すべき運命の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "致命的な、命にかかわる",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmɔːrtəl/",
+    "syllables": "mor-tal",
+    "audioHint": "モータル",
+    "examples": [
+      {
+        "en": "All humans are mortal and will die someday.",
+        "ja": "すべての人間は死を免れず、いつかは死ぬ。",
+        "blank": "All humans are ___ and will die someday.",
+        "blankAnswer": "mortal"
+      }
+    ],
+    "distractors": [
+      "単調な",
+      "しびれた",
+      "感覚を失った"
+    ],
+    "confusableSpellings": [
+      "mortel",
+      "mortall",
+      "mortal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 mortalis（死すべき）から。mort-（死）＋ -al（形容詞語尾）。mort はフランス語の mort（死）、英語の murder とも同系統のインド・ヨーロッパ語族の語根 *mer-（死ぬ）に遡る。",
+      "tips": "「必ず死ぬ存在としての人間」という哲学的文脈でよく使われる語。名詞として「a mere mortal（ただの人間）」という表現も頻出。対義語はimmortal（不死の）。mortal woundsは「致命傷」を意味する法律・歴史的文脈でも使われる。",
+      "confusables": "fatal（致命的な）は結果として死に至ることを強調し、よりニュース的・事実的。deadly（致死性の）も同義に近いが口語的。mortalはより哲学的・文学的なニュアンスを持つ。",
+      "collocations": [
+        "mortal enemy（不倶戴天の敵）",
+        "mortal wound（致命傷）",
+        "mere mortal（ただの人間）"
+      ],
+      "trivia": "「Mortal Kombat」はmortal（死すべき存在＝人間）とcombat（戦闘）の組み合わせ。ゲームタイトルとして世界中に知られ、若い世代にはこの単語の記憶フックになることが多い。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1900,
+    "word": "zealous",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "熱心な、情熱的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "熱狂的な、献身的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈzeləs/",
+    "syllables": "zeal-ous",
+    "audioHint": "ゼラス",
+    "examples": [
+      {
+        "en": "She was a zealous supporter of environmental causes.",
+        "ja": "彼女は環境問題の熱心な支持者だった。",
+        "blank": "She was a ___ supporter of environmental causes.",
+        "blankAnswer": "zealous"
+      }
+    ],
+    "distractors": [
+      "冷笑的な",
+      "疲れ果てた",
+      "愚かな"
+    ],
+    "confusableSpellings": [
+      "zelous",
+      "zealious",
+      "zeolous"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 zelos（熱意、競争心）から。ラテン語 zelus を経て英語へ。名詞形は zeal（熱意）、派生語に zealot（狂信者）がある。",
+      "tips": "発音は「ゼラス」で「ジーラス」ではない。zealの発音（ズィール）と合わせて覚えると混乱しにくい。enthusiastic（熱心な）より強く、時に「行き過ぎた熱心さ」のニュアンスを含むことがある。zealot（狂信者）との語源的なつながりを意識すると使い方が理解しやすい。",
+      "confusables": "enthusiastic（熱心な）は最も一般的な口語表現でポジティブなニュアンスが強い。zealousはやや大げさで、宗教的・政治的な文脈で使われることも多い。eager（意欲的な）は行動への積極性に焦点がある点で異なる。",
+      "collocations": [
+        "zealous supporter（熱烈な支持者）",
+        "zealous advocate（熱心な提唱者）",
+        "overly zealous（行き過ぎるほど熱心な）"
+      ],
+      "trivia": "「Zealot（ゼロット党）」は1世紀のユダヤ人過激派グループの名前で、同じ語根から来ている。「熱心さが過ぎると過激派になる」という歴史的含意が語源に隠れており、英語話者はこの語に微妙な緊張感を感じることがある。"
+    },
+    "frequency": 6500,
+    "cefr": "C1"
+  }
+]

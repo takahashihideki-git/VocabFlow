@@ -1,0 +1,988 @@
+[
+  {
+    "id": 1821,
+    "word": "browse",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "（ウェブを）閲覧する、ブラウズする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（店・本などを）ざっと見て回る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/braʊz/",
+    "syllables": "browse",
+    "audioHint": "ブラウズ",
+    "examples": [
+      {
+        "en": "She browses the web for hours every evening.",
+        "ja": "彼女は毎晩何時間もウェブを閲覧する。",
+        "blank": "She ___ the web for hours every evening.",
+        "blankAnswer": "browses"
+      }
+    ],
+    "distractors": [
+      "データを処理する",
+      "ファイルを圧縮する",
+      "システムを更新する"
+    ],
+    "confusableSpellings": [
+      "browze",
+      "brouse"
+    ],
+    "passive": {
+      "etymology": "古フランス語 brouster（芽・若葉を食べる）が語源。動物が草をのんびり食べ歩く様子から、「ざっと見て回る」という意味に転じた。",
+      "tips": "「ブラウザ（browser）」の動詞形。web を目的語に取る場合は browse the web が自然。browse through a book で「本をパラパラめくる」という意味になる。",
+      "confusables": "search との違いに注意。browse は目的を持たずぶらぶら見る感覚、search は特定の情報を積極的に探す行為。「ネットサーフィン」は英語では browse the internet が最も近い。",
+      "collocations": [
+        "browse the internet",
+        "browse through a catalog",
+        "browse a website"
+      ],
+      "trivia": "インターネットが普及する前は、本屋や図書館で本をパラパラめくることを指す言葉だった。テクノロジーが言葉の意味を拡張した好例！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1822,
+    "word": "compile",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "（情報・資料を）編集・収集する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（プログラムを）コンパイルする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈpaɪl/",
+    "syllables": "com-pile",
+    "audioHint": "コンパイル",
+    "examples": [
+      {
+        "en": "The engineer compiled the source code before testing.",
+        "ja": "エンジニアはテストの前にソースコードをコンパイルした。",
+        "blank": "The engineer ___ the source code before testing.",
+        "blankAnswer": "compiled"
+      }
+    ],
+    "distractors": [
+      "データを削除する",
+      "ネットワークに接続する",
+      "画面を表示する"
+    ],
+    "confusableSpellings": [
+      "complie",
+      "compil"
+    ],
+    "passive": {
+      "etymology": "ラテン語 compilare（略奪する・掻き集める）から。com-（共に）+ pilare（押し詰める）が語源。情報を一か所に「まとめて押し込む」イメージ。",
+      "tips": "IT文脈では「コンパイルする」、一般文脈では「まとめる・編集する」と訳す。compile a report / compile data のように、集めてひとつにまとめる行為全般に使える。",
+      "confusables": "compose（構成する・作曲する）と混同しやすいが、compile は既存の素材を集める、compose は新たに作り上げるニュアンス。",
+      "collocations": [
+        "compile a report",
+        "compile data",
+        "compile source code"
+      ],
+      "trivia": "プログラミングの「コンパイル」は、人間が書いたコードをコンピュータが読める言語に翻訳すること。語源の「掻き集める」イメージがここでも生きている！"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1823,
+    "word": "allocate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（資源・時間などを）割り当てる、配分する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（予算・人員を）配置する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈæləkeɪt/",
+    "syllables": "al-lo-cate",
+    "audioHint": "アロケイト",
+    "examples": [
+      {
+        "en": "The manager allocated extra resources to the new project.",
+        "ja": "マネージャーは新しいプロジェクトに追加リソースを割り当てた。",
+        "blank": "The manager ___ extra resources to the new project.",
+        "blankAnswer": "allocated"
+      }
+    ],
+    "distractors": [
+      "〜を制限する",
+      "〜を延期する",
+      "〜を廃止する"
+    ],
+    "confusableSpellings": [
+      "alocate",
+      "allocte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 allocare から。al-（ad-の変形、〜へ）+ locare（置く）+ -ate（動詞化）。「特定の場所に置く」が原義。",
+      "tips": "allocate A to B（AをBに割り当てる）の形が基本。「アロケーション（allocation）」はIT・経済の分野でもよく登場するのでセットで覚えると便利。",
+      "confusables": "assign との違いが紛らわしい。allocate は資源や予算など「量があるもの」を配分するイメージ、assign は人やタスクを「指定・任命」するニュアンスが強い。",
+      "collocations": [
+        "allocate resources",
+        "allocate funds",
+        "allocate time"
+      ],
+      "trivia": "プログラミングでは「メモリをアロケートする」という表現が頻出。日本語のIT用語にもそのまま「アロケーション」として入っている。"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1824,
+    "word": "offset",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を相殺する、埋め合わせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（名詞）補正、オフセット",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɔːfset/",
+    "syllables": "off-set",
+    "audioHint": "オフセット",
+    "examples": [
+      {
+        "en": "The company planted trees to offset its carbon emissions.",
+        "ja": "その会社は二酸化炭素排出量を相殺するために木を植えた。",
+        "blank": "The company planted trees to ___ its carbon emissions.",
+        "blankAnswer": "offset"
+      }
+    ],
+    "distractors": [
+      "〜を拡大する",
+      "〜を記録する",
+      "〜を転送する"
+    ],
+    "confusableSpellings": [
+      "offest",
+      "ofset"
+    ],
+    "passive": {
+      "etymology": "off（離れて）+ set（置く）の組み合わせ。「反対側に置いてバランスをとる」イメージが語源。動詞・名詞・形容詞として使われる多機能語。",
+      "tips": "動詞として使う場合、過去形・過去分詞ともに offset（変化なし）。「offset A with/by B」でAをBで相殺するという構文。環境・経済系の文章でよく登場する。",
+      "confusables": "compensate（補償する）と意味が近いが、offset はプラスマイナスをゼロに近づけるニュアンスが強く、compensate は不足を補うニュアンス。",
+      "collocations": [
+        "offset carbon emissions",
+        "offset costs",
+        "offset losses"
+      ],
+      "trivia": "「カーボンオフセット」という言葉は今や環境政策の世界標準語。木を植えることで飛行機搭乗の罪悪感を打ち消そうとする行為がこれ！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1825,
+    "word": "restrain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を抑制する、制止する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を束縛する、拘束する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈstreɪn/",
+    "syllables": "re-strain",
+    "audioHint": "リストレイン",
+    "examples": [
+      {
+        "en": "She had to restrain herself from laughing during the meeting.",
+        "ja": "彼女は会議中に笑いをこらえなければならなかった。",
+        "blank": "She had to ___ herself from laughing during the meeting.",
+        "blankAnswer": "restrain"
+      }
+    ],
+    "distractors": [
+      "〜を促進する",
+      "〜を分配する",
+      "〜を変換する"
+    ],
+    "confusableSpellings": [
+      "restain",
+      "resstrain"
+    ],
+    "passive": {
+      "etymology": "ラテン語 restringere（縛り戻す）から。re-（後ろへ・再び）+ stringere（縛る・締める）。「引き戻して縛る」イメージ。",
+      "tips": "restrain oneself from doing で「〜するのを自制する」という重要構文。restraint（名詞：自制心・拘束）もセットで覚えよう。",
+      "confusables": "restrict（制限する）と似ているが、restrain は感情・行動・人を「抑える」身体的・意志的なニュアンスが強く、restrict は規則・範囲によって「制限する」感覚。",
+      "collocations": [
+        "restrain oneself",
+        "restrain from doing",
+        "restrain emotions"
+      ],
+      "trivia": "法廷ドラマでよく出る「restraining order（接近禁止命令）」はこの語から。相手に近づかないよう「制止する命令」というわけ！"
+    },
+    "frequency": 6000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1826,
+    "word": "comply",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（規則・要求に）従う、応じる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəmˈplaɪ/",
+    "syllables": "com-ply",
+    "audioHint": "コンプライ",
+    "examples": [
+      {
+        "en": "All employees must comply with the new safety regulations.",
+        "ja": "全従業員は新しい安全規則に従わなければならない。",
+        "blank": "All employees must ___ with the new safety regulations.",
+        "blankAnswer": "comply"
+      }
+    ],
+    "distractors": [
+      "〜に反論する",
+      "〜を交渉する",
+      "〜を依頼する"
+    ],
+    "confusableSpellings": [
+      "compley",
+      "complie"
+    ],
+    "passive": {
+      "etymology": "イタリア語 complire（義務を果たす）またはラテン語 complere（満たす）から。com-（完全に）+ plere（満たす）。「要求を完全に満たす」が原義。",
+      "tips": "comply with ～の形で使い、with を忘れやすいので注意。comply to とは言わない。compliance（コンプライアンス）は日本でもビジネス用語として定着している。",
+      "confusables": "obey（命令・人に従う）と意味が近いが、comply は規則・要求・基準などに対して使い、obey は命令・人・法律に対して使うことが多い。",
+      "collocations": [
+        "comply with regulations",
+        "comply with the law",
+        "comply with a request"
+      ],
+      "trivia": "「コンプライアンス」は日本企業でも当たり前に使われるようになった。もともとは「ルールに従う」という動詞だったのに、いつの間にか名詞形が日本語になってしまった！"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1827,
+    "word": "expire",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（期限・有効期限が）切れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（文語）息を引き取る、死ぬ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈspaɪər/",
+    "syllables": "ex-pire",
+    "audioHint": "イクスパイア",
+    "examples": [
+      {
+        "en": "My passport will expire next month.",
+        "ja": "私のパスポートは来月有効期限が切れる。",
+        "blank": "My passport will ___ next month.",
+        "blankAnswer": "expire"
+      }
+    ],
+    "distractors": [
+      "〜を更新する",
+      "〜を発行する",
+      "〜を延長する"
+    ],
+    "confusableSpellings": [
+      "expier",
+      "expaire"
+    ],
+    "passive": {
+      "etymology": "ラテン語 expirare（息を吐き出す）から。ex-（外へ）+ spirare（呼吸する・吹く）。「最後の息を吐き出す」→「終わる」という意味に転じた。",
+      "tips": "日常ではパスポート・クレジットカード・クーポンなどの「期限切れ」に使う。expiration date（有効期限）または expiry date（主にイギリス英語）という名詞句もよく使われる。",
+      "confusables": "expire と lapse（失効する）は似ているが、expire は時間が来て自然に終わるニュアンス、lapse は更新を怠って失効するニュアンスがある。",
+      "collocations": [
+        "expire next month",
+        "expiration date",
+        "expired license"
+      ],
+      "trivia": "spirare（呼吸する）はspirit（精神・息吹）と同じ語根。息が「外に出きる＝人生が終わる」という詩的な発想から「死ぬ」という意味が生まれた。"
+    },
+    "frequency": 4500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1828,
+    "word": "embark",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（新しい事業・冒険に）乗り出す、着手する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（船・飛行機に）乗り込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈbɑːrk/",
+    "syllables": "em-bark",
+    "audioHint": "エンバーク",
+    "examples": [
+      {
+        "en": "They embarked on a new business venture last year.",
+        "ja": "彼らは昨年新しいビジネスベンチャーに乗り出した。",
+        "blank": "They ___ on a new business venture last year.",
+        "blankAnswer": "embarked"
+      }
+    ],
+    "distractors": [
+      "〜を中断する",
+      "〜を撤退する",
+      "〜を引き渡す"
+    ],
+    "confusableSpellings": [
+      "imbark",
+      "embarck"
+    ],
+    "passive": {
+      "etymology": "フランス語 embarquer から。em-（中へ）+ barque（小舟）。「船の中に入る」が原義で、そこから「新しい旅・事業に踏み出す」という比喩的意味に発展。",
+      "tips": "embark on ～（〜に乗り出す）の形が最も頻出。on を忘れやすいので注意。航空・船舶用語としての「搭乗する」意味では embark on a flight / ship の形も使う。",
+      "confusables": "undertake（引き受ける・着手する）と近いが、embark on は「新しい未知の旅に踏み出す」ワクワク感のあるニュアンス。undertake はより義務・責任のある文脈に合う。",
+      "collocations": [
+        "embark on a journey",
+        "embark on a project",
+        "embark on a new career"
+      ],
+      "trivia": "bark（樹皮）と同じ綴りだが全く別物。barque（小舟）が語源で、中世ヨーロッパでは船に乗ることが文字通り「未知の世界への旅立ち」だった！"
+    },
+    "frequency": 6500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1829,
+    "word": "flap",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（翼・腕などを）羽ばたかせる、ばたばたさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（名詞）ひらひらするもの、フラップ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/flæp/",
+    "syllables": "flap",
+    "audioHint": "フラップ",
+    "examples": [
+      {
+        "en": "The bird flapped its wings and flew away quickly.",
+        "ja": "鳥は翼をはばたかせてすばやく飛び去った。",
+        "blank": "The bird ___ its wings and flew away quickly.",
+        "blankAnswer": "flapped"
+      }
+    ],
+    "distractors": [
+      "〜を押さえつける",
+      "〜を引き伸ばす",
+      "〜をつかむ"
+    ],
+    "confusableSpellings": [
+      "flop",
+      "flaap"
+    ],
+    "passive": {
+      "etymology": "中英語 flappe（打つ）から派生した擬音語的な語。平たいものがばたっと音を立てる動きを模した言葉。",
+      "tips": "flap its wings（翼を羽ばたかせる）が最頻出。過去形・現在分詞は子音を重ねて flapped / flapping となる点に注意（flaping は誤り）。",
+      "confusables": "flap と flutter の違いに注目。flap は大きく力強くばたつかせる動き、flutter はより細かく素早く・軽くはためく動き（flutter of wings / heart flutters）。",
+      "collocations": [
+        "flap its wings",
+        "flap in the wind",
+        "flap of a door"
+      ],
+      "trivia": "航空機の「フラップ」も同じ語源。着陸時に翼の後端をぱたんと下げる部品の動きが、まさに「ばたつく」イメージそのものなのだ！"
+    },
+    "frequency": 7000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1830,
+    "word": "furnish",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（部屋・家に）家具を備え付ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（情報・物を）提供する、供給する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfɜːrnɪʃ/",
+    "syllables": "fur-nish",
+    "audioHint": "ファーニッシュ",
+    "examples": [
+      {
+        "en": "They furnished the new apartment with modern furniture.",
+        "ja": "彼らは新しいアパートにモダンな家具を備え付けた。",
+        "blank": "They ___ the new apartment with modern furniture.",
+        "blankAnswer": "furnished"
+      }
+    ],
+    "distractors": [
+      "〜を取り壊す",
+      "〜を移動させる",
+      "〜を修理する"
+    ],
+    "confusableSpellings": [
+      "furnich",
+      "fournish"
+    ],
+    "passive": {
+      "etymology": "古フランス語 furnir（備える・仕上げる）から。ゲルマン語系の「前に進む・完成させる」が語根。「必要なものを整えて完成させる」がもともとの意味。",
+      "tips": "「家具を置く」と「提供する」の2つの意味を持つ。furnished apartment（家具付きアパート）は不動産広告で頻出。furnish A with B（AにBを供給する）という構文も覚えよう。",
+      "confusables": "provide / supply との違い：furnish は「必要なものをきちんと揃えて提供する」という丁寧・フォーマルなニュアンスがある。日常会話より書き言葉・ビジネス文書向き。",
+      "collocations": [
+        "furnish a room",
+        "furnished apartment",
+        "furnish information"
+      ],
+      "trivia": "furniture（家具）と furnish（家具を置く）は同じ語根から来ている。「家具」という名詞が先にあるのではなく、「備え付ける」という動詞から名詞が派生した！"
+    },
+    "frequency": 6800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1831,
+    "word": "forge",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "鍛造する；偽造する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（関係・合意などを）築き上げる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fɔːrdʒ/",
+    "syllables": "forge",
+    "audioHint": "フォージ",
+    "examples": [
+      {
+        "en": "They forged a strong alliance between the two nations.",
+        "ja": "彼らは両国間の強固な同盟を築き上げた。",
+        "blank": "They ___ a strong alliance between the two nations.",
+        "blankAnswer": "forged"
+      }
+    ],
+    "distractors": [
+      "送り届ける",
+      "廃止する",
+      "始める"
+    ],
+    "confusableSpellings": [
+      "forg",
+      "forege",
+      "fourge"
+    ],
+    "passive": {
+      "etymology": "古フランス語 forge（鍛冶場）← ラテン語 fabrica（工房）。語根 fab- は「作る・加工する」を意味し、fabricate と同根。",
+      "tips": "「偽造する」と「築き上げる」の2つの意味を混同しないように。forge a signature（署名を偽造する）と forge a friendship（友情を築く）は文脈で判断する。どちらも「力を込めて形にする」イメージが共通。",
+      "confusables": "fake（単に偽物にする）と違い、forge は特に文書・署名・通貨などを「精巧に偽造する」ニュアンスが強い。また gorge（大食いする）とスペルを混同しないよう注意。",
+      "collocations": [
+        "forge an alliance",
+        "forge a signature",
+        "forge ahead"
+      ],
+      "trivia": "鍛冶職人が金属を叩いて形にする行為から「偽造」の意味が生まれた。「本物そっくりに作り上げる」という職人技のイメージが転じたもの。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1832,
+    "word": "thrust",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "突き刺す；強く押し込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（考え・役割などを）押しつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/θrʌst/",
+    "syllables": "thrust",
+    "audioHint": "スラスト",
+    "examples": [
+      {
+        "en": "He thrust his hands into his pockets and walked away.",
+        "ja": "彼はポケットに手を突っ込んで立ち去った。",
+        "blank": "He ___ his hands into his pockets and walked away.",
+        "blankAnswer": "thrust"
+      }
+    ],
+    "distractors": [
+      "ゆっくり沈む",
+      "のんびり歩く",
+      "静かに座る"
+    ],
+    "confusableSpellings": [
+      "thurst",
+      "thrast",
+      "thruest"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 þrysta（押す・圧迫する）に由来。語形変化しない動詞（thrust-thrust-thrust）で、過去形・過去分詞も同形。",
+      "tips": "thrust は過去形・過去分詞ともに thrust（変化なし）。「He thrusted」と書いてしまう日本人学習者が多いので要注意。push より勢いや鋭さが強い語。",
+      "confusables": "push（押す）は穏やかで広い面での押しを指すのに対し、thrust は鋭く・一気に突き込む動作。また trust（信頼する）とスペルを混同しやすいので注意。",
+      "collocations": [
+        "thrust a knife",
+        "thrust into the spotlight",
+        "thrust upon someone"
+      ],
+      "trivia": "航空・宇宙工学では「推力（スラスト）」として使われる専門用語でもある。ロケットエンジンの推力を英語でそのまま thrust と呼ぶので、理系分野でもおなじみの単語。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1833,
+    "word": "dispatch",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "派遣する；送り届ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（仕事・任務を）迅速に処理する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈspætʃ/",
+    "syllables": "dis-patch",
+    "audioHint": "ディスパッチ",
+    "examples": [
+      {
+        "en": "The company dispatched a team to handle the emergency.",
+        "ja": "その会社は緊急事態に対処するためチームを派遣した。",
+        "blank": "The company ___ a team to handle the emergency.",
+        "blankAnswer": "dispatched"
+      }
+    ],
+    "distractors": [
+      "偽造する",
+      "廃止する",
+      "強く押し込む"
+    ],
+    "confusableSpellings": [
+      "dispach",
+      "despatch",
+      "disspatch"
+    ],
+    "passive": {
+      "etymology": "スペイン語 despachar または古フランス語 despeechier（障害を取り除く）← dis-（分離）＋ peach（足かせ）。「妨げを取り除いて送り出す」が原義。",
+      "tips": "dispatch は「素早く・目的をもって送る」ニュアンスが重要。単に send と違い、公的・緊急・組織的な派遣に使われることが多い。また despatch というスペルもイギリス英語では許容される。",
+      "confusables": "send（送る）は日常的な送付全般、dispatch は特に緊急・公式・組織的な派遣に限られる。detach（切り離す）と語感が似るが意味は全く異なる。",
+      "collocations": [
+        "dispatch troops",
+        "dispatch a message",
+        "dispatch with speed"
+      ],
+      "trivia": "ニュース用語「通信文・特派員報告」の意味でも使われ、「特派員がディスパッチを送る」と言えば現地からの速報レポートのこと。今もジャーナリズムの現場で生きている単語。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1834,
+    "word": "resent",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "憤慨する；根に持つ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（不公平な扱いに）不満を抱く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈzɛnt/",
+    "syllables": "re-sent",
+    "audioHint": "リゼント",
+    "examples": [
+      {
+        "en": "She resented being treated like a child at work.",
+        "ja": "彼女は職場で子どものように扱われることに憤慨した。",
+        "blank": "She ___ being treated like a child at work.",
+        "blankAnswer": "resented"
+      }
+    ],
+    "distractors": [
+      "主張する",
+      "和解させる",
+      "称賛する"
+    ],
+    "confusableSpellings": [
+      "ressent",
+      "resant",
+      "resentt"
+    ],
+    "passive": {
+      "etymology": "フランス語 ressentir ← re-（再び・強調）＋ sentir（感じる）← ラテン語 sentire。「何度も感じ続ける」＝心の中で繰り返し怒りを感じるのが原義。",
+      "tips": "resent は「過去の出来事に対する持続的な怒り・不満」を表す。一瞬怒る anger とは違い、ずっと根に持つニュアンス。resent doing（〜することを根に持つ）の形で動名詞を取ることに注意。",
+      "confusables": "resent（根に持つ）と recent（最近の）はスペルが非常に似ているので要注意。また re-sent（再送した）と同じ綴りになることもあり文脈が重要。",
+      "collocations": [
+        "resent someone for something",
+        "deeply resent",
+        "resent being told"
+      ],
+      "trivia": "resentment（恨み・憤慨）は心理学でも重要なキーワード。慢性的な resentment は心身の健康に悪影響を与えるとされ、「許すことで自分が楽になる」という研究も多い。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1835,
+    "word": "reconcile",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "和解させる；仲直りさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（矛盾・意見の相違を）調和させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈrɛkənsaɪl/",
+    "syllables": "rec-on-cile",
+    "audioHint": "レコンサイル",
+    "examples": [
+      {
+        "en": "It took years for them to reconcile after the argument.",
+        "ja": "口論の後、彼らが和解するまでに数年かかった。",
+        "blank": "It took years for them to ___ after the argument.",
+        "blankAnswer": "reconcile"
+      }
+    ],
+    "distractors": [
+      "追放する",
+      "憤慨する",
+      "根に持つ"
+    ],
+    "confusableSpellings": [
+      "reconcille",
+      "reconscile",
+      "reconcil"
+    ],
+    "passive": {
+      "etymology": "ラテン語 reconciliare ← re-（再び）＋ conciliare（集める・和解させる）← concilium（集会）。「再び集まらせる」が原義。",
+      "tips": "reconcile A with B（AとBを調和させる）の構文が重要。人同士の「和解」だけでなく、矛盾する考え方・データを「一致させる」ときにも使える。be reconciled to（〜を受け入れる・甘んじる）という表現も覚えておくと便利。",
+      "confusables": "resolve（解決する）は問題そのものを解決するが、reconcile は関係や矛盾を「調和・折り合いをつける」ニュアンス。renovate（改修する）と語感を混同しないよう注意。",
+      "collocations": [
+        "reconcile differences",
+        "reconcile with someone",
+        "reconcile accounts"
+      ],
+      "trivia": "経理・会計の世界では「勘定を突き合わせる（口座残高を照合する）」の意味で日常的に使われる。英語圏の経理担当者は毎月末に reconcile the accounts という作業をしている。"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1836,
+    "word": "allege",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（証拠なしに）申し立てる；主張する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（犯罪・不正などを）告発する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈlɛdʒ/",
+    "syllables": "al-lege",
+    "audioHint": "アレッジ",
+    "examples": [
+      {
+        "en": "The newspaper alleged that the official had accepted bribes.",
+        "ja": "その新聞は、その官僚が賄賂を受け取ったと申し立てた。",
+        "blank": "The newspaper ___ that the official had accepted bribes.",
+        "blankAnswer": "alleged"
+      }
+    ],
+    "distractors": [
+      "根に持つ",
+      "認識する",
+      "調和させる"
+    ],
+    "confusableSpellings": [
+      "alege",
+      "allegde",
+      "allidge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 allegare ← al-（ad-：〜へ）＋ legare（派遣する・伝える）。「証言を送り込む」が原義。法律ラテン語を通じて英語に入った語。",
+      "tips": "allege は「まだ証明されていない」という含みが非常に重要。ニュースや法廷では alleged（申し立てられた）という形容詞をよく見かけるが、これは「有罪と決まったわけではない」という注意書き的なニュアンス。断言の claim とは違う点を意識しよう。",
+      "confusables": "claim（主張する）は一般的な主張に使えるが、allege は特に法的・公式な文脈で「証拠なき告発」に使われる。accuse（非難する・告訴する）より婉曲的。",
+      "collocations": [
+        "allege misconduct",
+        "the alleged criminal",
+        "it is alleged that"
+      ],
+      "trivia": "ニュース記事で「alleged suspect（容疑者）」という表現をよく見るが、これは無罪推定の原則に基づくもの。有罪確定前に「犯人」と断言することを避けるための法律的配慮から生まれた表現習慣。"
+    },
+    "frequency": 3600,
+    "cefr": "C1"
+  },
+  {
+    "id": 1837,
+    "word": "oppress",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "圧迫する；抑圧する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（心・気持ちを）重く抑えつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈprɛs/",
+    "syllables": "op-press",
+    "audioHint": "オプレス",
+    "examples": [
+      {
+        "en": "The regime oppressed its citizens for decades.",
+        "ja": "その政権は数十年にわたり市民を抑圧した。",
+        "blank": "The regime ___ its citizens for decades.",
+        "blankAnswer": "oppressed"
+      }
+    ],
+    "distractors": [
+      "選出する",
+      "批准する",
+      "派遣する"
+    ],
+    "confusableSpellings": [
+      "opres",
+      "oppres",
+      "opress"
+    ],
+    "passive": {
+      "etymology": "ラテン語 opprimere ← op-（ob-：〜に対して）＋ premere（押す）。「上から押しつぶす」が原義。pressure（圧力）や compress（圧縮）と同語根。",
+      "tips": "oppress は政治的・社会的な「組織的抑圧」に使われることが多い。個人的な感情として「気が重い」ときにも使えるが（The heat oppressed us.）、主な用途は社会的文脈。oppressive（抑圧的な）、oppression（抑圧）の派生語も一緒に覚えよう。",
+      "confusables": "suppress（抑える・鎮圧する）は感情や反乱を「内側から抑え込む」イメージ。oppress は権力者が下位の者に「外から押しつける」イメージ。repress（抑圧する）は心理学的な抑圧に使われることが多い。",
+      "collocations": [
+        "oppress minorities",
+        "politically oppressed",
+        "the oppressed people"
+      ],
+      "trivia": "oppression は社会正義運動のキーワードとして現代でも頻繁に使われる。「Oppressor（抑圧者）vs Oppressed（被抑圧者）」という対概念は、ブラジルの教育学者パウロ・フレイレの名著『Pedagogy of the Oppressed』（被抑圧者の教育学）で世界的に有名になった。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1838,
+    "word": "expel",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "追放する；除名する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（空気・液体などを）排出する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈspɛl/",
+    "syllables": "ex-pel",
+    "audioHint": "イクスペル",
+    "examples": [
+      {
+        "en": "The student was expelled from school for cheating.",
+        "ja": "その生徒はカンニングを理由に退学させられた。",
+        "blank": "The student was ___ from school for cheating.",
+        "blankAnswer": "expelled"
+      }
+    ],
+    "distractors": [
+      "和解させる",
+      "抑圧する",
+      "召集する"
+    ],
+    "confusableSpellings": [
+      "expell",
+      "expeal",
+      "exspel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 expellere ← ex-（外へ）＋ pellere（追い立てる・押す）。「外へ追い出す」が原義。propel（推進する）、compel（強制する）、repel（撃退する）と同語根。",
+      "tips": "expel は「強制的・公式に外に出す」行為で、学校・組織・国家が主語になることが多い。活用形に注意：expelled（過去形）のように l を重ねること（expeling は誤り）。",
+      "confusables": "exile（追放する）は国や故郷から永久に追い出すニュアンスが強く、expel は学校・組織・国から公式に排除する行為全般に使える。eject（排出する・強制退去させる）より正式・公的な文脈で使われる。",
+      "collocations": [
+        "expel from school",
+        "expel a diplomat",
+        "expel air from the lungs"
+      ],
+      "trivia": "国際関係では外交官を「国外追放する」ときに expel を使う。「Russia expelled 10 diplomats（ロシアは外交官10名を追放した）」のような見出しは国際ニュースで定番表現。学校の「退学」と外交の「追放」、同じ単語が使われる不思議。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1839,
+    "word": "ascend",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "登る；上昇する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（地位・権力などの）上位に就く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsɛnd/",
+    "syllables": "as-cend",
+    "audioHint": "アセンド",
+    "examples": [
+      {
+        "en": "The hikers slowly ascended the steep mountain trail.",
+        "ja": "ハイカーたちは急な山道をゆっくりと登った。",
+        "blank": "The hikers slowly ___ the steep mountain trail.",
+        "blankAnswer": "ascended"
+      }
+    ],
+    "distractors": [
+      "突き刺す",
+      "飛び込む",
+      "横になる"
+    ],
+    "confusableSpellings": [
+      "ascned",
+      "assend",
+      "acend"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ascendere ← a-（ad-：〜へ）＋ scandere（登る・よじ登る）。「上へ向かって登る」が原義。descend（降りる）は同語根の反意語。",
+      "tips": "ascend は climb より文語的・格式的な語。「王位に就く」ような比喩的な上昇にも使える（ascend to the throne）。下降は descend（ディセンド）で対になっているので一緒に覚えると効率的。",
+      "confusables": "climb（登る）は体を使って実際によじ登る動作、ascend はより広く「上方向に動く・上昇する」意味で飛行機の上昇にも使える。rise（上がる）は自動詞のみで主語が自分で上がるが、ascend も自動詞として同様に使える。",
+      "collocations": [
+        "ascend to the throne",
+        "ascend a mountain",
+        "ascend rapidly"
+      ],
+      "trivia": "「アセンション（昇天）」はキリスト教でイエスが天に昇ったことを指す神学用語で、ascend の名詞形 ascension から来ている。南大西洋のアセンション島（Ascension Island）の名前もここから。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1840,
+    "word": "commence",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "開始する；始まる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（式典・手続きなどが）始まる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈmɛns/",
+    "syllables": "com-mence",
+    "audioHint": "コメンス",
+    "examples": [
+      {
+        "en": "The ceremony will commence at nine o'clock sharp.",
+        "ja": "式典はきっかり9時に始まります。",
+        "blank": "The ceremony will ___ at nine o'clock sharp.",
+        "blankAnswer": "commence"
+      }
+    ],
+    "distractors": [
+      "偽造する",
+      "送り届ける",
+      "強く押し込む"
+    ],
+    "confusableSpellings": [
+      "comence",
+      "commense",
+      "commmence"
+    ],
+    "passive": {
+      "etymology": "古フランス語 comencer ← ラテン語 com-（共に・強調）＋ initiare（始める）または incipere（始める）の混交。「完全に始める」が原義。",
+      "tips": "commence は start や begin より格式ばった語で、公式アナウンス・法律文書・式典でよく使われる。日常会話では start/begin の方が自然。commence doing（〜し始める）の形で動名詞を取れる点も覚えておこう。",
+      "confusables": "start（始める）は最も一般的、begin はやや格式的、commence はさらに格式的・公式的。試験・式典・法的手続きなどフォーマルな場面に限定すると覚えやすい。",
+      "collocations": [
+        "commence operations",
+        "commence proceedings",
+        "commence with a speech"
+      ],
+      "trivia": "アメリカの大学では卒業式を「commencement（コメンスメント）」と呼ぶ。直訳すると「始まり」という意味で、「終わり」ではなく「社会への新たな出発の始まり」という意味が込められているのがおしゃれ。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  }
+]

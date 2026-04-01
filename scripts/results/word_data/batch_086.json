@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1701,
+    "word": "embody",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を具現化する、体現する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を盛り込む、含む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈbɒdi/",
+    "syllables": "em-bod-y",
+    "audioHint": "イムボディ",
+    "examples": [
+      {
+        "en": "She embodies the spirit of teamwork every day.",
+        "ja": "彼女は毎日チームワークの精神を体現している。",
+        "blank": "She ___ the spirit of teamwork every day.",
+        "blankAnswer": "embodies"
+      }
+    ],
+    "distractors": [
+      "〜を明らかにする",
+      "〜を検証する",
+      "〜を開示する"
+    ],
+    "confusableSpellings": [
+      "embody",
+      "imbody",
+      "embodi"
+    ],
+    "passive": {
+      "etymology": "接頭辞 em-（中に入れる）＋ body（身体・実体）。「実体の中に入れる」→「具体化する」という流れ。",
+      "tips": "embody は「抽象的な概念を具体的な形・人物として表す」というニュアンス。represent より一段深い「まさにその概念そのものだ」という意味合いがある。",
+      "confusables": "represent は「代表する・表す」で比較的中立的。embody は「その本質を自分の中に持っている」という強い一体感がある。",
+      "collocations": [
+        "embody the spirit",
+        "embody the values",
+        "embody the principle"
+      ],
+      "trivia": "「body」が語根なので、物理的な「身体」ではなく「概念に肉体を与える」イメージ。英語圏ではよくアーティストや指導者を称えるときに使われる。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1702,
+    "word": "illuminate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を照らす、明るくする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を明確にする、解明する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈluːmɪneɪt/",
+    "syllables": "il-lu-mi-nate",
+    "audioHint": "イルーミネイト",
+    "examples": [
+      {
+        "en": "The report illuminated the causes of the crisis.",
+        "ja": "その報告書は危機の原因を明らかにした。",
+        "blank": "The report ___ the causes of the crisis.",
+        "blankAnswer": "illuminated"
+      }
+    ],
+    "distractors": [
+      "〜を体現する",
+      "〜を確認する",
+      "〜を制限する"
+    ],
+    "confusableSpellings": [
+      "iluminate",
+      "illuminat",
+      "illluminate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 illuminare（光を当てる）から。in-（上に）＋ lumen（光）＋ -ate（動詞化）。",
+      "tips": "物理的に「照らす」と比喩的に「解明する」の両方で使える。学術・ビジネス文書では比喩的用法が多い。日本人はつい「explain」を使いがちだが、illuminate はより「光を当てて隠れていたものを見せる」ニュアンス。",
+      "confusables": "explain は「説明する」で中立的。illuminate は「暗闇に光を当てるように新たな視点を与える」という含意があり、より印象的な表現。",
+      "collocations": [
+        "illuminate the issue",
+        "illuminate the path",
+        "illuminate the truth"
+      ],
+      "trivia": "中世の写本装飾「illuminated manuscript（彩飾写本）」もこの語源。金や明るい色で文字を「光らせた」ことからこう呼ばれた。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1703,
+    "word": "console",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を慰める、なぐさめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "操作台、コンソール（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈsoʊl/",
+    "syllables": "con-sole",
+    "audioHint": "コンソウル",
+    "examples": [
+      {
+        "en": "She consoled her friend after the bad news.",
+        "ja": "彼女は悪い知らせの後、友人を慰めた。",
+        "blank": "She ___ her friend after the bad news.",
+        "blankAnswer": "consoled"
+      }
+    ],
+    "distractors": [
+      "〜を説得する",
+      "〜を批判する",
+      "〜を無視する"
+    ],
+    "confusableSpellings": [
+      "consol",
+      "concole",
+      "consoel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 consolari（共に強くする）から。con-（共に）＋ solari（慰める・強くする）。",
+      "tips": "console は感情的なサポートに特化した語。comfort より少し改まった雰囲気がある。名詞の「コンソール（操作台・ゲーム機）」と同じ綴りなので文脈で判断が必要。",
+      "confusables": "comfort は「心地よくする・安心させる」でより広い意味。console は「悲しみや失望を和らげる」という特定の感情状況に使いやすい。",
+      "collocations": [
+        "console a friend",
+        "console oneself",
+        "console the grieving"
+      ],
+      "trivia": "PlayStation などの「ゲームコンソール」も同じ語。元々は「支持台・操作台」の意味で、別語源とされることもある。同じ綴りで全く違う意味の単語は英語でもレアなケース。"
+    },
+    "frequency": 5500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1704,
+    "word": "verify",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を確認する、証明する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を検証する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈverɪfaɪ/",
+    "syllables": "ver-i-fy",
+    "audioHint": "ヴェリファイ",
+    "examples": [
+      {
+        "en": "Please verify your email address to continue.",
+        "ja": "続けるにはメールアドレスを確認してください。",
+        "blank": "Please ___ your email address to continue.",
+        "blankAnswer": "verify"
+      }
+    ],
+    "distractors": [
+      "〜を開示する",
+      "〜を照らす",
+      "〜を体現する"
+    ],
+    "confusableSpellings": [
+      "verrify",
+      "varify",
+      "verifiy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 verificare から。verus（真の）＋ facere（作る・する）。「真実であると確かめる」が原義。",
+      "tips": "verify は「証拠・根拠をもって事実と確認する」というニュアンスで、単に「チェックする（check）」より強い。IT分野では「認証・検証」の意味でも頻出。",
+      "confusables": "confirm は「すでに知っていることを再確認する」、verify は「正しいかどうかを調べて証明する」。verify の方がより客観的な証拠に基づく。",
+      "collocations": [
+        "verify the information",
+        "verify the identity",
+        "verify the results"
+      ],
+      "trivia": "SNSの「認証バッジ（verified badge）」もこの語源。「本物であることが証明された」というわけ。青いチェックマークは verify の産物。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1705,
+    "word": "disclose",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を開示する、明かす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を公表する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪsˈkloʊz/",
+    "syllables": "dis-close",
+    "audioHint": "ディスクロウズ",
+    "examples": [
+      {
+        "en": "The company refused to disclose its financial records.",
+        "ja": "その会社は財務記録の開示を拒否した。",
+        "blank": "The company refused to ___ its financial records.",
+        "blankAnswer": "disclose"
+      }
+    ],
+    "distractors": [
+      "〜を検証する",
+      "〜を体現する",
+      "〜を解明する"
+    ],
+    "confusableSpellings": [
+      "disclouse",
+      "discloze",
+      "disclose"
+    ],
+    "passive": {
+      "etymology": "dis-（反対・否定）＋ close（閉じる）。「閉じていたものを開く」→「秘密を明かす」という流れ。",
+      "tips": "disclose は特に「秘密・機密情報・プライベートな情報を正式に明かす」場面で使う。reveal より法律・ビジネス色が強い。「情報開示義務（disclosure obligation）」など公式文書で多用。",
+      "confusables": "reveal は感情的・劇的なニュアンスも含む口語表現。disclose はより公式で法的・職業的な文脈に向く。",
+      "collocations": [
+        "disclose information",
+        "disclose details",
+        "disclose the truth"
+      ],
+      "trivia": "企業の「ディスクロージャー（情報開示）」は日本語にもなっている。投資家向けに財務情報を公開する義務のことで、株主が会社の実態を知る権利を守るための制度。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1706,
+    "word": "stack",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜を積み重ねる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "積み重ね、スタック（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/stæk/",
+    "syllables": "stack",
+    "audioHint": "スタック",
+    "examples": [
+      {
+        "en": "He stacked the books neatly on the shelf.",
+        "ja": "彼は棚に本をきれいに積み重ねた。",
+        "blank": "He ___ the books neatly on the shelf.",
+        "blankAnswer": "stacked"
+      }
+    ],
+    "distractors": [
+      "〜を回転させる",
+      "〜を持ちこたえる",
+      "〜を制約する"
+    ],
+    "confusableSpellings": [
+      "stak",
+      "stac",
+      "steck"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 stakkr（干し草の山）から。「積み上げた山」が原義で、そこから動詞化された。",
+      "tips": "stack は「同じ形のものを規則正しく重ねる」イメージ。pile は無秩序に「積む」ニュアンスがある。コンピュータ用語の「スタック（後入れ先出しのデータ構造）」も同じ語。",
+      "confusables": "pile は「ごちゃっと積み上げる」で整然さがない。stack は「整然と重ねる」というきれいさや規則性のニュアンスがある。",
+      "collocations": [
+        "stack boxes",
+        "stack the deck",
+        "stack up"
+      ],
+      "trivia": "「the deck is stacked against you（勝ち目がない）」というイディオムはカード（トランプ）を不正に積む行為から来ている。つまり最初からイカサマされた状態のこと。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1707,
+    "word": "rotate",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "回転する、〜を回転させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を交替させる、順番に行う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈroʊteɪt/",
+    "syllables": "ro-tate",
+    "audioHint": "ロウテイト",
+    "examples": [
+      {
+        "en": "The Earth rotates on its axis every 24 hours.",
+        "ja": "地球は24時間ごとに自転する。",
+        "blank": "The Earth ___ on its axis every 24 hours.",
+        "blankAnswer": "rotates"
+      }
+    ],
+    "distractors": [
+      "〜を積み重ねる",
+      "〜を耐える",
+      "〜を制限する"
+    ],
+    "confusableSpellings": [
+      "rotete",
+      "rotatе",
+      "roteate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 rotare（回る）から。rota（車輪）が語根で、「車輪のように回る」が原義。",
+      "tips": "rotate は「軸を中心に回る・回す」という物理的動作と、「当番・シフトを交替させる」という比喩的用法の両方がある。「タイヤのローテーション」は後者の意味。",
+      "confusables": "spin は速く勢いよく回るイメージ。revolve は中心の外側を周回するイメージ（地球が太陽の周りを revolve）。rotate は軸を中心に自転するイメージ。",
+      "collocations": [
+        "rotate crops",
+        "rotate the tires",
+        "rotate the staff"
+      ],
+      "trivia": "農業用語「輪作（crop rotation）」もこの語。同じ畑で同じ作物を作り続けると土が痩せるため、作物を「ローテーション」させる。農業と物理が同じ単語で語れる。"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1708,
+    "word": "constrain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を制約する、制限する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に強いる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈstreɪn/",
+    "syllables": "con-strain",
+    "audioHint": "コンストレイン",
+    "examples": [
+      {
+        "en": "Budget cuts constrained the team's options.",
+        "ja": "予算削減がチームの選択肢を制約した。",
+        "blank": "Budget cuts ___ the team's options.",
+        "blankAnswer": "constrained"
+      }
+    ],
+    "distractors": [
+      "〜を妨げる",
+      "〜を変化させる",
+      "〜を修正する"
+    ],
+    "confusableSpellings": [
+      "constrian",
+      "consstrain",
+      "constrayn"
+    ],
+    "passive": {
+      "etymology": "ラテン語 constringere（共に縛る）から。con-（共に・強意）＋ stringere（縛る・締める）。",
+      "tips": "constrain は「外部の条件・ルール・資源不足などによって行動範囲が狭まる」というニュアンス。restrain（自分または他者の行動を抑える）と混同しやすいので注意。",
+      "confusables": "restrain は「（感情・行動を）抑制する・止める」で、より意図的・直接的。constrain は「状況や条件に縛られる」という受動的なニュアンスが強い。",
+      "collocations": [
+        "constrain the budget",
+        "constrain behavior",
+        "feel constrained"
+      ],
+      "trivia": "数学・コンピュータ科学の「制約条件（constraint）」もこの語根。最適化問題で「この範囲内で解を求める」という条件のことで、日常語と専門語が同じ語源でつながっている。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1709,
+    "word": "hinder",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を妨げる、邪魔する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜の進行を遅らせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈhɪndər/",
+    "syllables": "hin-der",
+    "audioHint": "ヒンダー",
+    "examples": [
+      {
+        "en": "Heavy rain hindered the rescue operation.",
+        "ja": "大雨が救助活動を妨げた。",
+        "blank": "Heavy rain ___ the rescue operation.",
+        "blankAnswer": "hindered"
+      }
+    ],
+    "distractors": [
+      "〜を制約する",
+      "〜を強化する",
+      "〜を調整する"
+    ],
+    "confusableSpellings": [
+      "hender",
+      "hindder",
+      "hynder"
+    ],
+    "passive": {
+      "etymology": "古英語 hindrian（後ろに置く・遅らせる）から。hinder（後ろの）という形容詞とも関連し、「後ろへ追いやる」が原義。",
+      "tips": "hinder は「進行・発展を邪魔する」という意味で、obstruct（物理的に塞ぐ）より広い文脈で使える。主語は「人・天候・状況」など幅広い。",
+      "confusables": "obstruct は「物理的・直接的に塞ぐ」イメージ。hinder は「スムーズな進行を妨げる・遅らせる」という間接的なニュアンスも含む。impede も類義語で、よりフォーマル。",
+      "collocations": [
+        "hinder progress",
+        "hinder development",
+        "hinder efforts"
+      ],
+      "trivia": "「hind（後ろの）」という形容詞と語源が同じ。「hindquarters（動物の後半身）」も同じ仲間。「後ろに引っ張る」→「妨げる」という発想が面白い。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1710,
+    "word": "withstand",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜に耐える、持ちこたえる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に抵抗する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/wɪðˈstænd/",
+    "syllables": "with-stand",
+    "audioHint": "ウィズスタンド",
+    "examples": [
+      {
+        "en": "The bridge was built to withstand strong earthquakes.",
+        "ja": "その橋は強い地震に耐えられるよう設計された。",
+        "blank": "The bridge was built to ___ strong earthquakes.",
+        "blankAnswer": "withstand"
+      }
+    ],
+    "distractors": [
+      "〜を回転させる",
+      "〜を積み重ねる",
+      "〜を制約する"
+    ],
+    "confusableSpellings": [
+      "withsand",
+      "withstend",
+      "withsatnd"
+    ],
+    "passive": {
+      "etymology": "古英語 withstandan から。with-（反対に・向かって）＋ stand（立つ）。「〜に向かって立つ」→「抵抗する・耐える」が原義。",
+      "tips": "withstand の過去形・過去分詞は withstood（不規則変化）。withstanded は誤り。「stand」の過去形が stood なのと同様。圧力・荷重・攻撃など物理的なものから批判・試練などの抽象的なものまで使える。",
+      "confusables": "endure は「長時間の苦しみや困難を耐え続ける」という精神的ニュアンスが強い。withstand は「外部からの力・圧力に崩れずに持ちこたえる」という物理的・構造的ニュアンスが強い。",
+      "collocations": [
+        "withstand pressure",
+        "withstand the test of time",
+        "withstand criticism"
+      ],
+      "trivia": "「withstand the test of time（時の試練に耐える）」は英語でよく使われる表現。名作映画・名曲・古い建物などを褒めるときに使われる決まり文句で、知っていると一気にネイティブっぽく聞こえる。"
+    },
+    "frequency": 4300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1711,
+    "word": "tweet",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "ツイートする、短いメッセージを投稿する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（小鳥が）さえずる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/twiːt/",
+    "syllables": "tweet",
+    "audioHint": "トゥウィート",
+    "examples": [
+      {
+        "en": "She tweeted about the concert and got thousands of likes.",
+        "ja": "彼女はコンサートについてツイートして、何千ものいいねを獲得した。",
+        "blank": "She ___ about the concert and got thousands of likes.",
+        "blankAnswer": "tweeted"
+      }
+    ],
+    "distractors": [
+      "データを暗号化する",
+      "ファイルを圧縮する",
+      "システムをアップデートする"
+    ],
+    "confusableSpellings": [
+      "tweat",
+      "twete"
+    ],
+    "passive": {
+      "etymology": "もともとは擬音語で小鳥の「チュン」という鳴き声を表す語。Twitterが2006年にサービス開始した際に「短い発信＝小鳥のさえずり」というコンセプトから動詞・名詞として定着した。",
+      "tips": "SNSの文脈では名詞（a tweet）と動詞（to tweet）両方で使われる。「Xに投稿する」という意味でも依然 tweet が広く使われている。過去形は tweeted と規則変化。",
+      "confusables": "post と混同しがちだが、tweet は特にTwitter(X)に特化した語。post はより汎用的でSNS全般に使える。",
+      "collocations": [
+        "tweet about ~",
+        "tweet a photo",
+        "retweet"
+      ],
+      "trivia": "Twitterが2023年に「X」に改名された後も、ユーザーや辞書は依然として tweet / tweeting を使い続けており、言語が社名変更に追いつかない好例として話題になった。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1712,
+    "word": "sneeze",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "くしゃみをする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "くしゃみ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/sniːz/",
+    "syllables": "sneeze",
+    "audioHint": "スニーズ",
+    "examples": [
+      {
+        "en": "He sneezed three times during the meeting.",
+        "ja": "彼は会議中に3回くしゃみをした。",
+        "blank": "He ___ three times during the meeting.",
+        "blankAnswer": "sneezed"
+      }
+    ],
+    "distractors": [
+      "げっぷをする",
+      "つまずく",
+      "しゃっくりをする"
+    ],
+    "confusableSpellings": [
+      "sneaze",
+      "sneze"
+    ],
+    "passive": {
+      "etymology": "古英語 fnēosan（くしゃみをする）に由来し、中英語で fnesen → snesen → sneeze と変化した。語頭の fn- が sn- に変わるのは中英語期の子音変化の典型例。",
+      "tips": "「not to be sneezed at（軽視できない）」という慣用句がある。直訳すると「くしゃみして吹き飛ばせるものではない」→「あなどれない」という意味になる。",
+      "confusables": "cough（咳をする）と混同する学習者がいるが、sneeze は鼻から空気が勢いよく出る動作、cough は喉・肺から空気が出る動作と明確に異なる。",
+      "collocations": [
+        "sneeze loudly",
+        "sneeze into one's elbow",
+        "fit of sneezing"
+      ],
+      "trivia": "くしゃみをした人に「Bless you!」と言う英語圏の習慣は、中世の疫病時代に「くしゃみで魂が飛び出るから神様に祝福してもらう」という迷信に由来するといわれている。"
+    },
+    "frequency": 5800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1713,
+    "word": "erupt",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "噴火する、爆発的に噴き出す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・暴力などが）突然起こる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈrʌpt/",
+    "syllables": "e-rupt",
+    "audioHint": "イラプト",
+    "examples": [
+      {
+        "en": "The volcano erupted suddenly, sending ash into the sky.",
+        "ja": "火山が突然噴火し、灰を空に噴き上げた。",
+        "blank": "The volcano ___ suddenly, sending ash into the sky.",
+        "blankAnswer": "erupted"
+      }
+    ],
+    "distractors": [
+      "ゆっくり溶ける",
+      "静かに沈む",
+      "震動する"
+    ],
+    "confusableSpellings": [
+      "irrupt",
+      "errupt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 erumpere（外へ破裂する）から。接頭辞 e-（外へ）＋ ruptus（破る、割れる）の組み合わせ。rupture（破裂）や disrupt（混乱させる）と同じ語根を持つ。",
+      "tips": "火山の噴火だけでなく、感情や騒動が「爆発する」場面でも使える。Violence erupted / Laughter erupted などのように主語に感情・事象を置く用法を覚えておくと表現の幅が広がる。",
+      "confusables": "irrupt（侵入する）と混同しやすい。erupt は「外へ破裂する」、irrupt は「内へ侵入する」と方向が逆。スペルも似ているので注意。",
+      "collocations": [
+        "erupt in laughter",
+        "erupt in violence",
+        "a volcano erupts"
+      ],
+      "trivia": "英語で「会場が笑いに包まれた」を The room erupted in laughter と表現するのは、笑いが火山の噴火のように突然・一気に広がるイメージから。映画や小説でよく見かける表現。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1714,
+    "word": "blur",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ぼかす、ぼやけさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（境界・区別が）曖昧になる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/blɜːr/",
+    "syllables": "blur",
+    "audioHint": "ブラー",
+    "examples": [
+      {
+        "en": "Tears blurred her vision as she read the letter.",
+        "ja": "手紙を読みながら、涙で彼女の視界がぼやけた。",
+        "blank": "Tears ___ her vision as she read the letter.",
+        "blankAnswer": "blurred"
+      }
+    ],
+    "distractors": [
+      "鮮明にする",
+      "拡大する",
+      "点滅させる"
+    ],
+    "confusableSpellings": [
+      "blar",
+      "blurr"
+    ],
+    "passive": {
+      "etymology": "16世紀ごろに登場した語で、明確な語源は不明だが、smear（汚す）や smudge（にじませる）と意味的に近い。名詞・動詞どちらにも使われ、「にじみ」「ぼんやりしたもの」を指す。",
+      "tips": "blur the line(s) between A and B（AとBの境界線を曖昧にする）は論文や評論でよく使われる表現。単に視覚的なぼかしだけでなく概念的な境界の曖昧さにも使えると覚えておこう。",
+      "confusables": "smudge は汚れやインクがにじむ物理的な状態、blur は視覚的・概念的にぼやける場合と使い分ける。写真編集では blur が標準的。",
+      "collocations": [
+        "blur the line",
+        "blur of motion",
+        "blurred vision"
+      ],
+      "trivia": "スマホのポートレートモードの「背景ぼかし」は英語で background blur という。AI が背景を blur して被写体を際立たせる技術は、まさにこの単語の意味そのもの。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1715,
+    "word": "overlap",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "重なる、部分的に一致する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "重なり合い",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈlæp/",
+    "syllables": "o-ver-lap",
+    "audioHint": "オウヴァラップ",
+    "examples": [
+      {
+        "en": "The two projects overlap in terms of budget and timeline.",
+        "ja": "2つのプロジェクトは予算とスケジュールの面で重複している。",
+        "blank": "The two projects ___ in terms of budget and timeline.",
+        "blankAnswer": "overlap"
+      }
+    ],
+    "distractors": [
+      "完全に分離する",
+      "交差して通過する",
+      "逆転する"
+    ],
+    "confusableSpellings": [
+      "overlapp",
+      "overlab"
+    ],
+    "passive": {
+      "etymology": "接頭辞 over-（〜の上に）＋ lap（折り重なる部分、ひざ）の組み合わせ。lap 自体に「重なる部分」という意味があり、over- を加えて「〜の上に折り重なる」状態を表す。",
+      "tips": "動詞として使う際、二者が互いに重なる場合は A and B overlap または A overlaps with B という形を使う。前置詞 with を忘れやすいので注意。名詞としても an overlap between A and B のように使える。",
+      "confusables": "intersect は二つのものが「交差する点を持つ」イメージで、overlap は「面として重なる」イメージ。線同士なら intersect、領域同士なら overlap がより自然。",
+      "collocations": [
+        "overlap with ~",
+        "significant overlap",
+        "overlap in responsibilities"
+      ],
+      "trivia": "プレゼンやビジネス文書で「業務の重複を省く」ことを avoid overlap または eliminate overlap という。仕事の効率化文脈でよく登場する単語。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1716,
+    "word": "embed",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "埋め込む、組み込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（記者などを）部隊・組織に配属する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈbɛd/",
+    "syllables": "em-bed",
+    "audioHint": "インベッド",
+    "examples": [
+      {
+        "en": "You can embed the video directly into your website.",
+        "ja": "そのビデオをウェブサイトに直接埋め込むことができます。",
+        "blank": "You can ___ the video directly into your website.",
+        "blankAnswer": "embed"
+      }
+    ],
+    "distractors": [
+      "取り外す",
+      "分類する",
+      "圧縮する"
+    ],
+    "confusableSpellings": [
+      "imbed",
+      "embedd"
+    ],
+    "passive": {
+      "etymology": "接頭辞 em-（中に）＋ bed（床、土台）から。「床の中に沈め込む」イメージが語源。em- は en- の変形で「中に入れる」を意味し、embrace（抱きしめる）や empower（力を与える）と同じ接頭辞。",
+      "tips": "imbed というスペルも辞書に載っているが、現代英語では embed が標準。Webやプログラミング文脈での「埋め込み」は embed 一択。過去形は embedded（d を重ねる）と覚えよう。",
+      "confusables": "insert は「差し込む」で取り外し可能なニュアンス、embed は「深く埋め込まれて一体化する」ニュアンスが強い。技術文書では使い分けが重要。",
+      "collocations": [
+        "embed a video",
+        "deeply embedded",
+        "embed in the culture"
+      ],
+      "trivia": "戦争報道で記者が軍隊に同行することを embedded journalist（従軍記者）という。2003年のイラク戦争でこの用法が広まり、辞書にも新義として追加された。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1717,
+    "word": "displace",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（人・物を）追い出す、移動させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（地位・役割を）取って代わる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪsˈpleɪs/",
+    "syllables": "dis-place",
+    "audioHint": "ディスプレイス",
+    "examples": [
+      {
+        "en": "The flood displaced thousands of families from their homes.",
+        "ja": "洪水によって何千もの家族が家を追われた。",
+        "blank": "The flood ___ thousands of families from their homes.",
+        "blankAnswer": "displaced"
+      }
+    ],
+    "distractors": [
+      "定住させる",
+      "修復する",
+      "集合させる"
+    ],
+    "confusableSpellings": [
+      "displase",
+      "displace"
+    ],
+    "passive": {
+      "etymology": "接頭辞 dis-（離れて、反対に）＋ place（場所に置く）の組み合わせ。「本来の場所から離す」が基本イメージ。dis- は disconnect や disappear と同様に「否定・分離」を表す。",
+      "tips": "displaced people / displaced workers のように形容詞的に使われることも多い。また、automation displaces workers（自動化が労働者の仕事を奪う）のように「取って代わる」意味でも重要。",
+      "confusables": "replace は「Aの代わりにBを置く」で新しいものが来るニュアンス、displace は「Aを元の場所から追い出す」で必ずしも後継が来るとは限らない。",
+      "collocations": [
+        "displaced refugees",
+        "displace workers",
+        "displace water"
+      ],
+      "trivia": "物理学では「排水量」を water displacement という。船が水に浮かぶ原理（アルキメデスの原理）は、船体が水を displace する量と重さの関係で説明される。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1718,
+    "word": "render",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜にする、〜の状態にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（画像・映像を）レンダリングする、描写する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈrɛndər/",
+    "syllables": "ren-der",
+    "audioHint": "レンダー",
+    "examples": [
+      {
+        "en": "The accident rendered him unable to walk.",
+        "ja": "その事故で彼は歩けなくなった。",
+        "blank": "The accident ___ him unable to walk.",
+        "blankAnswer": "rendered"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "否定する",
+      "思い出す"
+    ],
+    "confusableSpellings": [
+      "rendor",
+      "rendar"
+    ],
+    "passive": {
+      "etymology": "古フランス語 rendre（返す、与える）に由来し、ラテン語 reddere（返す）から。「何かを何かの状態に変えて返す」というイメージが基底にある。surrender（降参する）の -render と同じ語根。",
+      "tips": "render A + 形容詞（AをBの状態にする）という構文は難易度が高いが頻出。render it impossible（それを不可能にする）のように無生物主語との組み合わせでよく使われる。make とほぼ同義だが render はより格調高い表現。",
+      "confusables": "make との違いは文体の高さ。make it possible は日常表現、render it possible はやや書き言葉・改まった表現。技術文書や法律文書では render が好まれる。",
+      "collocations": [
+        "render a decision",
+        "render assistance",
+        "render an image"
+      ],
+      "trivia": "3DCGやゲーム開発の「レンダリング」はこの単語から。コンピューターが計算データを「視覚的な映像として表現する」作業を render と呼ぶ。映画1本のレンダリングに数百台のサーバーが必要なことも。"
+    },
+    "frequency": 2800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1719,
+    "word": "plunge",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "突進する、飛び込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（価格・数値が）急落する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/plʌndʒ/",
+    "syllables": "plunge",
+    "audioHint": "プランジ",
+    "examples": [
+      {
+        "en": "She plunged into the cold water without hesitation.",
+        "ja": "彼女はためらうことなく冷たい水に飛び込んだ。",
+        "blank": "She ___ into the cold water without hesitation.",
+        "blankAnswer": "plunged"
+      }
+    ],
+    "distractors": [
+      "ゆっくり浮かび上がる",
+      "静かに歩く",
+      "振り返る"
+    ],
+    "confusableSpellings": [
+      "pluge",
+      "plundge"
+    ],
+    "passive": {
+      "etymology": "古フランス語 plongier（沈める）に由来し、ラテン語 plumbum（鉛）から。鉛の錘を水に沈める行為が語源で、「勢いよく沈む・飛び込む」イメージに発展した。plumber（配管工）も同じ語根。",
+      "tips": "take the plunge（思い切って踏み出す）は日常会話でよく使われる慣用句。株価や気温の「急落」にも plunge が使われ、The stock market plunged 5% のように使える。",
+      "confusables": "dive は水中へ頭から飛び込む具体的なイメージ、plunge は勢いよく突っ込む・急落するという抽象的な文脈でも広く使える。",
+      "collocations": [
+        "plunge into darkness",
+        "take the plunge",
+        "plunge in temperature"
+      ],
+      "trivia": "「思い切って何かを始める」を take the plunge というのは、プールに飛び込む勇気が必要な場面から来ている。プロポーズする、転職する、起業するなど人生の大きな決断に使われる。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1720,
+    "word": "surrender",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "降伏する、諦める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（権利・物などを）引き渡す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈrɛndər/",
+    "syllables": "sur-ren-der",
+    "audioHint": "サレンダー",
+    "examples": [
+      {
+        "en": "The soldiers were forced to surrender after weeks of battle.",
+        "ja": "兵士たちは数週間の戦闘の末、降伏を余儀なくされた。",
+        "blank": "The soldiers were forced to ___ after weeks of battle.",
+        "blankAnswer": "surrender"
+      }
+    ],
+    "distractors": [
+      "同盟を結ぶ",
+      "交渉する",
+      "反撃する"
+    ],
+    "confusableSpellings": [
+      "surender",
+      "surrendar"
+    ],
+    "passive": {
+      "etymology": "古フランス語 surrendre（引き渡す）に由来し、sur-（上に、超えて）＋ rendre（返す、与える）の組み合わせ。render と同じ語根 rendre を持つ。「完全に（相手に）引き渡す」が本来の意味。",
+      "tips": "surrender は軍事的な降伏だけでなく、surrender one's passport（パスポートを提出する）や surrender to temptation（誘惑に負ける）のように幅広く使える。前置詞 to と組み合わせることが多い。",
+      "confusables": "yield も「降伏する・譲る」という意味を持つが、yield はより穏やかで「しぶしぶ認める・道を譲る」ニュアンス。surrender は完全な敗北・放棄のイメージが強い。",
+      "collocations": [
+        "surrender to the enemy",
+        "surrender a passport",
+        "surrender control"
+      ],
+      "trivia": "ロック史に残る名曲にも surrender は登場する。また、白旗（white flag）は世界共通の降伏のシンボルだが、これはジュネーヴ条約でも国際的に認められている。戦場で白旗を掲げることが surrender の最も古典的な表現。"
+    },
+    "frequency": 3300,
+    "cefr": "B2"
+  }
+]

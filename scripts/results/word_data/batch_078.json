@@ -1,0 +1,994 @@
+[
+  {
+    "id": 1541,
+    "word": "entrepreneur",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "起業家",
+        "pos": "noun"
+      },
+      {
+        "meaning": "事業家",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɑːntrəprəˈnɜːr/",
+    "syllables": "en-tre-pre-neur",
+    "audioHint": "アントレプレナー",
+    "examples": [
+      {
+        "en": "She became a successful entrepreneur at the age of 25.",
+        "ja": "彼女は25歳で成功した起業家になった。",
+        "blank": "She became a successful ___ at the age of 25.",
+        "blankAnswer": "entrepreneur"
+      }
+    ],
+    "distractors": [
+      "投資家",
+      "経営幹部",
+      "株主"
+    ],
+    "confusableSpellings": [
+      "entrepeneur",
+      "entreprenuer",
+      "entrepraneur"
+    ],
+    "passive": {
+      "etymology": "フランス語 entreprendre（着手する）から。entre-（間に）＋ prendre（取る）が語源。英語には18世紀に借用された。",
+      "tips": "スペルが長く難しいが「entre（間）＋ pre（前）＋ neur（神経）」と分解して覚えると楽。発音はフランス語由来なので「アントレプレナー」と末尾を強く読む。",
+      "confusables": "businessperson は広く事業に携わる人全般を指すが、entrepreneur は特にリスクを取って新たに事業を立ち上げる人を指す。",
+      "collocations": [
+        "serial entrepreneur",
+        "successful entrepreneur",
+        "entrepreneur spirit"
+      ],
+      "trivia": "フランス語で「橋渡しをする人」という意味が語源。経済学者シュンペーターが「創造的破壊の担い手」として概念化したことで現代的意味が定着した。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1542,
+    "word": "stake",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "利害関係、出資分",
+        "pos": "noun"
+      },
+      {
+        "meaning": "賭け金、危険にさらされているもの",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/steɪk/",
+    "syllables": "stake",
+    "audioHint": "ステイク",
+    "examples": [
+      {
+        "en": "The company has a large stake in the new project.",
+        "ja": "その会社は新しいプロジェクトに大きな利害関係を持っている。",
+        "blank": "The company has a large ___ in the new project.",
+        "blankAnswer": "stake"
+      }
+    ],
+    "distractors": [
+      "余剰金",
+      "負債",
+      "配当金"
+    ],
+    "confusableSpellings": [
+      "staek",
+      "stak",
+      "steake"
+    ],
+    "passive": {
+      "etymology": "古英語 staca（棒、杭）が語源。賭けの場に杭を打って賭け金を示したことから「賭け金・利害」の意味が派生した。",
+      "tips": "「ステーキ（steak）」とスペルが非常に似ているので注意。stake は e で終わり、steak は ea+k の並び。ビジネス文脈では「〜に出資している」を hold a stake in と表現する。",
+      "confusables": "steak（肉のステーキ）と発音が同じ同音異義語。また share（株式）も出資を指すが、stake はより広く「利害関係全般」を指す。",
+      "collocations": [
+        "have a stake in",
+        "high stakes",
+        "stake a claim"
+      ],
+      "trivia": "「high stakes」はカジノ用語が由来で「大きなリスクを伴う状況」を意味する。政治ドラマやビジネス映画でよく使われる表現。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1543,
+    "word": "surplus",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "余剰、黒字",
+        "pos": "noun"
+      },
+      {
+        "meaning": "過剰な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈsɜːrpləs/",
+    "syllables": "sur-plus",
+    "audioHint": "サープラス",
+    "examples": [
+      {
+        "en": "The government reported a budget surplus this year.",
+        "ja": "政府は今年の予算黒字を報告した。",
+        "blank": "The government reported a budget ___ this year.",
+        "blankAnswer": "surplus"
+      }
+    ],
+    "distractors": [
+      "負債",
+      "インフレーション",
+      "利子"
+    ],
+    "confusableSpellings": [
+      "surplas",
+      "surpluss",
+      "surpulus"
+    ],
+    "passive": {
+      "etymology": "ラテン語 super-（上に・過剰に）＋ plus（より多い）から中世フランス語経由で英語へ。「必要量を超えたもの」が原義。",
+      "tips": "deficit（赤字・不足）の対義語として覚えると整理しやすい。trade surplus（貿易黒字）、budget surplus（予算黒字）とセットで使うことが多い。",
+      "confusables": "excess も「過剰」を意味するが、surplus は特に「必要量を超えた残余」のニュアンス。経済・財政文脈では surplus を使うのが自然。",
+      "collocations": [
+        "trade surplus",
+        "budget surplus",
+        "surplus value"
+      ],
+      "trivia": "マルクス経済学では surplus value（剰余価値）が資本主義批判の中心概念。高校の政治経済でも登場するキーワード。"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1544,
+    "word": "inflation",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "インフレーション、物価上昇",
+        "pos": "noun"
+      },
+      {
+        "meaning": "膨張",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈfleɪʃən/",
+    "syllables": "in-fla-tion",
+    "audioHint": "インフレイション",
+    "examples": [
+      {
+        "en": "High inflation is making everyday goods more expensive.",
+        "ja": "高インフレが日用品をより高価にしている。",
+        "blank": "High ___ is making everyday goods more expensive.",
+        "blankAnswer": "inflation"
+      }
+    ],
+    "distractors": [
+      "財政赤字",
+      "利益率",
+      "株式公開"
+    ],
+    "confusableSpellings": [
+      "inflasion",
+      "infletion",
+      "inflacion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inflare（息を吹き込む）から。in-（中に）＋ flare（吹く）。「通貨を膨らませる」イメージから経済用語として定着。",
+      "tips": "日本語で「インフレ」と略すが、英語では inflation をフルで使うのが基本。deflation（デフレ）と対で覚えよう。rate of inflation または inflation rate の形でよく使われる。",
+      "confusables": "deflation（物価下落）と混同しないよう注意。また stagflation は stagnation（停滞）＋ inflation の合成語で、景気後退と物価上昇が同時に起こる状態を指す。",
+      "collocations": [
+        "rate of inflation",
+        "combat inflation",
+        "inflation target"
+      ],
+      "trivia": "1920年代のドイツ・ワイマール共和国では超インフレが起き、パン1斤が数兆マルクになったとされる。現金を手押し車で運ぶ写真は歴史的に有名。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1545,
+    "word": "sweatshop",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "搾取工場（低賃金・劣悪環境の工場）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈswetʃɒp/",
+    "syllables": "sweat-shop",
+    "audioHint": "スウェットショップ",
+    "examples": [
+      {
+        "en": "Many clothing brands have been criticized for using sweatshops.",
+        "ja": "多くのアパレルブランドが搾取工場を利用していると批判されてきた。",
+        "blank": "Many clothing brands have been criticized for using ___s.",
+        "blankAnswer": "sweatshops"
+      }
+    ],
+    "distractors": [
+      "取引所",
+      "倉庫業者",
+      "フランチャイズ店"
+    ],
+    "confusableSpellings": [
+      "sweatshop",
+      "swetshop",
+      "sweatshoop"
+    ],
+    "passive": {
+      "etymology": "sweat（汗をかく・搾取する）＋ shop（作業場）の合成語。19世紀の産業革命期に労働者が汗水垂らして酷使された作業場を指した。",
+      "tips": "sweat には「搾取する」という動詞的意味がある。sweat labor（搾取労働）という表現も関連する。倫理的消費（ethical consumption）の文脈で頻出単語。",
+      "confusables": "factory（工場）は中立的な語だが、sweatshop は劣悪な労働環境と低賃金という否定的ニュアンスが強い。",
+      "collocations": [
+        "sweatshop labor",
+        "sweatshop conditions",
+        "anti-sweatshop campaign"
+      ],
+      "trivia": "ファストファッションブランドのサプライチェーン問題として頻繁に話題になる。2013年のバングラデシュ・ラナプラザビル崩壊事故（1,100人以上死亡）はsweatshop問題を世界に知らしめた。"
+    },
+    "frequency": 8500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1546,
+    "word": "clash",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "衝突する、対立する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "衝突、争い",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/klæʃ/",
+    "syllables": "clash",
+    "audioHint": "クラッシュ",
+    "examples": [
+      {
+        "en": "The two leaders clashed over economic policy.",
+        "ja": "2人の指導者は経済政策をめぐって対立した。",
+        "blank": "The two leaders ___ over economic policy.",
+        "blankAnswer": "clashed"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "交渉する",
+      "妥協する"
+    ],
+    "confusableSpellings": [
+      "clush",
+      "clahs",
+      "clahsh"
+    ],
+    "passive": {
+      "etymology": "擬音語起源で、金属がぶつかり合う「ガシャン」という音を表す。16世紀頃から英語に登場し、物理的衝突から意見・利害の衝突へと意味が拡張した。",
+      "tips": "物理的な衝突だけでなく「意見・日程・色の組み合わせが合わない」場面にも使える。例：These colors clash.（この色の組み合わせは合わない）。over や with を使って対立の原因・相手を示す。",
+      "confusables": "crash は主に事故や大きな物理的衝突を指し、clash は対立・摩擦のニュアンスが強い。conflict は名詞・動詞両用でより正式な語。",
+      "collocations": [
+        "clash with",
+        "clash over",
+        "violent clash"
+      ],
+      "trivia": "伝説のパンクバンド「The Clash」はまさにこの「対立・反抗」の意味を名前に込めていた。バンド名がそのまま社会への反骨を表すセンスが格好いい。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1547,
+    "word": "sociology",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "社会学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌsoʊsiˈɒlədʒi/",
+    "syllables": "so-ci-ol-o-gy",
+    "audioHint": "ソウシオロジー",
+    "examples": [
+      {
+        "en": "She decided to major in sociology at university.",
+        "ja": "彼女は大学で社会学を専攻することにした。",
+        "blank": "She decided to major in ___ at university.",
+        "blankAnswer": "sociology"
+      }
+    ],
+    "distractors": [
+      "心理学",
+      "人類学",
+      "政治学"
+    ],
+    "confusableSpellings": [
+      "sociollogy",
+      "sociolgy",
+      "sociologhy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 socius（仲間・社会）＋ ギリシャ語 -logia（学問・論）の合成語。19世紀にオーギュスト・コントが社会を科学的に研究する学問として命名した。",
+      "tips": "-ology（〜学）の形は他にも biology、psychology など多数ある。sociology は「社会の仕組みや人間関係を研究する学問」と覚えると応用が効く。",
+      "confusables": "psychology（心理学）は個人の心の働きを扱い、sociology（社会学）は集団・社会構造を扱う点が異なる。social science（社会科学）はより広い概念。",
+      "collocations": [
+        "study sociology",
+        "sociology department",
+        "applied sociology"
+      ],
+      "trivia": "「社会学の父」コントは「社会も物理現象と同じく法則で説明できる」と考えた。社会をまるで物理の問題のように解こうとしたのがユニークな発想。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1548,
+    "word": "ideology",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "イデオロギー、思想体系",
+        "pos": "noun"
+      },
+      {
+        "meaning": "信条、観念形態",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌaɪdiˈɒlədʒi/",
+    "syllables": "i-de-ol-o-gy",
+    "audioHint": "アイディオロジー",
+    "examples": [
+      {
+        "en": "The party's ideology is based on individual freedom.",
+        "ja": "その党のイデオロギーは個人の自由に基づいている。",
+        "blank": "The party's ___ is based on individual freedom.",
+        "blankAnswer": "ideology"
+      }
+    ],
+    "distractors": [
+      "法律制度",
+      "選挙制度",
+      "行政機構"
+    ],
+    "confusableSpellings": [
+      "ideaology",
+      "idiology",
+      "ideollogy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 idea（形・概念）＋ -logia（学問・論）。フランスの哲学者デストゥット・ド・トラシーが18世紀末に「観念の科学」として造語した。",
+      "tips": "「イデオロギー」はカタカナで日本語にもなっているが、英語では /ˌaɪdiˈɒlədʒi/ と「アイ」で始まる発音に注意。形容詞形は ideological。",
+      "confusables": "philosophy（哲学）は広い知的探求を指すが、ideology は特定の政治的・社会的信念の体系を指す。dogma はさらに硬直した教義的信念を指す。",
+      "collocations": [
+        "political ideology",
+        "dominant ideology",
+        "ideology clash"
+      ],
+      "trivia": "もともとは中立的な「観念学」という意味だったが、ナポレオンが自分への批判者を「イデオローグ（空論家）」と呼んで以来、否定的なニュアンスも帯びるようになった。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1549,
+    "word": "margin",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "利益幅、マージン",
+        "pos": "noun"
+      },
+      {
+        "meaning": "余白、余裕",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɑːrdʒɪn/",
+    "syllables": "mar-gin",
+    "audioHint": "マージン",
+    "examples": [
+      {
+        "en": "The company improved its profit margin last quarter.",
+        "ja": "その会社は前四半期に利益幅を改善した。",
+        "blank": "The company improved its profit ___ last quarter.",
+        "blankAnswer": "margin"
+      }
+    ],
+    "distractors": [
+      "元手、資本金",
+      "負債総額",
+      "市場占有率"
+    ],
+    "confusableSpellings": [
+      "margine",
+      "margen",
+      "marginn"
+    ],
+    "passive": {
+      "etymology": "ラテン語 margo（縁・端）から。ページの「端の余白」が原義で、そこから「限界・余裕」、さらに「利益の幅」というビジネス的意味が広がった。",
+      "tips": "profit margin（利益率）、margin of error（誤差の範囲）、win by a narrow margin（僅差で勝つ）など使い方が多岐にわたる多義語。文脈で意味を判断すること。",
+      "confusables": "profit（利益の総額）と profit margin（利益の割合・幅）は異なる。margin は「比率・差」の概念なのでパーセントで表されることが多い。",
+      "collocations": [
+        "profit margin",
+        "narrow margin",
+        "margin of error"
+      ],
+      "trivia": "「margin」はノートの余白のことでもある。学生がノートの余白に書き込むメモを「marginalia（傍注）」という。中世の写本に修道士が書いたユーモラスな落書きが有名。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1550,
+    "word": "realm",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "領域、分野",
+        "pos": "noun"
+      },
+      {
+        "meaning": "王国、領土",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/relm/",
+    "syllables": "realm",
+    "audioHint": "レルム",
+    "examples": [
+      {
+        "en": "This discovery opened a new realm of scientific research.",
+        "ja": "この発見は科学研究の新たな領域を開いた。",
+        "blank": "This discovery opened a new ___ of scientific research.",
+        "blankAnswer": "realm"
+      }
+    ],
+    "distractors": [
+      "概念の定義",
+      "精神的境地",
+      "抽象的原理"
+    ],
+    "confusableSpellings": [
+      "relm",
+      "reelm",
+      "realme"
+    ],
+    "passive": {
+      "etymology": "古フランス語 reialme（王国）から。ラテン語 regalis（王の）が語源。中世英語では物理的な「王国」を指したが、のちに抽象的な「領域・分野」の意味へ拡大した。",
+      "tips": "「l」が発音されない（/relm/）点に注意。calm や palm と同様、綴りに l があっても読まないケースの一つ。「the realm of possibility（可能性の領域）」のように抽象名詞と組み合わせて使われることが多い。",
+      "confusables": "domain も「領域・分野」を意味するが、realm はやや文学的・格調高い響きがある。field は学術・職業分野に使い、より日常的。",
+      "collocations": [
+        "realm of possibility",
+        "the realm of science",
+        "enter a new realm"
+      ],
+      "trivia": "RPGゲームでは「realm（レルム）」がよく登場するが、これは中世ヨーロッパの「王国」イメージから。「World of Warcraft」などMMOでも世界を分けるサーバー単位に使われる。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1551,
+    "word": "domain",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "領域、分野",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ドメイン（インターネット）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/doʊˈmeɪn/",
+    "syllables": "do-main",
+    "audioHint": "ドゥメイン",
+    "examples": [
+      {
+        "en": "Artificial intelligence is her domain of expertise.",
+        "ja": "人工知能は彼女の専門分野だ。",
+        "blank": "Artificial intelligence is her ___ of expertise.",
+        "blankAnswer": "domain"
+      }
+    ],
+    "distractors": [
+      "絶望",
+      "意識",
+      "自由意志"
+    ],
+    "confusableSpellings": [
+      "domaine",
+      "domian",
+      "domayn"
+    ],
+    "passive": {
+      "etymology": "ラテン語 dominium（所有権、支配）から。語根 domin-（主人・支配）は dominant や dominate と共通。",
+      "tips": "「ドメイン」はカタカナ語として定着しているが、英語では「専門領域」という抽象的な意味でもよく使う。in the domain of science のように使うことが多い。",
+      "confusables": "field や area も「分野」だが、domain はより専門的・学術的なニュアンスが強い。realm は比喩的・詩的な響きがある。",
+      "collocations": [
+        "domain of knowledge",
+        "public domain",
+        "domain name"
+      ],
+      "trivia": "「パブリックドメイン」は著作権が切れた作品のことで、モーツァルトの楽曲やシェイクスピアの戯曲はすべてパブリックドメイン。誰でも自由に使える「知識の共有地」だ。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1552,
+    "word": "algorithm",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "アルゴリズム、計算手順",
+        "pos": "noun"
+      },
+      {
+        "meaning": "問題解決の手順",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈælɡərɪðəm/",
+    "syllables": "al-go-rithm",
+    "audioHint": "アルゴリズム",
+    "examples": [
+      {
+        "en": "The search engine uses a complex algorithm to rank results.",
+        "ja": "その検索エンジンは複雑なアルゴリズムを使って結果を順位付けする。",
+        "blank": "The search engine uses a complex ___ to rank results.",
+        "blankAnswer": "algorithm"
+      }
+    ],
+    "distractors": [
+      "データベース",
+      "ネットワーク接続",
+      "ソフトウェアの不具合"
+    ],
+    "confusableSpellings": [
+      "algorythm",
+      "algorithem",
+      "alghorithm"
+    ],
+    "passive": {
+      "etymology": "9世紀のペルシャ人数学者 al-Khwārizmī（アル＝フワーリズミー）の名前がラテン語化されたもの。彼の著書が「代数学」をヨーロッパに伝えた。",
+      "tips": "日本語でも「アルゴリズム」と言うが、英語の発音は「アルゴリ**ズ**ム」ではなく「アルゴリ**ð**m」と語尾が異なる。th の有声音に注意。",
+      "confusables": "formula は数学的な公式・式そのものを指し、algorithm は処理の「手順・ステップ」を指す点で異なる。",
+      "collocations": [
+        "sorting algorithm",
+        "machine learning algorithm",
+        "run an algorithm"
+      ],
+      "trivia": "SNSの「アルゴリズム」が話題になるが、この言葉は1200年前のペルシャ人数学者の名前が語源。TikTokがあなたに動画をすすめる仕組みも、彼の名前を受け継いでいる。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1553,
+    "word": "prairie",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "大草原、プレーリー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "平原",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɛri/",
+    "syllables": "prai-rie",
+    "audioHint": "プレアリ",
+    "examples": [
+      {
+        "en": "Bison once roamed the vast prairies of North America.",
+        "ja": "かつてバイソンが北アメリカの広大な大草原を歩き回っていた。",
+        "blank": "Bison once roamed the vast ___ of North America.",
+        "blankAnswer": "prairies"
+      }
+    ],
+    "distractors": [
+      "山脈",
+      "河川デルタ",
+      "珊瑚礁"
+    ],
+    "confusableSpellings": [
+      "prarie",
+      "prairy",
+      "preirie"
+    ],
+    "passive": {
+      "etymology": "フランス語 prairie（牧草地）から。ラテン語 pratum（草地）が語根。北米の大平原地帯を指す地理用語として定着した。",
+      "tips": "prairie は主に北アメリカ（特に米国中部・カナダ）の広大な草原を指す。イギリス英語では grassland や plain の方が一般的。",
+      "confusables": "savanna は熱帯・亜熱帯の草原（アフリカなど）、steppe は中央アジアの草原、prairie は温帯の北米草原を指す。地域によって使い分ける。",
+      "collocations": [
+        "prairie dog",
+        "prairie wind",
+        "open prairie"
+      ],
+      "trivia": "「プレーリードッグ」はリスの仲間で、イヌとは無関係。でも「ワン」と鳴く声がイヌに似ているから dog と名付けられた。草原の地下に複雑なトンネル都市を作る「プレーリーの建築家」だ。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1554,
+    "word": "frontier",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "辺境、フロンティア",
+        "pos": "noun"
+      },
+      {
+        "meaning": "最前線、未開拓分野",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/frʌnˈtɪər/",
+    "syllables": "fron-tier",
+    "audioHint": "フランティア",
+    "examples": [
+      {
+        "en": "Space is often called the final frontier of human exploration.",
+        "ja": "宇宙はよく人類探査の最後のフロンティアと呼ばれる。",
+        "blank": "Space is often called the final ___ of human exploration.",
+        "blankAnswer": "frontier"
+      }
+    ],
+    "distractors": [
+      "海底地形",
+      "砂漠の砂丘",
+      "熱帯雨林"
+    ],
+    "confusableSpellings": [
+      "fronteer",
+      "fronteir",
+      "frountier"
+    ],
+    "passive": {
+      "etymology": "古フランス語 frontiere から。front（正面、前線）＋ -ière（場所を示す接尾辞）。front はラテン語 frons（額、前面）が語源。",
+      "tips": "frontier は地理的な「国境・辺境」だけでなく、「科学の最前線」や「未開拓の分野」という比喩的意味でも頻繁に使われる。the frontier of medicine のように使える。",
+      "confusables": "border は国境線そのもの（具体的な線）、frontier は辺境地帯（面的な広がり）を指すことが多い。",
+      "collocations": [
+        "frontier spirit",
+        "new frontier",
+        "scientific frontier"
+      ],
+      "trivia": "アメリカの「フロンティア精神」は西部開拓時代の象徴。NASAが宇宙を「the final frontier」と呼んだのもその延長線上にある。スタートレックのオープニングで有名になったフレーズだ。"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1555,
+    "word": "bullet",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "弾丸、銃弾",
+        "pos": "noun"
+      },
+      {
+        "meaning": "箇条書きの点（・）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈbʊlɪt/",
+    "syllables": "bul-let",
+    "audioHint": "ブリット",
+    "examples": [
+      {
+        "en": "The police found a bullet at the crime scene.",
+        "ja": "警察は犯罪現場で弾丸を発見した。",
+        "blank": "The police found a ___ at the crime scene.",
+        "blankAnswer": "bullet"
+      }
+    ],
+    "distractors": [
+      "法律の条文",
+      "選挙の投票用紙",
+      "政治的な宣言"
+    ],
+    "confusableSpellings": [
+      "bullit",
+      "bullет",
+      "bullett"
+    ],
+    "passive": {
+      "etymology": "フランス語 boulette（小さなボール）から。boule（ボール）の縮小形。もともと鉛の小さな球体を指していた。",
+      "tips": "bullet point（箇条書きの●）という意味もビジネス文書でよく使われる。また bite the bullet（苦境を耐え忍ぶ）という慣用句も重要。",
+      "confusables": "bullet は銃から発射される弾（発射体）そのもの、shell は弾殻（薬莢）、cartridge は弾薬全体（薬莢＋火薬＋弾頭）を指す。",
+      "collocations": [
+        "bullet point",
+        "bullet train",
+        "bite the bullet"
+      ],
+      "trivia": "日本の「新幹線」は英語で bullet train（弾丸列車）と呼ばれる。1964年の東京五輪に合わせて開業した新幹線のスピードが「弾丸のよう」と世界を驚かせたから。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1556,
+    "word": "shield",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "盾、防護物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "守る、保護する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʃiːld/",
+    "syllables": "shield",
+    "audioHint": "シールド",
+    "examples": [
+      {
+        "en": "The knight raised his shield to block the sword.",
+        "ja": "騎士は剣をふせぐために盾を持ち上げた。",
+        "blank": "The knight raised his ___ to block the sword.",
+        "blankAnswer": "shield"
+      }
+    ],
+    "distractors": [
+      "武器の製造",
+      "裁判の判決",
+      "法律の施行"
+    ],
+    "confusableSpellings": [
+      "sheild",
+      "shild",
+      "shieldd"
+    ],
+    "passive": {
+      "etymology": "古英語 scield から。ゲルマン語派共通の語で、「守るもの」を意味する。現代ドイツ語の Schild（看板・盾）と同じ語源。",
+      "tips": "スペルミスが非常に多い単語。「i before e except after c」の例外ではなく、sh-ie-ld の順番。sheild と書いてしまう人が多い。",
+      "confusables": "shield は物理的な盾・保護物、protect は動詞として広く使われ、guard は見張りながら守るニュアンスがある。",
+      "collocations": [
+        "heat shield",
+        "shield from harm",
+        "human shield"
+      ],
+      "trivia": "マーベルの「S.H.I.E.L.D.」は「Strategic Homeland Intervention, Enforcement and Logistics Division」の頭字語。盾の形のロゴはアメコミの伝統的な「盾＝正義の守り手」イメージを受け継いでいる。"
+    },
+    "frequency": 3300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1557,
+    "word": "despair",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "絶望",
+        "pos": "noun"
+      },
+      {
+        "meaning": "絶望する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈspɛər/",
+    "syllables": "de-spair",
+    "audioHint": "ディスペア",
+    "examples": [
+      {
+        "en": "She felt deep despair after losing her job.",
+        "ja": "彼女は仕事を失ったあと深い絶望を感じた。",
+        "blank": "She felt deep ___ after losing her job.",
+        "blankAnswer": "despair"
+      }
+    ],
+    "distractors": [
+      "論理的思考",
+      "意識の流れ",
+      "本質的な自由"
+    ],
+    "confusableSpellings": [
+      "despare",
+      "dispair",
+      "despiar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 desperare（希望を失う）から。de-（否定・分離）＋ sperare（希望する）。spes（希望）が語根で、hope の対義語として作られた語。",
+      "tips": "despair は名詞・動詞の両方で使える。名詞は in despair（絶望して）、動詞は despair of（〜に絶望する）の形が頻出。despair at も使う。",
+      "confusables": "despair は希望が完全に失われた状態、disappointment は期待が外れた失望感、grief は喪失による深い悲しみ。強度は despair > grief > disappointment の順に異なる。",
+      "collocations": [
+        "in despair",
+        "despair of",
+        "fall into despair"
+      ],
+      "trivia": "「絶望」を表す despair の語根 spes（希望）は、英語の desperate（必死な）にも残っている。つまり desperate は「希望が de（消えた）状態」→「必死・絶望的」という意味の変化をたどった言葉だ。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1558,
+    "word": "radiation",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "放射線、放射能",
+        "pos": "noun"
+      },
+      {
+        "meaning": "放射、輻射",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌreɪdiˈeɪʃən/",
+    "syllables": "ra-di-a-tion",
+    "audioHint": "レイディエイション",
+    "examples": [
+      {
+        "en": "Exposure to high levels of radiation can damage human cells.",
+        "ja": "高レベルの放射線への被曝は人体の細胞を損傷する可能性がある。",
+        "blank": "Exposure to high levels of ___ can damage human cells.",
+        "blankAnswer": "radiation"
+      }
+    ],
+    "distractors": [
+      "細菌による感染",
+      "化学物質の合成",
+      "遺伝子の突然変異"
+    ],
+    "confusableSpellings": [
+      "radietion",
+      "radiaton",
+      "readiation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 radiatio（光を発すること）から。radius（光線・半径）＋ -ation（名詞化接尾辞）。radius は「車輪のスポーク」が原義で、中心から広がるイメージ。",
+      "tips": "radiation は「放射線」（nuclear radiation）だけでなく、「熱放射」（thermal radiation）や「光の放射」など物理学的に広く使う。radioactive は形容詞（放射性の）で混同しないこと。",
+      "confusables": "radiation は放射（エネルギーが波として広がる現象全般）、radioactivity は原子核が崩壊して放射線を出す性質（物質の特性）。",
+      "collocations": [
+        "radiation therapy",
+        "radiation exposure",
+        "solar radiation"
+      ],
+      "trivia": "太陽の光も電子レンジも、実は同じ「電磁放射線」の仲間。電磁スペクトルのどの周波数かが違うだけ。体が「電子レンジで温まる」のも、ある意味正しい物理現象だ。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1559,
+    "word": "placebo",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "プラセボ、偽薬",
+        "pos": "noun"
+      },
+      {
+        "meaning": "気休め",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pləˈsiːboʊ/",
+    "syllables": "pla-ce-bo",
+    "audioHint": "プラシーボウ",
+    "examples": [
+      {
+        "en": "Half of the patients received the drug and half received a placebo.",
+        "ja": "患者の半数は薬を投与され、残りの半数はプラセボを投与された。",
+        "blank": "Half of the patients received the drug and half received a ___.",
+        "blankAnswer": "placebo"
+      }
+    ],
+    "distractors": [
+      "外科的手術の処置",
+      "ウイルスへの抗体",
+      "免疫反応の抑制"
+    ],
+    "confusableSpellings": [
+      "plecebo",
+      "plascebo",
+      "placibo"
+    ],
+    "passive": {
+      "etymology": "ラテン語 placebo（「私は喜ばせるだろう」一人称未来形）から。動詞 placere（喜ばせる）が語源。中世の聖歌「主よ、私はあなたを喜ばせよう」の出だしの語として使われた。",
+      "tips": "発音は「プラ**シー**ボ」ではなく「プラ**スィー**ボウ」に近い。日本語の「プラシーボ効果」は placebo effect と言う。形容詞的に placebo-controlled trial（プラセボ対照試験）とも使う。",
+      "confusables": "placebo は有効成分を含まない偽薬、nocebo は逆に「偽薬なのに副作用が出る」現象。nocebo はラテン語で「私は害を与えるだろう」を意味する。",
+      "collocations": [
+        "placebo effect",
+        "placebo-controlled",
+        "give a placebo"
+      ],
+      "trivia": "プラセボ（偽薬）なのに本当に痛みが和らぐ「プラセボ効果」は、脳が実際にエンドルフィン（天然の鎮痛物質）を分泌させるせい。「思い込みで治る」のは、ある意味「脳が本物の薬を作り出す」ことでもある。"
+    },
+    "frequency": 6500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1560,
+    "word": "nursery",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "保育室、育児室",
+        "pos": "noun"
+      },
+      {
+        "meaning": "苗床、植物の苗圃",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnɜːrsəri/",
+    "syllables": "nur-se-ry",
+    "audioHint": "ナースリ",
+    "examples": [
+      {
+        "en": "They painted the nursery yellow before the baby arrived.",
+        "ja": "赤ちゃんが生まれる前に、彼らは育児室を黄色に塗った。",
+        "blank": "They painted the ___ yellow before the baby arrived.",
+        "blankAnswer": "nursery"
+      }
+    ],
+    "distractors": [
+      "台所の調理器具",
+      "居間のソファ配置",
+      "食料品の買い物リスト"
+    ],
+    "confusableSpellings": [
+      "nursary",
+      "nursey",
+      "nurssery"
+    ],
+    "passive": {
+      "etymology": "中英語 norice（乳母）から発展。ラテン語 nutrire（育てる・養う）が語根で、nutrition（栄養）や nurture（養育する）と同語源。",
+      "tips": "nursery には「育児室」と「植物の苗床・園芸店」の2つの全く異なる意味がある。nursery school は「保育園・幼稚園」。文脈で意味を判断することが重要。",
+      "confusables": "nursery は部屋・施設を指す名詞、nurse は動詞で「授乳する・看護する」も意味する。nursery rhyme は「わらべ歌・マザーグース」の意味で文学的にも重要。",
+      "collocations": [
+        "nursery rhyme",
+        "nursery school",
+        "plant nursery"
+      ],
+      "trivia": "「マザーグース」は英語で nursery rhymes と呼ばれる。「humpty dumpty」や「jack and jill」など、一見楽しい子守唄が実は政治的風刺だったという説が多数ある。子ども向けの歌が大人の隠語だったとは驚きだ。"
+    },
+    "frequency": 4700,
+    "cefr": "B1"
+  }
+]

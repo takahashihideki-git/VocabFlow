@@ -1,0 +1,998 @@
+[
+  {
+    "id": 1341,
+    "word": "quest",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "探求、追求",
+        "pos": "noun"
+      },
+      {
+        "meaning": "冒険の旅",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kwɛst/",
+    "syllables": "quest",
+    "audioHint": "クウェスト",
+    "examples": [
+      {
+        "en": "She dedicated her life to the quest for truth.",
+        "ja": "彼女は真実の探求に人生を捧げた。",
+        "blank": "She dedicated her life to the ___ for truth.",
+        "blankAnswer": "quest"
+      }
+    ],
+    "distractors": [
+      "創造的な表現",
+      "芸術的な技法",
+      "文化的な遺産"
+    ],
+    "confusableSpellings": [
+      "quests",
+      "qwest",
+      "cuest"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'quaerere'（求める）の過去分詞 'quaesita' が語源。フランス語 'quête' を経て英語へ。'question'（質問）や 'acquire'（獲得する）とも同じ語根を持つ。",
+      "tips": "名詞としても動詞（quest for～）としても使える。日本語の「クエスト」はゲーム用語として定着しているが、英語では文学的・哲学的な「探求の旅」というニュアンスが強い。",
+      "confusables": "'search' は具体的な物を「探す」行為、'quest' は目標に向かう精神的・物語的な「探求」のニュアンス。より壮大で崇高な響きがある。",
+      "collocations": [
+        "quest for knowledge",
+        "on a quest",
+        "quest for truth"
+      ],
+      "trivia": "中世の騎士物語（アーサー王伝説など）で「聖杯探求」を 'quest for the Holy Grail' と言う。今でも「ほぼ不可能な目標への挑戦」を比喩的に 'Holy Grail quest' と表現するよ！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1342,
+    "word": "dignity",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "尊厳、品格",
+        "pos": "noun"
+      },
+      {
+        "meaning": "威厳",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɪɡnɪti/",
+    "syllables": "dig-ni-ty",
+    "audioHint": "ディグニティ",
+    "examples": [
+      {
+        "en": "Every person deserves to be treated with dignity.",
+        "ja": "すべての人は尊厳をもって扱われるべきだ。",
+        "blank": "Every person deserves to be treated with ___.",
+        "blankAnswer": "dignity"
+      }
+    ],
+    "distractors": [
+      "逆説的な考え方",
+      "抽象的な理念",
+      "哲学的な矛盾"
+    ],
+    "confusableSpellings": [
+      "dignety",
+      "diginity",
+      "dignaty"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'dignus'（価値のある、ふさわしい）が語源。'-ity' は名詞を作る接尾辞。'dignify'（格上げする）、'dignitary'（高官）も同じ語根。",
+      "tips": "'dignity' は不可算名詞として使うことが多い（×a dignity とはあまり言わない）。'with dignity'（威厳をもって）というフレーズで頻出。'self-dignity' は和製英語なので注意！",
+      "confusables": "'pride' は自己の誇りや自尊心、'dignity' は他者からも認められる品格や尊厳を指す。'dignity' の方がより客観的・社会的なニュアンスがある。",
+      "collocations": [
+        "human dignity",
+        "with dignity",
+        "sense of dignity"
+      ],
+      "trivia": "国連の世界人権宣言の第1条は「すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である」で始まる。この 'dignity' が全人権思想の根幹にあるんだ！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1343,
+    "word": "criterion",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "基準、判断基準",
+        "pos": "noun"
+      },
+      {
+        "meaning": "条件",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kraɪˈtɪərɪən/",
+    "syllables": "cri-te-ri-on",
+    "audioHint": "クライティアリアン",
+    "examples": [
+      {
+        "en": "What is the main criterion for selecting candidates?",
+        "ja": "候補者を選ぶ主な基準は何ですか？",
+        "blank": "What is the main ___ for selecting candidates?",
+        "blankAnswer": "criterion"
+      }
+    ],
+    "distractors": [
+      "研究の仮説",
+      "教育的な手法",
+      "知識の体系"
+    ],
+    "confusableSpellings": [
+      "critirion",
+      "critereon",
+      "critrion"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'kriterion'（判断の手段）が語源。'krinein'（判断する・分ける）から来ており、'critic'（批評家）や 'critical'（重要な）とも同じ語根を持つ。",
+      "tips": "最重要ポイントは複数形！'criterion' の複数形は 'criteria'（クライティアリア）。「複数の基準」を言うとき 'criterias' と言うのは完全な誤り。試験でよく問われる。",
+      "confusables": "'standard' は広く通用する「標準・水準」、'criterion' は特定の判断や評価のための「基準」。'criteria' は複数形なので 'these criteria are...' と動詞も複数形にすること。",
+      "collocations": [
+        "meet the criterion",
+        "selection criterion",
+        "evaluation criteria"
+      ],
+      "trivia": "映画の世界で 'Criterion Collection' というブランドがある。名作・芸術映画を厳選してリリースすることで知られ、まさに「高い基準」でキュレーションした映画コレクションなんだ！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1344,
+    "word": "paradox",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "逆説、パラドックス",
+        "pos": "noun"
+      },
+      {
+        "meaning": "矛盾した事実",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpærədɒks/",
+    "syllables": "par-a-dox",
+    "audioHint": "パラドックス",
+    "examples": [
+      {
+        "en": "It's a paradox that the more choices we have, the less happy we feel.",
+        "ja": "選択肢が多いほど幸福感が減るというのは逆説だ。",
+        "blank": "It's a ___ that the more choices we have, the less happy we feel.",
+        "blankAnswer": "paradox"
+      }
+    ],
+    "distractors": [
+      "哲学的な真理",
+      "道徳的な価値観",
+      "精神的な探求"
+    ],
+    "confusableSpellings": [
+      "paradocks",
+      "paradox's",
+      "paradocs"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'paradoxon' が語源。'para-'（〜に反して）＋ 'doxa'（意見・通説）で「通説に反するもの」。'orthodox'（正統派）の 'doxa' と同じ語根。",
+      "tips": "日本語でも「パラドックス」として定着しているが、形容詞形 'paradoxical'（逆説的な）も重要。'It is paradoxical that...'（〜というのは逆説的だ）という構文を覚えると表現の幅が広がる。",
+      "confusables": "'contradiction' は単純な「矛盾」（AとBが両立しない）、'paradox' は「一見矛盾するが実は深い真実を含む」という高度なニュアンス。哲学・論理学ではきっちり区別される。",
+      "collocations": [
+        "a paradox that",
+        "apparent paradox",
+        "resolve a paradox"
+      ],
+      "trivia": "「嘘つきのパラドックス」は哲学史上最古のパラドックスの一つ。「私はいつも嘘をつく」と言う人の言葉が本当なら嘘をついていることになる——これを古代ギリシャ人が真剣に悩んでいたというのがすごくない？"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1345,
+    "word": "parliament",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "議会、国会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（英国の）議会制度",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɑːrləmənt/",
+    "syllables": "par-lia-ment",
+    "audioHint": "パーリアメント",
+    "examples": [
+      {
+        "en": "The new bill was approved by parliament yesterday.",
+        "ja": "新しい法案は昨日議会で承認された。",
+        "blank": "The new bill was approved by ___ yesterday.",
+        "blankAnswer": "parliament"
+      }
+    ],
+    "distractors": [
+      "国家の予算計画",
+      "外交的な条約",
+      "市民の請願活動"
+    ],
+    "confusableSpellings": [
+      "parliment",
+      "parlamentt",
+      "parliamant"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'parlement'（話し合い）が語源。'parler'（話す）＋ '-ment'（名詞接尾辞）。「話し合う場所」という意味が語源で、'parlor'（応接室）も同じ語根。",
+      "tips": "イギリスでは固有名詞として 'Parliament'（大文字）と書くことが多い。また、日本語の「国会」は 'Diet'（ダイエット！）という特殊な単語を使うので、'parliament' とは区別して覚えよう。",
+      "confusables": "'congress' は主にアメリカの立法機関（上院＋下院）を指す。'parliament' は英国・カナダ・インドなど議会制民主主義の国々で使われる表現。",
+      "collocations": [
+        "member of parliament",
+        "dissolve parliament",
+        "in parliament"
+      ],
+      "trivia": "英国議会は世界最古の議会の一つで「議会制民主主義の母」とも呼ばれる。でも実は「議会 (parliament)」という言葉の語源が「おしゃべり (parler)」というのが何ともユーモラスだよね！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1346,
+    "word": "legislation",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "法律、法令",
+        "pos": "noun"
+      },
+      {
+        "meaning": "立法（行為）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌledʒɪsˈleɪʃən/",
+    "syllables": "leg-is-la-tion",
+    "audioHint": "レジスレイション",
+    "examples": [
+      {
+        "en": "New legislation on data privacy was introduced last month.",
+        "ja": "データプライバシーに関する新しい法律が先月導入された。",
+        "blank": "New ___ on data privacy was introduced last month.",
+        "blankAnswer": "legislation"
+      }
+    ],
+    "distractors": [
+      "政府の予算編成",
+      "外交交渉の合意",
+      "選挙の投票制度"
+    ],
+    "confusableSpellings": [
+      "legistation",
+      "legislaton",
+      "legistlation"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'lex / legis'（法）＋ 'latio'（提案・運搬、'ferre' の名詞形）が合わさったもの。'legal'（法的な）、'legitimate'（合法的な）も同じ 'lex' を語根に持つ。",
+      "tips": "'legislation' は不可算名詞として扱うことが多い（×a legislation とは言わない）。'a piece of legislation'（一つの法律）という表現を使う。'law' と置き換えられる場合もあるが、'legislation' はより正式・書き言葉的。",
+      "confusables": "'law' は一般的な「法律」、'legislation' は議会が制定する「成文法・立法」のプロセスも含む。'regulation' は法律よりも細かい「規制・規則」のニュアンス。",
+      "collocations": [
+        "introduce legislation",
+        "pass legislation",
+        "anti-discrimination legislation"
+      ],
+      "trivia": "'legislation' の語根 'lex' はSF映画の悪役「レックス・ルーサー (Lex Luthor)」の名前の由来でもある。「法」を意味する名前を持つ悪役——皮肉が効いてるよね！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1347,
+    "word": "agenda",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "議題、アジェンダ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（隠れた）意図・目的",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈdʒɛndə/",
+    "syllables": "a-gen-da",
+    "audioHint": "アジェンダ",
+    "examples": [
+      {
+        "en": "The first item on the agenda is the budget review.",
+        "ja": "議題の最初の項目は予算の見直しだ。",
+        "blank": "The first item on the ___ is the budget review.",
+        "blankAnswer": "agenda"
+      }
+    ],
+    "distractors": [
+      "法律の改正案",
+      "議会の投票結果",
+      "政府の財政政策"
+    ],
+    "confusableSpellings": [
+      "aganda",
+      "ajenda",
+      "agenда"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'agere'（行動する・行う）の動名詞 'agenda'（行われるべきこと）が語源。'agent'（代理人）、'act'（行動）も同じ語根。元々は複数形だが、現代英語では単数扱い。",
+      "tips": "会議の「議題リスト」という意味では 'on the agenda'（議題に上がっている）というフレーズが頻出。また「hidden agenda」（隠された意図）はネガティブな意味合いで使われることが多い。",
+      "confusables": "'schedule' は「スケジュール・予定表」で時間軸が中心、'agenda' は「議題・やるべきことのリスト」で内容が中心。ビジネス英語ではきちんと使い分けよう。",
+      "collocations": [
+        "set the agenda",
+        "on the agenda",
+        "hidden agenda"
+      ],
+      "trivia": "'agenda' はラテン語で「なされるべきこと」という意味の複数形だった。だから本来は複数形なのに、英語では単数名詞として定着しちゃった面白い単語。元の複数形の名残で今も 'agendum'（単数）という形があるけど、ほぼ誰も使わない！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1348,
+    "word": "mainstream",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "主流、大勢",
+        "pos": "noun"
+      },
+      {
+        "meaning": "主流の（形容詞用法）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmeɪnstriːm/",
+    "syllables": "main-stream",
+    "audioHint": "メインストリーム",
+    "examples": [
+      {
+        "en": "Her music has now entered the mainstream.",
+        "ja": "彼女の音楽は今や主流になった。",
+        "blank": "Her music has now entered the ___.",
+        "blankAnswer": "mainstream"
+      }
+    ],
+    "distractors": [
+      "日常的な習慣",
+      "地域の伝統行事",
+      "生活用品の流行"
+    ],
+    "confusableSpellings": [
+      "mainstrem",
+      "mainstreem",
+      "mainestream"
+    ],
+    "passive": {
+      "etymology": "'main'（主要な）＋ 'stream'（流れ）の複合語。川の「本流」というイメージから「社会・文化の主流」という意味に転じた。'mainstream media'（主流メディア）のような使い方で定着。",
+      "tips": "名詞（the mainstream）としても形容詞（mainstream culture）としても使える便利な単語。'go mainstream'（主流になる）や 'enter the mainstream'（主流に入る）というフレーズも頻出。",
+      "confusables": "'popular' は「人気がある」という意味で評価が含まれるが、'mainstream' は「多数派・主流」という中立的な観察を表す。サブカルチャー好きが 'mainstream' を批判的に使うこともある。",
+      "collocations": [
+        "mainstream media",
+        "go mainstream",
+        "mainstream culture"
+      ],
+      "trivia": "SNS時代、かつてのサブカルが一夜にして 'mainstream' になることが珍しくなくなった。アニメやK-POPがその典型例。今や 'mainstream' と 'niche' の境界線が急速に溶けているよね！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1349,
+    "word": "troop",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "軍隊、部隊",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（人・動物の）群れ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/truːp/",
+    "syllables": "troop",
+    "audioHint": "トループ",
+    "examples": [
+      {
+        "en": "The government decided to withdraw troops from the region.",
+        "ja": "政府はその地域から軍隊を撤退させることを決定した。",
+        "blank": "The government decided to withdraw ___ from the region.",
+        "blankAnswer": "troops"
+      }
+    ],
+    "distractors": [
+      "外交交渉の代表団",
+      "政府の予算委員会",
+      "議会の政党グループ"
+    ],
+    "confusableSpellings": [
+      "troupe",
+      "troup",
+      "trops"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'troupe'（群れ・一団）が語源。ゲルマン語系の語根に由来し、もともとは「群れをなした人々」の意味。'troupe'（劇団）とも同じ語源を持つ。",
+      "tips": "「軍隊」の意味では通常複数形 'troops' で使う。'a troop of soldiers' は一隊、'troops' は軍隊全般を指す。また 'troop' はボーイスカウトの「隊」にも使う（a troop of scouts）。",
+      "confusables": "'troop'（軍隊・部隊）と 'troupe'（劇団・芸人一座）は発音が同じ同音異義語。スペルに注意！'troops'（軍隊）は複数形で使うが、'troupe' に複数形を使うと意味が変わる。",
+      "collocations": [
+        "deploy troops",
+        "withdraw troops",
+        "troop withdrawal"
+      ],
+      "trivia": "ボーイスカウトの小グループも 'troop' と呼ばれる。なのでアメリカでは「軍の部隊」も「スカウト隊」も同じ単語で表現される。文脈がないと意味がまったく変わるのが面白いよね！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1350,
+    "word": "epidemic",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "流行病、感染症の大流行",
+        "pos": "noun"
+      },
+      {
+        "meaning": "急激な広がり（比喩的に）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɛpɪˈdɛmɪk/",
+    "syllables": "ep-i-dem-ic",
+    "audioHint": "エピデミック",
+    "examples": [
+      {
+        "en": "Health officials are trying to stop the spread of the epidemic.",
+        "ja": "保健当局は感染症の拡大を食い止めようとしている。",
+        "blank": "Health officials are trying to stop the spread of the ___.",
+        "blankAnswer": "epidemic"
+      }
+    ],
+    "distractors": [
+      "慢性的な栄養不足",
+      "遺伝性の疾患",
+      "外科的な治療法"
+    ],
+    "confusableSpellings": [
+      "epidemik",
+      "epidimic",
+      "epidimic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'epi-'（〜の上に・広く）＋ 'demos'（人々・民衆）＋ '-ic'（形容詞接尾辞）が語源。「人々の間に広がる」という意味。'democracy'（民主主義）も 'demos' を語根に持つ。",
+      "tips": "'epidemic'（一地域での大流行）と 'pandemic'（全世界的な大流行）の違いを押さえよう。'pan-' は「すべての・全体の」という意味の接頭辞。COVID-19は 'pandemic' に分類された。",
+      "confusables": "'epidemic' は特定地域での感染症流行、'pandemic' は国境を超えた世界的流行、'endemic' は特定地域に常在する病気（マラリアなど）。'epi-' / 'pan-' / 'en-' の接頭辞の違いで覚えよう。",
+      "collocations": [
+        "flu epidemic",
+        "epidemic outbreak",
+        "control an epidemic"
+      ],
+      "trivia": "'epidemic' の語根 'demos'（民衆）は 'democracy'（民主主義＝民衆による支配）と同じ！つまり「疫病（epidemic）」と「民主主義（democracy）」は語源的に兄弟単語。言葉の歴史って深いよね！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1351,
+    "word": "outbreak",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "突発、勃発",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（病気の）流行",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaʊtbreɪk/",
+    "syllables": "out-break",
+    "audioHint": "アウトブレイク",
+    "examples": [
+      {
+        "en": "The outbreak of flu affected thousands of people this winter.",
+        "ja": "今冬、インフルエンザの流行が何千人もの人々に影響を与えた。",
+        "blank": "The ___ of flu affected thousands of people this winter.",
+        "blankAnswer": "outbreak"
+      }
+    ],
+    "distractors": [
+      "症状の緩和",
+      "ワクチン接種",
+      "遺伝子変異"
+    ],
+    "confusableSpellings": [
+      "outbrake",
+      "outbraek",
+      "outbrak"
+    ],
+    "passive": {
+      "etymology": "out-（外へ）+ break（破裂する）の合成語。「外へ破り出る」が原義で、抑えられていたものが一気に噴き出すイメージ。",
+      "tips": "outbreak は「発生・勃発」の名詞で動詞形はありません。「病気が流行した」と言いたいとき、動詞には break out を使い、名詞には outbreak を使うと覚えましょう。",
+      "confusables": "break out（動詞句）と混同しやすい。An outbreak occurred.（名詞）／ The disease broke out.（動詞句）と使い分ける。",
+      "collocations": [
+        "an outbreak of disease",
+        "a sudden outbreak",
+        "contain an outbreak"
+      ],
+      "trivia": "「アウトブレイク」は1995年のウイルスパニック映画のタイトルにもなり、英語圏でこの単語は「危機感」と直結するイメージを持たれています。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1352,
+    "word": "chaos",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "混乱、無秩序",
+        "pos": "noun"
+      },
+      {
+        "meaning": "混沌",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkeɪɒs/",
+    "syllables": "cha-os",
+    "audioHint": "ケイオス",
+    "examples": [
+      {
+        "en": "The sudden storm caused complete chaos on the roads.",
+        "ja": "突然の嵐が道路に完全な混乱をもたらした。",
+        "blank": "The sudden storm caused complete ___ on the roads.",
+        "blankAnswer": "chaos"
+      }
+    ],
+    "distractors": [
+      "深い悲しみ",
+      "固定した信念",
+      "道徳的な義務"
+    ],
+    "confusableSpellings": [
+      "kaos",
+      "cahos",
+      "chaoss"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 khaos（深淵、虚空）に由来。古代ギリシャ神話では宇宙誕生以前の「原初の虚空」を指した。",
+      "tips": "発音は「チャオス」ではなく「ケイオス」。日本語の「カオス」に引きずられてスペルを caos と書く人が多いので注意。形容詞は chaotic（ケイオティック）。",
+      "confusables": "disorder（組織的な乱れ）や confusion（思考の混乱）と比べ、chaos はより根本的・全面的な「無秩序」を表す。",
+      "collocations": [
+        "complete chaos",
+        "cause chaos",
+        "descend into chaos"
+      ],
+      "trivia": "数学の「カオス理論」も同じ単語が由来。バタフライエフェクトで有名なこの理論、実は「無秩序に見えるが法則がある」という逆説的な話です。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1353,
+    "word": "nightmare",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "悪夢",
+        "pos": "noun"
+      },
+      {
+        "meaning": "悪夢のような状況",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈnaɪtmeər/",
+    "syllables": "night-mare",
+    "audioHint": "ナイトメア",
+    "examples": [
+      {
+        "en": "Missing the last train was an absolute nightmare.",
+        "ja": "終電に乗り遅れるのは本当に最悪な体験だった。",
+        "blank": "Missing the last train was an absolute ___.",
+        "blankAnswer": "nightmare"
+      }
+    ],
+    "distractors": [
+      "深い瞑想状態",
+      "潜在意識の象徴",
+      "精神的な覚醒"
+    ],
+    "confusableSpellings": [
+      "nightmear",
+      "nightmar",
+      "nighmare"
+    ],
+    "passive": {
+      "etymology": "night（夜）+ mare（古英語で「悪霊」を意味する mære）の合成語。中世ヨーロッパでは夜に胸の上に乗る悪霊が悪夢を引き起こすと信じられていた。",
+      "tips": "口語では「最悪な状況」の比喩としてよく使われます。It was a nightmare. だけで「本当に大変だった」という強い不満・苦労を表せる便利な表現です。",
+      "confusables": "bad dream よりも nightmare のほうが恐怖感が強い。また dream は良い夢にも使えるが nightmare は必ず否定的な文脈で使う。",
+      "collocations": [
+        "have a nightmare",
+        "a living nightmare",
+        "turn into a nightmare"
+      ],
+      "trivia": "英語の mare（牝馬）とは別の語源なのに、現代英語では horse の雌を指す mare と同じ綴り。「夜の牝馬」と誤解されることも多い歴史ある誤解です。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1354,
+    "word": "horror",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "恐怖、戦慄",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ホラー（ジャンル）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhɒrər/",
+    "syllables": "hor-ror",
+    "audioHint": "ホラー",
+    "examples": [
+      {
+        "en": "She watched the horror film alone and couldn't sleep.",
+        "ja": "彼女はホラー映画を一人で見て眠れなくなった。",
+        "blank": "She watched the ___ film alone and couldn't sleep.",
+        "blankAnswer": "horror"
+      }
+    ],
+    "distractors": [
+      "芸術的な美しさ",
+      "舞台演出の技法",
+      "音楽の即興演奏"
+    ],
+    "confusableSpellings": [
+      "horor",
+      "horrор",
+      "horrer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 horror（身の毛のよだつこと）に由来し、horrēre（毛が逆立つ）が語根。毛が逆立つほどの恐怖が原義。",
+      "tips": "horror は「ホラー映画」の略称としても使われます（a horror movie / a horror film）。日本語の「ホラー」はほぼ映画ジャンルの意味で定着していますが、英語では純粋な「恐怖感」の意味も重要です。",
+      "confusables": "fear（漠然とした恐れ）、terror（圧倒的な恐怖）、horror（ぞっとする嫌悪感を伴う恐怖）と段階・ニュアンスが異なる。",
+      "collocations": [
+        "horror movie",
+        "in horror",
+        "to one's horror"
+      ],
+      "trivia": "「ホラー」というジャンル名は映画産業が20世紀初頭に定着させた表現。それ以前は「gothic fiction（ゴシック小説）」と呼ばれていました。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1355,
+    "word": "cluster",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "集団、群れ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（データの）クラスター",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈklʌstər/",
+    "syllables": "clus-ter",
+    "audioHint": "クラスター",
+    "examples": [
+      {
+        "en": "A cluster of stars was visible on the clear night.",
+        "ja": "晴れた夜、星の群れがはっきりと見えた。",
+        "blank": "A ___ of stars was visible on the clear night.",
+        "blankAnswer": "cluster"
+      }
+    ],
+    "distractors": [
+      "均等な間隔",
+      "直線的な配置",
+      "単独の存在"
+    ],
+    "confusableSpellings": [
+      "clustar",
+      "claster",
+      "clustter"
+    ],
+    "passive": {
+      "etymology": "古英語 clyster（房、束）に由来。ブドウの房のように物が密集して集まるイメージが原義。",
+      "tips": "cluster は名詞にも動詞にもなります。People clustered around the speaker.（人々が話者の周りに集まった）のように動詞としても使えます。また COVID-19 報道で「クラスター感染」として日本でも定着しました。",
+      "confusables": "group（意図的なまとまり）や bunch（口語的な集まり）と比べ、cluster は空間的に密集した自然なまとまりを指すことが多い。",
+      "collocations": [
+        "a cluster of houses",
+        "cluster around",
+        "galaxy cluster"
+      ],
+      "trivia": "コンピュータ分野では「クラスタリング（clustering）」として機械学習のデータ分類手法に使われており、ITエンジニアには馴染み深い単語です。"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1356,
+    "word": "pollen",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "花粉",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɒlən/",
+    "syllables": "pol-len",
+    "audioHint": "ポレン",
+    "examples": [
+      {
+        "en": "High pollen levels made her eyes itch all day.",
+        "ja": "花粉が多く、一日中目がかゆかった。",
+        "blank": "High ___ levels made her eyes itch all day.",
+        "blankAnswer": "pollen"
+      }
+    ],
+    "distractors": [
+      "土壌の栄養素",
+      "光合成の産物",
+      "根から吸収される水分"
+    ],
+    "confusableSpellings": [
+      "polan",
+      "pollin",
+      "polen"
+    ],
+    "passive": {
+      "etymology": "ラテン語 pollen（細かい粉、小麦粉）に由来。粉末状の細かい粒という意味が共通しています。",
+      "tips": "pollen は不可算名詞として扱うのが基本で、a pollen とは言いません。「花粉症」は hay fever または pollen allergy と表現します。",
+      "confusables": "spore（胞子）と混同されやすいが、pollen は種子植物（花を咲かせる植物）に限定される。spore はシダ類・コケ・菌類が使う繁殖粒子。",
+      "collocations": [
+        "pollen count",
+        "pollen allergy",
+        "pollen season"
+      ],
+      "trivia": "日本のスギ花粉症は英語で cedar pollen allergy と言い、日本特有の社会問題として海外でも注目されています。外国人が日本に来て初めて花粉症になるケースも多いとか。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1357,
+    "word": "hive",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "ミツバチの巣（箱）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "にぎやかな場所",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/haɪv/",
+    "syllables": "hive",
+    "audioHint": "ハイヴ",
+    "examples": [
+      {
+        "en": "The beekeeper carefully opened the hive to collect honey.",
+        "ja": "養蜂家は蜂蜜を採取するために慎重に巣箱を開けた。",
+        "blank": "The beekeeper carefully opened the ___ to collect honey.",
+        "blankAnswer": "hive"
+      }
+    ],
+    "distractors": [
+      "渡り鳥の群れ",
+      "植物の根の塊",
+      "川の支流"
+    ],
+    "confusableSpellings": [
+      "hyve",
+      "hiev",
+      "haive"
+    ],
+    "passive": {
+      "etymology": "古英語 hȳf（ミツバチの巣）に由来。北欧語や古低地ドイツ語の同族語と共通の起源を持つ。",
+      "tips": "hive は具体的な「巣箱」の他に、比喩的に「活気のある場所」も意味します（a hive of activity）。また「蕁麻疹（じんましん）」は hives（複数形）と表現します。",
+      "confusables": "nest（一般的な巣）と違い、hive は特にミツバチの人工的・自然的な巣を指す。ハチなら nest も使えるが、ミツバチの巣箱には hive が最適。",
+      "collocations": [
+        "a hive of activity",
+        "beehive",
+        "hive mind"
+      ],
+      "trivia": "「ハイブマインド（hive mind）」はミツバチの集合知から来た言葉で、SNSでの集合行動や AIの分散型思考を表す現代的キーワードとして広く使われています。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1358,
+    "word": "irrigation",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "灌漑（かんがい）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（医療）洗浄",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪrɪˈɡeɪʃən/",
+    "syllables": "ir-ri-ga-tion",
+    "audioHint": "イリゲイション",
+    "examples": [
+      {
+        "en": "The irrigation system helped farmers grow crops in the dry region.",
+        "ja": "灌漑システムのおかげで農家は乾燥地帯でも作物を育てられた。",
+        "blank": "The ___ system helped farmers grow crops in the dry region.",
+        "blankAnswer": "irrigation"
+      }
+    ],
+    "distractors": [
+      "土壌の侵食",
+      "森林の伐採",
+      "地盤の液状化"
+    ],
+    "confusableSpellings": [
+      "iragation",
+      "irrigasion",
+      "irrigaton"
+    ],
+    "passive": {
+      "etymology": "ラテン語 irrigare（水を注ぐ）＝ ir-（in- の変形：中に）+ rigare（水をかける）から。水を土地に引き込む行為が語源。",
+      "tips": "日本語の「灌漑」は日常会話ではほぼ使わない語ですが、irrigation は農業・環境ニュースで頻出です。発音のアクセントは3音節目（-ga-）に注意。",
+      "confusables": "drainage（排水）と対義語の関係にある。irrigation は「水を供給する」、drainage は「水を外へ出す」という逆の方向性を持つ。",
+      "collocations": [
+        "irrigation system",
+        "drip irrigation",
+        "irrigation canal"
+      ],
+      "trivia": "古代エジプトのナイル川灌漑農業は世界最古の大規模 irrigation の一つ。現代でも農業用水の使用は全世界の淡水消費量の約70%を占めています。"
+    },
+    "frequency": 4200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1359,
+    "word": "dose",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "（薬の）服用量、投与量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "一定量",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/doʊs/",
+    "syllables": "dose",
+    "audioHint": "ドウス",
+    "examples": [
+      {
+        "en": "The doctor prescribed a low dose of the medication.",
+        "ja": "医師はその薬の低用量を処方した。",
+        "blank": "The doctor prescribed a low ___ of the medication.",
+        "blankAnswer": "dose"
+      }
+    ],
+    "distractors": [
+      "手術の手順",
+      "感染経路",
+      "診断の基準"
+    ],
+    "confusableSpellings": [
+      "douse",
+      "doze",
+      "doss"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 dosis（与えること）→ ラテン語 dosis を経て英語へ。動詞 didōmi（与える）が語根で、「与えられた量」が原義。",
+      "tips": "dose と douse（水をかける）・doze（うとうとする）は発音が似ていて混同しやすい。「薬の量」は必ず dose。また「過剰摂取」は overdose（OD）と言います。",
+      "confusables": "dosage は「推奨される投与量・投与計画」という医療・薬学的な用語で、dose より少し専門的。日常会話では dose が自然。",
+      "collocations": [
+        "a daily dose",
+        "overdose",
+        "lethal dose"
+      ],
+      "trivia": "SNS でよく見る「a daily dose of cute dogs（毎日のかわいい犬分）」のように、比喩的に「日々の摂取分」として使うのが若者言葉で人気です。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1360,
+    "word": "suicide",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "自殺",
+        "pos": "noun"
+      },
+      {
+        "meaning": "自滅的な行為",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsuːɪsaɪd/",
+    "syllables": "su-i-cide",
+    "audioHint": "スーイサイド",
+    "examples": [
+      {
+        "en": "The government launched a campaign to prevent suicide among youth.",
+        "ja": "政府は若者の自殺防止キャンペーンを開始した。",
+        "blank": "The government launched a campaign to prevent ___ among youth.",
+        "blankAnswer": "suicide"
+      }
+    ],
+    "distractors": [
+      "他者への暴力行為",
+      "公共の秩序違反",
+      "経済的な制裁措置"
+    ],
+    "confusableSpellings": [
+      "suiside",
+      "suecide",
+      "suicied"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sui（自分の）+ caedere（殺す）の合成。「自分を殺すこと」が直接の語源で、17世紀の造語。",
+      "tips": "suicide は非常にデリケートな単語です。英語圏のメディアガイドラインでは「commit suicide（自殺を犯す）」という表現を避け、「die by suicide（自殺で亡くなる）」を推奨する方向に変わっています。",
+      "confusables": "homicide（他殺）・genocide（集団虐殺）・infanticide（嬰児殺し）など -cide（殺すこと）を含む単語群の一つ。接頭辞で誰を対象とするかが変わる。",
+      "collocations": [
+        "suicide prevention",
+        "suicide rate",
+        "attempted suicide"
+      ],
+      "trivia": "英語では近年 commit suicide の代わりに die by suicide という表現が推奨されています。「犯罪を犯す」という commit のニュアンスが精神的スティグマを強めるとして、報道ガイドラインが世界的に変わりつつあります。"
+    },
+    "frequency": 1700,
+    "cefr": "B2"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1261,
+    "word": "jail",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "刑務所、拘置所",
+        "pos": "noun"
+      },
+      {
+        "meaning": "拘禁する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dʒeɪl/",
+    "syllables": "jail",
+    "audioHint": "ジェイル",
+    "examples": [
+      {
+        "en": "He was sent to jail for stealing a car.",
+        "ja": "彼は車を盗んで刑務所に送られた。",
+        "blank": "He was sent to ___ for stealing a car.",
+        "blankAnswer": "jail"
+      }
+    ],
+    "distractors": [
+      "選挙区",
+      "条約",
+      "議会"
+    ],
+    "confusableSpellings": [
+      "gaol",
+      "jale",
+      "jeil"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'gaole'（檻・牢屋）に由来。中英語では 'gaol' と綴られ、現代英語の 'jail' はアメリカ英語で一般化したスペル。",
+      "tips": "jail（拘置所・郡刑務所）と prison（刑務所）の違いに注意。jail は主に未決拘禁や短期収容施設、prison はより長期の刑事施設を指す。",
+      "confusables": "jail vs. prison：jail は地域の拘置・短期施設、prison は長期刑事収容施設。jail vs. cell：cell は牢の中の個室を指す。",
+      "collocations": [
+        "go to jail",
+        "put someone in jail",
+        "jail sentence"
+      ],
+      "trivia": "英国では今でも 'gaol' という古いスペルが法律文書に残っていて、同じ単語なのに読み方は 'jail' と全く同じ。見た目だけが違う、ちょっとズルい単語！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1262,
+    "word": "commodity",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "商品、物資",
+        "pos": "noun"
+      },
+      {
+        "meaning": "有用なもの、価値あるもの",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəˈmɒdɪti/",
+    "syllables": "com-mod-i-ty",
+    "audioHint": "コマディティ",
+    "examples": [
+      {
+        "en": "Oil is the world's most traded commodity.",
+        "ja": "石油は世界で最も取引される商品だ。",
+        "blank": "Oil is the world's most traded ___.",
+        "blankAnswer": "commodity"
+      }
+    ],
+    "distractors": [
+      "株式配当",
+      "財政赤字",
+      "為替レート"
+    ],
+    "confusableSpellings": [
+      "comodity",
+      "commidity",
+      "commodety"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'commoditas'（便宜・利益）から。'com-'（共に）＋ 'modus'（尺度・方法）が語源で、「みんなに役立つもの」というイメージ。",
+      "tips": "日本語の「コモディティ化」はそのままビジネス用語として使われる。英語では commodity market（商品市場）、commodity price（商品価格）の形でよく登場する。",
+      "confusables": "commodity vs. product：commodity は原材料や一次産品（石油・金・穀物など）を指すことが多く、product は加工・製造されたものを指す。",
+      "collocations": [
+        "commodity market",
+        "commodity price",
+        "rare commodity"
+      ],
+      "trivia": "「時間は希少な commodity だ」のように抽象的なものにも使える。経済学では『差別化できない均質な取引可能財』と定義されていて、スマホが commodity 化すると利益が出なくなる、というのがビジネスの怖い話。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1263,
+    "word": "format",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "形式、フォーマット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "書式を整える、初期化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfɔːrmæt/",
+    "syllables": "for-mat",
+    "audioHint": "フォーマット",
+    "examples": [
+      {
+        "en": "Please save the file in PDF format.",
+        "ja": "ファイルをPDF形式で保存してください。",
+        "blank": "Please save the file in PDF ___.",
+        "blankAnswer": "format"
+      }
+    ],
+    "distractors": [
+      "ネットワーク障害",
+      "データ漏洩",
+      "暗号化"
+    ],
+    "confusableSpellings": [
+      "formet",
+      "fourmat",
+      "formatt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'formatus'（形作られた）が語源。'forma'（形）＋ 過去分詞語尾 '-atus'。フランス語を経由して英語に入った。",
+      "tips": "日本語の「フォーマット」はカタカナで定着しているが、英語では動詞としても使う。'format a disk'（ディスクを初期化する）のように動詞で使う場合を見落としがち。",
+      "confusables": "format vs. layout：format はデータや文書全体の構造・規格を指し、layout は視覚的な配置・レイアウトを指す。",
+      "collocations": [
+        "file format",
+        "format a document",
+        "standard format"
+      ],
+      "trivia": "USBやSDカードを「フォーマットする」は英語でもそのまま 'format' で通じる。ただし「初期化」を 'initialize' と言うと、アメリカ人には少し古いニュアンスに聞こえることも。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1264,
+    "word": "recipient",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "受取人、受領者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "受賞者、受恵者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈsɪpiənt/",
+    "syllables": "re-cip-i-ent",
+    "audioHint": "リスィピアント",
+    "examples": [
+      {
+        "en": "She was the recipient of the Best Actress Award.",
+        "ja": "彼女は最優秀女優賞の受賞者だった。",
+        "blank": "She was the ___ of the Best Actress Award.",
+        "blankAnswer": "recipient"
+      }
+    ],
+    "distractors": [
+      "仲介者",
+      "証人",
+      "交渉担当者"
+    ],
+    "confusableSpellings": [
+      "reciepient",
+      "recipiant",
+      "recipeint"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'recipientem'（受け取る人）から。're-'（戻って）＋ 'capere'（取る）が語根。'receive' や 'receipt' と同じ語族。",
+      "tips": "スペルが複雑で日本人学習者はよく間違える。'receive' のスペルを思い出しながら 're-cip-i-ent' と分解して覚えるのがコツ。",
+      "confusables": "recipient vs. receiver：recipient はより正式・書き言葉的で、awards/grants/donations など特定の文脈で使われる。receiver はより一般的・口語的。",
+      "collocations": [
+        "award recipient",
+        "email recipient",
+        "recipient of a grant"
+      ],
+      "trivia": "メールの宛先フィールドで 'To:' のことを技術的には 'recipient' と呼ぶ。CCやBCCに入れた人も全員 recipient！気づかずにメールを送り間違えた経験がある人は、この単語を一生忘れないはず。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1265,
+    "word": "drill",
+    "pos": "noun",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ドリル、穴あけ機",
+        "pos": "noun"
+      },
+      {
+        "meaning": "穴を開ける、訓練する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/drɪl/",
+    "syllables": "drill",
+    "audioHint": "ドリル",
+    "examples": [
+      {
+        "en": "The workers drilled through the concrete wall.",
+        "ja": "作業員たちはコンクリートの壁に穴を開けた。",
+        "blank": "The workers ___ through the concrete wall.",
+        "blankAnswer": "drilled"
+      }
+    ],
+    "distractors": [
+      "押しつぶす",
+      "引き裂く",
+      "投げる"
+    ],
+    "confusableSpellings": [
+      "dril",
+      "drille",
+      "drell"
+    ],
+    "passive": {
+      "etymology": "オランダ語 'drillen'（回す・穿つ）に由来。17世紀に「軍事訓練」の意味でも使われるようになり、反復練習という意味が派生した。",
+      "tips": "drill には「穴を開ける」という物理的な意味と、「繰り返し訓練する」という比喩的な意味がある。学校で先生が 'Let's drill this grammar point.'（この文法を反復練習しよう）のように使うのが典型例。",
+      "confusables": "drill vs. bore：どちらも「穴を開ける」だが、drill は回転式の工具で穿つイメージ、bore はより大きな穴や退屈させるという意味でも使われる。",
+      "collocations": [
+        "fire drill",
+        "drill a hole",
+        "military drill"
+      ],
+      "trivia": "学校の避難訓練は 'fire drill'。アメリカでは竜巻避難訓練 'tornado drill' や侵入者対応訓練 'lockdown drill' も定期的に行われる。drill という言葉が日常の安全文化に深く根付いている。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1266,
+    "word": "inability",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "無能力、できないこと",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不能、無力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪnəˈbɪlɪti/",
+    "syllables": "in-a-bil-i-ty",
+    "audioHint": "イナビリティ",
+    "examples": [
+      {
+        "en": "His inability to focus caused many problems at work.",
+        "ja": "集中できないことが仕事で多くの問題を引き起こした。",
+        "blank": "His ___ to focus caused many problems at work.",
+        "blankAnswer": "inability"
+      }
+    ],
+    "distractors": [
+      "不確実性",
+      "矛盾",
+      "依存性"
+    ],
+    "confusableSpellings": [
+      "inabilty",
+      "inabitlity",
+      "unability"
+    ],
+    "passive": {
+      "etymology": "'in-'（否定の接頭辞）＋ 'ability'（能力）。'ability' はラテン語 'habilis'（適した）に由来。否定の 'in-' を付けることで「能力がないこと」を表す。",
+      "tips": "'inability' は名詞のみ。「できない」を表すには 'cannot / be unable to' を使う。'inability to do'（〜できないこと）という形で後ろに to不定詞を取るのが基本パターン。",
+      "confusables": "inability vs. disability：inability は特定の状況・能力に対して「できない状態」、disability は身体的・精神的な障害に基づく継続的な「障がい」を指す。",
+      "collocations": [
+        "inability to cope",
+        "inability to pay",
+        "demonstrate an inability"
+      ],
+      "trivia": "英語には 'un-' と 'in-' という二つの否定接頭辞があるが、'unability' という単語は存在しない。これは中級学習者がよくやるミス。'ability' には必ず 'in-' を付けるのがルール！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1267,
+    "word": "republic",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "共和国",
+        "pos": "noun"
+      },
+      {
+        "meaning": "共和制",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈpʌblɪk/",
+    "syllables": "re-pub-lic",
+    "audioHint": "リパブリック",
+    "examples": [
+      {
+        "en": "France is a democratic republic.",
+        "ja": "フランスは民主共和国だ。",
+        "blank": "France is a democratic ___.",
+        "blankAnswer": "republic"
+      }
+    ],
+    "distractors": [
+      "独裁政権",
+      "植民地",
+      "連邦議会"
+    ],
+    "confusableSpellings": [
+      "republc",
+      "repulic",
+      "republikc"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'res publica'（公共の事柄）が語源。'res'（もの・事）＋ 'publica'（公の）。「国民みんなのもの」という概念から「共和国」を意味するようになった。",
+      "tips": "Republic（共和国）と Democracy（民主主義）は混同されやすいが別概念。アメリカは厳密には「共和制の民主主義国家」。大文字で Republic と書くと特定の国名の一部になることが多い（例：Czech Republic）。",
+      "confusables": "republic vs. democracy：republic は政治体制の形（王政でない）を指し、democracy は権力の所在（国民主権）を指す。両立することも、しないこともある。",
+      "collocations": [
+        "federal republic",
+        "republic of",
+        "banana republic"
+      ],
+      "trivia": "アメリカの国歌的な誓いの言葉 'The Pledge of Allegiance' には 'one Nation… as a Republic' という表現がある。アメリカ人は自国を democracy より republic と呼ぶことにこだわる人が多い。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1268,
+    "word": "combat",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "戦闘、戦い",
+        "pos": "noun"
+      },
+      {
+        "meaning": "戦う、撲滅する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒmbæt/",
+    "syllables": "com-bat",
+    "audioHint": "コンバット",
+    "examples": [
+      {
+        "en": "The soldiers were trained for close combat.",
+        "ja": "兵士たちは接近戦のために訓練されていた。",
+        "blank": "The soldiers were trained for close ___.",
+        "blankAnswer": "combat"
+      }
+    ],
+    "distractors": [
+      "停戦協定",
+      "外交交渉",
+      "市民運動"
+    ],
+    "confusableSpellings": [
+      "conbat",
+      "combatt",
+      "kombat"
+    ],
+    "passive": {
+      "etymology": "フランス語 'combattre' から。'com-'（共に・強意）＋ 'battre'（打つ）が語源。ラテン語 'battuere'（打ち合う）に遡る。",
+      "tips": "名詞と動詞でアクセントが変わる場合がある。名詞は 'COMbat'（コンバット）、動詞は 'comBAT' または 'COMbat' どちらも使われる。また動詞で「問題に対処する」意味（combat poverty など）もよく使われる。",
+      "confusables": "combat vs. battle vs. fight：combat は組織的・軍事的な戦闘、battle は大規模な戦闘や戦い全般、fight は口語的でケンカから戦争まで幅広く使える。",
+      "collocations": [
+        "combat zone",
+        "close combat",
+        "combat climate change"
+      ],
+      "trivia": "ゲームの 'Mortal Kombat' はわざと 'K' でスペルしている。普通の 'combat' は C で始まるのに、あえて間違えることでインパクトを出した戦略的スペルミス！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1269,
+    "word": "debris",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "破片、残骸",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ゴミ、廃棄物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdeɪbriː/",
+    "syllables": "deb-ris",
+    "audioHint": "デイブリー",
+    "examples": [
+      {
+        "en": "Rescue teams searched through the debris after the earthquake.",
+        "ja": "救助隊は地震後に瓦礫の中を捜索した。",
+        "blank": "Rescue teams searched through the ___ after the earthquake.",
+        "blankAnswer": "debris"
+      }
+    ],
+    "distractors": [
+      "堆積物",
+      "地層",
+      "水蒸気"
+    ],
+    "confusableSpellings": [
+      "debree",
+      "debriss",
+      "debirs"
+    ],
+    "passive": {
+      "etymology": "フランス語 'débris'（破壊されたもの）から直接借用。'dé-'（完全に）＋ 'briser'（壊す）が語源。発音がフランス語風に末尾の 's' を読まない点が特徴。",
+      "tips": "末尾の 's' を発音しないのが最大のポイント。日本人は 'デブリス' と読みがちだが正しくは 'デイブリー' に近い。また不可算名詞なので 'a debris' とは言えない。",
+      "confusables": "debris vs. ruins：debris は崩壊・破壊後の細かな破片・残骸全般、ruins は建物・文明などが崩れた跡（遺跡・廃墟）を指す。",
+      "collocations": [
+        "space debris",
+        "debris field",
+        "clear debris"
+      ],
+      "trivia": "宇宙ゴミは 'space debris' と呼ばれ、現在地球を周回するものは1億個以上とも言われる。フランス語由来の上品な単語が、宇宙時代の深刻な環境問題を表すのに使われているのがちょっと面白い。"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1270,
+    "word": "bug",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "バグ、プログラムの誤り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "虫、盗聴器",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bʌɡ/",
+    "syllables": "bug",
+    "audioHint": "バグ",
+    "examples": [
+      {
+        "en": "The developer spent hours fixing a bug in the code.",
+        "ja": "開発者はコードのバグを修正するのに何時間も費やした。",
+        "blank": "The developer spent hours fixing a ___ in the code.",
+        "blankAnswer": "bug"
+      }
+    ],
+    "distractors": [
+      "サーバーの過負荷",
+      "ウイルス感染",
+      "ネットワーク遅延"
+    ],
+    "confusableSpellings": [
+      "bugg",
+      "bugh",
+      "bug'"
+    ],
+    "passive": {
+      "etymology": "「虫」を意味する古英語 'budde' が語源。コンピュータ用語としては1947年、グレース・ホッパーがHarvard Mark IIのリレーに実際の蛾（moth）が挟まっていたのを発見したエピソードが有名。",
+      "tips": "bug はプログラムのエラーを指すが、error（一般的な誤り）や glitch（一時的・小さな誤作動）とは使い分けがある。また「盗聴する」という動詞の意味（bug someone's phone）も重要。",
+      "confusables": "bug vs. virus：bug はプログラムのコーディングミスによる不具合、virus は悪意を持って作られた自己複製型の悪意あるプログラム。原因が全く異なる。",
+      "collocations": [
+        "software bug",
+        "fix a bug",
+        "bug report"
+      ],
+      "trivia": "1947年にグレース・ホッパーがコンピュータの中に本物の蛾を見つけてログに貼り付けたノートは今もスミソニアン博物館に保存されている。世界初の『リアルなバグ』の現物証拠！"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1271,
+    "word": "fraction",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "一部分、ごく少量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "分数",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfrækʃən/",
+    "syllables": "frac-tion",
+    "audioHint": "フラクション",
+    "examples": [
+      {
+        "en": "Only a fraction of the students passed the exam.",
+        "ja": "ごく一部の生徒だけが試験に合格した。",
+        "blank": "Only a ___ of the students passed the exam.",
+        "blankAnswer": "fraction"
+      }
+    ],
+    "distractors": [
+      "割合",
+      "総量",
+      "平均値"
+    ],
+    "confusableSpellings": [
+      "fracion",
+      "fractionn",
+      "fracshion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fractio（壊すこと）から。語根 fract-（壊す）＋ -ion（名詞化）。fracture（骨折）と同じ語根。",
+      "tips": "「少しの」という意味で使う場合、a fraction of ～ の形が頻出。数学の「分数」の意味もあるが、日常会話では「ごく一部」の意味でよく使われる点に注意。",
+      "confusables": "fraction（分数・一部分）vs portion（部分・取り分）：portionは全体から切り取った具体的な部分、fractionはより小さい割合のニュアンスが強い。",
+      "collocations": [
+        "a fraction of the cost",
+        "in a fraction of a second",
+        "a small fraction"
+      ],
+      "trivia": "「a fraction of a second（一瞬）」という表現は映画や小説で超頻出。英語話者は「ほぼゼロに近い短さ」を表すのにfractionをよく使う。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1272,
+    "word": "index",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "索引、指標",
+        "pos": "noun"
+      },
+      {
+        "meaning": "指数",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪndeks/",
+    "syllables": "in-dex",
+    "audioHint": "インデックス",
+    "examples": [
+      {
+        "en": "Look up the word in the index at the back of the book.",
+        "ja": "本の後ろの索引でその単語を調べなさい。",
+        "blank": "Look up the word in the ___ at the back of the book.",
+        "blankAnswer": "index"
+      }
+    ],
+    "distractors": [
+      "目次",
+      "総数",
+      "比率"
+    ],
+    "confusableSpellings": [
+      "indeks",
+      "indix",
+      "undex"
+    ],
+    "passive": {
+      "etymology": "ラテン語 index（指し示すもの）から。語根 in-（中へ）＋ dic-（指し示す）＋ -ex（名詞化）。indicate と同じ語根を持つ。",
+      "tips": "複数形は indexes と indices の両方あり。日常的には indexes、学術・数学的文脈では indices が好まれる。「人差し指（index finger）」も同じ単語なので覚えやすい。",
+      "confusables": "index（索引・指標）vs contents（目次）：目次は table of contents で本の最初にあり、索引（index）は本の最後にある。混同しやすいので注意。",
+      "collocations": [
+        "stock market index",
+        "index finger",
+        "cost-of-living index"
+      ],
+      "trivia": "人差し指を「index finger」と呼ぶのは、何かを「指し示す」指だから。本の索引も「指し示す」役割で同じ語源。体と本が同じ単語でつながっているのが面白い。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1273,
+    "word": "intuition",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "直感、直観",
+        "pos": "noun"
+      },
+      {
+        "meaning": "本能的な洞察力",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌɪntjuˈɪʃən/",
+    "syllables": "in-tu-i-tion",
+    "audioHint": "イントゥイション",
+    "examples": [
+      {
+        "en": "She trusted her intuition and decided not to go.",
+        "ja": "彼女は直感を信じて行かないことにした。",
+        "blank": "She trusted her ___ and decided not to go.",
+        "blankAnswer": "intuition"
+      }
+    ],
+    "distractors": [
+      "想像力",
+      "信念",
+      "意識"
+    ],
+    "confusableSpellings": [
+      "intuision",
+      "intution",
+      "intuicion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 intueri（じっと見る）から。in-（中を）＋ tueri（見る・守る）。「内側をじっと見る」→「直感で感じ取る」というイメージ。",
+      "tips": "intuition は不可算名詞として使われることが多い（an intuition は「ひとつの直感的な感覚」として使う場合もある）。「女性の直感」は women's intuition と言う表現が英語でも定番。",
+      "confusables": "intuition（無意識・直感的な知覚）vs instinct（本能）：instinct はより生物学的・動物的な本能、intuition は経験や感覚から来る人間的な直感のニュアンス。",
+      "collocations": [
+        "trust your intuition",
+        "gut intuition",
+        "have an intuition that"
+      ],
+      "trivia": "心理学者ダニエル・カーネマンの「ファスト思考（System 1）」はまさにこの intuition のこと。直感は間違えることもあると科学的に証明されており、「信じすぎると危ない」と言われている。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1274,
+    "word": "motive",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "動機、目的",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（行動を起こす）理由",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmoʊtɪv/",
+    "syllables": "mo-tive",
+    "audioHint": "モウティヴ",
+    "examples": [
+      {
+        "en": "The police couldn't find a clear motive for the crime.",
+        "ja": "警察はその犯罪の明確な動機を見つけられなかった。",
+        "blank": "The police couldn't find a clear ___ for the crime.",
+        "blankAnswer": "motive"
+      }
+    ],
+    "distractors": [
+      "意志",
+      "概念",
+      "感情"
+    ],
+    "confusableSpellings": [
+      "motiv",
+      "moative",
+      "motife"
+    ],
+    "passive": {
+      "etymology": "ラテン語 motivus（動かすもの）から。語根 mot-（動く）＋ -ive（形容詞・名詞化）。motion、motivate と同じ語根。",
+      "tips": "motive は名詞で「動機」、motivate は動詞で「やる気にさせる」。motif（モチーフ・繰り返される模様）と混同しやすいが、motif は芸術用語で別物。",
+      "confusables": "motive（行動の動機・理由）vs motivation（やる気・動機付けの状態）：motive は特定の行動を引き起こした具体的な理由、motivation は継続的なやる気のニュアンス。",
+      "collocations": [
+        "ulterior motive",
+        "hidden motive",
+        "motive for doing"
+      ],
+      "trivia": "推理小説やドラマで必ず登場する「motive, means, opportunity（動機・手段・機会）」という三点セットは、犯罪捜査の基本。英語圏の刑事ドラマを見るとこの単語が必ず出てくる。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1275,
+    "word": "consent",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "同意、承諾",
+        "pos": "noun"
+      },
+      {
+        "meaning": "同意する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈsent/",
+    "syllables": "con-sent",
+    "audioHint": "コンセント",
+    "examples": [
+      {
+        "en": "You need parental consent to join the trip.",
+        "ja": "その旅行に参加するには保護者の同意が必要です。",
+        "blank": "You need parental ___ to join the trip.",
+        "blankAnswer": "consent"
+      }
+    ],
+    "distractors": [
+      "拒否",
+      "依頼",
+      "説得"
+    ],
+    "confusableSpellings": [
+      "concent",
+      "consant",
+      "consente"
+    ],
+    "passive": {
+      "etymology": "ラテン語 consentire（一緒に感じる）から。con-（共に）＋ sentire（感じる）。sense、sentiment と同じ語根を持つ。",
+      "tips": "日本語の「コンセント（電源プラグ）」は和製英語で、英語の consent とは全く別物。英語で電源コンセントは outlet（米）または socket（英）と言う。この誤解は日本人に非常によくある。",
+      "confusables": "consent（自発的な同意）vs permission（許可）：permission は目上の人から与えられる「許可」、consent は対等な立場での「同意・承諾」のニュアンスが強い。",
+      "collocations": [
+        "informed consent",
+        "give consent",
+        "without consent"
+      ],
+      "trivia": "近年の英語圏では「consent（同意）」という概念が社会的に非常に重視されており、学校教育でも積極的に教えられている。「affirmative consent（積極的同意）」という言葉も生まれた。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1276,
+    "word": "hierarchy",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "階層制度、ヒエラルキー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "序列、順位体系",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈhaɪərɑːrki/",
+    "syllables": "hi-er-ar-chy",
+    "audioHint": "ハイアラーキ",
+    "examples": [
+      {
+        "en": "The company has a strict hierarchy that employees must follow.",
+        "ja": "その会社には従業員が従わなければならない厳格な階層制度がある。",
+        "blank": "The company has a strict ___ that employees must follow.",
+        "blankAnswer": "hierarchy"
+      }
+    ],
+    "distractors": [
+      "民主主義",
+      "規則",
+      "政策"
+    ],
+    "confusableSpellings": [
+      "hierachy",
+      "heirarchy",
+      "hierarcy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 hierarchia から。hieros（神聖な）＋ archein（支配する）。元々はキリスト教の聖職者の位階制度を指していた。",
+      "tips": "スペルが難しい単語の代表格。hier- の部分を「here（ここ）」と混同しないよう注意。4音節あるので、hi-er-ar-chy と区切って発音を覚えると良い。",
+      "confusables": "hierarchy（縦型の階層構造）vs bureaucracy（官僚制度）：bureaucracyは規則や手続きの複雑さに焦点があり、hierarchyは上下の順位関係に焦点がある。",
+      "collocations": [
+        "social hierarchy",
+        "corporate hierarchy",
+        "strict hierarchy"
+      ],
+      "trivia": "マズローの「欲求の階層（Maslow's hierarchy of needs）」はこの単語の超有名な使用例。ピラミッド型の図で知られるあの理論、英語では hierarchy という一語で表される。"
+    },
+    "frequency": 3500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1277,
+    "word": "monument",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "記念碑、モニュメント",
+        "pos": "noun"
+      },
+      {
+        "meaning": "歴史的建造物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɒnjumənt/",
+    "syllables": "mon-u-ment",
+    "audioHint": "モニュメント",
+    "examples": [
+      {
+        "en": "The statue is a monument to the soldiers who died in the war.",
+        "ja": "その像は戦争で亡くなった兵士たちへの記念碑だ。",
+        "blank": "The statue is a ___ to the soldiers who died in the war.",
+        "blankAnswer": "monument"
+      }
+    ],
+    "distractors": [
+      "芸術作品",
+      "祭典",
+      "伝統"
+    ],
+    "confusableSpellings": [
+      "monumant",
+      "monuement",
+      "monumentt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 monumentum（記念物）から。monere（思い出させる・警告する）＋ -mentum（名詞化）。remind、monitor と同じ語根。",
+      "tips": "monument は物理的な「記念碑・建造物」を指すことが多いが、比喩的に「偉大な業績の証」としても使える（a monument to human achievement など）。",
+      "confusables": "monument（特定の人・事件を記念する碑・建造物）vs memorial（追悼・追憶の意味合いが強い）：memorial は感情的・追悼的ニュアンスが強く、monument はより広く記念・顕彰を指す。",
+      "collocations": [
+        "national monument",
+        "historical monument",
+        "a monument to"
+      ],
+      "trivia": "ワシントンD.C.の「ワシントン記念塔（Washington Monument）」は高さ約169mで、完成当時は世界一高い建造物だった。monument という単語は「思い出させるもの」が語源なのに、でかすぎて逆に目立ちすぎる。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1278,
+    "word": "asset",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "資産、財産",
+        "pos": "noun"
+      },
+      {
+        "meaning": "強み、有益な存在",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæset/",
+    "syllables": "as-set",
+    "audioHint": "アセット",
+    "examples": [
+      {
+        "en": "Her language skills are a great asset to the team.",
+        "ja": "彼女の語学力はチームにとって大きな強みだ。",
+        "blank": "Her language skills are a great ___ to the team.",
+        "blankAnswer": "asset"
+      }
+    ],
+    "distractors": [
+      "負債",
+      "収益",
+      "費用"
+    ],
+    "confusableSpellings": [
+      "assett",
+      "assest",
+      "acset"
+    ],
+    "passive": {
+      "etymology": "古フランス語 asez（十分な）から。ラテン語 ad（～に）＋ satis（十分）が語源。satisfy と同じ語根を持つ。",
+      "tips": "会計・ビジネス用語では「資産（貸借対照表の借方）」の意味が基本だが、日常会話では「強み・プラスになる存在」の意味でも頻繁に使われる。She is an asset to the company. のような形が自然。",
+      "confusables": "asset（プラスの資産・強み）vs liability（負債・マイナスの存在）：正反対の概念。ビジネス英語では assets and liabilities（資産と負債）とセットで覚えると便利。",
+      "collocations": [
+        "fixed assets",
+        "digital assets",
+        "an asset to the company"
+      ],
+      "trivia": "近年は「digital assets（デジタル資産）」という言葉が急増し、暗号資産（NFTやビットコイン）もこの言葉で表現される。語源が「十分なもの」というのに、デジタルになっても「十分さ」の概念は変わらないのが面白い。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1279,
+    "word": "decent",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "まともな、きちんとした",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "礼儀正しい、品のある",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdiːsənt/",
+    "syllables": "de-cent",
+    "audioHint": "ディーセント",
+    "examples": [
+      {
+        "en": "He earns a decent salary at his new job.",
+        "ja": "彼は新しい仕事でまともな給料をもらっている。",
+        "blank": "He earns a ___ salary at his new job.",
+        "blankAnswer": "decent"
+      }
+    ],
+    "distractors": [
+      "優しい",
+      "勇敢な",
+      "陽気な"
+    ],
+    "confusableSpellings": [
+      "desent",
+      "decant",
+      "deecent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 decens（ふさわしい）から。decere（ふさわしい・似合う）が語源。decorum（礼儀）と同じ語根を持つ。",
+      "tips": "decent は「特別に素晴らしい」わけではなく「まあ合格点」というニュアンス。a decent meal は「そこそこ満足できる食事」。また descent（降下）とスペルが似ているが全く別の単語なので注意。",
+      "confusables": "decent（まとも・品がある）vs descent（降下・家柄）：発音も似ているが、decent は /ˈdiːsənt/、descent は /dɪˈsent/ でアクセント位置が異なる。",
+      "collocations": [
+        "a decent salary",
+        "decent behavior",
+        "a decent person"
+      ],
+      "trivia": "英語スラングで「Are you decent?」はノックをしながら「（服を着てて）入っていい？」という意味になる。「まともな状態にある？」という使い方で、映画やドラマでよく登場する。"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1280,
+    "word": "competent",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "有能な、能力のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "適切な、十分な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒmpɪtənt/",
+    "syllables": "com-pe-tent",
+    "audioHint": "コンペテント",
+    "examples": [
+      {
+        "en": "She is a highly competent engineer with years of experience.",
+        "ja": "彼女は長年の経験を持つ非常に有能なエンジニアだ。",
+        "blank": "She is a highly ___ engineer with years of experience.",
+        "blankAnswer": "competent"
+      }
+    ],
+    "distractors": [
+      "革新的な",
+      "論理的な",
+      "客観的な"
+    ],
+    "confusableSpellings": [
+      "competant",
+      "compitent",
+      "competent"
+    ],
+    "passive": {
+      "etymology": "ラテン語 competere（一緒に目指す・適している）から。com-（共に）＋ petere（求める・目指す）。compete、competition と同じ語根。",
+      "tips": "competent は「平均以上にできる」ニュアンスで、exceptional や brilliant より控えめな褒め言葉。反意語は incompetent（無能な）。日本人は「コンペ」という言葉を知っているが、それは competition（競争）の略で、competent とは別物。",
+      "confusables": "competent（能力が十分にある）vs capable（能力・可能性を持つ）：capable は「～できる潜在能力がある」、competent は「実際にその仕事をこなせる実力がある」という違いがある。",
+      "collocations": [
+        "highly competent",
+        "competent authority",
+        "competent to do"
+      ],
+      "trivia": "法律用語では「competent witness（証言能力のある証人）」という使い方もある。つまり「有能」だけでなく「資格がある・適格である」という法的な意味も持つ多機能ワード。"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  }
+]

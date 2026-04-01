@@ -1,0 +1,993 @@
+[
+  {
+    "id": 1361,
+    "word": "feast",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "ごちそう、盛大な食事",
+        "pos": "noun"
+      },
+      {
+        "meaning": "祝宴、饗宴",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fiːst/",
+    "syllables": "feast",
+    "audioHint": "フィースト",
+    "examples": [
+      {
+        "en": "The wedding feast lasted well into the night.",
+        "ja": "結婚披露宴は夜遅くまで続いた。",
+        "blank": "The wedding ___ lasted well into the night.",
+        "blankAnswer": "feast"
+      }
+    ],
+    "distractors": [
+      "日常的な軽食",
+      "料理の技術・方法",
+      "食材の産地"
+    ],
+    "confusableSpellings": [
+      "feest",
+      "fiest",
+      "feats"
+    ],
+    "passive": {
+      "etymology": "古フランス語 feste（祭り）→ラテン語 festa（祝日・祭り）が語源。festivalやfestiveと同じ語根 fest- を持つ。",
+      "tips": "feastは単なる「食事（meal）」より豪華で祝祭的なニュアンス。'a feast for the eyes'（目の保養）のように比喩的にも使われる点に注意。",
+      "confusables": "feast（盛大な食事）vs. banquet（正式な宴会）: banquetはよりフォーマルな公式の席、feastは量や豪華さに重点が置かれる。",
+      "collocations": [
+        "a wedding feast",
+        "feast on seafood",
+        "a feast for the eyes"
+      ],
+      "trivia": "中世ヨーロッパでは、キリスト教の聖人の記念日を「feast day（祝祭日）」と呼んでいた。現代のfestivalという言葉もここから派生している。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1362,
+    "word": "cuisine",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "料理（の様式）、食文化",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（特定地域・国の）料理法",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kwɪˈziːn/",
+    "syllables": "cui-sine",
+    "audioHint": "クウィズィーン",
+    "examples": [
+      {
+        "en": "Thai cuisine is known for its bold spices.",
+        "ja": "タイ料理はその強烈なスパイスで知られている。",
+        "blank": "Thai ___ is known for its bold spices.",
+        "blankAnswer": "cuisine"
+      }
+    ],
+    "distractors": [
+      "豪華な食事の場",
+      "食材の保存方法",
+      "調理器具の総称"
+    ],
+    "confusableSpellings": [
+      "quisine",
+      "cusine",
+      "cuizine"
+    ],
+    "passive": {
+      "etymology": "フランス語 cuisine（台所・料理）→ラテン語 coquina（台所）→coquere（調理する）が語源。cook（料理する）とも同じ語根。",
+      "tips": "cuisineはフランス語由来のため、発音が「クイジン」でなく「クウィズィーン」であることに注意。'cook'や'cooking'より格式高い表現で、地域や国の料理様式全体を指す。",
+      "confusables": "cuisine（料理の様式・文化）vs. cooking（料理すること）: cookingは行為そのもの、cuisineは文化的・様式的な意味合いが強い。",
+      "collocations": [
+        "French cuisine",
+        "local cuisine",
+        "traditional cuisine"
+      ],
+      "trivia": "フランスは自国の「ガストロノミー（美食文化）」をUNESCOの無形文化遺産に登録している。cuisineという単語自体がフランス文化の誇りの象徴とも言える。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1363,
+    "word": "rumor",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "うわさ、風評",
+        "pos": "noun"
+      },
+      {
+        "meaning": "流言、デマ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈruːmər/",
+    "syllables": "ru-mor",
+    "audioHint": "ルーマー",
+    "examples": [
+      {
+        "en": "There's a rumor that the company will merge next year.",
+        "ja": "来年その会社が合併するといううわさがある。",
+        "blank": "There's a ___ that the company will merge next year.",
+        "blankAnswer": "rumor"
+      }
+    ],
+    "distractors": [
+      "公式な声明・発表",
+      "政治的な公約",
+      "法律上の証言"
+    ],
+    "confusableSpellings": [
+      "roumer",
+      "rumer",
+      "rumore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 rumor（騒音・世評）が語源。古フランス語を経て英語へ。イギリス英語では'rumour'とスペルする。",
+      "tips": "アメリカ英語はrumor、イギリス英語はrumourと綴る。'spread a rumor'（うわさを広める）、'hear a rumor'（うわさを聞く）のコロケーションが頻出。",
+      "confusables": "rumor（根拠不明のうわさ）vs. gossip（個人についての世間話）: gossipはより個人的・社交的なニュアンス、rumorはより広範囲に広まる情報を指す。",
+      "collocations": [
+        "spread a rumor",
+        "hear a rumor",
+        "rumor has it"
+      ],
+      "trivia": "'Rumor has it'（うわさによると）というフレーズはアデルの大ヒット曲タイトルにもなった。英語ネイティブが日常会話で最もよく使う表現の一つ。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1364,
+    "word": "proverb",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "ことわざ、格言",
+        "pos": "noun"
+      },
+      {
+        "meaning": "諺（なわだち）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈprɒvɜːrb/",
+    "syllables": "prov-erb",
+    "audioHint": "プロヴァーブ",
+    "examples": [
+      {
+        "en": "The proverb 'actions speak louder than words' is widely known.",
+        "ja": "「行動は言葉よりも雄弁」ということわざは広く知られている。",
+        "blank": "The ___ 'actions speak louder than words' is widely known.",
+        "blankAnswer": "proverb"
+      }
+    ],
+    "distractors": [
+      "長編の物語・叙事詩",
+      "絵画の題材・主題",
+      "音楽の拍子・リズム"
+    ],
+    "confusableSpellings": [
+      "proverd",
+      "proverbe",
+      "provorb"
+    ],
+    "passive": {
+      "etymology": "ラテン語 proverbium（格言）→pro-（前に・公の）+ verbum（言葉）の合成語。「公の場で語られる言葉」が原義。",
+      "tips": "'saying'や'adage'も似た意味だが、proverbは特に古くから伝わる教訓的な短い表現を指す。旧約聖書の「箴言」は英語でBook of Proverbsという。",
+      "confusables": "proverb（ことわざ）vs. idiom（慣用句）: idiomは文字通りの意味では理解できない表現全般、proverbは教訓や知恵を含む短い格言。",
+      "collocations": [
+        "an old proverb",
+        "as the proverb says",
+        "a Japanese proverb"
+      ],
+      "trivia": "旧約聖書の「箴言（しんげん）」は英語で'Book of Proverbs'。proverbという単語は聖書と深く結びついており、英語圏の文化的背景に欠かせない単語の一つ。"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1365,
+    "word": "signature",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "署名、サイン",
+        "pos": "noun"
+      },
+      {
+        "meaning": "特徴的なもの、トレードマーク",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪɡnətʃər/",
+    "syllables": "sig-na-ture",
+    "audioHint": "スィグナチャー",
+    "examples": [
+      {
+        "en": "Please put your signature at the bottom of the form.",
+        "ja": "用紙の下部に署名してください。",
+        "blank": "Please put your ___ at the bottom of the form.",
+        "blankAnswer": "signature"
+      }
+    ],
+    "distractors": [
+      "公式な印鑑・スタンプ",
+      "暗証番号・パスワード",
+      "個人の住所・連絡先"
+    ],
+    "confusableSpellings": [
+      "signiture",
+      "signeture",
+      "signuature"
+    ],
+    "passive": {
+      "etymology": "ラテン語 signatura（署名）→signare（印をつける）→signum（印・記号）が語源。sign（サイン）やsignal（信号）と同じ語根 sign- を持つ。",
+      "tips": "signatureは「署名」の意味だけでなく、'her signature dish'（彼女の十八番料理）のように「その人らしい特徴的なもの」という形容詞的用法もある。",
+      "confusables": "signature（手書きの署名）vs. autograph（有名人のサイン）: autographはファンが求める有名人のサイン、signatureは契約書などの法的な署名。",
+      "collocations": [
+        "put your signature",
+        "signature dish",
+        "collect signatures"
+      ],
+      "trivia": "アメリカの独立宣言書には56人の署名（signature）がある。最も大きな署名を書いたジョン・ハンコックの名は、今でも'John Hancock'が「署名」の俗語として使われるほど有名。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1366,
+    "word": "formula",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "公式、方程式",
+        "pos": "noun"
+      },
+      {
+        "meaning": "調合物、製剤",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfɔːrmjələ/",
+    "syllables": "for-mu-la",
+    "audioHint": "フォーミュラ",
+    "examples": [
+      {
+        "en": "The scientist discovered a new formula for the compound.",
+        "ja": "科学者はその化合物の新しい公式を発見した。",
+        "blank": "The scientist discovered a new ___ for the compound.",
+        "blankAnswer": "formula"
+      }
+    ],
+    "distractors": [
+      "実験装置の名称",
+      "医療の診断結果",
+      "生物の分類体系"
+    ],
+    "confusableSpellings": [
+      "formulla",
+      "forumla",
+      "fomula"
+    ],
+    "passive": {
+      "etymology": "ラテン語 formula（小さな形・規則）→forma（形・型）の縮小形。form（形）やformat（形式）と同じ語根 form- を持つ。",
+      "tips": "複数形はformulas（一般的）とformulae（学術的・ラテン語式）の両方が使われる。数学・化学の「公式」と、薬や化粧品の「成分・調合」の両方の意味があるので文脈に注意。",
+      "confusables": "formula（公式・方程式）vs. equation（等式・方程式）: equationは数学の等号（=）を含む式、formulaはより広く計算・処理の規則を指す。",
+      "collocations": [
+        "a mathematical formula",
+        "baby formula",
+        "follow a formula"
+      ],
+      "trivia": "F1レーシングの正式名称は'Formula One'。これは決められた規格（formula）に従って設計された車で競うという意味。公式＝規則という語義がそのまま活きている。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1367,
+    "word": "tuition",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "授業料、学費",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（個別）指導、教授",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tjuːˈɪʃən/",
+    "syllables": "tu-i-tion",
+    "audioHint": "チューイッション",
+    "examples": [
+      {
+        "en": "She couldn't afford the tuition at that university.",
+        "ja": "彼女はその大学の授業料を払う余裕がなかった。",
+        "blank": "She couldn't afford the ___ at that university.",
+        "blankAnswer": "tuition"
+      }
+    ],
+    "distractors": [
+      "奨学金の給付条件",
+      "卒業論文の評価基準",
+      "学術論文の引用形式"
+    ],
+    "confusableSpellings": [
+      "tution",
+      "tuission",
+      "tuituion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 tuitio（保護・監督）→tueri（見守る・保護する）が語源。intuition（直感）とは語源が異なる点に注意。",
+      "tips": "アメリカ英語では'tuition'＝「授業料」の意味が主流。イギリス英語では「個別指導」の意味も強い。'tuition fee'と言えば世界共通で授業料を指す。",
+      "confusables": "tuition（授業料・指導）vs. scholarship（奨学金）: tuitionは払うもの、scholarshipはもらうもの。'Tuition is covered by a scholarship.'のように対比して使われる。",
+      "collocations": [
+        "pay tuition",
+        "tuition fee",
+        "private tuition"
+      ],
+      "trivia": "アメリカのトップ私立大学の年間tuitionは2024年時点で約6万ドル（約900万円）を超えるケースも。'student loan crisis'（学生ローン危機）はアメリカの社会問題になっている。"
+    },
+    "frequency": 3300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1368,
+    "word": "intake",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "摂取量、取り込み量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "吸気口、取水口",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnteɪk/",
+    "syllables": "in-take",
+    "audioHint": "インテイク",
+    "examples": [
+      {
+        "en": "You should reduce your daily sugar intake.",
+        "ja": "毎日の砂糖の摂取量を減らすべきです。",
+        "blank": "You should reduce your daily sugar ___.",
+        "blankAnswer": "intake"
+      }
+    ],
+    "distractors": [
+      "薬の副作用・反応",
+      "体内での代謝速度",
+      "病気の診断名"
+    ],
+    "confusableSpellings": [
+      "intaek",
+      "inteke",
+      "inntake"
+    ],
+    "passive": {
+      "etymology": "in-（中へ）+ take（取る）の合成語。「中へ取り込むこと」が原義。同様にouttake（除外・NG映像）はout（外へ）+ takeの構成。",
+      "tips": "'calorie intake'（カロリー摂取）、'daily intake'（一日の摂取量）のように健康・医療分野で頻出。'take in'という動詞句と混同しないよう注意。",
+      "confusables": "intake（摂取量・名詞）vs. take in（摂取する・動詞句）: 同じ概念だが品詞が異なる。'increase your protein intake' / 'take in more protein' のように使い分ける。",
+      "collocations": [
+        "calorie intake",
+        "daily intake",
+        "reduce intake"
+      ],
+      "trivia": "ジェットエンジンの空気を取り込む部分も'air intake'と呼ぶ。食べ物を「取り込む」も、空気を「吸い込む」も同じintakeで表せるのが英語の合理的なところ。"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1369,
+    "word": "spectrum",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "スペクトル、光の帯",
+        "pos": "noun"
+      },
+      {
+        "meaning": "範囲、幅（の広がり）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈspektrəm/",
+    "syllables": "spec-trum",
+    "audioHint": "スペクトラム",
+    "examples": [
+      {
+        "en": "Her research covers a broad spectrum of topics.",
+        "ja": "彼女の研究は幅広いトピックをカバーしている。",
+        "blank": "Her research covers a broad ___ of topics.",
+        "blankAnswer": "spectrum"
+      }
+    ],
+    "distractors": [
+      "物質の密度・質量",
+      "実験の誤差・偏差",
+      "細胞の増殖速度"
+    ],
+    "confusableSpellings": [
+      "specrum",
+      "spectrom",
+      "specktrum"
+    ],
+    "passive": {
+      "etymology": "ラテン語 spectrum（像・幽霊・見えるもの）→specere（見る）が語源。spectacle（見世物）、inspect（検査する）、spectacular（壮観な）と同じ語根 spec- を持つ。",
+      "tips": "科学的な「光のスペクトル」だけでなく、'a wide spectrum of opinions'（幅広い意見）のように抽象的な「範囲・幅」の意味でも頻繁に使われる。複数形はspectra（学術）またはspectrums。",
+      "confusables": "spectrum（連続した範囲・帯）vs. range（幅・範囲）: rangeはより一般的、spectrumは連続体として広がるイメージが強く、科学・社会問題の文脈で好まれる。",
+      "collocations": [
+        "a wide spectrum",
+        "autism spectrum",
+        "spectrum of colors"
+      ],
+      "trivia": "「自閉症スペクトラム障害（ASD）」のspectrumは、症状の現れ方が一本の連続した帯のように多様であることを示している。虹の7色のように、明確な境界線がないイメージ。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1370,
+    "word": "kidney",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "腎臓",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（食材としての）腎臓・キドニー",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɪdni/",
+    "syllables": "kid-ney",
+    "audioHint": "キドニー",
+    "examples": [
+      {
+        "en": "The doctor said one of his kidneys was damaged.",
+        "ja": "医師は彼の腎臓の一つが損傷していると言った。",
+        "blank": "The doctor said one of his ___ was damaged.",
+        "blankAnswer": "kidneys"
+      }
+    ],
+    "distractors": [
+      "血液を送り出す臓器",
+      "消化を助ける臓器",
+      "空気を取り込む臓器"
+    ],
+    "confusableSpellings": [
+      "kidny",
+      "kydney",
+      "kidnay"
+    ],
+    "passive": {
+      "etymology": "中英語 kidenei の語源は諸説あり、古英語の cwið（腹・子宮）または egg（卵）に由来するとも言われる。語源が完全には解明されていない珍しい単語。",
+      "tips": "kidneyは常に左右2つあるので、通常複数形 kidneys で使うことが多い。'kidney failure'（腎不全）、'kidney stone'（腎臓結石）などの医療用語も覚えておくと便利。",
+      "confusables": "kidney（腎臓）vs. liver（肝臓）vs. bladder（膀胱）: 位置が近く機能も混同しやすい。kidneyは血液をろ過して尿を作る臓器、liverは解毒・代謝、bladderは尿を貯める袋。",
+      "collocations": [
+        "kidney failure",
+        "kidney stone",
+        "kidney transplant"
+      ],
+      "trivia": "人間は腎臓が1つでも生きていけるため、腎臓は生きたままドナーから提供できる唯一の主要臓器。世界で最も多い生体臓器移植がkidney transplant（腎臓移植）。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1371,
+    "word": "gear",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "歯車、ギア",
+        "pos": "noun"
+      },
+      {
+        "meaning": "装備、道具一式",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡɪr/",
+    "syllables": "gear",
+    "audioHint": "ギア",
+    "examples": [
+      {
+        "en": "Make sure you have all your camping gear ready.",
+        "ja": "キャンプ用品をすべて準備しておいてください。",
+        "blank": "Make sure you have all your camping ___ ready.",
+        "blankAnswer": "gear"
+      }
+    ],
+    "distractors": [
+      "ネットワーク",
+      "ソフトウェア",
+      "データベース"
+    ],
+    "confusableSpellings": [
+      "geer",
+      "gier"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'gervi'（準備、装備）に由来。「備えるもの」が原義で、機械の歯車から装備品まで幅広く使われるようになった。",
+      "tips": "「ギア」は日本語にもなっているが、英語では「道具一式・装備」の意味でも非常よく使われる。'camping gear'（キャンプ用品）、'safety gear'（安全装備）のように使う。",
+      "confusables": "'gear' と 'equipment' はどちらも「装備」だが、gear はカジュアルな日常語で特定の活動向けの道具一式、equipment はより正式・技術的な文脈で使われる。",
+      "collocations": [
+        "camping gear",
+        "gear up",
+        "in gear"
+      ],
+      "trivia": "自転車の「ギアチェンジ」はそのまま英語の 'gear change' だが、アメリカ英語では 'shift gears'（比喩的に「方向転換する」）という表現も日常会話でよく登場する。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1372,
+    "word": "aisle",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "通路（スーパー・飛行機・劇場などの）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "教会の側廊",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/aɪl/",
+    "syllables": "aisle",
+    "audioHint": "アイル",
+    "examples": [
+      {
+        "en": "The flight attendant walked down the aisle to collect trash.",
+        "ja": "客室乗務員がゴミを集めるために通路を歩いた。",
+        "blank": "The flight attendant walked down the ___ to collect trash.",
+        "blankAnswer": "aisle"
+      }
+    ],
+    "distractors": [
+      "祭壇",
+      "儀式",
+      "習慣"
+    ],
+    "confusableSpellings": [
+      "isle",
+      "aile",
+      "aislle"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'ele'（翼）→ラテン語 'ala'（翼）に由来。教会建築で身廊の「翼」にあたる側廊を指したのが起源。",
+      "tips": "「s」が発音されない点に注意。'isle'（島）と全く同じ発音 /aɪl/ なので文脈で区別する。スーパーでは 'Which aisle is the juice in?'（ジュースは何番通路ですか？）のように使う。",
+      "confusables": "'aisle' と 'isle' は同音異義語。aisle は通路、isle は小島。また 'alley'（細い路地）とも混同しやすいが、alley は屋外の細道。",
+      "collocations": [
+        "aisle seat",
+        "walk down the aisle",
+        "grocery aisle"
+      ],
+      "trivia": "結婚式で花嫁が歩く通路を 'walk down the aisle' と言うが、これが転じて「結婚する」という意味のイディオムにもなっている。映画やドラマでよく出てくるフレーズ。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1373,
+    "word": "grief",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "深い悲しみ、悲嘆",
+        "pos": "noun"
+      },
+      {
+        "meaning": "苦労、面倒",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡriːf/",
+    "syllables": "grief",
+    "audioHint": "グリーフ",
+    "examples": [
+      {
+        "en": "She was overwhelmed by grief after losing her dog.",
+        "ja": "犬を亡くして、彼女は深い悲しみに打ちひしがれた。",
+        "blank": "She was overwhelmed by ___ after losing her dog.",
+        "blankAnswer": "grief"
+      }
+    ],
+    "distractors": [
+      "怒り",
+      "退屈",
+      "恐怖"
+    ],
+    "confusableSpellings": [
+      "greif",
+      "grife",
+      "greaf"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'grief'（重荷、苦しみ）→ラテン語 'gravis'（重い）に由来。「心に重くのしかかるもの」が原義。",
+      "tips": "スペルは 'i before e' の例外で 'grief'（griefのie）。'give someone grief'（人に面倒をかける）というイディオムも口語でよく使われる。",
+      "confusables": "'grief' は深い喪失感による悲しみ、'sorrow' は一般的な悲しみ、'sadness' は気分的な悲しさ。grief は特に死別や大きな喪失に使われる。",
+      "collocations": [
+        "overcome grief",
+        "grief counseling",
+        "good grief"
+      ],
+      "trivia": "「グッド・グリーフ！（Good grief!）」はチャーリー・ブラウンの口癖で有名。本来は「なんてこった！」という驚き・嘆きの間投詞。grief に 'good' をつけることで皮肉的に強調している。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1374,
+    "word": "destiny",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "運命、宿命",
+        "pos": "noun"
+      },
+      {
+        "meaning": "定められた将来",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɛstɪni/",
+    "syllables": "des-ti-ny",
+    "audioHint": "デスティニー",
+    "examples": [
+      {
+        "en": "He believed it was his destiny to become a leader.",
+        "ja": "彼はリーダーになることが自分の運命だと信じていた。",
+        "blank": "He believed it was his ___ to become a leader.",
+        "blankAnswer": "destiny"
+      }
+    ],
+    "distractors": [
+      "意識",
+      "矛盾",
+      "自由意志"
+    ],
+    "confusableSpellings": [
+      "desteny",
+      "destiney",
+      "destany"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'destinare'（固定する、定める）→古フランス語 'destinee' に由来。「あらかじめ定められたもの」が原義。",
+      "tips": "「destiny」と「fate」はほぼ同義だが、destiny はポジティブなニュアンスを持つことが多く、「偉大な使命」的な文脈で使われやすい。fate はよりニュートラルまたはネガティブな使われ方をする。",
+      "confusables": "'destiny' と 'fate' の違い：destiny は「自分の可能性・使命」的なニュアンス（heroic destiny）、fate は「避けられない結末」的なニュアンス（sealed fate）。日本語の「運命」と「宿命」の違いに近い。",
+      "collocations": [
+        "fulfill one's destiny",
+        "manifest destiny",
+        "twist of destiny"
+      ],
+      "trivia": "「マニフェスト・デスティニー（Manifest Destiny）」はアメリカが西部開拓を「神に与えられた使命」と正当化した19世紀の思想。destiny という単語一語に国家レベルのイデオロギーが込められていた。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1375,
+    "word": "skull",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "頭蓋骨",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（比喩）頭、脳みそ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/skʌl/",
+    "syllables": "skull",
+    "audioHint": "スカル",
+    "examples": [
+      {
+        "en": "The X-ray revealed a fracture in his skull.",
+        "ja": "X線検査で頭蓋骨に骨折が見つかった。",
+        "blank": "The X-ray revealed a fracture in his ___.",
+        "blankAnswer": "skull"
+      }
+    ],
+    "distractors": [
+      "肺",
+      "腱",
+      "細胞膜"
+    ],
+    "confusableSpellings": [
+      "scull",
+      "skul",
+      "skull"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'skoltr' または中世英語 'skulle' に由来。頭を覆う「椀状の骨」を指す言葉として定着した。",
+      "tips": "'skull' と 'skeleton'（骨格全体）を混同しないこと。skull は頭部の骨のみ。また 'scull'（ボートのオール・短いオールで漕ぐ）という同音異義語があるので注意。",
+      "confusables": "'skull' は頭蓋骨、'brain' は脳（柔らかい器官）。Skull and crossbones（どくろマーク）は毒・危険の警告シンボルとして世界共通で使われる。",
+      "collocations": [
+        "skull fracture",
+        "skull and crossbones",
+        "thick skull"
+      ],
+      "trivia": "「厚かましい・鈍感な人」を英語で 'thick-skulled' と言う。頭蓋骨が厚くて何も入ってこない、というユーモラスな表現。日本語の「頭が固い」に近いニュアンス。"
+    },
+    "frequency": 5000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1376,
+    "word": "tomb",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "墓、霊廟",
+        "pos": "noun"
+      },
+      {
+        "meaning": "石棺",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tuːm/",
+    "syllables": "tomb",
+    "audioHint": "トゥーム",
+    "examples": [
+      {
+        "en": "Tourists visited the ancient tomb of the pharaoh.",
+        "ja": "観光客はファラオの古代の墓を訪れた。",
+        "blank": "Tourists visited the ancient ___ of the pharaoh.",
+        "blankAnswer": "tomb"
+      }
+    ],
+    "distractors": [
+      "彫刻",
+      "詩",
+      "楽器"
+    ],
+    "confusableSpellings": [
+      "toom",
+      "toumb",
+      "tumb"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'tymbos'（墓塚）→ラテン語 'tumba' →古フランス語 'tombe' に由来。'b' は歴史的綴りで発音されない黙字。",
+      "tips": "'tomb' の 'b' は発音しない（/tuːm/）。同様に 'bomb'（/bɒm/）、'comb'（/koʊm/）も語末の 'b' は無音。日本人は「トゥーム」ではなく「トゥーム」と読みがちだが、最後のbはサイレント。",
+      "confusables": "'tomb' は石造りの立派な墓（特に歴史的・記念碑的なもの）、'grave' は土に掘られた一般的な墓穴、'cemetery' は墓地全体を指す。",
+      "collocations": [
+        "royal tomb",
+        "tomb raider",
+        "entombed"
+      ],
+      "trivia": "「トゥームレイダー」（Tomb Raider）のゲーム・映画タイトルにも使われているこの単語、実は語末のbが無音という「サイレントb」の代表例。英語には同様のパターンが多い（lamb、climb、dumbなど）。"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1377,
+    "word": "monk",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "修道士、僧侶",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/mʌŋk/",
+    "syllables": "monk",
+    "audioHint": "マンク",
+    "examples": [
+      {
+        "en": "The monk spent hours meditating in silence each morning.",
+        "ja": "その修道士は毎朝、何時間も静かに瞑想した。",
+        "blank": "The ___ spent hours meditating in silence each morning.",
+        "blankAnswer": "monk"
+      }
+    ],
+    "distractors": [
+      "商人",
+      "農民",
+      "騎士"
+    ],
+    "confusableSpellings": [
+      "monck",
+      "munk",
+      "moonk"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'monakhos'（一人で暮らす者）→ラテン語 'monachus' に由来。'mono-'（一人・単独）が語根で、俗世から離れて単独で生活する人を指した。",
+      "tips": "発音は「モンク」ではなく「マンク」(/mʌŋk/)。'monkey'（サル）と語源的な関係はないが、スペルが似ているので混乱しやすい。仏教の僧侶にも Buddhist monk として使える。",
+      "confusables": "'monk' はキリスト教・仏教などの修道士・僧侶全般、'priest' は司祭・神父（カトリック等）、'pastor' はプロテスタントの牧師。宗教によって使い分けが必要。",
+      "collocations": [
+        "Buddhist monk",
+        "monk's robe",
+        "Tibetan monk"
+      ],
+      "trivia": "アメリカのジャズピアニスト「セロニアス・モンク（Thelonious Monk）」はその名の通り「修道士」の名を持つ伝説的ミュージシャン。孤高のスタイルがまさに「修道士」的だったとも言われる。"
+    },
+    "frequency": 6000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1378,
+    "word": "worship",
+    "pos": "verb",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "崇拝する、礼拝する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "崇拝、礼拝",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈwɜːrʃɪp/",
+    "syllables": "wor-ship",
+    "audioHint": "ワーシップ",
+    "examples": [
+      {
+        "en": "People gather at this temple to worship every Sunday.",
+        "ja": "人々は毎週日曜日に礼拝するためにこの寺院に集まる。",
+        "blank": "People gather at this temple to ___ every Sunday.",
+        "blankAnswer": "worship"
+      }
+    ],
+    "distractors": [
+      "断食する",
+      "巡礼する",
+      "祈願する"
+    ],
+    "confusableSpellings": [
+      "warship",
+      "woreship",
+      "worshipp"
+    ],
+    "passive": {
+      "etymology": "古英語 'weorthscipe'（価値・尊厳を示すこと）→ 'worth'（価値）＋ '-ship'（状態・性質）。「価値あるものとして敬う」が原義。",
+      "tips": "'worship' と 'warship'（軍艦）は発音が似ているので要注意。worship は /ˈwɜːrʃɪp/、warship は /ˈwɔːrʃɪp/。また比喩的に「熱狂的に崇める」意味でも使われる（He worships her.）。",
+      "confusables": "'worship'（神・偶像・人を崇拝する）と 'pray'（祈る）は似ているが、pray は神への語りかけ、worship はより全体的な崇敬・礼拝の行為を指す。",
+      "collocations": [
+        "worship God",
+        "place of worship",
+        "hero worship"
+      ],
+      "trivia": "英語の敬称「Your Worship」（閣下・市長殿）は同じ語源。市長など高位の人への呼びかけで、イギリス英語では今でも使われる。「崇める」という意味がそのまま敬称になったわけ。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1379,
+    "word": "outstanding",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "傑出した、素晴らしい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "未解決の、未払いの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌaʊtˈstændɪŋ/",
+    "syllables": "out-stand-ing",
+    "audioHint": "アウトスタンディング",
+    "examples": [
+      {
+        "en": "She received an award for her outstanding performance.",
+        "ja": "彼女はその卓越した演技で賞を受賞した。",
+        "blank": "She received an award for her ___ performance.",
+        "blankAnswer": "outstanding"
+      }
+    ],
+    "distractors": [
+      "平均的な",
+      "控えめな",
+      "問題のある"
+    ],
+    "confusableSpellings": [
+      "outstandding",
+      "outstaning",
+      "outstandeng"
+    ],
+    "passive": {
+      "etymology": "'out-'（外に・超えて）＋ 'standing'（立っている）→「他より際立って外に立っている」が原義。群衆の中でひときわ目立つ存在のイメージ。",
+      "tips": "「素晴らしい」の意味でよく使われるが、「未払いの・未解決の」という意味も重要（例：outstanding debt＝未払いの借金）。文脈でどちらの意味か判断すること。",
+      "confusables": "'outstanding' と 'excellent' はどちらも「優秀な」だが、outstanding は「群を抜いて際立つ」ニュアンスが強く、最上級に近い。excellent は「非常に良い」という絶対評価に近い。",
+      "collocations": [
+        "outstanding achievement",
+        "outstanding debt",
+        "outstanding performance"
+      ],
+      "trivia": "学校の通知表でよく見かける評価語。アメリカの成績評価では 'Outstanding → Excellent → Satisfactory → Needs Improvement' のような段階が使われる。「S評価」に相当するのが outstanding。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1380,
+    "word": "unprecedented",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "前例のない、空前の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ʌnˈprɛsɪdɛntɪd/",
+    "syllables": "un-prec-e-dent-ed",
+    "audioHint": "アンプレシデンティッド",
+    "examples": [
+      {
+        "en": "The storm caused unprecedented damage to the city.",
+        "ja": "その嵐は市に前例のない被害をもたらした。",
+        "blank": "The storm caused ___ damage to the city.",
+        "blankAnswer": "unprecedented"
+      }
+    ],
+    "distractors": [
+      "見慣れた",
+      "予測可能な",
+      "ありふれた"
+    ],
+    "confusableSpellings": [
+      "unprecidented",
+      "unprecdented",
+      "unpresidented"
+    ],
+    "passive": {
+      "etymology": "'un-'（否定）＋ 'precedent'（先例）＋ '-ed'（形容詞化）。'precedent' はラテン語 'praecedere'（前に行く）→ 'prae-'（前）＋ 'cedere'（行く）。「前に行った例がない」が原義。",
+      "tips": "5音節と長く、スペルも複雑。'precede'（先行する）→ 'precedent'（先例）→ 'unprecedented' とつなげて覚えると良い。ニュースや論文で頻出の表現。",
+      "confusables": "'unprecedented'（前例のない）と 'unpresidented' はよくあるスペルミス（president と混同）。また 'unparalleled'（比類のない）も同様の文脈で使われるが、unprecedented は特に「歴史上初めて」というニュアンスが強い。",
+      "collocations": [
+        "unprecedented crisis",
+        "unprecedented scale",
+        "unprecedented growth"
+      ],
+      "trivia": "2020年のコロナ禍で世界中のニュースで爆発的に使われた単語がこの 'unprecedented'。オックスフォード辞典の使用頻度データでも2020年に急上昇した語のひとつ。パンデミックが文字通り「前例のない」出来事だったため。"
+    },
+    "frequency": 3000,
+    "cefr": "C1"
+  }
+]

@@ -1,0 +1,996 @@
+[
+  {
+    "id": 521,
+    "word": "arise",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "生じる、起こる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "立ち上がる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈraɪz/",
+    "syllables": "a-rise",
+    "audioHint": "アライズ",
+    "examples": [
+      {
+        "en": "Problems arose during the project that no one expected.",
+        "ja": "誰も予期していなかった問題がプロジェクト中に生じた。",
+        "blank": "Problems ___ during the project that no one expected.",
+        "blankAnswer": "arose"
+      }
+    ],
+    "distractors": [
+      "変える、修正する",
+      "運ぶ、輸送する",
+      "治す、治療する"
+    ],
+    "confusableSpellings": [
+      "arrise",
+      "aris",
+      "arrize"
+    ],
+    "passive": {
+      "etymology": "古英語 ārīsan から。接頭辞 a-（強意）＋ rīsan（立つ、上がる）。rise と同じ語根を持つ。",
+      "tips": "rise との違いに注意。rise は「物理的に上がる」、arise は「問題・状況などが生じる」という抽象的な意味で使うことが多い。また不規則変化（arise – arose – arisen）を忘れがち。",
+      "confusables": "rise（上がる）と混同しやすいが、arise はフォーマルな文脈で「問題・必要性・機会などが発生する」際に用いる。rise は物の高さや価格などに使う。",
+      "collocations": [
+        "problems arise",
+        "questions arise",
+        "arise from (~から生じる)"
+      ],
+      "trivia": "シェイクスピアの「Romeo and Juliet」で有名な「Arise, fair sun」のように、古い英語では「立ち上がれ」という命令にも使われた。今でもやや格調ある表現として残っている。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 522,
+    "word": "beat",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "打つ、叩く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "打ち負かす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/biːt/",
+    "syllables": "beat",
+    "audioHint": "ビート",
+    "examples": [
+      {
+        "en": "Her heart was beating fast after the race.",
+        "ja": "レースの後、彼女の心臓は速く鼓動していた。",
+        "blank": "Her heart was ___ fast after the race.",
+        "blankAnswer": "beating"
+      }
+    ],
+    "distractors": [
+      "急ぐ、突進する",
+      "吸収する",
+      "ぶら下がる、吊るす"
+    ],
+    "confusableSpellings": [
+      "beet",
+      "beeat",
+      "beit"
+    ],
+    "passive": {
+      "etymology": "古英語 bēatan（打つ）から。インド・ヨーロッパ語根 *bhau-（打つ）に由来し、battle（戦い）とも遠い親戚。",
+      "tips": "beat は不規則変化で beat – beat – beaten。過去形と原形が同じ形なので「昨日 beat した」と言う際に気をつけよう。また「料理で卵を混ぜる」にも beat eggs と使える。",
+      "confusables": "beet（ビーツという野菜）と発音が全く同じホモフォン。文脈で判断する必要がある。hit と beat はどちらも「打つ」だが、beat は繰り返し叩く・心拍のリズムのニュアンスが強い。",
+      "collocations": [
+        "beat a record (記録を破る)",
+        "beat the deadline (締め切りに間に合う)",
+        "heart beats (心臓が鼓動する)"
+      ],
+      "trivia": "「off the beaten path（人が踏み慣れていない道＝観光地じゃない穴場）」という表現の beaten は beat の過去分詞。旅好きな英語圏の人がよく使うフレーズ。"
+    },
+    "frequency": 500,
+    "cefr": "A2"
+  },
+  {
+    "id": 523,
+    "word": "regret",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "後悔する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "残念に思う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈɡrɛt/",
+    "syllables": "re-gret",
+    "audioHint": "リグレット",
+    "examples": [
+      {
+        "en": "She regrets not studying harder in high school.",
+        "ja": "彼女は高校でもっと頑張って勉強しなかったことを後悔している。",
+        "blank": "She ___ not studying harder in high school.",
+        "blankAnswer": "regrets"
+      }
+    ],
+    "distractors": [
+      "失望させる",
+      "承認する、認める",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "regrett",
+      "regreat",
+      "reget"
+    ],
+    "passive": {
+      "etymology": "古フランス語 regreter（嘆く）から。接頭辞 re-（再び）＋ 古ノルド語 gráta（泣く、嘆く）が語源とされる。「また泣く」イメージ。",
+      "tips": "regret の後に動詞を続けるとき、regret doing（実際にしたことを後悔）と regret to do（これから残念なことを言う）で意味が変わる。「I regret telling him.（話したことを後悔）」vs「I regret to tell you.（残念ながらお知らせします）」は要注意。",
+      "confusables": "feel sorry と似た意味だが、regret はより個人的な内省的後悔のニュアンスが強い。ビジネスメールでは「We regret to inform you...」のようにフォーマルな謝罪にも使われる。",
+      "collocations": [
+        "regret a decision (決断を後悔する)",
+        "deep regret (深い後悔)",
+        "express regret (遺憾を表明する)"
+      ],
+      "trivia": "フランス語 regret はそのまま「後悔」という名詞として使われ、英語にも名詞 regret がある。「No regrets!（後悔なし！）」は世界中の人が好むタトゥーの文句としても有名。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 524,
+    "word": "alter",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "変える、修正する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "変わる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɔːltər/",
+    "syllables": "al-ter",
+    "audioHint": "オールター",
+    "examples": [
+      {
+        "en": "The tailor altered the dress to fit her perfectly.",
+        "ja": "仕立て屋はドレスを彼女にぴったり合うように直した。",
+        "blank": "The tailor ___ the dress to fit her perfectly.",
+        "blankAnswer": "altered"
+      }
+    ],
+    "distractors": [
+      "生じる、起こる",
+      "治す、治療する",
+      "運ぶ、輸送する"
+    ],
+    "confusableSpellings": [
+      "alther",
+      "altter",
+      "aalter"
+    ],
+    "passive": {
+      "etymology": "ラテン語 alterare（変える）から。ラテン語 alter（もう一方の、別の）が語根で、alternative（代替）や alteration（変更）と同じ語族。",
+      "tips": "alter と change はほぼ同義だが、alter はやや細部の微調整・修正ニュアンスが強い。服のお直し（tailoring）や計画の一部修正などに使われる。「completely alter」と言うと少し大げさに聞こえる場合も。",
+      "confusables": "altar（祭壇）と発音が全く同じホモフォン！スペルを間違えると大変なことに。change より formal で moderate な変化を指す場合が多い。",
+      "collocations": [
+        "alter a plan (計画を修正する)",
+        "alter the course (方向を変える)",
+        "alter a garment (衣服を直す)"
+      ],
+      "trivia": "「alter ego」というラテン語フレーズは「もう一人の自分」という意味で英語にそのまま定着している。スーパーヒーローの秘密の正体を指すときにもよく使われるクールな表現。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 525,
+    "word": "absorb",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "吸収する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "夢中にさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əbˈzɔːrb/",
+    "syllables": "ab-sorb",
+    "audioHint": "アブゾーブ",
+    "examples": [
+      {
+        "en": "The sponge absorbed all the water on the floor.",
+        "ja": "スポンジが床の水をすべて吸収した。",
+        "blank": "The sponge ___ all the water on the floor.",
+        "blankAnswer": "absorbed"
+      }
+    ],
+    "distractors": [
+      "打つ、叩く",
+      "急ぐ、突進する",
+      "ぶら下がる、吊るす"
+    ],
+    "confusableSpellings": [
+      "absord",
+      "absourb",
+      "abzorb"
+    ],
+    "passive": {
+      "etymology": "ラテン語 absorbere から。接頭辞 ab-（離れて、中へ）＋ sorbere（飲み込む、吸う）。sorbere はフランス語の sorbet（シャーベット）とも語源が繋がる。",
+      "tips": "absorb は液体を吸い取るだけでなく、「知識を吸収する（absorb knowledge）」や「be absorbed in ~（~に夢中になる）」のように比喩的にも頻繁に使う。特に be absorbed in の形は覚えておきたい。",
+      "confusables": "absorb と adsorb（吸着する）は化学用語として区別されるが、日常英語では absorb だけ覚えれば十分。また absorb と consume（消費する）は似ているが、absorb は「取り込む過程」に焦点がある。",
+      "collocations": [
+        "absorb information (情報を吸収する)",
+        "be absorbed in (〜に夢中になる)",
+        "absorb shock (衝撃を吸収する)"
+      ],
+      "trivia": "黒い服が熱を吸収（absorb）しやすいのは物理の常識だけど、英語圏では「wearing black absorbs heat」という表現で日常会話でも普通に出てくる。科学と日常が交わる面白い単語。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 526,
+    "word": "disappoint",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "失望させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "期待を裏切る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌdɪsəˈpɔɪnt/",
+    "syllables": "dis-ap-point",
+    "audioHint": "ディサポイント",
+    "examples": [
+      {
+        "en": "I don't want to disappoint my parents by failing the exam.",
+        "ja": "試験に落ちて両親を失望させたくない。",
+        "blank": "I don't want to ___ my parents by failing the exam.",
+        "blankAnswer": "disappoint"
+      }
+    ],
+    "distractors": [
+      "後悔する",
+      "説得する、納得させる",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "dissapoint",
+      "disapoint",
+      "disappoint"
+    ],
+    "passive": {
+      "etymology": "中フランス語 desapointer（職を解く、予定を外す）から。dis-（否定・反対）＋ appoint（任命する、指定する）。もともとは「約束した地位を取り消す」という意味だった。",
+      "tips": "disappoint は他動詞なので「I'm disappointed」と受け身で使うことが非常に多い。「I disappoint」とだけ言うと「（私が誰かを）失望させる」になるので要注意。感情を表すときは「I'm disappointed in him（彼に失望した）」の形で使おう。",
+      "confusables": "frustrated（苛立った）と混同しやすいが、disappointed は「期待が外れた悲しみ」、frustrated は「思い通りにいかない苛立ち」のニュアンス。全然違う感情なので使い分けを。",
+      "collocations": [
+        "disappoint expectations (期待を裏切る)",
+        "deeply disappointed (深く失望した)",
+        "disappointing result (残念な結果)"
+      ],
+      "trivia": "語源が「職を解く」なのに、現代では感情の失望に使われるのが面白い。昔は「あなたのアポイントメント（appointment）をキャンセルする」が転じて「期待を外す」になった歴史的変化の産物。"
+    },
+    "frequency": 2200,
+    "cefr": "A2"
+  },
+  {
+    "id": 527,
+    "word": "cure",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "治す、治療する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "解決する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kjʊər/",
+    "syllables": "cure",
+    "audioHint": "キュア",
+    "examples": [
+      {
+        "en": "Doctors hope to cure the disease within ten years.",
+        "ja": "医師たちは10年以内にその病気を治したいと思っている。",
+        "blank": "Doctors hope to ___ the disease within ten years.",
+        "blankAnswer": "cure"
+      }
+    ],
+    "distractors": [
+      "生じる、起こる",
+      "変える、修正する",
+      "運ぶ、輸送する"
+    ],
+    "confusableSpellings": [
+      "cuer",
+      "kure",
+      "cuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 curare（気にかける、治療する）から。語根 cura（ケア、気遣い）は curious（好奇心旺盛な）や accurate（正確な）とも関係がある。",
+      "tips": "cure は「病気そのものを根治する」ニュアンスが強く、treat（治療・処置する）より完全な回復を示す。「treat a cold（風邪を治療する）」はよく使うが「cure a cold（風邪を完治させる）」は使いにくい状況もある。cure はより完全な解決に使おう。",
+      "confusables": "heal（傷・心が癒える）と cure（病気・問題を完治させる）は似ているが、heal は自然な回復プロセス、cure はより積極的な治療・根治を指す。",
+      "collocations": [
+        "cure a disease (病気を治す)",
+        "cure cancer (がんを治療する)",
+        "cure for (~の治療法)"
+      ],
+      "trivia": "日本のアニメ「プリキュア（Pretty Cure）」の cure はまさにこの単語から。「治す・守る」ヒーローとして cure を使ったネーミングは英語的にもなかなか理にかなっている。"
+    },
+    "frequency": 1600,
+    "cefr": "A2"
+  },
+  {
+    "id": 528,
+    "word": "transport",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "運ぶ、輸送する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "感動させる、夢中にさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/trænsˈpɔːrt/",
+    "syllables": "trans-port",
+    "audioHint": "トランスポート",
+    "examples": [
+      {
+        "en": "The company transports goods across the country by truck.",
+        "ja": "その会社はトラックで全国に商品を輸送している。",
+        "blank": "The company ___ goods across the country by truck.",
+        "blankAnswer": "transports"
+      }
+    ],
+    "distractors": [
+      "治す、治療する",
+      "変える、修正する",
+      "生じる、起こる"
+    ],
+    "confusableSpellings": [
+      "tranport",
+      "transprot",
+      "trasport"
+    ],
+    "passive": {
+      "etymology": "ラテン語 transportare から。接頭辞 trans-（向こう側へ、横断して）＋ portare（運ぶ）。portare は portable（持ち運び可能な）や import/export とも同じ語根。",
+      "tips": "動詞は /trænsˈpɔːrt/（後ろにアクセント）、名詞は /ˈtrænspɔːrt/（前にアクセント）とアクセント位置が変わる。日本人は名詞・動詞ともに同じ発音にしがちなので注意。",
+      "confusables": "transfer（乗り換え・移管する）と混同しやすいが、transport は物理的な「物や人の輸送」に焦点がある。transfer は「権利・データ・乗り物の乗り換え」などより広い移動に使う。",
+      "collocations": [
+        "transport goods (荷物を輸送する)",
+        "public transport (公共交通機関)",
+        "transport system (輸送システム)"
+      ],
+      "trivia": "SF映画でよく出てくる「テレポーテーション（teleportation）」の port も同じ語根。trans-（向こうへ）が tele-（遠くへ）になっただけで、夢の技術も語源は超シンプル。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 529,
+    "word": "rush",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "急ぐ、突進する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "急いでさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rʌʃ/",
+    "syllables": "rush",
+    "audioHint": "ラッシュ",
+    "examples": [
+      {
+        "en": "She rushed to the hospital when she heard the news.",
+        "ja": "彼女はその知らせを聞いて病院へ急いだ。",
+        "blank": "She ___ to the hospital when she heard the news.",
+        "blankAnswer": "rushed"
+      }
+    ],
+    "distractors": [
+      "打つ、叩く",
+      "吸収する",
+      "ぶら下がる、吊るす"
+    ],
+    "confusableSpellings": [
+      "rusch",
+      "rash",
+      "russh"
+    ],
+    "passive": {
+      "etymology": "中英語 russhen（突進する）から。古フランス語 ruser（追い払う、迂回する）が起源とも言われ、急激な動きのニュアンスを持つ。",
+      "tips": "rush は「自分が急ぐ」だけでなく「人を急かす」他動詞にもなる（Don't rush me! 急かさないで！）。また「rush hour（ラッシュアワー）」は日本語にもなっているが、英語では「交通が混む通勤・退勤時間帯」を指す。",
+      "confusables": "hurry（急ぐ）と似ているが、rush はより勢いよく・突進するイメージが強い。hurry up（急いで！）は日常会話でよく使うが、rush は物理的な動きのスピード感が出る。",
+      "collocations": [
+        "rush hour (ラッシュアワー)",
+        "in a rush (急いで)",
+        "rush into (〜に突進する)"
+      ],
+      "trivia": "ゴールドラッシュ（Gold Rush）の rush もこの単語。19世紀のカリフォルニアで金が発見されたとき、人々が「急いで殺到した」様子がまさに rush で、以来「特定のものに人が殺到する現象」を〇〇 rush と呼ぶようになった。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 530,
+    "word": "hang",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ぶら下げる、吊るす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "垂れ下がる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/hæŋ/",
+    "syllables": "hang",
+    "audioHint": "ハング",
+    "examples": [
+      {
+        "en": "He hung a picture on the wall above the sofa.",
+        "ja": "彼はソファの上の壁に絵をかけた。",
+        "blank": "He ___ a picture on the wall above the sofa.",
+        "blankAnswer": "hung"
+      }
+    ],
+    "distractors": [
+      "急ぐ、突進する",
+      "吸収する",
+      "打つ、叩く"
+    ],
+    "confusableSpellings": [
+      "hange",
+      "hangg",
+      "haing"
+    ],
+    "passive": {
+      "etymology": "古英語 hōn（吊るす）と hangian（ぶら下がる）の2つの動詞が合流したもの。そのため不規則変化が2パターン存在するという珍しい経緯を持つ。",
+      "tips": "hang の過去形は2種類あり、「物を吊るす」意味では hung（例: hung a coat）、「人を絞首刑にする」意味では hanged（例: He was hanged.）を使う。日常会話ではほぼ hung で問題ないが、歴史・法律の文脈では区別が重要。",
+      "confusables": "hang out（友達とたむろする）、hang on（ちょっと待って）、hang up（電話を切る）など句動詞が非常に豊富な単語。基本の意味「吊るす」を押さえた上で句動詞も一緒に覚えると英会話がぐっと広がる。",
+      "collocations": [
+        "hang a picture (絵をかける)",
+        "hang out with friends (友人とつるむ)",
+        "hang on (待つ)"
+      ],
+      "trivia": "コンピューターが「フリーズ」することを英語で「the computer is hanging」と言う。プログラムが宙ぶらりん（ぶら下がった状態）でどこにも進めないイメージがそのまま単語に反映されていて面白い。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 531,
+    "word": "blame",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を責める、非難する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "責任を負わせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bleɪm/",
+    "syllables": "blame",
+    "audioHint": "ブレイム",
+    "examples": [
+      {
+        "en": "Don't blame me for the mistake.",
+        "ja": "その間違いのせいで私を責めないで。",
+        "blank": "Don't ___ me for the mistake.",
+        "blankAnswer": "blame"
+      }
+    ],
+    "distractors": [
+      "禁止する",
+      "交流する",
+      "祝う"
+    ],
+    "confusableSpellings": [
+      "blaim",
+      "blam"
+    ],
+    "passive": {
+      "etymology": "古フランス語 blasmer、ラテン語 blasphemare（神を冒涜する）が語源。blame（責める）→ blaspheme（冒涜する）と同根。",
+      "tips": "blame A for B（BのことでAを責める）の構文をしっかり押さえよう。「blame on」との混同に注意：blame A for B / put the blame on A のどちらも正しい。",
+      "confusables": "criticize は具体的な欠点を批判するニュアンス、blame は失敗や問題の責任を帰するニュアンスで使う。",
+      "collocations": [
+        "blame someone for something",
+        "take the blame",
+        "put the blame on"
+      ],
+      "trivia": "「I'm not to blame」という表現は英語圏でよく使われる自己弁護フレーズ。日本語の「私のせいじゃない」にピッタリ対応する！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 532,
+    "word": "ban",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を禁止する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "禁止令",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bæn/",
+    "syllables": "ban",
+    "audioHint": "バン",
+    "examples": [
+      {
+        "en": "The school banned students from using phones.",
+        "ja": "その学校は生徒の携帯電話使用を禁止した。",
+        "blank": "The school ___ students from using phones.",
+        "blankAnswer": "banned"
+      }
+    ],
+    "distractors": [
+      "責める",
+      "祝う",
+      "調整する"
+    ],
+    "confusableSpellings": [
+      "bann",
+      "van"
+    ],
+    "passive": {
+      "etymology": "古英語 bannan（召喚する・呪う）が語源。もともとは「公に宣言する」意味から、「禁じる」という意味に発展した。",
+      "tips": "ban A from doing（Aがするのを禁止する）の構文が頻出。prohibit と似ているが ban はより口語的・強制的なニュアンスが強い。",
+      "confusables": "prohibit はよりフォーマルで法的な文脈、ban は日常・メディアでも幅広く使われる。forbid は個人間の禁止に使いやすい。",
+      "collocations": [
+        "ban someone from doing",
+        "a smoking ban",
+        "lifetime ban"
+      ],
+      "trivia": "ゲームの世界で「ban（バン）」は「アカウント停止」の意味でも使われ、世界中のゲーマーが共通して使う言葉になっている！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 533,
+    "word": "fascinate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を魅了する、強く引きつける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfæsɪneɪt/",
+    "syllables": "fas-ci-nate",
+    "audioHint": "ファスィネイト",
+    "examples": [
+      {
+        "en": "Ancient history fascinates me deeply.",
+        "ja": "古代の歴史は私を深く魅了する。",
+        "blank": "Ancient history ___ me deeply.",
+        "blankAnswer": "fascinates"
+      }
+    ],
+    "distractors": [
+      "確認する",
+      "回復する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "fascinnate",
+      "fasinate",
+      "fasscinate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fascinare（魔法をかける・魅惑する）が語源。fascinare はもともと「邪視（evil eye）で呪う」意味を持っていた。",
+      "tips": "fascinate は他動詞なので「I am fascinated by ~」（私は〜に魅了されている）の受動態が日常でよく使われる。「I fascinate ~」と能動態で使うと「私が魅了する」という意味になるので主語に注意。",
+      "confusables": "interest は軽い興味、fascinate はもっと強く「目が離せない」レベルの魅了感。captivate も似ているが、より感情的・審美的な魅力を指す。",
+      "collocations": [
+        "be fascinated by",
+        "fascinate the audience",
+        "find something fascinating"
+      ],
+      "trivia": "「fascination」という単語はデヴィッド・ボウイの有名曲タイトル。魅了するという概念はロック界でも大活躍！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 534,
+    "word": "recover",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "回復する、立ち直る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を取り戻す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈkʌvər/",
+    "syllables": "re-cov-er",
+    "audioHint": "リカヴァー",
+    "examples": [
+      {
+        "en": "She recovered quickly from the flu.",
+        "ja": "彼女はインフルエンザから素早く回復した。",
+        "blank": "She ___ quickly from the flu.",
+        "blankAnswer": "recovered"
+      }
+    ],
+    "distractors": [
+      "製造する",
+      "調整する",
+      "配置する"
+    ],
+    "confusableSpellings": [
+      "recuver",
+      "reccover",
+      "recovar"
+    ],
+    "passive": {
+      "etymology": "接頭辞 re-（再び）＋ラテン語 recuperare（取り戻す）が語源。recuperate（回復する）と同じ語根を持つ。",
+      "tips": "「recover from 〜」（〜から回復する）が基本構文。「recover 〜」と他動詞で使うと「〜を取り戻す」という意味になる。この2つの使い方を混同しないように。",
+      "confusables": "heal は傷や病気が「治る」物理的プロセス、recover はより広く体調・経済・感情など幅広い回復に使える。",
+      "collocations": [
+        "recover from illness",
+        "recover data",
+        "fully recover"
+      ],
+      "trivia": "スポーツ界では「recovery」は試合後の体のケアを指す専門用語として定着。アスリートが氷風呂に入るのも「recovery session」と呼ばれる！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 535,
+    "word": "celebrate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を祝う、祝賀する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "称える、たたえる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈselɪbreɪt/",
+    "syllables": "cel-e-brate",
+    "audioHint": "セレブレイト",
+    "examples": [
+      {
+        "en": "We celebrated her birthday with a big party.",
+        "ja": "私たちは大きなパーティーで彼女の誕生日を祝った。",
+        "blank": "We ___ her birthday with a big party.",
+        "blankAnswer": "celebrated"
+      }
+    ],
+    "distractors": [
+      "禁止する",
+      "責める",
+      "交流する"
+    ],
+    "confusableSpellings": [
+      "celeberate",
+      "celibrate",
+      "celebrat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 celebrare（多くの人が集まる・称える）が語源。celeber（名高い・にぎやかな）に由来し、「celebrity（有名人）」も同じ語根。",
+      "tips": "celebrate は自動詞・他動詞どちらにも使える。「Let's celebrate!」（祝おう！）と目的語なしでも使えるが、「celebrate Christmas」のように目的語をとることも多い。",
+      "confusables": "commemorate は過去の出来事を「記念・追悼する」フォーマルな語、celebrate はより楽しく「祝う」ポジティブなニュアンスが強い。",
+      "collocations": [
+        "celebrate a birthday",
+        "celebrate success",
+        "celebrate with friends"
+      ],
+      "trivia": "「celebrity（セレブ）」は celebrate と同じ語源。つまり「セレブ」とはもともと「みんなから称えられる人」という意味だった！"
+    },
+    "frequency": 1100,
+    "cefr": "A2"
+  },
+  {
+    "id": 536,
+    "word": "manufacture",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を製造する、生産する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "製造、製品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌmænjuˈfæktʃər/",
+    "syllables": "man-u-fac-ture",
+    "audioHint": "マニュファクチャー",
+    "examples": [
+      {
+        "en": "This company manufactures electric vehicles.",
+        "ja": "この会社は電気自動車を製造している。",
+        "blank": "This company ___ electric vehicles.",
+        "blankAnswer": "manufactures"
+      }
+    ],
+    "distractors": [
+      "調整する",
+      "配置する",
+      "回復する"
+    ],
+    "confusableSpellings": [
+      "manufactur",
+      "manufucture",
+      "manufacure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 manu（手で）＋ factura（作ること）が語源。文字通り「手で作る」こと。factory（工場）も同じ語根 fac- を持つ。",
+      "tips": "manufacture は大規模・工業的な生産に使う語。「手作り」の意味ではなく、主に機械を使った量産プロセスを指す。make や produce よりフォーマルで専門的。",
+      "confusables": "produce は農産物・映像など幅広い生産に使う、manufacture は主に工業製品の製造。fabricate は金属加工など素材加工や「でっち上げる」という意味も持つ。",
+      "collocations": [
+        "manufacture goods",
+        "manufactured product",
+        "manufacturing process"
+      ],
+      "trivia": "もともと「手（manu）で作る」が語源なのに、現代では機械による大量生産に使われるのが皮肉！産業革命が語義を変えた好例。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 537,
+    "word": "interact",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "交流する、やり取りする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "相互に作用する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌɪntərˈækt/",
+    "syllables": "in-ter-act",
+    "audioHint": "インタラクト",
+    "examples": [
+      {
+        "en": "Children need to interact with their peers.",
+        "ja": "子どもたちは同年代の子と交流する必要がある。",
+        "blank": "Children need to ___ with their peers.",
+        "blankAnswer": "interact"
+      }
+    ],
+    "distractors": [
+      "責める",
+      "祝う",
+      "禁止する"
+    ],
+    "confusableSpellings": [
+      "interract",
+      "interakt",
+      "ineract"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inter-（〜の間で）＋ agere（行動する）が語源。「互いに行動し合う」が原義。internet や international も inter- を含む。",
+      "tips": "interact は必ず「with」を伴って「interact with 〜」の形で使う。「interact to」は誤り。また「interactive（インタラクティブ）」という形容詞の形でも頻出。",
+      "confusables": "communicate は情報を「伝える」こと、interact はより広く「関わり合う」こと。socialize は楽しみのために人と交わるニュアンスが強い。",
+      "collocations": [
+        "interact with others",
+        "interact socially",
+        "interact with the environment"
+      ],
+      "trivia": "「インタラクティブ授業」など日本語にもカタカナで定着している。SNSの「いいね・コメント」機能も interaction の一形態！"
+    },
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 538,
+    "word": "arrange",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を手配する、取り決める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を整理する、並べる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈreɪndʒ/",
+    "syllables": "ar-range",
+    "audioHint": "アレインジ",
+    "examples": [
+      {
+        "en": "Can you arrange a meeting for tomorrow?",
+        "ja": "明日の会議を手配してもらえますか？",
+        "blank": "Can you ___ a meeting for tomorrow?",
+        "blankAnswer": "arrange"
+      }
+    ],
+    "distractors": [
+      "製造する",
+      "回復する",
+      "魅了する"
+    ],
+    "confusableSpellings": [
+      "arange",
+      "arranje",
+      "arrang"
+    ],
+    "passive": {
+      "etymology": "古フランス語 arangier（列に並べる）が語源。接頭辞 ar-（〜へ）＋ ranger（列にする）から成る。range（範囲・並べる）と同根。",
+      "tips": "arrange は「手配する」と「並べる」の2つの意味を持つ。「arrange a trip（旅行を手配する）」と「arrange flowers（花を生ける）」は全く違うシーンで使われるので文脈で判断しよう。",
+      "confusables": "organize はより体系的に「組織化する」ニュアンス、arrange はより柔軟に「都合をつける・並べる」感覚。plan は将来の予定を「計画する」。",
+      "collocations": [
+        "arrange a meeting",
+        "arrange flowers",
+        "arrange for someone to do"
+      ],
+      "trivia": "音楽の「アレンジ（編曲）」も arrange から来ている。原曲を「並べ直す」というイメージから音楽用語にもなった！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 539,
+    "word": "adjust",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を調整する、調節する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "適応する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈdʒʌst/",
+    "syllables": "ad-just",
+    "audioHint": "アジャスト",
+    "examples": [
+      {
+        "en": "Please adjust the volume on the speaker.",
+        "ja": "スピーカーの音量を調整してください。",
+        "blank": "Please ___ the volume on the speaker.",
+        "blankAnswer": "adjust"
+      }
+    ],
+    "distractors": [
+      "製造する",
+      "手配する",
+      "魅了する"
+    ],
+    "confusableSpellings": [
+      "ajust",
+      "adgust",
+      "adjast"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（〜へ）＋ justus（正しい・適切な）が語源。「正しい状態に向かわせる」が原義。just（ちょうど）や justice（正義）と同じ語根。",
+      "tips": "adjust は物理的な調整だけでなく「環境に適応する」自動詞としても使える（adjust to a new environment）。「regulate」はルールや法律による「規制・調整」でよりフォーマル。",
+      "confusables": "modify は内容・性質を「変更・修正する」ニュアンス、adjust はもとの状態に対して「微調整する」ニュアンス。tune はより精密な調節を指すことが多い。",
+      "collocations": [
+        "adjust to new conditions",
+        "adjust the settings",
+        "adjust one's attitude"
+      ],
+      "trivia": "「adjustable（調節可能な）」はファッション業界でも頻出。「adjustable strap（調節可能なストラップ）」など、日常のあちこちで使われている！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 540,
+    "word": "confirm",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を確認する、確かめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を承認する、正式に決定する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈfɜːrm/",
+    "syllables": "con-firm",
+    "audioHint": "コンファーム",
+    "examples": [
+      {
+        "en": "Please confirm your reservation by Friday.",
+        "ja": "金曜日までに予約を確認してください。",
+        "blank": "Please ___ your reservation by Friday.",
+        "blankAnswer": "confirm"
+      }
+    ],
+    "distractors": [
+      "魅了する",
+      "説得する",
+      "想像する"
+    ],
+    "confusableSpellings": [
+      "confrim",
+      "comfirm",
+      "conffirm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 con-（強調）＋ firmare（強くする）が語源。firm（しっかりした）と同根。「しっかり固める→確認する」という意味の流れ。",
+      "tips": "ビジネスメールで頻出の単語。「confirm + that節」や「confirm + 名詞」の形が多い。日本語の「コンファーム」としてビジネスシーンでカタカナ語としても定着している。",
+      "confusables": "verify は証拠をもとに「真偽を検証する」ニュアンス、confirm はすでにある情報を「再確認・承認する」ニュアンス。approve はより上位の権限による「承認」を指す。",
+      "collocations": [
+        "confirm a booking",
+        "confirm that",
+        "please confirm"
+      ],
+      "trivia": "宗教的には「confirmation（堅信礼）」という意味もある。キリスト教で洗礼後に信仰を「確認・強化する」儀式がまさに confirm の原義そのもの！"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  }
+]

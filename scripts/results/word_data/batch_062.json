@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1221,
+    "word": "dye",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "染める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "染料",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/daɪ/",
+    "syllables": "dye",
+    "audioHint": "ダイ",
+    "examples": [
+      {
+        "en": "She decided to dye her hair red for the summer.",
+        "ja": "彼女は夏に向けて髪を赤く染めることにした。",
+        "blank": "She decided to ___ her hair red for the summer.",
+        "blankAnswer": "dye"
+      }
+    ],
+    "distractors": [
+      "こぼす",
+      "刺激する",
+      "排水する"
+    ],
+    "confusableSpellings": [
+      "die",
+      "dye",
+      "dyi"
+    ],
+    "passive": {
+      "etymology": "古英語 dēagian（染める）に由来。語根はゲルマン語系で「色をつける」という意味を持つ。",
+      "tips": "die（死ぬ）と発音が全く同じホモフォンなので文脈で判断すること。動詞の現在分詞は dying ではなく dyeing と書くのが正しい（die の dying と区別するため）。",
+      "confusables": "die（死ぬ）と発音が同じだが意味は全く異なる。また名詞 dye（染料）と動詞 dye（染める）は同形。",
+      "collocations": [
+        "dye one's hair",
+        "dye fabric",
+        "hair dye"
+      ],
+      "trivia": "ジーンズのインディゴ染めは何千年も前から行われており、古代インドや中国でも dye として藍が使われていた。あの青さには深い歴史がある！"
+    },
+    "frequency": 4800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1222,
+    "word": "spill",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "こぼす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "あふれ出る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/spɪl/",
+    "syllables": "spill",
+    "audioHint": "スピル",
+    "examples": [
+      {
+        "en": "He accidentally spilled coffee on his laptop.",
+        "ja": "彼は誤ってラップトップにコーヒーをこぼした。",
+        "blank": "He accidentally ___ coffee on his laptop.",
+        "blankAnswer": "spilled"
+      }
+    ],
+    "distractors": [
+      "染める",
+      "刺激する",
+      "漂流する"
+    ],
+    "confusableSpellings": [
+      "spil",
+      "speel",
+      "spyll"
+    ],
+    "passive": {
+      "etymology": "古英語 spillan（無駄にする、破壊する）に由来。本来は「台無しにする」という意味が強かったが、現代では「液体をこぼす」が主な意味になった。",
+      "tips": "過去形は spilled（米国英語）と spilt（英国英語）の両方が使われる。「spill the beans」（秘密をしゃべる）というイディオムは非常によく使われるので覚えておこう。",
+      "confusables": "split（分裂する）と混同しやすい。spill は液体がこぼれる、split は固体が割れる・分かれるイメージ。",
+      "collocations": [
+        "spill the beans",
+        "oil spill",
+        "spill water"
+      ],
+      "trivia": "「spill the beans」はなぜ「秘密をばらす」という意味になったのか？古代ギリシャの投票方法で豆を使っていたことに由来するという説がある。豆をこぼすと票が見えてしまう！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1223,
+    "word": "irritate",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "いらいらさせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（皮膚などを）刺激する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪrɪteɪt/",
+    "syllables": "ir-ri-tate",
+    "audioHint": "イリテイト",
+    "examples": [
+      {
+        "en": "The loud noise from next door really irritates me.",
+        "ja": "隣からの大きな音が本当に私をいらいらさせる。",
+        "blank": "The loud noise from next door really ___ me.",
+        "blankAnswer": "irritates"
+      }
+    ],
+    "distractors": [
+      "染める",
+      "こぼす",
+      "排水する"
+    ],
+    "confusableSpellings": [
+      "iritate",
+      "irritat",
+      "irrirtate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 irritare（刺激する、怒らせる）に由来。ir-（強意の接頭辞）+ ritare（挑発する）で「強く刺激する」という意味を持つ。",
+      "tips": "r が2つ続くスペルに注意（irritate）。感情的な「いらいらさせる」と身体的な「皮膚を刺激する」の両方に使えることを覚えておこう。形容詞は irritating（いらいらさせる）と irritated（いらいらしている）の使い分けが重要。",
+      "confusables": "annoy（うるさくさせる）と近いが、irritate の方がより強く継続的な刺激・不快感を表す。また皮膚などへの物理的刺激には irritate を使い、annoy は使わない。",
+      "collocations": [
+        "irritate the skin",
+        "feel irritated",
+        "irritating habit"
+      ],
+      "trivia": "医学用語でも「irritation（炎症・刺激）」は頻出。目薬の注意書きでよく見る「may cause irritation」はまさにこの単語！日常語と医療語が一致する珍しい例。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1224,
+    "word": "insult",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "侮辱する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "侮辱",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈsʌlt/ (verb), /ˈɪnsʌlt/ (noun)",
+    "syllables": "in-sult",
+    "audioHint": "インサルト",
+    "examples": [
+      {
+        "en": "He insulted his colleague in front of everyone.",
+        "ja": "彼は全員の前で同僚を侮辱した。",
+        "blank": "He ___ his colleague in front of everyone.",
+        "blankAnswer": "insulted"
+      }
+    ],
+    "distractors": [
+      "強制する",
+      "許す",
+      "奪う"
+    ],
+    "confusableSpellings": [
+      "insalt",
+      "insullt",
+      "inssult"
+    ],
+    "passive": {
+      "etymology": "ラテン語 insultare（跳びかかる、嘲る）に由来。in-（〜に向かって）+ saltare（跳ぶ）で、文字通り「飛びかかる」ことから「侮辱する」へ意味が転じた。",
+      "tips": "動詞と名詞でアクセントの位置が変わる点に注意。動詞は in-SULT（後ろ）、名詞は IN-sult（前）にアクセントがくる。これは英語でよく見られるパターン（例: record, permit なども同様）。",
+      "confusables": "offend（気分を害する）と似ているが、insult はより直接的・意図的な侮辱行為を指す。offend は意図せず傷つけることもある。",
+      "collocations": [
+        "add insult to injury",
+        "feel insulted",
+        "verbal insult"
+      ],
+      "trivia": "「add insult to injury」（傷口に塩を塗る）という慣用句は18世紀のイソップ寓話に由来するとも言われる。怪我しているのに馬鹿にまでされる、まさに最悪の二重苦！"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1225,
+    "word": "enforce",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（法律・規則を）施行する・強制する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "強要する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈfɔːrs/",
+    "syllables": "en-force",
+    "audioHint": "インフォース",
+    "examples": [
+      {
+        "en": "The police are here to enforce the new traffic laws.",
+        "ja": "警察は新しい交通法規を施行するためにここにいる。",
+        "blank": "The police are here to ___ the new traffic laws.",
+        "blankAnswer": "enforce"
+      }
+    ],
+    "distractors": [
+      "侮辱する",
+      "許す",
+      "奪う"
+    ],
+    "confusableSpellings": [
+      "inforce",
+      "enforece",
+      "enforse"
+    ],
+    "passive": {
+      "etymology": "古フランス語 enforcier に由来。en-（〜にする）+ force（力）で「力を行使する」が原義。現代英語では主に法律・規則の「強制執行」の文脈で使われる。",
+      "tips": "enforce は法律・ルール・規則に対して使うのが基本。「強制する」の意味で force someone to do... も使えるが、enforce は制度的・組織的な強制に限定されることが多い。",
+      "confusables": "force（強いる）は個人レベルの強制、enforce は制度・法律レベルの強制施行という違いがある。また reinforce（強化する）とスペルが似ているが意味は全く異なる。",
+      "collocations": [
+        "enforce the law",
+        "enforce rules",
+        "law enforcement"
+      ],
+      "trivia": "「law enforcement（法執行）」は米国では警察全体を指す言葉としても使われる。映画やドラマで「law enforcement officer」という表現がよく出てくるのはこのため！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1226,
+    "word": "rob",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "強奪する・奪う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（機会などを）奪う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɒb/",
+    "syllables": "rob",
+    "audioHint": "ロブ",
+    "examples": [
+      {
+        "en": "Two masked men robbed the bank yesterday morning.",
+        "ja": "昨日の朝、覆面をした2人の男が銀行を強盗した。",
+        "blank": "Two masked men ___ the bank yesterday morning.",
+        "blankAnswer": "robbed"
+      }
+    ],
+    "distractors": [
+      "侮辱する",
+      "施行する",
+      "許す"
+    ],
+    "confusableSpellings": [
+      "robe",
+      "rop",
+      "roob"
+    ],
+    "passive": {
+      "etymology": "古フランス語 rober、古高ドイツ語 roubon（略奪する）に由来。ゲルマン語族の「奪い取る」という概念から来ている。",
+      "tips": "rob と steal の使い方は日本人が特に混乱する点。rob は「人・場所」を目的語にとる（rob a person / rob a bank）、steal は「物」を目的語にとる（steal money）。「rob money」とは言わない！",
+      "confusables": "steal（盗む）と混同しがち。rob someone of something（人から物を奪う）という形も重要。「I was robbed.（強盗に遭った）」vs「My wallet was stolen.（財布を盗まれた）」の違いを意識しよう。",
+      "collocations": [
+        "rob a bank",
+        "rob someone of something",
+        "armed robbery"
+      ],
+      "trivia": "「rob Peter to pay Paul（ピーターから奪ってポールに払う）」というイギリスの諺がある。借金を返すために別の借金をするという意味で、財政難あるあるの表現！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1227,
+    "word": "drain",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "排水する・水を抜く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（体力・資源などを）消耗させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dreɪn/",
+    "syllables": "drain",
+    "audioHint": "ドレイン",
+    "examples": [
+      {
+        "en": "She drained the pasta and added the sauce.",
+        "ja": "彼女はパスタの湯を切ってソースをかけた。",
+        "blank": "She ___ the pasta and added the sauce.",
+        "blankAnswer": "drained"
+      }
+    ],
+    "distractors": [
+      "染める",
+      "こぼす",
+      "刺激する"
+    ],
+    "confusableSpellings": [
+      "drane",
+      "drein",
+      "draen"
+    ],
+    "passive": {
+      "etymology": "古英語 drēahnian（こし取る、排水する）に由来。語根はゲルマン語系で「乾燥させる」「液体を取り除く」という意味を持つ。",
+      "tips": "物理的な「水を抜く」意味だけでなく、「This job drains me.（この仕事は私を消耗させる）」のように精神的・体力的消耗にも使える。名詞 drain は「排水溝」の意味もある。",
+      "confusables": "pour（注ぐ）と逆の概念。また strain（こす）と混同しないよう注意。drain は「液体を取り除く」、strain は「固形物をこしてとる」ニュアンスがある。",
+      "collocations": [
+        "drain the battery",
+        "brain drain",
+        "drain the pool"
+      ],
+      "trivia": "「brain drain（頭脳流出）」は優秀な人材が他国へ流出する現象のこと。1950年代にイギリスで生まれた言葉で、今や世界中で使われる経済・社会用語になっている！"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1228,
+    "word": "suspend",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "一時停止する・中断する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ぶら下げる・浮遊させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈspɛnd/",
+    "syllables": "sus-pend",
+    "audioHint": "サスペンド",
+    "examples": [
+      {
+        "en": "The referee suspended the game due to heavy rain.",
+        "ja": "審判は大雨のために試合を中断した。",
+        "blank": "The referee ___ the game due to heavy rain.",
+        "blankAnswer": "suspended"
+      }
+    ],
+    "distractors": [
+      "排水する",
+      "漂流する",
+      "こぼす"
+    ],
+    "confusableSpellings": [
+      "suspand",
+      "susspend",
+      "suspende"
+    ],
+    "passive": {
+      "etymology": "ラテン語 suspendere に由来。sub-/sus-（下に）+ pendere（ぶら下げる）で「下にぶら下げる」が原義。そこから「宙ぶらりんの状態＝中断」という意味が生まれた。",
+      "tips": "「中断する」と「ぶら下げる」という2つの意味が一見無関係に見えるが、どちらも「宙ぶらりんの状態にする」という語源から来ている。suspension bridge（吊り橋）も同じ語根。",
+      "confusables": "postpone（延期する）と似ているが、suspend は完全に止めること、postpone は後回しにすること。また suspend a student（学生を停学にする）という意味もあり、文脈に注意。",
+      "collocations": [
+        "suspend a sentence",
+        "suspended animation",
+        "suspend judgment"
+      ],
+      "trivia": "映画やゲームで定番の「suspense（サスペンス）」も同じ語根！「宙ぶらりんにされた感覚」がハラハラドキドキ感に変わったというわけ。語源を知ると映画鑑賞も少し違って見える！"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1229,
+    "word": "drift",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "漂う・漂流する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（話・注意が）それる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/drɪft/",
+    "syllables": "drift",
+    "audioHint": "ドリフト",
+    "examples": [
+      {
+        "en": "The small boat drifted slowly across the calm lake.",
+        "ja": "小さなボートが穏やかな湖をゆっくりと漂った。",
+        "blank": "The small boat ___ slowly across the calm lake.",
+        "blankAnswer": "drifted"
+      }
+    ],
+    "distractors": [
+      "染める",
+      "排水する",
+      "刺激する"
+    ],
+    "confusableSpellings": [
+      "drft",
+      "driift",
+      "drifft"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 drift（雪の吹きだまり、群れ）に由来。北欧語で「押し流されるもの」を意味し、英語に入って「ゆっくり流れる」という動詞になった。",
+      "tips": "物理的な「漂流」だけでなく、「My mind drifted during the lecture.（講義中に心がそれた）」のように注意・思考が離れていく場合にも使える。自然でゆっくりした動きのイメージが核心。",
+      "confusables": "float（浮かぶ）と似ているが、drift は流れや風に乗って方向が定まらない動きを含む。float は位置が変わらなくても使える。また「get the drift（要点をつかむ）」というイディオムも重要。",
+      "collocations": [
+        "snow drift",
+        "drift apart",
+        "get the drift"
+      ],
+      "trivia": "モータースポーツの「ドリフト走行」もこの単語！車が横滑りしながらコーナーを抜ける技術で、日本の走り屋文化が世界に広めたとも言われている。英語でもそのまま「drift」と呼ぶ！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1230,
+    "word": "forgive",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "許す・赦す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（負債などを）免除する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fərˈɡɪv/",
+    "syllables": "for-give",
+    "audioHint": "フォギヴ",
+    "examples": [
+      {
+        "en": "She eventually forgave him for lying to her.",
+        "ja": "彼女はついに彼が嘘をついたことを許した。",
+        "blank": "She eventually ___ him for lying to her.",
+        "blankAnswer": "forgave"
+      }
+    ],
+    "distractors": [
+      "侮辱する",
+      "強制する",
+      "強奪する"
+    ],
+    "confusableSpellings": [
+      "forggive",
+      "forgiev",
+      "forgave"
+    ],
+    "passive": {
+      "etymology": "古英語 forgiefan に由来。for-（完全に）+ giefan（与える）で「完全に与える＝手放す」が原義。怒りや恨みを「完全に手放す」ことから「許す」という意味になった。",
+      "tips": "forgive の過去形は forgave、過去分詞は forgiven と不規則変化するので注意。また「forgive someone for doing」という構文が基本形。「forgive and forget（許して忘れる）」は定番フレーズ。",
+      "confusables": "excuse（小さな失礼を許す）と混同しないよう注意。forgive はより重大な過ちや感情的な傷を許す場合に使う。excuse me は日常の小さな行為への謝罪、forgive me はより深刻な状況で使う。",
+      "collocations": [
+        "forgive and forget",
+        "forgive a debt",
+        "ask for forgiveness"
+      ],
+      "trivia": "心理学の研究によると、「許すこと（forgiveness）」は許された側よりも許した側の心身の健康に大きなメリットがあるとされている。怒りを手放すことが文字通り「自分のため」になるという科学的事実！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1231,
+    "word": "revise",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "改訂する、修正する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "見直す、再検討する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈvaɪz/",
+    "syllables": "re-vise",
+    "audioHint": "リヴァイズ",
+    "examples": [
+      {
+        "en": "We need to revise the draft before submitting it.",
+        "ja": "提出前に草稿を修正する必要がある。",
+        "blank": "We need to ___ the draft before submitting it.",
+        "blankAnswer": "revise"
+      }
+    ],
+    "distractors": [
+      "実行する",
+      "統合する",
+      "組み込む"
+    ],
+    "confusableSpellings": [
+      "revize",
+      "reviese"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び）+ videre（見る）から。re-「再び」+ vis（見る）＝「もう一度見る」が原義。",
+      "tips": "revise は「内容を変えて修正する」こと。日本人は「review（見直す）」と混同しがちだが、revise は実際に変更を加えるニュアンスが強い。",
+      "confusables": "review は「評価・確認のために見直す」だけで変更を伴わないことも多いが、revise は変更・修正を伴うことが前提。",
+      "collocations": [
+        "revise a draft",
+        "revise an estimate",
+        "revise upward/downward"
+      ],
+      "trivia": "イギリス英語では「試験勉強をする」という意味でも使われる（例：I'm revising for my exams.）。アメリカ英語では study や review を使うため、留学先で戸惑う人も多い。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1232,
+    "word": "recruit",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "募集する、採用する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "新入社員・新兵",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈkruːt/",
+    "syllables": "re-cruit",
+    "audioHint": "リクルート",
+    "examples": [
+      {
+        "en": "The company is recruiting new engineers this spring.",
+        "ja": "その会社は今春、新しいエンジニアを募集している。",
+        "blank": "The company is ___ new engineers this spring.",
+        "blankAnswer": "recruiting"
+      }
+    ],
+    "distractors": [
+      "搾取する",
+      "支持する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "recuit",
+      "recruite"
+    ],
+    "passive": {
+      "etymology": "フランス語 recruter から。ラテン語 re-（再び）+ crescere（成長する）が語源。「再び成長させる＝補充する」が原義。",
+      "tips": "日本語「リクルート」はほぼ定着しているが、英語では動詞・名詞の両方で使える点に注意。「新卒採用」は recruit new graduates と表現する。",
+      "confusables": "hire は即時の雇用、recruit はプロセス全体（探す・選ぶ・採用する）を指すことが多い。",
+      "collocations": [
+        "recruit staff",
+        "recruit volunteers",
+        "recruit from universities"
+      ],
+      "trivia": "「リクルート」は日本では企業名として有名だが、英語圏では完全に一般動詞。外資系の面接で「I want to work in recruiting」と言っても全く違和感なく通じる。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1233,
+    "word": "twist",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ねじる、よじる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "曲がる、ひねる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/twɪst/",
+    "syllables": "twist",
+    "audioHint": "トゥウィスト",
+    "examples": [
+      {
+        "en": "She twisted the cap off the bottle easily.",
+        "ja": "彼女は簡単にボトルのキャップをねじって開けた。",
+        "blank": "She ___ the cap off the bottle easily.",
+        "blankAnswer": "twisted"
+      }
+    ],
+    "distractors": [
+      "押しつぶす",
+      "固定する",
+      "つかむ"
+    ],
+    "confusableSpellings": [
+      "twsit",
+      "tiwst"
+    ],
+    "passive": {
+      "etymology": "古英語 twist（ロープ、より糸）から。古ゲルマン語根 *twis-（二つに分かれた）に由来。「二本の糸を巻き合わせる」が原義。",
+      "tips": "twist one's ankle（足首をひねる）は日常でよく使う表現。「捻挫する」を sprain と言うが、twist は動作そのものを指す。",
+      "confusables": "turn は「回転する」全般、twist は「らせん状にねじる」ニュアンスが強い。物語の「どんでん返し」も a twist と言う。",
+      "collocations": [
+        "twist one's ankle",
+        "twist open",
+        "a plot twist"
+      ],
+      "trivia": "1960年代に大流行したダンス「ツイスト（The Twist）」はこの動詞から命名。チャビー・チェッカーのヒット曲で世界中に広まり、ダンスの代名詞になった。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1234,
+    "word": "crush",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "押しつぶす、砕く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "恋心・片思い",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/krʌʃ/",
+    "syllables": "crush",
+    "audioHint": "クラッシュ",
+    "examples": [
+      {
+        "en": "He crushed the empty can with one hand.",
+        "ja": "彼は空き缶を片手で潰した。",
+        "blank": "He ___ the empty can with one hand.",
+        "blankAnswer": "crushed"
+      }
+    ],
+    "distractors": [
+      "ねじる",
+      "固定する",
+      "引っ張る"
+    ],
+    "confusableSpellings": [
+      "cruch",
+      "chrush"
+    ],
+    "passive": {
+      "etymology": "古フランス語 croissir（砕く、きしむ）から。さらに古ゲルマン語源とされる。「力を加えてつぶす」が核心的な意味。",
+      "tips": "名詞としての crush（片思い）は口語でよく使われる。「have a crush on someone」で「〜に片思いしている」。日本人はこの名詞用法を知らないことが多い。",
+      "confusables": "smash は勢いよく壊す・叩き割るイメージ、crush は圧力をかけてつぶすイメージ。crush garlic（ニンニクをつぶす）はよく使う料理表現。",
+      "collocations": [
+        "crush a can",
+        "crush garlic",
+        "have a crush on"
+      ],
+      "trivia": "「クラッシュ」はカーレースや音楽ジャンル名にも使われるが、スラングでは「完璧にこなす（crush it）」という意味でも使われ、「You crushed it!」は「最高だったよ！」という褒め言葉になる。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1235,
+    "word": "pin",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ピンで留める、固定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "押さえ込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pɪn/",
+    "syllables": "pin",
+    "audioHint": "ピン",
+    "examples": [
+      {
+        "en": "She pinned the note to the bulletin board.",
+        "ja": "彼女はメモを掲示板にピンで留めた。",
+        "blank": "She ___ the note to the bulletin board.",
+        "blankAnswer": "pinned"
+      }
+    ],
+    "distractors": [
+      "ねじる",
+      "押しつぶす",
+      "投げる"
+    ],
+    "confusableSpellings": [
+      "pinn",
+      "piin"
+    ],
+    "passive": {
+      "etymology": "古英語 pinn（くぎ、ピン）から。ラテン語 pinna（羽、とがったもの）とも関連。「とがったもので留める」が原義。",
+      "tips": "pin down は「明確にする・特定する」という比喩的意味でもよく使われる（例：Can you pin down the problem?）。物理的な意味だけと思い込まないこと。",
+      "confusables": "fix は幅広く「固定する」だが、pin は「ピン状のもので」または「圧力で動けなくする」という具体性がある。",
+      "collocations": [
+        "pin to a board",
+        "pin down",
+        "pin one's hopes on"
+      ],
+      "trivia": "SNSの「Pinterest」はまさに pin（留める）+ interest（興味）の造語。お気に入りの画像を「ピン留め」するイメージから名付けられた。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1236,
+    "word": "uncover",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "暴く、発見する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "覆いを取る、露出させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʌnˈkʌvər/",
+    "syllables": "un-cov-er",
+    "audioHint": "アンカヴァー",
+    "examples": [
+      {
+        "en": "Investigators uncovered evidence of fraud.",
+        "ja": "捜査官は詐欺の証拠を暴いた。",
+        "blank": "Investigators ___ evidence of fraud.",
+        "blankAnswer": "uncovered"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "説明する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "undcover",
+      "uncovre"
+    ],
+    "passive": {
+      "etymology": "un-（否定・除去）+ cover（覆う）。「覆いを除去する」が物理的原義で、そこから「隠れていたものを明らかにする」という比喩的意味が発展。",
+      "tips": "uncover は主に「隠されていた事実・真実・陰謀」などを発見する場面で使われる。discover とは異なり、「意図的に隠されていたもの」を暴くニュアンスが強い。",
+      "confusables": "discover は新しいものを初めて見つける感覚、uncover は隠されていたものを暴き出す感覚。スキャンダル報道では uncover が圧倒的によく使われる。",
+      "collocations": [
+        "uncover the truth",
+        "uncover a conspiracy",
+        "uncover evidence"
+      ],
+      "trivia": "ジャーナリズムの世界では uncover が頻出単語。ウォーターゲート事件のような調査報道を「investigative journalism」と呼ぶが、記事中の動詞はほとんど uncover が使われる。"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1237,
+    "word": "exploit",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "搾取する、不当に利用する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（資源などを）活用する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈsplɔɪt/",
+    "syllables": "ex-ploit",
+    "audioHint": "イクスプロイト",
+    "examples": [
+      {
+        "en": "The company was accused of exploiting cheap labor.",
+        "ja": "その会社は安価な労働力を搾取したと非難された。",
+        "blank": "The company was accused of ___ cheap labor.",
+        "blankAnswer": "exploiting"
+      }
+    ],
+    "distractors": [
+      "採用する",
+      "支援する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "expolit",
+      "expliot"
+    ],
+    "passive": {
+      "etymology": "古フランス語 espleiter（実行する、利益を得る）から。ラテン語 explicare（展開する）に由来。名詞 exploit は「武勇伝」の意味もある。",
+      "tips": "exploit は文脈によって「悪用・搾取」と「有効活用」の両方の意味を持つ。ビジネス文書では中立的に使われることもあるが、日常会話では否定的に受け取られやすいので注意。",
+      "confusables": "use や utilize は中立的、exploit は「利益のために（倫理的問題をはらんで）利用する」という含みがある。セキュリティ分野では「脆弱性を突く」意味でも多用される。",
+      "collocations": [
+        "exploit workers",
+        "exploit resources",
+        "exploit a vulnerability"
+      ],
+      "trivia": "サイバーセキュリティの世界では「エクスプロイト（exploit）」はシステムの脆弱性を悪用する攻撃コードそのものを指す専門用語にもなっている。ハッカー映画でよく聞く言葉だ。"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1238,
+    "word": "implement",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "実施する、実行する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "道具、器具",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪmplɪment/",
+    "syllables": "im-ple-ment",
+    "audioHint": "インプリメント",
+    "examples": [
+      {
+        "en": "The government plans to implement the new policy next year.",
+        "ja": "政府は来年、新しい政策を実施する予定だ。",
+        "blank": "The government plans to ___ the new policy next year.",
+        "blankAnswer": "implement"
+      }
+    ],
+    "distractors": [
+      "改訂する",
+      "統合する",
+      "組み込む"
+    ],
+    "confusableSpellings": [
+      "impliment",
+      "implemant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 implementum（充填、完成）から。im-（中に）+ plere（満たす）が語根。「完全に満たす・実現する」が原義。",
+      "tips": "implement は「計画・政策・システムを実際に動かす」場面で使う。「実行する」と言いたいとき do や execute より格式があり、ビジネス・政治文書で特に頻出。",
+      "confusables": "execute は「命令・プログラムを実行する」、implement は「制度・政策・計画を導入・実施する」というニュアンスの差がある。ITではどちらも使われるが文脈が異なる。",
+      "collocations": [
+        "implement a policy",
+        "implement a strategy",
+        "implement changes"
+      ],
+      "trivia": "プログラマーの世界では「実装する」の意味で implement が日常語。「インターフェースを implement する」という使い方は日本のIT業界でもそのまま「インプリ」と略されることがある。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1239,
+    "word": "integrate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "統合する、融合させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（社会に）溶け込ませる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪntɪɡreɪt/",
+    "syllables": "in-te-grate",
+    "audioHint": "インテグレイト",
+    "examples": [
+      {
+        "en": "We need to integrate the two systems into one platform.",
+        "ja": "二つのシステムを一つのプラットフォームに統合する必要がある。",
+        "blank": "We need to ___ the two systems into one platform.",
+        "blankAnswer": "integrate"
+      }
+    ],
+    "distractors": [
+      "改訂する",
+      "実施する",
+      "組み込む"
+    ],
+    "confusableSpellings": [
+      "intergrate",
+      "integrat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 integrare（完全にする）から。integer（完全な、整数）と同じ語根。in-（完全に）+ tangere（触れる）の変形。「バラバラなものを一つの完全な形にする」が原義。",
+      "tips": "integrate は「異なるものを合わせて一体化する」こと。日本人は incorporate と混同しやすいが、integrate はより対等な「融合・統合」、incorporate は「一方が他方を取り込む」イメージ。",
+      "confusables": "incorporate は「既存のものの中に取り込む」一方向的なイメージ、integrate は「複数のものが一体化する」双方向的なイメージ。",
+      "collocations": [
+        "integrate into society",
+        "integrate systems",
+        "integrate data"
+      ],
+      "trivia": "数学の「積分（integration）」も同じ語根から来ている。無数の小さな値を「統合して」一つの面積にする操作が積分なので、言葉の意味と数学の概念が見事に一致している。"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1240,
+    "word": "incorporate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "組み込む、取り入れる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "法人化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈkɔːrpəreɪt/",
+    "syllables": "in-cor-po-rate",
+    "audioHint": "インコーポレイト",
+    "examples": [
+      {
+        "en": "The designer incorporated feedback into the final version.",
+        "ja": "デザイナーはフィードバックを最終版に組み込んだ。",
+        "blank": "The designer ___ feedback into the final version.",
+        "blankAnswer": "incorporated"
+      }
+    ],
+    "distractors": [
+      "改訂する",
+      "実施する",
+      "統合する"
+    ],
+    "confusableSpellings": [
+      "incorporat",
+      "incorperate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 incorporare から。in-（中に）+ corpus（体、corpse と同語根）+ -ate（動詞化）。「体の中に取り込む」が原義で、そこから「組織・内容に取り込む」に発展。",
+      "tips": "incorporate A into B（AをBに組み込む）という構文を覚えると使いやすい。「法人設立」の意味もあり、企業名末尾の「Inc.」はこの語の略。",
+      "confusables": "integrate は「複数のものを対等に融合する」、incorporate は「既存のものの中に新しい要素を取り込む」一方向的なイメージ。レポートに意見を「取り入れる」なら incorporate がぴったり。",
+      "collocations": [
+        "incorporate feedback",
+        "incorporate into a plan",
+        "incorporated company"
+      ],
+      "trivia": "企業名の末尾によく見る「Inc.」は Incorporated の略。アメリカで法人登録した会社はこれをつける義務がある。「Inc.」を見たら「あ、incorporate の略か」と思い出せると単語の記憶が定着しやすい。"
+    },
+    "frequency": 2300,
+    "cefr": "B2"
+  }
+]

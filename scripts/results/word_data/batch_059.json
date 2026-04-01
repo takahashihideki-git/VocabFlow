@@ -1,0 +1,981 @@
+[
+  {
+    "id": 1161,
+    "word": "reef",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "礁、岩礁、珊瑚礁",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/riːf/",
+    "syllables": "reef",
+    "audioHint": "リーフ",
+    "examples": [
+      {
+        "en": "The Great Barrier Reef is the world's largest coral reef.",
+        "ja": "グレートバリアリーフは世界最大のサンゴ礁です。",
+        "blank": "The Great Barrier ___ is the world's largest coral ___.",
+        "blankAnswer": "Reef / reef"
+      }
+    ],
+    "distractors": [
+      "峡谷",
+      "干潟",
+      "氷河"
+    ],
+    "confusableSpellings": [
+      "reaf",
+      "reefe"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 rif（肋骨・岩の列）に由来。海面近くに連なる岩の列が肋骨に見えたことから。",
+      "tips": "reef は可算名詞。「サンゴ礁」は coral reef、「岩礁」は rock reef と組み合わせて使う。leaf（葉）と混同しないよう注意。",
+      "confusables": "leaf（葉）と発音が似ているが、reef は海の岩礁・珊瑚礁を指す全く異なる語。",
+      "collocations": [
+        "coral reef",
+        "barrier reef",
+        "reef fish"
+      ],
+      "trivia": "Great Barrier Reef（グレートバリアリーフ）は宇宙からも見えるほど巨大で、月から見える数少ない生物由来の構造物の一つとも言われている。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1162,
+    "word": "microbe",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "微生物、細菌",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmaɪkroʊb/",
+    "syllables": "mi-crobe",
+    "audioHint": "マイクロウブ",
+    "examples": [
+      {
+        "en": "Some microbes in the gut help digest food.",
+        "ja": "腸内の一部の微生物は食物の消化を助ける。",
+        "blank": "Some ___ in the gut help digest food.",
+        "blankAnswer": "microbes"
+      }
+    ],
+    "distractors": [
+      "細胞組織",
+      "遺伝子配列",
+      "抗体"
+    ],
+    "confusableSpellings": [
+      "microb",
+      "mychrobe",
+      "micrabe"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語の micro-（小さい）＋ bios（生命）を組み合わせた造語。「小さな生命体」という意味。",
+      "tips": "microbe は一般的・口語的な表現。学術的には microorganism が使われることが多い。複数形は microbes。",
+      "confusables": "germ も「細菌・病原菌」の意味で使われるが、germ は病気を引き起こすものに限定されるニュアンスが強く、microbe は有益な微生物も含む。",
+      "collocations": [
+        "gut microbe",
+        "soil microbe",
+        "harmful microbe"
+      ],
+      "trivia": "人間の体内には約37兆個の細胞があるが、腸内微生物はそれを超える数が存在するとも言われている。つまり体は「人間よりも微生物の方が多い」状態。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1163,
+    "word": "excess",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "過剰、余分",
+        "pos": "noun"
+      },
+      {
+        "meaning": "超過した、余分な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈsɛs/",
+    "syllables": "ex-cess",
+    "audioHint": "イクセス",
+    "examples": [
+      {
+        "en": "Eating in excess of your needs leads to weight gain.",
+        "ja": "必要以上に食べることは体重増加につながる。",
+        "blank": "Eating in ___ of your needs leads to weight gain.",
+        "blankAnswer": "excess"
+      }
+    ],
+    "distractors": [
+      "平均値",
+      "限界量",
+      "均等な割合"
+    ],
+    "confusableSpellings": [
+      "execess",
+      "exccess",
+      "exces"
+    ],
+    "passive": {
+      "etymology": "ラテン語 excessus（超えること）から。ex-（外へ）＋ cedere（行く）。「外へ行きすぎること」が原義。",
+      "tips": "in excess of ～ で「～を超えて」という表現がよく使われる。形容詞として excess baggage（超過荷物）のように名詞を修飾することもある。",
+      "confusables": "surplus（余剰）は計画・予算に対して余った分を指し、経済文脈で多用。excess はより一般的で「過ぎた量」全般に使える。",
+      "collocations": [
+        "excess baggage",
+        "in excess of",
+        "excess fat"
+      ],
+      "trivia": "航空会社の「超過荷物料金（excess baggage fee）」は、かつてファーストクラス旅行者への特典として荷物制限が緩かった名残で生まれたシステムとも言われている。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1164,
+    "word": "gallery",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "美術館、画廊",
+        "pos": "noun"
+      },
+      {
+        "meaning": "回廊、長い廊下",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡæləri/",
+    "syllables": "gal-ler-y",
+    "audioHint": "ギャラリー",
+    "examples": [
+      {
+        "en": "She spent the afternoon exploring a modern art gallery.",
+        "ja": "彼女は午後をモダンアートの美術館を巡って過ごした。",
+        "blank": "She spent the afternoon exploring a modern art ___.",
+        "blankAnswer": "gallery"
+      }
+    ],
+    "distractors": [
+      "舞台脚本",
+      "彫刻技法",
+      "詩集"
+    ],
+    "confusableSpellings": [
+      "gallary",
+      "galery",
+      "gallerry"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 galeria（回廊）に由来。元々は建物の側面に設けた長い廊下のことを指し、後に絵画を飾る場所としての意味が派生した。",
+      "tips": "art gallery は「美術館・画廊」の意味で最も頻出。museum との違いは、gallery がより小規模で商業的な展示も含む場合がある点。play to the gallery は「観客受けを狙う」という慣用表現。",
+      "confusables": "museum は博物館・美術館全般を指し規模が大きい。gallery は絵画・写真などを展示する空間で、商業ベースの小規模なものも含む。",
+      "collocations": [
+        "art gallery",
+        "photo gallery",
+        "gallery exhibition"
+      ],
+      "trivia": "「play to the gallery」（観客受けを狙う）という表現は、かつて劇場の安い立ち見席（gallery）にいた騒がしい観客に向けて過剰に演技したことが語源。"
+    },
+    "frequency": 2100,
+    "cefr": "A2"
+  },
+  {
+    "id": 1165,
+    "word": "fame",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "名声、名誉",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/feɪm/",
+    "syllables": "fame",
+    "audioHint": "フェイム",
+    "examples": [
+      {
+        "en": "She rose to fame after her first album was released.",
+        "ja": "彼女は最初のアルバムがリリースされた後に名声を得た。",
+        "blank": "She rose to ___ after her first album was released.",
+        "blankAnswer": "fame"
+      }
+    ],
+    "distractors": [
+      "統治権力",
+      "選挙制度",
+      "国際条約"
+    ],
+    "confusableSpellings": [
+      "faim",
+      "fhame",
+      "faame"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fama（評判、うわさ）から。古フランス語を経て英語に入った。fari（語る）という動詞が語根。",
+      "tips": "fame は不可算名詞なので a fame とは言わない。rise to fame（名声を得る）、claim to fame（有名になった理由）などのフレーズで覚えると実用的。",
+      "confusables": "reputation は日常的な評判（良くも悪くも）、fame は広く世間に知られた名声というポジティブなニュアンスが強い。",
+      "collocations": [
+        "rise to fame",
+        "claim to fame",
+        "hall of fame"
+      ],
+      "trivia": "「Hall of Fame（殿堂）」はスポーツや音楽の世界で偉人を称える施設だが、もともとは古代ギリシャの英雄を記念する神殿の概念に由来している。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1166,
+    "word": "deadline",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "締め切り、期限",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɛdlaɪn/",
+    "syllables": "dead-line",
+    "audioHint": "デッドライン",
+    "examples": [
+      {
+        "en": "The deadline for the assignment is next Friday.",
+        "ja": "課題の締め切りは来週の金曜日です。",
+        "blank": "The ___ for the assignment is next Friday.",
+        "blankAnswer": "deadline"
+      }
+    ],
+    "distractors": [
+      "カリキュラム",
+      "奨学金制度",
+      "単位取得条件"
+    ],
+    "confusableSpellings": [
+      "deadlyne",
+      "dedline",
+      "deadlinne"
+    ],
+    "passive": {
+      "etymology": "dead（死んだ）＋ line（線）の合成語。南北戦争時代の捕虜収容所で、囚人がこの線を越えると射殺されたことに由来するという説が有力。",
+      "tips": "meet a deadline（期限を守る）、miss a deadline（期限を守れない）のセットで覚えると便利。日本語の「デッドライン」はそのままの意味で使われている珍しいカタカナ語。",
+      "confusables": "due date も締め切りを意味するが、due date は提出物や支払いの日付のみ。deadline はプロジェクト全体の最終期限にも使え、より広い文脈で使用できる。",
+      "collocations": [
+        "meet a deadline",
+        "miss a deadline",
+        "set a deadline"
+      ],
+      "trivia": "「deadline」の語源が戦争捕虜収容所の「越えたら死ぬ線」という説は、実は証拠が乏しいとも言われており、語源研究者の間で今も議論が続いている単語の一つ。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1167,
+    "word": "undergraduate",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "学部生、大学生（学士課程）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "学部課程の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌʌndərˈɡrædʒuɪt/",
+    "syllables": "un-der-grad-u-ate",
+    "audioHint": "アンダーグラジュエット",
+    "examples": [
+      {
+        "en": "As an undergraduate, she studied biology at university.",
+        "ja": "学部生として、彼女は大学で生物学を学んだ。",
+        "blank": "As an ___, she studied biology at university.",
+        "blankAnswer": "undergraduate"
+      }
+    ],
+    "distractors": [
+      "博士研究員",
+      "教授資格保持者",
+      "奨学金受給者"
+    ],
+    "confusableSpellings": [
+      "undergratuate",
+      "undergradute",
+      "undergraguate"
+    ],
+    "passive": {
+      "etymology": "under-（下・未満）＋ graduate（卒業した）。「まだ卒業に至っていない段階」という意味。graduate は ラテン語 gradus（段階・階段）に由来。",
+      "tips": "undergraduate は学士課程の学生を指し、大学院生（graduate student）と区別される。口語では undergrad と略されることも多い。",
+      "confusables": "graduate student は大学院生。postgraduate も大学院生を指すが、主にイギリス英語で使われる。undergraduate はあくまで学士課程（4年制学部）の学生。",
+      "collocations": [
+        "undergraduate student",
+        "undergraduate degree",
+        "undergraduate program"
+      ],
+      "trivia": "アメリカの一流大学（例：ハーバード）の学部（undergraduate）合格率は5%を切ることもあるが、大学院（graduate school）は専門分野によっては比較的入りやすい場合もある。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1168,
+    "word": "slavery",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "奴隷制度、奴隷状態",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsleɪvəri/",
+    "syllables": "slav-er-y",
+    "audioHint": "スレイヴァリー",
+    "examples": [
+      {
+        "en": "The abolition of slavery in the US occurred in 1865.",
+        "ja": "アメリカでの奴隷制度廃止は1865年に起きた。",
+        "blank": "The abolition of ___ in the US occurred in 1865.",
+        "blankAnswer": "slavery"
+      }
+    ],
+    "distractors": [
+      "植民地化政策",
+      "選挙権運動",
+      "移民規制法"
+    ],
+    "confusableSpellings": [
+      "slavary",
+      "slavrey",
+      "slaavery"
+    ],
+    "passive": {
+      "etymology": "slave（奴隷）＋ -ery（状態・制度）。slave はスラブ人（Slav）に由来し、中世ヨーロッパでスラブ人が多く奴隷にされたことから生まれた語。",
+      "tips": "slavery は不可算名詞として使うのが基本。「奴隷制度を廃止する」は abolish slavery。現代では比喩的に「wage slavery（賃金奴隷）」のように使われることもある。",
+      "confusables": "servitude も奴隷状態・隷属を意味するが、より法律的・文語的な語。slavery の方が歴史的文脈での一般的な語として広く使われる。",
+      "collocations": [
+        "abolish slavery",
+        "slavery abolition",
+        "modern slavery"
+      ],
+      "trivia": "「slave（奴隷）」という英単語がスラブ人（Slavic people）の名前に由来するという事実は、多くの英語学習者が知らない歴史的事実。当時のヨーロッパでスラブ人が広く奴隷とされた歴史を反映している。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1169,
+    "word": "prey",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "獲物、えじき",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（獲物を）捕食する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/preɪ/",
+    "syllables": "prey",
+    "audioHint": "プレイ",
+    "examples": [
+      {
+        "en": "The eagle spotted its prey from high above.",
+        "ja": "ワシは高い場所から獲物を見つけた。",
+        "blank": "The eagle spotted its ___ from high above.",
+        "blankAnswer": "prey"
+      }
+    ],
+    "distractors": [
+      "生息地域",
+      "繁殖サイクル",
+      "季節的な移動"
+    ],
+    "confusableSpellings": [
+      "pray",
+      "preyy",
+      "prei"
+    ],
+    "passive": {
+      "etymology": "古フランス語 preie（略奪品、獲物）、ラテン語 praeda（戦利品）に由来。predator（捕食者）も同じ語根を持つ。",
+      "tips": "pray（祈る）と発音が全く同じホモフォン（同音異義語）なので文脈で判断する。prey on ～ で「～を獲物にする、～につけ込む」という意味になる。",
+      "confusables": "pray（祈る）と完全に同じ発音（/preɪ/）なので混同しやすい。スペルで区別：prey＝獲物（eyが入る）、pray＝祈る（ayのみ）。",
+      "collocations": [
+        "prey on",
+        "natural prey",
+        "bird of prey"
+      ],
+      "trivia": "「bird of prey（猛禽類）」という表現は詩的で格好いいが、実は法律用語としても使われており、ワシやタカなどを野生保護の文脈で指定するときに公式文書にも登場する。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1170,
+    "word": "mess",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "散らかった状態、混乱",
+        "pos": "noun"
+      },
+      {
+        "meaning": "散らかす、混乱させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/mɛs/",
+    "syllables": "mess",
+    "audioHint": "メス",
+    "examples": [
+      {
+        "en": "The kitchen was a mess after the party.",
+        "ja": "パーティーの後、台所は散らかり放題だった。",
+        "blank": "The kitchen was a ___ after the party.",
+        "blankAnswer": "mess"
+      }
+    ],
+    "distractors": [
+      "日用品の収納",
+      "家具の配置",
+      "衛生管理"
+    ],
+    "confusableSpellings": [
+      "mese",
+      "mes",
+      "messs"
+    ],
+    "passive": {
+      "etymology": "古フランス語 mes（食事、一皿の料理）、ラテン語 missus（送られたもの）に由来。中世では「一皿に盛られた混合物」の意味から「ごちゃまぜ・混乱」へと意味が広がった。",
+      "tips": "名詞では a mess（散らかった状態）、動詞では mess up（台無しにする）、mess around（ふざける）などのフレーズが頻出。「What a mess!」は日常会話でよく使う感嘆文。",
+      "confusables": "clutter は物が多すぎて散らかっている状態（モノの問題）、mess はより広く乱雑・混乱全般（状況にも使える）。disorder は秩序の乱れという抽象的な意味合いが強い。",
+      "collocations": [
+        "make a mess",
+        "clean up the mess",
+        "mess up"
+      ],
+      "trivia": "軍隊の食堂を「mess hall（メスホール）」と呼ぶのは、この語の「食事・一緒に食べる集まり」という古い意味が残ったもの。戦場のごちゃごちゃした食事から「混乱」という意味も生まれた。"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 1171,
+    "word": "recession",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "景気後退",
+        "pos": "noun"
+      },
+      {
+        "meaning": "後退・引き下がり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈsɛʃən/",
+    "syllables": "re-ces-sion",
+    "audioHint": "リセッション",
+    "examples": [
+      {
+        "en": "The country entered a recession after the financial crisis.",
+        "ja": "その国は金融危機の後、景気後退に入った。",
+        "blank": "The country entered a ___ after the financial crisis.",
+        "blankAnswer": "recession"
+      }
+    ],
+    "distractors": [
+      "インフレ（物価上昇）",
+      "財政黒字",
+      "市場の独占"
+    ],
+    "confusableSpellings": [
+      "recesion",
+      "reccession",
+      "recesson"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'recessus'（引き下がること）から。re-（後ろへ）+ cedere（行く・退く）＋ -ion（名詞化）。'recede'（後退する）と同語根。",
+      "tips": "日本語でも「リセッション」とカタカナで使われるが、経済文脈では必ず「景気後退」を意味する。一般的な定義はGDPが2四半期連続でマイナス成長になること。'depression'（大恐慌・深刻な不況）と混同しないよう注意。",
+      "confusables": "'recession'（景気後退：比較的短期）vs 'depression'（大不況：より深刻・長期）vs 'stagnation'（停滞：成長がゼロ付近）。severity（深刻さ）の度合いで使い分ける。",
+      "collocations": [
+        "economic recession",
+        "fall into a recession",
+        "recover from a recession"
+      ],
+      "trivia": "アメリカでは「recession」という言葉を使うかどうかで政治論争になることが多い。大統領が「recession」と口にするだけで株価が下がるため、政府は言葉を慎重に選ぶ。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1172,
+    "word": "retreat",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "退く・撤退する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "隠れ家・静養の場",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈtriːt/",
+    "syllables": "re-treat",
+    "audioHint": "リトリート",
+    "examples": [
+      {
+        "en": "The soldiers retreated to a safer position.",
+        "ja": "兵士たちはより安全な位置へ撤退した。",
+        "blank": "The soldiers ___ to a safer position.",
+        "blankAnswer": "retreated"
+      }
+    ],
+    "distractors": [
+      "近づく・接近する",
+      "対立する・衝突する",
+      "説得する・納得させる"
+    ],
+    "confusableSpellings": [
+      "retreet",
+      "retreit",
+      "retret"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'retraite' から。re-（後ろへ）+ trahere（引く）が語源。「引き戻す」が原義。名詞としては「退避場所」の意味も持つ。",
+      "tips": "動詞と名詞の両方で使われる。名詞の『retreat』は近年「週末の瞑想リトリート」のようなウェルネス用語として日本でも定着。軍事的な「撤退」から精神的な「引きこもり」まで幅広く使える。",
+      "confusables": "'retreat'（自発的・戦略的に退く）vs 'withdraw'（正式・軍事的に撤退する）vs 'escape'（危険から逃げる）。'retreat'は必ずしも敗北を意味しない。",
+      "collocations": [
+        "beat a retreat",
+        "strategic retreat",
+        "mountain retreat"
+      ],
+      "trivia": "ビジネス界では「会社の合宿」を 'corporate retreat' と呼ぶ。日本語の「リトリート」もここから来ている。もともとは修道士が俗世を離れて祈りに集中する場所のことだった。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1173,
+    "word": "grave",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "墓・墓穴",
+        "pos": "noun"
+      },
+      {
+        "meaning": "重大な・深刻な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɡreɪv/",
+    "syllables": "grave",
+    "audioHint": "グレイヴ",
+    "examples": [
+      {
+        "en": "They placed flowers on their grandmother's grave.",
+        "ja": "彼らは祖母の墓に花を供えた。",
+        "blank": "They placed flowers on their grandmother's ___.",
+        "blankAnswer": "grave"
+      }
+    ],
+    "distractors": [
+      "祭壇・神聖な場所",
+      "屋根・天井",
+      "窓・開口部"
+    ],
+    "confusableSpellings": [
+      "greave",
+      "graive",
+      "greve"
+    ],
+    "passive": {
+      "etymology": "古英語 'græf'（穴・溝）から。Proto-Germanic *grabą に由来し「掘る」が原義。形容詞の'grave'（深刻な）はラテン語 'gravis'（重い）から来た別語源の同形異義語。",
+      "tips": "名詞「墓」と形容詞「深刻な」はスペルが同じで発音も同じだが、全く別の語源を持つ同形異義語（homograph）。形容詞としての『grave situation』（深刻な状況）も重要表現。",
+      "confusables": "'grave'（個人の墓・埋葬穴）vs 'tomb'（墓石・霊廟など構造物）vs 'cemetery'（墓地・墓場全体）。'tomb'はより立派・歴史的な印象がある。",
+      "collocations": [
+        "dig a grave",
+        "grave danger",
+        "beyond the grave"
+      ],
+      "trivia": "英語には 'one foot in the grave'（片足を棺桶に突っ込んでいる＝死にかけている）という慣用句がある。またフランス語のアクサン・グラーブ（` ）もこの単語が語源で「重い」アクセントを意味する。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1174,
+    "word": "column",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "コラム・記事欄",
+        "pos": "noun"
+      },
+      {
+        "meaning": "円柱・柱",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒləm/",
+    "syllables": "col-umn",
+    "audioHint": "コラム",
+    "examples": [
+      {
+        "en": "She writes a weekly column for the newspaper.",
+        "ja": "彼女は新聞に週刊コラムを書いている。",
+        "blank": "She writes a weekly ___ for the newspaper.",
+        "blankAnswer": "column"
+      }
+    ],
+    "distractors": [
+      "主題・テーマ",
+      "序文・まえがき",
+      "絵画・イラスト"
+    ],
+    "confusableSpellings": [
+      "colum",
+      "coloumn",
+      "columm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'columna'（柱）から。建築の「柱」が原義で、そこから縦に並ぶもの全般（新聞の段組み、表計算の列など）に意味が広がった。",
+      "tips": "スペルで注意が必要なのは語末の 'mn'。'n' は発音しないが綴りには必要。'colum' と書くミスが多い。新聞・表計算・建築・軍隊の縦列など幅広い文脈で使われる多義語。",
+      "confusables": "'column'（縦の並び・欄）vs 'row'（横の並び・行）。Excelで 'column A' は縦の列、'row 1' は横の行。日本語でも列と行を混同するのと同じ感覚で間違えやすい。",
+      "collocations": [
+        "opinion column",
+        "spinal column",
+        "column of smoke"
+      ],
+      "trivia": "ギリシャ・ローマ建築の「柱」を意味したこの語が、なぜ新聞記事を指すようになったかというと、初期の新聞が縦長の段組み（柱のような形）で印刷されていたため。建築から語彙が生まれた面白い例。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1175,
+    "word": "scenery",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "景色・風景",
+        "pos": "noun"
+      },
+      {
+        "meaning": "舞台背景・セット",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsiːnəri/",
+    "syllables": "scen-er-y",
+    "audioHint": "スィーナリ",
+    "examples": [
+      {
+        "en": "The mountain scenery was absolutely breathtaking.",
+        "ja": "山の景色は本当に息をのむほど美しかった。",
+        "blank": "The mountain ___ was absolutely breathtaking.",
+        "blankAnswer": "scenery"
+      }
+    ],
+    "distractors": [
+      "気候・天候の状態",
+      "地形・地質構造",
+      "植物・植生"
+    ],
+    "confusableSpellings": [
+      "scenory",
+      "scenary",
+      "sceenery"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'skēnē'（テントや舞台）から。ラテン語 'scaena'（舞台）→ 英語 'scene' に -ry（集合・総称を表す接尾辞）が付いた形。",
+      "tips": "不可算名詞なので 'a scenery' や 'sceneries' とは言わない。「景色をひとつ見た」は 'a piece of scenery' や 'some scenery' と言う。'view'（特定の方向から見た眺め）や 'landscape'（地形込みの景観）と区別して使う。",
+      "confusables": "'scenery'（視覚的な風景の総体・雰囲気）vs 'landscape'（地形・土地の形状を含む景観）vs 'view'（特定の場所からの眺め）。『美しい景色を楽しむ』は 'enjoy the scenery' が最自然。",
+      "collocations": [
+        "beautiful scenery",
+        "enjoy the scenery",
+        "mountain scenery"
+      ],
+      "trivia": "演劇用語としての 'scenery'（舞台背景）は今でも使われる。映画の舞台裏では 'scenery chewer'（大げさに演じる俳優）という表現もあり、これは舞台セットを食い破るほど大げさという意味のユーモア表現。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1176,
+    "word": "plot",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "筋書き・プロット",
+        "pos": "noun"
+      },
+      {
+        "meaning": "陰謀・企て",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/plɒt/",
+    "syllables": "plot",
+    "audioHint": "プロット",
+    "examples": [
+      {
+        "en": "The movie has a very complex plot with many twists.",
+        "ja": "その映画は多くのどんでん返しがある非常に複雑な筋書きだ。",
+        "blank": "The movie has a very complex ___ with many twists.",
+        "blankAnswer": "plot"
+      }
+    ],
+    "distractors": [
+      "登場人物・キャラクター",
+      "映像・映像技法",
+      "音楽・サウンドトラック"
+    ],
+    "confusableSpellings": [
+      "plott",
+      "plote",
+      "plott"
+    ],
+    "passive": {
+      "etymology": "中英語の 'plot'（土地の区画）から。「小さな土地の区画」→「計画の区画・図面」→「陰謀の計画」→「物語の構成」と意味が拡張してきた。動詞としても「グラフに点を打つ」「地図に記す」意味がある。",
+      "tips": "名詞・動詞ともに頻出の多義語。小説・映画の「プロット」として日本語でも定着しているが、「陰謀」の意味も重要。動詞では 'plot a graph'（グラフを描く）や 'plot against someone'（〜に対して陰謀を企てる）とも使う。",
+      "confusables": "'plot'（物語全体の構成・展開）vs 'story'（登場人物が経験することの連続）vs 'theme'（作品が伝えようとするメッセージ）。文学批評では 'plot ≠ story' と厳密に区別されることがある。",
+      "collocations": [
+        "plot twist",
+        "plot a course",
+        "plot against"
+      ],
+      "trivia": "「plot twist」はSNSで「まさかの展開」を表す言葉として大流行した。現実の出来事に対して 'plot twist:' と書くだけでドラマチックな感じが出るため、ミーム文化の一部になっている。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1177,
+    "word": "sculpture",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "彫刻・彫刻作品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "彫刻すること・彫刻術",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈskʌlptʃər/",
+    "syllables": "sculp-ture",
+    "audioHint": "スカルプチャー",
+    "examples": [
+      {
+        "en": "The museum displays ancient sculptures from Greece.",
+        "ja": "その美術館はギリシャの古代彫刻を展示している。",
+        "blank": "The museum displays ancient ___ from Greece.",
+        "blankAnswer": "sculptures"
+      }
+    ],
+    "distractors": [
+      "絵画・平面作品",
+      "建築物・建造物",
+      "工芸品・陶器"
+    ],
+    "confusableSpellings": [
+      "sculture",
+      "scuplture",
+      "sculptur"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sculptura' から。'sculpere'（刻む・彫る）＋ -ura（行為・結果を表す接尾辞）。'sculpt'（彫刻する）という動詞も同語根から生まれた比較的新しい逆成語。",
+      "tips": "スペルが難しく、'sculp' の部分で 'lp' を抜かすミスが多い。発音は「スカルプチャー」で 'l' をはっきり発音する。動詞は 'sculpt' だが 'sculpture' も動詞として使える（例：He sculptured the figure.）。",
+      "confusables": "'sculpture'（立体的な造形作品全般）vs 'statue'（人物・動物など具象的な彫像）vs 'carving'（木や石を削って作った彫り物）。'statue of Liberty' は具体的な人物をモデルにしているので 'sculpture' より 'statue' が適切。",
+      "collocations": [
+        "bronze sculpture",
+        "abstract sculpture",
+        "sculpture garden"
+      ],
+      "trivia": "ミケランジェロは「彫刻とは石の中に眠っている像を解放することだ」と言ったとされる。英語では 'chip away at' という表現があり、「余分なものを少しずつ削る」という意味で、目標達成のメタファーとしても使われる。"
+    },
+    "frequency": 4800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1178,
+    "word": "tablet",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "タブレット端末",
+        "pos": "noun"
+      },
+      {
+        "meaning": "錠剤・タブレット",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtæblɪt/",
+    "syllables": "tab-let",
+    "audioHint": "タブリット",
+    "examples": [
+      {
+        "en": "She reads e-books on her tablet every night.",
+        "ja": "彼女は毎晩タブレットで電子書籍を読む。",
+        "blank": "She reads e-books on her ___ every night.",
+        "blankAnswer": "tablet"
+      }
+    ],
+    "distractors": [
+      "ネットワーク接続機器",
+      "データ保存装置",
+      "入力用キーボード"
+    ],
+    "confusableSpellings": [
+      "tablette",
+      "tablit",
+      "tabblet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'tabula'（板・平らな面）の縮小形 'tabella' から古フランス語を経て英語へ。「小さな板」が原義で、石板・書き板・錠剤（圧縮した平らな物）→ タブレット端末と意味が拡張してきた。",
+      "tips": "日本語の「タブレット」はカタカナ英語として「タブレット」と発音するが、英語では「タブ」の部分にアクセントがあり「タブリット」に近い。また「錠剤」の意味を忘れがちだが、医療英語では非常に重要。",
+      "confusables": "'tablet'（圧縮された薬の錠剤・タブレット端末）vs 'pill'（コーティングされた小粒の薬）vs 'capsule'（カプセル型の薬）。薬局での会話では使い分けが必要。",
+      "collocations": [
+        "tablet computer",
+        "take a tablet",
+        "stone tablet"
+      ],
+      "trivia": "古代メソポタミアでは粘土板（clay tablet）に楔形文字を刻んで記録を残した。人類最初の「タブレット」は約5000年前の粘土板。現代のタブレット端末は形は変わっても「情報を持ち歩く板」という本質は同じという面白い連続性がある。"
+    },
+    "frequency": 3100,
+    "cefr": "A2"
+  },
+  {
+    "id": 1179,
+    "word": "dense",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "密集した・濃い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "難解な・内容の濃い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dɛns/",
+    "syllables": "dense",
+    "audioHint": "デンス",
+    "examples": [
+      {
+        "en": "The forest was so dense that we lost our way.",
+        "ja": "森は非常に密集していて、私たちは道に迷った。",
+        "blank": "The forest was so ___ that we lost our way.",
+        "blankAnswer": "dense"
+      }
+    ],
+    "distractors": [
+      "透明な・澄んだ",
+      "柔軟な・しなやかな",
+      "穏やかな・温和な"
+    ],
+    "confusableSpellings": [
+      "dence",
+      "dens",
+      "danse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'densus'（詰まった・厚い）から直接英語へ。印欧祖語の語根 *dens-（密集した）に由来。名詞形 'density'（密度）、副詞形 'densely'（密集して）も同語根。",
+      "tips": "「密集した」の意味が最も基本だが、「（本・文章が）内容が詰まった・難解な」という意味も重要。また俗語で「頭が鈍い・鈍感な」（= thick, dull）という意味もある。'dense fog'（濃霧）は天気予報でも頻出。",
+      "confusables": "'dense'（密度が高く詰まっている）vs 'thick'（物理的な厚みや濃度がある）vs 'compact'（小さくぎっしり詰まっている）。'dense forest' と 'thick forest' はほぼ同じ意味だが、'compact' は物の詰まり方に注目する場合に使う。",
+      "collocations": [
+        "dense fog",
+        "dense population",
+        "dense forest"
+      ],
+      "trivia": "「あいつ dense だよね」と英語ネイティブが言うと「鈍い・察しが悪い」という意味のスラング。日本語の「空気が読めない」に近い。物理学の「密度」を表す density もこの語から来ており、ブラックホールが究極の 'dense' 天体として知られる。"
+    },
+    "frequency": 3700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1180,
+    "word": "exotic",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "異国風の・エキゾチックな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "珍しい・風変わりな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzɒtɪk/",
+    "syllables": "ex-ot-ic",
+    "audioHint": "イグゾティック",
+    "examples": [
+      {
+        "en": "The market sold exotic fruits from tropical countries.",
+        "ja": "その市場では熱帯諸国からの珍しい果物を売っていた。",
+        "blank": "The market sold ___ fruits from tropical countries.",
+        "blankAnswer": "exotic"
+      }
+    ],
+    "distractors": [
+      "古風な・時代遅れの",
+      "身近な・親しみやすい",
+      "活発な・エネルギッシュな"
+    ],
+    "confusableSpellings": [
+      "exoctic",
+      "exotik",
+      "exsotic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'exōtikos'（外から来た）から。'exō'（外へ）＋ -tikos（形容詞語尾）。ラテン語 'exoticus' を経て英語へ。「外の世界から来た」が原義。",
+      "tips": "日本語の「エキゾチック」とほぼ同じ感覚で使えるが、英語では「異国風でありながら魅力的・興味深い」というポジティブなニュアンスが強い。ただし人種に対して使うと差別的・偏見的に受け取られる場合があるため注意が必要。",
+      "confusables": "'exotic'（外国由来で珍しく魅力的）vs 'foreign'（外国の・外来の、ニュートラルな表現）vs 'alien'（異質な・なじみのない、やや否定的なニュアンスも）。人に対しては 'exotic' より 'from a different culture' などを使う方が安全。",
+      "collocations": [
+        "exotic animals",
+        "exotic destination",
+        "exotic cuisine"
+      ],
+      "trivia": "生物学では 'exotic species'（外来種）という専門用語として使われる。日本のミドリガメ（アカミミガメ）や外来植物なども英語では 'exotic species' と呼ばれ、必ずしもポジティブな意味ではない。同じ単語が文脈によって「魅力的な」にも「厄介な」にもなる。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  }
+]

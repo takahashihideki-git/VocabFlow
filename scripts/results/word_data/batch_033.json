@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 641,
+    "word": "sequence",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "順序、連続",
+        "pos": "noun"
+      },
+      {
+        "meaning": "一連の出来事",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsiːkwəns/",
+    "syllables": "se-quence",
+    "audioHint": "スィークウェンス",
+    "examples": [
+      {
+        "en": "Follow the sequence of steps carefully to complete the task.",
+        "ja": "タスクを完了するには、手順の順序に注意して従ってください。",
+        "blank": "Follow the ___ of steps carefully to complete the task.",
+        "blankAnswer": "sequence"
+      }
+    ],
+    "distractors": [
+      "量、数量",
+      "距離、間隔",
+      "速度、ペース"
+    ],
+    "confusableSpellings": [
+      "sequance",
+      "seqence",
+      "sequnce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'sequi'（従う・続く）＋ '-ence'（名詞化接尾辞）。「続いていくもの」が原義。",
+      "tips": "「シークエンス」と日本語でも使われるが、英語発音は『スィークウェンス』に近い。映画の「シーン」との違いに注意：sequenceは複数シーンのまとまりを指すことが多い。",
+      "confusables": "series との違い：sequence は順番・順序が重要な連続、series は同種のものの集まりというニュアンス。'in sequence'（順番通りに）という表現で覚えると便利。",
+      "collocations": [
+        "in sequence（順番に）",
+        "DNA sequence（DNA配列）",
+        "sequence of events（一連の出来事）"
+      ],
+      "trivia": "映画用語でも「sequence」は使われ、アクションシーンのまとまりを「action sequence」と呼ぶ。数学の「数列」も同じ単語！"
+    },
+    "frequency": 1200,
+    "cefr": "B2"
+  },
+  {
+    "id": 642,
+    "word": "therapy",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "療法、治療",
+        "pos": "noun"
+      },
+      {
+        "meaning": "心理療法",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈθɛrəpi/",
+    "syllables": "ther-a-py",
+    "audioHint": "セラピー",
+    "examples": [
+      {
+        "en": "She started therapy to help manage her anxiety.",
+        "ja": "彼女は不安を管理するためにセラピーを始めた。",
+        "blank": "She started ___ to help manage her anxiety.",
+        "blankAnswer": "therapy"
+      }
+    ],
+    "distractors": [
+      "症状、兆候",
+      "診断、検査",
+      "感染、汚染"
+    ],
+    "confusableSpellings": [
+      "theraphy",
+      "therepy",
+      "tharapy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'therapeia'（世話・治療）から。'theraps'（従者・世話人）が語根で、「体の世話をすること」が原義。",
+      "tips": "日本語の「セラピー」より語頭の発音が「th（θ）」になることに注意。'treatment'（医学的治療）と違い、therapy は継続的なプロセスを指す場合が多い。",
+      "confusables": "treatment は薬や手術などの具体的な処置、therapy は継続的なリハビリや心理的アプローチを指すことが多い。physical therapy（理学療法）、speech therapy（言語療法）のように種類が豊富。",
+      "collocations": [
+        "physical therapy（理学療法）",
+        "in therapy（セラピー中）",
+        "therapy session（セラピーのセッション）"
+      ],
+      "trivia": "「retail therapy（ショッピングで気晴らし）」という面白い表現がある。ストレス解消にショッピングすることを皮肉っぽく「治療」と表現している！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 643,
+    "word": "symptom",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "症状、兆候",
+        "pos": "noun"
+      },
+      {
+        "meaning": "表れ、しるし",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪmptəm/",
+    "syllables": "symp-tom",
+    "audioHint": "スィンプトム",
+    "examples": [
+      {
+        "en": "Fever is a common symptom of the flu.",
+        "ja": "発熱はインフルエンザの一般的な症状だ。",
+        "blank": "Fever is a common ___ of the flu.",
+        "blankAnswer": "symptom"
+      }
+    ],
+    "distractors": [
+      "治療法、療法",
+      "予防接種、ワクチン",
+      "診断、診察"
+    ],
+    "confusableSpellings": [
+      "symtom",
+      "symptome",
+      "simptom"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'symptoma'（偶然の出来事・症状）から。'syn-'（共に）＋ 'piptein'（落ちる）が語源で「同時に起こること」が原義。",
+      "tips": "綴りに注意：'symp-tom' と 'p' が隠れている。発音は「スィンプトム」で 'p' は軽く発音する。複数形は symptoms（s を忘れずに）。",
+      "confusables": "sign との違い：symptom は患者が感じる主観的なもの（痛み・だるさ）、sign は医師が観察できる客観的なもの（血圧・腫れ）。医学的文脈では区別が重要。",
+      "collocations": [
+        "common symptom（一般的な症状）",
+        "show symptoms（症状を示す）",
+        "symptom of（〜の症状）"
+      ],
+      "trivia": "「symptom」は医学用語だけでなく「社会問題の症状」のように比喩的にも使われる。例：'This crime is a symptom of poverty.'（この犯罪は貧困の表れだ）"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 644,
+    "word": "incident",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "出来事、事件",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（外交上の）紛争",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪnsɪdənt/",
+    "syllables": "in-ci-dent",
+    "audioHint": "インシデント",
+    "examples": [
+      {
+        "en": "The police investigated the incident near the school.",
+        "ja": "警察は学校近くの事件を調査した。",
+        "blank": "The police investigated the ___ near the school.",
+        "blankAnswer": "incident"
+      }
+    ],
+    "distractors": [
+      "判決、裁定",
+      "規則、条例",
+      "証言、証拠"
+    ],
+    "confusableSpellings": [
+      "incedent",
+      "insident",
+      "incidant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'incidere'（落ちかかる・起こる）から。'in-'（上に）＋ 'cadere'（落ちる）が語根。「突然降りかかる出来事」が原義。",
+      "tips": "event（計画的な行事）と異なり、incident は予期せぬ、しばしばネガティブな出来事に使う。IT分野では「システム障害・セキュリティ事案」を指す「インシデント」としても定着している。",
+      "confusables": "accident（事故・偶然）との違い：incident はより広い意味で「出来事・事案」、accident は特に不慮の事故を指す。'incident report'（事案報告書）は職場でよく使う表現。",
+      "collocations": [
+        "incident report（事案報告書）",
+        "security incident（セキュリティ事案）",
+        "without incident（問題なく）"
+      ],
+      "trivia": "外交の世界では「incident」が非常に重い言葉で、国家間の小さな衝突や摩擦を指す。歴史的な「盧溝橋事件」も英語では'Marco Polo Bridge Incident'と呼ばれる。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 645,
+    "word": "witness",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "目撃者、証人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "目撃する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈwɪtnɪs/",
+    "syllables": "wit-ness",
+    "audioHint": "ウィットネス",
+    "examples": [
+      {
+        "en": "A witness saw the suspect leave the building.",
+        "ja": "目撃者は容疑者がビルを出るのを見た。",
+        "blank": "A ___ saw the suspect leave the building.",
+        "blankAnswer": "witness"
+      }
+    ],
+    "distractors": [
+      "被告、容疑者",
+      "判事、裁判官",
+      "弁護士、代理人"
+    ],
+    "confusableSpellings": [
+      "witniss",
+      "witnes",
+      "witiness"
+    ],
+    "passive": {
+      "etymology": "古英語 'witnes'（知識・証言）から。'wit'（知る・知恵）＋ '-ness'（名詞化接尾辞）が語源。「知っていること」が原義。",
+      "tips": "名詞（目撃者）と動詞（目撃する）の両方で使える。動詞として使う時：'I witnessed the accident.'（私はその事故を目撃した）。'bear witness to'（〜の証言をする）は重要な慣用表現。",
+      "confusables": "bystander（傍観者）との違い：witness は見た・知っている人で証言能力がある、bystander はたまたまそこにいた人というニュアンス。法廷では witness が正式な用語。",
+      "collocations": [
+        "eyewitness（目撃者）",
+        "witness statement（証人陳述）",
+        "bear witness（証言する）"
+      ],
+      "trivia": "宗教的文脈では「Jehovah's Witnesses（エホバの証人）」の「証人」もこの単語。神の存在を「証言する人」という意味から来ている。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 646,
+    "word": "sum",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "合計、総額",
+        "pos": "noun"
+      },
+      {
+        "meaning": "合計する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sʌm/",
+    "syllables": "sum",
+    "audioHint": "サム",
+    "examples": [
+      {
+        "en": "The sum of all expenses exceeded our budget.",
+        "ja": "全費用の合計が予算を超えた。",
+        "blank": "The ___ of all expenses exceeded our budget.",
+        "blankAnswer": "sum"
+      }
+    ],
+    "distractors": [
+      "割合、比率",
+      "平均、中間値",
+      "差、引き算の結果"
+    ],
+    "confusableSpellings": [
+      "summ",
+      "som",
+      "sume"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'summa'（最高・全体の合計）から。'summus'（最高の）が語根で、古代ローマで計算を一番上の行に書いていた習慣に由来。",
+      "tips": "同音異義語 'some'（いくつかの）と混同しないよう注意。'sum up'（要約する）という動詞句は非常によく使われる。数学の「和」を指す場合と、お金の「金額」を指す場合がある。",
+      "confusables": "total との違い：sum は主に数値の足し算の結果、total はより広く「全体・すべて」を指す。'a large sum of money'（多額のお金）は慣用表現として定着している。",
+      "collocations": [
+        "sum up（要約する）",
+        "lump sum（一括払い）",
+        "sum of money（金額）"
+      ],
+      "trivia": "'In sum'（要するに）という表現は論文や演説の締めくくりによく登場する。'sum'は1文字の単純な単語なのに、数学から法律、日常会話まで幅広く使われる万能選手！"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 647,
+    "word": "burden",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "重荷、負担",
+        "pos": "noun"
+      },
+      {
+        "meaning": "重荷を負わせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈbɜːrdən/",
+    "syllables": "bur-den",
+    "audioHint": "バーデン",
+    "examples": [
+      {
+        "en": "She didn't want to be a burden to her family.",
+        "ja": "彼女は家族に迷惑をかけたくなかった。",
+        "blank": "She didn't want to be a ___ to her family.",
+        "blankAnswer": "burden"
+      }
+    ],
+    "distractors": [
+      "誇り、自尊心",
+      "義務、責任感",
+      "好奇心、興味"
+    ],
+    "confusableSpellings": [
+      "burdon",
+      "borden",
+      "burdern"
+    ],
+    "passive": {
+      "etymology": "古英語 'byrthen'（荷物・重荷）から。'beran'（運ぶ・持つ）が語根で、「運ばなければならないもの」が原義。",
+      "tips": "物理的な「重い荷物」だけでなく、精神的・経済的な「負担」にも使う。'burden of proof'（立証責任）は法律用語として頻出。日本語の「迷惑をかける」は 'be a burden on someone' で表現できる。",
+      "confusables": "load との違い：load は物理的な荷物・積み荷、burden は重さや苦労を伴う「負担」というニュアンスが強い。emotional burden（精神的負担）のように心理的文脈で特に使われる。",
+      "collocations": [
+        "burden of proof（立証責任）",
+        "financial burden（経済的負担）",
+        "bear a burden（重荷を負う）"
+      ],
+      "trivia": "法律用語'burden of proof'は「証拠を出す責任は訴える側にある」という原則。英米法の根本的な考え方で、「疑わしきは罰せず」の概念と深く結びついている。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  },
+  {
+    "id": 648,
+    "word": "tone",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "口調、雰囲気",
+        "pos": "noun"
+      },
+      {
+        "meaning": "音色、音調",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/toʊn/",
+    "syllables": "tone",
+    "audioHint": "トウン",
+    "examples": [
+      {
+        "en": "Her tone of voice made it clear she was angry.",
+        "ja": "彼女の口調から怒っていることは明らかだった。",
+        "blank": "Her ___ of voice made it clear she was angry.",
+        "blankAnswer": "tone"
+      }
+    ],
+    "distractors": [
+      "信念、確信",
+      "動機、目的",
+      "感情、情緒"
+    ],
+    "confusableSpellings": [
+      "toan",
+      "toone",
+      "tonne"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'tonos'（伸ばすこと・張力）から。弦を張ることで音程が生まれるイメージ。ラテン語 'tonus' を経て英語へ。",
+      "tips": "'tone'は音楽・色彩・態度・文章スタイルなど非常に多義的。'tone down'（和らげる・落ち着かせる）、'set the tone'（雰囲気を決める）などの句動詞も重要。メールの文体を指して 'the tone of the email' とも使う。",
+      "confusables": "tune との違い：tune はメロディー・曲（'in tune' = 音程が合っている）、tone は音質・口調・雰囲気。'ringtone'（着信音）は tone の合成語。",
+      "collocations": [
+        "tone of voice（声のトーン）",
+        "set the tone（雰囲気を決める）",
+        "tone down（和らげる）"
+      ],
+      "trivia": "色の世界では「トーン」は明度と彩度を組み合わせた概念。日本のカラー教育では「ビビッドトーン」「ペールトーン」など和製英語的な使い方が発展している！"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 649,
+    "word": "honor",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "名誉、誇り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "敬意を表する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɒnər/",
+    "syllables": "hon-or",
+    "audioHint": "オナー",
+    "examples": [
+      {
+        "en": "It is a great honor to receive this award.",
+        "ja": "この賞を受賞することは大変な名誉です。",
+        "blank": "It is a great ___ to receive this award.",
+        "blankAnswer": "honor"
+      }
+    ],
+    "distractors": [
+      "恥辱、屈辱",
+      "義務、義理",
+      "慈悲、思いやり"
+    ],
+    "confusableSpellings": [
+      "honer",
+      "honur",
+      "honar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'honos / honor'（名誉・尊重）から直接英語へ。古フランス語 'onor' を経由。語頭の 'h' はラテン語回帰によるもの。",
+      "tips": "アメリカ英語は 'honor'、イギリス英語は 'honour'（u あり）。'h'は発音しない（'an honor' と不定冠詞は 'an' を使う）ことに注意！日本人は 'a honor' と言いがちなので要注意。",
+      "confusables": "pride との違い：honor は他者から認められる外部的な名誉、pride は自分自身が感じる内部的な誇り。'honor system'（名誉制度・自己申告制）は試験のカンニング防止制度として英米の学校で普及している。",
+      "collocations": [
+        "in honor of（〜を記念して）",
+        "honor system（名誉制度）",
+        "word of honor（名誉にかけての誓い）"
+      ],
+      "trivia": "'honors class'（優等クラス）や'honors degree'（優等学位）のように教育の場でも頻出。ラスベガスのカジノには'honor bar'（自己申告ミニバー）があるホテルも！"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 650,
+    "word": "award",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "賞、賞品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "授与する、与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈwɔːrd/",
+    "syllables": "a-ward",
+    "audioHint": "アウォード",
+    "examples": [
+      {
+        "en": "She was awarded first prize in the competition.",
+        "ja": "彼女はコンクールで一位を受賞した。",
+        "blank": "She was ___ first prize in the competition.",
+        "blankAnswer": "awarded"
+      }
+    ],
+    "distractors": [
+      "罰する、制裁を与える",
+      "拒否する、断る",
+      "批判する、非難する"
+    ],
+    "confusableSpellings": [
+      "awerd",
+      "awward",
+      "awarrd"
+    ],
+    "passive": {
+      "etymology": "古北フランス語 'awarder'（決定する・裁定する）から。'a-'（〜に向かって）＋ 'warder'（見張る・監視する）が語源で、「審査して決める」が原義。",
+      "tips": "名詞（賞）と動詞（授与する）の両方で使える。動詞として使う際は受動態 'be awarded'（〜を授与される）の形がよく使われる。'reward'（報酬）と混同しやすいが、award はより公式・公的な場での授与を指す。",
+      "confusables": "reward との違い：reward は努力や行動に対する報酬・お礼、award はコンテストや審査を経て公式に与えられる賞。'prize'はゲームや競争の賞金・賞品。",
+      "collocations": [
+        "award ceremony（授賞式）",
+        "win an award（賞を受賞する）",
+        "award-winning（受賞した）"
+      ],
+      "trivia": "アカデミー賞は正式には'The Academy Awards'。'Oscar'はニックネームで、トロフィーの形が「叔父のオスカーに似ている」と言った職員の発言が由来という説がある！"
+    },
+    "frequency": 950,
+    "cefr": "A2"
+  },
+  {
+    "id": 651,
+    "word": "priority",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "優先事項",
+        "pos": "noun"
+      },
+      {
+        "meaning": "優先権",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/praɪˈɔːrɪti/",
+    "syllables": "pri-or-i-ty",
+    "audioHint": "プライオーリティ",
+    "examples": [
+      {
+        "en": "Health should always be your top priority.",
+        "ja": "健康は常にあなたの最優先事項であるべきだ。",
+        "blank": "Health should always be your top ___.",
+        "blankAnswer": "priority"
+      }
+    ],
+    "distractors": [
+      "論理的な推論",
+      "例外的な状況",
+      "手がかり・ヒント"
+    ],
+    "confusableSpellings": [
+      "priorty",
+      "prioritiy",
+      "prioreity"
+    ],
+    "passive": {
+      "etymology": "ラテン語 prior（前の・上位の）＋ -ity（名詞化接尾辞）。prior は「前に来るもの」を意味し、priority は「他より先に来るべき事柄」。",
+      "tips": "「優先する」という動詞は prioritize。日本人は「プライオリティを持つ」と言いがちだが、英語では give priority to ～ や make ～ a priority の形が自然。",
+      "confusables": "preference（好み・選好）と混同しやすいが、priority は「やるべき順序の高さ」、preference は「好きかどうか」のニュアンス。",
+      "collocations": [
+        "top priority",
+        "give priority to",
+        "set priorities"
+      ],
+      "trivia": "IT・ビジネスの現場では「プライオリティ高め」という和製英語が普及しているが、英語圏では high priority と言う。スタートアップ文化でよく使われる buzzword の一つ。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 652,
+    "word": "logic",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "論理",
+        "pos": "noun"
+      },
+      {
+        "meaning": "論理学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlɒdʒɪk/",
+    "syllables": "log-ic",
+    "audioHint": "ロジック",
+    "examples": [
+      {
+        "en": "I can't follow the logic of his argument.",
+        "ja": "彼の主張の論理についていけない。",
+        "blank": "I can't follow the ___ of his argument.",
+        "blankAnswer": "logic"
+      }
+    ],
+    "distractors": [
+      "優先事項",
+      "絆・結びつき",
+      "手がかり・ヒント"
+    ],
+    "confusableSpellings": [
+      "logik",
+      "loggic",
+      "logics"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 logos（言葉・理性・論理）＋ -ic（形容詞・名詞化接尾辞）。logos はもともと「言葉」を意味し、そこから「理性的な思考」へ発展した。",
+      "tips": "日本語でも「ロジック」と使われるが、英語では不可算名詞が基本。× logics とは言わない（プログラミング用語は除く）。形容詞は logical。",
+      "confusables": "reason（理由・理性）と似ているが、logic は「推論の体系・筋道」、reason は「特定の理由や判断力」を指す。",
+      "collocations": [
+        "follow the logic",
+        "logical thinking",
+        "apply logic"
+      ],
+      "trivia": "「ロジック」はラップアーティストの芸名にもなっており、哲学的な意味とポップカルチャーが交差する稀有な単語。古代ギリシャのアリストテレスが体系化した学問が起源。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 653,
+    "word": "minimum",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "最小限",
+        "pos": "noun"
+      },
+      {
+        "meaning": "最低限度",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmɪnɪməm/",
+    "syllables": "min-i-mum",
+    "audioHint": "ミニマム",
+    "examples": [
+      {
+        "en": "Keep expenses to a minimum this month.",
+        "ja": "今月は支出を最小限に抑えてください。",
+        "blank": "Keep expenses to a ___ this month.",
+        "blankAnswer": "minimum"
+      }
+    ],
+    "distractors": [
+      "最大値",
+      "平均的な数量",
+      "一定の割合"
+    ],
+    "confusableSpellings": [
+      "minimun",
+      "minumum",
+      "minimium"
+    ],
+    "passive": {
+      "etymology": "ラテン語 minimus（最も小さい）の中性形。minus（より少ない）の最上級にあたる。対義語は maximum（maximus：最も大きい）。",
+      "tips": "形容詞としても使える（minimum wage：最低賃金）。複数形は minimums または minima（学術的）。日本人は「ミニマム」をカタカナで使いすぎて、英語での文脈を忘れがち。",
+      "confusables": "least（最も少ない）と混同しやすいが、minimum は「量・数値の下限」に使い、least は比較の文脈で使う。at least（少なくとも）はよく使われるフレーズ。",
+      "collocations": [
+        "minimum wage",
+        "at a minimum",
+        "reduce to a minimum"
+      ],
+      "trivia": "「ミニマリスト（minimalist）」の語源でもある。近年の断捨離ブームとともに世界的に再注目され、minimum は単なる数量用語を超えてライフスタイルの哲学語になった。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 654,
+    "word": "exception",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "例外",
+        "pos": "noun"
+      },
+      {
+        "meaning": "除外",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪkˈsepʃən/",
+    "syllables": "ex-cep-tion",
+    "audioHint": "イクセプション",
+    "examples": [
+      {
+        "en": "This rule applies to everyone without exception.",
+        "ja": "このルールは例外なく全員に適用される。",
+        "blank": "This rule applies to everyone without ___.",
+        "blankAnswer": "exception"
+      }
+    ],
+    "distractors": [
+      "優先権",
+      "論理的な推論",
+      "絆・結びつき"
+    ],
+    "confusableSpellings": [
+      "exeption",
+      "excepion",
+      "exseption"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ex-（外へ）＋ capere（取る）→ excipere（取り出す・除外する）の名詞形 exceptio。「外へ取り出されたもの」が原義。",
+      "tips": "with the exception of ～（〜を除いて）というフレーズは非常によく使う。except と exception を混同しないこと：except は前置詞・接続詞、exception は名詞。",
+      "confusables": "exclusion（排除・除外）と似ているが、exception は「ルールの中の特別扱い」、exclusion は「グループや場所から完全に締め出すこと」のニュアンス。",
+      "collocations": [
+        "with the exception of",
+        "make an exception",
+        "no exception"
+      ],
+      "trivia": "「例外のないルールはない（There is no rule without exceptions.）」という英語のことわざがある。また、プログラミングの世界では「例外処理（exception handling）」として日常的に使われる重要用語。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 655,
+    "word": "clue",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "手がかり",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ヒント",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kluː/",
+    "syllables": "clue",
+    "audioHint": "クルー",
+    "examples": [
+      {
+        "en": "The detective found a clue near the door.",
+        "ja": "刑事はドアの近くで手がかりを見つけた。",
+        "blank": "The detective found a ___ near the door.",
+        "blankAnswer": "clue"
+      }
+    ],
+    "distractors": [
+      "論理的な筋道",
+      "優先すべき事柄",
+      "例外的な事例"
+    ],
+    "confusableSpellings": [
+      "clew",
+      "cluw",
+      "clou"
+    ],
+    "passive": {
+      "etymology": "古英語 clew（糸玉）が語源。ギリシャ神話でテセウスが迷宮から脱出するために糸玉（クリュー）をたどったことから「手がかり」の意味に転じた。",
+      "tips": "「I have no clue.」（全然わからない）は口語で非常によく使う表現。「Do you have any clues?」と複数形にもなる。日本語の「クルー（乗組員）」と同じ発音だが別単語なので注意。",
+      "confusables": "hint（ヒント）と似ているが、clue は「謎や問題を解く具体的な証拠・情報」、hint は「方向性を示す軽い示唆」というニュアンスの違いがある。",
+      "collocations": [
+        "find a clue",
+        "have no clue",
+        "give a clue"
+      ],
+      "trivia": "語源の「糸玉（clew）」はギリシャ神話のテセウスとミノタウロスの物語から来ている。現在も nautical（航海）の世界では clew は「帆の端」を意味する現役の単語として使われている。"
+    },
+    "frequency": 2000,
+    "cefr": "A2"
+  },
+  {
+    "id": 656,
+    "word": "bond",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "絆・結びつき",
+        "pos": "noun"
+      },
+      {
+        "meaning": "債券",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bɒnd/",
+    "syllables": "bond",
+    "audioHint": "ボンド",
+    "examples": [
+      {
+        "en": "They share a strong bond of friendship.",
+        "ja": "彼らは強い友情の絆で結ばれている。",
+        "blank": "They share a strong ___ of friendship.",
+        "blankAnswer": "bond"
+      }
+    ],
+    "distractors": [
+      "例外的な規則",
+      "手がかりとなる証拠",
+      "論理的な推論の体系"
+    ],
+    "confusableSpellings": [
+      "bonde",
+      "bonnd",
+      "boond"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 band（縛るもの・帯）に由来。「縛り付けるもの」が原義で、そこから「絆」「契約」「債券」など多様な意味が派生した。",
+      "tips": "動詞としても使える：bond with ～（〜と絆を深める）。金融では government bond（国債）、化学では chemical bond（化学結合）と分野によって意味が大きく変わるので文脈を読む習慣を。",
+      "confusables": "tie（つながり・関係）と近いが、bond はより感情的・化学的・法的な「強い結びつき」を表す。また band（バンド・帯）とスペルが似ているので注意。",
+      "collocations": [
+        "strong bond",
+        "bond with",
+        "bond market"
+      ],
+      "trivia": "「ジェームズ・ボンド（007）」の Bond はおそらく「拘束・契約」を連想させるネーミング。化学でいう共有結合（covalent bond）も同じ単語で、物理的・感情的・金融的に「つなぐ」概念を一語で担う。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 657,
+    "word": "virus",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "ウイルス",
+        "pos": "noun"
+      },
+      {
+        "meaning": "コンピューターウイルス",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈvaɪərəs/",
+    "syllables": "vi-rus",
+    "audioHint": "ヴァイラス",
+    "examples": [
+      {
+        "en": "The virus spread rapidly across the country.",
+        "ja": "そのウイルスは国中に急速に広まった。",
+        "blank": "The ___ spread rapidly across the country.",
+        "blankAnswer": "virus"
+      }
+    ],
+    "distractors": [
+      "外科的手術",
+      "健康保険の制度",
+      "細菌による感染症"
+    ],
+    "confusableSpellings": [
+      "viris",
+      "virus's",
+      "virous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 virus（毒・粘液・悪臭）が語源。19世紀末に生物学用語として採用され、20世紀後半にはコンピュータ用語にも転用された。",
+      "tips": "複数形は viruses（× virii は誤り）。「ウイルス性の」は viral で、go viral（急速に拡散する）はSNS時代の必須表現。日本語の「ビールス」は古いドイツ語読みの名残。",
+      "confusables": "bacteria（細菌）と混同しやすい。virus は細胞を持たず自己複製できない病原体、bacteria は単細胞生物。抗生物質はウイルスには効かない（antibiotic ≠ antiviral）。",
+      "collocations": [
+        "computer virus",
+        "viral infection",
+        "spread a virus"
+      ],
+      "trivia": "「go viral（バズる）」という表現はまさにウイルスが広がるイメージから来ている。生物用語がSNS文化に完全に溶け込んだ好例で、TikTok動画が「viral」になることを誰もが望んでいる現代語。"
+    },
+    "frequency": 800,
+    "cefr": "A2"
+  },
+  {
+    "id": 658,
+    "word": "surgery",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "外科手術",
+        "pos": "noun"
+      },
+      {
+        "meaning": "外科学",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɜːrdʒəri/",
+    "syllables": "sur-ger-y",
+    "audioHint": "サージャリー",
+    "examples": [
+      {
+        "en": "She recovered quickly after the surgery.",
+        "ja": "彼女は手術の後すぐに回復した。",
+        "blank": "She recovered quickly after the ___.",
+        "blankAnswer": "surgery"
+      }
+    ],
+    "distractors": [
+      "ウイルス感染",
+      "健康保険の契約",
+      "薬による治療法"
+    ],
+    "confusableSpellings": [
+      "surgury",
+      "surgory",
+      "surgrey"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 kheiro（手）＋ ergon（仕事・作業）→ kheirourgia（手作業）がラテン語 chirurgia を経て古フランス語 surgerie に変化。「手でする仕事」が原義。",
+      "tips": "「手術を受ける」は have surgery または undergo surgery。× take surgery は誤り。「外科医」は surgeon（発音：サージャン）で surgery と形が異なるので注意。",
+      "confusables": "operation（手術・作戦）と同義で使われることも多いが、surgery はより医学的・専門的な響きがある。日常会話では「I had an operation」も自然。",
+      "collocations": [
+        "undergo surgery",
+        "open-heart surgery",
+        "cosmetic surgery"
+      ],
+      "trivia": "美容整形は cosmetic surgery または plastic surgery と呼ばれ、「プラスティック（plastic）」の語源は「形成する・成型する」という意味のギリシャ語。整形が「プラスチック製にする」ではないと知ると面白い。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 659,
+    "word": "insurance",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "保険",
+        "pos": "noun"
+      },
+      {
+        "meaning": "保険料・保険契約",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˈʃʊərəns/",
+    "syllables": "in-sur-ance",
+    "audioHint": "インシュアランス",
+    "examples": [
+      {
+        "en": "You must have car insurance to drive legally.",
+        "ja": "合法的に運転するには自動車保険に入らなければならない。",
+        "blank": "You must have car ___ to drive legally.",
+        "blankAnswer": "insurance"
+      }
+    ],
+    "distractors": [
+      "株式市場での取引",
+      "銀行口座の残高",
+      "税金の申告手続き"
+    ],
+    "confusableSpellings": [
+      "insurence",
+      "insureance",
+      "insurrance"
+    ],
+    "passive": {
+      "etymology": "古フランス語 ensurer（確実にする）に由来。in-（強意）＋ sure（確か・安全）＋ -ance（名詞接尾辞）。「安全を確実にするもの」が原義。",
+      "tips": "「保険をかける」は take out insurance または get insurance。× do insurance は誤り。assurance（保証・生命保険）と混同しやすく、英国英語では生命保険を life assurance と呼ぶこともある。",
+      "confusables": "assurance（確信・保証）と混同しやすい。一般的に insurance はリスク（事故・病気）への備え、assurance は確実に発生すること（死など）への備えという使い分けがある（特に英国英語で顕著）。",
+      "collocations": [
+        "health insurance",
+        "take out insurance",
+        "insurance policy"
+      ],
+      "trivia": "保険の概念は古代バビロニアのハンムラビ法典（紀元前1750年頃）にも原型があるとされる。現代の海上保険は17世紀ロンドンのコーヒーハウス「ロイズ」から生まれ、現在のロイズ保険組合に発展した。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 660,
+    "word": "frame",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "枠・フレーム",
+        "pos": "noun"
+      },
+      {
+        "meaning": "骨格・構造",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/freɪm/",
+    "syllables": "frame",
+    "audioHint": "フレイム",
+    "examples": [
+      {
+        "en": "She put the photo in a wooden frame.",
+        "ja": "彼女は写真を木製のフレームに入れた。",
+        "blank": "She put the photo in a wooden ___.",
+        "blankAnswer": "frame"
+      }
+    ],
+    "distractors": [
+      "日常的な生活用品",
+      "文化的な慣習や伝統",
+      "室内の装飾品の総称"
+    ],
+    "confusableSpellings": [
+      "fraim",
+      "fream",
+      "framme"
+    ],
+    "passive": {
+      "etymology": "古英語 framian（役立てる・形作る）に由来。「建物の骨組みを作る」という建築用語として中英語期に定着し、その後「枠・構造」全般に広がった。",
+      "tips": "名詞（枠・フレーム）と動詞（枠に入れる・でっち上げる）の両方で使う。「frame someone」は「人を罪にはめる」という意味のスラングとしても使われるので文脈に注意。",
+      "confusables": "border（境界線・縁取り）と似ているが、frame は「物を囲む立体的・構造的な枠」、border は「平面的な境界や装飾的な縁」というイメージの違いがある。",
+      "collocations": [
+        "picture frame",
+        "time frame",
+        "frame of mind"
+      ],
+      "trivia": "映画では1秒あたり24〜30フレーム（frames per second）で映像が流れる。「frame of mind（気持ち・心理状態）」という慣用表現もあり、「心の枠組み」という比喩的な使い方が英語らしい感性を表している。"
+    },
+    "frequency": 1400,
+    "cefr": "A2"
+  }
+]

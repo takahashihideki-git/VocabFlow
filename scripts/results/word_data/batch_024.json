@@ -1,0 +1,994 @@
+[
+  {
+    "id": 461,
+    "word": "conference",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "会議、学会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "協議、相談",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɒnfərəns/",
+    "syllables": "con-fer-ence",
+    "audioHint": "コンファレンス",
+    "examples": [
+      {
+        "en": "The annual conference will be held in Tokyo next month.",
+        "ja": "年次会議は来月東京で開催される予定です。",
+        "blank": "The annual ___ will be held in Tokyo next month.",
+        "blankAnswer": "conference"
+      }
+    ],
+    "distractors": [
+      "実験",
+      "試験",
+      "カリキュラム"
+    ],
+    "confusableSpellings": [
+      "conferance",
+      "confrence",
+      "conferrence"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'conferre'（共に＋運ぶ）から。con-（共に）＋ ferre（運ぶ・持つ）→「意見を持ち寄る」というイメージ。",
+      "tips": "「会議」として最も一般的だが、'meeting' より規模が大きく公式な場合に使う。press conference（記者会見）のように複合語でも頻出。",
+      "confusables": "'meeting' は日常的な小規模の打ち合わせ、'conference' は大規模・公式な会議、'seminar' は教育的な少人数討議。",
+      "collocations": [
+        "hold a conference",
+        "press conference",
+        "conference call"
+      ],
+      "trivia": "「コンファレンス」はスポーツリーグの地区区分にも使われる。NBAやNFLの「イースタン・カンファレンス」がそれ。語源は「荷物を持ち寄る」！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 462,
+    "word": "humanity",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "人類、人間性",
+        "pos": "noun"
+      },
+      {
+        "meaning": "人道、思いやり",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/hjuːˈmænɪti/",
+    "syllables": "hu-man-i-ty",
+    "audioHint": "ヒューマニティ",
+    "examples": [
+      {
+        "en": "Art reflects the deep complexity of humanity.",
+        "ja": "芸術は人間性の深い複雑さを反映している。",
+        "blank": "Art reflects the deep complexity of ___.",
+        "blankAnswer": "humanity"
+      }
+    ],
+    "distractors": [
+      "自由",
+      "意識",
+      "道徳的義務"
+    ],
+    "confusableSpellings": [
+      "humanety",
+      "hummanity",
+      "humanitty"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'humanitas' から。'humanus'（人間の）＋ '-itas'（抽象名詞化接尾辞）。'homo'（人）が語根で、humus（土）とも関連し「地に足のついた存在」の意。",
+      "tips": "複数形 'humanities' になると「人文科学」という全く異なる意味になる。大学で「humanities を専攻する」と言えば文学・哲学・歴史などの学問分野を指す。",
+      "confusables": "'mankind' も人類を指すが男性中心的ニュアンスがあり現代では避けられることも。'humanity' は中立的で「思いやり」の意味も持つのが特徴。",
+      "collocations": [
+        "crimes against humanity",
+        "sense of humanity",
+        "common humanity"
+      ],
+      "trivia": "「人文科学（humanities）」という言葉、実は「人間らしさを学ぶ学問」という意味が由来。理系が自然を解明するなら、文系は「人間とは何か」を解明する学問というわけ。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 463,
+    "word": "dialect",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "方言、地域語",
+        "pos": "noun"
+      },
+      {
+        "meaning": "言語の変種",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdaɪəlɛkt/",
+    "syllables": "di-a-lect",
+    "audioHint": "ダイアレクト",
+    "examples": [
+      {
+        "en": "She grew up speaking a regional dialect of Spanish.",
+        "ja": "彼女はスペイン語の地方方言を話して育った。",
+        "blank": "She grew up speaking a regional ___ of Spanish.",
+        "blankAnswer": "dialect"
+      }
+    ],
+    "distractors": [
+      "文法規則",
+      "論文",
+      "教科書"
+    ],
+    "confusableSpellings": [
+      "dialact",
+      "diealect",
+      "dialecte"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'dialektos'（会話・言語）から。dia-（通じて・間で）＋ legein（話す）→「人々の間で話される言葉」。",
+      "tips": "日本語の「方言」に相当するが、英語では言語学的な変種全般を指す。'accent'（アクセント・発音の違い）とは異なり、文法や語彙の違いまで含む点に注意。",
+      "confusables": "'accent' は発音だけの違い、'dialect' は語彙・文法・発音すべてが異なる変種。'language' はさらに大きな区分で、一般に相互理解できるかどうかが境界線とされる。",
+      "collocations": [
+        "local dialect",
+        "regional dialect",
+        "speak a dialect"
+      ],
+      "trivia": "「言語と方言の違いは何か？」という問いへの有名な答えが「軍隊と海軍を持つ方言が言語だ」。つまり政治が言語と方言を分けるという皮肉な話。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 464,
+    "word": "proportion",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "割合、比率",
+        "pos": "noun"
+      },
+      {
+        "meaning": "均整、バランス",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/prəˈpɔːrʃən/",
+    "syllables": "pro-por-tion",
+    "audioHint": "プロポーション",
+    "examples": [
+      {
+        "en": "A large proportion of students passed the final exam.",
+        "ja": "生徒の大きな割合が最終試験に合格した。",
+        "blank": "A large ___ of students passed the final exam.",
+        "blankAnswer": "proportion"
+      }
+    ],
+    "distractors": [
+      "速度",
+      "距離",
+      "周波数"
+    ],
+    "confusableSpellings": [
+      "propotion",
+      "proporshon",
+      "prportion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'proportio' から。pro-（前に・に応じて）＋ portio（部分・分け前）→「各部分が互いに対応している」状態。",
+      "tips": "日本語でも「プロポーション」は体型の均整として使うが、英語では「割合・比率」の意味が最も一般的。in proportion to ～（〜に比例して）というイディオムが重要。",
+      "confusables": "'ratio' は2つの量の比（例：2:3）、'proportion' はより広く全体に対する割合や均整。'percentage' は100分率。",
+      "collocations": [
+        "in proportion to",
+        "out of proportion",
+        "a large proportion of"
+      ],
+      "trivia": "「黄金比（golden proportion）」は古代ギリシャ時代から美の基準とされてきた。パルテノン神殿やモナリザにも使われているとされる約1:1.618の比率のこと。"
+    },
+    "frequency": 2000,
+    "cefr": "B2"
+  },
+  {
+    "id": 465,
+    "word": "tip",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "チップ（心付け）、心付け金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "助言、ヒント",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tɪp/",
+    "syllables": "tip",
+    "audioHint": "ティップ",
+    "examples": [
+      {
+        "en": "She left a generous tip for the waiter.",
+        "ja": "彼女はウェイターに気前のよいチップを置いた。",
+        "blank": "She left a generous ___ for the waiter.",
+        "blankAnswer": "tip"
+      }
+    ],
+    "distractors": [
+      "請求書",
+      "投資",
+      "給与"
+    ],
+    "confusableSpellings": [
+      "tipp",
+      "typ",
+      "tiip"
+    ],
+    "passive": {
+      "etymology": "語源には諸説あり、17世紀の英語スラング 'tip'（軽く触れる）から転じたとも。「To Insure Promptness（迅速なサービスを保証するため）」の略という説は俗語源。",
+      "tips": "動詞としても使え、'tip someone'（チップを渡す）、'tip off'（内部情報を流す）など多義語。また「先端」の意味もある（tip of the iceberg）。",
+      "confusables": "'tip' はサービスへの任意の対価、'fee' はサービスへの正式な料金、'commission' は販売実績に応じた手数料。",
+      "collocations": [
+        "leave a tip",
+        "tip the waiter",
+        "useful tips"
+      ],
+      "trivia": "アメリカではレストランでのチップは15〜20%が相場で事実上の義務。一方、日本や韓国ではチップ文化がなく、渡すと失礼になる場合も。同じ「サービス業」でもこんなに違う！"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 466,
+    "word": "lawyer",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "弁護士、法律家",
+        "pos": "noun"
+      },
+      {
+        "meaning": "法律の専門家",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlɔːjər/",
+    "syllables": "law-yer",
+    "audioHint": "ローヤー",
+    "examples": [
+      {
+        "en": "She hired a lawyer to handle the contract dispute.",
+        "ja": "彼女は契約紛争を処理するために弁護士を雇った。",
+        "blank": "She hired a ___ to handle the contract dispute.",
+        "blankAnswer": "lawyer"
+      }
+    ],
+    "distractors": [
+      "議員",
+      "警察官",
+      "裁判官"
+    ],
+    "confusableSpellings": [
+      "lawer",
+      "laywer",
+      "lawyor"
+    ],
+    "passive": {
+      "etymology": "'law'（法律）＋ '-yer'（職業・人を表す古英語接尾辞）→「法律を扱う人」。'law' はゲルマン語系で「置かれたもの・規則」が語源。",
+      "tips": "英語圏では 'lawyer' が最も一般的な総称。英国では 'solicitor'（事務弁護士）と 'barrister'（法廷弁護士）に分かれ、米国では主に 'attorney' も同義で使われる。",
+      "confusables": "'lawyer' は総称、'attorney' は米語で代理権を持つ弁護士、'solicitor' は英国の事務弁護士、'barrister' は英国の法廷弁護士。",
+      "collocations": [
+        "hire a lawyer",
+        "defense lawyer",
+        "lawyer up"
+      ],
+      "trivia": "アメリカの人口100万人あたりの弁護士数は約4,000人で世界トップクラス。日本は約400人ほど。「弁護士だらけの国」と揶揄されることもあるが、それだけ法的手続きが生活に根付いているともいえる。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 467,
+    "word": "stuff",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "もの、品物（漠然と）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "詰め込む、詰める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stʌf/",
+    "syllables": "stuff",
+    "audioHint": "スタッフ",
+    "examples": [
+      {
+        "en": "I left all my stuff at the hotel by mistake.",
+        "ja": "私は間違えて自分の荷物全部をホテルに置いてきた。",
+        "blank": "I left all my ___ at the hotel by mistake.",
+        "blankAnswer": "stuff"
+      }
+    ],
+    "distractors": [
+      "家具",
+      "衣類",
+      "食料品"
+    ],
+    "confusableSpellings": [
+      "stuf",
+      "stafe",
+      "stuffe"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'estoffe'（材料・布地）から。中英語で「詰め物」の意味になり、現代では「漠然としたもの全般」に拡大。",
+      "tips": "非常に口語的な単語で、フォーマルな文章では使わない。「スタッフ（staff＝職員）」と発音が似ているが全くの別語。日本人はこの2つを混同しやすいので注意。",
+      "confusables": "'stuff' は口語的で漠然とした「もの」、'things' はやや中立的、'belongings' は「所持品」でフォーマル、'items' はリスト化された個々の品。",
+      "collocations": [
+        "stuff happens",
+        "cool stuff",
+        "stuff your bag"
+      ],
+      "trivia": "英語ネイティブは日常会話で 'stuff' を非常によく使う。「What is this stuff?」「Do your stuff!（実力を発揮して）」など応用範囲が広い魔法の単語。語彙が少ない時の救済単語としても優秀！"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 468,
+    "word": "comfort",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "慰め、安らぎ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "慰める、元気づける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkʌmfərt/",
+    "syllables": "com-fort",
+    "audioHint": "カムファート",
+    "examples": [
+      {
+        "en": "She found comfort in her friend's kind words.",
+        "ja": "彼女は友人の優しい言葉に慰めを見つけた。",
+        "blank": "She found ___ in her friend's kind words.",
+        "blankAnswer": "comfort"
+      }
+    ],
+    "distractors": [
+      "悲しみ",
+      "孤独",
+      "義務感"
+    ],
+    "confusableSpellings": [
+      "comfert",
+      "confort",
+      "comfotr"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'confortare' から。con-（強意）＋ fortis（強い）→「強くする・力を与える」。元々は「精神的に力を与える」意味だった。",
+      "tips": "名詞「慰め・快適さ」と動詞「慰める」の両方で使える。'comfortable'（形容詞）、'comfortably'（副詞）と派生語も重要。'comfort food' は「気持ちが落ち着く食べ物」という表現も有名。",
+      "confusables": "'comfort' は精神的・身体的な安らぎ全般、'solace' はより文語的で深い悲しみへの慰め、'relief' は苦痛や心配が取り除かれたことへの安堵感。",
+      "collocations": [
+        "find comfort",
+        "comfort food",
+        "comfort zone"
+      ],
+      "trivia": "「コンフォートゾーン（comfort zone）」という心理学用語が世界中で使われている。「安心できる領域」を意味するが、成長にはその外に出ることが必要とよく言われる。語源が「強くする」だったのに、今では「強さを妨げる」ものを表すとは面白い逆転！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 469,
+    "word": "philosophy",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "哲学",
+        "pos": "noun"
+      },
+      {
+        "meaning": "人生観、信念体系",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/fɪˈlɒsəfi/",
+    "syllables": "phi-los-o-phy",
+    "audioHint": "フィロソフィ",
+    "examples": [
+      {
+        "en": "His personal philosophy is to live simply and honestly.",
+        "ja": "彼の個人的な人生観はシンプルに正直に生きることだ。",
+        "blank": "His personal ___ is to live simply and honestly.",
+        "blankAnswer": "philosophy"
+      }
+    ],
+    "distractors": [
+      "宗教的信仰",
+      "科学理論",
+      "倫理規範"
+    ],
+    "confusableSpellings": [
+      "philosopy",
+      "philosohy",
+      "philosphy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'philosophia' から。philo-（愛する）＋ sophia（知恵）→「知恵を愛すること」。ソクラテスらが使い始めた言葉。",
+      "tips": "スペルが難しく、特に '-osophy' の部分でミスしやすい。'philosopher'（哲学者）、'philosophical'（哲学的な）の派生語もセットで覚えよう。",
+      "confusables": "'philosophy' は根本的な問いを探求する学問・思想、'ideology' は政治・社会的な信念体系、'theory' は特定の事象を説明する仮説や理論。",
+      "collocations": [
+        "study philosophy",
+        "personal philosophy",
+        "philosophy of life"
+      ],
+      "trivia": "「フィロソフィ」の語源は「知恵を愛する」こと。古代ギリシャのソクラテスは自分を「知恵ある者」ではなく「知恵を愛する者（philosopher）」と呼んだ。「私は何も知らない」と言い続けた人が哲学の父とは…すごい謙虚さ！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 470,
+    "word": "mammal",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "哺乳類、哺乳動物",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmæməl/",
+    "syllables": "mam-mal",
+    "audioHint": "マメル",
+    "examples": [
+      {
+        "en": "Whales are the largest mammals on Earth.",
+        "ja": "クジラは地球上で最大の哺乳類だ。",
+        "blank": "Whales are the largest ___ on Earth.",
+        "blankAnswer": "mammals"
+      }
+    ],
+    "distractors": [
+      "爬虫類",
+      "両生類",
+      "節足動物"
+    ],
+    "confusableSpellings": [
+      "mamal",
+      "mammle",
+      "mammel"
+    ],
+    "passive": {
+      "etymology": "近代ラテン語 'mammalis' から。'mamma'（乳房）＋ '-alis'（形容詞接尾辞）→「乳房を持つもの」。母乳で子を育てる動物の特徴から命名。",
+      "tips": "複数形は 'mammals'。「ほ乳類」の特徴は①温血②毛・体毛③乳で子を育てる④胎生（カモノハシなど例外あり）の4点を英語で説明できると便利。",
+      "confusables": "'mammal'（哺乳類）vs 'reptile'（爬虫類）vs 'amphibian'（両生類）。カモノハシは哺乳類なのに卵を産む例外的存在で、'monotreme'（単孔類）と呼ばれる。",
+      "collocations": [
+        "marine mammal",
+        "mammal species",
+        "largest mammal"
+      ],
+      "trivia": "人間も立派な哺乳類。そして哺乳類の中で毛がほぼない種族は人間とゾウとクジラくらい。なぜ人間だけ毛が退化したのか？実はまだ科学的に完全には解明されていない謎のひとつ！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 471,
+    "word": "quantity",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "量、数量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "多量、大量",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkwɒntɪti/",
+    "syllables": "quan-ti-ty",
+    "audioHint": "クワンティティ",
+    "examples": [
+      {
+        "en": "We need a large quantity of flour for the bakery.",
+        "ja": "そのパン屋には大量の小麦粉が必要だ。",
+        "blank": "We need a large ___ of flour for the bakery.",
+        "blankAnswer": "quantity"
+      }
+    ],
+    "distractors": [
+      "距離、間隔",
+      "頻度、回数",
+      "割合、比率"
+    ],
+    "confusableSpellings": [
+      "quantaty",
+      "quantitiy",
+      "quantety"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'quantitas'（どれだけの大きさ）から。語根 'quant-' は「どれだけ」を意味し、quantum（量子）と同じ語根を持つ。",
+      "tips": "'quantity' は数えられるものにも数えられないものにも使える。'a large quantity of water'（不可算）や 'a large quantity of books'（可算）どちらもOK。quality（質）と混同しないよう注意。",
+      "confusables": "'quantity'（量）vs 'quality'（質）：スペルが似ているが意味は正反対に近い。'量より質' は 'quality over quantity' と表現する。",
+      "collocations": [
+        "large quantity",
+        "quantity of water",
+        "quantity discount"
+      ],
+      "trivia": "'quantity' の語根 'quant' から派生した 'quantum' は物理学の用語だが、もともとは「最小の量」という意味。アインシュタインもこの語を使って量子論を語っていた。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 472,
+    "word": "landscape",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "景色、風景",
+        "pos": "noun"
+      },
+      {
+        "meaning": "状況全体、様相",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlændskeɪp/",
+    "syllables": "land-scape",
+    "audioHint": "ランドスケープ",
+    "examples": [
+      {
+        "en": "The mountain landscape was breathtaking in autumn.",
+        "ja": "秋の山の風景は息をのむほど美しかった。",
+        "blank": "The mountain ___ was breathtaking in autumn.",
+        "blankAnswer": "landscape"
+      }
+    ],
+    "distractors": [
+      "気候、風土",
+      "生態系、環境",
+      "地形、地勢"
+    ],
+    "confusableSpellings": [
+      "landscap",
+      "landcape",
+      "landscpae"
+    ],
+    "passive": {
+      "etymology": "オランダ語 'landschap' から英語に入った語。'land'（土地）＋ 'scape'（眺め・形）の合成語。17世紀に絵画用語として使われ始めた。",
+      "tips": "名詞だけでなく動詞としても使え、'landscape the garden'（庭を造園する）という使い方もある。また比喩的に 'the political landscape'（政治の状況）のように抽象的な「全体像」の意味でも頻繁に使われる。",
+      "confusables": "'landscape'（広い風景・全体）vs 'scenery'（自然の景色）vs 'view'（ある地点からの眺め）：'landscape' は地形ごと広がる風景全体を指すことが多い。",
+      "collocations": [
+        "mountain landscape",
+        "urban landscape",
+        "landscape photography"
+      ],
+      "trivia": "印刷・画面の向きを示す「横向き」を英語で 'landscape'、「縦向き」を 'portrait' と言う。絵画のジャンル名がそのままPCの用語になった面白い例！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 473,
+    "word": "tribe",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "部族、種族",
+        "pos": "noun"
+      },
+      {
+        "meaning": "仲間集団、グループ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/traɪb/",
+    "syllables": "tribe",
+    "audioHint": "トライブ",
+    "examples": [
+      {
+        "en": "The tribe has lived in this forest for centuries.",
+        "ja": "その部族は何世紀もこの森に住んでいる。",
+        "blank": "The ___ has lived in this forest for centuries.",
+        "blankAnswer": "tribe"
+      }
+    ],
+    "distractors": [
+      "政党、党派",
+      "同盟、連合",
+      "委員会、委員団"
+    ],
+    "confusableSpellings": [
+      "tibe",
+      "trbe",
+      "tride"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'tribus'（ローマの三つの部族区分）から。古代ローマではラムネス・ティティエス・ルケレスの3部族があり、そこから派生した語。",
+      "tips": "現代英語では民族・部族の意味以外に、SNS世代では「同じ趣味を持つ仲間」という意味でカジュアルに使われる。'find your tribe'（自分の仲間を見つける）はよく使われる表現。",
+      "confusables": "'tribe'（文化・血縁でつながる集団）vs 'clan'（スコットランド等の氏族集団）vs 'ethnic group'（民族集団、より学術的）：'tribe' は時に差別的ニュアンスを持つ場合があるため文脈に注意。",
+      "collocations": [
+        "indigenous tribe",
+        "tribal culture",
+        "find your tribe"
+      ],
+      "trivia": "マーケティング用語にも 'tribe' が登場し、セス・ゴーディンの著書『Tribes』（邦題：トライブズ）では「共通の情熱でつながるコミュニティ」として使われ大ヒットした。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 474,
+    "word": "organ",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "臓器、器官",
+        "pos": "noun"
+      },
+      {
+        "meaning": "オルガン（楽器）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɔːrɡən/",
+    "syllables": "or-gan",
+    "audioHint": "オーガン",
+    "examples": [
+      {
+        "en": "The heart is the most vital organ in the body.",
+        "ja": "心臓は体の中で最も重要な臓器だ。",
+        "blank": "The heart is the most vital ___ in the body.",
+        "blankAnswer": "organ"
+      }
+    ],
+    "distractors": [
+      "細胞、組織",
+      "神経、神経系",
+      "骨格、骨組み"
+    ],
+    "confusableSpellings": [
+      "orgon",
+      "orgen",
+      "organn"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'organon'（道具、楽器）から。'org-' は「働く・動かす」の語根で、organism（生物）や organization（組織）と同じ語根を持つ。",
+      "tips": "'organ' は医学では「臓器」、音楽では「オルガン」の意味になる。また比喩的に 'an organ of the government'（政府の機関）のように「機関・組織の一部」という意味でも使われる。",
+      "confusables": "'organ'（臓器・器官）vs 'tissue'（組織・細胞の集まり）vs 'cell'（細胞）：生物学的に organ > tissue > cell の順に小さくなる階層関係がある。",
+      "collocations": [
+        "organ transplant",
+        "vital organ",
+        "organ donor"
+      ],
+      "trivia": "パイプオルガンは英語でも 'pipe organ' と言うが、その仕組みは人間の声帯（vocal organ）に似た空気の振動。「楽器」も「臓器」も同じ語源なのは「体の器官のように働く道具」というイメージから。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 475,
+    "word": "trial",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "裁判、公判",
+        "pos": "noun"
+      },
+      {
+        "meaning": "試み、試験、試練",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtraɪəl/",
+    "syllables": "tri-al",
+    "audioHint": "トライアル",
+    "examples": [
+      {
+        "en": "The trial lasted three weeks and ended in a conviction.",
+        "ja": "裁判は3週間続き、有罪判決で終わった。",
+        "blank": "The ___ lasted three weeks and ended in a conviction.",
+        "blankAnswer": "trial"
+      }
+    ],
+    "distractors": [
+      "条約、協定",
+      "規則、法令",
+      "判決、宣告"
+    ],
+    "confusableSpellings": [
+      "traill",
+      "triall",
+      "tryal"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'trier'（選別する・試す）から。ラテン語 'tritare'（こする・試す）が語源。'try'（試みる）と同じ語根で、もともと「試されること」という意味。",
+      "tips": "'on trial' は「裁判中」、'trial and error' は「試行錯誤」。また 'free trial'（無料体験）のように日常でもよく使われる。日本語の「トライアル」は主に「試し」の意味だが、英語では「裁判」の意味の方が重要。",
+      "confusables": "'trial'（裁判全体のプロセス）vs 'hearing'（個々の審問・聴聞会）vs 'verdict'（評決・判決）：'trial' は裁判の一連の手続き全体を指す。",
+      "collocations": [
+        "stand trial",
+        "clinical trial",
+        "trial and error"
+      ],
+      "trivia": "'trial and error'（試行錯誤）は英語でも日本語でもほぼ同じ意味で使われるが、この表現は19世紀の科学者アレクサンダー・ベインが普及させたと言われている。"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 476,
+    "word": "norm",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "規範、基準",
+        "pos": "noun"
+      },
+      {
+        "meaning": "標準、普通の状態",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/nɔːrm/",
+    "syllables": "norm",
+    "audioHint": "ノーム",
+    "examples": [
+      {
+        "en": "Working from home has become the norm since the pandemic.",
+        "ja": "パンデミック以来、在宅勤務が標準となった。",
+        "blank": "Working from home has become the ___ since the pandemic.",
+        "blankAnswer": "norm"
+      }
+    ],
+    "distractors": [
+      "制度、仕組み",
+      "権利、権限",
+      "義務、責任"
+    ],
+    "confusableSpellings": [
+      "noarm",
+      "norn",
+      "norml"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'norma'（大工が使うL字型定規）から。物事を「測る基準」という意味が転じて「規範・標準」になった。normal（普通の）や normalize（標準化する）と同じ語根。",
+      "tips": "'norm' は主に社会的・文化的な「暗黙の了解・規範」を指す。'rule'（明文化されたルール）とは異なり、書かれていない行動規範を指すことが多い。'social norms'（社会規範）という形でよく使う。",
+      "confusables": "'norm'（社会的・暗黙の規範）vs 'rule'（明文化されたルール）vs 'standard'（測定可能な基準）：'norm' は必ずしも明文化されていない点が特徴。",
+      "collocations": [
+        "social norm",
+        "cultural norm",
+        "become the norm"
+      ],
+      "trivia": "アメリカのドラマ『Cheers』の登場人物「ノーム（Norm）」は飲みに来ると必ず同じ席に座る常連客。この「いつも通り」なキャラがまさに 'norm'（普通）の体現だとファンの間で話題になった。"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 477,
+    "word": "code",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "コード、符号、暗号",
+        "pos": "noun"
+      },
+      {
+        "meaning": "規則、規範",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/koʊd/",
+    "syllables": "code",
+    "audioHint": "コウド",
+    "examples": [
+      {
+        "en": "She wrote the code for the new app in just two days.",
+        "ja": "彼女は新しいアプリのコードをわずか2日で書いた。",
+        "blank": "She wrote the ___ for the new app in just two days.",
+        "blankAnswer": "code"
+      }
+    ],
+    "distractors": [
+      "回路、ネットワーク",
+      "画面、インターフェース",
+      "データ、情報量"
+    ],
+    "confusableSpellings": [
+      "coad",
+      "kode",
+      "codd"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'codex'（木の板・書物）から。もともとは法律を書き記した「法典」の意味で、後に「暗号」「プログラムコード」へと意味が広がった。",
+      "tips": "'code' は動詞としても使え、'code a website'（ウェブサイトをコーディングする）のように使う。また 'dress code'（服装規定）、'zip code'（郵便番号）など日常の複合語にも頻出。",
+      "confusables": "'code'（記号・符号の体系）vs 'cipher'（暗号化の手法そのもの）vs 'password'（アクセス用の合言葉）：'code' は最も広い概念で、法典・暗号・プログラムコードすべてを含む。",
+      "collocations": [
+        "source code",
+        "dress code",
+        "code of conduct"
+      ],
+      "trivia": "モールス信号も 'Morse code' と呼ばれるが、これはアルファベットを点と線の組み合わせに「翻訳」したもの。今や iPhoneのアクセシビリティ機能にもモールス信号入力があるのを知ってた？"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 478,
+    "word": "substance",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "物質、成分",
+        "pos": "noun"
+      },
+      {
+        "meaning": "実質、中身、内容",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsʌbstəns/",
+    "syllables": "sub-stance",
+    "audioHint": "サブスタンス",
+    "examples": [
+      {
+        "en": "The scientist identified an unknown substance in the water.",
+        "ja": "科学者は水の中の未知の物質を特定した。",
+        "blank": "The scientist identified an unknown ___ in the water.",
+        "blankAnswer": "substance"
+      }
+    ],
+    "distractors": [
+      "反応、化学変化",
+      "濃度、密度",
+      "元素、成分の種類"
+    ],
+    "confusableSpellings": [
+      "substence",
+      "substanse",
+      "substanc"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'substantia'（下に立つもの・本質）から。'sub-'（下に）＋ 'stare'（立つ）の合成。「物事の根底にあるもの」というのが元の意味。",
+      "tips": "'substance' は化学・科学の文脈では「物質」、議論・文章の文脈では「中身・実質」を意味する。'a speech with no substance'（中身のないスピーチ）のように使う。'substance abuse'（薬物乱用）も重要な表現。",
+      "confusables": "'substance'（物質・実質）vs 'material'（素材・材料）vs 'matter'（物質・問題）：'substance' は成分・内容に焦点、'material' は作られる元の素材、'matter' は最も広い概念。",
+      "collocations": [
+        "chemical substance",
+        "substance abuse",
+        "lack of substance"
+      ],
+      "trivia": "哲学では 'substance'（実体）はアリストテレス以来の超重要概念。「本当に存在するもの」を意味し、デカルトの『心身二元論』でも「精神的実体」vs「物質的実体」として登場する。"
+    },
+    "frequency": 1700,
+    "cefr": "B2"
+  },
+  {
+    "id": 479,
+    "word": "multiple",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "複数の、多数の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "倍数",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmʌltɪpl/",
+    "syllables": "mul-ti-ple",
+    "audioHint": "マルティプル",
+    "examples": [
+      {
+        "en": "She received multiple job offers after graduation.",
+        "ja": "彼女は卒業後に複数の内定をもらった。",
+        "blank": "She received ___ job offers after graduation.",
+        "blankAnswer": "multiple"
+      }
+    ],
+    "distractors": [
+      "単一の、唯一の",
+      "連続した、連なる",
+      "部分的な、不完全な"
+    ],
+    "confusableSpellings": [
+      "multipel",
+      "multple",
+      "multipal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'multiplex'（多くの折り重なり）から。'multi-'（多い）＋ 'plex/plicare'（折る・重ねる）の合成。multiply（掛け算する）も同じ語根。",
+      "tips": "'multiple' は形容詞として名詞の前に置いて使うことが多い。'many' との違いは、'multiple' がより書き言葉的・フォーマルで、「一つだけでなく複数あること」を強調するニュアンスがある。",
+      "confusables": "'multiple'（複数の、多数の）vs 'several'（いくつかの：3〜7程度）vs 'various'（さまざまな種類の）：'multiple' は数の多さよりも「一つ以上の複数性」を強調する。",
+      "collocations": [
+        "multiple choice",
+        "multiple times",
+        "multiple injuries"
+      ],
+      "trivia": "学校の試験形式『multiple choice』（多肢選択式）は英語圏でも最もポピュラーな試験形式。略して 'MC' と書くこともある。ちなみに数学で『最小公倍数』は 'LCM（Least Common Multiple）'！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 480,
+    "word": "numerous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "多数の、数多くの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnjuːmərəs/",
+    "syllables": "nu-mer-ous",
+    "audioHint": "ニューメラス",
+    "examples": [
+      {
+        "en": "Numerous studies show that exercise improves mental health.",
+        "ja": "多数の研究が、運動が精神的健康を改善することを示している。",
+        "blank": "___ studies show that exercise improves mental health.",
+        "blankAnswer": "Numerous"
+      }
+    ],
+    "distractors": [
+      "わずかな、少数の",
+      "絶え間ない、継続的な",
+      "明らかな、明白な"
+    ],
+    "confusableSpellings": [
+      "numerious",
+      "numerus",
+      "numberous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'numerosus'（多くの数を持つ）から。'numer-'（数）が語根で、number（数）、numeral（数字）、enumerate（列挙する）とすべて同じ語根。",
+      "tips": "'numerous' は可算名詞の複数形と共に使い、不可算名詞には使えない。'numerous water'とは言えず、'numerous bottles of water' とする必要がある。フォーマルな文章でよく使われ、口語では 'many' や 'a lot of' の方が自然。",
+      "confusables": "'numerous'（多数の：フォーマル・書き言葉）vs 'many'（多くの：一般的）vs 'multiple'（複数の：一つ以上の複数性を強調）：'numerous' は最もフォーマルで論文・ニュースに向く。",
+      "collocations": [
+        "numerous occasions",
+        "numerous studies",
+        "numerous times"
+      ],
+      "trivia": "ローマ数字（Roman Numerals）の 'numer' は 'numerous' と同じ語根。つまり I, V, X, L, C, D, M で書かれる数字体系の名前にも、この「数」の語根が入っている！"
+    },
+    "frequency": 1500,
+    "cefr": "B2"
+  }
+]

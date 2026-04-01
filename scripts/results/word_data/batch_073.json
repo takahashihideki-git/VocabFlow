@@ -1,0 +1,990 @@
+[
+  {
+    "id": 1441,
+    "word": "headline",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "見出し、ヘッドライン",
+        "pos": "noun"
+      },
+      {
+        "meaning": "注目を集める、トップを飾る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈhɛdlaɪn/",
+    "syllables": "head-line",
+    "audioHint": "ヘッドライン",
+    "examples": [
+      {
+        "en": "The earthquake made headlines around the world.",
+        "ja": "その地震は世界中で見出しを飾った。",
+        "blank": "The earthquake made ___ around the world.",
+        "blankAnswer": "headlines"
+      }
+    ],
+    "distractors": [
+      "論文の要旨",
+      "試験の合格基準",
+      "授業のシラバス"
+    ],
+    "confusableSpellings": [
+      "headlien",
+      "headling",
+      "hedline"
+    ],
+    "passive": {
+      "etymology": "「head（頭・先頭）」＋「line（行・線）」の合成語。記事の「頭」にある「行」という意味から。",
+      "tips": "名詞としての「見出し」が最も一般的だが、動詞としても使われる（例：She headlined the concert.「彼女がコンサートのトップを飾った」）。日本語の「ヘッドライン」はニュースの意味に限定されがちだが、英語ではイベントの主役にも使う。",
+      "confusables": "headline（見出し・主役）と byline（記者名の署名行）は混同しやすい。bylineは記事の著者名を示す行のこと。",
+      "collocations": [
+        "make headlines（注目を集める）",
+        "front-page headline（一面見出し）",
+        "grab the headlines（見出しを独占する）"
+      ],
+      "trivia": "「make headlines」は日常会話でも「話題になる」という意味でよく使われる。芸能スキャンダルから科学的発見まで何でも使えるお役立ちフレーズ！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1442,
+    "word": "internship",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "インターンシップ、実習期間",
+        "pos": "noun"
+      },
+      {
+        "meaning": "研修生としての職務",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪntərnʃɪp/",
+    "syllables": "in-tern-ship",
+    "audioHint": "インターンシップ",
+    "examples": [
+      {
+        "en": "She completed a summer internship at a tech company.",
+        "ja": "彼女はテクノロジー企業で夏のインターンシップを修了した。",
+        "blank": "She completed a summer ___ at a tech company.",
+        "blankAnswer": "internship"
+      }
+    ],
+    "distractors": [
+      "奨学金",
+      "卒業論文",
+      "学会発表"
+    ],
+    "confusableSpellings": [
+      "interniship",
+      "interneship",
+      "inturnship"
+    ],
+    "passive": {
+      "etymology": "「intern（内部にいる者・研修生）」＋「-ship（状態・立場を示す接尾辞）」。internはラテン語 internus（内部の）から。",
+      "tips": "日本語では「インターン」と略すことが多いが、英語では internship が一般的な名詞形。「do an internship」や「complete an internship」のように使う。「intern」だけだと名詞（研修生）や動詞（抑留する）にもなるので注意。",
+      "confusables": "internship（インターンシップ）と apprenticeship（徒弟制度・見習い期間）の違い：internshipは主に大学生の短期実習、apprenticeshipは職人技術を学ぶ長期訓練を指すことが多い。",
+      "collocations": [
+        "do an internship（インターンをする）",
+        "paid internship（有給インターン）",
+        "internship program（インターンシッププログラム）"
+      ],
+      "trivia": "アメリカでは無給インターンシップの是非が社会問題になっており、「unpaid intern」は搾取の象徴として議論されることも。シリコンバレーの有名企業のインターンは月給100万円超えのケースもある！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1443,
+    "word": "outlet",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "販売店、直売店",
+        "pos": "noun"
+      },
+      {
+        "meaning": "はけ口、出口",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈaʊtlɛt/",
+    "syllables": "out-let",
+    "audioHint": "アウトレット",
+    "examples": [
+      {
+        "en": "The company opened a new retail outlet in the city center.",
+        "ja": "その会社は市の中心部に新しい小売店を開いた。",
+        "blank": "The company opened a new retail ___ in the city center.",
+        "blankAnswer": "outlet"
+      }
+    ],
+    "distractors": [
+      "合併交渉",
+      "株式配当",
+      "予算削減"
+    ],
+    "confusableSpellings": [
+      "outlit",
+      "outlett",
+      "oulet"
+    ],
+    "passive": {
+      "etymology": "「out（外へ）」＋「let（通す・出す）」の合成語。古英語 lettan（通す）から。「外へ出す場所」が原義。",
+      "tips": "ビジネスでは「retail outlet（小売店）」、日常では「電源コンセント（electrical outlet）」、感情面では「an outlet for stress（ストレスのはけ口）」と幅広く使う。日本語の「アウトレットモール」はこの語から来ているが、英語では「outlet mall」または「outlet store」という。",
+      "confusables": "outlet（出口・販売店）と exit（出口・退出）の違い：exitは物理的な「出口」に特化し、outletはより広い意味で「流通経路・感情のはけ口・コンセント」にも使われる。",
+      "collocations": [
+        "retail outlet（小売店）",
+        "outlet store（アウトレット店）",
+        "creative outlet（創造的なはけ口）"
+      ],
+      "trivia": "アメリカで「outlet」といえばコンセントのことを指すのが最もポピュラー。イギリスでは同じ意味を「socket」と言う。旅行時に間違えると電化製品が使えなくなるので要注意！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1444,
+    "word": "remedy",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "治療法、remedium",
+        "pos": "noun"
+      },
+      {
+        "meaning": "改善する、是正する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈrɛmədi/",
+    "syllables": "rem-e-dy",
+    "audioHint": "レメディ",
+    "examples": [
+      {
+        "en": "Honey and lemon is a popular home remedy for colds.",
+        "ja": "はちみつとレモンは風邪の家庭的な治療法として人気がある。",
+        "blank": "Honey and lemon is a popular home ___ for colds.",
+        "blankAnswer": "remedy"
+      }
+    ],
+    "distractors": [
+      "予防接種",
+      "手術の合併症",
+      "遺伝子検査"
+    ],
+    "confusableSpellings": [
+      "remidy",
+      "remedey",
+      "remidy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 remedium（治療薬）から。re-（再び）＋ mederi（癒す）の組み合わせ。mederiは medicine（薬）と同じ語根。",
+      "tips": "「remedy」は薬だけでなく問題解決策にも使える（例：a remedy for poverty「貧困の解決策」）。動詞としても使えるが、日常会話では名詞が圧倒的に多い。「cure」と混同されやすいが、remedyは対症的・一時的なニュアンスが強い。",
+      "confusables": "remedy（治療法・改善策）と cure（治癒・根本的な治療）の違い：cureは病気を「完全に治す」ニュアンスが強く、remedyは「症状を和らげる・問題を改善する」程度のニュアンスも含む。",
+      "collocations": [
+        "home remedy（家庭療法）",
+        "natural remedy（自然療法）",
+        "remedy a problem（問題を解決する）"
+      ],
+      "trivia": "ホメオパシー（homeopathy）の製品を「remedy」と呼ぶことが多い。科学的根拠は乏しいとされるが、世界中に根強いファンが存在する。remedy という言葉の響き自体に「癒し」のプラセボ効果があるかも？"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1445,
+    "word": "pill",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "錠剤、ピル",
+        "pos": "noun"
+      },
+      {
+        "meaning": "不快なもの、がまんしなければならないこと",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/pɪl/",
+    "syllables": "pill",
+    "audioHint": "ピル",
+    "examples": [
+      {
+        "en": "She takes a vitamin pill every morning with breakfast.",
+        "ja": "彼女は毎朝朝食と一緒にビタミン錠剤を飲む。",
+        "blank": "She takes a vitamin ___ every morning with breakfast.",
+        "blankAnswer": "pill"
+      }
+    ],
+    "distractors": [
+      "注射器",
+      "診断書",
+      "手術台"
+    ],
+    "confusableSpellings": [
+      "pil",
+      "piil",
+      "pyll"
+    ],
+    "passive": {
+      "etymology": "ラテン語 pilula（小さな球）から。pill は元々「小さな丸いもの」を意味し、丸い形状の薬を指すようになった。",
+      "tips": "「pill」は錠剤全般を指すが、特に「the pill」と定冠詞をつけると「経口避妊薬」を意味する。文脈に注意が必要。「take a pill」は「薬を飲む」だが、「swallow a pill」というと「苦い現実を受け入れる」比喩表現にもなる。",
+      "confusables": "pill（錠剤）と tablet（錠剤）と capsule（カプセル錠）の違い：pillは口語的・一般的、tabletは形が平らな錠剤、capsuleはゼラチンのカプセルに入ったもの。日常会話ではpillが最もよく使われる。",
+      "collocations": [
+        "sleeping pill（睡眠薬）",
+        "the pill（避妊薬）",
+        "a bitter pill to swallow（受け入れがたい現実）"
+      ],
+      "trivia": "「a bitter pill to swallow」は「苦い薬を飲む」→「受け入れがたいが仕方ない事実」という慣用表現。政治ニュースでもよく使われるフレーズ。まさに「言葉の薬」！"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1446,
+    "word": "reception",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "受付、フロント",
+        "pos": "noun"
+      },
+      {
+        "meaning": "歓迎会、披露宴",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/rɪˈsɛpʃən/",
+    "syllables": "re-cep-tion",
+    "audioHint": "リセプション",
+    "examples": [
+      {
+        "en": "Please check in at the reception desk when you arrive.",
+        "ja": "到着したら受付カウンターでチェックインしてください。",
+        "blank": "Please check in at the ___ desk when you arrive.",
+        "blankAnswer": "reception"
+      }
+    ],
+    "distractors": [
+      "配達物の仕分け",
+      "商品の返品手続き",
+      "清掃サービス"
+    ],
+    "confusableSpellings": [
+      "recepion",
+      "recepsion",
+      "recieption"
+    ],
+    "passive": {
+      "etymology": "ラテン語 receptio（受け取ること）から。re-（再び）＋ capere（取る）の組み合わせ。receive（受け取る）と同じ語根。",
+      "tips": "「reception」は「受付」と「歓迎会」の両方の意味があるため文脈判断が必要。ホテルや会社では「the reception」が受付を指し、「a wedding reception」は披露宴を指す。電波の受信（phone reception）にも使われる多義語。",
+      "confusables": "reception（受付・歓迎会）と lobby（ロビー）の違い：lobbyはホテルや建物の入口ホール全体を指し、receptionはそこにある受付カウンターや受付業務を指す。",
+      "collocations": [
+        "reception desk（受付デスク）",
+        "wedding reception（結婚披露宴）",
+        "warm reception（温かい歓迎）"
+      ],
+      "trivia": "「warm reception」「cool reception」のように形容詞と組み合わせると、人や作品への反応・評価を表す。映画の批評でも「The film received a warm reception」のように使われる表現。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1447,
+    "word": "transaction",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "取引、売買",
+        "pos": "noun"
+      },
+      {
+        "meaning": "処理、手続き",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/trænˈzækʃən/",
+    "syllables": "trans-ac-tion",
+    "audioHint": "トランザクション",
+    "examples": [
+      {
+        "en": "The bank flagged the unusual transaction for review.",
+        "ja": "銀行は審査のためにその異常な取引にフラグを立てた。",
+        "blank": "The bank flagged the unusual ___ for review.",
+        "blankAnswer": "transaction"
+      }
+    ],
+    "distractors": [
+      "市場調査",
+      "広告費用",
+      "経営戦略"
+    ],
+    "confusableSpellings": [
+      "transacion",
+      "transacton",
+      "transection"
+    ],
+    "passive": {
+      "etymology": "ラテン語 transactio（処理・合意）から。trans-（横切って・完全に）＋ agere（行動する）の組み合わせ。act（行動）と同じ語根。",
+      "tips": "金融・IT両分野で頻出語。金融では「financial transaction（金融取引）」、ITでは「データベースのトランザクション処理」として使われる。日本語でも「トランザクション」はIT用語として定着している。",
+      "confusables": "transaction（取引・処理）と deal（取引・契約）の違い：dealはより口語的でビジネス交渉のニュアンスが強く、transactionはより正式で記録された取引（特に金融・IT）を指すことが多い。",
+      "collocations": [
+        "financial transaction（金融取引）",
+        "cash transaction（現金取引）",
+        "complete a transaction（取引を完了する）"
+      ],
+      "trivia": "ブロックチェーン技術の普及で「transaction」という単語の使用頻度が急増！暗号通貨の世界では毎秒何千もの transactionが処理されている。デジタル時代の主役的単語。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 1448,
+    "word": "mutation",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "突然変異、変異",
+        "pos": "noun"
+      },
+      {
+        "meaning": "変化、変容",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/mjuːˈteɪʃən/",
+    "syllables": "mu-ta-tion",
+    "audioHint": "ミューテーション",
+    "examples": [
+      {
+        "en": "The virus developed a new mutation that spread more quickly.",
+        "ja": "そのウイルスはより速く広がる新しい変異を生じた。",
+        "blank": "The virus developed a new ___ that spread more quickly.",
+        "blankAnswer": "mutation"
+      }
+    ],
+    "distractors": [
+      "免疫反応",
+      "細胞分裂の阻害",
+      "ホルモン分泌"
+    ],
+    "confusableSpellings": [
+      "mutaion",
+      "muttation",
+      "mutatoin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 mutatio（変化）から。mutare（変える）＋ -tion（名詞化接尾辞）。mutable（変わりやすい）や commute（通勤・変換する）とも語根が共通。",
+      "tips": "生物学では「genetic mutation（遺伝的突然変異）」として使われるが、日常語では単に「大きな変化」の意味でも使える。COVID-19パンデミック以降、一般ニュースでも頻出する単語になった。",
+      "confusables": "mutation（突然変異・変化）と variation（変異・バリエーション）の違い：mutationはDNAレベルの突然変異や劇的変化、variationはより緩やかな「ばらつき・変種」のニュアンス。",
+      "collocations": [
+        "genetic mutation（遺伝的突然変異）",
+        "gene mutation（遺伝子変異）",
+        "cancer mutation（がん変異）"
+      ],
+      "trivia": "「ミュータント（mutant）」はSFやコミックで超能力者を指すが、語源は同じmutation。X-MENのミュータントたちはまさに「genetic mutation」の産物！日常の科学用語がSFと繋がっている。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1449,
+    "word": "dairy",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "乳製品、酪農",
+        "pos": "noun"
+      },
+      {
+        "meaning": "乳製品の（形容詞的用法）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdɛri/",
+    "syllables": "dai-ry",
+    "audioHint": "デアリー",
+    "examples": [
+      {
+        "en": "She avoids dairy products because she is lactose intolerant.",
+        "ja": "彼女は乳糖不耐症なので乳製品を避けている。",
+        "blank": "She avoids ___ products because she is lactose intolerant.",
+        "blankAnswer": "dairy"
+      }
+    ],
+    "distractors": [
+      "冷凍食品",
+      "調味料の種類",
+      "食器の素材"
+    ],
+    "confusableSpellings": [
+      "diery",
+      "daery",
+      "dairry"
+    ],
+    "passive": {
+      "etymology": "古英語 dæge（パンをこねる女性・乳製品を扱う人）から発展。中英語 deierie（乳製品製造所）を経て現代の dairy に。",
+      "tips": "「dairy」と「diary（日記）」はスペルが非常に似ていて混同しやすい！dairy は「a-i」の順、diary は「i-a」の順。「dairy = エー・アイ = Aがあって乳牛（cow）のAが先！」と覚えると便利。",
+      "confusables": "dairy（乳製品・酪農）と diary（日記）は日本人学習者が最も混同しやすいペア。発音も似ているが、dairyは /ˈdɛri/、diaryは /ˈdaɪəri/ と異なる。",
+      "collocations": [
+        "dairy products（乳製品）",
+        "dairy farm（酪農場）",
+        "dairy-free（乳製品不使用）"
+      ],
+      "trivia": "「dairy-free」という表記はヴィーガン・乳糖不耐症対応食品のラベルで急増中。オーツミルクやアーモンドミルクの台頭で、伝統的な dairy industry は大きな転換期を迎えている！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1450,
+    "word": "compassion",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "思いやり、慈悲",
+        "pos": "noun"
+      },
+      {
+        "meaning": "共感、同情",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəmˈpæʃən/",
+    "syllables": "com-pas-sion",
+    "audioHint": "コンパッション",
+    "examples": [
+      {
+        "en": "She showed great compassion for the homeless people in her city.",
+        "ja": "彼女は自分の街のホームレスの人々に大きな思いやりを示した。",
+        "blank": "She showed great ___ for the homeless people in her city.",
+        "blankAnswer": "compassion"
+      }
+    ],
+    "distractors": [
+      "道徳的義務感",
+      "理性的な判断力",
+      "精神的な自律心"
+    ],
+    "confusableSpellings": [
+      "compasssion",
+      "compasion",
+      "compassoin"
+    ],
+    "passive": {
+      "etymology": "ラテン語 compassio から。com-（共に）＋ pati（苦しむ）の組み合わせ。「共に苦しむ」が原義。passion（情熱・受難）とも語根が共通で、キリストの「受難（The Passion）」と同じ語根を持つ。",
+      "tips": "compassionは単なる「かわいそうだと思う気持ち（pity）」より深く、相手の苦しみを共に感じる積極的な姿勢を含む。「have/show compassion for〜」の形で使うことが多い。「compassionate（形容詞）」も頻出。",
+      "confusables": "compassion（思いやり・共感）とsympathy（同情）とempathy（感情移入）の違い：empathyは相手の感情を自分のものとして感じること、sympathyは相手の気持ちを理解して気の毒に思うこと、compassionはそこから一歩進んで「助けたい」という行動意欲を含む。",
+      "collocations": [
+        "show compassion（思いやりを示す）",
+        "compassion fatigue（共感疲労）",
+        "act with compassion（思いやりをもって行動する）"
+      ],
+      "trivia": "「compassion fatigue（共感疲労）」は医療従事者や支援者が感情的に燃え尽きる現象を指す。SNSの発達で一般人にも広がっており、現代病のひとつとして注目されている。思いやりにも「使いすぎ注意」があるとは！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1451,
+    "word": "posture",
+    "pos": "noun",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "姿勢",
+        "pos": "noun"
+      },
+      {
+        "meaning": "態度・立場",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɒstʃər/",
+    "syllables": "pos-ture",
+    "audioHint": "ポスチャー",
+    "examples": [
+      {
+        "en": "Good posture is important for avoiding back pain.",
+        "ja": "良い姿勢は背中の痛みを避けるために重要です。",
+        "blank": "Good ___ is important for avoiding back pain.",
+        "blankAnswer": "posture"
+      }
+    ],
+    "distractors": [
+      "身振り",
+      "表情",
+      "動作"
+    ],
+    "confusableSpellings": [
+      "poscher",
+      "postur",
+      "postuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 positura（位置・配置）から。ponere（置く）の過去分詞 positus が語根。pose（ポーズ）と同語源。",
+      "tips": "「姿勢」の意味で使う場合は不可算名詞として使うことが多い（good postureのように）。また「外交的立場」などの抽象的な意味でも使われる点に注意。",
+      "confusables": "pose（ポーズ・ポーズをとる）と似ているが、postureは習慣的な体の姿勢や態度のあり方を指し、poseは一時的なポーズを指す。",
+      "collocations": [
+        "good posture",
+        "poor posture",
+        "maintain posture"
+      ],
+      "trivia": "スマホを見る時の前かがみ姿勢は「text neck（テキストネック）」と呼ばれ、現代病として注目されている。postureの乱れが健康に直結するとして、シリコンバレーでは「姿勢コーチ」が人気職業になっている。"
+    },
+    "frequency": 4200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1452,
+    "word": "curse",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "呪い",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ののしる・悪態をつく",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kɜːrs/",
+    "syllables": "curse",
+    "audioHint": "カース",
+    "examples": [
+      {
+        "en": "She believed the old house was under a curse.",
+        "ja": "彼女はその古い家に呪いがかかっていると信じていた。",
+        "blank": "She believed the old house was under a ___.",
+        "blankAnswer": "curse"
+      }
+    ],
+    "distractors": [
+      "奇跡",
+      "信念",
+      "幻想"
+    ],
+    "confusableSpellings": [
+      "curs",
+      "curce",
+      "kerse"
+    ],
+    "passive": {
+      "etymology": "古英語 curs（呪い・罰）から。語源は諸説あり、ラテン語 cursus（走ること・過程）との関連も議論される。",
+      "tips": "名詞（呪い）と動詞（ののしる）の両方で使われる。動詞で使う場合、curse at someone（誰かに悪態をつく）という形が頻出。「呪う」はcurse someone。",
+      "confusables": "swear（誓う・悪態をつく）と意味が重なる部分があるが、curseは超自然的な「呪い」のニュアンスが強く、swearは口語的な罵倒語に使うことが多い。",
+      "collocations": [
+        "put a curse on",
+        "lift a curse",
+        "curse someone"
+      ],
+      "trivia": "スポーツ界では「呪い」が有名で、MLB・ボストン・レッドソックスの「バンビーノの呪い（Curse of the Bambino）」は86年間続いたとされる。curseはこうした伝説的な連敗にも使われる言葉。"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1453,
+    "word": "funeral",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "葬式・葬儀",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfjuːnərəl/",
+    "syllables": "fu-ner-al",
+    "audioHint": "フューネラル",
+    "examples": [
+      {
+        "en": "They attended the funeral of their beloved teacher.",
+        "ja": "彼らは愛する先生の葬儀に参列した。",
+        "blank": "They attended the ___ of their beloved teacher.",
+        "blankAnswer": "funeral"
+      }
+    ],
+    "distractors": [
+      "結婚式",
+      "誕生日パーティー",
+      "卒業式"
+    ],
+    "confusableSpellings": [
+      "funaral",
+      "funarel",
+      "funerel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 funus（葬儀・死体）から派生。funeralis（葬儀の）を経て英語に入った。funerary（葬儀の）も同語源。",
+      "tips": "「お葬式に行く」はgo to a funeralまたはattend a funeral。日本語の「葬式」と同じく基本的に可算名詞。funeral homeは「葬儀場」、funeral director は「葬儀屋」を意味する。",
+      "confusables": "burial（埋葬）とは異なり、funeralは式典全体を指す。memorialは故人を追悼するサービス全般を指し、必ずしも遺体が存在しない場合にも使う。",
+      "collocations": [
+        "attend a funeral",
+        "funeral service",
+        "funeral home"
+      ],
+      "trivia": "英語圏では「It's your funeral.（知らないよ、自業自得だよ）」という慣用句がある。直訳すると「あなたの葬式だ」という意味で、相手が後悔しそうなことをしようとしている時に使う皮肉表現。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1454,
+    "word": "census",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "国勢調査・人口調査",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsensəs/",
+    "syllables": "cen-sus",
+    "audioHint": "センサス",
+    "examples": [
+      {
+        "en": "The government conducts a census every ten years.",
+        "ja": "政府は10年ごとに国勢調査を実施する。",
+        "blank": "The government conducts a ___ every ten years.",
+        "blankAnswer": "census"
+      }
+    ],
+    "distractors": [
+      "法律制定",
+      "選挙投票",
+      "税金徴収"
+    ],
+    "confusableSpellings": [
+      "sensus",
+      "cencus",
+      "censas"
+    ],
+    "passive": {
+      "etymology": "ラテン語 censere（評価する・査定する）から。古代ローマの censores（監察官）が市民の財産・人口を調査したことに由来。",
+      "tips": "censusは常に可算名詞で使い、take a census / conduct a censusが頻出表現。センサーやセンスと発音が似るが全く別の単語。",
+      "confusables": "survey（調査・アンケート）はより広義で、個人の意見や市場調査にも使う。censusは政府が行う公式な人口調査に限定されることが多い。",
+      "collocations": [
+        "conduct a census",
+        "census data",
+        "population census"
+      ],
+      "trivia": "古代ローマでは5年ごとにcensusが行われ、納税・軍役の基盤となった。現代でも多くの国が10年ごとに実施しており、米国では憲法でcensusの実施が義務づけられている珍しい例。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1455,
+    "word": "encyclopedia",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "百科事典",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪnˌsaɪkləˈpiːdiə/",
+    "syllables": "en-cy-clo-pe-di-a",
+    "audioHint": "エンサイクロピーディア",
+    "examples": [
+      {
+        "en": "He looked up the answer in an encyclopedia.",
+        "ja": "彼は百科事典で答えを調べた。",
+        "blank": "He looked up the answer in an ___.",
+        "blankAnswer": "encyclopedia"
+      }
+    ],
+    "distractors": [
+      "辞書",
+      "教科書",
+      "図鑑"
+    ],
+    "confusableSpellings": [
+      "encyclopidia",
+      "encyclopaedia",
+      "enciclopedia"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 enkyklios paideia（円形の教育・全般的教育）から。enkyklios（円形の・広範な）＋paideia（教育）。",
+      "tips": "encyclopaediaはイギリス式スペル、encyclopediaはアメリカ式。どちらも正しい。非常に長い単語なので、syllablesを意識して覚えると良い（en-cy-clo-pe-di-a）。",
+      "confusables": "dictionary（辞書）は単語の意味・発音を調べるもの、encyclopediaはテーマや概念について詳しく説明するもの。用途が異なる。",
+      "collocations": [
+        "look up in an encyclopedia",
+        "online encyclopedia",
+        "encyclopedia entry"
+      ],
+      "trivia": "Wikipediaの「wiki」はハワイ語で「速い」を意味し、「pedia」はencyclopediaから取られている。つまりWikipediaは「速い百科事典」という造語。今や世界最大の百科事典で、毎秒1.8回編集されているとされる。"
+    },
+    "frequency": 6000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1456,
+    "word": "cereal",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "シリアル・穀物食品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "穀物・穀草",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪəriəl/",
+    "syllables": "ce-re-al",
+    "audioHint": "スィリアル",
+    "examples": [
+      {
+        "en": "She eats cereal with cold milk every morning.",
+        "ja": "彼女は毎朝冷たい牛乳と一緒にシリアルを食べる。",
+        "blank": "She eats ___ with cold milk every morning.",
+        "blankAnswer": "cereal"
+      }
+    ],
+    "distractors": [
+      "乳製品",
+      "調味料",
+      "缶詰"
+    ],
+    "confusableSpellings": [
+      "serial",
+      "ceral",
+      "cereale"
+    ],
+    "passive": {
+      "etymology": "ラテン語 cerealis（ケレースの・穀物の）から。Ceres（ケレース）はローマ神話の農業の女神。英語にはフランス語経由で入った。",
+      "tips": "最大の落とし穴は serial（連続の・シリアルキラーのserial）との混同。cereal=食べ物、serial=順序・連続と覚えよう。発音は「スィリアル」で「セリアル」ではない点にも注意。",
+      "confusables": "serial（連続の・連載の）と発音・スペルが非常に似ているが全くの別語。cereal killer（シリアル食品メーカー）とserial killer（連続殺人犯）を混同したジョークがあるほど。",
+      "collocations": [
+        "breakfast cereal",
+        "cereal crops",
+        "bowl of cereal"
+      ],
+      "trivia": "コーンフレークは1894年にジョン・ハーヴェイ・ケロッグが「性欲を抑える食事」として発明したという説がある。シリアルの起源がそんなにヘンテコな動機だったとは、まさに「へぇ」案件。"
+    },
+    "frequency": 4700,
+    "cefr": "A2"
+  },
+  {
+    "id": 1457,
+    "word": "fragment",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "破片・断片",
+        "pos": "noun"
+      },
+      {
+        "meaning": "断片化する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfræɡmənt/",
+    "syllables": "frag-ment",
+    "audioHint": "フラグメント",
+    "examples": [
+      {
+        "en": "Fragments of the ancient vase were found at the site.",
+        "ja": "古代の壺の破片がその場所で発見された。",
+        "blank": "___ of the ancient vase were found at the site.",
+        "blankAnswer": "Fragments"
+      }
+    ],
+    "distractors": [
+      "全体量",
+      "長さ・距離",
+      "容積"
+    ],
+    "confusableSpellings": [
+      "fragmant",
+      "fragement",
+      "fragmnet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fragmentum（破片）から。frangere（壊す・折る）が語根。fracture（骨折）、fraction（分数・一部）も同語源。",
+      "tips": "名詞（破片）としてよく使われるが、動詞（断片化させる）としても使える。動詞用法では「社会が断片化する（society is fragmenting）」のように使う。",
+      "confusables": "piece（一部・部品）よりfragmentは「壊れてできた破片」というニュアンスが強い。fragmentはもともと完全だったものが壊れた結果生じた欠片を指す。",
+      "collocations": [
+        "a fragment of",
+        "sentence fragment",
+        "rock fragment"
+      ],
+      "trivia": "プログラミングの世界では「フラグメンテーション（fragmentation）」はHDDやメモリが断片化してパフォーマンスが落ちる現象を指す。英語の「sentence fragment（文の断片）」は文法的に不完全な文のことで、作文で減点対象になる。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1458,
+    "word": "patch",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "継ぎ当て・パッチ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "修復する・パッチを当てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pætʃ/",
+    "syllables": "patch",
+    "audioHint": "パッチ",
+    "examples": [
+      {
+        "en": "She sewed a patch onto the knee of her jeans.",
+        "ja": "彼女はジーンズの膝にパッチを縫い付けた。",
+        "blank": "She sewed a ___ onto the knee of her jeans.",
+        "blankAnswer": "patch"
+      }
+    ],
+    "distractors": [
+      "包装・梱包材",
+      "洗剤・清掃用品",
+      "調理器具"
+    ],
+    "confusableSpellings": [
+      "pach",
+      "patche",
+      "petch"
+    ],
+    "passive": {
+      "etymology": "中世英語 pacche（継ぎ当て）から。語源は諸説あるが、古フランス語 pieche（ピース・断片）との関連が指摘される。",
+      "tips": "ITの「パッチ（ソフトウェアの修正プログラム）」も同じ単語。patch things up は「仲直りする」という慣用句として使われる。go through a bad patch（悪い時期を過ごす）も頻出。",
+      "confusables": "fix（修理する）と意味が近いが、patchはあくまで「応急処置・部分的な修復」のニュアンス。完全な修理ではなくとりあえずの対処をイメージする。",
+      "collocations": [
+        "patch up",
+        "software patch",
+        "eye patch"
+      ],
+      "trivia": "海賊のアイパッチ（eye patch）は実は視力保護のためではなく、片目を暗さに慣らしておくことで、船の甲板と薄暗い船内を行き来する際にすぐ暗順応できるためという説がある。"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1459,
+    "word": "rubbish",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "ゴミ・廃棄物",
+        "pos": "noun"
+      },
+      {
+        "meaning": "でたらめ・くだらないもの",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈrʌbɪʃ/",
+    "syllables": "rub-bish",
+    "audioHint": "ラビッシュ",
+    "examples": [
+      {
+        "en": "Please put your rubbish in the bin outside.",
+        "ja": "ゴミは外のゴミ箱に入れてください。",
+        "blank": "Please put your ___ in the bin outside.",
+        "blankAnswer": "rubbish"
+      }
+    ],
+    "distractors": [
+      "家具・調度品",
+      "衣類・布製品",
+      "食料品・食材"
+    ],
+    "confusableSpellings": [
+      "rubish",
+      "rubbisch",
+      "rubbis"
+    ],
+    "passive": {
+      "etymology": "中世英語 robous / robeux から。古フランス語 robe（略奪品・廃棄物）に由来するとされる。語源には諸説あり。",
+      "tips": "「ゴミ」の意味ではイギリス英語。アメリカ英語ではgarbage、trash、garbageが一般的。rubbish binはイギリス英語でゴミ箱のこと。That's rubbish!（でたらめだ！）という表現もよく使われる。",
+      "confusables": "garbage（主に生ゴミ・アメリカ英語）、trash（一般的なゴミ・アメリカ英語）、litter（路上のポイ捨てゴミ）と使い分けが必要。rubbish はイギリス英語のカジュアルな表現。",
+      "collocations": [
+        "rubbish bin",
+        "talk rubbish",
+        "rubbish collection"
+      ],
+      "trivia": "イギリスでは「That's absolute rubbish!」は怒りの表現としてよく使われる。BBCのコメディ番組でも頻出の表現で、アメリカ人には少し古風でユーモラスに聞こえるらしい。"
+    },
+    "frequency": 5500,
+    "cefr": "A2"
+  },
+  {
+    "id": 1460,
+    "word": "maze",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "迷路",
+        "pos": "noun"
+      },
+      {
+        "meaning": "混乱・困惑した状態",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/meɪz/",
+    "syllables": "maze",
+    "audioHint": "メイズ",
+    "examples": [
+      {
+        "en": "The children got lost in the garden maze.",
+        "ja": "子どもたちは庭の迷路で迷ってしまった。",
+        "blank": "The children got lost in the garden ___.",
+        "blankAnswer": "maze"
+      }
+    ],
+    "distractors": [
+      "舞台・演劇",
+      "彫刻・立体作品",
+      "楽曲・メロディー"
+    ],
+    "confusableSpellings": [
+      "mase",
+      "maize",
+      "maze"
+    ],
+    "passive": {
+      "etymology": "中世英語 mase（混乱・当惑）から。amaze（驚かせる）と同語根で、元々は「混乱させる」という動詞から名詞化した。",
+      "tips": "mazeとlabyrintは同じ「迷路」だが、labyrinthはより文学的・神話的なニュアンスが強い。また、maize（トウモロコシ）とスペルが1文字違いなので注意。",
+      "confusables": "labyrinth（ラビリンス）は同義だが、よりフォーマルかつ比喩的。maze は日常的に使われ、「官僚制度の迷路（a maze of regulations）」のように抽象的にも使う。",
+      "collocations": [
+        "corn maze",
+        "a maze of rules",
+        "navigate a maze"
+      ],
+      "trivia": "世界最大の迷路はカリフォルニア州のトウモロコシ畑で作られ、その面積は約60エーカー以上にもなる。秋になると巨大なコーン迷路（corn maze）を作るのがアメリカの農家の定番イベント。"
+    },
+    "frequency": 4900,
+    "cefr": "B1"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1241,
+    "word": "profile",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "プロフィール、人物紹介",
+        "pos": "noun"
+      },
+      {
+        "meaning": "横顔、輪郭",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈproʊfaɪl/",
+    "syllables": "pro-file",
+    "audioHint": "プロファイル",
+    "examples": [
+      {
+        "en": "She updated her profile on the company website.",
+        "ja": "彼女は会社のウェブサイトのプロフィールを更新した。",
+        "blank": "She updated her ___ on the company website.",
+        "blankAnswer": "profile"
+      }
+    ],
+    "distractors": [
+      "アルゴリズム",
+      "データベース",
+      "インターフェース"
+    ],
+    "confusableSpellings": [
+      "profil",
+      "profille",
+      "proifle"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pro-'（前に）＋ 'filum'（糸・線）→「前に引いた線＝輪郭」が語源。イタリア語 'profilo' を経由して英語に入った。",
+      "tips": "SNSの「プロフィール」として日本語化されているが、英語では『ユーザーの情報ページ』も『横顔・側面の輪郭』も同じ単語。動詞としても使え、'profile a suspect'（容疑者のプロファイルを作る）という用法も重要。",
+      "confusables": "'portrait' は正面からの肖像画・描写。'profile' は横顔や断面のイメージが強く、情報の「断面図」として使われる。",
+      "collocations": [
+        "user profile",
+        "high profile",
+        "profile picture"
+      ],
+      "trivia": "『high-profile』という表現は「注目度が高い」という意味。なぜ「高い横顔」が有名を意味するのか…昔、貴族のコインには横顔が刻まれており、「横顔が見える＝有名人」だったから！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1242,
+    "word": "appetite",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "食欲",
+        "pos": "noun"
+      },
+      {
+        "meaning": "欲求、意欲",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈæpɪtaɪt/",
+    "syllables": "ap-pe-tite",
+    "audioHint": "アペタイト",
+    "examples": [
+      {
+        "en": "Exercise can increase your appetite significantly.",
+        "ja": "運動は食欲を大幅に増加させることがある。",
+        "blank": "Exercise can increase your ___ significantly.",
+        "blankAnswer": "appetite"
+      }
+    ],
+    "distractors": [
+      "症状",
+      "処方",
+      "診断"
+    ],
+    "confusableSpellings": [
+      "appetit",
+      "apetite",
+      "appetyte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ad-'（～へ）＋ 'petere'（求める・向かう）→「～を求める気持ち」が語源。'petition'（請願）や 'compete'（競争する）と同じ語根。",
+      "tips": "日本語では「食欲」のイメージが強いが、英語では 'appetite for knowledge'（知識欲）のように比喩的にも頻繁に使う。また 'appetizer'（前菜）はこの単語から派生している。",
+      "confusables": "'hunger' は空腹という生理的状態そのもの。'appetite' は食べたいという欲求・意欲のニュアンス。'I have no appetite'（食欲がない）は体調不良のときによく使う自然な表現。",
+      "collocations": [
+        "lose one's appetite",
+        "appetite for risk",
+        "suppress appetite"
+      ],
+      "trivia": "フランス料理の「アペリティフ（apéritif）」も同じ語根。食前酒で食欲を刺激するという意味。つまり 'appetite' と乾杯のお酒は兄弟語！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1243,
+    "word": "impulse",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "衝動、はずみ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "刺激、インパルス",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɪmpʌls/",
+    "syllables": "im-pulse",
+    "audioHint": "インパルス",
+    "examples": [
+      {
+        "en": "She bought the shoes on impulse.",
+        "ja": "彼女は衝動的にその靴を買った。",
+        "blank": "She bought the shoes on ___.",
+        "blankAnswer": "impulse"
+      }
+    ],
+    "distractors": [
+      "概念",
+      "直感",
+      "理性"
+    ],
+    "confusableSpellings": [
+      "inpulse",
+      "impuls",
+      "impullse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'im-'（中に・上に）＋ 'pellere'（押す・駆り立てる）→「内側から押し出す力」。'expel'（追い出す）や 'propel'（推進する）も同じ語根。",
+      "tips": "'on impulse' または 'on an impulse' で「衝動的に」という頻出フレーズ。形容詞形は 'impulsive'（衝動的な）で、'impulsive buying'（衝動買い）は日常でよく使う。",
+      "confusables": "'instinct' は本能的・生まれつきの反応。'impulse' は突発的な感情や欲求から生まれる行動の動機。'urge' も似ているが、より強い内的な欲求感を指す。",
+      "collocations": [
+        "on impulse",
+        "impulse buying",
+        "nerve impulse"
+      ],
+      "trivia": "物理学では「力積（force × time）」を意味し、ロケット工学でも使われる。あの衝動買いも、ロケット推進も、同じ単語で表現されるとは！"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1244,
+    "word": "script",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "台本、脚本",
+        "pos": "noun"
+      },
+      {
+        "meaning": "文字体系、スクリプト",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/skrɪpt/",
+    "syllables": "script",
+    "audioHint": "スクリプト",
+    "examples": [
+      {
+        "en": "The actor memorized the entire script before filming.",
+        "ja": "その俳優は撮影前に台本を全部暗記した。",
+        "blank": "The actor memorized the entire ___ before filming.",
+        "blankAnswer": "script"
+      }
+    ],
+    "distractors": [
+      "旋律",
+      "絵画",
+      "彫刻"
+    ],
+    "confusableSpellings": [
+      "scrpit",
+      "scirpt",
+      "skript"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'scribere'（書く）の過去分詞 'scriptus' が語源。'describe'（描写する）、'subscribe'（購読する）、'manuscript'（手稿）なども同じ語根。",
+      "tips": "「脚本」の意味が有名だが、ITでは「スクリプト（自動実行プログラム）」としてもほぼ同じスペルで使われる。動詞としても使え 'scripted response'（台本通りの返答）という批判的な表現もある。",
+      "confusables": "'screenplay' は映画専用の脚本、'script' はより広く舞台・映画・TV・ラジオ全般の台本を指す。'manuscript' は出版前の原稿という意味で別物。",
+      "collocations": [
+        "write a script",
+        "follow the script",
+        "shell script"
+      ],
+      "trivia": "医師が書く「処方箋（prescription）」も語源は同じ「書く」。昔は医師が薬の調合方法を文字で書いて渡していたから、薬も脚本も同じ単語の仲間！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1245,
+    "word": "anniversary",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "記念日",
+        "pos": "noun"
+      },
+      {
+        "meaning": "周年",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˌænɪˈvɜːrsəri/",
+    "syllables": "an-ni-ver-sa-ry",
+    "audioHint": "アニバーサリー",
+    "examples": [
+      {
+        "en": "They celebrated their tenth wedding anniversary in Paris.",
+        "ja": "彼らはパリで結婚10周年を祝った。",
+        "blank": "They celebrated their tenth wedding ___ in Paris.",
+        "blankAnswer": "anniversary"
+      }
+    ],
+    "distractors": [
+      "儀式",
+      "習慣",
+      "祭り"
+    ],
+    "confusableSpellings": [
+      "aniversary",
+      "anniversery",
+      "anneversary"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'annus'（年）＋ 'vertere'（回る・変わる）→「年が巡ってくる日」。'annual'（年次の）、'verse'（詩・回転）とも同じ語根グループ。",
+      "tips": "日本語では「アニバーサリー」と言うが、英語の発音は「アニ**バー**サリー」とアクセントが第3音節に来ることに注意。また、誕生日には基本的に 'birthday' を使い、'anniversary' は誕生日以外の記念日（結婚・設立など）に使うのが自然。",
+      "confusables": "'birthday' は誕生日専用。'commemoration' は戦没者追悼などフォーマルな記念行事。'anniversary' は喜ばしいイベントの繰り返しの記念日が多い。",
+      "collocations": [
+        "wedding anniversary",
+        "anniversary celebration",
+        "first anniversary"
+      ],
+      "trivia": "ディズニーランドの「ハッピーアニバーサリー」で日本人に浸透しているが、実はスペルミス率No.1単語のひとつ。'n'が1つか2つかで迷う人続出！"
+    },
+    "frequency": 2800,
+    "cefr": "A2"
+  },
+  {
+    "id": 1246,
+    "word": "pension",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "年金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "ペンション（小規模宿泊施設）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpenʃən/",
+    "syllables": "pen-sion",
+    "audioHint": "ペンション",
+    "examples": [
+      {
+        "en": "He retired and started living on his pension.",
+        "ja": "彼は退職し、年金で生活し始めた。",
+        "blank": "He retired and started living on his ___.",
+        "blankAnswer": "pension"
+      }
+    ],
+    "distractors": [
+      "融資",
+      "利子",
+      "予算"
+    ],
+    "confusableSpellings": [
+      "pention",
+      "pensoin",
+      "penssion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pendere'（支払う・吊るす）→ 'pensio'（支払い）が語源。'expense'（費用）、'compensate'（補償する）、'depend'（依存する）も同じ語根。",
+      "tips": "日本語の「ペンション（山荘・民宿）」は英語の 'pension' とは別用法でフランス語経由。英語で小規模ホテルを指す場合は 'bed and breakfast' や 'guesthouse' が自然。英語で 'pension' と言えばほぼ「年金」の意味。",
+      "confusables": "'pension' は定期的な年金給付全般。'retirement fund' は積み立て型の退職金。'annuity' は保険会社などから毎年受け取る年金型の支払い。",
+      "collocations": [
+        "pension plan",
+        "receive a pension",
+        "pension fund"
+      ],
+      "trivia": "ヨーロッパの小さな宿泊施設「ペンション」は、もともと「定住して食事付きの世話をする住まい」の意味から来ている。年金も宿も「定期的にお金や世話を払う」という共通概念があった！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1247,
+    "word": "temper",
+    "pos": "noun",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "気性、怒り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "和らげる、調整する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtempər/",
+    "syllables": "tem-per",
+    "audioHint": "テンパー",
+    "examples": [
+      {
+        "en": "He lost his temper during the meeting.",
+        "ja": "彼は会議中に怒りを爆発させた。",
+        "blank": "He lost his ___ during the meeting.",
+        "blankAnswer": "temper"
+      }
+    ],
+    "distractors": [
+      "勇敢さ",
+      "誠実さ",
+      "忍耐力"
+    ],
+    "confusableSpellings": [
+      "tempor",
+      "tempher",
+      "tember"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'temperare'（適切に混ぜる・調整する）が語源。音楽の「テンポ(tempo)」や「気温(temperature)」も同じ語根で、どれも「適切なバランスに保つ」というコアな意味を持つ。",
+      "tips": "'lose one's temper'（カッとなる）は超頻出表現。逆に 'keep one's temper' は「冷静を保つ」。日本語の「テンパる（焦る・パニくる）」は日本独自のスラングで英語の 'temper' とは無関係なので注意！",
+      "confusables": "'temper' は気性・一時的な怒り。'temperament' は生まれつきの気質・性格傾向で、もっと根本的なもの。'mood' は一時的な気分全般。",
+      "collocations": [
+        "lose one's temper",
+        "bad temper",
+        "temper tantrum"
+      ],
+      "trivia": "鉄鋼の「焼き入れ（tempering）」もこの単語！熱した金属を適切な温度で冷やして強度を調整することを指す。気性を「鍛える」イメージと重なってぐっと記憶しやすくなる！"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1248,
+    "word": "cortex",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "皮質（脳などの外層）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "樹皮、外皮",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkɔːrteks/",
+    "syllables": "cor-tex",
+    "audioHint": "コーテックス",
+    "examples": [
+      {
+        "en": "The cerebral cortex controls higher brain functions.",
+        "ja": "大脳皮質は高次の脳機能を制御している。",
+        "blank": "The cerebral ___ controls higher brain functions.",
+        "blankAnswer": "cortex"
+      }
+    ],
+    "distractors": [
+      "神経伝達物質",
+      "血液型",
+      "免疫反応"
+    ],
+    "confusableSpellings": [
+      "cortecs",
+      "cortix",
+      "cortext"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'cortex'（樹皮・外皮）がそのまま英語に入った。木の外側の硬い皮＝「覆っている表面の層」というイメージが、脳の「外側の層（皮質）」という医学用語として転用された。",
+      "tips": "複数形は 'cortices'（コーティシーズ）または 'cortexes' の両方が使える。医療・神経科学の文脈では 'cerebral cortex'（大脳皮質）、'prefrontal cortex'（前頭前皮質）という形で使われることが多い。",
+      "confusables": "'cortex' は外層・皮質という構造を指す。'cerebrum' は大脳全体のこと。'neuron' は神経細胞そのものを指す。",
+      "collocations": [
+        "cerebral cortex",
+        "prefrontal cortex",
+        "adrenal cortex"
+      ],
+      "trivia": "コルク（cork）の語源も同じラテン語 'cortex'！コルクはワインの瓶を封するあの木の皮のこと。ワインを飲むとき、実は大脳皮質と同じ名前の素材で蓋がされている。"
+    },
+    "frequency": 5500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1249,
+    "word": "syndrome",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "症候群",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（社会的な）傾向のパターン",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪndroʊm/",
+    "syllables": "syn-drome",
+    "audioHint": "シンドローム",
+    "examples": [
+      {
+        "en": "Down syndrome affects chromosome development.",
+        "ja": "ダウン症候群は染色体の発達に影響を与える。",
+        "blank": "___ affects chromosome development.",
+        "blankAnswer": "Down syndrome"
+      }
+    ],
+    "distractors": [
+      "治療法",
+      "副作用",
+      "投薬量"
+    ],
+    "confusableSpellings": [
+      "syndrom",
+      "syndrone",
+      "sindrome"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'syn-'（共に）＋ 'dromos'（走る・流れ）→「一緒に走る・同時に現れる」→「複数の症状が同時に現れること」が語源。'synchronize'（同期する）の 'syn-' と同じ。",
+      "tips": "医学用語だが 'impostor syndrome'（インポスター症候群：自分の成功を実力ではないと感じる心理）のように、日常・社会的な文脈でも比喩的に使われる。",
+      "confusables": "'syndrome' は複数の症状の集合体（診断名）。'symptom' は個々の症状・兆候。'disease' は原因が特定された疾患全般。",
+      "collocations": [
+        "Down syndrome",
+        "impostor syndrome",
+        "post-traumatic stress syndrome"
+      ],
+      "trivia": "「サンドロ（Sandro）」という名前もこの語根と関係がある、と言うと驚くかもしれない。実は無関係だが、'syndrome' はアニメや映画のタイトルにもよく登場し、日本語でも「〇〇症候群」と使われる定番単語！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1250,
+    "word": "chamber",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "議院、会議所",
+        "pos": "noun"
+      },
+      {
+        "meaning": "部屋、室",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtʃeɪmbər/",
+    "syllables": "cham-ber",
+    "audioHint": "チェインバー",
+    "examples": [
+      {
+        "en": "The bill was passed in the upper chamber.",
+        "ja": "その法案は上院で可決された。",
+        "blank": "The bill was passed in the upper ___.",
+        "blankAnswer": "chamber"
+      }
+    ],
+    "distractors": [
+      "条約",
+      "選挙区",
+      "政党"
+    ],
+    "confusableSpellings": [
+      "chambre",
+      "chaimber",
+      "chanber"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'camera'（アーチ型の部屋・金庫）→古フランス語 'chambre' を経由して英語へ。'camera'（カメラ）と同語源で、どちらも「囲まれた空間」という意味が根本にある。",
+      "tips": "'Chamber of Commerce'（商工会議所）は政治・ビジネス文脈の超頻出フレーズ。また心臓の「心室」も 'chamber'（cardiac chamber）と呼ぶ。銃の「薬室（弾が入る部分）」もこの単語。",
+      "confusables": "'chamber' は特定の機能を持つ閉じた空間・機関。'room' は一般的な部屋。'hall' は廊下や大広間。'parliament' は議会全体の組織そのものを指す。",
+      "collocations": [
+        "Chamber of Commerce",
+        "upper chamber",
+        "chamber music"
+      ],
+      "trivia": "「室内楽（chamber music）」は貴族の部屋（chamber）で演奏されたことが名前の由来。コンサートホールではなく、お金持ちの私室BGMだったのが起源！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1251,
+    "word": "utility",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "実用性、有用性",
+        "pos": "noun"
+      },
+      {
+        "meaning": "公共事業、電力・ガス・水道などのインフラ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/juːˈtɪlɪti/",
+    "syllables": "u-til-i-ty",
+    "audioHint": "ユーティリティ",
+    "examples": [
+      {
+        "en": "The utility of this tool becomes clear when you use it daily.",
+        "ja": "このツールの実用性は毎日使うと明らかになる。",
+        "blank": "The ___ of this tool becomes clear when you use it daily.",
+        "blankAnswer": "utility"
+      }
+    ],
+    "distractors": [
+      "利益、収益",
+      "需要と供給のバランス",
+      "市場の競争"
+    ],
+    "confusableSpellings": [
+      "utillity",
+      "utilitiy",
+      "utlility"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'utilitas'（有用性）に由来。語根 'util-'（役に立つ）＋ '-ity'（名詞化接尾辞）。'utilize'（利用する）と同じ語根を持つ。",
+      "tips": "日本語の「ユーティリティ」はIT分野でよく使われるが、英語では経済学で「効用」、また電力・ガス・水道などの「公共サービス」の意味でも非常に頻繁に使われる。文脈に応じて意味を使い分けよう。",
+      "confusables": "'utility'（有用性・公共事業）と 'facility'（施設・設備）は混同しやすい。'utility bill' は「光熱費の請求書」、'facility' は「施設」で異なる。",
+      "collocations": [
+        "utility bill（光熱費）",
+        "public utility（公共事業）",
+        "utility maximization（効用最大化）"
+      ],
+      "trivia": "経済学では「utility（効用）」は幸福や満足度を数値化した概念。「どっちのランチが幸せか」を数字で表そうとした学者たちの発明語！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1252,
+    "word": "cattle",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "牛（家畜としての牛の総称）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（軽蔑的に）人を家畜扱いする場合にも用いる",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkætl/",
+    "syllables": "cat-tle",
+    "audioHint": "キャトル",
+    "examples": [
+      {
+        "en": "The farmer raises cattle on his vast ranch in Texas.",
+        "ja": "その農家はテキサスの広大な牧場で牛を飼育している。",
+        "blank": "The farmer raises ___ on his vast ranch in Texas.",
+        "blankAnswer": "cattle"
+      }
+    ],
+    "distractors": [
+      "野生の草食動物",
+      "農作物の収穫量",
+      "河川の生態系"
+    ],
+    "confusableSpellings": [
+      "catel",
+      "cattel",
+      "catttle"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'catel'（財産）に由来し、中世英語 'chatel' と同根。もともと「財産・資産」を意味し、牛が最も重要な財産だったことから家畜を指すようになった。",
+      "tips": "'cattle' は常に複数扱いで、冠詞 'a' は付けない。「1頭の牛」は 'a cow' または 'a head of cattle' と言う。'cattle' 単体で「牛たち」の意味になる。",
+      "confusables": "'cattle'（牛の総称・複数）と 'cow'（雌牛1頭）は違う。牧場全体の牛の群れを指すときは 'cattle'、個別の雌牛は 'cow'、雄牛は 'bull' または 'ox'。",
+      "collocations": [
+        "cattle ranch（牧牛農場）",
+        "cattle drive（牛追い）",
+        "head of cattle（牛の頭数）"
+      ],
+      "trivia": "英語の 'cattle' と 'capital'（資本）は実は同じ語源！中世では牛＝財産だったから、牛の数がそのまま「資本」だったんです。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1253,
+    "word": "herd",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "（動物の）群れ",
+        "pos": "noun"
+      },
+      {
+        "meaning": "群れを追う、追い立てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/hɜːrd/",
+    "syllables": "herd",
+    "audioHint": "ハード",
+    "examples": [
+      {
+        "en": "A large herd of elephants crossed the dry riverbed.",
+        "ja": "大きなゾウの群れが干上がった川床を渡った。",
+        "blank": "A large ___ of elephants crossed the dry riverbed.",
+        "blankAnswer": "herd"
+      }
+    ],
+    "distractors": [
+      "植物の群生",
+      "川の流れ",
+      "山の稜線"
+    ],
+    "confusableSpellings": [
+      "hurd",
+      "herd",
+      "haerd"
+    ],
+    "passive": {
+      "etymology": "古英語 'heord'（群れ）に由来。ゲルマン語系の言葉で、ドイツ語の 'Herde' と同根。古くから牧畜文化と密接に結びついた語。",
+      "tips": "'herd' は主に牛・象・馬などの大型動物の群れに使う。鳥の群れは 'flock'、魚の群れは 'school' または 'shoal'、狼の群れは 'pack' と使い分けるのがポイント。",
+      "confusables": "'herd'（大型動物の群れ）と 'flock'（鳥・羊の群れ）と 'pack'（狼・犬の群れ）は動物によって使い分ける。'herd mentality'（群衆心理）という表現もよく使われる。",
+      "collocations": [
+        "herd of cattle（牛の群れ）",
+        "herd mentality（群衆心理）",
+        "herd immunity（集団免疫）"
+      ],
+      "trivia": "「herd immunity（集団免疫）」という言葉、コロナ禍で一気に有名になりましたよね。もともと牛の群れ管理から来た概念を医学に転用した言葉なんです！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1254,
+    "word": "fluid",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "液体、流体",
+        "pos": "noun"
+      },
+      {
+        "meaning": "流動的な、変化しやすい",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈfluːɪd/",
+    "syllables": "flu-id",
+    "audioHint": "フルーイド",
+    "examples": [
+      {
+        "en": "Drink plenty of fluids when you have a fever.",
+        "ja": "熱があるときはたくさん水分をとりなさい。",
+        "blank": "Drink plenty of ___ when you have a fever.",
+        "blankAnswer": "fluids"
+      }
+    ],
+    "distractors": [
+      "固体の物質",
+      "細胞の核",
+      "気体の分子"
+    ],
+    "confusableSpellings": [
+      "flued",
+      "fluied",
+      "fliud"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'fluidus'（流れる）に由来。語根 'flu-'（流れる）は 'flow'、'influence'、'flush' などにも共通する。",
+      "tips": "名詞として「液体・水分」、形容詞として「流動的な・柔軟な」と使える。医療では 'body fluid'（体液）、日常では 'drink fluids'（水分を摂る）という形が頻出。形容詞の 'fluid situation'（流動的な状況）も重要。",
+      "confusables": "'fluid'（液体全般・流動的）と 'liquid'（液体・固体でも気体でもない状態）は似ているが、'fluid' は気体も含む「流体」全般を指せる点が異なる。",
+      "collocations": [
+        "body fluid（体液）",
+        "fluid intake（水分摂取）",
+        "fluid situation（流動的な状況）"
+      ],
+      "trivia": "ジェンダー用語で 'gender fluid'（ジェンダーフルイド）という言葉があるように、'fluid' には「固定されていない、変わりうる」というニュアンスが広く使われています。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1255,
+    "word": "pity",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "哀れみ、同情",
+        "pos": "noun"
+      },
+      {
+        "meaning": "残念なこと",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɪti/",
+    "syllables": "pit-y",
+    "audioHint": "ピティ",
+    "examples": [
+      {
+        "en": "It's a pity that you can't come to the party tonight.",
+        "ja": "今夜のパーティーに来られないのは残念だ。",
+        "blank": "It's a ___ that you can't come to the party tonight.",
+        "blankAnswer": "pity"
+      }
+    ],
+    "distractors": [
+      "恐怖心、恐れ",
+      "誇り、自尊心",
+      "怒り、憤り"
+    ],
+    "confusableSpellings": [
+      "pitty",
+      "piety",
+      "piity"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'pité' に由来し、ラテン語 'pietas'（敬虔さ・慈悲）から。'piety'（信心深さ）と同じ語根を持つが現代英語では意味が分岐した。",
+      "tips": "'What a pity!'（なんて残念！）や 'It's a pity that...'（〜は残念だ）は会話でよく使う表現。また 'take pity on'（〜を哀れむ）も重要。'sympathy' が「共感」なのに対し、'pity' は上から目線の「かわいそう」という含みがある場合も。",
+      "confusables": "'pity'（上から目線の哀れみ・残念）と 'sympathy'（共感・同情）と 'empathy'（感情移入）は微妙に違う。'I pity you' は相手を少し見下す響きがあるので要注意。",
+      "collocations": [
+        "take pity on（〜を哀れむ）",
+        "feel pity for（〜に同情する）",
+        "What a pity!（なんて残念！）"
+      ],
+      "trivia": "「pity」と「piety（信心）」は同じ語源なのに全然違う意味になった姉妹語。宗教的な「神への慈悲」が時代を経て「かわいそうという感情」に変化したんです。"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 1256,
+    "word": "priest",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "聖職者、司祭、神父",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（広義に）宗教的指導者",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/priːst/",
+    "syllables": "priest",
+    "audioHint": "プリースト",
+    "examples": [
+      {
+        "en": "The priest gave a moving sermon at the Sunday service.",
+        "ja": "神父は日曜礼拝で感動的な説教を行った。",
+        "blank": "The ___ gave a moving sermon at the Sunday service.",
+        "blankAnswer": "priest"
+      }
+    ],
+    "distractors": [
+      "地域の市長、行政官",
+      "伝統的な職人",
+      "学校の校長"
+    ],
+    "confusableSpellings": [
+      "preist",
+      "preest",
+      "priset"
+    ],
+    "passive": {
+      "etymology": "古英語 'prēost' に由来し、ラテン語 'presbyter'（長老）、さらにギリシャ語 'presbyteros'（より年老いた者）から。",
+      "tips": "キリスト教の文脈では 'priest' は主にカトリック・聖公会の「司祭」を指す。プロテスタントの聖職者は 'minister' や 'pastor'、ユダヤ教は 'rabbi'、イスラム教は 'imam' と使い分けよう。",
+      "confusables": "'priest'（カトリック等の司祭）と 'pastor'（プロテスタントの牧師）と 'minister'（プロテスタントの聖職者・大臣）は宗派によって使い分けが必要。",
+      "collocations": [
+        "high priest（大祭司）",
+        "priest hole（神父隠し部屋）",
+        "ordained priest（叙階された司祭）"
+      ],
+      "trivia": "ハリー・ポッターの「プリズン・オブ・アズカバン」に登場するルーピン先生の名前は 'Lupin'（狼）ですが、'priest' はホグワーツ世界にも密かに登場する概念。英語の 'presbyter' から来た言葉が1000年以上前に英語に入ったのが興味深い！"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1257,
+    "word": "acquaintance",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "知人、顔見知り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（知識・情報との）面識、知識",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈkweɪntəns/",
+    "syllables": "ac-quain-tance",
+    "audioHint": "アクウェインタンス",
+    "examples": [
+      {
+        "en": "She is not a close friend, just an acquaintance from work.",
+        "ja": "彼女は親しい友人ではなく、職場の知人にすぎない。",
+        "blank": "She is not a close friend, just an ___ from work.",
+        "blankAnswer": "acquaintance"
+      }
+    ],
+    "distractors": [
+      "深い信頼関係、親友",
+      "敵対する相手",
+      "法的な後見人"
+    ],
+    "confusableSpellings": [
+      "acquaintence",
+      "acquaintance",
+      "aquaintance"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'acointance' に由来。'ac-'（〜に向けて）＋ 'cognoscere'（知る）のラテン語系語根から。'recognize'（認識する）や 'cognitive'（認知の）と同じ語根 'gno/cogn'（知る）を持つ。",
+      "tips": "'acquaintance' のスペルが難しい理由は 'qu' と 'ain' の組み合わせ。「アクワインタンス」と発音しながら覚えよう。'friend'（友人）より関係が浅い「知人」という微妙なニュアンスが大切。",
+      "confusables": "'acquaintance'（友人未満の知人）と 'friend'（友人）と 'colleague'（同僚）は関係性の深さと種類が異なる。SNS全盛の今、'acquaintance' の重要性が増している。",
+      "collocations": [
+        "make an acquaintance（知人を作る）",
+        "a nodding acquaintance（会釈する程度の知人）",
+        "of my acquaintance（私の知人の）"
+      ],
+      "trivia": "SNSで「フォロワー」が何千人いても、心理学では本当の友人は平均150人（ダンバー数）で、それ以外はみんな 'acquaintance' と言われています。意外と少ない！"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1258,
+    "word": "offspring",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "子孫、子（動植物・人間を含む）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "産物、結果",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɔːfsprɪŋ/",
+    "syllables": "off-spring",
+    "audioHint": "オフスプリング",
+    "examples": [
+      {
+        "en": "The lion protected her offspring from predators in the wild.",
+        "ja": "ライオンは野生の中で自分の子を捕食者から守った。",
+        "blank": "The lion protected her ___ from predators in the wild.",
+        "blankAnswer": "offspring"
+      }
+    ],
+    "distractors": [
+      "遺伝子の変異",
+      "細胞の分裂",
+      "病原体の感染経路"
+    ],
+    "confusableSpellings": [
+      "offspiring",
+      "offsprng",
+      "ofspring"
+    ],
+    "passive": {
+      "etymology": "'off-'（〜から離れて）＋ 'spring'（湧き出る・生まれる）の合成語。古英語 'ofspring' から直接来ており、「親から湧き出るもの＝子」という意味を視覚的に表している。",
+      "tips": "'offspring' は単数・複数同形（'one offspring', 'three offspring'）なので 'offsprings' とは言わない点に注意。人間にも動物にも使えるが、やや学術的・フォーマルなニュアンスがある。",
+      "confusables": "'offspring'（子・子孫の総称）と 'descendant'（子孫・末裔）と 'heir'（相続人）は似ているが、'offspring' は直接の子に近く、'descendant' はより遠い世代にも使える。",
+      "collocations": [
+        "produce offspring（子孫を産む）",
+        "raise offspring（子を育てる）",
+        "healthy offspring（健康な子孫）"
+      ],
+      "trivia": "パンクバンド「The Offspring（ジ・オフスプリング）」の名前はここから。バンド名に進化生物学の用語を使うとはなかなかクールですよね！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1259,
+    "word": "famine",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "飢饉、深刻な食糧不足",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（比喩的に）極度の欠乏",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfæmɪn/",
+    "syllables": "fam-ine",
+    "audioHint": "ファミン",
+    "examples": [
+      {
+        "en": "The famine caused by drought killed thousands of people.",
+        "ja": "干ばつによる飢饉が何千人もの命を奪った。",
+        "blank": "The ___ caused by drought killed thousands of people.",
+        "blankAnswer": "famine"
+      }
+    ],
+    "distractors": [
+      "洪水による水害",
+      "地震による地形変化",
+      "火山の噴火活動"
+    ],
+    "confusableSpellings": [
+      "fammine",
+      "famin",
+      "famine"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'famine' に由来し、ラテン語 'fames'（飢え）から。'fame'（名声）とは全く別の語源。接尾辞 '-ine' はフランス語経由の名詞形成辞。",
+      "tips": "'famine' は個人の空腹ではなく、地域・国規模の「飢饉」を指す。'hunger'（空腹・飢え）、'starvation'（餓死）とは規模感が異なる。'feast or famine'（豊かか貧しいかの両極端）という慣用句も覚えておこう。",
+      "confusables": "'famine'（社会的・広域的な飢饉）と 'starvation'（個人レベルの餓死・飢え）と 'hunger'（空腹・飢え一般）はスケールが異なる。",
+      "collocations": [
+        "food famine（食糧飢饉）",
+        "cause a famine（飢饉を引き起こす）",
+        "feast or famine（ feast or famine の状況）"
+      ],
+      "trivia": "アイルランドの「Great Famine（大飢饉、1845〜1852年）」はじゃがいも疫病が原因で100万人以上が死亡。これがアメリカへのアイルランド移民急増の最大の原因になり、今のアメリカ文化に深く影響しています。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1260,
+    "word": "deforestation",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "森林破壊、森林伐採",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（広義に）樹木の大規模除去",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/diːˌfɒrɪˈsteɪʃn/",
+    "syllables": "de-for-est-a-tion",
+    "audioHint": "ディフォレステーション",
+    "examples": [
+      {
+        "en": "Deforestation in the Amazon threatens countless species of wildlife.",
+        "ja": "アマゾンの森林破壊は無数の野生生物の種を脅かしている。",
+        "blank": "___ in the Amazon threatens countless species of wildlife.",
+        "blankAnswer": "Deforestation"
+      }
+    ],
+    "distractors": [
+      "海面上昇による沿岸浸食",
+      "砂漠化による土地の乾燥化",
+      "大気汚染による酸性雨"
+    ],
+    "confusableSpellings": [
+      "deforestaion",
+      "deforrestation",
+      "deforestiation"
+    ],
+    "passive": {
+      "etymology": "'de-'（除去・反転）＋ 'forest'（森林）＋ '-ation'（名詞化接尾辞）の構造。「森を de（取り除く）する行為」という意味がそのまま形になった透明性の高い語。反対語は 'reforestation'（再植林）。",
+      "tips": "長い単語だがパーツに分ければ覚えやすい：de-forest-ation。'deforestation' は不可算名詞として使うことが多い（'a deforestation' とは言わない）。環境問題の文章では必須語彙。",
+      "confusables": "'deforestation'（人為的な森林破壊）と 'desertification'（砂漠化）と 'erosion'（侵食）は関連するが別の現象。森林破壊が進むと砂漠化や侵食も起きるという因果関係がある。",
+      "collocations": [
+        "tropical deforestation（熱帯雨林の森林破壊）",
+        "deforestation rate（森林破壊率）",
+        "combat deforestation（森林破壊に対抗する）"
+      ],
+      "trivia": "毎年サッカーフィールド約1500万個分の森林が地球上から消えているといわれています。日本の国土面積が約3780万ヘクタールなので、2〜3年でほぼ日本一国分の森が消える計算になります。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  }
+]

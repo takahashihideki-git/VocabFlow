@@ -1,0 +1,1000 @@
+[
+  {
+    "id": 621,
+    "word": "convey",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "伝える、伝達する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "運ぶ、輸送する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈveɪ/",
+    "syllables": "con-vey",
+    "audioHint": "コンヴェイ",
+    "examples": [
+      {
+        "en": "She struggled to convey her feelings in words.",
+        "ja": "彼女は自分の気持ちを言葉で伝えようと苦労した。",
+        "blank": "She struggled to ___ her feelings in words.",
+        "blankAnswer": "convey"
+      }
+    ],
+    "distractors": [
+      "理解する",
+      "推測する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "convay",
+      "convei",
+      "conway"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'convehere'（共に運ぶ）から。接頭辞 con-（共に）＋ vehere（運ぶ）。フランス語 'conveier' を経て英語に入った。",
+      "tips": "「伝える」という意味では tell や say より「感情・意味・印象を伝える」というニュアンスが強い。convey a message（メッセージを伝える）のように抽象的な内容によく使う。",
+      "confusables": "tell は直接的な情報伝達、convey はニュアンスや感情など「伝わる」感覚が強い。express は感情の表現に特化している点が異なる。",
+      "collocations": [
+        "convey a message",
+        "convey emotions",
+        "convey meaning"
+      ],
+      "trivia": "ベルトコンベア（conveyor belt）の conveyor はこの単語が語源！つまり「物を運ぶもの」という原義がそのまま残った単語なんです。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 622,
+    "word": "attach",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "取り付ける、添付する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "愛着を持つ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈtætʃ/",
+    "syllables": "at-tach",
+    "audioHint": "アタッチ",
+    "examples": [
+      {
+        "en": "Please attach your resume to the email.",
+        "ja": "メールに履歴書を添付してください。",
+        "blank": "Please ___ your resume to the email.",
+        "blankAnswer": "attach"
+      }
+    ],
+    "distractors": [
+      "分解する",
+      "押しつぶす",
+      "引っ張る"
+    ],
+    "confusableSpellings": [
+      "atach",
+      "attatch",
+      "attch"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'atachier'（くぎで留める）から。接頭辞 at-（ad- の変形、〜に）＋ tache（くぎ・留め具）が語源。",
+      "tips": "「添付ファイル」は attachment、メールで attach a file と言う。be attached to ～ で「〜に愛着がある」という意味になるので、文脈に注意しよう。",
+      "confusables": "fasten は物理的な固定（ベルトを締めるなど）、attach はくっつける・添付する感覚。connect は接続・つなぐ意味で電気や通信でよく使う。",
+      "collocations": [
+        "attach a file",
+        "attach importance to",
+        "be attached to"
+      ],
+      "trivia": "「アタッシェケース」（attache case）は外交官（attaché）が書類を持ち歩くためのバッグが語源で、この attach と同じ語族。外交官はもともと「大使館に取り付けられた人」という意味！"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 623,
+    "word": "stretch",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "伸ばす、伸びる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "広がる、及ぶ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/strɛtʃ/",
+    "syllables": "stretch",
+    "audioHint": "ストレッチ",
+    "examples": [
+      {
+        "en": "She stretched her arms above her head.",
+        "ja": "彼女は頭の上に両腕を伸ばした。",
+        "blank": "She ___ her arms above her head.",
+        "blankAnswer": "stretched"
+      }
+    ],
+    "distractors": [
+      "転倒する",
+      "衝突する",
+      "収縮する"
+    ],
+    "confusableSpellings": [
+      "strech",
+      "streatch",
+      "strecth"
+    ],
+    "passive": {
+      "etymology": "古英語 'streccan'（伸ばす）から直接来た純英語由来の単語。ゲルマン語系で、ドイツ語の 'strecken' と同じ語根を持つ。",
+      "tips": "名詞としても使え、a stretch of road（道路の一区間）のように「ひと続きの区間」も表せる。at full stretch で「全力を尽くして」という慣用表現もある。",
+      "confusables": "extend は長さや期間を延長するフォーマルな語、stretch はゴムや筋肉など弾力のあるものが伸びるイメージが強い。spread は面積的に広がるニュアンス。",
+      "collocations": [
+        "stretch one's legs",
+        "stretch out",
+        "stretch the truth"
+      ],
+      "trivia": "「stretch the truth」で「話を少し盛る・誇張する」という意味になる。つまり「嘘をつく」と直接言わずに「真実を引っ張りすぎた」と表現するわけで、英語のユーモアセンスが光る表現！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 624,
+    "word": "puzzle",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "困惑させる、当惑させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "思案する、頭を悩ます",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpʌzəl/",
+    "syllables": "puz-zle",
+    "audioHint": "パズル",
+    "examples": [
+      {
+        "en": "The strange message puzzled everyone in the room.",
+        "ja": "その奇妙なメッセージは部屋にいる全員を困惑させた。",
+        "blank": "The strange message ___ everyone in the room.",
+        "blankAnswer": "puzzled"
+      }
+    ],
+    "distractors": [
+      "納得させる",
+      "安心させる",
+      "記憶する"
+    ],
+    "confusableSpellings": [
+      "puzle",
+      "puzzel",
+      "puzzel"
+    ],
+    "passive": {
+      "etymology": "16世紀末の英語 'posell' または 'pusle' から来ており、語源は不明な点も多い。「問いかける・尋問する」という意味の古語が変化したと考えられている。",
+      "tips": "be puzzled by ～ で「〜に困惑する」と受動態でよく使う。日本語の「パズル（ゲーム）」はこの単語の名詞形から来ているが、動詞として「困惑させる」という意味も覚えておこう。",
+      "confusables": "confuse は情報や選択肢が混乱させる感じ、puzzle はどう考えてもわからない・謎めいた困惑感が強い。perplex はよりフォーマルで深い困惑を表す。",
+      "collocations": [
+        "be puzzled by",
+        "puzzle over",
+        "puzzle out"
+      ],
+      "trivia": "ジグソーパズルの「ジグソー」は糸のこ（jigsaw）のこと。18世紀に地図を木の板に貼ってのこぎりで切り、子どもの地理教育に使ったのが起源。最初は「puzzle」ではなく「dissected map（解体された地図）」と呼ばれていた！"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 625,
+    "word": "disturb",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "邪魔する、妨げる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "不安にさせる、動揺させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈstɜːrb/",
+    "syllables": "dis-turb",
+    "audioHint": "ディスターブ",
+    "examples": [
+      {
+        "en": "Please do not disturb me while I'm working.",
+        "ja": "仕事中は邪魔しないでください。",
+        "blank": "Please do not ___ me while I'm working.",
+        "blankAnswer": "disturb"
+      }
+    ],
+    "distractors": [
+      "励ます",
+      "説明する",
+      "集中する"
+    ],
+    "confusableSpellings": [
+      "destorb",
+      "distrub",
+      "disturbe"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'disturbare' から。接頭辞 dis-（バラバラに）＋ turbare（乱す、かき回す）。turbare は 'turba'（混乱・群衆）が語根で、turbulent（乱気流の）と同じ語族。",
+      "tips": "ホテルのドアノブにかける「Do Not Disturb」の表示でおなじみ。disturbing は「不安を感じさせる・不穏な」という形容詞として映画の感想などでよく使う。",
+      "confusables": "interrupt は会話や作業を途中で割り込む感覚、disturb は平和・集中・安定を壊すより広い概念。bother は口語的でやや軽いニュアンス。",
+      "collocations": [
+        "disturb the peace",
+        "do not disturb",
+        "deeply disturbing"
+      ],
+      "trivia": "「turb」という語根はラテン語で「渦・混乱」を意味し、turbine（タービン）、turbulent（乱気流の）、perturb（ひどく動揺させる）など意外と多くの英単語に隠れている！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 626,
+    "word": "crash",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "衝突する、墜落する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（システムが）クラッシュする、停止する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kræʃ/",
+    "syllables": "crash",
+    "audioHint": "クラッシュ",
+    "examples": [
+      {
+        "en": "The car crashed into a wall at high speed.",
+        "ja": "車は高速で壁に衝突した。",
+        "blank": "The car ___ into a wall at high speed.",
+        "blankAnswer": "crashed"
+      }
+    ],
+    "distractors": [
+      "浮かび上がる",
+      "ゆっくり進む",
+      "静止する"
+    ],
+    "confusableSpellings": [
+      "crach",
+      "krash",
+      "crasch"
+    ],
+    "passive": {
+      "etymology": "14世紀の擬音語起源。物が砕け散る「バリバリ・ガシャン」という音そのものを言語化した単語。中英語の 'crasshen' から来ており、crush（押しつぶす）とも近縁。",
+      "tips": "交通事故では car accident と car crash は両方使えるが、crash はより激しい衝突のイメージ。コンピュータが「クラッシュする」にも使え、My computer crashed. は日本人にも馴染みのある表現。",
+      "confusables": "collide はよりフォーマルで2つの物体がぶつかる物理的描写、crash は激しさや破壊のイメージが強い。smash はさらに粉砕・破壊の度合いが高い。",
+      "collocations": [
+        "crash into",
+        "crash landing",
+        "stock market crash"
+      ],
+      "trivia": "「crash course（速習コース）」の crash も同じ単語！短期間に大量の知識をぶち込む様子が「衝突するほどの勢い」に例えられたのが語源。まさに脳みそへのクラッシュ学習！"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  },
+  {
+    "id": 627,
+    "word": "cope",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "うまく対処する、乗り越える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（困難な状況に）耐える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/koʊp/",
+    "syllables": "cope",
+    "audioHint": "コウプ",
+    "examples": [
+      {
+        "en": "It's hard to cope with stress at work.",
+        "ja": "仕事のストレスに対処するのは難しい。",
+        "blank": "It's hard to ___ with stress at work.",
+        "blankAnswer": "cope"
+      }
+    ],
+    "distractors": [
+      "無視する",
+      "支配する",
+      "要求する"
+    ],
+    "confusableSpellings": [
+      "coap",
+      "koupe",
+      "cobe"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'couper'（打つ・切る）から来ており、もともとは「打ち合いで互角に戦う」という意味。そこから「困難に立ち向かって互角に渡り合う」→「対処する」へと意味が変化した。",
+      "tips": "ほぼ必ず cope with ～ の形で使う。with を忘れやすいので注意。「I can't cope.」だけでも「もう限界、手に負えない」という意味で使え、英国英語でよく耳にする表現。",
+      "confusables": "deal with はより広く「対処・処理する」、cope with は特にストレスや困難な状況への「耐えながら対処する」感が強い。manage は何とかやり遂げるニュアンス。",
+      "collocations": [
+        "cope with stress",
+        "cope with loss",
+        "struggle to cope"
+      ],
+      "trivia": "インターネットスラングで「cope」は「現実を認められずに言い訳する」という意味で使われており、若者言葉として SNS で大流行中。古い英単語が全く新しい意味でバズる現象、面白い！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 628,
+    "word": "permit",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "許可する、認める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（状況が）可能にする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pərˈmɪt/",
+    "syllables": "per-mit",
+    "audioHint": "パーミット",
+    "examples": [
+      {
+        "en": "Smoking is not permitted inside the building.",
+        "ja": "建物内での喫煙は許可されていません。",
+        "blank": "Smoking is not ___ inside the building.",
+        "blankAnswer": "permitted"
+      }
+    ],
+    "distractors": [
+      "強制する",
+      "拒否する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "permitt",
+      "permmit",
+      "permiet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'permittere' から。接頭辞 per-（完全に・通して）＋ mittere（送る・行かせる）。mittere は mission（使命）や admit（認める）とも同語根。",
+      "tips": "名詞の permit（許可証）はアクセントが PER-mit（前にアクセント）、動詞は per-MIT（後ろにアクセント）と発音が変わる！同じ綴りで品詞によりアクセント位置が変わる単語の典型例。",
+      "confusables": "allow は日常的でカジュアル、permit はよりフォーマルで法律・規則的な許可。let はもっとくだけた表現で人に〜させてあげる感覚。",
+      "collocations": [
+        "permit access",
+        "work permit",
+        "weather permitting"
+      ],
+      "trivia": "「weather permitting（天気が許せば）」という表現、実はビジネスメールや案内文でよく登場する。「天気が許可を出してくれたら」という発想、英語話者は天気にも許可を求めるのが面白い！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 629,
+    "word": "impress",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "感銘を与える、印象づける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（印・刻印を）押す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈprɛs/",
+    "syllables": "im-press",
+    "audioHint": "インプレス",
+    "examples": [
+      {
+        "en": "Her performance impressed the entire audience.",
+        "ja": "彼女のパフォーマンスは観客全員に感銘を与えた。",
+        "blank": "Her performance ___ the entire audience.",
+        "blankAnswer": "impressed"
+      }
+    ],
+    "distractors": [
+      "困惑させる",
+      "失望させる",
+      "疑わせる"
+    ],
+    "confusableSpellings": [
+      "imprress",
+      "impres",
+      "empres"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'imprimere' から。接頭辞 im-（中に・上に）＋ premere（押す）。pressure（圧力）、print（印刷）、express（表現する）も同語根 premere を持つ。",
+      "tips": "be impressed by/with ～ で「〜に感動する」と受動態でよく使う。I'm impressed! だけで「すごい！感動した！」という表現になる。impress は相手に好印象を与える時に使い、自分の感動には be impressed を使う点に注意。",
+      "confusables": "impress は驚きと称賛が混じった感動、inspire は創造意欲・行動を引き起こす感動で少し違う。move は感情的に心を動かす意味でより広く使える。",
+      "collocations": [
+        "impress someone with",
+        "be impressed by",
+        "make an impression"
+      ],
+      "trivia": "impression（印象）もこの語根から来ており、もともとは「心の中に押し印される」イメージ。初対面で人の心に「スタンプを押す」感覚、それが make a good impression（良い印象を与える）の本質！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 630,
+    "word": "suspect",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "疑う、怪しいと思う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜ではないかと思う、推測する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/səˈspɛkt/",
+    "syllables": "sus-pect",
+    "audioHint": "サスペクト",
+    "examples": [
+      {
+        "en": "I suspect he is hiding something from us.",
+        "ja": "彼は私たちから何かを隠していると思う。",
+        "blank": "I ___ he is hiding something from us.",
+        "blankAnswer": "suspect"
+      }
+    ],
+    "distractors": [
+      "確信する",
+      "承認する",
+      "称賛する"
+    ],
+    "confusableSpellings": [
+      "susppect",
+      "susspect",
+      "supect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'suspicere' から。接頭辞 sus-（sub- の変形、下から）＋ specere（見る）。つまり「下からこっそり見る＝疑いの目で見る」という意味。spectator（観客）や inspect（検査する）も同じ specere 語根。",
+      "tips": "名詞の suspect（容疑者）は SUS-pect（前にアクセント）、動詞は sus-PECT（後ろにアクセント）と permit 同様にアクセントが変わる。suspect は「〜ではないかと思う」という弱い確信でも使えるのが特徴。",
+      "confusables": "doubt は「本当かどうか疑わしい」という否定的な懐疑心、suspect は「〜ではないかと薄々思う」という方向性の違いがある。I suspect it's true.（そうかもと思う）vs I doubt it's true.（本当か怪しい）。",
+      "collocations": [
+        "suspect foul play",
+        "prime suspect",
+        "suspect of a crime"
+      ],
+      "trivia": "映画やドラマでおなじみの「容疑者」という意味の suspect（名詞）。英語圏では The Usual Suspects（1995年の映画「ユージュアル・サスペクツ」）が有名で、この単語を世界中に広めた作品のひとつ！"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 631,
+    "word": "upset",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を動揺させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜をひっくり返す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʌpˈsɛt/",
+    "syllables": "up-set",
+    "audioHint": "アプセット",
+    "examples": [
+      {
+        "en": "The bad news upset her deeply.",
+        "ja": "その悪い知らせは彼女を深く動揺させた。",
+        "blank": "The bad news ___ her deeply.",
+        "blankAnswer": "upset"
+      }
+    ],
+    "distractors": [
+      "〜を怖がらせる",
+      "〜を調査する",
+      "〜を計算する"
+    ],
+    "confusableSpellings": [
+      "upsett",
+      "upsat"
+    ],
+    "passive": {
+      "etymology": "古英語由来。up（上へ）＋ set（置く）→「下から突き上げてひっくり返す」→転じて「精神的に乱す」という意味に発展した。",
+      "tips": "形容詞・名詞・動詞と三役こなす多機能語。'I'm upset'（私は動揺している）と'It upsets me'（それは私を動揺させる）の使い分けに注意。また動詞の過去形は upset（変化なし）で upseted とならないことを覚えよう。",
+      "confusables": "disturb（邪魔する・物理的に乱す）と似ているが、upset は感情的な動揺や計画の狂いに使われることが多い。",
+      "collocations": [
+        "upset someone's plans",
+        "get upset",
+        "stomach upset"
+      ],
+      "trivia": "スポーツでの番狂わせも upset と呼ぶ。弱小チームが強豪を倒したとき「It was a major upset!」と使われる。下剋上の興奮を1語で表せるのがかっこいい。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 632,
+    "word": "frighten",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を怖がらせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜をびっくりさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈfraɪtən/",
+    "syllables": "fright-en",
+    "audioHint": "フライトゥン",
+    "examples": [
+      {
+        "en": "The loud thunder frightened the children.",
+        "ja": "大きな雷が子供たちを怖がらせた。",
+        "blank": "The loud thunder ___ the children.",
+        "blankAnswer": "frightened"
+      }
+    ],
+    "distractors": [
+      "〜を動揺させる",
+      "〜を調査する",
+      "〜を消去する"
+    ],
+    "confusableSpellings": [
+      "frightin",
+      "friten",
+      "frighthen"
+    ],
+    "passive": {
+      "etymology": "古英語 fyrhtan（恐れる）から。fright（恐怖）＋ -en（動詞化接尾辞）→「恐怖を引き起こす」。fright 自体は「突然の恐怖」を意味する名詞。",
+      "tips": "frighten は他動詞なので 'I frightened' ではなく 'I was frightened'（私は怖かった）と受動態で使うことが多い。scare とほぼ同義だが、frighten はやや文語的・書き言葉的なニュアンスがある。",
+      "confusables": "scare（より口語的）、terrify（より強烈な恐怖）と段階が異なる。日常会話では scare が最もよく使われ、frighten は少しフォーマルな場面向き。",
+      "collocations": [
+        "frighten away",
+        "frighten off",
+        "be frightened of"
+      ],
+      "trivia": "「飛行機のフライト（flight）」と語根が同じ！flight には「逃走」という意味もあり、恐怖で逃げ出すイメージが繋がっている。fight-or-flight（戦うか逃げるか）反応の flight がまさにこれ。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 633,
+    "word": "import",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "〜を輸入する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "輸入品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪmˈpɔːrt/",
+    "syllables": "im-port",
+    "audioHint": "インポート",
+    "examples": [
+      {
+        "en": "Japan imports a large amount of oil every year.",
+        "ja": "日本は毎年大量の石油を輸入する。",
+        "blank": "Japan ___ a large amount of oil every year.",
+        "blankAnswer": "imports"
+      }
+    ],
+    "distractors": [
+      "〜を輸出する",
+      "〜を投資する",
+      "〜を消費する"
+    ],
+    "confusableSpellings": [
+      "inport",
+      "impoort"
+    ],
+    "passive": {
+      "etymology": "ラテン語 importare（中へ運ぶ）から。im-（in-の変形：中へ）＋ portare（運ぶ）→「外から中へ運び込む」。port（港）も同じ語根。",
+      "tips": "動詞と名詞でアクセント位置が変わる！動詞は im-PORT（後ろ強勢）、名詞は IM-port（前強勢）。export も同じルール。日本人はどちらも同じアクセントで読みがちなので要注意。",
+      "confusables": "export（輸出する）との混同に注意。im-（内側へ）＝輸入、ex-（外側へ）＝輸出と接頭辞で覚えると間違えない。",
+      "collocations": [
+        "import goods",
+        "import tariff",
+        "import restrictions"
+      ],
+      "trivia": "IT用語の「インポート」（データを取り込む）もまったく同じ単語。ファイルをソフトに「中へ運び込む」イメージはビジネスの輸入と全く同じ発想から来ている。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 634,
+    "word": "export",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "〜を輸出する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "輸出品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪkˈspɔːrt/",
+    "syllables": "ex-port",
+    "audioHint": "エクスポート",
+    "examples": [
+      {
+        "en": "South Korea exports many electronic products worldwide.",
+        "ja": "韓国は多くの電子製品を世界中に輸出している。",
+        "blank": "South Korea ___ many electronic products worldwide.",
+        "blankAnswer": "exports"
+      }
+    ],
+    "distractors": [
+      "〜を輸入する",
+      "〜を取引する",
+      "〜を融資する"
+    ],
+    "confusableSpellings": [
+      "expport",
+      "exsport",
+      "eksport"
+    ],
+    "passive": {
+      "etymology": "ラテン語 exportare から。ex-（外へ）＋ portare（運ぶ）→「外へ運び出す」。港を意味する port も同じ portare が語源。",
+      "tips": "import と同様、動詞は ex-PORT（後ろ強勢）、名詞は EX-port（前強勢）とアクセントが変わる。'Our main EX-port is rice.'（名詞）と'We ex-PORT rice.'（動詞）を聞き比べてみよう。",
+      "confusables": "import（輸入）との対比で覚えるのが最も効率的。ex-（外）→外に出す→輸出、im-（内）→中に入れる→輸入。",
+      "collocations": [
+        "export goods",
+        "export market",
+        "export growth"
+      ],
+      "trivia": "日本のアニメやゲームは「クールジャパン」として文化的輸出品（cultural exports）と呼ばれる。ポップカルチャーも立派な export なのだ。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 635,
+    "word": "investigate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を調査する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を捜査する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈvɛstɪɡeɪt/",
+    "syllables": "in-ves-ti-gate",
+    "audioHint": "インヴェスティゲイト",
+    "examples": [
+      {
+        "en": "Police are investigating the cause of the fire.",
+        "ja": "警察は火災の原因を調査している。",
+        "blank": "Police are ___ the cause of the fire.",
+        "blankAnswer": "investigating"
+      }
+    ],
+    "distractors": [
+      "〜を計算する",
+      "〜を動揺させる",
+      "〜を監視する"
+    ],
+    "confusableSpellings": [
+      "investegate",
+      "investigat",
+      "investiage"
+    ],
+    "passive": {
+      "etymology": "ラテン語 investigare（足跡を追う）から。in-（中へ）＋ vestigare（追跡する）→vestigium（足跡）が語根。犯罪捜査で「足跡をたどる」イメージがそのまま残っている。",
+      "tips": "investigate は目的語なしでも使える自動詞的用法がある（Police are investigating.）。また research との違いに注意：investigate は疑惑・事件・問題の原因究明、research は学術的・体系的な研究に使う。",
+      "confusables": "examine（検査・診察する）は物や人を直接調べる行為、investigate はより広範囲に情報を集めて原因を探るニュアンス。",
+      "collocations": [
+        "investigate a crime",
+        "investigate the cause",
+        "investigate allegations"
+      ],
+      "trivia": "英語の「vestige（痕跡）」は investigate と同じ語根。つまり investigate は文字通り「痕跡の中を追いかける」行為。CSIのような鑑識ドラマを見ると覚えやすい！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 636,
+    "word": "monitor",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を監視する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "モニター・表示画面",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɒnɪtər/",
+    "syllables": "mon-i-tor",
+    "audioHint": "モニター",
+    "examples": [
+      {
+        "en": "Doctors monitor patients' vital signs closely.",
+        "ja": "医師は患者のバイタルサインを注意深く監視する。",
+        "blank": "Doctors ___ patients' vital signs closely.",
+        "blankAnswer": "monitor"
+      }
+    ],
+    "distractors": [
+      "〜を消去する",
+      "〜を開始する",
+      "〜を緩和する"
+    ],
+    "confusableSpellings": [
+      "monitore",
+      "moniter",
+      "monittor"
+    ],
+    "passive": {
+      "etymology": "ラテン語 monitor（警告する人）から。monere（警告する・思い出させる）＋ -tor（行為者）→「見張って警告する人」。同語根に admonish（諭す）がある。",
+      "tips": "「パソコンのモニター」として名詞で知っている人が多いが、動詞としての「継続的に監視・観察する」用法も非常に重要。特にビジネス・医療・環境分野で頻出。watch との違いは「継続的・体系的に観察する」点。",
+      "confusables": "watch（見る）は一時的・視覚的、observe（観察する）は科学的・受動的なニュアンスがあるが、monitor は「継続して問題がないか確認する」管理的なニュアンスが強い。",
+      "collocations": [
+        "monitor progress",
+        "monitor the situation",
+        "heart monitor"
+      ],
+      "trivia": "学校の「モニター係（黒板消し係）」の monitor も同じ語源。かつて上級生が下級生の学習を見張る役割を担っており、それが「監視する人」→「表示装置」→「見張る（動詞）」へと広がった。"
+    },
+    "frequency": 2300,
+    "cefr": "B2"
+  },
+  {
+    "id": 637,
+    "word": "calculate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "〜を計算する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を見積もる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkælkjʊleɪt/",
+    "syllables": "cal-cu-late",
+    "audioHint": "キャルキュレイト",
+    "examples": [
+      {
+        "en": "Can you calculate the total cost of the trip?",
+        "ja": "旅行の総費用を計算できますか？",
+        "blank": "Can you ___ the total cost of the trip?",
+        "blankAnswer": "calculate"
+      }
+    ],
+    "distractors": [
+      "〜を調査する",
+      "〜を動揺させる",
+      "〜を怖がらせる"
+    ],
+    "confusableSpellings": [
+      "calculte",
+      "caluculate",
+      "calcualte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 calculare（小石で計算する）から。calculus（小石）が語根で、古代ローマ人はそろばんのように小石を使って計算していた。微積分の「calculus」も同じ語源。",
+      "tips": "calculate は数値・確率・リスクなど「論理的に割り出す」場面で広く使える。'a calculated risk'（計算されたリスク＝リスクを承知の上での行動）のように形容詞的にも頻出。compute はよりコンピューター的・機械的な計算に使われる。",
+      "confusables": "compute（コンピューターで演算する）、estimate（大まかに見積もる）と比べると、calculate は「正確な数値を導き出す」ニュアンスが強い。",
+      "collocations": [
+        "calculate the cost",
+        "calculate the risk",
+        "calculate carefully"
+      ],
+      "trivia": "電卓の英語「calculator」もこの単語から。語源の「小石（calculus）」→「電卓」という進化が面白い。また「カルシウム（calcium）」も同じ語根で、石灰岩（石）と関係している。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 638,
+    "word": "eliminate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を排除する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を取り除く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪˈlɪmɪneɪt/",
+    "syllables": "e-lim-i-nate",
+    "audioHint": "エリミネイト",
+    "examples": [
+      {
+        "en": "We need to eliminate all possible errors.",
+        "ja": "すべての起こりうるエラーを排除する必要がある。",
+        "blank": "We need to ___ all possible errors.",
+        "blankAnswer": "eliminate"
+      }
+    ],
+    "distractors": [
+      "〜を監視する",
+      "〜を開始する",
+      "〜を緩和する"
+    ],
+    "confusableSpellings": [
+      "elimenate",
+      "elimminate",
+      "eliminat"
+    ],
+    "passive": {
+      "etymology": "ラテン語 eliminare（戸外に追い出す）から。e-（ex-：外へ）＋ limen（敷居・境界）→「境界の外へ追い出す」。limen は「閾値（いきち）」を意味する心理学用語 threshold にも影響を与えた語根。",
+      "tips": "eliminate は「完全に取り除く」強いニュアンスがある。remove（取り除く）より徹底的・最終的な排除を意味する。スポーツの「敗退する（be eliminated）」も同じ語。また eliminate はフォーマルな文書やビジネスシーンでよく使われる。",
+      "confusables": "remove（取り除く）は物理的・一般的な除去、delete（削除する）はデータ・テキスト向け。eliminate は問題・リスク・可能性などを「根絶する」ときに最も適切。",
+      "collocations": [
+        "eliminate waste",
+        "eliminate the risk",
+        "be eliminated from"
+      ],
+      "trivia": "映画やゲームで「エリミネート」といえば「倒す・抹消する」という物騒な意味で使われることも。アクション映画の台詞によく登場するため、語感はむしろ日本人にも馴染みがあるかも。"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 639,
+    "word": "ease",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を和らげる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "容易さ・気楽さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/iːz/",
+    "syllables": "ease",
+    "audioHint": "イーズ",
+    "examples": [
+      {
+        "en": "This medicine will ease your pain quickly.",
+        "ja": "この薬はあなたの痛みをすぐに和らげるでしょう。",
+        "blank": "This medicine will ___ your pain quickly.",
+        "blankAnswer": "ease"
+      }
+    ],
+    "distractors": [
+      "〜を排除する",
+      "〜を監視する",
+      "〜を開始する"
+    ],
+    "confusableSpellings": [
+      "eaze",
+      "easee",
+      "eese"
+    ],
+    "passive": {
+      "etymology": "古フランス語 aise（快適さ・便利）から。さらにラテン語 adjacens（隣接している）に由来するという説もある。「近くにある＝手の届く＝楽な」というイメージの流れ。",
+      "tips": "ease は動詞・名詞両方で使われる。名詞では 'with ease'（容易に）という表現が頻出。動詞では「痛み・緊張・規制などを徐々に和らげる」という緩やかなプロセスを表す。relieve（即座に取り除く）より穏やかなニュアンス。",
+      "confusables": "relieve（苦痛・責任などを取り除く）はより即効性・完全性があるのに対し、ease は「少しずつ楽にする」プロセスの意味合いが強い。また easy（形容詞）と混同しないこと。",
+      "collocations": [
+        "ease the pain",
+        "ease tensions",
+        "at ease"
+      ],
+      "trivia": "軍隊の号令「At ease!（楽にしろ！）」はまさにこの ease。気を付け（attention）の次に使われる。日本語の「イージー」も ease が語源で、「楽な」という感覚は万国共通なのだ。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 640,
+    "word": "launch",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を開始する・打ち上げる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "発売・打ち上げ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/lɔːntʃ/",
+    "syllables": "launch",
+    "audioHint": "ローンチ",
+    "examples": [
+      {
+        "en": "The company will launch a new product next month.",
+        "ja": "その会社は来月新製品を発売する予定だ。",
+        "blank": "The company will ___ a new product next month.",
+        "blankAnswer": "launch"
+      }
+    ],
+    "distractors": [
+      "〜を排除する",
+      "〜を緩和する",
+      "〜を監視する"
+    ],
+    "confusableSpellings": [
+      "lauch",
+      "lawnch",
+      "launche"
+    ],
+    "passive": {
+      "etymology": "古フランス語 lanchier（槍を投げる）から。ラテン語 lancea（槍）が語根。「槍を力強く投げ出す」→「船を水に押し出す」→「ロケットを打ち上げる」→「新製品を世に送り出す」と意味が拡張した。",
+      "tips": "launch はビジネス英語で「製品・サービス・キャンペーンの開始」を意味する必須語。'product launch'（製品発売）は頻出表現。また 'launch into a speech'（スピーチを突然始める）のように「勢いよく始める」比喩的用法も重要。",
+      "confusables": "start・begin（単に始める）と違い、launch には「大々的に・公式に・勢いよく」発進させるニュアンスがある。ロケット打ち上げのような迫力を想像するとよい。",
+      "collocations": [
+        "launch a product",
+        "rocket launch",
+        "launch an attack"
+      ],
+      "trivia": "スタートアップ企業が新サービスを公開することを「ローンチする」と日本語でも言うようになった。NASAのロケット打ち上げも製品発売も同じ launch というのは、どちらも「未知の世界に飛び出す」感覚が共通しているから。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  }
+]

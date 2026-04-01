@@ -1,0 +1,999 @@
+[
+  {
+    "id": 1801,
+    "word": "deduce",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "推論する、演繹する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "推測する、結論づける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈdjuːs/",
+    "syllables": "de-duce",
+    "audioHint": "ディデュース",
+    "examples": [
+      {
+        "en": "From the clues, she deduced that he had left early.",
+        "ja": "手がかりから、彼女は彼が早く出発したと推論した。",
+        "blank": "From the clues, she ___ that he had left early.",
+        "blankAnswer": "deduced"
+      }
+    ],
+    "distractors": [
+      "記憶する",
+      "議論する",
+      "想像する"
+    ],
+    "confusableSpellings": [
+      "deduse",
+      "dedduce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 deducere（de-「下へ・離れて」+ ducere「導く」）から。前提から結論を「導き出す」イメージ。",
+      "tips": "deduce は論理的根拠をもとに「演繹的に結論を出す」ときに使う。guessよりもっとロジカルなニュアンス。日本人は guess と混同しがちなので注意。",
+      "confusables": "induce（誘発する・帰納する）と対比。deduce は前提→結論（演繹）、induce は個別事例→一般法則（帰納）。",
+      "collocations": [
+        "deduce from the evidence",
+        "deduce that ~",
+        "logically deduce"
+      ],
+      "trivia": "シャーロック・ホームズが「私はこう演繹した（I deduce）」と言うシーンで有名になった単語。実はホームズが使う推理は厳密には「帰納」なのに「deduce」と言っているという有名な矛盾がある。"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1802,
+    "word": "simulate",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "シミュレーションする、模擬する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ふりをする、模倣する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsɪmjʊleɪt/",
+    "syllables": "sim-u-late",
+    "audioHint": "スィミュレイト",
+    "examples": [
+      {
+        "en": "The software simulates real-world traffic conditions accurately.",
+        "ja": "そのソフトウェアは現実の交通状況を正確に模擬する。",
+        "blank": "The software ___ real-world traffic conditions accurately.",
+        "blankAnswer": "simulates"
+      }
+    ],
+    "distractors": [
+      "暗号化する",
+      "更新する",
+      "接続する"
+    ],
+    "confusableSpellings": [
+      "simulat",
+      "simmulate",
+      "simualte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 simulare（similis「似た」+ -are「～する」）から。「似せて作る」が原義。",
+      "tips": "日本語の「シミュレーション」はsimulationだが、動詞はsimulateであることを忘れずに。「シミュレートする」という和製英語的感覚で使える。",
+      "confusables": "emulate（性能・機能を模倣・競う）と似ているが、simulate は「環境や状況を再現する」ニュアンスが強く、emulate は「別のシステムとして動作する」場面で使われることが多い。",
+      "collocations": [
+        "simulate conditions",
+        "simulate a scenario",
+        "computer-simulated"
+      ],
+      "trivia": "NASAは宇宙飛行士の訓練に「模擬宇宙船」でsimulateを多用する。「シミュレーション仮説」（私たちは全員コンピューターシミュレーションの中にいる）という哲学・物理学の議論でも頻出単語。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1803,
+    "word": "merge",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "合併する、統合する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "溶け込む、融合する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/mɜːrdʒ/",
+    "syllables": "merge",
+    "audioHint": "マージ",
+    "examples": [
+      {
+        "en": "The two companies merged to form a global corporation.",
+        "ja": "2つの会社はグローバル企業を形成するために合併した。",
+        "blank": "The two companies ___ to form a global corporation.",
+        "blankAnswer": "merged"
+      }
+    ],
+    "distractors": [
+      "分割する",
+      "回転する",
+      "縮小する"
+    ],
+    "confusableSpellings": [
+      "marge",
+      "meerge"
+    ],
+    "passive": {
+      "etymology": "ラテン語 mergere（「沈める・浸す」）から。もともとは「水に沈む→一体になる」という流れで「合わさる」意味になった。",
+      "tips": "ビジネスでは「M&A（Mergers and Acquisitions）」の形でよく出る。道路の合流や色の混ざり合いなど物理的な場面にも使えるので、使い道は意外と広い。",
+      "confusables": "combine（組み合わせる）はそれぞれの要素が残るが、merge は境界線が消えて一つになるニュアンスが強い。",
+      "collocations": [
+        "merge with",
+        "merge into",
+        "merge files"
+      ],
+      "trivia": "プログラマーにはGitの「merge（ブランチ統合）」で馴染み深い単語。現実世界の会社合併とコードの統合で全く同じ単語が使われているのが面白い。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1804,
+    "word": "penetrate",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "貫通する、浸透する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（市場・組織に）入り込む、侵入する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈpenɪtreɪt/",
+    "syllables": "pen-e-trate",
+    "audioHint": "ペネトレイト",
+    "examples": [
+      {
+        "en": "The bullet penetrated the thick wall without stopping.",
+        "ja": "弾丸は止まることなく厚い壁を貫通した。",
+        "blank": "The bullet ___ the thick wall without stopping.",
+        "blankAnswer": "penetrated"
+      }
+    ],
+    "distractors": [
+      "振動する",
+      "圧縮する",
+      "浮き上がる"
+    ],
+    "confusableSpellings": [
+      "pennetrate",
+      "penetrat",
+      "penatrate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 penetrare（penitus「奥深く」+ -are「～する」）から。「奥深くまで入り込む」が原義。",
+      "tips": "物理的な「貫通」だけでなく、「市場に浸透する（penetrate the market）」や「謎を看破する」など比喩的にも使える。日本語の「ペネトレーション」はこの名詞形 penetration から。",
+      "confusables": "pierce（刺さる・穴を開ける）は点的な貫通、penetrate はより広く・深く入り込むニュアンス。",
+      "collocations": [
+        "penetrate the market",
+        "penetrate deep into",
+        "penetrate security"
+      ],
+      "trivia": "マーケティング用語「市場浸透率（market penetration rate）」に使われており、ビジネス英語でも頻出。軍事・IT・医学と幅広い分野で使われる万能動詞。"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1805,
+    "word": "cater",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "（ニーズ・要望に）応える、供給する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "飲食を提供する、ケータリングする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkeɪtər/",
+    "syllables": "ca-ter",
+    "audioHint": "ケイター",
+    "examples": [
+      {
+        "en": "This service caters to young professionals in urban areas.",
+        "ja": "このサービスは都市部の若いプロフェッショナルに応えている。",
+        "blank": "This service ___ to young professionals in urban areas.",
+        "blankAnswer": "caters"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "競合する",
+      "節約する"
+    ],
+    "confusableSpellings": [
+      "catter",
+      "caiter"
+    ],
+    "passive": {
+      "etymology": "古フランス語 acater（「買う・調達する」）から。食料を「調達・提供する」が原義で、現代では広く「ニーズを満たす」意味に拡張した。",
+      "tips": "cater to と cater for はどちらも使われるが、アメリカ英語では cater to が主流、イギリス英語では cater for が多い。「誰かのために気を遣いすぎる」否定的ニュアンスで使うこともある（例: don't cater to his demands）。",
+      "confusables": "serve（サービスを提供する）より cater はより「特定のニーズや好みに合わせる」という意図的な対応のニュアンスが強い。",
+      "collocations": [
+        "cater to needs",
+        "cater for events",
+        "cater to a wide audience"
+      ],
+      "trivia": "「ケータリング（catering）」はこの動詞の名詞形。日本でも結婚式や企業イベントの「ケータリングサービス」として定着しているが、動詞 cater は日本人にはあまり馴染みがないという逆転現象が起きている。"
+    },
+    "frequency": 4700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1806,
+    "word": "assault",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "襲撃する、暴行する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感覚などを）激しく刺激する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈsɔːlt/",
+    "syllables": "as-sault",
+    "audioHint": "アソールト",
+    "examples": [
+      {
+        "en": "The man was charged after he assaulted a police officer.",
+        "ja": "その男は警察官に暴行した後に起訴された。",
+        "blank": "The man was charged after he ___ a police officer.",
+        "blankAnswer": "assaulted"
+      }
+    ],
+    "distractors": [
+      "拘禁する",
+      "制裁する",
+      "追放する"
+    ],
+    "confusableSpellings": [
+      "assult",
+      "asault",
+      "assalt"
+    ],
+    "passive": {
+      "etymology": "古フランス語 assaut（ad-「に向かって」+ saltus「跳躍」）から。「跳びかかる」が原義。",
+      "tips": "法律用語として assault は「暴行（身体的攻撃の脅威）」、battery は「実際の身体的接触を伴う暴行」を指す場合がある（英米法での区別）。日常会話では assault だけで「暴行」全般を指すことが多い。",
+      "confusables": "attack（攻撃する）は広義の「攻撃」全般、assault は特に人身に対する直接的・意図的な攻撃のニュアンスが強い。",
+      "collocations": [
+        "sexual assault",
+        "assault and battery",
+        "assault on"
+      ],
+      "trivia": "「assault course（障害物コース）」という表現もあり、軍隊訓練の過酷なコースを指す。最近はゲーム用語で「assault rifle（アサルトライフル）」としても広く知られている。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1807,
+    "word": "torture",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "拷問する、苦しめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ひどく悩ませる、苦痛を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtɔːrtʃər/",
+    "syllables": "tor-ture",
+    "audioHint": "トーチャー",
+    "examples": [
+      {
+        "en": "It is illegal to torture prisoners under international law.",
+        "ja": "囚人を拷問することは国際法のもとで違法である。",
+        "blank": "It is illegal to ___ prisoners under international law.",
+        "blankAnswer": "torture"
+      }
+    ],
+    "distractors": [
+      "監禁する",
+      "尋問する",
+      "弾圧する"
+    ],
+    "confusableSpellings": [
+      "torcher",
+      "tortur",
+      "tortuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 tortura（torquere「ねじる・歪める」の名詞形）から。体を「ねじって」苦しめる刑罰が原義。",
+      "tips": "名詞としても動詞としても同じ形 torture が使われる。日常会話では比喩的に「このプレゼンは拷問だ（This presentation is torture.）」のように軽く使うこともある。",
+      "confusables": "torment（精神的苦痛を与え続ける）と比べると、torture はより物理的・強制的な苦痛のニュアンスが強いが、比喩的には似た場面でも使われる。",
+      "collocations": [
+        "torture chamber",
+        "psychological torture",
+        "torture victims"
+      ],
+      "trivia": "「torture」の語根 torquere（ねじる）は torque（トルク・ねじり力）や distort（歪める）とも同じ語源。物理の「トルク」と「拷問」が親戚というのは意外な発見。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1808,
+    "word": "bleed",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "出血する、血が出る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（資金・資源が）流出する、搾取する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bliːd/",
+    "syllables": "bleed",
+    "audioHint": "ブリード",
+    "examples": [
+      {
+        "en": "His knee was bleeding badly after the fall.",
+        "ja": "転倒後、彼の膝はひどく出血していた。",
+        "blank": "His knee was ___ badly after the fall.",
+        "blankAnswer": "bleeding"
+      }
+    ],
+    "distractors": [
+      "骨折する",
+      "疲労する",
+      "呼吸する"
+    ],
+    "confusableSpellings": [
+      "blead",
+      "bleede"
+    ],
+    "passive": {
+      "etymology": "古英語 blēdan（blōd「血」+ -an動詞語尾）から。「血を流す」がそのまま原義。",
+      "tips": "活用は bleed – bled – bled（不規則動詞）。bleeded とするのは誤り。また「my heart bleeds for you（同情する）」という皮肉的・慣用的表現も覚えておくと便利。",
+      "confusables": "bleed（血が出る）と breed（繁殖する）は発音が似ているので注意。breとblの子音クラスターを区別して練習しよう。",
+      "collocations": [
+        "bleed profusely",
+        "bleed to death",
+        "bleed dry（搾り取る）"
+      ],
+      "trivia": "「my heart bleeds（胸が痛む）」は英語圏で皮肉として使われることが多く、日本語の「胸が痛い」のような純粋な同情とはニュアンスが違う場合がある。印刷業界では「塗り足し（bleed）」という専門用語にもなっている。"
+    },
+    "frequency": 3400,
+    "cefr": "B1"
+  },
+  {
+    "id": 1809,
+    "word": "erect",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "建てる、設置する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "直立した、まっすぐな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈrekt/",
+    "syllables": "e-rect",
+    "audioHint": "イレクト",
+    "examples": [
+      {
+        "en": "Workers erected a large tent for the outdoor concert.",
+        "ja": "作業員たちは野外コンサートのために大きなテントを設営した。",
+        "blank": "Workers ___ a large tent for the outdoor concert.",
+        "blankAnswer": "erected"
+      }
+    ],
+    "distractors": [
+      "解体する",
+      "修繕する",
+      "移動させる"
+    ],
+    "confusableSpellings": [
+      "erect",
+      "errect",
+      "eract"
+    ],
+    "passive": {
+      "etymology": "ラテン語 erigere（e-「外へ・上へ」+ regere「まっすぐにする・導く」）から。「上に向かってまっすぐにする」が原義。",
+      "tips": "動詞（建てる）と形容詞（直立した）の両方で使われる。建設・記念碑の設置など公式・書き言葉的な文脈でよく使われ、build より格式が高い印象がある。",
+      "confusables": "build（建てる）は日常的で広く使えるが、erect はより公式な構造物（像・記念碑・足場など）を「立てる」ニュアンス。construct も近いが erect は「直立させる」ことに焦点がある。",
+      "collocations": [
+        "erect a statue",
+        "erect a barrier",
+        "erect scaffolding"
+      ],
+      "trivia": "erect の語根 regere（まっすぐにする）は、「rule（支配する）」「regulate（規制する）」「correct（正す）」とも親戚。「王が国をまっすぐに導く」という概念から派生した語族でもある。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1810,
+    "word": "cherish",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "大切にする、慈しむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（思い出・希望などを）心に抱く、胸に秘める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtʃerɪʃ/",
+    "syllables": "cher-ish",
+    "audioHint": "チェリッシュ",
+    "examples": [
+      {
+        "en": "She cherishes the memories of her time abroad.",
+        "ja": "彼女は海外での時間の思い出を大切にしている。",
+        "blank": "She ___ the memories of her time abroad.",
+        "blankAnswer": "cherishes"
+      }
+    ],
+    "distractors": [
+      "軽視する",
+      "分析する",
+      "否定する"
+    ],
+    "confusableSpellings": [
+      "cherrish",
+      "cherisch",
+      "chersh"
+    ],
+    "passive": {
+      "etymology": "古フランス語 cherir（「大事にする」）、さらにラテン語 carus（「大切な・愛しい」）から。英語の care や charity とも遠い親戚。",
+      "tips": "cherish は単に「好き」というより「時間をかけて心の中で大切にしてきた」という深い愛情・敬意のニュアンス。treasureも近いが cherish はより感情的・内面的な大切さを表す。",
+      "confusables": "treasure（宝のように大切にする）は物的・具体的なものに使いやすいが、cherish は思い出・関係・希望など抽象的なものとも相性が良い。",
+      "collocations": [
+        "cherish memories",
+        "cherish a dream",
+        "cherish every moment"
+      ],
+      "trivia": "結婚式の誓いの言葉「to love and to cherish（愛し、慈しむことを誓います）」に登場する単語。英語圏の結婚式では定番フレーズで、この文脈で初めて聞いた人も多いはず。"
+    },
+    "frequency": 4300,
+    "cefr": "B2"
+  },
+  {
+    "id": 1811,
+    "word": "arouse",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（感情・興味などを）呼び起こす、刺激する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人を）目覚めさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈraʊz/",
+    "syllables": "a-rouse",
+    "audioHint": "アラウズ",
+    "examples": [
+      {
+        "en": "The documentary aroused public interest in climate change.",
+        "ja": "そのドキュメンタリーは気候変動への市民の関心を呼び起こした。",
+        "blank": "The documentary ___ public interest in climate change.",
+        "blankAnswer": "aroused"
+      }
+    ],
+    "distractors": [
+      "伝える、表現する",
+      "推論する、結論を出す",
+      "疑う、疑問視する"
+    ],
+    "confusableSpellings": [
+      "arouze",
+      "arrouse",
+      "aroose"
+    ],
+    "passive": {
+      "etymology": "接頭辞 a-（強意）＋ rouse（目覚めさせる）。rouse はゲルマン語系で「揺り動かす」が語源。",
+      "tips": "arouse は感情・興味・疑惑など抽象的なものを「引き起こす」場面で使う。「arouse suspicion（疑惑を呼ぶ）」や「arouse curiosity（好奇心を刺激する）」のコロケーションが頻出。日本人は raise と混同しやすいが、raise は物理的に「上げる」ニュアンスが強い。",
+      "confusables": "raise との違いに注意。「raise awareness」は意識を高めること、「arouse awareness」は感情的な気づきを引き起こすニュアンスで、より内側から湧き上がるイメージ。",
+      "collocations": [
+        "arouse suspicion（疑惑を呼ぶ）",
+        "arouse curiosity（好奇心を刺激する）",
+        "arouse interest（関心を引き起こす）"
+      ],
+      "trivia": "arouse の語根 rouse は「鳥を茂みから追い出す」という狩猟用語が起源とも言われている。「感情を茂みから追い出す」イメージが今も残っている。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1812,
+    "word": "doom",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "破滅、不運な運命",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（～を）運命づける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/duːm/",
+    "syllables": "doom",
+    "audioHint": "ドゥーム",
+    "examples": [
+      {
+        "en": "The ancient prophecy foretold the kingdom's doom.",
+        "ja": "古代の予言は王国の破滅を予告していた。",
+        "blank": "The ancient prophecy foretold the kingdom's ___.",
+        "blankAnswer": "doom"
+      }
+    ],
+    "distractors": [
+      "意識、自己認識",
+      "徳、道徳的な善さ",
+      "直感、第六感"
+    ],
+    "confusableSpellings": [
+      "doome",
+      "dum",
+      "duum"
+    ],
+    "passive": {
+      "etymology": "古英語 dōm（判決、法律、判断）から。語根は dō-（行う）に関連し、もともとは「神の判決」を意味した。",
+      "tips": "doom はただの「不幸」ではなく「避けられない破滅・終末」という強い運命的ニュアンスがある。「doom and gloom（暗い見通し）」というイディオムで日常的によく使われる。",
+      "confusables": "fate・destiny との違い：fate は中立的な「運命」、destiny は肯定的な「使命」、doom は否定的な「破滅的運命」というニュアンス。",
+      "collocations": [
+        "doom and gloom（暗い見通し）",
+        "doomed to fail（失敗する運命にある）",
+        "sense of doom（破滅感）"
+      ],
+      "trivia": "あの有名なゲーム「DOOM（1993年）」のタイトルもここから。開発者がこの言葉を「最も暗くて重い運命感」を表すとして選んだという逸話がある。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1813,
+    "word": "mourn",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（死・喪失を）悲しむ、嘆き悲しむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（失ったものを）惜しむ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/mɔːrn/",
+    "syllables": "mourn",
+    "audioHint": "モーン",
+    "examples": [
+      {
+        "en": "The whole nation mourned the loss of the beloved leader.",
+        "ja": "国民全体が愛された指導者の死を悼んだ。",
+        "blank": "The whole nation ___ the loss of the beloved leader.",
+        "blankAnswer": "mourned"
+      }
+    ],
+    "distractors": [
+      "許す、大目に見る",
+      "称賛する、褒め称える",
+      "和解する、仲直りする"
+    ],
+    "confusableSpellings": [
+      "morn",
+      "mourne",
+      "mouren"
+    ],
+    "passive": {
+      "etymology": "古英語 murnan（悲しむ、心配する）から。インド・ヨーロッパ語根 *smer-（記憶する、気にかける）に由来するという説がある。",
+      "tips": "mourn は主に「死や大切なものの喪失」に対して使う。日本語の「悼む」に近い。grieve より公式・儀礼的なニュアンスがあり、葬儀・追悼の文脈でよく登場する。",
+      "confusables": "grieve との違い：grieve はより個人的・内面的な深い悲しみ、mourn は社会的・外に表れる哀悼行為のニュアンスが強い。また morning（朝）とスペルが似ているので注意。",
+      "collocations": [
+        "mourn the loss of（～の喪失を悲しむ）",
+        "mourn the dead（死者を悼む）",
+        "mourning period（喪中）"
+      ],
+      "trivia": "英語圏では喪に服す期間を「mourning period」と言い、かつてビクトリア朝時代には喪服を2年以上着続ける習慣があった。"
+    },
+    "frequency": 5500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1814,
+    "word": "dread",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（～を）ひどく恐れる、怖がる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "強い恐怖、不安",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/drɛd/",
+    "syllables": "dread",
+    "audioHint": "ドレッド",
+    "examples": [
+      {
+        "en": "She dreads going to the dentist every time.",
+        "ja": "彼女は毎回歯医者に行くのをひどく怖がっている。",
+        "blank": "She ___ going to the dentist every time.",
+        "blankAnswer": "dreads"
+      }
+    ],
+    "distractors": [
+      "信じる、確信する",
+      "想像する、思い描く",
+      "思い出す、記憶する"
+    ],
+    "confusableSpellings": [
+      "dreed",
+      "dred",
+      "dreade"
+    ],
+    "passive": {
+      "etymology": "古英語 drǣdan（恐れる）から。語源は on-drǣdan で、接頭辞 on-（強意）＋ drǣdan（恐れる）。",
+      "tips": "dread は「いつか来ることが分かっているものへの深い恐怖・嫌悪感」に使う。fear より予期的で慢性的なイメージ。「I dread Mondays.（月曜日が憂鬱で仕方ない）」のように日常でも使える。",
+      "confusables": "fear との違い：fear は目の前の危険への恐怖、dread は「まだ起きていないが来るとわかっている」ことへの強い不安感。また dreadlocks（ドレッドヘア）と同じ語根なのは意外。",
+      "collocations": [
+        "dread the thought of（～という考えが恐ろしい）",
+        "filled with dread（恐怖で満たされた）",
+        "dread doing（～するのを恐れる）"
+      ],
+      "trivia": "「dreadnought（ドレッドノート）」という超弩級戦艦の名前も dread から来ており、「何も恐れない」という意味。20世紀初頭のイギリス海軍の誇りだった。"
+    },
+    "frequency": 4600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1815,
+    "word": "nourish",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（食物などで）養う、栄養を与える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・考えを）育む、養成する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈnʌrɪʃ/",
+    "syllables": "nour-ish",
+    "audioHint": "ナリッシュ",
+    "examples": [
+      {
+        "en": "A balanced diet nourishes both the body and the mind.",
+        "ja": "バランスのとれた食事は体と心の両方を養う。",
+        "blank": "A balanced diet ___ both the body and the mind.",
+        "blankAnswer": "nourishes"
+      }
+    ],
+    "distractors": [
+      "排出する、分泌する",
+      "消化する、吸収する",
+      "呼吸する、息をする"
+    ],
+    "confusableSpellings": [
+      "norish",
+      "nurrish",
+      "nourise"
+    ],
+    "passive": {
+      "etymology": "古フランス語 norriss-（育てる）から、ラテン語 nutrire（養う、育てる）が語源。nutrient（栄養素）や nutrition（栄養）と同じ語根。",
+      "tips": "nourish は単に「食べさせる」だけでなく、「希望を育む（nourish hope）」「夢を育てる（nourish a dream）」のように抽象的な意味でも使える点がポイント。スキンケア製品の宣伝文句にも頻出。",
+      "confusables": "feed との違い：feed はシンプルに「食べ物を与える」行為、nourish は「栄養をしっかり与えて健康に育てる」というより丁寧で温かみのあるニュアンス。",
+      "collocations": [
+        "nourish the body（体を養う）",
+        "nourish the soul（魂を育む）",
+        "nourish a relationship（関係を育てる）"
+      ],
+      "trivia": "美容業界では「nourishing cream（栄養クリーム）」という表現が定番。語源の nutrire はラテン語で「母乳で育てる」が原義で、愛情を込めて育てるイメージが込められている。"
+    },
+    "frequency": 6200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1816,
+    "word": "inject",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（液体などを）注射する、注入する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（意見・要素などを）導入する、持ち込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈdʒɛkt/",
+    "syllables": "in-ject",
+    "audioHint": "インジェクト",
+    "examples": [
+      {
+        "en": "The nurse injected the vaccine into his arm.",
+        "ja": "看護師は彼の腕にワクチンを注射した。",
+        "blank": "The nurse ___ the vaccine into his arm.",
+        "blankAnswer": "injected"
+      }
+    ],
+    "distractors": [
+      "引っ張る、伸ばす",
+      "押しつぶす、圧縮する",
+      "飲み込む、嚥下する"
+    ],
+    "confusableSpellings": [
+      "injeect",
+      "injeckt",
+      "enject"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inicere（投げ込む）から。接頭辞 in-（中へ）＋ jacere（投げる）。reject（拒絶する）、project（投影する）、eject（排出する）と同じ語根 -ject を持つ。",
+      "tips": "医療の文脈では inject A into B（AをBに注入する）の構文が基本。比喩的に「inject enthusiasm into the team（チームに活気を注入する）」のような使い方も重要。inject の-ject ファミリーを覚えると語彙が一気に広がる。",
+      "confusables": "inject と infuse の違い：inject は強制的・物理的に「押し込む」イメージ、infuse は「じわじわと染み込ませる」穏やかなイメージ。infuse tea（お茶を蒸らす）には inject は使えない。",
+      "collocations": [
+        "inject a vaccine（ワクチンを注射する）",
+        "inject capital（資本を注入する）",
+        "inject humor（ユーモアを持ち込む）"
+      ],
+      "trivia": "-ject という語根はラテン語「投げる」から来ており、英語には subject（下に投げる＝臣下）、object（反対に投げる＝反対する）など30語以上が存在する。語根一つでこれだけ広がるのが英語の面白さ！"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1817,
+    "word": "swear",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "誓う、宣誓する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ののしる、悪態をつく",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/swɛr/",
+    "syllables": "swear",
+    "audioHint": "スウェア",
+    "examples": [
+      {
+        "en": "He swore to tell the truth in court.",
+        "ja": "彼は法廷で真実を話すと誓った。",
+        "blank": "He ___ to tell the truth in court.",
+        "blankAnswer": "swore"
+      }
+    ],
+    "distractors": [
+      "示唆する、ほのめかす",
+      "反論する、異議を唱える",
+      "説得する、納得させる"
+    ],
+    "confusableSpellings": [
+      "swear",
+      "swere",
+      "sweir",
+      "swear"
+    ],
+    "passive": {
+      "etymology": "古英語 swerian（誓う）から。ゲルマン語祖語 *swarjaną に由来し、「答える・応答する」が原義。speak と同じ語族という説もある。",
+      "tips": "swear の過去形は swore、過去分詞は sworn と不規則変化するので注意。「sworn enemy（宿敵）」「swear in（就任宣誓させる）」など慣用表現が多い。また「悪口を言う」の意味でも使うので文脈が重要。",
+      "confusables": "promise との違い：promise は日常的・個人的な約束、swear は神や法廷に対する厳粛な誓いのニュアンス。スラングで「I swear!（本当に！）」という強調表現もある。",
+      "collocations": [
+        "swear an oath（宣誓する）",
+        "swear by（～を強く信頼する）",
+        "swear in（就任宣誓させる）"
+      ],
+      "trivia": "「swear word（罵り言葉）」という表現は、かつて神の名を使って誓う行為が不敬とされたことに由来する。つまり「誓う」と「悪口」が同じ単語なのは偶然ではない！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1818,
+    "word": "bid",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "（競売・入札で）値をつける、入札する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "入札（額）、試み",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bɪd/",
+    "syllables": "bid",
+    "audioHint": "ビッド",
+    "examples": [
+      {
+        "en": "She bid five hundred dollars for the antique vase.",
+        "ja": "彼女はその骨董の花瓶に500ドルの値をつけた。",
+        "blank": "She ___ five hundred dollars for the antique vase.",
+        "blankAnswer": "bid"
+      }
+    ],
+    "distractors": [
+      "払い戻す、返金する",
+      "貯蓄する、蓄える",
+      "融資する、貸し付ける"
+    ],
+    "confusableSpellings": [
+      "bidd",
+      "bide",
+      "bied"
+    ],
+    "passive": {
+      "etymology": "古英語 bēodan（提示する、命じる）から。ゲルマン語祖語 *beudaną（提供する）に由来。命令の意味の bid（命じる）は別語源で、古英語 biddan（頼む）からとされる。",
+      "tips": "bid の過去形・過去分詞はどちらも bid（入札の意味では）。競売の文脈では bid for（～に入札する）、bid on（～に値をつける）の前置詞セットで覚えよう。「make a bid（入札する）」も頻出。",
+      "confusables": "offer との違い：offer は一般的に価格や条件を「提案する」行為、bid は競争的な状況で「他より高い価格を提示する」ニュアンス。また bide（時を待つ）と混同しないよう注意。",
+      "collocations": [
+        "bid for（～に入札する）",
+        "winning bid（落札額）",
+        "bid farewell（別れを告げる）"
+      ],
+      "trivia": "eBay の登場でネット競売が一般化し、bid という語の使用頻度が21世紀に急上昇した。また「bid farewell（さよならを言う）」は文学的な別の意味でも使われるので同じ単語とは気づきにくい。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1819,
+    "word": "corrupt",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "（道徳的に）堕落させる、腐敗させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "腐敗した、不正な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kəˈrʌpt/",
+    "syllables": "cor-rupt",
+    "audioHint": "コラプト",
+    "examples": [
+      {
+        "en": "Power can corrupt even the most honest leaders.",
+        "ja": "権力はどんなに誠実な指導者でも腐敗させることがある。",
+        "blank": "Power can ___ even the most honest leaders.",
+        "blankAnswer": "corrupt"
+      }
+    ],
+    "distractors": [
+      "和解させる、仲裁する",
+      "激励する、元気づける",
+      "服従させる、従わせる"
+    ],
+    "confusableSpellings": [
+      "corupt",
+      "corrrupt",
+      "corrubt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 corrumpere（完全に壊す）から。接頭辞 cor-（完全に＝com-の変形）＋ rumpere（壊す、破る）。interrupt（中断する）、rupture（破裂）と同じ語根 rupt-。",
+      "tips": "corrupt は動詞・形容詞の両方で使われる。形容詞「a corrupt official（不正な役人）」と動詞「Power corrupts.（権力は腐敗させる）」の両方を押さえよう。ITの文脈では「corrupted file（壊れたファイル）」という使い方も非常に多い。",
+      "confusables": "deprave との違い：deprave はほぼ道徳的堕落専用の硬い語、corrupt はより広く「機能・データ・人物」すべてを「壊す・汚す」場面で使える汎用性の高い語。",
+      "collocations": [
+        "corrupt official（不正な役人）",
+        "corrupt data（データを破損する）",
+        "morally corrupt（道徳的に腐敗した）"
+      ],
+      "trivia": "「Power tends to corrupt, and absolute power corrupts absolutely.（権力は腐敗する傾向があり、絶対的権力は絶対的に腐敗する）」はアクトン卿の名言。この一文でcorrupt の使い方が完璧に学べる。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1820,
+    "word": "preoccupy",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "（心・思考を）占領する、没頭させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（～に）心を奪われている状態にさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/priˈɒkjʊpaɪ/",
+    "syllables": "pre-oc-cu-py",
+    "audioHint": "プリオキュパイ",
+    "examples": [
+      {
+        "en": "Money worries preoccupied her throughout the meeting.",
+        "ja": "お金の心配が会議中ずっと彼女の頭を占領していた。",
+        "blank": "Money worries ___ her throughout the meeting.",
+        "blankAnswer": "preoccupied"
+      }
+    ],
+    "distractors": [
+      "集中させる、注意を向けさせる",
+      "混乱させる、当惑させる",
+      "刺激する、鼓舞する"
+    ],
+    "confusableSpellings": [
+      "preocupy",
+      "preoccuppy",
+      "preooccupy"
+    ],
+    "passive": {
+      "etymology": "接頭辞 pre-（前もって）＋ occupy（占める）。ラテン語 praeoccupare（先に占拠する）から。occupy 自体はラテン語 occupare（つかむ、占拠する）に由来。",
+      "tips": "preoccupy は主に受動態「be preoccupied with（～に心を奪われている）」で使われることが圧倒的に多い。「He was preoccupied with his work.（彼は仕事のことで頭がいっぱいだった）」の形を最優先で覚えよう。",
+      "confusables": "obsess との違い：be obsessed with はより病的・強迫的な執着、be preoccupied with は「心の中で大きなスペースを取っている」程度のやや軽いニュアンス。どちらも with を取る点は同じ。",
+      "collocations": [
+        "be preoccupied with（～で頭がいっぱいだ）",
+        "preoccupied thoughts（頭を占領している思考）",
+        "completely preoccupied（完全に心を奪われた）"
+      ],
+      "trivia": "pre-（前もって）がつくのは「すでに心の中のスペースが先に埋まっている」という意味から。だから他のことが入ってくる余地がない、という状態を表す。接頭辞 pre- を知っているだけでニュアンスが鮮明にわかる！"
+    },
+    "frequency": 7800,
+    "cefr": "C1"
+  }
+]

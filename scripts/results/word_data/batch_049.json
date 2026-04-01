@@ -1,0 +1,998 @@
+[
+  {
+    "id": 961,
+    "word": "metaphor",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "隠喩、メタファー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "象徴的表現",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɛtəfɔːr/",
+    "syllables": "met-a-phor",
+    "audioHint": "メタフォー",
+    "examples": [
+      {
+        "en": "Life is a journey is a common metaphor.",
+        "ja": "「人生は旅だ」はよくあるメタファーです。",
+        "blank": "Life is a journey is a common ___.",
+        "blankAnswer": "metaphor"
+      }
+    ],
+    "distractors": [
+      "繰り返しの表現技法",
+      "登場人物の語り手",
+      "物語の結末"
+    ],
+    "confusableSpellings": [
+      "metafor",
+      "metaphore",
+      "metephor"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 metaphora から。meta-（超えて・移して）＋ pherein（運ぶ）。意味を「移し替える」表現技法。",
+      "tips": "simile（直喩、like や as を使う比喩）と混同しやすい。metaphor は「AはBだ」と直接言い切る形。「人生は舞台だ」のように as/like なしで比喩するのが metaphor。",
+      "confusables": "simile と混同しがち。simile は「like a storm（嵐のように）」と比較詞を使うが、metaphor は「He is a storm（彼は嵐だ）」と直接言い切る。",
+      "collocations": [
+        "use a metaphor",
+        "mixed metaphor",
+        "extend a metaphor"
+      ],
+      "trivia": "「時間はお金だ（Time is money）」は世界中で使われる超有名 metaphor。言語学者のレイコフはこれを「概念的メタファー」と呼び、私たちの思考そのものがメタファーで出来ていると主張した。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 962,
+    "word": "folk",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "民衆、人々",
+        "pos": "noun"
+      },
+      {
+        "meaning": "民俗の、民族の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/foʊk/",
+    "syllables": "folk",
+    "audioHint": "フォーク",
+    "examples": [
+      {
+        "en": "Folk music reflects the culture of ordinary people.",
+        "ja": "フォーク音楽は庶民の文化を反映している。",
+        "blank": "___ music reflects the culture of ordinary people.",
+        "blankAnswer": "Folk"
+      }
+    ],
+    "distractors": [
+      "即興の演奏技法",
+      "芸術的な装飾品",
+      "舞台の脚本"
+    ],
+    "confusableSpellings": [
+      "foke",
+      "folke",
+      "folk"
+    ],
+    "passive": {
+      "etymology": "古英語 folc（人々、民）に由来。ゲルマン系の語根で、ドイツ語 Volk（民族）と同源。",
+      "tips": "l が発音されないことに注意。スペルに l があっても /foʊk/ と読む。また folks（複数形）は「家族・両親」の意味でも使われる（例：my folks＝私の家族）。",
+      "confusables": "fork（フォーク＝食器）と発音が似ているので文脈に注意。また people との違いは、folk はより「庶民的・民族的」なニュアンスが強い。",
+      "collocations": [
+        "folk music",
+        "folk tale",
+        "folk art"
+      ],
+      "trivia": "「フォークソング」の folk は「普通の人々の歌」という意味。1960年代のボブ・ディランらが担ったムーブメントで、folk は「商業音楽に対抗する庶民の声」を象徴するワードになった。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 963,
+    "word": "fare",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "運賃、料金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "やっていく、過ごす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fɛr/",
+    "syllables": "fare",
+    "audioHint": "フェア",
+    "examples": [
+      {
+        "en": "The bus fare increased by ten percent this year.",
+        "ja": "今年バスの運賃が10パーセント上がった。",
+        "blank": "The bus ___ increased by ten percent this year.",
+        "blankAnswer": "fare"
+      }
+    ],
+    "distractors": [
+      "為替レート",
+      "株式の配当金",
+      "商品の関税"
+    ],
+    "confusableSpellings": [
+      "fair",
+      "fares",
+      "fiar"
+    ],
+    "passive": {
+      "etymology": "古英語 fær（旅、道）から。動詞「旅する・行く」から転じて「旅の費用（運賃）」の意味になった。",
+      "tips": "fair（公平な・見本市）と発音が全く同じ同音異義語。「運賃」は fare、「公平な」は fair とスペルで区別する。交通機関の話題では fare と覚えると確実。",
+      "confusables": "fair との混同が最大の落とし穴。bus fare / train fare のように交通手段と一緒に使われれば fare、「公平な判断」なら fair。",
+      "collocations": [
+        "bus fare",
+        "train fare",
+        "airfare"
+      ],
+      "trivia": "動詞の fare は「How did you fare?（どうでしたか？うまくいきましたか？）」のように使われる。「Farewell（さようなら）」も fare＋well で「うまく行きますように」が語源。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 964,
+    "word": "transition",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "移行、変遷",
+        "pos": "noun"
+      },
+      {
+        "meaning": "過渡期",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/trænˈzɪʃən/",
+    "syllables": "tran-si-tion",
+    "audioHint": "トランジション",
+    "examples": [
+      {
+        "en": "The country is in a transition to democracy.",
+        "ja": "その国は民主主義への移行期にある。",
+        "blank": "The country is in a ___ to democracy.",
+        "blankAnswer": "transition"
+      }
+    ],
+    "distractors": [
+      "概念の定義づけ",
+      "思想の矛盾点",
+      "行動の動機"
+    ],
+    "confusableSpellings": [
+      "transistion",
+      "transision",
+      "transsition"
+    ],
+    "passive": {
+      "etymology": "ラテン語 transitio から。trans-（越えて）＋ ire（行く）の名詞形 itio。「向こう側へ渡っていくこと」が原義。",
+      "tips": "transition は「状態Aから状態Bへの移り変わり」というプロセスに焦点がある。change が結果に注目するのに対し、transition は過程・期間のニュアンスが強い。in transition（移行中）という形でよく使う。",
+      "confusables": "change（変化）や shift（転換）と比較されるが、transition は期間の長さや段階的な変化を含意する。sudden change は言えても sudden transition はやや不自然。",
+      "collocations": [
+        "smooth transition",
+        "in transition",
+        "transition period"
+      ],
+      "trivia": "動画編集ソフトの「トランジション」もこの単語。場面が切り替わる「間のアニメーション」のことで、まさに「移り変わり」の意味がそのまま使われている。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 965,
+    "word": "maximum",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "最大値、最大限",
+        "pos": "noun"
+      },
+      {
+        "meaning": "最大の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmæksɪməm/",
+    "syllables": "max-i-mum",
+    "audioHint": "マクシマム",
+    "examples": [
+      {
+        "en": "The maximum speed allowed here is 60 mph.",
+        "ja": "ここで許可されている最高速度は時速60マイルです。",
+        "blank": "The ___ speed allowed here is 60 mph.",
+        "blankAnswer": "maximum"
+      }
+    ],
+    "distractors": [
+      "平均的な数量",
+      "最小単位",
+      "一定の間隔"
+    ],
+    "confusableSpellings": [
+      "maximun",
+      "maxiumum",
+      "maximium"
+    ],
+    "passive": {
+      "etymology": "ラテン語 maximus（最も大きい）の中性形。magnus（大きい）の最上級。「最も大きいもの」が原義。",
+      "tips": "複数形は maxima（ラテン語式）または maximums（英語式）の両方が正しい。形容詞として使う場合は「maximum capacity（最大収容人数）」のように名詞の前に置く。",
+      "confusables": "minimum（最小）と対になる語。max / min と略されることも多い。また optimum（最適値）は最大ではなく「最も良い値」なので混同しないこと。",
+      "collocations": [
+        "maximum capacity",
+        "maximum speed",
+        "reach a maximum"
+      ],
+      "trivia": "「マックス」という名前や愛称はラテン語の maximus（最大・最強）が由来。英語圏では「一番すごいやつ」に名付ける感覚があり、ペットの名前ランキングでも常連。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 966,
+    "word": "galaxy",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "銀河",
+        "pos": "noun"
+      },
+      {
+        "meaning": "輝かしい集団",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɡæləksi/",
+    "syllables": "gal-ax-y",
+    "audioHint": "ギャラクシー",
+    "examples": [
+      {
+        "en": "Our solar system is part of the Milky Way galaxy.",
+        "ja": "私たちの太陽系は天の川銀河の一部です。",
+        "blank": "Our solar system is part of the Milky Way ___.",
+        "blankAnswer": "galaxy"
+      }
+    ],
+    "distractors": [
+      "地表の地形変化",
+      "大気中の気象現象",
+      "海洋の潮流"
+    ],
+    "confusableSpellings": [
+      "gallaxy",
+      "galaxie",
+      "galexy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 galaxias（乳の輪）から。gala（乳）が語根で、天の川が「ミルクの帯」に見えたことから命名された。",
+      "tips": "Galaxy（大文字）は固有名詞として「天の川銀河（Milky Way Galaxy）」を指す。小文字の galaxy は一般名詞で「銀河」全般。サムスンのスマートフォン Galaxy もこの単語から。",
+      "confusables": "universe（宇宙全体）・solar system（太陽系）・galaxy（銀河）のスケールを混同しやすい。universe > galaxy > solar system の順に小さくなる。",
+      "collocations": [
+        "Milky Way galaxy",
+        "distant galaxy",
+        "galaxy cluster"
+      ],
+      "trivia": "「天の川（Milky Way）」はギリシャ神話でヘラの乳が飛び散ったものとされ、そこから galaxy（乳の道）という名前が生まれた。つまり「銀河」と「ミルク」は語源的に兄弟関係！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 967,
+    "word": "mineral",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "鉱物、ミネラル",
+        "pos": "noun"
+      },
+      {
+        "meaning": "鉱物性の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmɪnərəl/",
+    "syllables": "min-er-al",
+    "audioHint": "ミネラル",
+    "examples": [
+      {
+        "en": "Calcium is an essential mineral for strong bones.",
+        "ja": "カルシウムは丈夫な骨に必要不可欠なミネラルです。",
+        "blank": "Calcium is an essential ___ for strong bones.",
+        "blankAnswer": "mineral"
+      }
+    ],
+    "distractors": [
+      "気象の観測データ",
+      "生態系の食物連鎖",
+      "土壌の有機物"
+    ],
+    "confusableSpellings": [
+      "miniral",
+      "minaral",
+      "minerel"
+    ],
+    "passive": {
+      "etymology": "中世ラテン語 minerale から。minera（鉱山・鉱石）が語根。「鉱山から取れるもの」が原義。",
+      "tips": "日本語の「ミネラル」はカタカナ語として定着しているが、英語では mineral water（ミネラルウォーター）のように形容詞的にも使う。栄養学的文脈では vitamins and minerals とセットで登場することが多い。",
+      "confusables": "metal（金属）は mineral の一部だが、全ての mineral が metal ではない。石英（quartz）などの非金属鉱物も mineral に含まれる。",
+      "collocations": [
+        "mineral water",
+        "mineral deposit",
+        "trace mineral"
+      ],
+      "trivia": "ダイヤモンドも鉱物（mineral）の一種。炭素だけで出来た mineral で、地球上で最も硬い天然物質。つまり「最も高価なミネラルウォーター」を作るなら…ダイヤモンドを入れるしかない？"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 968,
+    "word": "skeleton",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "骨格、骸骨",
+        "pos": "noun"
+      },
+      {
+        "meaning": "骨組み、概要",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈskɛlɪtən/",
+    "syllables": "skel-e-ton",
+    "audioHint": "スケレトン",
+    "examples": [
+      {
+        "en": "The human skeleton has 206 bones.",
+        "ja": "人間の骨格は206本の骨で構成されている。",
+        "blank": "The human ___ has 206 bones.",
+        "blankAnswer": "skeleton"
+      }
+    ],
+    "distractors": [
+      "神経系の伝達経路",
+      "血液中の細胞成分",
+      "皮膚の表皮構造"
+    ],
+    "confusableSpellings": [
+      "skelaton",
+      "skeletion",
+      "skeliton"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 skeletos（乾いた、干からびた）から。skellein（乾かす）が語根。「干からびた体＝骸骨」が原義。",
+      "tips": "骨格という身体的な意味だけでなく「骨格（大まかな構成）」という比喩的な意味でも使う。a skeleton of a plan（計画の骨組み）のように。また skeleton staff は「最小限のスタッフ」という慣用表現。",
+      "confusables": "skull（頭蓋骨のみ）と skeleton（全身の骨格）を混同しないこと。ハロウィンの骸骨全体は skeleton、頭だけのマークは skull。",
+      "collocations": [
+        "skeleton key",
+        "skeleton staff",
+        "skeleton in the closet"
+      ],
+      "trivia": "「skeleton in the closet（クローゼットの中の骸骨）」は「隠された秘密・スキャンダル」を意味する慣用句。昔、医学生は解剖用の骸骨を違法に入手してクローゼットに隠していたという説がある。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 969,
+    "word": "counterpart",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "対応する人・物、相手方",
+        "pos": "noun"
+      },
+      {
+        "meaning": "コピー、写し",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkaʊntərpɑːrt/",
+    "syllables": "coun-ter-part",
+    "audioHint": "カウンターパート",
+    "examples": [
+      {
+        "en": "She met her Japanese counterpart at the summit.",
+        "ja": "彼女は首脳会談で日本側の対応する人物と会った。",
+        "blank": "She met her Japanese ___ at the summit.",
+        "blankAnswer": "counterpart"
+      }
+    ],
+    "distractors": [
+      "行動の矛盾点",
+      "概念の起源",
+      "思想の核心"
+    ],
+    "confusableSpellings": [
+      "counterpaart",
+      "counderpart",
+      "countarpart"
+    ],
+    "passive": {
+      "etymology": "counter-（対して・対応する）＋ part（部分・役割）。法律文書で「契約書の写し」を指したのが原義。counter はラテン語 contra（反対・対して）由来。",
+      "tips": "「カウンターパート」は日本語でも外交・ビジネス文書に使われるが、英語では「対応する立場の人・物」という意味が中心。the Japanese counterpart（日本側の対応者）のように使う。",
+      "confusables": "opposite（正反対のもの）とは異なり、counterpart は「対立」ではなく「対応・対等」のニュアンス。rival（競争相手）とも異なる。",
+      "collocations": [
+        "Japanese counterpart",
+        "meet one's counterpart",
+        "foreign counterpart"
+      ],
+      "trivia": "外交の世界では「カウンターパート外交」という言葉があり、同じ役職同士（大臣と大臣など）が直接会談する形式を指す。同じ「パーツ（役割）」を持つ人同士が向き合うイメージ。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 970,
+    "word": "stroke",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "脳卒中",
+        "pos": "noun"
+      },
+      {
+        "meaning": "一打ち、ひと筆",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/stroʊk/",
+    "syllables": "stroke",
+    "audioHint": "ストロウク",
+    "examples": [
+      {
+        "en": "He survived a stroke and recovered quickly.",
+        "ja": "彼は脳卒中で倒れたが素早く回復した。",
+        "blank": "He survived a ___ and recovered quickly.",
+        "blankAnswer": "stroke"
+      }
+    ],
+    "distractors": [
+      "皮膚のアレルギー反応",
+      "消化器系の炎症",
+      "筋肉の過度な疲労"
+    ],
+    "confusableSpellings": [
+      "strok",
+      "srtoke",
+      "stroak"
+    ],
+    "passive": {
+      "etymology": "古英語 strācian（なでる、打つ）に由来。「打つ・なでる動作」が基本義で、そこから「筆のひと塗り」「水泳のひとかき」「医学的な脳への打撃（脳卒中）」など多義に発展。",
+      "tips": "stroke は多義語で要注意。医学的な「脳卒中」の他に、水泳の「泳法（butterfly stroke など）」、絵筆の「ひと塗り（brush stroke）」、時計の「打音（on the stroke of midnight）」など文脈で意味が変わる。",
+      "confusables": "heart attack（心臓発作）と stroke（脳卒中）は混同されやすい。stroke は脳の血管が詰まる・破れる病気で、heart attack は心臓の血流が止まる病気。",
+      "collocations": [
+        "have a stroke",
+        "brush stroke",
+        "stroke of luck"
+      ],
+      "trivia": "「a stroke of luck（幸運の一撃）」という表現があり、「棚ぼた的な幸運」を意味する。まるで幸運が突然ドンっと降ってきた感じ。stroke は「良いことも悪いことも突然やってくるもの」というイメージを持つ面白い単語。"
+    },
+    "frequency": 1600,
+    "cefr": "B2"
+  },
+  {
+    "id": 971,
+    "word": "pedestrian",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "歩行者",
+        "pos": "noun"
+      },
+      {
+        "meaning": "平凡な、ありきたりの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/pəˈdestriən/",
+    "syllables": "pe-des-tri-an",
+    "audioHint": "ペデストリアン",
+    "examples": [
+      {
+        "en": "The pedestrian waited for the light to change before crossing.",
+        "ja": "歩行者は渡る前に信号が変わるのを待った。",
+        "blank": "The ___ waited for the light to change before crossing.",
+        "blankAnswer": "pedestrian"
+      }
+    ],
+    "distractors": [
+      "乗客",
+      "自転車利用者",
+      "通勤者"
+    ],
+    "confusableSpellings": [
+      "pedestrain",
+      "pedistrian",
+      "pedestrean"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pedester'（徒歩の）から。語根 'ped-'（足）＋ '-estrian'（〜の性質を持つ）。同じ語根に 'pedal'（ペダル）や 'pedicure'（ペディキュア）がある。",
+      "tips": "名詞「歩行者」の意味が最も一般的だが、形容詞として「平凡な・退屈な」という意味もある。'a pedestrian speech'（平凡なスピーチ）のように使えると上級者っぽい。",
+      "confusables": "'passenger'（乗客）と混同しやすいが、pedestrianは必ず「徒歩で移動する人」を指す。passengerは車・電車などに乗っている人。",
+      "collocations": [
+        "pedestrian crossing（横断歩道）",
+        "pedestrian zone（歩行者専用区域）",
+        "pedestrian traffic（歩行者の往来）"
+      ],
+      "trivia": "「歩行者専用エリア」を英語で 'pedestrian mall' と言うが、日本語の「ペデストリアンデッキ」もこの単語から来ている。実は日本語にもしっかり入り込んでいる単語！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 972,
+    "word": "trail",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "小道、トレイル",
+        "pos": "noun"
+      },
+      {
+        "meaning": "跡をつける、後を追う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/treɪl/",
+    "syllables": "trail",
+    "audioHint": "トレイル",
+    "examples": [
+      {
+        "en": "They hiked along a narrow trail through the forest.",
+        "ja": "彼らは森の中の細い小道をハイキングした。",
+        "blank": "They hiked along a narrow ___ through the forest.",
+        "blankAnswer": "trail"
+      }
+    ],
+    "distractors": [
+      "峡谷",
+      "湿地帯",
+      "山頂"
+    ],
+    "confusableSpellings": [
+      "trale",
+      "traile",
+      "treil"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'trailler'（引きずる）から派生。語根は「引っ張る・引きずる」という意味で、足で踏み固めてできた道というイメージ。",
+      "tips": "'road' や 'path' との違いに注意。'trail' は舗装されていない自然の中の道を指すことが多い。ハイキングや自然の文脈でよく使われる。",
+      "confusables": "'path'（小道・通路）と似ているが、'trail' は自然の中の未舗装路、または何かが通った「跡」のニュアンスが強い。'a trail of evidence'（証拠の痕跡）のように比喩的にも使える。",
+      "collocations": [
+        "hiking trail（ハイキングコース）",
+        "trail mix（トレイルミックス＝行動食）",
+        "blaze a trail（新しい道を開く）"
+      ],
+      "trivia": "'blaze a trail' は文字通り「木に印をつけて道を切り開く」という意味だったが、今では「先駆者となる」という比喩表現として日常的に使われる。'trailblazer' という単語もここから来ている！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 973,
+    "word": "ecology",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "生態学、エコロジー",
+        "pos": "noun"
+      },
+      {
+        "meaning": "生態系",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/iˈkɒlədʒi/",
+    "syllables": "e-col-o-gy",
+    "audioHint": "イコロジー",
+    "examples": [
+      {
+        "en": "She studies the ecology of coral reefs in the Pacific.",
+        "ja": "彼女は太平洋のサンゴ礁の生態学を研究している。",
+        "blank": "She studies the ___ of coral reefs in the Pacific.",
+        "blankAnswer": "ecology"
+      }
+    ],
+    "distractors": [
+      "地形学",
+      "気象学",
+      "地質学"
+    ],
+    "confusableSpellings": [
+      "ecolegy",
+      "ecologgy",
+      "ecollogy"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'oikos'（家・住処）＋ 'logos'（学問）から。「生き物たちの住処を研究する学問」という意味。'economy'（経済）も同じ 'oikos' が語源で、もとは「家の管理」を意味した。",
+      "tips": "日本語で「エコ」と言うと環境に優しいことを指すが、英語の 'ecology' は「生態学」という学問名。'eco-friendly'（環境に優しい）と混同しないよう注意。",
+      "confusables": "'environment'（環境）は広い意味での「環境」全般を指すが、'ecology' は生物と環境の相互関係を科学的に研究する分野。より学術的なニュアンス。",
+      "collocations": [
+        "marine ecology（海洋生態学）",
+        "ecology of a region（ある地域の生態系）",
+        "human ecology（人間生態学）"
+      ],
+      "trivia": "'ecology' という言葉を初めて使ったのはドイツの生物学者エルンスト・ヘッケルで、1866年のこと。当時は全く新しい概念で、「生物と環境の関係を科学する」という発想自体が革命的だった！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 974,
+    "word": "sibling",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "兄弟姉妹",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪblɪŋ/",
+    "syllables": "sib-ling",
+    "audioHint": "スィブリング",
+    "examples": [
+      {
+        "en": "Do you have any siblings, or are you an only child?",
+        "ja": "兄弟姉妹はいますか、それとも一人っ子ですか？",
+        "blank": "Do you have any ___s, or are you an only child?",
+        "blankAnswer": "siblings"
+      }
+    ],
+    "distractors": [
+      "親戚",
+      "配偶者",
+      "親"
+    ],
+    "confusableSpellings": [
+      "sibbling",
+      "siblng",
+      "sibeling"
+    ],
+    "passive": {
+      "etymology": "古英語 'sibb'（血縁・親族）＋ '-ling'（小さいもの・仲間を表す接尾辞）から。もともとは「同じ血縁の仲間」という意味。",
+      "tips": "英語には性別を区別しない「兄弟姉妹」を一言で表す語が 'sibling' しかない。日本語では「兄・弟・姉・妹」と細かく区別するが、英語で性別や年齢の上下を言いたい場合は 'older brother' などと表現する。",
+      "confusables": "'cousin'（いとこ）や 'relative'（親戚）と混同しないこと。'sibling' は同じ両親を持つ兄弟姉妹のみを指す。異母・異父兄弟は 'half-sibling'。",
+      "collocations": [
+        "sibling rivalry（兄弟間の競争・けんか）",
+        "older/younger sibling（年上/年下の兄弟姉妹）",
+        "sibling bond（兄弟の絆）"
+      ],
+      "trivia": "日本語は「兄・弟・姉・妹」と4語もあるのに対し、英語は 'sibling' の一語で済む。でも英語圏でも兄弟げんかは 'sibling rivalry'（サブリング・ライバルリー）と呼ばれる立派な心理学用語になっている！"
+    },
+    "frequency": 4000,
+    "cefr": "B1"
+  },
+  {
+    "id": 975,
+    "word": "ratio",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "比率、割合",
+        "pos": "noun"
+      },
+      {
+        "meaning": "比",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈreɪʃiəʊ/",
+    "syllables": "ra-ti-o",
+    "audioHint": "レイシオウ",
+    "examples": [
+      {
+        "en": "The ratio of boys to girls in the class is two to one.",
+        "ja": "クラスの男女比は2対1だ。",
+        "blank": "The ___ of boys to girls in the class is two to one.",
+        "blankAnswer": "ratio"
+      }
+    ],
+    "distractors": [
+      "合計",
+      "平均値",
+      "差"
+    ],
+    "confusableSpellings": [
+      "rasio",
+      "racio",
+      "rateo"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ratio'（計算・理由・割合）から直接英語に入った語。語根 'rat-' は 'think'（考える）を意味し、'rational'（合理的な）とも同じ語源。",
+      "tips": "発音に注意。日本語的に「ラシオ」と読みがちだが、正しくは「レイシオ」。また 'rate'（率）と混同しやすいが、'ratio' は2つ以上のものの比較関係、'rate' は単位あたりの量を表す。",
+      "confusables": "'rate'（レート・速度・率）は「何かあたりの量」、'ratio' は「AのBに対する比」という関係を表す。'the crime rate'（犯罪率）だが 'the ratio of crimes to population' のように使う。",
+      "collocations": [
+        "aspect ratio（アスペクト比）",
+        "ratio of A to B（AとBの比率）",
+        "golden ratio（黄金比）"
+      ],
+      "trivia": "黄金比（golden ratio）は約1.618で、ギリシャ建築やダ・ヴィンチの絵画にも使われている。実は人間の顔の縦横比や貝の螺旋にも現れる「自然界の美の法則」とも言われる！"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 976,
+    "word": "mixture",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "混合物、混合",
+        "pos": "noun"
+      },
+      {
+        "meaning": "組み合わせ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɪkstʃər/",
+    "syllables": "mix-ture",
+    "audioHint": "ミクスチャー",
+    "examples": [
+      {
+        "en": "The cake batter is a mixture of flour, eggs, and butter.",
+        "ja": "ケーキの生地は小麦粉・卵・バターの混合物だ。",
+        "blank": "The cake batter is a ___ of flour, eggs, and butter.",
+        "blankAnswer": "mixture"
+      }
+    ],
+    "distractors": [
+      "化合物",
+      "溶液",
+      "元素"
+    ],
+    "confusableSpellings": [
+      "mixsure",
+      "mixter",
+      "mixchure"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'mixtura'（混合）から。語根 'mix-'（混ぜる）は英語の 'mix' と同じ。接尾辞 '-ture' は名詞を作る。",
+      "tips": "化学では 'mixture'（混合物）と 'compound'（化合物）は全く別物。混合物は物理的に分離できるが、化合物は化学結合している。日常会話では「いろいろなものが混ざった状態」の意味でよく使う。",
+      "confusables": "'mixture' は物理的に混ざったもの、'compound' は化学的に結合したもの。また 'blend' は似た要素をうまく混ぜ合わせたニュアンスがあり、コーヒーや音楽でよく使う。",
+      "collocations": [
+        "a mixture of emotions（複雑な感情）",
+        "air is a mixture of gases（空気は気体の混合物）",
+        "mixture of cultures（文化の混合）"
+      ],
+      "trivia": "空気は 'mixture'（混合物）の代表例で、酸素・窒素などが化学反応せずに混ざっている。もし空気が 'compound'（化合物）だったら、窒素と酸素が結合した別の物質になってしまい、私たちは呼吸できなくなる！"
+    },
+    "frequency": 3000,
+    "cefr": "B1"
+  },
+  {
+    "id": 977,
+    "word": "charm",
+    "pos": "noun",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "魅力、愛嬌",
+        "pos": "noun"
+      },
+      {
+        "meaning": "魅了する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tʃɑːrm/",
+    "syllables": "charm",
+    "audioHint": "チャーム",
+    "examples": [
+      {
+        "en": "His charm won over everyone at the party.",
+        "ja": "彼の魅力はパーティーの全員を虜にした。",
+        "blank": "His ___ won over everyone at the party.",
+        "blankAnswer": "charm"
+      }
+    ],
+    "distractors": [
+      "誠実さ",
+      "勇気",
+      "忍耐力"
+    ],
+    "confusableSpellings": [
+      "charme",
+      "chram",
+      "chorm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'carmen'（歌・呪文）から古フランス語 'charme' を経て英語へ。もともとは「魔法の呪文」を意味し、人を魅了する力＝魔法、というイメージで現在の意味になった。",
+      "tips": "名詞「魅力」と動詞「魅了する」の両方で使える。'She charmed everyone.'（彼女はみんなを魅了した）のように動詞でも自然に使える。形容詞は 'charming'（魅力的な）。",
+      "confusables": "'attractive'（外見的に魅力的）に対し、'charm' は人柄や振る舞いから出る魅力のこと。外見だけでなく内側から出るオーラや愛嬌を指すことが多い。",
+      "collocations": [
+        "personal charm（個人的な魅力）",
+        "charm offensive（魅力攻勢・外交術）",
+        "work like a charm（完璧に機能する）"
+      ],
+      "trivia": "'works like a charm' は「まるで魔法のようにうまくいく」という慣用句。薬を飲んだらすぐ治った、新しい方法を試したらぴったりはまった…そんなときに使える超便利フレーズ！"
+    },
+    "frequency": 2700,
+    "cefr": "B1"
+  },
+  {
+    "id": 978,
+    "word": "ambition",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "野心、向上心",
+        "pos": "noun"
+      },
+      {
+        "meaning": "目標、夢",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/æmˈbɪʃən/",
+    "syllables": "am-bi-tion",
+    "audioHint": "アンビション",
+    "examples": [
+      {
+        "en": "Her ambition is to become a world-famous scientist.",
+        "ja": "彼女の野心は世界的に有名な科学者になることだ。",
+        "blank": "Her ___ is to become a world-famous scientist.",
+        "blankAnswer": "ambition"
+      }
+    ],
+    "distractors": [
+      "信念",
+      "好奇心",
+      "思いやり"
+    ],
+    "confusableSpellings": [
+      "ambision",
+      "ambtion",
+      "ambission"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ambitio'（歩き回ること・票集め）から。'amb-'（周りを）＋ 'ire'（行く）が語源。古代ローマで政治家が票を集めるために歩き回ることが「野心」の意味になった。",
+      "tips": "'ambition' は日本語の「野心」よりも中立的・肯定的なニュアンスで使われることが多い。'She has great ambition'（大きな夢がある）は褒め言葉にもなる。形容詞は 'ambitious'（野心的な）。",
+      "confusables": "'goal'（目標・ゴール）は具体的な達成点、'ambition' は強い欲求や向上心全体を指す。'My goal is to run a marathon'（具体目標）、'My ambition is to be a leader'（大きな夢・志）という感じ。",
+      "collocations": [
+        "have ambition（野心を持つ）",
+        "fulfil one's ambition（野心を実現する）",
+        "political ambition（政治的野心）"
+      ],
+      "trivia": "古代ローマでは選挙前に候補者が市民の間を「歩き回って」（ambire）票を集めた。その行為が「野心」の語源になったなんて、2000年前から選挙運動の本質は変わっていない！"
+    },
+    "frequency": 3100,
+    "cefr": "B2"
+  },
+  {
+    "id": 979,
+    "word": "prominent",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "著名な、卓越した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "目立つ、突出した",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈprɒmɪnənt/",
+    "syllables": "prom-i-nent",
+    "audioHint": "プロミネント",
+    "examples": [
+      {
+        "en": "She is a prominent figure in the world of art.",
+        "ja": "彼女は美術界の著名な人物だ。",
+        "blank": "She is a ___ figure in the world of art.",
+        "blankAnswer": "prominent"
+      }
+    ],
+    "distractors": [
+      "平均的な",
+      "一時的な",
+      "論理的な"
+    ],
+    "confusableSpellings": [
+      "prominant",
+      "promirent",
+      "promiment"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'prominere'（突き出る）から。'pro-'（前に）＋ 'minere'（突き出る）。物理的に「突き出ている」→「目立つ」→「著名な」へと意味が広がった。",
+      "tips": "「著名な」という意味では 'famous' よりも格式があり、肯定的なニュアンスが強い。ニュースや論文でよく使われる。'prominent nose'（高い鼻）のように物理的な突出にも使える。",
+      "confusables": "'famous'（有名な）は広く知られていること、'prominent' は特定の分野で際立って重要であること。'eminent'（高名な）と非常に似ているが、'prominent' は目立ち方、'eminent' は優秀さを強調する。",
+      "collocations": [
+        "prominent figure（著名人）",
+        "play a prominent role（重要な役割を果たす）",
+        "prominent feature（際立った特徴）"
+      ],
+      "trivia": "天文学では太陽の表面から吹き出すガスの柱を 'prominence'（プロミネンス・紅炎）と呼ぶ。「突き出ている」という語源そのままの使い方で、理科の授業で見たあの炎がまさにこの単語！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 980,
+    "word": "radical",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "抜本的な、根本的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "急進的な、過激な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈrædɪkəl/",
+    "syllables": "rad-i-cal",
+    "audioHint": "ラディカル",
+    "examples": [
+      {
+        "en": "The new policy brought radical changes to the healthcare system.",
+        "ja": "新しい政策は医療制度に抜本的な変化をもたらした。",
+        "blank": "The new policy brought ___ changes to the healthcare system.",
+        "blankAnswer": "radical"
+      }
+    ],
+    "distractors": [
+      "段階的な",
+      "表面的な",
+      "理論的な"
+    ],
+    "confusableSpellings": [
+      "radicle",
+      "radikal",
+      "radicall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'radicalis'（根の）から。語根 'radix'（根）が元で、'根っこから変える'＝「抜本的」という意味になった。数学の '√'（根号）も同じ語源から来ている。",
+      "tips": "日本語の「ラジカル」は「過激な」イメージが強いが、英語では「根本的な・抜本的な」という中立的な意味でも頻繁に使われる。'radical reform'（抜本的改革）は政治経済の文脈で多用される。",
+      "confusables": "'extreme'（極端な）は程度が行き過ぎているニュアンス、'radical' は「根っこから変える」という変化の深さに焦点がある。'a radical idea' は過激というより「根本から考え直した発想」というポジティブな意味にもなる。",
+      "collocations": [
+        "radical change（抜本的変化）",
+        "radical reform（根本的改革）",
+        "radical idea（革新的なアイデア）"
+      ],
+      "trivia": "化学では 'free radical'（フリーラジカル・活性酸素）という言葉でも登場する。これは「根っこがない＝結合していない不安定な分子」という意味。老化の原因とも言われ、美容業界でも話題のあの「活性酸素」の正体！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  }
+]

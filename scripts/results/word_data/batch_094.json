@@ -1,0 +1,992 @@
+[
+  {
+    "id": 1861,
+    "word": "complement",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "補完するもの、補足",
+        "pos": "noun"
+      },
+      {
+        "meaning": "補完する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈkɒmplɪmənt/",
+    "syllables": "com-ple-ment",
+    "audioHint": "コンプリメント",
+    "examples": [
+      {
+        "en": "Wine is a perfect complement to a good meal.",
+        "ja": "ワインは美味しい食事への完璧な補完物だ。",
+        "blank": "Wine is a perfect ___ to a good meal.",
+        "blankAnswer": "complement"
+      }
+    ],
+    "distractors": [
+      "矛盾",
+      "反論",
+      "代替案"
+    ],
+    "confusableSpellings": [
+      "compliment",
+      "complemant",
+      "complementt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'complementum'（完成させるもの）から。'com-'（共に）＋ 'plere'（満たす）＋ '-ment'（名詞化）。",
+      "tips": "「complement（補完）」と「compliment（褒め言葉）」は発音が同じで混同しやすい。'complement' は何かを完成・補足する意味、'compliment' はお世辞・称賛の意味。eかiかで区別する。",
+      "confusables": "compliment（褒め言葉）と発音が全く同じ同音異義語。'compl-e-ment' = complete（完成）と覚えると区別しやすい。",
+      "collocations": [
+        "a perfect complement",
+        "complement each other",
+        "complement to"
+      ],
+      "trivia": "音楽理論では「補完音（complement）」という概念があり、2つの音程が合わさってオクターブを成すことを指す。まさに「互いを完成させる」という意味の体現！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1862,
+    "word": "subsidy",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "補助金、助成金",
+        "pos": "noun"
+      },
+      {
+        "meaning": "奨励金",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsʌbsɪdi/",
+    "syllables": "sub-si-dy",
+    "audioHint": "サブシディ",
+    "examples": [
+      {
+        "en": "The government provides subsidies to small farmers.",
+        "ja": "政府は小規模農家に補助金を提供している。",
+        "blank": "The government provides ___ to small farmers.",
+        "blankAnswer": "subsidies"
+      }
+    ],
+    "distractors": [
+      "融資",
+      "税金",
+      "罰金"
+    ],
+    "confusableSpellings": [
+      "subsidiy",
+      "subsidy",
+      "subsidie"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'subsidium'（援軍、支援）から。'sub-'（下に）＋ 'sedere'（座る）が語源で、もともと「予備部隊」を意味していた。",
+      "tips": "複数形は 'subsidies'（-y → -ies）であることに注意。また 'subsidy' は政府からの支援を指し、民間からの寄付には使わない点に気をつけよう。",
+      "confusables": "grant（補助金・助成金）と似ているが、subsidy は特定産業・事業を支援するための継続的な資金援助、grant は一時的な給付金のニュアンスが強い。",
+      "collocations": [
+        "government subsidy",
+        "agricultural subsidy",
+        "provide subsidies"
+      ],
+      "trivia": "航空会社や鉄道など、一見巨大企業に見えても実は大量の subsidy を受けている産業が多い。あなたが乗った飛行機のチケット代も、実は補助金で安くなっているかも！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1863,
+    "word": "mortgage",
+    "pos": "noun",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "住宅ローン、抵当",
+        "pos": "noun"
+      },
+      {
+        "meaning": "抵当に入れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈmɔːrɡɪdʒ/",
+    "syllables": "mort-gage",
+    "audioHint": "モーゲッジ",
+    "examples": [
+      {
+        "en": "They took out a mortgage to buy their first home.",
+        "ja": "彼らは最初の家を買うために住宅ローンを組んだ。",
+        "blank": "They took out a ___ to buy their first home.",
+        "blankAnswer": "mortgage"
+      }
+    ],
+    "distractors": [
+      "株式投資",
+      "保険料",
+      "年金"
+    ],
+    "confusableSpellings": [
+      "mortage",
+      "morgage",
+      "morgauge"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'mort gage'（死の誓約）から。'mort'（死）＋ 'gage'（誓約・担保）。ローンを完済したら誓約が「死ぬ（消える）」、または返済できなければ担保が「死ぬ（没収される）」という意味。",
+      "tips": "'mortgage' の 't' は発音しない（/ˈmɔːrɡɪdʒ/）。スペルに 't' があるのに読まないので注意。日本語の「モーゲージ」と書かれることもあるが、英語では「モーゲッジ」に近い。",
+      "confusables": "loan（ローン全般）との違い：mortgage は不動産を担保にした特定の種類のローン。car loan や student loan には mortgage は使わない。",
+      "collocations": [
+        "take out a mortgage",
+        "mortgage payment",
+        "fixed-rate mortgage"
+      ],
+      "trivia": "「mortgage（死の誓約）」という語源、なかなか怖い。でも実際に中世ヨーロッパでは土地を担保にローンを組み、返せなければ土地が没収されていた。現代のローン地獄は昔から続いているんだ…！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1864,
+    "word": "attorney",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "弁護士、代理人",
+        "pos": "noun"
+      },
+      {
+        "meaning": "検察官",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈtɜːrni/",
+    "syllables": "at-tor-ney",
+    "audioHint": "アターニー",
+    "examples": [
+      {
+        "en": "She hired an attorney to handle her divorce case.",
+        "ja": "彼女は離婚案件を処理するために弁護士を雇った。",
+        "blank": "She hired an ___ to handle her divorce case.",
+        "blankAnswer": "attorney"
+      }
+    ],
+    "distractors": [
+      "裁判官",
+      "議員",
+      "警察官"
+    ],
+    "confusableSpellings": [
+      "atourney",
+      "attoney",
+      "attoreny"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'atorné'（任命された者）から。'a-'（〜に）＋ 'tourner'（向ける・任命する）。つまり「自分の代わりに行動するよう任命された人」。",
+      "tips": "アメリカ英語では 'attorney' が弁護士の一般的な呼び方。イギリス英語では 'solicitor'（事務弁護士）や 'barrister'（法廷弁護士）と区別される。TOEICや英字新聞ではアメリカ英語が多いので 'attorney' をメインで覚えよう。",
+      "confusables": "lawyer（弁護士全般）との違い：attorney は法的代理権を持つ弁護士を指す正式な語、lawyer はより口語的・一般的。'attorney at law' と言えば正式な資格保有者を強調できる。",
+      "collocations": [
+        "district attorney",
+        "power of attorney",
+        "attorney general"
+      ],
+      "trivia": "'Attorney General'（司法長官）はアメリカで最高位の法律職。日本の法務大臣に相当するが、権力はさらに強力。ドラマ「Suits」を見ると attorney の世界観がよくわかる！"
+    },
+    "frequency": 2900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1865,
+    "word": "outfit",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "服装、コーディネート",
+        "pos": "noun"
+      },
+      {
+        "meaning": "装備する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈaʊtfɪt/",
+    "syllables": "out-fit",
+    "audioHint": "アウトフィット",
+    "examples": [
+      {
+        "en": "She wore a stylish outfit to the party.",
+        "ja": "彼女はパーティーにスタイリッシュな服装で出席した。",
+        "blank": "She wore a stylish ___ to the party.",
+        "blankAnswer": "outfit"
+      }
+    ],
+    "distractors": [
+      "家具",
+      "食器",
+      "装飾品"
+    ],
+    "confusableSpellings": [
+      "outfitt",
+      "outfite",
+      "oufit"
+    ],
+    "passive": {
+      "etymology": "'out-'（外に）＋ 'fit'（適合させる）。もともとは「旅や探検に必要な装備一式」を意味していた。そこから「一揃いの服装」へと意味が広がった。",
+      "tips": "'outfit' は上から下まで含めたコーディネート全体を指す。'clothes' や 'clothing' は衣類全般、'outfit' は特定の場面に合わせた「一式」。SNSでは 'OOTD（Outfit Of The Day）' という表現も頻出。",
+      "confusables": "costume（仮装・特定の衣装）との違い：costume はハロウィンや演劇など特定の役割のための服装、outfit は日常のコーデ全般に使う。",
+      "collocations": [
+        "casual outfit",
+        "outfit of the day",
+        "matching outfit"
+      ],
+      "trivia": "SNSで '#OOTD'（Outfit of the Day）は世界中で数億件以上投稿されている超人気ハッシュタグ。fashion influencer たちの必須タグで、outfit という単語はSNS時代に爆発的に普及した！"
+    },
+    "frequency": 5500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1866,
+    "word": "bulk",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "大部分、大量",
+        "pos": "noun"
+      },
+      {
+        "meaning": "かさ、体積",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/bʌlk/",
+    "syllables": "bulk",
+    "audioHint": "バルク",
+    "examples": [
+      {
+        "en": "The bulk of the work was finished by noon.",
+        "ja": "作業の大部分は正午までに終わった。",
+        "blank": "The ___ of the work was finished by noon.",
+        "blankAnswer": "bulk"
+      }
+    ],
+    "distractors": [
+      "一部分",
+      "少数",
+      "端数"
+    ],
+    "confusableSpellings": [
+      "balck",
+      "bulck",
+      "balk"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'bulki'（船の積荷）から。もともとは「船にまとめて積まれた大量の荷物」を意味し、そこから「大量・かさ」という意味に発展した。",
+      "tips": "'the bulk of ～' で「〜の大部分」という表現は頻出。'in bulk' は「大量に・まとめて」という意味で、コストコのような大量購入を表すのに使う。単数扱いで使うことが多い。",
+      "confusables": "majority（多数派・過半数）との違い：majority は数の多さ、bulk は量や重さのかさの多さを強調する。'the bulk of' は量的な大部分、'the majority of' は数的な大多数。",
+      "collocations": [
+        "in bulk",
+        "the bulk of",
+        "bulk order"
+      ],
+      "trivia": "筋トレ界では「バルクアップ（bulk up）」という言葉が定番。筋肉を大きくするために意図的に体重を増やすフェーズのこと。英語の bulk がそのままスポーツ用語として日本語に入ってきた例！"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1867,
+    "word": "reunion",
+    "pos": "noun",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "再会、同窓会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "再結合",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/riːˈjuːniən/",
+    "syllables": "re-un-ion",
+    "audioHint": "リーユーニオン",
+    "examples": [
+      {
+        "en": "The family held a reunion at their grandparents' house.",
+        "ja": "家族は祖父母の家で再会を果たした。",
+        "blank": "The family held a ___ at their grandparents' house.",
+        "blankAnswer": "reunion"
+      }
+    ],
+    "distractors": [
+      "別れ",
+      "論争",
+      "交渉"
+    ],
+    "confusableSpellings": [
+      "reuinion",
+      "reunoin",
+      "reuniun"
+    ],
+    "passive": {
+      "etymology": "'re-'（再び）＋ 'union'（結合・ひとつになること）。ラテン語 'unio'（一致）に由来。「再びひとつになる」がそのまま意味になっている。",
+      "tips": "'reunion' は家族や友人、同窓生などが再び集まるイベントを指す。'class reunion' は「同窓会」として特に頻出。発音は「リュニオン」ではなく「リーユーニオン」と3音節で読む。",
+      "confusables": "reconciliation（和解）との違い：reunion は単に再び会うこと、reconciliation は対立や不仲を経て仲直りするニュアンスが強い。仲良しの友達が集まるのは reunion、喧嘩後の仲直りは reconciliation。",
+      "collocations": [
+        "class reunion",
+        "family reunion",
+        "high school reunion"
+      ],
+      "trivia": "アメリカでは 'high school reunion' が一大イベントで、卒業10年・20年・25年ごとに同窓会が開かれる文化が根付いている。映画やドラマでよく描かれる「あの頃と変わった？」な場面の定番設定！"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1868,
+    "word": "synthesis",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "統合、総合",
+        "pos": "noun"
+      },
+      {
+        "meaning": "合成",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈsɪnθɪsɪs/",
+    "syllables": "syn-the-sis",
+    "audioHint": "スィンセシス",
+    "examples": [
+      {
+        "en": "The essay requires a synthesis of multiple research sources.",
+        "ja": "そのエッセイは複数の研究資料の統合を必要とする。",
+        "blank": "The essay requires a ___ of multiple research sources.",
+        "blankAnswer": "synthesis"
+      }
+    ],
+    "distractors": [
+      "分析",
+      "分類",
+      "観察"
+    ],
+    "confusableSpellings": [
+      "synthisis",
+      "sinthesis",
+      "synthessis"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'synthesis'（組み合わせ）から。'syn-'（共に）＋ 'tithenai'（置く）。「複数のものを一緒に置く」＝「統合・合成」。",
+      "tips": "複数形は 'syntheses'（シンセシーズ）。学術論文では「複数の情報をまとめ上げること」を synthesis と表現することが多い。動詞形は 'synthesize'、形容詞形は 'synthetic'（合成の）。",
+      "confusables": "analysis（分析）との対比で覚えよう。thesis（命題）→ antithesis（反命題）→ synthesis（統合）はヘーゲル弁証法の三段論法として有名。分解するのが analysis、まとめ上げるのが synthesis。",
+      "collocations": [
+        "protein synthesis",
+        "speech synthesis",
+        "synthesis of ideas"
+      ],
+      "trivia": "音楽の「シンセサイザー（synthesizer）」もこの単語が語源。複数の音を「合成・統合」して新しい音を作る楽器だから。YMOやKraftwerkが世界中にシンセサイザーを広めたのは1970〜80年代！"
+    },
+    "frequency": 4500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1869,
+    "word": "mold",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "カビ、型",
+        "pos": "noun"
+      },
+      {
+        "meaning": "型に流し込む、形成する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/moʊld/",
+    "syllables": "mold",
+    "audioHint": "モウルド",
+    "examples": [
+      {
+        "en": "There was mold growing on the old bread.",
+        "ja": "古いパンにカビが生えていた。",
+        "blank": "There was ___ growing on the old bread.",
+        "blankAnswer": "mold"
+      }
+    ],
+    "distractors": [
+      "細菌",
+      "ウイルス",
+      "花粉"
+    ],
+    "confusableSpellings": [
+      "moled",
+      "mouled",
+      "molde"
+    ],
+    "passive": {
+      "etymology": "2つの語源がある。カビの意味はラテン語 'mucor'（カビ）に関連。型の意味は古フランス語 'modle'（型）から、さらにラテン語 'modulus'（基準・尺度）に由来。",
+      "tips": "アメリカ英語では 'mold'、イギリス英語では 'mould' とスペルが異なる。TOEICや米国の教科書では 'mold' を使う。「カビ」と「型」という全く異なる意味を持つので文脈で判断すること。",
+      "confusables": "fungus（菌類全般）との違い：mold は表面に見えるカビ、fungus はキノコや酵母も含む菌類全般を指す。mold は fungus の一種。",
+      "collocations": [
+        "black mold",
+        "break the mold",
+        "mold into shape"
+      ],
+      "trivia": "ペニシリン（抗生物質）はカビ（mold）から発見された！1928年にアレクサンダー・フレミングが「カビが細菌を殺している」と気づいたのが始まり。嫌われ者のカビが医学史を変えたんだ！"
+    },
+    "frequency": 4800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1870,
+    "word": "thirst",
+    "pos": "noun",
+    "categoryId": 5,
+    "meanings": [
+      {
+        "meaning": "のどの渇き",
+        "pos": "noun"
+      },
+      {
+        "meaning": "強い欲求、渇望",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/θɜːrst/",
+    "syllables": "thirst",
+    "audioHint": "サースト",
+    "examples": [
+      {
+        "en": "She felt a strong thirst for knowledge.",
+        "ja": "彼女は知識への強い渇望を感じた。",
+        "blank": "She felt a strong ___ for knowledge.",
+        "blankAnswer": "thirst"
+      }
+    ],
+    "distractors": [
+      "疲労感",
+      "吐き気",
+      "めまい"
+    ],
+    "confusableSpellings": [
+      "thirsts",
+      "thurst",
+      "thist"
+    ],
+    "passive": {
+      "etymology": "古英語 'þurst'（のどの渇き）から。ゲルマン語系の語根で、ドイツ語の 'Durst'（のどの渇き）と同源。非常に古くから英語に存在する基本語彙。",
+      "tips": "'th' の発音（/θ/）は日本語にない音で、舌先を上下の歯の間に軽く挟んで息を出す。「サースト」ではなく「θɜːrst」と意識して練習しよう。また 'thirst for ～'（〜への渇望）は比喩的表現として論文や文学でよく使われる。",
+      "confusables": "hunger（空腹・渇望）との違い：hunger は食べ物への空腹感、thirst は水分への渇き。比喩的には両方とも「強い欲求」を表すが、hunger for success（成功への渇望）の方がやや文学的で強い表現。",
+      "collocations": [
+        "quench one's thirst",
+        "thirst for knowledge",
+        "die of thirst"
+      ],
+      "trivia": "英語スラングで 'thirsty' は「（異性・承認などに）必死すぎる人」という意味で使われる。SNSで過剰にいいねを求める行動を 'thirst trap'（注目を引くための投稿）と言ったりする。現代スラングと古英語の見事な融合！"
+    },
+    "frequency": 5000,
+    "cefr": "B1"
+  },
+  {
+    "id": 1871,
+    "word": "greed",
+    "pos": "noun",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "強欲、貪欲",
+        "pos": "noun"
+      },
+      {
+        "meaning": "どん欲さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɡriːd/",
+    "syllables": "greed",
+    "audioHint": "グリード",
+    "examples": [
+      {
+        "en": "His greed for money destroyed all his friendships.",
+        "ja": "お金への強欲さが彼の友情をすべて壊した。",
+        "blank": "His ___ for money destroyed all his friendships.",
+        "blankAnswer": "greed"
+      }
+    ],
+    "distractors": [
+      "怒り",
+      "嫉妬心",
+      "恐怖感"
+    ],
+    "confusableSpellings": [
+      "greede",
+      "greid"
+    ],
+    "passive": {
+      "etymology": "古英語 'grǣdig'（貪欲な）が語源。形容詞 greedy の名詞形として中英語期に成立。語根は印欧祖語 *gher-（欲しがる）に由来。",
+      "tips": "greed は不可算名詞として使われることがほとんど。'a greed' とは言わず 'greed for power/money' のように for とセットで使うのが自然。形容詞形 greedy も覚えると便利。",
+      "confusables": "greed（強欲・名詞）と greedy（強欲な・形容詞）を混同しないように。'He is greed' は誤りで 'He is greedy' が正しい。",
+      "collocations": [
+        "greed for money",
+        "corporate greed",
+        "driven by greed"
+      ],
+      "trivia": "映画『ウォール街』の名ゼリフ「Greed is good（強欲は善だ）」はビジネス文化を批判するアイコニックな言葉として今も引用される。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1872,
+    "word": "bribe",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "賄賂",
+        "pos": "noun"
+      },
+      {
+        "meaning": "賄賂を贈る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/braɪb/",
+    "syllables": "bribe",
+    "audioHint": "ブライブ",
+    "examples": [
+      {
+        "en": "The official was arrested for accepting a bribe.",
+        "ja": "その役人は賄賂を受け取ったとして逮捕された。",
+        "blank": "The official was arrested for accepting a ___.",
+        "blankAnswer": "bribe"
+      }
+    ],
+    "distractors": [
+      "選挙運動",
+      "抗議活動",
+      "条約"
+    ],
+    "confusableSpellings": [
+      "breibe",
+      "brib"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'briber'（物乞いをする）が語源。中世ヨーロッパで物乞いや盗品を指した語が、不正な金銭授受の意味へと変化した。",
+      "tips": "bribe は名詞（賄賂）と動詞（賄賂を贈る）の両方で使われる。'bribe someone into doing something'（賄賂を使って〜させる）という構文も頻出。bribery は名詞形で制度的・法的文脈で使われる。",
+      "confusables": "bribe（賄賂・具体的な金品）と bribery（贈収賄行為・不可算名詞）は使い分けが必要。'He paid a bribe' / 'He was charged with bribery' のように場面で使い分ける。",
+      "collocations": [
+        "pay a bribe",
+        "accept a bribe",
+        "bribe an official"
+      ],
+      "trivia": "世界で最も賄賂指数が低い（清廉な）国はデンマークやニュージーランドで、日本は中程度。透明性国際機構（Transparency International）が毎年ランキングを発表している。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1873,
+    "word": "contempt",
+    "pos": "noun",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "軽蔑、侮蔑",
+        "pos": "noun"
+      },
+      {
+        "meaning": "法廷侮辱罪",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈtɛmpt/",
+    "syllables": "con-tempt",
+    "audioHint": "コンテンプト",
+    "examples": [
+      {
+        "en": "She looked at him with utter contempt.",
+        "ja": "彼女は彼を完全な軽蔑の目で見た。",
+        "blank": "She looked at him with utter ___.",
+        "blankAnswer": "contempt"
+      }
+    ],
+    "distractors": [
+      "嫉妬心",
+      "罪悪感",
+      "誇り"
+    ],
+    "confusableSpellings": [
+      "contemp",
+      "contemt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'contemptus'（見下すこと）から。com-（完全に）＋ temnere（軽蔑する）の組み合わせ。接頭辞 con- は強調の役割を持つ。",
+      "tips": "contempt は 'contempt for ～'（〜への軽蔑）という形でよく使われる。法律用語として 'contempt of court'（法廷侮辱罪）という重要な表現もある。形容詞 contemptuous（軽蔑的な）も合わせて覚えよう。",
+      "confusables": "contempt（軽蔑・感情）と contemptuous（軽蔑的な・形容詞）を混同しやすい。また、scorn（軽蔑・もっと感情的）と比べると contempt はより冷たく見下す含意がある。",
+      "collocations": [
+        "contempt for authority",
+        "hold someone in contempt",
+        "contempt of court"
+      ],
+      "trivia": "心理学者のポール・エクマンによると、人間の基本感情の中で contempt（軽蔑）だけが顔の片側だけに表れる非対称な表情を持つ唯一の感情とされている。"
+    },
+    "frequency": 3500,
+    "cefr": "C1"
+  },
+  {
+    "id": 1874,
+    "word": "texture",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "質感、手触り",
+        "pos": "noun"
+      },
+      {
+        "meaning": "食感、テクスチャー",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈtɛkstʃər/",
+    "syllables": "tex-ture",
+    "audioHint": "テクスチャー",
+    "examples": [
+      {
+        "en": "I love the smooth texture of this silk fabric.",
+        "ja": "このシルク生地の滑らかな質感が大好きだ。",
+        "blank": "I love the smooth ___ of this silk fabric.",
+        "blankAnswer": "texture"
+      }
+    ],
+    "distractors": [
+      "においの強さ",
+      "形の変化",
+      "色の鮮やかさ"
+    ],
+    "confusableSpellings": [
+      "texure",
+      "textcher"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'textura'（織り、編み）から。texere（織る）が語根で、text（文章）や textile（織物）と同じ語族。もともとは「織り目」の意味だった。",
+      "tips": "texture は食べ物の「食感」にも使われる点が日本語と少し違う。'The texture of this cake is very moist.'（このケーキの食感はとてもしっとりしている）のように料理の文脈でも頻出。",
+      "confusables": "texture（質感・手で触れる感覚）と surface（表面・視覚的な面）は混同しやすい。texture はより感覚的・触覚的な性質を指す。",
+      "collocations": [
+        "smooth texture",
+        "rough texture",
+        "texture of skin"
+      ],
+      "trivia": "3Dゲームやアニメのグラフィックで「テクスチャ貼り」という技術が使われるが、これはまさに語源の「織り目・模様」の意味から来ている。リアルな見た目を作るために仮想の「手触り」を表面に適用する技術だ。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1875,
+    "word": "orphan",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "孤児",
+        "pos": "noun"
+      },
+      {
+        "meaning": "親を失う（受動的に）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɔːrfən/",
+    "syllables": "or-phan",
+    "audioHint": "オーファン",
+    "examples": [
+      {
+        "en": "The war left thousands of children as orphans.",
+        "ja": "その戦争は何千人もの子供たちを孤児にした。",
+        "blank": "The war left thousands of children as ___s.",
+        "blankAnswer": "orphans"
+      }
+    ],
+    "distractors": [
+      "難民",
+      "移民",
+      "犯罪者"
+    ],
+    "confusableSpellings": [
+      "orphen",
+      "orfan"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'orphanos'（親を亡くした）が語源。ラテン語 orphanus を経て英語に入った。語根は印欧祖語 *orbho-（親を失った）に由来し、ドイツ語 Arbeit（労働）とも遠い親戚。",
+      "tips": "orphan は名詞として使うのが基本だが、動詞としても使える。'be orphaned'（孤児になる）という受動態が自然で、'The children were orphaned by the earthquake.'（子供たちは地震で孤児になった）のように使う。",
+      "confusables": "orphan（両親を亡くした子）と refugee（難民・迫害・戦争から逃げた人）は文脈が似ることがあるが意味は異なる。また foster child（里子）は孤児とは限らない。",
+      "collocations": [
+        "war orphan",
+        "orphan child",
+        "be orphaned at a young age"
+      ],
+      "trivia": "出版・印刷の世界では「orphan」は段落の最初の1行だけが前ページに残る状態を指す専門用語。「一人取り残された行」というイメージからこの名前がついた。"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1876,
+    "word": "harassment",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "嫌がらせ、ハラスメント",
+        "pos": "noun"
+      },
+      {
+        "meaning": "迷惑行為、脅迫的行為",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/həˈræsmənt/ または /ˈhærəsmənt/",
+    "syllables": "ha-rass-ment",
+    "audioHint": "ハラスメント（またはハラースメント）",
+    "examples": [
+      {
+        "en": "She reported the sexual harassment to her manager.",
+        "ja": "彼女はセクシャルハラスメントを上司に報告した。",
+        "blank": "She reported the sexual ___ to her manager.",
+        "blankAnswer": "harassment"
+      }
+    ],
+    "distractors": [
+      "差別的な法律",
+      "国家の弾圧",
+      "選挙の不正"
+    ],
+    "confusableSpellings": [
+      "harrassment",
+      "harassement"
+    ],
+    "passive": {
+      "etymology": "フランス語 'harasser'（疲弊させる、悩ます）が語源。harer（犬をけしかける）から派生したとされる。接尾辞 -ment は行為・状態を表す名詞語尾。",
+      "tips": "harassmentのスペルはネイティブでも間違えやすく、rが1つかrが2つかを迷う人が多い。正解はr一つ（harass）。発音も英米で揺れがあり、イギリス英語では第1音節 /ˈhærəsmənt/、アメリカ英語では第2音節 /həˈræsmənt/ に強勢が来ることが多い。",
+      "confusables": "harassment（継続的・組織的な嫌がらせ）と bullying（いじめ・特に子供間や力関係での）は近い意味だが、harassmentの方がより法的・職場的な文脈で使われる。",
+      "collocations": [
+        "sexual harassment",
+        "workplace harassment",
+        "online harassment"
+      ],
+      "trivia": "「ハラスメント」は日本語にもそのまま外来語として入っているが、英語では sexual harassment 以外にも power harassment、moral harassment など「〜ハラ」という表現は日本独自の造語が多く、英語圏では通じないことがある。"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1877,
+    "word": "hay",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "干し草",
+        "pos": "noun"
+      },
+      {
+        "meaning": "少額のお金（口語）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/heɪ/",
+    "syllables": "hay",
+    "audioHint": "ヘイ",
+    "examples": [
+      {
+        "en": "The farmer stored hay in the barn for winter.",
+        "ja": "農夫は冬のために干し草を納屋に貯蔵した。",
+        "blank": "The farmer stored ___ in the barn for winter.",
+        "blankAnswer": "hay"
+      }
+    ],
+    "distractors": [
+      "沼地",
+      "砂漠の砂",
+      "川の流れ"
+    ],
+    "confusableSpellings": [
+      "haye",
+      "hei"
+    ],
+    "passive": {
+      "etymology": "古英語 'hēg'（干し草）が語源。ゲルマン語派に広く共通する語で、ドイツ語 Heu、オランダ語 hooi と同族。語根は hewan（刈る）に遡る。",
+      "tips": "hay は不可算名詞として使われることが多い。'a hay'とは言わず、'bales of hay'（干し草の束）のように数えるときは単位を使う。'Make hay while the sun shines'（好機を逃すな）というイディオムも重要。",
+      "confusables": "hay（干した草・家畜のエサ）と straw（麦わら・穀物の茎）は見た目が似て混同されやすい。hay は牧草を乾燥させたもので栄養があり、straw は穀物を収穫した後の茎で敷き藁などに使われる。",
+      "collocations": [
+        "bale of hay",
+        "hay fever",
+        "make hay"
+      ],
+      "trivia": "「hay fever（花粉症）」は直訳すると「干し草熱」。干し草を収穫する夏の季節に症状が出ることからこの名がついた。実際は干し草より花粉が原因だが、名前はそのまま残っている。"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1878,
+    "word": "doctrine",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "教義、主義",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（政治・軍事的な）原則、ドクトリン",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈdɒktrɪn/",
+    "syllables": "doc-trine",
+    "audioHint": "ドクトリン",
+    "examples": [
+      {
+        "en": "The doctrine of free speech is central to democracy.",
+        "ja": "言論の自由の原則は民主主義の中心にある。",
+        "blank": "The ___ of free speech is central to democracy.",
+        "blankAnswer": "doctrine"
+      }
+    ],
+    "distractors": [
+      "実験的な手法",
+      "統計的なデータ",
+      "観察の記録"
+    ],
+    "confusableSpellings": [
+      "doctrin",
+      "doctorine"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'doctrina'（教え、学問）から。doctor（教える人）＋ -ina（名詞語尾）の構成。語根 docere（教える）は document、doctor、indoctrinate とも同族。",
+      "tips": "doctrine は宗教的文脈（教義）と政治・軍事的文脈（原則）の両方で使われる。'Monroe Doctrine'（モンロー主義）や 'the doctrine of the Church'（教会の教義）のように固有名詞的に使われることも多い。",
+      "confusables": "doctrine（体系化された原則・信条）と dogma（独断的・疑いを許さない教義）は似ているが、dogma の方がより硬直した権威的なニュアンスがある。",
+      "collocations": [
+        "religious doctrine",
+        "military doctrine",
+        "Monroe Doctrine"
+      ],
+      "trivia": "「ドクトリン」は日本語でも外来語として定着しているが、その語源にある doctor は「教える人」の意味。医者を doctor と呼ぶのも、もともと「知識を教える・持つ人」という意味からきている。"
+    },
+    "frequency": 2800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1879,
+    "word": "holistic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "全体論的な、包括的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ホリスティックな（全人的医療などの文脈）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/həʊˈlɪstɪk/",
+    "syllables": "ho-lis-tic",
+    "audioHint": "ホウリスティック",
+    "examples": [
+      {
+        "en": "We need a holistic approach to address mental health issues.",
+        "ja": "メンタルヘルスの問題に対処するには包括的なアプローチが必要だ。",
+        "blank": "We need a ___ approach to address mental health issues.",
+        "blankAnswer": "holistic"
+      }
+    ],
+    "distractors": [
+      "定量的な",
+      "段階的な",
+      "局所的な"
+    ],
+    "confusableSpellings": [
+      "wholistic",
+      "holistik"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'holos'（全体）＋ 接尾辞 -istic（〜の性質を持つ）から構成。whole（全体）とも同語源で、1926年に哲学者ヤン・スマッツが 'holism'（全体論）という概念を提唱したことで広まった。",
+      "tips": "wholistic というスペルも見られるが、現代では holistic が標準。'a holistic approach'（包括的アプローチ）という表現がビジネス・医療・教育の文脈で非常によく使われる。",
+      "confusables": "holistic（全体を統合的に捉える）と comprehensive（広範囲にわたる・網羅的な）は似ているが、holistic は部分の集まりではなく「全体として機能する」というニュアンスが強い。",
+      "collocations": [
+        "holistic approach",
+        "holistic medicine",
+        "holistic view"
+      ],
+      "trivia": "「ホリスティック医療」は西洋医学に代わる代替医療として注目されているが、実は語源の holos（全体）が示す通り、心・体・精神を分けずに一つとして診るという発想。近代西洋医学が部位別に専門化したことへのカウンターとして生まれた思想だ。"
+    },
+    "frequency": 3200,
+    "cefr": "C1"
+  },
+  {
+    "id": 1880,
+    "word": "liable",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "法的責任がある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "〜しがちな、〜する可能性が高い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈlaɪəbl/",
+    "syllables": "li-a-ble",
+    "audioHint": "ライアブル",
+    "examples": [
+      {
+        "en": "The company was found liable for the environmental damage.",
+        "ja": "その会社は環境被害に対して法的責任があると判断された。",
+        "blank": "The company was found ___ for the environmental damage.",
+        "blankAnswer": "liable"
+      }
+    ],
+    "distractors": [
+      "適切な条件を満たしている",
+      "論理的に一貫している",
+      "技術的に複雑な"
+    ],
+    "confusableSpellings": [
+      "lieable",
+      "liabel"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'lier'（縛る）が語源。ラテン語 ligare（結びつける）に由来し、legal（法律）や ligament（靭帯）と同語族。「法的に縛られている」という意味合いが原義にある。",
+      "tips": "'be liable for'（〜に対して責任がある）と 'be liable to do'（〜しがちである）の2つの用法をしっかり区別すること。日本人は法律的な意味ばかり覚えがちだが、'He is liable to forget.'（彼は忘れっぽい）のような日常的な用法も重要。",
+      "confusables": "liable（法的責任・傾向）と responsible（道義的・一般的な責任）は似ているが、liable はより法的・否定的な含意が強い。また likely（可能性が高い）とも意味が近いが、liable to do はやや否定的な結果に使われることが多い。",
+      "collocations": [
+        "be liable for damages",
+        "liable to tax",
+        "hold someone liable"
+      ],
+      "trivia": "法律英語では liability（責任・賠償義務）という名詞形が非常に重要で、会計では「負債」という意味でも使われる。資産負債表（バランスシート）の「Liabilities（負債の部）」はこの語から来ている。"
+    },
+    "frequency": 3000,
+    "cefr": "C1"
+  }
+]

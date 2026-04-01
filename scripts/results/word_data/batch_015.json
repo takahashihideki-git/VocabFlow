@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 281,
+    "word": "efficient",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "効率的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "能率的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈfɪʃənt/",
+    "syllables": "ef-fi-cient",
+    "audioHint": "イフィシェント",
+    "examples": [
+      {
+        "en": "She found a more efficient way to organize her files.",
+        "ja": "彼女はファイルを整理するより効率的な方法を見つけた。",
+        "blank": "She found a more ___ way to organize her files.",
+        "blankAnswer": "efficient"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "論理的な",
+      "革新的な"
+    ],
+    "confusableSpellings": [
+      "eficient",
+      "efficent",
+      "effecient"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'efficientem' に由来。接頭辞 'ex-'（外に）＋語根 'facere'（作る・行う）→「結果を外に出す」→効率的に成し遂げる、という意味に発展。",
+      "tips": "日本人学習者は 'effective'（効果的な）と混同しがち。'efficient' は「無駄なく行う過程」に、'effective' は「目標が達成されたかという結果」に焦点が当たる。例：'an efficient process'（効率的な工程）vs 'an effective solution'（効果的な解決策）。",
+      "confusables": "'effective' との違いが頻出。'efficient' は「リソースを無駄にしない」こと、'effective' は「目的を達成する」こと。両方を満たす場合もあるが区別は重要。",
+      "collocations": [
+        "efficient use of time",
+        "fuel-efficient",
+        "highly efficient"
+      ],
+      "trivia": "「エコカー」の燃費性能を表す 'fuel-efficient' はそのまま英語でも通じる！環境問題の文脈では最頻出形容詞のひとつで、SDGs関連の英文にも必ず登場する。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 282,
+    "word": "universal",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "普遍的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "全世界共通の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌjuːnɪˈvɜːrsəl/",
+    "syllables": "u-ni-ver-sal",
+    "audioHint": "ユーニヴァーサル",
+    "examples": [
+      {
+        "en": "Music is often called a universal language.",
+        "ja": "音楽はしばしば普遍的な言語と呼ばれる。",
+        "blank": "Music is often called a ___ language.",
+        "blankAnswer": "universal"
+      }
+    ],
+    "distractors": [
+      "一時的な",
+      "個人的な",
+      "部分的な"
+    ],
+    "confusableSpellings": [
+      "universel",
+      "univarsal",
+      "universial"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'universalis' に由来。'uni-'（一つの）＋ 'versus'（回す・向ける）＋ '-al'（形容詞語尾）→「すべてを一つの方向に向けた」→普遍的、という意味に発展。",
+      "tips": "発音に注意。日本語の「ユニバーサル」に引きずられて /juːnɪˈvɜːrsəl/ の第3音節にアクセントがあることを忘れがち。また、名詞形 'universe'（宇宙）と語根が同じと意識すると覚えやすい。",
+      "confusables": "'general'（一般的な）と意味が近いが、'universal' は「例外なく全員・全体に当てはまる」というより強い意味合い。'a general rule'（一般的なルール）と 'a universal truth'（普遍的な真実）で使い分ける。",
+      "collocations": [
+        "universal truth",
+        "universal healthcare",
+        "universal design"
+      ],
+      "trivia": "「ユニバーサルデザイン」はそのまま英語 'universal design' から来た言葉。1980年代にアメリカの建築家ロン・メイスが提唱した概念で、障害の有無にかかわらず誰でも使えるデザインを指す。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 283,
+    "word": "vast",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "広大な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "膨大な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/væst/",
+    "syllables": "vast",
+    "audioHint": "ヴァスト",
+    "examples": [
+      {
+        "en": "The explorer crossed a vast desert alone.",
+        "ja": "その探検家はひとりで広大な砂漠を横断した。",
+        "blank": "The explorer crossed a ___ desert alone.",
+        "blankAnswer": "vast"
+      }
+    ],
+    "distractors": [
+      "深刻な",
+      "正確な",
+      "珍しい"
+    ],
+    "confusableSpellings": [
+      "wast",
+      "vaste",
+      "vaast"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'vastus'（空っぽの・荒れ果てた・巨大な）に由来。もともとは「人のいない荒野」というイメージから「広大な」という意味に転じた。",
+      "tips": "日本人が間違えやすいのは 'waste'（廃棄物・無駄）とのスペル混同。'vast' にはtの前にsがある、'waste' には'a'の後ろに'ste'がある、とセットで覚えよう。",
+      "confusables": "'huge'（巨大な）や 'enormous'（莫大な）と意味が近いが、'vast' は特に「広がり・範囲の広さ」に使われることが多い。'a vast ocean'（広大な海）のように空間的広がりを強調する際に最適。",
+      "collocations": [
+        "vast majority",
+        "vast amount",
+        "vast expanse"
+      ],
+      "trivia": "英語で「圧倒的多数」を表す 'the vast majority' は政治・ニュースで超頻出表現。日本語の「大多数」より強く「ほぼすべて」に近いニュアンスで使われる。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 284,
+    "word": "extra",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "余分な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "追加の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈekstrə/",
+    "syllables": "ex-tra",
+    "audioHint": "エクストラ",
+    "examples": [
+      {
+        "en": "Can I get an extra napkin, please?",
+        "ja": "ナプキンをもう一枚いただけますか？",
+        "blank": "Can I get an ___ napkin, please?",
+        "blankAnswer": "extra"
+      }
+    ],
+    "distractors": [
+      "特別な",
+      "全体の",
+      "明らかな"
+    ],
+    "confusableSpellings": [
+      "ekstra",
+      "exstra",
+      "exttra"
+    ],
+    "passive": {
+      "etymology": "ラテン語の前置詞 'extra'（〜の外に・〜を超えて）がそのまま英語に入った語。'extraordinary'（並外れた）や 'extract'（抽出する）にも同じ接頭辞が使われている。",
+      "tips": "日本語の「エキストラ」は映画のエキストラ（端役）の意味で使うことが多いが、英語の 'extra' は形容詞・副詞として「余分な・追加の」の意味で日常的に幅広く使われる。副詞としても 'extra careful'（特別に慎重に）のように使える。",
+      "confusables": "'additional'（追加の）と意味が近いが、'extra' の方がよりカジュアル。'additional charge'（追加料金）はフォーマル、'extra charge' はやや口語的な場面で使われることが多い。",
+      "collocations": [
+        "extra time",
+        "extra charge",
+        "extra effort"
+      ],
+      "trivia": "SNS英語スラングで 'That's so extra!' と言うと「大げさすぎる！」という意味になる。過剰に目立とうとする行動を指す若者言葉として2010年代から普及した。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 285,
+    "word": "entire",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "全体の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "完全な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈtaɪər/",
+    "syllables": "en-tire",
+    "audioHint": "インタイア",
+    "examples": [
+      {
+        "en": "She read the entire book in one day.",
+        "ja": "彼女は一日でその本を全部読んだ。",
+        "blank": "She read the ___ book in one day.",
+        "blankAnswer": "entire"
+      }
+    ],
+    "distractors": [
+      "余分な",
+      "馴染みのある",
+      "普通の"
+    ],
+    "confusableSpellings": [
+      "entier",
+      "entyre",
+      "entaire"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'integer'（手つかずの・完全な）に由来。接頭辞 'in-'（否定）＋ 'tangere'（触れる）→「触れられていない＝完全な状態の」→全体の・完全な、という意味に発展。数学の 'integer'（整数）と同じ語根。",
+      "tips": "日本人学習者は 'all'（すべての）と混同しがち。'the entire city'（街全体）のように、'entire' は後ろに必ず名詞を伴い、'the entire + 名詞' という形が基本。'all the + 名詞' と言い換えられることも多い。",
+      "confusables": "'whole'（全体の）と非常に似ているが、'entire' はより文語的・強調的なニュアンス。会話では 'the whole story' が自然で、書き言葉では 'the entire story' もよく使われる。",
+      "collocations": [
+        "the entire day",
+        "the entire world",
+        "entire population"
+      ],
+      "trivia": "数学用語の 'integer'（整数）と語源が同じ！「完全な・割り切れる」イメージが共通している。さらに 'integrity'（誠実さ・一体性）も同じ語根で「人格が完全な状態」という意味から来ている。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 286,
+    "word": "familiar",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "馴染みのある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "よく知っている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/fəˈmɪliər/",
+    "syllables": "fa-mil-iar",
+    "audioHint": "ファミリア",
+    "examples": [
+      {
+        "en": "That song sounds familiar to me.",
+        "ja": "その曲は私には聞き覚えがある。",
+        "blank": "That song sounds ___ to me.",
+        "blankAnswer": "familiar"
+      }
+    ],
+    "distractors": [
+      "明らかな",
+      "等しい",
+      "普遍的な"
+    ],
+    "confusableSpellings": [
+      "familliar",
+      "familier",
+      "familar"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'familiaris'（家族の・親しい）に由来。'familia'（家族・世帯）→「家族のように身近な」→馴染みのある、という意味に発展。'family'（家族）と同じ語根。",
+      "tips": "前置詞の使い方に注意。「〜を知っている」の意味では 'be familiar with' を使う（例：I am familiar with the area. この地域はよく知っている）。'familiar to' は「〜にとって馴染みがある」（例：The name is familiar to me.）。",
+      "confusables": "'well-known'（よく知られた）と意味は近いが、'familiar' は「主観的な親しみやすさ」を表し、'well-known' は「客観的に広く知られている」こと。",
+      "collocations": [
+        "be familiar with",
+        "familiar face",
+        "familiar feeling"
+      ],
+      "trivia": "自動車ブランド「ファミリア」（FAMILIA）はマツダの旧車名で、そのまま 'familiar' から来ている。「家族に親しまれる車」というコンセプトが名前の由来。英語の語源から車名を読み解けるなんて面白い！"
+    },
+    "frequency": 1400,
+    "cefr": "B1"
+  },
+  {
+    "id": 287,
+    "word": "obvious",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "明らかな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "明白な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɒbviəs/",
+    "syllables": "ob-vi-ous",
+    "audioHint": "オブヴィアス",
+    "examples": [
+      {
+        "en": "It was obvious that he was nervous.",
+        "ja": "彼が緊張しているのは明らかだった。",
+        "blank": "It was ___ that he was nervous.",
+        "blankAnswer": "obvious"
+      }
+    ],
+    "distractors": [
+      "道徳的な",
+      "余分な",
+      "全体の"
+    ],
+    "confusableSpellings": [
+      "obvius",
+      "obveous",
+      "obivous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'obvius' に由来。接頭辞 'ob-'（向かって・前に）＋ 'via'（道）→「道の前に立ちはだかっている」→誰の目にも見える→明らかな、という意味に発展。",
+      "tips": "副詞 'obviously'（明らかに）もセットで覚えよう。会話で 'Obviously!' と言うと「当然でしょ！」という少し皮肉っぽいニュアンスになることがある。また 'It is obvious that ...' の構文は英作文で非常に便利。",
+      "confusables": "'clear'（明確な）や 'evident'（明白な）と意味が近いが、'obvious' は「誰が見ても一目でわかる」というニュアンスが強く、時に「当たり前すぎる」というやや否定的なニュアンスも持つ。",
+      "collocations": [
+        "it is obvious that",
+        "obvious reason",
+        "state the obvious"
+      ],
+      "trivia": "英語に 'Captain Obvious' というネットスラングがある。「誰でも知っているようなことをわざわざ言う人」をからかう表現で、SNSコメントでよく登場する。"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 288,
+    "word": "moral",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "道徳的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "倫理的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈmɒrəl/",
+    "syllables": "mor-al",
+    "audioHint": "モラル",
+    "examples": [
+      {
+        "en": "She faced a difficult moral decision.",
+        "ja": "彼女は難しい道徳的な決断を迫られた。",
+        "blank": "She faced a difficult ___ decision.",
+        "blankAnswer": "moral"
+      }
+    ],
+    "distractors": [
+      "効率的な",
+      "論理的な",
+      "技術的な"
+    ],
+    "confusableSpellings": [
+      "morel",
+      "morral",
+      "morall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'moralis'（習慣・風俗に関する）に由来。語根 'mos / mores'（習慣・慣習）→「社会の慣習に基づく善悪の判断」→道徳的な、という意味に発展。ギリシャ語の 'ethos' を訳すためにキケロが作った語とも言われる。",
+      "tips": "日本語の「モラル」は英語の 'moral' からの借用語だが、日本語では主に名詞として使われる（「モラルが高い」）。英語の 'moral' は形容詞が基本で、名詞は 'morality' や 'morals' を使う。",
+      "confusables": "'ethical'（倫理的な）と意味が非常に近い。'moral' は個人の内面的な善悪の感覚、'ethical' は社会的・職業的な規範や規則に基づく判断、というニュアンスの差がある。",
+      "collocations": [
+        "moral values",
+        "moral dilemma",
+        "moral support"
+      ],
+      "trivia": "fable（寓話）の最後にある教訓を英語で 'the moral of the story' と言う。イソップ寓話の「アリとキリギリス」の教訓も 'The moral is: prepare for hard times.' のように表現できる！"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 289,
+    "word": "ordinary",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "普通の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "ありふれた",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɔːrdɪneri/",
+    "syllables": "or-di-na-ry",
+    "audioHint": "オーディネリ",
+    "examples": [
+      {
+        "en": "It was just an ordinary day at work.",
+        "ja": "それはただの普通の仕事の日だった。",
+        "blank": "It was just an ___ day at work.",
+        "blankAnswer": "ordinary"
+      }
+    ],
+    "distractors": [
+      "馴染みのある",
+      "等しい",
+      "全体の"
+    ],
+    "confusableSpellings": [
+      "ordinery",
+      "ordinairy",
+      "ordanary"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ordinarius'（規則的な・順序に従った）に由来。語根 'ordo'（順序・秩序）→「決まった順序通りの」→普通の・ありふれた、という意味に発展。'order'（順序）と同じ語根。",
+      "tips": "発音に注意。日本語の「オーディナリー」に引きずられがちだが、アメリカ英語では /ˈɔːrdɪneri/ と第1音節にアクセントが来る。'out of the ordinary'（普通でない・異常な）というイディオムも頻出。",
+      "confusables": "'normal'（正常な・標準的な）と意味が近いが、'ordinary' は「特別でも目立つものでもない」というニュアンス、'normal' は「基準や標準に合っている」というニュアンスが強い。",
+      "collocations": [
+        "ordinary people",
+        "out of the ordinary",
+        "ordinary life"
+      ],
+      "trivia": "クイーンの名曲 'Bohemian Rhapsody' の歌詞に 'Is this the real life? Is this just fantasy?' とあるが、'ordinary' の反対を体現したような歌詞。実は英語学習では「反義語の曲」として英語教師に使われることも多い。"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 290,
+    "word": "equal",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "等しい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "平等な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈiːkwəl/",
+    "syllables": "e-qual",
+    "audioHint": "イークワル",
+    "examples": [
+      {
+        "en": "All students deserve equal opportunities.",
+        "ja": "すべての学生は平等な機会を得るべきだ。",
+        "blank": "All students deserve ___ opportunities.",
+        "blankAnswer": "equal"
+      }
+    ],
+    "distractors": [
+      "馴染みのある",
+      "明らかな",
+      "広大な"
+    ],
+    "confusableSpellings": [
+      "equall",
+      "equeal",
+      "equel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'aequalis'（等しい・平らな）に由来。語根 'aequus'（平らな・公平な）→「同じ水準にある」→等しい・平等な、という意味に発展。'equation'（方程式）や 'equator'（赤道）も同じ語根。",
+      "tips": "形容詞 'equal' を動詞として使うと「〜に等しい」という意味になる（例：2 plus 2 equals 4.）。また 'be equal to'（〜に等しい・〜に匹敵する）の形で能力や状況に使うこともできる（例：He was equal to the task. 彼はその仕事に十分対応できた）。",
+      "confusables": "'equivalent'（同等の）と意味が近いが、'equal' は数量・権利など直接比較できるもの、'equivalent' は「質・機能・価値が同等」というニュアンスで使われる。",
+      "collocations": [
+        "equal rights",
+        "equal opportunity",
+        "on equal terms"
+      ],
+      "trivia": "数学の '=' 記号（イコール）は1557年にイギリスの数学者ロバート・レコードが発明した。「この世で二本の平行線ほど等しいものはない」という理由で選んだとされる。英語の 'equal' がそのまま記号の名前になっている！"
+    },
+    "frequency": 1000,
+    "cefr": "A2"
+  },
+  {
+    "id": 291,
+    "word": "previous",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "以前の、前の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "先の、以前に起きた",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpriːviəs/",
+    "syllables": "pre-vi-ous",
+    "audioHint": "プリーヴィアス",
+    "examples": [
+      {
+        "en": "She had no previous experience with computers.",
+        "ja": "彼女にはコンピューターの経験が一切なかった。",
+        "blank": "She had no ___ experience with computers.",
+        "blankAnswer": "previous"
+      }
+    ],
+    "distractors": [
+      "現在の",
+      "将来の",
+      "重要な"
+    ],
+    "confusableSpellings": [
+      "previus",
+      "previuos",
+      "preveous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praevius'（先に行く）から。'prae-'（前に）＋ 'via'（道）が語源。「道の前に」が転じて「以前の」に。",
+      "tips": "'previous'は名詞の前に置く限定用法が基本。'the previous day'（前日）のように使う。'before'と混同しがちだが、'previous'は形容詞、'before'は前置詞・副詞・接続詞と品詞が異なる点に注意。",
+      "confusables": "'former'も「以前の」だが、'former'は今はもうその状態でないことを強調。'previous'は単純に順序が前であることを示す。例：'my former boss'（もう上司ではない）vs 'my previous job'（その前の仕事）。",
+      "collocations": [
+        "previous experience",
+        "previous year",
+        "previous record"
+      ],
+      "trivia": "'previous'の語根 'via'（道）は 'trivial'（取るに足らない）にも含まれている。'trivial'は「三つ叉路（tri+via）に転がっている＝どこにでもある話」が元の意味。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 292,
+    "word": "false",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "偽りの、誤った",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "人工の、本物でない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/fɔːls/",
+    "syllables": "false",
+    "audioHint": "フォールス",
+    "examples": [
+      {
+        "en": "The alarm turned out to be a false alert.",
+        "ja": "その警報は誤警報だと判明した。",
+        "blank": "The alarm turned out to be a ___ alert.",
+        "blankAnswer": "false"
+      }
+    ],
+    "distractors": [
+      "明らかな",
+      "完全な",
+      "独立した"
+    ],
+    "confusableSpellings": [
+      "fals",
+      "folse",
+      "flase"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'falsus'（欺かれた、偽りの）から。動詞 'fallere'（欺く）の過去分詞。英語の 'fail' とも同語根。",
+      "tips": "'false'と'wrong'の違いに注意。'false'は意図的な偽り・事実に反することを指し、'wrong'は単純に正しくないことを指す。また 'false teeth'（入れ歯）のように「本物でない」という意味でも使う。",
+      "confusables": "'fake'も「偽物」だが、'fake'は名詞・動詞・形容詞すべてで使える。'false'は主に形容詞。'false information'と'fake news'はほぼ同義だが、'fake'の方がよりカジュアルで口語的。",
+      "collocations": [
+        "false alarm",
+        "false information",
+        "true or false"
+      ],
+      "trivia": "プログラミングでは 'true/false' は必須の概念。Javaなどでは全部小文字の 'false' が予約語。入力単語が 'FALSE' と大文字なのはスプレッドシートやプログラムのブール値を意識しているからかも？"
+    },
+    "frequency": 720,
+    "cefr": "A2"
+  },
+  {
+    "id": 293,
+    "word": "rare",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "珍しい、まれな",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（肉が）レアの、生焼けの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/reər/",
+    "syllables": "rare",
+    "audioHint": "レア",
+    "examples": [
+      {
+        "en": "Snow is rare in this part of the country.",
+        "ja": "この地方では雪はめったに降らない。",
+        "blank": "Snow is ___ in this part of the country.",
+        "blankAnswer": "rare"
+      }
+    ],
+    "distractors": [
+      "以前の",
+      "実際の",
+      "独立した"
+    ],
+    "confusableSpellings": [
+      "rair",
+      "rar",
+      "raer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'rarus'（薄い、疎らな）が語源。古英語に入り「滅多にない」の意味に。ステーキの「レア」も同じ単語で、肉が「十分に焼かれていない＝中身が生っぽい」意味から。",
+      "tips": "'rare'は形容詞なので 'rarely'（副詞：めったに〜しない）と区別する。'It is rare for him to be late.'（彼が遅刻するのは珍しい）という構文はよく出るので覚えておこう。",
+      "confusables": "'scarce'も「不足している」だが、'scarce'は供給が足りないニュアンス（食料が不足など）。'rare'は「存在自体が少ない」ニュアンス。'rare animal'（希少動物）vs 'scarce resources'（乏しい資源）。",
+      "collocations": [
+        "rare disease",
+        "rare opportunity",
+        "rare species"
+      ],
+      "trivia": "ステーキの焼き加減「レア（rare）」は、実は元々の英語では 'underdone'（焼き不足）と言われていた。現在の 'rare' はアメリカ英語から広まった表現で、イギリス英語では今も 'underdone' を使う人がいる。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 294,
+    "word": "legal",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "法律の、法的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "合法の、法律上認められた",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈliːɡəl/",
+    "syllables": "le-gal",
+    "audioHint": "リーガル",
+    "examples": [
+      {
+        "en": "You should seek legal advice before signing the contract.",
+        "ja": "契約書に署名する前に法律相談を受けるべきだ。",
+        "blank": "You should seek ___ advice before signing the contract.",
+        "blankAnswer": "legal"
+      }
+    ],
+    "distractors": [
+      "都市の",
+      "独立した",
+      "実際の"
+    ],
+    "confusableSpellings": [
+      "leagl",
+      "legall",
+      "legel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'legalis'（法に関する）から。語根は 'lex / legis'（法律）。同語根の単語に 'legislation'（法律制定）、'legitimate'（正当な）、'illegal'（違法な）がある。",
+      "tips": "'legal'と'lawful'はほぼ同義だが、'lawful'はやや格式張った語。日常会話では'legal'が多用される。また 'legal'（法的に許可された）と 'legitimate'（道義的に正当な）は違う概念なので混同しないように。",
+      "confusables": "'illegal'は 'legal' に否定の接頭辞 'il-'（'in-'が 'l' の前で変化）が付いた形。'unlawful' も「違法の」だが、より古風な表現。",
+      "collocations": [
+        "legal action",
+        "legal system",
+        "legal rights"
+      ],
+      "trivia": "アメリカの弁護士ドラマ「リーガル・ハイ」や「SUITS」のタイトルはまさにこの単語から。ちなみに法律事務所の英語は 'law firm' で、'legal firm' とは言わない点も要チェック。"
+    },
+    "frequency": 580,
+    "cefr": "B1"
+  },
+  {
+    "id": 295,
+    "word": "independent",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "独立した、自立した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "無所属の、独自の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌɪndɪˈpendənt/",
+    "syllables": "in-de-pen-dent",
+    "audioHint": "インディペンデント",
+    "examples": [
+      {
+        "en": "She wanted to be financially independent from her parents.",
+        "ja": "彼女は親から経済的に自立したかった。",
+        "blank": "She wanted to be financially ___ from her parents.",
+        "blankAnswer": "independent"
+      }
+    ],
+    "distractors": [
+      "以前の",
+      "珍しい",
+      "偽りの"
+    ],
+    "confusableSpellings": [
+      "independant",
+      "indipendent",
+      "independet"
+    ],
+    "passive": {
+      "etymology": "'in-'（否定）＋ 'de-'（〜から離れて）＋ 'pendere'（ぶら下がる、依存する）＋ '-ent'（形容詞語尾）。「何かにぶら下がっていない」＝「依存していない」が原義。",
+      "tips": "スペルでよく間違えるのが語末の '-ent'。'dependant'（名詞：扶養家族）と 'dependent'（形容詞：依存した）で 'ant/ent' が混在するため 'independent' も '-ant' と書いてしまいがち。正解は '-ent'。",
+      "confusables": "'independent'（独立した）vs 'autonomous'（自律した）。'autonomous'はより「自己制御・自己決定」のニュアンスが強く、AIやロボット工学で多用される。",
+      "collocations": [
+        "independent study",
+        "financially independent",
+        "independent film"
+      ],
+      "trivia": "アメリカの 'Independence Day'（独立記念日、7月4日）もこの単語の名詞形 'independence' から。あの映画タイトル『インデペンデンス・デイ』はその日にエイリアンが攻めてくる設定で、ダブルミーニングになっている。"
+    },
+    "frequency": 640,
+    "cefr": "B1"
+  },
+  {
+    "id": 296,
+    "word": "extreme",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "極端な、過激な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "非常に大きな、最高度の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪkˈstriːm/",
+    "syllables": "ex-treme",
+    "audioHint": "イクストリーム",
+    "examples": [
+      {
+        "en": "The climbers faced extreme cold at the summit.",
+        "ja": "登山者たちは山頂で極寒に直面した。",
+        "blank": "The climbers faced ___ cold at the summit.",
+        "blankAnswer": "extreme"
+      }
+    ],
+    "distractors": [
+      "喜んで〜する",
+      "実際の",
+      "以前の"
+    ],
+    "confusableSpellings": [
+      "extream",
+      "extreem",
+      "extremme"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'extremus'（最も外側の、端の）から。'exter'（外の）の最上級形。'exterior'（外側の）や 'external'（外部の）と同じ語根 'ex-'（外）を持つ。",
+      "tips": "発音注意：アクセントは2音節目の '-treme' にある。'EXtreme' と最初を強く読むのは誤り。また 'extremely'（副詞）は強調の副詞として日常会話で頻出。'very' の代わりに使うと表現が豊かになる。",
+      "confusables": "'extreme'（極端な）vs 'severe'（深刻な・厳しい）。'extreme weather'と'severe weather'はほぼ同義で使えることもあるが、'severe'は「厳格さ・深刻さ」に重点、'extreme'は「程度が端に達している」ニュアンス。",
+      "collocations": [
+        "extreme weather",
+        "extreme sports",
+        "go to extremes"
+      ],
+      "trivia": "'エクストリームスポーツ（extreme sports）' という言葉は1990年代にXゲームの普及と共に広まった比較的新しい表現。スカイダイビングやパルクールなどを指すが、日本の「エクストリームアイロンがけ」（山頂でアイロンをかける競技）も本家に認定されているとか。"
+    },
+    "frequency": 870,
+    "cefr": "B1"
+  },
+  {
+    "id": 297,
+    "word": "actual",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "実際の、現実の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "現在の、今の（英国英語）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈæktʃuəl/",
+    "syllables": "ac-tu-al",
+    "audioHint": "アクチュアル",
+    "examples": [
+      {
+        "en": "The actual cost was higher than the estimate.",
+        "ja": "実際のコストは見積もりより高かった。",
+        "blank": "The ___ cost was higher than the estimate.",
+        "blankAnswer": "actual"
+      }
+    ],
+    "distractors": [
+      "以前の",
+      "珍しい",
+      "独立した"
+    ],
+    "confusableSpellings": [
+      "actuall",
+      "actuel",
+      "acutual"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'actualis'（活動に関する）から。語根は 'actus'（行為）で、動詞 'agere'（行う）の過去分詞。'act'、'action'、'active' と同語根。",
+      "tips": "日本語の「アクチュアル」は「現代的・時事的」の意味で使われることがあるが、英語の 'actual' は「実際の・本物の」という意味。'The actual situation is different.'（実際の状況は違う）のように、期待や推測と対比させて使うのが典型的。",
+      "confusables": "'actual'（実際の）vs 'current'（現在の）。'actual'は「話題になっているまさにそのもの」を指し、'current'は「今現在進行中」のニュアンス。'actual problem'（まさにその問題）vs 'current problem'（現在の問題）。",
+      "collocations": [
+        "actual cost",
+        "in actual fact",
+        "actual situation"
+      ],
+      "trivia": "英語学習あるあるの「フォールスフレンド（false friend）」の典型例がこの単語。スペイン語やフランス語でも似た単語が「現在の・最新の」という意味で使われるため、ヨーロッパ人も間違えやすい国際的トラップ単語。"
+    },
+    "frequency": 760,
+    "cefr": "B1"
+  },
+  {
+    "id": 298,
+    "word": "willing",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "喜んで〜する、〜する意向がある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "快く協力する、自発的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈwɪlɪŋ/",
+    "syllables": "will-ing",
+    "audioHint": "ウィリング",
+    "examples": [
+      {
+        "en": "Are you willing to work overtime this weekend?",
+        "ja": "今週末残業する気はありますか？",
+        "blank": "Are you ___ to work overtime this weekend?",
+        "blankAnswer": "willing"
+      }
+    ],
+    "distractors": [
+      "極端な",
+      "法律の",
+      "実際の"
+    ],
+    "confusableSpellings": [
+      "willling",
+      "wiling",
+      "willng"
+    ],
+    "passive": {
+      "etymology": "古英語 'willan'（望む）に '-ing' 形容詞語尾が付いた形。名詞・動詞の 'will'（意志）と同じ語根。'willing' は「意志を持っている状態」を表す。",
+      "tips": "'be willing to do'（〜する意志がある）の形で使うのが最も一般的。'I want to do' との違いに注意。'willing' は「頼まれたら断らない・抵抗がない」ニュアンスで、必ずしも積極的にしたいわけではない。'I want to help.'（助けたい）vs 'I'm willing to help.'（助けてもよい）。",
+      "confusables": "'willing'（意向がある）vs 'eager'（熱心な・熱望している）。'eager'の方が積極的・熱望の度合いが強い。'willing volunteer'（協力的なボランティア）vs 'eager volunteer'（やる気満々のボランティア）。",
+      "collocations": [
+        "willing to help",
+        "willing participant",
+        "willing to accept"
+      ],
+      "trivia": "'Willing'という名前のキャラクターや地名は英語圏に多い。またシェイクスピアのファーストネームも 'William'（愛称 'Will'）で同語根。「意志の強い人」という命名の由来から。"
+    },
+    "frequency": 1050,
+    "cefr": "B1"
+  },
+  {
+    "id": 299,
+    "word": "urban",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "都市の、都会の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "都市に住む、都会的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɜːrbən/",
+    "syllables": "ur-ban",
+    "audioHint": "アーバン",
+    "examples": [
+      {
+        "en": "Urban areas tend to have higher living costs.",
+        "ja": "都市部は生活費が高くなる傾向がある。",
+        "blank": "___ areas tend to have higher living costs.",
+        "blankAnswer": "Urban"
+      }
+    ],
+    "distractors": [
+      "法律の",
+      "実際の",
+      "珍しい"
+    ],
+    "confusableSpellings": [
+      "urben",
+      "uraban",
+      "uban"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'urbanus'（都市に関する）から。語根は 'urbs'（都市）。古代ローマの 'Urbs'（都市）は当時のローマそのものを指すほど偉大な存在だった。",
+      "tips": "'urban' の反意語は 'rural'（田舎の）。この対比はよく試験に出る。また 'suburban'（郊外の）は 'sub-'（下・周辺）＋ 'urban' で「都市の周辺」の意味。",
+      "confusables": "'urban'（都市の）vs 'metropolitan'（大都市圏の）。'metropolitan'はより大規模な都市圏を指し、複数の都市を含む広域エリアに使う。'Tokyo Metropolitan Area'（東京首都圏）のように。",
+      "collocations": [
+        "urban area",
+        "urban development",
+        "urban legend"
+      ],
+      "trivia": "'urban legend'（都市伝説）という言葉は 1960年代にアメリカの民俗学者が作った学術用語が起源。「都市部で広まった根拠のない話」という意味で、日本語の「都市伝説」はそのまま借用した言葉。"
+    },
+    "frequency": 920,
+    "cefr": "B1"
+  },
+  {
+    "id": 300,
+    "word": "whereas",
+    "pos": "other",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "〜であるのに対して、一方で",
+        "pos": "other"
+      },
+      {
+        "meaning": "〜であるところの（法律文書で）",
+        "pos": "other"
+      }
+    ],
+    "pronunciation": "/ˌweərˈæz/",
+    "syllables": "where-as",
+    "audioHint": "ウェアラズ",
+    "examples": [
+      {
+        "en": "She loves coffee, whereas her brother prefers tea.",
+        "ja": "彼女はコーヒーが好きだが、一方で弟はお茶を好む。",
+        "blank": "She loves coffee, ___ her brother prefers tea.",
+        "blankAnswer": "whereas"
+      }
+    ],
+    "distractors": [
+      "さらに",
+      "それゆえに",
+      "しかしながら"
+    ],
+    "confusableSpellings": [
+      "wherease",
+      "wheras",
+      "whareas"
+    ],
+    "passive": {
+      "etymology": "'where'（〜であるところに）＋ 'as'（〜として・〜の観点で）が合わさった複合語。中英語期に法律文書の定型句として発達し、後に接続詞として一般化した。",
+      "tips": "'whereas'は対比を示す接続詞で、文の前半と後半の内容が対照的である場合に使う。'but'より書き言葉的・フォーマルな印象。TOEFL・IELTSなどのライティングで使うと評価が上がりやすい表現。文頭に置くことも可能。",
+      "confusables": "'whereas'（対比）vs 'while'（〜する間・対比）。'while'は時間的な同時進行と対比の両方を表せるが、'whereas'は対比専用。アカデミックライティングでは 'whereas' の方がより明確で好まれることが多い。",
+      "collocations": [
+        "whereas in contrast",
+        "whereas previously",
+        "whereas others"
+      ],
+      "trivia": "法律の契約書や条約では 'Whereas, the parties agree...'（両者が合意するところによれば）のように文頭に大文字で使われる定型表現として今も現役。アメリカの法律文書で 'whereas' で始まる前文は 'recital'（前置き条項）と呼ばれる。"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  }
+]

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 881,
+    "word": "casual",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "カジュアルな、くだけた",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "偶発的な、臨時の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkæʒ.u.əl/",
+    "syllables": "cas-u-al",
+    "audioHint": "キャジュアル",
+    "examples": [
+      {
+        "en": "She wore casual clothes to the party.",
+        "ja": "彼女はパーティーにカジュアルな服を着て行った。",
+        "blank": "She wore ___ clothes to the party.",
+        "blankAnswer": "casual"
+      }
+    ],
+    "distractors": [
+      "厳格な",
+      "活発な",
+      "繊細な"
+    ],
+    "confusableSpellings": [
+      "casuel",
+      "cazual",
+      "casaul"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'casualis'（偶然の）に由来。語根 'casus'（落下・出来事）＋形容詞接尾辞 '-al'。",
+      "tips": "日本語の「カジュアル」はほぼ服装の意味で使われるが、英語では態度や状況にも使える。例：a casual conversation（気軽な会話）。",
+      "confusables": "'casual' と 'causal'（原因の）は見た目が似ているが全く別物。'causal relationship'（因果関係）と混同注意。",
+      "collocations": [
+        "casual wear",
+        "casual conversation",
+        "casual worker"
+      ],
+      "trivia": "「カジュアルフライデー（Casual Friday）」という概念は1990年代にアメリカで広まり、日本にも輸入された文化。もとはハワイのアロハシャツ文化が起源とも言われている。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 882,
+    "word": "optimistic",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "楽観的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "前向きな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌɒp.tɪˈmɪs.tɪk/",
+    "syllables": "op-ti-mis-tic",
+    "audioHint": "オプティミスティック",
+    "examples": [
+      {
+        "en": "He remains optimistic about the future of the project.",
+        "ja": "彼はそのプロジェクトの将来について楽観的だ。",
+        "blank": "He remains ___ about the future of the project.",
+        "blankAnswer": "optimistic"
+      }
+    ],
+    "distractors": [
+      "衝動的な",
+      "悲観的な",
+      "神経質な"
+    ],
+    "confusableSpellings": [
+      "optomistic",
+      "optimisitc",
+      "optimstic"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'optimus'（最善の）＋接尾辞 '-ist'（主義者）＋ '-ic'（形容詞化）。「最善を信じる」が原義。",
+      "tips": "be optimistic about ～（～について楽観的だ）という形が最も頻出。前置詞 'about' とセットで覚えよう。",
+      "confusables": "'optimistic'（楽観的）と 'pessimistic'（悲観的）はセットで覚えると効率的。どちらも '-istic' 形容詞。",
+      "collocations": [
+        "optimistic outlook",
+        "cautiously optimistic",
+        "remain optimistic"
+      ],
+      "trivia": "「楽観主義者（optimist）」は哲学者ライプニッツが「この世界は神が作った最善の世界だ」と主張したことに由来するとも言われている。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 883,
+    "word": "rough",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "粗い、荒い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "大まかな、おおよその",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/rʌf/",
+    "syllables": "rough",
+    "audioHint": "ラフ",
+    "examples": [
+      {
+        "en": "The road was rough after the storm.",
+        "ja": "嵐の後、道路は荒れていた。",
+        "blank": "The road was ___ after the storm.",
+        "blankAnswer": "rough"
+      }
+    ],
+    "distractors": [
+      "滑らかな",
+      "均一な",
+      "透明な"
+    ],
+    "confusableSpellings": [
+      "rought",
+      "rogh",
+      "ruff"
+    ],
+    "passive": {
+      "etymology": "古英語 'rūh'（毛羽立った、荒い）に由来。ゲルマン語系の古い言葉で、スペルと発音の乖離が有名（gh が発音されない）。",
+      "tips": "'rough' の gh は発音しない。'though'、'through' など gh を含む語はそれぞれ発音が異なるので注意。a rough estimate（大まかな見積もり）のように「おおよその」の意味でもよく使う。",
+      "confusables": "'rough'（粗い）と 'tough'（タフな、丈夫な）は韻を踏むが意味が異なる。発音はどちらも '-ʌf'。",
+      "collocations": [
+        "rough surface",
+        "rough estimate",
+        "rough draft"
+      ],
+      "trivia": "英語には 'rough diamond'（ダイヤの原石）という表現があり、「磨けば光る人」を指す。日本語でも同じ比喩表現が使われているのは興味深い。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 884,
+    "word": "unpleasant",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "不快な、嫌な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "感じの悪い",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ʌnˈplez.ənt/",
+    "syllables": "un-pleas-ant",
+    "audioHint": "アンプレザント",
+    "examples": [
+      {
+        "en": "The smell in the room was very unpleasant.",
+        "ja": "部屋の臭いはとても不快だった。",
+        "blank": "The smell in the room was very ___.",
+        "blankAnswer": "unpleasant"
+      }
+    ],
+    "distractors": [
+      "満足した",
+      "熱心な",
+      "寛大な"
+    ],
+    "confusableSpellings": [
+      "unpleasent",
+      "unpleasant",
+      "unplezant"
+    ],
+    "passive": {
+      "etymology": "否定接頭辞 'un-'＋ 'pleasant'（心地よい）。'pleasant' はラテン語 'placere'（喜ばせる）から。",
+      "tips": "'unpleasant' は物・状況・人の態度に使える。人に対して使うと「感じが悪い」の意味になり、少し批判的なニュアンスになる。",
+      "confusables": "'unpleasant'（不快な）と 'displeased'（不満な）は似ているが、'displeased' は主語が人で「不満に思っている」状態を指す。",
+      "collocations": [
+        "unpleasant smell",
+        "unpleasant experience",
+        "unpleasant surprise"
+      ],
+      "trivia": "心理学では「不快感（unpleasantness）」は人間の動機付けに重要な役割を果たすとされ、危険を避ける行動の根源にあると言われている。"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 885,
+    "word": "Arctic",
+    "pos": "adjective",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "北極の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "極寒の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɑːrk.tɪk/",
+    "syllables": "Arc-tic",
+    "audioHint": "アークティック",
+    "examples": [
+      {
+        "en": "Arctic temperatures can drop below minus forty degrees.",
+        "ja": "北極の気温はマイナス40度以下に下がることがある。",
+        "blank": "___ temperatures can drop below minus forty degrees.",
+        "blankAnswer": "Arctic"
+      }
+    ],
+    "distractors": [
+      "熱帯の",
+      "砂漠の",
+      "亜熱帯の"
+    ],
+    "confusableSpellings": [
+      "Artic",
+      "Arctik",
+      "Arctic"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'arktikos'（熊の方向の）に由来。'arktos'（熊）は北の空に見える「おおぐま座」を指し、そちらの方角＝北を意味した。",
+      "tips": "日本人は 'Artic' とスペルを誤りがち。'Arc-tic' と区切って覚えよう。また名詞としても使われ、'the Arctic'（北極地方）という形が多い。",
+      "confusables": "'Arctic'（北極の）と 'Antarctic'（南極の）を混同しやすい。'Ant-' は「反対」を意味する接頭辞で、南極は北極の反対側。",
+      "collocations": [
+        "Arctic Ocean",
+        "Arctic Circle",
+        "Arctic fox"
+      ],
+      "trivia": "北極には陸地がなく、氷だけが浮かんでいる。一方、南極は大陸。北極の中心に立ってもどこを向いても「南」という不思議な場所。"
+    },
+    "frequency": 4000,
+    "cefr": "B1"
+  },
+  {
+    "id": 886,
+    "word": "ultimate",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "究極の、最終的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "最大の、最高の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈʌl.tɪ.mət/",
+    "syllables": "ul-ti-mate",
+    "audioHint": "アルティメット",
+    "examples": [
+      {
+        "en": "Winning the championship was the ultimate goal.",
+        "ja": "チャンピオンシップ優勝が究極の目標だった。",
+        "blank": "Winning the championship was the ___ goal.",
+        "blankAnswer": "ultimate"
+      }
+    ],
+    "distractors": [
+      "平均的な",
+      "部分的な",
+      "初歩的な"
+    ],
+    "confusableSpellings": [
+      "ultimete",
+      "ultimat",
+      "ulitmate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ultimatus'（最後の）に由来。語根 'ultimus'（最も遠い・最後の）＋接尾辞 '-ate'。",
+      "tips": "'ultimate' は「究極の」というポジティブな最上級の意味で使われることが多いが、'the ultimate consequence'（最終的な結果）のように中立的にも使える。",
+      "confusables": "'ultimate'（究極の）と 'utmost'（最大限の）はどちらも「最高・最大」の意味を持つが、'utmost' は努力や能力の限界に使う（e.g., do one's utmost）。",
+      "collocations": [
+        "ultimate goal",
+        "ultimate challenge",
+        "ultimate responsibility"
+      ],
+      "trivia": "ゲームの必殺技が「アルティメット」と呼ばれるのはこの語源から。スポーツの「アルティメット（フリスビー競技）」もこの単語で、「究極のスポーツ」という命名。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 887,
+    "word": "deaf",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "耳が聞こえない",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "（忠告などを）聞こうとしない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/def/",
+    "syllables": "deaf",
+    "audioHint": "デフ",
+    "examples": [
+      {
+        "en": "She has been deaf since birth.",
+        "ja": "彼女は生まれつき耳が聞こえない。",
+        "blank": "She has been ___ since birth.",
+        "blankAnswer": "deaf"
+      }
+    ],
+    "distractors": [
+      "目が見えない",
+      "話せない",
+      "動けない"
+    ],
+    "confusableSpellings": [
+      "deef",
+      "def",
+      "deaph"
+    ],
+    "passive": {
+      "etymology": "古英語 'dēaf' に由来し、ゲルマン祖語 'daubaz'（耳が聞こえない）が語源。",
+      "tips": "'deaf' は「耳が聞こえない人」を指す場合、医学的には 'hearing-impaired' が丁寧とされるが、ろう文化では 'Deaf'（大文字）がアイデンティティとして使われる。",
+      "confusables": "'deaf'（耳が聞こえない）と 'dumb'（話せない）は別概念。かつて 'deaf and dumb' という表現があったが、現在は差別的として避けられる。",
+      "collocations": [
+        "deaf ear",
+        "turn a deaf ear",
+        "deaf community"
+      ],
+      "trivia": "「turn a deaf ear to～」（～を聞こうとしない）という慣用表現は日常的によく使われる。片方の耳だけをわざと遠ざけるイメージが面白い。"
+    },
+    "frequency": 3000,
+    "cefr": "A2"
+  },
+  {
+    "id": 888,
+    "word": "genuine",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "本物の、真正の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "誠実な、心からの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdʒen.ju.ɪn/",
+    "syllables": "gen-u-ine",
+    "audioHint": "ジェニュイン",
+    "examples": [
+      {
+        "en": "This is a genuine leather bag, not a fake.",
+        "ja": "これは本物の革のバッグで、偽物ではない。",
+        "blank": "This is a ___ leather bag, not a fake.",
+        "blankAnswer": "genuine"
+      }
+    ],
+    "distractors": [
+      "偽りの",
+      "一時的な",
+      "複雑な"
+    ],
+    "confusableSpellings": [
+      "geniune",
+      "genuene",
+      "genuain"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'genuinus'（膝の上に乗せた＝父親が認知した子）に由来。語根 'genu'（膝）から「正統に認められた」の意へ転じた。",
+      "tips": "発音は「ジェニュイン」。語末が '-ine' でも「アイン」と読まず「イン」と読む点に注意。'a genuine smile'（本物の笑顔）のように感情にも使える。",
+      "confusables": "'genuine'（本物の）と 'authentic'（真正の）は似ているが、'authentic' は文化・歴史的正統性に使いやすく、'genuine' はより個人的な誠実さに使いやすい。",
+      "collocations": [
+        "genuine leather",
+        "genuine concern",
+        "genuine smile"
+      ],
+      "trivia": "語源の「膝（genu）」と「ひざまずく（genuflect）」は同じ語根。古代ローマでは父親が赤ちゃんを膝に乗せることで正式な子として認めた習慣があった。"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 889,
+    "word": "manual",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "手動の、手作業の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "マニュアル（説明書）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmæn.ju.əl/",
+    "syllables": "man-u-al",
+    "audioHint": "マニュアル",
+    "examples": [
+      {
+        "en": "This car has a manual transmission.",
+        "ja": "この車はマニュアルトランスミッション（手動変速機）だ。",
+        "blank": "This car has a ___ transmission.",
+        "blankAnswer": "manual"
+      }
+    ],
+    "distractors": [
+      "電子的な",
+      "自動的な",
+      "デジタルの"
+    ],
+    "confusableSpellings": [
+      "manueal",
+      "mannual",
+      "manuall"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'manualis'（手の）に由来。語根 'manus'（手）＋形容詞接尾辞 '-al'。",
+      "tips": "日本語では「マニュアル」は「説明書」の意味が強いが、英語の形容詞としては「手動の・手作業の」が基本。'manual labor'（肉体労働）のように使う。",
+      "confusables": "'manual'（手動の）と 'automatic'（自動の）は対義語の関係。車の 'manual' vs 'automatic' は日本でも定着した表現。",
+      "collocations": [
+        "manual labor",
+        "manual transmission",
+        "instruction manual"
+      ],
+      "trivia": "語根 'manus'（手）は英語の様々な単語に潜んでいる。'manufacture'（製造）は「手で作る」、'manuscript'（原稿）は「手で書いたもの」が原義。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 890,
+    "word": "mechanical",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "機械の、機械的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "機械的（無意識・自動的）な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/mɪˈkæn.ɪ.kəl/",
+    "syllables": "me-chan-i-cal",
+    "audioHint": "メキャニカル",
+    "examples": [
+      {
+        "en": "The flight was delayed due to a mechanical problem.",
+        "ja": "機械的なトラブルにより飛行機が遅延した。",
+        "blank": "The flight was delayed due to a ___ problem.",
+        "blankAnswer": "mechanical"
+      }
+    ],
+    "distractors": [
+      "電気的な",
+      "化学的な",
+      "生物学的な"
+    ],
+    "confusableSpellings": [
+      "mechanicel",
+      "mecanical",
+      "mechanicle"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'mēkhanē'（機械・仕掛け）→ラテン語 'mechanicus' ＋ 英語形容詞接尾辞 '-al'。",
+      "tips": "アクセントは第2音節の 'chan' に置く（メ'キャニカル）。日本語の「メカニカル」で覚えやすいが、英語発音はやや異なる。",
+      "confusables": "'mechanical'（機械の）と 'mechanic'（名詞：整備士）を区別しよう。'a mechanical engineer'（機械工学者）と 'a mechanic'（修理工）は職業が異なる。",
+      "collocations": [
+        "mechanical engineering",
+        "mechanical failure",
+        "mechanical keyboard"
+      ],
+      "trivia": "「メカニカルキーボード」という言葉は日本でも定着しているが、これはまさに 'mechanical keyboard' の直訳。打鍵感を求めるゲーマーに大人気で、今やサブカルチャーにもなっている。"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 891,
+    "word": "instant",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "即座の、即時の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "インスタントの、即席の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈɪnstənt/",
+    "syllables": "in-stant",
+    "audioHint": "インスタント",
+    "examples": [
+      {
+        "en": "The app gives you instant access to your bank account.",
+        "ja": "そのアプリは銀行口座への即時アクセスを提供します。",
+        "blank": "The app gives you ___ access to your bank account.",
+        "blankAnswer": "instant"
+      }
+    ],
+    "distractors": [
+      "予備の",
+      "免疫のある",
+      "着実な"
+    ],
+    "confusableSpellings": [
+      "instent",
+      "instatnt",
+      "instannt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'instare'（上に立つ・迫る）から。'in-'（上に）＋'stare'（立つ）が語源。「今まさに迫っている」→「即座の」という意味に発展。",
+      "tips": "名詞としても使えます（in an instant = 即座に）。日本語の「インスタント食品」と同じ感覚で形容詞として使えますが、英語では「即時の」というニュアンスが強いです。",
+      "confusables": "'immediate' も「即時の」だが、'instant' はより瞬間的・瞬発的なニュアンス。'immediate' は「直接的な」という意味でも使う。",
+      "collocations": [
+        "instant message",
+        "instant coffee",
+        "instant success"
+      ],
+      "trivia": "「インスタント・ラーメン」は日本発祥ですが、英語圏では 'instant noodles' と呼ばれます。日清の安藤百福が1958年に発明したことは世界共通の豆知識！"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 892,
+    "word": "spare",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "予備の、余分の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "暇な、空いている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/spɛr/",
+    "syllables": "spare",
+    "audioHint": "スペア",
+    "examples": [
+      {
+        "en": "Do you have a spare key I can borrow?",
+        "ja": "借りられる予備の鍵はありますか？",
+        "blank": "Do you have a ___ key I can borrow?",
+        "blankAnswer": "spare"
+      }
+    ],
+    "distractors": [
+      "即座の",
+      "着実な",
+      "避けられない"
+    ],
+    "confusableSpellings": [
+      "spair",
+      "spear",
+      "spaer"
+    ],
+    "passive": {
+      "etymology": "古英語 'spær'（倹約な・乏しい）から。「余っている・使われていない」という核心的意味が、「予備の」「暇な」へと広がった。",
+      "tips": "動詞としても使い、'spare time'（暇な時間）や 'spare no effort'（努力を惜しまない）など多彩な使い方があります。日本語の「スペアタイヤ」はそのまま英語で通じます。",
+      "confusables": "'extra' も「余分の」だが、'spare' は「いざというときのための予備」というニュアンスが強い。'spear'（槍）とスペルが似ているので注意。",
+      "collocations": [
+        "spare time",
+        "spare parts",
+        "spare room"
+      ],
+      "trivia": "ボウリングの「スペア」も同じ単語！10本のピンを2投で全部倒す＝「余らせずに全部処理する」というイメージが語源です。"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 893,
+    "word": "immune",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "免疫のある",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "影響を受けない、免れている",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈmjuːn/",
+    "syllables": "im-mune",
+    "audioHint": "イミューン",
+    "examples": [
+      {
+        "en": "Some people are naturally immune to certain diseases.",
+        "ja": "特定の病気に自然に免疫がある人もいます。",
+        "blank": "Some people are naturally ___ to certain diseases.",
+        "blankAnswer": "immune"
+      }
+    ],
+    "distractors": [
+      "集合的な",
+      "深遠な",
+      "避けられない"
+    ],
+    "confusableSpellings": [
+      "immun",
+      "imuun",
+      "imune"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'immunis'（義務を免除された）から。'in-'（否定）＋'munus'（義務・公的奉仕）が語源。「義務がない」→「影響を受けない」→「免疫がある」へ。",
+      "tips": "'immune to ...' の形で使います。「～に対して免疫がある」という意味。医学的な文脈だけでなく「彼は批判に免疫がある」(He is immune to criticism.) のように比喩的にも使えます。",
+      "confusables": "'resistant' も「抵抗力のある」だが、'immune' はより完全な「効かない・影響ゼロ」のニュアンス。'resist' は努力して抵抗するイメージ。",
+      "collocations": [
+        "immune system",
+        "immune response",
+        "immune to criticism"
+      ],
+      "trivia": "英語の 'immunity'（免疫・免責）は法律用語でも使われ、外交官は 'diplomatic immunity'（外交免責特権）を持ちます。映画でよく出てくるフレーズです！"
+    },
+    "frequency": 2500,
+    "cefr": "B2"
+  },
+  {
+    "id": 894,
+    "word": "harsh",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "厳しい、過酷な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "耳障りな、不快な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/hɑːrʃ/",
+    "syllables": "harsh",
+    "audioHint": "ハーシュ",
+    "examples": [
+      {
+        "en": "The teacher gave harsh criticism of his writing.",
+        "ja": "先生は彼の文章に厳しい批評をした。",
+        "blank": "The teacher gave ___ criticism of his writing.",
+        "blankAnswer": "harsh"
+      }
+    ],
+    "distractors": [
+      "成熟した",
+      "穏やかな",
+      "思いやりのある"
+    ],
+    "confusableSpellings": [
+      "harsch",
+      "harch",
+      "harhs"
+    ],
+    "passive": {
+      "etymology": "古ノルド語 'harskr'（粗い・荒い）が語源。中英語を経て現在の形に。「表面が粗くざらざらしている」→「感覚的・精神的に不快・厳しい」へ意味が拡張。",
+      "tips": "人・環境・音・言葉など幅広く使えます。'strict'（規律として厳しい）と異なり、'harsh' は「痛みや不快感を伴う厳しさ」のニュアンス。日本語の「ハーシュな批評」は和製英語的です。",
+      "confusables": "'strict' は規律・ルールに対して厳格なイメージ。'harsh' は感情的・物理的に「きつい・過酷」なイメージ。先生が 'strict' なら規律が厳しい、'harsh' なら言葉がきつい。",
+      "collocations": [
+        "harsh criticism",
+        "harsh conditions",
+        "harsh words"
+      ],
+      "trivia": "SNSで誰かを強く批判するとき 'That's harsh!' と言います。日本語の「それはキツい！」に相当するスラング的表現として若者の間でよく使われます。"
+    },
+    "frequency": 2000,
+    "cefr": "B1"
+  },
+  {
+    "id": 895,
+    "word": "collective",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "集合的な、集団の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "共同の、共有の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kəˈlɛktɪv/",
+    "syllables": "col-lec-tive",
+    "audioHint": "コレクティブ",
+    "examples": [
+      {
+        "en": "It was a collective decision made by the whole team.",
+        "ja": "それはチーム全体で下した集団的な決定でした。",
+        "blank": "It was a ___ decision made by the whole team.",
+        "blankAnswer": "collective"
+      }
+    ],
+    "distractors": [
+      "免疫のある",
+      "深遠な",
+      "着実な"
+    ],
+    "confusableSpellings": [
+      "colective",
+      "collectve",
+      "colletive"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'collectivus' から。'col-'（共に）＋'legere'（集める）＋'-ive'（形容詞語尾）。「共に集めた」→「集合的な・共同の」という意味。",
+      "tips": "'collective noun'（集合名詞）は文法用語としても重要。例えば 'team', 'family' など。英米で扱いが異なり、米英語では単数扱い、英英語では複数扱いすることが多いです。",
+      "confusables": "'group' は名詞で「集団」だが、'collective' は形容詞として「集団全体に属する・共有された」というニュアンスを加える。'collective memory'（集合的記憶）は'group memory' より学術的。",
+      "collocations": [
+        "collective decision",
+        "collective memory",
+        "collective responsibility"
+      ],
+      "trivia": "音楽・アートの世界では 'collective'（コレクティブ）が「アーティスト集団」の意味で使われます。BTS の所属事務所 HYBE も 'global music collective' と表現されることがあります！"
+    },
+    "frequency": 2300,
+    "cefr": "B2"
+  },
+  {
+    "id": 896,
+    "word": "inevitable",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "避けられない、必然の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "いつもの、お決まりの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪnˈɛvɪtəbəl/",
+    "syllables": "in-ev-i-ta-ble",
+    "audioHint": "イネヴィタブル",
+    "examples": [
+      {
+        "en": "Change is inevitable in any growing organization.",
+        "ja": "変化は成長するどんな組織においても避けられません。",
+        "blank": "Change is ___ in any growing organization.",
+        "blankAnswer": "inevitable"
+      }
+    ],
+    "distractors": [
+      "予備の",
+      "即座の",
+      "着実な"
+    ],
+    "confusableSpellings": [
+      "inevitible",
+      "inevatable",
+      "inevidable"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'inevitabilis' から。'in-'（否定）＋'e-'（外へ）＋'vitare'（避ける）＋'-able'（可能）。「避けることができない」が直訳。",
+      "tips": "5音節ある長い単語なので発音を間違えやすい。強勢は第2音節の 'ev' に置きます（イ**ネヴ**ィタブル）。'unavoidable' とほぼ同義ですが 'inevitable' の方が硬い文語的表現。",
+      "confusables": "'unavoidable' は「その状況では回避できない」実用的なニュアンス。'inevitable' は「必然として起こるべくして起こる」という哲学的・宿命的なニュアンスが強い。",
+      "collocations": [
+        "inevitable consequence",
+        "seem inevitable",
+        "inevitable outcome"
+      ],
+      "trivia": "マーベル映画『アベンジャーズ/インフィニティ・ウォー』でサノスが言う名台詞 'Inevitable.'（避けられない宿命だ）でこの単語が一気に有名になりました！"
+    },
+    "frequency": 2600,
+    "cefr": "B2"
+  },
+  {
+    "id": 897,
+    "word": "profound",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "深遠な、奥深い",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "非常に大きな、甚大な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/prəˈfaʊnd/",
+    "syllables": "pro-found",
+    "audioHint": "プロファウンド",
+    "examples": [
+      {
+        "en": "The documentary had a profound impact on me.",
+        "ja": "そのドキュメンタリーは私に深大な影響を与えた。",
+        "blank": "The documentary had a ___ impact on me.",
+        "blankAnswer": "profound"
+      }
+    ],
+    "distractors": [
+      "集合的な",
+      "即座の",
+      "免疫のある"
+    ],
+    "confusableSpellings": [
+      "profund",
+      "profoond",
+      "proffound"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'profundus' から。'pro-'（前へ・深く）＋'fundus'（底・基盤）。「底まで深い」が原義。'fund'（基金）や'foundation'（基礎）と同じ語根。",
+      "tips": "'deep' も「深い」だが、'profound' はより知的・哲学的・感情的な深さを指す。'a profound thinker'（深遠な思想家）とは言うが 'a deep thinker' も使える。ただし 'profound' の方が格調高い表現。",
+      "confusables": "'deep' は物理的・比喩的両方に使えるが、'profound' は基本的に比喩的・抽象的な文脈のみ。'profound silence'（深い沈黙）のように感覚的にも使えます。",
+      "collocations": [
+        "profound impact",
+        "profound understanding",
+        "profound change"
+      ],
+      "trivia": "英語圏の大学では論文で 'profound' を多用する学生が多く、「使いすぎ注意リスト」に入るほどの単語。逆に言えばそれだけ「賢く見えるワード」として有名です！"
+    },
+    "frequency": 2100,
+    "cefr": "B2"
+  },
+  {
+    "id": 898,
+    "word": "steady",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "着実な、安定した",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "揺るぎない、一定の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈstɛdi/",
+    "syllables": "stead-y",
+    "audioHint": "ステディ",
+    "examples": [
+      {
+        "en": "She made steady progress in her English studies.",
+        "ja": "彼女は英語の勉強で着実に進歩した。",
+        "blank": "She made ___ progress in her English studies.",
+        "blankAnswer": "steady"
+      }
+    ],
+    "distractors": [
+      "過酷な",
+      "深遠な",
+      "予備の"
+    ],
+    "confusableSpellings": [
+      "steedy",
+      "steddy",
+      "staedy"
+    ],
+    "passive": {
+      "etymology": "古英語 'stedefast'（固い場所に立つ）が短縮された 'stede'（場所）から派生。「しっかりした場所に立つ」→「安定した・揺れない」という意味に。",
+      "tips": "副詞 'steadily' も重要。'go steady'（付き合う・恋人関係になる）はイディオムとして使われます。また 'Steady!'（落ち着け！）は命令文としても使えます。",
+      "confusables": "'stable' は構造・状態の安定性（気候・経済など）を指し、'steady' は動き・進行・姿勢の安定性を指すことが多い。'a steady job'（安定した仕事）は慣用的。",
+      "collocations": [
+        "steady progress",
+        "steady income",
+        "steady pace"
+      ],
+      "trivia": "「ステディな関係」は日本語の和製英語で「付き合っている」という意味。英語の 'go steady' が元ネタで、1950年代のアメリカで「定期的に交際する」を意味するスラングでした！"
+    },
+    "frequency": 1700,
+    "cefr": "B1"
+  },
+  {
+    "id": 899,
+    "word": "mature",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "成熟した、大人の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "十分に発達した、円熟した",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/məˈtʃʊr/",
+    "syllables": "ma-ture",
+    "audioHint": "マチュア",
+    "examples": [
+      {
+        "en": "He is very mature for his age.",
+        "ja": "彼は年齢の割にとても成熟している。",
+        "blank": "He is very ___ for his age.",
+        "blankAnswer": "mature"
+      }
+    ],
+    "distractors": [
+      "厳しい",
+      "着実な",
+      "深遠な"
+    ],
+    "confusableSpellings": [
+      "matur",
+      "matiure",
+      "matuer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'maturus'（熟した・時機が来た）から。果物が「熟す」イメージが転じて、人や考えが「成熟する」という意味に。'matrix' や 'mother' と同じ印欧語根 'ma-'（育てる）に由来するとも。",
+      "tips": "動詞としても使え、'The wine matures over time.'（ワインは時間をかけて熟成する）のように使います。発音は「マチュア」で、「マ**チュア**」と第2音節を強調します。",
+      "confusables": "'adult' は法的・年齢的に「成人」を指す客観的な語。'mature' は精神的・感情的・身体的な「成熟度・円熟度」を指す主観的・評価的な語。",
+      "collocations": [
+        "mature student",
+        "mature market",
+        "emotionally mature"
+      ],
+      "trivia": "映画やゲームのレーティング表示で 'Mature 17+'（M指定）というのを見たことありませんか？これはまさにこの単語で「成熟した視聴者向け」という意味です！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 900,
+    "word": "likewise",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "同様に、同じく",
+        "pos": "adverb"
+      },
+      {
+        "meaning": "また同様に（返答・同意で）",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˈlaɪkwaɪz/",
+    "syllables": "like-wise",
+    "audioHint": "ライクワイズ",
+    "examples": [
+      {
+        "en": "She smiled, and he did likewise.",
+        "ja": "彼女が微笑むと、彼も同様にした。",
+        "blank": "She smiled, and he did ___.",
+        "blankAnswer": "likewise"
+      }
+    ],
+    "distractors": [
+      "着実に",
+      "深く",
+      "集合的に"
+    ],
+    "confusableSpellings": [
+      "likwise",
+      "likewize",
+      "likewyse"
+    ],
+    "passive": {
+      "etymology": "'like'（同じような）＋'wise'（様式・方法）の合成語。古英語・中英語由来。「同じ様式で」が原義で、そこから「同様に」という副詞に発展。",
+      "tips": "会話で「こちらこそ（よろしく）」「私もです」という返答に使えます。'Nice to meet you.' → 'Likewise!' のように一語で応答できる便利な表現。フォーマルにもカジュアルにも使えます。",
+      "confusables": "'similarly' は文章中で前述の内容に「同様に」とつなぐ接続副詞的用法が主。'likewise' は返答・同意・追加の両方に使える。'the same'（私もそう）はより口語的。",
+      "collocations": [
+        "do likewise",
+        "think likewise",
+        "likewise important"
+      ],
+      "trivia": "英語のビジネスメールで 'Likewise, I look forward to working with you.'（こちらもご一緒できることを楽しみにしています）は定番フレーズ。たった一語でこなれた印象を与えられます！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  }
+]

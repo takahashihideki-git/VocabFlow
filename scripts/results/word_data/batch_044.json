@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 861,
+    "word": "obstacle",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "障害（物）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "妨げ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɒbstəkəl/",
+    "syllables": "ob-sta-cle",
+    "audioHint": "オブスタクル",
+    "examples": [
+      {
+        "en": "Fear is the biggest obstacle to success.",
+        "ja": "恐れは成功への最大の障害だ。",
+        "blank": "Fear is the biggest ___ to success.",
+        "blankAnswer": "obstacle"
+      }
+    ],
+    "distractors": [
+      "幻想",
+      "錯覚",
+      "恥"
+    ],
+    "confusableSpellings": [
+      "obstackle",
+      "obstical",
+      "obsticle"
+    ],
+    "passive": {
+      "etymology": "ラテン語 obstaculum から。ob-（前に・対して）＋ stare（立つ）＋ -culum（名詞化接尾辞）。「前に立ちはだかるもの」が原義。",
+      "tips": "obstacle to ～（～への障害）という前置詞の組み合わせが最頻出。「obstacle for」と間違えやすいので注意。",
+      "confusables": "barrier は物理的な壁や柵のイメージが強く、obstacle は概念的・状況的な妨げにも使える。hindrance はよりフォーマルで、進歩を妨げるものを指す。",
+      "collocations": [
+        "overcome an obstacle",
+        "obstacle course",
+        "obstacle to progress"
+      ],
+      "trivia": "「obstacle course（障害物コース）」は軍の訓練で有名だが、最近はチームビルディング研修でも大人気。アスレチックジムの「SASUKE」もまさにこれ！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 862,
+    "word": "architecture",
+    "pos": "noun",
+    "categoryId": 13,
+    "meanings": [
+      {
+        "meaning": "建築（学）",
+        "pos": "noun"
+      },
+      {
+        "meaning": "構造・設計",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɑːrkɪtektʃər/",
+    "syllables": "ar-chi-tec-ture",
+    "audioHint": "アーキテクチャー",
+    "examples": [
+      {
+        "en": "The city is famous for its stunning Gothic architecture.",
+        "ja": "その街は息をのむようなゴシック建築で有名だ。",
+        "blank": "The city is famous for its stunning Gothic ___.",
+        "blankAnswer": "architecture"
+      }
+    ],
+    "distractors": [
+      "彫刻",
+      "演奏",
+      "絵画技法"
+    ],
+    "confusableSpellings": [
+      "architechture",
+      "archetecture",
+      "architectur"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 arkhitekton から。arkhi-（主な・最上の）＋ tekton（大工・建設者）。「最高の建設者」が原義で、ラテン語 architectura を経て英語へ。",
+      "tips": "IT分野では「system architecture（システム構成）」のように抽象的な「設計」の意味でも使う。発音は「アーキテクチャー」で最後の -ture を「チャー」とはっきり言う。",
+      "confusables": "structure は単に「構造物・構造」を指すのに対し、architecture は芸術的・学問的な側面を含む。design はプロセスや計画に焦点があたる。",
+      "collocations": [
+        "modern architecture",
+        "software architecture",
+        "study architecture"
+      ],
+      "trivia": "コンピューターの設計も「architecture」と呼ぶのは、建物の設計図から部品が組み上がるイメージから来ている。iPhoneのチップ設計も「ARM architecture」！"
+    },
+    "frequency": 2800,
+    "cefr": "B2"
+  },
+  {
+    "id": 863,
+    "word": "stem",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "茎・幹",
+        "pos": "noun"
+      },
+      {
+        "meaning": "～に起因する（stem from）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/stɛm/",
+    "syllables": "stem",
+    "audioHint": "ステム",
+    "examples": [
+      {
+        "en": "The rose has a long thorny stem.",
+        "ja": "そのバラは長いとげのある茎を持っている。",
+        "blank": "The rose has a long thorny ___.",
+        "blankAnswer": "stem"
+      }
+    ],
+    "distractors": [
+      "枝葉",
+      "根っこ",
+      "果実"
+    ],
+    "confusableSpellings": [
+      "stemm",
+      "steem",
+      "stam"
+    ],
+    "passive": {
+      "etymology": "古英語 stemn／stefn から。「船の竜骨（船首の柱）」が原義で、そこから「植物の幹・茎」へと意味が広がった。動詞「止める」の意味はまた別の語源から。",
+      "tips": "stem from ～（～から生じる・～に起因する）という動詞用法が意外と重要で試験にも出やすい。「Problems stem from poor communication.」のように使う。",
+      "confusables": "trunk は木の太い幹（または象の鼻・トランク）。branch は枝。stem は花や草の細い茎・植物全般の「茎」に使う。",
+      "collocations": [
+        "stem from",
+        "stem cell",
+        "plant stem"
+      ],
+      "trivia": "「STEM教育」の STEM は Science・Technology・Engineering・Mathematics の頭字語。茎とは全く関係ないが、同じ綴り！英語って紛らわしい。"
+    },
+    "frequency": 2500,
+    "cefr": "B1"
+  },
+  {
+    "id": 864,
+    "word": "illusion",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "幻想・錯覚",
+        "pos": "noun"
+      },
+      {
+        "meaning": "思い違い",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ɪˈluːʒən/",
+    "syllables": "il-lu-sion",
+    "audioHint": "イルージョン",
+    "examples": [
+      {
+        "en": "The mirror creates an illusion of a larger room.",
+        "ja": "鏡は部屋が広く見える錯覚を生み出す。",
+        "blank": "The mirror creates an ___ of a larger room.",
+        "blankAnswer": "illusion"
+      }
+    ],
+    "distractors": [
+      "障害",
+      "恥",
+      "妨害"
+    ],
+    "confusableSpellings": [
+      "ilusion",
+      "ilussion",
+      "illution"
+    ],
+    "passive": {
+      "etymology": "ラテン語 illusio から。il-（in- の異形：中へ）＋ ludere（遊ぶ・だます）＋ -ion（名詞化）。「だまして遊ぶこと」が原義。",
+      "tips": "「optical illusion（視覚的錯覚）」と「delusion（妄想）」は混同しやすい。illusion は外部の刺激による錯覚、delusion は本人の内部的な誤った信念（病的なニュアンスがある）。",
+      "confusables": "illusion は知覚の誤りや誤った信念。hallucination は幻覚（実際にないものが見える・聞こえる、医学的用語）。vision は比喩的な「ビジョン・展望」。",
+      "collocations": [
+        "optical illusion",
+        "under the illusion that",
+        "create an illusion"
+      ],
+      "trivia": "マジシャンが使う「イリュージョン」はまさにこの単語。語源の「遊んでだます」から来ていると思うと、手品師は言葉通りのことをしている！"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 865,
+    "word": "discrimination",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "差別",
+        "pos": "noun"
+      },
+      {
+        "meaning": "識別・区別",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/dɪˌskrɪmɪˈneɪʃən/",
+    "syllables": "dis-crim-i-na-tion",
+    "audioHint": "ディスクリミネイション",
+    "examples": [
+      {
+        "en": "Racial discrimination is illegal in many countries.",
+        "ja": "人種差別は多くの国で違法だ。",
+        "blank": "Racial ___ is illegal in many countries.",
+        "blankAnswer": "discrimination"
+      }
+    ],
+    "distractors": [
+      "反乱",
+      "立法",
+      "腐敗"
+    ],
+    "confusableSpellings": [
+      "discrimation",
+      "descrimination",
+      "discriminetion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 discriminare（区別する）から。dis-（分けて）＋ crimen（判断・区別）＋ -ation（名詞化）。元々は「区別すること」という中立的な意味だった。",
+      "tips": "動詞は discriminate、形容詞は discriminatory。「discriminate against ～（～を差別する）」という前置詞 against とのセットが重要。",
+      "confusables": "prejudice は先入観・偏見（態度）。discrimination はそれが行動に現れた「差別行為」。bias は無意識の偏りにも使う。",
+      "collocations": [
+        "racial discrimination",
+        "discrimination against",
+        "fight discrimination"
+      ],
+      "trivia": "この単語、もともとは「識別眼がある」というポジティブな意味でも使われていた。今でも「a person of discrimination（目が肥えた人）」という古風な表現が残っている！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 866,
+    "word": "shame",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "恥・羞恥心",
+        "pos": "noun"
+      },
+      {
+        "meaning": "残念なこと",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ʃeɪm/",
+    "syllables": "shame",
+    "audioHint": "シェイム",
+    "examples": [
+      {
+        "en": "It's a shame that you missed the concert.",
+        "ja": "コンサートを逃したのは残念だね。",
+        "blank": "It's a ___ that you missed the concert.",
+        "blankAnswer": "shame"
+      }
+    ],
+    "distractors": [
+      "障害",
+      "幻想",
+      "不公平"
+    ],
+    "confusableSpellings": [
+      "shaim",
+      "sheme",
+      "shaam"
+    ],
+    "passive": {
+      "etymology": "古英語 scamu から。ゲルマン祖語 *skamō（恥）に由来。「顔を隠したくなる気持ち」が原義とされる。",
+      "tips": "「What a shame!（それは残念！）」は日常会話でよく使う。「shame on you（恥を知れ）」は非難のフレーズ。guilt（罪悪感）と混同しやすいが、shame は「他者から見られている自分」への意識が強い。",
+      "confusables": "shame は自分が恥ずかしい存在だという感覚。guilt は悪いことをしたという行為への罪悪感。embarrassment は一時的な恥ずかしさ・きまり悪さ。",
+      "collocations": [
+        "feel shame",
+        "sense of shame",
+        "shame on you"
+      ],
+      "trivia": "SNSで誰かを公開批判する行為を「shaming」という（body shaming、slut shaming など）。この使い方は2010年代に爆発的に広まった現代語！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 867,
+    "word": "drought",
+    "pos": "noun",
+    "categoryId": 8,
+    "meanings": [
+      {
+        "meaning": "干ばつ・旱魃",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（長期的な）不足",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/draʊt/",
+    "syllables": "drought",
+    "audioHint": "ドラウト",
+    "examples": [
+      {
+        "en": "The severe drought destroyed most of the harvest.",
+        "ja": "深刻な干ばつが収穫のほとんどを台無しにした。",
+        "blank": "The severe ___ destroyed most of the harvest.",
+        "blankAnswer": "drought"
+      }
+    ],
+    "distractors": [
+      "地震",
+      "洪水",
+      "台風"
+    ],
+    "confusableSpellings": [
+      "drougth",
+      "drougt",
+      "draught"
+    ],
+    "passive": {
+      "etymology": "古英語 drūgaþ（乾燥）から。drȳge（乾いた）に由来し、現代英語の dry と同じ語根を持つ。",
+      "tips": "発音が「ドラウト」であることに注意。綴りに gh があるが発音しない。draught（英：すきま風・ビールの生）と混同しないように。",
+      "confusables": "drought は長期間雨が降らない「干ばつ」。famine は食糧不足・飢饉（干ばつの結果起こることが多い）。arid は「乾燥した」という形容詞。",
+      "collocations": [
+        "severe drought",
+        "drought conditions",
+        "drought relief"
+      ],
+      "trivia": "「talent drought（人材不足）」のように比喩的にも使える。スポーツ界では「goal drought（得点が入らない不調期）」もよく聞く表現だ！"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 868,
+    "word": "flavor",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "味・風味",
+        "pos": "noun"
+      },
+      {
+        "meaning": "特色・雰囲気",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈfleɪvər/",
+    "syllables": "fla-vor",
+    "audioHint": "フレイヴァー",
+    "examples": [
+      {
+        "en": "This soup has a rich, smoky flavor.",
+        "ja": "このスープは豊かなスモーキーな風味がある。",
+        "blank": "This soup has a rich, smoky ___.",
+        "blankAnswer": "flavor"
+      }
+    ],
+    "distractors": [
+      "食感",
+      "見た目",
+      "香り"
+    ],
+    "confusableSpellings": [
+      "flavour",
+      "flaver",
+      "flavore"
+    ],
+    "passive": {
+      "etymology": "古フランス語 flaor（香り）から。ラテン語 flagrare（香る）に由来するとも言われる。-vor は -or への変形。",
+      "tips": "アメリカ英語は flavor、イギリス英語は flavour とスペルが異なる。日本の英語教育はイギリス式も多いので、どちらも覚えておくと安心。",
+      "confusables": "taste は広く「味覚・好み」を指す。flavor はその食べ物固有の「風味・特徴的な味」を指し、より具体的なニュアンス。aroma は「香り」に特化した語。",
+      "collocations": [
+        "rich flavor",
+        "flavor of the month",
+        "add flavor"
+      ],
+      "trivia": "「flavor of the month（今月のフレーバー）」はアイスクリーム店の月替わりメニューが語源で、「一時的な流行もの」という皮肉な意味で使われる！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 869,
+    "word": "portion",
+    "pos": "noun",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "部分・一部",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（食事の）一人前・量",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɔːrʃən/",
+    "syllables": "por-tion",
+    "audioHint": "ポーション",
+    "examples": [
+      {
+        "en": "A large portion of the budget goes to education.",
+        "ja": "予算の大部分が教育に充てられる。",
+        "blank": "A large ___ of the budget goes to education.",
+        "blankAnswer": "portion"
+      }
+    ],
+    "distractors": [
+      "全体",
+      "割合",
+      "距離"
+    ],
+    "confusableSpellings": [
+      "porshon",
+      "potion",
+      "porsion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 portio（分け前・割り当て）から。port-（分ける）に由来し、proportion（比率）と同じ語根を持つ。",
+      "tips": "「portion」はゲームのアイテム「ポーション（回復薬）」と同じ綴りだが、日常英語では「量・部分」の意味で使う。レストランで「portion size（量の大きさ）」として頻出。",
+      "confusables": "part は最も一般的な「部分」。section は区切られた「区画・節」。portion は全体から切り分けられた「一人分・ある量」のニュアンスが強い。",
+      "collocations": [
+        "large portion",
+        "portion size",
+        "a portion of"
+      ],
+      "trivia": "アメリカのレストランの portion size（盛り量）は世界的に有名な多さ。研究によると、1970年代比で平均2倍以上になっているとか。食べ過ぎ注意！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 870,
+    "word": "recipe",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "レシピ・料理法",
+        "pos": "noun"
+      },
+      {
+        "meaning": "（成功などの）秘訣",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈrɛsɪpi/",
+    "syllables": "rec-i-pe",
+    "audioHint": "レシピ",
+    "examples": [
+      {
+        "en": "She shared her grandmother's secret cookie recipe.",
+        "ja": "彼女は祖母のクッキーの秘密レシピを教えてくれた。",
+        "blank": "She shared her grandmother's secret cookie ___.",
+        "blankAnswer": "recipe"
+      }
+    ],
+    "distractors": [
+      "食材",
+      "調理器具",
+      "メニュー"
+    ],
+    "confusableSpellings": [
+      "recipie",
+      "reciepe",
+      "recipy"
+    ],
+    "passive": {
+      "etymology": "ラテン語の命令形 recipe（受け取れ！）から。recipere（受け取る）の命令形で、かつて医師が薬の処方箋の冒頭に書いた言葉。英語の Rx（処方箋）の語源でもある。",
+      "tips": "日本語の「レシピ」と同じ意味で使えるが、発音は「レスィピ」に近い。最後の -e は発音する（「レシパイ」とは言わない）。",
+      "confusables": "recipe は作り方の手順全体を指す。ingredient は材料（recipe の構成要素）。instruction は手順・指示（recipe より一般的な語）。",
+      "collocations": [
+        "follow a recipe",
+        "recipe for success",
+        "share a recipe"
+      ],
+      "trivia": "「a recipe for disaster（災害のレシピ＝失敗確実な状況）」という慣用句がある。「That's a recipe for disaster!」は日常会話でもよく使うので覚えておくとかっこいい！"
+    },
+    "frequency": 2100,
+    "cefr": "A2"
+  },
+  {
+    "id": 871,
+    "word": "luxury",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "贅沢、ぜいたく品",
+        "pos": "noun"
+      },
+      {
+        "meaning": "豪華さ、快適さ",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈlʌkʃəri/",
+    "syllables": "lux-u-ry",
+    "audioHint": "ラクシャリ",
+    "examples": [
+      {
+        "en": "A hot bath is a luxury after a long hike.",
+        "ja": "長いハイキングの後の熱いお風呂は贅沢だ。",
+        "blank": "A hot bath is a ___ after a long hike.",
+        "blankAnswer": "luxury"
+      }
+    ],
+    "distractors": [
+      "習慣、慣習",
+      "道具、用具",
+      "衣装、コスチューム"
+    ],
+    "confusableSpellings": [
+      "luxuary",
+      "luxery",
+      "luxurey"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'luxuria'（過剰・放縦）から。語根 'lux-' は「豊かさ・余剰」を意味し、そこから「必要以上のもの＝贅沢」という意味が生まれた。",
+      "tips": "形容詞形は 'luxurious'（ラグジュアリアス）。'luxury' 自体を形容詞的に使う場合（luxury car / luxury hotel）は名詞の前に置くだけでOK。'luxurious' との使い分けに注意。",
+      "confusables": "'luxurious' は形容詞で「豪華な」。'luxury car' と 'a luxurious car' はほぼ同義だが、'luxury' を述語形容詞には使えない（× The car is luxury. → ○ The car is luxurious.）。",
+      "collocations": [
+        "luxury goods（高級品）",
+        "affordable luxury（手頃な贅沢）",
+        "luxury hotel（高級ホテル）"
+      ],
+      "trivia": "'luxury tax'（贅沢税）は宝石や高級車などにかかる税金で、アメリカではスポーツ選手の高額年俸にも適用されることがある。「ラグジュアリー」はすでに日本語のカタカナ語として定着しているが、英語の発音は「ラクシャリ」に近い点に注意！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 872,
+    "word": "chip",
+    "pos": "noun",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "チップ、半導体素子",
+        "pos": "noun"
+      },
+      {
+        "meaning": "かけら、薄切り",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tʃɪp/",
+    "syllables": "chip",
+    "audioHint": "チップ",
+    "examples": [
+      {
+        "en": "The new chip makes the laptop run much faster.",
+        "ja": "新しいチップによってノートパソコンがはるかに速く動く。",
+        "blank": "The new ___ makes the laptop run much faster.",
+        "blankAnswer": "chip"
+      }
+    ],
+    "distractors": [
+      "ソフトウェア、アプリ",
+      "回線、ネットワーク",
+      "画面、ディスプレイ"
+    ],
+    "confusableSpellings": [
+      "chipp",
+      "chiip",
+      "chipe"
+    ],
+    "passive": {
+      "etymology": "古英語 'cipp'（木の切れ端）が起源。「削り取られた小さなかけら」という意味が転じて、現代では半導体の「マイクロチップ」にも使われる。",
+      "tips": "文脈によって意味が大きく変わる多義語。IT文脈では「半導体チップ」、食べ物文脈では英国英語で「フライドポテト」、米国英語で「ポテトチップス」を指す。会話の流れを確認しよう。",
+      "confusables": "英国英語の 'chips' はフライドポテト（米国の 'fries'）、米国英語の 'chips' はポテトチップス（英国の 'crisps'）。同じ単語なのに大西洋をまたいで意味が逆転する！",
+      "collocations": [
+        "microchip（マイクロチップ）",
+        "chip manufacturer（半導体メーカー）",
+        "poker chip（ポーカーチップ）"
+      ],
+      "trivia": "「チップをテーブルに置く」という意味の 'chip in' は「口を挟む・お金を出し合う」という慣用句。カジノのチップが由来で、ゲームに参加するときにチップを出すことから転じた表現。"
+    },
+    "frequency": 1800,
+    "cefr": "B1"
+  },
+  {
+    "id": 873,
+    "word": "ritual",
+    "pos": "noun",
+    "categoryId": 11,
+    "meanings": [
+      {
+        "meaning": "儀式、儀礼",
+        "pos": "noun"
+      },
+      {
+        "meaning": "習慣的な手順、ルーティン",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈrɪtʃuəl/",
+    "syllables": "rit-u-al",
+    "audioHint": "リチュアル",
+    "examples": [
+      {
+        "en": "Morning coffee is a daily ritual for many people.",
+        "ja": "朝のコーヒーは多くの人にとって毎日の儀式だ。",
+        "blank": "Morning coffee is a daily ___ for many people.",
+        "blankAnswer": "ritual"
+      }
+    ],
+    "distractors": [
+      "祭り、お祭り",
+      "伝統、慣習",
+      "贅沢、ぜいたく品"
+    ],
+    "confusableSpellings": [
+      "rithual",
+      "rituall",
+      "rituel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'ritualis'（儀式の）から。語根 'ritus'（宗教的な慣行・順序）が元で、「決まった手順で行うこと」という核心的意味を持つ。",
+      "tips": "宗教的な「儀式」だけでなく、日常の「ルーティン」にも使える点が便利。'My morning ritual includes exercise and meditation.'のように個人的な習慣にも自然に使える。",
+      "confusables": "'ceremony' は公式・社会的な式典（卒業式・結婚式など）を指し、より大人数・公的なニュアンス。'ritual' は繰り返しの手順や宗教的意味合いが強い。",
+      "collocations": [
+        "religious ritual（宗教的儀式）",
+        "daily ritual（日課）",
+        "ritual ceremony（儀式的な式典）"
+      ],
+      "trivia": "心理学では「ルーティン（ritual）」は不安を和らげる効果があると証明されている。スポーツ選手が試合前に必ず同じ動作をするのはまさに 'pre-game ritual'！イチロー選手の打席前の動作も世界中で研究された。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 874,
+    "word": "sake",
+    "pos": "noun",
+    "categoryId": 10,
+    "meanings": [
+      {
+        "meaning": "ために、目的・利益",
+        "pos": "noun"
+      },
+      {
+        "meaning": "日本酒",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/seɪk/",
+    "syllables": "sake",
+    "audioHint": "セイク",
+    "examples": [
+      {
+        "en": "She worked hard for the sake of her family.",
+        "ja": "彼女は家族のために一生懸命働いた。",
+        "blank": "She worked hard for the ___ of her family.",
+        "blankAnswer": "sake"
+      }
+    ],
+    "distractors": [
+      "意志、意図",
+      "価値、意義",
+      "目標、目的"
+    ],
+    "confusableSpellings": [
+      "saek",
+      "sace",
+      "saake"
+    ],
+    "passive": {
+      "etymology": "古英語 'sacu'（争い・訴訟・目的）から派生。「ある目的・理由のために」という意味で、常に 'for the sake of ～' や 'for ～'s sake' のかたちで使われる。",
+      "tips": "必ず 'for ～ sake' の形で使う。'for the sake of peace'（平和のために）や 'for goodness' sake!'（後生だから！）のような感嘆表現にも登場する。単独で「ために」とは言わない点に注意。",
+      "confusables": "日本語の「酒（sake）」と同じスペルだが、英語で 'sake' を使うとき文脈で全く異なる意味になる。日本酒を指す 'sake' の発音は /ˈsɑːki/ と英語話者が読むことも多い。",
+      "collocations": [
+        "for the sake of（〜のために）",
+        "for goodness' sake（後生だから）",
+        "for old times' sake（昔を懐かしんで）"
+      ],
+      "trivia": "'For Pete's sake!' という表現は神の名（God）を直接使うのを避けた婉曲表現として生まれた。'Pete' は聖ペテロの名前から来ており、軽い驚きや苛立ちを表すときに今でも使われている。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 875,
+    "word": "prefecture",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "県、都道府県",
+        "pos": "noun"
+      },
+      {
+        "meaning": "行政区域",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpriːfektʃər/",
+    "syllables": "pre-fec-ture",
+    "audioHint": "プリーフェクチャー",
+    "examples": [
+      {
+        "en": "Kyoto Prefecture is famous for its historic temples.",
+        "ja": "京都府は歴史的な寺院で有名だ。",
+        "blank": "___ Prefecture is famous for its historic temples.",
+        "blankAnswer": "Kyoto"
+      }
+    ],
+    "distractors": [
+      "議会、評議会",
+      "政党、党派",
+      "条例、規制"
+    ],
+    "confusableSpellings": [
+      "prefectur",
+      "prefecuture",
+      "prefekture"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praefectura' から。'prae-'（前に・上に）＋ 'facere'（作る・置く）→「前に置かれた者が管轄する地域」が元の意味。ローマ時代の行政区分に由来する。",
+      "tips": "日本の「都道府県」を英語で説明するとき最も適切な語。'Tokyo Metropolis' や 'Osaka Prefecture' のように固有名詞と組み合わせて使う。海外では主にフランスや日本の行政区分を指す文脈で登場する。",
+      "confusables": "'province'（州・省）は中国やカナダなど広域行政区分に使い、'prefecture' より広い場合が多い。'district' は更に小さい区画を指すことが多い。",
+      "collocations": [
+        "prefecture government（県政府）",
+        "neighboring prefecture（隣県）",
+        "rural prefecture（地方の県）"
+      ],
+      "trivia": "日本には47の都道府県があるが、英語では全部 'prefecture' とは言わない。東京は 'Tokyo Metropolis'（都）、北海道は 'Hokkaido Prefecture'（道）、大阪・京都は 'Osaka/Kyoto Prefecture'（府）と使い分けることもある。"
+    },
+    "frequency": 6500,
+    "cefr": "B2"
+  },
+  {
+    "id": 876,
+    "word": "council",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "評議会、議会、審議会",
+        "pos": "noun"
+      },
+      {
+        "meaning": "地方議会、市議会",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈkaʊnsəl/",
+    "syllables": "coun-cil",
+    "audioHint": "カウンスル",
+    "examples": [
+      {
+        "en": "The city council voted to build a new library.",
+        "ja": "市議会は新しい図書館の建設に賛成票を投じた。",
+        "blank": "The city ___ voted to build a new library.",
+        "blankAnswer": "council"
+      }
+    ],
+    "distractors": [
+      "行政、管理機構",
+      "条約、協定",
+      "政策、方針"
+    ],
+    "confusableSpellings": [
+      "councel",
+      "counsil",
+      "councill"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'concilium'（集会・会議）から。'con-'（共に）＋ 'calare'（呼び集める）→「人々を呼び集めた会議体」が原義。",
+      "tips": "同音異義語の 'counsel'（助言・法律顧問）と混同しやすい！'council' は「組織・団体」、'counsel' は「助言・行為」。スペルと意味をセットで覚えよう。",
+      "confusables": "'council'（評議会という組織）と 'counsel'（助言・弁護士）は発音が全く同じ /ˈkaʊnsəl/。'the council made a decision'（評議会が決定した）vs 'he gave good counsel'（彼は良い助言をした）で使い分ける。",
+      "collocations": [
+        "city council（市議会）",
+        "UN Security Council（国連安保理）",
+        "council meeting（評議会会議）"
+      ],
+      "trivia": "国連の「安全保障理事会」は 'UN Security Council' と言う。常任理事国（P5）が拒否権を持つこの組織は世界の安全保障を左右するが、実は 'council' という単語が使われていることを知らない人も多い。"
+    },
+    "frequency": 1900,
+    "cefr": "B1"
+  },
+  {
+    "id": 877,
+    "word": "administration",
+    "pos": "noun",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "行政、管理、運営",
+        "pos": "noun"
+      },
+      {
+        "meaning": "政権、政府",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ədˌmɪnɪˈstreɪʃən/",
+    "syllables": "ad-min-is-tra-tion",
+    "audioHint": "アドミニストレイション",
+    "examples": [
+      {
+        "en": "The new administration plans to reform healthcare.",
+        "ja": "新政権は医療制度を改革する計画だ。",
+        "blank": "The new ___ plans to reform healthcare.",
+        "blankAnswer": "administration"
+      }
+    ],
+    "distractors": [
+      "選挙、投票",
+      "憲法、基本法",
+      "外交、交渉"
+    ],
+    "confusableSpellings": [
+      "adminisration",
+      "administation",
+      "adminstraion"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'administrare' から。'ad-'（〜に向けて）＋ 'ministrare'（仕える・管理する）→「組織に仕えて管理すること」が語源。'minister'（大臣）も同じ語根を持つ。",
+      "tips": "省略形 'admin' は口語・ビジネスで頻出。'business administration'（経営管理）、'public administration'（行政学）のように分野名に多用される。米国では大統領の政権を指す場合も多い（the Biden administration など）。",
+      "confusables": "'government' は政府全体の広い概念、'administration' は特定の政権・任期中の執行機関を指すことが多い。'management' は民間企業の経営・管理に使うのが一般的。",
+      "collocations": [
+        "public administration（行政）",
+        "business administration（経営管理）",
+        "Trump administration（トランプ政権）"
+      ],
+      "trivia": "MBAは 'Master of Business Administration' の略。世界中で通用するこの資格名に 'administration' が入っているのは、経営とは「組織を管理・運営する技術」という考え方が根底にあるから。"
+    },
+    "frequency": 800,
+    "cefr": "B2"
+  },
+  {
+    "id": 878,
+    "word": "curriculum",
+    "pos": "noun",
+    "categoryId": 9,
+    "meanings": [
+      {
+        "meaning": "カリキュラム、教育課程",
+        "pos": "noun"
+      },
+      {
+        "meaning": "履修科目一覧",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kəˈrɪkjʊləm/",
+    "syllables": "cur-ric-u-lum",
+    "audioHint": "カリキュラム",
+    "examples": [
+      {
+        "en": "The school updated its curriculum to include coding.",
+        "ja": "その学校はプログラミングを含む形でカリキュラムを更新した。",
+        "blank": "The school updated its ___ to include coding.",
+        "blankAnswer": "curriculum"
+      }
+    ],
+    "distractors": [
+      "論文、研究報告",
+      "奨学金、研究助成",
+      "講師、教員"
+    ],
+    "confusableSpellings": [
+      "curiculum",
+      "curriculam",
+      "curricullum"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'curriculum'（走るコース・競走路）から。'currere'（走る）が語根で、「学習の道筋・コース」という意味に転用された。'current'（流れている）や 'cursor'（カーソル）も同じ語根。",
+      "tips": "複数形は 'curricula'（ラテン語式）または 'curriculums'（英語式）の両方が正しい。学術文書では 'curricula' が好まれる。'curriculum vitae'（履歴書、略称 CV）という表現でも使われる。",
+      "confusables": "'syllabus'（シラバス）は1つのコース・授業の学習計画を指し、'curriculum' より範囲が狭い。'curriculum' は学校全体・学年全体の教育課程を指すことが多い。",
+      "collocations": [
+        "national curriculum（学習指導要領）",
+        "curriculum design（カリキュラム設計）",
+        "hidden curriculum（隠れたカリキュラム）"
+      ],
+      "trivia": "'隠れたカリキュラム（hidden curriculum）' という概念が教育学にある。授業で明示的に教えていないのに、学校生活を通じて暗黙のうちに学ぶ規範や価値観のこと。「並んで待つ」「時間を守る」なども実はこれ！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 879,
+    "word": "precious",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "貴重な、大切な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "高価な、귀중한",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈpreʃəs/",
+    "syllables": "pre-cious",
+    "audioHint": "プレシャス",
+    "examples": [
+      {
+        "en": "Time with family is precious and should not be wasted.",
+        "ja": "家族と過ごす時間は貴重で、無駄にすべきではない。",
+        "blank": "Time with family is ___ and should not be wasted.",
+        "blankAnswer": "precious"
+      }
+    ],
+    "distractors": [
+      "正確な、精密な",
+      "優れた、卓越した",
+      "十分な、適切な"
+    ],
+    "confusableSpellings": [
+      "preciuos",
+      "precous",
+      "preacious"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pretiosus'（値段の高い）から。'pretium'（価格・価値）が語根で、'price'（価格）と同じ起源。「価格が高い＝価値がある＝大切」という意味の広がりがある。",
+      "tips": "物の価値（precious stones＝宝石）にも、感情的な価値（precious memories＝大切な思い出）にも使える便利な語。ただし口語で過度に使うと「気取っている」印象を与える場合も。",
+      "confusables": "'valuable'（経済的価値が高い）、'priceless'（値がつけられないほど価値がある）と似ているが、'precious' は感情的・個人的な価値のニュアンスが強い。'precious moment' は感情を伴うが 'valuable moment' はより実利的な響き。",
+      "collocations": [
+        "precious metal（貴金属）",
+        "precious stone（宝石）",
+        "precious memory（大切な思い出）"
+      ],
+      "trivia": "映画『ロード・オブ・ザ・リング』でゴラムが指輪を 'My precious...' と呼ぶシーンは有名。この一言がキャラクターの執着と狂気を完璧に表している。'precious' が執着の対象を呼ぶ言葉になったのはこの作品の影響が大きい！"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 880,
+    "word": "generous",
+    "pos": "adjective",
+    "categoryId": 16,
+    "meanings": [
+      {
+        "meaning": "気前のよい、寛大な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "豊富な、たっぷりの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈdʒenərəs/",
+    "syllables": "gen-er-ous",
+    "audioHint": "ジェネラス",
+    "examples": [
+      {
+        "en": "She was generous enough to donate half her salary.",
+        "ja": "彼女は給料の半分を寄付するほど気前がよかった。",
+        "blank": "She was ___ enough to donate half her salary.",
+        "blankAnswer": "generous"
+      }
+    ],
+    "distractors": [
+      "勇敢な、大胆な",
+      "正直な、誠実な",
+      "忍耐強い、寛容な"
+    ],
+    "confusableSpellings": [
+      "generuos",
+      "genorous",
+      "genereous"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'generosus'（高貴な生まれの・気高い）から。'genus'（種族・生まれ）が語根で、「高貴な家柄の者は気前がよい」という古代の価値観が反映されている。'gene'（遺伝子）も同じ語根。",
+      "tips": "'generous with ～'（〜を惜しみなく与える）という前置詞との組み合わせが重要。'generous with money'（お金に太っ腹）、'generous with time'（時間を惜しまない）のように使う。",
+      "confusables": "'kind' は行動・態度の優しさ全般、'generous' は特に「与えること・物惜しみしないこと」に焦点が当たる。'lenient'（寛大な・甘い）は規則を緩めるニュアンスが強く、'generous' とは区別される。",
+      "collocations": [
+        "generous donation（気前のよい寄付）",
+        "generous portion（たっぷりの量）",
+        "generous offer（太っ腹な申し出）"
+      ],
+      "trivia": "心理学の研究によると、人にお金や時間を与える（'being generous'）と、自分自身の幸福感も上がることが証明されている。「与えることで幸せになる」という逆説的な事実は 'generosity paradox' と呼ばれる。気前よくなるほど得をするとは！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  }
+]

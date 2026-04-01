@@ -1,0 +1,993 @@
+[
+  {
+    "id": 1721,
+    "word": "plug",
+    "pos": "verb",
+    "categoryId": 12,
+    "meanings": [
+      {
+        "meaning": "差し込む、接続する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "宣伝する、売り込む",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/plʌɡ/",
+    "syllables": "plug",
+    "audioHint": "プラグ",
+    "examples": [
+      {
+        "en": "Please plug the charger into the wall socket.",
+        "ja": "充電器をコンセントに差し込んでください。",
+        "blank": "Please ___ the charger into the wall socket.",
+        "blankAnswer": "plug"
+      }
+    ],
+    "distractors": [
+      "更新する",
+      "削除する",
+      "圧縮する"
+    ],
+    "confusableSpellings": [
+      "plaug",
+      "plugg"
+    ],
+    "passive": {
+      "etymology": "中英語 'plugge'（栓）に由来。オランダ語 'plug'（杭・栓）が語源。接頭辞なし、単純語根。",
+      "tips": "名詞としての「プラグ」はそのまま使えるが、動詞として「差し込む」という意味で使う場合は plug in という句動詞の形が日常会話では一般的。「プラグを抜く」は unplug または pull the plug。",
+      "confusables": "plug in（差し込む）vs plug out（ほぼ使わない、unplug が正しい）。また plug（宣伝する）は promote より口語的。",
+      "collocations": [
+        "plug in a device",
+        "pull the plug",
+        "plug a product"
+      ],
+      "trivia": "「pull the plug」は「プロジェクトや生命維持装置を止める」という慣用句としても広く使われる。ビジネスでも医療でも使えるフレーズ！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1722,
+    "word": "suck",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "吸う、吸い込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（俗）最悪だ、ひどい",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sʌk/",
+    "syllables": "suck",
+    "audioHint": "サック",
+    "examples": [
+      {
+        "en": "The baby was sucking milk from the bottle.",
+        "ja": "赤ちゃんは哺乳瓶からミルクを吸っていた。",
+        "blank": "The baby was ___ milk from the bottle.",
+        "blankAnswer": "sucking"
+      }
+    ],
+    "distractors": [
+      "握る",
+      "叩く",
+      "押し出す"
+    ],
+    "confusableSpellings": [
+      "sak",
+      "sukk"
+    ],
+    "passive": {
+      "etymology": "古英語 'sūcan'（吸う）に由来。ゲルマン語系の語根 *sug-（吸う）から。接頭辞なし。",
+      "tips": "「This sucks.（最悪だ）」は口語・俗語表現で、目上の人やフォーマルな場では避けること。物理的な「吸う」という意味は中立的で普通に使える。",
+      "confusables": "suck（吸う）vs sip（少しずつ飲む）vs inhale（吸い込む・呼吸）。suck はストローや指を吸う動作に使い、inhale は空気・煙などに使う。",
+      "collocations": [
+        "suck in air",
+        "suck up to someone",
+        "suck the juice"
+      ],
+      "trivia": "「suck up to someone」は「ゴマをする」という意味のスラング。ビジネスシーンで上司に媚びる行為を指すことが多く、映画やドラマでよく登場する！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1723,
+    "word": "mock",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "あざける、馬鹿にする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "模擬の、偽の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/mɒk/",
+    "syllables": "mock",
+    "audioHint": "モック",
+    "examples": [
+      {
+        "en": "The students mocked the new kid's accent.",
+        "ja": "生徒たちは転校生のアクセントをからかった。",
+        "blank": "The students ___ the new kid's accent.",
+        "blankAnswer": "mocked"
+      }
+    ],
+    "distractors": [
+      "励ます",
+      "無視する",
+      "称賛する"
+    ],
+    "confusableSpellings": [
+      "mok",
+      "moock"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'mocquer'（あざける）に由来。語源はさらに不明確だが、中世フランス語から英語に入った語。",
+      "tips": "mock は「言葉や態度で馬鹿にする」という意味で、bully（いじめる）より言語的・表情的なからかいに焦点が当たる。形容詞として「a mock exam（模擬試験）」という使い方も日常的に頻出。",
+      "confusables": "mock（あざける）vs tease（からかう）。tease はやや軽いニュアンスで親しみを込めた場合もあるが、mock はより否定的・侮辱的。",
+      "collocations": [
+        "mock someone's accent",
+        "mock exam",
+        "mock trial"
+      ],
+      "trivia": "IT業界では「mock（モック）」はテスト用の偽オブジェクトを指す専門用語。「mock up」はデザインの試作品。日常語からIT用語まで幅広く使われている！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1724,
+    "word": "tease",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "からかう、いじめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（髪を）逆立てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tiːz/",
+    "syllables": "tease",
+    "audioHint": "ティーズ",
+    "examples": [
+      {
+        "en": "Her older brother always teases her about her height.",
+        "ja": "兄はいつも彼女の身長のことをからかう。",
+        "blank": "Her older brother always ___ her about her height.",
+        "blankAnswer": "teases"
+      }
+    ],
+    "distractors": [
+      "なだめる",
+      "避ける",
+      "騙す"
+    ],
+    "confusableSpellings": [
+      "tese",
+      "teese"
+    ],
+    "passive": {
+      "etymology": "古英語 'tǣsan'（引っ張る、毛をほぐす）に由来。もともとは羊毛をほぐす動作を指す語だった。",
+      "tips": "tease には「軽くからかう（悪意なし）」という意味と「意地悪にいじめる」という意味の両方がある。文脈で判断が必要。「just teasing（ちょっとからかっただけ）」のように弁解にも使われる。",
+      "confusables": "tease（からかう）vs mock（あざける）vs bully（いじめる）。tease が最も軽く、bully が最も深刻なニュアンス。",
+      "collocations": [
+        "tease someone about ~",
+        "stop teasing me",
+        "tease apart"
+      ],
+      "trivia": "「tease」はもともと羊毛の繊維をほぐす作業を表す言葉。そこから「人の気持ちをかき乱す」という意味に転じた。言葉の変化が面白い！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1725,
+    "word": "soothe",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "なだめる、落ち着かせる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（痛みを）和らげる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/suːð/",
+    "syllables": "soothe",
+    "audioHint": "スーズ",
+    "examples": [
+      {
+        "en": "She sang softly to soothe the crying baby.",
+        "ja": "彼女は泣いている赤ちゃんをなだめるために優しく歌った。",
+        "blank": "She sang softly to ___ the crying baby.",
+        "blankAnswer": "soothe"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "指示する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "sothe",
+      "sooth",
+      "sooths"
+    ],
+    "passive": {
+      "etymology": "古英語 'sōþian'（真実を証明する）に由来。古英語 'sōþ'（真実）が語根。もともと「真実を述べてなだめる」という意味合いがあった。",
+      "tips": "soothe の発音は「スース」ではなく「スーズ」（語末が有声音）。calm（落ち着かせる）と似ているが、soothe はより感情的・身体的な苦痛を和らげるニュアンスが強い。",
+      "confusables": "soothe（なだめる）vs calm（落ち着かせる）vs comfort（慰める）。comfort は悲しみに寄り添う感覚、soothe はより積極的に苦痛を取り除くイメージ。",
+      "collocations": [
+        "soothe the pain",
+        "soothe a crying child",
+        "soothing music"
+      ],
+      "trivia": "「soothing」という形容詞は音楽やアロマのマーケティングで大活躍。'soothing sounds'（癒しの音）はYouTubeの睡眠動画タイトルの定番表現！"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1726,
+    "word": "stain",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "汚す、染みをつける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（名誉などを）傷つける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/steɪn/",
+    "syllables": "stain",
+    "audioHint": "ステイン",
+    "examples": [
+      {
+        "en": "He stained his shirt with coffee this morning.",
+        "ja": "彼は今朝、コーヒーでシャツを汚した。",
+        "blank": "He ___ his shirt with coffee this morning.",
+        "blankAnswer": "stained"
+      }
+    ],
+    "distractors": [
+      "引き裂く",
+      "折り畳む",
+      "膨らませる"
+    ],
+    "confusableSpellings": [
+      "stane",
+      "stayn"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'desteindre'（色を落とす）の短縮形から。接頭辞 'des-'（除去）＋ラテン語 'tingere'（染める）が語根。",
+      "tips": "stain は物理的な「染み」にも比喩的な「汚点」（a stain on one's reputation）にも使える。名詞・動詞どちらも頻出。「シミ抜き」は stain remover。",
+      "confusables": "stain（染みをつける）vs dye（意図的に染める）vs taint（汚染する・腐敗させる）。stain は偶発的、dye は意図的なニュアンス。",
+      "collocations": [
+        "stain a shirt",
+        "remove a stain",
+        "stain one's reputation"
+      ],
+      "trivia": "歯科でよく聞く「teeth staining（歯の着色）」もこの単語。コーヒーや赤ワインが歯を stain するという表現は、歯科の英語コンテンツで頻出！"
+    },
+    "frequency": 4600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1727,
+    "word": "shun",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "避ける、遠ざける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人を）排除する、疎外する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʃʌn/",
+    "syllables": "shun",
+    "audioHint": "シャン",
+    "examples": [
+      {
+        "en": "She shunned all social media after the incident.",
+        "ja": "彼女はその事件の後、すべてのSNSを避けた。",
+        "blank": "She ___ all social media after the incident.",
+        "blankAnswer": "shunned"
+      }
+    ],
+    "distractors": [
+      "歓迎する",
+      "からかう",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "shunne",
+      "shon"
+    ],
+    "passive": {
+      "etymology": "古英語 'scūnian'（避ける、逃げる）に由来。ゲルマン語系の語根で、接頭辞なし。",
+      "tips": "shun は avoid より強い意図的な拒絶・排除のニュアンスがある。特に「社会的に締め出す」意味合いで使われることが多い。過去形・過去分詞は shunned（n を重ねる）。",
+      "confusables": "shun（意図的に避ける・排除する）vs avoid（避ける）vs ignore（無視する）。shun は最も強く、社会的な排除のニュアンスを含む。",
+      "collocations": [
+        "shun the spotlight",
+        "shun society",
+        "be shunned by the community"
+      ],
+      "trivia": "アーミッシュ（Amish）のコミュニティでは、ルールに違反したメンバーを正式に「shunning（排除）」する慣習がある。この宗教的慣習で英語圏では広く知られた単語！"
+    },
+    "frequency": 6800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1728,
+    "word": "stumble",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "つまずく、よろける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "偶然見つける、出くわす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈstʌm.bəl/",
+    "syllables": "stum-ble",
+    "audioHint": "スタンブル",
+    "examples": [
+      {
+        "en": "He stumbled on a rock and nearly fell.",
+        "ja": "彼は石につまずいてもう少しで転びそうになった。",
+        "blank": "He ___ on a rock and nearly fell.",
+        "blankAnswer": "stumbled"
+      }
+    ],
+    "distractors": [
+      "飛び跳ねる",
+      "引き裂く",
+      "吸い込む"
+    ],
+    "confusableSpellings": [
+      "stumbel",
+      "stumbal"
+    ],
+    "passive": {
+      "etymology": "中英語 'stumblen' に由来。古ノルド語 'stumra'（つまずく）が語源とされる。接頭辞なし、語根に「よろける」動作の意が含まれる。",
+      "tips": "「stumble upon / across」で「偶然見つける」という意味になる。「I stumbled across a great restaurant.（偶然すごいレストランを見つけた）」のように日常会話でよく使われる。",
+      "confusables": "stumble（つまずく）vs trip（つまずいて転ぶ）vs stagger（よろめく）。trip は転倒を伴うことが多く、stagger はアルコールや疲労で足取りが不安定な様子。",
+      "collocations": [
+        "stumble upon a discovery",
+        "stumble over words",
+        "stumble in the dark"
+      ],
+      "trivia": "かつて「StumbleUpon」という名前のウェブサービスがあり、ランダムなウェブサイトを「偶然発見」できるサービスだった。この動詞の意味をそのままサービス名にした好例！"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1729,
+    "word": "flush",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "流す、水で洗い流す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（顔が）赤らむ、紅潮する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/flʌʃ/",
+    "syllables": "flush",
+    "audioHint": "フラッシュ",
+    "examples": [
+      {
+        "en": "Remember to flush the toilet after use.",
+        "ja": "使用後はトイレを流すのを忘れずに。",
+        "blank": "Remember to ___ the toilet after use.",
+        "blankAnswer": "flush"
+      }
+    ],
+    "distractors": [
+      "染みをつける",
+      "握る",
+      "膨らませる"
+    ],
+    "confusableSpellings": [
+      "flussh",
+      "flaush"
+    ],
+    "passive": {
+      "etymology": "16世紀の英語に登場。'flash' と同語源とも言われ、「勢いよく流れる」というイメージが語根にある。フランス語の影響も指摘される。",
+      "tips": "flush には「トイレを流す」「顔が赤らむ」「（場所を）水洗いする」など複数の意味がある。「flush with money（お金が豊富にある）」という形容詞的な用法も覚えておくと役立つ。",
+      "confusables": "flush（勢いよく流す）vs rinse（すすぐ）vs drain（排水する）。flush は大量の水で一気に流すイメージ、rinse は軽く洗い流すイメージ。",
+      "collocations": [
+        "flush the toilet",
+        "flush with embarrassment",
+        "flush out toxins"
+      ],
+      "trivia": "ポーカー用語の「フラッシュ（flush）」も同じ単語。「同じスーツのカードが5枚揃う」という意味で、「一気に揃う」という語感から来ているとも言われる！"
+    },
+    "frequency": 3500,
+    "cefr": "B1"
+  },
+  {
+    "id": 1730,
+    "word": "impair",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "損なう、弱める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（機能・能力を）低下させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪmˈpeər/",
+    "syllables": "im-pair",
+    "audioHint": "インペア",
+    "examples": [
+      {
+        "en": "Lack of sleep can seriously impair your judgment.",
+        "ja": "睡眠不足は判断力を著しく損なう可能性がある。",
+        "blank": "Lack of sleep can seriously ___ your judgment.",
+        "blankAnswer": "impair"
+      }
+    ],
+    "distractors": [
+      "強化する",
+      "修復する",
+      "変換する"
+    ],
+    "confusableSpellings": [
+      "empair",
+      "impare"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'empeirer'（悪化させる）に由来。ラテン語 'im-'（否定・悪化）＋ 'pejorare'（悪化する、'pejor'＝より悪い）が語源。",
+      "tips": "impair は主に抽象的な能力（視力・聴力・判断力など）を損なうときに使う。「visually impaired（視覚障害のある）」のように形容詞 impaired も頻出。damage とは異なり、物理的な物体より機能・能力に使うことが多い。",
+      "confusables": "impair（機能を損なう）vs damage（物理的に傷つける）vs weaken（弱める）。impair は能力・機能への影響、damage は有形物への物理的ダメージに使うことが多い。",
+      "collocations": [
+        "impair judgment",
+        "visually impaired",
+        "impair cognitive function"
+      ],
+      "trivia": "「hearing impaired」「visually impaired」のように、障害を表す丁寧な表現として impaired が広く使われる。「disabled」より柔らかいとして、医療・福祉の現場で好まれる表現！"
+    },
+    "frequency": 5800,
+    "cefr": "C1"
+  },
+  {
+    "id": 1731,
+    "word": "presume",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "推定する、思い込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "大胆にも〜する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈzjuːm/",
+    "syllables": "pre-sume",
+    "audioHint": "プリズューム",
+    "examples": [
+      {
+        "en": "I presume you've already read the report.",
+        "ja": "あなたはもうそのレポートを読んだと思いますが。",
+        "blank": "I ___ you've already read the report.",
+        "blankAnswer": "presume"
+      }
+    ],
+    "distractors": [
+      "主張する",
+      "検査する",
+      "推論を導き出す"
+    ],
+    "confusableSpellings": [
+      "presurme",
+      "presumme",
+      "preseum"
+    ],
+    "passive": {
+      "etymology": "ラテン語 praesumere から。接頭辞 prae-（前もって）＋ sumere（取る）。「あらかじめ取る＝前提とする」が原義。",
+      "tips": "assume との違いが頻出。presume は「証拠や状況から推定する」、assume は「根拠なく仮定する」ニュアンス。'Innocent until presumed guilty' ではなく 'proven' ですが、法律用語でも頻出。",
+      "confusables": "assume（根拠なく仮定）と混同しやすい。presume はある程度の根拠や文脈があるときに使う。",
+      "collocations": [
+        "presume innocence",
+        "presume dead",
+        "presume to know"
+      ],
+      "trivia": "「Dr. Livingstone, I presume?」は19世紀の探検家スタンリーがリビングストンを発見した際の有名な一言。日本語で「あなたがリビングストン博士ですね？」という場面で使われた歴史的フレーズ！"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1732,
+    "word": "contend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "主張する、論じる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "争う、競う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈtɛnd/",
+    "syllables": "con-tend",
+    "audioHint": "コンテンド",
+    "examples": [
+      {
+        "en": "She contends that the new policy is unfair.",
+        "ja": "彼女はその新しい方針は不公平だと主張している。",
+        "blank": "She ___ that the new policy is unfair.",
+        "blankAnswer": "contends"
+      }
+    ],
+    "distractors": [
+      "推定する",
+      "検査する",
+      "意味を含む"
+    ],
+    "confusableSpellings": [
+      "contened",
+      "contand",
+      "contende"
+    ],
+    "passive": {
+      "etymology": "ラテン語 contendere から。con-（共に、強意）＋ tendere（伸ばす、向かう）。「力を合わせて引っ張り合う＝競争する・主張する」が原義。",
+      "tips": "「主張する」の意味では contend that ... の形が多い。argue や claim と似ているが、contend はやや対立的な文脈で使われることが多い。",
+      "confusables": "argue（議論する）や claim（主張する）と混同しやすい。contend はより「激しく・対立的に主張する」ニュアンスがある。",
+      "collocations": [
+        "contend with",
+        "contend that",
+        "contend for the title"
+      ],
+      "trivia": "contend の名詞形 contention は「骨の折れる問題」という意味でも使われる。「It's a bone of contention」（それは争いの種だ）は英語の慣用句！"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1733,
+    "word": "roar",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "ほえる、うなる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "どなる、轟音を立てる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɔːr/",
+    "syllables": "roar",
+    "audioHint": "ロアー",
+    "examples": [
+      {
+        "en": "The lion roared loudly in the jungle.",
+        "ja": "ライオンはジャングルで大きくほえた。",
+        "blank": "The lion ___ loudly in the jungle.",
+        "blankAnswer": "roared"
+      }
+    ],
+    "distractors": [
+      "取ってくる",
+      "つきまとう",
+      "転換する"
+    ],
+    "confusableSpellings": [
+      "roer",
+      "roar'e",
+      "rowr"
+    ],
+    "passive": {
+      "etymology": "古英語 rārian（泣く、叫ぶ）から。擬音語的な起源を持ち、大きな音そのものを音で表現した語。",
+      "tips": "roar は動物だけでなく、エンジンや群衆の音にも使える。'The crowd roared' や 'The engine roared' は自然な表現。日本人は「ほえる」だけと思いがちだが用途は広い。",
+      "confusables": "howl（遠吠えする）と混同しやすい。roar は迫力ある低い大音量、howl は高く長い鳴き声のイメージ。",
+      "collocations": [
+        "roar with laughter",
+        "roar of the crowd",
+        "engine roars"
+      ],
+      "trivia": "映画タイトルにも多用される roar。1981年のホラー映画『Roar』は実際の野生ライオンを使って撮影され、70人以上のスタッフが負傷した伝説的な危険映画として有名！"
+    },
+    "frequency": 4100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1734,
+    "word": "haunt",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "（幽霊が）出没する、つきまとう",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（記憶・不安が）頭から離れない",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/hɔːnt/",
+    "syllables": "haunt",
+    "audioHint": "ホーント",
+    "examples": [
+      {
+        "en": "The memory of that accident still haunts me.",
+        "ja": "あの事故の記憶が今も頭から離れない。",
+        "blank": "The memory of that accident still ___ me.",
+        "blankAnswer": "haunts"
+      }
+    ],
+    "distractors": [
+      "大声を出す",
+      "取ってくる",
+      "回避する"
+    ],
+    "confusableSpellings": [
+      "hant",
+      "hanut",
+      "haunt'e"
+    ],
+    "passive": {
+      "etymology": "古フランス語 hanter（頻繁に訪れる）から。北欧語 heimta（家に連れ戻す）とも関連し、「同じ場所に繰り返し現れる」が原義。",
+      "tips": "幽霊の話だけでなく、「過去の失敗が頭から離れない」など心理的な意味でも頻繁に使われる。'It haunts me' は日常会話でもよく聞く表現。",
+      "confusables": "hunt（狩る）と発音が似ていて混同しやすい。haunt は /hɔːnt/、hunt は /hʌnt/ と母音が異なる。",
+      "collocations": [
+        "haunted house",
+        "haunt someone's dreams",
+        "haunting melody"
+      ],
+      "trivia": "haunt には名詞で「行きつけの場所」という意味もある。'This café is my old haunt.'（このカフェは昔よく来た場所だ）という使い方、幽霊とは真逆のほんわかした意味でも使えるのが面白い！"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1735,
+    "word": "divert",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "転換する、そらす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "気晴らしをさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/daɪˈvɜːrt/",
+    "syllables": "di-vert",
+    "audioHint": "ダイヴァート",
+    "examples": [
+      {
+        "en": "The police diverted traffic away from the accident.",
+        "ja": "警察は事故現場から交通を迂回させた。",
+        "blank": "The police ___ traffic away from the accident.",
+        "blankAnswer": "diverted"
+      }
+    ],
+    "distractors": [
+      "待つ",
+      "統一する",
+      "取ってくる"
+    ],
+    "confusableSpellings": [
+      "divert'e",
+      "divirte",
+      "divurt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 divertere から。dis-（離れて）＋ vertere（向ける、回す）。「別の方向へ向ける」が原義。",
+      "tips": "divert attention（注意をそらす）/ divert traffic（交通を迂回させる）/ divert funds（資金を流用する）など多様に使える。名詞 diversion は「迂回路」や「気晴らし」両方の意味あり。",
+      "confusables": "deflect（はじく、そらす）と似ているが、divert はより「意図的にルートや注意を変える」ニュアンスが強い。",
+      "collocations": [
+        "divert attention",
+        "divert traffic",
+        "divert funds"
+      ],
+      "trivia": "divert の派生語 diversion には「気晴らし・娯楽」の意味もある。英語圏の道路標識で見かける 'Diversion'（迂回路）と映画館の 'Entertainment'（娯楽）が同じ語源とはなかなかの雑学！"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1736,
+    "word": "await",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "待つ、待ち受ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（事が人を）待ち構えている",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈweɪt/",
+    "syllables": "a-wait",
+    "audioHint": "アウェイト",
+    "examples": [
+      {
+        "en": "A big surprise awaits you at the party.",
+        "ja": "パーティーで大きなサプライズがあなたを待っている。",
+        "blank": "A big surprise ___ you at the party.",
+        "blankAnswer": "awaits"
+      }
+    ],
+    "distractors": [
+      "転換する",
+      "統一する",
+      "取ってくる"
+    ],
+    "confusableSpellings": [
+      "awate",
+      "awaite",
+      "awiat"
+    ],
+    "passive": {
+      "etymology": "古フランス語 awaitier から。a-（〜に）＋ waitier（待つ）。「何かに向かって待つ」が原義。古北フランス語経由で英語に入った語。",
+      "tips": "wait for と意味は同じだが、await は目的語を直接取り前置詞不要。'await your reply'（お返事をお待ちしております）はビジネスメールの定番表現。フォーマルな文脈で使われることが多い。",
+      "confusables": "wait for との違いに注意。await は目的語を直接取るが、wait は wait for person/thing の形が必要。",
+      "collocations": [
+        "await your reply",
+        "eagerly await",
+        "await trial"
+      ],
+      "trivia": "プログラミング言語（JavaScriptなど）の非同期処理キーワード await はまさにこの英単語から来ている。「処理が終わるまで待つ」という意味が転用されたもの。エンジニアなら覚えやすい！"
+    },
+    "frequency": 3900,
+    "cefr": "B1"
+  },
+  {
+    "id": 1737,
+    "word": "fetch",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "取ってくる、連れてくる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（値段が）〜で売れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fɛtʃ/",
+    "syllables": "fetch",
+    "audioHint": "フェッチ",
+    "examples": [
+      {
+        "en": "Could you fetch me a glass of water?",
+        "ja": "水を一杯持ってきてもらえますか？",
+        "blank": "Could you ___ me a glass of water?",
+        "blankAnswer": "fetch"
+      }
+    ],
+    "distractors": [
+      "ほえる",
+      "つきまとう",
+      "そらす"
+    ],
+    "confusableSpellings": [
+      "fech",
+      "fecth",
+      "fettch"
+    ],
+    "passive": {
+      "etymology": "古英語 feccan（持ってくる、求める）から。さらに古くは fōn（取る）と関連すると言われる。「行って取って戻ってくる」一連の動作が原義。",
+      "tips": "fetch は「行って取って戻る」という往復の動作を含む。bring（持ってくる）と似ているが、fetch はよりカジュアルで「走って取りに行く」感が強い。犬に使う 'Fetch!'（取ってこい！）が有名。",
+      "confusables": "bring（持ってくる）と混同しやすい。fetch は出発点から離れた場所へ行って取ってくる動作を強調し、bring は話者のいる場所へ持ってくることを指す。",
+      "collocations": [
+        "fetch a price",
+        "fetch water",
+        "fetch the dog"
+      ],
+      "trivia": "映画『Mean Girls』の「Stop trying to make fetch happen!」は流行語にしようとしたセリフとして有名。'That'll fetch a high price'（高値がつく）のように「値がつく」意味もある多才な単語！"
+    },
+    "frequency": 5100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1738,
+    "word": "unify",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "統一する、一体化する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "まとめる、統合する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈjuːnɪfaɪ/",
+    "syllables": "u-ni-fy",
+    "audioHint": "ユーニファイ",
+    "examples": [
+      {
+        "en": "The leader tried to unify the divided nation.",
+        "ja": "その指導者は分裂した国家を統一しようとした。",
+        "blank": "The leader tried to ___ the divided nation.",
+        "blankAnswer": "unify"
+      }
+    ],
+    "distractors": [
+      "主張する",
+      "推定する",
+      "待ち受ける"
+    ],
+    "confusableSpellings": [
+      "unifiy",
+      "unnify",
+      "unifi"
+    ],
+    "passive": {
+      "etymology": "ラテン語 unificare から。uni-（1つの）＋ ficare（〜にする、facere の変形）。「1つにする」が直接の原義。",
+      "tips": "unify は国や組織など大きなものをまとめるニュアンスが強い。unite（団結する）と似ているが、unify は「異なるものを1つの形にまとめる」プロセスを強調する。",
+      "confusables": "unite（団結する）と混同しやすい。unify はより「統合・標準化」のプロセスを、unite は「力を合わせる・連帯する」感情的な側面を強調。",
+      "collocations": [
+        "unify the country",
+        "unify standards",
+        "unify under one banner"
+      ],
+      "trivia": "物理学の「統一場理論（Unified Field Theory）」はアインシュタインが生涯をかけて追い求めた理論。unify という語がノーベル賞級の夢を担っているのは何かロマンがある！"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1739,
+    "word": "inspect",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "検査する、調査する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "視察する、点検する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈspɛkt/",
+    "syllables": "in-spect",
+    "audioHint": "インスペクト",
+    "examples": [
+      {
+        "en": "The engineer inspected the bridge for cracks.",
+        "ja": "エンジニアは橋にひびがないか点検した。",
+        "blank": "The engineer ___ the bridge for cracks.",
+        "blankAnswer": "inspected"
+      }
+    ],
+    "distractors": [
+      "推定する",
+      "主張する",
+      "意味を含む"
+    ],
+    "confusableSpellings": [
+      "inspact",
+      "insepct",
+      "inspekt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 inspicere から。in-（中に）＋ specere（見る）。「中をよく見る」が原義。spectacle（見もの）や spectator（観客）と同じ語根を持つ。",
+      "tips": "inspect は「目的を持って丁寧に調べる」ニュアンス。examine とほぼ同義だが、inspect はより「外部からの公式な点検・査察」に使われることが多い。品質管理や安全点検の文脈で頻出。",
+      "confusables": "examine（調べる、試験する）と混同しやすい。inspect は物や施設の視覚的点検、examine はより詳細な分析や医療的検査のニュアンスが強い。",
+      "collocations": [
+        "inspect for damage",
+        "health inspection",
+        "fire inspection"
+      ],
+      "trivia": "Inspector（検査官）はシャーロック・ホームズの相棒的存在「Inspector Lestrade」でも有名。語根 spec-（見る）はスペイン語 espejo（鏡）にも残っており、「見る」という概念は言語を超えている！"
+    },
+    "frequency": 3600,
+    "cefr": "B1"
+  },
+  {
+    "id": 1740,
+    "word": "entail",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "必然的に伴う、意味する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（義務・困難を）生じさせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈteɪl/",
+    "syllables": "en-tail",
+    "audioHint": "エンテイル",
+    "examples": [
+      {
+        "en": "The job entails a lot of travel and long hours.",
+        "ja": "その仕事には多くの出張と長時間労働が伴う。",
+        "blank": "The job ___ a lot of travel and long hours.",
+        "blankAnswer": "entails"
+      }
+    ],
+    "distractors": [
+      "推定する",
+      "検査する",
+      "主張する"
+    ],
+    "confusableSpellings": [
+      "entale",
+      "entaile",
+      "entaill"
+    ],
+    "passive": {
+      "etymology": "古フランス語 entailler（切り込む）から。en-（〜にする）＋ tailler（切る）。もともとは法律用語で「相続財産を切り取って制限する」意味から「条件が付随する」へ変化。",
+      "tips": "entail は「〜には必ず〜が伴う」という必然的な関係を示す語。involve と似ているが、entail はより「切っても切れない関係」「必然的な結果」のニュアンスが強い。ビジネス・アカデミックな文脈で頻出。",
+      "confusables": "involve（含む、巻き込む）と混同しやすい。entail は「〜すれば必然的に〜が生じる」という論理的必然性を示すのに対し、involve は単に「〜を含む」に近い。",
+      "collocations": [
+        "entail risks",
+        "entail responsibility",
+        "what does it entail?"
+      ],
+      "trivia": "entail はもともと中世ヨーロッパの相続法の専門用語。財産を「一定の条件付きで」受け継ぐことを意味し、ジェーン・オースティンの小説『高慢と偏見』でもこの制度が物語の重要な鍵になっている！"
+    },
+    "frequency": 4700,
+    "cefr": "B2"
+  }
+]

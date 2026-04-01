@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 381,
+    "word": "capable",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "能力がある、有能な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "〜できる（capable of）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkeɪpəbl/",
+    "syllables": "ca-pa-ble",
+    "audioHint": "ケイパブル",
+    "examples": [
+      {
+        "en": "She is capable of solving complex math problems.",
+        "ja": "彼女は複雑な数学の問題を解く能力がある。",
+        "blank": "She is ___ of solving complex math problems.",
+        "blankAnswer": "capable"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "全体的な",
+      "人工的な"
+    ],
+    "confusableSpellings": [
+      "capeable",
+      "capabal",
+      "capible"
+    ],
+    "passive": {
+      "etymology": "ラテン語 capere（取る・つかむ）＋ -able（できる）。「つかみ取ることができる」→「能力がある」という意味に発展。",
+      "tips": "「capable of ＋ 動名詞」の形が基本。「capable to do」は誤りで、「able to do」と混同しないよう注意。",
+      "confusables": "able との違い：able は「今この状況でできる」、capable は「潜在的な能力・素質がある」というニュアンス。He is able to swim. は今泳げる事実、He is capable of swimming. は泳ぐ能力を持っているという含意。",
+      "collocations": [
+        "capable of doing",
+        "highly capable",
+        "capable person"
+      ],
+      "trivia": "「capable」の語根 capere はラテン語で「つかむ」を意味し、capture（捕獲）や accept（受け入れる）とも同じ仲間。英語の多くの単語がこの語根を共有している。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 382,
+    "word": "accurate",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "正確な、精密な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "的確な、誤りのない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈækjərət/",
+    "syllables": "ac-cu-rate",
+    "audioHint": "アキュリット",
+    "examples": [
+      {
+        "en": "The weather forecast was surprisingly accurate this week.",
+        "ja": "今週の天気予報は驚くほど正確だった。",
+        "blank": "The weather forecast was surprisingly ___ this week.",
+        "blankAnswer": "accurate"
+      }
+    ],
+    "distractors": [
+      "基本的な",
+      "軍事的な",
+      "生物学的な"
+    ],
+    "confusableSpellings": [
+      "accurrate",
+      "acurate",
+      "accuret"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（〜に向かって）＋ cura（注意・配慮）＋ -ate（形容詞語尾）。「細心の注意を払った」→「正確な」という意味。",
+      "tips": "「accurate」は数値・情報・描写などが「事実と一致している」こと。「correct」は単に「正しい」だが、accurate はより「精密さ・ずれのなさ」を強調する。",
+      "confusables": "correct との違い：correct は○か×かの二択的な正しさ、accurate は誤差が小さい・精度が高いというニュアンス。科学・統計の文脈では accurate が自然。",
+      "collocations": [
+        "accurate information",
+        "accurate measurement",
+        "highly accurate"
+      ],
+      "trivia": "語根の cura は英語の「cure（治療）」にも含まれている。医療でも精度・注意が命なのは偶然ではない。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 383,
+    "word": "fundamental",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "基本的な、根本的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不可欠な、根幹をなす",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌfʌndəˈmentl/",
+    "syllables": "fun-da-men-tal",
+    "audioHint": "ファンダメンタル",
+    "examples": [
+      {
+        "en": "Trust is fundamental to any healthy relationship.",
+        "ja": "信頼はどんな健全な関係においても根本的なものだ。",
+        "blank": "Trust is ___ to any healthy relationship.",
+        "blankAnswer": "fundamental"
+      }
+    ],
+    "distractors": [
+      "正確な",
+      "人工的な",
+      "核の"
+    ],
+    "confusableSpellings": [
+      "fundemental",
+      "fundamentel",
+      "fundamantal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 fundus（底・基礎）＋ -ment-（名詞化）＋ -al（形容詞語尾）。「底にある」→「基本的な」という意味。foundation（土台）と同じ語根。",
+      "tips": "「fundamental」は「basic」より格調が高く、学術・ビジネス文書に適している。また名詞としても使え「the fundamentals（基礎・基本）」という形もよく使われる。",
+      "confusables": "basic との違い：basic は「簡単・初歩的」という含意もあるが、fundamental は「本質的に欠かせない」という重みのあるニュアンス。fundamental rights（基本的権利）を basic rights とも言うが文脈で使い分ける。",
+      "collocations": [
+        "fundamental rights",
+        "fundamental principles",
+        "fundamental change"
+      ],
+      "trivia": "音楽用語でも「fundamental（基本音）」は使われる。和音の一番低い音がこれにあたり、すべての響きの「土台」になっていることから同じ単語が使われている。"
+    },
+    "frequency": 950,
+    "cefr": "B2"
+  },
+  {
+    "id": 384,
+    "word": "artificial",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "人工の、人造の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "不自然な、作り物の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌɑːrtɪˈfɪʃl/",
+    "syllables": "ar-ti-fi-cial",
+    "audioHint": "アーティフィシャル",
+    "examples": [
+      {
+        "en": "Artificial flowers require no water or sunlight.",
+        "ja": "造花は水も日光も必要としない。",
+        "blank": "___ flowers require no water or sunlight.",
+        "blankAnswer": "Artificial"
+      }
+    ],
+    "distractors": [
+      "軍事的な",
+      "農村の",
+      "核の"
+    ],
+    "confusableSpellings": [
+      "artifical",
+      "artifisial",
+      "artificiel"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ars/artis（技・芸術）＋ facere（作る）＋ -al（形容詞語尾）。「技術で作られた」→「人工的な」という意味。",
+      "tips": "AI（Artificial Intelligence）の「A」はこの単語の略。「人工知能」という文脈での使用頻度が近年激増している。否定的ニュアンス（不自然・偽物）でも使われるため文脈に注意。",
+      "confusables": "synthetic との違い：synthetic は主に化学的に合成されたものに使い（synthetic fiber）、artificial はより広く「自然でないもの全般」に使う。artificial sweetener（人工甘味料）は synthetic sweetener とはあまり言わない。",
+      "collocations": [
+        "artificial intelligence",
+        "artificial light",
+        "artificial flavor"
+      ],
+      "trivia": "「artificial」の語根 ars は art（芸術）と同じ。つまり「人工的」と「芸術的」は語源的に兄弟関係。人間の「技」で作るという意味が共通している。"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 385,
+    "word": "firm",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "しっかりした、堅固な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "断固とした、揺るぎない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/fɜːrm/",
+    "syllables": "firm",
+    "audioHint": "ファーム",
+    "examples": [
+      {
+        "en": "You need to be firm when setting boundaries with others.",
+        "ja": "他者との境界を設ける際は断固とした態度が必要だ。",
+        "blank": "You need to be ___ when setting boundaries with others.",
+        "blankAnswer": "firm"
+      }
+    ],
+    "distractors": [
+      "有能な",
+      "全体的な",
+      "正確な"
+    ],
+    "confusableSpellings": [
+      "ferm",
+      "firme",
+      "furm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 firmus（固い・安定した）から。confirm（確認する）や affirm（断言する）と同じ語根を持つ。",
+      "tips": "形容詞のほかに名詞（会社・企業）、動詞（固める・確定する）としても使える多義語。「a law firm（法律事務所）」のように名詞での使用も非常に多い。",
+      "confusables": "hard との違い：hard は物理的な硬さを指すことが多いが、firm は「適度な弾力を持ちながらしっかりしている」ニュアンス。firm mattress（しっかりしたマットレス）は hard mattress より好意的な響き。",
+      "collocations": [
+        "firm decision",
+        "firm handshake",
+        "law firm"
+      ],
+      "trivia": "英語で「握手」の質は personality を表すとも言われ、「a firm handshake（しっかりした握手）」は自信や信頼の象徴。就職面接でも重視されるカルチャーがある。"
+    },
+    "frequency": 600,
+    "cefr": "B1"
+  },
+  {
+    "id": 386,
+    "word": "overall",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "全体的な、総合的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "全体として（副詞用法）",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈɔːl/",
+    "syllables": "o-ver-all",
+    "audioHint": "オーヴァーオール",
+    "examples": [
+      {
+        "en": "The overall quality of the product has improved.",
+        "ja": "その製品の全体的な品質が向上した。",
+        "blank": "The ___ quality of the product has improved.",
+        "blankAnswer": "overall"
+      }
+    ],
+    "distractors": [
+      "断固とした",
+      "有能な",
+      "基本的な"
+    ],
+    "confusableSpellings": [
+      "overal",
+      "overrall",
+      "overoll"
+    ],
+    "passive": {
+      "etymology": "英語の over（上に・全体に）＋ all（すべて）の複合語。「すべての上に渡る」→「全体的な」という意味に。",
+      "tips": "形容詞としても副詞としても使える。文頭に置いて「Overall, I think it was a success.（全体的に見て成功だったと思う）」のように副詞的にも頻出。",
+      "confusables": "total との違い：total は数値の合計（total cost）に使うことが多く、overall はより漠然とした「全体像・傾向」を指す。overall impression（全体的な印象）に total は使えない。",
+      "collocations": [
+        "overall performance",
+        "overall impression",
+        "overall cost"
+      ],
+      "trivia": "「overalls（オーバーオール）」という作業着も同じ単語から来ている。「全体を覆うもの」という意味でスボンもシャツも一体になった服のことを指す。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 387,
+    "word": "rural",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "農村の、田舎の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "農業に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈrʊərəl/",
+    "syllables": "ru-ral",
+    "audioHint": "ルーラル",
+    "examples": [
+      {
+        "en": "Many young people are moving away from rural areas.",
+        "ja": "多くの若者が農村地域から離れている。",
+        "blank": "Many young people are moving away from ___ areas.",
+        "blankAnswer": "rural"
+      }
+    ],
+    "distractors": [
+      "軍事的な",
+      "生物学的な",
+      "核の"
+    ],
+    "confusableSpellings": [
+      "rual",
+      "rurel",
+      "rurral"
+    ],
+    "passive": {
+      "etymology": "ラテン語 rus/ruris（田舎・農地）＋ -al（形容詞語尾）。同じ語根から rustic（田舎風の・素朴な）も派生している。",
+      "tips": "対義語は urban（都市の）。「rural vs. urban」はセットで覚えると便利。日本語の「都市部と農村部」の対比を表すときに使う。",
+      "confusables": "countryside との違い：countryside は名詞で「田舎の風景・地域」、rural は形容詞で名詞を修飾する。rural area / rural community のように使う。rustic は「素朴で古風な雰囲気」というポジティブなニュアンスが強い。",
+      "collocations": [
+        "rural area",
+        "rural community",
+        "rural development"
+      ],
+      "trivia": "ラテン語の rus は「農場」を意味し、古代ローマでは農業が国の基盤だった。現代でも「rural」という語は農業政策や地域開発の分野でキーワードとなっている。"
+    },
+    "frequency": 1400,
+    "cefr": "B2"
+  },
+  {
+    "id": 388,
+    "word": "military",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "軍の、軍事的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "軍隊（名詞用法）",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈmɪlɪtɛri/",
+    "syllables": "mil-i-ta-ry",
+    "audioHint": "ミリタリー",
+    "examples": [
+      {
+        "en": "The country increased its military spending last year.",
+        "ja": "その国は昨年、軍事費を増加させた。",
+        "blank": "The country increased its ___ spending last year.",
+        "blankAnswer": "military"
+      }
+    ],
+    "distractors": [
+      "農村の",
+      "生物学的な",
+      "根本的な"
+    ],
+    "confusableSpellings": [
+      "militory",
+      "militery",
+      "millitary"
+    ],
+    "passive": {
+      "etymology": "ラテン語 miles/militis（兵士）＋ -ary（形容詞語尾）。「兵士に関する」→「軍事的な」という意味。",
+      "tips": "形容詞だけでなく「the military（軍隊・軍）」という名詞としても頻繁に使われる。「join the military（軍に入る）」のように使える。",
+      "confusables": "army との違い：army は「陸軍」を指す具体的な名詞。military はより広い概念（陸海空軍を含む軍全体、または軍事に関すること）を指す。",
+      "collocations": [
+        "military service",
+        "military base",
+        "military force"
+      ],
+      "trivia": "「military time（軍用時間）」は24時間表記のこと。日本では一般的だが英語圏では主に軍や医療現場で使う特別な時刻表現とされている。"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 389,
+    "word": "nuclear",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "核の、原子力の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "核兵器に関する",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈnjuːkliər/",
+    "syllables": "nu-cle-ar",
+    "audioHint": "ニュークリア",
+    "examples": [
+      {
+        "en": "The debate over nuclear energy continues around the world.",
+        "ja": "原子力エネルギーをめぐる議論は世界中で続いている。",
+        "blank": "The debate over ___ energy continues around the world.",
+        "blankAnswer": "nuclear"
+      }
+    ],
+    "distractors": [
+      "人工的な",
+      "軍事的な",
+      "農村の"
+    ],
+    "confusableSpellings": [
+      "nucular",
+      "nucluar",
+      "nucleer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 nucleus（核・種）＋ -ar（形容詞語尾）。nucleus は「ナッツの実（nux）」から来ており、「中心にある固い核」という意味。",
+      "tips": "発音に注意。「ニュークヤー」のように /njuːkjələr/ と発音するのは誤り（nukular 問題）。アメリカの大統領でさえ間違えたことで有名なほどよくある発音ミス。",
+      "confusables": "atomic との違い：atomic と nuclear はほぼ同義だが、atomic bomb / nuclear bomb どちらも使われる。現代では nuclear の方がより一般的。nuclear family（核家族）は全く別の意味なので注意。",
+      "collocations": [
+        "nuclear power",
+        "nuclear weapon",
+        "nuclear family"
+      ],
+      "trivia": "「nuclear family（核家族）」は原子力と無関係で、「社会の核となる家族単位（夫婦＋子ども）」のこと。1940年代に社会学者が作った言葉で、nucleus（中心核）のイメージから来ている。"
+    },
+    "frequency": 750,
+    "cefr": "B2"
+  },
+  {
+    "id": 390,
+    "word": "biological",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "生物学的な、生物の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "血縁上の（親・子など）",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˌbaɪəˈlɒdʒɪkl/",
+    "syllables": "bi-o-log-i-cal",
+    "audioHint": "バイオロジカル",
+    "examples": [
+      {
+        "en": "She searched for her biological parents after turning eighteen.",
+        "ja": "彼女は18歳になってから実の両親を探した。",
+        "blank": "She searched for her ___ parents after turning eighteen.",
+        "blankAnswer": "biological"
+      }
+    ],
+    "distractors": [
+      "核の",
+      "軍事的な",
+      "人工的な"
+    ],
+    "confusableSpellings": [
+      "biologocal",
+      "biologicle",
+      "bilogical"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 bios（生命）＋ logos（学問・言葉）＋ -ical（形容詞語尾）。「生命を研究する学問に関する」→「生物学的な」という意味。",
+      "tips": "「biological clock（体内時計・生物時計）」や「biological weapon（生物兵器）」など複合語での使用が多い。「biological parents」は養子関係の文脈で「血縁上の親」を意味する重要表現。",
+      "confusables": "organic との違い：organic は「有機的な・化学物質を使わない（食品）」という意味でよく使われるが、biological はより「生命科学・生物の仕組み」に関するニュアンス。organic food と biological food は同じではない。",
+      "collocations": [
+        "biological clock",
+        "biological weapon",
+        "biological process"
+      ],
+      "trivia": "bios（生命）という語根は「biography（伝記）」「antibiotic（抗生物質）」にも含まれている。「anti＋bios＋tic」で「生命に対抗する（菌を殺す）もの」という意味になる。"
+    },
+    "frequency": 1300,
+    "cefr": "B2"
+  },
+  {
+    "id": 391,
+    "word": "constant",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "絶え間ない、常に続く",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "一定の、変わらない",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈkɒnstənt/",
+    "syllables": "con-stant",
+    "audioHint": "コンスタント",
+    "examples": [
+      {
+        "en": "She receives constant support from her family.",
+        "ja": "彼女は家族から絶え間ないサポートを受けている。",
+        "blank": "She receives ___ support from her family.",
+        "blankAnswer": "constant"
+      }
+    ],
+    "distractors": [
+      "柔軟な",
+      "一時的な",
+      "独特な"
+    ],
+    "confusableSpellings": [
+      "constent",
+      "constand",
+      "consant"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'constare'（共に立つ）から。'con-'（共に）＋'stare'（立つ）。「ぶれずにずっと立ち続ける」イメージ。",
+      "tips": "『コンスタントに練習する』という日本語でも使われるほど浸透しているが、英語の constant は「変化なく継続する」という意味。continuous（中断なく続く）と混同しやすいが、constant は「質・量が変わらず続く」ニュアンス。",
+      "confusables": "continuous（連続した、中断なく続く）との違いに注意。constant noise は「常に鳴り続けているうるさい音」、continuous noise も似た意味だが constant は「一定であること」に重点が置かれる。",
+      "collocations": [
+        "constant change（絶え間ない変化）",
+        "constant pressure（継続的なプレッシャー）",
+        "constant speed（一定速度）"
+      ],
+      "trivia": "数学・物理の『定数』も constant（例：the speed of light is a constant）。つまりアインシュタインも毎日使っていた単語！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 392,
+    "word": "severe",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "深刻な、重大な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "厳しい、過酷な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/sɪˈvɪər/",
+    "syllables": "se-vere",
+    "audioHint": "スィヴィア",
+    "examples": [
+      {
+        "en": "The region was hit by a severe storm last night.",
+        "ja": "昨夜、その地域は激しい嵐に見舞われた。",
+        "blank": "The region was hit by a ___ storm last night.",
+        "blankAnswer": "severe"
+      }
+    ],
+    "distractors": [
+      "わずかな",
+      "巨大な",
+      "快適な"
+    ],
+    "confusableSpellings": [
+      "sevear",
+      "sevire",
+      "seveer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'severus'（厳格な、真剣な）から直接来ている。語源的には「切り離された」意味合いも含み、容赦ない厳しさを示す。",
+      "tips": "日本人は serious と混同しがち。serious は「真剣な・重要な」という広い意味だが、severe は「深刻さの度合いが大きい・過酷」というネガティブなニュアンスが強い。例えば severe pain（激しい痛み）、serious problem（深刻な問題）と使い分ける。",
+      "confusables": "serious（深刻な、真剣な）との混同に注意。severe は程度が強く否定的な状況に使い、serious はより中立的に「重要・重大」という意味でも使える。",
+      "collocations": [
+        "severe weather（悪天候）",
+        "severe penalty（重い罰則）",
+        "severe shortage（深刻な不足）"
+      ],
+      "trivia": "医療現場では severe は病状の重篤度を示す専門用語としても使われ、mild・moderate・severe の3段階分類がよく登場する。コロナ禍でも世界中で耳にした単語だ。"
+    },
+    "frequency": 950,
+    "cefr": "B1"
+  },
+  {
+    "id": 393,
+    "word": "visual",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "視覚的な、視覚に関する",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "目に見える",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈvɪʒuəl/",
+    "syllables": "vi-su-al",
+    "audioHint": "ヴィジュアル",
+    "examples": [
+      {
+        "en": "The presentation used strong visual aids to explain the data.",
+        "ja": "プレゼンテーションはデータを説明するために強力な視覚補助を使った。",
+        "blank": "The presentation used strong ___ aids to explain the data.",
+        "blankAnswer": "visual"
+      }
+    ],
+    "distractors": [
+      "聴覚的な",
+      "国内の",
+      "典型的な"
+    ],
+    "confusableSpellings": [
+      "visuel",
+      "vizual",
+      "visuol"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'visus'（視覚）＋接尾辞 '-al'（〜に関する）から。'videre'（見る）が語根で、video（動画）や vision（視野）と同じファミリー。",
+      "tips": "日本語でも「ビジュアル系」などと使われるが、英語では名詞としても使える（visuals＝視覚資料）。発音は「ヴィジュアル」で、'vi-su' の部分を「ヴィジュ」と読む点に注意。",
+      "confusables": "visible（目に見える）と混同しやすい。visual は「視覚に関する・視覚的な」という属性を表し、visible は「実際に見えている状態」を示す。visual effect（視覚効果）、visible change（目に見える変化）のように使い分ける。",
+      "collocations": [
+        "visual effect（視覚効果）",
+        "visual art（視覚芸術）",
+        "visual information（視覚情報）"
+      ],
+      "trivia": "映画業界の「VFX（Visual Effects）」もこの単語が元。ハリウッド大作の魔法のような映像は全部 visual の世界だ！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 394,
+    "word": "enormous",
+    "pos": "adjective",
+    "categoryId": 18,
+    "meanings": [
+      {
+        "meaning": "巨大な、膨大な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "非常に大きな",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ɪˈnɔːrməs/",
+    "syllables": "e-nor-mous",
+    "audioHint": "イノーマス",
+    "examples": [
+      {
+        "en": "There is an enormous difference between the two proposals.",
+        "ja": "2つの提案の間には巨大な違いがある。",
+        "blank": "There is an ___ difference between the two proposals.",
+        "blankAnswer": "enormous"
+      }
+    ],
+    "distractors": [
+      "深刻な",
+      "一定の",
+      "わずかな"
+    ],
+    "confusableSpellings": [
+      "enormus",
+      "enourmous",
+      "enormouse"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'enormis' から。'e-'（外に）＋'norma'（規則・基準）で「規格外の」が原義。つまり「ふつうの物差しでは測れないほど大きい」というニュアンス。",
+      "tips": "huge・large・big と比べて enormous は「想像を超えるほど大きい」という誇張の強いニュアンス。また an enormous amount of money のように amount とのコロケーションが非常に頻繁。",
+      "confusables": "huge（巨大な）、immense（広大な）との違いに注意。enormous は「規格外に大きい」、huge は口語的なカジュアル表現、immense は広がりや広大さに重点が置かれる。",
+      "collocations": [
+        "enormous amount（膨大な量）",
+        "enormous pressure（大きなプレッシャー）",
+        "enormous impact（多大な影響）"
+      ],
+      "trivia": "norma はもともと大工が使う「直角定規」のこと。enormous はその定規でも測れないほどの大きさ、という語源が想像するとちょっと面白い！"
+    },
+    "frequency": 1300,
+    "cefr": "B1"
+  },
+  {
+    "id": 395,
+    "word": "convenient",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "便利な、都合のよい",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "手軽な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/kənˈviːniənt/",
+    "syllables": "con-ve-ni-ent",
+    "audioHint": "コンヴィーニエント",
+    "examples": [
+      {
+        "en": "Is it convenient for you to meet tomorrow afternoon?",
+        "ja": "明日の午後、会うのはご都合よろしいですか？",
+        "blank": "Is it ___ for you to meet tomorrow afternoon?",
+        "blankAnswer": "convenient"
+      }
+    ],
+    "distractors": [
+      "絶え間ない",
+      "典型的な",
+      "視覚的な"
+    ],
+    "confusableSpellings": [
+      "convienient",
+      "conveniant",
+      "convinient"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'convenire'（一致する、集まる）から。'con-'（共に）＋'venire'（来る）。「自分の都合に合わせてくれる」イメージ。",
+      "tips": "日本人が最も間違えるスペルの一つ。'convenient' の中に 'veni' があると覚えると良い。また「コンビニ」の英語表現は convenience store で、convenient とは品詞が異なる点にも注意。",
+      "confusables": "comfortable（快適な）と混同しやすいが、convenient は「都合がよい・使い勝手がよい」、comfortable は「身体的・精神的に快適な」という違いがある。",
+      "collocations": [
+        "convenient location（便利な立地）",
+        "convenient time（都合のよい時間）",
+        "convenient store（コンビニ）"
+      ],
+      "trivia": "日本の「コンビニ（convenience store）」はその便利さが世界に認められ、今や英語圏でも 'konbini' という日本語がそのまま使われる国もある！"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 396,
+    "word": "domestic",
+    "pos": "adjective",
+    "categoryId": 17,
+    "meanings": [
+      {
+        "meaning": "国内の、家庭の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "家庭的な",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/dəˈmestɪk/",
+    "syllables": "do-mes-tic",
+    "audioHint": "ドメスティック",
+    "examples": [
+      {
+        "en": "The government focused on domestic issues this year.",
+        "ja": "政府は今年、国内問題に焦点を当てた。",
+        "blank": "The government focused on ___ issues this year.",
+        "blankAnswer": "domestic"
+      }
+    ],
+    "distractors": [
+      "視覚的な",
+      "海外の",
+      "典型的な"
+    ],
+    "confusableSpellings": [
+      "domestik",
+      "domastic",
+      "domesttic"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'domus'（家）＋'-esticus'（〜に属する）から。domino（ドミノ）や domicile（住所）も同じ語根。「家に関係する」が原義。",
+      "tips": "domestic には「国内の」と「家庭の」の両方の意味がある。domestic flight（国内線）と domestic violence（家庭内暴力）では全く文脈が異なるので注意。",
+      "confusables": "overseas（海外の）や foreign（外国の）との対比で覚えると便利。domestic market（国内市場）⇔ foreign market（海外市場）のように使い分ける。",
+      "collocations": [
+        "domestic violence（家庭内暴力）",
+        "domestic flight（国内線）",
+        "domestic market（国内市場）"
+      ],
+      "trivia": "猫や犬が 'domestic animals'（飼い慣らされた動物）と呼ばれるのもこの単語から。野生のネコ科（wild cat）と家ネコ（domestic cat）の違いもここから来ている！"
+    },
+    "frequency": 1050,
+    "cefr": "B1"
+  },
+  {
+    "id": 397,
+    "word": "mass",
+    "pos": "adjective",
+    "categoryId": 14,
+    "meanings": [
+      {
+        "meaning": "大量の、大規模な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "集団の、大衆の",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/mæs/",
+    "syllables": "mass",
+    "audioHint": "マス",
+    "examples": [
+      {
+        "en": "Social media enables mass communication worldwide.",
+        "ja": "ソーシャルメディアは世界規模の大量コミュニケーションを可能にする。",
+        "blank": "Social media enables ___ communication worldwide.",
+        "blankAnswer": "mass"
+      }
+    ],
+    "distractors": [
+      "一定の",
+      "深刻な",
+      "便利な"
+    ],
+    "confusableSpellings": [
+      "maas",
+      "mase",
+      "masss"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'massa'（塊、かたまり）から。ギリシャ語 'maza'（大麦の塊）が起源とされる。「大きな塊」というイメージから「大量・大規模」へ意味が広がった。",
+      "tips": "mass は名詞（量・塊）、形容詞（大規模な）、動詞（集める）と多品詞で使われる。mass production（大量生産）、mass media（マスメディア）のように複合語で覚えると便利。",
+      "confusables": "massive（巨大な、大規模な）と混同しやすい。mass は「大衆・大量」という集合的な意味、massive は「重量・規模が非常に大きい」という物理的サイズのニュアンスが強い。",
+      "collocations": [
+        "mass production（大量生産）",
+        "mass media（マスメディア）",
+        "mass destruction（大量破壊）"
+      ],
+      "trivia": "物理の『質量』も mass（例：mass of an object）。アインシュタインの有名な E=mc² の m がまさにこの mass！日常語と物理用語が同じ単語というのが面白い。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 398,
+    "word": "typical",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "典型的な、代表的な",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "いつもの、おきまりの",
+        "pos": "adjective"
+      }
+    ],
+    "pronunciation": "/ˈtɪpɪkəl/",
+    "syllables": "typ-i-cal",
+    "audioHint": "ティピカル",
+    "examples": [
+      {
+        "en": "This is a typical example of how the system works.",
+        "ja": "これはシステムがどのように機能するかの典型的な例だ。",
+        "blank": "This is a ___ example of how the system works.",
+        "blankAnswer": "typical"
+      }
+    ],
+    "distractors": [
+      "絶え間ない",
+      "便利な",
+      "膨大な"
+    ],
+    "confusableSpellings": [
+      "typicle",
+      "typicall",
+      "tipcal"
+    ],
+    "passive": {
+      "etymology": "ギリシャ語 'typos'（型・印）＋'-ical'（〜の性質を持つ）から。type（タイプ）と同じ語根。「ある型（タイプ）の特徴をよく表している」が原義。",
+      "tips": "Typical! は日常英会話で「またいつものやつ！」「相変わらずだね！」という皮肉や呆れを表すフレーズとして頻出。試験では typical of〜（〜に特徴的な）という前置詞とのコロケーションもよく問われる。",
+      "confusables": "common（一般的な、よくある）との違いに注意。typical は「その種のものを代表している」というニュアンスが強く、common は「頻繁に起こる・広く見られる」という頻度の意味が強い。",
+      "collocations": [
+        "typical example（典型例）",
+        "typical of〜（〜に典型的な）",
+        "typical day（いつもの一日）"
+      ],
+      "trivia": "活字印刷の『活字（type）』と同じ語源。つまり typical は「型通りに印刷されたような」という意味合いから来ている。印刷技術が言語に与えた影響は実は大きい！"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 399,
+    "word": "overseas",
+    "pos": "adjective",
+    "categoryId": 15,
+    "meanings": [
+      {
+        "meaning": "海外の、外国の",
+        "pos": "adjective"
+      },
+      {
+        "meaning": "海外へ、海外で",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈsiːz/",
+    "syllables": "o-ver-seas",
+    "audioHint": "オーヴァーシーズ",
+    "examples": [
+      {
+        "en": "She has been working overseas for three years.",
+        "ja": "彼女は3年間海外で働いている。",
+        "blank": "She has been working ___ for three years.",
+        "blankAnswer": "overseas"
+      }
+    ],
+    "distractors": [
+      "国内の",
+      "典型的な",
+      "一定の"
+    ],
+    "confusableSpellings": [
+      "oversea",
+      "overseaz",
+      "oversees"
+    ],
+    "passive": {
+      "etymology": "'over'（〜を越えて）＋'seas'（海々）から成る複合語。海を越えた先＝外国というシンプルで直感的な語源。",
+      "tips": "overseas は形容詞・副詞の両方として使えるが、常に同じ形（overseasに -s は不要）。日本人は overseas に不要な 's' を付けたり付けなかったりしがちだが、常に 'overseas' のまま変化しない。",
+      "confusables": "abroad（海外へ・海外で）との違いに注意。overseas は「海を渡った先」という地理的ニュアンスがあり、abroad はより広く「外国」を指す。ヨーロッパ内の移動には abroad は使えるが overseas はやや不自然。",
+      "collocations": [
+        "overseas travel（海外旅行）",
+        "overseas market（海外市場）",
+        "study overseas（海外留学する）"
+      ],
+      "trivia": "イギリス英語では overseas が特に頻出で、かつて大英帝国が海を越えて植民地を持っていた歴史的背景から、overseas territories（海外領土）という言葉が現在も使われている。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 400,
+    "word": "nevertheless",
+    "pos": "adverb",
+    "categoryId": 0,
+    "meanings": [
+      {
+        "meaning": "それにもかかわらず、それでも",
+        "pos": "adverb"
+      },
+      {
+        "meaning": "とはいえ",
+        "pos": "adverb"
+      }
+    ],
+    "pronunciation": "/ˌnevərðəˈles/",
+    "syllables": "nev-er-the-less",
+    "audioHint": "ネヴァーザレス",
+    "examples": [
+      {
+        "en": "The task was difficult; nevertheless, she completed it.",
+        "ja": "その課題は難しかった。それでも彼女はやり遂げた。",
+        "blank": "The task was difficult; ___, she completed it.",
+        "blankAnswer": "nevertheless"
+      }
+    ],
+    "distractors": [
+      "したがって",
+      "さらに",
+      "例えば"
+    ],
+    "confusableSpellings": [
+      "neverthless",
+      "nevertheles",
+      "neverthe-less"
+    ],
+    "passive": {
+      "etymology": "'never'（決して〜ない）＋'the'（それでも）＋'less'（より少なく）が合わさった複合副詞。「それが少なくなることなく＝それにもかかわらず」という構造。",
+      "tips": "however と同じ意味で使えるが、nevertheless の方がよりフォーマルで書き言葉的。セミコロン（;）の後や文頭に置いてコンマを続ける使い方が論文・ビジネス文書で頻出。",
+      "confusables": "however（しかし）、nonetheless（それでもやはり）との違いに注意。nonetheless と nevertheless はほぼ同義だが、nonetheless の方がやや口語的。however は単純な逆接、nevertheless は「困難や否定的な状況にもかかわらず」という強い逆接のニュアンス。",
+      "collocations": [
+        "nevertheless, it is important（それでも重要だ）",
+        "nevertheless possible（それでも可能な）",
+        "nevertheless decided（それでも決意した）"
+      ],
+      "trivia": "never＋the＋less という3語が合体した単語。テイラー・スウィフトの曲タイトルや映画タイトルにも好んで使われるほど「ドラマチックな逆転」を演出できる単語として人気！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  }
+]

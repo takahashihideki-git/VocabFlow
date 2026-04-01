@@ -1,0 +1,992 @@
+[
+  {
+    "id": 901,
+    "word": "chase",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "追いかける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "追い求める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/tʃeɪs/",
+    "syllables": "chase",
+    "audioHint": "チェイス",
+    "examples": [
+      {
+        "en": "The dog chased the cat across the yard.",
+        "ja": "犬は猫を追いかけて庭を横切った。",
+        "blank": "The dog ___ the cat across the yard.",
+        "blankAnswer": "chased"
+      }
+    ],
+    "distractors": [
+      "見つめる",
+      "滑る",
+      "漂う"
+    ],
+    "confusableSpellings": [
+      "chaise",
+      "chace"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'chacier'（狩る）に由来。ラテン語 'captiare'（捕まえようとする）が語根で、capture（捕まえる）と同じ系統。",
+      "tips": "chase は「物理的に追う」だけでなく、chase a dream（夢を追う）のように抽象的な目標にも使える。日本人は「追いかける」を follow と言いがちだが、follow は「ついて行く」、chase は「必死に追う」ニュアンスがある。",
+      "confusables": "follow（ついていく・穏やかに後をたどる）との違いに注意。chase には「必死さ・速さ・距離感」がある。pursue はさらにフォーマルで、長期的な追求に使う。",
+      "collocations": [
+        "chase after ~",
+        "chase a dream",
+        "high-speed chase"
+      ],
+      "trivia": "映画やゲームの「カーチェイス」は和製英語っぽく聞こえるが、英語でも car chase と言う。ハリウッド映画には欠かせない定番シーンで、英語圏でも「chase scene」は映画用語として定着している。"
+    },
+    "frequency": 1800,
+    "cefr": "A2"
+  },
+  {
+    "id": 902,
+    "word": "sue",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "訴える（法的に）",
+        "pos": "verb"
+      },
+      {
+        "meaning": "損害賠償を求める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/suː/",
+    "syllables": "sue",
+    "audioHint": "スー",
+    "examples": [
+      {
+        "en": "She decided to sue the company for wrongful dismissal.",
+        "ja": "彼女は不当解雇で会社を訴えることにした。",
+        "blank": "She decided to ___ the company for wrongful dismissal.",
+        "blankAnswer": "sue"
+      }
+    ],
+    "distractors": [
+      "交渉する",
+      "謝罪する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "sew",
+      "su"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'sivre'（後を追う）、ラテン語 'sequi'（従う・追う）に由来。sequence や sequel も同じ語根。もとは「請願する・求める」という意味から法的な意味に発展。",
+      "tips": "sue は必ず「法的に訴える」文脈で使う。日本語の「訴える」には感情的に訴えるという意味もあるが、sue は法廷の話のみ。感情的に訴えるなら appeal to や plead を使う。",
+      "confusables": "accuse（告発する・非難する）は刑事的・口頭的な非難で、必ずしも裁判を伴わない。sue は民事訴訟で損害賠償を求める行為。prosecute は検察が刑事訴追する場合に使う。",
+      "collocations": [
+        "sue for damages",
+        "sue someone over ~",
+        "threaten to sue"
+      ],
+      "trivia": "アメリカは世界でも訴訟大国として有名で、マクドナルドのコーヒーが熱すぎたとして客が sue したケース（1994年）は世界的に有名。I'll sue you! はアメリカのドラマで頻出のセリフ。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 903,
+    "word": "gaze",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "じっと見つめる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "凝視する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡeɪz/",
+    "syllables": "gaze",
+    "audioHint": "ゲイズ",
+    "examples": [
+      {
+        "en": "He gazed at the stars for hours without speaking.",
+        "ja": "彼は何時間も無言で星を見つめていた。",
+        "blank": "He ___ at the stars for hours without speaking.",
+        "blankAnswer": "gazed"
+      }
+    ],
+    "distractors": [
+      "追いかける",
+      "さまよう",
+      "注ぎ込む"
+    ],
+    "confusableSpellings": [
+      "gase",
+      "gaize"
+    ],
+    "passive": {
+      "etymology": "スカンジナビア語起源とされ、古ノルド語の 'gá'（気にする・注目する）に関連するとも言われる。語源は完全には確定していないが、15世紀ごろから英語に登場。",
+      "tips": "gaze は「長時間・ぼんやりと・または感情を込めて」見つめる場合に使う。look（ただ見る）や stare（驚きや無礼さを伴う凝視）と区別しよう。gaze には「詩的・ロマンチック」なニュアンスがある。",
+      "confusables": "stare は「失礼なほどじっと見る・驚いて見る」ニュアンスがあり、gaze はより穏やかで詩的。glance は「ちらっと見る」で、gaze と正反対の短い視線。",
+      "collocations": [
+        "gaze at ~",
+        "gaze into someone's eyes",
+        "fixed gaze"
+      ],
+      "trivia": "「male gaze（男性の視線）」という言葉は映画・フェミニズム理論で有名な用語。1975年に映画評論家ローラ・マルヴィが提唱し、今もSNSで頻繁に使われるバズワードになっている。"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 904,
+    "word": "slip",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "滑る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "こっそり動く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/slɪp/",
+    "syllables": "slip",
+    "audioHint": "スリップ",
+    "examples": [
+      {
+        "en": "She slipped on the wet floor and fell down.",
+        "ja": "彼女は濡れた床で滑って転んだ。",
+        "blank": "She ___ on the wet floor and fell down.",
+        "blankAnswer": "slipped"
+      }
+    ],
+    "distractors": [
+      "浮かぶ",
+      "追いかける",
+      "じっと見る"
+    ],
+    "confusableSpellings": [
+      "slipp",
+      "sliip"
+    ],
+    "passive": {
+      "etymology": "中世低地ドイツ語 'slippen' またはオランダ語 'slippen' に由来。「滑らかに動く」という意味の Germanic 語根 *slīp- から。",
+      "tips": "slip には物理的に滑る意味のほか、slip out of the room（こっそり部屋を出る）、slip one's mind（うっかり忘れる）など慣用表現が豊富。Freudian slip（フロイト的失言）も頻出表現。",
+      "confusables": "slide は意図的・滑らかに滑る動作（スライドショーなど）で、slip は予期しない・不意の滑りを意味することが多い。skid は主に車やタイヤが滑る場面に使う。",
+      "collocations": [
+        "slip on ~",
+        "slip away",
+        "Freudian slip"
+      ],
+      "trivia": "「freudian slip（フロイトのスリップ）」は、本音が無意識に口から出てしまう言い間違いのこと。例えば会議で上司に向かって「Thanks, Mom」と言ってしまうアレ。英語圏のコメディでは定番ネタ。"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 905,
+    "word": "load",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "積み込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "読み込む（データを）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/loʊd/",
+    "syllables": "load",
+    "audioHint": "ロウド",
+    "examples": [
+      {
+        "en": "The workers loaded the boxes onto the truck quickly.",
+        "ja": "作業員たちはすばやくトラックに箱を積み込んだ。",
+        "blank": "The workers ___ the boxes onto the truck quickly.",
+        "blankAnswer": "loaded"
+      }
+    ],
+    "distractors": [
+      "取り外す",
+      "分類する",
+      "交換する"
+    ],
+    "confusableSpellings": [
+      "loade",
+      "lode"
+    ],
+    "passive": {
+      "etymology": "古英語 'lad'（道・旅・運搬）に由来。もともとは「運ぶこと・荷物」を意味し、lead（導く）と同じ語根を共有する。現代では IT 用語としても定着。",
+      "tips": "load は「荷物を積む」物理的な意味と、「ページ・データを読み込む」IT的な意味の両方で使う。日本語の「ロード」はゲームの「ロード画面」としておなじみだが、英語の load はもっと広い意味を持つ。",
+      "confusables": "unload は「荷物を降ろす・アンロードする」と逆の意味。upload（アップロード）と download（ダウンロード）も混同注意。load は「取り込む・積む」方向のアクション。",
+      "collocations": [
+        "load data",
+        "load the dishwasher",
+        "a heavy load"
+      ],
+      "trivia": "「loaded question（誘導尋問・罠の質問）」という表現がある。また loaded は「お金持ちの」という俗語にもなっており、He's loaded. で「彼はめちゃくちゃ金持ちだ」という意味になる。"
+    },
+    "frequency": 1200,
+    "cefr": "A2"
+  },
+  {
+    "id": 906,
+    "word": "overwhelm",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "圧倒する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "打ちのめす",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈwɛlm/",
+    "syllables": "o-ver-whelm",
+    "audioHint": "オウヴァウェルム",
+    "examples": [
+      {
+        "en": "The amount of homework overwhelmed her completely.",
+        "ja": "宿題の量が彼女を完全に圧倒した。",
+        "blank": "The amount of homework ___ her completely.",
+        "blankAnswer": "overwhelmed"
+      }
+    ],
+    "distractors": [
+      "説得する",
+      "理解する",
+      "伝える"
+    ],
+    "confusableSpellings": [
+      "overwelm",
+      "ovewhelm"
+    ],
+    "passive": {
+      "etymology": "over-（上から・完全に）＋ whelm（覆う・押し流す）。whelm 自体が古英語 'hwelman'（転覆させる）に由来。over- が加わることで「完全に飲み込む」という強意が生まれた。",
+      "tips": "日本人学習者は overwhelmed（過去分詞）を形容詞として使うケースが最頻出。I'm overwhelmed.（圧倒されている・いっぱいいっぱいだ）は日常的な感情表現としてとても便利。ポジティブな圧倒にも使える（感動して涙が出るほど嬉しい等）。",
+      "confusables": "overpower は物理的な力で圧倒する場合に多く使い、overwhelm は感情・量・情報などで「飲み込まれる感覚」を表す。overcome は困難を「乗り越える」という意味で、方向性が逆。",
+      "collocations": [
+        "feel overwhelmed",
+        "overwhelm with kindness",
+        "overwhelmingly positive"
+      ],
+      "trivia": "SNS 時代の現代では「情報に overwhelmed される」感覚は世界共通。心理学では information overload と呼ばれ、スマホの通知が多すぎて思考停止する現象がまさにこれ。"
+    },
+    "frequency": 2200,
+    "cefr": "B2"
+  },
+  {
+    "id": 907,
+    "word": "wander",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "さまよう",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ぶらぶら歩く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈwɒndər/",
+    "syllables": "wan-der",
+    "audioHint": "ワンダー",
+    "examples": [
+      {
+        "en": "We wandered through the old streets of the city.",
+        "ja": "私たちは街の古い通りをぶらぶら歩いた。",
+        "blank": "We ___ through the old streets of the city.",
+        "blankAnswer": "wandered"
+      }
+    ],
+    "distractors": [
+      "追いかける",
+      "滑る",
+      "浮かぶ"
+    ],
+    "confusableSpellings": [
+      "wander",
+      "wonder"
+    ],
+    "passive": {
+      "etymology": "古英語 'wandrian'（さまよう・移動する）に由来。Germanic 語根 *wand-（曲がる・向きを変える）から派生し、決まった目的地なく動き回るイメージが語源に込められている。",
+      "tips": "wander と wonder（驚く・不思議に思う）は発音が非常に似ており、スペルミスも多い。wander は「a」が「an」の音（ワンダー）、wonder は「o」が「ワ」に近い（ワンダー）と同じに聞こえるので文脈で判断しよう。",
+      "confusables": "roam は wander よりも広い範囲をさまよう意味合いがある（roam the earth）。stroll はのんびりした散歩で意図的・リラックスした歩き方。wander は目的がなく、少し迷子感がある。",
+      "collocations": [
+        "wander around",
+        "wander off",
+        "mind wanders"
+      ],
+      "trivia": "「my mind wanders」は集中できずに考えが別のところへいってしまう状態の表現。授業中・会議中に誰もが経験するあの状態の英語がこれ。Coldplay の歌詞や文学にも頻出する詩的な動詞。"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 908,
+    "word": "float",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "浮かぶ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "漂う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/floʊt/",
+    "syllables": "float",
+    "audioHint": "フロウト",
+    "examples": [
+      {
+        "en": "The boat floated gently on the calm river.",
+        "ja": "ボートは穏やかな川の上に静かに浮かんでいた。",
+        "blank": "The boat ___ gently on the calm river.",
+        "blankAnswer": "floated"
+      }
+    ],
+    "distractors": [
+      "滑る",
+      "さまよう",
+      "追いかける"
+    ],
+    "confusableSpellings": [
+      "floate",
+      "flote"
+    ],
+    "passive": {
+      "etymology": "古英語 'flotian'（浮く・流れる）に由来。古ノルド語 'flota' も関連。fleet（艦隊）や flow（流れる）と同じ Indo-European 語根 *pleu-（流れる・泳ぐ）から派生。",
+      "tips": "float は物理的に「水面に浮かぶ」以外に、float an idea（アイデアを試しに出してみる）という比喩的な使い方も重要。ビジネス英語でも使われる。また株式の「上場」も float という（float on the stock market）。",
+      "confusables": "sink は float の反意語（沈む）。fly は空中に浮く場合で、float は水上または空気中をゆっくり漂う感じ。drift も似ているが、流されてどこかへ行くニュアンスが強い。",
+      "collocations": [
+        "float on water",
+        "float an idea",
+        "float to the surface"
+      ],
+      "trivia": "「float like a butterfly, sting like a bee」はボクシングの伝説モハメド・アリの名言。この言葉でアリの動きの軽やかさと攻撃力が一文に凝縮されている。英語圏では誰もが知る名フレーズ。"
+    },
+    "frequency": 2000,
+    "cefr": "A2"
+  },
+  {
+    "id": 909,
+    "word": "pour",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "注ぐ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "どしゃ降りに降る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/pɔːr/",
+    "syllables": "pour",
+    "audioHint": "ポー",
+    "examples": [
+      {
+        "en": "She poured a cup of coffee for her guest.",
+        "ja": "彼女はゲストにコーヒーを一杯注いだ。",
+        "blank": "She ___ a cup of coffee for her guest.",
+        "blankAnswer": "poured"
+      }
+    ],
+    "distractors": [
+      "浮かぶ",
+      "さまよう",
+      "滑る"
+    ],
+    "confusableSpellings": [
+      "pore",
+      "poure"
+    ],
+    "passive": {
+      "etymology": "中英語 'pouren' に由来するが、それ以前の語源は不明瞭。フランス語や Celtic 語との関連が議論されている。14世紀ごろから「液体を流し込む」意味で英語に登場。",
+      "tips": "pour と pore（毛穴・熟読する）は同音異義語（ホモフォン）でスペルミスが多い。pour rain（どしゃ降り）は It's pouring. と言えば「滝のような雨だ」という意味になる慣用表現として重要。",
+      "confusables": "spill は「こぼす」で意図せず液体が流れ出る場合。pour は意図的に容器から液体を注ぐ動作。drip は「したたる・ぽたぽた垂れる」でより少量の液体の動き。",
+      "collocations": [
+        "pour a drink",
+        "pour into ~",
+        "it's pouring"
+      ],
+      "trivia": "「pour one's heart out」は「胸の内を全部打ち明ける」という意味の慣用句。英語圏では友達に悩みを全部話すとき、She poured her heart out to me. という表現がよく使われる。まさに心を「注ぎ出す」イメージ。"
+    },
+    "frequency": 1700,
+    "cefr": "A2"
+  },
+  {
+    "id": 910,
+    "word": "substitute",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "代替する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人や物を）置き換える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsʌbstɪtjuːt/",
+    "syllables": "sub-sti-tute",
+    "audioHint": "サブスティテュート",
+    "examples": [
+      {
+        "en": "You can substitute honey for sugar in this recipe.",
+        "ja": "このレシピでは砂糖の代わりにはちみつが使えます。",
+        "blank": "You can ___ honey for sugar in this recipe.",
+        "blankAnswer": "substitute"
+      }
+    ],
+    "distractors": [
+      "積み込む",
+      "分解する",
+      "修正する"
+    ],
+    "confusableSpellings": [
+      "subsitute",
+      "substitue"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'substituere'（代わりに置く）に由来。sub-（下に・代わりに）＋ statuere（立てる・置く）で構成。statue（彫像）や constitution（憲法）も同じ 'statuere' 語根を持つ。",
+      "tips": "substitute A for B（AでBを置き換える）の語順に注意。日本語で「BをAで代替する」と考えると語順が逆になりがち。substitute honey for sugar = 砂糖→はちみつに変える、と覚えよう。replace も同義だが replace B with A の語順になる点も混同しやすい。",
+      "confusables": "replace は「古いものを新しいもので取り替える」という完全な置き換えで、一方 substitute は「代役・代替品」として一時的・機能的な置き換えのニュアンスが強い。exchange は双方向の「交換」。",
+      "collocations": [
+        "substitute for ~",
+        "substitute teacher",
+        "a suitable substitute"
+      ],
+      "trivia": "サッカーの「交代選手」は英語で substitute（略して sub）と言う。The coach made a substitute in the second half. のように使う。スポーツ中継では頻出単語で、ゲームの FIFA シリーズでもおなじみ。"
+    },
+    "frequency": 3000,
+    "cefr": "B2"
+  },
+  {
+    "id": 911,
+    "word": "pronounce",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "発音する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "宣言する・言い渡す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈnaʊns/",
+    "syllables": "pro-nounce",
+    "audioHint": "プラナウンス",
+    "examples": [
+      {
+        "en": "Can you pronounce this word correctly?",
+        "ja": "この単語を正しく発音できますか？",
+        "blank": "Can you ___ this word correctly?",
+        "blankAnswer": "pronounce"
+      }
+    ],
+    "distractors": [
+      "理解する",
+      "記憶する",
+      "翻訳する"
+    ],
+    "confusableSpellings": [
+      "pronunce",
+      "pronounse",
+      "prononce"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'pronuntiare' から。pro-（前へ）+ nuntiare（知らせる・告げる）。「前に向かって告げる」が原義。",
+      "tips": "『発音する』の意味で使うとき、pronounce は他動詞なので pronounce the word のように目的語を取る。『発音の仕方』は pronunciation（名詞）で、pronounciation とスペルしがちだが誤り。",
+      "confusables": "pronunciation（名詞）とのスペルの違いに注意。動詞は pronounce（ou）だが名詞は pronunciation（u）と形が変わる。announce（発表する）と混同しないこと。",
+      "collocations": [
+        "pronounce a word",
+        "pronounce sentence（判決を言い渡す）",
+        "pronounce someone dead"
+      ],
+      "trivia": "法廷で判事が『有罪』を宣告するときも pronounce を使う（pronounce someone guilty）。『発音する』と『宣告する』が同じ単語なのは「声に出して公式に告げる」という共通のコアがあるから！"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 912,
+    "word": "shrink",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "縮む・縮小する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "ひるむ・尻込みする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ʃrɪŋk/",
+    "syllables": "shrink",
+    "audioHint": "シュリンク",
+    "examples": [
+      {
+        "en": "My sweater shrank after I washed it in hot water.",
+        "ja": "お湯で洗ったらセーターが縮んでしまった。",
+        "blank": "My sweater ___ after I washed it in hot water.",
+        "blankAnswer": "shrank"
+      }
+    ],
+    "distractors": [
+      "膨らむ",
+      "跳び上がる",
+      "震える"
+    ],
+    "confusableSpellings": [
+      "shrunk（過去形として誤用）",
+      "shrik",
+      "schink"
+    ],
+    "passive": {
+      "etymology": "古英語 'scrincan'（縮む）に由来。ゲルマン語系の語根で、スウェーデン語 skrynkla（しわ）と同族。",
+      "tips": "不規則活用に注意。shrink – shrank – shrunk。ただし口語では shrunk を過去形にも使う人が多い。また『精神科医』のスラングとして shrink が使われるが、これは別の話。",
+      "confusables": "shrink（縮む）vs. squeeze（絞る・押しつぶす）。shrink は自然に小さくなるイメージ、squeeze は外から力を加えて縮める違い。",
+      "collocations": [
+        "shrink from（～を避ける）",
+        "shrink in the wash（洗濯で縮む）",
+        "shrink wrap（シュリンクラップ）"
+      ],
+      "trivia": "スラングで psychiatrist（精神科医）を shrink と呼ぶのは、かつて「頭を縮める（head-shrinker）」という皮肉表現から来た。頭を本当に縮める部族の慣習が起源とも言われている！"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 913,
+    "word": "restore",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "回復させる・元に戻す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "修復する・復元する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈstɔːr/",
+    "syllables": "re-store",
+    "audioHint": "リストア",
+    "examples": [
+      {
+        "en": "The team worked hard to restore the old painting.",
+        "ja": "チームは古い絵画を修復するために懸命に取り組んだ。",
+        "blank": "The team worked hard to ___ the old painting.",
+        "blankAnswer": "restore"
+      }
+    ],
+    "distractors": [
+      "破壊する",
+      "置き換える",
+      "収集する"
+    ],
+    "confusableSpellings": [
+      "resotre",
+      "restoer",
+      "retsore"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'restaurare' から。re-（再び）+ staurare（立てる・据える）。「再び元の位置に据える」が原義。restaurant（レストラン）も同じ語源！",
+      "tips": "restore は『元あった状態に戻す』ニュアンスが強い。repair（修理する）と混同しがちだが、restore は歴史的・美術的な修復や、健康・秩序の回復にも使う。ITでもファイルの restore（復元）として日常的に使われる。",
+      "confusables": "repair（物理的に壊れたものを直す）vs. restore（本来の状態・価値に戻す）。restore order（秩序を回復する）は repair では言えない。",
+      "collocations": [
+        "restore order",
+        "restore confidence",
+        "restore a building"
+      ],
+      "trivia": "レストランの語源も restore と同じ。18世紀のパリで『体力を回復させるスープ』を出す店を 'restaurant' と呼んだのが始まり。食事で元気を『回復する』から来ているのだ！"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 914,
+    "word": "trigger",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "引き起こす・誘発する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（銃の）引き金を引く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈtrɪɡər/",
+    "syllables": "trig-ger",
+    "audioHint": "トリガー",
+    "examples": [
+      {
+        "en": "Stress can trigger serious health problems.",
+        "ja": "ストレスは深刻な健康問題を引き起こすことがある。",
+        "blank": "Stress can ___ serious health problems.",
+        "blankAnswer": "trigger"
+      }
+    ],
+    "distractors": [
+      "防ぐ",
+      "解決する",
+      "強化する"
+    ],
+    "confusableSpellings": [
+      "tigger",
+      "triiger",
+      "triggor"
+    ],
+    "passive": {
+      "etymology": "オランダ語 'trekker'（引くもの）から英語に入った。trek（旅する）と同族。銃の引き金という具体的意味から転じて『何かを引き起こす』という抽象的な意味に発展。",
+      "tips": "trigger は原因→結果の連鎖を強調する語。cause よりも『ある刺激が連鎖反応的に何かを起動させる』ニュアンスがある。SNSでは『感情的に傷つく内容』を指す trigger warning としても頻出。",
+      "confusables": "cause（単純な原因）vs. trigger（引き金・きっかけ）。trigger はある閾値を超えて反応が始まるイメージ。『アレルギーを引き起こす』は cause より trigger が自然。",
+      "collocations": [
+        "trigger a reaction",
+        "trigger an alarm",
+        "trigger warning"
+      ],
+      "trivia": "SNSで見かける 'TW'（Trigger Warning）の trigger はまさにこの単語。PTSD研究から派生したネット文化用語で、2010年代に爆発的に広まった。銃の引き金が心理的な『発火』の比喩になったわけだ！"
+    },
+    "frequency": 1800,
+    "cefr": "B2"
+  },
+  {
+    "id": 915,
+    "word": "grab",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "つかむ・引っつかむ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "素早く手に入れる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɡræb/",
+    "syllables": "grab",
+    "audioHint": "グラブ",
+    "examples": [
+      {
+        "en": "She grabbed her bag and ran out of the room.",
+        "ja": "彼女はバッグをつかんで部屋を飛び出した。",
+        "blank": "She ___ her bag and ran out of the room.",
+        "blankAnswer": "grabbed"
+      }
+    ],
+    "distractors": [
+      "放り投げる",
+      "押しつける",
+      "蹴る"
+    ],
+    "confusableSpellings": [
+      "grap",
+      "grabb",
+      "graab"
+    ],
+    "passive": {
+      "etymology": "中低地ドイツ語・オランダ語の 'grabben' に由来。スウェーデン語 grabba（つかむ）と同族。grope（手探りする）とも語根を共有する説がある。",
+      "tips": "grab は突然・素早くつかむイメージが強い。hold（持つ）や take（取る）より動作が速くて荒っぽい感じ。口語では『ちょっと食べる・飲む』にも使える（Let's grab a coffee.）。",
+      "confusables": "grasp（しっかり理解する・握る）vs. grab（素早くつかむ）。grasp には『理解する』の抽象的意味もあるが、grab にはない。",
+      "collocations": [
+        "grab a bite",
+        "grab attention",
+        "smash-and-grab"
+      ],
+      "trivia": "『注目を奪う』意味の grab attention は広告業界では必須表現。Clickbait（釣り見出し）も attention を grab することが目的。日本語の「つかみはOK」はまさに grab と同じ発想！"
+    },
+    "frequency": 1500,
+    "cefr": "A2"
+  },
+  {
+    "id": 916,
+    "word": "retain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "保持する・維持する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（記憶を）保つ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈteɪn/",
+    "syllables": "re-tain",
+    "audioHint": "リテイン",
+    "examples": [
+      {
+        "en": "It is hard to retain information without regular review.",
+        "ja": "定期的な復習なしに情報を記憶に留めるのは難しい。",
+        "blank": "It is hard to ___ information without regular review.",
+        "blankAnswer": "retain"
+      }
+    ],
+    "distractors": [
+      "放棄する",
+      "転換する",
+      "分配する"
+    ],
+    "confusableSpellings": [
+      "retian",
+      "rertain",
+      "retaen"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'retinere' から。re-（後ろに・再び）+ tenere（持つ・保つ）。『後ろに引き留めておく』が原義。contain, maintain, obtain もすべて tenere 族。",
+      "tips": "retain は『手放さずにキープする』ニュアンス。keep より改まった表現で、ビジネス・法律文書に頻出。『顧客を維持する』は retain customers、弁護士を雇い続けることも retain a lawyer という。",
+      "confusables": "maintain（維持・管理する）vs. retain（保持する・手放さない）。maintain は積極的に管理・保守するイメージ、retain は受動的に「失わずにいる」イメージ。",
+      "collocations": [
+        "retain moisture",
+        "retain customers",
+        "retain the right"
+      ],
+      "trivia": "記憶科学では retention rate（記憶保持率）という言葉をよく使う。エビングハウスの忘却曲線も『どれだけ retain できるか』の研究。勉強法の本では必ず出てくるキーワードだ！"
+    },
+    "frequency": 2400,
+    "cefr": "B2"
+  },
+  {
+    "id": 917,
+    "word": "reproduce",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "繁殖する・生殖する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "複製する・再現する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌriːprəˈdjuːs/",
+    "syllables": "re-pro-duce",
+    "audioHint": "リープロデュース",
+    "examples": [
+      {
+        "en": "Bacteria can reproduce very quickly under the right conditions.",
+        "ja": "バクテリアは適切な条件下で非常に速く繁殖できる。",
+        "blank": "Bacteria can ___ very quickly under the right conditions.",
+        "blankAnswer": "reproduce"
+      }
+    ],
+    "distractors": [
+      "消滅する",
+      "変異する",
+      "移動する"
+    ],
+    "confusableSpellings": [
+      "reporduce",
+      "reproduse",
+      "repoduce"
+    ],
+    "passive": {
+      "etymology": "re-（再び）+ produce（生み出す）。ラテン語 producere（前に導く）が produce の元。『再び生み出す』が原義で、生物学的繁殖と複製の両方に使われる。",
+      "tips": "reproduce は生物が増える場合と、音・画像・文書などを複製する場合の両方に使う。日本語では『繁殖』と『複製』は別の言葉だが、英語では同じ単語。文脈で意味を判断しよう。",
+      "confusables": "replicate（複製する・実験を再現する）vs. reproduce（繁殖する・複製する）。科学実験の再現は reproduce または replicate 両方使えるが、生物の繁殖は reproduce のみ。",
+      "collocations": [
+        "reproduce sexually",
+        "reproduce a sound",
+        "reproduce an image"
+      ],
+      "trivia": "コピー機の英語名は 'reproducer' や 'reproduction machine' とも呼ばれた時代があった。今はコピー機を copier と言うが、音楽業界では『音を再現する』意味で reproduction は今も現役！"
+    },
+    "frequency": 2600,
+    "cefr": "B1"
+  },
+  {
+    "id": 918,
+    "word": "bob",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "上下に揺れる・ひょこひょこ動く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "軽く会釈する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɒb/",
+    "syllables": "bob",
+    "audioHint": "ボブ",
+    "examples": [
+      {
+        "en": "The small boat bobbed up and down on the waves.",
+        "ja": "小さなボートが波の上で上下に揺れた。",
+        "blank": "The small boat ___ up and down on the waves.",
+        "blankAnswer": "bobbed"
+      }
+    ],
+    "distractors": [
+      "激しく震える",
+      "ゆっくり沈む",
+      "真っすぐ立つ"
+    ],
+    "confusableSpellings": [
+      "bobb",
+      "bobe",
+      "bop（別語）"
+    ],
+    "passive": {
+      "etymology": "中英語 'bobben' に由来。短く繰り返す動きを表す擬音語的な語。bob haircut（ボブカット）やボクシングの bob and weave も同じ語根から。",
+      "tips": "bob は水面で浮かびながら揺れるイメージが典型的。bob up and down というフレーズで覚えると使いやすい。名詞としても使え、ヘアスタイルの『ボブ』は短く切りそろえた様子が上下に揺れる動きに似ているから。",
+      "confusables": "bob（規則的に上下に揺れる）vs. sway（左右に揺れる）vs. rock（前後や左右に大きく揺れる）。揺れ方の方向と規模が異なる。",
+      "collocations": [
+        "bob up and down",
+        "bob for apples",
+        "bob one's head"
+      ],
+      "trivia": "ハロウィンの遊び『bob for apples』は水を張った桶にリンゴを浮かべ、手を使わずに口でくわえる遊び。まさに bob（上下に揺れる）動作そのもの！中世ヨーロッパ起源の占い遊びが起源とも言われている。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 919,
+    "word": "entertain",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "楽しませる・もてなす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（考えを）心に抱く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌentərˈteɪn/",
+    "syllables": "en-ter-tain",
+    "audioHint": "エンタテイン",
+    "examples": [
+      {
+        "en": "The comedian entertained the audience for two hours.",
+        "ja": "そのコメディアンは2時間観客を楽しませた。",
+        "blank": "The comedian ___ the audience for two hours.",
+        "blankAnswer": "entertained"
+      }
+    ],
+    "distractors": [
+      "激励する",
+      "説得する",
+      "批判する"
+    ],
+    "confusableSpellings": [
+      "entertian",
+      "entertein",
+      "entertaine"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'entretenir' から。entre-（間に）+ tenir（保つ）。『人々の間をつなぎとめておく』が原義。entertainment は『人々を引き留める何か』というわけだ。",
+      "tips": "entertain には『楽しませる』以外に『（考えを）検討に値するものとして受け入れる』という知的な意味もある（entertain an idea）。この意味を知っておくと上級英文読解で役立つ。",
+      "confusables": "amuse（軽く楽しませる・おかしさで笑わせる）vs. entertain（しっかりもてなす・楽しませる）。amusement park の amusement は軽い楽しさ、entertainment はもっと積極的なおもてなし。",
+      "collocations": [
+        "entertain guests",
+        "entertain an idea",
+        "entertain children"
+      ],
+      "trivia": "entertainment の語源は『引き留める』だが、現代の SNS やストリーミングサービスは文字通り人々の注意を引き留めるための技術競争をしている。スマホを手放せない現象は entertain の本質そのものかも！"
+    },
+    "frequency": 2200,
+    "cefr": "B1"
+  },
+  {
+    "id": 920,
+    "word": "interfere",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "干渉する・邪魔する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（物理的に）妨害する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌɪntərˈfɪər/",
+    "syllables": "in-ter-fere",
+    "audioHint": "インタフィア",
+    "examples": [
+      {
+        "en": "Please don't interfere with my work.",
+        "ja": "私の仕事に干渉しないでください。",
+        "blank": "Please don't ___ with my work.",
+        "blankAnswer": "interfere"
+      }
+    ],
+    "distractors": [
+      "支援する",
+      "観察する",
+      "同意する"
+    ],
+    "confusableSpellings": [
+      "interfear",
+      "interfer",
+      "intefere"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'inter'（間に）+ 'ferire'（打つ・当たる）から。『間に入って打撃を与える』が原義。フランス語経由で英語に入った。",
+      "tips": "interfere は必ず interfere with または interfere in という前置詞とセットで使う。interfere with は活動・物事への妨害、interfere in は他人の事柄への干渉というニュアンスがある。前置詞を忘れないこと！",
+      "confusables": "interrupt（中断させる）vs. interfere（干渉する・邪魔する）。interrupt は話や活動を一時的に止めること、interfere はより継続的・意図的な妨害や介入のイメージ。",
+      "collocations": [
+        "interfere with plans",
+        "interfere in politics",
+        "radio interference"
+      ],
+      "trivia": "物理学では光や音の『干渉』も interference と言う。2つの波が重なって強め合ったり打ち消し合ったりする現象だ。ノイズキャンセリングイヤホンはこの interference を逆用した技術——邪魔な音を『邪魔』で消している！"
+    },
+    "frequency": 2700,
+    "cefr": "B2"
+  }
+]

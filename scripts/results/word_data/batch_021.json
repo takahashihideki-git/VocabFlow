@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 401,
+    "word": "demonstrate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "実証する、示す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "デモを行う、抗議運動をする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdemənstreɪt/",
+    "syllables": "dem-on-strate",
+    "audioHint": "デモンストレイト",
+    "examples": [
+      {
+        "en": "She demonstrated how to use the new software.",
+        "ja": "彼女は新しいソフトウェアの使い方を実演した。",
+        "blank": "She ___ how to use the new software.",
+        "blankAnswer": "demonstrated"
+      }
+    ],
+    "distractors": [
+      "推薦する",
+      "認める",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "demonstrait",
+      "demonostrate",
+      "demonstate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'demonstrare' から。de-（完全に）+ monstrare（示す）の組み合わせ。'monster' と同じ語根 'monstr-' を持つ。",
+      "tips": "「デモンストレーション」はカタカナで馴染み深いが、動詞形は demonstrate。demonstrate that ～ で「～を証明する」、demonstrate how to ～ で「～の方法を示す」という形が頻出。",
+      "confusables": "show との違いに注意。demonstrate はより「証拠を示しながら説明・実演する」ニュアンスが強く、科学的・論理的な文脈でよく使われる。show は単に「見せる」全般に使える。",
+      "collocations": [
+        "demonstrate a skill",
+        "demonstrate that ～",
+        "clearly demonstrate"
+      ],
+      "trivia": "数学や科学論文で「証明する」意味で最もよく使われる動詞の一つ。街頭デモ（demonstration）もこの動詞が語源で、「考えを公に示す行為」という意味でつながっている。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 402,
+    "word": "behave",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "振る舞う、行動する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "お行儀よくする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/bɪˈheɪv/",
+    "syllables": "be-have",
+    "audioHint": "ビヘイヴ",
+    "examples": [
+      {
+        "en": "Please behave yourself at the dinner table.",
+        "ja": "食卓ではお行儀よくしてください。",
+        "blank": "Please ___ yourself at the dinner table.",
+        "blankAnswer": "behave"
+      }
+    ],
+    "distractors": [
+      "教育する",
+      "購入する",
+      "推薦する"
+    ],
+    "confusableSpellings": [
+      "behave",
+      "behavve",
+      "behav"
+    ],
+    "passive": {
+      "etymology": "be-（強調の接頭辞）+ have（持つ）から成り、「自分自身をある状態に保つ」という原義。中英語から現代英語へ受け継がれた。",
+      "tips": "behave oneself で「お行儀よくする」という意味になる。behave だけでも使えるが、命令文では Behave yourself! の形が自然。「行動する」の意味では behave like ～ や behave as if ～ が便利。",
+      "confusables": "act との違い：behave は社会的・道徳的な文脈での「ふるまい」を指すことが多く、act は「行動する・演じる」で中立的。また behavior（名詞）のスペルに注意（イギリス英語は behaviour）。",
+      "collocations": [
+        "behave well / badly",
+        "behave yourself",
+        "behave like a child"
+      ],
+      "trivia": "「behave」は子どもへの躾でよく使われるが、実は機械や物質の「動作・反応」を表す科学的文脈でも使われる。例：「How does this chemical behave under heat?（この化学物質は熱でどう反応するか？）」"
+    },
+    "frequency": 2800,
+    "cefr": "B1"
+  },
+  {
+    "id": 403,
+    "word": "educate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "教育する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "啓発する、知識を与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈedʒʊkeɪt/",
+    "syllables": "ed-u-cate",
+    "audioHint": "エデュケイト",
+    "examples": [
+      {
+        "en": "Parents should educate their children about online safety.",
+        "ja": "親は子どもたちにオンラインの安全について教育すべきだ。",
+        "blank": "Parents should ___ their children about online safety.",
+        "blankAnswer": "educate"
+      }
+    ],
+    "distractors": [
+      "振る舞う",
+      "推薦する",
+      "認める"
+    ],
+    "confusableSpellings": [
+      "educait",
+      "edjucate",
+      "educte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'educare'（育てる、引き出す）から。e-（外へ）+ ducare（導く）の構成で、「内にある能力を外へ引き出す」が原義。",
+      "tips": "educate は teach よりもフォーマルで広い意味を持つ。teach は具体的なスキルや知識の伝達、educate は人格形成や総合的な知性の育成に使われる。educate A about B（AにBについて教育する）の構文が重要。",
+      "confusables": "teach との使い分けが日本人には難しい。teach a subject（科目を教える）は可能だが、educate a subject とは言わない。educate は目的語に「人」を取ることが基本。",
+      "collocations": [
+        "educate the public",
+        "educate about ～",
+        "highly educated"
+      ],
+      "trivia": "「education」の語源「内なるものを引き出す」という考えは、ソクラテスの問答法（産婆術）の哲学と一致している。つまり教育とは「知識を詰め込む」ではなく「引き出すもの」という考えが語源に込められている。"
+    },
+    "frequency": 2100,
+    "cefr": "B1"
+  },
+  {
+    "id": 404,
+    "word": "purchase",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "購入する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "購入品",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈpɜːrtʃəs/",
+    "syllables": "pur-chase",
+    "audioHint": "パーチェス",
+    "examples": [
+      {
+        "en": "You can purchase tickets online before the event.",
+        "ja": "イベント前にオンラインでチケットを購入できます。",
+        "blank": "You can ___ tickets online before the event.",
+        "blankAnswer": "purchase"
+      }
+    ],
+    "distractors": [
+      "生成する",
+      "探求する",
+      "実証する"
+    ],
+    "confusableSpellings": [
+      "purchace",
+      "purchese",
+      "purcase"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'pourchacier'（獲得しようと追い求める）から。pour-（強調）+ chacier（追う）の構成。中英語を経て現代英語に定着した。",
+      "tips": "purchase は buy よりもフォーマルな語で、ビジネス文書・契約書・ショッピングサイトでよく使われる。日常会話では buy の方が自然な場合が多い。名詞としても使え、make a purchase（購入する）という表現も重要。",
+      "confusables": "buy との違い：purchase はよりフォーマルで、特に高額な取引や書面での使用に向く。「I bought a coffee.」は自然だが「I purchased a coffee.」はやや大げさに聞こえる。",
+      "collocations": [
+        "purchase online",
+        "make a purchase",
+        "purchase price"
+      ],
+      "trivia": "クレジットカードの明細書や領収書で「PURCHASE」と表示されるのはこの単語。ビジネス英語の定番語で、EC（電子商取引）の普及で使用頻度が急上昇した単語の一つ。"
+    },
+    "frequency": 1500,
+    "cefr": "B1"
+  },
+  {
+    "id": 405,
+    "word": "recommend",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "推薦する、勧める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "忠告する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌrekəˈmend/",
+    "syllables": "rec-om-mend",
+    "audioHint": "レコメンド",
+    "examples": [
+      {
+        "en": "I strongly recommend reading this book.",
+        "ja": "この本を読むことを強くお勧めします。",
+        "blank": "I strongly ___ reading this book.",
+        "blankAnswer": "recommend"
+      }
+    ],
+    "distractors": [
+      "実証する",
+      "認める",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "recomend",
+      "reccomend",
+      "recommand"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'recommendare' から。re-（再び・強調）+ commendare（委ねる、褒める）の構成。commend（称賛する）と同じ語根を持つ。",
+      "tips": "最もよくあるスペルミスは recomend（m が1つ）。正しくは mm。recommend that ～ の後は仮定法現在（動詞の原形）を使うのがフォーマルな文法：I recommend that he go（goes ではなく）。日本人は goes としがち。",
+      "confusables": "suggest との違い：recommend はより強い支持・確信を持って勧める。suggest は「提案する」程度のやや弱いニュアンス。また advise は「（専門的立場から）忠告する」で、さらにフォーマル。",
+      "collocations": [
+        "highly recommend",
+        "recommend to ～",
+        "recommend that ～"
+      ],
+      "trivia": "NetflixやYouTubeの「おすすめ」アルゴリズムを英語では 'recommendation engine' または 'recommender system' と呼ぶ。毎日何億回も使われているデジタル用語の語源がこの単語だ。"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 406,
+    "word": "admit",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "認める、白状する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "入場・入学を許可する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ədˈmɪt/",
+    "syllables": "ad-mit",
+    "audioHint": "アドミット",
+    "examples": [
+      {
+        "en": "He finally admitted that he had made a mistake.",
+        "ja": "彼はついに間違いを犯したことを認めた。",
+        "blank": "He finally ___ that he had made a mistake.",
+        "blankAnswer": "admitted"
+      }
+    ],
+    "distractors": [
+      "推薦する",
+      "実証する",
+      "驚かせる"
+    ],
+    "confusableSpellings": [
+      "admitt",
+      "addmit",
+      "admmit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'admittere' から。ad-（～へ）+ mittere（送る）の構成。「（人や事実を）受け入れる方向へ送り込む」が原義。mission（使命）や submit（提出する）と同じ語根 'mitt-' を持つ。",
+      "tips": "admit の後には to + 動名詞（admit to doing）または that 節が来る。admit to do（不定詞）は誤り。また過去形・過去分詞は admitted（t を重ねる）。I admit it. のように短く使うことも多い。",
+      "confusables": "confess との違い：confess はより深刻な罪・秘密の告白に使われる（キリスト教の「告解」でも使われる）。admit は軽いミスの承認から入学許可まで幅広く使える。",
+      "collocations": [
+        "admit to ～",
+        "admit that ～",
+        "be admitted to（病院・大学に入院・入学する）"
+      ],
+      "trivia": "大学の入学許可を 'admission' と言うのはこの動詞から。アメリカのトップ大学の入試プロセスを 'college admissions' と呼び、受験生にとって一大イベント。合格通知は 'admission letter' という。"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 407,
+    "word": "generate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "生み出す、発生させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "生成する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdʒenəreɪt/",
+    "syllables": "gen-er-ate",
+    "audioHint": "ジェネレイト",
+    "examples": [
+      {
+        "en": "Solar panels generate electricity from sunlight.",
+        "ja": "太陽光パネルは太陽光から電気を生み出す。",
+        "blank": "Solar panels ___ electricity from sunlight.",
+        "blankAnswer": "generate"
+      }
+    ],
+    "distractors": [
+      "探求する",
+      "引き裂く",
+      "示す"
+    ],
+    "confusableSpellings": [
+      "generrate",
+      "genarate",
+      "genorate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'generare'（生み出す、繁殖させる）から。語根 'gen-'（生む、種族）は gender（性）・gene（遺伝子）・genesis（起源）と同じファミリー。",
+      "tips": "generate は「エネルギー・収益・アイデアなどを作り出す」というビジネス・科学的文脈で非常に頻出。generate revenue（収益を生む）、generate ideas（アイデアを生み出す）などの表現を覚えると即戦力になる。",
+      "confusables": "produce との違い：generate は抽象的なもの（電力・利益・関心）に使われることが多く、produce は具体的な製品・農作物など有形物に使いやすい。ただし両方使える場面も多い。",
+      "collocations": [
+        "generate electricity",
+        "generate revenue",
+        "generate interest"
+      ],
+      "trivia": "AIブームで「生成AI」を英語で 'generative AI' と呼ぶのはまさにこの語根から。ChatGPTのような技術が普及したことで、generate はここ数年で使用頻度が爆発的に増えた単語の一つ。"
+    },
+    "frequency": 1300,
+    "cefr": "B2"
+  },
+  {
+    "id": 408,
+    "word": "explore",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "探検する、探索する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "検討する、調査する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈsplɔːr/",
+    "syllables": "ex-plore",
+    "audioHint": "イクスプロア",
+    "examples": [
+      {
+        "en": "We explored the old town on foot.",
+        "ja": "私たちは旧市街を徒歩で探索した。",
+        "blank": "We ___ the old town on foot.",
+        "blankAnswer": "explored"
+      }
+    ],
+    "distractors": [
+      "生み出す",
+      "引き裂く",
+      "購入する"
+    ],
+    "confusableSpellings": [
+      "explor",
+      "expolre",
+      "exploer"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'explorare'（調査する、偵察する）から。ex-（外へ）+ plorare（叫ぶ・鳴らす）という説と、ex-（外へ）+ plorare（流れる）という説がある。狩猟で獲物を追い出す鳴き声が原義とも。",
+      "tips": "explore は物理的な「探検」だけでなく、「アイデアを検討する・可能性を探る」という抽象的な意味でもよく使われる。ビジネスや学術文脈では explore options / explore possibilities が定番表現。",
+      "confusables": "investigate との違い：investigate は犯罪・問題などを「徹底的・体系的に調査する」ニュアンスが強く、explore は「好奇心を持って広く探索する」フィーリングがある。",
+      "collocations": [
+        "explore possibilities",
+        "explore options",
+        "explore the idea of ～"
+      ],
+      "trivia": "Microsoft のファイル管理ソフト「Windows Explorer」やブラウザ「Internet Explorer」もこの単語が語源。デジタルの世界でも「探索する」という意味で使われ続けている。"
+    },
+    "frequency": 1600,
+    "cefr": "B1"
+  },
+  {
+    "id": 409,
+    "word": "amaze",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "驚かせる、仰天させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "感動させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈmeɪz/",
+    "syllables": "a-maze",
+    "audioHint": "アメイズ",
+    "examples": [
+      {
+        "en": "Her performance amazed everyone in the audience.",
+        "ja": "彼女の演技は観客全員を驚かせた。",
+        "blank": "Her performance ___ everyone in the audience.",
+        "blankAnswer": "amazed"
+      }
+    ],
+    "distractors": [
+      "推薦する",
+      "認める",
+      "示す"
+    ],
+    "confusableSpellings": [
+      "amaise",
+      "ammaze",
+      "amazze"
+    ],
+    "passive": {
+      "etymology": "古英語 'amasod'（心を乱された）から。a-（強調）+ maze（迷路・混乱）の構成。迷路に迷い込んで呆然とする状態が原義。maze（迷路）と全く同じ語根を持つ。",
+      "tips": "amaze は他動詞なので「be amazed at / by ～（～に驚く）」の形で使われることが多い。主語にならないよう注意。×I amazed at the news.→○I was amazed at the news. 形容詞 amazing（驚くべき）・amazed（驚いた）の使い分けも重要。",
+      "confusables": "surprise との違い：amaze は surprise よりも「強烈な驚き・感動・圧倒」を表す。単なる「予想外」は surprise、「言葉を失うほどの感動・驚き」は amaze。また astonish も類義語だが、さらに強い驚き。",
+      "collocations": [
+        "be amazed at / by",
+        "never ceases to amaze",
+        "amaze the audience"
+      ],
+      "trivia": "Amazonという社名は実は「amaze（驚かせる）」とアマゾン川をかけたダジャレという説がある。ジェフ・ベゾスが「顧客を驚かせる会社にしたい」と考えたことから、A で始まる壮大な名前を探してたどり着いたとも言われている。"
+    },
+    "frequency": 3200,
+    "cefr": "B1"
+  },
+  {
+    "id": 410,
+    "word": "tear",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "引き裂く、破る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "涙",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/tɛr/ (動詞) /tɪr/ (名詞・涙)",
+    "syllables": "tear",
+    "audioHint": "テア（動詞）／ティア（涙）",
+    "examples": [
+      {
+        "en": "He tore the letter into small pieces.",
+        "ja": "彼は手紙を細かく引き裂いた。",
+        "blank": "He ___ the letter into small pieces.",
+        "blankAnswer": "tore"
+      }
+    ],
+    "distractors": [
+      "探索する",
+      "生み出す",
+      "振る舞う"
+    ],
+    "confusableSpellings": [
+      "teer",
+      "tare",
+      "teer"
+    ],
+    "passive": {
+      "etymology": "古英語 'teran'（引き裂く）から。ゲルマン祖語 '*teraną' に由来し、ドイツ語の 'zerren'（引っ張る）と同じ語族。「涙」の tear は古英語 'tēar' で全く別の語源を持つ。",
+      "tips": "tear には「引き裂く（テア）」と「涙（ティア）」という全く異なる2つの発音・意味がある同形異義語（heteronym）。過去形は tore、過去分詞は torn（例：worn and torn）。torn は「引き裂かれた・板挟みの」という形容詞としても頻出。",
+      "confusables": "rip との違い：tear は布・紙などを「ゆっくりまたは強く引っ張って裂く」、rip はより「勢いよく・乱暴に裂く」ニュアンス。また wear and tear は「磨耗・消耗」という熟語で試験によく出る。",
+      "collocations": [
+        "tear apart",
+        "wear and tear",
+        "tear into pieces"
+      ],
+      "trivia": "「涙（tear）」と「引き裂く（tear）」がまったく同じスペルで異なる発音という英語の罠。英語ネイティブの子どもでさえ混乱する、英語最難関の同形異義語ペアの一つとして有名。ネット上でもよくミームになっている。"
+    },
+    "frequency": 2400,
+    "cefr": "B1"
+  },
+  {
+    "id": 411,
+    "word": "settle",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "解決する；落ち着く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "定住する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsɛt.əl/",
+    "syllables": "set-tle",
+    "audioHint": "セトル",
+    "examples": [
+      {
+        "en": "They finally settled the dispute after long negotiations.",
+        "ja": "長い交渉の末、彼らはついに紛争を解決した。",
+        "blank": "They finally ___ the dispute after long negotiations.",
+        "blankAnswer": "settled"
+      }
+    ],
+    "distractors": [
+      "運ぶ",
+      "広げる",
+      "取り替える"
+    ],
+    "confusableSpellings": [
+      "settel",
+      "setttle",
+      "setle"
+    ],
+    "passive": {
+      "etymology": "古英語 'setlan'（座らせる）に由来。語根 'set'（置く）＋ 接尾辞 '-le'（繰り返し・動作の継続を表す）。",
+      "tips": "settle は「落ち着かせる→解決する」と「どこかに腰を落ち着ける→定住する」の2方向で使われる。'settle a problem' と言えるが 'solve a problem' も同義。settle for ～ は「～で妥協する」の意味になるので注意。",
+      "confusables": "solve（問題を解く・より知的プロセス）と混同しやすいが、settle はむしろ「争いや状況を落ち着かせる」ニュアンス。",
+      "collocations": [
+        "settle a dispute（紛争を解決する）",
+        "settle down（落ち着く）",
+        "settle for（〜で妥協する）"
+      ],
+      "trivia": "アメリカの開拓時代、西部に移住することを 'settle the West' と言った。今でも 'settler（入植者）' という言葉が歴史的文脈で使われる。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 412,
+    "word": "afford",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "〜する余裕がある",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（機会・楽しみなどを）与える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈfɔːrd/",
+    "syllables": "af-ford",
+    "audioHint": "アフォード",
+    "examples": [
+      {
+        "en": "I can't afford to buy a new car right now.",
+        "ja": "今は新しい車を買う余裕がない。",
+        "blank": "I can't ___ to buy a new car right now.",
+        "blankAnswer": "afford"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "節約する",
+      "借りる"
+    ],
+    "confusableSpellings": [
+      "affort",
+      "aford",
+      "affourd"
+    ],
+    "passive": {
+      "etymology": "古英語 'geforðian'（前進させる・実行する）から。接頭辞 'a-'（強意）＋ 語根 'forth'（前へ）の変化形。もともと「達成できる」意味だった。",
+      "tips": "afford は必ず 'can/cannot afford' の形でほぼ使われる。'afford to do' か 'afford + 名詞' の2パターンを押さえよう。「お金的に無理」だけでなく「時間的余裕がない（can't afford time）」にも使える。",
+      "confusables": "invest（投資する）は積極的にお金を動かすイメージ。afford はあくまで「（余裕があって）〜できる」という可能性の話。",
+      "collocations": [
+        "can't afford to（〜する余裕がない）",
+        "afford a house（家を買う余裕がある）",
+        "afford an opportunity（機会を与える）"
+      ],
+      "trivia": "「アフォーダンス（affordance）」という心理学・デザイン用語はこの afford から生まれた。物がその形や配置によって使い方を「与える（afford）」という概念。"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 413,
+    "word": "conclude",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "結論を下す；〜と断定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "終える；締めくくる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈkluːd/",
+    "syllables": "con-clude",
+    "audioHint": "コンクルード",
+    "examples": [
+      {
+        "en": "The scientist concluded that the experiment was a success.",
+        "ja": "その科学者は実験が成功だったと結論付けた。",
+        "blank": "The scientist ___ that the experiment was a success.",
+        "blankAnswer": "concluded"
+      }
+    ],
+    "distractors": [
+      "仮定する",
+      "記憶する",
+      "伝言する"
+    ],
+    "confusableSpellings": [
+      "conclued",
+      "concude",
+      "concludde"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'concludere' から。接頭辞 'con-'（完全に・共に）＋ 語根 'claudere'（閉じる）。つまり「完全に閉じる→締めくくる→結論を出す」の流れ。",
+      "tips": "conclude that ～ は「〜と結論付ける」。conclude with ～ は「〜で締めくくる」。スピーチや論文の締めで 'In conclusion' はよく使われるが、conclude が動詞の場合は conclude that / conclude with の形に注意。",
+      "confusables": "decide（決める・意志的）と違い、conclude は「考えた結果として判断に至る」知的プロセスが強調される。",
+      "collocations": [
+        "conclude that（〜と結論付ける）",
+        "conclude a meeting（会議を締める）",
+        "conclude with（〜で締めくくる）"
+      ],
+      "trivia": "include・exclude・preclude もすべて語根 'claudere（閉じる）' の仲間。覚えたついでに家族ごと覚えてしまおう！"
+    },
+    "frequency": 900,
+    "cefr": "B1"
+  },
+  {
+    "id": 414,
+    "word": "advertise",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "広告を出す；宣伝する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（求人などを）公募する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈæd.vər.taɪz/",
+    "syllables": "ad-ver-tise",
+    "audioHint": "アドヴァタイズ",
+    "examples": [
+      {
+        "en": "The company advertised its new product on social media.",
+        "ja": "その会社はソーシャルメディアで新製品を宣伝した。",
+        "blank": "The company ___ its new product on social media.",
+        "blankAnswer": "advertised"
+      }
+    ],
+    "distractors": [
+      "交渉する",
+      "融資する",
+      "契約する"
+    ],
+    "confusableSpellings": [
+      "advertize",
+      "advertise",
+      "advirtise"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'advertere' から。接頭辞 'ad-'（〜へ向かって）＋ 語根 'vertere'（向ける・回す）。「注意を向けさせる」が原義。",
+      "tips": "advertise の名詞形は advertisement（英 /ədˈvɜːtɪsmənt/、米 /ˌædvərˈtaɪzmənt/）と発音が英米で違う。また略語の ad / advert もよく使われる。動詞の -ise は英国スペル、-ize は米国スペル。",
+      "confusables": "promote（昇進させる・促進する）とも意味が重なるが、advertise は「外部に向けて広告として知らせる」ことに特化している。",
+      "collocations": [
+        "advertise a product（製品を宣伝する）",
+        "advertise on TV（テレビで広告を出す）",
+        "advertise for staff（スタッフを募集広告する）"
+      ],
+      "trivia": "語根 'vertere（向ける）' は、diverse・convert・universe など日常的な単語にも入っている。広告は「みんなの注意を向けさせるもの」という語源が今でも生きている。"
+    },
+    "frequency": 1200,
+    "cefr": "B1"
+  },
+  {
+    "id": 415,
+    "word": "encounter",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜に遭遇する；出くわす",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（困難・問題に）ぶつかる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈkaʊn.tər/",
+    "syllables": "en-coun-ter",
+    "audioHint": "インカウンター",
+    "examples": [
+      {
+        "en": "We encountered several problems during the project.",
+        "ja": "プロジェクト中にいくつかの問題に直面した。",
+        "blank": "We ___ several problems during the project.",
+        "blankAnswer": "encountered"
+      }
+    ],
+    "distractors": [
+      "支援する",
+      "協力する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "encoutner",
+      "encaunter",
+      "incounter"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'encontrer' から。接頭辞 'en-'（中へ）＋ ラテン語 'contra'（反対側・向かいから）。「向かいから来る相手と出くわす」が原義。",
+      "tips": "encounter は「予期しない・偶然の」出会いや遭遇に使う。meet と違い、計画的な面会には使わない。また名詞としても使え、'a chance encounter（偶然の出会い）' は頻出表現。",
+      "confusables": "meet は計画的・日常的な「会う」。encounter は予期しない、しばしばやや劇的な「遭遇」。映画などで aliens encounter humans のように使われる。",
+      "collocations": [
+        "encounter difficulties（困難に直面する）",
+        "encounter resistance（抵抗に遭う）",
+        "a chance encounter（偶然の出会い）"
+      ],
+      "trivia": "Star Trek では 'Space: the final frontier' の後に続く有名な台詞が 'to boldly go where no man has gone before'。シリーズ名が「宇宙への遭遇」的な意味合いを持つのもこの単語の力！"
+    },
+    "frequency": 1100,
+    "cefr": "B2"
+  },
+  {
+    "id": 416,
+    "word": "remind",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "思い出させる；リマインドする",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に気づかせる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈmaɪnd/",
+    "syllables": "re-mind",
+    "audioHint": "リマインド",
+    "examples": [
+      {
+        "en": "Please remind me to call her tomorrow morning.",
+        "ja": "明日の朝、彼女に電話するよう念を押してください。",
+        "blank": "Please ___ me to call her tomorrow morning.",
+        "blankAnswer": "remind"
+      }
+    ],
+    "distractors": [
+      "想像する",
+      "判断する",
+      "否定する"
+    ],
+    "confusableSpellings": [
+      "remaind",
+      "remined",
+      "remund"
+    ],
+    "passive": {
+      "etymology": "接頭辞 're-'（再び）＋ 語根 'mind'（心・記憶）。「心に再び持ち込む」→「思い出させる」という意味の合成語。",
+      "tips": "remind + 人 + to do（〜するよう人に念押しする）と、remind + 人 + of + 名詞（〜を人に思い出させる）の2パターンが超重要。'remind of' と 'remind to' を混同しないよう注意。",
+      "confusables": "remember は自分が思い出す（自動詞的）、remind は他者に思い出させる（他動詞）。主語と目的語の関係が逆になる。",
+      "collocations": [
+        "remind someone of（〜を思い出させる）",
+        "remind someone to do（〜するよう念を押す）",
+        "a gentle reminder（やんわりとした念押し）"
+      ],
+      "trivia": "ビジネスメールで 'Just a friendly reminder...' という書き出しは超定番フレーズ。日本語の「念のため」に相当する丁寧な催促表現として世界中で使われている。"
+    },
+    "frequency": 750,
+    "cefr": "A2"
+  },
+  {
+    "id": 417,
+    "word": "locate",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜の場所を突き止める；位置を特定する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を（特定の場所に）置く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/loʊˈkeɪt/",
+    "syllables": "lo-cate",
+    "audioHint": "ロウケイト",
+    "examples": [
+      {
+        "en": "Can you locate the nearest hospital on the map?",
+        "ja": "地図で一番近い病院の場所を見つけられますか？",
+        "blank": "Can you ___ the nearest hospital on the map?",
+        "blankAnswer": "locate"
+      }
+    ],
+    "distractors": [
+      "組み立てる",
+      "取り替える",
+      "広げる"
+    ],
+    "confusableSpellings": [
+      "locat",
+      "locaet",
+      "loacte"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'locare'（場所に置く）から。語根 'locus'（場所）に動詞化接尾辞 '-ate' が付いた形。",
+      "tips": "locate は「場所を突き止める（能動的に探す）」意味が中心。be located in ～ は「〜に位置している」という受動態で場所を表す超頻出表現。'The office is located in Tokyo.' のように使う。",
+      "confusables": "find は広く「見つける」、locate はより「位置・場所を特定する」ニュアンスが強い。GPSや地図絡みの文脈では locate が自然。",
+      "collocations": [
+        "be located in（〜に位置する）",
+        "locate a file（ファイルの場所を探す）",
+        "locate the source（源を突き止める）"
+      ],
+      "trivia": "「ローカル（local）」「ロケーション（location）」「ロケット（locket）」…実は loc- という語根は「場所」を意味し、英語の至るところに隠れている。"
+    },
+    "frequency": 1000,
+    "cefr": "B1"
+  },
+  {
+    "id": 418,
+    "word": "aid",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "助ける；支援する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "援助；助けになるもの",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/eɪd/",
+    "syllables": "aid",
+    "audioHint": "エイド",
+    "examples": [
+      {
+        "en": "The organization aids refugees in rebuilding their lives.",
+        "ja": "その組織は難民が生活を立て直すのを支援している。",
+        "blank": "The organization ___ refugees in rebuilding their lives.",
+        "blankAnswer": "aids"
+      }
+    ],
+    "distractors": [
+      "批判する",
+      "妨げる",
+      "対立する"
+    ],
+    "confusableSpellings": [
+      "aide",
+      "ayd",
+      "eid"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'aidier'（助ける）、ラテン語 'adjutare'（援助する）から。接頭辞 'ad-'（〜に向かって）＋ 語根 'juvare'（助ける）の変化形。",
+      "tips": "aid は help よりもやや改まったフォーマルな語。人道支援・医療・政策の文脈でよく使われる。名詞の aide（補佐官）とスペルが異なるので注意。また 'first aid（応急処置）' は必須フレーズ。",
+      "confusables": "help は日常的・広汎、assist はやや専門的な補助、aid はフォーマルで人道的・公的支援のニュアンスが強い。",
+      "collocations": [
+        "aid recovery（回復を助ける）",
+        "foreign aid（外国援助）",
+        "first aid（応急処置）"
+      ],
+      "trivia": "Band-Aid（バンドエイド）という商品名はまさに 'band（帯・バンド）' ＋ 'aid（助け）' の合成語。傷口を「助けるバンド」という直球ネーミング！"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 419,
+    "word": "bite",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "噛む；かじる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（虫などが）刺す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/baɪt/",
+    "syllables": "bite",
+    "audioHint": "バイト",
+    "examples": [
+      {
+        "en": "The dog bit the boy on his leg.",
+        "ja": "犬が少年の足に噛みついた。",
+        "blank": "The dog ___ the boy on his leg.",
+        "blankAnswer": "bit"
+      }
+    ],
+    "distractors": [
+      "吐く",
+      "蹴る",
+      "握る"
+    ],
+    "confusableSpellings": [
+      "bight",
+      "biet",
+      "bitte"
+    ],
+    "passive": {
+      "etymology": "古英語 'bītan'（噛む）から。ゲルマン語系の基本語彙で、ドイツ語 'beißen' と同根。語根はインド・ヨーロッパ祖語の 'bheid-'（割る・切る）に遡る。",
+      "tips": "活用形が不規則: bite – bit – bitten。'I was bitten by a mosquito.' と受動態で虫刺されを表す。日本語の「バイト（アルバイト）」は全く別語源（ドイツ語 Arbeit）なので混同しないこと。",
+      "confusables": "chew は「噛み続ける・咀嚼する」、bite は「噛む（一回の動作・最初の一口）」。bite は瞬間的、chew は継続的。",
+      "collocations": [
+        "bite into（〜にかじりつく）",
+        "bite one's nails（爪を噛む）",
+        "mosquito bite（蚊に刺される）"
+      ],
+      "trivia": "Apple（アップル）社のロゴはリンゴに一口（bite）かじったデザイン。これは知識の実（アダムとイブ）や数学者チューリングへのオマージスという説がある。まさに一口が世界を変えた！"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 420,
+    "word": "deliver",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "配達する；届ける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（演説・判決などを）行う；伝える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/dɪˈlɪv.ər/",
+    "syllables": "de-liv-er",
+    "audioHint": "デリヴァー",
+    "examples": [
+      {
+        "en": "The package was delivered to my door this morning.",
+        "ja": "今朝、荷物が玄関まで届けられた。",
+        "blank": "The package was ___ to my door this morning.",
+        "blankAnswer": "delivered"
+      }
+    ],
+    "distractors": [
+      "整理する",
+      "分解する",
+      "持ち上げる"
+    ],
+    "confusableSpellings": [
+      "delivar",
+      "dilivery",
+      "delivver"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'delivrer' から。接頭辞 'de-'（完全に・分離して）＋ ラテン語 'liberare'（解放する）。「束縛から解放して渡す」→「届ける」という意味の変化。",
+      "tips": "deliver は「物を届ける」だけでなく、deliver a speech（スピーチをする）、deliver a verdict（判決を下す）、deliver a baby（赤ちゃんを取り上げる）など幅広い文脈で使われる。ビジネス英語では 'deliver results（成果を出す)' も頻出。",
+      "confusables": "send は「送り出す」動作、deliver は「目的地まで届ける」完結の動作。send a parcel（小包を送る）→ deliver a parcel（小包を届ける）の違いをイメージすると覚えやすい。",
+      "collocations": [
+        "deliver a speech（スピーチをする）",
+        "deliver on time（時間通りに届ける）",
+        "deliver results（成果を出す）"
+      ],
+      "trivia": "語源の 'liberare（解放する）' は liberty（自由）と同じ語根。荷物を「解放して届ける」＝「自由にしてあげる」という発想、何だかロマンチックじゃない？"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  }
+]

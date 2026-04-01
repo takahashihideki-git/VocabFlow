@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 201,
+    "word": "identify",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "～を特定する、識別する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～と同一視する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/aɪˈdentɪfaɪ/",
+    "syllables": "i-den-ti-fy",
+    "audioHint": "アイデンティファイ",
+    "examples": [
+      {
+        "en": "Scientists identified the cause of the disease.",
+        "ja": "科学者たちはその病気の原因を特定した。",
+        "blank": "Scientists ___ the cause of the disease.",
+        "blankAnswer": "identified"
+      }
+    ],
+    "distractors": [
+      "～を示す",
+      "～を管理する",
+      "～を維持する"
+    ],
+    "confusableSpellings": [
+      "identfy",
+      "identiify",
+      "identifiy"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'idem'（同じ）＋ 'facere'（作る）→「同じものとして作る」。接頭辞 'ident-' は identity（同一性）とも共通。",
+      "tips": "identify A as B（AをBと特定する）や identify with A（Aに共感・同一視する）という形も頻出。「識別する」という意味では目的語が必要な他動詞として使う。",
+      "confusables": "recognize（見覚えがあって認識する）との違いに注意。identify は「分析・調査を経て特定する」ニュアンスが強く、recognize は「以前に知っていたものと一致する」感覚。",
+      "collocations": [
+        "identify the problem",
+        "identify a suspect",
+        "identify with someone"
+      ],
+      "trivia": "「アイデンティティ（identity）」の動詞形。SNSのプロフィールで「I identify as...」という表現が使われるようになり、現代英語での存在感がぐっと増した単語。"
+    },
+    "frequency": 400,
+    "cefr": "B1"
+  },
+  {
+    "id": 202,
+    "word": "represent",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "～を表す、代表する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～を象徴する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌreprɪˈzent/",
+    "syllables": "rep-re-sent",
+    "audioHint": "レプリゼント",
+    "examples": [
+      {
+        "en": "The lawyer represents her client in court.",
+        "ja": "弁護士は法廷で依頼人を代理する。",
+        "blank": "The lawyer ___ her client in court.",
+        "blankAnswer": "represents"
+      }
+    ],
+    "distractors": [
+      "～を特定する",
+      "～を示す",
+      "～を調査する"
+    ],
+    "confusableSpellings": [
+      "represnt",
+      "reprisent",
+      "represenet"
+    ],
+    "passive": {
+      "etymology": "ラテン語 re-（再び）＋ praesentare（目の前に置く）。「再び目の前に現す」→「表現する・代表する」という意味の流れ。",
+      "tips": "「代表する」と「表す」の2つの意味を持つが、主語が人なら「代表する」、図や記号なら「表す」と覚えると自然。represent A as B（AをBとして表現する）の形も重要。",
+      "confusables": "express（感情や考えを言葉・態度で表現する）との違いに注意。represent は「何かの代わりに立つ」イメージ、express は「内側から外に出す」イメージ。",
+      "collocations": [
+        "represent a country",
+        "represent the data",
+        "be represented by"
+      ],
+      "trivia": "音楽界では「Represent!」は「地元を誇れ！」という意味のスラングとして使われる。Hip-hopカルチャーで特によく耳にする表現。"
+    },
+    "frequency": 300,
+    "cefr": "B1"
+  },
+  {
+    "id": 203,
+    "word": "indicate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "～を示す、指し示す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～を示唆する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈɪndɪkeɪt/",
+    "syllables": "in-di-cate",
+    "audioHint": "インディケイト",
+    "examples": [
+      {
+        "en": "The data indicates a rise in temperatures.",
+        "ja": "データは気温の上昇を示している。",
+        "blank": "The data ___ a rise in temperatures.",
+        "blankAnswer": "indicates"
+      }
+    ],
+    "distractors": [
+      "～を代表する",
+      "～を特定する",
+      "～を管理する"
+    ],
+    "confusableSpellings": [
+      "indecate",
+      "indicaet",
+      "inidcate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 in-（向かって）＋ dicare（示す、宣言する）。「指を向けて示す」が原義。indicator（指標）や indication（兆候）も同じ語根。",
+      "tips": "indicate that 節（～であることを示す）の形が論文・レポートで多用される。show より客観的・学術的なニュアンスがあり、ビジネス英語でも重宝する。",
+      "confusables": "suggest（暗示する）との違い。indicate はデータや証拠が「明確に指し示す」、suggest はより「間接的にほのめかす」感覚。",
+      "collocations": [
+        "indicate a trend",
+        "indicate that...",
+        "as indicated by"
+      ],
+      "trivia": "車のウインカーは英語で「indicator」。「次に曲がりますよ」と方向を示すから。indicate の語感が「指差して示す」イメージだと分かりやすい。"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 204,
+    "word": "manage",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を管理する、経営する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "なんとか～する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈmænɪdʒ/",
+    "syllables": "man-age",
+    "audioHint": "マネージ",
+    "examples": [
+      {
+        "en": "She manages a team of ten people.",
+        "ja": "彼女は10人のチームを管理している。",
+        "blank": "She ___ a team of ten people.",
+        "blankAnswer": "manages"
+      }
+    ],
+    "distractors": [
+      "～を維持する",
+      "～を置き換える",
+      "～を整理する"
+    ],
+    "confusableSpellings": [
+      "mannage",
+      "manege",
+      "managge"
+    ],
+    "passive": {
+      "etymology": "イタリア語 maneggiare（馬を手で操る）→ラテン語 manus（手）。「手でコントロールする」が原義。マネージャー（manager）はそのまま英語に定着。",
+      "tips": "manage to do（なんとか～する）は日本人が意外と使わないが超頻出表現。「やっとできた」という達成感を含むニュアンス。I managed to finish it.（なんとか終えた）",
+      "confusables": "control（機械的・物理的に制御する）との違い。manage は人・組織・状況に対して柔軟に対応するイメージ。control は強制力が強め。",
+      "collocations": [
+        "manage a project",
+        "manage to do",
+        "manage stress"
+      ],
+      "trivia": "日本語の「マネジメント」はすっかり定着しているが、その原義は「馬を手綱で操ること」。チームを率いるのも馬を御するのも同じ技術、という発想が面白い。"
+    },
+    "frequency": 250,
+    "cefr": "A2"
+  },
+  {
+    "id": 205,
+    "word": "attend",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "～に出席する、参加する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～の世話をする",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əˈtend/",
+    "syllables": "at-tend",
+    "audioHint": "アテンド",
+    "examples": [
+      {
+        "en": "All students must attend the orientation session.",
+        "ja": "全学生はオリエンテーションに出席しなければならない。",
+        "blank": "All students must ___ the orientation session.",
+        "blankAnswer": "attend"
+      }
+    ],
+    "distractors": [
+      "～を調査する",
+      "～を実施する",
+      "～を特定する"
+    ],
+    "confusableSpellings": [
+      "atend",
+      "attand",
+      "attned"
+    ],
+    "passive": {
+      "etymology": "ラテン語 ad-（～へ）＋ tendere（伸ばす）。「意識を伸ばして向ける」→「注意を向ける・参加する」という意味の流れ。",
+      "tips": "attend は他動詞なので attend to（～に注意を払う）と attend（～に出席する）を混同しないこと。'attend the meeting' は正しいが 'attend to the meeting' は「会議の世話をする」という別の意味になる。",
+      "confusables": "join（グループやチームに加わる）との違い。attend はイベントや場所に「その場にいる」こと、join はメンバーとして「仲間になる」こと。",
+      "collocations": [
+        "attend a meeting",
+        "attend school",
+        "attend to a patient"
+      ],
+      "trivia": "フライトアテンダント（flight attendant）の「アテンダント」はまさに「世話をする人」の意味。客室乗務員の仕事を一言で言い表した職名。"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 206,
+    "word": "maintain",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を維持する、保つ",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～を主張する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/meɪnˈteɪn/",
+    "syllables": "main-tain",
+    "audioHint": "メインテイン",
+    "examples": [
+      {
+        "en": "It is important to maintain a healthy lifestyle.",
+        "ja": "健康的な生活習慣を維持することが大切だ。",
+        "blank": "It is important to ___ a healthy lifestyle.",
+        "blankAnswer": "maintain"
+      }
+    ],
+    "distractors": [
+      "～を管理する",
+      "～を調査する",
+      "～を整理する"
+    ],
+    "confusableSpellings": [
+      "maintian",
+      "maintein",
+      "miantain"
+    ],
+    "passive": {
+      "etymology": "ラテン語 manu（手で）＋ tenere（保つ）→「手で持ち続ける」が原義。maintenance（メンテナンス）と同じ語根。",
+      "tips": "maintain は「現状を保ち続ける努力をする」ニュアンスがある。keep との違いは、maintain の方が「意識的な努力・作業」を伴う感覚。機械のメンテナンスもこの単語。",
+      "confusables": "keep（状態を保つ）との違い。keep は日常的・自然な継続、maintain はより積極的・意図的な努力を含む。'Keep the room clean' よりも 'maintain the facility' の方が正式。",
+      "collocations": [
+        "maintain order",
+        "maintain a relationship",
+        "maintain that..."
+      ],
+      "trivia": "「メンテナンス」は日本語にも完全に定着しているが、実は「手（manus）で保つ（tenere）」という意味。車も人間関係も手をかけて維持するのは同じ。"
+    },
+    "frequency": 450,
+    "cefr": "B1"
+  },
+  {
+    "id": 207,
+    "word": "survey",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を調査する、アンケートを取る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～を見渡す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈsɜːrveɪ/",
+    "syllables": "sur-vey",
+    "audioHint": "サーヴェイ",
+    "examples": [
+      {
+        "en": "The researchers surveyed 500 people about their habits.",
+        "ja": "研究者たちは500人に習慣についてアンケートを取った。",
+        "blank": "The researchers ___ 500 people about their habits.",
+        "blankAnswer": "surveyed"
+      }
+    ],
+    "distractors": [
+      "～を整理する",
+      "～を置き換える",
+      "～を実施する"
+    ],
+    "confusableSpellings": [
+      "survay",
+      "survei",
+      "suvrey"
+    ],
+    "passive": {
+      "etymology": "古フランス語 sur-（上から）＋ voir（見る）→「上から見渡す」が原義。supervisor（監督者）も同じ 'super + videre' の流れ。",
+      "tips": "名詞・動詞で発音が変わる！名詞は /ˈsɜːrveɪ/（サーヴェイ、第1音節強勢）、動詞も同様だが文脈で判断。conduct a survey（アンケートを実施する）の形が最頻出。",
+      "confusables": "research（体系的な研究・調査）との違い。survey はアンケートや現地視察などの「データ収集行為」、research はより広い「研究活動」を指す。",
+      "collocations": [
+        "conduct a survey",
+        "survey the area",
+        "survey results"
+      ],
+      "trivia": "Google フォームで「アンケートを作る」を英語では 'create a survey' と言う。SNSの「あなたはどっち派？」投票も survey の一種。現代人は毎日 survey している。"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 208,
+    "word": "replace",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を取り替える、置き換える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～の後任となる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈpleɪs/",
+    "syllables": "re-place",
+    "audioHint": "リプレイス",
+    "examples": [
+      {
+        "en": "We need to replace the old printer with a new one.",
+        "ja": "古いプリンターを新しいものに取り替える必要がある。",
+        "blank": "We need to ___ the old printer with a new one.",
+        "blankAnswer": "replace"
+      }
+    ],
+    "distractors": [
+      "～を維持する",
+      "～を管理する",
+      "～を調査する"
+    ],
+    "confusableSpellings": [
+      "repplace",
+      "repalce",
+      "replece"
+    ],
+    "passive": {
+      "etymology": "re-（再び）＋ place（置く）→「再び別のものを置く」→「取り替える」。place 自体はラテン語 platea（広場）から。",
+      "tips": "replace A with B（AをBに取り替える）の形が基本。日本人は 'change A to B' と言いがちだが、英語では replace A with B が自然。",
+      "confusables": "substitute（代わりのものを使う）との違い。replace はAをBに「永続的に交換する」、substitute は「一時的に代用する」ニュアンスが強い。",
+      "collocations": [
+        "replace A with B",
+        "replace batteries",
+        "be replaced by"
+      ],
+      "trivia": "AIが「人間の仕事を replace する」という話題が世界中で議論されている。この単語、現代社会で最もホットな単語の一つかもしれない。"
+    },
+    "frequency": 700,
+    "cefr": "A2"
+  },
+  {
+    "id": 209,
+    "word": "sort",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を分類する、整理する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "～を解決する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɔːrt/",
+    "syllables": "sort",
+    "audioHint": "ソート",
+    "examples": [
+      {
+        "en": "Please sort these files by date.",
+        "ja": "これらのファイルを日付順に整理してください。",
+        "blank": "Please ___ these files by date.",
+        "blankAnswer": "sort"
+      }
+    ],
+    "distractors": [
+      "～を維持する",
+      "～を置き換える",
+      "～を実施する"
+    ],
+    "confusableSpellings": [
+      "saort",
+      "srot",
+      "sorrt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 sors（くじ、種類）→ 古フランス語 sorte（種類）→「種類ごとに分ける」が原義。「ソート」はプログラミング用語としても定着。",
+      "tips": "英国英語では 'sort out'（問題を解決する）が非常によく使われる。'I'll sort it out'（どうにかします）はビジネス会話で便利な表現。アメリカ英語では 'figure out' に近い。",
+      "confusables": "classify（学術的・体系的な分類）との違い。sort は日常的・実用的な「仕分け」のニュアンス。メールを仕分けるなら sort、生物を分類するなら classify が自然。",
+      "collocations": [
+        "sort out a problem",
+        "sort files",
+        "sort by category"
+      ],
+      "trivia": "コンピュータサイエンスで「ソートアルゴリズム」といえば並び替えの技術。バブルソート、クイックソートなどの名前は英語の sort からきている。日本語に完全浸透済み。"
+    },
+    "frequency": 900,
+    "cefr": "A2"
+  },
+  {
+    "id": 210,
+    "word": "conduct",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "～を実施する、行う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（熱・電気など）を伝導する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈdʌkt/",
+    "syllables": "con-duct",
+    "audioHint": "コンダクト",
+    "examples": [
+      {
+        "en": "The company conducted a survey among its employees.",
+        "ja": "その会社は従業員の間でアンケートを実施した。",
+        "blank": "The company ___ a survey among its employees.",
+        "blankAnswer": "conducted"
+      }
+    ],
+    "distractors": [
+      "～を整理する",
+      "～を取り替える",
+      "～を維持する"
+    ],
+    "confusableSpellings": [
+      "condcut",
+      "condukt",
+      "condect"
+    ],
+    "passive": {
+      "etymology": "ラテン語 con-（共に）＋ ducere（導く）→「共に導く・進める」が原義。conductor（指揮者・導体）、introduce（導き入れる）も同じ ducere から。",
+      "tips": "名詞と動詞でアクセントが異なる。名詞 /ˈkɒndʌkt/（コンダクト、第1音節強勢）、動詞 /kənˈdʌkt/（コンダクト、第2音節強勢）。conduct a survey / experiment / interview が頻出セット表現。",
+      "confusables": "perform（パフォーマンス的に実行する）との違い。conduct は「組織的・手順に従った実施」、perform は「技能を発揮して行う」イメージ。実験は conduct、演奏は perform が自然。",
+      "collocations": [
+        "conduct a survey",
+        "conduct an experiment",
+        "conduct an interview"
+      ],
+      "trivia": "オーケストラの「コンダクター（指揮者）」もこの語から。音楽を「導く」人。電気を「導く」物体も conductor。指揮者と銅線が同じ単語というのがちょっと面白い。"
+    },
+    "frequency": 550,
+    "cefr": "B1"
+  },
+  {
+    "id": 211,
+    "word": "associate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "関連付ける、結びつける",
+        "pos": "verb"
+      },
+      {
+        "meaning": "仲間・同僚",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈsoʊʃieɪt/",
+    "syllables": "as-so-ci-ate",
+    "audioHint": "アソウシエイト",
+    "examples": [
+      {
+        "en": "Most people associate the color red with danger.",
+        "ja": "ほとんどの人は赤色を危険と結びつける。",
+        "blank": "Most people ___ the color red with danger.",
+        "blankAnswer": "associate"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "観察する",
+      "伝達する"
+    ],
+    "confusableSpellings": [
+      "assosiate",
+      "associete",
+      "asociate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'associare'（仲間にする）から。接頭辞 'ad-'（～に向かって）＋ 'socius'（仲間・同盟者）。'social'（社会的な）と同じ語根を持つ。",
+      "tips": "associate A with B（AをBと結びつける）という形が最頻出。前置詞は必ず 'with' を使うこと。'relate' と混同して 'associate A to B' としてしまうミスが多い。",
+      "confusables": "'connect'は物理的・技術的なつながりを指すことが多いのに対し、'associate'は心理的・概念的な結びつきを表す場面で使われることが多い。",
+      "collocations": [
+        "associate A with B",
+        "be associated with",
+        "close associate"
+      ],
+      "trivia": "ビジネスの世界では 'Sales Associate'（販売員）のように「準～」「副～」というニュアンスの役職名にも使われる。Walmart の店員さんは公式に 'Associate' と呼ばれているのはその名残！"
+    },
+    "frequency": 800,
+    "cefr": "B1"
+  },
+  {
+    "id": 212,
+    "word": "attempt",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "試みる、挑戦する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "試み、挑戦",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/əˈtɛmpt/",
+    "syllables": "at-tempt",
+    "audioHint": "アテンプト",
+    "examples": [
+      {
+        "en": "She attempted to climb the mountain alone.",
+        "ja": "彼女は一人で山に登ろうと試みた。",
+        "blank": "She ___ to climb the mountain alone.",
+        "blankAnswer": "attempted"
+      }
+    ],
+    "distractors": [
+      "達成する",
+      "繰り返す",
+      "探し求める"
+    ],
+    "confusableSpellings": [
+      "atempt",
+      "attemp",
+      "attmept"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'attemptare'（触れてみる・試みる）から。接頭辞 'ad-'（～に向かって）＋ 'temptare'（試す・テストする）。'temptation'（誘惑）と同じ語根。",
+      "tips": "'attempt to do'（不定詞）が基本形。'attempt doing' は文語的でやや不自然なので、会話では 'try to do' の方が自然に聞こえることが多い。ただし試験では attempt を使いこなすと高評価！",
+      "confusables": "'try' より硬い・本格的なニュアンス。'She tried to open the door' は日常的、'She attempted to open the door' はやや大げさかフォーマルな文脈。",
+      "collocations": [
+        "attempt to do",
+        "make an attempt",
+        "failed attempt"
+      ],
+      "trivia": "数学や試験の世界では 'attempt a question'（問題に取り組む）という使い方も定番。「完全に解けなくてもまず手をつける」という意味合いが込められているのが面白い！"
+    },
+    "frequency": 950,
+    "cefr": "B1"
+  },
+  {
+    "id": 213,
+    "word": "promote",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "促進する、推進する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "昇進させる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prəˈmoʊt/",
+    "syllables": "pro-mote",
+    "audioHint": "プロモウト",
+    "examples": [
+      {
+        "en": "The campaign promotes healthy eating habits.",
+        "ja": "そのキャンペーンは健康的な食習慣を促進する。",
+        "blank": "The campaign ___ healthy eating habits.",
+        "blankAnswer": "promotes"
+      }
+    ],
+    "distractors": [
+      "団結させる",
+      "支配する",
+      "交渉する"
+    ],
+    "confusableSpellings": [
+      "promot",
+      "promoate",
+      "promothe"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'promovere'（前に動かす）から。接頭辞 'pro-'（前に・前方へ）＋ 'movere'（動かす）。'motion'（動き）や 'move' と同じ語根を持つ。",
+      "tips": "「昇進させる」の意味では 'be promoted to manager'（マネージャーに昇進する）のように受動態で使うことが多い。能動態で『促進する』のか受動態で『昇進する』のか文脈で判断しよう。",
+      "confusables": "'advertise' は広告媒体を通じた宣伝に特化するが、'promote' はより広く「後押しする・普及させる」というニュアンスを含む。",
+      "collocations": [
+        "promote health",
+        "promote a product",
+        "be promoted to"
+      ],
+      "trivia": "音楽業界で 'music promoter'（音楽プロモーター）といえばコンサートを企画・宣伝する人のこと。BTS の世界的成功も優れたプロモーター戦略があってこそ！という話につながる単語。"
+    },
+    "frequency": 700,
+    "cefr": "B1"
+  },
+  {
+    "id": 214,
+    "word": "earn",
+    "pos": "verb",
+    "categoryId": 7,
+    "meanings": [
+      {
+        "meaning": "稼ぐ、収入を得る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（評価・信頼などを）得る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɜːrn/",
+    "syllables": "earn",
+    "audioHint": "アーン",
+    "examples": [
+      {
+        "en": "He earns about fifty thousand dollars a year.",
+        "ja": "彼は年間約5万ドルを稼ぐ。",
+        "blank": "He ___ about fifty thousand dollars a year.",
+        "blankAnswer": "earns"
+      }
+    ],
+    "distractors": [
+      "投資する",
+      "節約する",
+      "支払う"
+    ],
+    "confusableSpellings": [
+      "yearn",
+      "ern",
+      "eran"
+    ],
+    "passive": {
+      "etymology": "古英語 'earnian'（労働によって得る）から。ゲルマン語の語根で「収穫する」という概念に由来。現代英語で最もシンプルな「労働対価」を表す動詞として残った。",
+      "tips": "'earn' は労働や努力の結果として得るものに使う。お金だけでなく 'earn respect'（尊敬を得る）、'earn a reputation'（評判を獲得する）のように抽象的なものにも使えることを覚えておこう。",
+      "confusables": "'make money' は口語的でカジュアル、'earn money' は努力・労働の対価というニュアンスが強い。また 'win money'（賞金を得る）とも区別が必要。",
+      "collocations": [
+        "earn a living",
+        "earn money",
+        "earn respect"
+      ],
+      "trivia": "'You've earned it!'（それはあなたが勝ち取ったものだ！）という表現は、相手の努力を称えるときの定番フレーズ。ゲームのトロフィー画面でも頻繁に登場するので、ゲーマーには馴染み深い単語かも！"
+    },
+    "frequency": 600,
+    "cefr": "A2"
+  },
+  {
+    "id": 215,
+    "word": "unite",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "団結させる、一致させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "結合する、合わさる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/juːˈnaɪt/",
+    "syllables": "u-nite",
+    "audioHint": "ユーナイト",
+    "examples": [
+      {
+        "en": "The crisis united the nation like never before.",
+        "ja": "その危機はかつてないほど国民を団結させた。",
+        "blank": "The crisis ___ the nation like never before.",
+        "blankAnswer": "united"
+      }
+    ],
+    "distractors": [
+      "交渉する",
+      "昇進させる",
+      "支持する"
+    ],
+    "confusableSpellings": [
+      "unnite",
+      "uniet",
+      "unight"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'unire'（一つにする）から。語根 'unus'（一）に由来。'union'（組合・連合）、'unique'（唯一の）、'universe'（宇宙）もすべて同じ語根！",
+      "tips": "自動詞・他動詞両方の用法がある。'They united the two groups'（他動詞）と 'The two groups united'（自動詞）どちらも正しい。日本語では「団結する」と「団結させる」を使い分けよう。",
+      "confusables": "'join' は単に「加わる・つなぐ」という物理的・形式的なニュアンスが強く、'unite' は目的や意志を持って「一つになる」という感情的・精神的なつながりを強調する。",
+      "collocations": [
+        "unite against",
+        "unite behind",
+        "unite a country"
+      ],
+      "trivia": "アメリカの国名 'United States'（合衆国）もこの単語から。直訳すると「一つに団結した州々」。E pluribus unum（多から一へ）というラテン語のモットーとも通じる、アメリカ建国の哲学が込められた単語！"
+    },
+    "frequency": 1100,
+    "cefr": "B1"
+  },
+  {
+    "id": 216,
+    "word": "feed",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "食べ物を与える、養う",
+        "pos": "verb"
+      },
+      {
+        "meaning": "供給する、入力する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/fiːd/",
+    "syllables": "feed",
+    "audioHint": "フィード",
+    "examples": [
+      {
+        "en": "She feeds her cat twice a day.",
+        "ja": "彼女は猫に1日2回えさをあげる。",
+        "blank": "She ___ her cat twice a day.",
+        "blankAnswer": "feeds"
+      }
+    ],
+    "distractors": [
+      "呼吸する",
+      "休息する",
+      "触れる"
+    ],
+    "confusableSpellings": [
+      "fead",
+      "feeed",
+      "fede"
+    ],
+    "passive": {
+      "etymology": "古英語 'fēdan'（食べ物を与える）から。ゲルマン語の 'fōdjan' に由来し、'food'（食べ物）と同じ語根。food と feed は「食べ物」と「食べ物を与える行為」という兄弟関係にある。",
+      "tips": "活用形は feed – fed – fed（不規則変化）。'feed on'（～を食べる）と 'feed'（食べ物を与える）の方向を混同しないよう注意。'The lion feeds on zebras'（ライオンはシマウマを食べる）。",
+      "confusables": "'feed' は食べ物を与える行為全般、'nourish' は栄養を補給するという健康・医療的なニュアンス、'raise' は動物を育てるという長期的なプロセスを含む。",
+      "collocations": [
+        "feed a baby",
+        "feed on",
+        "feed data into"
+      ],
+      "trivia": "SNSの「フィード」（タイムライン）も実はこの単語から。情報を次々と「与えて（feed）」くれる仕組みをニュースフィード（news feed）と呼んだのが始まり。Facebookが2006年に導入して以来、定番語になった！"
+    },
+    "frequency": 750,
+    "cefr": "A2"
+  },
+  {
+    "id": 217,
+    "word": "seek",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "求める、探し求める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（助けなどを）求めに行く",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/siːk/",
+    "syllables": "seek",
+    "audioHint": "シーク",
+    "examples": [
+      {
+        "en": "He is seeking a new job in the city.",
+        "ja": "彼は都市で新しい仕事を探している。",
+        "blank": "He is ___ a new job in the city.",
+        "blankAnswer": "seeking"
+      }
+    ],
+    "distractors": [
+      "試みる",
+      "運ぶ",
+      "繰り返す"
+    ],
+    "confusableSpellings": [
+      "seec",
+      "seeck",
+      "seak"
+    ],
+    "passive": {
+      "etymology": "古英語 'sēcan'（探す・訪ねる）から。ゲルマン語の語根に由来し、ドイツ語の 'suchen'（探す）と同語源。'hide and seek'（かくれんぼ）の 'seek' はまさにこの意味。",
+      "tips": "活用形は seek – sought – sought（不規則変化）。'look for' よりフォーマルで、特に抽象的なものを「探し求める」場合に用いる。'seek help / advice / approval' などのコロケーションを丸ごと覚えよう。",
+      "confusables": "'search' は場所や物理的な対象を探すイメージ、'seek' は目標・承認・助けなど抽象的なものを追い求めるイメージ。'seek a solution'とは言うが 'search a solution'とは通常言わない。",
+      "collocations": [
+        "seek help",
+        "seek approval",
+        "seek a solution"
+      ],
+      "trivia": "「hide and seek」（かくれんぼ）は世界中に存在する遊びだが、英語では「隠れると探す」の2動詞がセットになっている。ちなみに鬼役を英語では 'It'（それ）と呼ぶのも面白い文化的ポイント！"
+    },
+    "frequency": 500,
+    "cefr": "B1"
+  },
+  {
+    "id": 218,
+    "word": "observe",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "観察する、注目する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（法律・慣習などを）守る、遵守する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/əbˈzɜːrv/",
+    "syllables": "ob-serve",
+    "audioHint": "オブザーヴ",
+    "examples": [
+      {
+        "en": "Scientists observed the behavior of the dolphins.",
+        "ja": "科学者たちはイルカの行動を観察した。",
+        "blank": "Scientists ___ the behavior of the dolphins.",
+        "blankAnswer": "observed"
+      }
+    ],
+    "distractors": [
+      "推測する",
+      "証明する",
+      "関連付ける"
+    ],
+    "confusableSpellings": [
+      "observ",
+      "obsurve",
+      "obzerve"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'observare'（注意深く見る・守る）から。接頭辞 'ob-'（～に向かって・上に）＋ 'servare'（見張る・保つ）。'conserve'（保存する）や 'preserve'（保存する）も同じ語根。",
+      "tips": "「観察する」と「遵守する」という2つの意味が混同されやすい。'observe the law'（法律を守る）は後者の意味。また 'observe that ...'（～と気づく・述べる）という文語的な使い方も試験によく出る。",
+      "confusables": "'watch' は意図的に動くものを見ること、'look at' は静止したものを見ること、'observe' はより科学的・注意深く観察するニュアンス。",
+      "collocations": [
+        "observe behavior",
+        "observe a rule",
+        "observe that"
+      ],
+      "trivia": "天文台を英語で 'observatory'（オブザーバトリー）と言うが、これも 'observe' から来ている。宇宙を「観察する場所」という直接的な命名が清々しい！望遠鏡が発明された17世紀に広まった言葉。"
+    },
+    "frequency": 850,
+    "cefr": "B1"
+  },
+  {
+    "id": 219,
+    "word": "reveal",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "明かす、暴露する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（隠れていたものを）示す、現す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/rɪˈviːl/",
+    "syllables": "re-veal",
+    "audioHint": "リヴィール",
+    "examples": [
+      {
+        "en": "The report revealed serious problems in the system.",
+        "ja": "その報告書はシステムの深刻な問題を明らかにした。",
+        "blank": "The report ___ serious problems in the system.",
+        "blankAnswer": "revealed"
+      }
+    ],
+    "distractors": [
+      "記憶する",
+      "評価する",
+      "関連付ける"
+    ],
+    "confusableSpellings": [
+      "reveil",
+      "reveale",
+      "riveal"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'revelare'（ベールを取り除く）から。接頭辞 're-'（逆・元に戻す）＋ 'velum'（ベール・覆い）。文字通り「ベールを剥がす」という視覚的なイメージが語源。",
+      "tips": "'reveal' の後には名詞・that節・疑問詞節が続く。'The study revealed that ...'（研究によって～が明らかになった）という形は論文やニュースで頻出。受動態 'be revealed' も頻繁に使われる。",
+      "confusables": "'disclose' は法的・公式な文脈での情報開示、'expose' はスキャンダルや不正を暴くニュアンス、'reveal' は隠れていた事実・秘密が明るみに出るという最も幅広い表現。",
+      "collocations": [
+        "reveal a secret",
+        "reveal that",
+        "reveal the truth"
+      ],
+      "trivia": "SNS・YouTube文化では 'gender reveal party'（性別発表パーティー）が一大トレンドになった。語源の「ベールを取る」イメージがそのまま現代のセレモニーに生きている。ただし花火が山火事を起こした事件も話題になったとんでもないパーティーでもある！"
+    },
+    "frequency": 650,
+    "cefr": "B1"
+  },
+  {
+    "id": 220,
+    "word": "estimate",
+    "pos": "verb",
+    "categoryId": 2,
+    "meanings": [
+      {
+        "meaning": "推定する、見積もる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "見積もり、推定値",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈɛstɪmeɪt/",
+    "syllables": "es-ti-mate",
+    "audioHint": "エスティメイト",
+    "examples": [
+      {
+        "en": "Experts estimate the cost at ten million dollars.",
+        "ja": "専門家たちはコストを1000万ドルと見積もっている。",
+        "blank": "Experts ___ the cost at ten million dollars.",
+        "blankAnswer": "estimate"
+      }
+    ],
+    "distractors": [
+      "証明する",
+      "観察する",
+      "記憶する"
+    ],
+    "confusableSpellings": [
+      "estimete",
+      "esitmate",
+      "estmate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'aestimare'（価値を評価する・見積もる）から。古代ローマでは財産の評価（census）に使われた言葉。'esteem'（尊敬する）と同じ語根で、どちらも「価値を判断する」というコアがある。",
+      "tips": "動詞の場合は /ˈɛstɪmeɪt/（エスティメイト）、名詞の場合も同じ発音だが文脈で区別する。'estimate that ...'（～と推定する）の形でthat節を取れる点に注意。'approximately'との相性が抜群。",
+      "confusables": "'estimate' は計算や判断に基づく推定、'guess' は根拠が薄い推測、'calculate' は正確な数値を計算すること。フォーマルな文脈では estimate が最も適切。",
+      "collocations": [
+        "rough estimate",
+        "estimate the cost",
+        "estimate that"
+      ],
+      "trivia": "工事や修理の「お見積り」を英語で 'estimate' と言う。ホームセンターやリフォーム会社が出す紙切れ一枚が、なんと古代ローマの財産査定と同じ単語で呼ばれているというロマンがある！"
+    },
+    "frequency": 750,
+    "cefr": "B1"
+  }
+]

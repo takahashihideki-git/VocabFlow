@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1601,
+    "word": "collaborate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "協力する、共同作業する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "共同制作する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kəˈlæbəreɪt/",
+    "syllables": "col-lab-o-rate",
+    "audioHint": "コラボレイト",
+    "examples": [
+      {
+        "en": "The two companies decided to collaborate on a new project.",
+        "ja": "その2社は新しいプロジェクトで協力することにした。",
+        "blank": "The two companies decided to ___ on a new project.",
+        "blankAnswer": "collaborate"
+      }
+    ],
+    "distractors": [
+      "交渉する",
+      "仲裁する",
+      "説得する"
+    ],
+    "confusableSpellings": [
+      "colaborate",
+      "colaberate",
+      "colaborrate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'collaborare' 由来。接頭辞 'col-'（共に）＋語根 'laborare'（働く）。'labor'（労働）と同じ語根を持つ。",
+      "tips": "collaborate は必ず 'with' または 'on' と一緒に使う。「collaborate with 人 on 事柄」という形が基本。'cooperate' との違いは、collaborate がより創造的・知的な共同作業に使われる点。",
+      "confusables": "'cooperate'（協力する）と意味が近いが、collaborate はアート・研究・プロジェクトなど共同で何かを生み出す文脈に使われ、cooperate はルールや指示に従って協調する場面に使われることが多い。",
+      "collocations": [
+        "collaborate with colleagues",
+        "collaborate on a project",
+        "closely collaborate"
+      ],
+      "trivia": "「コラボ」という日本語は 'collaboration' の略語として完全に定着しているが、英語圏では略して 'collab' と言うこともある（SNSやYouTubeカルチャー由来）。"
+    },
+    "frequency": 3200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1602,
+    "word": "exert",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "（力・影響力を）及ぼす、行使する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（努力を）払う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪɡˈzɜːrt/",
+    "syllables": "ex-ert",
+    "audioHint": "イグザート",
+    "examples": [
+      {
+        "en": "She exerted great effort to finish the report on time.",
+        "ja": "彼女はレポートを時間内に終わらせるために大きな努力を払った。",
+        "blank": "She ___ great effort to finish the report on time.",
+        "blankAnswer": "exerted"
+      }
+    ],
+    "distractors": [
+      "取り除く",
+      "膨張する",
+      "縮小する"
+    ],
+    "confusableSpellings": [
+      "exsert",
+      "exirt",
+      "exeart"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'exserere' 由来。接頭辞 'ex-'（外へ）＋語根 'serere'（結びつける、伸ばす）。力を外に向けて伸ばすイメージ。",
+      "tips": "'exert pressure/influence/force' のように「力・影響・圧力」などと組み合わせるのが基本。'exert oneself' で「懸命に努力する」の意味になる。'exercise'（行使する）と混同しやすいが、exert はより物理的・抽象的な力の行使に使われる。",
+      "confusables": "'exercise'（行使する・運動する）と混同されやすい。'exercise power'（権力を行使する）はOKだが、'exert power' も同様に使える。ただし 'exercise' は体を動かす「運動」の意味もあるため、文脈で区別が必要。",
+      "collocations": [
+        "exert pressure",
+        "exert influence",
+        "exert oneself"
+      ],
+      "trivia": "「エクサート」という音は日本人には聞き取りにくいが、'x' の発音が /ɡz/ になるのは母音の前だから（'exact', 'exam' も同様）。'ex-' の後に母音が来るとき注意！"
+    },
+    "frequency": 4100,
+    "cefr": "B2"
+  },
+  {
+    "id": 1603,
+    "word": "excel",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "優れている、卓越する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（人を）しのぐ",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪkˈsel/",
+    "syllables": "ex-cel",
+    "audioHint": "イクセル",
+    "examples": [
+      {
+        "en": "He excels at mathematics and always gets top scores.",
+        "ja": "彼は数学が得意で、いつも最高点を取る。",
+        "blank": "He ___ at mathematics and always gets top scores.",
+        "blankAnswer": "excels"
+      }
+    ],
+    "distractors": [
+      "失敗する",
+      "縮小する",
+      "停滞する"
+    ],
+    "confusableSpellings": [
+      "excell",
+      "exsel",
+      "exsell"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'excellere' 由来。接頭辞 'ex-'（外へ、上へ）＋語根 'cellere'（進む、そびえる）。他より高く突き出るイメージ。",
+      "tips": "'excel at/in 〜' の形で使う。'He excels at sports' / 'She excels in her field' が自然。Microsoft の表計算ソフト「Excel」と同じスペルなので覚えやすいが、動詞として使うとき三単現の 's' を忘れないこと（'excels'）。",
+      "confusables": "'exceed'（超える）と混同しやすい。'excel' は「他より優れている（質的優位）」、'exceed' は「基準・数値を上回る（量的超過）」というニュアンスの違いがある。",
+      "collocations": [
+        "excel at sports",
+        "excel in academics",
+        "excel beyond expectations"
+      ],
+      "trivia": "あの有名な表計算ソフト「Microsoft Excel」の名前はこの単語から来ている。「卓越した計算ツール」という意味を込めて命名されたとされる。まさに名は体を表す！"
+    },
+    "frequency": 3800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1604,
+    "word": "prosper",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "繁栄する、栄える",
+        "pos": "verb"
+      },
+      {
+        "meaning": "成功する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈprɒspər/",
+    "syllables": "pros-per",
+    "audioHint": "プロスパー",
+    "examples": [
+      {
+        "en": "The small business prospered after they changed their strategy.",
+        "ja": "その小規模事業は戦略を変えた後に繁栄した。",
+        "blank": "The small business ___ after they changed their strategy.",
+        "blankAnswer": "prospered"
+      }
+    ],
+    "distractors": [
+      "衰退する",
+      "干渉する",
+      "急上昇する"
+    ],
+    "confusableSpellings": [
+      "prospere",
+      "prospher",
+      "prossper"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'prosperare' 由来。語根 'pro-'（前へ）＋ 'spes'（希望）から来ており、「希望に向かって前進する」というイメージ。",
+      "tips": "'prosper' は自動詞で目的語を取らない。'prosperity'（繁栄）、'prosperous'（繁栄した）という派生語も重要。ビジネス・経済の文脈でよく使われるが、個人の成功にも使える。",
+      "confusables": "'thrive'（繁栄する・生き生きする）と意味が近い。'prosper' は経済的・物質的な成功に、'thrive' は生物が元気に育つ・人が生き生きするという広い意味で使われる傾向がある。",
+      "collocations": [
+        "prosper economically",
+        "prosper under stable conditions",
+        "prosper and grow"
+      ],
+      "trivia": "スタートレックの有名なセリフ「Live long and prosper（長寿と繁栄を）」はバルカン人の挨拶。このセリフのおかげで 'prosper' は SF ファンの間では特別な単語になっている！"
+    },
+    "frequency": 5200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1605,
+    "word": "surge",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "急増する、急上昇する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（波が）うねる、押し寄せる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/sɜːrdʒ/",
+    "syllables": "surge",
+    "audioHint": "サージ",
+    "examples": [
+      {
+        "en": "Demand for electric vehicles surged last year.",
+        "ja": "昨年、電気自動車への需要が急増した。",
+        "blank": "Demand for electric vehicles ___ last year.",
+        "blankAnswer": "surged"
+      }
+    ],
+    "distractors": [
+      "停滞する",
+      "縮小する",
+      "安定する"
+    ],
+    "confusableSpellings": [
+      "serge",
+      "surje",
+      "surg"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'surgere'（立ち上がる）由来。接頭辞 'sub-'（下から）＋ 'regere'（まっすぐにする）が変化したもの。波が下から盛り上がってくるイメージ。",
+      "tips": "名詞としても使い、'a surge in demand'（需要の急増）のように名詞でも頻出。ニュースや経済記事で非常によく見かける。'surge' は短母音ではなく /ɜː/ の長めの音なので「サージ」と伸ばして発音する。",
+      "confusables": "'soar'（急上昇する）と意味が近いが、'soar' は価格・株価などが高く舞い上がるイメージで比較的ポジティブ。'surge' は波のように勢いよく一気に増える感じで、必ずしもポジティブとは限らない（感染者数が surge するなど）。",
+      "collocations": [
+        "surge in demand",
+        "prices surged",
+        "surge forward"
+      ],
+      "trivia": "'surge pricing'（サージプライシング）はUberなどが繁忙時に料金を上げる仕組みのこと。日本語でも「サージ価格」と言われ始めていて、この単語が身近になってきている。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1606,
+    "word": "intervene",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "介入する、干渉する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "仲裁に入る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌɪntərˈviːn/",
+    "syllables": "in-ter-vene",
+    "audioHint": "インターヴィーン",
+    "examples": [
+      {
+        "en": "The teacher intervened when the students started arguing.",
+        "ja": "生徒たちが言い争いを始めたとき、先生が仲裁に入った。",
+        "blank": "The teacher ___ when the students started arguing.",
+        "blankAnswer": "intervened"
+      }
+    ],
+    "distractors": [
+      "協力する",
+      "説得する",
+      "拒否する"
+    ],
+    "confusableSpellings": [
+      "intervien",
+      "interveen",
+      "enterven"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'intervenire' 由来。接頭辞 'inter-'（間に）＋ 'venire'（来る）。「間に割り込んでくる」というイメージ。",
+      "tips": "'intervene in 〜' の形で使う。政治・外交・医療など公的な場面でよく使われる。'interfere'（干渉する）と違い、intervene は必ずしもネガティブではなく、止めに入る・助けに入るという中立〜ポジティブな意味でも使える。",
+      "confusables": "'interfere'（妨害する・干渉する）と混同されやすい。'interfere' は不必要に邪魔するネガティブなニュアンスが強いが、'intervene' は状況を改善するために入る場合にも使える（医療介入・国際的介入など）。",
+      "collocations": [
+        "intervene in a conflict",
+        "government intervenes",
+        "intervene on behalf of"
+      ],
+      "trivia": "'intervention'（介入）は医療・福祉の世界では「依存症の人に周囲が集まって改善を促すセッション」のことを指す。アメリカのリアリティ番組「Intervention」はまさにこれを扱った番組で大ヒットした。"
+    },
+    "frequency": 3900,
+    "cefr": "B2"
+  },
+  {
+    "id": 1607,
+    "word": "insert",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "挿入する、差し込む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（文章などを）書き加える",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈsɜːrt/",
+    "syllables": "in-sert",
+    "audioHint": "インサート",
+    "examples": [
+      {
+        "en": "Please insert your card into the machine to proceed.",
+        "ja": "続けるにはカードを機械に差し込んでください。",
+        "blank": "Please ___ your card into the machine to proceed.",
+        "blankAnswer": "insert"
+      }
+    ],
+    "distractors": [
+      "取り出す",
+      "押しつぶす",
+      "急増する"
+    ],
+    "confusableSpellings": [
+      "insirt",
+      "inssert",
+      "insart"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'inserere' 由来。接頭辞 'in-'（中へ）＋ 'serere'（つなぐ、植える）。中につなぎ込む・植え込むイメージ。",
+      "tips": "'insert A into B'（AをBに差し込む）の形が基本。名詞としても使われ、'an insert'（折り込みチラシ・差し込み広告）という意味もある。キーボードの「Insert キー」でおなじみの単語。",
+      "confusables": "'input'（入力する）と混同されることがある。'insert' は物理的に何かを差し込む・埋め込む行為に使われ、'input' はデータや情報を入れることに使われることが多い。",
+      "collocations": [
+        "insert a coin",
+        "insert text",
+        "insert into a slot"
+      ],
+      "trivia": "映像編集の世界では「インサート撮影」という言葉があり、小道具のアップ映像などを本編に差し込む技法を指す。日本語の映像業界用語として完全に定着していて、英語由来とは気づかれないことも多い。"
+    },
+    "frequency": 4300,
+    "cefr": "B1"
+  },
+  {
+    "id": 1608,
+    "word": "overtake",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "追い越す、追い抜く",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情・事態が）急に襲う",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˌoʊvərˈteɪk/",
+    "syllables": "o-ver-take",
+    "audioHint": "オーバーテイク",
+    "examples": [
+      {
+        "en": "China overtook the US as the world's largest economy in some measures.",
+        "ja": "一部の指標では中国が米国を抜いて世界最大の経済大国になった。",
+        "blank": "China ___ the US as the world's largest economy in some measures.",
+        "blankAnswer": "overtook"
+      }
+    ],
+    "distractors": [
+      "挿入する",
+      "膨張する",
+      "衰退する"
+    ],
+    "confusableSpellings": [
+      "overtak",
+      "overtakk",
+      "ovetake"
+    ],
+    "passive": {
+      "etymology": "接頭辞 'over-'（上を、超えて）＋ 'take'（取る、つかむ）。上から追い越してつかむイメージ。",
+      "tips": "過去形は 'overtook'、過去分詞は 'overtaken' と不規則変化するので注意。'take' の活用形（take-took-taken）と同じパターン。車の追い越しや、経済・スポーツなどの「追い抜き」に使われる。",
+      "confusables": "'overcome'（克服する）と混同されやすい。'overtake' は「追い越す・追い抜く」、'overcome' は「困難・感情・敵などを乗り越える」。'overtake' には競争・追跡のニュアンスがある。",
+      "collocations": [
+        "overtake a rival",
+        "be overtaken by fear",
+        "overtake in the final lap"
+      ],
+      "trivia": "F1レーシングでは追い越し行為を「オーバーテイク」と言い、日本語のモータースポーツ中継でもそのまま使われる。レースの醍醐味を表す言葉としてファンには親しみ深い単語！"
+    },
+    "frequency": 4700,
+    "cefr": "B2"
+  },
+  {
+    "id": 1609,
+    "word": "snap",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "パチンと折れる、ポキッと折る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（感情が）突然爆発する、かみつく",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/snæp/",
+    "syllables": "snap",
+    "audioHint": "スナップ",
+    "examples": [
+      {
+        "en": "The branch snapped under the weight of the snow.",
+        "ja": "雪の重さで枝がポキッと折れた。",
+        "blank": "The branch ___ under the weight of the snow.",
+        "blankAnswer": "snapped"
+      }
+    ],
+    "distractors": [
+      "彫刻する",
+      "握りしめる",
+      "押しつぶす"
+    ],
+    "confusableSpellings": [
+      "snapp",
+      "snep",
+      "snab"
+    ],
+    "passive": {
+      "etymology": "中低地ドイツ語 'snappen'（急につかむ）由来。擬音語的な要素があり、折れる際の「パチン」という音を表している。",
+      "tips": "多義語で要注意。①パキッと折る/折れる ②急にかみつく・怒鳴る（'Don't snap at me!'）③写真を素早く撮る（'snap a photo'）④指をパチンと鳴らす（'snap one's fingers'）と使い方が多い。SNSの『Snapchat』もここから来ている。",
+      "confusables": "'crack'（割れる・ひびが入る）と混同されやすい。'snap' は完全にパキッと折れる音・動作を表し、'crack' は部分的にひびが入る・割れる感じ。骨が 'snap' すると完全骨折、'crack' するとひびが入った感じ。",
+      "collocations": [
+        "snap in two",
+        "snap at someone",
+        "snap a photo"
+      ],
+      "trivia": "マーベル映画『アベンジャーズ：インフィニティ・ウォー』のサノスが指をパチンと鳴らす場面は英語で 'the snap' と呼ばれ、この動詞から派生した名詞として映画史に残る使われ方をしている。"
+    },
+    "frequency": 3100,
+    "cefr": "B1"
+  },
+  {
+    "id": 1610,
+    "word": "carve",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "彫る、刻む",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（肉を）切り分ける",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kɑːrv/",
+    "syllables": "carve",
+    "audioHint": "カーヴ",
+    "examples": [
+      {
+        "en": "He carved his initials into the old oak tree.",
+        "ja": "彼は古いオークの木に自分のイニシャルを彫った。",
+        "blank": "He ___ his initials into the old oak tree.",
+        "blankAnswer": "carved"
+      }
+    ],
+    "distractors": [
+      "折る",
+      "握りしめる",
+      "引っかく"
+    ],
+    "confusableSpellings": [
+      "carv",
+      "karve",
+      "crave"
+    ],
+    "passive": {
+      "etymology": "古英語 'ceorfan'（切る、刻む）由来。ゲルマン語系の語根で、刃物でなぞるように切り込むイメージ。",
+      "tips": "'carve' は彫刻するときだけでなく、'carve out a career'（キャリアを切り開く）のように比喩的に使われることも多い。'carve up'（切り分ける・分割する）という句動詞もよく使われる。スペルが 'crave'（切望する）と一文字違いなので混同注意！",
+      "confusables": "'engrave'（彫刻する・刻印する）と混同されやすい。'carve' は木・石・食材などに刃物で切り込む行為全般に使われ、'engrave' は金属・ガラス・石などに細かく文字・模様を刻む専門的・装飾的な作業に使われることが多い。",
+      "collocations": [
+        "carve wood",
+        "carve a turkey",
+        "carve out a niche"
+      ],
+      "trivia": "ハロウィンのカボチャ（ジャック・オー・ランタン）を作る作業は英語で 'carve a pumpkin' と言う。アメリカでは毎年秋になると「pumpkin carving」が家族のイベントになっており、この単語が一気に季節感を持つ。"
+    },
+    "frequency": 4600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1611,
+    "word": "addict",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を中毒にする、依存させる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "中毒者、依存症の人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/ˈædɪkt/",
+    "syllables": "ad-dict",
+    "audioHint": "アディクト",
+    "examples": [
+      {
+        "en": "He became addicted to social media after just one week.",
+        "ja": "彼はたった1週間でSNSに依存するようになった。",
+        "blank": "He became ___ to social media after just one week.",
+        "blankAnswer": "addicted"
+      }
+    ],
+    "distractors": [
+      "〜を非難する",
+      "〜を命令する",
+      "〜を処方する"
+    ],
+    "confusableSpellings": [
+      "addict",
+      "addikt",
+      "addiict"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'addictus'（身を捧げた）から。ad-（〜に向けて）＋ dicere（言う・割り当てる）が語源。もともとはローマ法で「債務者を債権者に引き渡す」という法的用語だった。",
+      "tips": "動詞として使うときは主に受動態 'be addicted to〜' の形が自然。'I addict to games' は不自然で、'I am addicted to games' が正解。to の後は名詞か動名詞（-ing形）を置く。",
+      "confusables": "'addict'（中毒にする・中毒者）と 'dedicate'（捧げる）は語根が近いが意味が異なる。'be dedicated to' は「〜に献身する」でポジティブな意味。'be addicted to' は「〜に依存している」でネガティブなニュアンスが強い。",
+      "collocations": [
+        "be addicted to ~",
+        "drug addict",
+        "become addicted"
+      ],
+      "trivia": "「addict」の語源はローマ時代の法律用語で、借金が払えない人が債権者に「引き渡される」ことを意味した。現代の「依存」とイメージが重なるのが面白い。"
+    },
+    "frequency": 4200,
+    "cefr": "B2"
+  },
+  {
+    "id": 1612,
+    "word": "condemn",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を非難する、糾弾する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜に有罪判決を下す",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/kənˈdem/",
+    "syllables": "con-demn",
+    "audioHint": "コンデム",
+    "examples": [
+      {
+        "en": "The government condemned the attack as an act of terrorism.",
+        "ja": "政府はその攻撃をテロ行為として非難した。",
+        "blank": "The government ___ the attack as an act of terrorism.",
+        "blankAnswer": "condemned"
+      }
+    ],
+    "distractors": [
+      "〜を中毒にする",
+      "〜を処方する",
+      "〜を命令する"
+    ],
+    "confusableSpellings": [
+      "condem",
+      "condamn",
+      "condemm"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'condemnare' から。con-（完全に）＋ damnare（罰する・損害を与える）が語源。'damn'（呪う）と同じ語根を持つ。",
+      "tips": "末尾の 'n' が発音されないのに注意！「コンデム」と読む。スペルには 'n' があるのに読まないため、日本人は 'condem' とスペルミスしやすい。また、'condemn' は公式・強い非難に使い、軽い批判には 'criticize' を使う方が自然。",
+      "confusables": "'condemn'（強く非難する）と 'criticize'（批判する）の違い：'condemn' は道徳的・公式な断罪のニュアンスが強く、政府声明や重大事件に使われる。'criticize' は日常的な批判に使える。",
+      "collocations": [
+        "condemn the act",
+        "strongly condemn",
+        "be condemned to death"
+      ],
+      "trivia": "末尾の 'n' が黙字（サイレントレター）なのは、語源のラテン語 'damnare' に由来する名残。同じく 'damn' も末尾の 'n' は発音しない。英語の黙字の不思議さを実感できる単語。"
+    },
+    "frequency": 3800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1613,
+    "word": "convict",
+    "pos": "verb",
+    "categoryId": 6,
+    "meanings": [
+      {
+        "meaning": "〜に有罪判決を下す",
+        "pos": "verb"
+      },
+      {
+        "meaning": "受刑者、有罪判決を受けた人",
+        "pos": "noun"
+      }
+    ],
+    "pronunciation": "/kənˈvɪkt/",
+    "syllables": "con-vict",
+    "audioHint": "コンヴィクト",
+    "examples": [
+      {
+        "en": "The jury convicted him of murder after a long trial.",
+        "ja": "陪審員は長い裁判の末、彼に殺人罪の有罪判決を下した。",
+        "blank": "The jury ___ him of murder after a long trial.",
+        "blankAnswer": "convicted"
+      }
+    ],
+    "distractors": [
+      "〜を非難する",
+      "〜を釈放する",
+      "〜を起訴する"
+    ],
+    "confusableSpellings": [
+      "convickt",
+      "convikt",
+      "convictt"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'convincere' から。con-（完全に）＋ vincere（打ち負かす・征服する）が語源。証拠で「完全に打ち負かす」というイメージ。",
+      "tips": "動詞と名詞でアクセント位置が変わる！動詞は 'con-VICT'（コンヴィクト）、名詞は 'CON-vict'（コンヴィクト）と第1音節にアクセント。'convict A of B'（AをBの罪で有罪にする）の形で覚えよう。",
+      "confusables": "'convict'（有罪判決を下す）と 'arrest'（逮捕する）、'indict'（起訴する）は混同しやすい。流れは arrest → indict → convict の順。'convict' は裁判の最終段階。",
+      "collocations": [
+        "convict of a crime",
+        "be convicted of murder",
+        "convicted criminal"
+      ],
+      "trivia": "オーストラリアはかつてイギリスの流刑地で、'convict'（受刑者）を大量に送り込んだ歴史がある。現代のオーストラリア人の祖先に流刑囚がいることを誇りとする文化もあり、'convict heritage' という言葉まである。"
+    },
+    "frequency": 3500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1614,
+    "word": "dictate",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を命令する、指図する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を口述する（書き取らせる）",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈdɪkteɪt/",
+    "syllables": "dic-tate",
+    "audioHint": "ディクテイト",
+    "examples": [
+      {
+        "en": "You can't dictate how I spend my free time.",
+        "ja": "私の自由時間の使い方をあなたに指図される筋合いはない。",
+        "blank": "You can't ___ how I spend my free time.",
+        "blankAnswer": "dictate"
+      }
+    ],
+    "distractors": [
+      "〜を中毒にする",
+      "〜を非難する",
+      "〜を処方する"
+    ],
+    "confusableSpellings": [
+      "dictait",
+      "diktate",
+      "dicktate"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'dictare'（繰り返し言う）から。dict-（言う）＋ -ate（動詞語尾）が語源。'dictionary'（辞書）や 'predict'（予測する）も同じ語根 dict を持つ。",
+      "tips": "「口述する」と「命令する」の2つの意味を覚えよう。ビジネス英語では 'dictate a letter'（手紙を口述する）、日常では 'dictate terms'（条件を押しつける）のように使う。'dictator'（独裁者）と結びつけると命令の意味が覚えやすい。",
+      "confusables": "'dictate'（指図する）と 'instruct'（指示する）の違い：'dictate' は一方的・強権的なニュアンスが強く、'instruct' は教育的・指導的な意味合い。上司が部下に使うなら 'instruct' の方が自然なことが多い。",
+      "collocations": [
+        "dictate terms",
+        "dictate a letter",
+        "dictate to someone"
+      ],
+      "trivia": "英語テストの「ディクテーション（dictation）」はまさにこの単語から来ている。先生が読み上げて生徒が書き取る＝口述させるという行為そのもの。語源を知ると試験勉強にもなる一石二鳥の単語。"
+    },
+    "frequency": 4000,
+    "cefr": "B2"
+  },
+  {
+    "id": 1615,
+    "word": "prescribe",
+    "pos": "verb",
+    "categoryId": 4,
+    "meanings": [
+      {
+        "meaning": "〜を処方する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を規定する、定める",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/prɪˈskraɪb/",
+    "syllables": "pre-scribe",
+    "audioHint": "プリスクライブ",
+    "examples": [
+      {
+        "en": "The doctor prescribed antibiotics for my throat infection.",
+        "ja": "医師は喉の感染症に抗生物質を処方した。",
+        "blank": "The doctor ___ antibiotics for my throat infection.",
+        "blankAnswer": "prescribed"
+      }
+    ],
+    "distractors": [
+      "〜を命令する",
+      "〜を非難する",
+      "〜を中毒にする"
+    ],
+    "confusableSpellings": [
+      "precribe",
+      "prescripe",
+      "prescrib"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'praescribere' から。pre-（前に）＋ scribere（書く）が語源。「前もって書いておく」→「処方箋に書く」→「処方する」という意味の流れ。",
+      "tips": "'prescribe'（処方する・規定する）と 'proscribe'（禁止する）は1文字違いで意味が正反対！医師が薬を prescribe（処方）し、法律が危険な行為を proscribe（禁止）する。混同すると大変なので注意。",
+      "confusables": "'prescribe'（処方する）と 'subscribe'（購読する）と 'proscribe'（禁止する）はすべて '-scribe'（書く）を含む。prescription（処方箋）、subscription（定期購読）と名詞形もセットで覚えると整理しやすい。",
+      "collocations": [
+        "prescribe medicine",
+        "prescribed by a doctor",
+        "as prescribed"
+      ],
+      "trivia": "処方箋（prescription）に書かれる 'Rx' という記号は、ラテン語の 'Recipe'（取れ・受け取れ）の略。つまり 'Rx' は「この薬を受け取れ」という意味で、医師から薬剤師へのメッセージだった。"
+    },
+    "frequency": 3600,
+    "cefr": "B2"
+  },
+  {
+    "id": 1616,
+    "word": "inhibit",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を抑制する、妨げる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を禁止する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈhɪbɪt/",
+    "syllables": "in-hib-it",
+    "audioHint": "インヒビット",
+    "examples": [
+      {
+        "en": "Fear of failure can inhibit creativity in students.",
+        "ja": "失敗への恐れは生徒の創造性を妨げることがある。",
+        "blank": "Fear of failure can ___ creativity in students.",
+        "blankAnswer": "inhibit"
+      }
+    ],
+    "distractors": [
+      "〜を促進する",
+      "〜を強化する",
+      "〜を解放する"
+    ],
+    "confusableSpellings": [
+      "inhibt",
+      "inhibitt",
+      "inhipit"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'inhibere' から。in-（中に・〜に対して）＋ habere（持つ・保つ）が語源。「内側に押さえ込んで保つ」→「抑制する」というイメージ。",
+      "tips": "'inhibit' は主に心理・生物・化学の文脈でよく使われる。人の行動や感情を「内側から抑える」ニュアンスがある。'inhibited'（抑制された・内気な）という形容詞も頻出。'Don't be so inhibited!'（そんなに内気にならないで！）のように使える。",
+      "confusables": "'inhibit'（抑制する）と 'prohibit'（禁止する）は混同しやすい。'prohibit' は法律・規則による外からの禁止、'inhibit' は内側からの抑制や妨げ。'inhibit' は心理・生物学的、'prohibit' は法的・社会的文脈が多い。",
+      "collocations": [
+        "inhibit growth",
+        "inhibit creativity",
+        "feel inhibited"
+      ],
+      "trivia": "心理学用語の「インヒビション（inhibition）」はフロイトの概念としても有名。欲求や衝動を無意識に抑え込むことを指す。英語でシャイな人を 'inhibited' と呼ぶのもこの概念から来ている。"
+    },
+    "frequency": 4500,
+    "cefr": "B2"
+  },
+  {
+    "id": 1617,
+    "word": "stray",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "迷い込む、はぐれる",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（話題・道などから）それる",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/streɪ/",
+    "syllables": "stray",
+    "audioHint": "ストレイ",
+    "examples": [
+      {
+        "en": "The child strayed from the group during the field trip.",
+        "ja": "その子供は遠足中にグループからはぐれた。",
+        "blank": "The child ___ from the group during the field trip.",
+        "blankAnswer": "strayed"
+      }
+    ],
+    "distractors": [
+      "さまよい歩く",
+      "急いで走る",
+      "ゆっくりと進む"
+    ],
+    "confusableSpellings": [
+      "strey",
+      "strai",
+      "straay"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'estraier'（さまよう）から。ラテン語 'extra'（外に）＋ vagari（さまよう）が語源とされる。'extravagant'（浪費する・大げさな）とも遠い親戚。",
+      "tips": "'stray' は動詞だけでなく形容詞・名詞としても使える多機能語。'a stray cat'（野良猫）、'a stray bullet'（流れ弾）のように形容詞としてよく使われる。'stray from the topic'（話題からそれる）は会議や議論でよく使えるフレーズ。",
+      "confusables": "'stray'（はぐれる・迷い込む）と 'roam'（目的なくさまよう）の違い：'stray' は「あるべき場所から離れてしまう」ネガティブなニュアンス、'roam' は「自由に歩き回る」中立〜ポジティブなニュアンス。",
+      "collocations": [
+        "stray cat",
+        "stray from the path",
+        "stray bullet"
+      ],
+      "trivia": "「野良猫」を英語で 'stray cat' と言うが、この stray には「迷い込んだ・主のない」という意味がある。スタンド・バイ・ミーのテーマ曲で有名な Ben E. King の曲 'Stand by Me' の歌詞にも似た表現が登場する。"
+    },
+    "frequency": 5200,
+    "cefr": "B1"
+  },
+  {
+    "id": 1618,
+    "word": "roam",
+    "pos": "verb",
+    "categoryId": 3,
+    "meanings": [
+      {
+        "meaning": "〜をさまよう、歩き回る",
+        "pos": "verb"
+      },
+      {
+        "meaning": "自由に歩き回る",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/roʊm/",
+    "syllables": "roam",
+    "audioHint": "ロウム",
+    "examples": [
+      {
+        "en": "Wild elephants roam freely across the vast savanna.",
+        "ja": "野生の象が広大なサバンナを自由に歩き回っている。",
+        "blank": "Wild elephants ___ freely across the vast savanna.",
+        "blankAnswer": "roam"
+      }
+    ],
+    "distractors": [
+      "迷い込む",
+      "急いで走る",
+      "そっと忍び寄る"
+    ],
+    "confusableSpellings": [
+      "rome",
+      "roame",
+      "roam"
+    ],
+    "passive": {
+      "etymology": "中英語 'romen' から。語源は諸説あり、ローマへの巡礼者が各地を歩き回ったことから 'Rome'（ローマ）が語源という説もあるが、確証はない。",
+      "tips": "'roam' は目的地なく自由に歩き回るイメージ。携帯の「ローミング（roaming）」はまさにこの単語で、電波が自由に広い範囲をさまよう＝他社回線を使って通信することを指す。日常では 'free to roam'（自由に歩き回れる）のフレーズが使いやすい。",
+      "confusables": "'roam'（自由にさまよう）と 'stray'（はぐれる・道を外れる）の使い分け：'roam' は能動的・自由なイメージ、'stray' は「あるべき場所から外れる」という逸脱のイメージ。野良猫は 'stray cat'、自由に草原を歩く馬は 'roam the fields'。",
+      "collocations": [
+        "roam freely",
+        "roam the streets",
+        "roam around"
+      ],
+      "trivia": "スマホの「国際ローミング」は 'roaming' から来ている。電波が国境を越えて「さまよう」イメージ。ローミング料金が高いのは、文字通り電波が「旅」をしているからかも。"
+    },
+    "frequency": 5800,
+    "cefr": "B2"
+  },
+  {
+    "id": 1619,
+    "word": "enclose",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を囲む、封じ込める",
+        "pos": "verb"
+      },
+      {
+        "meaning": "（手紙などに）〜を同封する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ɪnˈkloʊz/",
+    "syllables": "en-close",
+    "audioHint": "エンクロウズ",
+    "examples": [
+      {
+        "en": "Please find the invoice enclosed with this letter.",
+        "ja": "この手紙に同封の請求書をご確認ください。",
+        "blank": "Please find the invoice ___ with this letter.",
+        "blankAnswer": "enclosed"
+      }
+    ],
+    "distractors": [
+      "〜を解放する",
+      "〜を抑制する",
+      "〜を実行する"
+    ],
+    "confusableSpellings": [
+      "incluse",
+      "enclouse",
+      "encloze"
+    ],
+    "passive": {
+      "etymology": "古フランス語 'enclos' から。en-（中に）＋ close（閉じる）が語源。ラテン語 'claudere'（閉じる）に由来。'conclude'（結論づける）や 'disclose'（暴露する）も同じ語根。",
+      "tips": "ビジネスメールや手紙で超頻出。'Please find enclosed...'（〜を同封しております）は定型表現として丸ごと覚えよう。'enclosed' は形容詞としても使え、'an enclosed space'（閉鎖空間）のように使える。",
+      "confusables": "'enclose'（囲む・同封する）と 'include'（含む）の違い：'include' は「要素として含む」意味で広く使える。'enclose' は「物理的に囲む」または「書類を同封する」という具体的な行為を指す。",
+      "collocations": [
+        "enclose a document",
+        "enclosed space",
+        "please find enclosed"
+      ],
+      "trivia": "イギリスの歴史で「エンクロージャー（Enclosure）」は農地の囲い込み運動のこと。共有地を地主が柵で囲ってしまったことで農民が土地を失い、産業革命の労働力になった。一語が歴史を動かした。"
+    },
+    "frequency": 4800,
+    "cefr": "B1"
+  },
+  {
+    "id": 1620,
+    "word": "execute",
+    "pos": "verb",
+    "categoryId": 1,
+    "meanings": [
+      {
+        "meaning": "〜を実行する、遂行する",
+        "pos": "verb"
+      },
+      {
+        "meaning": "〜を処刑する",
+        "pos": "verb"
+      }
+    ],
+    "pronunciation": "/ˈeksɪkjuːt/",
+    "syllables": "ex-e-cute",
+    "audioHint": "エクセキュート",
+    "examples": [
+      {
+        "en": "The team executed the plan perfectly without any mistakes.",
+        "ja": "チームはミスなく計画を完璧に実行した。",
+        "blank": "The team ___ the plan perfectly without any mistakes.",
+        "blankAnswer": "executed"
+      }
+    ],
+    "distractors": [
+      "〜を囲む",
+      "〜を抑制する",
+      "〜を同封する"
+    ],
+    "confusableSpellings": [
+      "excecute",
+      "exicute",
+      "execuute"
+    ],
+    "passive": {
+      "etymology": "ラテン語 'exsequi' から。ex-（完全に・外へ）＋ sequi（従う・続く）が語源。「最後まで追いかける」→「完遂する」というイメージ。'consequence'（結果）も同じ語根。",
+      "tips": "「実行する」と「処刑する」という2つの意味が共存する単語。ITの世界では 'execute a program'（プログラムを実行する）が頻出。'execution'（実行・処刑）、'executive'（幹部・管理職）も同語源で、いずれも「完遂する力を持つ人・行為」のイメージ。",
+      "confusables": "'execute'（実行する）と 'perform'（実施する・演じる）の違い：'execute' は計画や命令を「確実にやり遂げる」フォーマルなニュアンス、'perform' は「こなす・演じる」でより広く使える。ビジネスでは 'execute a strategy'（戦略を実行する）が定番。",
+      "collocations": [
+        "execute a plan",
+        "execute a command",
+        "execute a criminal"
+      ],
+      "trivia": "プログラミングで「コードを実行する」を 'execute' と言うのは、コンピュータが命令（instruction）に「完全に従う」という語源のイメージそのまま。処刑と実行が同じ単語というのは、「最後まで完遂する」という冷徹な語源の力を感じる。"
+    },
+    "frequency": 2900,
+    "cefr": "B1"
+  }
+]
