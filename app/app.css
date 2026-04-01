@@ -30,6 +30,24 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* ===== Dev Mode ===== */
+
+#dev-badge {
+  position: fixed;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #F39C12;
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 99px;
+  z-index: 9999;
+  pointer-events: none;
+  letter-spacing: 0.04em;
+}
+
 /* ===== Layout ===== */
 
 #app {
@@ -763,6 +781,15 @@ body.swiped-once .swipe-hint { display: none !important; }
 }
 
 #wordwave-stats b { color: var(--text); font-weight: 600; }
+
+#wordwave-time {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  -webkit-text-fill-color: var(--text-muted);
+  margin-left: 10px;
+  vertical-align: middle;
+}
 
 #wordwave-header-actions {
   flex-shrink: 0;

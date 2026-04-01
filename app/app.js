@@ -12,14 +12,27 @@ import { WordWaveRenderer }              from './ui-wordwave.js';
 import { LABELS }                        from '../core/labels.js';
 import { BackgroundManager }             from './ui-background.js';
 
-const STORAGE_KEY = 'vocabflow_state_v1';
+const IS_DEV = new URLSearchParams(location.search).has('dev');
+const STORAGE_KEY = IS_DEV ? 'vocabflow_state_dev_v1' : 'vocabflow_state_v1';
+
+// dev モード: 少数語 + 縮小 config で状態遷移・Wave 解放を素早く確認
+const DEV_CONFIG = {
+  waveSize: 3,             // 3語×Wave → 10語で Wave 1〜3 が存在
+  sessionSize: 5,
+  maxNewPerSession: 3,
+  masteredThresholdH: 2.0, // 早期 mastered
+  dictationThresholdH: 1.5,
+  waveUnlockH: 1.5,
+  waveUnlockRatio: 0.7,
+};
+const DEV_WORD_COUNT = 9; // Wave 1〜3 × waveSize(3) = 9語
 
 // -------------------------------------------------------
 // App
 // -------------------------------------------------------
 class VocabFlowApp {
   constructor() {
-    this.config      = createConfig();
+    this.config      = createConfig(IS_DEV ? DEV_CONFIG : {});
     this.state       = null;
     this.engine      = null;
     this.waveManager = null;
@@ -74,7 +87,8 @@ class VocabFlowApp {
   }
 
   _initState() {
-    const words = WORD_DATA.map(wd =>
+    const source = IS_DEV ? WORD_DATA.slice(0, DEV_WORD_COUNT) : WORD_DATA;
+    const words = source.map(wd =>
       new WordState(wd.id, wd, Math.ceil(wd.id / this.config.waveSize))
     );
     this.state = new LearnerState(words, this.config);
@@ -90,6 +104,14 @@ class VocabFlowApp {
 
     document.getElementById('start-screen').style.display = 'none';
     document.getElementById('app').style.display = 'flex';
+
+    if (IS_DEV) {
+      document.body.classList.add('dev-mode');
+      const badge = document.createElement('div');
+      badge.id = 'dev-badge';
+      badge.textContent = `DEV ${DEV_WORD_COUNT}語 / Wave×${DEV_CONFIG.waveSize}`;
+      document.body.appendChild(badge);
+    }
 
     // Heatmap
     const canvas  = document.getElementById('heatmap-canvas');
