@@ -178,9 +178,11 @@ log(h) ~ N(μ, σ²)
 
 段階の昇格条件：
 - Intro → Recognition: 同セッション内、数枚後に自動
-- Recognition → Recall: 次セッション以降で自動
-- Recall → Dictation: h ≥ dictation_threshold_h (4.0日)
-- 定着済み: Dictation クリア後、h が十分に大きい
+- Recognition → Recall: h ≥ recognitionThresholdH (2.0日)
+- Recall → Dictation: h ≥ dictationThresholdH (4.0日)
+- 定着済み: Dictation クリア かつ h ≥ masteredThresholdH (14.0日)
+
+Recognition → Recall に h ≥ 2.0日 の閾値を設ける理由: Recognition は4択で25%のまぐれ正解がありうる。h ベースの閾値により、最低2回の正解（h: 1.0 → 2.0）が必要となり、まぐれ1回での昇格を防ぐ。Recall → Dictation（h ≥ 4.0日）と同じ思想で、全段階遷移が h ベースで一貫する。
 
 不正解時は前の段階に戻る（例: Dictation不正解 → 次回はRecallから再開）。
 
@@ -532,7 +534,9 @@ Wave 1 (定着済み)  Wave 2 (学習中)  Wave 3以降 (未着手)
 | Handwrite重み | `handwriteWeight` | 1.6 | Handwrite正解時のα倍率 |
 | Handwrite判読困難重み | `handwriteMessyWeight` | 1.3 | 判読困難だが正解の倍率 |
 | Near miss重み | `nearMissWeight` | 0.9 | 惜しい正解時のα倍率 |
-| Dictation閾値 | `dictationThresholdH` | 4.0 日 | Dictation出題の半減期閾値 |
+| Recognition昇格閾値 | `recognitionThresholdH` | 2.0 日 | Recognition → Recall 昇格の半減期閾値 |
+| Dictation閾値 | `dictationThresholdH` | 4.0 日 | Recall → Dictation 昇格の半減期閾値 |
+| 定着判定閾値 | `masteredThresholdH` | 14.0 日 | Dictation クリア かつ h ≥ この値で mastered（定着済み）と判定 |
 | Handwrite停滞閾値 | `handwriteStuckThreshold` | 3 | 同一段階での累積不正解数がこの値以上で Handwrite 介入 |
 | Handwrite上限 | `maxHandwritePerSession` | 2 | 1セッションのHandwrite上限 |
 
@@ -617,7 +621,9 @@ export const DEFAULT_CONFIG = {
   nearMissWeight: 0.9,
   
   // Stage thresholds
+  recognitionThresholdH: 2.0, // Recognition → Recall 昇格の半減期閾値
   dictationThresholdH: 4.0,
+  masteredThresholdH: 14.0,   // Dictation クリア かつ h ≥ 14日 で mastered
   handwriteStuckThreshold: 3,  // 同一段階での累積不正解数 ≥ 3 で Handwrite 介入
   maxHandwritePerSession: 2,
   
