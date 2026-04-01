@@ -106,7 +106,8 @@ def build_prompt(batch: list[dict]) -> str:
 - distractors は同じカテゴリ内の別の単語の意味を使い、正解と紛らわしいが明確に区別できるものを選ぶこと
 - distractors は正解の meaning と完全に一致してはいけない
 - distractors の3つは互いに重複してはいけない
-- confusableSpellings は日本人学習者が犯しやすいスペルミスを2〜3個（正しいスペルは含めないこと）
+- confusableSpellings は日本人学習者が犯しやすいスペルミスを2〜3個（正しいスペルは絶対に含めないこと。例: "maze" の confusableSpellings に "maze" を入れてはいけない）
+- JSONの文字列値内で英語フレーズを引用する場合は「」（日本語鍵括弧）を使用し、ダブルクォート " はJSON構造以外では使用しないこと
 - blankAnswer は文脈に応じた活用形（三単現のs、過去形、進行形等）にすること
 - blank には必ず "___" を含めること
 - passive の各フィールドは日本語で記述すること
@@ -163,12 +164,56 @@ def validate_entry(entry: dict) -> list[str]:
 # ============================================================
 # API 呼び出し（リトライ付き）
 # ============================================================
+def repair_unescaped_quotes(raw: str) -> str:
+    """JSON文字列値内の未エスケープ " を \" に修復する（文字単位スキャン）"""
+    result = []
+    i = 0
+    n = len(raw)
+    in_string = False
+
+    while i < n:
+        c = raw[i]
+        if not in_string:
+            if c == '"':
+                in_string = True
+            result.append(c)
+            i += 1
+        else:
+            if c == '\\':
+                # エスケープ済み文字はそのまま通過
+                result.append(c)
+                i += 1
+                if i < n:
+                    result.append(raw[i])
+                    i += 1
+            elif c == '"':
+                # 次の非空白文字が JSON の構造文字なら文字列終端
+                j = i + 1
+                while j < n and raw[j] in ' \t\n\r':
+                    j += 1
+                if j >= n or raw[j] in ':,}]':
+                    in_string = False
+                    result.append(c)
+                else:
+                    # 文字列内の未エスケープ引用符 → エスケープ
+                    result.append('\\')
+                    result.append('"')
+                i += 1
+            else:
+                result.append(c)
+                i += 1
+
+    return ''.join(result)
+
+
 def repair_json(raw: str) -> str:
     """よくある JSON 破損パターンを修復する"""
     # 末尾の余分なカンマを除去（}, や ],）
     raw = re.sub(r',\s*([}\]])', r'\1', raw)
     # 制御文字（改行・タブ以外）を除去
     raw = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', raw)
+    # 文字列値内の未エスケープ引用符を修復
+    raw = repair_unescaped_quotes(raw)
     return raw
 
 
@@ -277,6 +322,12 @@ def main():
         result = result_a + result_b
         elapsed = time.time() - t0
         print(f"{elapsed:.1f}s", end="")
+
+        # サニタイズ: confusableSpellings から正しいスペルを除去
+        for entry in result:
+            word = entry.get("word", "")
+            conf_sp = entry.get("confusableSpellings", [])
+            entry["confusableSpellings"] = [s for s in conf_sp if s != word]
 
         # バリデーション
         batch_errors = []
