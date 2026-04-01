@@ -1,6 +1,7 @@
 // app/ui-wordwave.js — Word Wave 全画面ビュー
 
 import { getMeaning } from './ui-cards.js';
+import { LABELS, formatH } from '../core/labels.js';
 
 // -------------------------------------------------------
 // カラーマッピング（spec §2.3）
@@ -157,7 +158,7 @@ export class WordWaveRenderer {
         `<span>学習: <b>${learned}/${total}</b></span>` +
         `<span>定着: <b>${mastered}</b></span>` +
         `<span>Wave <b>${maxWave}</b></span>` +
-        `<span>avgH: <b>${avgH}日</b></span>`;
+        `<span>${LABELS.params.avgH}: <b>${formatH(avgH)}</b></span>`;
     }
 
     // アクティブウェーブのラベルを強調
@@ -176,11 +177,8 @@ export class WordWaveRenderer {
     const phonetic = rawWord.phonetic || '';
     const meaning  = getMeaning(word.wordString, pos);
 
-    const stageNames = {
-      new: '未学習', intro: 'Intro', recognition: 'Recognition',
-      recall: 'Recall', dictation: 'Dictation', handwrite: 'Handwrite', mastered: 'Mastered',
-    };
-    const stageName = stageNames[word.stage] ?? word.stage;
+    const stageName = LABELS.cardTypes[word.stage]
+      ?? (word.stage === 'new' ? '未学習' : word.stage === 'mastered' ? 'Mastered' : word.stage);
 
     const popover = this.overlay.querySelector('#word-popover');
     popover.innerHTML = `
@@ -189,9 +187,9 @@ export class WordWaveRenderer {
       <div class="ww-pop-meaning">${meaning}</div>
       <div class="ww-pop-divider"></div>
       <div class="ww-pop-row"><span>Stage</span><span>${stageName}</span></div>
-      <div class="ww-pop-row"><span>h</span><span>${word.h > 0 ? word.h.toFixed(1) + '日' : '—'}</span></div>
-      <div class="ww-pop-row"><span>peakH</span><span>${word.peakH > 0 ? word.peakH.toFixed(1) + '日' : '—'}</span></div>
-      <div class="ww-pop-row"><span>Reviews</span><span>${word.reviewCount}回 (正解${word.correctCount})</span></div>
+      <div class="ww-pop-row"><span>${LABELS.params.h}</span><span>${formatH(word.h)}</span></div>
+      <div class="ww-pop-row"><span>${LABELS.params.peakH}</span><span>${formatH(word.peakH)}</span></div>
+      <div class="ww-pop-row"><span>${LABELS.params.reviewCount}</span><span>${word.reviewCount}回 (正解${word.correctCount})</span></div>
       <div class="ww-pop-divider"></div>
       <button class="ww-pop-exclude-btn${word.excluded ? ' restore' : ''}" id="ww-pop-exclude-btn">
         ${word.excluded ? '除外を解除' : '除外する'}

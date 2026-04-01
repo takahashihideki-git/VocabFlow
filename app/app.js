@@ -9,6 +9,7 @@ import { WORD_DATA }                     from '../core/word-data.js';
 import { HeatmapRenderer }               from './ui-heatmap.js';
 import { CardRenderer }                  from './ui-cards.js';
 import { WordWaveRenderer }              from './ui-wordwave.js';
+import { LABELS }                        from '../core/labels.js';
 
 const STORAGE_KEY = 'vocabflow_state_v1';
 
@@ -450,6 +451,17 @@ class VocabFlowApp {
     document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
     document.getElementById('nw-next-week').addEventListener('click',    () => this._advanceTime(7));
     document.getElementById('btn-reset-from-nowork').addEventListener('click', () => this._reset());
+
+    // 時間進行ボタンのラベルを labels.js から設定
+    for (const id of ['btn-next-session', 'nw-next-session']) {
+      document.getElementById(id).textContent = LABELS.session.timeForward1;
+    }
+    for (const id of ['btn-next-day', 'nw-next-day']) {
+      document.getElementById(id).textContent = LABELS.session.timeForward2;
+    }
+    for (const id of ['btn-next-week', 'nw-next-week']) {
+      document.getElementById(id).textContent = LABELS.session.timeForward3;
+    }
   }
 
   // -------------------------------------------------------

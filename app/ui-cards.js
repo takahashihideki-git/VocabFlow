@@ -1,6 +1,7 @@
 // app/ui-cards.js — カード種別ごとのUI描画・インタラクション処理
 
 import { WORD_DATA } from '../core/word-data.js';
+import { LABELS } from '../core/labels.js';
 
 // -------------------------------------------------------
 // 日本語意味辞書（Wave 1-2: id 1〜100）
@@ -514,8 +515,7 @@ export class CardRenderer {
   }
 
   _typeName(type) {
-    return { intro:'Intro', recognition:'Recognition', recall:'Recall',
-             dictation:'Dictation', handwrite:'Handwrite', passive:'Passive' }[type] ?? type;
+    return LABELS.cardTypes[type] ?? type;
   }
 
   // -------------------------------------------------------

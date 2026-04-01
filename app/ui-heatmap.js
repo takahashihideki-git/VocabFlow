@@ -1,5 +1,7 @@
 // app/ui-heatmap.js — Wave Heatmap リアルタイム描画（Canvas）
 
+import { LABELS, formatH } from '../core/labels.js';
+
 /**
  * カラーマッピング（spec §5.2）
  *   未学習     → グレー  #E0E0E0
@@ -95,7 +97,7 @@ export class HeatmapRenderer {
     };
 
     const showTooltip = (clientX, clientY, word) => {
-      const hStr = word.h > 0 ? `h = ${word.h.toFixed(1)}日` : '未学習';
+      const hStr = word.h > 0 ? `${LABELS.params.h} = ${formatH(word.h)}` : LABELS.heatmap.unlearned;
       document.getElementById('tt-word').textContent = word.wordString;
       document.getElementById('tt-info').textContent = `${word.stage} | ${hStr}`;
       tooltip.style.display = 'block';
