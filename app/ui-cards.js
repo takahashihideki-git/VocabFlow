@@ -9,6 +9,9 @@ import { BackgroundManager } from './ui-background.js';
 // -------------------------------------------------------
 const WORD_MAP = new Map(WORD_DATA.map(wd => [wd.word, wd]));
 
+// 末尾に句点がなければ補う
+const ensureKuten = (s) => (s && !s.endsWith('。') ? s + '。' : s ?? '');
+
 // -------------------------------------------------------
 // 意味を取得（WORD_DATA.meanings[0] → フォールバック）
 // -------------------------------------------------------
@@ -504,17 +507,17 @@ export class CardRenderer {
           ${passive.etymology ? `
           <div class="passive-section">
             <div class="passive-section-title">語源</div>
-            <div class="passive-section-body">${passive.etymology}</div>
+            <div class="passive-section-body">${ensureKuten(passive.etymology)}</div>
           </div>` : ''}
           ${passive.tips ? `
           <div class="passive-section">
             <div class="passive-section-title">使い方のコツ</div>
-            <div class="passive-section-body">${passive.tips}</div>
+            <div class="passive-section-body">${ensureKuten(passive.tips)}</div>
           </div>` : ''}
           ${passive.confusables ? `
           <div class="passive-section">
             <div class="passive-section-title">紛らわしい語</div>
-            <div class="passive-section-body">${passive.confusables}</div>
+            <div class="passive-section-body">${ensureKuten(passive.confusables)}</div>
           </div>` : ''}
           ${colChips ? `
           <div class="passive-section">
@@ -524,7 +527,7 @@ export class CardRenderer {
           ${passive.trivia ? `
           <div class="passive-section">
             <div class="passive-section-title">豆知識</div>
-            <div class="passive-section-body">${passive.trivia}</div>
+            <div class="passive-section-body">${ensureKuten(passive.trivia)}</div>
           </div>` : ''}
         </div>
         <div class="swipe-hint visible">

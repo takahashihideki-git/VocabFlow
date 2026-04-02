@@ -858,6 +858,7 @@ body.swiped-once .swipe-hint { display: none !important; }
   flex-direction: column;
   gap: 14px;
   padding-right: 2px;
+  padding-bottom: 4rem;
 }
 
 .passive-scroll::-webkit-scrollbar {
