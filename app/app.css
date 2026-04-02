@@ -133,26 +133,26 @@ html, body {
 #card-area {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   position: relative;
   overflow: hidden;
-  padding: 12px;
+  padding: 0;
 }
 
 #card-wrapper {
   width: 100%;
-  max-width: 480px;
   position: relative;
   display: flex;
   justify-content: center;
+  align-self: stretch;
 }
 
-/* Card — 9:16 縦動画レイアウト */
+/* Card — タッチ環境デフォルト: カードエリアをフル塗りつぶし */
 .card {
   background: var(--bg-card);
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
+  border-radius: 0;
+  border: none;
   padding: 28px 24px;
   display: flex;
   flex-direction: column;
@@ -160,8 +160,23 @@ html, body {
   position: relative;
   overflow: hidden;
   isolation: isolate;
+  width: 100%;
+}
 
-  /* 9:16 アスペクト比。幅は「カードエリアの高さ × 9/16」と「wrapper幅」の小さい方 */
+/* PC（タッチ非対応）: 9:16 縦動画レイアウト */
+body.no-touch #card-area {
+  align-items: center;
+  padding: 12px;
+}
+
+body.no-touch #card-wrapper {
+  max-width: 480px;
+  align-self: center;
+}
+
+body.no-touch .card {
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
   aspect-ratio: 9 / 16;
   width: min(
     100%,
@@ -176,8 +191,12 @@ html, body {
   z-index: -1;
   background-size: cover;
   background-position: center;
-  border-radius: var(--radius);
+  border-radius: 0;
   transition: opacity 0.4s ease;
+}
+
+body.no-touch .card-bg {
+  border-radius: var(--radius);
 }
 
 /* 半透明の暗幕オーバーレイ */
@@ -186,6 +205,10 @@ html, body {
   position: absolute;
   inset: 0;
   background: rgba(8, 8, 18, 0.72);
+  border-radius: 0;
+}
+
+body.no-touch .card-bg::after {
   border-radius: var(--radius);
 }
 
@@ -489,7 +512,7 @@ body.swiped-once .swipe-hint { display: none !important; }
   border: 1.5px solid var(--border);
   border-radius: 12px;
   padding: 14px 12px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text);
   cursor: pointer;
   text-align: left;
@@ -830,6 +853,7 @@ body.swiped-once .swipe-hint { display: none !important; }
   min-height: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior: none;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -876,7 +900,7 @@ body.swiped-once .swipe-hint { display: none !important; }
 }
 
 .passive-section-title {
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -885,7 +909,7 @@ body.swiped-once .swipe-hint { display: none !important; }
 }
 
 .passive-section-body {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--text);
   line-height: 1.65;
 }
@@ -901,7 +925,7 @@ body.swiped-once .swipe-hint { display: none !important; }
   background: rgba(79,142,247,0.12);
   border-radius: 20px;
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: 16px;
   white-space: nowrap;
   font-style: italic;
 }

@@ -252,13 +252,41 @@ class VocabFlowApp {
 
     // ----- タッチ -----
     area.addEventListener('touchstart', (e) => {
-      this._touchStartY    = e.touches[0].clientY;
-      this._touchInScroll  = !!e.target.closest('.passive-scroll');
+      this._touchStartY      = e.touches[0].clientY;
+      this._scrollElAtTouch  = e.target.closest('.passive-scroll') || null;
+      this._scrollTopAtTouch = this._scrollElAtTouch?.scrollTop ?? 0;
     }, { passive: true });
 
     area.addEventListener('touchend', (e) => {
-      if (this._touchInScroll) { this._touchInScroll = false; return; }
       const dy = this._touchStartY - e.changedTouches[0].clientY;
+      const el = this._scrollElAtTouch;
+      this._scrollElAtTouch = null;
+
+      if (el) {
+        const scrolled = el.scrollTop !== this._scrollTopAtTouch;
+        const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 2;
+        const atTop    = el.scrollTop <= 2;
+        const now      = Date.now();
+        const COOLDOWN = 500; // ms
+
+        if (scrolled) {
+          // タッチ中にスクロールが発生: 境界到達なら時刻・方向を記録してブロック
+          if (dy > 40  && atBottom) { this._scrollBoundaryTime = now; this._scrollBoundaryDir = 'up'; }
+          if (dy < -40 && atTop)    { this._scrollBoundaryTime = now; this._scrollBoundaryDir = 'down'; }
+          return;
+        }
+
+        // スクロールなし: クールダウン中は同方向スワイプをブロック
+        const elapsed = now - (this._scrollBoundaryTime ?? 0);
+        const sameDir = (dy > 40  && this._scrollBoundaryDir === 'up') ||
+                        (dy < -40 && this._scrollBoundaryDir === 'down');
+        if (sameDir && elapsed < COOLDOWN) return;
+
+        // 通常の境界チェック（余地がある方向はネイティブスクロールに委ねる）
+        if (dy > 40  && !atBottom) return;
+        if (dy < -40 && !atTop)   return;
+      }
+
       if (dy > 40) {
         document.body.classList.add('swiped-once');
         this._onSwipeUp();
