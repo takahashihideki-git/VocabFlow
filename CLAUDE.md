@@ -40,13 +40,13 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 | ファイル | 状態 |
 |---|---|
-| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み |
-| `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。Passive リッチUI。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加 |
+| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加 |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止 |
+| `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。Passive リッチUI。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加。Recognition 回答後に単語TTS・Recall 回答後に例文TTS |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加 |
 | `app/ui-background.js` | ✅ BackgroundManager（getUrl/preload）。CATEGORY_IMAGES からカテゴリ別ランダム画像URL取得 |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・Passive リッチUIスタイル。カード種別ごとの word-example サイズ（card-intro: 16px / card-recall: 20px）。日本語訳トグルスタイル |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・Passive リッチUIスタイル。カード種別ごとの word-example サイズ（card-intro: 16px / card-recall: 20px）。日本語訳トグルスタイル。トーストスタイル |
 | `app/style-mockup.html` | ✅ 6種カード・画面遷移（スタート/セッション完了/復習なし）・ヘッダ/フッタを静的表示するスタイル確認用モックアップ |
 
 ---
@@ -170,6 +170,9 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - 履歴ビュー: 元の `_renderXxx` を流用して表示を完全再現。`onReady` を一時 no-op に差し替えてSRS副作用を抑制。選択肢ボタン・入力欄・送信を disabled 化。ユーザーの回答（recognition/recall: 選択したボタンをハイライト・dictation: 入力値とフィードバック復元・handwrite: OCR結果復元）を再表示
 - 選択肢の並び順は `card.shuffledChoices` に保存し履歴で再現。背景画像URLは `card.bgUrl` に保存し履歴で再利用
 - カードが回答済みになると `onReady(result)` が呼ばれ、スワイプ可能化（次ボタンは常時クリック可）
+- **SRS処理タイミング**: recognition/recall/dictation/handwrite は `onReady`（回答タップ直後）に `_onCardAnswered` を呼び出してSRS処理・ヒートマップ更新・トースト表示。`card._srsProcessed = true` をセットし、`_processAnswer`（スワイプ後）での二重処理を防ぐ。Intro/Passive はスワイプ後に `_processAnswer` 内で処理
+- **トースト通知**: `showToast(message)` + キュー管理。wave 解放時「🌊 第N波の単語が届きました」（初回セッションは activeWaves から通知、以降は waveUnlockEvents 差分）。mastered 到達時「⭐ xxxx がマスターされました」（`word.stage` が `'mastered'` に変わった瞬間のみ発火）
+- **TTS**: Recognition 回答後に単語を読み上げ、Recall 回答後に例文（HTMLタグ除去済み）を読み上げ。カード遷移時（`_showCard` 冒頭）に `speechSynthesis.cancel()` で停止
 - 時間早送り: 次のセッション(1/3日)・翌日・1週間後。ボタンラベルは `LABELS.session.timeForward1/2/3`
 - localStorage キー: `vocabflow_state_v1`
 - Word Wave: `app/ui-wordwave.js`。ヘッダバークリックで全画面表示。単語タップでポップオーバー（pRecall・最終復習日・除外ボタン付き）。一括除外モード（🗑️）対応。
@@ -191,7 +194,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: 履歴ビューをカード完全再現方式に刷新・日本語訳トグル追加（d49dbae）
+- 直近コミット: トースト通知・回答即時SRS処理・TTS停止を追加（4c5acaf）
 
 ---
 
