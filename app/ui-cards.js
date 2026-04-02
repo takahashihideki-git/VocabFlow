@@ -235,7 +235,7 @@ export class CardRenderer {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         card.userAnswer = c.text;
-        this._handleChoice(el, btn, choices, i, c.isCorrect);
+        this._handleChoice(el, btn, choices, i, c.isCorrect, () => speak(wordStr));
       });
       grid.appendChild(btn);
     });
@@ -248,6 +248,7 @@ export class CardRenderer {
   // -------------------------------------------------------
   _renderRecall(card, wordStr, pos, meaning, categoryId) {
     const example        = getExample(wordStr, pos);
+    const examplePlain   = example.full.replace(/<[^>]+>/g, '');
     const distractorWords = getDistractors(card.word, 3);
     const choices = card.shuffledChoices ?? this._shuffle([
       { text: wordStr,             isCorrect: true },
@@ -290,7 +291,7 @@ export class CardRenderer {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         card.userAnswer = c.text;
-        this._handleChoice(el, btn, choices, i, c.isCorrect);
+        this._handleChoice(el, btn, choices, i, c.isCorrect, () => speak(examplePlain));
       });
       grid.appendChild(btn);
     });
@@ -552,7 +553,7 @@ export class CardRenderer {
   // -------------------------------------------------------
   // 選択肢クリック共通処理
   // -------------------------------------------------------
-  _handleChoice(cardEl, clickedBtn, choices, clickedIdx, isCorrect) {
+  _handleChoice(cardEl, clickedBtn, choices, clickedIdx, isCorrect, onAnswered) {
     const btns = cardEl.querySelectorAll('.choice-btn');
     btns.forEach(b => (b.disabled = true));
     clickedBtn.classList.add(isCorrect ? 'correct' : 'wrong');
@@ -566,6 +567,8 @@ export class CardRenderer {
     // 日本語訳トグルを有効化（Recall カード）
     const jaToggleBtn = cardEl.querySelector('.ja-toggle-row .ja-toggle-btn');
     if (jaToggleBtn) jaToggleBtn.disabled = false;
+
+    if (onAnswered) onAnswered();
 
     this._markReady(isCorrect ? 'perfect' : 'wrong');
   }

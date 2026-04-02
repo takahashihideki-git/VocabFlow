@@ -45,6 +45,11 @@ class VocabFlowApp {
     this.sessionCorrect = 0;
     this.sessionWrong   = 0;
 
+    // トースト状態
+    this._toastQueue   = [];
+    this._toastShowing = false;
+    this._toastTimer   = null;
+
     // スワイプ状態
     this._transitioning = false;  // アニメーション中は二重遷移を防ぐ
     this._touchStartY   = 0;
@@ -136,15 +141,21 @@ class VocabFlowApp {
       document.getElementById('btn-prev-card').addEventListener('click', () => this._onSwipeDown());
     }
 
-    // CardRenderer: onReady はスワイプ可能化、onSkip はスキップ処理
+    // CardRenderer: onReady はスワイプ可能化。選択系カードは回答直後に SRS 処理も実行
     const wrapper = document.getElementById('card-wrapper');
     this.bgManager = new BackgroundManager();
     this.cardRenderer = new CardRenderer(
       wrapper,
       this.engine,
-      (_result) => {
+      (result) => {
         document.getElementById('card-area').classList.add('swipe-ready');
         if (!isTouch) document.getElementById('btn-next-card').classList.add('ready');
+        const card = this.sessionCards[this.cardIndex];
+        const answerTypes = ['recognition', 'recall', 'dictation', 'handwrite'];
+        if (card && answerTypes.includes(card.cardType)) {
+          this._onCardAnswered(result);
+          card._srsProcessed = true;
+        }
       },
       this.bgManager
     );
@@ -291,7 +302,20 @@ class VocabFlowApp {
   // セッション開始
   // -------------------------------------------------------
   _startSession() {
+    const unlocksBefore = this.state.waveUnlockEvents.length;
     const cards = this.feedGen.generateSession(this.state, this.state.currentTime);
+
+    // 新しいwave解放を通知
+    if (this.state.sessionsCompleted === 0) {
+      // 初回セッション: wave 1 は waveUnlockEvents に記録されないため個別通知
+      this.state.activeWaves.forEach(wn => {
+        this.showToast(`🌊 第${wn}波の単語が届きました`);
+      });
+    } else {
+      this.state.waveUnlockEvents.slice(unlocksBefore).forEach(ev => {
+        this.showToast(`🌊 第${ev.waveNumber}波の単語が届きました`);
+      });
+    }
 
     if (cards.length === 0) {
       this._showNoWork();
@@ -321,6 +345,8 @@ class VocabFlowApp {
   // カード表示
   // -------------------------------------------------------
   _showCard() {
+    window.speechSynthesis?.cancel();
+
     const card = this.sessionCards[this.cardIndex];
     if (!card) {
       this._completeSession();
@@ -353,9 +379,24 @@ class VocabFlowApp {
   // -------------------------------------------------------
   _processAnswer(result) {
     const card = this.sessionCards[this.cardIndex];
+    // 選択・入力系カードは onReady 時点で処理済み。Intro/Passive のみここで処理
+    if (!card._srsProcessed) {
+      this._onCardAnswered(result);
+    }
+    this.cardIndex++;
+    this._showCard();
+  }
+
+  // -------------------------------------------------------
+  // SRS 処理・トースト・ヒートマップ更新（回答確定時に呼ばれる）
+  // -------------------------------------------------------
+  _onCardAnswered(result) {
+    const card = this.sessionCards[this.cardIndex];
     const word = card.word;
     card.done   = true;
     card.result = result;
+
+    const stageBefore = word.stage;
 
     if (card.isRetry) {
       if (result !== 'wrong') {
@@ -380,7 +421,6 @@ class VocabFlowApp {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
         this.sessionCorrect++;
       } else {
-        const stageBefore = word.stage;
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
         this.sessionWrong++;
         const count = this.retryCount.get(word.wordId) || 0;
@@ -391,15 +431,19 @@ class VocabFlowApp {
       }
     }
 
+    // mastered 到達を通知（dictation/handwrite → mastered 遷移時のみ発火）
+    if (stageBefore !== 'mastered' && word.stage === 'mastered') {
+      const rawWord = typeof word.word === 'object' ? word.word : {};
+      const wordStr = rawWord.word || `word_${word.wordId}`;
+      this.showToast(`⭐ ${wordStr} がマスターされました`);
+    }
+
     this.state.totalCardsConsumed++;
     this._saveState();
     this.heatmap.render();
     this.wordWave.updateWord(word.wordId);
     this._updateStats();
     this._updateProgress();
-
-    this.cardIndex++;
-    this._showCard();
   }
 
   // -------------------------------------------------------
@@ -556,6 +600,29 @@ class VocabFlowApp {
     document.getElementById('stat-waves').textContent    = this.state.activeWaves.join(',');
     document.getElementById('stat-day').textContent      = this.state.currentTime.toFixed(1);
     this.heatmap.render();
+  }
+
+  // -------------------------------------------------------
+  // トースト通知
+  // -------------------------------------------------------
+  showToast(message) {
+    this._toastQueue.push(message);
+    if (!this._toastShowing) this._dequeueToast();
+  }
+
+  _dequeueToast() {
+    if (this._toastQueue.length === 0) { this._toastShowing = false; return; }
+    this._toastShowing = true;
+    const el = document.getElementById('toast');
+    el.classList.remove('visible');
+    el.textContent = this._toastQueue.shift();
+    void el.offsetWidth; // 強制リフローで初期状態を確定させてからトランジション開始
+    el.classList.add('visible');
+    clearTimeout(this._toastTimer);
+    this._toastTimer = setTimeout(() => {
+      el.classList.remove('visible');
+      setTimeout(() => this._dequeueToast(), 420);
+    }, 2800);
   }
 }
 

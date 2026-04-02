@@ -57,6 +57,33 @@ html, body {
   width: 100%;
 }
 
+/* ===== Toast ===== */
+
+#toast {
+  position: fixed;
+  top: var(--heatmap-h);
+  left: 50%;
+  transform: translate(-50%, -110%);
+  background: rgba(18, 18, 48, 0.93);
+  color: #d8d8ff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  pointer-events: none;
+  border: 1px solid rgba(120, 120, 220, 0.3);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  z-index: 200;
+  opacity: 0;
+  transition: transform 0.38s cubic-bezier(0.34, 1.4, 0.64, 1), opacity 0.25s;
+}
+
+#toast.visible {
+  transform: translate(-50%, 8px);
+  opacity: 1;
+}
+
 /* ===== Heatmap bar ===== */
 
 #heatmap-section {
