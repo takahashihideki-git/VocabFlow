@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>VocabFlow</title>
+  <title>Word Wave</title>
   <link rel="stylesheet" href="app.css">
 </head>
 <body>
@@ -11,7 +11,8 @@
 <!-- Start screen -->
 <div id="start-screen">
   <div class="start-inner">
-    <div class="logo">VocabFlow</div>
+    <div class="logo">Word Wave</div>
+    <div style="font-size:48px;line-height:1">🌊</div>
     <p class="tagline">TikTok式スワイプUIで<br>1900語を自然に定着させる</p>
     <button class="btn-primary" id="btn-start">学習開始</button>
     <button class="btn-secondary" id="btn-start-reset" style="width:100%">リセットして再開</button>
@@ -28,7 +29,7 @@
       <span>定着 <span class="val" id="stat-mastered">0</span>語</span>
       <span>Wave <span class="val" id="stat-waves">1</span></span>
       <span>Day <span class="val" id="stat-day">0.0</span></span>
-      <span id="heatmap-ww-link">🌊 Word Wave ›</span>
+      <span id="heatmap-ww-link">🌊 waves ›</span>
     </div>
     <canvas id="heatmap-canvas"></canvas>
   </div>
@@ -136,9 +137,9 @@
 <!-- No work overlay -->
 <div class="overlay" id="overlay-nowork" style="display:none">
   <div class="overlay-card">
-    <div class="overlay-title">今は復習なし 🎉</div>
+    <div class="overlay-title">今は復習しなくても大丈夫</div>
     <div class="overlay-subtitle">
-      次の復習まで時間を進めるか、しばらく後に戻ってください。
+      しばらく時間を置いてから再開しましょう。
     </div>
     <div class="stat-grid">
       <div class="stat-box">

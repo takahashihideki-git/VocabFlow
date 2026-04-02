@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Wave — Style Mockup</title>
+  <link rel="stylesheet" href="app.css">
+  <style>
+    /* モックアップ専用: カードを横並びにする */
+    body {
+      overflow: auto !important;
+      background: #0F0F1A;
+    }
+
+    .mockup-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      padding: 24px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .mockup-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .mockup-label {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #888899;
+    }
+
+    /* モックアップ内のカードは固定サイズ（9:16 → 270×480px） */
+    .mockup-column .card {
+      width: 270px;
+      height: 480px;
+      aspect-ratio: unset;
+      position: relative;
+      overflow-y: auto;
+    }
+
+    /* passive-scroll の overflow を活かす */
+    .mockup-column .card.card-passive {
+      overflow: hidden;
+    }
+
+    /* スタート画面・オーバーレイを固定サイズで表示 */
+    .mockup-screen {
+      width: 270px;
+      height: 480px;
+      background: var(--bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      position: relative;
+    }
+
+    .mockup-screen .overlay-card {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 16px;
+      padding: 20px 16px;
+      gap: 14px;
+    }
+
+    .mockup-screen .start-inner {
+      max-width: 100%;
+    }
+
+    /* ヘッダ・フッタ mockup: 実際の幅に合わせて表示 */
+    .mockup-bar-wrap {
+      width: 480px;
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+
+    .mockup-bar-wrap #heatmap-section {
+      position: static;
+      height: var(--heatmap-h);
+    }
+
+    .mockup-bar-wrap #footer {
+      height: var(--footer-h);
+    }
+
+    .mockup-title {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 800;
+      color: #E8E8F0;
+      padding: 24px 24px 0;
+      letter-spacing: -0.01em;
+    }
+
+    .mockup-subtitle {
+      text-align: center;
+      font-size: 12px;
+      color: #888899;
+      padding: 4px 24px 0;
+    }
+
+    /* スワイプヒントは常時表示 */
+    .swipe-hint { opacity: 1 !important; }
+  </style>
+</head>
+<body>
+
+<div class="mockup-title">Word Wave — Style Mockup</div>
+<div class="mockup-subtitle">app.css のフォントサイズ・可読性確認用。ページをリロードすると即反映。</div>
+
+<div class="mockup-container">
+
+  <!-- 1. Intro カード -->
+  <div class="mockup-column">
+    <div class="mockup-label">① Intro</div>
+    <div class="card card-intro">
+      <div class="card-type-badge badge-intro">Intro</div>
+      <div class="word-main">acknowledge</div>
+      <div class="word-pos">verb</div>
+      <div class="word-meaning">〜を認める、認識する</div>
+      <div class="word-example">She <b>acknowledged</b> the mistake and apologized to her team.</div>
+      <div class="ja-toggle-row">
+        <button class="ja-toggle-btn" onclick="var d=this.nextElementSibling;var s=d.classList.toggle('visible');this.textContent=s?'日本語訳を隠す':'日本語訳'">日本語訳</button>
+        <div class="example-ja">彼女はミスを認めて、チームに謝罪した。</div>
+      </div>
+      <button class="tts-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+        発音を聞く
+      </button>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして次へ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Recognition カード -->
+  <div class="mockup-column">
+    <div class="mockup-label">② Recognition</div>
+    <div class="card card-recognition">
+      <div class="card-type-badge badge-recognition">Recognition</div>
+      <div class="word-main">elaborate</div>
+      <div class="word-pos">adjective — 意味を選んでください</div>
+      <div class="choices">
+        <button class="choice-btn correct">精巧な、詳細な</button>
+        <button class="choice-btn">〜を達成する</button>
+        <button class="choice-btn">明白な、はっきりした</button>
+        <button class="choice-btn">一時的な</button>
+      </div>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして次へ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Recall カード -->
+  <div class="mockup-column">
+    <div class="mockup-label">③ Recall</div>
+    <div class="card card-recall">
+      <div class="card-type-badge badge-recall">Recall</div>
+      <div class="word-pos">例文の空欄を埋めてください</div>
+      <div class="word-example">The scientist tried to <b>___</b> the results in the simplest possible terms.</div>
+      <div class="ja-toggle-row">
+        <button class="ja-toggle-btn" onclick="var d=this.nextElementSibling;var s=d.classList.toggle('visible');this.textContent=s?'日本語訳を隠す':'日本語訳'">日本語訳</button>
+        <div class="example-ja">その科学者は、できる限り簡単な言葉で結果を説明しようとした。</div>
+      </div>
+      <div class="choices">
+        <button class="choice-btn">acquire</button>
+        <button class="choice-btn correct">simplify</button>
+        <button class="choice-btn">determine</button>
+        <button class="choice-btn">emerge</button>
+      </div>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして次へ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Dictation カード -->
+  <div class="mockup-column">
+    <div class="mockup-label">④ Dictation</div>
+    <div class="card card-dictation">
+      <div class="card-type-badge badge-dictation">Dictation</div>
+      <div class="word-pos">音声を聞いてスペルを入力してください</div>
+      <button class="tts-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+        音声を再生
+      </button>
+      <div class="dictation-input-area">
+        <input class="word-input" type="text" placeholder="スペルを入力..." value="inevitable">
+        <button class="btn-primary">送信</button>
+      </div>
+      <div class="answer-feedback correct">✓ Perfect!</div>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして次へ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Handwrite カード -->
+  <div class="mockup-column">
+    <div class="mockup-label">⑤ Handwrite</div>
+    <div class="card card-handwrite">
+      <div class="card-type-badge badge-handwrite">Handwrite</div>
+      <div class="word-pos" style="text-align:left;line-height:1.6">
+        音声を聞いて単語を紙に手書きで10回書き、それを写真に撮って送ってください。
+      </div>
+      <button class="tts-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+        音声を再生
+      </button>
+      <div class="handwrite-photo-area">
+        <label class="handwrite-photo-btn" title="カメラで撮影">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+          </svg>
+          <span>カメラで撮影</span>
+        </label>
+        <label class="handwrite-photo-btn" title="写真を選択">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="8.5" cy="8.5" r="1.5"/>
+            <polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <span>写真を選択</span>
+        </label>
+      </div>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして次へ</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Passive カード -->
+  <div class="mockup-column">
+    <div class="mockup-label">⑥ Passive</div>
+    <div class="card card-passive">
+      <div class="card-type-badge badge-passive">Passive</div>
+      <div class="passive-scroll">
+        <div class="passive-word-header">
+          <div class="passive-word-str">acknowledge</div>
+          <div class="passive-word-sub">verb — 〜を認める、認識する</div>
+        </div>
+        <div class="passive-section">
+          <div class="passive-section-title">語源</div>
+          <div class="passive-section-body">古英語 "oncnāwan"（知る）に由来。接頭辞 ac- は強調を表し、「完全に知る・認める」という意味に発展した。</div>
+        </div>
+        <div class="passive-section">
+          <div class="passive-section-title">使い方のコツ</div>
+          <div class="passive-section-body">acknowledge は「事実・状況・感情」を認めるときに使う。"admit" より客観的なニュアンスで、フォーマルな文脈でよく登場する。</div>
+        </div>
+        <div class="passive-section">
+          <div class="passive-section-title">紛らわしい語</div>
+          <div class="passive-section-body">admit（過失・罪を認める）と混同しやすい。acknowledge は必ずしもネガティブな文脈ではなく、「受け取りを確認する」意味でも使う。</div>
+        </div>
+        <div class="passive-section">
+          <div class="passive-section-title">よく使う表現</div>
+          <div class="collocation-chips">
+            <span class="collocation-chip">acknowledge a mistake</span>
+            <span class="collocation-chip">acknowledge receipt</span>
+            <span class="collocation-chip">widely acknowledged</span>
+            <span class="collocation-chip">acknowledge the fact</span>
+          </div>
+        </div>
+        <div class="passive-section">
+          <div class="passive-section-title">豆知識</div>
+          <div class="passive-section-body">ビジネスメールで "Please acknowledge receipt of this email." と書くと、メール受信の確認を相手に求める定型表現になる。</div>
+        </div>
+      </div>
+      <div class="swipe-hint visible">
+        <span class="swipe-arrow">↑</span>
+        <span class="swipe-label">スワイプして次へ</span>
+      </div>
+    </div>
+  </div>
+
+</div><!-- .mockup-container -->
+
+<div class="mockup-title" style="margin-top:16px">画面遷移</div>
+<div class="mockup-subtitle">スタート画面・セッション終了画面</div>
+
+<div class="mockup-container">
+
+  <!-- スタート画面 -->
+  <div class="mockup-column">
+    <div class="mockup-label">スタート画面</div>
+    <div class="mockup-screen">
+      <div class="start-inner">
+        <div class="logo">Word Wave</div>
+        <div style="font-size:48px;line-height:1">🌊</div>
+        <p class="tagline">TikTok式スワイプUIで<br>1900語を自然に定着させる</p>
+        <button class="btn-primary" style="width:100%">学習開始</button>
+        <button class="btn-secondary" style="width:100%;margin-top:8px">リセットして再開</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- セッション完了 -->
+  <div class="mockup-column">
+    <div class="mockup-label">セッション完了</div>
+    <div class="mockup-screen">
+      <div class="overlay-card">
+        <div class="overlay-title">セッション完了 ✓</div>
+        <div class="stat-grid">
+          <div class="stat-box">
+            <div class="stat-label">消化カード</div>
+            <div class="stat-value">18</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">正解率</div>
+            <div class="stat-value">83%</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">学習済み語</div>
+            <div class="stat-value">42</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">定着語</div>
+            <div class="stat-value">7</div>
+          </div>
+        </div>
+        <div class="time-controls">
+          <label>時間を進める（動作確認用）</label>
+          <div class="time-btn-row">
+            <button class="time-btn">+8時間</button>
+            <button class="time-btn">+1日</button>
+            <button class="time-btn">+1週間</button>
+          </div>
+          <div class="time-display">現在: Day <span>3.2</span></div>
+        </div>
+        <button class="btn-primary">このまま続ける</button>
+        <button class="btn-danger">リセット</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 復習なし -->
+  <div class="mockup-column">
+    <div class="mockup-label">今は復習なし</div>
+    <div class="mockup-screen">
+      <div class="overlay-card">
+        <div class="overlay-title">今は復習しなくても大丈夫</div>
+        <div class="overlay-subtitle">しばらく時間を置いてから再開しましょう。</div>
+        <div class="stat-grid">
+          <div class="stat-box">
+            <div class="stat-label">学習済み語</div>
+            <div class="stat-value">42</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-label">定着語</div>
+            <div class="stat-value">7</div>
+          </div>
+        </div>
+        <div class="time-controls">
+          <label>時間を進める（動作確認用）</label>
+          <div class="time-btn-row">
+            <button class="time-btn">+8時間</button>
+            <button class="time-btn">+1日</button>
+            <button class="time-btn">+1週間</button>
+          </div>
+          <div class="time-display">現在: Day <span>3.2</span></div>
+        </div>
+        <button class="btn-danger">リセット</button>
+      </div>
+    </div>
+  </div>
+
+</div><!-- .mockup-container -->
+
+<div class="mockup-title" style="margin-top:16px">ヘッダ・フッタ</div>
+<div class="mockup-subtitle">実際の幅（max 480px）で表示</div>
+
+<div class="mockup-container" style="flex-direction:column;align-items:center">
+
+  <!-- ヘッダ -->
+  <div class="mockup-column" style="width:100%;max-width:480px">
+    <div class="mockup-label">ヘッダ（ヒートマップバー）</div>
+    <div class="mockup-bar-wrap">
+      <div id="heatmap-section">
+        <div id="heatmap-stats">
+          <span>学習済み <span class="val">42</span>語</span>
+          <span>定着 <span class="val">7</span>語</span>
+          <span>Wave <span class="val">3</span></span>
+          <span>Day <span class="val">3.2</span></span>
+          <span id="heatmap-ww-link">🌊 waves ›</span>
+        </div>
+        <canvas id="heatmap-canvas" style="background:rgba(79,142,247,0.15)"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- フッタ -->
+  <div class="mockup-column" style="width:100%;max-width:480px">
+    <div class="mockup-label">フッタ（進捗バー）</div>
+    <div class="mockup-bar-wrap">
+      <div id="footer">
+        <div class="footer-item">
+          <span class="val">7</span>/<span class="val">18</span>
+        </div>
+        <div id="progress-bar-container" style="max-width:none;flex:1">
+          <div id="progress-bar-fill" style="width:38%"></div>
+        </div>
+        <div class="footer-item">
+          正解 <span class="val">5</span>
+          &nbsp;/&nbsp;
+          誤答 <span class="val">2</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- .mockup-container -->
+
+</body>
+</html>

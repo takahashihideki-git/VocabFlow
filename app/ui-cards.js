@@ -32,12 +32,13 @@ function getExample(wordStr, pos) {
     const escaped = ex.blankAnswer.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     const full  = ex.en.replace(new RegExp(`\\b${escaped}\\b`, 'i'), `<b>${ex.blankAnswer}</b>`);
     const blank = ex.blank.replace('___', '<b>___</b>');
-    return { full, blank };
+    return { full, blank, ja: ex.ja || '' };
   }
   // フォールバック（WORD_DATA に未収録の語）
   return {
     full:  `The word <b>${wordStr}</b> is used in various contexts.`,
     blank: `The word <b>___</b> is used in various contexts.`,
+    ja: '',
   };
 }
 
@@ -166,6 +167,11 @@ export class CardRenderer {
       <div class="word-pos">${pos}</div>
       <div class="word-meaning">${meaning}</div>
       <div class="word-example">${example.full}</div>
+      ${example.ja ? `
+      <div class="ja-toggle-row">
+        <button class="ja-toggle-btn">日本語訳</button>
+        <div class="example-ja">${example.ja}</div>
+      </div>` : ''}
       <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 発音を聞く</button>
       <div class="swipe-hint visible">
         <span class="swipe-arrow">↑</span>
@@ -178,6 +184,15 @@ export class CardRenderer {
       e.stopPropagation();
       speak(wordStr);
     });
+    if (example.ja) {
+      const toggleBtn = el.querySelector('.ja-toggle-btn');
+      const jaDiv     = el.querySelector('.example-ja');
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const showing = jaDiv.classList.toggle('visible');
+        toggleBtn.textContent = showing ? '日本語訳を隠す' : '日本語訳';
+      });
+    }
 
     // Intro は即スワイプ可能
     this._markReady('perfect');
@@ -243,12 +258,26 @@ export class CardRenderer {
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">例文の空欄を埋めてください</div>
       <div class="word-example">${example.blank}</div>
+      ${example.ja ? `
+      <div class="ja-toggle-row" hidden>
+        <button class="ja-toggle-btn">日本語訳</button>
+        <div class="example-ja">${example.ja}</div>
+      </div>` : ''}
       <div class="choices" id="choices"></div>
       <div class="swipe-hint">
         <span class="swipe-arrow">↑</span>
         <span class="swipe-label">スワイプして次へ</span>
       </div>
     `);
+    if (example.ja) {
+      const toggleBtn = el.querySelector('.ja-toggle-btn');
+      const jaDiv     = el.querySelector('.example-ja');
+      toggleBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const showing = jaDiv.classList.toggle('visible');
+        toggleBtn.textContent = showing ? '日本語訳を隠す' : '日本語訳';
+      });
+    }
 
     const grid = el.querySelector('#choices');
     choices.forEach((c, i) => {
@@ -339,8 +368,8 @@ export class CardRenderer {
   _renderHandwrite(card, wordStr, pos, categoryId) {
     const el = this._baseCard('handwrite', card.isRetry, categoryId);
     el.insertAdjacentHTML('beforeend', `
-      <div class="word-pos" style="text-align:center;line-height:1.6">
-        音声を聞いて単語を紙に手書きで10回書き、<br>それを写真に撮って送ってください。
+      <div class="word-pos" style="text-align:left;line-height:1.6">
+        音声を聞いて単語を紙に手書きで10回書き、それを写真に撮って送ってください。
       </div>
       <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
       <div class="handwrite-photo-area">
@@ -528,6 +557,10 @@ export class CardRenderer {
       cardEl.addEventListener('animationend', () => cardEl.classList.remove('card-shake'), { once: true });
     }
 
+    // 日本語訳トグルを表示（Recall カード）
+    const jaToggleRow = cardEl.querySelector('.ja-toggle-row');
+    if (jaToggleRow) jaToggleRow.removeAttribute('hidden');
+
     this._markReady(isCorrect ? 'perfect' : 'wrong');
   }
 
@@ -536,7 +569,7 @@ export class CardRenderer {
   // -------------------------------------------------------
   _baseCard(type, isRetry = false, categoryId = 0) {
     const el = document.createElement('div');
-    el.className = 'card';
+    el.className = `card card-${type}`;
     this._cardEl = el;
 
     // 背景画像（BackgroundManager が設定済みの場合）

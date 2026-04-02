@@ -382,6 +382,42 @@ body.swiped-once .swipe-hint { display: none !important; }
   padding-left: 12px;
 }
 
+/* カード種別ごとの word-example 調整 */
+.card-intro  .word-example { font-size: 16px; }
+.card-recall .word-example { font-size: 20px; color: #ccc; }
+
+/* 日本語訳トグル */
+.ja-toggle-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.ja-toggle-btn {
+  align-self: flex-start;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 3px 10px;
+  font-size: 11px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+
+.ja-toggle-btn:hover { background: rgba(255,255,255,0.1); color: var(--text); }
+
+.example-ja {
+  display: none;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  padding-left: 12px;
+  border-left: 2px solid var(--border);
+}
+
+.example-ja.visible { display: block; }
+
 .word-example .blank {
   color: var(--accent);
   font-weight: 700;
@@ -701,10 +737,7 @@ body.swiped-once .swipe-hint { display: none !important; }
 .logo {
   font-size: 36px;
   font-weight: 900;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #fff;
   letter-spacing: -0.02em;
 }
 
@@ -811,15 +844,14 @@ body.swiped-once .swipe-hint { display: none !important; }
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
+  user-select: text;
 }
 
 .collocation-chip {
   background: rgba(79,142,247,0.12);
-  border: 1px solid rgba(79,142,247,0.25);
   border-radius: 20px;
   padding: 4px 12px;
   font-size: 12px;
-  color: var(--accent);
   white-space: nowrap;
   font-style: italic;
 }
@@ -1156,7 +1188,8 @@ body.swiped-once .swipe-hint { display: none !important; }
   flex-direction: column;
   align-items: center;
   gap: 8px;
-  padding: 20px 24px;
+  padding: 0.5rem;
+  width: 100px;
   border: 2px dashed rgba(231,76,60,0.4);
   border-radius: 16px;
   background: rgba(231,76,60,0.07);
@@ -1166,6 +1199,10 @@ body.swiped-once .swipe-hint { display: none !important; }
   font-weight: 600;
   transition: background 0.15s, border-color 0.15s;
   -webkit-tap-highlight-color: transparent;
+}
+
+.handwrite-photo-btn span {
+  font-size: 0.6rem;
 }
 
 .handwrite-photo-btn:hover,
