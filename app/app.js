@@ -60,6 +60,85 @@ class VocabFlowApp {
     this.wordWave     = null;
 
     this._bindStartScreen();
+    this._updateStartGreeting();
+  }
+
+  // -------------------------------------------------------
+  // スタート画面グリーティング
+  // -------------------------------------------------------
+  _updateStartGreeting() {
+    const el = document.getElementById('tagline');
+    if (!el) return;
+    el.innerHTML = this._buildStartGreeting();
+    el.classList.remove('loading');
+  }
+
+  _buildStartGreeting() {
+    const hour = new Date().getHours();
+    let timeGreet;
+    if      (hour >= 4  && hour < 7)  timeGreet = '早起きですね。';
+    else if (hour >= 7  && hour < 11) timeGreet = 'おはようございます。';
+    else if (hour >= 11 && hour < 14) timeGreet = 'お昼の学習ですね。';
+    else if (hour >= 14 && hour < 18) timeGreet = 'お疲れ様です。';
+    else if (hour >= 18 && hour < 23) timeGreet = '今日も来ましたね。';
+    else                              timeGreet = '夜遅くまでお疲れ様です。';
+
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (!saved) {
+      return `${timeGreet}<br>1900語の旅を、今日から始めましょう。`;
+    }
+
+    let state;
+    try {
+      state = LearnerState.fromJSON(JSON.parse(saved));
+    } catch {
+      return `${timeGreet}<br>TikTok式スワイプで語彙を定着させよう。`;
+    }
+
+    const { currentTime, activeWaves, config } = state;
+    const dayN = Math.floor(currentTime);
+    const lines = [timeGreet];
+
+    // 前回セッション（≈ 2セッション分の幅）で mastered になった単語
+    const sessionDur = 1 / (config.sessionsPerDay ?? 3);
+    const recentMastered = state.words.filter(w =>
+      w.stage === 'mastered' && w.lastReviewed >= currentTime - sessionDur * 2
+    );
+
+    // handwrite 落ちリスク語（stuckCount が閾値まであと1回）
+    const threshold = config.handwriteStuckThreshold ?? 3;
+    const atRisk = state.words.filter(w =>
+      !w.excluded && w.stage !== 'new' && w.stage !== 'mastered' &&
+      w.stuckCount >= threshold - 1 && !w.needsHandwrite
+    );
+
+    // 優先1: リスク語
+    if (atRisk.length > 0) {
+      const names = atRisk.slice(0, 2).map(w => w.wordString).join('・');
+      lines.push(`${names} はもう一度間違えると手書き練習になります。`);
+    }
+
+    // 優先2: 直近定着語
+    if (recentMastered.length > 0 && lines.length < 3) {
+      const names = recentMastered.slice(0, 2).map(w => w.wordString).join('・');
+      const extra = recentMastered.length > 2 ? ` など${recentMastered.length}語` : '';
+      lines.push(`前回、${names}${extra} が定着しました。`);
+    }
+
+    // 優先3: 経過日数・Wave・定着語数
+    if (lines.length < 3) {
+      const maxWave  = activeWaves.length > 0 ? Math.max(...activeWaves) : 1;
+      const mastered = state.masteredCount;
+      if (dayN >= 1 && mastered > 0) {
+        lines.push(`Day ${dayN} — ${mastered}語定着・第${maxWave}波到達中。`);
+      } else if (dayN >= 1) {
+        lines.push(`Day ${dayN} 継続中。第${maxWave}波まで届いています。`);
+      } else {
+        lines.push('1900語の旅が始まりました。');
+      }
+    }
+
+    return lines.join('<br>');
   }
 
   // -------------------------------------------------------

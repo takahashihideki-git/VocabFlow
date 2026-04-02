@@ -773,6 +773,28 @@ body.swiped-once .swipe-hint { display: none !important; }
   font-size: 14px;
   color: var(--text-muted);
   line-height: 1.6;
+  transition: opacity 0.25s;
+}
+.tagline.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 2.8em;
+}
+.tagline .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  animation: typing-dot 1.2s ease-in-out infinite;
+  opacity: 0.4;
+}
+.tagline .dot:nth-child(2) { animation-delay: 0.2s; }
+.tagline .dot:nth-child(3) { animation-delay: 0.4s; }
+@keyframes typing-dot {
+  0%, 60%, 100% { transform: translateY(0);    opacity: 0.4; }
+  30%            { transform: translateY(-5px); opacity: 1;   }
 }
 
 /* ===== Heatmap tooltip ===== */
