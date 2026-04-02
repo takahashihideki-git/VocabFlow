@@ -405,7 +405,8 @@ body.swiped-once .swipe-hint { display: none !important; }
   transition: background 0.12s, color 0.12s;
 }
 
-.ja-toggle-btn:hover { background: rgba(255,255,255,0.1); color: var(--text); }
+.ja-toggle-btn:hover:not(:disabled) { background: rgba(255,255,255,0.1); color: var(--text); }
+.ja-toggle-btn:disabled { opacity: 0.35; cursor: default; }
 
 .example-ja {
   display: none;

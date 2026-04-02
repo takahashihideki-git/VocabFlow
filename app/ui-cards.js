@@ -160,7 +160,7 @@ export class CardRenderer {
   // -------------------------------------------------------
   _renderIntro(card, wordStr, pos, meaning, categoryId) {
     const example = getExample(wordStr, pos);
-    const el = this._baseCard('intro', card.isRetry, categoryId);
+    const el = this._baseCard('intro', card, categoryId);
 
     el.insertAdjacentHTML('beforeend', `
       <div class="word-main">${wordStr}</div>
@@ -208,14 +208,15 @@ export class CardRenderer {
     const distractorMeanings = wd?.distractors?.length >= 3
       ? wd.distractors.slice(0, 3)
       : getDistractors(card.word, 3).map(w => getMeaning(w, pos));
-    const choices = this._shuffle([
+    const choices = card.shuffledChoices ?? this._shuffle([
       { text: meaning,               isCorrect: true },
       { text: distractorMeanings[0], isCorrect: false },
       { text: distractorMeanings[1], isCorrect: false },
       { text: distractorMeanings[2], isCorrect: false },
     ]);
+    if (!card.shuffledChoices) card.shuffledChoices = choices;
 
-    const el = this._baseCard('recognition', card.isRetry, categoryId);
+    const el = this._baseCard('recognition', card, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-main">${wordStr}</div>
       <div class="word-pos">${pos} — 意味を選んでください</div>
@@ -233,6 +234,7 @@ export class CardRenderer {
       btn.textContent = c.text;
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
+        card.userAnswer = c.text;
         this._handleChoice(el, btn, choices, i, c.isCorrect);
       });
       grid.appendChild(btn);
@@ -247,20 +249,21 @@ export class CardRenderer {
   _renderRecall(card, wordStr, pos, meaning, categoryId) {
     const example        = getExample(wordStr, pos);
     const distractorWords = getDistractors(card.word, 3);
-    const choices = this._shuffle([
+    const choices = card.shuffledChoices ?? this._shuffle([
       { text: wordStr,             isCorrect: true },
       { text: distractorWords[0], isCorrect: false },
       { text: distractorWords[1], isCorrect: false },
       { text: distractorWords[2], isCorrect: false },
     ]);
+    if (!card.shuffledChoices) card.shuffledChoices = choices;
 
-    const el = this._baseCard('recall', card.isRetry, categoryId);
+    const el = this._baseCard('recall', card, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">例文の空欄を埋めてください</div>
       <div class="word-example">${example.blank}</div>
       ${example.ja ? `
-      <div class="ja-toggle-row" hidden>
-        <button class="ja-toggle-btn">日本語訳</button>
+      <div class="ja-toggle-row">
+        <button class="ja-toggle-btn" disabled>日本語訳</button>
         <div class="example-ja">${example.ja}</div>
       </div>` : ''}
       <div class="choices" id="choices"></div>
@@ -286,6 +289,7 @@ export class CardRenderer {
       btn.textContent = c.text;
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
+        card.userAnswer = c.text;
         this._handleChoice(el, btn, choices, i, c.isCorrect);
       });
       grid.appendChild(btn);
@@ -298,7 +302,7 @@ export class CardRenderer {
   // Dictation カード: 音声を聞いてスペルを入力
   // -------------------------------------------------------
   _renderDictation(card, wordStr, pos, categoryId) {
-    const el = this._baseCard('dictation', card.isRetry, categoryId);
+    const el = this._baseCard('dictation', card, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">音声を聞いてスペルを入力してください</div>
       <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
@@ -332,6 +336,7 @@ export class CardRenderer {
       if (!val) return;
       answered = true;
 
+      card.userAnswer = val;
       const result    = this.engine.judgeDictation(val, wordStr);
       const isCorrect = result !== 'wrong';
 
@@ -366,7 +371,7 @@ export class CardRenderer {
   // Handwrite カード: 音声を聞いて手書き → 写真送信（モック）
   // -------------------------------------------------------
   _renderHandwrite(card, wordStr, pos, categoryId) {
-    const el = this._baseCard('handwrite', card.isRetry, categoryId);
+    const el = this._baseCard('handwrite', card, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos" style="text-align:left;line-height:1.6">
         音声を聞いて単語を紙に手書きで10回書き、それを写真に撮って送ってください。
@@ -450,6 +455,7 @@ export class CardRenderer {
               // Step 3: 0.6秒後 → 認識成功
               setTimeout(() => {
                 statusEl.innerHTML = `<div class="answer-feedback correct">✓ 「${wordStr}」を認識しました</div>`;
+                card.userAnswer = wordStr;
                 this._markReady('perfect');
               }, 600);
             }
@@ -481,7 +487,7 @@ export class CardRenderer {
   _renderPassive(card, wordStr, pos, meaning, categoryId) {
     const wd      = WORD_MAP.get(wordStr);
     const passive = wd?.passive;
-    const el      = this._baseCard('passive', card.isRetry, categoryId);
+    const el      = this._baseCard('passive', card, categoryId);
 
     if (passive) {
       const colChips = (passive.collocations || [])
@@ -557,25 +563,28 @@ export class CardRenderer {
       cardEl.addEventListener('animationend', () => cardEl.classList.remove('card-shake'), { once: true });
     }
 
-    // 日本語訳トグルを表示（Recall カード）
-    const jaToggleRow = cardEl.querySelector('.ja-toggle-row');
-    if (jaToggleRow) jaToggleRow.removeAttribute('hidden');
+    // 日本語訳トグルを有効化（Recall カード）
+    const jaToggleBtn = cardEl.querySelector('.ja-toggle-row .ja-toggle-btn');
+    if (jaToggleBtn) jaToggleBtn.disabled = false;
 
     this._markReady(isCorrect ? 'perfect' : 'wrong');
   }
 
   // -------------------------------------------------------
   // ベースカード DOM 生成
+  // card を渡すと bgUrl を保存/再利用する
   // -------------------------------------------------------
-  _baseCard(type, isRetry = false, categoryId = 0) {
+  _baseCard(type, card, categoryId = 0) {
+    const isRetry = card?.isRetry ?? false;
     const el = document.createElement('div');
     el.className = `card card-${type}`;
     this._cardEl = el;
 
-    // 背景画像（BackgroundManager が設定済みの場合）
+    // 背景画像（初回は取得して card.bgUrl に保存、履歴再表示時は保存済みURLを使用）
     if (this._bg) {
-      const url = this._bg.getUrl(categoryId);
+      const url = card?.bgUrl ?? this._bg.getUrl(categoryId);
       if (url) {
+        if (card && !card.bgUrl) card.bgUrl = url;
         const bg = document.createElement('div');
         bg.className = 'card-bg';
         bg.style.backgroundImage = `url(${url})`;
@@ -630,7 +639,8 @@ export class CardRenderer {
   }
 
   // -------------------------------------------------------
-  // 履歴ビュー（戻りスワイプで表示。回答済み / スキップ済みカードの読み取り専用表示）
+  // 履歴ビュー（戻りスワイプで表示）
+  // 元のカード表示をそのまま再現し、SRS に影響するアクションだけ無効化する
   // -------------------------------------------------------
   renderHistoryView(card) {
     this._ready       = false;
@@ -643,42 +653,74 @@ export class CardRenderer {
     const meaning    = getMeaning(wordStr, pos);
     const categoryId = rawWord.categoryId ?? 0;
 
-    // Passive カード: リッチコンテンツをそのまま再表示（スクロール可能）
-    if (card.cardType === 'passive') {
-      const el = this._renderPassive(card, wordStr, pos, meaning, categoryId);
-      // 履歴バッジを重ねる
-      const histBadge = document.createElement('div');
-      histBadge.className = 'card-type-badge badge-skipped';
-      histBadge.style.cssText = 'position:absolute;top:16px;right:16px';
-      histBadge.textContent = '履歴';
-      el.style.position = 'relative';
-      el.appendChild(histBadge);
-      this._animateInFromTop(el);
-      return;
+    // onReady を一時的に抑制（render メソッド内部の _markReady 呼び出しを無視）
+    const savedOnReady = this.onReady;
+    this.onReady = () => {};
+
+    let el;
+    switch (card.cardType) {
+      case 'intro':       el = this._renderIntro(card, wordStr, pos, meaning, categoryId); break;
+      case 'recognition': el = this._renderRecognition(card, wordStr, pos, meaning, categoryId); break;
+      case 'recall':      el = this._renderRecall(card, wordStr, pos, meaning, categoryId); break;
+      case 'dictation':   el = this._renderDictation(card, wordStr, pos, categoryId); break;
+      case 'handwrite':   el = this._renderHandwrite(card, wordStr, pos, categoryId); break;
+      default:            el = this._renderPassive(card, wordStr, pos, meaning, categoryId); break;
     }
 
-    const el = document.createElement('div');
-    el.className = 'card';
-    this._cardEl = el;
+    this.onReady = savedOnReady;
+    this._ready  = false;
+    this._result = null;
 
-    // 背景画像
-    if (this._bg) {
-      const url = this._bg.getUrl(categoryId);
-      if (url) {
-        const bg = document.createElement('div');
-        bg.className = 'card-bg';
-        bg.style.backgroundImage = `url(${url})`;
-        el.appendChild(bg);
+    // 選択肢・入力・送信ボタン を無効化
+    el.querySelectorAll('.choice-btn, #card-submit, #word-input').forEach(b => { b.disabled = true; });
+    // handwrite の label ボタンも無効化
+    el.querySelectorAll('.handwrite-photo-btn').forEach(b => { b.style.pointerEvents = 'none'; b.style.opacity = '0.4'; });
+
+    // ユーザーの回答を復元して表示
+    if (card.userAnswer) {
+      if (card.cardType === 'recognition' || card.cardType === 'recall') {
+        // 選んだボタンを正誤で色付け、不正解なら正解ボタンも緑に
+        const correctText = card.cardType === 'recognition' ? meaning : wordStr;
+        el.querySelectorAll('.choice-btn').forEach(btn => {
+          if (btn.textContent === card.userAnswer) {
+            btn.classList.add(card.result === 'wrong' ? 'wrong' : 'correct');
+          }
+          if (card.result === 'wrong' && btn.textContent === correctText) {
+            btn.classList.add('correct');
+          }
+        });
+      } else if (card.cardType === 'dictation') {
+        // 入力値を復元して色付け、フィードバックも再表示
+        const input = el.querySelector('#word-input');
+        if (input) {
+          input.value = card.userAnswer;
+          input.className = `word-input ${card.result !== 'wrong' ? 'correct' : 'wrong'}`;
+        }
+        const fbArea = el.querySelector('#feedback-area');
+        if (fbArea) {
+          let fbClass, fbText;
+          if      (card.result === 'perfect')   { fbClass = 'correct'; fbText = '✓ Perfect!'; }
+          else if (card.result === 'near_miss') { fbClass = 'near';    fbText = `△ Near miss — 正解: ${wordStr}`; }
+          else if (card.result === 'phonetic')  { fbClass = 'near';    fbText = `△ Phonetic match — 正解: ${wordStr}`; }
+          else                                  { fbClass = 'wrong';   fbText = `✗ 不正解 — 正解: ${wordStr}`; }
+          fbArea.innerHTML = `<div class="answer-feedback ${fbClass}">${fbText}</div>`;
+        }
+      } else if (card.cardType === 'handwrite') {
+        // 写真送信済みの結果を復元（写真は保持しないが認識結果を表示）
+        const previewArea = el.querySelector('#hw-preview-area');
+        if (previewArea) {
+          previewArea.innerHTML = `<div class="hw-preview"><div class="answer-feedback correct">✓ 「${card.userAnswer}」を認識しました</div></div>`;
+        }
       }
     }
 
-    // カード種別バッジ
-    const badge = document.createElement('div');
-    badge.className = `card-type-badge badge-${card.cardType}`;
-    badge.textContent = this._typeName(card.cardType);
-    el.appendChild(badge);
+    // recall/intro の ja トグルは回答済み扱いでアクティブに
+    if (card.cardType === 'recall' || card.cardType === 'intro') {
+      const jaBtn = el.querySelector('.ja-toggle-btn');
+      if (jaBtn) jaBtn.disabled = false;
+    }
 
-    // 履歴バッジ
+    // 履歴バッジを追加
     const histBadge = document.createElement('div');
     histBadge.className = 'card-type-badge badge-skipped';
     histBadge.style.cssText = 'position:absolute;top:16px;right:16px';
@@ -686,38 +728,15 @@ export class CardRenderer {
     el.style.position = 'relative';
     el.appendChild(histBadge);
 
-    // 結果ラベル
-    let resultClass, resultText;
-    if (card.done && !card.word.skipped && card.result === null) {
-      // スキップ済み（skipped フラグはすでに次セッションのため feed 側でクリアされた可能性あり）
-      resultClass = 'was-skipped';
-      resultText  = 'スキップ済み — 次セッションで優先再出題';
-    } else if (card.result === 'wrong') {
-      resultClass = 'was-wrong';
-      resultText  = `不正解 — 正解: ${wordStr}`;
-    } else if (card.result === null) {
-      resultClass = 'was-skipped';
-      resultText  = 'スキップ済み — 次セッションで優先再出題';
-    } else {
-      resultClass = 'was-correct';
-      resultText  = '正解済み';
+    // スワイプヒントを「先へ」に差し替え
+    const hint = el.querySelector('.swipe-hint');
+    if (hint) {
+      hint.classList.add('visible');
+      const label = hint.querySelector('.swipe-label');
+      if (label) label.textContent = 'スワイプして先へ';
     }
 
-    el.insertAdjacentHTML('beforeend', `
-      <div class="history-card-body">
-        <div class="word-main">${wordStr}</div>
-        <div class="word-pos">${pos}</div>
-        <div class="word-meaning">${meaning}</div>
-        <div class="history-result ${resultClass}">${resultText}</div>
-      </div>
-      <div class="swipe-hint visible">
-        <span class="swipe-arrow">↑</span>
-        <span class="swipe-label">スワイプして先へ</span>
-      </div>
-    `);
-
     this._animateInFromTop(el);
-    // 履歴ビューは常にスワイプ可能（前に進むだけ）
     this._markReady('history');
   }
 

@@ -42,8 +42,11 @@ export class Card {
   constructor(wordState, cardType) {
     this.word = wordState;    // WordState 参照
     this.cardType = cardType; // 'intro'|'recognition'|'recall'|'dictation'|'handwrite'|'passive'
-    this.result = null;       // 回答結果（後で設定）
-    this.done = false;        // 回答済みまたはスキップ済み（戻りスワイプ時の history 判定に使用）
+    this.result = null;         // 回答結果（後で設定）
+    this.userAnswer = null;     // ユーザーが選択/入力した内容（履歴ビュー復元用）
+    this.shuffledChoices = null;// シャッフル済み選択肢（履歴ビューで順序を再現するために保存）
+    this.bgUrl = null;          // 使用した背景画像URL（履歴ビューで再現するために保存）
+    this.done = false;          // 回答済みまたはスキップ済み（戻りスワイプ時の history 判定に使用）
     this.isRetry = false;     // リトライカード（不正解後の再挿入）かどうか
     this.stageBeforeWrong = null; // 不正解直前の stage（リトライ正解時に復元する）
   }
