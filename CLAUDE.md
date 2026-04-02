@@ -40,8 +40,8 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 | ファイル | 状態 |
 |---|---|
-| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止 |
+| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加。スタート画面タグラインを動的グリーティングに変更（3dot loading アニメーション付き） |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング（`_buildStartGreeting`）|
 | `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。Passive リッチUI。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加。Recognition 回答後に単語TTS・Recall 回答後に例文TTS |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加 |
@@ -194,7 +194,9 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: トースト通知・回答即時SRS処理・TTS停止を追加（4c5acaf）
+- 直近コミット: デプロイスクリプト追加（0a5febf）
+- 本番デプロイ先: `USER@HOST:/path/to/wordwave`
+  - デプロイコマンド: `bash scripts/deploy.sh`（`app/` + `core/` のみ転送）
 
 ---
 
@@ -237,6 +239,7 @@ VocabFlow/
 │   ├── validate_word_data.py    # バリデーション
 │   ├── build_word_data_js.py    # core/word-data.js ビルド
 │   ├── fetch_category_images.js # Unsplash API から画像URL取得→category-images.js生成
+│   ├── deploy.sh                # 本番サーバーへ rsync デプロイ（app/ + core/ のみ）
 │   ├── results/
 │   │   ├── all_results.json         # 全1900語の分類結果
 │   │   ├── word_data/batch_001〜095.json  # バッチ別生成データ
