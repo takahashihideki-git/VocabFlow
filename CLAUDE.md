@@ -4,6 +4,9 @@
 
 TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は `spec.md`（v3）、単語データ仕様は `word-data-spec.md` を参照。
 
+**アプリ表示名: 「Word Wave」**（ロゴ・タイトル等のユーザー向け表示）
+**開発コードネーム: 「VocabFlow」**（ファイル名・クラス名・localStorage キー等はそのまま）
+
 ---
 
 ## 現在の実装状況
@@ -13,7 +16,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `core/config.js` | ✅ handwriteStuckThreshold: 3・recognitionThresholdH: 2.0・masteredThresholdH: 14.0 追加済み |
-| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded 追加。Card: done 追加。LearnerState: handwriteModeEnabled 追加 |
+| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded 追加。Card: done/userAnswer/shuffledChoices/bgUrl 追加。LearnerState: handwriteModeEnabled 追加 |
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し |
@@ -37,37 +40,20 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 | ファイル | 状態 |
 |---|---|
-| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示 |
+| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」 |
 | `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み |
-| `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み（getMeaning/getExample → WORD_DATA参照）。Passive カードはリッチUI（語源・コツ・コロケーション・豆知識）。戻り時もリッチビューを再表示 |
+| `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。Passive リッチUI。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加 |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加 |
 | `app/ui-background.js` | ✅ BackgroundManager（getUrl/preload）。CATEGORY_IMAGES からカテゴリ別ランダム画像URL取得 |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・Passive リッチUIスタイル（passive-scroll / passive-section / collocation-chip） |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。カード 9:16 aspect-ratio・Passive リッチUIスタイル。カード種別ごとの word-example サイズ（card-intro: 16px / card-recall: 20px）。日本語訳トグルスタイル |
+| `app/style-mockup.html` | ✅ 6種カード・画面遷移（スタート/セッション完了/復習なし）・ヘッダ/フッタを静的表示するスタイル確認用モックアップ |
 
 ---
 
 ## 次セッションの残タスク
 
-### 🔴 優先: スタイルチューニング（可読性向上）
-
-主にフォントサイズまわりを中心に、全カード種別の可読性を高める。
-
-#### 作業方針
-1. **スタイル確認用モックアップ HTML を作成**（`app/style-mockup.html`）
-   - 6種カード（intro / recognition / recall / dictation / handwrite / passive）を1ページに並べて静的表示
-   - ローカルサーバー不要・`app.css` を直接 link して即確認できる
-   - CSS 変更のフィードバックループを短縮するのが目的
-
-2. **`app/app.css` のフォントサイズ調整**
-   - チューニング対象の主要クラス:
-     - `.word-main` — 単語（現 `clamp(32px, 8vw, 52px)`）
-     - `.word-meaning` — 日本語意味（現 `18px`）
-     - `.word-example` — 例文（現 `14px`）
-     - `.choice-btn` — 選択肢ボタン（現 `14px`）
-     - `.passive-section-body` — passive 本文（現 `13px`）
-     - `.passive-section-title` — passive セクション見出し（現 `10px`）
-   - モックアップで確認しながら調整する
+特になし。随時発生する改善・バグ修正を対応する。
 
 ---
 
@@ -180,12 +166,15 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - スワイプジェスチャー: タッチ（40px上下スワイプ）・ホイール・キーボード（↑↓/Space）
 - PC環境（タッチ非対応）: ↑↓ 円形ボタンを右下に表示（pc-nav-btns.visible）。body.no-touch でスワイプヒント非表示
 - スキップ: 未回答状態でスワイプアップ → word.skipped=true。次セッションで最優先
-- 戻りスワイプ: スキップ済み未回答カードは再表示（done/skippedをリセットして再出題）。回答済みは履歴ビュー（読み取り専用）
+- 戻りスワイプ: スキップ済み未回答カードは再表示（done/skippedをリセットして再出題）。回答済みは履歴ビュー
+- 履歴ビュー: 元の `_renderXxx` を流用して表示を完全再現。`onReady` を一時 no-op に差し替えてSRS副作用を抑制。選択肢ボタン・入力欄・送信を disabled 化。ユーザーの回答（recognition/recall: 選択したボタンをハイライト・dictation: 入力値とフィードバック復元・handwrite: OCR結果復元）を再表示
+- 選択肢の並び順は `card.shuffledChoices` に保存し履歴で再現。背景画像URLは `card.bgUrl` に保存し履歴で再利用
 - カードが回答済みになると `onReady(result)` が呼ばれ、スワイプ可能化（次ボタンは常時クリック可）
 - 時間早送り: 次のセッション(1/3日)・翌日・1週間後。ボタンラベルは `LABELS.session.timeForward1/2/3`
 - localStorage キー: `vocabflow_state_v1`
 - Word Wave: `app/ui-wordwave.js`。ヘッダバークリックで全画面表示。単語タップでポップオーバー（pRecall・最終復習日・除外ボタン付き）。一括除外モード（🗑️）対応。
 - Handwrite カード: 音声を聞いて紙に手書き10回 → カメラ/ギャラリーで写真送信 → AI OCRモック（文字スキャン風に表示）→ 常に perfect 判定で h ブースト
+- 日本語訳トグル: Intro は常時表示。Recall は回答後にアクティブ化（回答前は disabled でグレーアウト表示）
 
 ### sim-runner.js（リトライ処理）
 ```
@@ -202,7 +191,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: 全1900語の生成データをプロトタイプに統合・Passive カードをリッチUI化（ceb24f5）
+- 直近コミット: 履歴ビューをカード完全再現方式に刷新・日本語訳トグル追加（d49dbae）
 
 ---
 
@@ -253,7 +242,7 @@ VocabFlow/
 │   └── category_report.md       # カテゴリ別単語一覧（人手確認用）
 ├── core/
 │   ├── config.js            # DEFAULT_CONFIG, createConfig()
-│   ├── models.js            # WordState（peakH含む）, Card（isRetry/stageBeforeWrong）, LearnerState
+│   ├── models.js            # WordState（peakH含む）, Card（isRetry/stageBeforeWrong/userAnswer/shuffledChoices/bgUrl）, LearnerState
 │   ├── srs-engine.js        # SRSEngine（h更新・peakH・ステージ遷移・判定）
 │   ├── wave-manager.js      # WaveManager（導入済み語ベースのwave解放・卒業）
 │   ├── feed-generator.js    # FeedGenerator（グリーディ割当・Intro-Recog gap保証済み）
@@ -271,10 +260,10 @@ VocabFlow/
 └── app/
     ├── app.html          # エントリーポイント（Word Wave Day N 表示）
     ├── app.js            # セッション管理・スワイプ・時間早送り・localStorage
-    ├── ui-cards.js       # 6種カードUI・TTS・Handwrite写真送信＋AI OCRモック。全1900語の生成データ統合済み
+    ├── ui-cards.js       # 6種カードUI・TTS・Handwrite写真送信＋AI OCRモック。履歴ビュー完全再現。日本語訳トグル
     ├── ui-heatmap.js     # Wave Heatmap Canvas描画
     ├── ui-wordwave.js    # Word Wave 全画面ビュー（pRecall・最終復習日・除外・一括除外）
     ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
-    ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI
-    └── style-mockup.html # （次セッションで作成）スタイル確認用モックアップ（6種カードを静的表示）
+    ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI・日本語訳トグル
+    └── style-mockup.html # スタイル確認用モックアップ（6種カード・画面遷移・ヘッダ/フッタを静的表示）
 ```
