@@ -705,7 +705,7 @@ class VocabFlowApp {
     document.getElementById('overlay-wavecomplete').style.display = 'flex';
   }
 
-  _calcWaitHours() {
+  _calcWaitDisplay() {
     const retentionFactor = Math.log2(1 / this.config.targetRetention);
     let nextDueTime = Infinity;
     for (const w of this.state.words) {
@@ -714,12 +714,13 @@ class VocabFlowApp {
       if (t < nextDueTime) nextDueTime = t;
     }
     if (!isFinite(nextDueTime)) return null;
-    const waitDays = Math.max(0, nextDueTime - this.state.currentTime);
-    return Math.round(waitDays * 24);
+    const waitMins = Math.max(1, Math.round(Math.max(0, nextDueTime - this.state.currentTime) * 24 * 60));
+    if (waitMins < 60) return `約<strong>${waitMins}</strong>分後`;
+    return `約<strong>${Math.round(waitMins / 60)}</strong>時間後`;
   }
 
   _showNoWork() {
-    const waitHours = this._calcWaitHours();
+    const waitDisplay = this._calcWaitDisplay();
     const sess = 1 / this.config.sessionsPerDay;
     const wrapper = document.getElementById('card-wrapper');
 
@@ -727,7 +728,7 @@ class VocabFlowApp {
       <div class="card nowork-card">
         <div class="nowork-title">今はなにもしなくて大丈夫。</div>
         <ul class="nowork-bullets">
-          ${waitHours !== null ? `<li>少し忘れかけてから復習するのが最も効果的です。約<strong>${waitHours}</strong>時間後がそのタイミングです。</li>` : ''}
+          ${waitDisplay !== null ? `<li>少し忘れかけてから復習するのが最も効果的です。${waitDisplay}がそのタイミングです。</li>` : ''}
           <li>すでに覚えかけの単語がたくさんあります。新しい単語に取り組むのはもうすこしあとで。</li>
         </ul>
         <div class="time-controls">
@@ -738,6 +739,7 @@ class VocabFlowApp {
             <button class="time-btn" id="nw-next-week">${LABELS.session.timeForward3}</button>
           </div>
         </div>
+        <button class="btn-secondary" id="nw-refresh" style="width:100%;margin-bottom:8px">更新</button>
         <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
       </div>
     `;
@@ -746,6 +748,12 @@ class VocabFlowApp {
     document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
     document.getElementById('nw-next-week').addEventListener('click',    () => this._advanceTime(7));
     document.getElementById('btn-reset-from-nowork').addEventListener('click', () => this._reset());
+    document.getElementById('nw-refresh').addEventListener('click', () => {
+      const elapsed = this.state.savedAt ? (Date.now() - this.state.savedAt) / 86400000 : 0;
+      this.state.currentTime += elapsed;
+      this.state.savedAt = Date.now();
+      this._startSession();
+    });
 
     this._updateProgress();
     this._updateStats();
