@@ -264,7 +264,7 @@ export class CardRenderer {
     const el = this._baseCard('recall', card, categoryId);
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">例文の空欄を埋めてください</div>
-      <div class="word-example">${example.blank}</div>
+      <div class="word-example">${card.userAnswer ? example.full : example.blank}</div>
       ${example.ja ? `
       <div class="ja-toggle-row">
         <button class="ja-toggle-btn" disabled>日本語訳</button>
@@ -294,6 +294,7 @@ export class CardRenderer {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         card.userAnswer = c.text;
+        el.querySelector('.word-example').innerHTML = example.full;
         this._handleChoice(el, btn, choices, i, c.isCorrect, () => speak(examplePlain));
       });
       grid.appendChild(btn);
