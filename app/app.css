@@ -674,6 +674,51 @@ body.swiped-once .swipe-hint { display: none !important; }
   line-height: 1.5;
 }
 
+.oc-section {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* No-work card (shown in card area when no session is due) */
+.nowork-card {
+  justify-content: center;
+  gap: 28px;
+}
+
+.nowork-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nowork-bullets {
+  list-style: none;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.nowork-bullets li {
+  font-weight: bold;
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+}
+
+.nowork-bullets li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-weight: normal;
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

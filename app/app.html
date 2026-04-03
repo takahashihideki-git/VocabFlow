@@ -102,22 +102,26 @@
 <!-- Session complete overlay (hidden by default) -->
 <div class="overlay" id="overlay-complete" style="display:none">
   <div class="overlay-card">
-    <div class="overlay-title">セッション完了 ✓</div>
+    <div class="overlay-title">セッション完了</div>
+    <div class="oc-section">今回</div>
     <div class="stat-grid">
       <div class="stat-box">
-        <div class="stat-label">消化カード</div>
-        <div class="stat-value" id="oc-cards">0</div>
+        <div class="stat-label">学習したカード</div>
+        <div class="stat-value"><span id="oc-done">0</span>/<span id="oc-total">0</span></div>
       </div>
       <div class="stat-box">
         <div class="stat-label">正解率</div>
         <div class="stat-value" id="oc-acc">–</div>
       </div>
+    </div>
+    <div class="oc-section">Word Wave</div>
+    <div class="stat-grid">
       <div class="stat-box">
-        <div class="stat-label">学習済み語</div>
+        <div class="stat-label">学習した単語</div>
         <div class="stat-value" id="oc-learned">0</div>
       </div>
       <div class="stat-box">
-        <div class="stat-label">定着語</div>
+        <div class="stat-label">定着した単語</div>
         <div class="stat-value" id="oc-mastered">0</div>
       </div>
     </div>
@@ -128,42 +132,12 @@
         <button class="time-btn" id="btn-next-day">+1日</button>
         <button class="time-btn" id="btn-next-week">+1週間</button>
       </div>
-      <div class="time-display">現在: Day <span id="oc-day">0.0</span></div>
     </div>
     <button class="btn-primary" id="btn-continue">このまま続ける</button>
     <button class="btn-danger" id="btn-reset-from-complete">リセット</button>
   </div>
 </div>
 
-<!-- No work overlay -->
-<div class="overlay" id="overlay-nowork" style="display:none">
-  <div class="overlay-card">
-    <div class="overlay-title">今は復習しなくても大丈夫</div>
-    <div class="overlay-subtitle">
-      しばらく時間を置いてから再開しましょう。
-    </div>
-    <div class="stat-grid">
-      <div class="stat-box">
-        <div class="stat-label">学習済み語</div>
-        <div class="stat-value" id="nw-learned">0</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-label">定着語</div>
-        <div class="stat-value" id="nw-mastered">0</div>
-      </div>
-    </div>
-    <div class="time-controls">
-      <label>時間を進める（動作確認用）</label>
-      <div class="time-btn-row">
-        <button class="time-btn" id="nw-next-session">+8時間</button>
-        <button class="time-btn" id="nw-next-day">+1日</button>
-        <button class="time-btn" id="nw-next-week">+1週間</button>
-      </div>
-      <div class="time-display">現在: Day <span id="nw-day">0.0</span></div>
-    </div>
-    <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
-  </div>
-</div>
 
 <script type="module" src="app.js"></script>
 </body>

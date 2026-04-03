@@ -102,6 +102,7 @@ export class LearnerState {
       sessionsCompleted: this.sessionsCompleted,
       waveUnlockEvents: this.waveUnlockEvents,
       activeWaves: this.activeWaves,
+      savedAt: Date.now(),
     };
   }
 
@@ -117,6 +118,7 @@ export class LearnerState {
     state.sessionsCompleted = data.sessionsCompleted;
     state.waveUnlockEvents = data.waveUnlockEvents;
     state.activeWaves = data.activeWaves;
+    state.savedAt = data.savedAt ?? null;
     return state;
   }
 }

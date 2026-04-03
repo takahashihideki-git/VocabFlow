@@ -111,6 +111,82 @@
 
     /* スワイプヒントは常時表示 */
     .swipe-hint { opacity: 1 !important; }
+
+    /* ヘッダ+カード+フッタを含むフルレイアウト用フレーム */
+    .mockup-phone-frame {
+      width: 270px;
+      height: 480px;
+      background: var(--bg);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .mockup-phone-header {
+      flex-shrink: 0;
+      height: var(--heatmap-h);
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      padding: 6px 10px 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+    }
+
+    .mockup-phone-header-stats {
+      font-size: 10px;
+      color: var(--text-muted);
+      display: flex;
+      gap: 10px;
+    }
+
+    .mockup-phone-header-stats .val {
+      color: #fff;
+    }
+
+    .mockup-phone-header-heatmap {
+      height: 8px;
+      background: rgba(255,255,255,0.04);
+      border-radius: 4px;
+    }
+
+    .mockup-phone-cards {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
+    }
+
+    .mockup-phone-cards .card {
+      width: 270px;
+      height: auto;
+      aspect-ratio: unset;
+      overflow-y: auto;
+      border-radius: 0;
+      border: none;
+    }
+
+    .mockup-phone-footer {
+      flex-shrink: 0;
+      height: var(--footer-h);
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      padding: 0 14px;
+      gap: 8px;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+
+    .mockup-phone-footer-bar {
+      flex: 1;
+      height: 3px;
+      background: rgba(255,255,255,0.08);
+      border-radius: 2px;
+    }
   </style>
 </head>
 <body>
@@ -327,22 +403,26 @@
     <div class="mockup-label">セッション完了</div>
     <div class="mockup-screen">
       <div class="overlay-card">
-        <div class="overlay-title">セッション完了 ✓</div>
+        <div class="overlay-title">セッション完了</div>
+        <div class="oc-section">今回</div>
         <div class="stat-grid">
           <div class="stat-box">
-            <div class="stat-label">消化カード</div>
-            <div class="stat-value">18</div>
+            <div class="stat-label">学習したカード</div>
+            <div class="stat-value">16/18</div>
           </div>
           <div class="stat-box">
             <div class="stat-label">正解率</div>
             <div class="stat-value">83%</div>
           </div>
+        </div>
+        <div class="oc-section">Word Wave</div>
+        <div class="stat-grid">
           <div class="stat-box">
-            <div class="stat-label">学習済み語</div>
+            <div class="stat-label">学習した単語</div>
             <div class="stat-value">42</div>
           </div>
           <div class="stat-box">
-            <div class="stat-label">定着語</div>
+            <div class="stat-label">定着した単語</div>
             <div class="stat-value">7</div>
           </div>
         </div>
@@ -353,7 +433,6 @@
             <button class="time-btn">+1日</button>
             <button class="time-btn">+1週間</button>
           </div>
-          <div class="time-display">現在: Day <span>3.2</span></div>
         </div>
         <button class="btn-primary">このまま続ける</button>
         <button class="btn-danger">リセット</button>
@@ -364,30 +443,42 @@
   <!-- 復習なし -->
   <div class="mockup-column">
     <div class="mockup-label">今は復習なし</div>
-    <div class="mockup-screen">
-      <div class="overlay-card">
-        <div class="overlay-title">今は復習しなくても大丈夫</div>
-        <div class="overlay-subtitle">しばらく時間を置いてから再開しましょう。</div>
-        <div class="stat-grid">
-          <div class="stat-box">
-            <div class="stat-label">学習済み語</div>
-            <div class="stat-value">42</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-label">定着語</div>
-            <div class="stat-value">7</div>
-          </div>
+    <div class="mockup-phone-frame">
+      <!-- ヘッダ（ヒートマップ） -->
+      <div class="mockup-phone-header">
+        <div class="mockup-phone-header-stats">
+          <span>学習済み <span class="val">42</span>語</span>
+          <span>定着 <span class="val">7</span>語</span>
+          <span>Wave <span class="val">2</span></span>
+          <span>Day <span class="val">3.2</span></span>
+          <span id="heatmap-ww-link" style="opacity:0.8">🌊 waves ›</span>
         </div>
-        <div class="time-controls">
-          <label>時間を進める（動作確認用）</label>
-          <div class="time-btn-row">
-            <button class="time-btn">+8時間</button>
-            <button class="time-btn">+1日</button>
-            <button class="time-btn">+1週間</button>
+        <div class="mockup-phone-header-heatmap"></div>
+      </div>
+      <!-- カードエリア -->
+      <div class="mockup-phone-cards">
+        <div class="card nowork-card">
+          <div class="nowork-title">今はなにもしなくて大丈夫。</div>
+          <ul class="nowork-bullets">
+            <li>少し忘れかけてから復習するのが最も効果的です。約<strong>6</strong>時間後がそのタイミングです。</li>
+            <li>すでに覚えかけの単語がたくさんあります。新しい単語に取り組むのはもうすこしあとで。</li>
+          </ul>
+          <div class="time-controls">
+            <label>時間を進める（動作確認用）</label>
+            <div class="time-btn-row">
+              <button class="time-btn">+8時間</button>
+              <button class="time-btn">+1日</button>
+              <button class="time-btn">+1週間</button>
+            </div>
           </div>
-          <div class="time-display">現在: Day <span>3.2</span></div>
+          <button class="btn-danger">リセット</button>
         </div>
-        <button class="btn-danger">リセット</button>
+      </div>
+      <!-- フッタ -->
+      <div class="mockup-phone-footer">
+        <span>0 / 0</span>
+        <div class="mockup-phone-footer-bar"></div>
+        <span>正解 0 &nbsp;/&nbsp; 誤答 0</span>
       </div>
     </div>
   </div>

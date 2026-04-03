@@ -182,6 +182,12 @@ class VocabFlowApp {
   // Boot: SRSモジュール初期化 → UI表示
   // -------------------------------------------------------
   _boot() {
+    // 現実の経過時間を currentTime に反映（前回保存時刻との差分）
+    if (this.state.savedAt) {
+      const elapsedDays = (Date.now() - this.state.savedAt) / 86400000;
+      this.state.currentTime += elapsedDays;
+    }
+
     this.engine      = new SRSEngine(this.config);
     this.waveManager = new WaveManager(this.config, this.state);
     this.feedGen     = new FeedGenerator(this.config, this.engine, this.waveManager);
@@ -241,6 +247,7 @@ class VocabFlowApp {
 
     this._setupSwipeGestures();
     this._bindOverlayButtons();
+    this._saveState(); // savedAt を現在時刻で更新（再起動時の二重カウント防止）
     this._startSession();
   }
 
@@ -504,6 +511,7 @@ class VocabFlowApp {
     card.result = result;
 
     const stageBefore = word.stage;
+    const countable = card.cardType !== 'intro' && card.cardType !== 'passive';
 
     if (card.isRetry) {
       if (result !== 'wrong') {
@@ -513,10 +521,10 @@ class VocabFlowApp {
         } else {
           word.stage = card.stageBeforeWrong;  // 降格キャンセル（h 更新なし）
         }
-        this.sessionCorrect++;
+        if (countable) this.sessionCorrect++;
       } else {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
-        this.sessionWrong++;
+        if (countable) this.sessionWrong++;
         const count = (this.retryCount.get(word.wordId) || 0) + 1;
         this.retryCount.set(word.wordId, count);
         if (count < this.config.maxRetryPerCard) {
@@ -526,10 +534,10 @@ class VocabFlowApp {
     } else {
       if (result !== 'wrong') {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
-        this.sessionCorrect++;
+        if (countable) this.sessionCorrect++;
       } else {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
-        this.sessionWrong++;
+        if (countable) this.sessionWrong++;
         const count = this.retryCount.get(word.wordId) || 0;
         if (count < this.config.maxRetryPerCard) {
           this._insertRetry(card, stageBefore);
@@ -633,48 +641,77 @@ class VocabFlowApp {
     });
     document.getElementById('btn-reset-from-complete').addEventListener('click', () => this._reset());
 
-    document.getElementById('nw-next-session').addEventListener('click', () => this._advanceTime(sess));
-    document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
-    document.getElementById('nw-next-week').addEventListener('click',    () => this._advanceTime(7));
-    document.getElementById('btn-reset-from-nowork').addEventListener('click', () => this._reset());
-
     // 時間進行ボタンのラベルを labels.js から設定
-    for (const id of ['btn-next-session', 'nw-next-session']) {
-      document.getElementById(id).textContent = LABELS.session.timeForward1;
-    }
-    for (const id of ['btn-next-day', 'nw-next-day']) {
-      document.getElementById(id).textContent = LABELS.session.timeForward2;
-    }
-    for (const id of ['btn-next-week', 'nw-next-week']) {
-      document.getElementById(id).textContent = LABELS.session.timeForward3;
-    }
+    document.getElementById('btn-next-session').textContent = LABELS.session.timeForward1;
+    document.getElementById('btn-next-day').textContent     = LABELS.session.timeForward2;
+    document.getElementById('btn-next-week').textContent    = LABELS.session.timeForward3;
   }
 
   // -------------------------------------------------------
   // Overlay 表示
   // -------------------------------------------------------
   _showComplete() {
-    const total = this.sessionCorrect + this.sessionWrong;
-    const acc   = total > 0 ? Math.round((this.sessionCorrect / total) * 100) + '%' : '–';
+    const done     = this.sessionCards.filter(c => c.result !== null).length;
+    const total    = this.sessionCards.length;
+    const answered = this.sessionCorrect + this.sessionWrong;
+    const acc      = answered > 0 ? Math.round((this.sessionCorrect / answered) * 100) + '%' : '–';
 
-    document.getElementById('oc-cards').textContent    = total;
-    document.getElementById('oc-acc').textContent      = acc;
+    document.getElementById('oc-done').textContent  = done;
+    document.getElementById('oc-total').textContent = total;
+    document.getElementById('oc-acc').textContent   = acc;
     document.getElementById('oc-learned').textContent  = this.state.learnedCount;
     document.getElementById('oc-mastered').textContent = this.state.masteredCount;
-    document.getElementById('oc-day').textContent      = this.state.currentTime.toFixed(1);
     document.getElementById('overlay-complete').style.display = 'flex';
   }
 
+  _calcWaitHours() {
+    const retentionFactor = Math.log2(1 / this.config.targetRetention);
+    let nextDueTime = Infinity;
+    for (const w of this.state.words) {
+      if (w.stage === 'new' || w.excluded || w.h <= 0) continue;
+      const t = w.lastReviewed + w.h * retentionFactor;
+      if (t < nextDueTime) nextDueTime = t;
+    }
+    if (!isFinite(nextDueTime)) return null;
+    const waitDays = Math.max(0, nextDueTime - this.state.currentTime);
+    return Math.round(waitDays * 24);
+  }
+
   _showNoWork() {
-    document.getElementById('nw-learned').textContent  = this.state.learnedCount;
-    document.getElementById('nw-mastered').textContent = this.state.masteredCount;
-    document.getElementById('nw-day').textContent      = this.state.currentTime.toFixed(1);
-    document.getElementById('overlay-nowork').style.display = 'flex';
+    const waitHours = this._calcWaitHours();
+    const sess = 1 / this.config.sessionsPerDay;
+    const wrapper = document.getElementById('card-wrapper');
+
+    wrapper.innerHTML = `
+      <div class="card nowork-card">
+        <div class="nowork-title">今はなにもしなくて大丈夫。</div>
+        <ul class="nowork-bullets">
+          ${waitHours !== null ? `<li>少し忘れかけてから復習するのが最も効果的です。約<strong>${waitHours}</strong>時間後がそのタイミングです。</li>` : ''}
+          <li>すでに覚えかけの単語がたくさんあります。新しい単語に取り組むのはもうすこしあとで。</li>
+        </ul>
+        <div class="time-controls">
+          <label>時間を進める（動作確認用）</label>
+          <div class="time-btn-row">
+            <button class="time-btn" id="nw-next-session">${LABELS.session.timeForward1}</button>
+            <button class="time-btn" id="nw-next-day">${LABELS.session.timeForward2}</button>
+            <button class="time-btn" id="nw-next-week">${LABELS.session.timeForward3}</button>
+          </div>
+        </div>
+        <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
+      </div>
+    `;
+
+    document.getElementById('nw-next-session').addEventListener('click', () => this._advanceTime(sess));
+    document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
+    document.getElementById('nw-next-week').addEventListener('click',    () => this._advanceTime(7));
+    document.getElementById('btn-reset-from-nowork').addEventListener('click', () => this._reset());
+
+    this._updateProgress();
+    this._updateStats();
   }
 
   _hideOverlays() {
     document.getElementById('overlay-complete').style.display = 'none';
-    document.getElementById('overlay-nowork').style.display   = 'none';
   }
 
   // -------------------------------------------------------
