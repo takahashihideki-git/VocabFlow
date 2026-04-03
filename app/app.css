@@ -521,7 +521,7 @@ body.swiped-once .swipe-hint { display: none !important; }
   min-height: 60px;
 }
 
-.choice-btn:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.2); }
+body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.2); }
 .choice-btn.correct { background: rgba(46,204,113,0.2); border-color: var(--success); color: var(--success); }
 .choice-btn.wrong   { background: rgba(231,76,60,0.15); border-color: var(--danger); color: var(--danger); }
 .choice-btn:disabled { cursor: default; }
