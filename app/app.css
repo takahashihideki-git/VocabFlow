@@ -308,7 +308,7 @@ body.no-touch .card-bg::after {
 #pc-nav-btns.visible {
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  right: -14px;
   display: flex;
   flex-direction: column;
   gap: 8px;
