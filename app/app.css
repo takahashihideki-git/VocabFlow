@@ -674,6 +674,23 @@ body.swiped-once .swipe-hint { display: none !important; }
   line-height: 1.5;
 }
 
+.wc-card {
+  text-align: center;
+  gap: 20px;
+}
+
+.wc-icon {
+  font-size: 52px;
+  line-height: 1;
+}
+
+.wc-message {
+  font-size: 15px;
+  color: var(--text-muted);
+  line-height: 1.75;
+  text-align: left;
+}
+
 .oc-section {
   font-size: 11px;
   font-weight: 700;

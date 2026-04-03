@@ -188,6 +188,16 @@ class VocabFlowApp {
       this.state.currentTime += elapsedDays;
     }
 
+    // wave 全mastered 通知済みセット（起動時に既完了 wave を登録して重複防止）
+    this._notifiedWaveComplete = new Set();
+    const waveNumbers = [...new Set(this.state.words.map(w => w.waveNumber))];
+    for (const wn of waveNumbers) {
+      const waveWords = this.state.words.filter(w => w.waveNumber === wn && !w.excluded);
+      if (waveWords.length > 0 && waveWords.every(w => w.stage === 'mastered')) {
+        this._notifiedWaveComplete.add(wn);
+      }
+    }
+
     this.engine      = new SRSEngine(this.config);
     this.waveManager = new WaveManager(this.config, this.state);
     this.feedGen     = new FeedGenerator(this.config, this.engine, this.waveManager);
@@ -551,6 +561,7 @@ class VocabFlowApp {
       const rawWord = typeof word.word === 'object' ? word.word : {};
       const wordStr = rawWord.word || `word_${word.wordId}`;
       this.showToast(`⭐ ${wordStr} がマスターされました`);
+      this._checkWaveComplete(word.waveNumber);
     }
 
     this.state.totalCardsConsumed++;
@@ -640,6 +651,7 @@ class VocabFlowApp {
       this._startSession();
     });
     document.getElementById('btn-reset-from-complete').addEventListener('click', () => this._reset());
+    document.getElementById('btn-wavecomplete-close').addEventListener('click', () => this._hideOverlays());
 
     // 時間進行ボタンのラベルを labels.js から設定
     document.getElementById('btn-next-session').textContent = LABELS.session.timeForward1;
@@ -662,6 +674,35 @@ class VocabFlowApp {
     document.getElementById('oc-learned').textContent  = this.state.learnedCount;
     document.getElementById('oc-mastered').textContent = this.state.masteredCount;
     document.getElementById('overlay-complete').style.display = 'flex';
+  }
+
+  _checkWaveComplete(waveNumber) {
+    if (this._notifiedWaveComplete.has(waveNumber)) return;
+    const waveWords = this.state.words.filter(w => w.waveNumber === waveNumber && !w.excluded);
+    if (waveWords.length === 0) return;
+    if (!waveWords.every(w => w.stage === 'mastered')) return;
+    this._notifiedWaveComplete.add(waveNumber);
+    this._showWaveComplete(waveNumber, waveWords.length);
+  }
+
+  _showWaveComplete(waveNumber, wordCount) {
+    const maxWave = Math.max(...this.state.words.map(w => w.waveNumber));
+    let title, message;
+
+    if (waveNumber === 1) {
+      title   = `Wave 1 達成`;
+      message = `Wave 1 の${wordCount}語が定着しました。でもこれは「覚えた」ではありません。記憶強度が十分に伸びた状態です。時間が経てば少しずつ薄れていきます。そのとき Word Wave がもう一度あなたに届けます。`;
+    } else if (waveNumber === maxWave) {
+      title   = `全波 制覇`;
+      message = `1900語すべてが定着しました。長い波の旅でした。でも記憶は生き物です。使い続ければ強くなり、離れれば薄れます。Word Wave はこれからも静かに見守り続けます。`;
+    } else {
+      title   = `Wave ${waveNumber} クリア！`;
+      message = `累計 ${this.state.masteredCount} 語が定着。次の波が来ます。`;
+    }
+
+    document.getElementById('wc-title').textContent   = title;
+    document.getElementById('wc-message').textContent = message;
+    document.getElementById('overlay-wavecomplete').style.display = 'flex';
   }
 
   _calcWaitHours() {
@@ -711,7 +752,8 @@ class VocabFlowApp {
   }
 
   _hideOverlays() {
-    document.getElementById('overlay-complete').style.display = 'none';
+    document.getElementById('overlay-complete').style.display    = 'none';
+    document.getElementById('overlay-wavecomplete').style.display = 'none';
   }
 
   // -------------------------------------------------------
