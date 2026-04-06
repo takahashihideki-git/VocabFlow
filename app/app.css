@@ -30,6 +30,11 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ===== Dev Mode ===== */
 
 #dev-badge {
@@ -53,7 +58,8 @@ html, body {
 #app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  flex: 1;
+  min-height: 0;
   width: 100%;
 }
 
@@ -641,7 +647,10 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 
 .overlay {
   position: fixed;
-  inset: 0;
+  top: var(--heatmap-h);
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: rgba(0,0,0,0.85);
   display: flex;
   align-items: center;
@@ -828,7 +837,10 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 
 #start-screen {
   position: fixed;
-  inset: 0;
+  top: var(--heatmap-h);
+  bottom: 0;
+  left: 0;
+  right: 0;
   background: var(--bg);
   display: flex;
   align-items: center;

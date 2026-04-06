@@ -19,24 +19,24 @@
   </div>
 </div>
 
-<!-- Main app -->
-<div id="app" style="display:none">
-
-  <!-- Heatmap section -->
-  <div id="heatmap-section">
-    <div id="toast"></div>
-    <div id="heatmap-stats">
-      <span>学習済み <span class="val" id="stat-learned">0</span>語</span>
-      <span>定着 <span class="val" id="stat-mastered">0</span>語</span>
-      <span>Wave <span class="val" id="stat-waves">1</span></span>
-      <span>Day <span class="val" id="stat-day">0.0</span></span>
-      <span id="heatmap-ww-link">🌊 waves ›</span>
-    </div>
-    <canvas id="heatmap-canvas"></canvas>
+<!-- Heatmap section (always visible) -->
+<div id="heatmap-section">
+  <div id="toast"></div>
+  <div id="heatmap-stats">
+    <span>学習済み <span class="val" id="stat-learned">0</span>語</span>
+    <span>定着 <span class="val" id="stat-mastered">0</span>語</span>
+    <span>Wave <span class="val" id="stat-waves">1</span></span>
+    <span>Day <span class="val" id="stat-day">0.0</span></span>
+    <span id="heatmap-ww-link">🌊 waves ›</span>
   </div>
+  <canvas id="heatmap-canvas"></canvas>
+</div>
+
+<!-- Main app -->
+<div id="app" style="display:flex">
 
   <!-- Card area -->
-  <div id="card-area">
+  <div id="card-area" style="display:none">
     <div id="card-wrapper">
       <!-- Cards injected here -->
       <!-- PC用ナビボタン: タッチ非対応環境でのみ表示 -->
@@ -48,7 +48,7 @@
   </div>
 
   <!-- Footer -->
-  <div id="footer">
+  <div id="footer" style="display:none">
     <div class="footer-item">
       <span class="val" id="footer-card-idx">0</span>/<span class="val" id="footer-card-total">0</span>
     </div>

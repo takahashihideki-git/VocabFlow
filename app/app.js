@@ -60,6 +60,7 @@ class VocabFlowApp {
     this.wordWave     = null;
 
     this._bindStartScreen();
+    this._initHeatmapEarly();    // this.state をロード（greeting より先）
     this._updateStartGreeting();
   }
 
@@ -83,16 +84,9 @@ class VocabFlowApp {
     else if (hour >= 18 && hour < 23) timeGreet = '今日も来ましたね。';
     else                              timeGreet = '夜遅くまでお疲れ様です。';
 
-    const saved = localStorage.getItem(STORAGE_KEY);
-    if (!saved) {
+    const state = this.state;
+    if (!state) {
       return `${timeGreet}<br>1900語の旅を、今日から始めましょう。`;
-    }
-
-    let state;
-    try {
-      state = LearnerState.fromJSON(JSON.parse(saved));
-    } catch {
-      return `${timeGreet}<br>TikTok式スワイプで語彙を定着させよう。`;
     }
 
     const { currentTime, activeWaves, config } = state;
@@ -142,20 +136,54 @@ class VocabFlowApp {
   }
 
   // -------------------------------------------------------
+  // ヒートマップ早期初期化（スタート画面でも表示）
+  // -------------------------------------------------------
+  _initHeatmapEarly() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) {
+      try {
+        this.state = LearnerState.fromJSON(JSON.parse(saved));
+        const { state } = this;
+        document.getElementById('stat-learned').textContent = state.learnedCount;
+        document.getElementById('stat-mastered').textContent = state.masteredCount;
+        const maxStudiedWave = state.words.reduce(
+          (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
+        );
+        document.getElementById('stat-waves').textContent = maxStudiedWave;
+        document.getElementById('stat-day').textContent = state.currentTime.toFixed(1);
+
+        // Word Wave: スタート画面でも閲覧・除外可能（onSave で即保存）
+        const wwOverlay = document.getElementById('wordwave-overlay');
+        this.wordWave = new WordWaveRenderer(wwOverlay, this.state, () => this._saveState());
+      } catch {}
+    }
+
+    const words  = this.state ? this.state.words : [];
+    const canvas  = document.getElementById('heatmap-canvas');
+    const tooltip = document.getElementById('heatmap-tooltip');
+    this.heatmap = new HeatmapRenderer(canvas, tooltip, words);
+    window.addEventListener('resize', () => this.heatmap.render());
+    // レイアウト確定後に描画（constructor実行時はcanvasサイズが0のため）
+    requestAnimationFrame(() => this.heatmap.render());
+
+    document.getElementById('heatmap-section').addEventListener('click', () => {
+      if (!this.wordWave) return;
+      document.getElementById('heatmap-tooltip').style.display = 'none';
+      this.wordWave.open();
+    });
+  }
+
+  // -------------------------------------------------------
   // スタート画面
   // -------------------------------------------------------
   _bindStartScreen() {
     document.getElementById('btn-start').addEventListener('click', () => {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved) {
-        try {
-          this.state = LearnerState.fromJSON(JSON.parse(saved));
-          this._boot();
-          return;
-        } catch (e) {
-          console.warn('State load failed, starting fresh:', e);
-        }
+      if (this.state) {
+        // 早期ロード済み（スタート画面でのWord Wave除外操作も反映済み）
+        this._boot();
+        return;
       }
+      // 初回 or ロード失敗
       this._freshStart();
     });
 
@@ -203,7 +231,8 @@ class VocabFlowApp {
     this.feedGen     = new FeedGenerator(this.config, this.engine, this.waveManager);
 
     document.getElementById('start-screen').style.display = 'none';
-    document.getElementById('app').style.display = 'flex';
+    document.getElementById('card-area').style.display = '';
+    document.getElementById('footer').style.display = '';
 
     if (IS_DEV) {
       document.body.classList.add('dev-mode');
@@ -213,19 +242,14 @@ class VocabFlowApp {
       document.body.appendChild(badge);
     }
 
-    // Heatmap
+    // Heatmap: state.words で再初期化（早期初期化を上書き）
     const canvas  = document.getElementById('heatmap-canvas');
     const tooltip = document.getElementById('heatmap-tooltip');
     this.heatmap = new HeatmapRenderer(canvas, tooltip, this.state.words);
-    window.addEventListener('resize', () => this.heatmap.render());
 
     // Word Wave
     const wwOverlay = document.getElementById('wordwave-overlay');
     this.wordWave = new WordWaveRenderer(wwOverlay, this.state, () => this._saveState());
-    document.getElementById('heatmap-section').addEventListener('click', () => {
-      document.getElementById('heatmap-tooltip').style.display = 'none';
-      this.wordWave.open();
-    });
 
     // タッチ非対応環境（PC）ではナビボタンを表示し、body に no-touch クラスを付与
     const isTouch = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
