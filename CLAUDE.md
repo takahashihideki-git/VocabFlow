@@ -40,13 +40,13 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 | ファイル | 状態 |
 |---|---|
-| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加。スタート画面タグラインを動的グリーティングに変更（3dot loading アニメーション付き）。wave全mastered達成オーバーレイ（`#overlay-wavecomplete`）追加。`#pc-nav-btns` を `#card-wrapper` 内に移動（カード右端近くに配置）。セッション完了画面: btn-primary（続ける）を time-controls の上に配置 |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`、Wave 1/中間/最終波でメッセージ分岐）。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正） |
+| `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加。スタート画面タグラインを動的グリーティングに変更（3dot loading アニメーション付き）。wave全mastered達成オーバーレイ（`#overlay-wavecomplete`）追加。`#pc-nav-btns` を `#card-wrapper` 内に移動（カード右端近くに配置）。セッション完了画面: btn-primary（続ける）を time-controls の上に配置。**`#heatmap-section` を `#app` 外（body直下）に移動し常時表示**。`#card-area`・`#footer` は boot まで `display:none` |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`、Wave 1/中間/最終波でメッセージ分岐）。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止） |
 | `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。**Passive カードは1回に1セクションをローテーション表示**（`WordState.passiveCursor` で管理、`Card.passiveSection` に確定値を保存して履歴ビューでも再現）。collocations チップは Google 検索リンク（`<a>`）。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加。Recognition 回答後に単語TTS・Recall 回答後に例文TTS。**Recall 回答後に `blankAnswer`（活用形）で例文を完成表示**（選択タップ時に差し替え・履歴ビューも対応） |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加。Wave 表示を学習済み最大波番号に統一 |
 | `app/ui-background.js` | ✅ BackgroundManager（getUrl/preload）。CATEGORY_IMAGES からカテゴリ別ランダム画像URL取得 |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。タッチ環境ではカードをフルスクリーン表示（`body.no-touch` で 9:16 維持）。フォントサイズ引き上げ（choice-btn/passive-section-body: 16px、passive-section-title: 13px、collocation-chip: 16px）。`overscroll-behavior: none` で iOS バウンス無効化。Passive リッチUIスタイル。日本語訳トグルスタイル。トーストスタイル。nowork-card・wc-card・oc-sectionスタイル追加。`#pc-nav-btns` を `right: -14px` で card-wrapper 右端近くに配置。`.choice-btn:hover` を `body.no-touch` にスコープ限定（iOS でのホバー貼り付き防止）。`.collocation-chip` に `color: inherit; text-decoration: none`（`<a>` タグ対応） |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。タッチ環境ではカードをフルスクリーン表示（`body.no-touch` で 9:16 維持）。フォントサイズ引き上げ（choice-btn/passive-section-body: 16px、passive-section-title: 13px、collocation-chip: 16px）。`overscroll-behavior: none` で iOS バウンス無効化。Passive リッチUIスタイル。日本語訳トグルスタイル。トーストスタイル。nowork-card・wc-card・oc-sectionスタイル追加。`#pc-nav-btns` を `right: -14px` で card-wrapper 右端近くに配置。`.choice-btn:hover` を `body.no-touch` にスコープ限定（iOS でのホバー貼り付き防止）。`.collocation-chip` に `color: inherit; text-decoration: none`（`<a>` タグ対応）。**`body` を `flex-direction:column` に・`#app` を `flex:1` に変更**（heatmap 常時表示レイアウト対応）。**`#start-screen` / `.overlay` の `top` を `var(--heatmap-h)` に変更**してヒートマップを隠さないよう調整 |
 | `app/style-mockup.html` | ✅ 6種カード・画面遷移（スタート/セッション完了/復習なし）・ヘッダ/フッタを静的表示するスタイル確認用モックアップ。復習なし画面はヘッダ+カード+フッタのフルレイアウト（`.mockup-phone-frame`）で表示。Passive カードは1セクション1カードのローテーション例を3カラムで表示 |
 
 ---
@@ -127,6 +127,12 @@ wave が解放済みでも最初の単語がセッションに登場した際に
 対策: セッション開始前の `maxStudiedWaveBefore` と生成カードの intro 比較でトーストを発火。
 `_updateStats` でセッション中の intro カード（stage='new'）の waveNumber も加算。
 （`app/app.js` `_startSession` / `_updateStats`）。
+
+### Bug 11: ヒートマップがページロード時に表示されない・Wavesリンクが機能しない
+`#heatmap-section` を `#app` 外に移動して常時表示にした際の2つの問題。
+① `HeatmapRenderer` を constructor 内で初期化すると canvas の `offsetWidth` が 0 のため描画がスキップされ、ウィンドウリサイズ後に初めて表示されていた。`requestAnimationFrame` でレイアウト確定後に初回 `render()` を呼ぶことで修正。
+② `this.wordWave` が `_boot()` まで null のため、スタート画面でのヒートマップクリックが no-op だった。`_initHeatmapEarly()` で localStorage から state を早期ロードし `WordWaveRenderer` も同時初期化することで修正。除外操作は `_saveState()` で即保存されるため `_boot()` 時の state にも反映される。
+（`app/app.js` `_initHeatmapEarly` / `app/app.html` / `app/app.css`）。
 
 ### Bug 8: 復習なし画面の待機時間が減らないように見える
 `_calcWaitHours()` が `Math.round` で時間単位に丸めるため、1.4h も 0.5h も「約1時間後」と表示され、
@@ -231,7 +237,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: wave トースト・wave 表示・復習なし画面ナビボタン消失を修正（98b255d）
+- 直近コミット: ヒートマップ・Wavesリンクをスタート画面・オーバーレイでも常時表示（9086550）
 - 本番デプロイ先: `USER@HOST:/path/to/wordwave`
   - デプロイコマンド: `bash scripts/deploy.sh`（`app/` + `core/` のみ転送）
 
