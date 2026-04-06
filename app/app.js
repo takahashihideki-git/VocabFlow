@@ -426,20 +426,22 @@ class VocabFlowApp {
   // セッション開始
   // -------------------------------------------------------
   _startSession() {
-    const unlocksBefore = this.state.waveUnlockEvents.length;
+    // カード生成前の「学習済み最大wave番号」を記録（0 = 誰も学習していない状態）
+    const maxStudiedWaveBefore = this.state.words.reduce(
+      (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 0
+    );
+
     const cards = this.feedGen.generateSession(this.state, this.state.currentTime);
 
-    // 新しいwave解放を通知
-    if (this.state.sessionsCompleted === 0) {
-      // 初回セッション: wave 1 は waveUnlockEvents に記録されないため個別通知
-      this.state.activeWaves.forEach(wn => {
-        this.showToast(`🌊 第${wn}波の単語が届きました`);
-      });
-    } else {
-      this.state.waveUnlockEvents.slice(unlocksBefore).forEach(ev => {
-        this.showToast(`🌊 第${ev.waveNumber}波の単語が届きました`);
-      });
-    }
+    // 新しいwaveの最初の単語がセッションに登場したら通知
+    // （wave解放タイミングではなく、実際に単語が届いた瞬間に通知）
+    const newWaves = new Set();
+    cards.forEach(c => {
+      if (c.cardType === 'intro' && c.word.stage === 'new' && c.word.waveNumber > maxStudiedWaveBefore) {
+        newWaves.add(c.word.waveNumber);
+      }
+    });
+    [...newWaves].sort().forEach(wn => this.showToast(`🌊 第${wn}波の単語が届きました`));
 
     if (cards.length === 0) {
       this._showNoWork();
@@ -724,6 +726,9 @@ class VocabFlowApp {
     const sess = 1 / this.config.sessionsPerDay;
     const wrapper = document.getElementById('card-wrapper');
 
+    // pc-nav-btns を退避（innerHTML 置換でリスナーごと消えるのを防ぐ）
+    const pcNavBtns = wrapper.querySelector('#pc-nav-btns');
+
     wrapper.innerHTML = `
       <div class="card nowork-card">
         <div class="nowork-title">今はなにもしなくて大丈夫。</div>
@@ -743,6 +748,9 @@ class VocabFlowApp {
         <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
       </div>
     `;
+
+    // pc-nav-btns を元の DOM ノードごと復元（リスナーも維持）
+    if (pcNavBtns) wrapper.appendChild(pcNavBtns);
 
     document.getElementById('nw-next-session').addEventListener('click', () => this._advanceTime(sess));
     document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
@@ -791,9 +799,15 @@ class VocabFlowApp {
   _updateStats() {
     document.getElementById('stat-learned').textContent  = this.state.learnedCount;
     document.getElementById('stat-mastered').textContent = this.state.masteredCount;
-    const maxStudiedWave = this.state.words.reduce(
+    let maxStudiedWave = this.state.words.reduce(
       (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
     );
+    // セッション中に登場している intro カード（まだ stage='new'）の wave も含める
+    (this.sessionCards || []).forEach(c => {
+      if (c.cardType === 'intro' && c.word.stage === 'new') {
+        maxStudiedWave = Math.max(maxStudiedWave, c.word.waveNumber);
+      }
+    });
     document.getElementById('stat-waves').textContent    = maxStudiedWave;
     document.getElementById('stat-day').textContent      = this.state.currentTime.toFixed(1);
     this.heatmap.render();
