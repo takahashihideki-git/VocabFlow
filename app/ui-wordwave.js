@@ -146,8 +146,9 @@ export class WordWaveRenderer {
     const total    = words.length;
     const learned  = words.filter(w => w.stage !== 'new' && !w.excluded).length;
     const mastered = words.filter(w => w.h >= (this.state.config.masteredThresholdH || 14)).length;
-    const maxWave  = this.state.activeWaves.length > 0
-      ? Math.max(...this.state.activeWaves) : 1;
+    const maxWave  = words.reduce(
+      (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
+    );
     const hVals = words.filter(w => w.h > 0).map(w => w.h);
     const avgH  = hVals.length > 0
       ? Math.round(hVals.reduce((a, b) => a + b, 0) / hVals.length) : 0;

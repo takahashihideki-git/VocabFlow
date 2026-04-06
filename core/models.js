@@ -19,6 +19,7 @@ export class WordState {
     this.needsHandwrite = false; // 停滞介入モード：次回 Handwrite カードを出題する
     this.skipped = false;       // スキップされたか。次セッションで最優先再出題
     this.excluded = false;      // 学習対象から除外されているか
+    this.passiveCursor = 0;     // 次に表示する Passive セクションのインデックス（ローテーション用）
   }
 
   pRecall(currentTime) {
@@ -49,6 +50,7 @@ export class Card {
     this.done = false;          // 回答済みまたはスキップ済み（戻りスワイプ時の history 判定に使用）
     this.isRetry = false;     // リトライカード（不正解後の再挿入）かどうか
     this.stageBeforeWrong = null; // 不正解直前の stage（リトライ正解時に復元する）
+    this.passiveSection = null;   // 表示する Passive セクション種別（履歴ビュー再現用）
   }
 }
 

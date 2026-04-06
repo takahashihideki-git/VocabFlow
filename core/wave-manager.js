@@ -60,7 +60,7 @@ export class WaveManager {
 
     let candidateNext = highestEverActive;
 
-    while (this.state.activeWaves.length < cfg.maxActiveWaves) {
+    while (true) {
       const nextWave = candidateNext + 1;
       if (nextWave > maxWave) break;
 
@@ -71,10 +71,8 @@ export class WaveManager {
         this.state.activeWaves.push(nextWave);
         events.push({ waveNumber: nextWave, day: currentTime });
         this.state.waveUnlockEvents.push({ waveNumber: nextWave, day: currentTime });
-        candidateNext = nextWave;
-      } else {
-        candidateNext = nextWave;
       }
+      candidateNext = nextWave;
     }
 
     return events;

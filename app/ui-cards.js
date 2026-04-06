@@ -487,7 +487,7 @@ export class CardRenderer {
   }
 
   // -------------------------------------------------------
-  // Passive カード: 語源・コツ・コロケーション等を読む
+  // Passive カード: 1回に1セクションをローテーション表示
   // -------------------------------------------------------
   _renderPassive(card, wordStr, pos, meaning, categoryId) {
     const wd      = WORD_MAP.get(wordStr);
@@ -495,9 +495,35 @@ export class CardRenderer {
     const el      = this._baseCard('passive', card, categoryId);
 
     if (passive) {
-      const colChips = (passive.collocations || [])
-        .map(c => `<span class="collocation-chip">${c}</span>`)
-        .join('');
+      const SECTION_DEFS = [
+        { key: 'etymology',    title: '語源',         available: () => !!passive.etymology },
+        { key: 'tips',         title: '使い方のコツ', available: () => !!passive.tips },
+        { key: 'confusables',  title: '紛らわしい語', available: () => !!passive.confusables },
+        { key: 'collocations', title: 'よく使う表現', available: () => (passive.collocations || []).length > 0 },
+        { key: 'trivia',       title: '豆知識',       available: () => !!passive.trivia },
+      ];
+      const available = SECTION_DEFS.filter(s => s.available());
+
+      // 初回表示時にカーソルからセクションを確定し保存（履歴ビューは保存済みの値を使用）
+      if (!card.passiveSection && available.length > 0) {
+        const cursor = card.word.passiveCursor ?? 0;
+        card.passiveSection = available[cursor % available.length].key;
+        card.word.passiveCursor = cursor + 1;
+      }
+
+      const sectionDef = SECTION_DEFS.find(s => s.key === card.passiveSection) ?? available[0];
+      let sectionBody;
+      if (sectionDef?.key === 'collocations') {
+        const colChips = passive.collocations.map(c => {
+          const q = encodeURIComponent(c);
+          return `<a class="collocation-chip" href="https://www.google.com/search?q=${q}" target="_blank" rel="noopener">${c}</a>`;
+        }).join('');
+        sectionBody = `<div class="collocation-chips">${colChips}</div>`;
+      } else if (sectionDef) {
+        sectionBody = `<div class="passive-section-body">${ensureKuten(passive[sectionDef.key])}</div>`;
+      } else {
+        sectionBody = '';
+      }
 
       el.insertAdjacentHTML('beforeend', `
         <div class="passive-scroll">
@@ -505,30 +531,10 @@ export class CardRenderer {
             <div class="passive-word-str">${wordStr}</div>
             <div class="passive-word-sub">${pos} — ${meaning}</div>
           </div>
-          ${passive.etymology ? `
+          ${sectionDef ? `
           <div class="passive-section">
-            <div class="passive-section-title">語源</div>
-            <div class="passive-section-body">${ensureKuten(passive.etymology)}</div>
-          </div>` : ''}
-          ${passive.tips ? `
-          <div class="passive-section">
-            <div class="passive-section-title">使い方のコツ</div>
-            <div class="passive-section-body">${ensureKuten(passive.tips)}</div>
-          </div>` : ''}
-          ${passive.confusables ? `
-          <div class="passive-section">
-            <div class="passive-section-title">紛らわしい語</div>
-            <div class="passive-section-body">${ensureKuten(passive.confusables)}</div>
-          </div>` : ''}
-          ${colChips ? `
-          <div class="passive-section">
-            <div class="passive-section-title">よく使う表現</div>
-            <div class="collocation-chips">${colChips}</div>
-          </div>` : ''}
-          ${passive.trivia ? `
-          <div class="passive-section">
-            <div class="passive-section-title">豆知識</div>
-            <div class="passive-section-body">${ensureKuten(passive.trivia)}</div>
+            <div class="passive-section-title">${sectionDef.title}</div>
+            ${sectionBody}
           </div>` : ''}
         </div>
         <div class="swipe-hint visible">

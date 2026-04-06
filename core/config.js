@@ -29,7 +29,6 @@ export const DEFAULT_CONFIG = {
   waveSize: 50,
   waveUnlockRatio: 0.7,
   waveUnlockH: 2.0,
-  maxActiveWaves: 3,
   graduationH: 8.0,           // ウェーブ卒業と見なすh（日）
 
   // Session

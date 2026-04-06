@@ -731,6 +731,7 @@ class VocabFlowApp {
           ${waitDisplay !== null ? `<li>少し忘れかけてから復習するのが最も効果的です。${waitDisplay}がそのタイミングです。</li>` : ''}
           <li>すでに覚えかけの単語がたくさんあります。新しい単語に取り組むのはもうすこしあとで。</li>
         </ul>
+        <button class="btn-secondary" id="nw-refresh" style="width:100%;margin-bottom:8px">更新</button>
         <div class="time-controls">
           <label>時間を進める（動作確認用）</label>
           <div class="time-btn-row">
@@ -739,7 +740,6 @@ class VocabFlowApp {
             <button class="time-btn" id="nw-next-week">${LABELS.session.timeForward3}</button>
           </div>
         </div>
-        <button class="btn-secondary" id="nw-refresh" style="width:100%;margin-bottom:8px">更新</button>
         <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
       </div>
     `;
@@ -791,7 +791,10 @@ class VocabFlowApp {
   _updateStats() {
     document.getElementById('stat-learned').textContent  = this.state.learnedCount;
     document.getElementById('stat-mastered').textContent = this.state.masteredCount;
-    document.getElementById('stat-waves').textContent    = this.state.activeWaves.join(',');
+    const maxStudiedWave = this.state.words.reduce(
+      (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
+    );
+    document.getElementById('stat-waves').textContent    = maxStudiedWave;
     document.getElementById('stat-day').textContent      = this.state.currentTime.toFixed(1);
     this.heatmap.render();
   }
