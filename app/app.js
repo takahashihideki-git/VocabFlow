@@ -747,15 +747,31 @@ class VocabFlowApp {
   }
 
   _calcWaitDisplay() {
-    const retentionFactor = Math.log2(1 / this.config.targetRetention);
-    let nextDueTime = Infinity;
+    const cfg = this.config;
+    const retentionFactor = Math.log2(1 / cfg.targetRetention);
+
+    // アクティブウェーブ内の未学習語数（maxNewPerSession 上限）
+    const activeWaveSet = new Set(this.state.activeWaves);
+    const newCount = Math.min(
+      cfg.maxNewPerSession,
+      this.state.words.filter(w => w.stage === 'new' && !w.excluded && activeWaveSet.has(w.waveNumber)).length
+    );
+
+    // due/urgent が何語揃えばセッションの半数（sessionSize/2）を満たすか
+    const needed = Math.max(1, Math.ceil(cfg.sessionSize / 2) - newCount);
+
+    // 学習済み語の nextDueTime を昇順ソートして needed 番目を取る
+    const dueTimes = [];
     for (const w of this.state.words) {
       if (w.stage === 'new' || w.excluded || w.h <= 0) continue;
-      const t = w.lastReviewed + w.h * retentionFactor;
-      if (t < nextDueTime) nextDueTime = t;
+      dueTimes.push(w.lastReviewed + w.h * retentionFactor);
     }
-    if (!isFinite(nextDueTime)) return null;
-    const waitMins = Math.max(1, Math.round(Math.max(0, nextDueTime - this.state.currentTime) * 24 * 60));
+    dueTimes.sort((a, b) => a - b);
+
+    if (dueTimes.length < needed) return null;
+
+    const sessionReadyTime = dueTimes[needed - 1];
+    const waitMins = Math.max(1, Math.round(Math.max(0, sessionReadyTime - this.state.currentTime) * 24 * 60));
     if (waitMins < 60) return `約<strong>${waitMins}</strong>分後`;
     return `約<strong>${Math.round(waitMins / 60)}</strong>時間後`;
   }
