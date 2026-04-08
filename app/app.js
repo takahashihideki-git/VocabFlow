@@ -188,7 +188,9 @@ class VocabFlowApp {
     });
 
     document.getElementById('btn-start-reset').addEventListener('click', () => {
-      this._freshStart();
+      if (confirm('学習データをすべてリセットしますか？この操作は元に戻せません。')) {
+        this._freshStart();
+      }
     });
   }
 
@@ -691,7 +693,6 @@ class VocabFlowApp {
       this._hideOverlays();
       this._startSession();
     });
-    document.getElementById('btn-reset-from-complete').addEventListener('click', () => this._reset());
     document.getElementById('btn-wavecomplete-close').addEventListener('click', () => this._hideOverlays());
 
     // 時間進行ボタンのラベルを labels.js から設定
@@ -800,7 +801,6 @@ class VocabFlowApp {
             <button class="time-btn" id="nw-next-week">${LABELS.session.timeForward3}</button>
           </div>
         </div>
-        <button class="btn-danger" id="btn-reset-from-nowork">リセット</button>
       </div>
     `;
 
@@ -810,7 +810,6 @@ class VocabFlowApp {
     document.getElementById('nw-next-session').addEventListener('click', () => this._advanceTime(sess));
     document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
     document.getElementById('nw-next-week').addEventListener('click',    () => this._advanceTime(7));
-    document.getElementById('btn-reset-from-nowork').addEventListener('click', () => this._reset());
     document.getElementById('nw-refresh').addEventListener('click', () => {
       const elapsed = this.state.savedAt ? (Date.now() - this.state.savedAt) / 86400000 : 0;
       this.state.currentTime += elapsed;
