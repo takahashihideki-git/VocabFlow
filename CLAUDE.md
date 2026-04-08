@@ -53,7 +53,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 次セッションの残タスク
 
-特になし。随時発生する改善・バグ修正を対応する。
+- 現時点で未解決のバグはなし。必要に応じて実機テストで Bug 13 の再現確認を行う。
 
 ---
 
@@ -134,12 +134,38 @@ wave が解放済みでも最初の単語がセッションに登場した際に
 ② `this.wordWave` が `_boot()` まで null のため、スタート画面でのヒートマップクリックが no-op だった。`_initHeatmapEarly()` で localStorage から state を早期ロードし `WordWaveRenderer` も同時初期化することで修正。除外操作は `_saveState()` で即保存されるため `_boot()` 時の state にも反映される。
 （`app/app.js` `_initHeatmapEarly` / `app/app.html` / `app/app.css`）。
 
+### Bug 12: 履歴ビューで不正解ハイライトが2回目以降消える
+4択問題で不正解後、次カードへ進んで戻ると正解（緑）・不正解（赤）が再現されるが、
+もう一度進んで戻ると不正解（赤）のハイライトが消える。
+原因: `renderHistoryView()` が `_markReady('history')` を呼ぶ際、復元した `savedOnReady` が
+`_onCardAnswered('history')` を呼び出し、`card.result` を `'wrong'` → `'history'` に上書きしていた。
+修正: `onReady` callback に `!card._srsProcessed` ガードを追加し、処理済みカードへの
+`_onCardAnswered` 二重呼び出しを防止。
+（`app/app.js` CardRenderer `onReady` callback）。
+
 ### Bug 8: 復習なし画面の待機時間が減らないように見える
 `_calcWaitHours()` が `Math.round` で時間単位に丸めるため、1.4h も 0.5h も「約1時間後」と表示され、
 ユーザーが待機してリロードしても表示が変わらないケースがあった。
 `_calcWaitDisplay()` に改名し、60分未満は分単位・以上は時間単位で表示するよう変更。
 あわせて復習なし画面に「更新」ボタンを追加（押下時に経過時間を反映して `_startSession()` を再呼び出し）。
 （`app/app.js` `_calcWaitDisplay` / `_showNoWork`）。
+
+### Bug 13: 復習なし画面「更新」→ wave トースト未表示（修正済み）
+復習なし画面から「更新」ボタンでセッションを開始したとき、wave 5→6 の intro カードが
+登場したにもかかわらずトーストが表示されなかった。
+原因（推定）: ① `savedAt` メモリ未更新バグによる `currentTime` の過大進行、② excluded 単語が
+`maxStudiedWaveBefore` を誤って引き上げていた可能性。
+修正①: `_saveState()` 冒頭に `this.state.savedAt = Date.now()` を追加し `LearnerState.toJSON()` は
+`savedAt: this.savedAt ?? Date.now()` に変更（二重カウント防止）。
+修正②: `maxStudiedWaveBefore` の計算に `!w.excluded` を追加し excluded 単語を除外。
+修正③: `generateSession()` 前後の `waveUnlockEvents` 差分を取り、このセッションで解放直後の
+wave も確実にトーストを発火するよう belt-and-suspenders 対応。
+（`app/app.js` `_startSession` / `_saveState` / `core/models.js` `LearnerState.toJSON`）。
+
+### savedAt メモリ未更新バグ（修正済み → Bug 13 修正①と同一）
+`_saveState()` 冒頭で `this.state.savedAt = Date.now()` を追加。
+`LearnerState.toJSON()` を `savedAt: this.savedAt ?? Date.now()` に変更。
+これにより「更新」ボタンの elapsed 計算が常に「最終 save からの実経過時間」になる。
 
 ---
 

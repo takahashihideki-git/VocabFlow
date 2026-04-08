@@ -271,7 +271,7 @@ class VocabFlowApp {
         if (!isTouch) document.getElementById('btn-next-card').classList.add('ready');
         const card = this.sessionCards[this.cardIndex];
         const answerTypes = ['recognition', 'recall', 'dictation', 'handwrite'];
-        if (card && answerTypes.includes(card.cardType)) {
+        if (card && answerTypes.includes(card.cardType) && !card._srsProcessed) {
           this._onCardAnswered(result);
           card._srsProcessed = true;
         }
@@ -451,18 +451,32 @@ class VocabFlowApp {
   // -------------------------------------------------------
   _startSession() {
     // カード生成前の「学習済み最大wave番号」を記録（0 = 誰も学習していない状態）
+    // excluded 単語は除外（除外語の stage が 'new' 以外でも maxStudiedWave に含めない）
     const maxStudiedWaveBefore = this.state.words.reduce(
-      (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 0
+      (max, w) => (w.stage !== 'new' && !w.excluded) ? Math.max(max, w.waveNumber) : max, 0
     );
+
+    // generateSession 前後の waveUnlockEvents を比較し、今回のセッションで新解放された wave を検出
+    const prevUnlockedWaves = new Set(this.state.waveUnlockEvents.map(e => e.waveNumber));
 
     const cards = this.feedGen.generateSession(this.state, this.state.currentTime);
 
+    const newlyUnlockedWaves = new Set(
+      this.state.waveUnlockEvents
+        .filter(e => !prevUnlockedWaves.has(e.waveNumber))
+        .map(e => e.waveNumber)
+    );
+
     // 新しいwaveの最初の単語がセッションに登場したら通知
-    // （wave解放タイミングではなく、実際に単語が届いた瞬間に通知）
+    // 条件1: maxStudiedWaveBefore より大きい wave（初登場）
+    // 条件2: このセッションで初解放された wave（解放直後に intro が来るケース）
     const newWaves = new Set();
     cards.forEach(c => {
-      if (c.cardType === 'intro' && c.word.stage === 'new' && c.word.waveNumber > maxStudiedWaveBefore) {
-        newWaves.add(c.word.waveNumber);
+      if (c.cardType === 'intro' && c.word.stage === 'new') {
+        const wn = c.word.waveNumber;
+        if (wn > maxStudiedWaveBefore || newlyUnlockedWaves.has(wn)) {
+          newWaves.add(wn);
+        }
       }
     });
     [...newWaves].sort().forEach(wn => this.showToast(`🌊 第${wn}波の単語が届きました`));
@@ -634,6 +648,7 @@ class VocabFlowApp {
   // 保存
   // -------------------------------------------------------
   _saveState() {
+    this.state.savedAt = Date.now();
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(this.state.toJSON()));
     } catch (e) {
