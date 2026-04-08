@@ -53,7 +53,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 次セッションの残タスク
 
-- 現時点で未解決のバグはなし。必要に応じて実機テストで Bug 13 の再現確認を行う。
+- 現時点で未解決のバグはなし。
 
 ---
 
@@ -238,7 +238,7 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - **トースト通知**: `showToast(message)` + キュー管理。wave 解放時「🌊 第N波の単語が届きました」（初回セッションは activeWaves から通知、以降は waveUnlockEvents 差分）。mastered 到達時「⭐ xxxx がマスターされました」（`word.stage` が `'mastered'` に変わった瞬間のみ発火）
 - **wave全mastered達成オーバーレイ**: mastered 遷移直後に `_checkWaveComplete(waveNumber)` を呼び出し。wave内全語が mastered なら `_showWaveComplete()` を発火。Wave 1 は「覚えたではない・記憶強度」の哲学メッセージ、中間波は軽量メッセージ、最終波（`maxWave`）は「記憶は生き物」のメッセージ。`_notifiedWaveComplete` Set で重複防止（`_boot()` 時に既完了 wave を登録）
 - **実時間追跡**: `LearnerState.savedAt`（`Date.now()`）を保存・復元。`_boot()` 冒頭で `(Date.now() - savedAt) / 86400000` を `currentTime` に加算し、即 `_saveState()` で二重カウントを防止
-- **復習なし画面**: `_showNoWork()` が card-wrapper にインライン HTML を注入（overlay ではなくカード領域に表示）。ヘッダ（ヒートマップ・統計）とフッタは常時表示。`_calcWaitDisplay()` で次のdue時刻を計算して待機時間を表示（60分未満は分単位・以上は時間単位）。「更新」ボタン押下時に経過時間を `currentTime` に加算して `_startSession()` を呼び直し、開始可能なら即セッション開始。`_updateStats()` を呼んでヒートマップを描画
+- **復習なし画面**: `_showNoWork()` が card-wrapper にインライン HTML を注入（overlay ではなくカード領域に表示）。ヘッダ（ヒートマップ・統計）とフッタは常時表示。`_calcWaitDisplay()` で「意味あるセッションが組める時刻」を予告（60分未満は分単位・以上は時間単位）。「更新」ボタン押下時に経過時間を `currentTime` に加算して `_startSession()` を呼び直し、開始可能なら即セッション開始。`_updateStats()` を呼んでヒートマップを描画
 - **TTS**: Recognition 回答後に単語を読み上げ、Recall 回答後に例文（HTMLタグ除去済み）を読み上げ。カード遷移時（`_showCard` 冒頭）に `speechSynthesis.cancel()` で停止
 - 時間早送り: 次のセッション(1/3日)・翌日・1週間後。ボタンラベルは `LABELS.session.timeForward1/2/3`
 - localStorage キー: `vocabflow_state_v1`
@@ -247,6 +247,16 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - 日本語訳トグル: Intro は常時表示。Recall は回答後にアクティブ化（回答前は disabled でグレーアウト表示）
 - **Passive カード 1セクション表示**: `WordState.passiveCursor` で etymology/tips/confusables/collocations/trivia をローテーション。`Card.passiveSection` に確定値を保存し履歴ビューで同じセクションを再現。collocations チップはタップで Google 検索（`https://www.google.com/search?q=フレーズ`）
 - **Wave 表示**: `stage !== 'new'` の最大 `waveNumber`（学習が始まった最大波番号）。解放済みでも未学習の wave はカウントしない
+
+### _calcWaitDisplay（復習なし画面の予告時刻）
+```
+newCount  = アクティブウェーブ内の未学習語数（maxNewPerSession 上限）
+needed    = max(1, ceil(sessionSize / 2) − newCount)
+予告時刻   = 学習済み語の nextDueTime（lastReviewed + h × retentionFactor）を昇順ソートした needed 番目
+```
+- new が多い（5語）→ needed=5 と小さくなり早い予告。new が枯渇 → needed=10 で due 待ちのため遅い予告
+- 「1語目が due になる時刻」（旧）では戻ったら filler 19枚だったが、新ロジックは 8/8 チェックポイントで meaningful ≥ 10 枚を保証（`scripts/verify_wait_display.js` で検証済み）
+- `uncertain` プールの語（σ > uncertainThreshold）は needed 計算に含まないため予告が若干保守的（遅め）になるが、「戻ったら内容が薄い」逆誤りは発生しない
 
 ### sim-runner.js（リトライ処理）
 ```
@@ -263,7 +273,7 @@ stageBeforeWrong: processResponse 前の stageBeforeProcess を使用
 ## バージョン管理
 
 - ローカル git リポジトリ（`main` ブランチ）
-- 直近コミット: ヒートマップ・Wavesリンクをスタート画面・オーバーレイでも常時表示（9086550）
+- 直近コミット: 復習なし画面の予告時刻を「意味あるセッションが組める時刻」に改善（4b75c6a）
 - 本番デプロイ先: `USER@HOST:/path/to/wordwave`
   - デプロイコマンド: `bash scripts/deploy.sh`（`app/` + `core/` のみ転送）
 
