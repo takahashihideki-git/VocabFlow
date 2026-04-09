@@ -45,6 +45,9 @@ class VocabFlowApp {
     this.sessionCorrect = 0;
     this.sessionWrong   = 0;
 
+    // 久しぶりの復帰検出用（前回 save からの経過日数）
+    this._elapsedAtBoot = 0;
+
     // トースト状態
     this._toastQueue   = [];
     this._toastShowing = false;
@@ -247,6 +250,7 @@ class VocabFlowApp {
     if (this.state.savedAt) {
       const elapsedDays = (Date.now() - this.state.savedAt) / 86400000;
       this.state.currentTime += elapsedDays;
+      this._elapsedAtBoot = elapsedDays; // 久しぶり検出用
     }
 
     // wave 全mastered 通知済みセット（起動時に既完了 wave を登録して重複防止）
@@ -735,12 +739,75 @@ class VocabFlowApp {
   // -------------------------------------------------------
   // Overlay 表示
   // -------------------------------------------------------
+  _getSessionTitle(correct, wrong) {
+    const pick = arr => arr[Math.floor(Math.random() * arr.length)];
+    const answered = correct + wrong;
+
+    // 久しぶりの復帰（2日以上ぶりの学習）— 正解率が普通以上のときのみ表示
+    if (this._elapsedAtBoot >= 2) {
+      this._elapsedAtBoot = 0;
+      const rate = answered > 0 ? correct / answered : 1;
+      if (rate >= 0.5) return pick([
+        'おかえり。',
+        '待ってました。',
+        '久しぶりですね。',
+      ]);
+      // 苦戦してたら正解率ベースに落ちる
+    }
+
+    // 回答なし（intro/passive のみのセッション）
+    if (answered === 0) return pick([
+      'お疲れ様。',
+      'ゆっくり進もう。',
+      '着実に進んでます。',
+    ]);
+
+    const rate = correct / answered;
+
+    if (wrong === 0 && answered >= 3) return pick([
+      'パーフェクトじゃないですか。',
+      '全問正解です。',
+      '完璧でした。',
+      'やりますね。',
+    ]);
+    if (rate >= 0.9) return pick([
+      'すごいね。',
+      'さすがです。',
+      '絶好調ですね。',
+      'よくできました。',
+    ]);
+    if (rate >= 0.75) return pick([
+      'いい調子。',
+      '悪くない。',
+      'その調子。',
+      'いいペース。',
+    ]);
+    if (rate >= 0.5) return pick([
+      'お疲れ様。',
+      'まずまずですね。',
+      '着実に進んでます。',
+    ]);
+    if (rate >= 0.35) return pick([
+      'すこし休もう。',
+      '今日は難しかった？',
+      '無理しないで。',
+      '難しかったね。',
+    ]);
+    return pick([
+      'え、急にどうした?',
+      '今日は疲れてる？',
+      'ちょっと休みましょうか。',
+      '大丈夫？',
+    ]);
+  }
+
   _showComplete() {
     const done     = this.sessionCards.filter(c => c.result !== null).length;
     const total    = this.sessionCards.length;
     const answered = this.sessionCorrect + this.sessionWrong;
     const acc      = answered > 0 ? Math.round((this.sessionCorrect / answered) * 100) + '%' : '–';
 
+    document.getElementById('oc-title').textContent = this._getSessionTitle(this.sessionCorrect, this.sessionWrong);
     document.getElementById('oc-done').textContent  = done;
     document.getElementById('oc-total').textContent = total;
     document.getElementById('oc-acc').textContent   = acc;
