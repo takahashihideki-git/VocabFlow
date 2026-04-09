@@ -26,7 +26,7 @@ export const DEFAULT_CONFIG = {
   maxHandwritePerSession: 2,
 
   // Wave
-  waveSize: 50,
+  waveSize: 100,
   waveUnlockRatio: 0.7,
   waveUnlockH: 2.0,
   graduationH: 8.0,           // ウェーブ卒業と見なすh（日）

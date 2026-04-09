@@ -136,6 +136,36 @@ class VocabFlowApp {
   }
 
   // -------------------------------------------------------
+  // waveSize 変更時の既存ステート移行
+  // -------------------------------------------------------
+  _migrateWaveSize(state) {
+    const oldWaveSize = state.config.waveSize;
+    const newWaveSize = this.config.waveSize;
+    if (!oldWaveSize || oldWaveSize === newWaveSize) return;
+
+    // 1. waveNumber 再計算（表示・toast 用）
+    state.words.forEach(w => {
+      w.waveNumber = Math.ceil(w.wordId / newWaveSize);
+    });
+
+    // 2. waveUnlockEvents のリマップ（旧波番号 → 新波番号、重複除去）
+    const seen = new Set();
+    state.waveUnlockEvents = state.waveUnlockEvents
+      .map(e => ({ ...e, waveNumber: Math.ceil(e.waveNumber * oldWaveSize / newWaveSize) }))
+      .filter(e => { if (seen.has(e.waveNumber)) return false; seen.add(e.waveNumber); return true; });
+
+    // 3. config を新 waveSize に更新
+    state.config = { ...state.config, waveSize: newWaveSize };
+
+    // 4. activeWaves: 過去に解放された全波 + 波1 を起点に再構築
+    //    checkUnlock() が卒業済み波を除去し、次波の解放条件も評価する
+    const everUnlocked = new Set(state.waveUnlockEvents.map(e => e.waveNumber));
+    everUnlocked.add(1);
+    state.activeWaves = [...everUnlocked].sort((a, b) => a - b);
+    new WaveManager(state.config, state).checkUnlock(state.currentTime);
+  }
+
+  // -------------------------------------------------------
   // ヒートマップ早期初期化（スタート画面でも表示）
   // -------------------------------------------------------
   _initHeatmapEarly() {
@@ -143,6 +173,7 @@ class VocabFlowApp {
     if (saved) {
       try {
         this.state = LearnerState.fromJSON(JSON.parse(saved));
+        this._migrateWaveSize(this.state);
         const { state } = this;
         document.getElementById('stat-learned').textContent = state.learnedCount;
         document.getElementById('stat-mastered').textContent = state.masteredCount;
@@ -787,7 +818,7 @@ class VocabFlowApp {
 
     wrapper.innerHTML = `
       <div class="card nowork-card">
-        <div class="nowork-title">今はなにもしなくて大丈夫。</div>
+        <div class="nowork-title">学習間隔を開けましょう。</div>
         <ul class="nowork-bullets">
           ${waitDisplay !== null ? `<li>少し忘れかけてから復習するのが最も効果的です。${waitDisplay}がそのタイミングです。</li>` : ''}
           <li>すでに覚えかけの単語がたくさんあります。新しい単語に取り組むのはもうすこしあとで。</li>
