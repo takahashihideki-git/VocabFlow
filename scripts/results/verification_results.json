@@ -1,0 +1,856 @@
+[
+  {
+    "id": 42,
+    "word": "accord",
+    "field": "confusables",
+    "issue": "accord vs award の使い分け説明が不十分で混同を招く恐れ",
+    "severity": "warning"
+  },
+  {
+    "id": 49,
+    "word": "influence",
+    "field": "etymology",
+    "issue": "インフルエンザの語源説明に不正確さあり - 中世の「星の影響」説は俗説",
+    "severity": "warning"
+  },
+  {
+    "id": 50,
+    "word": "situation",
+    "field": "trivia",
+    "issue": "'No win situation'の語源説明が曖昧で根拠不明",
+    "severity": "warning"
+  },
+  {
+    "id": 51,
+    "word": "environment",
+    "field": "tips",
+    "issue": "environment は可算名詞として使える珍しい単語という記述が不正確。environment は実際には可算・不可算両方で使われる一般的な名詞",
+    "severity": "error"
+  },
+  {
+    "id": 52,
+    "word": "skill",
+    "field": "etymology",
+    "issue": "environ が古英語で使われたという記述。environ はフランス語由来であり古英語ではない",
+    "severity": "error"
+  },
+  {
+    "id": 58,
+    "word": "knowledge",
+    "field": "trivia",
+    "issue": "ベーコンの著作に「Knowledge is power」が出てこないとしながら、その後の説明が不完全で混乱を招く",
+    "severity": "warning"
+  },
+  {
+    "id": 96,
+    "word": "due",
+    "field": "trivia",
+    "issue": "due、dew、do が同じ発音という記述は不正確。due /djuː/、dew /djuː/、do /duː/ で、due と dew は同音だが do は異なる",
+    "severity": "error"
+  },
+  {
+    "id": 100,
+    "word": "despite",
+    "field": "tips",
+    "issue": "'despite that SV' が文語的という説明は不正確。despite は前置詞なので that節は直接続かない",
+    "severity": "error"
+  },
+  {
+    "id": 107,
+    "word": "solve",
+    "field": "tips",
+    "issue": "solve for用法の説明が不完全で誤解を招く。数学での'solve for x'は「xについて解く」という特殊用法であり、一般的な'solve for the problem'とは全く異なる構造",
+    "severity": "warning"
+  },
+  {
+    "id": 111,
+    "word": "express",
+    "field": "confusables",
+    "issue": "describeとの比較で混同パターンとして不適切。expressは「表現する」、describeは「描写・説明する」で、基本的な意味領域が異なり実際の混同は少ない",
+    "severity": "warning"
+  },
+  {
+    "id": 113,
+    "word": "waste",
+    "field": "trivia",
+    "issue": "「mottainaiが国際語になりつつある」という記述は誇張。実際には限定的な認知に留まっており、「国際語」は言い過ぎ",
+    "severity": "warning"
+  },
+  {
+    "id": 143,
+    "word": "industry",
+    "field": "trivia",
+    "issue": "論理的矛盾。「勤勉」の意味が現在では誤解必至と言いつつ、その意味が辞書の古い例文に載っていたと説明している。混乱を招く記述",
+    "severity": "error"
+  },
+  {
+    "id": 235,
+    "word": "wind",
+    "pos": "noun",
+    "field": "tips",
+    "issue": "名詞windは動詞ではないのにtipsで動詞windと比較している。品詞表示が「noun」なのに動詞の説明が混入",
+    "severity": "error"
+  },
+  {
+    "id": 243,
+    "word": "device",
+    "pos": "noun",
+    "field": "etymology",
+    "issue": "「dividere（分ける）→de-（分離）+ videre（見る・分ける）」の説明が矛盾。videreは「見る」であって「分ける」ではない",
+    "severity": "error"
+  },
+  {
+    "id": 245,
+    "word": "contrast",
+    "pos": "verb",
+    "field": "etymology",
+    "issue": "「contrahere（引き合わせる）→contra-（反対に）+ stare（立つ）」の分解が間違い。contrahereの語根はtrahereで「引く」",
+    "severity": "error"
+  },
+  {
+    "id": 251,
+    "word": "audience",
+    "field": "etymology",
+    "issue": "語源説明が不完全。'-ence'は確かに名詞化接尾辞だが、audienceの語源はラテン語'audientia'（聞くこと・聴講）から来ており、直接的に'audire'+'ence'という構造ではない",
+    "severity": "warning"
+  },
+  {
+    "id": 254,
+    "word": "topic",
+    "field": "etymology",
+    "issue": "語源に論理的矛盾。'topika'（場所に関すること）から'topic'（話題）への意味変化の説明が不十分で、アリストテレスの「トポス」との関連性も曖昧",
+    "severity": "warning"
+  },
+  {
+    "id": 275,
+    "word": "gene",
+    "field": "trivia",
+    "issue": "事実誤認。「ジーンズ」と「遺伝子」は発音が異なる。jeans は /dʒiːnz/（複数形）、gene は /dʒiːn/（単数形）で、英語ネイティブが混乱するという記述は不正確",
+    "severity": "error"
+  },
+  {
+    "id": 291,
+    "word": "previous",
+    "field": "trivia",
+    "issue": "説明が論理的に破綻。'trivial'の語源説明（tri+via）は正しいが、'previous'の語根'via'との関連性を述べただけで、何の意味のある情報も提供していない無意味な記述",
+    "severity": "error"
+  },
+  {
+    "id": 292,
+    "word": "false",
+    "field": "trivia",
+    "issue": "推測に基づく不適切な記述。「入力単語がFALSEと大文字なのはプログラムのブール値を意識しているからかも？」は根拠のない憶測で、教育コンテンツとして不適切",
+    "severity": "warning"
+  },
+  {
+    "id": 305,
+    "word": "emerge",
+    "field": "confusables",
+    "issue": "submerge（水中に沈む）を「正反対の意味」と説明しているが、submergeは水中に沈むという物理的行為で、emergeの「現れる」とは対比として不適切",
+    "severity": "warning"
+  },
+  {
+    "id": 311,
+    "word": "rely",
+    "field": "etymology",
+    "issue": "religare（結びつける）が語源としているが、実際はラテン語relegare（再び結ぶ・選ぶ）が語源で事実誤認",
+    "severity": "error"
+  },
+  {
+    "id": 315,
+    "word": "acquire",
+    "field": "tips",
+    "issue": "「aquireと書くミスが多い」と注意しているが、正しくない綴りを示すことで混乱を招く可能性がある",
+    "severity": "warning"
+  },
+  {
+    "id": 335,
+    "word": "bore",
+    "field": "etymology",
+    "issue": "「退屈させる」のboreの語源を「不明」としているが、実際は「穴を開ける」から「単調で退屈」への意味変化があったとする説が有力で、記述が不完全",
+    "severity": "warning"
+  },
+  {
+    "id": 354,
+    "word": "wealth",
+    "field": "etymology",
+    "issue": "語源説明に論理的矛盾。'well'（よい）と同じ語根を持つとしつつ、実際の語源は古英語'wela'と説明している",
+    "severity": "error"
+  },
+  {
+    "id": 361,
+    "word": "web",
+    "field": "etymology",
+    "issue": "語根の記述が不正確。ゲルマン語系のwebenは「織る」を意味するが、古英語'webb'の語根として説明するのは語学的に不適切",
+    "severity": "warning"
+  },
+  {
+    "id": 366,
+    "word": "crisis",
+    "field": "trivia",
+    "issue": "JFKの演説が1959年とされているが、実際は1963年。また、漢字「機」の解釈についての記述も不正確",
+    "severity": "error"
+  },
+  {
+    "id": 372,
+    "word": "court",
+    "field": "trivia",
+    "issue": "「王の中庭で裁判も試合も行われていた」という歴史的説明が不正確。これらの用法は異なる時代・文脈で発展したもの",
+    "severity": "error"
+  },
+  {
+    "id": 389,
+    "word": "nuclear",
+    "field": "tips",
+    "issue": "発音についてnukular問題を指摘しつつ、正しい発音記号が不正確。/njuːkjələr/ではなく/ˈnuːkliər/が正しい",
+    "severity": "error"
+  },
+  {
+    "id": 403,
+    "word": "educate",
+    "field": "etymology",
+    "issue": "語源説明が不正確。ラテン語 'educare' は 'educere' の間違いである可能性があり、e-(外へ) + ducere(導く)とあるが、educareの場合はe- + durare(養う)の説もある",
+    "severity": "warning"
+  },
+  {
+    "id": 411,
+    "word": "settle",
+    "field": "confusables",
+    "issue": "solve との違いの説明が不完全。'settle a problem' と言えるが 'solve a problem' も同義とあるが、実際には使い分けがあり同義ではない",
+    "severity": "warning"
+  },
+  {
+    "id": 430,
+    "word": "deny",
+    "field": "etymology",
+    "issue": "語源が不正確。ラテン語 'denegare' から deny への変化は直接的ではなく、古フランス語 'denier' を経ている",
+    "severity": "warning"
+  },
+  {
+    "id": 438,
+    "word": "breathe",
+    "field": "etymology",
+    "issue": "語源説明が逆。動詞 breathe が先にあり、名詞 breath がその逆成語として生まれたという説明は不正確",
+    "severity": "error"
+  },
+  {
+    "id": 451,
+    "word": "capital",
+    "field": "trivia",
+    "issue": "「死刑」を'capital punishment'というのは「頭（命）を取る罰」由来と説明しているが、語源的には「頭＝最重要」からの意味拡張であり、直接的に「首を切る」処刑法に由来するという説明は不正確",
+    "severity": "warning"
+  },
+  {
+    "id": 462,
+    "word": "humanity",
+    "field": "tips",
+    "issue": "「複数形'humanities'になると『人文科学』という全く異なる意味になる」と記述しているが、語源的に関連があり「全く異なる」は不正確。むしろ「人間性を学ぶ学問」として関連性がある",
+    "severity": "warning"
+  },
+  {
+    "id": 509,
+    "word": "ensure",
+    "trivia": "secure（安全な）、sure（確かな）、ensure（確実にする）はすべて「se-（離れた）＋ cura（心配）」→心配から離れている→安心という語源でつながっている。「セキュリティ」も同じ仲間！",
+    "field": "trivia",
+    "issue": "語源の記述が事実と異なる。ensureの語源はsecurus（安全な）であり、se- + cura（心配から離れた）の構造は正しいが、「すべて」同じ語源という説明は不正確",
+    "severity": "warning"
+  },
+  {
+    "id": 530,
+    "word": "hang",
+    "tips": "hang の過去形は2種類あり、「物を吊るす」意味では hung（例: hung a coat）、「人を絞首刑にする」意味では hanged（例: He was hanged.）を使う。日常会話ではほぼ hung で問題ないが、歴史・法律の文脈では区別が重要。",
+    "field": "tips",
+    "issue": "過去形の説明が不完全。「人を絞首刑にする」場合のみhangedと説明しているが、実際は「人が死ぬ」文脈全般でhangedを使うのが正確",
+    "severity": "warning"
+  },
+  {
+    "id": 552,
+    "word": "minister",
+    "field": "trivia",
+    "issue": "語源説明との矛盾：triviaで「minister」は「召使い」が原義と説明しているが、実際の語源は「召使い・奉仕者」で、建前として「国民に仕える」という謙虚な命名というより、元来が「仕える者」という意味だった",
+    "severity": "warning"
+  },
+  {
+    "id": 551,
+    "word": "democracy",
+    "field": "trivia",
+    "issue": "「デモ」の語源に関する不正確な説明：demonstration（示威運動）のdemoとdemocracyのdemoは同じ語源と説明しているが、demonstrationのdemoは実際にはde-（完全に）+ monstrare（示す）で、democracyのdemos（人民）とは異なる語源",
+    "severity": "error"
+  },
+  {
+    "id": 591,
+    "word": "brief",
+    "field": "etymology",
+    "issue": "語源ルートの不正確性：ラテン語brevisから「フランス語brefを経て英語に入った」と記載しているが、briefは古フランス語brefから直接英語に入ったものであり、ラテン語brevisは究極語源",
+    "severity": "warning"
+  },
+  {
+    "id": 611,
+    "word": "transfer",
+    "field": "etymology",
+    "issue": "「transferre」はラテン語ではなくラテン語から派生した後期ラテン語の形",
+    "severity": "warning"
+  },
+  {
+    "id": 612,
+    "word": "bother",
+    "field": "etymology",
+    "issue": "アイルランド語起源の説明が不正確。実際は古ノルド語または中世英語の可能性が高い",
+    "severity": "error"
+  },
+  {
+    "id": 623,
+    "word": "stretch",
+    "field": "etymology",
+    "issue": "ドイツ語のstreckernとの関係性の記述が不適切。同語根ではあるが直接的な関係とは言えない",
+    "severity": "warning"
+  },
+  {
+    "id": 631,
+    "word": "upset",
+    "field": "etymology",
+    "issue": "up + set という説明は現代的な分析で、実際の語源はより複雑",
+    "severity": "warning"
+  },
+  {
+    "id": 641,
+    "word": "sequence",
+    "field": "etymology",
+    "issue": "語源説明が不完全。'sequi'から直接'-ence'が付いたわけではない",
+    "severity": "warning"
+  },
+  {
+    "id": 658,
+    "word": "surgery",
+    "field": "tips",
+    "issue": "「× take surgery は誤り」と記述しているが、take surgeryは特定の文脈では使用される（例：take surgery as a career option）",
+    "severity": "warning"
+  },
+  {
+    "id": 659,
+    "word": "insurance",
+    "field": "tips",
+    "issue": "「× do insurance は誤り」という記述が不完全。do insuranceは保険業を営むという意味では使用される",
+    "severity": "warning"
+  },
+  {
+    "id": 661,
+    "word": "shelter",
+    "field": "etymology",
+    "issue": "古英語scildtruma（盾の部隊）が語源という説明は不正確。shelterの語源は古英語scieldtrumaではなく、中英語sheltronから来ている",
+    "severity": "error"
+  },
+  {
+    "id": 671,
+    "word": "fault",
+    "field": "etymology",
+    "issue": "「ラテン語fallere（欺く・誤る）が語根」という説明は不正確。faultの直接的語源は古フランス語fauteで、ラテン語fallaとは別語",
+    "severity": "error"
+  },
+  {
+    "id": 683,
+    "word": "principal",
+    "field": "etymology",
+    "issue": "「princeps＝primus（最初）＋capere（とる）」という分解は不正確。princepsはprincipium（始まり・根本）から来ており、語根分解が間違っている",
+    "severity": "error"
+  },
+  {
+    "id": 685,
+    "word": "equivalent",
+    "field": "etymology",
+    "issue": "「接頭辞aequi-（等しい）」という記述は不正確。正しくはaequus（等しい）＋valere（価値がある）の組み合わせ",
+    "severity": "error"
+  },
+  {
+    "id": 704,
+    "word": "melt",
+    "field": "etymology",
+    "issue": "古英語からの語源説明が事実誤認。古英語の語源は確実だがノルウェー語との関連記述が不正確",
+    "severity": "warning"
+  },
+  {
+    "id": 709,
+    "word": "urge",
+    "field": "trivia",
+    "issue": "moment が同じ語根を持つという記述が事実誤認。moment は語根 mon-/ment-（心に留める）で異なる",
+    "severity": "error"
+  },
+  {
+    "id": 722,
+    "word": "specialize",
+    "field": "etymology",
+    "issue": "「species（種）」から来るという説明が不完全で誤解を招く。正確には「special（特別な）」経由",
+    "severity": "warning"
+  },
+  {
+    "id": 763,
+    "word": "glance",
+    "field": "confusables",
+    "issue": "「一目で分かる」は 'at a glance' ではなく 'at first glance' や 'at a glance'（一目で・ちらりと見ただけで）が正確",
+    "severity": "warning"
+  },
+  {
+    "id": 788,
+    "word": "subtle",
+    "field": "trivia",
+    "issue": "subtle の語源説明に事実誤認がある。中世には 'sotil' や 'subtil' と書かれていたが、'suttle' ではない",
+    "severity": "error"
+  },
+  {
+    "id": 799,
+    "word": "adequate",
+    "field": "trivia",
+    "issue": "「婉曲的な低評価」という説明が過度に一般化されている。adequate は文脈により中立的な評価としても使われる",
+    "severity": "warning"
+  },
+  {
+    "id": 871,
+    "word": "luxury",
+    "field": "trivia",
+    "issue": "混同指摘（英語発音は「ラクシャリ」）が不正確 - 実際の英語発音は「ラグザリー」に近い",
+    "severity": "error"
+  },
+  {
+    "id": 881,
+    "word": "casual",
+    "field": "confusables",
+    "issue": "'casual'と'causal'の比較で「見た目が似ている」と述べているが、実際の綴りを確認すると誤認の可能性が高い",
+    "severity": "warning"
+  },
+  {
+    "id": 886,
+    "word": "ultimate",
+    "field": "confusables",
+    "issue": "'utmost'の用法説明「努力や能力の限界に使う」が不完全で実用性に乏しい",
+    "severity": "warning"
+  },
+  {
+    "id": 891,
+    "word": "instant",
+    "field": "trivia",
+    "issue": "インスタント・ラーメンの発明年「1958年」は正確だが、「世界共通の豆知識」という断言が根拠不明",
+    "severity": "warning"
+  },
+  {
+    "id": 895,
+    "word": "collective",
+    "field": "tips",
+    "issue": "集合名詞の米英差について「米英語では単数扱い、英英語では複数扱い」という説明が過度に単純化されており誤解を招く",
+    "severity": "error"
+  },
+  {
+    "id": 1008,
+    "word": "forecast",
+    "field": "etymology",
+    "issue": "castを「弓矢を放つ」と説明しているが、castの本来の意味は「投げる」「計算する」であり、forecast の語源は「前もって計算する・見積もる」",
+    "severity": "error"
+  },
+  {
+    "id": 1045,
+    "word": "compliment",
+    "field": "etymology",
+    "issue": "complimentumを「礼儀として果たすこと」と説明し、語根をcom- + plereとしているが、実際はラテン語complementumから発達した語で、語根が異なる",
+    "severity": "error"
+  },
+  {
+    "id": 1049,
+    "word": "joint",
+    "field": "confusables",
+    "issue": "「junctionと語源は同じ」と述べているが、実際にjunctionとjointは語源が同じなので「語源は同じだが用法が異なる」という対比が混同パターンの説明として不完全",
+    "severity": "warning"
+  },
+  {
+    "id": 1051,
+    "word": "adolescent",
+    "field": "trivia",
+    "issue": "語源の'adolescere'が「燃え上がる」ニュアンスを持つという説明は誤り。語源は単純に「成長する」を意味し、「燃える」という要素は含まない",
+    "severity": "error"
+  },
+  {
+    "id": 1062,
+    "word": "poll",
+    "field": "trivia",
+    "issue": "「tadpole」の「pole」が同じ語源で「丸い頭」という説明は誤り。tadpoleは古英語'taddepol'（蛙の頭）が語源で、pollとは語源が異なる",
+    "severity": "error"
+  },
+  {
+    "id": 1065,
+    "word": "fatigue",
+    "field": "tips",
+    "issue": "「語尾の'-gue'は'グ'ではなく'グ（gの音のみ）'」という発音説明が意味不明。実際は/ˈfətiːɡ/で語尾は通常の/ɡ/音",
+    "severity": "error"
+  },
+  {
+    "id": 1071,
+    "word": "file",
+    "field": "trivia",
+    "issue": "「nail file（爪やすり）」の説明で、やすりで削る動作と書類整理の「整える」イメージを強引に関連付けているが、実際は語源が異なる別の単語",
+    "severity": "error"
+  },
+  {
+    "id": 1106,
+    "word": "resort",
+    "field": "trivia",
+    "issue": "「楽しいリゾートとネガティブな動詞が同じ単語」と述べているが、語源説明では共通の語源を持つと説明しており、同じ単語ではなく同じ語根から派生した語という点で表現が不正確",
+    "severity": "warning"
+  },
+  {
+    "id": 1131,
+    "word": "disgust",
+    "field": "tips",
+    "issue": "「I disgust」ではなく「I am disgusted by〜」が自然と説明しているが、これは主語の問題ではなく能動態・受動態の使い分けの問題。正確には「Something disgusts me」（能動）vs「I am disgusted by something」（受動）",
+    "severity": "warning"
+  },
+  {
+    "id": 1151,
+    "word": "caution",
+    "field": "etymology",
+    "issue": "caveとcautioの語源関連に虚偽記述あり。caveは「洞窟」で語根が異なる",
+    "severity": "error"
+  },
+  {
+    "id": 1152,
+    "word": "controversy",
+    "field": "tips",
+    "issue": "発音説明が不正確。アメリカとイギリスの違いをアクセント位置とするが詳細が曖昧",
+    "severity": "warning"
+  },
+  {
+    "id": 1158,
+    "word": "supplement",
+    "field": "tips",
+    "issue": "名詞と動詞の発音の違いについて曖昧で混乱を招く記述",
+    "severity": "warning"
+  },
+  {
+    "id": 1161,
+    "word": "reef",
+    "field": "trivia",
+    "issue": "グレートバリアリーフが月から見える構造物という記述は事実誤認",
+    "severity": "error"
+  },
+  {
+    "id": 1177,
+    "word": "sculpture",
+    "field": "etymology",
+    "issue": "sculptが逆成語との記述があるが、これは言語学的に不正確",
+    "severity": "error"
+  },
+  {
+    "id": 1183,
+    "word": "sensible",
+    "field": "trivia",
+    "issue": "フランス語のsensibleの意味説明が不正確。完全に逆ではない",
+    "severity": "warning"
+  },
+  {
+    "id": 1201,
+    "word": "infer",
+    "field": "tips",
+    "issue": "例文での使い方説明が混乱している。'Are you inferring I'm wrong?' が誤用と説明しつつ、この文は文法的に問題なく、実際の使用場面では自然",
+    "severity": "warning"
+  },
+  {
+    "id": 1211,
+    "word": "click",
+    "field": "etymology",
+    "issue": "「古英語・中英語の擬音語由来」という説明が曖昧で不正確。中英語期以降の比較的新しい語で、正確な語源は不明確",
+    "severity": "warning"
+  },
+  {
+    "id": 1214,
+    "word": "drag",
+    "field": "tips",
+    "issue": "「'drug' は 'drag' の古い方言的過去形で、現代英語では使わない」は誤り。'drug'は全く別の語源を持つ独立した単語",
+    "severity": "error"
+  },
+  {
+    "id": 1221,
+    "word": "dye",
+    "field": "tips",
+    "issue": "「dying ではなく dyeing と書くのが正しい」は不正確。'die'の現在分詞は'dying'、'dye'の現在分詞は'dyeing'で、それぞれ正しい",
+    "severity": "warning"
+  },
+  {
+    "id": 1247,
+    "word": "temper",
+    "field": "tips",
+    "issue": "日本語の「テンパる」と英語の'temper'は無関係と断定しているが、実際には語源的関連性がある可能性も指摘されており、断定的すぎる",
+    "severity": "warning"
+  },
+  {
+    "id": 1249,
+    "word": "syndrome",
+    "field": "trivia",
+    "issue": "「心理学者ポーリン・クランスとスジャン・エイムズが1978年に初めて論文で使った語」とあるが、これは'impostor syndrome'という特定の概念の話であり、'syndrome'という語自体の説明ではない",
+    "severity": "warning"
+  },
+  {
+    "id": 1256,
+    "word": "priest",
+    "pos": "noun",
+    "field": "trivia",
+    "issue": "ハリー・ポッターに関する記述が事実誤認で論理的にも破綻している",
+    "severity": "error"
+  },
+  {
+    "id": 1275,
+    "word": "consent",
+    "pos": "noun",
+    "field": "tips",
+    "issue": "日本語の「コンセント」が「和製英語」という記述は不正確（実際は音韻変化による借用語）",
+    "severity": "warning"
+  },
+  {
+    "id": 1332,
+    "word": "compute",
+    "field": "confusables",
+    "issue": "「暗算する」に対してcalculate in one's headを推奨しているが、mental calculationやdoing mental arithmeticの方が一般的",
+    "severity": "warning"
+  },
+  {
+    "id": 1333,
+    "word": "assemble",
+    "field": "etymology",
+    "issue": "ラテン語simulから「同時に」という意味の説明があるが、assemblerは「ad（～へ）+ simul（一緒に）」ではなく、ラテン語simulareの語根を持つ",
+    "severity": "warning"
+  },
+  {
+    "id": 1340,
+    "word": "prevail",
+    "field": "trivia",
+    "issue": "「価値がある＝強い」という古代ローマ的価値観という記述があるが、これは推測的すぎて事実とは言えない",
+    "severity": "warning"
+  },
+  {
+    "id": 1347,
+    "word": "agenda",
+    "field": "trivia",
+    "issue": "「本来は複数形なのに英語では単数名詞として定着」は正しいが、現代英語でも複数扱いされる場合があり、説明が不完全",
+    "severity": "warning"
+  },
+  {
+    "id": 1351,
+    "word": "outbreak",
+    "field": "tips",
+    "issue": "「動詞形はありません」は誤り。outbreak自体は動詞としても使える（例：War outbreak in the region）",
+    "severity": "error"
+  },
+  {
+    "id": 1353,
+    "word": "nightmare",
+    "field": "trivia",
+    "issue": "mare（牝馬）と nightmare の mare は実際に別語源だが、「現代英語では同じ綴り」「誤解されることも多い歴史ある誤解」という記述は混乱を招く",
+    "severity": "warning"
+  },
+  {
+    "id": 1361,
+    "word": "feast",
+    "field": "etymology",
+    "issue": "「festivalもここから派生」は不正確。festivalとfeastは共通語源だが、festivalがfeastから派生したわけではない",
+    "severity": "warning"
+  },
+  {
+    "id": 1367,
+    "word": "tuition",
+    "field": "etymology",
+    "issue": "「intuition（直感）とは語源が異なる」という記述があるが、実際にはどちらもラテン語tueriを語源とする可能性があり、断定は不適切",
+    "severity": "warning"
+  },
+  {
+    "id": 1384,
+    "word": "compulsory",
+    "field": "trivia",
+    "issue": "「figure skatingの名前の由来」という説は不確実で、断定的に記述するのは不適切",
+    "severity": "warning"
+  },
+  {
+    "id": 1395,
+    "word": "hostile",
+    "field": "etymology",
+    "issue": "「host（主人・宿主）も同じ語根から派生」は誤り。hostis（敵）とhospes（客人・主人）は異なる語源",
+    "severity": "error"
+  },
+  {
+    "id": 1413,
+    "word": "sigh",
+    "field": "confusables",
+    "issue": "sight（視力）は /saɪt/ で母音が異なり、sighとの発音は同じではない",
+    "severity": "error"
+  },
+  {
+    "id": 1423,
+    "word": "flock",
+    "field": "confusables",
+    "issue": "「flock は鳥と羊が基本」と説明しているが、冒頭で「鳥・羊などの群れ」と書き、人の集まりにも使えると言っており、「基本は鳥と羊」という限定が矛盾している",
+    "severity": "warning"
+  },
+  {
+    "id": 1449,
+    "word": "dairy",
+    "field": "confusables",
+    "issue": "dairyの発音を /ˈdɛri/ と記載しているが、実際は /ˈdeəri/ または /ˈderi/ が正しい発音記号",
+    "severity": "error"
+  },
+  {
+    "id": 1602,
+    "word": "exert",
+    "field": "trivia",
+    "issue": "発音説明が不正確 - 'exert'の'x'は/gz/ではなく/ɡz/と表記されているが、実際は語頭なので/ɪɡˈzɜrt/。また'exact'や'exam'の'x'は語頭では/ɪɡz/音になるが、これらは母音の前だからという説明は不適切",
+    "severity": "error"
+  },
+  {
+    "id": 1621,
+    "word": "coincide",
+    "field": "trivia",
+    "issue": "語源説明が推測的で不正確 - 'コインのように2枚がぴったり重なるイメージから来ている説も'という記述は事実誤認。coincideはラテン語のco-+incidereが語源で、コイン(coin)とは無関係",
+    "severity": "error"
+  },
+  {
+    "id": 1641,
+    "word": "grace",
+    "field": "tips",
+    "issue": "文法的誤解を招く記述 - 'She is grace'が不自然で'She is graceful'が正しいという説明があるが、これはconfusablesフィールドの内容がtipsに混入している",
+    "severity": "warning"
+  },
+  {
+    "id": 1703,
+    "word": "console",
+    "field": "trivia",
+    "issue": "名詞の「コンソール」と動詞の「慰める」は語源が異なると記述しているが、これは不正確。両方とも同じラテン語語源から派生している",
+    "severity": "error"
+  },
+  {
+    "id": 1708,
+    "word": "constrain",
+    "field": "confusables",
+    "issue": "constrainを「受動的」、restrainを「意図的・直接的」と対比しているが、constrain自体も意図的な制約を含む場合が多く、対比が不適切",
+    "severity": "warning"
+  },
+  {
+    "id": 1711,
+    "word": "tweet",
+    "field": "etymology",
+    "issue": "「Twitter」が2006年にサービス開始と記載しているが、実際は2006年3月（正確には7月に一般公開）で、より正確な情報提供が望ましい",
+    "severity": "warning"
+  },
+  {
+    "id": 1721,
+    "word": "plug",
+    "field": "confusables",
+    "issue": "「plug out（ほぼ使わない）」という記述があるが、実際にはplug outは存在しない表現。混同を招く虚偽記述",
+    "severity": "error"
+  },
+  {
+    "id": 1746,
+    "word": "textile",
+    "field": "etymology",
+    "issue": "「テキストも『言葉を織り合わせたもの』」という説明があるが、textの語源は「織る」というより「構築する・組み立てる」の意味で、やや不正確",
+    "severity": "warning"
+  },
+  {
+    "id": 1752,
+    "word": "grid",
+    "field": "etymology",
+    "issue": "語源説明が曖昧で不正確。'古英語 gridiron を短縮'とあるが、gridironは古英語ではなく中英語。また'ラテン語系統に連なる'という説明も根拠が不明確",
+    "severity": "error"
+  },
+  {
+    "id": 1755,
+    "word": "rebel",
+    "field": "etymology",
+    "issue": "'bellicose'をrebellareと同族語としているが、bellicoseはラテン語bellum（戦争）由来で、rebellareのbellare（戦う）とは厳密には異なる語根",
+    "severity": "warning"
+  },
+  {
+    "id": 1773,
+    "word": "premium",
+    "field": "etymology",
+    "issue": "'prae（前に）＋emere（取る）'の解釈が不正確。praemiumは'prae（前）＋emere（取る）'ではなく、報酬・賞金を意味するラテン語",
+    "severity": "error"
+  },
+  {
+    "id": 1776,
+    "word": "protocol",
+    "field": "etymology",
+    "issue": "'prōtos（最初の）＋kolla（膠・のり）'としているが、正確には'prōtokollon'で、膠で最初のページを貼り付けたことが語源",
+    "severity": "warning"
+  },
+  {
+    "id": 1782,
+    "word": "vocational",
+    "field": "etymology",
+    "issue": "'vocare（呼ぶ）＋ -al'は不正確。正確には'vocatio（召命）'+ -al で、-alが二重に付いているような説明になっている",
+    "severity": "error"
+  },
+  {
+    "id": 1787,
+    "word": "fertile",
+    "field": "etymology",
+    "issue": "'ferre（運ぶ、生む）＋ -tilis'の説明で、ferreが「生む」という意味を持つかのように記述されているが、ferreの基本義は「運ぶ、持参する」",
+    "severity": "warning"
+  },
+  {
+    "id": 1788,
+    "word": "ripe",
+    "field": "etymology",
+    "issue": "'reap（刈り取る）と同語根'としているが、ripeとreapは語源が異なる。ripeはゲルマン語系、reapは古英語ripan由来で別の語根",
+    "severity": "error"
+  },
+  {
+    "id": 1803,
+    "word": "merge",
+    "field": "trivia",
+    "issue": "「現実世界の会社合併とコードの統合で全く同じ単語が使われているのが面白い」は特に面白い事実ではなく、単に同じ単語が違う分野で使われているという当然の現象",
+    "severity": "warning"
+  },
+  {
+    "id": 1803,
+    "word": "merge",
+    "field": "etymology",
+    "issue": "「もともとは『水に沈む→一体になる』という流れ」の説明が不正確。mergereは「沈める・浸す」であり、「沈む」は自動詞的意味で原義ではない",
+    "severity": "error"
+  },
+  {
+    "id": 1807,
+    "word": "torture",
+    "field": "trivia",
+    "issue": "「torture」の語根がtorquere（ねじる）だが、tortureはラテン語torturaから来ており、直接torqueと関連付けるのは誤解を招く不正確な記述",
+    "severity": "error"
+  },
+  {
+    "id": 1843,
+    "word": "diplomacy",
+    "field": "trivia",
+    "issue": "「シャトルは宇宙ではなく、往復する『梭（ひ）』のこと！」は不正確。シャトルは宇宙船と機織りの梭の両方を意味し、宇宙船も含む",
+    "severity": "error"
+  },
+  {
+    "id": 1862,
+    "word": "subsidy",
+    "field": "confusables",
+    "issue": "grant との違いの説明が不正確。grant は継続的な場合も多く、subsidy も一時的な場合がある",
+    "severity": "warning"
+  },
+  {
+    "id": 1863,
+    "word": "mortgage",
+    "field": "etymology",
+    "issue": "語源説明に論理的矛盾。「ローン完済で誓約が死ぬ」と「返済できなければ担保が死ぬ」の両方の説明が併記されているが、本来は後者が正しい語源的説明",
+    "severity": "warning"
+  },
+  {
+    "id": 1869,
+    "word": "mold",
+    "field": "etymology",
+    "issue": "カビの語源について「ラテン語 mucor に関連」とあるが、実際は古フランス語 moule が語源で mucor との関連は確証されていない",
+    "severity": "error"
+  },
+  {
+    "id": 1893,
+    "word": "dumb",
+    "field": "trivia",
+    "issue": "ダンベルの語源説明が不正確。実際は bell-ringing の練習器具が語源ではなく、音を出さない鐘状の重りという意味",
+    "severity": "warning"
+  }
+]
