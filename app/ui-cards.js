@@ -9,9 +9,6 @@ import { BackgroundManager } from './ui-background.js';
 // -------------------------------------------------------
 const WORD_MAP = new Map(WORD_DATA.map(wd => [wd.word, wd]));
 
-// 末尾に句点がなければ補う
-const ensureKuten = (s) => (s && !s.endsWith('。') ? s + '。' : s ?? '');
-
 // -------------------------------------------------------
 // 意味を取得（WORD_DATA.meanings[0] → フォールバック）
 // -------------------------------------------------------
@@ -520,7 +517,7 @@ export class CardRenderer {
         }).join('');
         sectionBody = `<div class="collocation-chips">${colChips}</div>`;
       } else if (sectionDef) {
-        sectionBody = `<div class="passive-section-body">${ensureKuten(passive[sectionDef.key])}</div>`;
+        sectionBody = `<div class="passive-section-body">${passive[sectionDef.key] ?? ''}</div>`;
       } else {
         sectionBody = '';
       }
