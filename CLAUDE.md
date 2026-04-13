@@ -73,6 +73,44 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | 1 | Claude Sonnet API 検証で発覚した事実誤認・論理矛盾の修正 | 37エントリ |
 | 4-2 | trivia 文末 `！` → `。` 統一 | 750件 |
 
+---
+
+## word-data.js 追加品質修正ログ（2026-04-13）
+
+`vocabflow-distractor-fix-instructions.md` に基づき実施。修正スクリプトは `scripts/fix_distractor_and_meaning.py`・`scripts/fix_korean_remaining.py`。
+
+### 修正サマリー
+
+| 問題 | 内容 | 件数 |
+|---|---|---|
+| distractor 同義語衝突（致命的） | 四択の不正解選択肢に正解とほぼ同義の訳が含まれていた | 7件 |
+| distractor 同義語衝突（要注意） | 意味が近いが用法・品詞が異なる — それでも紛らわしいため差し替え | 5件 |
+| ハングル混入 | meanings/distractors/passive.etymology にハングルが混入（LLM生成トークン混入） | 13件 |
+| カタカナのみ meaning | 和語・漢語の言い換えがなく正解が音から推測可能 | 9件 |
+
+### distractor 致命的7件の詳細
+
+- **#400 nevertheless / #1000 nonetheless**: 相互に相手の meaning が distractor に入っていた → 別意味の副詞訳に差し替え
+- **#1000 nonetheless**: #497 regardless の meaning も distractor に → 差し替え
+- **#357 vote**: #1062 poll の meaning「世論調査・投票」が distractor に → 差し替え
+- **#1383 indispensable**: #584 vital の meaning「不可欠な、極めて重要な」が distractor に → 差し替え
+- **#1389 fragile**: #1283 delicate の meaning「繊細な、壊れやすい」が distractor に → 反義語「丈夫な、頑丈な」に差し替え
+- **#1399 inherent**: #1189 indigenous の meaning「先住民の；固有の」が distractor に → 差し替え
+
+### ハングル混入13件
+
+- distractors: `손상されていない` (#99/#492/#696/#1495)、`훑어보다` (#134/#638/#1038/#1730)
+- meanings: `귀중한` (#879 precious)、`훑어보다` (#926 scan)
+- etymology: `넘치다` (#333 surround)、`넘れ` (#1192 abundant)
+
+### カタカナのみ meaning 9件
+
+site/web/concrete/mall/penalty/fantasy/horror/cluster/barrel に和語・漢語の言い換えを追加。
+
+### 正マスターの更新
+
+`scripts/results/word_data_final.json` を更新（旧版は `.bk20260413` でバックアップ）。`build_word_data_js.py` で再ビルド・デプロイ済み。
+
 ### Phase 3 個別修正（致命的・手動）
 
 - **#875 prefecture**: blankAnswer が `"Kyoto"` → 例文・blankAnswer を `"prefecture"` に差し替え
