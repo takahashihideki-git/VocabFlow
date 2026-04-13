@@ -3181,7 +3181,7 @@ export const WORD_DATA = [
           blankAnswer: "correct",
         },
       ],
-      distractors: ["ありそうな、〜しそうな", "微妙な、かすかな", "無傷の、손상されていない"],
+      distractors: ["ありそうな、〜しそうな", "微妙な、かすかな", "無傷の、損傷されていない"],
       confusableSpellings: ["corect", "correkt", "correckt"],
       passive: {
         etymology: "ラテン語 'correctus'（直された）→ 'corrigere'（真っ直ぐにする）→ 'com-'（完全に）+ 'regere'（真っ直ぐにする、支配する）。'regulate'（規制する）や 'direct'（指示する）と同じ語根 'reg-'。",
@@ -3213,7 +3213,7 @@ export const WORD_DATA = [
           blankAnswer: "despite",
         },
       ],
-      distractors: ["それにもかかわらず、それでも", "同様に、同じく", "最終的に、結局は"],
+      distractors: ["〜のおかげで、〜によって", "同様に、同じく", "最終的に、結局は"],
       confusableSpellings: ["dispite", "despight", "despit"],
       passive: {
         etymology: "古フランス語 'despit'（軽蔑、反抗）→ラテン語 'despectus'（見下すこと）→ 'de-'（下に）+ 'specere'（見る）。'inspect'（検査する）や 'respect'（尊重する）と同じ語根 'spect-'（見る）。",
@@ -4300,7 +4300,7 @@ export const WORD_DATA = [
           blankAnswer: "searched",
         },
       ],
-      distractors: ["～を実施する、行う", "設立する、確立する", "〜をざっと見る、훑어보다"],
+      distractors: ["～を実施する、行う", "設立する、確立する", "〜をざっと見る、斜め読みする"],
       confusableSpellings: ["serch", "saerch"],
       passive: {
         etymology: "古フランス語 'cerchier'（調べる）から。ラテン語 'circare'（円を描いて回る）が語源。「くまなく回って調べる」が原義。",
@@ -5534,7 +5534,7 @@ export const WORD_DATA = [
       categoryId: 12,
       meanings: [
         { meaning: "場所・用地", pos: "noun" },
-        { meaning: "（ウェブ）サイト", pos: "noun" },
+        { meaning: "ウェブサイト、（インターネット上の）敷地", pos: "noun" },
       ],
       pronunciation: "/saɪt/",
       syllables: "site",
@@ -9065,7 +9065,7 @@ export const WORD_DATA = [
           blankAnswer: "vast",
         },
       ],
-      distractors: ["華やかな、高級な", "巨大な、莫大な", "著名な、卓越した"],
+      distractors: ["華やかな、高級な", "小さな、わずかな", "著名な、卓越した"],
       confusableSpellings: ["wast", "vaste", "vaast"],
       passive: {
         etymology: "ラテン語 'vastus'（空っぽの・荒れ果てた・巨大な）に由来。もともとは「人のいない荒野」というイメージから「広大な」という意味に転じた。",
@@ -10668,7 +10668,7 @@ export const WORD_DATA = [
       distractors: ["目標、ターゲット", "配達する；届ける", "生み出す、発生させる"],
       confusableSpellings: ["surrround", "suround", "surrond"],
       passive: {
-        etymology: "古フランス語 souronder（넘치다・溢れる）から。ラテン語 super-（上）＋ undare（波打つ）が語源。「波が上からあふれ囲む」イメージが元になっている。",
+        etymology: "古フランス語 souronder（溢れる）から。ラテン語 super-（上）＋ undare（波打つ）が語源。「波が上からあふれ囲む」イメージが元になっている。",
         tips: "surround は他動詞なので surround ～ with … の形が頻出。例：They surrounded the building with police.（警察が建物を包囲した）。受動態 be surrounded by/with も非常によく使われる。",
         confusables: "surround（物理的・比喩的に囲む）vs. enclose（壁・柵などで閉じ込めるように囲む）。enclose は「外から切り離す」ニュアンスが強い。",
         collocations: ["be surrounded by nature", "surround with guards", "surrounding area"],
@@ -11433,7 +11433,7 @@ export const WORD_DATA = [
           blankAnswer: "voted",
         },
       ],
-      distractors: ["革命", "イデオロギー、思想体系", "世論調査・投票"],
+      distractors: ["革命", "イデオロギー、思想体系", "〜を脅かす、危険にさらす"],
       confusableSpellings: ["voat", "votte"],
       passive: {
         etymology: "ラテン語 'votum'（誓い・願い）から。'vovere'（誓う）が語根。古代ローマでは神への誓いとして意思表示をしたことが、「投票」の概念に発展した。",
@@ -11547,7 +11547,7 @@ export const WORD_DATA = [
       pos: "noun",
       categoryId: 12,
       meanings: [
-        { meaning: "ウェブ、インターネット", pos: "noun" },
+        { meaning: "インターネット（の）、ウェブ", pos: "noun" },
         { meaning: "クモの巣", pos: "noun" },
       ],
       pronunciation: "/wɛb/",
@@ -12809,7 +12809,7 @@ export const WORD_DATA = [
           blankAnswer: "nevertheless",
         },
       ],
-      distractors: ["それにもかかわらず、それでもやはり", "いくぶん、やや、多少", "〜を経由して、〜を通じて"],
+      distractors: ["その後、続いて", "いくぶん、やや、多少", "〜を経由して、〜を通じて"],
       confusableSpellings: ["neverthless", "nevertheles", "neverthe-less"],
       passive: {
         etymology: "'never'（決して〜ない）＋'the'（それでも）＋'less'（より少なく）が合わさった複合副詞。「それが少なくなることなく＝それにもかかわらず」という構造。",
@@ -15751,7 +15751,7 @@ export const WORD_DATA = [
           blankAnswer: "unknown",
         },
       ],
-      distractors: ["無傷の、손상されていない", "絶え間ない、常に続く", "豊富な、たくさんの"],
+      distractors: ["無傷の、損傷されていない", "絶え間ない、常に続く", "豊富な、たくさんの"],
       confusableSpellings: ["unknow", "unkown", "unnown"],
       passive: {
         etymology: "接頭辞 'un-'（否定）＋ 'known'（know の過去分詞）。「知られていない状態」を表す。",
@@ -15911,7 +15911,7 @@ export const WORD_DATA = [
           blankAnswer: "regardless",
         },
       ],
-      distractors: ["〜であるのに対して、一方で", "それにもかかわらず、それでもやはり", "〜を経由して、〜を通じて"],
+      distractors: ["〜であるのに対して、一方で", "条件付きで、場合によっては", "〜を経由して、〜を通じて"],
       confusableSpellings: ["irregardless", "regardles", "regardlass"],
       passive: {
         etymology: "'regard'（注意を向ける）＋ '-less'（～がない）。「注意なしに」→「何があっても構わず」という意味に発展した。",
@@ -20419,7 +20419,7 @@ export const WORD_DATA = [
           blankAnswer: "eliminate",
         },
       ],
-      distractors: ["確保する、保証する", "送信する、伝える", "〜をざっと見る、훑어보다"],
+      distractors: ["確保する、保証する", "送信する、伝える", "〜をざっと見る、斜め読みする"],
       confusableSpellings: ["elimenate", "elimminate", "eliminat"],
       passive: {
         etymology: "ラテン語 eliminare（戸外に追い出す）から。e-（ex-：外へ）＋ limen（敷居・境界）→「境界の外へ追い出す」。limen は「閾値（いきち）」を意味する心理学用語 threshold にも影響を与えた語根。",
@@ -22275,7 +22275,7 @@ export const WORD_DATA = [
           blankAnswer: "raw",
         },
       ],
-      distractors: ["普遍的な", "生まれ故郷の、出身地の", "無傷の、손상されていない"],
+      distractors: ["普遍的な", "生まれ故郷の、出身地の", "無傷の、損傷されていない"],
       confusableSpellings: ["row", "raaw", "rraw"],
       passive: {
         etymology: "古英語 'hrēaw'（生の、調理されていない）から。ゲルマン祖語 '*khrawaz' に由来。",
@@ -25044,7 +25044,7 @@ export const WORD_DATA = [
       categoryId: 15,
       meanings: [
         { meaning: "具体的な", pos: "adjective" },
-        { meaning: "コンクリート製の", pos: "adjective" },
+        { meaning: "コンクリート製の、具体的な", pos: "adjective" },
       ],
       pronunciation: "/ˈkɒŋkriːt/",
       syllables: "con-crete",
@@ -27280,7 +27280,7 @@ export const WORD_DATA = [
       pos: "noun",
       categoryId: 11,
       meanings: [
-        { meaning: "ショッピングモール", pos: "noun" },
+        { meaning: "大型商業施設、ショッピングモール", pos: "noun" },
         { meaning: "遊歩道", pos: "noun" },
       ],
       pronunciation: "/mɔːl/",
@@ -28113,7 +28113,7 @@ export const WORD_DATA = [
       categoryId: 18,
       meanings: [
         { meaning: "貴重な、大切な", pos: "adjective" },
-        { meaning: "高価な、귀중한", pos: "adjective" },
+        { meaning: "高価な、貴重な", pos: "adjective" },
       ],
       pronunciation: "/ˈpreʃəs/",
       syllables: "pre-cious",
@@ -29616,7 +29616,7 @@ export const WORD_DATA = [
       pos: "verb",
       categoryId: 1,
       meanings: [
-        { meaning: "〜をざっと見る、훑어보다", pos: "verb" },
+        { meaning: "〜をざっと見る、斜め読みする", pos: "verb" },
         { meaning: "〜をスキャンする、電子読み取りする", pos: "verb" },
       ],
       pronunciation: "/skæn/",
@@ -31995,7 +31995,7 @@ export const WORD_DATA = [
           blankAnswer: "nonetheless",
         },
       ],
-      distractors: ["それにもかかわらず、とにかく", "〜であるのに対して、一方で", "それにもかかわらず、それでも"],
+      distractors: ["その間に、一方で", "〜であるのに対して、一方で", "その結果として、したがって"],
       confusableSpellings: ["nontheless", "nonethe less", "nontheless"],
       passive: {
         etymology: "'none'（まったく～でない）＋ 'the'（それだけ）＋ 'less'（より少なく）の3語が融合。直訳すると「それだけ少ないわけでもない」＝「それでも同様に」というニュアンス。",
@@ -33208,7 +33208,7 @@ export const WORD_DATA = [
           blankAnswer: "persist",
         },
       ],
-      distractors: ["〜を製造する、生産する", "〜を調整する、調節する", "〜をざっと見る、훑어보다"],
+      distractors: ["〜を製造する、生産する", "〜を調整する、調節する", "〜をざっと見る、斜め読みする"],
       confusableSpellings: ["persisit", "perist", "persistt"],
       passive: {
         etymology: "ラテン語 persistere に由来。per-（完全に・ずっと）＋ sistere（立つ、とどまる）の組み合わせ。「ずっとそこに立ち続ける」がもとの意味。",
@@ -33737,7 +33737,7 @@ export const WORD_DATA = [
       categoryId: 6,
       meanings: [
         { meaning: "罰則、刑罰", pos: "noun" },
-        { meaning: "ペナルティ（スポーツ）", pos: "noun" },
+        { meaning: "罰則、ペナルティ", pos: "noun" },
       ],
       pronunciation: "/ˈpenəlti/",
       syllables: "pen-al-ty",
@@ -34407,7 +34407,7 @@ export const WORD_DATA = [
       categoryId: 13,
       meanings: [
         { meaning: "空想、幻想", pos: "noun" },
-        { meaning: "ファンタジー（ジャンル）", pos: "noun" },
+        { meaning: "空想、ファンタジー", pos: "noun" },
       ],
       pronunciation: "/ˈfæntəsi/",
       syllables: "fan-ta-sy",
@@ -35184,7 +35184,7 @@ export const WORD_DATA = [
           blankAnswer: "versus",
         },
       ],
-      distractors: ["〜を経由して、〜を通じて", "〜であるのに対して、一方で", "同時に"],
+      distractors: ["〜を経由して、〜を通じて", "〜に加えて、さらに", "同時に"],
       confusableSpellings: ["versas", "versuss", "vursus"],
       passive: {
         etymology: "ラテン語 versus＝vertere（向ける・回す）の過去分詞→「〜に向けられた」→対立・比較を表す前置詞に。",
@@ -38124,7 +38124,7 @@ export const WORD_DATA = [
       distractors: ["反対の、逆の", "硬い、曲がらない", "絶え間ない、常に続く"],
       confusableSpellings: ["abundent", "abbundant", "abundunt"],
       passive: {
-        etymology: "ラテン語 abundare（넘れ流れる）から。ab-（離れて・強意）＋unda（波）→「波があふれ出る」イメージ。",
+        etymology: "ラテン語 abundare（流れ出る）から。ab-（離れて・強意）＋unda（波）→「波があふれ出る」イメージ。",
         tips: "「豊富」という意味では abundant in ～ か abundant with ～ が使われる。「この地域は魚が豊富」はThis area is abundant in fish. が正しく、abundant of fish とは言えない点に注意。",
         confusables: "plentiful（十分にある）と似ているが、abundantはplentifulより「あり余るほど」というニュアンスが強い。copious（大量の）も類義語だが、よりフォーマルな文脈で使われる。",
         collocations: ["abundant resources", "abundant evidence", "abundant in wildlife"],
@@ -43291,7 +43291,7 @@ export const WORD_DATA = [
       categoryId: 13,
       meanings: [
         { meaning: "恐怖、戦慄", pos: "noun" },
-        { meaning: "ホラー（ジャンル）", pos: "noun" },
+        { meaning: "恐怖、ホラー", pos: "noun" },
       ],
       pronunciation: "/ˈhɒrər/",
       syllables: "hor-ror",
@@ -43323,7 +43323,7 @@ export const WORD_DATA = [
       categoryId: 14,
       meanings: [
         { meaning: "集団、群れ", pos: "noun" },
-        { meaning: "（データの）クラスター", pos: "noun" },
+        { meaning: "集団、群れ、クラスター", pos: "noun" },
       ],
       pronunciation: "/ˈklʌstər/",
       syllables: "clus-ter",
@@ -44102,7 +44102,7 @@ export const WORD_DATA = [
           blankAnswer: "outstanding",
         },
       ],
-      distractors: ["壮大な、素晴らしい", "不可欠な、極めて重要な", "重要な"],
+      distractors: ["平凡な、普通の", "不可欠な、極めて重要な", "重要な"],
       confusableSpellings: ["outstandding", "outstaning", "outstandeng"],
       passive: {
         etymology: "'out-'（外に・超えて）＋ 'standing'（立っている）→「他より際立って外に立っている」が原義。群衆の中でひときわ目立つ存在のイメージ。",
@@ -44229,7 +44229,7 @@ export const WORD_DATA = [
           blankAnswer: "indispensable",
         },
       ],
-      distractors: ["不可欠な、極めて重要な", "巨大な、莫大な", "総計の、全体の"],
+      distractors: ["任意の、選択的な", "巨大な、莫大な", "総計の、全体の"],
       confusableSpellings: ["indispensible", "indispensabel", "indispenseable"],
       passive: {
         etymology: "in-（否定）+ dis-（否定・分離）+ pens（ラテン語 pendere「支払う・量る」）+ -able（形容詞語尾）。「なしで済ませることができない」が原義。",
@@ -44421,7 +44421,7 @@ export const WORD_DATA = [
           blankAnswer: "fragile",
         },
       ],
-      distractors: ["繊細な、壊れやすい", "利用できる、入手可能な", "具体的な"],
+      distractors: ["丈夫な、頑丈な", "利用できる、入手可能な", "具体的な"],
       confusableSpellings: ["fragil", "fragle", "fragjile"],
       passive: {
         etymology: "ラテン語 fragilis から。frangere（壊す・折る）+ -ilis（形容詞語尾）。fragment（破片）や fracture（骨折）も同じ語根 frang-。",
@@ -44738,7 +44738,7 @@ export const WORD_DATA = [
           blankAnswer: "inherent",
         },
       ],
-      distractors: ["内部の、社内の", "熱帯の、熱帯性の", "先住民の；固有の"],
+      distractors: ["内部の、社内の", "熱帯の、熱帯性の", "後天的な、習得された"],
       confusableSpellings: ["inherant", "inhearent", "inherrent"],
       passive: {
         etymology: "ラテン語 'inhaerere'（くっついている・固着している）が語源。'in-'（中に）＋ 'haerere'（くっつく）の組み合わせ。'adhere'（付着する）や 'coherent'（一貫した）も同じ語根を持つ。",
@@ -47807,7 +47807,7 @@ export const WORD_DATA = [
           blankAnswer: "sole",
         },
       ],
-      distractors: ["適切な、正しい", "無傷の、손상されていない", "カジュアルな、くだけた"],
+      distractors: ["適切な、正しい", "無傷の、損傷されていない", "カジュアルな、くだけた"],
       confusableSpellings: ["soal", "soel", "soul"],
       passive: {
         etymology: "ラテン語 'solus'（一人の、孤独な）。'solo'（ソロ）、'solitary'（孤独な）と同語根。",
@@ -52590,7 +52590,7 @@ export const WORD_DATA = [
       pos: "noun",
       categoryId: 11,
       meanings: [
-        { meaning: "樽、バレル", pos: "noun" },
+        { meaning: "樽、円筒形容器", pos: "noun" },
         { meaning: "（銃の）銃身", pos: "noun" },
       ],
       pronunciation: "/ˈbærəl/",
@@ -54345,7 +54345,7 @@ export const WORD_DATA = [
       pos: "adjective",
       categoryId: 15,
       meanings: [
-        { meaning: "無傷の、손상されていない", pos: "adjective" },
+        { meaning: "無傷の、損傷されていない", pos: "adjective" },
         { meaning: "完全な状態の", pos: "adjective" },
       ],
       pronunciation: "/ɪnˈtækt/",
@@ -55319,7 +55319,7 @@ export const WORD_DATA = [
           blankAnswer: "impair",
         },
       ],
-      distractors: ["〜をざっと見る、훑어보다", "〜を隠す、秘密にする", "引きつける、魅了する"],
+      distractors: ["〜をざっと見る、斜め読みする", "〜を隠す、秘密にする", "引きつける、魅了する"],
       confusableSpellings: ["empair", "impare"],
       passive: {
         etymology: "古フランス語 'empeirer'（悪化させる）に由来。ラテン語 'im-'（否定・悪化）＋ 'pejorare'（悪化する、'pejor'＝より悪い）が語源。",
