@@ -13,6 +13,7 @@
   --warning: #F39C12;
   --text: #E8E8F0;
   --text-muted: #888899;
+  --text-example: #cccccc;
   --border: rgba(255,255,255,0.08);
   --heatmap-h: 64px;
   --footer-h: 56px;
@@ -439,8 +440,8 @@ body.swiped-once .swipe-hint { display: none !important; }
 }
 
 /* カード種別ごとの word-example 調整 */
-.card-intro  .word-example { font-size: 16px; }
-.card-recall .word-example { font-size: 20px; color: #ccc; }
+.card-intro  .word-example { font-size: 20px; color: var(--text-example); }
+.card-recall .word-example { font-size: 20px; color: var(--text-example); }
 
 /* 日本語訳トグル */
 .ja-toggle-row {
@@ -467,7 +468,7 @@ body.swiped-once .swipe-hint { display: none !important; }
 .example-ja {
   display: none;
   font-size: 13px;
-  color: var(--text-muted);
+  color: var(--text-example);
   line-height: 1.5;
   padding-left: 12px;
   border-left: 2px solid var(--border);
