@@ -90,6 +90,16 @@ def validate(data: list[dict]) -> tuple[list[str], list[str]]:
         if correct_meaning and correct_meaning in distractors:
             errors.append(f"[{word}] distractor duplicates correct answer '{correct_meaning}'")
 
+        # choiceLabel バリデーション（定義されている場合のみ）
+        choice_label = entry.get("choiceLabel")
+        if choice_label is not None:
+            if not choice_label.strip():
+                errors.append(f"[{word}] choiceLabel is empty string (use undefined instead)")
+            elif re.search(r'[ァ-ヾー]{3,}', choice_label):
+                errors.append(f"[{word}] choiceLabel contains katakana (3+ chars): '{choice_label}'")
+            elif choice_label in distractors:
+                errors.append(f"[{word}] choiceLabel duplicates a distractor: '{choice_label}'")
+
         # distractors 同士に重複がない
         if len(distractors) != len(set(distractors)):
             errors.append(f"[{word}] distractors contain duplicates: {distractors}")

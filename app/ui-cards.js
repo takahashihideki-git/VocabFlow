@@ -20,6 +20,17 @@ export function getMeaning(wordStr, pos) {
 }
 
 // -------------------------------------------------------
+// Recognition 四択の正解ラベルを取得
+// choiceLabel が定義されていればそれを使用（カタカナ推測防止）
+// 未定義の場合は meanings[0].meaning にフォールバック
+// -------------------------------------------------------
+function getChoiceText(wordStr, pos) {
+  const wd = WORD_MAP.get(wordStr);
+  if (wd?.choiceLabel) return wd.choiceLabel;
+  return getMeaning(wordStr, pos);
+}
+
+// -------------------------------------------------------
 // 例文を取得（WORD_DATA.examples[0] → フォールバック）
 // 戻り値: { full: string, blank: string }
 //   full  — 完成文（blankAnswer を <b> でハイライト）
@@ -208,8 +219,10 @@ export class CardRenderer {
     const distractorMeanings = wd?.distractors?.length >= 3
       ? wd.distractors.slice(0, 3)
       : getDistractors(card.word, 3).map(w => getMeaning(w, pos));
+    // choiceLabel があればカタカナ推測防止のため meanings の代わりに使用
+    const correctText = getChoiceText(wordStr, pos);
     const choices = card.shuffledChoices ?? this._shuffle([
-      { text: meaning,               isCorrect: true },
+      { text: correctText,           isCorrect: true },
       { text: distractorMeanings[0], isCorrect: false },
       { text: distractorMeanings[1], isCorrect: false },
       { text: distractorMeanings[2], isCorrect: false },
@@ -690,7 +703,8 @@ export class CardRenderer {
     if (card.userAnswer) {
       if (card.cardType === 'recognition' || card.cardType === 'recall') {
         // 選んだボタンを正誤で色付け、不正解なら正解ボタンも緑に
-        const correctText = card.cardType === 'recognition' ? meaning : wordStr;
+        // recognition は choiceLabel を優先（getMeaning ではなく getChoiceText を使用）
+        const correctText = card.cardType === 'recognition' ? getChoiceText(wordStr, pos) : wordStr;
         el.querySelectorAll('.choice-btn').forEach(btn => {
           if (btn.textContent === card.userAnswer) {
             btn.classList.add(card.result === 'wrong' ? 'wrong' : 'correct');
