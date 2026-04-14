@@ -637,7 +637,7 @@ class VocabFlowApp {
     if (stageBefore !== 'mastered' && word.stage === 'mastered') {
       const rawWord = typeof word.word === 'object' ? word.word : {};
       const wordStr = rawWord.word || `word_${word.wordId}`;
-      this.showToast(`⭐ ${wordStr} がマスターされました`);
+      this.showToast(`⭐ ${wordStr} をマスターしました`);
       this._checkWaveComplete(word.waveNumber);
     }
 
