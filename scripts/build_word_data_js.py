@@ -83,6 +83,11 @@ def entry_to_js(entry: dict, indent: int = 2) -> str:
     dist_str = ", ".join(json.dumps(d, ensure_ascii=False) for d in dist)
     lines.append(f'{pad2}distractors: [{dist_str}],')
 
+    # choiceLabel（Recognition 四択の正解ラベル。省略時は meanings[0].meaning を使用）
+    choice_label = entry.get("choiceLabel")
+    if choice_label is not None:
+        lines.append(f'{pad2}choiceLabel: {json.dumps(choice_label, ensure_ascii=False)},')
+
     # confusableSpellings
     conf = entry.get("confusableSpellings") or []
     conf_str = ", ".join(json.dumps(c, ensure_ascii=False) for c in conf)
