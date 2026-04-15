@@ -20,7 +20,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み。`maxActiveWaves` 上限撤廃（解放条件ゲートのみで制御） |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し |
-| `core/word-data.js` | ✅ 全1900語フルデータ（meanings/examples/passive等）。`scripts/build_word_data_js.py` でビルド済み。**品質監査（2026-04-09）で全Phase修正適用済み**（詳細は下記「word-data.js 品質監査ログ」参照） |
+| `core/word-data.js` | ✅ 全1900語フルデータ（meanings/examples/passive等）。`scripts/build_word_data_js.py` でビルド済み。**品質監査（2026-04-09）で全Phase修正適用済み**（詳細は下記「word-data.js 品質監査ログ」参照）。**choiceLabel 144件反映済み**（2026-04-15: ビルドスクリプトの出力漏れ修正 → 再ビルド） |
 | `core/labels.js` | ✅ LABELS定数・formatH/formatPRecall/sigmaToConfidence。app/ 全体で使用 |
 | `core/category-images.js` | ✅ Unsplash 画像URL（scripts/fetch_category_images.js で自動生成、19カテゴリ×10枚） |
 
@@ -41,7 +41,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加。スタート画面タグラインを動的グリーティングに変更（3dot loading アニメーション付き）。wave全mastered達成オーバーレイ（`#overlay-wavecomplete`）追加。`#pc-nav-btns` を `#card-wrapper` 内に移動（カード右端近くに配置）。セッション完了画面: btn-primary（続ける）を time-controls の上に配置。**`#heatmap-section` を `#app` 外（body直下）に移動し常時表示**。`#card-area`・`#footer` は boot まで `display:none`。**セッション完了画面・復習なし画面のリセットボタンを削除**（スタート画面のみに集約）。**セッション完了タイトル（`#oc-title`）を動的メッセージに変更**（`_getSessionTitle()` で設定） |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`、Wave 1/中間/最終波でメッセージ分岐）。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止）。**スタート画面「リセットして再開」に `confirm()` ダイアログ追加**（誤操作防止）。**`_getSessionTitle()`**: セッション完了タイトルをパフォーマンス連動で動的生成（久しぶり復帰・全問正解・正解率別に各複数バリエーションからランダム選択）。`_elapsedAtBoot` で前回 save からの経過日数を保持し久しぶり検出に使用（正解率 50%以上のときのみ「おかえり。」等を表示） |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`、Wave 1/中間/最終波でメッセージ分岐）。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止）。**スタート画面「リセットして再開」に `confirm()` ダイアログ追加**（誤操作防止）。**`_getSessionTitle()`**: セッション完了タイトルをパフォーマンス連動で動的生成（久しぶり復帰・全問正解・正解率別に各複数バリエーションからランダム選択）。`_elapsedAtBoot` で前回 save からの経過日数を保持し久しぶり検出に使用（正解率 50%以上のときのみ「おかえり。」等を表示）。**Bug 14 修正**: `_boot()` で `#wordwave-body` をクリアしてから新 WordWaveRenderer を生成（スタート画面で一度開いた後の重複表示を防止） |
 | `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。**Passive カードは1回に1セクションをローテーション表示**（`WordState.passiveCursor` で管理、`Card.passiveSection` に確定値を保存して履歴ビューでも再現）。collocations チップは Google 検索リンク（`<a>`）。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加。Recognition 回答後に単語TTS・Recall 回答後に例文TTS。**Recall 回答後に `blankAnswer`（活用形）で例文を完成表示**（選択タップ時に差し替え・履歴ビューも対応）。**`getChoiceText()`**: Recognition 四択の正解ラベルに `choiceLabel ?? meanings[0].meaning` の fallback を実装（カタカナ推測防止）。履歴ビューの正解ボタンハイライトも同ロジックで統一 |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加。Wave 表示を学習済み最大波番号に統一 |
@@ -55,6 +55,20 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 - 現時点で未解決のバグはなし。
 - 検討候補: Wave unlock 条件を review 回数ベースに変更（h 成長速度から切り離す）
+
+---
+
+## 2026-04-15 修正ログ
+
+### choiceLabel ビルド漏れ修正
+
+`scripts/build_word_data_js.py` の `entry_to_js()` に `choiceLabel` 出力処理が抜けていたため、`word_data_final.json` の 144 件が `core/word-data.js` に反映されていなかった。`distractors` の直後に `choiceLabel`（値が null のエントリは出力しない）を追加し、`word_data_final.json` から再ビルド。
+
+### Bug 14: Word Wave が2回繰り返して表示される
+
+スタート画面で Word Wave を一度開いた後、セッション開始 → セッション完了 → 再度 Word Wave を開くと Wave 1-19 が2回表示される。
+原因: `_initHeatmapEarly()` で `WordWaveRenderer` を生成・`_build()` 済みの状態で `_boot()` が呼ばれると、`#wordwave-body` をクリアせず新インスタンスを生成するため `_build()` が既存 DOM に Wave 1-19 を再 append していた。
+修正: `_boot()` 内の新インスタンス生成前に `#wordwave-body.innerHTML = ''` でクリア（reset パスと同じ処理）。（`app/app.js` `_boot()`）
 
 ---
 
@@ -313,6 +327,11 @@ wave が解放済みでも最初の単語がセッションに登場した際に
 修正③: `generateSession()` 前後の `waveUnlockEvents` 差分を取り、このセッションで解放直後の
 wave も確実にトーストを発火するよう belt-and-suspenders 対応。
 （`app/app.js` `_startSession` / `_saveState` / `core/models.js` `LearnerState.toJSON`）。
+
+### Bug 14: Word Wave が2回繰り返して表示される（修正済み）
+スタート画面で Word Wave を一度開いた後、セッション開始 → セッション完了 → 再度 Word Wave を開くと Wave 1-19 が2回表示される。
+原因: `_initHeatmapEarly()` で `WordWaveRenderer` を生成・`_build()` 済みの DOM に対し、`_boot()` が `#wordwave-body` をクリアせず新インスタンスを生成するため `_build()` が Wave 1-19 を再 append していた。
+修正: `_boot()` 内の新インスタンス生成前に `#wordwave-body.innerHTML = ''` を追加。（`app/app.js` `_boot()`）
 
 ### savedAt メモリ未更新バグ（修正済み → Bug 13 修正①と同一）
 `_saveState()` 冒頭で `this.state.savedAt = Date.now()` を追加。
