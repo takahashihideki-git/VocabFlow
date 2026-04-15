@@ -284,8 +284,9 @@ class VocabFlowApp {
     const tooltip = document.getElementById('heatmap-tooltip');
     this.heatmap = new HeatmapRenderer(canvas, tooltip, this.state.words);
 
-    // Word Wave
+    // Word Wave（前回ビルドの DOM が残っている場合はクリアしてから再生成）
     const wwOverlay = document.getElementById('wordwave-overlay');
+    wwOverlay.querySelector('#wordwave-body').innerHTML = '';
     this.wordWave = new WordWaveRenderer(wwOverlay, this.state, () => this._saveState());
 
     // タッチ非対応環境（PC）ではナビボタンを表示し、body に no-touch クラスを付与
