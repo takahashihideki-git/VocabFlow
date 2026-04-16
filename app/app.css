@@ -557,6 +557,7 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 .word-input:focus { border-color: var(--accent); }
 .word-input.correct { border-color: var(--success); background: rgba(46,204,113,0.1); }
 .word-input.wrong   { border-color: var(--danger); background: rgba(231,76,60,0.1); }
+.word-input.near    { border-color: var(--warning); background: rgba(243,156,18,0.08); }
 
 /* Submit / Next buttons */
 .btn-primary {
@@ -604,6 +605,19 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 .answer-feedback.correct { background: rgba(46,204,113,0.15); color: var(--success); }
 .answer-feedback.wrong   { background: rgba(231,76,60,0.12); color: var(--danger); }
 .answer-feedback.near    { background: rgba(243,156,18,0.15); color: var(--warning); }
+.giveup-btn {
+  background: none;
+  border: 1px solid rgba(243,156,18,0.5);
+  border-radius: 6px;
+  color: var(--warning);
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-left: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.giveup-btn:hover { opacity: 1; background: rgba(243,156,18,0.1); }
+.giveup-btn:disabled { opacity: 0.4; cursor: default; }
 
 /* ===== Footer ===== */
 

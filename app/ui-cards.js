@@ -349,30 +349,76 @@ export class CardRenderer {
       if (answered) return;
       const val = input.value.trim();
       if (!val) return;
-      answered = true;
 
       card.userAnswer = val;
-      const result    = this.engine.judgeDictation(val, wordStr);
-      const isCorrect = result !== 'wrong';
+      const result = this.engine.judgeDictation(val, wordStr);
 
-      input.className = `word-input ${isCorrect ? 'correct' : 'wrong'}`;
-      input.disabled  = true;
-      submit.disabled = true;
+      if (result === 'perfect') {
+        answered = true;
+        input.className = 'word-input correct';
+        input.disabled  = true;
+        submit.disabled = true;
+        fbArea.innerHTML = `<div class="answer-feedback correct">✓ Perfect!</div>`;
 
-      let fbClass, fbText;
-      if      (result === 'perfect')   { fbClass = 'correct'; fbText = '✓ Perfect!'; }
-      else if (result === 'near_miss') { fbClass = 'near';    fbText = `△ Near miss — 正解: ${wordStr}`; }
-      else if (result === 'phonetic')  { fbClass = 'near';    fbText = `△ Phonetic match — 正解: ${wordStr}`; }
-      else                             { fbClass = 'wrong';   fbText = `✗ 不正解 — 正解: ${wordStr}`; }
+        if (card._nearMissState) {
+          // near_miss → perfect 上書き: SRS を正解で再処理
+          const w = card.word, s = card._nearMissState;
+          w.h = s.h; w.mu = s.mu; w.sigma = s.sigma; w.stage = s.stage;
+          w.stuckCount = s.stuckCount; w.needsHandwrite = s.needsHandwrite;
+          w.peakH = s.peakH; w.correctCount = s.correctCount;
+          w.incorrectCount = s.incorrectCount; w.reviewCount = s.reviewCount;
+          w.lastReviewed = s.lastReviewed; w.spellingFlag = s.spellingFlag;
+          card._nearMissState = null;
+          card._dictationNearMiss = false;
+          card._dictationNearMissOverwrite = true;
+          card._srsProcessed = false;
+        }
+        this._markReady('perfect');
 
-      fbArea.innerHTML = `<div class="answer-feedback ${fbClass}">${fbText}</div>`;
+      } else if (result === 'near_miss' || result === 'phonetic') {
+        const fbText = result === 'near_miss'
+        input.className = 'word-input near';
+        fbArea.innerHTML = `<div class="answer-feedback near">惜しい、もう一度 <button class="giveup-btn" id="giveup-btn">ギブアップ</button></div>`;
+        input.select();
 
-      if (!isCorrect) {
+        const giveupBtn = fbArea.querySelector('#giveup-btn');
+        giveupBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          answered = true;
+          input.value    = wordStr;
+          input.className = 'word-input wrong';
+          input.disabled  = true;
+          submit.disabled = true;
+          giveupBtn.disabled = true;
+          // SRS 不正解は既に登録済み
+        });
+
+        if (!card._srsProcessed) {
+          // word 状態を保存してから不正解として登録（リトライ可）
+          const w = card.word;
+          card._nearMissState = {
+            h: w.h, mu: w.mu, sigma: w.sigma, stage: w.stage,
+            stuckCount: w.stuckCount, needsHandwrite: w.needsHandwrite,
+            peakH: w.peakH, correctCount: w.correctCount,
+            incorrectCount: w.incorrectCount, reviewCount: w.reviewCount,
+            lastReviewed: w.lastReviewed, spellingFlag: w.spellingFlag
+          };
+          card._dictationNearMiss = true;
+          this._markReady('wrong');
+          answered = false; // 再入力を許可
+        }
+
+      } else {
+        // 完全不正解
+        answered = true;
+        input.className = 'word-input wrong';
+        input.disabled  = true;
+        submit.disabled = true;
+        fbArea.innerHTML = `<div class="answer-feedback wrong">✗ 不正解 — 正解: ${wordStr}</div>`;
         el.classList.add('card-shake');
         el.addEventListener('animationend', () => el.classList.remove('card-shake'), { once: true });
+        this._markReady('wrong');
       }
-
-      this._markReady(result);
     };
 
     submit.addEventListener('click', (e) => { e.stopPropagation(); doSubmit(); });

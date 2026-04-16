@@ -623,13 +623,18 @@ class VocabFlowApp {
       if (result !== 'wrong') {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
         if (countable) this.sessionCorrect++;
+        // near_miss → perfect 上書き: 先に計上した sessionWrong を取り消す
+        if (card._dictationNearMissOverwrite && countable) this.sessionWrong--;
       } else {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
         if (countable) this.sessionWrong++;
-        const count = this.retryCount.get(word.wordId) || 0;
-        if (count < this.config.maxRetryPerCard) {
-          this._insertRetry(card, stageBefore);
-          this.retryCount.set(word.wordId, count + 1);
+        // near_miss 不正解はその場でリトライ可能なのでリトライカード挿入不要
+        if (!card._dictationNearMiss) {
+          const count = this.retryCount.get(word.wordId) || 0;
+          if (count < this.config.maxRetryPerCard) {
+            this._insertRetry(card, stageBefore);
+            this.retryCount.set(word.wordId, count + 1);
+          }
         }
       }
     }
