@@ -1045,6 +1045,8 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   font-size: 12px;
   color: var(--text-muted);
   flex-wrap: wrap;
+  margin-top: 0.8rem;
+  line-height: 0.8;
 }
 
 #wordwave-stats b { color: var(--text); font-weight: 600; }
