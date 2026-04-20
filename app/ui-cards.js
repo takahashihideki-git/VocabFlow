@@ -386,10 +386,10 @@ export class CardRenderer {
           e.stopPropagation();
           answered = true;
           input.value    = wordStr;
-          input.className = 'word-input wrong';
+          input.className = 'word-input correct';
           input.disabled  = true;
           submit.disabled = true;
-          giveupBtn.disabled = true;
+          fbArea.innerHTML = `<div class="answer-feedback near dismissed">惜しい、もう一度</div>`;
           // SRS 不正解は既に登録済み
         });
 
