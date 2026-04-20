@@ -18,7 +18,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/config.js` | ✅ handwriteStuckThreshold: 3・recognitionThresholdH: 2.0・masteredThresholdH: 14.0 追加済み。`maxActiveWaves` 撤廃（wave 解放はSRSペースに委ねる）。**waveSize: 100**（朝集中学習者の復習なし解消のため 50→100 に変更済み） |
 | `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded/passiveCursor 追加。Card: done/userAnswer/shuffledChoices/bgUrl/passiveSection 追加。LearnerState: handwriteModeEnabled・savedAt 追加 |
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
-| `core/wave-manager.js` | ✅ Bug 5 修正済み。`maxActiveWaves` 上限撤廃（解放条件ゲートのみで制御） |
+| `core/wave-manager.js` | ✅ Bug 5 修正済み。`maxActiveWaves` 上限撤廃（解放条件ゲートのみで制御）。`checkUnlock` で `getWordsInWave(nextWave).length === 0` の wave は activeWaves に push しない防御追加 |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し。**Spec §4.3 配置ルール更新（2026-04-20）**: `_enforceMaxConsecutive()` 追加（同種最大2連続 best effort）。dictation/handwrite を後半固定から解放し review pool に統合 |
 | `core/word-data.js` | ✅ 全1900語フルデータ（meanings/examples/passive等）。`scripts/build_word_data_js.py` でビルド済み。**品質監査（2026-04-09）で全Phase修正適用済み**（詳細は下記「word-data.js 品質監査ログ」参照）。**choiceLabel 144件反映済み**（2026-04-15: ビルドスクリプトの出力漏れ修正 → 再ビルド） |
 | `core/labels.js` | ✅ LABELS定数・formatH/formatPRecall/sigmaToConfidence。app/ 全体で使用 |
@@ -41,7 +41,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加。スタート画面タグラインを動的グリーティングに変更（3dot loading アニメーション付き）。wave全mastered達成オーバーレイ（`#overlay-wavecomplete`）追加。`#pc-nav-btns` を `#card-wrapper` 内に移動（カード右端近くに配置）。セッション完了画面: btn-primary（続ける）を time-controls の上に配置。**`#heatmap-section` を `#app` 外（body直下）に移動し常時表示**。`#card-area`・`#footer` は boot まで `display:none`。**セッション完了画面・復習なし画面のリセットボタンを削除**（スタート画面のみに集約）。**セッション完了タイトル（`#oc-title`）を動的メッセージに変更**（`_getSessionTitle()` で設定） |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`、Wave 1/中間/最終波でメッセージ分岐）。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止）。**スタート画面「リセットして再開」に `confirm()` ダイアログ追加**（誤操作防止）。**`_getSessionTitle()`**: セッション完了タイトルをパフォーマンス連動で動的生成（久しぶり復帰・全問正解・正解率別に各複数バリエーションからランダム選択）。`_elapsedAtBoot` で前回 save からの経過日数を保持し久しぶり検出に使用（正解率 50%以上のときのみ「おかえり。」等を表示）。**Bug 14 修正**: `_boot()` で `#wordwave-body` をクリアしてから新 WordWaveRenderer を生成（スタート画面で一度開いた後の重複表示を防止）。**Dictation near_miss 対応**: `_onCardAnswered` で `card._dictationNearMiss` フラグ時はリトライカード挿入をスキップ、`card._dictationNearMissOverwrite` フラグ時は `sessionWrong--` で統計を補正 |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`）: 各波クリアは「Wave N クリア！」、全非除外語が mastered になった瞬間のみ「全波制覇」で置き換え。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止）。**スタート画面「リセットして再開」に `confirm()` ダイアログ追加**（誤操作防止）。**`_getSessionTitle()`**: セッション完了タイトルをパフォーマンス連動で動的生成（久しぶり復帰・全問正解・正解率別に各複数バリエーションからランダム選択）。`_elapsedAtBoot` で前回 save からの経過日数を保持し久しぶり検出に使用（正解率 50%以上のときのみ「おかえり。」等を表示）。**Bug 14 修正**: `_boot()` で `#wordwave-body` をクリアしてから新 WordWaveRenderer を生成（スタート画面で一度開いた後の重複表示を防止）。**Dictation near_miss 対応**: `_onCardAnswered` で `card._dictationNearMiss` フラグ時はリトライカード挿入をスキップ、`card._dictationNearMissOverwrite` フラグ時は `sessionWrong--` で統計を補正。**DEV_CONFIG に `totalWords: DEV_WORD_COUNT` 追加**（dev モードで Wave 4 以降が activeWaves に混入しないよう修正） |
 | `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。**Passive カードは1回に1セクションをローテーション表示**（`WordState.passiveCursor` で管理、`Card.passiveSection` に確定値を保存して履歴ビューでも再現）。collocations チップは Google 検索リンク（`<a>`）。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加。Recognition 回答後に単語TTS・Recall 回答後に例文TTS。**Recall 回答後に `blankAnswer`（活用形）で例文を完成表示**（選択タップ時に差し替え・履歴ビューも対応）。**`getChoiceText()`**: Recognition 四択の正解ラベルに `choiceLabel ?? meanings[0].meaning` の fallback を実装（カタカナ推測防止）。履歴ビューの正解ボタンハイライトも同ロジックで統一。**Dictation near_miss / phonetic を不正解扱いに変更**: 入力時に word 状態をスナップショット保存 → `_markReady('wrong')` で即座に SRS 不正解登録 → 再入力可。再入力で perfect が出たらスナップショット復元 → `_srsProcessed = false` → `_markReady('perfect')` で正解上書き。フィードバックは「惜しい、もう一度 \| ギブアップ」（正解を見せない）。**ギブアップ押下で input を緑（correct）強調表示・フィードバックを dismissed（opacity 0.3）でグレーアウト**（2026-04-20） |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
 | `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加。Wave 表示を学習済み最大波番号に統一 |
@@ -59,6 +59,24 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 ---
 
 ## 2026-04-20 修正ログ
+
+### 全波制覇オーバーレイの条件修正
+
+**変更前**: `waveNumber === maxWave`（最後の波番号がクリア）で「全波制覇」を表示。他の波にまだ未完語があっても発火していた。
+
+**変更後**: 全非除外語が `stage === 'mastered'` になったときのみ「全波制覇」で置き換え。各波クリアは常に「Wave N クリア！」を表示する。
+
+（`app/app.js` `_showWaveComplete`）
+
+### dev モードで「第4波到達中」と誤表示される問題
+
+**原因**: `totalWaves = Math.ceil(config.totalWords / config.waveSize)` = `Math.ceil(1900 / 3)` = 634 となり、Wave 3 の解放条件を満たすと Wave 4 が `activeWaves` に push されていた（Wave 4 には語が存在しない）。
+
+**修正**:
+- `DEV_CONFIG` に `totalWords: DEV_WORD_COUNT`（= 9）を追加し `totalWaves` を正しく 3 に制限
+- `wave-manager.js` の `checkUnlock` で `getWordsInWave(nextWave).length === 0` の波は push しない防御を追加
+
+（`app/app.js` DEV_CONFIG / `core/wave-manager.js` `checkUnlock`）
 
 ### Dictation ギブアップ時 UI 改善・perfect 入力欄の強調表示維持
 
@@ -381,6 +399,12 @@ wave も確実にトーストを発火するよう belt-and-suspenders 対応。
 スタート画面で Word Wave を一度開いた後、セッション開始 → セッション完了 → 再度 Word Wave を開くと Wave 1-19 が2回表示される。
 原因: `_initHeatmapEarly()` で `WordWaveRenderer` を生成・`_build()` 済みの DOM に対し、`_boot()` が `#wordwave-body` をクリアせず新インスタンスを生成するため `_build()` が Wave 1-19 を再 append していた。
 修正: `_boot()` 内の新インスタンス生成前に `#wordwave-body.innerHTML = ''` を追加。（`app/app.js` `_boot()`）
+
+### 全波制覇オーバーレイの誤発火（修正済み）
+Wave N（最後の波）クリア時に他波が未完でも「全波制覇」が表示されていた。`_showWaveComplete` を全非除外語の `stage === 'mastered'` チェックに変更。（`app/app.js`）
+
+### dev モードで Wave 4 以降が activeWaves に混入（修正済み）
+`totalWaves = ceil(1900/3) = 634` により空 wave が unlock されスタート画面に「第4波到達中」と誤表示。`DEV_CONFIG` に `totalWords` を追加 + `checkUnlock` の防御追加。（`app/app.js` / `core/wave-manager.js`）
 
 ### savedAt メモリ未更新バグ（修正済み → Bug 13 修正①と同一）
 `_saveState()` 冒頭で `this.state.savedAt = Date.now()` を追加。
