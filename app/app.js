@@ -16,8 +16,10 @@ const IS_DEV = new URLSearchParams(location.search).has('dev');
 const STORAGE_KEY = IS_DEV ? 'vocabflow_state_dev_v1' : 'vocabflow_state_v1';
 
 // dev モード: 少数語 + 縮小 config で状態遷移・Wave 解放を素早く確認
+const DEV_WORD_COUNT = 9; // Wave 1〜3 × waveSize(3) = 9語
 const DEV_CONFIG = {
-  waveSize: 3,             // 3語×Wave → 10語で Wave 1〜3 が存在
+  waveSize: 3,             // 3語×Wave → Wave 1〜3 が存在
+  totalWords: DEV_WORD_COUNT,
   sessionSize: 5,
   maxNewPerSession: 3,
   masteredThresholdH: 2.0, // 早期 mastered
@@ -25,7 +27,6 @@ const DEV_CONFIG = {
   waveUnlockH: 1.5,
   waveUnlockRatio: 0.7,
 };
-const DEV_WORD_COUNT = 9; // Wave 1〜3 × waveSize(3) = 9語
 
 // -------------------------------------------------------
 // App

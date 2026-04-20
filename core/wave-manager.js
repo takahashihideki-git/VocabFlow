@@ -67,7 +67,7 @@ export class WaveManager {
       // candidateNext の解放条件を確認（in active か graduated かで判断）
       if (!this._meetsUnlockCondition(candidateNext) && !this._isGraduated(candidateNext)) break;
 
-      if (!this.state.activeWaves.includes(nextWave)) {
+      if (!this.state.activeWaves.includes(nextWave) && this.getWordsInWave(nextWave).length > 0) {
         this.state.activeWaves.push(nextWave);
         events.push({ waveNumber: nextWave, day: currentTime });
         this.state.waveUnlockEvents.push({ waveNumber: nextWave, day: currentTime });
