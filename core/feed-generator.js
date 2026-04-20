@@ -188,12 +188,12 @@ export class FeedGenerator {
     const urgentRecall    = recall.filter(c => c.word.pRecall(currentTime) < 0.5);
     const nonUrgentRecall = recall.filter(c => c.word.pRecall(currentTime) >= 0.5);
 
-    // 配置ルール:
-    // 1. Urgent → 前半
+    // 配置ルール（Spec §4.3）:
+    // 1. 同じカード種別は最大2枚まで連続可（最重要）
     // 2. 新語（Intro）は連続させず2〜3枚の復習カードを挟む
     // 3. 同一新語の Intro → 数枚後に Recognition
-    // 4. 箸休め（passive）を等間隔
-    // 5. Dictation / Handwrite はセッション後半
+    // 4. Urgent → 前半
+    // 5. 箸休め（passive）を等間隔
 
     const result = [];
 
@@ -203,16 +203,13 @@ export class FeedGenerator {
     const pairedRecognition  = recognition.filter(c =>  introWordIds.has(c.word.wordId));
     const reviewRecognition  = recognition.filter(c => !introWordIds.has(c.word.wordId));
 
-    // 前半: urgent → intro（挟み込み）→ non-urgent recall / review recognition
+    // urgent → intro（挟み込み）→ 残りの復習カード（dictation/handwrite も統合）
     result.push(...urgentRecall);
-    this._interleaveIntroRecognition(result, intro, pairedRecognition, [...nonUrgentRecall, ...reviewRecognition]);
+    this._interleaveIntroRecognition(result, intro, pairedRecognition,
+      [...nonUrgentRecall, ...reviewRecognition, ...dictation, ...handwrite]);
 
-    // 後半: dictation → handwrite
-    result.push(...dictation);
-    result.push(...handwrite);
-
-    // passive を等間隔に散りばめる
-    return this._scatterPassive(result, passive);
+    // 同種カード最大2連続ルールを適用してから passive を散布
+    return this._scatterPassive(this._enforceMaxConsecutive(result), passive);
   }
 
   _interleaveIntroRecognition(result, intros, recognitions, fillerCards) {
@@ -260,6 +257,28 @@ export class FeedGenerator {
     }
 
     result.push(...output);
+  }
+
+  _enforceMaxConsecutive(cards, max = 2) {
+    // Spec §4.3 ルール1: 同種カードが max+1 枚連続しそうなとき、
+    // 別種カードを割り込ませる（best effort — 他種が尽きた場合は諦めて積む）。
+    const remaining = [...cards];
+    const result = [];
+
+    while (remaining.length > 0) {
+      const tail = result.slice(-max);
+      const blocked = (tail.length === max && tail.every(c => c.cardType === tail[0].cardType))
+        ? tail[0].cardType : null;
+
+      if (blocked === null) {
+        result.push(remaining.shift());
+      } else {
+        const idx = remaining.findIndex(c => c.cardType !== blocked);
+        if (idx === -1) { result.push(...remaining); break; }
+        result.push(remaining.splice(idx, 1)[0]);
+      }
+    }
+    return result;
   }
 
   _scatterPassive(cards, passiveCards) {
