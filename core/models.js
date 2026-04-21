@@ -49,7 +49,6 @@ export class Card {
     this.bgUrl = null;          // 使用した背景画像URL（履歴ビューで再現するために保存）
     this.done = false;          // 回答済みまたはスキップ済み（戻りスワイプ時の history 判定に使用）
     this.isRetry = false;     // リトライカード（不正解後の再挿入）かどうか
-    this.stageBeforeWrong = null; // 不正解直前の stage（リトライ正解時に復元する）
     this.passiveSection = null;   // 表示する Passive セクション種別（履歴ビュー再現用）
   }
 }

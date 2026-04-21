@@ -29,21 +29,7 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
       const result = learner.respond(card.word, card.cardType, sessionTime);
       card.result = result;
 
-      // processResponse 前に stage を保存（不正解時の降格前の値が必要）
-      const stageBeforeProcess = card.word.stage;
-
-      // spec §4.5: リトライ正解は「ダメージ回復」であって「成長」ではない
-      //   → h 更新なし、不正解時の stage 降格のみキャンセル
-      // 例外: Handwrite リトライ正解は h ブーストあり（停滞突破が目的）
-      if (card.isRetry && result !== 'wrong') {
-        if (card.cardType === 'handwrite') {
-          engine.processResponse(card.word, card.cardType, result, sessionTime);
-        } else {
-          card.word.stage = card.stageBeforeWrong;
-        }
-      } else {
-        engine.processResponse(card.word, card.cardType, result, sessionTime);
-      }
+      engine.processResponse(card.word, card.cardType, result, sessionTime);
 
       stats.totalCount++;
       if (result !== 'wrong') stats.correctCount++;
@@ -59,11 +45,8 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
         if ((reinsertCount.get(key) ?? 0) < cfg.maxRetryPerCard) {
           reinsertCount.set(key, (reinsertCount.get(key) ?? 0) + 1);
           const pos = Math.min(i + 1 + cfg.retryGap, cardQueue.length);
-          const retryCard = new Card(card.word, card.cardType);
+          const retryCard = new Card(card.word, feedGen._assignCardType(card.word, learnerState));
           retryCard.isRetry = true;
-          // 連続不正解時は最初の不正解前の stage を引き継ぐ
-          // stageBeforeProcess は processResponse 呼び出し前（降格前）の値
-          retryCard.stageBeforeWrong = card.isRetry ? card.stageBeforeWrong : stageBeforeProcess;
           cardQueue.splice(pos, 0, retryCard);
         }
       }

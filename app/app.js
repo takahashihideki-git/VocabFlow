@@ -604,12 +604,7 @@ class VocabFlowApp {
 
     if (card.isRetry) {
       if (result !== 'wrong') {
-        if (card.cardType === 'handwrite') {
-          // Handwrite リトライ正解: h ブーストあり（停滞突破）
-          this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
-        } else {
-          word.stage = card.stageBeforeWrong;  // 降格キャンセル（h 更新なし）
-        }
+        this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
         if (countable) this.sessionCorrect++;
       } else {
         this.engine.processResponse(word, card.cardType, result, this.state.currentTime);
@@ -617,7 +612,7 @@ class VocabFlowApp {
         const count = (this.retryCount.get(word.wordId) || 0) + 1;
         this.retryCount.set(word.wordId, count);
         if (count < this.config.maxRetryPerCard) {
-          this._insertRetry(card, word.stage);
+          this._insertRetry(card);
         }
       }
     } else {
@@ -633,7 +628,7 @@ class VocabFlowApp {
         if (!card._dictationNearMiss) {
           const count = this.retryCount.get(word.wordId) || 0;
           if (count < this.config.maxRetryPerCard) {
-            this._insertRetry(card, stageBefore);
+            this._insertRetry(card);
             this.retryCount.set(word.wordId, count + 1);
           }
         }
@@ -659,10 +654,11 @@ class VocabFlowApp {
   // -------------------------------------------------------
   // リトライカード挿入
   // -------------------------------------------------------
-  _insertRetry(originalCard, stageBeforeWrong) {
-    const rc = new Card(originalCard.word, originalCard.cardType);
+  _insertRetry(originalCard) {
+    const word = originalCard.word;
+    const cardType = this.feedGen._assignCardType(word, this.state);
+    const rc = new Card(word, cardType);
     rc.isRetry = true;
-    rc.stageBeforeWrong = stageBeforeWrong;
     const insertPos = Math.min(
       this.cardIndex + 1 + this.config.retryGap,
       this.sessionCards.length
