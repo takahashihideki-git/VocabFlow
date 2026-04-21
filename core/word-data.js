@@ -1426,7 +1426,7 @@ export const WORD_DATA = [
       confusableSpellings: ["intrest", "interset"],
       passive: {
         etymology: "ラテン語 interesse（間にある、重要である）が語源。inter-（間に）+ esse（ある）。「〜の間にある」→「関係がある」→「関心・利益」へと意味が発展。",
-        tips: "動詞としても使える。'I'm interested in...'（〜に興味がある）と 'It's interesting'（面白い）を区別する。'I'm interesting' は「自分が面白い人間だ」という意味になる。",
+        tips: "動詞としても使え、'The news interested me.'（そのニュースは私の興味を引いた）のように「〜の興味を引く」を意味する。また形容詞形の使い分けに注意：'I'm interested in music.'（音楽に興味がある）は正しいが、'I'm interesting.' は「私は面白い人間だ」という意味になる。",
         confusables: "interest vs. hobby: interest は知的好奇心・関心、hobby は余暇の趣味活動。'an interest in science' vs. 'my hobby is cycling'。",
         collocations: ["show interest", "take interest in", "of interest", "lose interest", "vested interest"],
         trivia: "英語で「利子」を interest と呼ぶのは、お金を貸すことが「貸し手にとって重要な関心事（interesse）」だったことから。中世ヨーロッパでは利子を取ることが宗教的に禁じられていた。",
@@ -5109,6 +5109,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["修辞学・弁論術", "用語集、語彙集", "講義、講演"],
+      choiceLabel: "句、成句",
       confusableSpellings: ["pharse", "frase", "phraze"],
       passive: {
         etymology: "ギリシャ語 phrazein（示す・表現する）が語源。phrase は「表現された言葉のまとまり」という意味。paraphrase（言い換え）の para-（横に）＋ phrase も同語根。",
@@ -5237,6 +5238,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["〜を借りている、〜の義務がある", "人員、従業員（集合的）", "利害関係、出資分"],
+      choiceLabel: "資源、財源",
       confusableSpellings: ["resourse", "rescource", "resouce"],
       passive: {
         etymology: "フランス語 'ressource' から。接頭辞 're-'（再び）＋古フランス語 'sourdre'（立ち上がる）。「再び立ち上がるもの」＝頼れるもの、という意味。",
@@ -5752,6 +5754,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["外部の、外側の", "奇妙な、変な", "浅い"],
+      choiceLabel: "前向きな、積極的な",
       confusableSpellings: ["possitive", "positiv", "pozitive"],
       passive: {
         etymology: "ラテン語 positivus（確定された・置かれた）から。ponere（置く）が語根。「確かに置かれている＝確実・明確」→「プラス・前向き」へと意味が発展。deposit（預金）や position とも同根。",
@@ -6232,6 +6235,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["免疫のある", "静的な", "活力のある、ダイナミックな"],
+      choiceLabel: "電子的な、数字の",
       confusableSpellings: ["digitall", "digitel", "digiatal"],
       passive: {
         etymology: "ラテン語 'digitus'（指・つま先）から。もともと「指で数える」意味が転じてコンピュータの「0と1の数字信号」を表すようになった。",
@@ -7738,6 +7742,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["概念；考え", "特性；特質", "視点、観点"],
+      choiceLabel: "概念、考え方",
       confusableSpellings: ["concpet", "consept", "koncept"],
       passive: {
         etymology: "ラテン語 conceptus（把握されたもの）から。con-（共に）+ capere（つかむ）が語根。「頭の中でつかみ取ったもの」が原義。",
@@ -8158,6 +8163,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["論文、学位論文", "練習、実践", "入学する・登録する"],
+      choiceLabel: "話題、議題",
       confusableSpellings: ["topick", "toppic"],
       passive: {
         etymology: "ギリシャ語 'topika'（場所に関すること）→ラテン語 'topica' に由来。アリストテレスの論述論「トポス（場所）」から派生した学術用語。",
@@ -11169,6 +11175,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["洞察（力）", "哀れみ、同情", "混乱、無秩序"],
+      choiceLabel: "能力、収容力",
       confusableSpellings: ["capasity", "capacety", "capacitiy"],
       passive: {
         etymology: "ラテン語 'capacitas'（受け入れる広さ）に由来。'capere'（取る・受け入れる）が語根で、'capture'（捕まえる）・'accept'（受け入れる）とも同源。",
@@ -11620,6 +11627,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["方法、やり方", "恥・羞恥心", "特性；特質"],
+      choiceLabel: "象徴、記号",
       confusableSpellings: ["simbel", "symbel", "symble"],
       passive: {
         etymology: "ギリシャ語 'symbolon'（しるし、合い言葉）から。'sym-'（共に）＋ 'ballein'（投げる）の組み合わせで、「ともに投げ合うもの」→「照合するしるし」という意味に。",
@@ -11684,6 +11692,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["再読み込みする、更新する", "方式・様式・モード", "出力、産出量"],
+      choiceLabel: "版、変形",
       confusableSpellings: ["varsion", "verson", "vertion"],
       passive: {
         etymology: "ラテン語 'versio'（回転、変換）から。'vertere'（回す・変える）が語根で、「向きを変えたもの」→「別の形にしたもの」という意味に発展。",
@@ -14444,6 +14453,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["文脈、背景", "技術、技法", "地理学"],
+      choiceLabel: "分類、部類",
       confusableSpellings: ["catagory", "categary", "catogory"],
       passive: {
         etymology: "ギリシャ語 kategoria（非難・述語）から。kata-（下に・反対に）＋ agoreuein（公に語る）→「公の場で指摘・分類すること」。",
@@ -14572,6 +14582,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["対称（性）、シンメトリー", "研究、調査", "実験、試み"],
+      choiceLabel: "復習、再検討",
       confusableSpellings: ["reveiw", "reviw", "revew"],
       passive: {
         etymology: "'re-'（再び）＋'view'（見る）。「もう一度見る」が原義。フランス語経由でラテン語 'videre'（見る）に遡る。'vision'（視覚）や 'video' と同語根。",
@@ -14892,6 +14903,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["大部分、大量", "最小限", "列・並び"],
+      choiceLabel: "割合、比率",
       confusableSpellings: ["propotion", "proporshon", "prportion"],
       passive: {
         etymology: "ラテン語 'proportio' から。pro-（前に・に応じて）＋ portio（部分・分け前）→「各部分が互いに対応している」状態。",
@@ -14924,6 +14936,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["運賃、料金", "商品、物資", "起業家"],
+      choiceLabel: "心付け金、祝儀",
       confusableSpellings: ["tipp", "typ", "tiip"],
       passive: {
         etymology: "語源には諸説あり、17世紀の英語スラング 'tip'（軽く触れる）から転じたとも。「To Insure Promptness（迅速なサービスを保証するため）」の略という説は俗語源。",
@@ -15179,6 +15192,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["イデオロギー、思想体系", "戦闘、戦い", "地雷"],
+      choiceLabel: "部族、種族",
       confusableSpellings: ["tibe", "trbe", "tride"],
       passive: {
         etymology: "ラテン語 'tribus'（ローマの三つの部族区分）から。古代ローマではラムネス・ティティエス・ルケレスの3部族があり、そこから派生した語。",
@@ -15211,6 +15225,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["放射線、放射能", "アレルギー", "外科手術"],
+      choiceLabel: "臓器、器官",
       confusableSpellings: ["orgon", "orgen", "organn"],
       passive: {
         etymology: "ギリシャ語 'organon'（道具、楽器）から。'org-' は「働く・動かす」の語根で、organism（生物）や organization（組織）と同じ語根を持つ。",
@@ -15307,6 +15322,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["再読み込みする、更新する", "入力、インプット", "部品、構成要素"],
+      choiceLabel: "符号、暗号",
       confusableSpellings: ["coad", "kode", "codd"],
       passive: {
         etymology: "ラテン語 'codex'（木の板・書物）から。もともとは法律を書き記した「法典」の意味で、後に「暗号」「プログラムコード」へと意味が広がった。",
@@ -15850,6 +15866,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["緊張した；張り詰めた", "不安な、落ち着かない", "無礼な、失礼な"],
+      choiceLabel: "敏感な、繊細な",
       confusableSpellings: ["sensative", "sensitiv", "senstive"],
       passive: {
         etymology: "ラテン語 'sensus'（感覚）＋ '-itive'（形容詞語尾）。「感じ取る能力がある」という原義から派生。",
@@ -15914,6 +15931,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["学術的な", "王室の、王族の", "言語の、言語学の"],
+      choiceLabel: "仮想の、実質上の",
       confusableSpellings: ["vertual", "virtal", "virtuall"],
       passive: {
         etymology: "ラテン語 'virtus'（力・美徳）＋ '-al'。中世では「実際の力はないが効果はある」という意味で使われ、のちに「実質的な」→「コンピュータ上の仮想」へと意味が拡張した。",
@@ -17383,6 +17401,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["プロトコル、通信規約", "技術、テクノロジー", "クリックする"],
+      choiceLabel: "革新、刷新",
       confusableSpellings: ["inovation", "innovasion", "innovtion"],
       passive: {
         etymology: "ラテン語 innovatio から。接頭辞 in-（中に）＋ novus（新しい）＋ -tion（名詞化）。「新しいものを取り入れること」が原義。novel（小説・新奇な）と同じ語根。",
@@ -17833,6 +17852,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["陪審員団", "権威、権限", "偏見、先入観"],
+      choiceLabel: "固定観念、紋切り型",
       confusableSpellings: ["sterotype", "steriotype", "stereotipe"],
       passive: {
         etymology: "ギリシャ語 stereos（固体・立体的な）+ typos（型・印）から。もともとは印刷業界の「鉛版印刷」の用語で、同じ型から何度も同じものを刷ることを指した。そこから「変わらない固定したイメージ」の意味になった。",
@@ -18026,6 +18046,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["見通し、展望", "例外", "魂・精神"],
+      choiceLabel: "障壁、障害",
       confusableSpellings: ["barier", "barreir", "barriar"],
       passive: {
         etymology: "古フランス語 'barriere'（棒、横木）から。語根 'barre'（棒）＋接尾辞 '-iere'。物理的な「棒」が転じて「障害」の意味に。",
@@ -19883,6 +19904,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["追放する；除名する", "従う、服従する", "（法律・規則を）施行する・強制する"],
+      choiceLabel: "助言する、忠告する",
       confusableSpellings: ["advize", "adivse"],
       passive: {
         etymology: "古フランス語 aviser から。ラテン語 ad-（〜に向けて）＋ visum（見ること・判断）。「相手に向けて自分の判断を伝える」が原義。vision（視覚）と同じ語根。",
@@ -21069,6 +21091,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["肉、皮膚", "子孫、子（動植物・人間を含む）", "手足、四肢"],
+      choiceLabel: "感染性病原体",
       confusableSpellings: ["viris", "virus's", "virous"],
       passive: {
         etymology: "ラテン語 virus（毒・粘液・悪臭）が語源。19世紀末に生物学用語として採用され、20世紀後半にはコンピュータ用語にも転用された。",
@@ -21165,6 +21188,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["主流、大勢", "避難所・安息の地", "リゾート地、行楽地"],
+      choiceLabel: "枠、骨組み",
       confusableSpellings: ["fraim", "fream", "framme"],
       passive: {
         etymology: "古英語 framian（役立てる・形作る）に由来。「建物の骨組みを作る」という建築用語として中英語期に定着し、その後「枠・構造」全般に広がった。",
@@ -21681,6 +21705,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["（〜を）控える・慎む", "大切にする、慈しむ", "〜に似ている"],
+      choiceLabel: "対話、会話",
       confusableSpellings: ["dialog", "dialouge", "dialoge"],
       passive: {
         etymology: "'dia-'（通して）＋ 'logos'（言葉・理性）。ギリシャ語 'dialogos'（会話）から。'dia-' は「2つの間を通る」という意味。",
@@ -23923,6 +23948,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["陪審員団", "地区、行政区", "権威、権限"],
+      choiceLabel: "精鋭、選ばれた人々",
       confusableSpellings: ["eliet", "ellite", "elíte"],
       passive: {
         etymology: "フランス語 élite（選ばれた者）から。ラテン語 eligere（選び出す）が語根。elect（選出する）、eligible（資格のある）と同じ語根 -lig-（選ぶ）を持つ。",
@@ -23987,6 +24013,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["図表、グラフ", "コード、符号、暗号", "形式、フォーマット"],
+      choiceLabel: "電動機、発動機",
       confusableSpellings: ["moter", "motore", "mottor"],
       passive: {
         etymology: "ラテン語 motor（動かすもの）から。動詞 movēre（動かす）の派生語。move、motion、moment、mobile もすべて同じ語根 mov-/mot- を持つ。",
@@ -24792,6 +24819,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["差し込む、接続する", "インフラ、社会基盤", "クリックする"],
+      choiceLabel: "放送局、経路",
       confusableSpellings: ["chanel", "chanell", "channle"],
       passive: {
         etymology: "古フランス語 'chanel' → ラテン語 'canalis'（管・溝）→ さらに 'canna'（葦・管）が語源。「管を通って流れる」というイメージ。",
@@ -27063,6 +27091,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["形式、フォーマット", "（情報・資料を）編集・収集する", "媒体、手段"],
+      choiceLabel: "方式、様式",
       confusableSpellings: ["moad", "moode", "moide"],
       passive: {
         etymology: "ラテン語 'modus'（尺度・方法・様式）から直接借入。'mod-'（測る・制限する）という語根を持ち、'model'・'modern'・'modify' なども同じ語根から派生している。",
@@ -27418,6 +27447,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["観客、聴衆", "影、日陰", "悲劇、惨事"],
+      choiceLabel: "おかしさ、こっけいさ",
       confusableSpellings: ["humour", "humer", "humore"],
       passive: {
         etymology: "ラテン語 'humor'（液体・体液）に由来。中世医学では体内の4つの体液（血液・粘液・黄胆汁・黒胆汁）が気質を決めると考えられており、「気分」の意味が生まれた。",
@@ -27546,6 +27576,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["偉業、功績", "見通し、展望", "概念、考え"],
+      choiceLabel: "動機、刺激",
       confusableSpellings: ["incentative", "inscentive", "incetive"],
       passive: {
         etymology: "ラテン語 'incentivum'（火をつけるもの）に由来。'in-'（中に）＋ 'canere'（歌う・鳴らす）が語根で、「最初に音頭をとる」が原義から「刺激・動機」へ。",
@@ -28253,6 +28284,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["死を免れない、死すべき運命の", "柔軟な、融通が利く", "自発的な、自然発生的な"],
+      choiceLabel: "くだけた、略式の",
       confusableSpellings: ["casuel", "cazual", "casaul"],
       passive: {
         etymology: "ラテン語 'casualis'（偶然の）に由来。語根 'casus'（落下・出来事）＋形容詞接尾辞 '-al'。",
@@ -30271,6 +30303,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["摂取量、取り込み量", "精神科医", "神経"],
+      choiceLabel: "神経細胞",
       confusableSpellings: ["nueron", "nuerone", "neauron"],
       passive: {
         etymology: "ギリシャ語 'neuron'（神経、腱）から直接由来。'neuro-' は「神経」を意味する接頭辞として 'neuroscience'（神経科学）などにも使われる。",
@@ -30656,6 +30689,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["質、品質", "破滅、不運な運命", "概念、考え"],
+      choiceLabel: "想定される状況、脚本",
       confusableSpellings: ["senario", "scenerio", "sceario"],
       passive: {
         etymology: "イタリア語 scenario（舞台背景・脚本）から。ラテン語 scena（舞台・場面）を語根とし、さらにギリシャ語 skēnē（テントの小屋→舞台）に遡る。",
@@ -30688,6 +30722,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["循環、血液循環", "糖尿病", "錠剤、ピル"],
+      choiceLabel: "過敏反応",
       confusableSpellings: ["alergy", "allergie", "allarg"],
       passive: {
         etymology: "ギリシャ語 allos（他の・異なる）＋ ergon（働き・反応）から。20世紀初頭にオーストリアの医師Clemens von Pirquetが造語した比較的新しい医学用語。",
@@ -31203,6 +31238,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["茎・幹", "大気、空気", "汚染する"],
+      choiceLabel: "生態学",
       confusableSpellings: ["ecolegy", "ecologgy", "ecollogy"],
       passive: {
         etymology: "ギリシャ語 'oikos'（家・住処）＋ 'logos'（学問）から。「生き物たちの住処を研究する学問」という意味。'economy'（経済）も同じ 'oikos' が語源で、もとは「家の管理」を意味した。",
@@ -34184,6 +34220,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["自信、確信", "苦悩、苦痛", "利点；有利"],
+      choiceLabel: "板挟み、進退両難",
       confusableSpellings: ["dilemna", "dilema", "dillema"],
       passive: {
         etymology: "ギリシャ語 'di-'（2つの）＋ 'lemma'（前提・命題）。元々は論理学用語で「2つの選択肢どちらを選んでも不都合が生じる論法」を指していた。",
@@ -34248,6 +34285,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["過剰、余分", "部分・一部", "比率、割合"],
+      choiceLabel: "曲線、曲がり",
       confusableSpellings: ["curv", "kurve", "cuve"],
       passive: {
         etymology: "ラテン語 'curvus'（曲がった）← 印欧祖語語根 '*sker-'（曲げる）。「circle（円）」「circus（円形競技場）」とも同じ語根を持つ。",
@@ -37765,6 +37803,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["モーター、電動機", "アクセス、利用する権利", "チップ、半導体素子"],
+      choiceLabel: "端末機器",
       confusableSpellings: ["tablette", "tablit", "tabblet"],
       passive: {
         etymology: "ラテン語 'tabula'（板・平らな面）の縮小形 'tabella' から古フランス語を経て英語へ。「小さな板」が原義で、石板・書き板・錠剤（圧縮した平らな物）→ タブレット端末と意味が拡張してきた。",
@@ -37829,6 +37868,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["きちんとした、整頓された", "複数の、多数の", "利用できる、入手可能な"],
+      choiceLabel: "異国風の",
       confusableSpellings: ["exoctic", "exotik", "exsotic"],
       passive: {
         etymology: "ギリシャ語 'exōtikos'（外から来た）から。'exō'（外へ）＋ -tikos（形容詞語尾）。ラテン語 'exoticus' を経て英語へ。「外の世界から来た」が原義。",
@@ -40720,6 +40760,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["入力、インプット", "バージョン、版", "タブレット端末"],
+      choiceLabel: "誤り、不具合",
       confusableSpellings: ["bugg", "bugh", "bug'"],
       passive: {
         etymology: "「虫」を意味する古英語 'budde' が語源。コンピュータ用語としては1947年、グレース・ホッパーがHarvard Mark IIのリレーに実際の蛾（moth）が挟まっていたのを発見したエピソードが有名。",
@@ -41650,6 +41691,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["流暢な、滑らかな", "精神的な", "原始的な、未発達の"],
+      choiceLabel: "無線の",
       confusableSpellings: ["wirelss", "wireles"],
       passive: {
         etymology: "'wire'（電線、ワイヤ）＋ 接尾辞 '-less'（〜がない）で「電線のない」という意味。接尾辞 '-less' は 'homeless'（家のない）、'endless'（終わりのない）と同じパターン。",
@@ -42803,6 +42845,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["あくびをする", "回転する、〜を回転させる", "溶かす、溶ける"],
+      choiceLabel: "素早くひっくり返す",
       confusableSpellings: ["filp", "flipp", "fllip"],
       passive: {
         etymology: "16世紀の擬音語が起源とされ、素早い動きの音「フリッ」を表す。fillip（指ではじく）と関連があるとも言われる。",
@@ -42835,6 +42878,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["食べ物を与える、養う", "（翼・腕などを）羽ばたかせる、ばたばたさせる", "ぶつかる、衝突する"],
+      choiceLabel: "こする、摩擦する",
       confusableSpellings: ["rubb", "rube", "rub'd"],
       passive: {
         etymology: "中英語 rubben が語源で、低地ドイツ語 rubben と関連するとされる。擬似的に摩擦音を表す語根から派生したと考えられる。",
@@ -46038,6 +46082,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["積み込む", "混乱させる、妨害する", "精製する、精錬する"],
+      choiceLabel: "投げ捨てる、廃棄する",
       confusableSpellings: ["damp", "domp", "dunp"],
       passive: {
         etymology: "スカンジナビア語 dumpa（ドスンと落とす）に由来。北欧語の影響を受けた語で、「重いものをドサッと落とす」音そのものを表す擬音的な語感がある。",
@@ -46677,6 +46722,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["服装、コーディネート", "内部の、室内の", "葬式・葬儀"],
+      choiceLabel: "穀物食品",
       confusableSpellings: ["serial", "ceral", "cereale"],
       passive: {
         etymology: "ラテン語 cerealis（ケレースの・穀物の）から。Ceres（ケレース）はローマ神話の農業の女神。英語にはフランス語経由で入った。",
@@ -49623,6 +49669,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["議院、会議所", "亡命、追放、流刑", "被害者；犠牲者"],
+      choiceLabel: "思想体系",
       confusableSpellings: ["ideaology", "idiology", "ideollogy"],
       passive: {
         etymology: "ギリシャ語 idea（形・概念）＋ -logia（学問・論）。フランスの哲学者デストゥット・ド・トラシーが18世紀末に「観念の科学」として造語した。",
@@ -49785,6 +49832,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["干し草", "環境", "湿気、水分"],
+      choiceLabel: "大草原",
       confusableSpellings: ["prarie", "prairy", "preirie"],
       passive: {
         etymology: "フランス語 prairie（牧草地）から。ラテン語 pratum（草地）が語根。北米の大平原地帯を指す地理用語として定着した。",
@@ -49817,6 +49865,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["領土、縄張り", "砂漠", "花が咲く"],
+      choiceLabel: "辺境、未開拓地",
       confusableSpellings: ["fronteer", "fronteir", "frountier"],
       passive: {
         etymology: "古フランス語 frontiere から。front（正面、前線）＋ -ière（場所を示す接尾辞）。front はラテン語 frons（額、前面）が語源。",
@@ -49977,6 +50026,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["糖尿病", "代謝、新陳代謝", "視力、視覚"],
+      choiceLabel: "偽薬",
       confusableSpellings: ["plecebo", "plascebo", "placibo"],
       passive: {
         etymology: "ラテン語 placebo（「私は喜ばせるだろう」一人称未来形）から。動詞 placere（喜ばせる）が語源。中世の聖歌「主よ、私はあなたを喜ばせよう」の出だしの語として使われた。",
@@ -50330,6 +50380,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["起源、発祥", "注意、慎重さ", "悪徳、不道徳な行為"],
+      choiceLabel: "無意味なこと、たわごと",
       confusableSpellings: ["nonsence", "noncense", "nonsens"],
       passive: {
         etymology: "接頭辞 non-（〜でない）＋sense（意味・感覚）の合成語。sense はラテン語 sensus（感覚・意味）から。つまり文字通り「意味のないもの」。",
@@ -53374,6 +53425,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["交通、交通量", "儀式、儀礼", "リゾート地、行楽地"],
+      choiceLabel: "屋台、売り場",
       confusableSpellings: ["stael", "stoal", "stoll"],
       passive: {
         etymology: "古英語 'steall'（立つ場所・家畜小屋）から。「一定の場所に立つ・止まる」というコアイメージが、屋台（固定した売り場）と「動きが止まる」という両義を生んだ。",
@@ -56096,6 +56148,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["霊長類", "頭蓋骨", "摂取量、取り込み量"],
+      choiceLabel: "代謝、新陳代謝",
       confusableSpellings: ["metabalism", "metabolizm", "metabbolism"],
       passive: {
         etymology: "ギリシャ語 'metabole'（変化）に由来。'meta-'（変化・超えて）＋ 'bole'（投げること・変えること）の組み合わせ。",
@@ -56705,6 +56758,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["知識、知恵", "話題、テーマ", "カリキュラム、教育課程"],
+      choiceLabel: "対称性",
       confusableSpellings: ["symetry", "symmetrey", "simetry"],
       passive: {
         etymology: "ギリシャ語 syn-（共に、同じ）＋ metron（測る）→ 同じ尺度で測れること。symmetric（対称的な）、asymmetry（非対称）も同根。",
@@ -56833,6 +56887,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["搾取工場（低賃金・劣悪環境の工場）", "補助金、助成金", "運賃、料金"],
+      choiceLabel: "割増料金",
       confusableSpellings: ["premiun", "primium", "preimum"],
       passive: {
         etymology: "ラテン語「praemium（報酬・賞）」から。「prae（前に）＋emere（取る）」が語源で、「先取りするもの」が転じて「特別な価値・上乗せ料金」の意味になった。",
@@ -56929,6 +56984,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["媒体、手段", "入力、インプット", "革新、イノベーション"],
+      choiceLabel: "通信規約",
       confusableSpellings: ["protocal", "protacol", "protocoll"],
       passive: {
         etymology: "ギリシャ語「prōtokollon」から。「prōtos（最初の）＋kolla（膠・のり）」が語源で、巻物の最初に貼り付けられた「目次・要約ページ」を指したことが起源。",
@@ -57759,6 +57815,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["アルゴリズム、計算手順", "格子（状のもの）、グリッド", "クリックする"],
+      choiceLabel: "模擬する、まねる",
       confusableSpellings: ["simulat", "simmulate", "simualte"],
       passive: {
         etymology: "ラテン語 simulare（similis「似た」+ -are「～する」）から。「似せて作る」が原義。",
