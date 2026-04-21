@@ -20,7 +20,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み。`maxActiveWaves` 上限撤廃（解放条件ゲートのみで制御）。`checkUnlock` で `getWordsInWave(nextWave).length === 0` の wave は activeWaves に push しない防御追加 |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し。**Spec §4.3 配置ルール更新（2026-04-20）**: `_enforceMaxConsecutive()` 追加（同種最大2連続 best effort）。dictation/handwrite を後半固定から解放し review pool に統合 |
-| `core/word-data.js` | ✅ 全1900語フルデータ（meanings/examples/passive等）。`scripts/build_word_data_js.py` でビルド済み。**品質監査（2026-04-09）で全Phase修正適用済み**（詳細は下記「word-data.js 品質監査ログ」参照）。**choiceLabel 144件反映済み**（2026-04-15: ビルドスクリプトの出力漏れ修正 → 再ビルド） |
+| `core/word-data.js` | ✅ 全1900語フルデータ（meanings/examples/passive等）。`scripts/build_word_data_js.py` でビルド済み。**品質監査（2026-04-09）で全Phase修正適用済み**（詳細は下記「word-data.js 品質監査ログ」参照）。**choiceLabel 200件反映済み**（2026-04-15: ビルドスクリプト漏れ修正 → 144件。2026-04-21: audioHint表記ゆれ取りこぼし修正 → 56件追加） |
 | `core/labels.js` | ✅ LABELS定数・formatH/formatPRecall/sigmaToConfidence。app/ 全体で使用 |
 | `core/category-images.js` | ✅ Unsplash 画像URL（scripts/fetch_category_images.js で自動生成、19カテゴリ×10枚） |
 
@@ -59,6 +59,20 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 ---
 
 ## 2026-04-21 修正ログ
+
+### choiceLabel 取りこぼし修正（audioHint 表記ゆれ問題）
+
+`generate_choice_labels.py` の候補絞り込みが `audioHint` との先頭3文字一致で判定していたため、`code`（意味: コード / audioHint: コウド）のように表記が異なる語が対象外になっていた。
+
+**対応**:
+- `scripts/fix_missing_choice_labels.py` を新規作成。meanings にカタカナ3文字以上を含み choiceLabel 未定義の全語（129件）を Claude API に渡し、「対象語の発音からカタカナが推測できるか」を API に判断させる方式に変更
+- 54語に choiceLabel を自動追加
+- `virus (#657)` → `感染性病原体`、`allergy (#957)` → `過敏反応` を手動追加（API 生成がカタカナを含んでいたため）
+- 計56語追加（累計 200語）
+
+### interest passive.tips 整合性修正
+
+「動詞としても使える」と書いていながら後続の例がすべて形容詞形（interested / interesting）だった矛盾を修正。動詞用法の例文（`The news interested me.`）を冒頭に追加し、その後に形容詞形の使い分け注意を続ける構成に整理。（`scripts/results/word_data_final.json` / `core/word-data.js`）
 
 ### リトライカード設計の刷新（stageBeforeWrong 廃止）
 
@@ -589,6 +603,8 @@ VocabFlow/
 │   ├── classify_all.py          # 全1900語のcategoryId定義（AI判定済み）
 │   ├── generate_word_data.py    # Claude API で教材データ一括生成（✅ 全95バッチ完了）
 │   ├── fix_distractors.py       # distractors を実単語意味で差し替え
+│   ├── generate_choice_labels.py      # choiceLabel を Claude API で生成（初回144語）
+│   ├── fix_missing_choice_labels.py   # choiceLabel 漏れ補完（audioHint表記ゆれ対策・56語追加）
 │   ├── validate_word_data.py    # バリデーション
 │   ├── build_word_data_js.py    # core/word-data.js ビルド
 │   ├── fetch_category_images.js # Unsplash API から画像URL取得→category-images.js生成
