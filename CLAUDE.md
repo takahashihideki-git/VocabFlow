@@ -79,6 +79,8 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 （`app/app.js` `_insertRetry` / `_onCardAnswered` / `core/models.js` Card / `sim/sim-runner.js`）
 
+spec.md §4.5 も同内容に改訂済み（「ダメージ回復・h 更新なし」→「降格ステージからの正規昇格・processResponse 経由」）。
+
 ---
 
 ## 2026-04-20 修正ログ
