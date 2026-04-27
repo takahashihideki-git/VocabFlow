@@ -532,6 +532,8 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 .choice-btn.correct { background: rgba(46,204,113,0.2); border-color: var(--success); color: var(--success); }
 .choice-btn.wrong   { background: rgba(231,76,60,0.15); border-color: var(--danger); color: var(--danger); }
 .choice-btn:disabled { cursor: default; }
+/* Recall の選択肢は全て小文字表示（大文字始まりの語で正解がバレるのを防ぐ） */
+.card-recall .choice-btn { text-transform: lowercase; }
 
 /* Text input (Dictation/Handwrite) */
 .dictation-input-area {
