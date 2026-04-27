@@ -121,11 +121,6 @@ export class WordWaveRenderer {
       this._spanMap.set(word.wordId, span);
     }
 
-    // ペース予測セクション（Wave 一覧の末尾）
-    const paceEl = document.createElement('div');
-    paceEl.id = 'ww-pace-section';
-    body.appendChild(paceEl);
-
     this._built = true;
   }
 
@@ -188,20 +183,16 @@ export class WordWaveRenderer {
       const remaining   = target - masteredNow;
 
       if (remaining === 0) {
-        paceEl.innerHTML = `<div class="ww-pace-complete">🏆 全Wave制覇達成！</div>`;
+        paceEl.innerHTML = `<span class="ww-pace-complete">🏆 全Wave制覇達成！</span>`;
       } else if (masteredNow < 10 || currentDay < 1) {
-        paceEl.innerHTML =
-          `<div class="ww-pace-title">📊 学習ペース</div>` +
-          `<div class="ww-pace-row">定着語が増えると予測が表示されます</div>`;
+        paceEl.innerHTML = `<span class="ww-pace-waiting">定着語が増えると予測が表示されます</span>`;
       } else {
         const pace     = masteredNow / currentDay;
         const daysLeft = Math.round(remaining / pace);
         const estDay   = Math.round(currentDay + daysLeft);
         paceEl.innerHTML =
-          `<div class="ww-pace-title">📊 このペースで続けると</div>` +
-          `<div class="ww-pace-row">定着ペース <b>${pace.toFixed(1)}語/日</b></div>` +
-          `<div class="ww-pace-row">残り <b>${remaining.toLocaleString()}語</b></div>` +
-          `<div class="ww-pace-row">全Wave制覇まで <b>約${daysLeft}日後</b>（Day ${estDay} 頃）</div>`;
+          `<span class="ww-pace-label">このペースで続けると</span>` +
+          `<span class="ww-pace-value">全Wave制覇は<b>約${daysLeft}日後</b>です。（Day ${estDay} 頃）</span>`;
       }
     }
   }
