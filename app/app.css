@@ -1222,6 +1222,20 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   transform: scale(1.1);
 }
 
+#ww-pace-section {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 2rem 0 1rem;
+  padding: 1rem 1.2rem;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.07);
+  line-height: 1.8;
+}
+.ww-pace-title { font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.ww-pace-row b  { color: var(--text); }
+.ww-pace-complete { font-size: 1rem; font-weight: 700; color: var(--success); text-align: center; padding: 4px 0; }
+
 #wordwave-footer {
   flex-shrink: 0;
   display: flex;

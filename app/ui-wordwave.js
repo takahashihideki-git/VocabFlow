@@ -121,6 +121,11 @@ export class WordWaveRenderer {
       this._spanMap.set(word.wordId, span);
     }
 
+    // ペース予測セクション（Wave 一覧の末尾）
+    const paceEl = document.createElement('div');
+    paceEl.id = 'ww-pace-section';
+    body.appendChild(paceEl);
+
     this._built = true;
   }
 
@@ -172,6 +177,33 @@ export class WordWaveRenderer {
     this.overlay.querySelectorAll('.ww-wave-label').forEach(el => {
       el.classList.toggle('active', activeSet.has(parseInt(el.dataset.wave)));
     });
+
+    // ペース予測セクション更新
+    const paceEl = this.overlay.querySelector('#ww-pace-section');
+    if (paceEl) {
+      const threshold    = this.state.config?.masteredThresholdH ?? 14;
+      const target       = words.filter(w => !w.excluded).length;
+      const masteredNow  = words.filter(w => !w.excluded && w.h >= threshold).length;
+      const currentDay   = this.state.currentTime;
+      const pace         = currentDay >= 3 ? masteredNow / currentDay : 0;
+      const remaining    = target - masteredNow;
+
+      if (remaining === 0) {
+        paceEl.innerHTML = `<div class="ww-pace-complete">🏆 全Wave制覇達成！</div>`;
+      } else if (pace < 0.1) {
+        paceEl.innerHTML =
+          `<div class="ww-pace-title">📊 学習ペース</div>` +
+          `<div class="ww-pace-row">定着ペース <b>—</b>（Day 3 以降に予測が表示されます）</div>`;
+      } else {
+        const daysLeft = Math.round(remaining / pace);
+        const estDay   = Math.round(currentDay + daysLeft);
+        paceEl.innerHTML =
+          `<div class="ww-pace-title">📊 このペースで続けると</div>` +
+          `<div class="ww-pace-row">定着ペース <b>${pace.toFixed(1)}語/日</b></div>` +
+          `<div class="ww-pace-row">残り <b>${remaining.toLocaleString()}語</b></div>` +
+          `<div class="ww-pace-row">全Wave制覇まで <b>約${daysLeft}日後</b>（Day ${estDay} 頃）</div>`;
+      }
+    }
   }
 
   // -------------------------------------------------------
