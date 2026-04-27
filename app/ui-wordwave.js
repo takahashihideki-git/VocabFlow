@@ -181,20 +181,20 @@ export class WordWaveRenderer {
     // ペース予測セクション更新
     const paceEl = this.overlay.querySelector('#ww-pace-section');
     if (paceEl) {
-      const threshold    = this.state.config?.masteredThresholdH ?? 14;
-      const target       = words.filter(w => !w.excluded).length;
-      const masteredNow  = words.filter(w => !w.excluded && w.h >= threshold).length;
-      const currentDay   = this.state.currentTime;
-      const pace         = currentDay >= 3 ? masteredNow / currentDay : 0;
-      const remaining    = target - masteredNow;
+      const threshold   = this.state.config?.masteredThresholdH ?? 14;
+      const target      = words.filter(w => !w.excluded).length;
+      const masteredNow = words.filter(w => !w.excluded && w.h >= threshold).length;
+      const currentDay  = this.state.currentTime;
+      const remaining   = target - masteredNow;
 
       if (remaining === 0) {
         paceEl.innerHTML = `<div class="ww-pace-complete">🏆 全Wave制覇達成！</div>`;
-      } else if (pace < 0.1) {
+      } else if (masteredNow < 10 || currentDay < 1) {
         paceEl.innerHTML =
           `<div class="ww-pace-title">📊 学習ペース</div>` +
-          `<div class="ww-pace-row">定着ペース <b>—</b>（Day 3 以降に予測が表示されます）</div>`;
+          `<div class="ww-pace-row">定着語が増えると予測が表示されます</div>`;
       } else {
+        const pace     = masteredNow / currentDay;
         const daysLeft = Math.round(remaining / pace);
         const estDay   = Math.round(currentDay + daysLeft);
         paceEl.innerHTML =
