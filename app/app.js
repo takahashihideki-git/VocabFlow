@@ -125,7 +125,9 @@ class VocabFlowApp {
 
     // 優先3: 経過日数・Wave・定着語数
     if (lines.length < 3) {
-      const maxWave  = activeWaves.length > 0 ? Math.max(...activeWaves) : 1;
+      const maxWave = state.words.reduce(
+        (max, w) => (w.stage !== 'new' && !w.excluded) ? Math.max(max, w.waveNumber) : max, 1
+      );
       const mastered = state.masteredCount;
       if (dayN >= 1 && mastered > 0) {
         lines.push(`Day ${dayN} — ${mastered}語定着・第${maxWave}波到達中。`);

@@ -80,17 +80,13 @@ export class WaveManager {
 
   // -------------------------------------------------------
   // ウェーブの解放条件を満たすか
+  // アクティブwave全体の未導入語がセッション1回分を下回ったら次を解放
   // -------------------------------------------------------
-  _meetsUnlockCondition(waveNumber) {
-    const cfg = this.config;
-    const words = this.getWordsInWave(waveNumber);
-    if (words.length === 0) return false;
-    // 未導入語（new）は判定対象外：review 過負荷で新語が入れられない状況でも
-    // 導入済み語の進捗でアンロック判定できるようにする
-    const introduced = words.filter(w => w.stage !== 'new');
-    if (introduced.length === 0) return false;
-    const qualified = introduced.filter(w => w.peakH >= cfg.waveUnlockH).length;
-    return qualified / introduced.length >= cfg.waveUnlockRatio;
+  _meetsUnlockCondition(_waveNumber) {
+    const availableNew = this.state.activeWaves.reduce((sum, wn) =>
+      sum + this.getWordsInWave(wn).filter(w => w.stage === 'new' && !w.excluded).length, 0
+    );
+    return availableNew < this.config.maxNewPerSession;
   }
 
   // -------------------------------------------------------
