@@ -57,6 +57,30 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-05-21 修正ログ
+
+### mastered 語の維持レビューを出題プールに応じて変化
+
+spec.md §4.4 改訂に伴う実装変更。mastered 語の維持レビューカードを `_assignCardType` で出題プールから分岐。
+
+**変更前**: `_assignCardType` は word.stage のみで判定し、mastered は switch の default に落ちて常に `recall` を返していた。
+
+**変更後**:
+- `_assignCardType(word, learnerState, pool)` に pool 引数を追加（`'skipped'|'urgent'|'due'|'uncertain'`）
+- `word.stage === 'mastered'` 分岐を switch の前に追加
+  - `pool === 'urgent'`（p < 0.5）: `dictation` 固定 — 長期離脱後の確実な確認
+  - それ以外（due / skipped）: `['recognition','recall','dictation','passive']` からランダム選出 — 変化のある軽い確認
+- `generateSession` の Card 生成箇所で pool 種別を渡すよう更新
+- リトライ呼び出し元（`app.js _insertRetry` / `sim-runner.js`）は pool 未指定のまま（リトライ時点で word.stage は降格済みのため mastered 分岐に入らない）
+
+mastered + passive 選出時の `Card.passiveSection` は ui-cards.js の遅延初期化（`card.word.passiveCursor` 参照）が自動的に処理するため feed-generator 側の追加対応不要。
+
+シム結果: 200日まで実行し従来とほぼ同等の数値を確認（Day 30 定着=183、Day 90 定着=471、Day 180 定着=814）。
+
+（`core/feed-generator.js` `_assignCardType` / `generateSession`）
+
+---
+
 ## 2026-04-30 修正ログ
 
 ### Wave 解放条件を供給ベースに変更・スタート画面 wave 番号誤表示を修正

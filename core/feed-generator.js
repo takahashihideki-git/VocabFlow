@@ -61,13 +61,13 @@ export class FeedGenerator {
     const cards = [];
 
     for (const w of selectedSkipped) {
-      cards.push(new Card(w, this._assignCardType(w, learnerState)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState, 'skipped')));
     }
     for (const w of selectedUrgent) {
-      cards.push(new Card(w, this._assignCardType(w, learnerState)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState, 'urgent')));
     }
     for (const w of selectedDue) {
-      cards.push(new Card(w, this._assignCardType(w, learnerState)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState, 'due')));
     }
     for (const w of selectedNew) {
       // 新語は Intro + Recognition のペアとして追加
@@ -75,7 +75,7 @@ export class FeedGenerator {
       cards.push(new Card(w, 'recognition'));
     }
     for (const w of selectedUncertain) {
-      cards.push(new Card(w, this._assignCardType(w, learnerState)));
+      cards.push(new Card(w, this._assignCardType(w, learnerState, 'uncertain')));
     }
     for (const w of selectedFiller) {
       cards.push(new Card(w, 'passive'));
@@ -151,8 +151,13 @@ export class FeedGenerator {
 
   // -------------------------------------------------------
   // ステージに応じたカード種別を割り当て
+  //
+  // pool: 'skipped'|'urgent'|'due'|'uncertain' （リトライ等の呼び出しでは未指定）
+  // mastered 語は出題プールで種別が変わる（spec §4.4）:
+  //   - urgent (p<0.5): Dictation 固定 — 久しぶりだね。本当に覚えてる？
+  //   - due / skipped:  Recognition/Recall/Dictation/Passive からランダム選出
   // -------------------------------------------------------
-  _assignCardType(word, learnerState) {
+  _assignCardType(word, learnerState, pool) {
     const cfg = this.config;
 
     // Handwrite 介入チェック：停滞語かつ手書きモード有効かつ上限未達
@@ -161,6 +166,12 @@ export class FeedGenerator {
         learnerState.handwriteCountThisSession++;
         return 'handwrite';
       }
+    }
+
+    if (word.stage === 'mastered') {
+      if (pool === 'urgent') return 'dictation';
+      const variants = ['recognition', 'recall', 'dictation', 'passive'];
+      return variants[Math.floor(Math.random() * variants.length)];
     }
 
     switch (word.stage) {
