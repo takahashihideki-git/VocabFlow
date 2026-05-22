@@ -12,8 +12,13 @@ export class SRSEngine {
   processResponse(word, cardType, result, currentTime) {
     const isCorrect = result !== 'wrong';
 
-    // Passive は間接観測のみ。h を更新しない
-    if (cardType === 'passive') return;
+    // Passive は間接観測のみ。h は更新しない。
+    // ただし mastered 語の passive は維持クレジットとして lastReviewed を更新し、
+    // h が伸びないまま due に居座り続ける（毎セッション再出題される）ループを防ぐ。
+    if (cardType === 'passive') {
+      if (word.stage === 'mastered') word.lastReviewed = currentTime;
+      return;
+    }
 
     // Intro は h₀ を設定するだけ（ステージ遷移のみ）
     if (cardType === 'intro') {
