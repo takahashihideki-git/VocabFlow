@@ -158,8 +158,12 @@ export class WordWaveRenderer {
       statsEl.innerHTML =
         `<span>学習: <b>${learned}/${total}</b></span>` +
         `<span>定着: <b>${mastered}</b></span>` +
-        `<span>Wave <b>${maxWave}</b></span>` +
         `<span>${LABELS.params.avgH}: <b>${formatH(avgH)}</b></span>`;
+    }
+
+    const waveEl = this.overlay.querySelector('#wordwave-wave');
+    if (waveEl) {
+      waveEl.textContent = `Wave ${maxWave}`;
     }
 
     const timeEl = this.overlay.querySelector('#wordwave-time');

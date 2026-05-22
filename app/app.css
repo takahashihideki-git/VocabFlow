@@ -1069,6 +1069,7 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 
 #wordwave-stats b { color: var(--text); font-weight: 600; }
 
+#wordwave-wave,
 #wordwave-time {
   font-size: 13px;
   font-weight: 600;
