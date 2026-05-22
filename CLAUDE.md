@@ -59,6 +59,35 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 2026-05-22 修正ログ
 
+### Word Wave に潮の状態（満ち/引き/凪）と次の満ち潮予測を表示
+
+「位相同期」を問題ではなく Word Wave の体験そのもの——新語投入期（満ち）と復習定着期（引き）の自然なリズム——として可視化する施策。仕様上の Wave（100語ゲート＝大きな波）とは別に、`h の成長 × sessionSize × maxNewPerSession` の相互作用から生まれる小さな波を `#ww-pace-section` に表示する。
+
+**`ui-wordwave.js` — `_computeTide()` 追加**:
+- `feed-generator` の貪欲割当（`skipped→urgent→due→new`）を先読みし、次セッションの新語枠数 `newSlots` を見積もる
+- `reviewDemand = skipped + urgent + due`、`newSlots = min(newAvail, max(0, sessionSize − reviewDemand), maxNewPerSession)`
+- 判定: `newSlots ≥ 3` → 満ち潮 / `reviewDemand ≥ sessionSize − 2`（18以上）→ 引き潮 / それ以外 → 凪
+- uncertain プールは貪欲順で new より後段のため新語を押し出さない → reviewDemand に含めない
+
+**`_updateStats()` — ペースセクション改修**:
+- 既存の全Wave制覇予測の上に潮の状態行を追加（2段構成: 上段＝潮、下段＝全Wave制覇予測）
+- 引き潮のときのみ「次の満ち潮」を外挿表示: `excess = reviewDemand − (sessionSize − 3)` を学習者のセッションペース（`sessionsCompleted / currentDay`）× `sessionSize` で割って日数化。`< 0.75日` は「まもなく」、それ以外は「約N日後（Day X頃）」。`sessionsCompleted < 3` または `currentDay < 1` は予測を出さない
+- 満ち潮・凪は状態のみ表示（次の満ち潮予測なし）
+
+**`app.css`**:
+- `#ww-pace-section` を `flex-direction: column` に変更（潮の行と全Wave行を縦積み）
+- `.ww-tide-line`（背景 `#333`・`padding 0.5rem`・角丸のボックス表示）・`.ww-tide--flood/ebb/slack`・`.ww-goal-line` を追加
+
+設計上の注意: 毎日学習する学習者では引き潮は1セッション程度で解消するため予測はほぼ「まもなく満ち潮」になる。複数日の「約N日後」が出るのは離脱して復習の山が積み上がった学習者のケース（外挿として正しい挙動）。SRS ロジックには一切手を入れず既存 state からの可視化のみのため spec.md の改訂は不要。
+
+（`app/ui-wordwave.js` `_computeTide` / `_updateStats` / `app/app.css`）
+
+### Word Wave のタイトル横に Wave 数を表示
+
+`#wordwave-stats`（学習/定着/平均h の行）内にあった Wave 数を `#wordwave-title` 内の `#wordwave-time`（Day N 表示）の直前に移動。`#wordwave-wave` span を新設し `_updateStats()` で `Wave N` をセット。CSS は `#wordwave-time` と同スタイルに統合。
+
+（`app/app.html` / `app/ui-wordwave.js` `_updateStats` / `app/app.css`）
+
 ### mastered 語の passive カードに維持クレジットを付与
 
 2026-05-21 の「mastered 維持レビュー多様化」により、mastered + due 語が 1/4 の確率で passive カードを引くようになった。しかし `processResponse` は passive を即 return するため h も lastReviewed も更新されず、その語は維持レビューのクレジットを得られないまま `due` に居座り、非 passive を引くまで毎セッション再出題され続けるループが発生していた（`due` プールがわずかに膨張）。
