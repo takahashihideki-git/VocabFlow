@@ -12,7 +12,7 @@
 <div id="start-screen">
   <div class="start-inner">
     <div class="logo">Word Wave</div>
-    <div style="font-size:48px;line-height:1">🌊</div>
+    <div style="line-height:1"><span class="wave-icon"></span></div>
     <p class="tagline loading" id="tagline"><span class="dot"></span><span class="dot"></span><span class="dot"></span></p>
     <button class="btn-primary" id="btn-start">学習開始</button>
     <button class="btn-secondary" id="btn-start-reset" style="width:100%">リセットして再開</button>
@@ -27,7 +27,7 @@
     <span>定着 <span class="val" id="stat-mastered">0</span>語</span>
     <span>Wave <span class="val" id="stat-waves">1</span></span>
     <span>Day <span class="val" id="stat-day">0.0</span></span>
-    <span id="heatmap-ww-link">🌊 waves ›</span>
+    <span id="heatmap-ww-link"><span class="wave-icon"></span> waves ›</span>
   </div>
   <canvas id="heatmap-canvas"></canvas>
 </div>
@@ -103,7 +103,7 @@
 <!-- Wave complete overlay -->
 <div class="overlay" id="overlay-wavecomplete" style="display:none">
   <div class="overlay-card wc-card">
-    <div class="wc-icon">🌊</div>
+    <div class="wc-icon"><span class="wave-icon"></span></div>
     <div class="overlay-title" id="wc-title"></div>
     <div class="wc-message" id="wc-message"></div>
     <button class="btn-primary" id="btn-wavecomplete-close">続ける</button>

@@ -520,7 +520,7 @@ class VocabFlowApp {
         }
       }
     });
-    [...newWaves].sort().forEach(wn => this.showToast(`🌊 第${wn}波の単語が届きました`));
+    [...newWaves].sort().forEach(wn => this.showToast(`<span class="wave-icon"></span> 第${wn}波の単語が届きました`));
 
     if (cards.length === 0) {
       this._showNoWork();
@@ -988,7 +988,7 @@ class VocabFlowApp {
     this._toastShowing = true;
     const el = document.getElementById('toast');
     el.classList.remove('visible');
-    el.textContent = this._toastQueue.shift();
+    el.innerHTML = this._toastQueue.shift();
     void el.offsetWidth; // 強制リフローで初期状態を確定させてからトランジション開始
     el.classList.add('visible');
     clearTimeout(this._toastTimer);

@@ -91,7 +91,7 @@ export class WordWaveRenderer {
         // Wave ラベル（先頭に "W1" 等）
         const label = document.createElement('span');
         label.className  = 'ww-wave-label';
-        label.textContent = `🌊 Wave ${waveNum}`;
+        label.innerHTML = `<span class="wave-icon"></span> Wave ${waveNum}`;
         label.dataset.wave = waveNum;
         body.appendChild(label);
 
@@ -195,7 +195,7 @@ export class WordWaveRenderer {
         if (tide && tide.state === 'flood') {
           tideHtml =
             `<div class="ww-tide-line ww-tide--flood">` +
-            `🌊 いまは満ち潮 — 新しい単語が次々と入ってくる時期です</div>`;
+            `<span class="wave-icon"></span> いまは満ち潮 — 新しい単語が次々と入ってくる時期です</div>`;
         } else if (tide && tide.state === 'ebb') {
           // 復習の山を学習者のセッションペースで消化したら満ち潮が戻る、と外挿
           let forecast = '';

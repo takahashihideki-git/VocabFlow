@@ -34,6 +34,8 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+  background: linear-gradient(rgba(8,8,18,0.55), rgba(8,8,18,0.78)),
+              url("wave.jpg") center / cover no-repeat;
 }
 
 /* ===== Dev Mode ===== */
@@ -712,6 +714,16 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   line-height: 1;
 }
 
+/* ブランドの波アイコン（絵文字 🌊 の置き換え）。font-size でスケールするインライン要素 */
+.wave-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background: url("wave-icon.png") center / contain no-repeat;
+  vertical-align: -0.28em;
+}
+#start-screen .wave-icon { font-size: 128px; }
+
 .wc-message {
   font-size: 15px;
   color: var(--text-muted);
@@ -860,7 +872,7 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--bg);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
