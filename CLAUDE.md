@@ -59,6 +59,27 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 2026-05-22 修正ログ
 
+### 波の絵文字をブランドアイコンに置き換え・body 背景に波の写真
+
+プラットフォーム依存の絵文字レンダリング（🌊）をブランド統一されたアイコンに置き換え、アプリ全体に波の世界観を持たせる施策。
+
+**波アイコン**:
+- インライン用に `wave-icon.png`（192px・透過・29KB）を `icon.png` から生成（内容クロップ＋5%余白で正方形化・縮小）
+- `.wave-icon` クラス（`width/height: 1em` のインライン要素・`background-size: contain`・`vertical-align: -0.28em`）で `font-size` スケール可能に。絵文字 🌊 と同じ感覚で使える
+- 全9か所を統一: スタート画面ロゴ・`waves ›` リンク・wave-complete オーバーレイ・wave 解放トースト・Word Wave の Wave ラベル・満ち潮メッセージ
+- `textContent` だったトースト（`_dequeueToast`）・Wave ラベルは `innerHTML` に変更しアイコン span を注入（メッセージは全て内部文字列のため安全）
+- スタート画面ロゴは `#start-screen .wave-icon { font-size: 128px }`
+
+**背景画像**:
+- `body` 要素の背景に波の写真 `wave.jpg`（Unsplash・Tim Marshall）を設定。可読性確保のため暗いオーバーレイ（`rgba(8,8,18,0.55→0.78)` の縦グラデーション）を重ねる
+- `#start-screen` は `background: transparent` にして body の背景を透過表示（スタート画面・ヒートマップ背後・アプリ全体に波が見える）
+
+**アセット配置**:
+- `icon.png`（1.4MB・1024px 透過マスター）はリポジトリルートへ移動。`deploy.sh` は `app/` を転送するため、参照されないマスター画像を本番から除外
+- `wave.jpg`（557KB）・`about.wave.jpg.txt`（Unsplash クレジット表記）は `app/` に配置
+
+（`app/app.html` / `app/app.css` / `app/app.js` / `app/ui-wordwave.js` / `app/style-mockup.html` / `app/wave-icon.png` / `app/wave.jpg` / `icon.png`）
+
 ### Word Wave に潮の状態（満ち/引き/凪）と次の満ち潮予測を表示
 
 「位相同期」を問題ではなく Word Wave の体験そのもの——新語投入期（満ち）と復習定着期（引き）の自然なリズム——として可視化する施策。仕様上の Wave（100語ゲート＝大きな波）とは別に、`h の成長 × sessionSize × maxNewPerSession` の相互作用から生まれる小さな波を `#ww-pace-section` に表示する。
@@ -722,6 +743,7 @@ VocabFlow/
 ├── package.json          # "type": "module"
 ├── classification-spec.md# カテゴリ分類作業仕様書（18カテゴリ体系・作業フロー）
 ├── .gitignore
+├── icon.png              # 波アイコンのマスター画像（1024px透過。wave-icon.png の生成元。deploy 対象外）
 ├── scripts/              # 各種スクリプト群
 │   ├── batch_extract.py         # 1900語→20語×95バッチ分割
 │   ├── classify_all.py          # 全1900語のcategoryId定義（AI判定済み）
@@ -764,5 +786,8 @@ VocabFlow/
     ├── ui-wordwave.js    # Word Wave 全画面ビュー（pRecall・最終復習日・除外・一括除外）
     ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
     ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI・日本語訳トグル
-    └── style-mockup.html # スタイル確認用モックアップ（6種カード・画面遷移・ヘッダ/フッタを静的表示）
+    ├── style-mockup.html # スタイル確認用モックアップ（6種カード・画面遷移・ヘッダ/フッタを静的表示）
+    ├── wave-icon.png     # 波のブランドアイコン（インライン用・192px透過。.wave-icon クラスで使用）
+    ├── wave.jpg          # body 背景の波写真（Unsplash・Tim Marshall・557KB）
+    └── about.wave.jpg.txt# wave.jpg のクレジット表記（Unsplash 帰属）
 ```
