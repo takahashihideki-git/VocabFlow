@@ -1226,9 +1226,9 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 #ww-pace-section {
   flex-shrink: 0;
   display: flex;
-  align-items: baseline;
-  gap: 8px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
   padding: 10px 20px;
   border-top: 1px solid var(--border);
   background: rgba(0,0,0,0.4);
@@ -1236,11 +1236,31 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   color: var(--text-muted);
   min-height: 36px;
 }
+.ww-goal-line {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
 .ww-pace-label  { white-space: nowrap; }
 .ww-pace-value  { color: var(--text); }
 .ww-pace-value b { color: var(--accent); }
 .ww-pace-complete { font-weight: 700; color: var(--success); }
 .ww-pace-waiting  { font-style: italic; }
+
+.ww-tide-line {
+  line-height: 1.5;
+  background-color: #333;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.ww-tide-line b { font-weight: 700; }
+.ww-tide--flood   { color: var(--accent); }
+.ww-tide--flood b { color: var(--accent); }
+.ww-tide--ebb     { color: var(--text); }
+.ww-tide--ebb b   { color: var(--accent); }
+.ww-tide--slack   { color: var(--text-muted); }
 
 #wordwave-footer {
   flex-shrink: 0;

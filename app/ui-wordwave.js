@@ -177,7 +177,7 @@ export class WordWaveRenderer {
       el.classList.toggle('active', activeSet.has(parseInt(el.dataset.wave)));
     });
 
-    // ペース予測セクション更新
+    // ペース予測セクション更新（潮の状態 + 全Wave制覇予測）
     const paceEl = this.overlay.querySelector('#ww-pace-section');
     if (paceEl) {
       const threshold   = this.state.config?.masteredThresholdH ?? 14;
@@ -188,17 +188,113 @@ export class WordWaveRenderer {
 
       if (remaining === 0) {
         paceEl.innerHTML = `<span class="ww-pace-complete">🏆 全Wave制覇達成！</span>`;
-      } else if (masteredNow < 10 || currentDay < 1) {
-        paceEl.innerHTML = `<span class="ww-pace-waiting">定着語が増えると予測が表示されます</span>`;
       } else {
-        const pace     = masteredNow / currentDay;
-        const daysLeft = Math.round(remaining / pace);
-        const estDay   = Math.round(currentDay + daysLeft);
-        paceEl.innerHTML =
-          `<span class="ww-pace-label">このペースで続けると</span>` +
-          `<span class="ww-pace-value">全Wave制覇は<b>約${daysLeft}日後</b>です。（Day ${estDay} 頃）</span>`;
+        // --- 潮の状態（足元のリズム） ---
+        const tide = this._computeTide();
+        let tideHtml = '';
+        if (tide && tide.state === 'flood') {
+          tideHtml =
+            `<div class="ww-tide-line ww-tide--flood">` +
+            `🌊 いまは満ち潮 — 新しい単語が次々と入ってくる時期です</div>`;
+        } else if (tide && tide.state === 'ebb') {
+          // 復習の山を学習者のセッションペースで消化したら満ち潮が戻る、と外挿
+          let forecast = '';
+          const cfg = this.state.config;
+          const sessionPace = currentDay >= 1
+            ? this.state.sessionsCompleted / currentDay : 0;
+          if (sessionPace > 0 && this.state.sessionsCompleted >= 3) {
+            const excess   = tide.reviewDemand - (cfg.sessionSize - tide.floodSlots);
+            const daysLeft = excess / (sessionPace * cfg.sessionSize);
+            if (daysLeft < 0.75) {
+              forecast = ` <b>まもなく満ち潮に変わります。</b>`;
+            } else {
+              const d = Math.round(daysLeft);
+              forecast = ` <b>次の満ち潮は約${d}日後（Day ${Math.round(currentDay + d)} 頃）です。</b>`;
+            }
+          }
+          tideHtml =
+            `<div class="ww-tide-line ww-tide--ebb">` +
+            `🐚 いまは引き潮 — 覚えた単語の定着を固める時期です。${forecast}</div>`;
+        } else if (tide) {
+          tideHtml =
+            `<div class="ww-tide-line ww-tide--slack">` +
+            `🌙 いまは凪 — 復習も新語もおだやかな時期です</div>`;
+        }
+
+        // --- 全Wave制覇予測（遠くの目的地） ---
+        let goalHtml;
+        if (masteredNow < 10 || currentDay < 1) {
+          goalHtml =
+            `<div class="ww-goal-line">` +
+            `<span class="ww-pace-waiting">定着語が増えると全Wave制覇の予測が表示されます</span></div>`;
+        } else {
+          const pace     = masteredNow / currentDay;
+          const daysLeft = Math.round(remaining / pace);
+          const estDay   = Math.round(currentDay + daysLeft);
+          goalHtml =
+            `<div class="ww-goal-line">` +
+            `<span class="ww-pace-label">このペースで続けると</span>` +
+            `<span class="ww-pace-value">全Wave制覇は<b>約${daysLeft}日後</b>です。（Day ${estDay} 頃）</span>` +
+            `</div>`;
+        }
+
+        paceEl.innerHTML = tideHtml + goalHtml;
       }
     }
+  }
+
+  // -------------------------------------------------------
+  // 潮の状態判定（次セッションの新語枠の埋まり方から）
+  //
+  // feed-generator の貪欲割当（skipped→urgent→due→new）を先読みし、
+  // 次セッションで新語が何枠入るか（newSlots）を見積もる:
+  //   満ち潮 (flood): newSlots >= 3 — 新語が入ってくる時期
+  //   引き潮 (ebb)  : 復習需要が枠を埋め、新語が押し出されている時期
+  //   凪    (slack) : 復習も新語も少ない穏やかな時期（終盤など）
+  // -------------------------------------------------------
+  _computeTide() {
+    const cfg = this.state.config;
+    if (!cfg) return null;
+
+    const t  = this.state.currentTime;
+    const rf = Math.log2(1 / cfg.targetRetention);
+    const activeSet = new Set(this.state.activeWaves);
+
+    let skipped = 0, urgent = 0, due = 0, newAvail = 0;
+    for (const w of this.state.words) {
+      if (w.excluded) continue;
+      if (w.skipped)  { skipped++; continue; }
+      if (w.stage === 'new') {
+        if (activeSet.has(w.waveNumber)) newAvail++;
+        continue;
+      }
+      const p = w.pRecall(t);
+      if (w.stage === 'mastered') {
+        if (p < 0.5) urgent++;
+        else if (p < cfg.targetRetention) due++;
+        continue;
+      }
+      if (p < 0.5) { urgent++; continue; }
+      // uncertain は貪欲割当で new より後段 → 新語を押し出さない
+      if (w.currentSigma(t, cfg.sigmaDecay) > cfg.uncertainThreshold) continue;
+      const optimalNextReview = w.lastReviewed + (w.h > 0 ? w.h * rf : 0);
+      if (t >= optimalNextReview) due++;
+    }
+
+    const floodSlots   = 3;
+    const reviewDemand = skipped + urgent + due;
+    const newSlots = Math.min(
+      newAvail,
+      Math.max(0, cfg.sessionSize - reviewDemand),
+      cfg.maxNewPerSession
+    );
+
+    let state;
+    if (newSlots >= floodSlots) state = 'flood';
+    else if (reviewDemand >= cfg.sessionSize - (floodSlots - 1)) state = 'ebb';
+    else state = 'slack';
+
+    return { state, reviewDemand, newSlots, floodSlots };
   }
 
   // -------------------------------------------------------
