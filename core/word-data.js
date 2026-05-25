@@ -19281,17 +19281,17 @@ export const WORD_DATA = [
       pos: "verb",
       categoryId: 4,
       meanings: [
-        { meaning: "（罪・過ちを）犯す", pos: "verb" },
         { meaning: "（〜に）専念する・約束する", pos: "verb" },
+        { meaning: "（罪・過ちを）犯す", pos: "verb" },
       ],
       pronunciation: "/kəˈmɪt/",
       syllables: "com-mit",
       audioHint: "コミット",
       examples: [
         {
-          en: "He committed a serious mistake at work yesterday.",
-          ja: "彼は昨日仕事で重大なミスを犯した。",
-          blank: "He ___ a serious mistake at work yesterday.",
+          en: "She committed to finishing the project by Friday.",
+          ja: "彼女は金曜までにプロジェクトを終えると約束した。",
+          blank: "She ___ to finishing the project by Friday.",
           blankAnswer: "committed",
         },
       ],
