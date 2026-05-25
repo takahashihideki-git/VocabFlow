@@ -57,6 +57,29 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-05-25 修正ログ
+
+### スタート画面の「前回」→「最近」
+
+`_buildStartGreeting()` の直近 mastered 通知が「前回、X・Y が定着しました。」を表示していたが、判定ロジックは `lastReviewed >= currentTime - sessionDur * 2`（直近 2 セッション分 ≒ 16時間以内に触れた mastered 語）であり「直前のセッション」ではなく「最近触れた mastered 語」が正確。`前回` → `最近` に変更。（`app/app.js` `_buildStartGreeting`）
+
+### 「制覇」「全波」を「クリア」「全Wave」に統一
+
+ブランドトーン調整。勇ましすぎる「制覇」「全波」表記をアプリ全体で柔らかい「クリア」「全Wave」に置換。
+
+- `app/app.js` `_showWaveComplete`: `全波 制覇` → `全Wave クリア`、`Wave N クリア！` → `Wave N クリア`、`Wave 1 達成` → `Wave 1 クリア`（タイトル文言の感嘆符も削除）
+- `app/ui-wordwave.js` `_updateStats`: `🏆 全Wave制覇達成！` → `🏆 全Wave クリア`、`全Wave制覇は約N日後です。（Day Y 頃）` → `全Wave クリアまで約N日です。（Day Y 頃）`、定着語不足時のメッセージは「定着語が増えると 最後の波をクリアするまでにかかる期間の予測が表示されます」に書き換え
+
+「All Wave」も併用検討したが「全Wave」に統一。
+
+### #601 commit の第一義を「専念する・約束する」に
+
+meanings[0]「（罪・過ちを）犯す」→「（〜に）専念する・約束する」に入れ替え。例文も `He committed a serious mistake at work yesterday.`（犯す用法）→ `She committed to finishing the project by Friday.`（約束する用法）に差し替え。日常・ビジネス文脈・Git の「コミット」もこちらが第一義として自然。passive の tips・collocations・trivia は「犯す」用法にも触れる構成のまま据え置き。
+
+（`scripts/results/word_data_final.json` / `core/word-data.js`）
+
+---
+
 ## 2026-05-22 修正ログ
 
 ### 波の絵文字をブランドアイコンに置き換え・body 背景に波の写真
