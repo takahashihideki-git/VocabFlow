@@ -120,7 +120,7 @@ class VocabFlowApp {
     if (recentMastered.length > 0 && lines.length < 3) {
       const names = recentMastered.slice(0, 2).map(w => w.wordString).join('・');
       const extra = recentMastered.length > 2 ? ` など${recentMastered.length}語` : '';
-      lines.push(`前回、${names}${extra} が定着しました。`);
+      lines.push(`最近、${names}${extra} が定着しました。`);
     }
 
     // 優先3: 経過日数・Wave・定着語数
@@ -840,13 +840,13 @@ class VocabFlowApp {
       .every(w => w.stage === 'mastered');
 
     if (allMastered) {
-      title   = `全波 制覇`;
+      title   = `全Wave クリア`;
       message = `1900語すべてが定着しました。長い波の旅でした。でも記憶は生き物です。使い続ければ強くなり、離れれば薄れます。Word Wave はこれからも静かに見守り続けます。`;
     } else if (waveNumber === 1) {
-      title   = `Wave 1 達成`;
+      title   = `Wave ${waveNumber} クリア`;
       message = `Wave 1 の${wordCount}語が定着しました。でもこれは「覚えた」ではありません。記憶強度が十分に伸びた状態です。時間が経てば少しずつ薄れていきます。そのとき Word Wave がもう一度あなたに届けます。`;
     } else {
-      title   = `Wave ${waveNumber} クリア！`;
+      title   = `Wave ${waveNumber} クリア`;
       message = `累計 ${this.state.masteredCount} 語が定着。次の波が来ます。`;
     }
 

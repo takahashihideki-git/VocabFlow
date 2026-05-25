@@ -177,7 +177,7 @@ export class WordWaveRenderer {
       el.classList.toggle('active', activeSet.has(parseInt(el.dataset.wave)));
     });
 
-    // ペース予測セクション更新（潮の状態 + 全Wave制覇予測）
+    // ペース予測セクション更新（潮の状態 + 全Wave クリア予測）
     const paceEl = this.overlay.querySelector('#ww-pace-section');
     if (paceEl) {
       const threshold   = this.state.config?.masteredThresholdH ?? 14;
@@ -187,7 +187,7 @@ export class WordWaveRenderer {
       const remaining   = target - masteredNow;
 
       if (remaining === 0) {
-        paceEl.innerHTML = `<span class="ww-pace-complete">🏆 全Wave制覇達成！</span>`;
+        paceEl.innerHTML = `<span class="ww-pace-complete">🏆 全Wave クリア</span>`;
       } else {
         // --- 潮の状態（足元のリズム） ---
         const tide = this._computeTide();
@@ -226,7 +226,7 @@ export class WordWaveRenderer {
         if (masteredNow < 10 || currentDay < 1) {
           goalHtml =
             `<div class="ww-goal-line">` +
-            `<span class="ww-pace-waiting">定着語が増えると全Wave制覇の予測が表示されます</span></div>`;
+            `<span class="ww-pace-waiting">定着語が増えると 最後の波をクリアするまでにかかる期間の予測が表示されます</span></div>`;
         } else {
           const pace     = masteredNow / currentDay;
           const daysLeft = Math.round(remaining / pace);
@@ -234,7 +234,7 @@ export class WordWaveRenderer {
           goalHtml =
             `<div class="ww-goal-line">` +
             `<span class="ww-pace-label">このペースで続けると</span>` +
-            `<span class="ww-pace-value">全Wave制覇は<b>約${daysLeft}日後</b>です。（Day ${estDay} 頃）</span>` +
+            `<span class="ww-pace-value">全Wave クリアまで<b>約${daysLeft}日</b>です。（Day ${estDay} 頃）</span>` +
             `</div>`;
         }
 
