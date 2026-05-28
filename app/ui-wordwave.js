@@ -69,7 +69,26 @@ export class WordWaveRenderer {
     const word = this.state.words.find(w => w.wordId === wordId);
     if (!word) return;
     this._applyColor(span, word);
+    this._updateWaveCleared(word.waveNumber);
     if (this.isOpen()) this._updateStats();
+  }
+
+  // wave 内の非除外語が全 mastered ならクリア
+  _isWaveCleared(waveNumber) {
+    const waveWords = this.state.words.filter(w => w.waveNumber === waveNumber && !w.excluded);
+    return waveWords.length > 0 && waveWords.every(w => w.stage === 'mastered');
+  }
+
+  _updateWaveCleared(waveNumber) {
+    const cleared = this._isWaveCleared(waveNumber);
+    this.overlay.querySelectorAll(`.ww-wave-label[data-wave="${waveNumber}"]`).forEach(el => {
+      el.classList.toggle('cleared', cleared);
+    });
+  }
+
+  _refreshAllWavesCleared() {
+    const waveNumbers = [...new Set(this.state.words.map(w => w.waveNumber))];
+    for (const wn of waveNumbers) this._updateWaveCleared(wn);
   }
 
   // -------------------------------------------------------
@@ -121,6 +140,7 @@ export class WordWaveRenderer {
       this._spanMap.set(word.wordId, span);
     }
 
+    this._refreshAllWavesCleared();
     this._built = true;
   }
 
@@ -129,6 +149,7 @@ export class WordWaveRenderer {
       const span = this._spanMap.get(word.wordId);
       if (span) this._applyColor(span, word);
     }
+    this._refreshAllWavesCleared();
   }
 
   _applyColor(span, word) {
@@ -136,6 +157,7 @@ export class WordWaveRenderer {
     span.style.backgroundColor = c.bg;
     span.style.color            = c.text;
     span.style.textDecoration   = c.strike ? 'line-through' : 'none';
+    span.classList.toggle('mastered', word.stage === 'mastered');
   }
 
   // -------------------------------------------------------

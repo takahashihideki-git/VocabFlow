@@ -82,6 +82,7 @@ export class LearnerState {
     this.sessionsCompleted = 0;
     this.waveUnlockEvents = [];     // [{waveNumber, day}]
     this.activeWaves = [1];         // 現在アクティブなウェーブ番号リスト
+    this.everClearedWaves = [];     // 過去に1度でも全mastered到達した wave 番号（重複overlay抑制用）
     this.handwriteCountThisSession = 0;
     this.handwriteModeEnabled = true; // ユーザーが手書き可能かどうか（app層から設定）
   }
@@ -103,6 +104,7 @@ export class LearnerState {
       sessionsCompleted: this.sessionsCompleted,
       waveUnlockEvents: this.waveUnlockEvents,
       activeWaves: this.activeWaves,
+      everClearedWaves: this.everClearedWaves ?? [],
       savedAt: this.savedAt ?? Date.now(),
     };
   }
@@ -119,6 +121,7 @@ export class LearnerState {
     state.sessionsCompleted = data.sessionsCompleted;
     state.waveUnlockEvents = data.waveUnlockEvents;
     state.activeWaves = data.activeWaves;
+    state.everClearedWaves = data.everClearedWaves ?? [];
     state.savedAt = data.savedAt ?? null;
     return state;
   }

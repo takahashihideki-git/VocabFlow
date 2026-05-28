@@ -256,15 +256,20 @@ class VocabFlowApp {
       this._elapsedAtBoot = elapsedDays; // 久しぶり検出用
     }
 
-    // wave 全mastered 通知済みセット（起動時に既完了 wave を登録して重複防止）
-    this._notifiedWaveComplete = new Set();
+    // wave クリア状態の追跡
+    //  - _clearedWaves: 現在クリア中の wave（毎回 state から再計算）
+    //  - _everClearedWaves: 過去に1度でもクリアした wave（localStorage 永続）
+    //    初回 overlay の重複表示を防止し、再クリア時は無音で更新する
+    this._clearedWaves = new Set();
     const waveNumbers = [...new Set(this.state.words.map(w => w.waveNumber))];
     for (const wn of waveNumbers) {
-      const waveWords = this.state.words.filter(w => w.waveNumber === wn && !w.excluded);
-      if (waveWords.length > 0 && waveWords.every(w => w.stage === 'mastered')) {
-        this._notifiedWaveComplete.add(wn);
-      }
+      if (this._computeWaveCleared(wn)) this._clearedWaves.add(wn);
     }
+    this._everClearedWaves = new Set([
+      ...(this.state.everClearedWaves ?? []),
+      ...this._clearedWaves, // 起動時にクリア中の wave は overlay 表示済みとみなす
+    ]);
+    this.state.everClearedWaves = [...this._everClearedWaves];
 
     this.engine      = new SRSEngine(this.config);
     this.waveManager = new WaveManager(this.config, this.state);
@@ -642,7 +647,11 @@ class VocabFlowApp {
       const rawWord = typeof word.word === 'object' ? word.word : {};
       const wordStr = rawWord.word || `word_${word.wordId}`;
       this.showToast(`⭐ ${wordStr} をマスターしました`);
-      this._checkWaveComplete(word.waveNumber);
+    }
+
+    // wave クリア状態の変化を検出してイベント発火
+    if (stageBefore !== word.stage) {
+      this._handleWaveStateChange(word.waveNumber);
     }
 
     this.state.totalCardsConsumed++;
@@ -821,13 +830,32 @@ class VocabFlowApp {
     document.getElementById('overlay-complete').style.display = 'flex';
   }
 
-  _checkWaveComplete(waveNumber) {
-    if (this._notifiedWaveComplete.has(waveNumber)) return;
+  // wave 内の非除外語が全 mastered ならクリア
+  _computeWaveCleared(waveNumber) {
     const waveWords = this.state.words.filter(w => w.waveNumber === waveNumber && !w.excluded);
-    if (waveWords.length === 0) return;
-    if (!waveWords.every(w => w.stage === 'mastered')) return;
-    this._notifiedWaveComplete.add(waveNumber);
-    this._showWaveComplete(waveNumber, waveWords.length);
+    return waveWords.length > 0 && waveWords.every(w => w.stage === 'mastered');
+  }
+
+  // stage 変化後に wave クリア状態を再評価してイベント発火
+  _handleWaveStateChange(waveNumber) {
+    const wasCleared = this._clearedWaves.has(waveNumber);
+    const isCleared  = this._computeWaveCleared(waveNumber);
+    if (wasCleared === isCleared) return;
+
+    if (isCleared) {
+      this._clearedWaves.add(waveNumber);
+      if (!this._everClearedWaves.has(waveNumber)) {
+        // 初回クリア: overlay 表示
+        this._everClearedWaves.add(waveNumber);
+        this.state.everClearedWaves = [...this._everClearedWaves];
+        const waveWords = this.state.words.filter(w => w.waveNumber === waveNumber && !w.excluded);
+        this._showWaveComplete(waveNumber, waveWords.length);
+      }
+      // 再クリアは無音（Word Wave のバッジが復活する）
+    } else {
+      this._clearedWaves.delete(waveNumber);
+      this.showToast(`⚠ Wave ${waveNumber} のクリアが解除されました`);
+    }
   }
 
   _showWaveComplete(waveNumber, wordCount) {
