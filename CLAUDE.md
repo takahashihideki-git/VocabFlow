@@ -16,7 +16,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `core/config.js` | ✅ handwriteStuckThreshold: 3・recognitionThresholdH: 2.0・masteredThresholdH: 14.0 追加済み。`maxActiveWaves` 撤廃（wave 解放はSRSペースに委ねる）。**waveSize: 100**（朝集中学習者の復習なし解消のため 50→100 に変更済み） |
-| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded/passiveCursor 追加。Card: done/userAnswer/shuffledChoices/bgUrl/passiveSection 追加。LearnerState: handwriteModeEnabled・savedAt 追加。**`stageBeforeWrong` フィールド削除**（2026-04-21: リトライ設計変更により不要に） |
+| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded/passiveCursor 追加。Card: done/userAnswer/shuffledChoices/bgUrl/passiveSection 追加。LearnerState: handwriteModeEnabled・savedAt 追加。**`stageBeforeWrong` フィールド削除**（2026-04-21: リトライ設計変更により不要に）。**`LearnerState.everClearedWaves` 追加**（2026-05-28: 過去にクリアした wave 番号を localStorage 永続化、Wave クリア overlay の重複発火を防止） |
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み。`maxActiveWaves` 上限撤廃（解放条件ゲートのみで制御）。`checkUnlock` で `getWordsInWave(nextWave).length === 0` の wave は activeWaves に push しない防御追加。**`_meetsUnlockCondition` を供給ベースに変更**（2026-04-30）: 旧 peakH ベース条件を廃止し、アクティブ wave 全体の `new` 語が `maxNewPerSession` 未満になったら次 wave を解放 |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し。**Spec §4.3 配置ルール更新（2026-04-20）**: `_enforceMaxConsecutive()` 追加（同種最大2連続 best effort）。dictation/handwrite を後半固定から解放し review pool に統合 |
@@ -41,12 +41,12 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `app/app.html` | ✅ PC用前後ナビボタン・Word Wave overlay。ヘッダーに Day N 表示。アプリ表示名「Word Wave」。`#toast` 要素追加。スタート画面タグラインを動的グリーティングに変更（3dot loading アニメーション付き）。wave全mastered達成オーバーレイ（`#overlay-wavecomplete`）追加。`#pc-nav-btns` を `#card-wrapper` 内に移動（カード右端近くに配置）。セッション完了画面: btn-primary（続ける）を time-controls の上に配置。**`#heatmap-section` を `#app` 外（body直下）に移動し常時表示**。`#card-area`・`#footer` は boot まで `display:none`。**セッション完了画面・復習なし画面のリセットボタンを削除**（スタート画面のみに集約）。**セッション完了タイトル（`#oc-title`）を動的メッセージに変更**（`_getSessionTitle()` で設定）。**`#ww-pace-section` を `#wordwave-body` と `#wordwave-footer` の間に追加**（Word Wave 固定フッタバー） |
-| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`）: 各波クリアは「Wave N クリア！」、全非除外語が mastered になった瞬間のみ「全波制覇」で置き換え。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止）。**スタート画面「リセットして再開」に `confirm()` ダイアログ追加**（誤操作防止）。**`_getSessionTitle()`**: セッション完了タイトルをパフォーマンス連動で動的生成（久しぶり復帰・全問正解・正解率別に各複数バリエーションからランダム選択）。`_elapsedAtBoot` で前回 save からの経過日数を保持し久しぶり検出に使用（正解率 50%以上のときのみ「おかえり。」等を表示）。**Bug 14 修正**: `_boot()` で `#wordwave-body` をクリアしてから新 WordWaveRenderer を生成（スタート画面で一度開いた後の重複表示を防止）。**Dictation near_miss 対応**: `_onCardAnswered` で `card._dictationNearMiss` フラグ時はリトライカード挿入をスキップ、`card._dictationNearMissOverwrite` フラグ時は `sessionWrong--` で統計を補正。**DEV_CONFIG に `totalWords: DEV_WORD_COUNT` 追加**（dev モードで Wave 4 以降が activeWaves に混入しないよう修正）。**リトライ設計変更（2026-04-21）**: `_insertRetry` が `feedGen._assignCardType` で降格後 stage のカード種別を決定。リトライ正解も全種別 `processResponse` 経由（`stageBeforeWrong` 廃止）。**`_buildStartGreeting()` の wave 番号を修正**（2026-04-30）: `Math.max(...activeWaves)` から `stage !== 'new' && !excluded` 語の最大 waveNumber に変更し、解放済みだが未学習の wave が「到達中」と誤表示される問題を修正 |
+| `app/app.js` | ✅ スキップ・戻りスワイプ・履歴ビュー。WordWaveRenderer 統合。passive-scroll とのスワイプ干渉修正済み。トースト通知・回答確定時SRS処理（`_onCardAnswered`）・カード遷移時TTS停止。スタート画面動的グリーティング。**実時間追跡**（`_boot()` で `savedAt` 差分を `currentTime` に加算）。**復習なし画面**を card-wrapper に直接注入（ヘッダ/フッタ維持・待機時間表示・更新ボタンを time-controls 上に配置）。**Intro/Passive を正解・不正解カウントから除外**。**wave全mastered達成オーバーレイ**（`_checkWaveComplete`・`_showWaveComplete`）: 各波クリアは「Wave N クリア！」、全非除外語が mastered になった瞬間のみ「全波制覇」で置き換え。**Wave 表示**はセッション中 intro カードも考慮した最大 waveNumber。**wave トースト**は「そのwaveの最初の intro カードがセッションに登場した瞬間」に発火。**復習なし画面**で innerHTML 置換前に pc-nav-btns を退避・復元（時間早送り後の btn-next-card null エラー修正）。**`_initHeatmapEarly()`**: constructor で localStorage から state を早期ロードしヒートマップ・WordWaveRenderer を初期化（`requestAnimationFrame` で初回描画・スタート画面でも Waves 閲覧・除外操作が可能）。`_buildStartGreeting()` は `this.state` を再利用（localStorage 二重パース廃止）。**スタート画面「リセットして再開」に `confirm()` ダイアログ追加**（誤操作防止）。**`_getSessionTitle()`**: セッション完了タイトルをパフォーマンス連動で動的生成（久しぶり復帰・全問正解・正解率別に各複数バリエーションからランダム選択）。`_elapsedAtBoot` で前回 save からの経過日数を保持し久しぶり検出に使用（正解率 50%以上のときのみ「おかえり。」等を表示）。**Bug 14 修正**: `_boot()` で `#wordwave-body` をクリアしてから新 WordWaveRenderer を生成（スタート画面で一度開いた後の重複表示を防止）。**Dictation near_miss 対応**: `_onCardAnswered` で `card._dictationNearMiss` フラグ時はリトライカード挿入をスキップ、`card._dictationNearMissOverwrite` フラグ時は `sessionWrong--` で統計を補正。**DEV_CONFIG に `totalWords: DEV_WORD_COUNT` 追加**（dev モードで Wave 4 以降が activeWaves に混入しないよう修正）。**リトライ設計変更（2026-04-21）**: `_insertRetry` が `feedGen._assignCardType` で降格後 stage のカード種別を決定。リトライ正解も全種別 `processResponse` 経由（`stageBeforeWrong` 廃止）。**`_buildStartGreeting()` の wave 番号を修正**（2026-04-30）: `Math.max(...activeWaves)` から `stage !== 'new' && !excluded` 語の最大 waveNumber に変更し、解放済みだが未学習の wave が「到達中」と誤表示される問題を修正。**Wave クリア状態管理を再設計**（2026-05-28）: `_notifiedWaveComplete` を `_clearedWaves`（現在クリア中）+ `_everClearedWaves`（過去履歴・永続化）に分離。`_computeWaveCleared` + `_handleWaveStateChange` で初回クリア=overlay/再クリア=無音/クリア解除=トーストを出し分け |
 | `app/ui-cards.js` | ✅ 6種カードUI・TTS。全1900語の生成データを統合済み。**Passive カードは1回に1セクションをローテーション表示**（`WordState.passiveCursor` で管理、`Card.passiveSection` に確定値を保存して履歴ビューでも再現）。collocations チップは Google 検索リンク（`<a>`）。履歴ビュー完全再現（元 render メソッド流用・インタラクション無効化）。Intro/Recall に日本語訳トグル追加。Recognition 回答後に単語TTS・Recall 回答後に例文TTS。**Recall 回答後に `blankAnswer`（活用形）で例文を完成表示**（選択タップ時に差し替え・履歴ビューも対応）。**`getChoiceText()`**: Recognition 四択の正解ラベルに `choiceLabel ?? meanings[0].meaning` の fallback を実装（カタカナ推測防止）。履歴ビューの正解ボタンハイライトも同ロジックで統一。**Dictation near_miss / phonetic を不正解扱いに変更**: 入力時に word 状態をスナップショット保存 → `_markReady('wrong')` で即座に SRS 不正解登録 → 再入力可。再入力で perfect が出たらスナップショット復元 → `_srsProcessed = false` → `_markReady('perfect')` で正解上書き。フィードバックは「惜しい、もう一度 \| ギブアップ」（正解を見せない）。**ギブアップ押下で input を緑（correct）強調表示・フィードバックを dismissed（opacity 0.3）でグレーアウト**（2026-04-20） |
 | `app/ui-heatmap.js` | ✅ excluded 語の色追加。ツールチップ h 表示を formatH・LABELS に統合 |
-| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加。Wave 表示を学習済み最大波番号に統一。**`#ww-pace-section`**: `_updateStats()` で定着ペースを計算し「全Wave制覇は約N日後です。（Day Y頃）」を固定フッタバーに表示（定着語 10 語未満は非表示） |
+| `app/ui-wordwave.js` | ✅ Word Wave 全画面ビュー。単語除外・一括除外モード対応。ポップオーバーに pRecall・最終復習日追加。Wave 表示を学習済み最大波番号に統一。**`#ww-pace-section`**: `_updateStats()` で定着ペースを計算し「全Wave制覇は約N日後です。（Day Y頃）」を固定フッタバーに表示（定着語 10 語未満は非表示）。**mastered/クリアの視覚表現**（2026-05-28）: `_applyColor()` で `stage === 'mastered'` の語に `.mastered` class を toggle（金色枠 + ★ バッジ）。`_isWaveCleared()`・`_updateWaveCleared()`・`_refreshAllWavesCleared()` 追加で全 mastered な wave の `.ww-wave-label` に `.cleared` class を toggle（金色背景） |
 | `app/ui-background.js` | ✅ BackgroundManager（getUrl/preload）。CATEGORY_IMAGES からカテゴリ別ランダム画像URL取得 |
-| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。タッチ環境ではカードをフルスクリーン表示（`body.no-touch` で 9:16 維持）。フォントサイズ引き上げ（choice-btn/passive-section-body: 16px、passive-section-title: 13px、collocation-chip: 16px）。`overscroll-behavior: none` で iOS バウンス無効化。Passive リッチUIスタイル。日本語訳トグルスタイル。トーストスタイル。nowork-card・wc-card・oc-sectionスタイル追加。`#pc-nav-btns` を `right: -14px` で card-wrapper 右端近くに配置。`.choice-btn:hover` を `body.no-touch` にスコープ限定（iOS でのホバー貼り付き防止）。`.collocation-chip` に `color: inherit; text-decoration: none`（`<a>` タグ対応）。**`body` を `flex-direction:column` に・`#app` を `flex:1` に変更**（heatmap 常時表示レイアウト対応）。**`#start-screen` / `.overlay` の `top` を `var(--heatmap-h)` に変更**してヒートマップを隠さないよう調整。**`--text-example: #ccc` 変数追加**。`.card-intro .word-example` を font-size: 20px・color: var(--text-example) に変更。`.card-recall .word-example`・`.example-ja` も color: var(--text-example) に統一。**`#wordwave-stats` に `margin-top: 0.8rem; line-height: 0.8` 追加**。**`.word-input.near`・`.giveup-btn` スタイル追加**（Dictation near_miss UI用）。**`.word-input.correct:disabled { opacity: 1 }` 追加**（disabled でもグレーアウトしない）。**`.answer-feedback.dismissed { opacity: 0.3 }` 追加**（ギブアップ後の非活性化表示）。**`.card-recall .choice-btn { text-transform: lowercase }` 追加**（`Arctic`/`Muslim` 等の大文字始まり語で正解がバレるのを防ぐ）。**`#ww-pace-section` スタイル追加**（Word Wave 固定フッタバー）。**`#wordwave-body` の `padding-bottom: 48px`**（pace section と重ならないよう対応） |
+| `app/app.css` | ✅ 前後アニメーション・PC ナビボタン・Word Wave スタイル。タッチ環境ではカードをフルスクリーン表示（`body.no-touch` で 9:16 維持）。フォントサイズ引き上げ（choice-btn/passive-section-body: 16px、passive-section-title: 13px、collocation-chip: 16px）。`overscroll-behavior: none` で iOS バウンス無効化。Passive リッチUIスタイル。日本語訳トグルスタイル。トーストスタイル。nowork-card・wc-card・oc-sectionスタイル追加。`#pc-nav-btns` を `right: -14px` で card-wrapper 右端近くに配置。`.choice-btn:hover` を `body.no-touch` にスコープ限定（iOS でのホバー貼り付き防止）。`.collocation-chip` に `color: inherit; text-decoration: none`（`<a>` タグ対応）。**`body` を `flex-direction:column` に・`#app` を `flex:1` に変更**（heatmap 常時表示レイアウト対応）。**`#start-screen` / `.overlay` の `top` を `var(--heatmap-h)` に変更**してヒートマップを隠さないよう調整。**`--text-example: #ccc` 変数追加**。`.card-intro .word-example` を font-size: 20px・color: var(--text-example) に変更。`.card-recall .word-example`・`.example-ja` も color: var(--text-example) に統一。**`#wordwave-stats` に `margin-top: 0.8rem; line-height: 0.8` 追加**。**`.word-input.near`・`.giveup-btn` スタイル追加**（Dictation near_miss UI用）。**`.word-input.correct:disabled { opacity: 1 }` 追加**（disabled でもグレーアウトしない）。**`.answer-feedback.dismissed { opacity: 0.3 }` 追加**（ギブアップ後の非活性化表示）。**`.card-recall .choice-btn { text-transform: lowercase }` 追加**（`Arctic`/`Muslim` 等の大文字始まり語で正解がバレるのを防ぐ）。**`#ww-pace-section` スタイル追加**（Word Wave 固定フッタバー）。**`#wordwave-body` の `padding-bottom: 48px`**（pace section と重ならないよう対応）。**`.ww-word.mastered`・`.ww-wave-label.cleared` 追加**（2026-05-28: mastered の金色枠 + ★ バッジ、クリア wave の金色グラデ背景） |
 | `app/style-mockup.html` | ✅ 6種カード・画面遷移（スタート/セッション完了/復習なし）・ヘッダ/フッタを静的表示するスタイル確認用モックアップ。復習なし画面はヘッダ+カード+フッタのフルレイアウト（`.mockup-phone-frame`）で表示。Passive カードは1セクション1カードのローテーション例を3カラムで表示 |
 
 ---
@@ -54,6 +54,39 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 ## 次セッションの残タスク
 
 - 現時点で未解決のバグはなし。
+
+---
+
+## 2026-05-28 修正ログ
+
+### Word Wave に mastered/クリアの視覚表現とクリア解除イベントを追加
+
+ドッグフーディング中に Wave 7 Day 52 で「すでに mastered だった opportunity の dictation 正解で『Wave 2 クリア』overlay が発火した」報告を受けて調査。実際には opportunity は過去の降格で `stage='dictation'`・h=24.88 で居座っており、Word Wave の色は h ベース（h≥14 → 緑、h≥30 → 濃緑）のため「色は緑だが stage は dictation」の状態が「mastered に見える」誤認を起こしていた。今回の dictation 正解で初めて mastered に再昇格し、Wave 2 が真に初めて 100% mastered 達成した正規イベントだったが、ユーザー視点では「クリア済みの wave が再びクリアされた」ように見えた。
+
+stage と色の二重評価ズレを根本解消する設計に変更:
+
+**B: 単語レベル mastered バッジ**
+- `ui-wordwave.js` `_applyColor()` で `stage === 'mastered'` の語に `.mastered` class を toggle
+- `app.css` `.ww-word.mastered`: 金色枠（box-shadow）+ 右上に小さな ★（::after）
+
+**E: Wave クリアの背景色**
+- `ui-wordwave.js` `_isWaveCleared()` / `_updateWaveCleared()` / `_refreshAllWavesCleared()` 追加
+- `_build()` 完了時と `updateWord()` 時に該当 wave の `.ww-wave-label.cleared` を toggle
+- `app.css` `.ww-wave-label.cleared`: 金色グラデ背景（識別は背景色のみ。✓ プレフィックスは UI 検討後に削除）
+
+**G: クリア解除トースト + 初回 overlay 重複防止**
+- `core/models.js` `LearnerState` に `everClearedWaves: Number[]` 追加（`toJSON`/`fromJSON` で永続化）
+- `app.js`:
+  - `_notifiedWaveComplete` を `_clearedWaves`（現在クリア中・state から毎回再計算）と `_everClearedWaves`（過去に1度でもクリア・localStorage 永続）に分離
+  - 旧 `_checkWaveComplete` を `_computeWaveCleared` + `_handleWaveStateChange` に置き換え。stage 変化検出後に呼んで 3 種類のイベント発火:
+    - **初回クリア**: 既存 `_showWaveComplete` overlay
+    - **再クリア**: 無音（Word Wave のバッジ復活のみ）
+    - **クリア解除**: 「⚠ Wave N のクリアが解除されました」トースト
+- これにより降格→再昇格でも overlay は再発火しなくなる。クリア状態の変動はバッジ/背景で常時可視化、変化の瞬間はトーストで通知
+
+### `app/debug.html` を追加（iOS Chrome 向け）
+
+iOS Chrome では DevTools が使えず localStorage を直接確認できない。Wave サマリ（全 mastered なら ✅ + 緑背景行）・Wave 詳細（単語ごとの stage/h/peakH/復習統計をソート可能なテーブル）・JSON コピー機能を提供するデバッグ閲覧ページを `app/` 配下に新設。本番にもデプロイされる（`scripts/deploy.sh` は `app/` 配下を転送）。
 
 ---
 
@@ -810,6 +843,7 @@ VocabFlow/
     ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
     ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI・日本語訳トグル
     ├── style-mockup.html # スタイル確認用モックアップ（6種カード・画面遷移・ヘッダ/フッタを静的表示）
+    ├── debug.html        # iOS Chrome 向け localStorage 閲覧デバッグページ（Wave サマリ・詳細・JSON コピー）
     ├── wave-icon.png     # 波のブランドアイコン（インライン用・192px透過。.wave-icon クラスで使用）
     ├── wave.jpg          # body 背景の波写真（Unsplash・Tim Marshall・557KB）
     └── about.wave.jpg.txt# wave.jpg のクレジット表記（Unsplash 帰属）
