@@ -4,18 +4,30 @@ import { getMeaning } from './ui-cards.js';
 import { LABELS, formatH, formatPRecall } from '../core/labels.js';
 
 // -------------------------------------------------------
-// カラーマッピング（spec §2.3）
+// カラーティア（spec §2.3） — 階層別クラスを返す
+// 配色・コントラスト調整は app.css 側で定義
 // -------------------------------------------------------
-function getColorForWord(word) {
-  if (word.excluded) return { bg: '#3A3A4A', text: '#666677', strike: true };
-  if (word.stage === 'new') return { bg: '#2A2A3D', text: '#555566', strike: false };
+const WW_TIER_CLASSES = [
+  'ww-word--excluded',
+  'ww-word--new',
+  'ww-word--t0',
+  'ww-word--t1',
+  'ww-word--t2',
+  'ww-word--t3',
+  'ww-word--t4',
+  'ww-word--t5',
+];
+
+function getTierClass(word) {
+  if (word.excluded) return 'ww-word--excluded';
+  if (word.stage === 'new') return 'ww-word--new';
   const h = word.h;
-  if (h < 1)  return { bg: '#FF4444', text: '#fff',  strike: false };
-  if (h < 3)  return { bg: '#FF8C00', text: '#fff',  strike: false };
-  if (h < 7)  return { bg: '#FFD700', text: '#222',  strike: false };
-  if (h < 14) return { bg: '#9ACD32', text: '#222',  strike: false };
-  if (h < 30) return { bg: '#32CD32', text: '#222',  strike: false };
-  return       { bg: '#006400', text: '#fff',  strike: false };
+  if (h < 1)  return 'ww-word--t0';
+  if (h < 3)  return 'ww-word--t1';
+  if (h < 7)  return 'ww-word--t2';
+  if (h < 14) return 'ww-word--t3';
+  if (h < 30) return 'ww-word--t4';
+  return 'ww-word--t5';
 }
 
 // -------------------------------------------------------
@@ -153,10 +165,8 @@ export class WordWaveRenderer {
   }
 
   _applyColor(span, word) {
-    const c = getColorForWord(word);
-    span.style.backgroundColor = c.bg;
-    span.style.color            = c.text;
-    span.style.textDecoration   = c.strike ? 'line-through' : 'none';
+    span.classList.remove(...WW_TIER_CLASSES);
+    span.classList.add(getTierClass(word));
     span.classList.toggle('mastered', word.stage === 'mastered');
   }
 

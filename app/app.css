@@ -1160,7 +1160,7 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 #ww-bulk-cancel:hover { background: rgba(255,255,255,0.12); }
 
 /* 一括モード: 選択可能な単語をハイライト */
-#wordwave-overlay.bulk-mode .ww-word:not([style*="line-through"]) {
+#wordwave-overlay.bulk-mode .ww-word:not(.ww-word--excluded) {
   cursor: pointer;
 }
 
@@ -1209,6 +1209,10 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   white-space: nowrap;
 }
 
+.ww-wave-label:not(:first-child) {
+  margin-left: 6px;
+}
+
 .ww-wave-label.active {
   color: var(--accent);
   background: rgba(79,142,247,0.15);
@@ -1241,22 +1245,44 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   transform: scale(1.1);
 }
 
-.ww-word.mastered {
-  position: relative;
-  box-shadow: 0 0 0 1px #f7d774, 0 0 4px rgba(247,215,116,0.5);
+.ww-word::before {
+  content: '●';
+  margin-right: 0.1rem;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 1;
+  opacity: 0.5;
 }
 
-.ww-word.mastered::after {
-  content: '★';
-  position: absolute;
-  top: -4px;
-  right: -3px;
-  font-size: 8px;
+.ww-word.mastered::before {
   color: #f7d774;
-  text-shadow: 0 0 2px rgba(0,0,0,0.8);
-  pointer-events: none;
-  line-height: 1;
+  opacity: 1;
 }
+
+/* ===== 階層別の配色（spec §2.3） ===== */
+.ww-word--excluded {
+  background-color: #3A3A4A;
+  color: #666677;
+  text-decoration: line-through;
+}
+.ww-word--new {
+  background-color: #2A2A3D;
+  color: #555566;
+}
+.ww-word--t0 { background-color: #FF4444; color: #fff; }
+.ww-word--t1 { background-color: #FF8C00; color: #fff; }
+.ww-word--t2 { background-color: #FFD700; color: #222; }
+.ww-word--t3 { background-color: #9ACD32; color: #222; }
+.ww-word--t4 { background-color: #32CD32; color: #222; }
+.ww-word--t5 { background-color: #006400; color: #fff; }
+
+/* ::before のドット色を背景に合わせて個別調整 */
+.ww-word--t0::before { color: #fff; }
+.ww-word--t1::before { color: #fff; }
+.ww-word--t2::before { color: #222; }
+.ww-word--t3::before { color: #222; }
+.ww-word--t4::before { color: #222; }
+.ww-word--t5::before { color: #fff; }
 
 #ww-pace-section {
   flex-shrink: 0;
