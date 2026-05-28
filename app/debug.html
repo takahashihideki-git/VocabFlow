@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VocabFlow Debug</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    background: #1a1a26; color: #e0e0e0;
+    font-size: 14px; line-height: 1.5;
+  }
+  h1 { font-size: 18px; margin: 0 0 12px; }
+  h2 { font-size: 15px; margin: 20px 0 8px; color: #88c; border-bottom: 1px solid #333; padding-bottom: 4px; }
+  .meta { background: #22222e; padding: 10px; border-radius: 6px; margin-bottom: 12px; font-size: 12px; }
+  .meta div { margin: 2px 0; }
+  .meta b { color: #fc8; }
+  .btn {
+    display: inline-block; padding: 10px 14px; margin: 4px 4px 4px 0;
+    background: #4a5; color: #fff; border: none; border-radius: 4px;
+    font-size: 14px; cursor: pointer; touch-action: manipulation;
+  }
+  .btn-sec { background: #557; }
+  .btn:active { opacity: 0.7; }
+  select { padding: 8px; background: #2a2a36; color: #e0e0e0; border: 1px solid #444; border-radius: 4px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; margin-top: 8px; }
+  th, td { padding: 6px 4px; border-bottom: 1px solid #333; text-align: left; }
+  th { background: #2a2a36; color: #aab; position: sticky; top: 0; cursor: pointer; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tr.complete { background: #1a2a1a; }
+  .stage-new { color: #666; }
+  .stage-intro { color: #f80; }
+  .stage-recognition { color: #fc4; }
+  .stage-recall { color: #cf4; }
+  .stage-dictation { color: #4cf; }
+  .stage-mastered { color: #4f8; font-weight: bold; }
+  .stage-handwrite { color: #c4f; }
+  .excluded { opacity: 0.5; text-decoration: line-through; }
+  .copy-area { margin-top: 8px; }
+  textarea {
+    width: 100%; min-height: 100px; background: #0e0e16; color: #cde;
+    border: 1px solid #333; border-radius: 4px; padding: 8px;
+    font-family: monospace; font-size: 11px;
+  }
+  .notice { color: #fa6; font-size: 12px; margin-top: 4px; }
+  .err { color: #f55; }
+</style>
+</head>
+<body>
+<h1>VocabFlow Debug</h1>
+
+<div id="status"></div>
+
+<div class="meta" id="meta"></div>
+
+<div>
+  <button class="btn" id="btn-refresh">再読込</button>
+  <button class="btn btn-sec" id="btn-copy-full">全 state をコピー</button>
+  <button class="btn btn-sec" id="btn-show-full">全 state を表示</button>
+</div>
+
+<h2>Wave サマリ</h2>
+<div id="wave-summary"></div>
+
+<h2>Wave 詳細</h2>
+<div>
+  <label>表示する Wave: </label>
+  <select id="wave-select"></select>
+  <button class="btn btn-sec" id="btn-copy-wave">この Wave をコピー</button>
+</div>
+<div id="wave-detail"></div>
+
+<div class="copy-area">
+  <textarea id="copy-textarea" placeholder="コピー結果がここに表示されます（iOS Chrome でクリップボード書込が失敗した場合は長押しでコピー）" readonly></textarea>
+</div>
+
+<script type="module">
+import { WORD_DATA } from '../core/word-data.js';
+
+const STORAGE_KEY = 'vocabflow_state_v1';
+const STAGES = ['new', 'intro', 'recognition', 'recall', 'dictation', 'handwrite', 'mastered'];
+
+const wordIdToString = new Map();
+for (const w of WORD_DATA) wordIdToString.set(w.id, w.word);
+
+let state = null;
+let sortKey = 'wordId';
+let sortAsc = true;
+
+function load() {
+  const raw = localStorage.getItem(STORAGE_KEY);
+  if (!raw) {
+    document.getElementById('status').innerHTML = `<div class="err">localStorage["${STORAGE_KEY}"] が見つかりません。アプリを起動してからこのページを開いてください。</div>`;
+    return null;
+  }
+  try {
+    return JSON.parse(raw);
+  } catch (e) {
+    document.getElementById('status').innerHTML = `<div class="err">JSON パース失敗: ${e.message}</div>`;
+    return null;
+  }
+}
+
+function fmtTime(unixMs) {
+  if (!unixMs) return '—';
+  const d = new Date(unixMs);
+  return d.toLocaleString('ja-JP');
+}
+
+function fmtH(h) {
+  if (!h || h <= 0) return '—';
+  if (h >= 365) return (h / 365).toFixed(1) + '年';
+  if (h >= 30)  return (h / 30).toFixed(1) + 'ヶ月';
+  if (h >= 1)   return h.toFixed(1) + '日';
+  return (h * 24).toFixed(1) + '時間';
+}
+
+function fmtDay(daysFloat) {
+  if (daysFloat === undefined || daysFloat === null) return '—';
+  return daysFloat.toFixed(2);
+}
+
+function renderMeta() {
+  const m = document.getElementById('meta');
+  m.innerHTML = `
+    <div><b>currentTime</b>: ${fmtDay(state.currentTime)} 日</div>
+    <div><b>sessionsCompleted</b>: ${state.sessionsCompleted ?? '—'}</div>
+    <div><b>totalCardsConsumed</b>: ${state.totalCardsConsumed ?? '—'}</div>
+    <div><b>activeWaves</b>: [${(state.activeWaves ?? []).join(', ')}]</div>
+    <div><b>savedAt</b>: ${fmtTime(state.savedAt)}</div>
+    <div><b>words 件数</b>: ${state.words?.length ?? 0}</div>
+    <div><b>waveUnlockEvents</b>: ${state.waveUnlockEvents?.length ?? 0} 件</div>
+  `;
+}
+
+function renderWaveSummary() {
+  const byWave = new Map();
+  for (const w of state.words) {
+    if (!byWave.has(w.waveNumber)) {
+      byWave.set(w.waveNumber, { total: 0, excluded: 0, byStage: {}, allMastered: true });
+    }
+    const e = byWave.get(w.waveNumber);
+    e.total++;
+    if (w.excluded) e.excluded++;
+    e.byStage[w.stage] = (e.byStage[w.stage] ?? 0) + 1;
+    if (!w.excluded && w.stage !== 'mastered') e.allMastered = false;
+  }
+
+  const waves = [...byWave.keys()].sort((a, b) => a - b);
+  let html = '<table><thead><tr><th>Wave</th><th class="num">総数</th><th class="num">除外</th>';
+  for (const s of STAGES) html += `<th class="num stage-${s}">${s}</th>`;
+  html += '<th>全mastered?</th></tr></thead><tbody>';
+  for (const wn of waves) {
+    const e = byWave.get(wn);
+    const cls = e.allMastered ? 'complete' : '';
+    html += `<tr class="${cls}"><td><b>${wn}</b></td><td class="num">${e.total}</td><td class="num">${e.excluded}</td>`;
+    for (const s of STAGES) html += `<td class="num stage-${s}">${e.byStage[s] ?? ''}</td>`;
+    html += `<td>${e.allMastered ? '✅' : ''}</td></tr>`;
+  }
+  html += '</tbody></table>';
+  document.getElementById('wave-summary').innerHTML = html;
+
+  // populate selector
+  const sel = document.getElementById('wave-select');
+  const prev = sel.value;
+  sel.innerHTML = waves.map(wn => `<option value="${wn}">Wave ${wn}</option>`).join('');
+  if (prev && waves.includes(parseInt(prev))) sel.value = prev;
+  else sel.value = waves.find(wn => !byWave.get(wn).allMastered) ?? waves[0];
+}
+
+function renderWaveDetail() {
+  const wn = parseInt(document.getElementById('wave-select').value);
+  if (!wn) { document.getElementById('wave-detail').innerHTML = ''; return; }
+
+  const words = state.words.filter(w => w.waveNumber === wn);
+  words.sort((a, b) => {
+    let va = a[sortKey], vb = b[sortKey];
+    if (sortKey === 'word') { va = wordIdToString.get(a.wordId) ?? ''; vb = wordIdToString.get(b.wordId) ?? ''; }
+    if (va === undefined) va = -1;
+    if (vb === undefined) vb = -1;
+    if (va < vb) return sortAsc ? -1 : 1;
+    if (va > vb) return sortAsc ? 1 : -1;
+    return 0;
+  });
+
+  const cols = [
+    ['wordId', 'ID'],
+    ['word', '単語'],
+    ['stage', 'stage'],
+    ['h', 'h'],
+    ['peakH', 'peakH'],
+    ['reviewCount', '復習'],
+    ['correctCount', '正解'],
+    ['incorrectCount', '不正解'],
+    ['stuckCount', 'stuck'],
+    ['lastReviewed', 'lastRev(日)'],
+    ['skipped', 'skip'],
+    ['excluded', 'excl'],
+  ];
+
+  let html = '<table><thead><tr>';
+  for (const [k, label] of cols) {
+    const arrow = sortKey === k ? (sortAsc ? ' ▲' : ' ▼') : '';
+    html += `<th data-sort="${k}">${label}${arrow}</th>`;
+  }
+  html += '</tr></thead><tbody>';
+  for (const w of words) {
+    const wordStr = wordIdToString.get(w.wordId) ?? `?${w.wordId}`;
+    const cls = w.excluded ? 'excluded' : '';
+    html += `<tr class="${cls}">`;
+    html += `<td class="num">${w.wordId}</td>`;
+    html += `<td><b>${wordStr}</b></td>`;
+    html += `<td class="stage-${w.stage}">${w.stage}</td>`;
+    html += `<td class="num">${fmtH(w.h)}</td>`;
+    html += `<td class="num">${fmtH(w.peakH)}</td>`;
+    html += `<td class="num">${w.reviewCount ?? 0}</td>`;
+    html += `<td class="num">${w.correctCount ?? 0}</td>`;
+    html += `<td class="num">${w.incorrectCount ?? 0}</td>`;
+    html += `<td class="num">${w.stuckCount ?? 0}</td>`;
+    html += `<td class="num">${fmtDay(w.lastReviewed)}</td>`;
+    html += `<td>${w.skipped ? '⚑' : ''}</td>`;
+    html += `<td>${w.excluded ? '✕' : ''}</td>`;
+    html += '</tr>';
+  }
+  html += '</tbody></table>';
+  document.getElementById('wave-detail').innerHTML = html;
+
+  // bind sort handlers
+  document.querySelectorAll('#wave-detail th[data-sort]').forEach(th => {
+    th.addEventListener('click', () => {
+      const k = th.dataset.sort;
+      if (sortKey === k) sortAsc = !sortAsc;
+      else { sortKey = k; sortAsc = true; }
+      renderWaveDetail();
+    });
+  });
+}
+
+async function copyToClipboard(text) {
+  document.getElementById('copy-textarea').value = text;
+  try {
+    await navigator.clipboard.writeText(text);
+    flashNotice('クリップボードにコピーしました');
+  } catch (e) {
+    flashNotice('クリップボード書込が失敗（下のテキストエリアから手動でコピーしてください）');
+  }
+}
+
+let noticeTimer = null;
+function flashNotice(msg) {
+  const s = document.getElementById('status');
+  s.innerHTML = `<div class="notice">${msg}</div>`;
+  clearTimeout(noticeTimer);
+  noticeTimer = setTimeout(() => { s.innerHTML = ''; }, 3000);
+}
+
+function refresh() {
+  state = load();
+  if (!state) return;
+  renderMeta();
+  renderWaveSummary();
+  renderWaveDetail();
+}
+
+document.getElementById('btn-refresh').addEventListener('click', refresh);
+document.getElementById('btn-copy-full').addEventListener('click', () => {
+  copyToClipboard(JSON.stringify(state, null, 2));
+});
+document.getElementById('btn-show-full').addEventListener('click', () => {
+  document.getElementById('copy-textarea').value = JSON.stringify(state, null, 2);
+});
+document.getElementById('btn-copy-wave').addEventListener('click', () => {
+  const wn = parseInt(document.getElementById('wave-select').value);
+  const words = state.words.filter(w => w.waveNumber === wn).map(w => ({
+    ...w,
+    _wordStr: wordIdToString.get(w.wordId) ?? null,
+  }));
+  copyToClipboard(JSON.stringify({ wave: wn, words }, null, 2));
+});
+document.getElementById('wave-select').addEventListener('change', renderWaveDetail);
+
+refresh();
+</script>
+</body>
+</html>
