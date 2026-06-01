@@ -57,6 +57,18 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-06-01 修正ログ
+
+### #618 trace の例文を `trace back to` 構文の日常文に差し替え
+
+旧例文「Police traced the call back to a nearby phone booth.」は逆探知という刑事ドラマ特化の状況かつ `phone booth`（公衆電話）が時代遅れで語感が掴みにくかった。さらに `passive.tips` 自身が頻出構文として推している `trace back to` を肝心の例文で使えていなかった。
+
+トラブルシューティング文脈の「We traced the problem back to a faulty cable.（私たちはその問題の原因が不良ケーブルにあることを突き止めた。）」に差し替え、tips と例文の整合も取った。`blankAnswer` は `traced` のまま。
+
+`scripts/results/word_data_final.json`（正マスター）を修正 → `build_word_data_js.py` で `core/word-data.js` を再ビルド（Errors 0）→ デプロイ済み。（commit `0530eb0`）
+
+---
+
 ## 2026-05-28 修正ログ
 
 ### Word Wave に mastered/クリアの視覚表現とクリア解除イベントを追加
