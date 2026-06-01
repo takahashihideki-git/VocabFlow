@@ -19833,9 +19833,9 @@ export const WORD_DATA = [
       audioHint: "トレイス",
       examples: [
         {
-          en: "Police traced the call back to a nearby phone booth.",
-          ja: "警察はその電話を近くの公衆電話にまでたどった。",
-          blank: "Police ___ the call back to a nearby phone booth.",
+          en: "We traced the problem back to a faulty cable.",
+          ja: "私たちはその問題の原因が不良ケーブルにあることを突き止めた。",
+          blank: "We ___ the problem back to a faulty cable.",
           blankAnswer: "traced",
         },
       ],
