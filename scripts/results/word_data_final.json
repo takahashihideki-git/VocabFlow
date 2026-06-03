@@ -28644,7 +28644,7 @@
       "statisticks"
     ],
     "passive": {
-      "etymology": "ドイツ語 'Statistik' → ラテン語 'statisticum'（国家に関する）から。'status'（状態・国家）が語根。もともと「国家の数値データ」を指していた。",
+      "etymology": "ラテン語 status（立つこと・状態・国家）が語根。そこから新ラテン語 statisticum（国事に関する）が派生し、ドイツ語 Statistik を経て英語 statistics へ。もともとは国家の「国情」——人口・産物・軍備など、統治に有用な情報——を扱う学を指していた。現代的な「数量データを扱う学問」を表すようになったのは19世紀以降。",
       "tips": "学問として「統計学」を指す場合は不可算名詞扱いで単数動詞（Statistics is hard）、データの集合を指す場合は複数扱い（Statistics show...）になる点が日本人には難しい。",
       "confusables": "data（データ）との違い：statisticsはデータを分析・集計したもの。dataは生の数値や事実の集まり。また statistic（単数形）は「一つの統計値」を指す。",
       "collocations": [
