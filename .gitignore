@@ -1,3 +1,13 @@
 node_modules/
 *:Zone.Identifier
 .DS_Store
+
+# Python bytecode キャッシュ
+__pycache__/
+
+# ローカル専用デバッグスクリプト
+scripts/debug/
+
+# word-data の中間生成物・バックアップ（正マスターは word_data_final.json）
+scripts/results/*.bk*
+scripts/results/word_data_phase*.json
