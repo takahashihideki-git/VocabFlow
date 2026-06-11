@@ -101,13 +101,20 @@ p(recall) = 2^(-Δt / h)
 試行結果に応じて半減期を更新する。カード種別ごとに重み（weight）が異なる。
 
 ```
-正解時: h_new = h_old × α × card_weight
+正解時: h_new = h_old × (1 + (α − 1) × card_weight × ratio)
+        ratio = min(1, deltaT / (h_old × retentionFactor))   ← review #1・deltaTGain=true
+        retentionFactor = log₂(1 / targetRetention) ≈ 0.234
 不正解時: h_new = h_old × β
 ```
 
 - α: 正解時の基本倍率（デフォルト 2.0）
 - β: 不正解時の基本倍率（デフォルト 0.3）
-- card_weight: カード種別ごとの重み（後述）
+- card_weight: カード種別ごとの重み（後述・ボーナス項に掛かる）
+- deltaT: 前回復習からの実経過時間（日）
+
+**deltaT 連動ゲイン（review #1・`deltaTGain` 既定 true）**: 正解時の h 成長を「前回復習からの経過時間」で減衰させる。予定どおりの復習（`deltaT ≈ h × retentionFactor`）では ratio≈1 で full gain（旧 `h × α × card_weight` 相当）になり、クラミング・リトライ・filler（予定より早い復習・`deltaT ≪ 予定間隔`）では ratio<1 で成長を抑える＝間隔反復の本質を反映する。素の `min(1, deltaT/h)` は target-retention スケジューリングと噛み合わず ratio が ~0.234 で頭打ちになるため、予定復習間隔（`h × retentionFactor`）で正規化して校正した。`deltaTGain=false` で旧挙動（`h × α × card_weight`・deltaT 無視）を再現可能。間隔効果ありの sim（virtual-learner）で OFF 比の校正MAE が約半減することを検証済み（`scripts/verify_deltat_calibration.js`）。
+
+**播種ノイズ（`seedNoise` 既定 true）**: 正解時の h 更新後に信頼度連動ノイズ `h *= 1 + (rand·2−1) × seedNoiseBase / rc^seedNoiseExp`（rc=更新後 reviewCount）を乗せる。同日導入コホートの h を恒久的に分岐させて位相同期（同時 due → 同時復習）を散らす。急勾配（exp=2.5）で rc=1（導入時）の一撃に播種が集中し rc≥2 で実質ゼロ＝「導入時の一回播種」で複利蓄積しない（成熟語の h を汚さない）。h はスケジュールを回す seed なので推定の破壊ではなく、過負荷の学習者（位相同期局面）で genuine に定着 +約5%・余裕のある学習者には無害（`scripts/verify_seed_noise.js`・`seed-noise-findings.md`）。昇格の h 閾値判定はノイズ前のクリーンな h で行い、ノイズは次回以降のスケジュールに効かせる。
 
 **h の範囲制約:**
 ```
@@ -401,7 +408,7 @@ dueBufferRatio = 0.2（デフォルト）の場合、最適時刻の80%の時点
 
 > **注（2026-06-11・review #5）**: μ/σ ベイズ層と Uncertain プールは形骸化していたため削除した（σ は更新則が場当たり・μ は死にフィールド・Uncertain プールはデッドコード）。本書中の σ / sigma0 / sigmaDecay / uncertainThreshold / Uncertain プールの記述は現行コードに存在しない。
 >
-> **不確実性は「状態」ではなく「導出関数」として復活済み**（提案書 `bayesian-srs-proposal.md` §2/§3 の Phase 1）。`WordState.uncertaintyWidth(currentTime, config)` が観測回数（`uncertaintyBase / sqrt(reviewCount)`）と最終観測からの経過時間（`staleGrowth × log(1+deltaT)`）から不確実性の幅を導出し、`WordState.effectiveH(currentTime, config)` が幅の中から `h × (1 ± w)` をサンプリングする。`_buildCandidatePools` の **due 判定**は `dueSampling`（既定 true）が有効なとき点推定 h ではなく effectiveH を使い、同日導入語の位相同期を散らす（トンプソンサンプリング）。検証は `scripts/verify_due_sampling.js`（シナリオ E）。トリアージ・UI 信頼性表示・確認モード（提案書 §4–6）は未実装。
+> **不確実性は「状態」ではなく「導出関数」として復活済み**（提案書 `bayesian-srs-proposal.md` §2/§3 の Phase 1）。`WordState.uncertaintyWidth(currentTime, config)` が観測回数（`uncertaintyBase / sqrt(reviewCount)`）と最終観測からの経過時間（`staleGrowth × log(1+deltaT)`）から不確実性の幅を導出し、`WordState.effectiveH(currentTime, config)` が幅の中から `h × (1 ± w)` をサンプリングする。`_buildCandidatePools` の **due 判定**は `dueSampling`（既定 true）が有効なとき点推定 h ではなく effectiveH を使い、同日導入語の位相同期を散らす（トンプソンサンプリング）。検証は `scripts/verify_due_sampling.js`（シナリオ E）。**ただし throughput への効果は sim で立証できていない**: 間隔効果あり learner・N=24 で Δ定着は初学者 +0.2(SE±1.7)・既習 +1.3(SE±2.2) で有意差なし（当初の「+7%」は旧 learner のアーティファクト）。理論的動機（位相同期の分散）は健全かつ無害（Δ≈0）だが、既定 true 維持の是非は要判断。トリアージ・UI 信頼性表示・確認モード（提案書 §4–6）は未実装。
 
 | カテゴリ | 条件 | 説明 |
 |---|---|---|
@@ -498,7 +505,9 @@ function shouldEndSession(pools) {
 
 - 不正解時の h × β ペナルティは確定（短期記憶の失敗という情報）
 - リトライカードは降格後の stage に対応する種別で出題する。ユーザーは「間違えたら一段階下のカードでやり直す」と直感的に理解できる
-- リトライ正解は通常の正解と同じく processResponse を経由する。h が部分回復し、通常の昇格ルールで stage が進む
+- リトライ正解は通常の正解と同じく processResponse を経由する。通常の昇格ルールで stage が進む
+- **deltaTGain=true では同セッション内リトライの h は伸びない**: リトライは同一 currentTime で出題されるため `deltaT ≈ 0` → `ratio ≈ 0` → `gain ≈ 1`。したがって「不正解 → リトライ正解」の正味効果は `h × β`（降格直後の値のまま・成長なし）になる。これは「同セッション内の即時やり直しは間隔反復として durable な記憶を作らない」という #1 の設計と整合する。h の本来の回復は、後日の正規な（間隔の空いた）復習で得られる。stage だけは降格ステージから正規昇格できる。
+  （deltaTGain=false の旧挙動では `h × β × α × cardWeight` の部分回復＝Recall なら h×0.6 だった）
 - mastered への復帰には Dictation 正解 かつ h ≥ masteredThresholdH が必要（h チェックなしの直接復元は行わない）
 
 不正解+リトライ正解の正味効果: `h × β × α × cardWeight`（Recall なら `h × 0.6`、Dictation なら `h × 0.78`）。h は純減となるが、stage は復帰できる。
@@ -559,7 +568,11 @@ Wave 1 (定着済み)  Wave 2 (学習中)  Wave 3以降 (未着手)
 | 半減期下限 | `hMin` | h0 / 2 (= 0.5日) | h の最小値。death spiral 防止 |
 | 半減期上限 | `hMax` | 365日 | h の最大値 |
 | 目標記憶保持率 | `targetRetention` | 0.85 | 目標とする記憶保持確率 |
-| due サンプリング | `dueSampling` | true | due 判定で effectiveH をサンプリング（false で点推定 h = 旧挙動） |
+| deltaT 連動ゲイン | `deltaTGain` | true | 正解時の h 成長を経過時間で減衰（review #1。false で旧 `h × α × weight`） |
+| 播種ノイズ | `seedNoise` | true | 正解時の h に信頼度連動ノイズで位相同期を散らす（seed-noise-findings.md） |
+| 播種ノイズ係数 | `seedNoiseBase` | 0.5 | ノイズ幅の係数（`seedNoiseBase / rc^seedNoiseExp`） |
+| 播種ノイズ勾配 | `seedNoiseExp` | 2.5 | 勾配指数（急勾配で導入時 rc=1 に播種集中・複利なし） |
+| due サンプリング | `dueSampling` | false | due 判定で effectiveH をサンプリング（seedNoise に置換し既定 off。true で再有効化） |
 | 不確実性係数 | `uncertaintyBase` | 0.5 | 観測回数項の係数（`uncertaintyBase / sqrt(reviewCount)`） |
 | 不確実性下限 | `uncertaintyFloor` | 0.05 | 不確実性の幅の下限 |
 | 経過時間係数 | `staleGrowth` | 0.05 | 経過時間項の係数（`staleGrowth × log(1+deltaT)`） |
@@ -767,9 +780,11 @@ export class SRSEngine {
     // → h更新、stage遷移判定（near_miss/phonetic は不正解扱い）
   }
 
-  // 半減期の更新
-  updateHalfLife(word, cardType, isCorrect, resultQuality) {
-    // isCorrect=true: h_new = h_old × α × cardWeight
+  // 半減期の更新（currentTime は deltaT 連動ゲインの計算に使う）
+  updateHalfLife(word, cardType, isCorrect, result, currentTime) {
+    // isCorrect=true（deltaTGain=true）:
+    //   ratio = min(1, deltaT / (h_old × log₂(1/targetRetention)))
+    //   h_new = h_old × (1 + (α − 1) × cardWeight × ratio)
     // isCorrect=false: h_new = h_old × β
   }
 
@@ -899,41 +914,57 @@ export class FeedGenerator {
 
 #### 仮想学習者モデル (virtual-learner.js)
 
+仮想学習者は **システムの h とは独立した「真の半減期 trueH」を語ごとに保持**し、間隔効果に
+従って成長させる。これにより「massed（クラミング）で h は伸びたが実際には定着していない」状況
+を表現でき、deltaT 連動 h ゲイン（review #1）が補正する誤差（間隔・タイミング起因）を sim で
+測定できる。旧モデル（`trueH = word.h × ability`）はシステムの h をそのまま真の記憶とみなし、
+この誤差を表現できなかった（2026-06-11 改訂）。
+
 ```javascript
 export class VirtualLearner {
   constructor(config) {
     this.ability = config.learnerAbility || 1.0;  // 0.5〜1.5
-    this.categoryWeakness = config.categoryWeakness || {};
+    this.hVariation = config.hVariation ?? 0.3;   // 語ごとの真 h 個体差（システム非観測の残差）
+    this.srs = config.srsConfig ?? DEFAULT_CONFIG;
+    this._trueH = new Map();      // wordId → 真の半減期（システムの h とは独立）
+    this._trueLastT = new Map();  // wordId → 真の記憶での最終復習時刻
   }
 
-  // カードへの応答をシミュレート
+  // 真の記憶を間隔効果に従って更新（成功時は想起難度 (1−R) に比例して成長）
+  _updateTrueMemory(word, cardType, result, isCorrect, t) {
+    let th = this._ensureTrueH(word);  // 未初期化なら h0 × ability × hFactor(wordId)
+    if (isCorrect) {
+      const r = this.truePRecall(word, t);
+      // (1−R) を最適復習点（1−targetRetention）で正規化 → 最適/overdue=1・massed≈0
+      const spacing = Math.min(1, (1 - r) / (1 - this.srs.targetRetention));
+      th *= (1 + (this.srs.alpha - 1) * cardWeight(cardType, result) * spacing);
+    } else {
+      th *= this.srs.beta;
+    }
+    this._trueH.set(word.wordId, clamp(th, this.srs.hMin, this.srs.hMax));
+    this._trueLastT.set(word.wordId, t);
+  }
+
+  // カードへの応答をシミュレート（真の記憶 R + 難度補正で正誤を引く）
   respond(word, cardType, currentTime) {
-    // 「真の」忘却曲線に基づく確率的応答
-    const trueH = word.h * this.ability;
-    const deltaT = currentTime - word.lastReviewed;
-    const trueP = Math.pow(2, -deltaT / trueH);
-    
-    const difficultyMod = {
-      recognition: 1.2,
-      recall: 1.0,
-      dictation: 0.8,
-      handwrite: 0.75,
-    };
-    
+    if (cardType === 'intro') { /* trueH を初期化し perfect */ }
+    if (cardType === 'passive') return 'perfect'; // 間接観測・記憶更新なし
+    const trueP = this.truePRecall(word, currentTime);  // 間隔効果で成長した真の保持率
+    const difficultyMod = { recognition: 1.2, recall: 1.0, dictation: 0.8, handwrite: 0.75 };
     const adjustedP = Math.min(1.0, trueP * (difficultyMod[cardType] || 1.0));
     const isCorrect = Math.random() < adjustedP;
-    
-    // 判定の粒度。near_miss/phonetic は不正解だが「再入力」をモデルし、
-    // fix 確率で perfect（修正成功）/ wrong（ギブアップ）へ終端化する。
-    if (!isCorrect) return 'wrong';
-    if (cardType === 'dictation' || cardType === 'handwrite') {
-      // perfect / near_miss → fix率で perfect or wrong（エンジンには終端結果のみ）
-      return Math.random() < 0.85 ? 'perfect' : (Math.random() < 0.85 ? 'perfect' : 'wrong');
-    }
-    return 'perfect';
+    // near_miss/phonetic は fix 確率で perfect（修正成功）/ wrong（ギブアップ）へ終端化
+    const result = /* ... wrong | perfect | correct_messy ... */;
+    this._updateTrueMemory(word, cardType, result, result !== 'wrong', currentTime);
+    return result;
   }
 }
 ```
+
+`truePRecall(word, t)` は trueH と trueLastT から `2^(−deltaT/trueH)` を返す（検証スクリプトの
+校正測定にも使う）。`spacing` 正規化により、最適復習点（p=targetRetention）では full gain（×α 相当）
+で現実的なスループットを保ちつつ、massed（p≈1）では成長ゼロ＝クラミングは durable に効かない、を
+表現する。検証は `scripts/verify_deltat_calibration.js`。
 
 #### シナリオ定義 (scenarios.js)
 

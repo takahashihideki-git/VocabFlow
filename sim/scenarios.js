@@ -43,7 +43,7 @@ export const SCENARIOS = {
   E: {
     id: 'E',
     name: '位相同期の分散（due サンプリング）',
-    description: 'due 判定の effectiveH トンプソンサンプリング有無で定着効率・副作用を比較（頻回学習者）。クラスタ分散・復習なし回数の詳細は scripts/verify_due_sampling.js を参照',
+    description: 'due 判定の effectiveH トンプソンサンプリング有無で定着効率・副作用を比較（頻回学習者）。新 learner・N=24 では throughput 効果は有意差なし（初学者 +0.2/既習 +1.3・要 N≥20+標準誤差）。learner プロファイル別の検証は scripts/verify_due_sampling.js を参照',
     variable: 'dueSampling',
     values: [false, true],
     fixedOverrides: { sessionsPerDay: 5 },

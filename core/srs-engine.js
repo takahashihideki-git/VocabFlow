@@ -29,6 +29,8 @@ export class SRSEngine {
       word.lastReviewed = currentTime;
       word.reviewCount++;
       word.stage = 'recognition';
+      // 播種ノイズ: 導入時（rc=1）の一撃でコホートの h0 を分岐させ位相同期を散らす
+      this._applySeedNoise(word);
       return;
     }
 
@@ -50,6 +52,7 @@ export class SRSEngine {
       if (isCorrect) {
         word.needsHandwrite = false;
         word.stuckCount = 0;
+        this._applySeedNoise(word);
       }
       // 不正解時: needsHandwrite はそのまま（次セッションも Handwrite で再挑戦）
       return;
@@ -63,19 +66,44 @@ export class SRSEngine {
       }
     }
 
-    // ステージ遷移
+    // ステージ遷移（クリーンな h で閾値判定 → その後に播種ノイズを乗せる。
+    // 検証と同じ順序＝昇格判定は素の h で行い、ノイズは次回以降のスケジュールに効かせる）
     this._evaluateStageTransition(word, isCorrect);
+
+    // 播種ノイズ: 正解時の h を信頼度連動で分散（昇格判定の後に適用）
+    if (isCorrect) this._applySeedNoise(word);
+  }
+
+  // -------------------------------------------------------
+  // 播種ノイズ（seed noise・seed-noise-findings.md）
+  // 正解時の h に信頼度連動ノイズ w = base/rc^exp を乗せ、同日導入コホートの h を恒久的に
+  // 分岐させて位相同期を散らす。急勾配（exp=2.5）で rc=1（導入時）の一撃に播種が集中し
+  // rc≥2 で実質ゼロ＝「導入時の一回播種」（複利蓄積しない・成熟語の h を汚さない）。
+  // h はスケジュールを回す seed なので、この分散は推定の破壊ではない（outcome 検証済み:
+  // 過負荷学習者で genuine に定着 +約5%・余裕学習者は無害）。rc は更新後 reviewCount。
+  // -------------------------------------------------------
+  _applySeedNoise(word) {
+    const cfg = this.config;
+    if (!cfg.seedNoise || word.h <= 0) return;
+    const width = cfg.seedNoiseBase / Math.pow(word.reviewCount, cfg.seedNoiseExp);
+    word.h *= 1 + (Math.random() * 2 - 1) * width;
+    word.h = Math.min(Math.max(word.h, cfg.hMin), cfg.hMax);
   }
 
   // -------------------------------------------------------
   // 半減期の更新
   //
-  // deltaTGain（既定 true・review #1）有効時は、正解時のゲインを
-  // 「前回復習からの経過時間 deltaT と現在の h の比」で減衰させる:
-  //   gain = 1 + (alpha − 1) × cardWeight × min(1, deltaT / h)
-  // - deltaT ≪ h（直前に見たばかり・p≈1）→ ratio≈0 → gain≈1（h ほぼ伸びない）
-  // - deltaT ≳ h（忘却の縁での想起）       → ratio→1 → gain→1+(alpha−1)×cardWeight（最大）
-  // これで「短間隔の正解は h をほぼ伸ばさない／忘却の縁での正解は大きく伸ばす」が表現される。
+  // deltaTGain（review #1）有効時は、正解時のゲインを「前回復習からの経過時間 deltaT」で
+  // 減衰させる。素の `min(1, deltaT/h)` は target-retention スケジューリングと噛み合わない
+  // （予定どおり復習すると deltaT ≈ h × retentionFactor ≈ h × 0.234 のため ratio が常に
+  //  ~0.234 で頭打ち → gain ~1.2 止まりで定着が ~20倍遅延）。そこで ratio を「予定復習間隔
+  // （h × retentionFactor）」で正規化する:
+  //   ratio = min(1, deltaT / (h × retentionFactor))
+  //   gain  = 1 + (alpha − 1) × cardWeight × ratio
+  // - 予定どおりの復習（deltaT ≈ h × retentionFactor）→ ratio≈1 → full gain（旧 alpha 挙動を回復）
+  // - クラミング/リトライ/filler（予定より早い・deltaT ≪ 予定間隔）→ ratio<1 → 減衰
+  //   （短間隔の正解は h をほぼ伸ばさない＝間隔反復の本質）
+  // - 予定より遅い復習 → ratio は 1 で頭打ち（暴走防止）
   // cardWeight は alpha の全体倍率ではなくボーナス項に掛ける（正解で h が縮まない不変条件を保つ）。
   // 旧挙動（h × alpha × cardWeight・deltaT 無視）は deltaTGain=false で再現可能。
   // -------------------------------------------------------
@@ -88,7 +116,10 @@ export class SRSEngine {
       const cardWeight = this._cardWeight(cardType, result);
       if (cfg.deltaTGain) {
         const deltaT = Math.max(0, currentTime - word.lastReviewed);
-        const ratio = word.h > 0 ? Math.min(1, deltaT / word.h) : 1;
+        // 予定復習間隔（h × retentionFactor）で正規化。予定どおり＝ratio 1＝full gain。
+        const retentionFactor = Math.log2(1 / cfg.targetRetention);
+        const schedule = word.h * retentionFactor;
+        const ratio = schedule > 0 ? Math.min(1, deltaT / schedule) : 1;
         const gain = 1 + (cfg.alpha - 1) * cardWeight * ratio;
         word.h = word.h * gain;
       } else {

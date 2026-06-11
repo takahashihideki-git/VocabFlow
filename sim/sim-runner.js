@@ -76,7 +76,7 @@ export function runSimulation(configOverrides = {}, duration = 90, onProgress = 
   const engine = new SRSEngine(cfg);
   const wm = new WaveManager(cfg, state);
   const fg = new FeedGenerator(cfg, engine, wm);
-  const learner = new VirtualLearner({ learnerAbility: 1.0 });
+  const learner = new VirtualLearner({ learnerAbility: 1.0, srsConfig: cfg });
 
   const snapshots = [];
 

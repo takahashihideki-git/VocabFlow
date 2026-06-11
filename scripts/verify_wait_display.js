@@ -89,15 +89,14 @@ function countMeaningfulAtTime(time) {
   );
   meaningful += newCount;
 
-  // skipped / urgent / due / uncertain（feed-generator._buildCandidatePools と同じ分類）
+  // skipped / urgent / due（feed-generator._buildCandidatePools と同じ分類。
+  // uncertain プールは review #5 ステップ1 で削除済み）
   for (const w of state.words) {
     if (w.stage === 'new' || w.excluded || w.h <= 0) continue;
     if (w.skipped) { meaningful++; continue; }
     const p = w.pRecall(time);
-    const sigma = w.currentSigma(time, cfg.sigmaDecay);
     const optimalNextReview = w.lastReviewed + w.h * retentionFactor;
     if (p < 0.5) { meaningful++; continue; }
-    if (w.stage !== 'mastered' && sigma > cfg.uncertainThreshold) { meaningful++; continue; }
     if (w.stage !== 'mastered' && time >= optimalNextReview) { meaningful++; continue; }
     if (w.stage === 'mastered' && p < cfg.targetRetention) { meaningful++; continue; }
     filler++;

@@ -10,18 +10,32 @@ export const DEFAULT_CONFIG = {
   targetRetention: 0.85,
 
   // deltaT 連動の h ゲイン（review #1）。正解時のゲインを前回復習からの経過時間で減衰させる。
-  // gain = 1 + (alpha−1) × cardWeight × min(1, deltaT/h)。
-  // ※ 現状は校正前のため既定 false（旧挙動 h × alpha × cardWeight を維持してアプリを壊さない）。
-  //   素の式は target-retention スケジューリング（復習時 deltaT≈h×0.234）と噛み合わず、
-  //   ratio が常に ~0.234 で頭打ち → gain~1.2 止まりで定着が ~20倍遅延する（sim で確認済み）。
-  //   次セッションで ratio 正規化（例: deltaT/(h×retentionFactor)）等を校正し、
-  //   個体差ありの sim で検証してから true に倒す予定。
-  deltaTGain: false,
+  // gain  = 1 + (alpha−1) × cardWeight × ratio
+  // ratio = min(1, deltaT / (h × retentionFactor))  ← 予定復習間隔で正規化（校正済み）
+  // - 予定どおりの復習（deltaT ≈ h × retentionFactor ≈ h × 0.234）→ ratio≈1 → full gain（旧 alpha 挙動）
+  // - クラミング/リトライ/filler（予定より早い）→ ratio<1 → 減衰（間隔反復の本質）
+  // 素の min(1, deltaT/h) は target-retention スケジューリングと噛み合わず ratio が ~0.234 で
+  // 頭打ちになり定着が ~20倍遅延したため、retentionFactor 正規化で校正した（2026-06-11）。
+  // 間隔効果ありの sim（virtual-learner）で OFF 比キャリブMAE 約半減を確認し既定 true に。
+  deltaTGain: true,
+
+  // 播種ノイズ（seed noise・seed-noise-findings.md）。位相同期の分散。
+  // 正解時の h 更新後に信頼度連動ノイズ h *= 1 + (rand·2−1) × seedNoiseBase/rc^seedNoiseExp を乗せ、
+  // 同日導入コホートの h を恒久的に分岐させる。急勾配（exp=2.5）なので rc=1（導入時）の一撃に
+  // 播種が集中し rc≥2 で実質ゼロ＝「導入時の一回播種」で複利蓄積しない（√rc だと成熟語まで汚れる）。
+  // 過負荷学習者（位相同期局面）で genuine に定着 +約5%・余裕学習者は無害＝常時適用で安全。
+  // h は真の記憶の測定値ではなくスケジュールを回す seed なので、この分散は推定の破壊ではない。
+  seedNoise: true,
+  seedNoiseBase: 0.5,
+  seedNoiseExp: 2.5,
 
   // 不確実性（提案書: bayesian-srs-proposal.md §2/§3）
   // σ 状態変数を持たず、観測回数と経過時間から「不確実性の幅」を導出し、
   // due 判定時に h をトンプソンサンプリングして位相同期を散らす。
-  dueSampling: true,        // due 判定時の effectiveH サンプリングを有効化（false で点推定 = 旧挙動）
+  // ※ 位相同期の分散は新 learner で throughput 効果を立証できず、より強力で outcome 検証済みの
+  //   seedNoise に置き換えたため既定 false。effectiveH/uncertaintyWidth は提案書の系譜として残置
+  //   （dueSampling=true で再有効化可能）。seed-noise-findings.md 参照。
+  dueSampling: false,       // due 判定時の effectiveH サンプリング（false で点推定 = 既定）
   uncertaintyBase: 0.5,     // 観測回数項の係数（reviewCount=1 で 0.5、4 で 0.25…）
   uncertaintyFloor: 0.05,   // 不確実性の幅の下限
   staleGrowth: 0.05,        // 経過時間項の係数（staleGrowth × log(1+deltaT)）
