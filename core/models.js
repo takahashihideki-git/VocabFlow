@@ -7,8 +7,6 @@ export class WordState {
     this.waveNumber = waveNumber;
     this.h = 0;                 // 半減期（日）。未学習時は0
     this.peakH = 0;             // これまで達成した最大 h（Word Wave ポップオーバー表示・sim/scenarios 用。core の wave 解放は供給ベースになり未使用）
-    this.mu = 0;                // log(h)の推定値
-    this.sigma = 1.0;           // 不確実性
     this.lastReviewed = 0;      // 最後の復習時刻（日数）
     this.stage = 'new';         // new|intro|recognition|recall|dictation|handwrite|mastered
     this.reviewCount = 0;
@@ -27,9 +25,26 @@ export class WordState {
     return Math.pow(2, -deltaT / this.h);
   }
 
-  currentSigma(currentTime, sigmaDecay) {
+  // h 推定の不確実性の「幅」（提案書 §2）。状態を持たず観測から導出する。
+  // - 観測が少ないほど（reviewCount 小）幅が広い
+  // - 最終観測から時間が経つほど（deltaT 大）幅が広い（記憶の干渉・変化を反映）
+  // 旧 σ（状態変数・不正解でも単調減少という誤った更新則）の置き換え。
+  uncertaintyWidth(currentTime, config) {
+    const obsFactor = config.uncertaintyBase / Math.sqrt(Math.max(1, this.reviewCount));
     const deltaT = Math.max(0, currentTime - this.lastReviewed);
-    return this.sigma + sigmaDecay * deltaT;
+    const staleFactor = config.staleGrowth * Math.log(1 + deltaT);
+    // 0.9 で上限（noise = 1 ± width が負にならないよう防御。実用上 width は 1 未満）
+    return Math.min(0.9, Math.max(config.uncertaintyFloor, obsFactor + staleFactor));
+  }
+
+  // due 判定用にサンプリングした実効半減期（提案書 §3.2・トンプソンサンプリング）。
+  // 不確実性の幅 w の中から h_eff = h × (1 ± w 一様乱数) を引く。
+  // 観測が少ない/古い語ほど due タイミングが大きく散り、位相同期が壊れる。
+  effectiveH(currentTime, config) {
+    if (this.h <= 0) return this.h;
+    const w = this.uncertaintyWidth(currentTime, config);
+    const noise = 1 + (Math.random() * 2 - 1) * w; // [1-w, 1+w] の一様乱数
+    return this.h * noise;
   }
 
   get wordString() {

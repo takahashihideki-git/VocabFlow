@@ -7,7 +7,6 @@ export const LABELS = {
     peakH: '最高記憶強度',
     avgH: '平均記憶強度',
     pRecall: '記憶保持率',
-    sigma: '確信度',
     reviewCount: '復習回数',
     correctCount: '正解回数',
     incorrectCount: '不正解回数',
@@ -16,7 +15,6 @@ export const LABELS = {
   pools: {
     urgent: '要復習',
     due: '復習時期',
-    uncertain: '確認待ち',
     new: '新語',
     filler: '定着語',
   },
@@ -83,15 +81,4 @@ export function formatH(h) {
  */
 export function formatPRecall(p) {
   return `${(p * 100).toFixed(0)}%`;
-}
-
-/**
- * σ（推定の不確かさ）を確信度ラベルに変換する。
- * @param {number} sigma
- * @returns {'高'|'中'|'低'}
- */
-export function sigmaToConfidence(sigma) {
-  if (sigma < 0.5) return '高';
-  if (sigma < 1.5) return '中';
-  return '低';
 }

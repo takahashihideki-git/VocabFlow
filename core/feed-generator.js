@@ -50,11 +50,7 @@ export class FeedGenerator {
     const selectedNew = pools.new.slice(0, newCount);
     remaining -= newCount;
 
-    // 4. Uncertain（不確実な語）
-    const selectedUncertain = this._pickSorted(pools.uncertain, remaining, 'sigma_desc', currentTime);
-    remaining -= selectedUncertain.length;
-
-    // 5. Filler（箸休め。残りスロットを埋める）
+    // 4. Filler（箸休め。残りスロットを埋める）
     const selectedFiller = this._pickRandom(pools.filler, remaining);
 
     // カード種別を割り当て
@@ -73,9 +69,6 @@ export class FeedGenerator {
       // 新語は Intro + Recognition のペアとして追加
       cards.push(new Card(w, 'intro'));
       cards.push(new Card(w, 'recognition'));
-    }
-    for (const w of selectedUncertain) {
-      cards.push(new Card(w, this._assignCardType(w, learnerState, 'uncertain')));
     }
     for (const w of selectedFiller) {
       cards.push(new Card(w, 'passive'));
@@ -97,7 +90,6 @@ export class FeedGenerator {
     const skipped = [];   // 前セッションでスキップされた語（最優先）
     const urgent = [];    // p < 0.5（忘れかけ）
     const due = [];       // p < targetRetention（最適復習時刻を過ぎた）
-    const uncertain = []; // σ > threshold（不確実）
     const filler = [];    // p >= targetRetention の定着済み（箸休め）
     const newWords = this.waveManager.getNewWordsFromActiveWaves().filter(w => !w.excluded);
 
@@ -117,7 +109,6 @@ export class FeedGenerator {
       if (w.stage === 'new') continue;
 
       const p = w.pRecall(currentTime);
-      const sigma = w.currentSigma(currentTime, cfg.sigmaDecay);
 
       if (w.stage === 'mastered') {
         if (p >= cfg.targetRetention) filler.push(w);
@@ -126,14 +117,15 @@ export class FeedGenerator {
         continue;
       }
 
-      // 最適復習時刻を過ぎているか
-      const optimalNextReview = w.lastReviewed + (w.h > 0 ? w.h * retentionFactor : 0);
+      // 最適復習時刻を過ぎているか。
+      // dueSampling 有効時は点推定 h ではなく不確実性の幅から引いた effectiveH で判定し、
+      // 同日導入語の位相同期（同時 due → 同時復習 → 同時 due）を散らす（提案書 §3）。
+      const hForDue = cfg.dueSampling ? w.effectiveH(currentTime, cfg) : w.h;
+      const optimalNextReview = w.lastReviewed + (hForDue > 0 ? hForDue * retentionFactor : 0);
       const isDue = currentTime >= optimalNextReview;
 
       if (p < 0.5) {
         urgent.push(w);
-      } else if (sigma > cfg.uncertainThreshold) {
-        uncertain.push(w);
       } else if (isDue) {
         due.push(w);
       } else if (p >= cfg.targetRetention) {
@@ -146,13 +138,13 @@ export class FeedGenerator {
     urgent.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
     due.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
 
-    return { skipped, urgent, due, uncertain, new: newWords, filler };
+    return { skipped, urgent, due, new: newWords, filler };
   }
 
   // -------------------------------------------------------
   // ステージに応じたカード種別を割り当て
   //
-  // pool: 'skipped'|'urgent'|'due'|'uncertain' （リトライ等の呼び出しでは未指定）
+  // pool: 'skipped'|'urgent'|'due' （リトライ等の呼び出しでは未指定）
   // mastered 語は出題プールで種別が変わる（spec §4.4）:
   //   - urgent (p<0.5): Dictation 固定 — 久しぶりだね。本当に覚えてる？
   //   - due / skipped:  Recognition/Recall/Dictation/Passive からランダム選出
@@ -316,8 +308,6 @@ export class FeedGenerator {
     const sorted = [...arr];
     if (sortKey === 'pRecall_asc') {
       sorted.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
-    } else if (sortKey === 'sigma_desc') {
-      sorted.sort((a, b) => b.sigma - a.sigma);
     }
     return sorted.slice(0, Math.min(n, sorted.length));
   }

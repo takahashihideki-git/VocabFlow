@@ -11,6 +11,27 @@ export class VirtualLearner {
     // phonetic は発音由来の混同→修正しにくい。
     this.nearMissFixRate = config.nearMissFixRate ?? 0.85;
     this.phoneticFixRate = config.phoneticFixRate ?? 0.6;
+
+    // 語ごとの「真の忘れにくさ」個体差。システムの推定 h（全語一律 alpha で成長）と
+    // 学習者の真の h の間にずれを持たせる。これがないと推定誤差ゼロになり、
+    // トンプソンサンプリングや deltaT 連動 h 更新の真価（推定誤りの発見・訂正）を
+    // sim で測定できない（提案書 §8 / review #1 の検証注意点）。
+    // wordId から決定的に [1-hVariation, 1+hVariation] の係数を導出（再現性のため）。
+    this.hVariation = config.hVariation ?? 0.3;
+    this._hFactorCache = new Map();
+  }
+
+  // wordId に紐づく安定した真 h 係数（[1-hVariation, 1+hVariation] の決定的擬似乱数）
+  _hFactor(wordId) {
+    let f = this._hFactorCache.get(wordId);
+    if (f === undefined) {
+      // sin ハッシュ → [0,1) の決定的擬似乱数（Math.random を使わず再現性を確保）
+      const x = Math.sin(wordId * 127.1 + 311.7) * 43758.5453;
+      const u = x - Math.floor(x);
+      f = 1 + (u * 2 - 1) * this.hVariation;
+      this._hFactorCache.set(wordId, f);
+    }
+    return f;
   }
 
   // カードへの応答をシミュレート（終端結果のみ返す）
@@ -18,10 +39,11 @@ export class VirtualLearner {
   //   ※ near_miss/phonetic は _resolveSpelling で perfect/wrong に終端化される
   respond(wordState, cardType, currentTime) {
     // 残留記憶モデル:
-    // 実際の半減期 = max(推定h × ability, 最小値)
+    // 実際の半減期 = max(推定h × ability × 語ごとの個体差, 最小値)
     // 最小値はレビュー回数と共に成長（何度も見た単語は忘れにくい）
     const reviewFloor = Math.min(0.5, wordState.reviewCount * 0.07); // 最大0.5日
-    const trueH = Math.max((wordState.h > 0 ? wordState.h * this.ability : 0.1), reviewFloor);
+    const trueFactor = this.ability * this._hFactor(wordState.wordId);
+    const trueH = Math.max((wordState.h > 0 ? wordState.h * trueFactor : 0.1), reviewFloor);
     const deltaT = Math.max(0, currentTime - wordState.lastReviewed);
     const trueP = Math.pow(2, -deltaT / trueH);
 

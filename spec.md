@@ -399,11 +399,14 @@ dueBufferRatio = 0.2（デフォルト）の場合、最適時刻の80%の時点
 
 設計根拠: アルゴリズム的に最適なタイミングを厳密に守ることより、学習者が「やりたい」と思ったときにやれることの方が重要。p = 0.87 のときに復習しても p = 0.85 のときに復習しても、学習効果の差はごくわずかである。一方「やりたかったのにできなかった」のモチベーション損失は大きい。特に学習初期に「ものめずらしくてたくさんやりたい」学習者が「何もしなくて大丈夫」で頻繁に止められると離脱の原因になる。
 
+> **注（2026-06-11・review #5）**: μ/σ ベイズ層と Uncertain プールは形骸化していたため削除した（σ は更新則が場当たり・μ は死にフィールド・Uncertain プールはデッドコード）。本書中の σ / sigma0 / sigmaDecay / uncertainThreshold / Uncertain プールの記述は現行コードに存在しない。
+>
+> **不確実性は「状態」ではなく「導出関数」として復活済み**（提案書 `bayesian-srs-proposal.md` §2/§3 の Phase 1）。`WordState.uncertaintyWidth(currentTime, config)` が観測回数（`uncertaintyBase / sqrt(reviewCount)`）と最終観測からの経過時間（`staleGrowth × log(1+deltaT)`）から不確実性の幅を導出し、`WordState.effectiveH(currentTime, config)` が幅の中から `h × (1 ± w)` をサンプリングする。`_buildCandidatePools` の **due 判定**は `dueSampling`（既定 true）が有効なとき点推定 h ではなく effectiveH を使い、同日導入語の位相同期を散らす（トンプソンサンプリング）。検証は `scripts/verify_due_sampling.js`（シナリオ E）。トリアージ・UI 信頼性表示・確認モード（提案書 §4–6）は未実装。
+
 | カテゴリ | 条件 | 説明 |
 |---|---|---|
 | **Urgent** | p(recall) < 0.5 | 忘れかけている。復習が急務 |
 | **Due** | bufferedNextReview を過ぎた（前倒しバッファ適用済み） | 復習タイミングが近い〜過ぎた。通常の復習対象 |
-| **Uncertain** | σ > uncertain_threshold | 覚えているかどうか不確実。情報が欲しい |
 | **New** | 未学習（アクティブウェーブ内） | まだ出会っていない単語 |
 | **Filler** | 上記いずれにも該当しない | 十分定着している既知語。箸休め用 |
 
@@ -411,17 +414,21 @@ v2 では urgent と filler の間に「デッドゾーン」（0.5 ≤ p < 0.85
 
 ### 4.2 混合比率の決定（優先度順貪欲方式）
 
-v2 の固定比率方式（urgent 50%, uncertain 30%, ...）は学習初期に破綻する。50語が同時に due になっても固定スロットでは捌けない。
+v2 の固定比率方式（urgent 50%, ...）は学習初期に破綻する。50語が同時に due になっても固定スロットでは捌けない。
 
 **v3 では優先度順に貪欲に詰める:**
 
 ```javascript
 function allocateSlots(pools, config) {
   const maxSize = config.sessionSize;
-  const selected = { urgent: [], due: [], uncertain: [], new: [], filler: [] };
+  const selected = { skipped: [], urgent: [], due: [], new: [], filler: [] };
   let remaining = maxSize;
 
-  // 1. Urgent（最優先: 忘れかけている語）
+  // 0. Skipped（最優先: 前セッションでスキップされた語）
+  selected.skipped = pools.skipped.slice(0, remaining);
+  remaining -= selected.skipped.length;
+
+  // 1. Urgent（忘れかけている語）
   selected.urgent = pickTopN(pools.urgent, remaining, sortBy='pRecall_asc');
   remaining -= selected.urgent.length;
 
@@ -434,11 +441,7 @@ function allocateSlots(pools, config) {
   selected.new = pools.new.slice(0, newLimit);
   remaining -= selected.new.length;
 
-  // 4. Uncertain（不確実な語）
-  selected.uncertain = pickTopN(pools.uncertain, remaining, sortBy='sigma_desc');
-  remaining -= selected.uncertain.length;
-
-  // 5. Filler（箸休め。残りスロットを埋める）
+  // 4. Filler（箸休め。残りスロットを埋める）
   selected.filler = pickRandom(pools.filler, remaining);
 
   return selected;
@@ -555,9 +558,11 @@ Wave 1 (定着済み)  Wave 2 (学習中)  Wave 3以降 (未着手)
 | 不正解時倍率 | `beta` | 0.3 | 不正解時の半減期倍率 |
 | 半減期下限 | `hMin` | h0 / 2 (= 0.5日) | h の最小値。death spiral 防止 |
 | 半減期上限 | `hMax` | 365日 | h の最大値 |
-| 初期不確実性 | `sigma0` | 1.0 | 半減期の初期不確実性 |
-| 不確実性増加率 | `sigmaDecay` | 0.01 / 日 | 時間経過による不確実性増加 |
 | 目標記憶保持率 | `targetRetention` | 0.85 | 目標とする記憶保持確率 |
+| due サンプリング | `dueSampling` | true | due 判定で effectiveH をサンプリング（false で点推定 h = 旧挙動） |
+| 不確実性係数 | `uncertaintyBase` | 0.5 | 観測回数項の係数（`uncertaintyBase / sqrt(reviewCount)`） |
+| 不確実性下限 | `uncertaintyFloor` | 0.05 | 不確実性の幅の下限 |
+| 経過時間係数 | `staleGrowth` | 0.05 | 経過時間項の係数（`staleGrowth × log(1+deltaT)`） |
 
 ### 6.2 カード種別パラメータ
 
@@ -590,7 +595,6 @@ Wave 1 (定着済み)  Wave 2 (学習中)  Wave 3以降 (未着手)
 | セッションサイズ | `sessionSize` | 20 | 1セッションの最大カード数 |
 | 新語上限 | `maxNewPerSession` | 5 | 1セッションの新語上限 |
 | 1日のセッション数 | `sessionsPerDay` | 3 | 想定される1日のセッション数 |
-| 不確実性閾値 | `uncertainThreshold` | 1.5 | Uncertain判定のσ閾値 |
 | 復習前倒しバッファ | `dueBufferRatio` | 0.2 | 最適復習時刻のこの割合ぶん手前から due に入れる |
 | リトライ間隔 | `retryGap` | 4 | 不正解時の再挿入位置（現在位置+N枚後） |
 | 最大リトライ回数 | `maxRetryPerCard` | 2 | 同一カードの最大再挿入回数/セッション |
@@ -643,9 +647,13 @@ export const DEFAULT_CONFIG = {
   beta: 0.3,
   hMin: 0.5,             // h0 / 2。death spiral 防止
   hMax: 365,
-  sigma0: 1.0,
-  sigmaDecay: 0.01,
   targetRetention: 0.85,
+
+  // 不確実性（提案書 §2/§3。状態を持たず導出 + due サンプリング）
+  dueSampling: true,
+  uncertaintyBase: 0.5,
+  uncertaintyFloor: 0.05,
+  staleGrowth: 0.05,
   
   // Card weights
   recognitionWeight: 0.8,
@@ -670,7 +678,6 @@ export const DEFAULT_CONFIG = {
   sessionSize: 20,
   maxNewPerSession: 5,
   sessionsPerDay: 3,
-  uncertainThreshold: 1.5,
   dueBufferRatio: 0.2,    // 最適復習時刻の20%手前から due に入れる
   retryGap: 4,
   maxRetryPerCard: 2,
@@ -691,8 +698,6 @@ export class WordState {
     this.waveNumber = waveNumber;
     this.h = 0;            // 現在の半減期（日）。未学習時は0
     this.peakH = 0;        // 最大到達半減期（Word Wave 表示・sim 用。core の wave 解放は供給ベースで未使用）
-    this.mu = 0;           // log(h)の推定値
-    this.sigma = 1.0;      // 不確実性
     this.lastReviewed = 0; // 最後の復習時刻（日数）
     this.stage = 'new';    // new|intro|recognition|recall|dictation|handwrite|mastered
     this.reviewCount = 0;
@@ -706,9 +711,18 @@ export class WordState {
     return Math.pow(2, -deltaT / this.h);
   }
 
-  currentSigma(currentTime) {
-    const deltaT = currentTime - this.lastReviewed;
-    return this.sigma + config.sigmaDecay * deltaT;
+  // 不確実性の幅（状態を持たず観測回数・経過時間から導出。提案書 §2）
+  uncertaintyWidth(currentTime, config) {
+    const obs = config.uncertaintyBase / Math.sqrt(Math.max(1, this.reviewCount));
+    const stale = config.staleGrowth * Math.log(1 + Math.max(0, currentTime - this.lastReviewed));
+    return Math.min(0.9, Math.max(config.uncertaintyFloor, obs + stale));
+  }
+
+  // due 判定用のサンプリング半減期（トンプソンサンプリング。提案書 §3.2）
+  effectiveH(currentTime, config) {
+    if (this.h <= 0) return this.h;
+    const w = this.uncertaintyWidth(currentTime, config);
+    return this.h * (1 + (Math.random() * 2 - 1) * w);
   }
 }
 
@@ -747,22 +761,16 @@ export class SRSEngine {
     this.config = config;
   }
 
-  // カード応答の処理 → h, μ, σ, stage を更新
+  // カード応答の処理 → h, stage を更新
   processResponse(word, cardType, result, currentTime) {
     // result: 'perfect' | 'near_miss' | 'phonetic' | 'correct_messy' | 'wrong'
-    // → h更新、μ/σベイズ更新、stage遷移判定
+    // → h更新、stage遷移判定（near_miss/phonetic は不正解扱い）
   }
 
   // 半減期の更新
   updateHalfLife(word, cardType, isCorrect, resultQuality) {
     // isCorrect=true: h_new = h_old × α × cardWeight
     // isCorrect=false: h_new = h_old × β
-  }
-
-  // ベイズ更新（μ, σ）
-  bayesianUpdate(word, isCorrect, currentTime) {
-    // 正解 → μ↑, σ↓
-    // 不正解 → μ↓, σやや↓
   }
 
   // ステージ遷移判定
@@ -816,8 +824,8 @@ export class FeedGenerator {
 
   // 1セッション分のカード列を生成
   generateSession(learnerState, currentTime) {
-    // 1. 候補プール構築（urgent / uncertain / new / filler）
-    // 2. 混合比率決定
+    // 1. 候補プール構築（skipped / urgent / due / new / filler）
+    // 2. 優先度順貪欲割当
     // 3. カード種別割り当て
     // 4. 配置最適化
     // → Session を返す
@@ -825,10 +833,11 @@ export class FeedGenerator {
 
   // 候補プール構築
   buildCandidatePools(learnerState, currentTime) {
+    // skipped: 前セッションでスキップされた語（最優先）
     // urgent: p < 0.5
-    // uncertain: σ > threshold
+    // due: 最適復習時刻を過ぎた
     // new: アクティブウェーブ内の未学習
-    // filler: p > 0.8
+    // filler: p >= targetRetention
   }
 
   // 配置最適化

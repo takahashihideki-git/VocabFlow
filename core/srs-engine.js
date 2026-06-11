@@ -6,7 +6,7 @@ export class SRSEngine {
   }
 
   // -------------------------------------------------------
-  // カード応答の処理 → h, μ, σ, stage を更新
+  // カード応答の処理 → h, stage を更新
   // result: 'perfect' | 'near_miss' | 'phonetic' | 'correct_messy' | 'wrong'
   // -------------------------------------------------------
   processResponse(word, cardType, result, currentTime) {
@@ -26,19 +26,15 @@ export class SRSEngine {
     // Intro は h₀ を設定するだけ（ステージ遷移のみ）
     if (cardType === 'intro') {
       word.h = this.config.h0;
-      word.mu = Math.log(word.h);
-      word.sigma = this.config.sigma0;
       word.lastReviewed = currentTime;
       word.reviewCount++;
       word.stage = 'recognition';
       return;
     }
 
-    // h 更新
-    this._updateHalfLife(word, cardType, isCorrect, result);
-
-    // ベイズ更新
-    this._bayesianUpdate(word, isCorrect, currentTime);
+    // h 更新（currentTime は deltaT 連動ゲインの計算に使う。
+    //          word.lastReviewed はこの後で更新するので、ここでは前回復習時刻のまま）
+    this._updateHalfLife(word, cardType, isCorrect, result, currentTime);
 
     // 統計更新
     word.lastReviewed = currentTime;
@@ -73,15 +69,31 @@ export class SRSEngine {
 
   // -------------------------------------------------------
   // 半減期の更新
+  //
+  // deltaTGain（既定 true・review #1）有効時は、正解時のゲインを
+  // 「前回復習からの経過時間 deltaT と現在の h の比」で減衰させる:
+  //   gain = 1 + (alpha − 1) × cardWeight × min(1, deltaT / h)
+  // - deltaT ≪ h（直前に見たばかり・p≈1）→ ratio≈0 → gain≈1（h ほぼ伸びない）
+  // - deltaT ≳ h（忘却の縁での想起）       → ratio→1 → gain→1+(alpha−1)×cardWeight（最大）
+  // これで「短間隔の正解は h をほぼ伸ばさない／忘却の縁での正解は大きく伸ばす」が表現される。
+  // cardWeight は alpha の全体倍率ではなくボーナス項に掛ける（正解で h が縮まない不変条件を保つ）。
+  // 旧挙動（h × alpha × cardWeight・deltaT 無視）は deltaTGain=false で再現可能。
   // -------------------------------------------------------
-  _updateHalfLife(word, cardType, isCorrect, result) {
+  _updateHalfLife(word, cardType, isCorrect, result, currentTime) {
     const cfg = this.config;
 
     if (word.h <= 0) word.h = cfg.h0;
 
     if (isCorrect) {
       const cardWeight = this._cardWeight(cardType, result);
-      word.h = word.h * cfg.alpha * cardWeight;
+      if (cfg.deltaTGain) {
+        const deltaT = Math.max(0, currentTime - word.lastReviewed);
+        const ratio = word.h > 0 ? Math.min(1, deltaT / word.h) : 1;
+        const gain = 1 + (cfg.alpha - 1) * cardWeight * ratio;
+        word.h = word.h * gain;
+      } else {
+        word.h = word.h * cfg.alpha * cardWeight;
+      }
     } else {
       word.h = word.h * cfg.beta;
     }
@@ -105,24 +117,6 @@ export class SRSEngine {
       case 'dictation':   return cfg.dictationWeight;
       case 'handwrite':   return cfg.handwriteWeight;
       default:            return 1.0;
-    }
-  }
-
-  // -------------------------------------------------------
-  // ベイズ更新（μ, σ）
-  // -------------------------------------------------------
-  _bayesianUpdate(word, isCorrect, currentTime) {
-    const cfg = this.config;
-    const learningRate = 0.3;
-
-    if (isCorrect) {
-      // 正解 → μ増加、σ減少
-      word.mu = Math.log(Math.max(word.h, 0.01));
-      word.sigma = Math.max(0.1, word.sigma * (1 - learningRate));
-    } else {
-      // 不正解 → μ減少、σやや減少
-      word.mu = Math.log(Math.max(word.h, 0.01));
-      word.sigma = Math.max(0.1, word.sigma * (1 - learningRate * 0.5));
     }
   }
 

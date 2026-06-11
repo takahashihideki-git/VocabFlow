@@ -308,8 +308,6 @@ export class WordWaveRenderer {
         continue;
       }
       if (p < 0.5) { urgent++; continue; }
-      // uncertain は貪欲割当で new より後段 → 新語を押し出さない
-      if (w.currentSigma(t, cfg.sigmaDecay) > cfg.uncertainThreshold) continue;
       const optimalNextReview = w.lastReviewed + (w.h > 0 ? w.h * rf : 0);
       if (t >= optimalNextReview) due++;
     }

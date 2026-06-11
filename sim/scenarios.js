@@ -40,4 +40,13 @@ export const SCENARIOS = {
     fixedOverrides: {},
     duration: 180,
   },
+  E: {
+    id: 'E',
+    name: '位相同期の分散（due サンプリング）',
+    description: 'due 判定の effectiveH トンプソンサンプリング有無で定着効率・副作用を比較（頻回学習者）。クラスタ分散・復習なし回数の詳細は scripts/verify_due_sampling.js を参照',
+    variable: 'dueSampling',
+    values: [false, true],
+    fixedOverrides: { sessionsPerDay: 5 },
+    duration: 60,
+  },
 };
