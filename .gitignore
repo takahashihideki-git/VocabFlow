@@ -11,3 +11,6 @@ scripts/debug/
 # word-data の中間生成物・バックアップ（正マスターは word_data_final.json）
 scripts/results/*.bk*
 scripts/results/word_data_phase*.json
+
+# 検証・生成スクリプトの出力レポート（再生成可能）
+scripts/results/*.txt
