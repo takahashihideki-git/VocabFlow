@@ -10,7 +10,10 @@ export class SRSEngine {
   // result: 'perfect' | 'near_miss' | 'phonetic' | 'correct_messy' | 'wrong'
   // -------------------------------------------------------
   processResponse(word, cardType, result, currentTime) {
-    const isCorrect = result !== 'wrong';
+    // near_miss / phonetic（綴りが惜しいが不正確）は不正解として扱う。
+    // ここがポリシーの唯一の源で、sim（生の result を渡す）と
+    // app（UI 層で 'wrong' に翻訳済み）が同じ h 減衰・降格経路を通る。
+    const isCorrect = result !== 'wrong' && result !== 'near_miss' && result !== 'phonetic';
 
     // Passive は間接観測のみ。h は更新しない。
     // ただし mastered 語の passive は維持クレジットとして lastReviewed を更新し、
@@ -44,11 +47,6 @@ export class SRSEngine {
       word.correctCount++;
     } else {
       word.incorrectCount++;
-    }
-
-    // スペリングフラグ
-    if (result === 'phonetic') {
-      word.spellingFlag = true;
     }
 
     // Handwrite 介入カードは stage を変えない。フラグのみ操作して終了
@@ -90,15 +88,14 @@ export class SRSEngine {
 
     // 範囲を保証（hMin〜hMax）
     word.h = Math.min(Math.max(word.h, this.config.hMin), this.config.hMax);
-    // peakH を更新（ウェーブ解放判定に使用）
+    // peakH を更新（Word Wave ポップオーバー表示・sim/scenarios 用。core の wave 解放は供給ベースで未使用）
     if (word.h > word.peakH) word.peakH = word.h;
   }
 
   _cardWeight(cardType, result) {
     const cfg = this.config;
-    if (result === 'near_miss' || result === 'phonetic') {
-      return cfg.nearMissWeight;
-    }
+    // near_miss / phonetic は isCorrect=false で beta 減衰に回るため、
+    // ここ（正解時の重み）には到達しない。
     if (result === 'correct_messy') {
       return cfg.handwriteMessyWeight;
     }
@@ -190,26 +187,23 @@ export class SRSEngine {
   }
 
   _isPhoneticMatch(input, expected) {
-    // よくある英語スペルミスパターン
+    // 発音由来でよく起きるスペル混同パターン（全置換で全出現箇所を変換）。
+    // 名前どおり「音は近いがスペルが違う」ケースだけを phonetic と判定する。
+    // 旧実装は ① regex を replace(/ie/) で渡し最初の1箇所しか置換せず、
+    // ② 「編集距離≤2 かつ 長さ≥4」の広いフォールバックで大半の2文字タイポを
+    // phonetic に巻き込んでいた（判定名と実態の乖離）。両方を解消。
     const patterns = [
-      [/ie/, 'ei'], [/ei/, 'ie'],
-      [/ph/, 'f'],  [/f/, 'ph'],
-      [/ck/, 'k'],  [/k/, 'ck'],
-      [/ss/, 's'],  [/s/, 'ss'],
-      [/ll/, 'l'],  [/l/, 'll'],
-      [/tion/, 'sion'], [/sion/, 'tion'],
+      [/ie/g, 'ei'], [/ei/g, 'ie'],
+      [/ph/g, 'f'],  [/f/g, 'ph'],
+      [/ck/g, 'k'],  [/k/g, 'ck'],
+      [/ss/g, 's'],  [/s/g, 'ss'],
+      [/ll/g, 'l'],  [/l/g, 'll'],
+      [/tion/g, 'sion'], [/sion/g, 'tion'],
     ];
     for (const [from, to] of patterns) {
-      if (typeof from === 'object') {
-        if (input.replace(from, to) === expected) return true;
-      } else {
-        if (input.replace(from, to) === expected) return true;
-      }
+      if (input.replace(from, to) === expected) return true;
     }
-    // レーベンシュタイン距離が2以内で発音的に近い場合
-    return this.levenshteinDistance(input, expected) <= 2 &&
-           input.length >= 4 &&
-           Math.abs(input.length - expected.length) <= 1;
+    return false;
   }
 
   // -------------------------------------------------------

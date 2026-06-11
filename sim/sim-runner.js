@@ -31,8 +31,12 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
 
       engine.processResponse(card.word, card.cardType, result, sessionTime);
 
+      // near_miss / phonetic はエンジンと同様に不正解として扱う
+      // （app は near_miss を 'wrong' に翻訳済み。sim もここで経路を揃える）
+      const isWrong = result === 'wrong' || result === 'near_miss' || result === 'phonetic';
+
       stats.totalCount++;
-      if (result !== 'wrong') stats.correctCount++;
+      if (!isWrong) stats.correctCount++;
       if (card.cardType === 'intro') {
         stats.newCards++;
       } else {
@@ -40,7 +44,7 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
       }
 
       // 不正解 → retryGap 枚後に再出題（relearning step, spec §4.5）
-      if (result === 'wrong' && card.cardType !== 'passive') {
+      if (isWrong && card.cardType !== 'passive') {
         const key = card.word.wordId;
         if ((reinsertCount.get(key) ?? 0) < cfg.maxRetryPerCard) {
           reinsertCount.set(key, (reinsertCount.get(key) ?? 0) + 1);
@@ -79,7 +83,7 @@ export function runSimulation(configOverrides = {}, duration = 90, onProgress = 
   for (let day = 0; day < duration; day++) {
     const stats = simulateDay(state, engine, wm, fg, learner, day);
 
-    const masteredCount = state.words.filter(w => w.h >= cfg.masteredThresholdH).length;
+    const masteredCount = state.words.filter(w => w.stage === 'mastered').length;
     const learnedCount  = state.words.filter(w => w.stage !== 'new').length;
     const activeWords   = state.words.filter(w => w.h > 0);
     const avgH = activeWords.length

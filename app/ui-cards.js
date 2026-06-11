@@ -367,7 +367,7 @@ export class CardRenderer {
           w.stuckCount = s.stuckCount; w.needsHandwrite = s.needsHandwrite;
           w.peakH = s.peakH; w.correctCount = s.correctCount;
           w.incorrectCount = s.incorrectCount; w.reviewCount = s.reviewCount;
-          w.lastReviewed = s.lastReviewed; w.spellingFlag = s.spellingFlag;
+          w.lastReviewed = s.lastReviewed;
           card._nearMissState = null;
           card._dictationNearMiss = false;
           card._dictationNearMissOverwrite = true;
@@ -376,7 +376,6 @@ export class CardRenderer {
         this._markReady('perfect');
 
       } else if (result === 'near_miss' || result === 'phonetic') {
-        const fbText = result === 'near_miss'
         input.className = 'word-input near';
         fbArea.innerHTML = `<div class="answer-feedback near">惜しい、もう一度 <button class="giveup-btn" id="giveup-btn">ギブアップ</button></div>`;
         input.select();
@@ -401,7 +400,7 @@ export class CardRenderer {
             stuckCount: w.stuckCount, needsHandwrite: w.needsHandwrite,
             peakH: w.peakH, correctCount: w.correctCount,
             incorrectCount: w.incorrectCount, reviewCount: w.reviewCount,
-            lastReviewed: w.lastReviewed, spellingFlag: w.spellingFlag
+            lastReviewed: w.lastReviewed
           };
           card._dictationNearMiss = true;
           this._markReady('wrong');
@@ -493,6 +492,11 @@ export class CardRenderer {
 
         const statusEl = previewArea.querySelector('.hw-status');
 
+        // ⚠ OCR モック: 実際の文字認識は行わず、常に正解語を表示して _markReady('perfect') を返す。
+        //    そのため Handwrite は無条件で最大ブースト（alpha×handwriteWeight ≈ 3.2倍の h）を得る。
+        //    これは「紙に10回書いた」介入の報酬として暫定的に許容しているもの。
+        //    実 OCR を導入する際は、認識結果と正解の照合で perfect/wrong を実体化し、
+        //    このブーストを判定ゲート下に置くこと（review.md #6）。
         // Step 1: 1.0秒後 → 送信完了
         setTimeout(() => {
           statusEl.textContent = '送信完了 — AI が認識中...';

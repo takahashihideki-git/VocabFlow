@@ -17,7 +17,6 @@ export const DEFAULT_CONFIG = {
   dictationWeight: 1.3,
   handwriteWeight: 1.6,
   handwriteMessyWeight: 1.3,
-  nearMissWeight: 0.9,
 
   // Stage thresholds
   dictationThresholdH: 4.0,   // Dictation出題に必要な最小h（日）

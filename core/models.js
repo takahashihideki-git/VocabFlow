@@ -6,7 +6,7 @@ export class WordState {
     this.word = word;           // 単語文字列 or wordデータオブジェクト
     this.waveNumber = waveNumber;
     this.h = 0;                 // 半減期（日）。未学習時は0
-    this.peakH = 0;             // これまで達成した最大 h（ウェーブ解放判定に使用）
+    this.peakH = 0;             // これまで達成した最大 h（Word Wave ポップオーバー表示・sim/scenarios 用。core の wave 解放は供給ベースになり未使用）
     this.mu = 0;                // log(h)の推定値
     this.sigma = 1.0;           // 不確実性
     this.lastReviewed = 0;      // 最後の復習時刻（日数）
@@ -14,7 +14,6 @@ export class WordState {
     this.reviewCount = 0;
     this.correctCount = 0;
     this.incorrectCount = 0;
-    this.spellingFlag = false;  // 発音は合っているがスペルが怪しい
     this.stuckCount = 0;        // 現在の段階での累積不正解数。stage 変更時にリセット
     this.needsHandwrite = false; // 停滞介入モード：次回 Handwrite カードを出題する
     this.skipped = false;       // スキップされたか。次セッションで最優先再出題
@@ -88,7 +87,12 @@ export class LearnerState {
   }
 
   get masteredCount() {
-    return this.words.filter(w => w.h >= this.config.masteredThresholdH).length;
+    // stage === 'mastered' を唯一の定着定義とする。
+    // h ベース（h>=masteredThresholdH）だと、降格して stage=dictation だが h が高いまま
+    // 居座る語（opportunity 事件）がヘッダ統計では「定着」に数えられるのに Wave クリア判定
+    // （stage 基準）ではブロックされる二重評価ズレが起きる。Wave クリア・Word Wave 金色ドット
+    // と同じ stage 基準に統一する。
+    return this.words.filter(w => w.stage === 'mastered').length;
   }
 
   get learnedCount() {

@@ -177,7 +177,8 @@ export class WordWaveRenderer {
     const words    = this.state.words;
     const total    = words.length;
     const learned  = words.filter(w => w.stage !== 'new' && !w.excluded).length;
-    const mastered = words.filter(w => w.h >= (this.state.config.masteredThresholdH || 14)).length;
+    // 定着定義は stage === 'mastered' に統一（ヘッダ統計・Wave クリア判定・金色ドットと一致）
+    const mastered = words.filter(w => w.stage === 'mastered').length;
     const maxWave  = words.reduce(
       (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
     );
@@ -212,9 +213,9 @@ export class WordWaveRenderer {
     // ペース予測セクション更新（潮の状態 + 全Wave クリア予測）
     const paceEl = this.overlay.querySelector('#ww-pace-section');
     if (paceEl) {
-      const threshold   = this.state.config?.masteredThresholdH ?? 14;
+      // 定着判定は stage === 'mastered' に統一（全Wave クリア予測を Wave クリア判定と一致させる）
       const target      = words.filter(w => !w.excluded).length;
-      const masteredNow = words.filter(w => !w.excluded && w.h >= threshold).length;
+      const masteredNow = words.filter(w => !w.excluded && w.stage === 'mastered').length;
       const currentDay  = this.state.currentTime;
       const remaining   = target - masteredNow;
 

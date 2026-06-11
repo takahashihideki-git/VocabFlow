@@ -94,8 +94,15 @@ export class WaveManager {
   // -------------------------------------------------------
   _isGraduated(waveNumber) {
     const cfg = this.config;
-    const words = this.getWordsInWave(waveNumber);
+    // excluded 語は分母から外す。未学習のまま除外された語（h=0）が分母に残ると、
+    // 10語以上除外された wave は永久に卒業できず activeWaves が肥大する（review #4-②）。
+    const words = this.getWordsInWave(waveNumber).filter(w => !w.excluded);
     if (words.length === 0) return false;
+    // 非除外の未導入(new)語が1つでも残る間は卒業させない。供給ベース解放では最大4語の
+    // new が残ったまま次 wave が解放され得るが、その状態で卒業して activeWaves から外れると
+    // getNewWordsFromActiveWaves が見なくなり、その語は永久に導入されず全Wave クリア不能になる
+    // （孤児化・review #4-①）。卒業前に非除外 new を必ず導入し切らせる。
+    if (words.some(w => w.stage === 'new')) return false;
     const graduated = words.filter(w => w.h >= cfg.graduationH).length;
     // 90%以上が卒業基準を超えたらアクティブ枠を解放
     return graduated / words.length >= 0.9;
