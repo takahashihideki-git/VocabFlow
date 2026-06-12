@@ -1269,6 +1269,10 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   background-color: #2A2A3D;
   color: #555566;
 }
+/* 出会ったばかり・まだ信頼度が立っていない語（reviewCount < 3）。
+   h ティア（暖色）に参加する前の「不確実」を表す一色。ripple の揺らぎを
+   実力差として見せないための表示。グレー（未学習）→ 青（出会ったばかり）→ 暖色（測定済み）。*/
+.ww-word--young { background-color: #3D6CCC; color: #fff; }
 .ww-word--t0 { background-color: #FF4444; color: #fff; }
 .ww-word--t1 { background-color: #FF8C00; color: #fff; }
 .ww-word--t2 { background-color: #FFD700; color: #222; }
@@ -1277,6 +1281,7 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 .ww-word--t5 { background-color: #006400; color: #fff; }
 
 /* ::before のドット色を背景に合わせて個別調整 */
+.ww-word--young::before { color: #fff; }
 .ww-word--t0::before { color: #fff; }
 .ww-word--t1::before { color: #fff; }
 .ww-word--t2::before { color: #222; }

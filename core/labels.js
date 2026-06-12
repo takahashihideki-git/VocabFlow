@@ -1,6 +1,12 @@
 // core/labels.js
 // UIラベル定数・変換関数（ui-labels-spec.md 準拠）
 
+// 信頼度卒業の閾値（reviewCount）。これ未満の導入済み語は h ティア（暖色）ではなく
+// 「出会ったばかり」の青で一律表示する（Word Wave 一覧・Wave Heatmap 共通）。
+// 導入直後の h は ripple 播種ノイズを多く含み語間の色差が「確認された差」でないため、
+// 観測を重ねるまでノイズを色として見せない。詳細・設計理由は spec.md §5.2。
+export const CONFIDENCE_MIN_REVIEWS = 3;
+
 export const LABELS = {
   params: {
     h: '記憶強度',

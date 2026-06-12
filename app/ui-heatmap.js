@@ -1,10 +1,11 @@
 // app/ui-heatmap.js — Wave Heatmap リアルタイム描画（Canvas）
 
-import { LABELS, formatH } from '../core/labels.js';
+import { LABELS, formatH, CONFIDENCE_MIN_REVIEWS } from '../core/labels.js';
 
 /**
  * カラーマッピング（spec §5.2）
  *   未学習     → グレー  #E0E0E0
+ *   出会ったばかり（rc<3）→ 青 #3D6CCC（信頼度ゲート・Word Wave と共通）
  *   h < 1日   → 赤     #FF4444
  *   h < 3日   → オレンジ #FF8C00
  *   h < 7日   → 黄     #FFD700
@@ -15,6 +16,8 @@ import { LABELS, formatH } from '../core/labels.js';
 export function hColor(word) {
   if (word.excluded) return '#3A3A4A';
   if (word.stage === 'new') return '#333348';
+  // 信頼度ゲート: rc<3 の語は h 由来の暖色ではなく一律の青（揺らぎを実力差に見せない）
+  if (word.reviewCount < CONFIDENCE_MIN_REVIEWS) return '#3D6CCC';
   const h = word.h;
   if (h <= 0)  return '#333348';
   if (h < 1)   return '#FF4444';

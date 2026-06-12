@@ -1,7 +1,7 @@
 // app/ui-wordwave.js — Word Wave 全画面ビュー
 
 import { getMeaning } from './ui-cards.js';
-import { LABELS, formatH, formatPRecall } from '../core/labels.js';
+import { LABELS, formatH, formatPRecall, CONFIDENCE_MIN_REVIEWS } from '../core/labels.js';
 
 // -------------------------------------------------------
 // カラーティア（spec §2.3） — 階層別クラスを返す
@@ -10,6 +10,7 @@ import { LABELS, formatH, formatPRecall } from '../core/labels.js';
 const WW_TIER_CLASSES = [
   'ww-word--excluded',
   'ww-word--new',
+  'ww-word--young',
   'ww-word--t0',
   'ww-word--t1',
   'ww-word--t2',
@@ -18,9 +19,15 @@ const WW_TIER_CLASSES = [
   'ww-word--t5',
 ];
 
+// 信頼度卒業の閾値（CONFIDENCE_MIN_REVIEWS）は core/labels.js に一元化し
+// Wave Heatmap（ui-heatmap.js）と共有する。rc がこの値未満の導入済み語は
+// h ティア（暖色）ではなく「出会ったばかり」の青（ww-word--young）で一律表示。
+// uncertaintyWidth ではなく reviewCount を使うのは、前者の staleFactor が
+// 放置された熟知語を青に再降格させ「確認された記憶強度」の意味と矛盾するため。
 function getTierClass(word) {
   if (word.excluded) return 'ww-word--excluded';
   if (word.stage === 'new') return 'ww-word--new';
+  if (word.reviewCount < CONFIDENCE_MIN_REVIEWS) return 'ww-word--young';
   const h = word.h;
   if (h < 1)  return 'ww-word--t0';
   if (h < 3)  return 'ww-word--t1';
