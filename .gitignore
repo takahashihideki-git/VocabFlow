@@ -14,3 +14,6 @@ scripts/results/word_data_phase*.json
 
 # 検証・生成スクリプトの出力レポート（再生成可能）
 scripts/results/*.txt
+
+# debug.html からエクスポートした localStorage state ダンプ（個人データ・持ち込み用）
+*.json.gz
