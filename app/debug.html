@@ -59,6 +59,8 @@
   <button class="btn" id="btn-refresh">再読込</button>
   <button class="btn btn-sec" id="btn-copy-full">全 state をコピー</button>
   <button class="btn btn-sec" id="btn-show-full">全 state を表示</button>
+  <button class="btn btn-sec" id="btn-download-gz">📦 gzip でダウンロード</button>
+  <button class="btn btn-sec" id="btn-download-json">📄 JSON でダウンロード</button>
 </div>
 
 <h2>Wave サマリ</h2>
@@ -264,7 +266,35 @@ function refresh() {
   renderWaveDetail();
 }
 
+// localStorage の state をファイルとしてダウンロード（メール本文貼り付けの限界回避）。
+// gzip 圧縮でメール添付・Drive アップロードしやすいサイズに縮める（JSON は 80〜90% 縮む）。
+async function downloadState(compress) {
+  if (!state) { flashNotice('state がありません'); return; }
+  const json  = JSON.stringify(state);            // compact（インデントなし＝最小）
+  const day   = Math.floor(state.currentTime ?? 0);
+  const stamp = new Date().toISOString().slice(0, 10);
+  let blob, name;
+  if (compress && typeof CompressionStream !== 'undefined') {
+    const stream = new Blob([json]).stream().pipeThrough(new CompressionStream('gzip'));
+    blob = await new Response(stream).blob();
+    name = `vocabflow-state-day${day}-${stamp}.json.gz`;
+  } else {
+    if (compress) flashNotice('この環境は gzip 非対応 → 素の JSON で保存します');
+    // application/octet-stream で iOS でもインライン表示でなく確実にダウンロード
+    blob = new Blob([json], { type: 'application/octet-stream' });
+    name = `vocabflow-state-day${day}-${stamp}.json`;
+  }
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  flashNotice(`${name}（${(blob.size / 1024).toFixed(1)} KB）を保存しました`);
+}
+
 document.getElementById('btn-refresh').addEventListener('click', refresh);
+document.getElementById('btn-download-gz').addEventListener('click', () => downloadState(true));
+document.getElementById('btn-download-json').addEventListener('click', () => downloadState(false));
 document.getElementById('btn-copy-full').addEventListener('click', () => {
   copyToClipboard(JSON.stringify(state, null, 2));
 });
