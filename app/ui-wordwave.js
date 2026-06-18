@@ -19,6 +19,9 @@ const WW_TIER_CLASSES = [
   'ww-word--t5',
 ];
 
+// 波の先端＝未学習との境目から遡った非定着語を何語だけ animate するか（presentational）
+const WW_FRONTIER_SIZE = 20;
+
 // 信頼度卒業の閾値（CONFIDENCE_MIN_REVIEWS）は core/labels.js に一元化し
 // Wave Heatmap（ui-heatmap.js）と共有する。rc がこの値未満の導入済み語は
 // h ティア（水深ランプ）ではなく「出会ったばかり」の泡（ww-word--young）で一律表示。
@@ -160,6 +163,7 @@ export class WordWaveRenderer {
     }
 
     this._refreshAllWavesCleared();
+    this._applyFrontier();
     this._built = true;
   }
 
@@ -175,6 +179,27 @@ export class WordWaveRenderer {
     span.classList.remove(...WW_TIER_CLASSES);
     span.classList.add(getTierClass(word));
     span.classList.toggle('mastered', word.stage === 'mastered');
+  }
+
+  // 波の先端: 未学習との境目（最後の学習済語）から遡って、非定着
+  // （非mastered・非new・非excluded）の語を WW_FRONTIER_SIZE 個だけ ww-word--active に。
+  // その語の波だけ生きて左右に傾く。深く沈んだ mastered は静止。
+  _applyFrontier() {
+    const words = this.state.words;
+    this._spanMap.forEach(s => s.classList.remove('ww-word--active'));
+    let frontier = -1;
+    for (let i = 0; i < words.length; i++) {
+      const w = words[i];
+      if (w.stage !== 'new' && !w.excluded) frontier = i;
+    }
+    let count = 0;
+    for (let i = frontier; i >= 0 && count < WW_FRONTIER_SIZE; i--) {
+      const w = words[i];
+      if (w.stage !== 'mastered' && w.stage !== 'new' && !w.excluded) {
+        const span = this._spanMap.get(w.wordId);
+        if (span) { span.classList.add('ww-word--active'); count++; }
+      }
+    }
   }
 
   // -------------------------------------------------------
@@ -216,6 +241,9 @@ export class WordWaveRenderer {
     this.overlay.querySelectorAll('.ww-wave-label').forEach(el => {
       el.classList.toggle('active', activeSet.has(parseInt(el.dataset.wave)));
     });
+
+    // 波の先端アニメを現在の stage 分布に追従させる（定着が進むと前線が前進）
+    this._applyFrontier();
 
     // ペース予測セクション更新（潮の状態 + 全Wave クリア予測）
     const paceEl = this.overlay.querySelector('#ww-pace-section');

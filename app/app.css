@@ -1268,6 +1268,29 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 /* 定着＝凪いだ深海に沈み波が消える（クリーンな箱） */
 .ww-word.mastered::after { content: none; }
 
+/* 波の先端（未学習との境目から遡った非定着 N 語＝ww-word--active）だけ波が生きる。
+   傾きの向きそのものを反転させる＝まさに波: ::after=傾きA / ::before=その鏡像 scaleX(-1)=傾きB を
+   逆位相で opacity クロスフェード（剛体回転でなく形が左右に入れ替わる）。隣は半周期ずれで進行波。
+   transform/opacity のみ＝paint を起こさず安い。深く沈んだ mastered は静止。 */
+.ww-word--active::after  { transform: none !important; animation: ww-wave-leanA 2s ease-in-out infinite; }
+.ww-word--active::before {
+  content: '';
+  position: absolute; left: 0; right: 0; bottom: 0; height: 0.5em;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2036%2012'%20preserveAspectRatio='none'%3E%3Cpath%20d='M0%204%20C12%206%2024%209%2036%2010%20L36%2012%20L0%2012%20Z'%20fill='%23cfeffb'/%3E%3C/svg%3E") no-repeat;
+  background-size: 100% 100%;
+  transform: scaleX(-1);
+  pointer-events: none;
+  animation: ww-wave-leanB 2s ease-in-out infinite;
+}
+.ww-wave-group .ww-word--active:nth-child(even)::after,
+.ww-wave-group .ww-word--active:nth-child(even)::before { animation-delay: -1s; }
+@keyframes ww-wave-leanA { 0%,100% { opacity: 0.72; } 50% { opacity: 0; } }
+@keyframes ww-wave-leanB { 0%,100% { opacity: 0; }    50% { opacity: 0.72; } }
+@media (prefers-reduced-motion: reduce) {
+  .ww-word--active::after  { animation: none; opacity: 0.5; }
+  .ww-word--active::before { display: none; }
+}
+
 /* ===== 階層別の配色（spec §2.3） ===== */
 .ww-word--excluded {
   background-color: #3A3A4A;
