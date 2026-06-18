@@ -17,3 +17,6 @@ scripts/results/*.txt
 
 # debug.html からエクスポートした localStorage state ダンプ（個人データ・持ち込み用）
 *.json.gz
+
+# 実機状態を使ったリアルモック用（個人データ）
+app/_realstate.json
