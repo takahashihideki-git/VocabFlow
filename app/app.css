@@ -136,11 +136,12 @@ body {
   display: block;
   flex-shrink: 0;
   /* 全語が深海インディゴ(t5)一色でもバーが背景(wave.jpg+暗幕)に溶けないよう、
-     不透明トレイ + 明るい泡シアンの枠リングで常に輪郭を出す。
-     border ではなく box-shadow リングを使う（canvas の描画幅 offsetWidth を変えないため）。 */
+     不透明トレイ + filter で発光させる。drop-shadow の泡シアン光暈でバーの輪郭を出し、
+     brightness/saturate で深い t5 自体も少し光って見せる（暗さの底上げ）。 */
   background: #0a1024;
-  box-shadow: 0 0 0 1px rgba(159,216,232,0.75),
-              0 1px 5px rgba(0,0,0,0.45);
+  filter: drop-shadow(0 0 3px rgba(127,228,214,0.60))
+          drop-shadow(0 0 7px rgba(127,228,214,0.30))
+          brightness(1.12) saturate(1.15);
 }
 
 /* ===== Card area ===== */
