@@ -135,6 +135,12 @@ body {
   cursor: crosshair;
   display: block;
   flex-shrink: 0;
+  /* 全語が深海インディゴ(t5)一色でもバーが背景(wave.jpg+暗幕)に溶けないよう、
+     不透明トレイ + 明るい泡シアンの枠リングで常に輪郭を出す。
+     border ではなく box-shadow リングを使う（canvas の描画幅 offsetWidth を変えないため）。 */
+  background: #0a1024;
+  box-shadow: 0 0 0 1px rgba(159,216,232,0.75),
+              0 1px 5px rgba(0,0,0,0.45);
 }
 
 /* ===== Card area ===== */
@@ -1229,6 +1235,7 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 }
 
 .ww-word {
+  position: relative;
   display: inline-block;
   border-radius: 3px;
   padding: 1px 3px;
@@ -1245,19 +1252,20 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   transform: scale(1.1);
 }
 
-.ww-word::before {
-  content: '●';
-  margin-right: 0.1rem;
-  font-weight: bold;
-  color: #ccc;
-  line-height: 1;
+/* 未定着の語＝ボックス下端に1本のゆるい曲線（まだ水面で揺れている）。
+   奇数=左に傾く / 偶数=右に傾く（反転）→ 俯瞰で波の連なりに見える。
+   高さは em 指定でズームに追従。 */
+.ww-word::after {
+  content: '';
+  position: absolute; left: 0; right: 0; bottom: 0; height: 0.5em;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2036%2012'%20preserveAspectRatio='none'%3E%3Cpath%20d='M0%204%20C12%206%2024%209%2036%2010%20L36%2012%20L0%2012%20Z'%20fill='%23cfeffb'/%3E%3C/svg%3E") no-repeat;
+  background-size: 100% 100%;
   opacity: 0.5;
+  pointer-events: none;
 }
-
-.ww-word.mastered::before {
-  color: #f7d774;
-  opacity: 1;
-}
+.ww-wave-group .ww-word:nth-child(even)::after { transform: scaleX(-1); }
+/* 定着＝凪いだ深海に沈み波が消える（クリーンな箱） */
+.ww-word.mastered::after { content: none; }
 
 /* ===== 階層別の配色（spec §2.3） ===== */
 .ww-word--excluded {
@@ -1269,64 +1277,124 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   background-color: #2A2A3D;
   color: #555566;
 }
-/* 出会ったばかり・まだ信頼度が立っていない語（reviewCount < 3）。
-   h ティア（暖色）に参加する前の「不確実」を表す一色。ripple の揺らぎを
-   実力差として見せないための表示。グレー（未学習）→ 青（出会ったばかり）→ 暖色（測定済み）。*/
-.ww-word--young { background-color: #3D6CCC; color: #fff; }
-.ww-word--t0 { background-color: #FF4444; color: #fff; }
-.ww-word--t1 { background-color: #FF8C00; color: #fff; }
-.ww-word--t2 { background-color: #FFD700; color: #222; }
-.ww-word--t3 { background-color: #9ACD32; color: #222; }
-.ww-word--t4 { background-color: #32CD32; color: #222; }
-.ww-word--t5 { background-color: #006400; color: #fff; }
+/* 出会ったばかり（rc<3）＝水面の泡。水深ランプの最浅・最明（白アクア）。
+   深いほど暗くなるランプの一番上に連続させ、測定済みの中層青と見分く。
+   ripple の揺らぎを実力差として見せないための信頼度ゲート（spec §5.2）。 */
+.ww-word--young { background-color: #9FD8E8; color: #06343f; }
+/* 水深ランプ（bathymetric）: 定着＝深く沈んで凪いだ深海。覚えたて(t0)＝陽の差す浅瀬、
+   定着(t5)＝深海インディゴ。火/紅葉ランプ（赤→緑）から海の鉛直プロファイルへ。 */
+.ww-word--t0 { background-color: #2FD9C5; color: #063037; }
+.ww-word--t1 { background-color: #29A9C2; color: #04252b; }
+.ww-word--t2 { background-color: #2486BC; color: #eaf4ff; }
+.ww-word--t3 { background-color: #2566AC; color: #eaf4ff; }
+.ww-word--t4 { background-color: #244F9E; color: #eaf4ff; }
+.ww-word--t5 { background-color: #1B2E66; color: #dbe6ff; }
 
-/* ::before のドット色を背景に合わせて個別調整 */
-.ww-word--young::before { color: #fff; }
-.ww-word--t0::before { color: #fff; }
-.ww-word--t1::before { color: #fff; }
-.ww-word--t2::before { color: #222; }
-.ww-word--t3::before { color: #222; }
-.ww-word--t4::before { color: #222; }
-.ww-word--t5::before { color: #fff; }
-
+/* ===== Tide ＝ 水面から海底まで続く一枚の水中シーン =====
+   潮の状態（満ち/引き/凪）＝水位 + 波の荒さ/向きで表現。
+   潮ラベル＝水面より上（空）に固定 / 全Wave 予測＝海底に固定。
+   feed-generator の先読み（_computeTide）が flood/ebb/slack を決める。 */
 #ww-pace-section {
   flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-  padding: 10px 20px;
+  padding: 6px 10px;
   border-top: 1px solid var(--border);
   background: rgba(0,0,0,0.4);
   font-size: 0.78rem;
-  color: var(--text-muted);
-  min-height: 36px;
 }
-.ww-goal-line {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  flex-wrap: wrap;
-  padding: 0.5rem;
+.ww-pace-complete {
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  color: #f7d774;       /* 海底の宝＝全Wave クリア */
+  padding: 0.6rem;
 }
-.ww-pace-label  { white-space: nowrap; }
-.ww-pace-value  { color: var(--text); }
-.ww-pace-value b { color: var(--accent); }
-.ww-pace-complete { font-weight: 700; color: var(--success); }
-.ww-pace-waiting  { font-style: italic; }
 
-.ww-tide-line {
-  line-height: 1.5;
-  background-color: #333;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+.ww-tide-scene {
+  position: relative;
+  height: 104px;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  border: 1px solid rgba(120,160,220,0.18);
+  background: linear-gradient(180deg, #0b1430 0%, #0a1228 100%); /* 水面より上＝薄明の空 */
+  --lvl: 54%;
 }
-.ww-tide-line b { font-weight: 700; }
-.ww-tide--flood   { color: var(--accent); }
-.ww-tide--flood b { color: var(--accent); }
-.ww-tide--ebb     { color: var(--text); }
-.ww-tide--ebb b   { color: var(--accent); }
-.ww-tide--slack   { color: var(--text-muted); }
+.ww-tide--flood { --lvl: 80%; }   /* 満ち潮: 水位高い */
+.ww-tide--ebb   { --lvl: 52%; }   /* 引き潮: 中 */
+.ww-tide--slack { --lvl: 66%; }   /* 凪: やや高め */
+
+.ww-tide-water {
+  position: absolute; left: 0; right: 0; bottom: 0; height: var(--lvl);
+  background: linear-gradient(180deg, #1d4a86 0%, #163a6e 32%, #0e2550 66%, #050d22 100%);
+  transition: height 1s cubic-bezier(.4,0,.2,1);
+}
+.ww-tide-waves {
+  position: absolute; left: 0; width: 100%; height: 20px; z-index: 2;
+  bottom: calc(var(--lvl) - 10px);
+  transition: bottom 1s cubic-bezier(.4,0,.2,1), height .6s ease;
+}
+.ww-tide--flood .ww-tide-waves { height: 26px; }
+.ww-tide--ebb   .ww-tide-waves { height: 18px; }
+.ww-tide--slack .ww-tide-waves { height: 8px; }   /* 凪＝ほぼ平ら */
+.ww-tide-waves .parallax > use {
+  animation: ww-wave-move 20s cubic-bezier(.55,.5,.45,.5) infinite;
+}
+.ww-tide-waves .parallax > use:nth-child(1) { animation-delay: -2s; animation-duration: 7s; }
+.ww-tide-waves .parallax > use:nth-child(2) { animation-delay: -3s; animation-duration: 10s; }
+.ww-tide-waves .parallax > use:nth-child(3) { animation-delay: -4s; animation-duration: 13s; }
+.ww-tide-waves .parallax > use:nth-child(4) { animation-delay: -5s; animation-duration: 20s; }
+/* 満ち＝波が右→左に寄せてくる・速い / 凪＝ゆったり */
+.ww-tide--flood .parallax > use { animation-direction: reverse; }
+.ww-tide--flood .parallax > use:nth-child(1) { animation-duration: 5s; }
+.ww-tide--flood .parallax > use:nth-child(2) { animation-duration: 7s; }
+.ww-tide--flood .parallax > use:nth-child(3) { animation-duration: 9s; }
+.ww-tide--flood .parallax > use:nth-child(4) { animation-duration: 13s; }
+.ww-tide--slack .parallax > use:nth-child(1) { animation-duration: 16s; }
+.ww-tide--slack .parallax > use:nth-child(2) { animation-duration: 22s; }
+.ww-tide--slack .parallax > use:nth-child(3) { animation-duration: 28s; }
+.ww-tide--slack .parallax > use:nth-child(4) { animation-duration: 36s; }
+@keyframes ww-wave-move {
+  0%   { transform: translate3d(-90px,0,0); }
+  100% { transform: translate3d(85px,0,0); }
+}
+.ww-sea-floor {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 26px; z-index: 2;
+  background: radial-gradient(140% 30px at 50% 130%, #112144 0 42%, transparent 72%),
+              linear-gradient(180deg, transparent, #050d22 88%);
+}
+.ww-tide-bubble {
+  position: absolute; bottom: 8px; width: 3px; height: 3px; border-radius: 50%;
+  background: rgba(180,230,240,0.45); z-index: 3;
+  animation: ww-bubble-rise linear infinite;
+}
+.ww-tide-bubble:nth-child(1) { left: 24%; animation-duration: 6s; animation-delay: -1s; }
+.ww-tide-bubble:nth-child(2) { left: 58%; width: 2px; height: 2px; animation-duration: 8s; animation-delay: -3s; }
+.ww-tide-bubble:nth-child(3) { left: 81%; animation-duration: 7s; animation-delay: -5s; }
+.ww-tide--slack .ww-tide-bubble { animation-duration: 12s !important; }
+@keyframes ww-bubble-rise {
+  0%   { transform: translateY(0); opacity: 0; }
+  15%  { opacity: .7; }
+  100% { transform: translateY(-64px); opacity: 0; }
+}
+/* 潮ラベル＝空に固定 / 全Wave 予測＝海底に固定 */
+.ww-tide-line {
+  position: absolute; top: 9px; left: 12px; right: 12px; z-index: 4;
+  line-height: 1.45;
+  color: #eaf4ff; text-shadow: 0 1px 3px rgba(0,0,0,0.7);
+}
+.ww-tide-line b { font-weight: 800; color: #9fe4d8; }
+.ww-goal-line {
+  position: absolute; bottom: 9px; left: 12px; right: 12px; z-index: 4;
+  font-size: 0.76rem; line-height: 1.4;
+  color: #cdddf6; text-shadow: 0 1px 4px rgba(0,0,0,0.85);
+}
+.ww-goal-line b { font-weight: 800; color: #f7d774; }  /* 金＝海底の宝 */
+.ww-pace-label  { color: #9fb6e0; }
+.ww-pace-waiting { font-style: italic; color: #9fb6e0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ww-tide-waves .parallax > use { animation: none; }
+  .ww-tide-bubble { animation: none; opacity: 0; }
+}
 
 #wordwave-footer {
   flex-shrink: 0;

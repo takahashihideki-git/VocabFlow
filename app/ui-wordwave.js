@@ -21,9 +21,9 @@ const WW_TIER_CLASSES = [
 
 // 信頼度卒業の閾値（CONFIDENCE_MIN_REVIEWS）は core/labels.js に一元化し
 // Wave Heatmap（ui-heatmap.js）と共有する。rc がこの値未満の導入済み語は
-// h ティア（暖色）ではなく「出会ったばかり」の青（ww-word--young）で一律表示。
+// h ティア（水深ランプ）ではなく「出会ったばかり」の泡（ww-word--young）で一律表示。
 // uncertaintyWidth ではなく reviewCount を使うのは、前者の staleFactor が
-// 放置された熟知語を青に再降格させ「確認された記憶強度」の意味と矛盾するため。
+// 放置された熟知語を泡に再降格させ「確認された記憶強度」の意味と矛盾するため。
 function getTierClass(word) {
   if (word.excluded) return 'ww-word--excluded';
   if (word.stage === 'new') return 'ww-word--new';
@@ -184,7 +184,7 @@ export class WordWaveRenderer {
     const words    = this.state.words;
     const total    = words.length;
     const learned  = words.filter(w => w.stage !== 'new' && !w.excluded).length;
-    // 定着定義は stage === 'mastered' に統一（ヘッダ統計・Wave クリア判定・金色ドットと一致）
+    // 定着定義は stage === 'mastered' に統一（ヘッダ統計・Wave クリア判定・波の消失と一致）
     const mastered = words.filter(w => w.stage === 'mastered').length;
     const maxWave  = words.reduce(
       (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
@@ -229,14 +229,13 @@ export class WordWaveRenderer {
       if (remaining === 0) {
         paceEl.innerHTML = `<span class="ww-pace-complete">🏆 全Wave クリア</span>`;
       } else {
-        // --- 潮の状態（足元のリズム） ---
-        const tide = this._computeTide();
-        let tideHtml = '';
-        if (tide && tide.state === 'flood') {
-          tideHtml =
-            `<div class="ww-tide-line ww-tide--flood">` +
-            `<span class="wave-icon"></span> いまは満ち潮 — 新しい単語が次々と入ってくる時期です</div>`;
-        } else if (tide && tide.state === 'ebb') {
+        // --- 潮の状態（足元のリズム）→ 水位・波の荒さ/向きにマッピング ---
+        const tide  = this._computeTide();
+        const state = tide ? tide.state : 'slack';
+        let tideInner;
+        if (state === 'flood') {
+          tideInner = `<span class="wave-icon"></span> いまは満ち潮 — 新しい単語が次々と入ってくる時期です`;
+        } else if (state === 'ebb') {
           // 復習の山を学習者のセッションペースで消化したら満ち潮が戻る、と外挿
           let forecast = '';
           const cfg = this.state.config;
@@ -252,33 +251,43 @@ export class WordWaveRenderer {
               forecast = ` <b>次の満ち潮は約${d}日後（Day ${Math.round(currentDay + d)} 頃）です。</b>`;
             }
           }
-          tideHtml =
-            `<div class="ww-tide-line ww-tide--ebb">` +
-            `🐚 いまは引き潮 — 覚えた単語の定着を固める時期です。${forecast}</div>`;
-        } else if (tide) {
-          tideHtml =
-            `<div class="ww-tide-line ww-tide--slack">` +
-            `🌙 いまは凪 — 復習も新語もおだやかな時期です</div>`;
+          tideInner = `🐚 いまは引き潮 — 覚えた単語の定着を固める時期です。${forecast}`;
+        } else {
+          tideInner = `🌙 いまは凪 — 復習も新語もおだやかな時期です`;
         }
 
-        // --- 全Wave制覇予測（遠くの目的地） ---
-        let goalHtml;
+        // --- 全Wave クリア予測（遠くの目的地・海底に沈める） ---
+        let goalInner;
         if (masteredNow < 10 || currentDay < 1) {
-          goalHtml =
-            `<div class="ww-goal-line">` +
-            `<span class="ww-pace-waiting">定着語が増えると 最後の波をクリアするまでにかかる期間の予測が表示されます</span></div>`;
+          goalInner = `<span class="ww-pace-waiting">定着語が増えると 全Wave クリアまでの予測が表示されます</span>`;
         } else {
           const pace     = masteredNow / currentDay;
           const daysLeft = Math.round(remaining / pace);
           const estDay   = Math.round(currentDay + daysLeft);
-          goalHtml =
-            `<div class="ww-goal-line">` +
-            `<span class="ww-pace-label">このペースで続けると</span>` +
-            `<span class="ww-pace-value">全Wave クリアまで<b>約${daysLeft}日</b>です。（Day ${estDay} 頃）</span>` +
-            `</div>`;
+          goalInner =
+            `<span class="ww-pace-label">このペースなら</span> ` +
+            `<span class="wave-icon"></span> 全Wave クリアまで<b>約${daysLeft}日</b>（Day ${estDay} 頃）`;
         }
 
-        paceEl.innerHTML = tideHtml + goalHtml;
+        // --- 一枚の水中シーンに組み立て ---
+        const P = 'M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z';
+        paceEl.innerHTML =
+          `<div class="ww-tide-scene ww-tide--${state}">` +
+            `<div class="ww-tide-water"></div>` +
+            `<svg class="ww-tide-waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" xmlns="http://www.w3.org/2000/svg">` +
+              `<defs><path id="ww-tide-wave" d="${P}"/></defs>` +
+              `<g class="parallax">` +
+                `<use href="#ww-tide-wave" x="48" y="0" fill="rgba(180,232,240,0.55)"/>` +
+                `<use href="#ww-tide-wave" x="48" y="3" fill="rgba(110,196,214,0.45)"/>` +
+                `<use href="#ww-tide-wave" x="48" y="5" fill="rgba(58,120,180,0.45)"/>` +
+                `<use href="#ww-tide-wave" x="48" y="7" fill="#1d4a86"/>` +
+              `</g>` +
+            `</svg>` +
+            `<span class="ww-tide-bubble"></span><span class="ww-tide-bubble"></span><span class="ww-tide-bubble"></span>` +
+            `<div class="ww-sea-floor"></div>` +
+            `<div class="ww-tide-line">${tideInner}</div>` +
+            `<div class="ww-goal-line">${goalInner}</div>` +
+          `</div>`;
       }
     }
   }

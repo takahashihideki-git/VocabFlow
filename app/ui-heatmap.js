@@ -3,29 +3,31 @@
 import { LABELS, formatH, CONFIDENCE_MIN_REVIEWS } from '../core/labels.js';
 
 /**
- * カラーマッピング（spec §5.2）
- *   未学習     → グレー  #E0E0E0
- *   出会ったばかり（rc<3）→ 青 #3D6CCC（信頼度ゲート・Word Wave と共通）
- *   h < 1日   → 赤     #FF4444
- *   h < 3日   → オレンジ #FF8C00
- *   h < 7日   → 黄     #FFD700
- *   h < 14日  → 黄緑   #9ACD32
- *   h < 30日  → 緑     #32CD32
- *   h ≥ 30日  → 深緑   #006400
+ * カラーマッピング（spec §5.2）— 水深ランプ（bathymetric）
+ *   定着＝深く沈んで凪いだ深海。h が育つほど水面→深部へ沈む。
+ *   配色は Word Wave（app.css .ww-word--t0..t5）と二重持ち・要同期。
+ *   未学習            → グレー   #333348（まだ水に入っていない陸）
+ *   出会ったばかり（rc<3）→ 泡      #9FD8E8（信頼度ゲート・水面の泡＝最浅・最明）
+ *   h < 1日（抜けかけ） → 浅瀬     #2FD9C5（赤ではなく陽の差す浅瀬）
+ *   h < 3日           → 浅青     #29A9C2
+ *   h < 7日           → 中層青   #2486BC
+ *   h < 14日          → 中層     #2566AC
+ *   h < 30日          → 深い青   #244F9E
+ *   h ≥ 30日（定着）   → 深海     #1B2E66
  */
 export function hColor(word) {
   if (word.excluded) return '#3A3A4A';
   if (word.stage === 'new') return '#333348';
-  // 信頼度ゲート: rc<3 の語は h 由来の暖色ではなく一律の青（揺らぎを実力差に見せない）
-  if (word.reviewCount < CONFIDENCE_MIN_REVIEWS) return '#3D6CCC';
+  // 信頼度ゲート: rc<3 の語は h 由来の水深色ではなく一律の青（揺らぎを実力差に見せない）
+  if (word.reviewCount < CONFIDENCE_MIN_REVIEWS) return '#9FD8E8';
   const h = word.h;
   if (h <= 0)  return '#333348';
-  if (h < 1)   return '#FF4444';
-  if (h < 3)   return '#FF8C00';
-  if (h < 7)   return '#FFD700';
-  if (h < 14)  return '#9ACD32';
-  if (h < 30)  return '#32CD32';
-  return '#006400';
+  if (h < 1)   return '#2FD9C5';
+  if (h < 3)   return '#29A9C2';
+  if (h < 7)   return '#2486BC';
+  if (h < 14)  return '#2566AC';
+  if (h < 30)  return '#244F9E';
+  return '#1B2E66';
 }
 
 export class HeatmapRenderer {
