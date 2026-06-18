@@ -77,6 +77,31 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-06-18 修正ログ
+
+### Word Wave 海メタファーのビジュアル徹底（水深ランプ・Tide 水中シーン・前線アニメ）
+
+火/紅葉ランプ（赤→緑）を水深ランプ（bathymetric）に刷新し、海メタファーを一覧性チャネルに徹底。全て commit 済み（**SRS ロジックは一切不変・表示の意味論のみ**）。
+
+- **水深ランプ**: `.ww-word--t0..t5` を浅瀬ターコイズ #2FD9C5 → 深海インディゴ #1B2E66。定着＝深く沈んで凪いだ深海。`app.css` と `ui-heatmap.js`(`hColor`) の二重持ち・同期。
+- **泡ティア**: young(rc<3) を青 → 泡の白アクア **#9FD8E8**（t2/t3 中層青との混同解消・水深ランプ最浅に連続）。
+- **mastered 表現**: 金ドット廃止 → **「波の消失」**。未定着語はボックス下端に1本のゆるい曲線（`::after`・奇偶で左右反転＝俯瞰で波の連なり）、mastered になると消えてクリーンな箱に。
+- **Tide（`#ww-pace-section`）**: 水面〜海底の一枚の水中シーン（kachibito/Goodkatz の SVG パララックス波 `#gentle-wave`）。満ち/引き/凪＝水位＋波の荒さ/向き（満ち潮は `animation-direction:reverse` で右→左）、全Wave 予測を海底に金で沈める。
+- **ヒートマップ俯瞰バー**: 全 t5 一色で背景(wave.jpg+暗幕)に溶ける問題 → 不透明トレイ #0a1024 + `filter`(drop-shadow 泡シアン光暈 + brightness/saturate)で発光。
+- **前線アニメ**: 未学習との境目から遡った非定着語 **N=20**（`WW_FRONTIER_SIZE`・`_applyFrontier()`）だけ波の傾きを `::after`/`::before` の鏡像 opacity クロスフェードで**左右反転**（剛体回転でなく傾きの向きが反転＝進行波）。mastered は静止。`prefers-reduced-motion` 対応。
+- `spec.md` §5.2・`ui-labels-spec.md` §6 も水深ランプ／泡ティア／波表現に更新済み。
+- クリア波ラベルの金（`.ww-wave-label.cleared`）は**意図的に据え置き**（単語が全ブルー系になったため、暖色＝「単語でなくラベル」の識別子として機能。青系にすると単語と紛れる）。
+- 検証ツール（いずれも未追跡・本番転送はされるが無害）: `app/design-preview-wordwave.html`（配色・Tide・波の比較プレビュー）、`app/realmock.html`（持ち込んだ実機 state を本番 CSS で 1900語フル描画＋ FPS 計測＝リアルなモック）。
+- ドッグフーディング持ち込み経路を確立: `app/debug.html` に **gzip/JSON ファイルダウンロード**を追加（メール本文貼り付けは state 約3.7MB で破綻するため）。持ち込んだ Day71 状態＝学習済の94%(617語)が t5・h中央値133日＝「ほぼ全 t5」で、ヒートマップ発光修正の必要性が実証された。
+
+### ⚠️ 未解決課題: deploy.sh が app/ を丸ごと転送（個人データ・開発ページが本番に乗る）
+
+`scripts/deploy.sh` は `--include="app/**"` で app/ 配下を全転送するため、以下が本番サーバー（playground/wordwave/app/）に上がってしまう:
+- **`app/_realstate.json`** — 持ち込んだ個人学習状態（gitignore 済みだが deploy は git と別経路の rsync なので転送される）
+- **`app/realmock.html` / `app/design-preview-wordwave.html`** — 開発用ページ
+
+対応案（未実施）: `deploy.sh` の rsync に `--exclude="app/_realstate.json"`・`--exclude="app/realmock.html"`・`--exclude="app/design-preview-wordwave.html"` を追加 → 再デプロイで `--delete` によりサーバー上の該当ファイルも除去される。あわせて realmock.html / design-preview-wordwave.html を git 追跡する（開発ツールとして残す）か削除するかも未決。
+
 ## 2026-06-12 修正ログ
 
 ### Word Wave に信頼度ゲート（青「出会ったばかり」ティア）を追加 — ripple の揺らぎを実力差として見せない
@@ -1039,6 +1064,7 @@ needed    = max(1, ceil(sessionSize / 2) − newCount)
 - 直近コミット: リセットボタン整理・スタート画面に確認ダイアログ追加（bf88997）
 - 本番デプロイ先: `USER@HOST:/path/to/wordwave`
   - デプロイコマンド: `bash scripts/deploy.sh`（`app/` + `core/` のみ転送）
+  - ⚠️ `app/` を丸ごと転送するため、開発ファイル（`realmock.html`・`design-preview-wordwave.html`）と**個人データ `_realstate.json` が本番に乗る**。deploy.sh に exclude 追加が必要（詳細は「2026-06-18 修正ログ」末尾）。
 
 ---
 
