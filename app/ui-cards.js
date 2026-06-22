@@ -318,9 +318,16 @@ export class CardRenderer {
   // -------------------------------------------------------
   _renderDictation(card, wordStr, pos, categoryId) {
     const el = this._baseCard('dictation', card, categoryId);
+    // 例文のプレーン全文（単語を含む音声）。短い単音節語が孤立再生だと
+    // soul/sole 等に聞き取り化けするため、文脈つきで聞ける「例文」リンクを用意。
+    // テキストは表示しないのでスペルは漏れない。
+    const examplePlain = getExample(wordStr, pos).full.replace(/<[^>]+>/g, '');
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos">音声を聞いてスペルを入力してください</div>
-      <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
+      <div class="tts-row">
+        <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
+        <a class="tts-example-link" id="tts-example-btn" role="button" tabindex="0">例文</a>
+      </div>
       <div class="dictation-input-area">
         <input class="word-input" id="word-input" type="text" autocomplete="off"
                autocorrect="off" autocapitalize="off" spellcheck="false"
@@ -338,6 +345,10 @@ export class CardRenderer {
     el.querySelector('#tts-btn').addEventListener('click', (e) => {
       e.stopPropagation();
       speak(wordStr);
+    });
+    el.querySelector('#tts-example-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      speak(examplePlain);
     });
 
     const input  = el.querySelector('#word-input');
@@ -432,11 +443,16 @@ export class CardRenderer {
   // -------------------------------------------------------
   _renderHandwrite(card, wordStr, pos, categoryId) {
     const el = this._baseCard('handwrite', card, categoryId);
+    // dictation と同様、文脈つきで聞ける「例文」リンク（綴りは漏れない）
+    const examplePlain = getExample(wordStr, pos).full.replace(/<[^>]+>/g, '');
     el.insertAdjacentHTML('beforeend', `
       <div class="word-pos" style="text-align:left;line-height:1.6">
         音声を聞いて単語を紙に手書きで10回書き、それを写真に撮って送ってください。
       </div>
-      <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
+      <div class="tts-row">
+        <button class="tts-btn" id="tts-btn">${SPEAKER_ICON} 音声を再生</button>
+        <a class="tts-example-link" id="tts-example-btn" role="button" tabindex="0">例文</a>
+      </div>
       <div class="handwrite-photo-area">
         <label class="handwrite-photo-btn" id="camera-btn" title="カメラで撮影">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
@@ -467,6 +483,10 @@ export class CardRenderer {
     el.querySelector('#tts-btn').addEventListener('click', (e) => {
       e.stopPropagation();
       speak(wordStr);
+    });
+    el.querySelector('#tts-example-btn').addEventListener('click', (e) => {
+      e.stopPropagation();
+      speak(examplePlain);
     });
 
     const previewArea = el.querySelector('#hw-preview-area');

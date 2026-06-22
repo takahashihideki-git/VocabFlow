@@ -515,6 +515,27 @@ body.swiped-once .swipe-hint { display: none !important; }
 
 .tts-btn svg { flex-shrink: 0; }
 
+/* dictation: 「音声を再生」ボタンと「例文」リンクを横並びに */
+.tts-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  align-self: flex-start;
+}
+
+/* 例文リンク: ボタンではなくアンカーテキスト（タップで例文再生） */
+.tts-example-link {
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+  opacity: 0.85;
+  white-space: nowrap;
+}
+.tts-example-link:hover { opacity: 1; }
+
 /* Choices grid */
 .choices {
   display: grid;
