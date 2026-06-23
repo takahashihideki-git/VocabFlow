@@ -1,7 +1,8 @@
 // app/ui-wordwave.js — Word Wave 全画面ビュー
 
 import { getMeaning } from './ui-cards.js';
-import { LABELS, formatH, formatPRecall, CONFIDENCE_MIN_REVIEWS } from '../core/labels.js';
+import { ProfileRenderer } from './ui-profile.js';
+import { LABELS, formatH, formatPRecall, CONFIDENCE_MIN_REVIEWS, PROFILE_FAB_MIN_LEARNED } from '../core/labels.js';
 
 // -------------------------------------------------------
 // カラーティア（spec §2.3） — 階層別クラスを返す
@@ -57,6 +58,10 @@ export class WordWaveRenderer {
     this._bulkMode  = false;
     this._selected  = new Set(); // wordId（一括除外選択中）
 
+    // 学習プロファイル（FAB から開く別 overlay）。state を共有し可視化のみ行う。
+    const profileEl = document.getElementById('profile-overlay');
+    this.profile = profileEl ? new ProfileRenderer(profileEl, learnerState) : null;
+
     this._bindEvents();
   }
 
@@ -71,7 +76,18 @@ export class WordWaveRenderer {
       this._refreshAll();
     }
     this._updateStats();
+    this._updateProfileFab();
     this.overlay.style.display = 'flex';
+  }
+
+  // 学習がある程度進んだら（learnedCount が PROFILE_FAB_MIN_LEARNED 以上）プロファイル FAB を出す。
+  // プロファイルの中身は learned 全体から算出するため gate も learned で測る（mastered ではない）。
+  // それ未満では誤答の渦チャートが疎で読み取れないため隠す。
+  _updateProfileFab() {
+    const fab = this.overlay.querySelector('#ww-profile-fab');
+    if (!fab) return;
+    const learned = this.state.words.filter(w => w.stage !== 'new' && !w.excluded).length;
+    fab.style.display = learned >= PROFILE_FAB_MIN_LEARNED ? 'flex' : 'none';
   }
 
   close() {
@@ -500,6 +516,13 @@ export class WordWaveRenderer {
     // 閉じるボタン
     const closeBtn = this.overlay.querySelector('#wordwave-close');
     if (closeBtn) closeBtn.addEventListener('click', () => this.close());
+
+    // 学習プロファイル FAB
+    const profileFab = this.overlay.querySelector('#ww-profile-fab');
+    if (profileFab && this.profile) profileFab.addEventListener('click', (e) => {
+      e.stopPropagation();
+      this.profile.open();
+    });
 
     // 一括除外ボタン（モード中はもう一度押すとキャンセル）
     const bulkBtn = this.overlay.querySelector('#ww-bulk-btn');

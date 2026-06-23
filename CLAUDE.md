@@ -77,6 +77,78 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-06-23 作業ログ
+
+### Marine Chart 学習プロファイル + 綴りの暗礁 特訓を本番実装（2026-06-22 B のモックを製品化）
+
+2026-06-22 B でモックのみだった学習プロファイル機能を本番に落とした。**SRS ロジックは一切不変**（既存 state の可視化＋ SRS に触れない練習モードのみ）。仕様は `ui-labels-spec.md` §8 に追記済み。
+
+**新規ファイル:**
+- **`app/ui-profile.js`（`ProfileRenderer`）**: Word Wave の FAB から開く全画面プロファイル。`profile-mock.html` のロジックを `this.state.words` ベースに移植。誤答の渦（品詞/カテゴリ・自作 SVG バブルチャート）・乗り越えた難所・綴りの暗礁の4セクション。本番は `new WordState(wd.id, wd, …)` で `word.word` に WORD_DATA オブジェクトをそのまま格納しているため、モックの `w.word.pos`/`categoryId`/`meanings` がそのまま動く。誤答率は回答回数ベースで凡例に `N語 | 誤答率X%（誤答数/総回答数）` と分母明示。
+- **`app/ui-drill.js`（`ReefDrill`）**: 「綴りの暗礁」CTA から開く**練習モード**。通常と同じ dictation カード（`CardRenderer` 再利用）を上下スワイプでめくるが、**`onReady` を UI 専用にして `processResponse` を呼ばない**ため h・stage・正誤カウント・lastReviewed すべて不変（near_miss スナップショット復元も「変更なし値の復元」で実質 no-op）。判定 `judgeDictation` は純粋関数。本体同様 touch 判定で PC は 9:16 + 「次へ」ナビボタン（前進のみ＝戻り不要）。「記録に影響しない」をバナー + 終了サマリで明示。
+
+**既存ファイルの変更:**
+- `app/app.html`: Word Wave overlay 内に FAB（`#ww-profile-fab`・**位置A=Tide の上 bottom:172px**・gating で表示制御）、`#profile-overlay`、`#drill-overlay`（バナー + カードエリア + PC ナビ）を追加
+- `app/ui-wordwave.js`: `WordWaveRenderer` が `ProfileRenderer` を所有。FAB クリックで `profile.open()`。`_updateProfileFab()` で **gating: `learnedCount >= PROFILE_FAB_MIN_LEARNED(50)`**（中身が learned 全体由来なので gate も learned で測る。当初 mastered≥30 の仮値だったが指標不整合のため learned≥50 に変更＝19カテゴリ中いくつかが minN=5 に届く実用下限）
+- `app/ui-cards.js`: `getExample` を export（ドリルの例文リンク用）
+- `app/app.css`: FAB・プロファイル画面・特訓ドリル（`.card` 共通スタイル流用 + PC ナビ）のスタイル
+- `core/labels.js`: `PROFILE_LABELS`（セクション文言・CTA）+ `PROFILE_FAB_MIN_LEARNED = 50`
+
+**CTA「弱点語だけ特訓セッション」の決着**: feed-generator には**接続しない**。dictation 型カードで**SRS に影響しない練習**として実装し、その旨を学習者に明示する方針に確定（review.md 由来の SRS 一元化原則と矛盾しない＝そもそも SRS を回さない別経路）。
+
+**検証**: 全 import 解決・`judgeDictation` 純粋動作・実データ Day71（`_realstate.json`）で `ProfileRenderer._build()` を DOM モックで実行し品詞5+カテゴリ8=13バブル・暗礁16行・難所12チップを確認（モックと一致）。touch 判定で PC に no-touch 適用も確認。
+
+**ドッグフーディング持ち込み補助**: `app/_import.html`（新規・untracked）を追加。`_realstate.json` を localStorage（`vocabflow_state_v1`）へ流し込み実機で機能確認するための開発ページ（`savedAt` を現在時刻にして起動時の時間ジャンプを防ぐ）。**deploy.sh の exclude 対象に `_import.html` も追加が必要**（下記「2026-06-18 修正ログ」末尾の未解決課題リストに追加）。
+
+---
+
+## 2026-06-22 作業ログ
+
+### A. dictation/handwrite カードに「例文」リンク追加（commit `9dc8263`・デプロイ済み）
+
+合成 TTS（Web Speech API・en-US・rate0.9）で**孤立した短い単音節語が聞き取り化けする**問題に対応（ドッグフーディングで `solve /sɒlv/` が soul/sole に聞こえる報告）。原因は1語だけ読むと語末 /lv/ が弱まり母音も曖昧化＋端末の音声品質依存。
+
+- `音声を再生` ボタンの**右隣に「例文」アンカーテキスト**（`.tts-row` 横並び・`.tts-example-link`）。タップで例文全文（単語を含む）を `speak()` 再生 → 文脈で soul/sole と区別でき、テキストは出さないので綴りは漏れない。難易度は据え置き（デフォルトは単語1語）。
+- 当初フル幅の副ボタン「🔊 例文で聞く」だったが、行を食うのでアンカーテキスト「例文」に変更（モックで形を確定してから実装する流れを徹底）。
+- 対象: `app/ui-cards.js` `_renderDictation`/`_renderHandwrite`、`app/app.css`（`.tts-row`/`.tts-example-link`）、`app/style-mockup.html`。履歴ビューも同経路だが再生のみで無害。
+
+### B. 🚧 学習プロファイル機能の設計探索（モックのみ・**未コミット・本番未実装**）
+
+ドッグフーディングで「`_realstate.json`（持ち込み Day71 state）を分析して学習者の傾向・弱点を読み取る」が面白かった流れから、**Word Wave 画面の右下に FAB →「Marine Chart 学習プロファイル」画面**を出す構想。**データは既存 localStorage state から全て算出可能（新トラッキング不要）＝既存可視化と同じ哲学**。学習がある程度進んだら FAB 出現（gating・閾値未定）。
+
+**進め方の合意**: プロファイル画面はカードでないので、①`realmock.html` で FAB 位置を探り ②プロファイル画面は単独モックを新規に起こす、の2本立て。
+
+- **FAB 位置探索 = `app/realmock.html`（既存・未追跡）に追加**:
+  - 最下部に **Tide フッタ（`#ww-pace-section` 水中シーン 104px）のプレースホルダ**を再現（位置を正直に探るため）。
+  - **海図アイコン FAB**（折りたたみマップ・破線航路は外しシンプル化）。`right:32px`（スクロールバー最大20px を見込む）。`#mock-body` の `padding-bottom:88px`（FAB が body 可視域に食い込む分、最下部の語が隠れない）。
+  - mock-bar の「FAB位置」セレクトで **A: Tideの上／B: 右下隅(Tide重なる)／C: 右上／D: Tideバー右端ドック** を切替比較。**位置は未確定**。
+- **プロファイル画面単独モック = `app/profile-mock.html`（新規・未追跡）**。`realmock` と同じく `_realstate.json` を fetch して**実データ Day71 で描画**:
+  - タイトル「**Marine Chart 学習プロファイル**」。総覧タイル・右上 Day は不要として削除。
+  - **セクション順**: 品詞の流れ → カテゴリの流れ → 乗り越えた難所 → 綴りの暗礁（h2 の絵文字は無し）。
+  - 品詞・カテゴリは **バブルチャート（SVG・自作）**: x=語数・y=誤答率・**径∝√誤答数**（右上ほど要注意）。率と量を2軸+径で分離（「副詞=高率だが少量／動詞=多語で総量多いが低率」が見分けられる）。
+    - 配色: **ビビッドパレット10色・`fill-opacity 0.2`・枠線なし**。色は `<circle>` の `fill` 属性で個別指定（CSS で `fill` を書くと属性より優先され上書きされるので `.bc-bubble` に fill を**書かない**）。
+    - バブル内に**品詞名/カテゴリ名を直書き**（`.bc-blabel` 7px/weight400・重なり許容）。**番号照合は廃止**。
+    - y軸: 最上目盛りを step(2%) の倍数に切り上げて**上端に固定**（`yR=ceil(maxRate/step)*step`・最上バブルが切れない最小余白ガード）。目盛りは**整数 i*step で等間隔**（FP バグ回避）。viewBox を**上下対称 padding**（`0 -3 360 213`・↑誤答率 y=7 / 語数→ y=200 を各 PAD=10px）。
+  - 各チャート下に**凡例リスト**（`.ax-row`）: 軸名 + 指標（誤答率% · N語 · ✗回数）+「**誤答が多い単語 上位10語**」チップ（`.ax-chip` に各語 ✗回数）。**チップ=誤答した語数・✗=誤答回数で別物**（副詞は ✗3 でもチップ2語＝2語が3回間違えた）なので見出しで「単語」と明示。
+  - **カテゴリ: バブルは上位8（語数5以上で率の信頼性確保）／単語リストは全19カテゴリ（誤答あり全て）** に分離（`catPtsChart` と `catPtsList`）。
+  - CTA「この暗礁だけで特訓する（N語）」はモック（弱点語だけの特訓セッション構想・未実装）。
+  - **設計の核**: 現在 state（綴りの暗礁＝dictation/recall 止まり）と過去（累計✗＝乗り越えた難所＝今 mastered）を**意図的に分離**し誤読を防ぐ。
+
+  **次セッションの続き**: ①FAB 位置を A〜D から確定 → ②本番へ落とす（`app/ui-wordwave.js` に全画面ビュー + FAB、`app/app.css` にスタイル、`core/labels.js` に文言・gating 閾値）③CTA の「弱点語だけ特訓セッション」を feed-generator と接続するか検討。SRS ロジックは不変（既存 state の可視化のみ）。
+
+### C. 学習者プロファイリング分析の知見（`_realstate.json` Day71・実データ）
+
+上級ドッグフーダー: 正答率 **95.5%**、定着 643/学習済 659（94%）、h 中央値 **133日**、Wave6 クリア・Wave7 進行中。弱点:
+- **① 綴れない語が主ボトルネック**: mastered 未達の学習済 16語がほぼ全部 dictation 段止まり（意味選択は通過＝弱点はスペリング）。`solve`(rc26 ✗8) が突出、`supply`/`dramatic`/`vital`/`exception` 等。
+- **② 形容詞・副詞がやや弱い**（誤答率 副詞9.1%>形容詞5.0%>名詞4.6%>動詞4.2%。副詞は少量）。
+- **③ 分野**: 評価形容詞8.8%・生活文化6.9%・科学医学6.4% が高、技術系1.4%・専門形容詞2.5% は得意。
+
+### D. ⚠️ 未解決（継続）: deploy.sh の本番転送
+
+「2026-06-18 修正ログ」末尾の課題に **`app/profile-mock.html`** も追加（同じく未追跡だが rsync で本番に乗る）。exclude 対応時は `_realstate.json`・`realmock.html`・`design-preview-wordwave.html`・`profile-mock.html` をまとめて除外する。
+
+---
+
 ## 2026-06-18 修正ログ
 
 ### Word Wave 海メタファーのビジュアル徹底（水深ランプ・Tide 水中シーン・前線アニメ）
@@ -1140,7 +1212,9 @@ VocabFlow/
     ├── app.js            # セッション管理・スワイプ・時間早送り・localStorage
     ├── ui-cards.js       # 6種カードUI・TTS・Handwrite写真送信＋AI OCRモック。履歴ビュー完全再現。日本語訳トグル
     ├── ui-heatmap.js     # Wave Heatmap Canvas描画
-    ├── ui-wordwave.js    # Word Wave 全画面ビュー（pRecall・最終復習日・除外・一括除外）
+    ├── ui-wordwave.js    # Word Wave 全画面ビュー（pRecall・最終復習日・除外・一括除外）+ プロファイルFAB所有
+    ├── ui-profile.js     # Marine Chart 学習プロファイル全画面（誤答の渦・乗り越えた難所・綴りの暗礁）。可視化のみ・SRS不変
+    ├── ui-drill.js       # 綴りの暗礁 特訓（ReefDrill）。dictation カード練習モード・SRSステータス更新なし
     ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
     ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI・日本語訳トグル
     ├── style-mockup.html # スタイル確認用モックアップ（6種カード・画面遷移・ヘッダ/フッタを静的表示）

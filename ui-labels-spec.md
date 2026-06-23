@@ -155,3 +155,37 @@ export function formatPRecall(p) {
   return `${(p * 100).toFixed(0)}%`;
 }
 ```
+
+---
+
+## 8. Marine Chart 学習プロファイル・綴りの暗礁 特訓（2026-06-23）
+
+Word Wave 画面右下の FAB（海図アイコン）から開く全画面ビュー。**既存 localStorage state からすべて算出**（新トラッキングなし）し、**SRS ロジックには一切触れない**（Word Wave・Tide と同じ可視化のみの哲学）。文言は `core/labels.js` の `PROFILE_LABELS` に一元化。
+
+### プロファイル画面（`app/ui-profile.js`・`ProfileRenderer`）
+
+現在の弱点（state）と過去の苦戦（累計）を**意図的に分離**して誤読を防ぐ4セクション構成:
+
+| セクション | 文言 | 内容 |
+|---|---|---|
+| 誤答の渦：品詞 | `posSection` | 品詞別バブルチャート（x=語数・y=誤答率・径∝√誤答数）+ 弱点語チップ |
+| 誤答の渦：カテゴリ | `catSection` | カテゴリ別（バブルは語数5以上の上位8・単語リストは誤答ありの全カテゴリ） |
+| 乗り越えた難所 | `overcameSection` | 累計✗が多いが**今は mastered** の語（克服済み） |
+| 綴りの暗礁 | `reefSection` | **現在 dictation/recall 段で止まっている**語（意味は取れるが綴りで座礁） |
+
+- **誤答率は回答回数ベース**（誤答数 / 総回答数）。語数とは別単位なので凡例は `N語 | 誤答率X%（誤答数/総回答数）` と分母を明示する（語数で割った率と誤読させない）。
+- バブルはビビッドパレット10色・`fill-opacity 0.2`・枠線なし。色は `<circle>` の `fill` 属性で指定（CSS の `fill` は属性を上書きするため `.bc-bubble` には書かない）。
+
+### FAB の gating
+
+| 定数 | 値 | 根拠 |
+|---|---|---|
+| `PROFILE_FAB_MIN_LEARNED` | 50 | 学習済み（`stage !== 'new' && !excluded`）が 50 以上で FAB を表示。プロファイルの中身は learned 全体から算出するため gate も **learned で測る**（mastered ではない＝指標と中身を一致させる）。50 は 19 カテゴリ中いくつかが minN=5 に届きカテゴリの渦が成立し始める実用下限 |
+
+### 綴りの暗礁 特訓（`app/ui-drill.js`・`ReefDrill`）
+
+プロファイルの「綴りの暗礁」CTA「`この暗礁だけで特訓する（N語）`」から開く**練習モード**。
+
+- 通常セッションと同じ dictation カード（`CardRenderer` を再利用）を上下スワイプでめくる。PC（no-touch）では 9:16 レイアウト + 「次へ」ナビボタン。
+- **SRS ステータス（h・stage・正誤カウント・lastReviewed）は一切更新しない**。SRS 副作用は `CardRenderer` 自体ではなく回答時の `onReady`（通常は `_onCardAnswered → processResponse`）で起きるため、ドリルは `onReady` を UI 専用（PC ボタン点灯のみ）にして `processResponse` を呼ばない。判定の `judgeDictation` は純粋関数。
+- 「記録に影響しない」ことを**常時バナー**（🪸 練習モード — 記憶強度・定着の記録には影響しません）と**終了サマリ**の2箇所で明示する。

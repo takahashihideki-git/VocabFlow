@@ -7,6 +7,25 @@
 // 観測を重ねるまでノイズを色として見せない。詳細・設計理由は spec.md §5.2。
 export const CONFIDENCE_MIN_REVIEWS = 3;
 
+// Marine Chart 学習プロファイルの FAB を Word Wave 画面に出す閾値（学習済み語数）。
+// プロファイルの主要コンテンツ（誤答の渦：品詞/カテゴリ・綴りの暗礁）は learned（stage!=='new'）
+// 全体から算出するため、gate も learnedCount で測る（mastered ではない＝中身と指標を一致させる）。
+// 50 は実用下限: 19カテゴリ中いくつかが minN=5 に届きカテゴリの渦が成立し始める語数。
+// これ未満では誤答の渦チャートが疎で読み取れないため隠す。
+export const PROFILE_FAB_MIN_LEARNED = 50;
+
+// 学習プロファイル画面の文言（誤答の渦＝品詞/カテゴリ・乗り越えた難所・綴りの暗礁）
+export const PROFILE_LABELS = {
+  title: 'Marine Chart 学習プロファイル',
+  posSection: '誤答の渦：品詞',
+  catSection: '誤答の渦：カテゴリ',
+  overcameSection: '乗り越えた難所',
+  reefSection: '綴りの暗礁',
+  topErrorWords: '誤答が多い単語 上位10語',
+  topErrorWordsAll: '誤答が多い単語 上位10語（全カテゴリ）',
+  reefCta: (n) => `この暗礁だけで特訓する（${n}語）`,
+};
+
 export const LABELS = {
   params: {
     h: '記憶強度',

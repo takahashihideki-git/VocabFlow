@@ -36,7 +36,7 @@ function getChoiceText(wordStr, pos) {
 //   full  — 完成文（blankAnswer を <b> でハイライト）
 //   blank — 穴埋め文（___ を <b>___</b> に変換）
 // -------------------------------------------------------
-function getExample(wordStr, pos) {
+export function getExample(wordStr, pos) {
   const wd = WORD_MAP.get(wordStr);
   if (wd?.examples?.[0]) {
     const ex = wd.examples[0];
