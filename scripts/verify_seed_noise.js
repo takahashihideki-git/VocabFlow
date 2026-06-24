@@ -36,6 +36,7 @@ const DAYS = Number(process.argv[3] ?? 120);
 const N = Number(process.argv[4] ?? 30);
 const EXP = Number(process.argv[5] ?? 2.5);   // 勾配指数（base/rc^exp）
 const BASE = 0.5;
+const MEMORY_CORE = process.env.MEMORY_CORE || 'hlr';   // 'hlr'（既定）| 'ebisu'
 const SPD = LEARNER === 'burst' ? 5 : 3;
 const sessionTime = (day, s) => LEARNER === 'burst' ? day + s * SIX : day + s / SPD;
 
@@ -46,7 +47,7 @@ const se = a => sdv(a) / Math.sqrt(a.length);
 function runOnce(seed) {
   // core の seedNoise を直接トグルして実コードパスを検証（旧版は harness で手注入していた）
   const cfg = createConfig({ deltaTGain: true, dueSampling: false, sessionsPerDay: SPD,
-    seedNoise: seed, seedNoiseBase: BASE, seedNoiseExp: EXP });
+    seedNoise: seed, seedNoiseBase: BASE, seedNoiseExp: EXP, memoryCore: MEMORY_CORE });
   const words = WORD_DATA.map(d => new WordState(d.id, d.word, Math.ceil(d.id / cfg.waveSize)));
   const state = new LearnerState(words, cfg);
   const engine = new SRSEngine(cfg);
@@ -101,7 +102,7 @@ function dlt(on, off, key, dec) {
   return `Δ=${d >= 0 ? '+' : ''}${d.toFixed(dec)}(${(d / s).toFixed(1)}σ ${Math.abs(d) > 2 * s ? '有意' : 'ns'})`;
 }
 
-console.log(`学習者=${LEARNER}（${SPD}/日）× ${DAYS}日・N=${N}・播種 base/rc^${EXP}（deltaTGain=true・dueSampling=false）`);
+console.log(`記憶コア=${MEMORY_CORE}・学習者=${LEARNER}（${SPD}/日）× ${DAYS}日・N=${N}・播種 base/rc^${EXP}（deltaTGain=true・dueSampling=false）`);
 const off = Array.from({ length: N }, () => runOnce(false));
 const on  = Array.from({ length: N }, () => runOnce(true));
 const row = (l, rs) => console.log(`${l}: mastered=${avg(rs.map(r => r.mastered)).toFixed(1)} 真に覚=${avg(rs.map(r => r.knownTotal)).toFixed(1)} 試験全=${avg(rs.map(r => r.examAll)).toFixed(4)} 試験mastered=${avg(rs.map(r => r.examMastered)).toFixed(4)} バイアス=${avg(rs.map(r => r.bias)).toFixed(4)}`);

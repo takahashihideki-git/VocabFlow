@@ -1,5 +1,8 @@
 // core/srs-engine.js — コアSRSロジック
 
+import { defaultModel as ebisuDefaultModel, updateRecall as ebisuUpdateRecall,
+         modelToHalflife as ebisuModelToHalflife, EBISU_DT_FLOOR } from './ebisu.js';
+
 export class SRSEngine {
   constructor(config) {
     this.config = config;
@@ -26,6 +29,9 @@ export class SRSEngine {
     // Intro は h₀ を設定するだけ（ステージ遷移のみ）
     if (cardType === 'intro') {
       word.h = this.config.h0;
+      if (this.config.memoryCore === 'ebisu') {
+        word.ebisu = ebisuDefaultModel(this.config.ebisuAlpha0, this.config.ebisuBeta0, this.config.h0);
+      }
       word.lastReviewed = currentTime;
       word.reviewCount++;
       word.stage = 'recognition';
@@ -36,7 +42,11 @@ export class SRSEngine {
 
     // h 更新（currentTime は deltaT 連動ゲインの計算に使う。
     //          word.lastReviewed はこの後で更新するので、ここでは前回復習時刻のまま）
-    this._updateHalfLife(word, cardType, isCorrect, result, currentTime);
+    if (this.config.memoryCore === 'ebisu') {
+      this._updateEbisu(word, isCorrect, currentTime);
+    } else {
+      this._updateHalfLife(word, cardType, isCorrect, result, currentTime);
+    }
 
     // 統計更新
     word.lastReviewed = currentTime;
@@ -86,8 +96,34 @@ export class SRSEngine {
     const cfg = this.config;
     if (!cfg.seedNoise || word.h <= 0) return;
     const width = cfg.seedNoiseBase / Math.pow(word.reviewCount, cfg.seedNoiseExp);
-    word.h *= 1 + (Math.random() * 2 - 1) * width;
-    word.h = Math.min(Math.max(word.h, cfg.hMin), cfg.hMax);
+    const noise = 1 + (Math.random() * 2 - 1) * width;
+    if (cfg.memoryCore === 'ebisu' && word.ebisu) {
+      // Ebisu はモデルが状態の源。h を直接いじっても次回更新で再導出され消えるため、
+      // 時間尺度パラメータ t をスケールして halflife を恒久シフトさせる（halflife ∝ t）。
+      word.ebisu = [word.ebisu[0], word.ebisu[1], word.ebisu[2] * noise];
+      word.h = Math.min(Math.max(ebisuModelToHalflife(word.ebisu), cfg.hMin), cfg.hMax);
+    } else {
+      word.h *= noise;
+      word.h = Math.min(Math.max(word.h, cfg.hMin), cfg.hMax);
+    }
+  }
+
+  // -------------------------------------------------------
+  // Ebisu 記憶コアの更新（memoryCore='ebisu'）。
+  // deltaT（前回復習からの経過時間）を観測時刻として渡し、ベイズ事後更新する。
+  // Ebisu は deltaT を更新の根幹入力に持つため、deltaTGain（間隔効果の校正）は構造的に内包
+  // される＝別途のゲイン補正は不要。derive した halflife を word.h に同期し、ステージ判定・
+  // feed-generator の due 判定（いずれも word.h / pRecall 経由）をそのまま機能させる。
+  // -------------------------------------------------------
+  _updateEbisu(word, isCorrect, currentTime) {
+    const cfg = this.config;
+    if (!word.ebisu) {
+      word.ebisu = ebisuDefaultModel(cfg.ebisuAlpha0, cfg.ebisuBeta0, word.h > 0 ? word.h : cfg.h0);
+    }
+    const deltaT = Math.max(EBISU_DT_FLOOR, currentTime - word.lastReviewed);
+    word.ebisu = ebisuUpdateRecall(word.ebisu, isCorrect ? 1 : 0, 1, deltaT);
+    word.h = Math.min(Math.max(ebisuModelToHalflife(word.ebisu), cfg.hMin), cfg.hMax);
+    if (word.h > word.peakH) word.peakH = word.h;
   }
 
   // -------------------------------------------------------

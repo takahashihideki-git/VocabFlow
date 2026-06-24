@@ -66,6 +66,15 @@ export const DEFAULT_CONFIG = {
   retryGap: 4,          // 不正解時の再挿入位置（現在位置+N枚後）
   maxRetryPerCard: 2,   // 同一カードの最大再挿入回数/セッション
 
+  // 記憶コアの選択（sim 検証用プロトタイプ）。
+  // 'hlr'   = 既存の h 点推定 + α/β 乗算更新（+ deltaTGain / seedNoise）。既定・本番挙動。
+  // 'ebisu' = 本物の Bayesian 記憶モデル（core/ebisu.js）。h は Ebisu の halflife を同期し、
+  //           pRecall は Ebisu の predictRecall を使う。deltaTGain は Ebisu が内包するため不使用。
+  //           seedNoise はモデルの時間尺度 t をスケールして halflife を恒久シフトさせる。
+  memoryCore: 'hlr',
+  ebisuAlpha0: 2.0,     // Ebisu 初期 Beta(α0, β0)。大きいほど初期半減期 t0=h0 への信頼が高い
+  ebisuBeta0: 2.0,
+
   // Total words
   totalWords: 1900,
 };

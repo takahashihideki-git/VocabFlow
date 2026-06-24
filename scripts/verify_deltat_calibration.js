@@ -24,9 +24,10 @@ import { WORD_DATA } from '../core/word-data.js';
 import { VirtualLearner } from '../sim/virtual-learner.js';
 
 const SIX_MIN = 6 / 1440;
+const MEMORY_CORE = process.env.MEMORY_CORE || 'hlr';   // 'hlr'（既定）| 'ebisu'
 
 function runOnce(deltaTGain, duration, spd, burst) {
-  const cfg = createConfig({ deltaTGain, sessionsPerDay: spd });
+  const cfg = createConfig({ deltaTGain, sessionsPerDay: spd, memoryCore: MEMORY_CORE });
   const words = WORD_DATA.map(d => new WordState(d.id, d.word, Math.ceil(d.id / cfg.waveSize)));
   const state = new LearnerState(words, cfg);
   const engine = new SRSEngine(cfg);
@@ -88,6 +89,7 @@ function summarize(label, runs) {
 
 const REPEATS = 3;
 const DUR = Number(process.argv[2] ?? 120);
+console.log(`記憶コア=${MEMORY_CORE}（MEMORY_CORE 環境変数で切替）`);
 console.log(`間隔効果ありの真の記憶モデル（virtual-learner）で OFF/ON を校正比較（${DUR}日・${REPEATS}回平均）`);
 console.log('真 p = learner.truePRecall（成功時 (1−R) 正規化で成長＝massed では伸びない）。MAE = |予測p − 真p|。\n');
 
