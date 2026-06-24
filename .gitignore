@@ -20,3 +20,13 @@ scripts/results/*.txt
 
 # 実機状態を使ったリアルモック用（個人データ）
 app/_realstate.json
+
+# デプロイ先（ホスト・ユーザー・パス）を含む実デプロイスクリプト。
+# 公開しない接続先情報を含むため追跡しない（雛形は scripts/deploy_template.sh）
+scripts/deploy.sh
+
+# 開発・検証用モックページ／持ち込みページ（本番デプロイ対象外・個人データ経路）
+app/_import.html
+app/realmock.html
+app/design-preview-wordwave.html
+app/profile-mock.html

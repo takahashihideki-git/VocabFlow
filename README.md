@@ -5,12 +5,6 @@ TikTok 式の縦スワイプ UI で英単語を学ぶ、半減期ベースの SR
 - **アプリ表示名**: Word Wave（ユーザー向けの名称）
 - **開発コードネーム**: VocabFlow（ファイル名・クラス名・localStorage キー等で使用）
 
-## デモ
-
-公開プロトタイプ（ブラウザで開くだけ・インストール不要）:
-
-<https://YOUR_HOST/static/playground/wordwave/app/app.html>
-
 ## 概要
 
 1900 語の英単語を 100 語ずつ 19 の「Wave」に分け、学習者のペースに合わせて少しずつ供給する。各単語は半減期 `h`（記憶が半分になるまでの日数）で記憶状態をモデル化し、最適なタイミングで復習カードを出題する。
@@ -107,9 +101,11 @@ python3 scripts/build_word_data_js.py scripts/results/word_data_final.json
 python3 scripts/validate_word_data.py scripts/results/word_data_final.json
 ```
 
-本番環境へのデプロイ（`app/` と `core/` のみ rsync 転送）:
+本番環境へのデプロイ（`app/` と `core/` のみ rsync 転送）。`scripts/deploy_template.sh` をコピーして接続先（ホスト・ユーザー・パス）を記入し、`scripts/deploy.sh` として実行する（実 `deploy.sh` は `.gitignore` 済み）:
 
 ```bash
+cp scripts/deploy_template.sh scripts/deploy.sh
+# scripts/deploy.sh を編集して REMOTE_USER / REMOTE_HOST / REMOTE_PATH を記入
 bash scripts/deploy.sh
 ```
 

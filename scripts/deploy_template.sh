@@ -1,12 +1,22 @@
 #!/usr/bin/env bash
-# deploy.sh — Word Wave を本番サーバーへデプロイ
-# 使い方: bash scripts/deploy.sh [--dry-run]
+# deploy_template.sh — Word Wave を本番サーバーへデプロイするテンプレート
+#
+# 使い方:
+#   1. このファイルを scripts/deploy.sh にコピー
+#        cp scripts/deploy_template.sh scripts/deploy.sh
+#   2. 下の REMOTE_USER / REMOTE_HOST / REMOTE_PATH を自分の接続先に書き換える
+#   3. bash scripts/deploy.sh [--dry-run]
+#
+# 実 scripts/deploy.sh は .gitignore 済み（接続先情報をリポジトリに含めないため）。
 
 set -euo pipefail
 
+# ↓↓↓ 自分の環境に合わせて書き換える ↓↓↓
 REMOTE_USER="YOUR_USER"
 REMOTE_HOST="YOUR_HOST"
 REMOTE_PATH="/path/to/wordwave"
+# ↑↑↑ ここまで ↑↑↑
+
 LOCAL_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 
 DRY_RUN=""
@@ -41,4 +51,4 @@ rsync -avz --delete \
   "${REMOTE_USER}@${REMOTE_HOST}:${REMOTE_PATH}/"
 
 echo ">>> デプロイ完了"
-echo "    URL: https://${REMOTE_HOST}/static/playground/wordwave/app/app.html"
+echo "    URL: https://${REMOTE_HOST}/path/to/wordwave/app/app.html"

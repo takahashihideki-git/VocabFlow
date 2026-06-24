@@ -1134,9 +1134,9 @@ needed    = max(1, ceil(sessionSize / 2) − newCount)
 
 - ローカル git リポジトリ（`main` ブランチ）
 - 直近コミット: リセットボタン整理・スタート画面に確認ダイアログ追加（bf88997）
-- 本番デプロイ先: `USER@HOST:/path/to/wordwave`
+- 本番デプロイ先: 接続先（ホスト・ユーザー・パス）はローカルの `scripts/deploy.sh`（gitignore 済み・公開リポジトリには含めない）に記入。雛形は `scripts/deploy_template.sh`
   - デプロイコマンド: `bash scripts/deploy.sh`（`app/` + `core/` のみ転送）
-  - ⚠️ `app/` を丸ごと転送するため、開発ファイル（`realmock.html`・`design-preview-wordwave.html`）と**個人データ `_realstate.json` が本番に乗る**。deploy.sh に exclude 追加が必要（詳細は「2026-06-18 修正ログ」末尾）。
+  - 開発ファイル（`realmock.html`・`design-preview-wordwave.html`・`profile-mock.html`・`_import.html`）と**個人データ `_realstate.json` は deploy.sh の `--exclude` で本番転送から除外済み**。
 
 ---
 
