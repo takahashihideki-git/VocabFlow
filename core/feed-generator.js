@@ -56,9 +56,25 @@ export class FeedGenerator {
     // 新語枠の予約（reserveNewSlots）: 復習負荷が新語を締め出さないよう先に確保する。
     // 実アプリ（Anki/Duolingo 等）は「1日N新語」を復習と独立に確保する＝この方式。
     // 既定 false では reservedNew=0 となり、従来の「復習優先・新語は余りスロット」挙動と一致。
-    const reservedNew = cfg.reserveNewSlots
-      ? Math.min(pools.new.length, Math.min(remaining, cfg.maxNewPerSession))
-      : 0;
+    const supplyCap = Math.min(pools.new.length, Math.min(remaining, cfg.maxNewPerSession));
+    let reservedNew = 0;
+    if (cfg.adaptiveNew) {
+      let frac;
+      if (cfg.adaptiveNewSignal === 'success') {
+        // 観測成功率が高いほど満額・低いほど 0（線形）。コア推定に依存しない頑健な負荷信号。
+        const r = this.engine?.successRate ?? cfg.targetRetention;
+        const span = cfg.adaptiveNewSuccHigh - cfg.adaptiveNewSuccLow;
+        frac = span > 0 ? Math.max(0, Math.min(1, (r - cfg.adaptiveNewSuccLow) / span)) : (r >= cfg.adaptiveNewSuccHigh ? 1 : 0);
+      } else {
+        // urgent(p<0.5) 滞留が少ないほど満額・多いほど 0（線形・コア依存）。
+        const u = pools.urgent.length;
+        const span = cfg.adaptiveNewHard - cfg.adaptiveNewSoft;
+        frac = span > 0 ? Math.max(0, Math.min(1, (cfg.adaptiveNewHard - u) / span)) : (u <= cfg.adaptiveNewSoft ? 1 : 0);
+      }
+      reservedNew = Math.round(supplyCap * frac);
+    } else if (cfg.reserveNewSlots) {
+      reservedNew = supplyCap;
+    }
     const reviewBudget = remaining - reservedNew;
 
     // 1. Urgent（最優先: 忘れかけている語）— 復習予算の範囲で

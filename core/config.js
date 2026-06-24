@@ -65,6 +65,19 @@ export const DEFAULT_CONFIG = {
   // 新語枠を復習から独立に予約するか（false=従来の復習優先・新語は余りスロット）。
   // true にすると保守的なコア（復習多め）でも新語供給が枯渇しない＝実アプリの「1日N新語」方式。
   reserveNewSlots: false,
+
+  // 適応導入（spec の過負荷保護と oracle のスループットを両立）。
+  // 深刻に遅れた語（urgent・p<0.5）の滞留量に応じて新語予約枠を線形に絞る:
+  //   urgent ≤ soft → 満額（maxNewPerSession）/ urgent ≥ hard → 0 / 間は線形。
+  // 余裕があれば新語を入れ（べき則の枯渇を回避）、溺れ始めたら絞る（指数則の過剰導入崩壊を回避）。
+  // true のとき reserveNewSlots より優先。false で従来挙動。
+  adaptiveNew: false,
+  adaptiveNewSignal: 'urgent', // 'urgent'（urgent 滞留で絞る・コア依存）| 'success'（観測成功率で絞る・頑健）
+  adaptiveNewSoft: 5,    // urgent 信号: この urgent 数までは満額予約
+  adaptiveNewHard: 20,   // urgent 信号: この urgent 数で新語ゼロ
+  successEWMAAlpha: 0.05,      // 成功率 EWMA の更新係数（≈直近20件の窓）
+  adaptiveNewSuccLow: 0.6,     // success 信号: この成功率で新語ゼロ
+  adaptiveNewSuccHigh: 0.85,   // success 信号: この成功率で満額予約
   sessionsPerDay: 3,
   retryGap: 4,          // 不正解時の再挿入位置（現在位置+N枚後）
   maxRetryPerCard: 2,   // 同一カードの最大再挿入回数/セッション

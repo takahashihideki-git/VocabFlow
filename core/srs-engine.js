@@ -7,6 +7,10 @@ import { updateStability as dsrUpdateStability, halflife as dsrHalflife } from '
 export class SRSEngine {
   constructor(config) {
     this.config = config;
+    // 直近の採点復習の成功率（EWMA）。適応導入（adaptiveNewSignal='success'）が参照。
+    // コアの推定でなく「学習者が実際に正解したか」の観測なので、コアの過大/過小評価で
+    // 水増しされない＝新語導入の負荷信号として urgent 数より頑健。初期値は target 付近。
+    this.successRate = config.targetRetention ?? 0.85;
   }
 
   // -------------------------------------------------------
@@ -62,6 +66,10 @@ export class SRSEngine {
     } else {
       word.incorrectCount++;
     }
+
+    // 成功率 EWMA を更新（採点復習 recognition/recall/dictation/handwrite で。intro/passive は早期 return 済み）
+    const a = this.config.successEWMAAlpha ?? 0.05;
+    this.successRate += a * ((isCorrect ? 1 : 0) - this.successRate);
 
     // Handwrite 介入カードは stage を変えない。フラグのみ操作して終了
     if (cardType === 'handwrite') {

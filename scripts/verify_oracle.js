@@ -37,8 +37,14 @@ const GUESS = Number(process.env.GUESS ?? 0);  // 観測ノイズ: 不正解を 
 const avg = a => a.reduce((x, y) => x + y, 0) / a.length;
 
 function simulate({ core, truth, oracle, days, spd, burst }) {
+  // 新語導入ポリシー: NEW_POLICY=greedy(既定) | reserve | adaptive
+  const policy = process.env.NEW_POLICY || (process.env.RESERVE_NEW === '1' ? 'reserve' : 'greedy');
   const cfg = createConfig({ memoryCore: core, sessionsPerDay: spd,
-    reserveNewSlots: process.env.RESERVE_NEW === '1' });   // deltaTGain/seedNoise は既定 true（実シップ構成）
+    reserveNewSlots: policy === 'reserve',
+    adaptiveNew: policy === 'adaptive',
+    adaptiveNewSignal: process.env.ADAPT_SIGNAL || 'urgent',
+    adaptiveNewSoft: Number(process.env.ADAPT_SOFT ?? 5),
+    adaptiveNewHard: Number(process.env.ADAPT_HARD ?? 20) });   // deltaTGain/seedNoise は既定 true（実シップ構成）
   const words = WORD_DATA.map(d => new WordState(d.id, d.word, Math.ceil(d.id / cfg.waveSize)));
   const state = new LearnerState(words, cfg);
   const engine = new SRSEngine(cfg);
@@ -95,7 +101,7 @@ function runAvg(opts) {
   return { genuine: m('genuine'), learned: m('learned'), mastered: m('mastered'), reviews: m('reviews') };
 }
 
-console.log(`対オラクル％（アウトカム＝期末の真の保持語数）｜ ${DAYS}日・N=${N}平均｜観測ノイズ slip=${SLIP} guess=${GUESS}`);
+console.log(`対オラクル％（アウトカム＝期末の真の保持語数）｜ ${DAYS}日・N=${N}平均｜新語ポリシー=${process.env.NEW_POLICY || (process.env.RESERVE_NEW === '1' ? 'reserve' : 'greedy')}｜ノイズ slip=${SLIP} guess=${GUESS}`);
 console.log('オラクル = 同一全系で recall 推定だけ真のカーブ。ours/oracle = 推定誤差のコスト。\n');
 
 const TRUTHS = [
