@@ -53,15 +53,21 @@ export class FeedGenerator {
     selectedSkipped.forEach(w => { w.skipped = false; }); // 出題時にフラグをクリア
     remaining -= selectedSkipped.length;
 
-    // 1. Urgent（最優先: 忘れかけている語）
-    const selectedUrgent = this._pickSorted(pools.urgent, remaining, 'pRecall_asc', currentTime);
-    remaining -= selectedUrgent.length;
+    // 新語枠の予約（reserveNewSlots）: 復習負荷が新語を締め出さないよう先に確保する。
+    // 実アプリ（Anki/Duolingo 等）は「1日N新語」を復習と独立に確保する＝この方式。
+    // 既定 false では reservedNew=0 となり、従来の「復習優先・新語は余りスロット」挙動と一致。
+    const reservedNew = cfg.reserveNewSlots
+      ? Math.min(pools.new.length, Math.min(remaining, cfg.maxNewPerSession))
+      : 0;
+    const reviewBudget = remaining - reservedNew;
 
+    // 1. Urgent（最優先: 忘れかけている語）— 復習予算の範囲で
+    const selectedUrgent = this._pickSorted(pools.urgent, reviewBudget, 'pRecall_asc', currentTime);
     // 2. Due（最適復習時刻を過ぎた語）
-    const selectedDue = this._pickSorted(pools.due, remaining, 'pRecall_asc', currentTime);
-    remaining -= selectedDue.length;
+    const selectedDue = this._pickSorted(pools.due, reviewBudget - selectedUrgent.length, 'pRecall_asc', currentTime);
+    remaining -= selectedUrgent.length + selectedDue.length;
 
-    // 3. New（新語。上限あり）
+    // 3. New（新語。予約枠 + 復習が余らせた分。上限 maxNewPerSession）
     const newCount = Math.min(pools.new.length, Math.min(remaining, cfg.maxNewPerSession));
     const selectedNew = pools.new.slice(0, newCount);
     remaining -= newCount;

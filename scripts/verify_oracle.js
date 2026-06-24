@@ -37,7 +37,8 @@ const GUESS = Number(process.env.GUESS ?? 0);  // 観測ノイズ: 不正解を 
 const avg = a => a.reduce((x, y) => x + y, 0) / a.length;
 
 function simulate({ core, truth, oracle, days, spd, burst }) {
-  const cfg = createConfig({ memoryCore: core, sessionsPerDay: spd });   // deltaTGain/seedNoise は既定 true（実シップ構成）
+  const cfg = createConfig({ memoryCore: core, sessionsPerDay: spd,
+    reserveNewSlots: process.env.RESERVE_NEW === '1' });   // deltaTGain/seedNoise は既定 true（実シップ構成）
   const words = WORD_DATA.map(d => new WordState(d.id, d.word, Math.ceil(d.id / cfg.waveSize)));
   const state = new LearnerState(words, cfg);
   const engine = new SRSEngine(cfg);

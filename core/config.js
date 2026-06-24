@@ -62,6 +62,9 @@ export const DEFAULT_CONFIG = {
   // Session
   sessionSize: 20,
   maxNewPerSession: 5,
+  // 新語枠を復習から独立に予約するか（false=従来の復習優先・新語は余りスロット）。
+  // true にすると保守的なコア（復習多め）でも新語供給が枯渇しない＝実アプリの「1日N新語」方式。
+  reserveNewSlots: false,
   sessionsPerDay: 3,
   retryGap: 4,          // 不正解時の再挿入位置（現在位置+N枚後）
   maxRetryPerCard: 2,   // 同一カードの最大再挿入回数/セッション
