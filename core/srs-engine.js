@@ -2,6 +2,7 @@
 
 import { defaultModel as ebisuDefaultModel, updateRecall as ebisuUpdateRecall,
          modelToHalflife as ebisuModelToHalflife, EBISU_DT_FLOOR } from './ebisu.js';
+import { updateStability as dsrUpdateStability, halflife as dsrHalflife } from './dsr.js';
 
 export class SRSEngine {
   constructor(config) {
@@ -31,6 +32,9 @@ export class SRSEngine {
       word.h = this.config.h0;
       if (this.config.memoryCore === 'ebisu') {
         word.ebisu = ebisuDefaultModel(this.config.ebisuAlpha0, this.config.ebisuBeta0, this.config.h0);
+      } else if (this.config.memoryCore === 'dsr') {
+        word.dsrS = this.config.h0;
+        word.h = dsrHalflife(word.dsrS);
       }
       word.lastReviewed = currentTime;
       word.reviewCount++;
@@ -44,6 +48,8 @@ export class SRSEngine {
     //          word.lastReviewed はこの後で更新するので、ここでは前回復習時刻のまま）
     if (this.config.memoryCore === 'ebisu') {
       this._updateEbisu(word, isCorrect, currentTime);
+    } else if (this.config.memoryCore === 'dsr') {
+      this._updateDsr(word, cardType, isCorrect, result, currentTime);
     } else {
       this._updateHalfLife(word, cardType, isCorrect, result, currentTime);
     }
@@ -102,6 +108,10 @@ export class SRSEngine {
       // 時間尺度パラメータ t をスケールして halflife を恒久シフトさせる（halflife ∝ t）。
       word.ebisu = [word.ebisu[0], word.ebisu[1], word.ebisu[2] * noise];
       word.h = Math.min(Math.max(ebisuModelToHalflife(word.ebisu), cfg.hMin), cfg.hMax);
+    } else if (cfg.memoryCore === 'dsr' && word.dsrS != null) {
+      // DSR も S が状態の源。安定度 S をスケールして halflife を恒久シフト（halflife ∝ S）。
+      word.dsrS *= noise;
+      word.h = Math.min(Math.max(dsrHalflife(word.dsrS), cfg.hMin), cfg.hMax);
     } else {
       word.h *= noise;
       word.h = Math.min(Math.max(word.h, cfg.hMin), cfg.hMax);
@@ -123,6 +133,21 @@ export class SRSEngine {
     const deltaT = Math.max(EBISU_DT_FLOOR, currentTime - word.lastReviewed);
     word.ebisu = ebisuUpdateRecall(word.ebisu, isCorrect ? 1 : 0, 1, deltaT);
     word.h = Math.min(Math.max(ebisuModelToHalflife(word.ebisu), cfg.hMin), cfg.hMax);
+    if (word.h > word.peakH) word.peakH = word.h;
+  }
+
+  // -------------------------------------------------------
+  // DSR 記憶コアの更新（memoryCore='dsr'・べき則忘却 + 安定度成長）。
+  // FSRS 同様、復習時点の自分の推定保持率 R を使って安定度 S を伸ばす。deltaT は
+  // predictRecall(S, deltaT) 経由で間接的に効く（間隔を空けるほど R 低 → 大きく伸びる）。
+  // -------------------------------------------------------
+  _updateDsr(word, cardType, isCorrect, result, currentTime) {
+    const cfg = this.config;
+    if (word.dsrS == null) word.dsrS = word.h > 0 ? word.h : cfg.h0;
+    const deltaT = Math.max(0, currentTime - word.lastReviewed);
+    const weight = isCorrect ? this._cardWeight(cardType, result) : 1;
+    word.dsrS = dsrUpdateStability(word.dsrS, isCorrect, deltaT, cfg, weight);
+    word.h = Math.min(Math.max(dsrHalflife(word.dsrS), cfg.hMin), cfg.hMax);
     if (word.h > word.peakH) word.peakH = word.h;
   }
 

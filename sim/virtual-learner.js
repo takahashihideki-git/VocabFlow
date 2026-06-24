@@ -105,6 +105,17 @@ export class VirtualLearner {
     return Math.pow(2, -dt / s);
   }
 
+  // 真のカーブの半減期（真の保持率が 0.5 になる経過時間）。オラクルの due 判定に使う。
+  // 'alpha'（指数則）では強度 = 半減期そのもの。'dsr'（べき則）では S から解析的に導く。
+  trueHalflife(wordState) {
+    const s = this._ensureTrueH(wordState);
+    if (this.trueModel === 'dsr') {
+      // R=0.5 → (1+factor·t/S)^decay = 0.5 → t = S·(0.5^(1/decay) − 1)/factor
+      return s * (Math.pow(0.5, 1 / this.dsrDecay) - 1) / this.dsrFactor;
+    }
+    return s;
+  }
+
   // 真の記憶を更新（間隔効果。終端 result の正誤で成長/減衰）
   _updateTrueMemory(wordState, cardType, result, isCorrect, currentTime) {
     const c = this.srs;

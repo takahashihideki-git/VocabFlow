@@ -1,6 +1,7 @@
 // core/models.js — データモデル
 
 import { predictRecall as ebisuPredictRecall } from './ebisu.js';
+import { predictRecall as dsrPredictRecall } from './dsr.js';
 
 export class WordState {
   constructor(wordId, word, waveNumber) {
@@ -20,15 +21,19 @@ export class WordState {
     this.excluded = false;      // 学習対象から除外されているか
     this.passiveCursor = 0;     // 次に表示する Passive セクションのインデックス（ローテーション用）
     this.ebisu = null;          // memoryCore='ebisu' 時の Bayesian モデル [α, β, t]（null=HLR）
+    this.dsrS = null;           // memoryCore='dsr' 時の安定度 S（null=HLR/ebisu）
   }
 
   pRecall(currentTime) {
     if (this.stage === 'new') return 0;
-    // memoryCore='ebisu': Ebisu の predictRecall（期待保持率）を使う。
-    // ebisu モデルを持つ語のみ自動でこの経路（HLR 既定では this.ebisu=null）。
+    // memoryCore='ebisu'/'dsr': そのコアの predictRecall を使う（フィールド有無で自動分岐）。
     if (this.ebisu) {
       const deltaT = Math.max(0, currentTime - this.lastReviewed);
       return ebisuPredictRecall(this.ebisu, deltaT);
+    }
+    if (this.dsrS != null) {
+      const deltaT = Math.max(0, currentTime - this.lastReviewed);
+      return dsrPredictRecall(this.dsrS, deltaT);
     }
     if (this.h <= 0) return 0;
     const deltaT = Math.max(0, currentTime - this.lastReviewed);

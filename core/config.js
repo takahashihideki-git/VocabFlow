@@ -71,9 +71,15 @@ export const DEFAULT_CONFIG = {
   // 'ebisu' = 本物の Bayesian 記憶モデル（core/ebisu.js）。h は Ebisu の halflife を同期し、
   //           pRecall は Ebisu の predictRecall を使う。deltaTGain は Ebisu が内包するため不使用。
   //           seedNoise はモデルの時間尺度 t をスケールして halflife を恒久シフトさせる。
+  // 'dsr' = べき則忘却 + 安定度成長（FSRS 系・core/dsr.js）。実 forgetting がべき則寄りという
+  //         経験的事実に形だけ乗る第三の族。成長定数は手選び（真カーブに未 fit）。
   memoryCore: 'hlr',
   ebisuAlpha0: 2.0,     // Ebisu 初期 Beta(α0, β0)。大きいほど初期半減期 t0=h0 への信頼が高い
   ebisuBeta0: 2.0,
+  dsrCoreGain: 2.5,     // DSR コア: 成功時の安定度成長ゲイン
+  dsrCoreSat: 0.2,      // 安定度飽和指数（S^(−sat)）
+  dsrCoreSpacing: 1.0,  // 間隔感度（e^(spacing·(1−R))）
+  dsrCoreLapse: 0.3,    // 失敗時の安定度減衰
 
   // Total words
   totalWords: 1900,

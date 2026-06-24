@@ -7,6 +7,22 @@ export class FeedGenerator {
     this.config = config;
     this.engine = srsEngine;
     this.waveManager = waveManager;
+    // オラクル検証用フック（sim 限定）。null のとき本番挙動（word.pRecall / word.h）と完全一致。
+    // recallFn(word, t) → 保持率の推定（オラクルは真のカーブを返す）。
+    // dueHFn(word, t)   → due 判定に使う半減期（オラクルは真の半減期を返す）。
+    this.recallFn = null;
+    this.dueHFn = null;
+  }
+
+  // 保持率の推定（オラクル注入時は真のカーブ・既定は word.pRecall）
+  _recall(word, t) {
+    return this.recallFn ? this.recallFn(word, t) : word.pRecall(t);
+  }
+
+  // due 判定の半減期（オラクル注入時は真の半減期・既定は dueSampling 連動の点推定）
+  _dueH(word, t) {
+    if (this.dueHFn) return this.dueHFn(word, t);
+    return this.config.dueSampling ? word.effectiveH(t, this.config) : word.h;
   }
 
   // -------------------------------------------------------
@@ -108,7 +124,7 @@ export class FeedGenerator {
 
       if (w.stage === 'new') continue;
 
-      const p = w.pRecall(currentTime);
+      const p = this._recall(w, currentTime);
 
       if (w.stage === 'mastered') {
         if (p >= cfg.targetRetention) filler.push(w);
@@ -120,7 +136,7 @@ export class FeedGenerator {
       // 最適復習時刻を過ぎているか。
       // dueSampling 有効時は点推定 h ではなく不確実性の幅から引いた effectiveH で判定し、
       // 同日導入語の位相同期（同時 due → 同時復習 → 同時 due）を散らす（提案書 §3）。
-      const hForDue = cfg.dueSampling ? w.effectiveH(currentTime, cfg) : w.h;
+      const hForDue = this._dueH(w, currentTime);
       const optimalNextReview = w.lastReviewed + (hForDue > 0 ? hForDue * retentionFactor : 0);
       const isDue = currentTime >= optimalNextReview;
 
@@ -135,8 +151,8 @@ export class FeedGenerator {
     }
 
     // urgent/due を p 昇順でソート（最も忘れかけているものを優先）
-    urgent.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
-    due.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
+    urgent.sort((a, b) => this._recall(a, currentTime) - this._recall(b, currentTime));
+    due.sort((a, b) => this._recall(a, currentTime) - this._recall(b, currentTime));
 
     return { skipped, urgent, due, new: newWords, filler };
   }
@@ -188,8 +204,8 @@ export class FeedGenerator {
     const passive      = cards.filter(c => c.cardType === 'passive');
 
     // urgent なカード（p < targetRetention）を前半に
-    const urgentRecall    = recall.filter(c => c.word.pRecall(currentTime) < 0.5);
-    const nonUrgentRecall = recall.filter(c => c.word.pRecall(currentTime) >= 0.5);
+    const urgentRecall    = recall.filter(c => this._recall(c.word, currentTime) < 0.5);
+    const nonUrgentRecall = recall.filter(c => this._recall(c.word, currentTime) >= 0.5);
 
     // 配置ルール（Spec §4.3）:
     // 1. 同じカード種別は最大2枚まで連続可（最重要）
@@ -307,7 +323,7 @@ export class FeedGenerator {
     if (arr.length === 0 || n <= 0) return [];
     const sorted = [...arr];
     if (sortKey === 'pRecall_asc') {
-      sorted.sort((a, b) => a.pRecall(currentTime) - b.pRecall(currentTime));
+      sorted.sort((a, b) => this._recall(a, currentTime) - this._recall(b, currentTime));
     }
     return sorted.slice(0, Math.min(n, sorted.length));
   }
