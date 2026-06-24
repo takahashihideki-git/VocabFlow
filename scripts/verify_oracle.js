@@ -31,6 +31,8 @@ import { VirtualLearner } from '../sim/virtual-learner.js';
 const SIX = 6 / 1440;
 const DAYS = Number(process.argv[2] ?? 90);
 const N = Number(process.argv[3] ?? 3);
+const SLIP = Number(process.env.SLIP ?? 0);    // 観測ノイズ: 正解を 'wrong' と見る確率（うっかり）
+const GUESS = Number(process.env.GUESS ?? 0);  // 観測ノイズ: 不正解を 'perfect' と見る確率（まぐれ）
 
 const avg = a => a.reduce((x, y) => x + y, 0) / a.length;
 
@@ -41,7 +43,8 @@ function simulate({ core, truth, oracle, days, spd, burst }) {
   const engine = new SRSEngine(cfg);
   const wm = new WaveManager(cfg, state);
   const fg = new FeedGenerator(cfg, engine, wm);
-  const learner = new VirtualLearner({ learnerAbility: 1.0, hVariation: 0.3, srsConfig: cfg, trueModel: truth });
+  const learner = new VirtualLearner({ learnerAbility: 1.0, hVariation: 0.3, srsConfig: cfg,
+    trueModel: truth, slipRate: SLIP, guessRate: GUESS });
 
   // オラクル: 我々と同一の全系で、recall 推定だけを真のカーブに差し替える
   if (oracle) {
@@ -91,12 +94,13 @@ function runAvg(opts) {
   return { genuine: m('genuine'), learned: m('learned'), mastered: m('mastered'), reviews: m('reviews') };
 }
 
-console.log(`対オラクル％（アウトカム＝期末の真の保持語数）｜ ${DAYS}日・N=${N}平均`);
+console.log(`対オラクル％（アウトカム＝期末の真の保持語数）｜ ${DAYS}日・N=${N}平均｜観測ノイズ slip=${SLIP} guess=${GUESS}`);
 console.log('オラクル = 同一全系で recall 推定だけ真のカーブ。ours/oracle = 推定誤差のコスト。\n');
 
 const TRUTHS = [
   ['指数則(alpha・HLR同族)', 'alpha'],
   ['べき則(dsr・FSRS系/中立)', 'dsr'],
+  ['Ebisu生成過程(ebisu同族)', 'ebisu'],
 ];
 const PROFILES = [
   ['標準 3回/日', 3, false],

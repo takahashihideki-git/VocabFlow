@@ -19,6 +19,8 @@
 // ゲインで、OFF なら素の alpha 倍率で h を推定する。ON の方が真の記憶をよく追える（#1 の価値）。
 
 import { DEFAULT_CONFIG } from '../core/config.js';
+import { defaultModel as ebisuDefault, predictRecall as ebisuPredict,
+         updateRecall as ebisuUpdate, modelToHalflife as ebisuHalflife } from '../core/ebisu.js';
 
 export class VirtualLearner {
   constructor(config = {}) {
@@ -29,6 +31,13 @@ export class VirtualLearner {
     // sim ではこの再入力を fix 確率で終端化する。
     this.nearMissFixRate = config.nearMissFixRate ?? 0.85;
     this.phoneticFixRate = config.phoneticFixRate ?? 0.6;
+
+    // 観測ノイズ（既定 0＝既存挙動ゼロ変更）。真の記憶は本物の retrieval で更新し、
+    // システムが「見る」結果だけをノイズで汚す＝Ebisu の確信度頑健性が効く局面を作る。
+    //   slipRate : 本当は思い出せた（真の記憶あり）のに観測が 'wrong'（打ち間違い・気の散り）
+    //   guessRate: 本当は思い出せない（真の記憶なし）のに観測が 'perfect'（まぐれ当たり）
+    this.slipRate = config.slipRate ?? 0;
+    this.guessRate = config.guessRate ?? 0;
 
     // 語ごとの「真の忘れにくさ」個体差。真の記憶の成長率に掛け、システムが観測できない
     // 推定誤差を生む。これがないとトンプソンサンプリング（提案 Phase 1）や deltaT 連動 h
@@ -44,7 +53,11 @@ export class VirtualLearner {
     //   HLR の校正検証には適切だが、別の更新則（Ebisu）の優劣を測るには HLR 有利に交絡する。
     // 'dsr'（中立・FSRS 風）: べき則忘却 + 安定度飽和つき間隔カーネル。HLR の指数でも Ebisu の
     //   GB1 でもない第三の真実なので、どちらの更新則にも home advantage を与えない。
+    // 'ebisu'（Ebisu のホームグラウンド）: 真の記憶が Ebisu の生成過程（Beta 分布した保持率の
+    //   指数減衰＋ベイズ共役更新）に従う。ここでは Ebisu コアの推定が真実と一致＝過小評価バイアス
+    //   が消え、under-spacing トラップも起きないので Ebisu が勝てる唯一の環境。
     this.trueModel = config.trueModel ?? 'alpha';
+    this._trueEbisu = new Map();   // 'ebisu' 真実用の per-word モデル [α, β, t]
     this.dsrDecay = -0.5;                                  // べき則の減衰指数（FSRS-4.5）
     this.dsrFactor = Math.pow(0.9, 1 / this.dsrDecay) - 1; // R(S)=0.9 となる係数 ≈ 0.23457
     this.dsrGain = config.dsrGain ?? 6.0;                  // 成功時の安定度成長ゲイン
@@ -92,12 +105,26 @@ export class VirtualLearner {
     return th;
   }
 
+  // 'ebisu' 真実用の per-word モデル（未初期化なら α0=β0=2・t0=h0×ability×個体差 で遅延初期化）
+  _ensureTrueEbisu(wordState) {
+    let m = this._trueEbisu.get(wordState.wordId);
+    if (m === undefined) {
+      const t0 = this.srs.h0 * this.ability * this._hFactor(wordState.wordId);
+      m = ebisuDefault(2.0, 2.0, t0);
+      this._trueEbisu.set(wordState.wordId, m);
+    }
+    return m;
+  }
+
   // 学習者の真の保持率（difficultyMod を含まない素の記憶）。検証スクリプトの校正測定にも使う。
   // _trueH に入る値は trueModel により意味が異なる（'alpha'=半減期 / 'dsr'=安定度 S）。
   truePRecall(wordState, currentTime) {
-    const s = this._ensureTrueH(wordState);
     const lastT = this._trueLastT.get(wordState.wordId) ?? currentTime;
     const dt = Math.max(0, currentTime - lastT);
+    if (this.trueModel === 'ebisu') {
+      return ebisuPredict(this._ensureTrueEbisu(wordState), dt);
+    }
+    const s = this._ensureTrueH(wordState);
     if (this.trueModel === 'dsr') {
       // べき則: R(t) = (1 + factor·t/S)^decay（R(S)=0.9・指数より重い裾）
       return Math.pow(1 + this.dsrFactor * dt / s, this.dsrDecay);
@@ -108,6 +135,9 @@ export class VirtualLearner {
   // 真のカーブの半減期（真の保持率が 0.5 になる経過時間）。オラクルの due 判定に使う。
   // 'alpha'（指数則）では強度 = 半減期そのもの。'dsr'（べき則）では S から解析的に導く。
   trueHalflife(wordState) {
+    if (this.trueModel === 'ebisu') {
+      return ebisuHalflife(this._ensureTrueEbisu(wordState), 0.5);
+    }
     const s = this._ensureTrueH(wordState);
     if (this.trueModel === 'dsr') {
       // R=0.5 → (1+factor·t/S)^decay = 0.5 → t = S·(0.5^(1/decay) − 1)/factor
@@ -119,6 +149,17 @@ export class VirtualLearner {
   // 真の記憶を更新（間隔効果。終端 result の正誤で成長/減衰）
   _updateTrueMemory(wordState, cardType, result, isCorrect, currentTime) {
     const c = this.srs;
+
+    if (this.trueModel === 'ebisu') {
+      // Ebisu の生成過程: 経過時間 dt にベイズ共役更新（成功=1/失敗=0）
+      const lastT = this._trueLastT.get(wordState.wordId) ?? currentTime;
+      const dt = Math.max(0, currentTime - lastT);
+      const m = ebisuUpdate(this._ensureTrueEbisu(wordState), isCorrect ? 1 : 0, 1, dt);
+      this._trueEbisu.set(wordState.wordId, m);
+      this._trueLastT.set(wordState.wordId, currentTime);
+      return;
+    }
+
     let s = this._ensureTrueH(wordState);
     const weight = this._cardWeight(cardType, result);
     const r = this.truePRecall(wordState, currentTime);     // 復習時点の真の保持率（更新前）
@@ -190,8 +231,19 @@ export class VirtualLearner {
       result = 'perfect';
     }
 
-    // 真の記憶を終端 result の正誤で更新（near_miss/phonetic は terminal で perfect/wrong）
+    // 真の記憶を「本物の retrieval 結果」で更新（観測ノイズの前＝slip/guess は真の記憶を歪めない）
     this._updateTrueMemory(wordState, cardType, result, result !== 'wrong', currentTime);
+
+    // 観測ノイズ層: システムが「見る」結果だけを汚す（真の記憶は上で更新済み）。
+    // - slip : 本当は正解（result≠wrong）なのに 'wrong' と観測される
+    // - guess: 本当は不正解（result=wrong）なのに 'perfect' と観測される
+    if (this.slipRate > 0 || this.guessRate > 0) {
+      if (result !== 'wrong') {
+        if (Math.random() < this.slipRate) return 'wrong';
+      } else if (Math.random() < this.guessRate) {
+        return 'perfect';
+      }
+    }
     return result;
   }
 
