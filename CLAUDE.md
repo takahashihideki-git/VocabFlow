@@ -77,6 +77,22 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-06-24 作業ログ
+
+### 公開リポジトリ化 + 記憶コア大検証（Ebisu/DSR/対オラクル/適応導入）
+
+**A. GitHub 公開リポジトリ化**: `origin = github.com/takahashihideki-git/VocabFlow`（公開）に `main` を公開。`git-filter-repo` で全履歴から `devel.enhack.app`/`/var/www` パス/`takahashi@devel...` を除去・author email を全145コミット `takahashihideki@gmail.com` に統一。実 `deploy.sh` は `.gitignore`（接続先を含むため）・雛形 `scripts/deploy_template.sh` を同梱。開発/モックページ（`_import.html`・`realmock.html`・`design-preview-wordwave.html`・`profile-mock.html`）も `.gitignore`。README を「AI協働による間隔反復アルゴリズム実証実験」として全面改稿。**push 認証は gh の `takahashihideki-git` アカウント（active 切替済）+ HTTPS**（SSH 鍵は非対話 push 不可）。
+
+**B. 記憶コア検証（全文 = repo `memory-core-investigation.md`・11章）**: 本物のベイズ SRS Ebisu の発見を機に、記憶コア層を sim で A/B。**すべて gated・既定で本番ゼロ影響**。
+- 追加: `core/ebisu.js`(Ebisu v2)・`core/dsr.js`(べき則/FSRS系)・`memoryCore` フラグ(hlr既定/ebisu/dsr)・真実モデル族(`sim/virtual-learner.js` trueModel: alpha/dsr/ebisu)・観測ノイズ(slip/guess)・**対オラクルハーネス `scripts/verify_oracle.js`**(feed-generator に `recallFn`/`dueHFn` フック・既定null)・`reserveNewSlots`・`adaptiveNew`+`adaptiveNewSignal`(urgent/success)・`engine.successRate`(EWMA)。`verify_deltat_calibration.js`/`verify_seed_noise.js` に `MEMORY_CORE`/`TRUE_MODEL` env。
+- 知見: ①校正MAE は circular → **対オラクル％**へ（ただし policy-matched は**絶対崩壊を隠す**・絶対値併読必須）。②**真のレバーは記憶コアでなく新語供給構造**＝新語枠確保でべき則(現実的)真実下に全コア 96-99% of oracle に収束＝コア選択ほぼ無関係。③deltaTGain の校正優位は交絡(HLR形真実限定)。④Ripple Seeding は真実非依存で genuine。⑤spec §4.2/§361 の貪欲＝意図的な認知負荷スロットルが novice で新語を締め出しアダになりうる。
+- **adaptive-success は採用保留**: べき則で near-oracle だが **exponential 真実で絶対崩壊**(標準 sim Day90 定着 245→2)＝「現実=べき則」への賭け。`DEFAULT_CONFIG.adaptiveNew=false`(greedy)を**既定維持**。上級ドッグフーダーは高成功率で崖を踏まない=危険が露見しない。
+- **次回②（残タスク）**: exponential×novice の崖を消す安全な適応導入（「最低導入フロア＋上限のみ throttle」等）を設計し、**絶対アウトカム(mastered/avgH)で真実族×学習者層を総当たり検証**してから採否判断（§11）。memory `[[project-memory-core-investigation]]`・`[[feedback-pct-oracle-hides-absolute]]`。
+
+**未デプロイ**: B は sim 検証のみ（gated・既定オフ）。実アプリ挙動は不変なので本番転送不要。A の README 等公開済み。
+
+---
+
 ## 2026-06-23 作業ログ
 
 ### Marine Chart 学習プロファイル + 綴りの暗礁 特訓を本番実装（2026-06-22 B のモックを製品化）
