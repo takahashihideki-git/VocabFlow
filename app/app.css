@@ -1695,7 +1695,9 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 .bc-axis-lbl { fill: #7e90af; font-size: 7px; font-weight: bold; }
 .bc-tick { fill: #7e90af; font-size: 8.5px; }
 /* .bc-bubble の色は circle の fill 属性で個別指定（CSS で fill を書くと属性より優先され上書きされる） */
-.bc-blabel { fill: #eaf6ff; font-size: 7px; font-weight: 400; }
+.bc-blabel { fill: #eaf6ff; font-size: 8px; font-weight: 400; }
+/* 衝突回避でラベルを押し下げた際、バブル中心と結ぶ細いリーダー線 */
+.bc-leader { stroke: rgba(126,144,175,0.55); stroke-width: 0.5; }
 
 /* 軸の凡例（名前 + 指標 + 弱点語チップ） */
 .ax-caption { font-size: 13px; color: #8fa3c4; margin: 20px 0 4px; font-weight: 600; }

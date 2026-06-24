@@ -32,6 +32,10 @@ export class ProfileRenderer {
   open() {
     this._build();
     this.overlay.style.display = 'flex';
+    // getBBox は表示済み（display:flex）でないと 0 を返すため、表示確定後にラベル衝突回避を走らせる
+    requestAnimationFrame(() => {
+      this.overlay.querySelectorAll('svg.bubble-chart').forEach(svg => this._dejitterLabels(svg));
+    });
   }
 
   close() {
@@ -115,12 +119,87 @@ export class ProfileRenderer {
       const x = sx(p.n), y = sy(p.rate), r = sr(p.errors);
       const col = PALETTE[i % PALETTE.length];
       g += `<circle class="bc-bubble" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(1)}" fill="${col}" fill-opacity="0.2"/>`;
-      g += `<text class="bc-blabel" x="${x.toFixed(1)}" y="${(y + 2.8).toFixed(1)}" text-anchor="middle">${p.name}</text>`;
+      // data-cx/cy にバブル中心を保持（描画後 _dejitterLabels が実測でずらした際のリーダー線の基点）
+      g += `<text class="bc-blabel" x="${x.toFixed(1)}" y="${(y + 2.8).toFixed(1)}" text-anchor="middle" data-cx="${x.toFixed(1)}" data-cy="${y.toFixed(1)}">${p.name}</text>`;
     });
     const PAD = 10;
     const vbTop = yLblY - PAD;
     const vbH   = (200 + PAD) - vbTop;
     return `<svg class="bubble-chart" viewBox="0 ${vbTop} ${Wd} ${vbH}" preserveAspectRatio="xMidYMid meet">${g}</svg>`;
+  }
+
+  // -------------------------------------------------------
+  // ラベル衝突回避（方式A: 描画後に getBBox で実測 → 縦に押し下げ → 離れたらリーダー線）
+  // バブルは少数（品詞 ~5・カテゴリ ~8）なので素朴な反復緩和で十分。
+  // -------------------------------------------------------
+  _dejitterLabels(svg) {
+    const labels = [...svg.querySelectorAll('.bc-blabel')];
+    if (labels.length < 2) return;
+
+    const GAP = 1.2;        // ラベル間の最小縦アキ（user units）
+    const LEAD_MIN = 4;     // この距離以上ずらしたらリーダー線を引く
+
+    // 元位置で矩形を実測（x は固定・縦のみ動かすので dy で追跡）
+    const items = labels.map(el => {
+      const bb = el.getBBox();
+      return {
+        el,
+        x: +el.getAttribute('x'),
+        y0: +el.getAttribute('y'),
+        cx: +el.dataset.cx,
+        cy: +el.dataset.cy,
+        left: bb.x, right: bb.x + bb.width,
+        top0: bb.y, h: bb.height,
+        dy: 0,
+      };
+    });
+
+    // 反復緩和: x が重なるペアの縦重なりを解消（中心が下のラベルを下へ押す）
+    for (let iter = 0; iter < 24; iter++) {
+      let moved = false;
+      for (let i = 0; i < items.length; i++) {
+        for (let j = i + 1; j < items.length; j++) {
+          const a = items[i], b = items[j];
+          if (a.left >= b.right || b.left >= a.right) continue;   // x 非重複
+          const aTop = a.top0 + a.dy, aBot = aTop + a.h;
+          const bTop = b.top0 + b.dy, bBot = bTop + b.h;
+          const overlap = Math.min(aBot, bBot) - Math.max(aTop, bTop);
+          if (overlap <= -GAP) continue;                          // 既に GAP 以上離れている
+          const push = overlap + GAP;
+          if (aTop + a.h / 2 <= bTop + b.h / 2) b.dy += push;      // 中心が下の方を押し下げ
+          else a.dy += push;
+          moved = true;
+        }
+      }
+      if (!moved) break;
+    }
+
+    // 適用 + リーダー線（バブル中心 → ずらしたラベルの上端中央）
+    const ns = 'http://www.w3.org/2000/svg';
+    const firstLabel = labels[0];
+    let maxBottom = -Infinity;
+    for (const it of items) {
+      maxBottom = Math.max(maxBottom, it.top0 + it.dy + it.h);
+      if (Math.abs(it.dy) < 0.5) continue;
+      it.el.setAttribute('y', (it.y0 + it.dy).toFixed(1));
+      if (it.dy >= LEAD_MIN) {
+        const line = document.createElementNS(ns, 'line');
+        line.setAttribute('class', 'bc-leader');
+        line.setAttribute('x1', it.cx.toFixed(1));
+        line.setAttribute('y1', it.cy.toFixed(1));
+        line.setAttribute('x2', it.x.toFixed(1));
+        line.setAttribute('y2', (it.top0 + it.dy).toFixed(1));    // ラベル上端
+        svg.insertBefore(line, firstLabel);                       // ラベルの下に敷く
+      }
+    }
+
+    // 下にはみ出たラベルが枠（viewBox 下端）で断ち切られないよう、必要なら viewBox を縦に伸ばす
+    // （height:auto なのでチャート枠が少し縦長になるだけ・凡例とは重ならない）
+    const vb = svg.viewBox.baseVal;
+    const MARGIN = 2;
+    if (maxBottom + MARGIN > vb.y + vb.height) {
+      svg.setAttribute('viewBox', `${vb.x} ${vb.y} ${vb.width} ${(maxBottom + MARGIN - vb.y).toFixed(1)}`);
+    }
   }
 
   // 軸の凡例（名前 + 指標 + 弱点語チップ）
@@ -169,7 +248,7 @@ export class ProfileRenderer {
       </div>
 
       <div class="pf-sec">
-        <div class="pf-sec-head"><h2>${L.catSection}</h2><span class="sub">バブルは誤答数 上位8カテゴリ（語数5以上）</span></div>
+        <div class="pf-sec-head"><h2>${L.catSection}</h2><span class="sub">渦は誤答数において上位8カテゴリ（語数5以上）</span></div>
         ${this._bubbleChart(catPtsChart)}
         <div class="ax-caption">${L.topErrorWordsAll}</div>
         ${this._axisLegend(catPtsList)}
