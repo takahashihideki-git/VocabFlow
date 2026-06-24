@@ -2,7 +2,7 @@
 
 **日付**: 2026-06-24
 **位置づけ**: 独立した検証レポート（README / spec.md への反映は未実施・本レポートで合意してから）
-**一行要約**: 「記憶コアを何にするか」より「**新語供給を絞らないスケジューリング構造**」が支配的レバーだと判明。健全な構造なら現実的（べき則）忘却の下で**どのコアでもオラクルの 96〜99%**に届く。検証の過程で、校正MAE という物差しの circular 性、deltaTGain の優位の交絡、Ripple Seeding の真の頑健性、そして spec の「貪欲方式＝意図的な認知負荷スロットル」が裏目に出ている可能性を明らかにした。
+**一行要約**: 「記憶コアを何にするか」より「**新語供給を絞らないスケジューリング構造**」が支配的レバーだと判明。健全な構造なら現実的（べき則）忘却の下で**どのコアでもオラクルの 96〜99%**に届く。さらに**「適応導入（観測成功率ゲート）」が spec の過負荷保護と oracle のスループットを両立**（全コア 97-103%・指数則でも崩壊せず・コア/真実カーブ非依存）。検証の過程で、校正MAE という物差しの circular 性、deltaTGain の優位の交絡、Ripple Seeding の真の頑健性、そして spec の「貪欲方式＝意図的な認知負荷スロットル」が裏目に出ている可能性を明らかにした。
 
 ---
 
@@ -25,6 +25,7 @@
 | 観測ノイズ層 | `slipRate`（既知語を誤って wrong 観測）/ `guessRate`（未知語をまぐれ perfect 観測）。真の記憶は本物の retrieval で更新し観測だけ汚す |
 | オラクル・ハーネス（`scripts/verify_oracle.js`） | feed-generator に `recallFn`/`dueHFn` フック（既定 null）。オラクル = 同一全系で**recall 推定だけ真のカーブ**。差分＝推定誤差のコスト |
 | `reserveNewSlots`（`core/feed-generator.js`） | 新語枠を復習の前に予約（既定 false＝従来の貪欲）。**core 共有ポリシー**（後述） |
+| `adaptiveNew` + `adaptiveNewSignal`（同上 + `srs-engine.js`） | 適応導入。負荷信号（`urgent` 滞留 / `success` 観測成功率 EWMA）に応じ新語予約枠を動的調整。既定 false。**core 共有ポリシー** |
 
 ---
 
@@ -113,6 +114,32 @@ spec.md §4.2 / §361 に明記:
 
 ---
 
+## 6.5 知見⑥：適応導入が「過負荷保護」と「スループット」を両立（reserveNewSlots の精緻化）
+
+知見⑤の reserveNewSlots は現実的（べき則）真実で near-oracle だが、指数則（速い忘却）では**過剰導入で崩壊**（オラクルすら救えない＝容量問題）。spec の過負荷保護（復習が溜まれば新語を絞る）と oracle のスループットを両立するため、新語予約枠を**負荷信号で動的に絞る適応導入**を2つの信号で検証した。
+
+- **urgent ゲート（失敗）**: urgent（p<0.5）滞留で絞る。urgent 数が**コアの過小評価で水増し**され、べき則語を誤判定して絞りすぎる。べき則で HLR 48%（reserve 98 に届かず）。閾値を緩めても同じ＝**コア依存が本質**。
+- **success ゲート（成功）**: **観測成功率（EWMA・engine 保持・processResponse 更新）**で絞る。信号が学習者の実際の正誤＝観測なので**コア推定に汚されない**。
+
+**対オラクル%（べき則＝現実的真実・標準/朝集中・90日 N=5）:**
+
+| ポリシー | HLR | Ebisu | DSR |
+|---|---|---|---|
+| greedy（現行） | 49 / 55 | 11 / 15 | 61 / 66 |
+| reserve（常時予約） | 98 / 97 | 99 / 99 | 96 / 96 |
+| adaptive-urgent | 48 / 52 | 35 / 40 | 75 / 84 |
+| **adaptive-success** | **102 / 99** | **103 / 101** | **97 / 99** |
+
+指数則の真実でも**崩壊せず**（ours ≈ oracle ~99-102%・reserve の genuine 44 崩壊なし）。
+
+**含意:**
+- success ゲート＝「**学習者が実際に溺れ始めたら絞る**」＝spec の過負荷保護の意図を**正しい信号で**実装＋余裕があれば reserve 並みスループット。トレードオフを観測ベースで動的に解決。
+- **真実カーブ非依存**（指数則でもべき則でも適切）＋**記憶コア非依存**（全コア 97-103%）＝頑健。
+- 成功率 EWMA は **engine（core）で更新＝app/sim 共有・単一ソース原則準拠**。
+- **留保**: 閾値（low0.6/high0.85）は手選び・未掃引。指数則の `>100%` は退化/ノイズ域（harsh world で oracle 自体が低 genuine）。UX（圧倒されての離脱）は retention 指標の外。
+
+---
+
 ## 7. メタ知見とプロジェクトの問いへの回答
 
 **問い**: 「Duolingo 等が巨額のデータ収集で構築した SRS に、AI のシミュレーションだけでどこまで実用的に肉薄できるか」
@@ -138,7 +165,7 @@ spec.md §4.2 / §361 に明記:
 
 ## 9. 未解決の問い・次の一手
 
-1. **適応導入**（最有力）: 過負荷なら新語を絞り、余裕があれば入れる。spec の負荷保護と oracle のスループット知見を両立。指数則崩壊・べき則枯渇の両方を回避できるか sim で検証。
+1. ✅ **適応導入（検証済・知見⑥）**: success ゲートで両立を確認（全コア 97-103%・指数則でも崩壊せず）。残課題は閾値掃引・真実族拡張での頑健化、そして**採否判断（§11）**。
 2. **online パラメータ適応**: DSR/FSRS 系コアの成長定数を各語/各ユーザーのログから推定し、固定 96% を族横断で更に詰める。
 3. **真実族の拡張**: ACT-R 活性化・混合など第3・第4の真実で頑健性主張を強化。
 4. **実データ**: ドッグフーディングの review ログで実 forgetting 曲線の"形"を測る（唯一の外部審判）。
@@ -150,10 +177,37 @@ spec.md §4.2 / §361 に明記:
 
 - コード: `core/ebisu.js`・`core/dsr.js`・`core/feed-generator.js`(recallFn/dueHFn/reserveNewSlots)・`core/srs-engine.js`・`core/models.js`・`core/config.js`・`sim/virtual-learner.js`(真実族・観測ノイズ・trueHalflife)
 - スクリプト: `scripts/verify_oracle.js`（対オラクル％）・`scripts/verify_deltat_calibration.js`(MEMORY_CORE/TRUE_MODEL/EBISU_A0,B0)・`scripts/verify_seed_noise.js`(MEMORY_CORE/TRUE_MODEL)
-- 主要コミット（srs/seed-noise-deltat-gain）: `861fb44`(Ebisuプロト)・`6fa4cca`(中立真実)・`3015cea`(対オラクル+DSR)・`edd7ae6`(Ebisu steelman)・`0b71ade`(reserveNewSlots)
+- 主要コミット（srs/seed-noise-deltat-gain）: `861fb44`(Ebisuプロト)・`6fa4cca`(中立真実)・`3015cea`(対オラクル+DSR)・`edd7ae6`(Ebisu steelman)・`0b71ade`(reserveNewSlots)・`f5d3b3e`(適応導入 success ゲート)
 - 実行例:
   ```bash
-  node scripts/verify_oracle.js 90 5                  # reserve OFF（現行既定）
-  RESERVE_NEW=1 node scripts/verify_oracle.js 90 5    # reserve ON
+  node scripts/verify_oracle.js 90 5                            # greedy（現行既定）
+  NEW_POLICY=reserve   node scripts/verify_oracle.js 90 5       # 常時予約
+  NEW_POLICY=adaptive ADAPT_SIGNAL=success node scripts/verify_oracle.js 90 5  # 適応導入(成功率)
   MEMORY_CORE=ebisu TRUE_MODEL=dsr node scripts/verify_deltat_calibration.js 90
   ```
+
+---
+
+## 11. 採否判断の材料（K）：adaptive-success を共有既定にするか
+
+**変更内容**: `DEFAULT_CONFIG` を `adaptiveNew=true`・`adaptiveNewSignal='success'` に。**core 共有ゆえ app も sim も同時に変わる**（単一ソース原則）。spec §4.2/§361（貪欲＝認知負荷スロットル）の改訂を伴う。
+
+**採用の利点**
+- 現実的（べき則）忘却で **near-oracle（~100%）**。現行 greedy の ~50% から**定着スループットが実質倍増**（特に novice/苦戦層）。
+- spec の過負荷保護の意図を**保持**（溺れたら絞る）＝思想の放棄でなく**精緻化**。
+- **真実カーブ非依存・記憶コア非依存**で頑健。記憶コア論争を実質無効化（どのコアでも同等）。
+
+**リスク・未知**
+- **novice(sim) vs advanced(実ユーザー)の乖離**: ドッグフーダーは上級で失敗が少ない → 成功率が高止まり → success ゲートは満額導入 → greedy でも元々新語が流れている彼らには**ほぼ中立**。大きな恩恵は **novice/苦戦層**。＝実害は出にくいが、上級実ユーザーでの体感効果は sim の novice 比で小さい可能性。
+- **UX/チャーン**: retention sim は「圧倒されての離脱」を測れない。success ゲートは方向一致だが、最終確認は**実機 A/B** のみ。
+- **閾値**: `low0.6 / high0.85` は手選び・未掃引。
+- **真のカーブ未確定**: すべて「現実はべき則寄り」前提。最終確証は実 review ログ。
+- **相互作用**: seedNoise/deltaTGain/供給ベース wave 解放との併用は短期 sim で回帰確認済みだが、標準 baseline（D90/D180 等）・長期（365日）での回帰は未確認。
+
+**de-risk 手順案**
+1. 閾値（low/high）掃引＋真実族拡張（ACT-R 等）で頑健性を固める。
+2. seedNoise 等との併用で標準 sim baseline（D90 264 等）の回帰確認。
+3. 実機: フラグで段階導入 or A/B（novice 層優先）。実 review ログで成功率分布と真のカーブを観測。
+4. 採用時は spec §4.2/§361 を「貪欲 → 適応導入（success ゲート）」に改訂。
+
+**最小の意思決定**: 「現実はべき則寄り」を受け入れるなら adaptive-success は**低リスク・高リターン**（novice で大・advanced で中立）。確証が要るなら**実機 A/B が唯一の審判**。
