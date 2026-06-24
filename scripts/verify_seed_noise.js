@@ -37,6 +37,7 @@ const N = Number(process.argv[4] ?? 30);
 const EXP = Number(process.argv[5] ?? 2.5);   // 勾配指数（base/rc^exp）
 const BASE = 0.5;
 const MEMORY_CORE = process.env.MEMORY_CORE || 'hlr';   // 'hlr'（既定）| 'ebisu'
+const TRUE_MODEL  = process.env.TRUE_MODEL  || 'alpha'; // 'alpha'（既定）| 'dsr'（中立）
 const SPD = LEARNER === 'burst' ? 5 : 3;
 const sessionTime = (day, s) => LEARNER === 'burst' ? day + s * SIX : day + s / SPD;
 
@@ -53,7 +54,7 @@ function runOnce(seed) {
   const engine = new SRSEngine(cfg);
   const wm = new WaveManager(cfg, state);
   const fg = new FeedGenerator(cfg, engine, wm);
-  const learner = new VirtualLearner({ learnerAbility: 1.0, hVariation: 0.3, srsConfig: cfg });
+  const learner = new VirtualLearner({ learnerAbility: 1.0, hVariation: 0.3, srsConfig: cfg, trueModel: TRUE_MODEL });
   let biasSum = 0, biasN = 0;
   for (let day = 0; day < DAYS; day++) {
     for (let s = 0; s < SPD; s++) {
@@ -102,7 +103,7 @@ function dlt(on, off, key, dec) {
   return `Δ=${d >= 0 ? '+' : ''}${d.toFixed(dec)}(${(d / s).toFixed(1)}σ ${Math.abs(d) > 2 * s ? '有意' : 'ns'})`;
 }
 
-console.log(`記憶コア=${MEMORY_CORE}・学習者=${LEARNER}（${SPD}/日）× ${DAYS}日・N=${N}・播種 base/rc^${EXP}（deltaTGain=true・dueSampling=false）`);
+console.log(`記憶コア=${MEMORY_CORE}・真実=${TRUE_MODEL}・学習者=${LEARNER}（${SPD}/日）× ${DAYS}日・N=${N}・播種 base/rc^${EXP}（deltaTGain=true・dueSampling=false）`);
 const off = Array.from({ length: N }, () => runOnce(false));
 const on  = Array.from({ length: N }, () => runOnce(true));
 const row = (l, rs) => console.log(`${l}: mastered=${avg(rs.map(r => r.mastered)).toFixed(1)} 真に覚=${avg(rs.map(r => r.knownTotal)).toFixed(1)} 試験全=${avg(rs.map(r => r.examAll)).toFixed(4)} 試験mastered=${avg(rs.map(r => r.examMastered)).toFixed(4)} バイアス=${avg(rs.map(r => r.bias)).toFixed(4)}`);

@@ -39,6 +39,19 @@ export class VirtualLearner {
     // cardWeight 群）。sim-runner からは現行 cfg を渡す。
     this.srs = config.srsConfig ?? DEFAULT_CONFIG;
 
+    // 真実モデルの選択。記憶コア比較（HLR vs Ebisu）を公平にするための中立性レバー。
+    // 'alpha'（既定・既存）: trueH × (1+(α−1)·weight·spacing) の指数忘却。HLR の成長則と同族＝
+    //   HLR の校正検証には適切だが、別の更新則（Ebisu）の優劣を測るには HLR 有利に交絡する。
+    // 'dsr'（中立・FSRS 風）: べき則忘却 + 安定度飽和つき間隔カーネル。HLR の指数でも Ebisu の
+    //   GB1 でもない第三の真実なので、どちらの更新則にも home advantage を与えない。
+    this.trueModel = config.trueModel ?? 'alpha';
+    this.dsrDecay = -0.5;                                  // べき則の減衰指数（FSRS-4.5）
+    this.dsrFactor = Math.pow(0.9, 1 / this.dsrDecay) - 1; // R(S)=0.9 となる係数 ≈ 0.23457
+    this.dsrGain = config.dsrGain ?? 6.0;                  // 成功時の安定度成長ゲイン
+    this.dsrSat = config.dsrSat ?? 0.3;                    // 安定度飽和指数（S^(−sat)＝高安定ほど伸びにくい）
+    this.dsrSpacing = config.dsrSpacing ?? 1.0;            // 間隔感度（e^(spacing·(1−R)) の凸性）
+    this.dsrLapse = config.dsrLapse ?? 0.3;               // 失敗時の安定度減衰
+
     this._hFactorCache = new Map();
     this._trueH = new Map();      // wordId → 真の半減期（システムの h とは独立）
     this._trueLastT = new Map();  // wordId → 真の記憶での最終復習時刻（日数）
@@ -80,28 +93,48 @@ export class VirtualLearner {
   }
 
   // 学習者の真の保持率（difficultyMod を含まない素の記憶）。検証スクリプトの校正測定にも使う。
+  // _trueH に入る値は trueModel により意味が異なる（'alpha'=半減期 / 'dsr'=安定度 S）。
   truePRecall(wordState, currentTime) {
-    const th = this._ensureTrueH(wordState);
+    const s = this._ensureTrueH(wordState);
     const lastT = this._trueLastT.get(wordState.wordId) ?? currentTime;
     const dt = Math.max(0, currentTime - lastT);
-    return Math.pow(2, -dt / th);
+    if (this.trueModel === 'dsr') {
+      // べき則: R(t) = (1 + factor·t/S)^decay（R(S)=0.9・指数より重い裾）
+      return Math.pow(1 + this.dsrFactor * dt / s, this.dsrDecay);
+    }
+    return Math.pow(2, -dt / s);
   }
 
   // 真の記憶を更新（間隔効果。終端 result の正誤で成長/減衰）
   _updateTrueMemory(wordState, cardType, result, isCorrect, currentTime) {
     const c = this.srs;
-    let th = this._ensureTrueH(wordState);
-    if (isCorrect) {
-      const r = this.truePRecall(wordState, currentTime);
-      const base = 1 - c.targetRetention;                 // 最適復習点を full(=1) にする正規化基準
-      const spacing = base > 0 ? Math.min(1, (1 - r) / base) : 1;
-      const weight = this._cardWeight(cardType, result);
-      th = th * (1 + (c.alpha - 1) * weight * spacing);
+    let s = this._ensureTrueH(wordState);
+    const weight = this._cardWeight(cardType, result);
+    const r = this.truePRecall(wordState, currentTime);     // 復習時点の真の保持率（更新前）
+
+    if (this.trueModel === 'dsr') {
+      // 安定度飽和つき間隔カーネル（FSRS 風・HLR/Ebisu のどちらとも別系統）:
+      //   ΔS/S = gain · S^(−sat) · (e^(spacing·(1−R)) − 1) · weight
+      // - 間隔を空けるほど（R 低）凸に大きく伸び、高安定語ほど（S^(−sat)）伸びにくい
+      if (isCorrect) {
+        const grow = this.dsrGain * Math.pow(s, -this.dsrSat)
+                   * (Math.exp(this.dsrSpacing * (1 - r)) - 1) * weight;
+        s = s * (1 + grow);
+      } else {
+        s = s * this.dsrLapse;
+      }
     } else {
-      th = th * c.beta;
+      // 既存 'alpha'（指数忘却・HLR 同族）
+      if (isCorrect) {
+        const base = 1 - c.targetRetention;               // 最適復習点を full(=1) にする正規化基準
+        const spacing = base > 0 ? Math.min(1, (1 - r) / base) : 1;
+        s = s * (1 + (c.alpha - 1) * weight * spacing);
+      } else {
+        s = s * c.beta;
+      }
     }
-    th = Math.min(Math.max(th, c.hMin), c.hMax);
-    this._trueH.set(wordState.wordId, th);
+    s = Math.min(Math.max(s, c.hMin), c.hMax);
+    this._trueH.set(wordState.wordId, s);
     this._trueLastT.set(wordState.wordId, currentTime);
   }
 
