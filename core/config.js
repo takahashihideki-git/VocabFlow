@@ -70,9 +70,13 @@ export const DEFAULT_CONFIG = {
   // 深刻に遅れた語（urgent・p<0.5）の滞留量に応じて新語予約枠を線形に絞る:
   //   urgent ≤ soft → 満額（maxNewPerSession）/ urgent ≥ hard → 0 / 間は線形。
   // 余裕があれば新語を入れ（べき則の枯渇を回避）、溺れ始めたら絞る（指数則の過剰導入崩壊を回避）。
-  // true のとき reserveNewSlots より優先。false で従来挙動。
+  // true のとき reserveNewSlots より優先。false で従来挙動（既定）。
+  // ⚠️ adaptive-success は「現実=べき則忘却」への賭け。べき則真実では near-oracle だが、
+  //    exponential 真実（標準 sim の既定）では絶対アウトカムが壊滅（Day90 定着 245→2）＝
+  //    成熟しない。%oracle は policy-matched オラクルとの比較で絶対崩壊を隠す。greedy(false)が
+  //    真実不確実性に頑健なため既定維持。詳細は memory-core-investigation.md §6.5/§11。
   adaptiveNew: false,
-  adaptiveNewSignal: 'urgent', // 'urgent'（urgent 滞留で絞る・コア依存）| 'success'（観測成功率で絞る・頑健）
+  adaptiveNewSignal: 'success', // 'urgent'（urgent 滞留で絞る・コア依存）| 'success'（観測成功率で絞る・頑健）
   adaptiveNewSoft: 5,    // urgent 信号: この urgent 数までは満額予約
   adaptiveNewHard: 20,   // urgent 信号: この urgent 数で新語ゼロ
   successEWMAAlpha: 0.05,      // 成功率 EWMA の更新係数（≈直近20件の窓）
