@@ -72,6 +72,13 @@ export class FeedGenerator {
         frac = span > 0 ? Math.max(0, Math.min(1, (cfg.adaptiveNewHard - u) / span)) : (u <= cfg.adaptiveNewSoft ? 1 : 0);
       }
       reservedNew = Math.round(supplyCap * frac);
+      // 最低導入フロア: 成功率が低くても最低 floor 語は導入を保証する。
+      // throttle は上限（reservedNew の伸び）だけに効かせ、前進そのものは止めない。
+      // exponential×novice では success が低く frac→0 になり新語ゼロ＝一切前進しない崖が出る。
+      // フロアはこの崖を消しつつ、余裕があるときの絞り（上限 throttle）は維持する。
+      if (cfg.adaptiveNewFloor > 0) {
+        reservedNew = Math.max(reservedNew, Math.min(cfg.adaptiveNewFloor, supplyCap));
+      }
     } else if (cfg.reserveNewSlots) {
       reservedNew = supplyCap;
     }

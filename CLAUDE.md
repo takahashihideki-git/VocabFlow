@@ -93,6 +93,21 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-06-25 作業ログ
+
+### 残タスク②の決着：適応導入「最低導入フロア＋上限 throttle」は崖を消さない（反証）
+
+2026-06-24 B の残課題②（exponential×novice の崖を消す安全な適応導入の設計と総当たり検証）を実施し、**反証で決着**。全文・数表は `memory-core-investigation.md` §12。
+
+- **実装**: `config.adaptiveNewFloor`（既定 0=無効・gated）。`feed-generator.js` で reservedNew 算出後に `max(reservedNew, min(floor, supplyCap))`＝成功率が低く frac→0 でも最低 floor 語を予約（throttle は上限の伸びだけに効かせ前進は止めない設計）。検証: `scripts/diag_adaptive_cliff.js`（崖の機構観察）・`scripts/verify_adaptive_floor_matrix.js`（真実3族×学習者2層×profile2 の絶対アウトカム総当たり）。
+- **崖の機構**: adaptive-success は early の高成功率時に新語枠を予約（復習スロットを奪う）→ 過剰導入 → 溺れて success<0.6 → throttle 0 → 既存語が指数則の速い忘却で復習をすり抜け固着 → **新語凍結＋既存語が成熟しないデススパイラル**（avgH 1.2・mastered 2）。greedy は「新語＝復習の余りスロット」で有機的に絞られ過剰導入しない（avgH 88・mastered 264）。
+- **反証**: 製品の実定義 mastered では **greedy が全 12 セルで圧勝**。フロアは崖を消さず mastered をむしろ下げる（導入は増えるが avgH をさらに薄める＝沈む船に水を注ぐ）。決定指標は **avgH**（greedy 60-94 深く成熟／全 adaptive 0.8-4.5 浅く凍結）。adaptive がべき則で genuine 929 と「勝つ」のは遅い忘却下の浅い大量導入の retain アーティファクト。
+- **結論**: 崖は throttle 過剰の症状でなく **success ゲート型 reserve が容量限界下で早期過剰導入→成熟阻害する構造問題**。フロアでは塞げない。**adaptive-success（フロア有無問わず）不採用で確定・greedy 維持**。`adaptiveNewFloor`/`adaptiveNew`/`reserveNewSlots` は gated 既定オフのまま残置。真のカーブの実データ確認（低成功率層を含む実機 A/B）だけが将来の唯一の審判（§11 の結論は不変）。memory `[[project-memory-core-investigation]]`・`[[feedback-pct-oracle-hides-absolute]]`。
+
+**未デプロイ**: sim 検証のみ（gated・既定オフ）。実アプリ挙動は不変。
+
+---
+
 ## 2026-06-23 作業ログ
 
 ### Marine Chart 学習プロファイル + 綴りの暗礁 特訓を本番実装（2026-06-22 B のモックを製品化）

@@ -82,6 +82,11 @@ export const DEFAULT_CONFIG = {
   successEWMAAlpha: 0.05,      // 成功率 EWMA の更新係数（≈直近20件の窓）
   adaptiveNewSuccLow: 0.6,     // success 信号: この成功率で新語ゼロ
   adaptiveNewSuccHigh: 0.85,   // success 信号: この成功率で満額予約
+  // 最低導入フロア: 成功率が低くても最低この語数は予約（0=フロアなし）。
+  // ⚠️ 「exponential×novice の崖をフロアで消す」案は反証済み（§12）。崖の原因は新語不足でなく
+  //    容量限界下での成熟阻害なので、フロアは導入を増やすだけで mastered/avgH をむしろ下げる。
+  //    再検証用に gated 残置・既定 0。
+  adaptiveNewFloor: 0,
   sessionsPerDay: 3,
   retryGap: 4,          // 不正解時の再挿入位置（現在位置+N枚後）
   maxRetryPerCard: 2,   // 同一カードの最大再挿入回数/セッション
