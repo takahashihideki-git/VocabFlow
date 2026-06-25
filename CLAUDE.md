@@ -196,7 +196,22 @@ GPT による外部レビュー（研究基盤 8/10・教材 4/10）。技術的
 
 **検証**: ①同一 seed → 完全一致（小数まで）②異 seed → 異結果（乱数有効）③seed なし → 従来挙動 + 既定 sim 回帰なし（3回平均 Day30 103/Day60 187/Day90 264＝基準 ~99/~181/~264 の run間ノイズ内）④全 core/sim/verify が `node --check` 通過。播種ノイズの効果方向も既存知見（ON で mastered↑・真に覚↑・バイアス↓＝genuine）と整合。
 
-**残（任意・未実施）**: 他の verify/diag スクリプト（`verify_deltat_calibration`・`verify_due_sampling`・`verify_oracle`・`verify_adaptive_floor_matrix`・`diag_adaptive_cliff`）は依然 Math.random フォールバックで**動作はするが非決定的**。同じ seeded+CRN パターンへ順次移行すると全検証が再現可能になる。GPT レビュー残項目: #2 実イベントログ（選択肢B＝既知）・#3 sim での handwrite 加点の扱い・LICENSE 追加・語彙データ人間監査。memory `[[project-determinism-crn]]`。
+**残（任意・未実施）**: 他の verify/diag スクリプト（`verify_deltat_calibration`・`verify_due_sampling`・`verify_oracle`・`verify_adaptive_floor_matrix`・`diag_adaptive_cliff`）は依然 Math.random フォールバックで**動作はするが非決定的**。同じ seeded+CRN パターンへ順次移行すると全検証が再現可能になる。memory `[[project-determinism-crn]]`。
+
+### F. GPT 外部レビューへの対応 #2：LICENSE 追加 + README の独自性主張を正確化
+
+- **LICENSE（新規・commit `96dd1f7`）**: MIT License（© 2026 Takahashi Hideki）。README に「## ライセンス」節を追加し適用範囲を分離明記（コード=MIT／画像=Unsplash License／教材データ=AI 生成・正確性無保証）。公開リポで LICENSE 不在＝第三者が再利用判断不能、への対応。
+- **README L17 軟化（commit `abc40c1`）**: 「確率的スケジューラの一般的手法とは異なる」がやや過剰（Anki fuzz factor はまさにその手法でコホート同期崩しの目的は共通・次回間隔だけ見れば h ノイズと間隔ノイズは乗法的に等価）。L42 の誠実なトーンに合わせ、共通点（同期崩し）と相違点（予定日の一過性ジッタでなく状態 h に保存型・自己減衰型・導入時集中・以後の成長にも作用）を明示する言い換えに。
+
+**GPT レビュー残項目（任意）**: #2 実イベントログ（選択肢B＝既知）・#3 sim での handwrite 加点の扱い・語彙データ人間監査。
+
+### G. SRS の戦略的位置づけを整理（FSRS 採用是非・新規性評価の対話）
+
+GPT が「新規アプリは自作 SRS でなく FSRS（ts-fsrs）を基盤にし差別化は周辺に置け」「Ripple は FSRS 上の負荷分散レイヤーとして検証せよ」と助言。結論として記憶 `[[project-north-star-and-srs-stance]]` に整理:
+- このリポの北極星は **フォーマット（TikTok 式縦動画 × 縦スワイプ UI）**であり SRS そのものではない。出発点もその思い付き。SRS コアは差別化要因でない（自プロジェクトが「真のレバーは新語供給構造・コア選択ほぼ無関係」と実証済み）。
+- GPT 推奨の大半（コア交換可能化・FSRS 系比較・供給で差別化）は**既に実装/到達済み**（`memoryCore` 切替・`ebisu.js`/`dsr.js`・`memory-core-investigation.md`）。
+- 採るべき核は1点 ── **SRS は交換可能・フォーマット非依存（正誤+タイミングのみ観測）に保つ**。商品化局面では実績コア（ts-fsrs ラッパ等）に差し替え可、Ripple は機構非依存なのでその上に薄い負荷分散レイヤーとして残せる（FSRS+Ripple 両取り）。
+- 新規性主張を堅くする唯一足りないピース＝**Ripple を FSRS 系コア（`dsr.js`）の上で Anki型fuzz・初回のみ fuzz・load-balancing と CRN 同条件比較**（前ターンの「4方式比較」と同一・CRN ハーネス流用可）。真のフロンティアは「最強の SRS」でなく「縦動画教材に SRS をどう乗せるか」。
 
 ---
 
