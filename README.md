@@ -210,3 +210,9 @@ VocabFlow/
 - 教材データ（語義・例文・語源解説等）は Claude API で生成
 - アルゴリズムの設計・検証・実装は人間と Claude の協働による
 - カード背景画像・スタート画面の背景写真は [Unsplash](https://unsplash.com/) License に基づく
+
+## ライセンス
+
+- **ソースコード** — [MIT License](LICENSE)（© 2026 Takahashi Hideki）
+- **カード背景・スタート画面の画像** — [Unsplash License](https://unsplash.com/license)（帰属表記は `app/about.wave.jpg.txt` ほか）
+- **教材データ**（`core/word-data.js` の語義・例文・語源解説等） — Claude API で生成。MIT の対象に含むが、辞書的事実の正確性は保証しない（AI 生成のため誤りが残り得る。`CLAUDE.md` の品質監査ログ参照）
