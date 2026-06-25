@@ -110,7 +110,8 @@ export class SRSEngine {
     const cfg = this.config;
     if (!cfg.seedNoise || word.h <= 0) return;
     const width = cfg.seedNoiseBase / Math.pow(word.reviewCount, cfg.seedNoiseExp);
-    const noise = 1 + (Math.random() * 2 - 1) * width;
+    const rng = cfg.rng ?? Math.random;
+    const noise = 1 + (rng() * 2 - 1) * width;
     if (cfg.memoryCore === 'ebisu' && word.ebisu) {
       // Ebisu はモデルが状態の源。h を直接いじっても次回更新で再導出され消えるため、
       // 時間尺度パラメータ t をスケールして halflife を恒久シフトさせる（halflife ∝ t）。

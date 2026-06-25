@@ -1,6 +1,7 @@
 // sim/sim-runner.js — シミュレーション実行ロジック（UI非依存）
 
 import { createConfig } from '../core/config.js';
+import { deriveRng } from '../core/rng.js';
 import { WordState, LearnerState, Card } from '../core/models.js';
 import { SRSEngine } from '../core/srs-engine.js';
 import { WaveManager } from '../core/wave-manager.js';
@@ -71,12 +72,17 @@ function simulateDay(learnerState, engine, waveManager, feedGen, learner, day) {
 // -------------------------------------------------------
 export function runSimulation(configOverrides = {}, duration = 90, onProgress = null) {
   const cfg = createConfig(configOverrides);
+  // 再現性: configOverrides.seed が指定されたら policy / learner を独立ストリームに固定
+  // （未指定なら既定 Math.random ＝従来挙動）。core/rng.js・GPT レビュー重大1。
+  const seed = configOverrides.seed;
+  if (seed != null) cfg.rng = deriveRng(seed, 'policy');
   const words = WORD_DATA.map(d => new WordState(d.id, d.word, Math.ceil(d.id / cfg.waveSize)));
   const state = new LearnerState(words, cfg);
   const engine = new SRSEngine(cfg);
   const wm = new WaveManager(cfg, state);
   const fg = new FeedGenerator(cfg, engine, wm);
-  const learner = new VirtualLearner({ learnerAbility: 1.0, srsConfig: cfg });
+  const learner = new VirtualLearner({ learnerAbility: 1.0, srsConfig: cfg,
+    rng: seed != null ? deriveRng(seed, 'learner') : undefined });
 
   const snapshots = [];
 

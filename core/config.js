@@ -108,6 +108,13 @@ export const DEFAULT_CONFIG = {
 
   // Total words
   totalWords: 1900,
+
+  // 乱数源（再現可能なシミュレーション用・core/rng.js）。
+  // 既定 Math.random ＝本番アプリは挙動不変。sim/検証では deriveRng(seed,'policy') を注入して
+  // seedNoise・effectiveH・feed-gen のランダム選出を決定論化する（同じ seed → 同じ結果）。
+  // 仮想学習者の乱数は別ストリーム（VirtualLearner の config.rng）で、CRN ペア比較では learner
+  // 側を ON/OFF で共有して run 間分散を相殺する。GPT レビュー重大1（再現性）への対応。
+  rng: Math.random,
 };
 
 export function createConfig(overrides = {}) {

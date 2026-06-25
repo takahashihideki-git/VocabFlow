@@ -18,11 +18,25 @@
 //   ※ throughput は小標本で何度もノイズに騙された指標。判定は必ず N≥30 + 標準誤差 + 複数指標
 //     （mastered だけでなく「真に覚えてる語数」「mastered 語の真の保持率」「バイアス」）で。
 //
-// ※ これは検証スクリプトであり、播種ノイズは未だ core 未実装（採否判断待ち）。
+// 播種ノイズは core 採用済み（config.seedNoise 既定 true）。本スクリプトは実コードパスを
+// 「決定的 seed + CRN ペア比較」で再検証する参照ハーネス（GPT レビュー重大1 への対応）:
+//   - 再現性: 同じコミット・同じ引数・同じ SEED → 完全に同じ結果（core/rng.js で乱数を seed 化）。
+//   - CRN: trial k で OFF/ON は同一 masterSeed を使い、learner ストリーム（正誤コイン投げ＝最大の
+//     分散源）を共有する。policy ストリームは別系統なので seedNoise の追加消費が learner をずらさない。
+//     これにより run 間分散が相殺され、ペア統計 Δ が独立サンプリングより遥かに小さい SE で出る。
+//     ※ 限界: seedNoise は h を変え→ due 順を変え→カード列が分岐するため、CRN は早期軌道のみ
+//       強相関させる（軌道分岐後は learner 抽選の対応が崩れる）。逐次適応系の CRN の本質的限界。
+//   - 出力: seed / config / commitSHA / 全試行の生データ / ペア集計を JSON 保存（再現・追試用）。
 //
 // 実行: node scripts/verify_seed_noise.js [spread|burst] [days] [N] [exp]
+//       環境変数: MEMORY_CORE=hlr|ebisu  TRUE_MODEL=alpha|dsr  SEED=<整数>（既定 1000）
 
+import { execSync } from 'node:child_process';
+import { writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
 import { createConfig } from '../core/config.js';
+import { deriveRng } from '../core/rng.js';
 import { WordState, LearnerState, Card } from '../core/models.js';
 import { SRSEngine } from '../core/srs-engine.js';
 import { WaveManager } from '../core/wave-manager.js';
@@ -38,6 +52,7 @@ const EXP = Number(process.argv[5] ?? 2.5);   // 勾配指数（base/rc^exp）
 const BASE = 0.5;
 const MEMORY_CORE = process.env.MEMORY_CORE || 'hlr';   // 'hlr'（既定）| 'ebisu'
 const TRUE_MODEL  = process.env.TRUE_MODEL  || 'alpha'; // 'alpha'（既定）| 'dsr'（中立）
+const SEED_BASE = Number(process.env.SEED ?? 1000);     // CRN マスター seed の基点
 const SPD = LEARNER === 'burst' ? 5 : 3;
 const sessionTime = (day, s) => LEARNER === 'burst' ? day + s * SIX : day + s / SPD;
 
@@ -45,16 +60,19 @@ const avg = a => a.reduce((x, y) => x + y, 0) / a.length;
 const sdv = a => { const m = avg(a); return Math.sqrt(avg(a.map(x => (x - m) ** 2))); };
 const se = a => sdv(a) / Math.sqrt(a.length);
 
-function runOnce(seed) {
-  // core の seedNoise を直接トグルして実コードパスを検証（旧版は harness で手注入していた）
+// 1 試行を決定的に実行。featureOn=seedNoise の ON/OFF、masterSeed が CRN の対応付けキー。
+// 同じ masterSeed の OFF/ON は learner ストリームを共有する（CRN）。
+function runOnce(featureOn, masterSeed) {
   const cfg = createConfig({ deltaTGain: true, dueSampling: false, sessionsPerDay: SPD,
-    seedNoise: seed, seedNoiseBase: BASE, seedNoiseExp: EXP, memoryCore: MEMORY_CORE });
+    seedNoise: featureOn, seedNoiseBase: BASE, seedNoiseExp: EXP, memoryCore: MEMORY_CORE,
+    rng: deriveRng(masterSeed, 'policy') });
   const words = WORD_DATA.map(d => new WordState(d.id, d.word, Math.ceil(d.id / cfg.waveSize)));
   const state = new LearnerState(words, cfg);
   const engine = new SRSEngine(cfg);
   const wm = new WaveManager(cfg, state);
   const fg = new FeedGenerator(cfg, engine, wm);
-  const learner = new VirtualLearner({ learnerAbility: 1.0, hVariation: 0.3, srsConfig: cfg, trueModel: TRUE_MODEL });
+  const learner = new VirtualLearner({ learnerAbility: 1.0, hVariation: 0.3, srsConfig: cfg,
+    trueModel: TRUE_MODEL, rng: deriveRng(masterSeed, 'learner') });
   let biasSum = 0, biasN = 0;
   for (let day = 0; day < DAYS; day++) {
     for (let s = 0; s < SPD; s++) {
@@ -97,17 +115,54 @@ function runOnce(seed) {
   };
 }
 
+// 独立サンプリングの Δ（参考・旧表示）
 function dlt(on, off, key, dec) {
   const d = avg(on.map(r => r[key])) - avg(off.map(r => r[key]));
   const s = Math.sqrt(se(on.map(r => r[key])) ** 2 + se(off.map(r => r[key])) ** 2);
   return `Δ=${d >= 0 ? '+' : ''}${d.toFixed(dec)}(${(d / s).toFixed(1)}σ ${Math.abs(d) > 2 * s ? '有意' : 'ns'})`;
 }
 
-console.log(`記憶コア=${MEMORY_CORE}・真実=${TRUE_MODEL}・学習者=${LEARNER}（${SPD}/日）× ${DAYS}日・N=${N}・播種 base/rc^${EXP}（deltaTGain=true・dueSampling=false）`);
-const off = Array.from({ length: N }, () => runOnce(false));
-const on  = Array.from({ length: N }, () => runOnce(true));
+// CRN ペアの Δ（本命）: 同一 seed の on[k]−off[k] の差分系列から平均と SE を取る。
+// learner ストリーム共有で run 間分散が相殺され、SE は独立サンプリングより小さくなる。
+function paired(on, off, key, dec) {
+  const d = on.map((r, k) => r[key] - off[k][key]);
+  const m = avg(d), s = se(d);
+  return { mean: m, se: s, t: s > 0 ? m / s : 0,
+    str: `Δ=${m >= 0 ? '+' : ''}${m.toFixed(dec)}(${s > 0 ? (m / s).toFixed(1) : '∞'}σ ${Math.abs(m) > 2 * s ? '有意' : 'ns'})` };
+}
+
+console.log(`記憶コア=${MEMORY_CORE}・真実=${TRUE_MODEL}・学習者=${LEARNER}（${SPD}/日）× ${DAYS}日・N=${N}・播種 base/rc^${EXP}（deltaTGain=true・dueSampling=false）・SEED=${SEED_BASE}（CRN ペア）`);
+// trial k は masterSeed = SEED_BASE + k。OFF/ON が同一 masterSeed＝learner 乱数列を共有。
+const seeds = Array.from({ length: N }, (_, k) => SEED_BASE + k);
+const off = seeds.map(s => runOnce(false, s));
+const on  = seeds.map(s => runOnce(true, s));
 const row = (l, rs) => console.log(`${l}: mastered=${avg(rs.map(r => r.mastered)).toFixed(1)} 真に覚=${avg(rs.map(r => r.knownTotal)).toFixed(1)} 試験全=${avg(rs.map(r => r.examAll)).toFixed(4)} 試験mastered=${avg(rs.map(r => r.examMastered)).toFixed(4)} バイアス=${avg(rs.map(r => r.bias)).toFixed(4)}`);
 row('播種OFF', off); row('播種ON ', on);
-console.log(`\nmastered ${dlt(on, off, 'mastered', 1)} | 真に覚えてる語数 ${dlt(on, off, 'knownTotal', 1)}`);
-console.log(`試験(全) ${dlt(on, off, 'examAll', 4)} | 試験(mastered) ${dlt(on, off, 'examMastered', 4)} | バイアス ${dlt(on, off, 'bias', 4)}`);
+
+const keys = [['mastered', 1], ['knownTotal', 1], ['examAll', 4], ['examMastered', 4], ['bias', 4]];
+const pairedSummary = Object.fromEntries(keys.map(([k, d]) => [k, paired(on, off, k, d)]));
+console.log(`\n[CRN ペア] mastered ${pairedSummary.mastered.str} | 真に覚えてる語数 ${pairedSummary.knownTotal.str}`);
+console.log(`[CRN ペア] 試験(全) ${pairedSummary.examAll.str} | 試験(mastered) ${pairedSummary.examMastered.str} | バイアス ${pairedSummary.bias.str}`);
+console.log(`[独立参考] mastered ${dlt(on, off, 'mastered', 1)} | 真に覚えてる語数 ${dlt(on, off, 'knownTotal', 1)}`);
 console.log(`\n判定: 「真に覚えてる語数」が mastered と同程度↑＝本物。mastered だけ↑・試験mastered↓・バイアス上方＝偽mastered。`);
+
+// --- 再現・追試用に seed / config / commitSHA / 生データ / 集計を JSON 保存 ---
+let commitSHA = 'unknown';
+try { commitSHA = execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim(); } catch { /* git 不在時 */ }
+const cfgSnapshot = { ...createConfig({ deltaTGain: true, dueSampling: false, sessionsPerDay: SPD,
+  seedNoiseBase: BASE, seedNoiseExp: EXP, memoryCore: MEMORY_CORE }) };
+delete cfgSnapshot.rng;   // 関数は JSON 化できない
+const out = {
+  script: 'verify_seed_noise',
+  commitSHA,
+  generatedAt: new Date().toISOString(),
+  params: { LEARNER, DAYS, N, EXP, BASE, MEMORY_CORE, TRUE_MODEL, SEED_BASE, SPD },
+  config: cfgSnapshot,
+  seeds,
+  trials: { off, on },
+  pairedSummary,
+};
+const resultsDir = join(dirname(fileURLToPath(import.meta.url)), 'results');
+const outPath = join(resultsDir, `seed_noise_${LEARNER}_${MEMORY_CORE}_${TRUE_MODEL}_seed${SEED_BASE}.json`);
+writeFileSync(outPath, JSON.stringify(out, null, 2));
+console.log(`\n結果を保存: ${outPath}`);

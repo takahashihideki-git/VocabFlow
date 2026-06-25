@@ -180,6 +180,24 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 「2026-06-18 修正ログ」末尾の課題に **`app/profile-mock.html`** も追加（同じく未追跡だが rsync で本番に乗る）。exclude 対応時は `_realstate.json`・`realmock.html`・`design-preview-wordwave.html`・`profile-mock.html` をまとめて除外する。
 
+### E. GPT 外部レビューへの対応 #1：決定的乱数（seedable RNG + CRN ペア比較）
+
+GPT による外部レビュー（研究基盤 8/10・教材 4/10）。技術的主張はコードを読んだ正確なもので、最重要指摘＝**「統計的反復はあるが計算上の再現性が弱い」**（主要コードが `Math.random()` 直書き・検証スクリプトの `seed` は ON/OFF トグルで乱数シードでない・ON/OFF が独立に乱数を引く）に対応した。これは VocabFlow 自身の過去の痛み（dueSampling 検証で N を増やすまで Δ の符号が二転三転＝未シード＋非ペアが一因）と直結する。
+
+**実装（本番アプリ挙動は不変・既定 `Math.random`）:**
+- **`core/rng.js`（新規）**: `mulberry32`（決定的 PRNG）・`hashSeed`（xmur3）・`deriveRng(masterSeed, label)`（1 マスター seed から名前付き独立ストリームを導出）。
+- **`core/config.js`**: `rng: Math.random` を追加（既定＝アプリ不変）。sim/検証で `deriveRng(seed,'policy')` を注入すると seedNoise・effectiveH・feed-gen のランダム選出が決定論化。
+- **core 3 箇所を注入化**: `srs-engine.js` `_applySeedNoise`・`models.js` `effectiveH`・`feed-generator.js`（mastered の種別選出・`_pickRandom`）を `cfg.rng ?? Math.random` 経由に。
+- **`sim/virtual-learner.js`**: `this.rng = config.rng ?? Math.random` を追加し全 `Math.random`（正誤コイン投げ・dictation/handwrite 分岐・slip/guess・綴り解決）を `this.rng()` に。`_hFactor`（語ごと能力）は従来どおり seed 非依存の sin ハッシュ（確率変数でなく固定属性）。
+- **`sim/sim-runner.js`**: `runSimulation` が `configOverrides.seed` を受け、`policy`/`learner` を独立ストリームに固定（未指定なら従来の Math.random）。
+- **`scripts/verify_seed_noise.js`（参照実装に改修）**: `runOnce(featureOn, masterSeed)`。trial k は `masterSeed=SEED_BASE+k` で **OFF/ON が learner ストリーム（最大の分散源＝正誤コイン投げ）を共有＝CRN**。`policy` は別系統なので seedNoise の追加消費が learner をずらさない。**ペア統計**（`on[k]−off[k]` の差分系列の平均と SE）を本命表示にし独立サンプリングは参考併記。**seed/config/commitSHA/全試行生データ/集計を JSON 保存**（`scripts/results/seed_noise_*.json`）。
+
+**CRN の本質的限界（正直に明記）**: seedNoise は h を変え→ due 順を変え→カード列が分岐するため、CRN は早期軌道のみ強相関させる（軌道分岐後は learner 抽選の対応が崩れる）。逐次適応系の CRN の限界で、それでも learner ストリーム共有が run 間分散の大部分を相殺する。より頑健にするには learner 乱数を `(wordId, reviewCount)` でハッシュ凍結する手があるが今回は未実施（将来の任意拡張）。
+
+**検証**: ①同一 seed → 完全一致（小数まで）②異 seed → 異結果（乱数有効）③seed なし → 従来挙動 + 既定 sim 回帰なし（3回平均 Day30 103/Day60 187/Day90 264＝基準 ~99/~181/~264 の run間ノイズ内）④全 core/sim/verify が `node --check` 通過。播種ノイズの効果方向も既存知見（ON で mastered↑・真に覚↑・バイアス↓＝genuine）と整合。
+
+**残（任意・未実施）**: 他の verify/diag スクリプト（`verify_deltat_calibration`・`verify_due_sampling`・`verify_oracle`・`verify_adaptive_floor_matrix`・`diag_adaptive_cliff`）は依然 Math.random フォールバックで**動作はするが非決定的**。同じ seeded+CRN パターンへ順次移行すると全検証が再現可能になる。GPT レビュー残項目: #2 実イベントログ（選択肢B＝既知）・#3 sim での handwrite 加点の扱い・LICENSE 追加・語彙データ人間監査。memory `[[project-determinism-crn]]`。
+
 ---
 
 ## 2026-06-18 修正ログ

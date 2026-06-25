@@ -208,7 +208,8 @@ export class FeedGenerator {
     if (word.stage === 'mastered') {
       if (pool === 'urgent') return 'dictation';
       const variants = ['recognition', 'recall', 'dictation', 'passive'];
-      return variants[Math.floor(Math.random() * variants.length)];
+      const rng = cfg.rng ?? Math.random;
+      return variants[Math.floor(rng() * variants.length)];
     }
 
     switch (word.stage) {
@@ -362,10 +363,11 @@ export class FeedGenerator {
   // -------------------------------------------------------
   _pickRandom(arr, n) {
     if (n >= arr.length) return [...arr];
+    const rng = this.config.rng ?? Math.random;
     const copy = [...arr];
     const result = [];
     for (let i = 0; i < n; i++) {
-      const idx = Math.floor(Math.random() * copy.length);
+      const idx = Math.floor(rng() * copy.length);
       result.push(copy.splice(idx, 1)[0]);
     }
     return result;

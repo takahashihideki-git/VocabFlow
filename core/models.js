@@ -58,7 +58,8 @@ export class WordState {
   effectiveH(currentTime, config) {
     if (this.h <= 0) return this.h;
     const w = this.uncertaintyWidth(currentTime, config);
-    const noise = 1 + (Math.random() * 2 - 1) * w; // [1-w, 1+w] の一様乱数
+    const rng = config.rng ?? Math.random;
+    const noise = 1 + (rng() * 2 - 1) * w; // [1-w, 1+w] の一様乱数
     return this.h * noise;
   }
 

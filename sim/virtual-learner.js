@@ -65,6 +65,12 @@ export class VirtualLearner {
     this.dsrSpacing = config.dsrSpacing ?? 1.0;            // 間隔感度（e^(spacing·(1−R)) の凸性）
     this.dsrLapse = config.dsrLapse ?? 0.3;               // 失敗時の安定度減衰
 
+    // 乱数源（再現性 + CRN・core/rng.js）。既定 Math.random ＝従来挙動。検証スクリプトからは
+    // deriveRng(masterSeed,'learner') を注入する。これは「環境」（正誤コイン投げ等）の最大の
+    // 分散源で、ペア比較では ON/OFF で同一 seed を共有して run 間分散を相殺する（CRN の主レバー）。
+    // _hFactor は seed 非依存の sin ハッシュのまま（語ごと能力は確率変数でなく固定属性）。
+    this.rng = config.rng ?? Math.random;
+
     this._hFactorCache = new Map();
     this._trueH = new Map();      // wordId → 真の半減期（システムの h とは独立）
     this._trueLastT = new Map();  // wordId → 真の記憶での最終復習時刻（日数）
@@ -212,17 +218,17 @@ export class VirtualLearner {
       handwrite:    0.75,
     };
     const adjustedP = Math.min(1.0, trueP * (difficultyMod[cardType] ?? 1.0));
-    const isCorrect = Math.random() < adjustedP;
+    const isCorrect = this.rng() < adjustedP;
 
     let result;
     if (!isCorrect) {
       result = 'wrong';
     } else if (cardType === 'dictation') {
-      const r = Math.random();
+      const r = this.rng();
       if (r < 0.70) result = 'perfect';
       else result = this._resolveSpelling(r < 0.85 ? 'near_miss' : 'phonetic');
     } else if (cardType === 'handwrite') {
-      const r = Math.random();
+      const r = this.rng();
       if (r < 0.60) result = 'perfect';
       else if (r < 0.80) result = 'correct_messy';
       else if (r < 0.92) result = this._resolveSpelling('near_miss');
@@ -239,8 +245,8 @@ export class VirtualLearner {
     // - guess: 本当は不正解（result=wrong）なのに 'perfect' と観測される
     if (this.slipRate > 0 || this.guessRate > 0) {
       if (result !== 'wrong') {
-        if (Math.random() < this.slipRate) return 'wrong';
-      } else if (Math.random() < this.guessRate) {
+        if (this.rng() < this.slipRate) return 'wrong';
+      } else if (this.rng() < this.guessRate) {
         return 'perfect';
       }
     }
@@ -252,6 +258,6 @@ export class VirtualLearner {
   // エンジンには終端結果のみ渡るため、sim と app が同じ h 更新経路を通る。
   _resolveSpelling(kind) {
     const fixRate = kind === 'near_miss' ? this.nearMissFixRate : this.phoneticFixRate;
-    return Math.random() < fixRate ? 'perfect' : 'wrong';
+    return this.rng() < fixRate ? 'perfect' : 'wrong';
   }
 }
