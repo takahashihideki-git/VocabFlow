@@ -104,7 +104,9 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 - **反証**: 製品の実定義 mastered では **greedy が全 12 セルで圧勝**。フロアは崖を消さず mastered をむしろ下げる（導入は増えるが avgH をさらに薄める＝沈む船に水を注ぐ）。決定指標は **avgH**（greedy 60-94 深く成熟／全 adaptive 0.8-4.5 浅く凍結）。adaptive がべき則で genuine 929 と「勝つ」のは遅い忘却下の浅い大量導入の retain アーティファクト。
 - **結論**: 崖は throttle 過剰の症状でなく **success ゲート型 reserve が容量限界下で早期過剰導入→成熟阻害する構造問題**。フロアでは塞げない。**adaptive-success（フロア有無問わず）不採用で確定・greedy 維持**。`adaptiveNewFloor`/`adaptiveNew`/`reserveNewSlots` は gated 既定オフのまま残置。真のカーブの実データ確認（低成功率層を含む実機 A/B）だけが将来の唯一の審判（§11 の結論は不変）。memory `[[project-memory-core-investigation]]`・`[[feedback-pct-oracle-hides-absolute]]`。
 
-**未デプロイ**: sim 検証のみ（gated・既定オフ）。実アプリ挙動は不変。
+**取り込み・デプロイ**: 記憶コア検証の全コミット（`srs/seed-noise-deltat-gain`・Ebisuプロト〜フロア反証）を `main` に **fast-forward マージ済み・origin/main へ push 済み**（`99f6d6f`）。ブランチはリモート残置（gated 系譜の温存）。あわせて README に「記憶コアは支配的レバーではない」章・spec §4.2 に予約型変種の不採用と過剰復習税を反映。**デプロイ不要**＝変更はすべて gated・既定オフ + 文書/検証スクリプトのみで、`deploy.sh` 転送対象（`app/`+`core/`）の本番挙動は不変（本番は `memoryCore='hlr'`+greedy+deltaTGain+seedNoise のまま）。
+
+**記憶コア沼はクローズ**。次の一手は製品の別面、または将来「現実=べき則」を実データで確証する選択肢B（復習イベントログの instrumentation・§13）。過剰復習＝危険側（review wall）で、真のカーブは実機の復習ログでのみ決着＝上級ドッグフーダーには見えない層3。
 
 ---
 
