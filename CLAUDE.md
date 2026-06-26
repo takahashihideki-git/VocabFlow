@@ -1231,6 +1231,7 @@ EOF
 ```
 VocabFlow/
 ├── README.md             # プロジェクト入口（概要・起動方法・構成。人間向け）
+├── GLOSSARY.md           # 用語集（SRS・実験・独自命名）。新略語/造語は使う前にここへ1行追加する運用
 ├── spec.md               # SRS仕様書 v3（必読）
 ├── spec.md.bk20260330    # v2 バックアップ
 ├── word-data-spec.md     # 単語データ仕様
