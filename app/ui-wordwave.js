@@ -119,8 +119,13 @@ export class WordWaveRenderer {
 
   _updateWaveCleared(waveNumber) {
     const cleared = this._isWaveCleared(waveNumber);
+    // クリア解除中: 過去に一度クリアした（everClearedWaves）が、降格で今は未達。
+    // 金ラベルを剥がし ⚠ 破線に。旧 h ベースの色では降格語が深部マスター風に見えて
+    // クリア解除が隠れていた（例: patient h=40 dictation 止まりで Wave1 が金のまま）。
+    const ever = (this.state.everClearedWaves || []).includes(waveNumber);
     this.overlay.querySelectorAll(`.ww-wave-label[data-wave="${waveNumber}"]`).forEach(el => {
       el.classList.toggle('cleared', cleared);
+      el.classList.toggle('revoked', ever && !cleared);
     });
   }
 
@@ -194,7 +199,17 @@ export class WordWaveRenderer {
   _applyColor(span, word) {
     span.classList.remove(...WW_TIER_CLASSES);
     span.classList.add(getTierClass(word));
-    span.classList.toggle('mastered', word.stage === 'mastered');
+    const isMastered = word.stage === 'mastered';
+    span.classList.toggle('mastered', isMastered);
+    // マスター済みを 2 状態に分岐（色＝確認された記憶「強度」→「現在の想起可能性」へ）:
+    //   復習待ち（due）＝記憶が半減し復習ライン（pRecall < targetRetention）を割った＝泡リングで浮上
+    //   安定（dormant）＝まだ復習ライン下に沈んでいる＝文字を落として休眠（深海で眠る）
+    // 未マスター（学習中）はここに入らず、底の波（frontier ripple）で「まだ水面」を示す。
+    const cfg = this.state.config;
+    const due = isMastered && cfg &&
+      word.pRecall(this.state.currentTime) < cfg.targetRetention;
+    span.classList.toggle('ww-word--due', !!due);
+    span.classList.toggle('ww-word--dormant', isMastered && !due);
   }
 
   // 波の先端: 未学習との境目（最後の学習済語）から遡って、非定着
@@ -230,16 +245,25 @@ export class WordWaveRenderer {
     const maxWave  = words.reduce(
       (max, w) => w.stage !== 'new' ? Math.max(max, w.waveNumber) : max, 1
     );
-    const hVals = words.filter(w => w.h > 0).map(w => w.h);
-    const avgH  = hVals.length > 0
-      ? Math.round(hVals.reduce((a, b) => a + b, 0) / hVals.length) : 0;
+    // マスターを 2 分岐: 安定（復習ライン下に沈黙）/ 復習待ち（半減して浮上）。
+    // avgH は熟達すると飽和して無意味化するため撤去（色チャネルが死ぬのと同根）。
+    const cfg = this.state.config;
+    const t   = this.state.currentTime;
+    const dueMastered = cfg
+      ? words.filter(w => w.stage === 'mastered' && w.pRecall(t) < cfg.targetRetention).length
+      : 0;
+    const stable = mastered - dueMastered;
 
     const statsEl = this.overlay.querySelector('#wordwave-stats');
     if (statsEl) {
+      const L = LABELS.wordwave;
       statsEl.innerHTML =
-        `<span>学習: <b>${learned}/${total}</b></span>` +
-        `<span>定着: <b>${mastered}</b></span>` +
-        `<span>${LABELS.params.avgH}: <b>${formatH(avgH)}</b></span>`;
+        `<span>${L.reached}: <b>${learned}/${total}</b></span>` +
+        `<span class="ww-stat-mastered">${L.mastered}: <b>${mastered}</b></span>` +
+        `<span class="ww-stat-sub">` +
+          `<span class="ww-stat-stable">${L.stable} <b>${stable}</b></span>` +
+          `<span class="ww-stat-due">${L.reviewWait} <b>${dueMastered}</b></span>` +
+        `</span>`;
     }
 
     const waveEl = this.overlay.querySelector('#wordwave-wave');
@@ -276,26 +300,34 @@ export class WordWaveRenderer {
         // --- 潮の状態（足元のリズム）→ 水位・波の荒さ/向きにマッピング ---
         const tide  = this._computeTide();
         const state = tide ? tide.state : 'slack';
+        const cfg   = this.state.config;
         let tideInner;
+        // 引き潮の水位を「満ち潮までの距離」で連続化: 復習需要が重いほど低い水位
+        // （旧: ebb は一律 52%。これだと需要 20 でも 107 でも同じ見た目でハードルが見えなかった）
+        let lvlStyle = '';
         if (state === 'flood') {
           tideInner = `<span class="wave-icon"></span> いまは満ち潮 — 新しい単語が次々と入ってくる時期です`;
-        } else if (state === 'ebb') {
-          // 復習の山を学習者のセッションペースで消化したら満ち潮が戻る、と外挿
-          let forecast = '';
-          const cfg = this.state.config;
-          const sessionPace = currentDay >= 1
-            ? this.state.sessionsCompleted / currentDay : 0;
-          if (sessionPace > 0 && this.state.sessionsCompleted >= 3) {
-            const excess   = tide.reviewDemand - (cfg.sessionSize - tide.floodSlots);
-            const daysLeft = excess / (sessionPace * cfg.sessionSize);
-            if (daysLeft < 0.75) {
-              forecast = ` <b>まもなく満ち潮に変わります。</b>`;
-            } else {
-              const d = Math.round(daysLeft);
-              forecast = ` <b>次の満ち潮は約${d}日後（Day ${Math.round(currentDay + d)} 頃）です。</b>`;
-            }
+        } else if (state === 'ebb' && tide) {
+          // 正直予測: 「待てば満ちる」ではなく「復習を片づけると満ちる」。
+          // 主＝作業量（あとN語・約Mセッション）、従＝直近実測ペースの日数（減らなければ明示）。
+          const hurdle   = tide.hurdle;
+          const sessions = Math.max(1, Math.ceil(hurdle / cfg.sessionSize));
+          const netDrain = tide.throughput - tide.influx;   // 1日あたり正味の消化（湧き水を差引）
+          let cal;
+          if (netDrain > 0.5) {
+            const d = Math.max(1, Math.round(hurdle / netDrain));
+            cal = `（現ペースだと約${d}日）`;
+          } else {
+            cal = `（現ペースでは復習待ちが減りません — 1日の学習量を増やすと満ちます）`;
           }
-          tideInner = `🐚 いまは引き潮 — 覚えた単語の定着を固める時期です。${forecast}`;
+          tideInner = `🐚 いまは引き潮 — 復習待ち <b>${tide.reviewDemand}語</b>。`
+            + `<span class="ww-tide-hurdle">満ち潮まで あと約${hurdle}語（約${sessions}セッション）</span>${cal}`;
+          // 連続水位: 需要 floodThresh(=17) で満ち潮直前(60%)、深い渋滞(3セッション超)で 44%
+          const floodThresh = cfg.sessionSize - tide.floodSlots;
+          const deepDemand  = cfg.sessionSize * 3;
+          const prog = Math.min(1, Math.max(0,
+            (deepDemand - tide.reviewDemand) / (deepDemand - floodThresh)));
+          lvlStyle = ` style="--lvl:${(44 + 16 * prog).toFixed(0)}%"`;
         } else {
           tideInner = `🌙 いまは凪 — 復習も新語もおだやかな時期です`;
         }
@@ -316,7 +348,7 @@ export class WordWaveRenderer {
         // --- 一枚の水中シーンに組み立て ---
         const P = 'M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z';
         paceEl.innerHTML =
-          `<div class="ww-tide-scene ww-tide--${state}">` +
+          `<div class="ww-tide-scene ww-tide--${state}"${lvlStyle}>` +
             `<div class="ww-tide-water"></div>` +
             `<svg class="ww-tide-waves" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto" xmlns="http://www.w3.org/2000/svg">` +
               `<defs><path id="ww-tide-wave" d="${P}"/></defs>` +
@@ -353,7 +385,11 @@ export class WordWaveRenderer {
     const rf = Math.log2(1 / cfg.targetRetention);
     const activeSet = new Set(this.state.activeWaves);
 
-    let skipped = 0, urgent = 0, due = 0, newAvail = 0;
+    // 正直予測の材料も同時に集める:
+    //   influx      = 明日 due になる学習済語数（optimalNextReview ∈ (t, t+1]）＝復習の湧き水
+    //   recentDone  = 直近 RK 日に触れた学習済語数 → 実処理速度 throughput（生涯平均でなく直近実測）
+    const RK = 7, winStart = t - RK;
+    let skipped = 0, urgent = 0, due = 0, newAvail = 0, influx = 0, recentDone = 0;
     for (const w of this.state.words) {
       if (w.excluded) continue;
       if (w.skipped)  { skipped++; continue; }
@@ -361,6 +397,10 @@ export class WordWaveRenderer {
         if (activeSet.has(w.waveNumber)) newAvail++;
         continue;
       }
+      // 学習済語（optimalNextReview は pRecall=targetRetention の交点＝全 stage 共通）
+      const optimalNextReview = w.lastReviewed + (w.h > 0 ? w.h * rf : 0);
+      if (w.lastReviewed > winStart) recentDone++;
+      if (optimalNextReview > t && optimalNextReview <= t + 1) influx++;
       const p = w.pRecall(t);
       if (w.stage === 'mastered') {
         if (p < 0.5) urgent++;
@@ -368,7 +408,6 @@ export class WordWaveRenderer {
         continue;
       }
       if (p < 0.5) { urgent++; continue; }
-      const optimalNextReview = w.lastReviewed + (w.h > 0 ? w.h * rf : 0);
       if (t >= optimalNextReview) due++;
     }
 
@@ -385,7 +424,11 @@ export class WordWaveRenderer {
     else if (reviewDemand >= cfg.sessionSize - (floodSlots - 1)) state = 'ebb';
     else state = 'slack';
 
-    return { state, reviewDemand, newSlots, floodSlots };
+    // 満ち潮に必要な残り復習量（作業量・語）と直近実測の消化速度
+    const hurdle     = Math.max(0, reviewDemand - (cfg.sessionSize - floodSlots));
+    const throughput = recentDone / Math.min(RK, Math.max(1, t));  // 語/日（直近実測）
+
+    return { state, reviewDemand, newSlots, floodSlots, influx, throughput, hurdle };
   }
 
   // -------------------------------------------------------

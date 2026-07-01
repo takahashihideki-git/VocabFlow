@@ -1108,6 +1108,29 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 }
 
 #wordwave-stats b { color: var(--text); font-weight: 600; }
+/* マスター＝深海に沈んだ箱のドット（グリッドの mastered クリーン箱に対応） */
+#wordwave-stats .ww-stat-mastered::before {
+  content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  margin-right: 4px; vertical-align: middle; position: relative; top: -1.5px;
+  background: #1B2E66; box-shadow: 0 0 0 1px #33417a inset;
+}
+/* マスターの内訳（安定/復習待ち）＝一段下げた副統計。復習待ちは泡色で浮上を予告 */
+#wordwave-stats .ww-stat-sub { display: inline-flex; gap: 12px; align-items: center; }
+#wordwave-stats .ww-stat-sub { padding-left: 2px; }
+#wordwave-stats .ww-stat-stable b { color: #9fb6e0; }
+#wordwave-stats .ww-stat-due b { color: #CFEFFB; }
+/* 安定＝沈んで眠る深海の実ドット（グリッドの休眠と対応） */
+#wordwave-stats .ww-stat-stable::before {
+  content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  margin-right: 4px; vertical-align: middle; position: relative; top: -1.5px;
+  background: #244F9E;
+}
+/* 復習待ち＝浮上を予告する泡リングのドット（グリッドの due リングと対応） */
+#wordwave-stats .ww-stat-due::before {
+  content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
+  margin-right: 4px; vertical-align: middle; position: relative; top: -1.5px;
+  background: #1B2E66; box-shadow: 0 0 0 1.4px #CFEFFB, 0 0 5px rgba(207,239,251,0.7);
+}
 
 #wordwave-wave,
 #wordwave-time {
@@ -1252,6 +1275,15 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   box-shadow: 0 0 6px rgba(247,215,116,0.6);
 }
 
+/* クリア解除中: 過去にクリアしたが降格で今は未達（everCleared かつ現在は非クリア）。
+   金の塗りを剥がし ⚠ 破線に＝「一度沈めたが浮いてきた」を正直に表示。 */
+.ww-wave-label.revoked {
+  color: #e6b94a;
+  background: rgba(230,185,74,0.08);
+  border: 1px dashed rgba(230,185,74,0.5);
+}
+.ww-wave-label.revoked::after { content: ' ⚠'; font-size: 0.85em; }
+
 .ww-wave-group {
   display: inline;
 }
@@ -1334,6 +1366,19 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 .ww-word--t3 { background-color: #2566AC; color: #eaf4ff; }
 .ww-word--t4 { background-color: #244F9E; color: #eaf4ff; }
 .ww-word--t5 { background-color: #1B2E66; color: #dbe6ff; }
+
+/* ===== マスター済みの 2 状態（色＝現在の想起可能性）=====
+   色チャネルは熟達者では h ティアが飽和して死ぬ（大半が t5）。生きた信号は
+   「いま復習ラインの下にいるか」なので、それを主役の一覧性チャネルにする。 */
+/* 復習待ち（due）＝記憶が半減して浮上＝波頭の泡リング(#CFEFFB)。深さ色は残し膜で囲う。
+   #9FD8E8（出会いたて young）と衝突しない波頭クレスト色。box-shadow なので底の波(::after)と
+   描画レイヤーが別＝重なっても潰れない。 */
+.ww-word--due {
+  box-shadow: 0 0 0 1.4px #CFEFFB, 0 0 8px rgba(207,239,251,0.5);
+}
+/* 安定（dormant）＝まだ沈んで眠る＝文字を落として深海に沈黙。due(覚醒)との明暗差で
+   浮上した語だけが際立つ。tier より後に置き同 specificity で色を上書き。 */
+.ww-word--dormant { color: #5a6a99; }
 
 /* ===== Tide ＝ 水面から海底まで続く一枚の水中シーン =====
    潮の状態（満ち/引き/凪）＝水位 + 波の荒さ/向きで表現。
@@ -1427,6 +1472,8 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   color: #eaf4ff; text-shadow: 0 1px 3px rgba(0,0,0,0.7);
 }
 .ww-tide-line b { font-weight: 800; color: #9fe4d8; }
+/* 満ち潮までの残り作業量（あとN語・Mセッション）＝正直予測の主軸。泡色で強調 */
+.ww-tide-line .ww-tide-hurdle { color: #CFEFFB; font-weight: 700; }
 .ww-goal-line {
   position: absolute; bottom: 9px; left: 12px; right: 12px; z-index: 4;
   font-size: 0.76rem; line-height: 1.4;

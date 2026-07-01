@@ -73,6 +73,13 @@ export const LABELS = {
     learnedCount: '学習済み語数',
     activeWaves: '現在のWave',
     excluded: '除外',
+    // ヘッダ統計の階層（哲学: 「定着」＝完了ではない。到達→マスター→安定/復習待ち）
+    // 到達＝波として到達（学習開始）した語 / マスター＝mastered ステージ到達（耐久マイルストン）
+    // 安定＝マスターかつ復習ライン下に沈んでいる / 復習待ち＝マスターだが記憶が半減し浮上した
+    reached: '到達',
+    mastered: 'マスター',
+    stable: '安定',
+    reviewWait: '復習待ち',
   },
   heatmap: {
     unlearned: '未学習',
