@@ -77,6 +77,32 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-07-01 作業ログ
+
+### Word Wave 再設計: マスターを安定/復習待ちに二分・due 泡リング・休眠ディム・クリア解除⚠・Tide 正直予測（commit `288f47a`・push 済・**未デプロイ**）
+
+ドッグフーディングの持ち込み state（`vocabflow-state-day84-2026-07-01.json.gz`・Day84・到達659/マスター657）から出た訴え「ここ1週間、次の満ち潮が1〜2日後と言われ続けて一向に満ちない」を起点に、Word Wave 画面を再設計。**SRS ロジックは一切不変**（可視化＋表示予測のみ）。
+
+**根本原因（day84 分析）**: 熟達者の**復習飽和（review wall）**。マスター657語から毎日 ~17語が due に落ちる湧き水があり、いま復習待ち107語（=`reviewDemand`）が毎セッション20枠を食い尽くし `newSlots=0` → Wave7 の未学習41語が永久凍結。旧 Tide 予測「次の満ち潮は約1日後」は **①生涯平均セッションペース(4.67)で外挿 ②バックログを一度きりの山とみなす** の二重の不正直で、湧き水が補充される定常状態では毎日「1〜2日」を出し続けていた。
+
+**発見（再設計の核）**: **色を h だけで塗ると熟達者では h ティアが飽和して色チャネルが死ぬ**（day84 は学習済の97%=t5・due 107語のうち104語が t5＝濃紺に埋もれて見えない）。h は「安定性」であって「いまの想起可能性」ではない。生きた信号は due か否か。stage と h の乖離の実例＝`patient`(h=39.94 だが dictation 止まりで未マスター)・`medicine` の2語だけが未マスター（＝frontier ripple はこの2語まで痩せている）。旧 h 色ではこの2語が深部マスター風に見え、**Wave1/2 のクリア解除が隠れていた**。
+
+**実装（`ui-wordwave.js`/`app.css`/`core/labels.js`/`spec.md`§5.2/`ui-labels-spec.md`§4）**:
+- **グリッド 3 状態**（`_applyColor`）: マスター済みを **復習待ち(due, `pRecall<targetRetention`)=波頭の泡クレスト #CFEFFB の輪郭リング（box-shadow・底の波と描画レイヤー別・#9FD8E8 young と非衝突）** と **安定(dormant)=文字ディム #5a6a99 で休眠** に二分。未マスターは従来どおり frontier ripple（`ww-word--active` の底の波）。→ **眠る深海(安定)／泡リングで浮上(復習待ち)／先端で生きる波(未マスター)** の三層。
+- **ヘッダ**（`_updateStats`）: 「学習/定着/平均h」→ **到達659/1900 → マスター657（安定551・復習待ち106）**。飽和して無意味な avgH 撤去。各統計にグリッド対応のドット（マスター=沈んだ箱・安定=深青・復習待ち=泡リング、`position:relative;top:-1.5px` でテキストと整列）。ヘッダのタイトルは現行の「Word Wave  Wave N  Day M」一体配置を維持（ユーザー指定＝一望性）。
+- **クリア解除**（`_updateWaveCleared`）: `everClearedWaves` にあるが現在未達の Wave を金剥がし **⚠ 破線**（`.ww-wave-label.revoked`）に。day84 では Wave1(patient)・Wave2(medicine) が解除中・金は Wave3-6。
+- **Tide 正直予測**（`_computeTide`/pace section）: 主軸=作業量「満ち潮まで あと約N語（約Mセッション）」（N=`reviewDemand−(sessionSize−3)`）、従=直近実測 `netDrain = throughput(直近7日で触れた語/日) − influx(翌日 due になる語/日)` の日数（`netDrain≤0` なら「現ペースでは復習待ちが減りません」と明示）。引き潮の**水位を復習需要で連続化**（旧一律52%→需要が重いほど低くハードルを可視化）。本番の波アニメ（向き+速さ）はそのまま。
+
+**検証**: day84 実データを `LearnerState.fromJSON` で本番 `WordWaveRenderer`+`app.css` に流し headless 描画で全要素確認（ヘッダ階層・3状態・patient/medicine の ripple・Wave1/2⚠・Tide「復習待ち107語・あと約90語(約5セッション)(現ペースだと約4日)」）。sim 回帰なし（D90 定着255＝baseline 範囲内）。
+
+**進め方**: 全編モックファースト（`app/wordwave-redesign-mock.html`・gitignore/deploy-exclude 済）。ユーザーの catch で数回手戻り＝young/due 色衝突(#9FD8E8同一→#CFEFFB泡クレストへ)・Tide は本番の「波の向き+速さ」言語を使うべき・SVG url のエスケープ壊れで波が全消え・クリア解除は everCleared でなく現在クリアで計算。モックで形を確定してから本番へ、を徹底。
+
+**残（follow-up）**: **Wave Heatmap 俯瞰バー（`ui-heatmap.js`）の due 反映は未実装**。due は時間依存で `hColor` に `currentTime/config` を通す配線が 3 コンストラクタ+5 render に及び、圧縮バーの微小スペックルに対し回帰リスクが不釣り合いのため今回は見送り（young/泡ゲートは既に両画面共通）。小さな独立変更として将来対応（spec §5.2 に明記）。
+
+**デプロイ**: 未実施。`deploy.sh` 転送対象（`app/`+`core/`）なので本番反映には `bash scripts/deploy.sh` が必要（挙動は可視化のみ・SRS 不変）。ドッグフーダー本人は語を既知でペースが速いが、Day84 で review wall に到達しており、この可視化は当人に効く。
+
+---
+
 ## 2026-06-24 作業ログ
 
 ### 公開リポジトリ化 + 記憶コア大検証（Ebisu/DSR/対オラクル/適応導入）
