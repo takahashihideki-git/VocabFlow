@@ -333,8 +333,17 @@ export class WordWaveRenderer {
         }
 
         // --- 全Wave クリア予測（遠くの目的地・海底に沈める） ---
+        // Tide の正直予測と整合させる: 引き潮で復習待ちが減らない（netDrain≤0）＝新語が入らない
+        // ＝マスターが伸びない＝現ペースでは到達しない。生涯平均 masteredNow/currentDay で
+        // 楽観外挿すると「復習は減らないが156日で全クリア」という自己矛盾になる（Tide と同じ不正直）。
+        const netDrain = tide ? tide.throughput - tide.influx : 1;
+        const stalled  = state === 'ebb' && netDrain <= 0.5;
         let goalInner;
-        if (masteredNow < 10 || currentDay < 1) {
+        if (stalled) {
+          // Tide 行が既に「復習待ちが減りません — 復習を崩せ」と言うため、全Wave 予測は出さない
+          // （出すと同じ趣旨の繰り返し＋生涯平均での楽観外挿は自己矛盾になる）。
+          goalInner = '';
+        } else if (masteredNow < 10 || currentDay < 1) {
           goalInner = `<span class="ww-pace-waiting">定着語が増えると 全Wave クリアまでの予測が表示されます</span>`;
         } else {
           const pace     = masteredNow / currentDay;
@@ -362,7 +371,7 @@ export class WordWaveRenderer {
             `<span class="ww-tide-bubble"></span><span class="ww-tide-bubble"></span><span class="ww-tide-bubble"></span>` +
             `<div class="ww-sea-floor"></div>` +
             `<div class="ww-tide-line">${tideInner}</div>` +
-            `<div class="ww-goal-line">${goalInner}</div>` +
+            (goalInner ? `<div class="ww-goal-line">${goalInner}</div>` : '') +
           `</div>`;
       }
     }

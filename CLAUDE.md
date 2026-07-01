@@ -91,7 +91,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 - **グリッド 3 状態**（`_applyColor`）: マスター済みを **復習待ち(due, `pRecall<targetRetention`)=波頭の泡クレスト #CFEFFB の輪郭リング（box-shadow・底の波と描画レイヤー別・#9FD8E8 young と非衝突）** と **安定(dormant)=文字ディム #5a6a99 で休眠** に二分。未マスターは従来どおり frontier ripple（`ww-word--active` の底の波）。→ **眠る深海(安定)／泡リングで浮上(復習待ち)／先端で生きる波(未マスター)** の三層。
 - **ヘッダ**（`_updateStats`）: 「学習/定着/平均h」→ **到達659/1900 → マスター657（安定551・復習待ち106）**。飽和して無意味な avgH 撤去。各統計にグリッド対応のドット（マスター=沈んだ箱・安定=深青・復習待ち=泡リング、`position:relative;top:-1.5px` でテキストと整列）。ヘッダのタイトルは現行の「Word Wave  Wave N  Day M」一体配置を維持（ユーザー指定＝一望性）。
 - **クリア解除**（`_updateWaveCleared`）: `everClearedWaves` にあるが現在未達の Wave を金剥がし **⚠ 破線**（`.ww-wave-label.revoked`）に。day84 では Wave1(patient)・Wave2(medicine) が解除中・金は Wave3-6。
-- **Tide 正直予測**（`_computeTide`/pace section）: 主軸=作業量「満ち潮まで あと約N語（約Mセッション）」（N=`reviewDemand−(sessionSize−3)`）、従=直近実測 `netDrain = throughput(直近7日で触れた語/日) − influx(翌日 due になる語/日)` の日数（`netDrain≤0` なら「現ペースでは復習待ちが減りません」と明示）。引き潮の**水位を復習需要で連続化**（旧一律52%→需要が重いほど低くハードルを可視化）。本番の波アニメ（向き+速さ）はそのまま。
+- **Tide 正直予測**（`_computeTide`/pace section）: 主軸=作業量「満ち潮まで あと約N語（約Mセッション）」（N=`reviewDemand−(sessionSize−3)`）、従=直近実測 `netDrain = throughput(直近7日で触れた語/日) − influx(翌日 due になる語/日)` の日数（`netDrain≤0` なら「現ペースでは復習待ちが減りません」と明示）。引き潮の**水位を復習需要で連続化**（旧一律52%→需要が重いほど低くハードルを可視化）。本番の波アニメ（向き+速さ）はそのまま。**停滞時（引き潮かつ `netDrain≤0.5`）は全Wave クリア予測を非表示**にする（`masteredNow/currentDay` の生涯平均で外挿すると「復習が減らないが156日で全クリア」の自己矛盾になるため。Tide 行の「復習を崩せ」に一本化＝繰り返し回避。2026-07-01 追修正）。
 
 **検証**: day84 実データを `LearnerState.fromJSON` で本番 `WordWaveRenderer`+`app.css` に流し headless 描画で全要素確認（ヘッダ階層・3状態・patient/medicine の ripple・Wave1/2⚠・Tide「復習待ち107語・あと約90語(約5セッション)(現ペースだと約4日)」）。sim 回帰なし（D90 定着255＝baseline 範囲内）。
 
