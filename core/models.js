@@ -2,6 +2,16 @@
 
 import { predictRecall as ebisuPredictRecall } from './ebisu.js';
 import { predictRecall as dsrPredictRecall } from './dsr.js';
+import { WORD_DATA } from './word-data.js';
+
+// wordId → 教材データ。保存 state は教材データを持たない（新形式）ため fromJSON で id 復元する。
+// fromJSON と同じファイル（＝新形式 toJSON と原子的にデプロイ）に置くことで、呼び出し側の
+// 配線漏れや app.js のキャッシュ不整合があっても全語が word_<id> に化けないよう自己修復する。
+let _wordDataById = null;
+function _resolveWordData(wordId) {
+  if (!_wordDataById) _wordDataById = new Map(WORD_DATA.map(w => [w.id, w]));
+  return _wordDataById.get(wordId);
+}
 
 export class WordState {
   constructor(wordId, word, waveNumber) {
@@ -170,13 +180,14 @@ export class LearnerState {
     };
   }
 
-  // resolveWord: (wordId) => 教材データオブジェクト。新形式セーブ（教材データ非保存）を
-  // WORD_DATA から復元するために app 層が渡す。未指定 or 旧形式（w.word 埋め込み）は
-  // フォールバックで従来どおり動く（後方互換）。
+  // 新形式セーブ（教材データ非保存）を wordId で復元する。復元の優先順:
+  //   ① resolveWord（app が明示注入する上書きフック・任意）
+  //   ② 内蔵 WORD_DATA（自己修復。呼び出し側が resolveWord を渡さなくても化けない）
+  //   ③ 旧形式セーブに埋め込まれた w.word（後方互換）
   static fromJSON(data, resolveWord = null) {
     const state = new LearnerState([], data.config);
     state.words = data.words.map(w => {
-      const wordData = (resolveWord && resolveWord(w.wordId)) ?? w.word;
+      const wordData = (resolveWord && resolveWord(w.wordId)) ?? _resolveWordData(w.wordId) ?? w.word;
       const ws = new WordState(w.wordId, wordData, w.waveNumber);
       Object.assign(ws, w);
       // 解決済みの正準な教材データを優先。旧セーブが凍結した古い教材データも最新に置き換わる。
