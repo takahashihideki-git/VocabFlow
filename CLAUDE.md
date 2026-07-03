@@ -79,6 +79,16 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 2026-07-03 作業ログ
 
+### 追補: fromJSON 自己修復ハードニング + Passive 発音ボタン（commit `224c655`/`e994892`・**デプロイ済**）
+
+上記 localStorage 根治（`f8090de`）のデプロイ後、Word Wave 画面で**全単語が `word_556` 等**で表示される事象が発生。原因は新形式セーブ（教材データ非保存）を **resolveWord を渡さずに読み込むと `WordState.wordString` が fallback `word_<id>` に化ける**鋭さで、実体は「新形式 localStorage × 旧 `app.js` キャッシュ（resolveWord 未注入）」の**キャッシュ不整合**（データは不変・化けるのは表示のみ）。再現で resolveWord 無し読み込み時に 1900/1900 が fallback、有り時は 0/1900 と確定。
+
+- **`core/models.js` を自己修復型に（`224c655`）**: `WORD_DATA` を内蔵し、`fromJSON` の復元優先順を **① resolveWord（app の明示上書き・任意）→ ② 内蔵 WORD_DATA（自己修復）→ ③ 旧埋め込み `w.word`（後方互換）**に。**新形式 toJSON と復元ロジックを同一ファイル（models.js）に置く**ことで両者は必ず一緒にデプロイ/キャッシュされ、`app.js` が古くても分裂しようがない（原子性で不整合を封じる）。`sim-runner.js` は既に `WORD_DATA` を import 済みなので sim への増加コストはゼロ。`app.js` の `resolveWord` は明示上書きとして残置（無害）。検証: 新形式を resolveWord 無しで読んでも fallback 0/1900・word 556 = `stereotype`。**教訓**: 保存フォーマット変更時は「復元に必要な外部配線」を最小化し、可能なら復元ロジックを保存ロジックと同一モジュールに閉じてキャッシュ分裂を封じる。memory `[[project-localstorage-persistence-fix]]` に追記。
+
+- **Passive カードに発音再生ボタン（`e994892`）**: Passive でも単語の発音を確認できるよう、Intro と同じ `.tts-btn`（アイコン＋「発音を聞く」）を**カード末尾**に配置（`app/ui-cards.js` `_renderPassive`・passive データなしフォールバック分岐にも）。タップで単語を読み上げ、**passive は流し読みのため自動再生はしない**（カード遷移の `speechSynthesis.cancel()` で高速スワイプ時にブツ切れになるのを避ける）。`id=passive-tts-btn` で Intro の `#tts-btn` と非衝突。履歴ビューも同経路で再生可（無害）。`.passive-scroll` は flex 縦なので `.tts-btn` の `align-self:flex-start` がそのまま効き既存スタイル流用（`app.css` 追加なし）。`style-mockup.html` の Passive 3種も末尾配置に同期。SRS 不変。UX 判断: 当初は単語ヘッダ右の丸アイコンだったが、ユーザー catch で ①Intro とスタイルを揃える → `.tts-btn` に ②Passive の存在意義（流し読み確認）からして末尾配置、と2段修正。
+
+---
+
 ### localStorage 上限張り付きを根治: 保存 state から教材データを排除（commit `f8090de`・**デプロイ済**）
 
 ドッグフーディングの訴え「ここ数セッション patient が dictation で出題され、そのたびに正解して『patient をマスターしました』トーストを見ているのに、debug.html では mastered になっていない」を起点に調査。**保存の永続化バグを根治**（SRS ロジック・sim は一切不変）。
