@@ -79,6 +79,15 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ## 2026-07-03 作業ログ
 
+### 追補2: Word Wave 文言/ラベル整理 + 「定着」→「マスター」全廃（commit `ad15024`・**デプロイ済**）
+
+ドッグフーディングの指摘起点で Word Wave 画面の表示を一連整理（**SRS ロジックは一切不変・表示のみ**）。7ファイル 1コミット。
+
+- **ヘッダ「復習待ち」とフッタ Tide の数字不一致（113 vs 114）を解消**: 両者は**別集合を同ラベルで数えていた**。ヘッダ `dueMastered`（`ui-wordwave.js:252`）= **mastered かつ pRecall<targetRetention** のみ（マスター内訳）。フッタ `_computeTide` の `reviewDemand`（:427）= **次セッションの復習総量** = skipped + urgent + due（マスター済due + **frontier未マスターdue**（patient/medicine 等）+ skipped）。∴ `reviewDemand ⊇ dueMastered`＝frontier語1つで off-by-one。**フッタの「復習待ちN語」を画面から削除**（reviewDemand は state 判定・hurdle 計算に内部使用のみ）。ヘッダを唯一の「復習待ち」表示に。**教訓: 同じ日本語ラベルで別集合を出すと不一致がバグに見える。**
+- **Tide 3状態を「見出し＋本文」に**: 「いまはX潮 — 意味の一文」を見出し、引き潮のみ hurdle 予測を本文（`.ww-tide-hurdle` を `display:block`・`font-size:0.9em`・`font-weight:normal`）で次行に。引き潮に意味文「学習した単語の記憶を定着させる時期です」を追加。**3状態とも絵文字/波アイコンを全廃**（🐚🌙・満ち潮の wave-icon）。引き潮本文は netDrain>0.5 で「あと約N語（約Mセッション／現ペースだと約D日）の復習が済むと潮が満ちて新語が到達」・停滞時は「現ペースでは減りません」と正直分岐。
+- **ヘッダのマスター内訳ラベルを対称化**: 非対称な「安定/復習待ち」→ 対称な **「記憶 〇強 / 〇弱」**（`labels.js` `memory:'記憶'`・`stable:'強'`・`reviewWait:'弱'`）。**`ww-stat-sub` を `ww-stat-mastered` の子要素**にし、`inline-flex`＋区切り線（border-left）で「マスターの内訳」と構造的に明示。マスター前の〇ドット（`.ww-stat-mastered::before`）を撤去。強＝深海ドット/弱＝泡リングドットは既存 `::before` を維持。
+- **製品UIの「定着」を全廃し「マスター」に統一**（習得マイルストンの呼称）。詳細・例外は memory `[[project-ui-master-terminology]]`。
+
 ### 追補: fromJSON 自己修復ハードニング + Passive 発音ボタン（commit `224c655`/`e994892`・**デプロイ済**）
 
 上記 localStorage 根治（`f8090de`）のデプロイ後、Word Wave 画面で**全単語が `word_556` 等**で表示される事象が発生。原因は新形式セーブ（教材データ非保存）を **resolveWord を渡さずに読み込むと `WordState.wordString` が fallback `word_<id>` に化ける**鋭さで、実体は「新形式 localStorage × 旧 `app.js` キャッシュ（resolveWord 未注入）」の**キャッシュ不整合**（データは不変・化けるのは表示のみ）。再現で resolveWord 無し読み込み時に 1900/1900 が fallback、有り時は 0/1900 と確定。
