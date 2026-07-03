@@ -132,7 +132,33 @@ export class LearnerState {
 
   toJSON() {
     return {
-      words: this.words,
+      // 永続化するのは可変の SRS 状態のみ。教材データ（w.word: meanings/examples/passive…）は
+      // core/word-data.js にハードコードされ起動時に必ずメモリに載るため保存不要で、読み込み時に
+      // wordId で再ハイドレートする。これで保存 blob から不変の教材データ（約3.8MB・全体の77%）を
+      // 排除し、localStorage 上限（~5MB）に張り付いて setItem が黙って失敗していた問題を根治する。
+      // mu/sigma/spellingFlag は model から削除済みの死にフィールドなので保存しない。
+      words: this.words.map(w => {
+        const rec = {
+          wordId: w.wordId,
+          waveNumber: w.waveNumber,
+          h: w.h,
+          peakH: w.peakH,
+          lastReviewed: w.lastReviewed,
+          stage: w.stage,
+          reviewCount: w.reviewCount,
+          correctCount: w.correctCount,
+          incorrectCount: w.incorrectCount,
+          stuckCount: w.stuckCount,
+          needsHandwrite: w.needsHandwrite,
+          skipped: w.skipped,
+          excluded: w.excluded,
+          passiveCursor: w.passiveCursor,
+        };
+        // 代替記憶コア（ebisu/dsr）使用時のみモデル状態を保存（HLR 本番は null なので省略）
+        if (w.ebisu != null) rec.ebisu = w.ebisu;
+        if (w.dsrS != null) rec.dsrS = w.dsrS;
+        return rec;
+      }),
       config: this.config,
       currentTime: this.currentTime,
       totalCardsConsumed: this.totalCardsConsumed,
@@ -144,11 +170,17 @@ export class LearnerState {
     };
   }
 
-  static fromJSON(data) {
+  // resolveWord: (wordId) => 教材データオブジェクト。新形式セーブ（教材データ非保存）を
+  // WORD_DATA から復元するために app 層が渡す。未指定 or 旧形式（w.word 埋め込み）は
+  // フォールバックで従来どおり動く（後方互換）。
+  static fromJSON(data, resolveWord = null) {
     const state = new LearnerState([], data.config);
     state.words = data.words.map(w => {
-      const ws = new WordState(w.wordId, w.word, w.waveNumber);
+      const wordData = (resolveWord && resolveWord(w.wordId)) ?? w.word;
+      const ws = new WordState(w.wordId, wordData, w.waveNumber);
       Object.assign(ws, w);
+      // 解決済みの正準な教材データを優先。旧セーブが凍結した古い教材データも最新に置き換わる。
+      if (wordData) ws.word = wordData;
       return ws;
     });
     state.currentTime = data.currentTime;

@@ -15,6 +15,11 @@ import { BackgroundManager }             from './ui-background.js';
 const IS_DEV = new URLSearchParams(location.search).has('dev');
 const STORAGE_KEY = IS_DEV ? 'vocabflow_state_dev_v1' : 'vocabflow_state_v1';
 
+// wordId → 教材データ。保存 state は教材データを持たない（core/word-data.js が正）ため、
+// localStorage 復元時に id からハイドレートする。
+const WORD_DATA_BY_ID = new Map(WORD_DATA.map(w => [w.id, w]));
+const resolveWord = (id) => WORD_DATA_BY_ID.get(id);
+
 // dev モード: 少数語 + 縮小 config で状態遷移・Wave 解放を素早く確認
 const DEV_WORD_COUNT = 9; // Wave 1〜3 × waveSize(3) = 9語
 const DEV_CONFIG = {
@@ -178,7 +183,7 @@ class VocabFlowApp {
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved) {
       try {
-        this.state = LearnerState.fromJSON(JSON.parse(saved));
+        this.state = LearnerState.fromJSON(JSON.parse(saved), resolveWord);
         this._migrateWaveSize(this.state);
         const { state } = this;
         document.getElementById('stat-learned').textContent = state.learnedCount;
@@ -702,8 +707,16 @@ class VocabFlowApp {
     this.state.savedAt = Date.now();
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(this.state.toJSON()));
+      this._saveFailed = false;
     } catch (e) {
-      console.warn('State save failed:', e);
+      // 保存失敗（多くは QuotaExceededError）を握りつぶすと、メモリ上は昇格・トーストが出るのに
+      // localStorage は古いまま＝進捗が消える（patient がマスターされ続けた事象の根本）。
+      // ユーザーに一度だけ可視化し、トースト連発は避ける（成功で再アーム）。
+      console.error('State save failed:', e);
+      if (!this._saveFailed) {
+        this._saveFailed = true;
+        this.showToast?.('⚠ 保存に失敗しました。学習の記録が残らない可能性があります（ストレージ空き容量を確認してください）');
+      }
     }
   }
 
