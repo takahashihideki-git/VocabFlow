@@ -259,10 +259,12 @@ export class WordWaveRenderer {
       const L = LABELS.wordwave;
       statsEl.innerHTML =
         `<span>${L.reached}: <b>${learned}/${total}</b></span>` +
-        `<span class="ww-stat-mastered">${L.mastered}: <b>${mastered}</b></span>` +
-        `<span class="ww-stat-sub">` +
-          `<span class="ww-stat-stable">${L.stable} <b>${stable}</b></span>` +
-          `<span class="ww-stat-due">${L.reviewWait} <b>${dueMastered}</b></span>` +
+        `<span class="ww-stat-mastered">${L.mastered}: <b>${mastered}</b>` +
+          `<span class="ww-stat-sub">` +
+            `<span class="ww-stat-sub-label">${L.memory}</span>` +
+            `<span class="ww-stat-stable">${L.stable} <b>${stable}</b></span>` +
+            `<span class="ww-stat-due">${L.reviewWait} <b>${dueMastered}</b></span>` +
+          `</span>` +
         `</span>`;
     }
 
@@ -306,22 +308,27 @@ export class WordWaveRenderer {
         // （旧: ebb は一律 52%。これだと需要 20 でも 107 でも同じ見た目でハードルが見えなかった）
         let lvlStyle = '';
         if (state === 'flood') {
-          tideInner = `<span class="wave-icon"></span> いまは満ち潮 — 新しい単語が次々と入ってくる時期です`;
+          tideInner = `いまは満ち潮 — 新しい単語が次々と入ってくる時期です`;
         } else if (state === 'ebb' && tide) {
-          // 正直予測: 「待てば満ちる」ではなく「復習を片づけると満ちる」。
-          // 主＝作業量（あとN語・約Mセッション）、従＝直近実測ペースの日数（減らなければ明示）。
+          // 正直予測: 「待てば満ちる」ではなく「復習を片づけると満ちる」。意味（定着の時期）を
+          // 先頭に、作業量（あとN語・約Mセッション・現ペースの日数）を続け、満ちる条件で結ぶ。
           const hurdle   = tide.hurdle;
           const sessions = Math.max(1, Math.ceil(hurdle / cfg.sessionSize));
           const netDrain = tide.throughput - tide.influx;   // 1日あたり正味の消化（湧き水を差引）
-          let cal;
+          let hurdleLine;
           if (netDrain > 0.5) {
             const d = Math.max(1, Math.round(hurdle / netDrain));
-            cal = `（現ペースだと約${d}日）`;
+            hurdleLine = `あと約${hurdle}語（約${sessions}セッション／現ペースだと約${d}日）`
+              + `の復習が済むと潮が満ちて新語が到達するようになります`;
           } else {
-            cal = `（現ペースでは復習待ちが減りません — 1日の学習量を増やすと満ちます）`;
+            // 停滞ケースは「約N日」を出せないため正直に別分岐（減らない旨を明示）
+            hurdleLine = `あと約${hurdle}語（約${sessions}セッション）の復習で潮が満ちますが、`
+              + `現ペースでは減りません — 1日の学習量を増やすと満ちます`;
           }
-          tideInner = `🐚 いまは引き潮 — 復習待ち <b>${tide.reviewDemand}語</b>。`
-            + `<span class="ww-tide-hurdle">満ち潮まで あと約${hurdle}語（約${sessions}セッション）</span>${cal}`;
+          // 「復習待ちN語」はヘッダの復習待ち（マスター内訳）と別集合なのに同ラベルで混乱の元
+          // だったため画面には出さない（reviewDemand は state 判定・hurdle 計算に内部使用のみ）。
+          tideInner = `いまは引き潮 — 学習した単語の記憶を定着させる時期です`
+            + `<span class="ww-tide-hurdle">${hurdleLine}</span>`;
           // 連続水位: 需要 floodThresh(=17) で満ち潮直前(60%)、深い渋滞(3セッション超)で 44%
           const floodThresh = cfg.sessionSize - tide.floodSlots;
           const deepDemand  = cfg.sessionSize * 3;
@@ -329,7 +336,7 @@ export class WordWaveRenderer {
             (deepDemand - tide.reviewDemand) / (deepDemand - floodThresh)));
           lvlStyle = ` style="--lvl:${(44 + 16 * prog).toFixed(0)}%"`;
         } else {
-          tideInner = `🌙 いまは凪 — 復習も新語もおだやかな時期です`;
+          tideInner = `いまは凪 — 復習も新語もおだやかな時期です`;
         }
 
         // --- 全Wave クリア予測（遠くの目的地・海底に沈める） ---
@@ -344,7 +351,7 @@ export class WordWaveRenderer {
           // （出すと同じ趣旨の繰り返し＋生涯平均での楽観外挿は自己矛盾になる）。
           goalInner = '';
         } else if (masteredNow < 10 || currentDay < 1) {
-          goalInner = `<span class="ww-pace-waiting">定着語が増えると 全Wave クリアまでの予測が表示されます</span>`;
+          goalInner = `<span class="ww-pace-waiting">マスター語が増えると 全Wave クリアまでの予測が表示されます</span>`;
         } else {
           const pace     = masteredNow / currentDay;
           const daysLeft = Math.round(remaining / pace);

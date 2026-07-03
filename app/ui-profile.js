@@ -255,7 +255,7 @@ export class ProfileRenderer {
       </div>
 
       <div class="pf-sec">
-        <div class="pf-sec-head"><h2>${L.overcameSection}</h2><span class="sub">かつて何度も座礁したが、今は定着した語</span></div>
+        <div class="pf-sec-head"><h2>${L.overcameSection}</h2><span class="sub">かつて何度も座礁したが、今はマスターした語</span></div>
         <div class="overcame">
           ${overcame.length
             ? overcame.map(w => `<span class="chip">${w.wordString}<span class="e">✗${w.incorrectCount}</span></span>`).join('')

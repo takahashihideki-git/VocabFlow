@@ -130,7 +130,7 @@ export class ReefDrill {
       <div class="drill-summary">
         <div class="drill-summary-title">特訓おつかれさまでした</div>
         <div class="drill-summary-score">${this._answered}語中 <b>${this._correct}</b>語 正解</div>
-        <div class="drill-summary-note">これは練習です。記憶強度・定着の記録は変わっていません。</div>
+        <div class="drill-summary-note">これは練習です。記憶強度・マスターの記録は変わっていません。</div>
         <div class="drill-summary-actions">
           <button class="btn-primary" id="drill-again">もう一度</button>
           <button class="btn-ghost" id="drill-done">閉じる</button>

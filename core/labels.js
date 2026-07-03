@@ -41,7 +41,7 @@ export const LABELS = {
     urgent: '要復習',
     due: '復習時期',
     new: '新語',
-    filler: '定着語',
+    filler: 'マスター語',
   },
   cardTypes: {
     intro: 'Intro',
@@ -69,17 +69,18 @@ export const LABELS = {
     timeForward3: '1週間後',
   },
   wordwave: {
-    masteredCount: '定着語数',
+    masteredCount: 'マスター語数',
     learnedCount: '学習済み語数',
     activeWaves: '現在のWave',
     excluded: '除外',
-    // ヘッダ統計の階層（哲学: 「定着」＝完了ではない。到達→マスター→安定/復習待ち）
+    // ヘッダ統計の階層（哲学: 「定着」＝完了ではない。到達→マスター→記憶:強/弱）
     // 到達＝波として到達（学習開始）した語 / マスター＝mastered ステージ到達（耐久マイルストン）
-    // 安定＝マスターかつ復習ライン下に沈んでいる / 復習待ち＝マスターだが記憶が半減し浮上した
+    // マスターの内訳を「記憶」の強弱で対称表示: 強＝復習ライン下に沈む安定語 / 弱＝記憶が半減し浮上した復習待ち
     reached: '到達',
     mastered: 'マスター',
-    stable: '安定',
-    reviewWait: '復習待ち',
+    memory: '記憶',
+    stable: '強',
+    reviewWait: '弱',
   },
   heatmap: {
     unlearned: '未学習',
@@ -87,8 +88,8 @@ export const LABELS = {
     practicing: '練習中',
     growing: '成長中',
     almost: 'もう少し',
-    nearMastered: 'ほぼ定着',
-    mastered: '定着',
+    nearMastered: 'ほぼマスター',
+    mastered: 'マスター',
     excluded: '除外',
   },
 };

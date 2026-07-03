@@ -1108,15 +1108,17 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
 }
 
 #wordwave-stats b { color: var(--text); font-weight: 600; }
-/* マスター＝深海に沈んだ箱のドット（グリッドの mastered クリーン箱に対応） */
-#wordwave-stats .ww-stat-mastered::before {
-  content: ''; display: inline-block; width: 7px; height: 7px; border-radius: 50%;
-  margin-right: 4px; vertical-align: middle; position: relative; top: -1.5px;
-  background: #1B2E66; box-shadow: 0 0 0 1px #33417a inset;
+/* マスターと、その内訳（記憶:強/弱）を一つのまとまりとして横並び（内訳は子要素） */
+#wordwave-stats .ww-stat-mastered { display: inline-flex; align-items: center; gap: 10px; }
+/* マスターの内訳（記憶:強/弱）＝マスター値に属する副統計。区切り線で内訳と示す。
+   弱（復習待ち）は泡色で浮上を予告 */
+#wordwave-stats .ww-stat-sub {
+  display: inline-flex; gap: 12px; align-items: center;
+  padding-left: 10px; border-left: 1px solid rgba(255,255,255,0.18);
+  align-self: stretch;
 }
-/* マスターの内訳（安定/復習待ち）＝一段下げた副統計。復習待ちは泡色で浮上を予告 */
-#wordwave-stats .ww-stat-sub { display: inline-flex; gap: 12px; align-items: center; }
-#wordwave-stats .ww-stat-sub { padding-left: 2px; }
+/* 「記憶」＝強/弱を束ねるグループ見出し（ドットなし・後続の強/弱に少し寄せる） */
+#wordwave-stats .ww-stat-sub-label { color: var(--text-muted); margin-right: -4px; }
 #wordwave-stats .ww-stat-stable b { color: #9fb6e0; }
 #wordwave-stats .ww-stat-due b { color: #CFEFFB; }
 /* 安定＝沈んで眠る深海の実ドット（グリッドの休眠と対応） */
@@ -1472,8 +1474,12 @@ body.no-touch .choice-btn:hover { background: rgba(255,255,255,0.08); border-col
   color: #eaf4ff; text-shadow: 0 1px 3px rgba(0,0,0,0.7);
 }
 .ww-tide-line b { font-weight: 800; color: #9fe4d8; }
-/* 満ち潮までの残り作業量（あとN語・Mセッション）＝正直予測の主軸。泡色で強調 */
-.ww-tide-line .ww-tide-hurdle { color: #CFEFFB; font-weight: 700; }
+/* 「いまはX潮 — 意味の一文」を見出し、hurdle 予測を本文として2段に。
+   本文は次行に置き（heading と地続きにしない）、一段小さく・やや控えめの泡色に */
+.ww-tide-line .ww-tide-hurdle {
+  display: block; margin-top: 3px;
+  font-size: 0.9em; font-weight: normal; color: #CFEFFB; opacity: 0.92;
+}
 .ww-goal-line {
   position: absolute; bottom: 9px; left: 12px; right: 12px; z-index: 4;
   font-size: 0.76rem; line-height: 1.4;
