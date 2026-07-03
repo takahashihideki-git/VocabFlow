@@ -77,6 +77,27 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-07-03 作業ログ
+
+### localStorage 上限張り付きを根治: 保存 state から教材データを排除（commit `f8090de`・**デプロイ済**）
+
+ドッグフーディングの訴え「ここ数セッション patient が dictation で出題され、そのたびに正解して『patient をマスターしました』トーストを見ているのに、debug.html では mastered になっていない」を起点に調査。**保存の永続化バグを根治**（SRS ロジック・sim は一切不変）。
+
+**症状の診断（day86 state `vocabflow-state-day86-2026-07-03.json.gz` から）**: patient は `stage='dictation'`・`h=39.936`（= `peakH 133.12 × beta 0.30` ちょうど＝過去に一度だけ降格した痕跡・`incorrectCount=1`）・`lastReviewed=73.69` で、現在 `currentTime=86.40` なのに **Day73.69 以降まったく更新されていなかった**。エンジンを実データで走らせて全回答経路（clean perfect / near_miss→perfect / near_miss→giveup）を確認したところ、**どの経路でも `lastReviewed` は必ず currentTime に進み、正解なら mastered になる**。→ 答えは処理されているのに保存が刺さっていない、で確定。**同じ語が毎セッション再マスターされる＝昇格が永続化されていない決定的サイン**（正常なら1回マスターして以後 due に落ちるまで出題されない）。
+
+**根本原因**: `LearnerState.toJSON()`（`core/models.js`）が `words: this.words` を丸ごと直列化し、各 `WordState.word` に **WORD_DATA フルオブジェクト（meanings/examples/passive/distractors…）を抱えていた**ため、保存 blob が **4.89MB（UTF-16）** に達し localStorage 上限（~5MB・iOS WebKit は UTF-16 バイト計上）に張り付いていた。実測で **blob の 77.5% が「一度も変わらない教材データ」**、しかも 1900語全部を保存（実際に触ったのは 659語）。上限超過で `setItem` が QuotaExceededError を投げ、`_saveState` がそれを `console.warn` で握りつぶす → メモリ上は昇格・トーストが出るのに localStorage は最後に成功した保存（Day73.69 の降格）のまま凍結。**教材データは `core/word-data.js` にハードコードされ起動時に必ずメモリに載るので、そもそも保存する必要はゼロ**だった（意図的判断ではなく「共用モデルの多態 `word` フィールド × toJSON の横着な全ダンプ」の副作用。旧セーブが教材データの誤字修正を凍結する副作用もあった）。
+
+**修正（3ファイル・SRS/sim 不変）**:
+- **`core/models.js` `toJSON`**: 各語で**可変 SRS 状態のみ**保存（wordId/waveNumber/h/peakH/lastReviewed/stage/各カウンタ/skipped/excluded/passiveCursor）。`.word`（教材データ）を落とし、削除済み死にフィールド `mu`/`sigma`/`spellingFlag` も除外。`ebisu`/`dsrS` は非 null のみ保存（HLR 本番は省略）。
+- **`core/models.js` `fromJSON(data, resolveWord)`**: 第2引数 `resolveWord(id)→教材データ` で読み込み時に `WORD_DATA` から再ハイドレート。旧形式（`.word` 埋め込み）は `?? w.word` フォールバックで**後方互換**。解決済みの正準データを優先するので**旧セーブが凍結した古い教材データも最新版に置き換わる**。core はデータセット非依存を維持（sim は fromJSON 未使用）。
+- **`app/app.js`**: `WORD_DATA_BY_ID` マップ + `resolveWord` を用意し `fromJSON` に注入。`_saveState` は保存失敗を**握りつぶさず一度だけトースト警告**（`this._saveFailed` フラグで連発防止・成功で再アーム）＝「保存できていない」を可視化。
+
+**検証（day86 実データ round-trip）**: blob **4.89MB → 0.85MB**、全1900語の SRS スカラー **mismatch=0**・教材データ完全復元（patient の meanings/examples/passive すべて healthy）。**Wave19 相当（全1900語 mastered）でも 0.88MB** で上限に約5.7倍の余裕（＝ユーザーの「Wave19 まで届くか」への答え=届く）。復元した patient を dictation perfect 解答 → mastered 昇格・保存後も 0.85MB を確認。
+
+**ドッグフーダー救済**: 旧形式 state はこのアプリで一度読み込めば次回保存時に自動で新形式（0.85MB）へ移行し、以後 patient を解答すれば mastered が定着する。ただし **Day73.69 で凍結した約13日分の復習履歴そのものは復元不能**（そもそも保存されていなかった）。memory `[[project-localstorage-persistence-fix]]`。
+
+---
+
 ## 2026-07-01 作業ログ
 
 ### Word Wave 再設計: マスターを安定/復習待ちに二分・due 泡リング・休眠ディム・クリア解除⚠・Tide 正直予測（commit `288f47a`・push 済・**未デプロイ**）
