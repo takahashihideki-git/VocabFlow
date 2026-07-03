@@ -616,6 +616,7 @@ export class CardRenderer {
             <div class="passive-section-title">${sectionDef.title}</div>
             ${sectionBody}
           </div>` : ''}
+          <button class="tts-btn" id="passive-tts-btn">${SPEAKER_ICON} 発音を聞く</button>
         </div>
         <div class="swipe-hint visible">
           <span class="swipe-arrow">↑</span>
@@ -629,11 +630,21 @@ export class CardRenderer {
         <div class="passive-label">既知語 — 流し読み</div>
         <div class="word-example" style="font-size:16px">${example.full}</div>
         <div class="word-pos">${wordStr} — ${meaning}</div>
+        <button class="tts-btn" id="passive-tts-btn">${SPEAKER_ICON} 発音を聞く</button>
         <div class="swipe-hint visible">
           <span class="swipe-arrow">↑</span>
           <span class="swipe-label">スワイプして次へ</span>
         </div>
       `);
+    }
+
+    // 発音再生ボタン（タップで単語を読み上げ。passive は流し読みのため自動再生はしない）
+    const ttsBtn = el.querySelector('#passive-tts-btn');
+    if (ttsBtn) {
+      ttsBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        speak(wordStr);
+      });
     }
 
     this._markReady('perfect');
