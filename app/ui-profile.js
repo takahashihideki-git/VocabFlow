@@ -1,7 +1,7 @@
 // app/ui-profile.js — Marine Chart 学習プロファイル全画面ビュー
 //
 // Word Wave overlay の FAB から開く。既存 localStorage state からすべて算出（新トラッキング不要）。
-// 設計の核: 現在 state（綴りの暗礁＝dictation/recall 止まり）と過去（累計✗＝乗り越えた難所＝今 mastered）を
+// 設計の核: 現在 state（綴りの暗礁＝dictation 止まり）と過去（累計✗＝乗り越えた難所＝今 mastered）を
 // 意図的に分離し誤読を防ぐ。SRS ロジックには一切触れない（既存 state の可視化のみ）。
 
 import { CATEGORIES } from '../core/word-data.js';
@@ -234,8 +234,11 @@ export class ProfileRenderer {
     const overcame = mastered.filter(w => w.incorrectCount >= 3)
       .sort((a, b) => b.incorrectCount - a.incorrectCount).slice(0, 12);
 
-    // 綴りの暗礁（dictation/recall 止まり＝現在 state）
-    const reefs = learned.filter(w => w.stage === 'dictation' || w.stage === 'recall')
+    // 綴りの暗礁（dictation 段で綴りに一度でも失敗した語＝意味は取れるが綴りで座礁している現在 state）
+    // ・recall/recognition 段は「まだ綴りに到達していない新語」なので暗礁ではない
+    // ・dictation 段でも ✗0（復習4×0 等）は「順調に mastered へ登っている途中」で座礁ではないため除外
+    //   → incorrectCount>0 で「一度でも詰まった証拠」がある語だけを暗礁とする
+    const reefs = learned.filter(w => w.stage === 'dictation' && w.incorrectCount > 0)
       .sort((a, b) => b.reviewCount - a.reviewCount);
 
     const L = PROFILE_LABELS;
