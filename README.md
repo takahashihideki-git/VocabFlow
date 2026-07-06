@@ -175,6 +175,7 @@ node scripts/verify_seed_noise.js           # Ripple Seeding の genuine 定着�
 | ファイル | 内容 |
 |---|---|
 | `spec.md` | SRS 仕様書 v3（半減期モデル・カード・セッション生成・各校正機構） |
+| `srs-principles.md` | SRS 設計原則（供給・出題構造の一般論と VocabFlow 実装・記憶コアが弱いレバーである理由） |
 | `seed-noise-findings.md` | Ripple Seeding の発見と検証の全文・数表 |
 | `memory-core-investigation.md` | 記憶コア検証（Ebisu / 対オラクル％ / 適応導入の反証）の全文・13章 |
 | `review.md` | SRS エンジンのコードレビュー（指摘 #1〜#6） |
