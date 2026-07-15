@@ -311,19 +311,31 @@ export class WordWaveRenderer {
           tideInner = `いまは満ち潮 — 新しい単語が次々と入ってくる時期です`;
         } else if (state === 'ebb' && tide) {
           // 正直予測: 「待てば満ちる」ではなく「復習を片づけると満ちる」。意味（定着の時期）を
-          // 先頭に、作業量（あとN語・約Mセッション・現ペースの日数）を続け、満ちる条件で結ぶ。
+          // 先頭に、作業量（あとN語）と満ちる条件を続ける。
           const hurdle   = tide.hurdle;
           const sessions = Math.max(1, Math.ceil(hurdle / cfg.sessionSize));
-          const netDrain = tide.throughput - tide.influx;   // 1日あたり正味の消化（湧き水を差引）
           let hurdleLine;
-          if (netDrain > 0.5) {
-            const d = Math.max(1, Math.round(hurdle / netDrain));
-            hurdleLine = `あと約${hurdle}語（約${sessions}セッション／現ペースだと約${d}日）`
-              + `の復習が済むと潮が満ちて新語が到達するようになります`;
+          if (sessions <= 1) {
+            // hurdle が1セッションで消える通常の引き潮: 満ち潮は「次のセッション」で来る。
+            // ここで netDrain（throughput−influx）を日数化してはいけない——瞬間の超過量を
+            // 定常状態の正味ドリフトで割る category error になり、しかも throughput≈influx で
+            // 分母がゼロ近傍・不安定なため「約7日」「減りません」と実態（次セッションで満ちる）
+            // に反する値が乱れて出る。セッション頻度は人により違うので暦日・翌朝にも触れない。
+            hurdleLine = `あと約${hurdle}語（次のセッションの復習）で潮が満ちて新語が到達します`;
           } else {
-            // 停滞ケースは「約N日」を出せないため正直に別分岐（減らない旨を明示）
-            hurdleLine = `あと約${hurdle}語（約${sessions}セッション）の復習で潮が満ちますが、`
-              + `現ペースでは減りません — 1日の学習量を増やすと満ちます`;
+            // 1セッションでは崩せない本物の多セッション wall（Day84 級）のときだけ、
+            // 正味の消化ペース（湧き水を差引）で見る。ここでは hurdle≫1セッションなので
+            // netDrain の符号が実態（out-clear できるか否か）を正しく表す。
+            const netDrain = tide.throughput - tide.influx;
+            if (netDrain > 0.5) {
+              const d = Math.max(1, Math.round(hurdle / netDrain));
+              hurdleLine = `あと約${hurdle}語（約${sessions}セッション／現ペースだと約${d}日）`
+                + `の復習が済むと潮が満ちて新語が到達するようになります`;
+            } else {
+              // 停滞ケースは「約N日」を出せないため正直に別分岐（減らない旨を明示）
+              hurdleLine = `あと約${hurdle}語（約${sessions}セッション）の復習で潮が満ちますが、`
+                + `現ペースでは減りません — 1日の学習量を増やすと満ちます`;
+            }
           }
           // 「復習待ちN語」はヘッダの復習待ち（マスター内訳）と別集合なのに同ラベルで混乱の元
           // だったため画面には出さない（reviewDemand は state 判定・hurdle 計算に内部使用のみ）。
@@ -343,8 +355,11 @@ export class WordWaveRenderer {
         // Tide の正直予測と整合させる: 引き潮で復習待ちが減らない（netDrain≤0）＝新語が入らない
         // ＝マスターが伸びない＝現ペースでは到達しない。生涯平均 masteredNow/currentDay で
         // 楽観外挿すると「復習は減らないが156日で全クリア」という自己矛盾になる（Tide と同じ不正直）。
-        const netDrain = tide ? tide.throughput - tide.influx : 1;
-        const stalled  = state === 'ebb' && netDrain <= 0.5;
+        // 停滞＝本物の多セッション wall（1セッションでは崩せない）かつ正味で減らない場合のみ。
+        // 1セッションで満ちる通常の引き潮では netDrain がゼロ近傍で振れても予測を隠さない。
+        const netDrain     = tide ? tide.throughput - tide.influx : 1;
+        const wallSessions = tide ? Math.ceil(tide.hurdle / cfg.sessionSize) : 0;
+        const stalled      = state === 'ebb' && wallSessions > 1 && netDrain <= 0.5;
         let goalInner;
         if (stalled) {
           // Tide 行が既に「復習待ちが減りません — 復習を崩せ」と言うため、全Wave 予測は出さない
