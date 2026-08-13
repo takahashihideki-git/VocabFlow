@@ -165,6 +165,15 @@ class VocabFlowApp {
       .map(e => ({ ...e, waveNumber: Math.ceil(e.waveNumber * oldWaveSize / newWaveSize) }))
       .filter(e => { if (seen.has(e.waveNumber)) return false; seen.add(e.waveNumber); return true; });
 
+    // 2b. 到達イベントも同じルールでリマップ（旧波番号のまま残すと将来の波の overlay を
+    //     誤って抑制する）
+    const remap = (wn) => Math.ceil(wn * oldWaveSize / newWaveSize);
+    const seenArrived = new Set();
+    state.waveArrivedEvents = (state.waveArrivedEvents ?? [])
+      .map(e => ({ ...e, waveNumber: remap(e.waveNumber) }))
+      .filter(e => { if (seenArrived.has(e.waveNumber)) return false; seenArrived.add(e.waveNumber); return true; });
+    state.everArrivedWaves = [...new Set((state.everArrivedWaves ?? []).map(remap))];
+
     // 3. config を新 waveSize に更新
     state.config = { ...state.config, waveSize: newWaveSize };
 
@@ -275,6 +284,16 @@ class VocabFlowApp {
       ...this._clearedWaves, // 起動時にクリア中の wave は overlay 表示済みとみなす
     ]);
     this.state.everClearedWaves = [...this._everClearedWaves];
+
+    // wave 到達状態の追跡（_checkWaveArrival の重複発火防止）。
+    // 記録が無い既存セーブでも、すでに1語でも学習済みの wave は「到達済み」とみなして
+    // バックフィルする（アップデート直後に過去の波の overlay が一斉に出るのを防ぐ）。
+    this.state.waveArrivedEvents ??= [];
+    this._everArrivedWaves = new Set(this.state.everArrivedWaves ?? []);
+    for (const w of this.state.words) {
+      if (w.stage !== 'new' && !w.excluded) this._everArrivedWaves.add(w.waveNumber);
+    }
+    this.state.everArrivedWaves = [...this._everArrivedWaves];
 
     this.engine      = new SRSEngine(this.config);
     this.waveManager = new WaveManager(this.config, this.state);
@@ -501,36 +520,9 @@ class VocabFlowApp {
   // セッション開始
   // -------------------------------------------------------
   _startSession() {
-    // カード生成前の「学習済み最大wave番号」を記録（0 = 誰も学習していない状態）
-    // excluded 単語は除外（除外語の stage が 'new' 以外でも maxStudiedWave に含めない）
-    const maxStudiedWaveBefore = this.state.words.reduce(
-      (max, w) => (w.stage !== 'new' && !w.excluded) ? Math.max(max, w.waveNumber) : max, 0
-    );
-
-    // generateSession 前後の waveUnlockEvents を比較し、今回のセッションで新解放された wave を検出
-    const prevUnlockedWaves = new Set(this.state.waveUnlockEvents.map(e => e.waveNumber));
-
+    // 波の「到達」通知はここでは出さない。セッションに intro が積まれても、学習者が実際に
+    // その語を見るとは限らない（途中離脱・スキップ）。到達は _showCard の描画時に1本化する。
     const cards = this.feedGen.generateSession(this.state, this.state.currentTime);
-
-    const newlyUnlockedWaves = new Set(
-      this.state.waveUnlockEvents
-        .filter(e => !prevUnlockedWaves.has(e.waveNumber))
-        .map(e => e.waveNumber)
-    );
-
-    // 新しいwaveの最初の単語がセッションに登場したら通知
-    // 条件1: maxStudiedWaveBefore より大きい wave（初登場）
-    // 条件2: このセッションで初解放された wave（解放直後に intro が来るケース）
-    const newWaves = new Set();
-    cards.forEach(c => {
-      if (c.cardType === 'intro' && c.word.stage === 'new') {
-        const wn = c.word.waveNumber;
-        if (wn > maxStudiedWaveBefore || newlyUnlockedWaves.has(wn)) {
-          newWaves.add(wn);
-        }
-      }
-    });
-    [...newWaves].sort().forEach(wn => this.showToast(`<span class="wave-icon"></span> 第${wn}波の単語が届きました`));
 
     if (cards.length === 0) {
       this._showNoWork();
@@ -587,6 +579,44 @@ class VocabFlowApp {
     }
 
     this.cardRenderer.render(card);
+    this._checkWaveArrival(card.word);
+  }
+
+  // -------------------------------------------------------
+  // 波の到達（その wave の最初の語が実際に画面に出た瞬間）
+  //
+  // 解放（waveUnlockEvents = 供給ゲートが開いた内部イベント）とは別物。復習の壁の下では
+  // ゲートが開いても新語枠が 0 のまま数セッション流れないため、解放時に「届きました」と
+  // 出すと表示と挙動が乖離する。学習者にとっての波の到達は「その波の語を初めて見た瞬間」
+  // ただ1つで、それをここに一元化する（旧実装はセッション生成時に供給ベース条件と
+  // 解放ベース条件が同居していた）。
+  // -------------------------------------------------------
+  _checkWaveArrival(word) {
+    if (!word || word.excluded) return;
+    const wn = word.waveNumber;
+    if (!wn || this._everArrivedWaves.has(wn)) return;
+
+    this._everArrivedWaves.add(wn);
+    this.state.everArrivedWaves = [...this._everArrivedWaves];
+    this.state.waveArrivedEvents.push({
+      waveNumber: wn,
+      day: this.state.currentTime,
+      session: this.state.sessionsCompleted,
+    });
+    this._saveState();
+    this._showWaveArrive(wn);
+  }
+
+  _showWaveArrive(waveNumber) {
+    const waveWords = this.state.words.filter(w => w.waveNumber === waveNumber && !w.excluded);
+    const title = `Wave ${waveNumber} 到達`;
+    const message = waveNumber === 1
+      ? `最初の波が届きました。この波の${waveWords.length}語を、これから少しずつ紹介していきます。`
+      : `新しい波が届きました。Wave ${waveNumber} の${waveWords.length}語を、これから少しずつ紹介していきます。前の波の復習も続きます。`;
+
+    document.getElementById('wa-title').textContent   = title;
+    document.getElementById('wa-message').textContent = message;
+    document.getElementById('overlay-wavearrive').style.display = 'flex';
   }
 
   // -------------------------------------------------------
@@ -756,6 +786,7 @@ class VocabFlowApp {
       this._startSession();
     });
     document.getElementById('btn-wavecomplete-close').addEventListener('click', () => this._hideOverlays());
+    document.getElementById('btn-wavearrive-close').addEventListener('click', () => this._hideOverlays());
 
     // 時間進行ボタンのラベルを labels.js から設定
     document.getElementById('btn-next-session').textContent = LABELS.session.timeForward1;
@@ -973,6 +1004,7 @@ class VocabFlowApp {
   _hideOverlays() {
     document.getElementById('overlay-complete').style.display    = 'none';
     document.getElementById('overlay-wavecomplete').style.display = 'none';
+    document.getElementById('overlay-wavearrive').style.display   = 'none';
   }
 
   // -------------------------------------------------------

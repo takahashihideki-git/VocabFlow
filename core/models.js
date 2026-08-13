@@ -120,9 +120,13 @@ export class LearnerState {
     this.currentTime = 0;           // シミュレーション上の現在時刻（日数）
     this.totalCardsConsumed = 0;
     this.sessionsCompleted = 0;
-    this.waveUnlockEvents = [];     // [{waveNumber, day}]
+    this.waveUnlockEvents = [];     // [{waveNumber, day}] 供給ゲートが開いた瞬間（内部イベント）
     this.activeWaves = [1];         // 現在アクティブなウェーブ番号リスト
     this.everClearedWaves = [];     // 過去に1度でも全mastered到達した wave 番号（重複overlay抑制用）
+    // 到達（その wave の最初の語が実際に画面に出た瞬間）の記録。解放とは別イベントで、
+    // 復習の壁の下では数セッション遅れる。発火したか否かを state から直接読めるようにする。
+    this.waveArrivedEvents = [];    // [{waveNumber, day, session}]
+    this.everArrivedWaves = [];     // 過去に1度でも到達した wave 番号（重複overlay抑制用）
     this.handwriteCountThisSession = 0;
     this.handwriteModeEnabled = true; // ユーザーが手書き可能かどうか（app層から設定）
   }
@@ -176,6 +180,8 @@ export class LearnerState {
       waveUnlockEvents: this.waveUnlockEvents,
       activeWaves: this.activeWaves,
       everClearedWaves: this.everClearedWaves ?? [],
+      waveArrivedEvents: this.waveArrivedEvents ?? [],
+      everArrivedWaves: this.everArrivedWaves ?? [],
       savedAt: this.savedAt ?? Date.now(),
     };
   }
@@ -200,6 +206,8 @@ export class LearnerState {
     state.waveUnlockEvents = data.waveUnlockEvents;
     state.activeWaves = data.activeWaves;
     state.everClearedWaves = data.everClearedWaves ?? [];
+    state.waveArrivedEvents = data.waveArrivedEvents ?? [];
+    state.everArrivedWaves = data.everArrivedWaves ?? [];
     state.savedAt = data.savedAt ?? null;
     return state;
   }

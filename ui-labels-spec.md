@@ -195,3 +195,20 @@ Word Wave 画面右下の FAB（海図アイコン）から開く全画面ビュ
 - 通常セッションと同じ dictation カード（`CardRenderer` を再利用）を上下スワイプでめくる。PC（no-touch）では 9:16 レイアウト + 「次へ」ナビボタン。
 - **SRS ステータス（h・stage・正誤カウント・lastReviewed）は一切更新しない**。SRS 副作用は `CardRenderer` 自体ではなく回答時の `onReady`（通常は `_onCardAnswered → processResponse`）で起きるため、ドリルは `onReady` を UI 専用（PC ボタン点灯のみ）にして `processResponse` を呼ばない。判定の `judgeDictation` は純粋関数。
 - 「記録に影響しない」ことを**常時バナー**（🪸 練習モード — 記憶強度・定着の記録には影響しません）と**終了サマリ**の2箇所で明示する。
+---
+
+## 9. 波の「解放」と「到達」（2026-08-13）
+
+Wave には**内部イベント**と**学習者に見えるイベント**の2つがあり、両者は同じ日に起きるとは限らない。
+
+| | 解放（unlock） | 到達（arrival） |
+|---|---|---|
+| 実体 | 供給ゲートが開く（`WaveManager.checkUnlock` → `waveUnlockEvents`） | その波の**最初の語が実際に画面に描画された瞬間**（`waveArrivedEvents`） |
+| 判定場所 | `core/wave-manager.js`（アクティブ wave の `new` 語が `maxNewPerSession` 未満） | `app/app.js` `_checkWaveArrival`（`_showCard` の描画直後） |
+| 学習者への表示 | **なし**（内部イベント） | overlay「Wave N 到達」（Wave クリア overlay と対称） |
+
+**解放時に通知してはいけない**。復習の壁（`due ≥ sessionSize`）の下では貪欲割当で新語枠が 0 になり、ゲートが開いても数セッション〜数日カードが1枚も出ない（実測: 本番 Wave 9 は解放 Day121.9 → 到達 Day122.9）。この状態で「届きました」と出すと表示と挙動が乖離する（＝嘘になる）。ズレ自体は隠さず Tide（引き潮＝新語枠 0）の語彙で説明する。
+
+- 到達は**供給側のただ1つのイベント**として定義する。「セッションに intro が積まれた」ではなく「学習者が実際にその語を見た」を基準にする（途中離脱で未表示のまま通知するのを防ぐ）。
+- `everArrivedWaves` で重複発火を防止（`everClearedWaves` と同じパターン）。記録の無い既存セーブは boot 時に「1語でも学習済みの wave＝到達済み」としてバックフィルする。
+- `waveArrivedEvents`（wave番号・day・session）は永続化し、`debug.html` が `waveUnlockEvents` と並べて表示する。**「発火しなかった」のか「そもそも到達判定に至らなかった」のかを state から直接読む**ための記録。

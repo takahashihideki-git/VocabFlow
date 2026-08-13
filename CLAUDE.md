@@ -16,7 +16,7 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 | ファイル | 状態 |
 |---|---|
 | `core/config.js` | ✅ handwriteStuckThreshold: 3・recognitionThresholdH: 2.0・masteredThresholdH: 14.0 追加済み。`maxActiveWaves` 撤廃（wave 解放はSRSペースに委ねる）。**waveSize: 100**（朝集中学習者の復習なし解消のため 50→100 に変更済み）。**`deltaTGain: true`**（review #1・ratio 正規化で校正済み・2026-06-11）。**`seedNoise: true`（base0.5/exp2.5）・`dueSampling: false`**（位相同期の分散を播種ノイズに置換・2026-06-11） |
-| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded/passiveCursor 追加。Card: done/userAnswer/shuffledChoices/bgUrl/passiveSection 追加。LearnerState: handwriteModeEnabled・savedAt 追加。**`stageBeforeWrong` フィールド削除**（2026-04-21: リトライ設計変更により不要に）。**`LearnerState.everClearedWaves` 追加**（2026-05-28: 過去にクリアした wave 番号を localStorage 永続化、Wave クリア overlay の重複発火を防止） |
+| `core/models.js` | ✅ WordState: stuckCount/needsHandwrite/skipped/excluded/passiveCursor 追加。Card: done/userAnswer/shuffledChoices/bgUrl/passiveSection 追加。LearnerState: handwriteModeEnabled・savedAt 追加。**`stageBeforeWrong` フィールド削除**（2026-04-21: リトライ設計変更により不要に）。**`LearnerState.everClearedWaves` 追加**（2026-05-28: 過去にクリアした wave 番号を localStorage 永続化、Wave クリア overlay の重複発火を防止）。**`waveArrivedEvents`（`[{waveNumber, day, session}]`）・`everArrivedWaves` 追加**（2026-08-13: 波の到達＝最初の語が画面に出た瞬間を永続記録。解放 `waveUnlockEvents` とは別イベント） |
 | `core/srs-engine.js` | ✅ Handwrite 停滞介入ロジック。昇格時のみ stuckCount リセット。handwrite はステージ遷移なし |
 | `core/wave-manager.js` | ✅ Bug 5 修正済み。`maxActiveWaves` 上限撤廃（解放条件ゲートのみで制御）。`checkUnlock` で `getWordsInWave(nextWave).length === 0` の wave は activeWaves に push しない防御追加。**`_meetsUnlockCondition` を供給ベースに変更**（2026-04-30）: 旧 peakH ベース条件を廃止し、アクティブ wave 全体の `new` 語が `maxNewPerSession` 未満になったら次 wave を解放 |
 | `core/feed-generator.js` | ✅ skipped 最優先プール（stage='new' フィルタより先）。excluded 語を全プールから除外。_assignCardType に learnerState 渡し。**Spec §4.3 配置ルール更新（2026-04-20）**: `_enforceMaxConsecutive()` 追加（同種最大2連続 best effort）。dictation/handwrite を後半固定から解放し review pool に統合 |
@@ -73,7 +73,71 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 判定変更時は memory `feedback_srs_policy_single_source.md`（SRS ポリシーは core 一元化・app/sim は同じ経路）の原則に従い、各ステップで sim before/after を回すこと。
 
-- review.md 由来以外で未解決のバグはなし。
+- review.md 由来以外で未解決のバグはなし（Wave 到達通知は 2026-08-13 に到達イベント一本化で再設計・**実機での確認待ち**。下記作業ログ参照）。
+
+---
+
+## 2026-08-13 作業ログ
+
+### Wave 到達を「供給側の1イベント」に再設計（トースト → overlay・state に記録・**未デプロイ**）
+
+2026-08-12 の調査（下記）で決着した設計方針を実装。原因は最後まで特定できなかったが、**競合する2つの到達定義が同居する構造そのものを畳んだ**ため、旧経路（セッション生成時のトースト）はコードごと消えている。SRS ロジックは一切不変。
+
+**変更（4ファイル）**:
+- **`core/models.js`**: `LearnerState.waveArrivedEvents`（`[{waveNumber, day, session}]`）と `everArrivedWaves` を追加し `toJSON`/`fromJSON` で永続化。**発火したのか／そもそも到達判定に至らなかったのかを state から直接読める**ようにする（今回のように h の軌跡から逆算しないで済む）。
+- **`app/app.js`**:
+  - `_startSession` の到達トースト（条件1=供給ベース + 条件2=解放ベースの同居）を**丸ごと削除**。
+  - `_checkWaveArrival(word)` を新設し `_showCard` の `render()` 直後に呼ぶ。**発火点をセッション生成時 → カード描画時へ**（「セッションに intro が積まれた」ではなく「学習者が実際にその語を見た」を到達の定義に）。`everArrivedWaves` で重複防止・イベント記録・即保存。
+  - `_boot` で `_everArrivedWaves` を初期化。記録の無い既存セーブは**「1語でも学習済みの wave＝到達済み」でバックフィル**（アップデート直後に過去の波の overlay が一斉に出るのを防ぐ）。
+  - `_migrateWaveSize` に到達イベントのリマップを追加（旧波番号が残ると将来の波を誤って抑制する）。
+  - 表示は **overlay「Wave N 到達」**（Wave クリアと対称・`#overlay-wavearrive`）。トーストは⭐マスターのみに戻した。
+- **`app/app.html`**: `#overlay-wavearrive`（`wc-card` スタイル流用）。
+- **`app/debug.html`**: ① メタに `waveUnlockEvents`（ゲートが開いた日）と `waveArrivedEvents`（最初の語が出た日）を**並べて表示**＝ズレが一目で分かる ② 表示キーの prod/dev 切替 ③ **dev 実機再現ツール**（書き込み先は `vocabflow_state_dev_v1` のみ・本番キーに触れない）: 再現 state の生成ボタン2種（**本番と同じ形**＝Wave 3 が過去のセッションで解放済み・未到達。①次の1枚目で到達 ②**復習の壁つき**＝Wave1/2 の6語すべて due で新語枠 0 → 1セッション消化して「続ける」で初めて到達＝本番 Wave 9 と同じ経過）／`.json`・`.json.gz` の import ／dev state 削除。**Wave 10 は約100語先＝数ヶ月後なので本番での次の機会を待たずに実機で踏める**。
+
+**検証**:
+- ロジック（実データ day123・`core` 直叩き）: バックフィル後の到達済み wave = 1〜9・学習済み語200枚の描画で発火 0 件・未到達 Wave 10 の初回描画だけ true（2枚目は false）・excluded 語では発火しない・`toJSON`→`fromJSON` 往復一致。
+- 実ブラウザ E2E（Chrome headless）: ① debug.html の生成ボタン → dev キーのみ更新（本番キー未作成） ② `app.html?dev` 起動で **overlay「Wave 3 到達」表示**・`waveArrivedEvents` に `{wave:3, day:3.0, session:7}` を記録 ③「続ける」で閉じてカード操作可 ④ 再起動しても再発火しない ⑤ **day123 の本番形 state で起動 → 到達 overlay は出ない**（バックフィル・セッション20枚・エラーなし） ⑥ まっさら新規で「Wave 1 到達」が出る ⑦ **復習の壁つき state で「続ける」経由**: セッション1（5枚）は Wave3 が出ない → 全問回答して完了画面 →「続ける」→ 次セッションの1枚目（Wave3 の intro）で overlay が出て `{wave:3, session:8}` を記録。
+  - E2E の注意: PC レイアウトでは `#pc-nav-btns` がカードに覆われるため puppeteer の座標クリックは通らない。`document.querySelector(sel).click()` をページ内でディスパッチすること（実機のタップ・スワイプは問題なし）。
+- 仕様: `ui-labels-spec.md` §9 に「解放 vs 到達」を追記（**解放時に通知してはいけない**理由＝復習の壁でカードが数日流れないため表示と挙動が乖離する）。
+
+**残**: 本番デプロイ（`bash scripts/deploy.sh`）と、実機 iPhone で `app.html?dev` を踏んでの最終確認。旧経路が消えたので dev と prod は同一経路になった。
+
+---
+
+## 2026-08-12 作業ログ
+
+### 🚧 未解決: Wave 到達トースト（「第N波の単語が届きました」）が本番で一度も出ない
+
+ドッグフーディングの訴え「きのう Wave 9 に入ったのに到達イベントのフィードバックが表示されなかった」から調査。**原因未特定のまま時間切れ**。コードは一切変更していない（調査のみ）。dev モード（`?dev`）では waves 1〜3 で見えるのに、本番では Wave 2〜9 の9回すべて未確認。⭐ マスタートーストは本番でも見えている＝トースト機構自体は生きている。
+
+**確定した事実（`vocabflow-state-day123-2026-08-12.json.gz`）**:
+
+| | |
+|---|---|
+| Day 121.90 | **Wave 9 解放**（`waveUnlockEvents`） |
+| Day ~122.9（昨日） | **到達**＝#801/#802 の intro + recognition |
+| Day 123.13（今朝） | 次セッションで昇格 → rc=3・h=1.69/1.52 |
+
+- **解放と到達は約1.2日・数セッションずれている**。到達日の逆算根拠: 同一セッション内は `deltaTGain` で h が伸びない（`h0=1.0`）ため、rc=3・h≈1.7 は「別セッションでの昇格（1.75×seedNoise）」でしか説明できない。
+- ズレの原因は**復習の壁**。解放セッション時点で `due=23 ≥ sessionSize=20` → 貪欲割当（skipped→urgent→due→new）で **newSlots=0**。ゲートは開いたが語が流れなかった。
+- **潰した仮説4つ（全部シロ）**: ①条件式の抑止 — 実データを core モジュールで前進再生すると条件1は `9 > 8` で真・`waveNumber` の NaN 汚染0件 ②⭐トーストの行列飽和 — 実測 2.5件/セッションに対し1セッションの消化能力は約25件（`2.8s + 0.42s` 直列）③z-index/overlay — `.overlay`=100 < `#toast`=200 ④キャッシュ — Service Worker 無し・`?v=` 無し・`app.js` は 2026-07-03 以降不変（犯人になるには4ヶ月前のコピーが必要）＋実機 iPhone の app.js に `maxStudiedWaveBefore` の存在を確認済み。
+- **残る謎**: 最新コード＋実データで条件1は真になるのに実機で発火しない理由。
+
+**設計上の結論（ユーザーの指摘が核心）**: 「アプリのロジックにはゲート解放しかなく、波の到達はそのユーザー向けレトリックのはず」。実際 `app/app.js:528` の
+
+```js
+if (wn > maxStudiedWaveBefore || newlyUnlockedWaves.has(wn))
+//    ↑条件1: 供給ベース（最初の語が出た）  ↑条件2: 解放ベース（旧モデルの残骸）
+```
+
+は**競合する2つの到達定義が同居**している。条件2は 2026-04-06 `a322c9b` が発火基準を「解放イベント」から「最初の intro カード登場」へ移したときの消し忘れで、**論理的に完全冗長**（ある wave の解放直後はその wave も上位 wave も必ず未学習 → 条件1が必ず真）。ただし解放と到達は復習の壁の下では必ずズレるため、**解放時に通知してはいけない**（1.2日カードが1枚も出ないので「届きました」が嘘になる＝表示と挙動の乖離）。ズレ自体は隠さず Tide の語彙（引き潮＝新語枠0）で説明できる。
+
+**次セッションの段取り（この順）**:
+1. **到達イベントを state に記録**（`waveArrivedEvents`: wave番号・day・セッション番号）。次に起きたとき「発火したのか／そもそも到達判定に至らなかったのか」が state を見れば一発で分かる（今回のように h の軌跡から逆算しないで済む）。
+2. **設計修正**: 条件2を削除し、到達を**供給側の1イベント**（その wave の最初の語が実際に画面に出た瞬間）に統一。発火点もセッション生成時 → **カード描画時**へ。`everArrivedWaves` で永続化（重複発火防止）。表示は overlay 級（Wave クリアと対称）。これで dev と prod が同一経路になる。
+3. **検証**: dev に **prod と同じ形**（解放は過去のセッション・未到達）の state を仕込んで実機で踏む。注入口は本番デプロイ済みの `debug.html` に **dev キー（`vocabflow_state_dev_v1`）限定の import** を足すのが安全（本番キーに触れない・今後の実機再現に再利用可）。**Wave 10 は約100語先＝数ヶ月後なので本番での次の機会は待てない。**
+
+memory `[[project-wave-arrival-event]]`・`[[feedback-dogfooder-report-is-literal]]`。
 
 ---
 
@@ -1267,7 +1331,8 @@ skipped（最優先） → urgent（pRecall昇順） → due（pRecall昇順） 
 - カードが回答済みになると `onReady(result)` が呼ばれ、スワイプ可能化（次ボタンは常時クリック可）
 - **SRS処理タイミング**: recognition/recall/dictation/handwrite は `onReady`（回答タップ直後）に `_onCardAnswered` を呼び出してSRS処理・ヒートマップ更新・トースト表示。`card._srsProcessed = true` をセットし、`_processAnswer`（スワイプ後）での二重処理を防ぐ。Intro/Passive はスワイプ後に `_processAnswer` 内で処理
 - **正解・不正解カウント**: Intro/Passive は `countable = false` として `sessionCorrect`/`sessionWrong` をカウントしない
-- **トースト通知**: `showToast(message)` + キュー管理。wave 解放時「🌊 第N波の単語が届きました」（初回セッションは activeWaves から通知、以降は waveUnlockEvents 差分）。mastered 到達時「⭐ xxxx がマスターされました」（`word.stage` が `'mastered'` に変わった瞬間のみ発火）
+- **トースト通知**: `showToast(message)` + キュー管理。mastered 到達時「⭐ xxxx がマスターされました」（`word.stage` が `'mastered'` に変わった瞬間のみ発火）・Wave クリア解除時「⚠ Wave N のクリアが解除されました」。**波の到達はトーストではなく overlay**（下記）
+- **波の到達 overlay**: `_checkWaveArrival(word)` を `_showCard` の描画直後に呼び、その wave の最初の語が実際に画面に出た瞬間に「Wave N 到達」overlay を出す（`everArrivedWaves` で重複防止・`waveArrivedEvents` に記録）。**解放（`waveUnlockEvents`）は内部イベントで通知しない**（復習の壁でカードが数日流れないため。`ui-labels-spec.md` §9）
 - **wave全mastered達成オーバーレイ**: mastered 遷移直後に `_checkWaveComplete(waveNumber)` を呼び出し。wave内全語が mastered なら `_showWaveComplete()` を発火。Wave 1 は「覚えたではない・記憶強度」の哲学メッセージ、中間波は軽量メッセージ、最終波（`maxWave`）は「記憶は生き物」のメッセージ。`_notifiedWaveComplete` Set で重複防止（`_boot()` 時に既完了 wave を登録）
 - **実時間追跡**: `LearnerState.savedAt`（`Date.now()`）を保存・復元。`_boot()` 冒頭で `(Date.now() - savedAt) / 86400000` を `currentTime` に加算し、即 `_saveState()` で二重カウントを防止
 - **復習なし画面**: `_showNoWork()` が card-wrapper にインライン HTML を注入（overlay ではなくカード領域に表示）。ヘッダ（ヒートマップ・統計）とフッタは常時表示。`_calcWaitDisplay()` で「意味あるセッションが組める時刻」を予告（60分未満は分単位・以上は時間単位）。「更新」ボタン押下時に経過時間を `currentTime` に加算して `_startSession()` を呼び直し、開始可能なら即セッション開始。`_updateStats()` を呼んでヒートマップを描画
@@ -1390,7 +1455,7 @@ VocabFlow/
     ├── ui-background.js  # BackgroundManager（カテゴリ別Unsplash背景画像）
     ├── app.css           # ダークテーマ・アニメーション・Word Wave・9:16カード・Passive リッチUI・日本語訳トグル
     ├── style-mockup.html # スタイル確認用モックアップ（6種カード・画面遷移・ヘッダ/フッタを静的表示）
-    ├── debug.html        # iOS Chrome 向け localStorage 閲覧デバッグページ（Wave サマリ・詳細・JSON コピー）
+    ├── debug.html        # iOS Chrome 向け localStorage 閲覧デバッグページ（Wave サマリ・詳細・JSON コピー・解放/到達イベント表示・dev キー限定の実機再現ツール）
     ├── wave-icon.png     # 波のブランドアイコン（インライン用・192px透過。.wave-icon クラスで使用）
     ├── wave.jpg          # body 背景の波写真（Unsplash・Tim Marshall・557KB）
     └── about.wave.jpg.txt# wave.jpg のクレジット表記（Unsplash 帰属）

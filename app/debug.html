@@ -46,12 +46,23 @@
   }
   .notice { color: #fa6; font-size: 12px; margin-top: 4px; }
   .err { color: #f55; }
+  .devtools { background: #22222e; padding: 10px; border-radius: 6px; }
+  .devnote { font-size: 12px; color: #aab; margin: 0 0 8px; }
+  .devnote a { color: #8cf; }
 </style>
 </head>
 <body>
 <h1>VocabFlow Debug</h1>
 
 <div id="status"></div>
+
+<div>
+  <label>表示中のキー: </label>
+  <select id="key-select">
+    <option value="vocabflow_state_v1">本番（vocabflow_state_v1）</option>
+    <option value="vocabflow_state_dev_v1">dev（vocabflow_state_dev_v1）</option>
+  </select>
+</div>
 
 <div class="meta" id="meta"></div>
 
@@ -78,11 +89,29 @@
   <textarea id="copy-textarea" placeholder="コピー結果がここに表示されます（iOS Chrome でクリップボード書込が失敗した場合は長押しでコピー）" readonly></textarea>
 </div>
 
+<h2>dev 実機再現ツール</h2>
+<div class="devtools">
+  <p class="devnote">
+    書き込み先は <b>dev キー（vocabflow_state_dev_v1）のみ</b>。本番キーには一切触れません。
+    仕込んだあと <a href="app.html?dev">app.html?dev</a> を開いて実機で踏みます。
+  </p>
+  <button class="btn" id="btn-seed-arrival">到達の再現（次の1枚目で到達）</button>
+  <button class="btn" id="btn-seed-wall">到達の再現（復習の壁 → 次セッションで到達）</button>
+  <button class="btn btn-sec" id="btn-clear-dev">dev state を削除</button>
+  <div style="margin-top:8px">
+    <label>state ファイルを dev キーに読み込む（.json / .json.gz）: </label><br>
+    <input type="file" id="file-import" accept=".json,.gz,application/json,application/gzip">
+  </div>
+</div>
+
 <script type="module">
 import { WORD_DATA } from '../core/word-data.js';
 
-const STORAGE_KEY = 'vocabflow_state_v1';
+const PROD_KEY = 'vocabflow_state_v1';
+const DEV_KEY  = 'vocabflow_state_dev_v1'; // 実機再現の書き込み先はここだけ
 const STAGES = ['new', 'intro', 'recognition', 'recall', 'dictation', 'handwrite', 'mastered'];
+
+const viewKey = () => document.getElementById('key-select').value;
 
 const wordIdToString = new Map();
 for (const w of WORD_DATA) wordIdToString.set(w.id, w.word);
@@ -92,9 +121,10 @@ let sortKey = 'wordId';
 let sortAsc = true;
 
 function load() {
-  const raw = localStorage.getItem(STORAGE_KEY);
+  const key = viewKey();
+  const raw = localStorage.getItem(key);
   if (!raw) {
-    document.getElementById('status').innerHTML = `<div class="err">localStorage["${STORAGE_KEY}"] が見つかりません。アプリを起動してからこのページを開いてください。</div>`;
+    document.getElementById('status').innerHTML = `<div class="err">localStorage["${key}"] が見つかりません。アプリを起動してからこのページを開いてください。</div>`;
     return null;
   }
   try {
@@ -133,8 +163,18 @@ function renderMeta() {
     <div><b>activeWaves</b>: [${(state.activeWaves ?? []).join(', ')}]</div>
     <div><b>savedAt</b>: ${fmtTime(state.savedAt)}</div>
     <div><b>words 件数</b>: ${state.words?.length ?? 0}</div>
-    <div><b>waveUnlockEvents</b>: ${state.waveUnlockEvents?.length ?? 0} 件</div>
+    <div><b>waveUnlockEvents</b>（供給ゲートが開いた日）: ${fmtWaveEvents(state.waveUnlockEvents)}</div>
+    <div><b>waveArrivedEvents</b>（最初の語が画面に出た日）: ${fmtWaveEvents(state.waveArrivedEvents)}</div>
+    <div><b>everArrivedWaves</b>: [${(state.everArrivedWaves ?? []).join(', ')}]</div>
   `;
+}
+
+// 解放と到達は別イベントで、復習の壁の下では数セッションずれる。両方を並べて
+// 「ゲートは開いたが語が流れていない wave」が一目で分かるようにする。
+function fmtWaveEvents(events) {
+  if (!events) return '—（この state には記録なし）';
+  if (events.length === 0) return '0 件';
+  return events.map(e => `W${e.waveNumber}@Day${fmtDay(e.day)}`).join(' / ');
 }
 
 function renderWaveSummary() {
@@ -260,7 +300,14 @@ function flashNotice(msg) {
 
 function refresh() {
   state = load();
-  if (!state) return;
+  if (!state) {
+    document.getElementById('meta').innerHTML = '';
+    document.getElementById('wave-summary').innerHTML = '';
+    document.getElementById('wave-detail').innerHTML = '';
+    document.getElementById('wave-select').innerHTML = '';
+    return;
+  }
+  document.getElementById('status').innerHTML = '';
   renderMeta();
   renderWaveSummary();
   renderWaveDetail();
@@ -292,6 +339,109 @@ async function downloadState(compress) {
   flashNotice(`${name}（${(blob.size / 1024).toFixed(1)} KB）を保存しました`);
 }
 
+// -------------------------------------------------------
+// dev 実機再現ツール（書き込み先は DEV_KEY のみ）
+// -------------------------------------------------------
+
+// 本番と同じ形＝「Wave が過去のセッションで解放済み・まだ1語も到達していない」state を
+// dev 用（9語・waveSize 3）で組み立てる。本番の次の機会（Wave 10）は約100語先で待てないため、
+// 到達 overlay の発火を実機で踏むための最短経路。
+// wall=true: Wave 1・2 の6語すべてを due にして復習が sessionSize(5) を食い尽くす形にする。
+//   本番 Wave 9 と同じ「ゲートは過去のセッションで開いたが、その回は新語枠 0」の再現で、
+//   1セッション消化した後の「続ける」で初めて Wave 3 が到達する。
+function buildArrivalReproState(wall = false) {
+  const devWords = WORD_DATA.slice(0, 9); // app.js の DEV_WORD_COUNT と同じ
+  const currentTime = 3.0;
+  const words = devWords.map((wd, i) => {
+    const waveNumber = Math.ceil((i + 1) / 3); // DEV_CONFIG.waveSize = 3
+    const base = {
+      wordId: wd.id, waveNumber,
+      h: 0, peakH: 0, lastReviewed: 0, stage: 'new',
+      reviewCount: 0, correctCount: 0, incorrectCount: 0, stuckCount: 0,
+      needsHandwrite: false, skipped: false, excluded: false, passiveCursor: 0,
+    };
+    if (waveNumber === 3) return base; // 到達前の wave（まだ1語も出ていない）
+    // Wave 1・2 は学習済み。半分を due にして「復習 + 新語」の混ざったセッションにする
+    const due = wall || i % 2 === 0;
+    return {
+      ...base,
+      h: 2.5, peakH: 2.5,
+      lastReviewed: currentTime - (due ? 0.8 : 0.1),
+      stage: 'mastered',
+      reviewCount: 4, correctCount: 4,
+    };
+  });
+
+  return {
+    words,
+    config: { waveSize: 3, sessionsPerDay: 3, handwriteStuckThreshold: 3 },
+    currentTime,
+    totalCardsConsumed: 30,
+    sessionsCompleted: 6,
+    // ゲートは過去のセッションで開いている（本番 Wave 9 と同じ形）
+    waveUnlockEvents: [{ waveNumber: 2, day: 1.2 }, { waveNumber: 3, day: 2.1 }],
+    activeWaves: [1, 2, 3],
+    everClearedWaves: [],
+    // Wave 3 は未到達（記録なし）→ 最初の語が画面に出た瞬間に overlay が出るはず
+    waveArrivedEvents: [
+      { waveNumber: 1, day: 0.0, session: 1 },
+      { waveNumber: 2, day: 1.4, session: 4 },
+    ],
+    everArrivedWaves: [1, 2],
+    savedAt: Date.now(),
+  };
+}
+
+function writeDevState(obj, label) {
+  obj.savedAt = Date.now(); // 起動時の時間ジャンプを防ぐ
+  localStorage.setItem(DEV_KEY, JSON.stringify(obj));
+  document.getElementById('key-select').value = DEV_KEY;
+  refresh();
+  flashNotice(`${label} を ${DEV_KEY} に書き込みました（本番キーは未変更）`);
+}
+
+document.getElementById('btn-seed-arrival').addEventListener('click', () => {
+  writeDevState(buildArrivalReproState(false), '到達の再現 state（次の1枚目で到達）');
+});
+
+document.getElementById('btn-seed-wall').addEventListener('click', () => {
+  writeDevState(buildArrivalReproState(true), '到達の再現 state（復習の壁 → 次セッションで到達）');
+});
+
+document.getElementById('btn-clear-dev').addEventListener('click', () => {
+  localStorage.removeItem(DEV_KEY);
+  refresh();
+  flashNotice(`${DEV_KEY} を削除しました`);
+});
+
+document.getElementById('file-import').addEventListener('change', async (e) => {
+  const file = e.target.files?.[0];
+  if (!file) return;
+  try {
+    const buf = new Uint8Array(await file.arrayBuffer());
+    const isGz = buf[0] === 0x1f && buf[1] === 0x8b;
+    let text;
+    if (isGz) {
+      if (typeof DecompressionStream === 'undefined') throw new Error('この環境は gzip 展開に非対応です');
+      const stream = new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'));
+      text = await new Response(stream).text();
+    } else {
+      text = new TextDecoder().decode(buf);
+    }
+    const obj = JSON.parse(text);
+    if (!Array.isArray(obj.words)) throw new Error('words 配列がありません（VocabFlow の state ではない？）');
+    if (obj.words.length !== 9) {
+      flashNotice(`注意: ${obj.words.length} 語の state です。dev モード（9語・waveSize 3）とは形が違うため waveSize 移行が走ります`);
+    }
+    writeDevState(obj, file.name);
+  } catch (err) {
+    document.getElementById('status').innerHTML = `<div class="err">import 失敗: ${err.message}</div>`;
+  } finally {
+    e.target.value = '';
+  }
+});
+
+document.getElementById('key-select').addEventListener('change', refresh);
 document.getElementById('btn-refresh').addEventListener('click', refresh);
 document.getElementById('btn-download-gz').addEventListener('click', () => downloadState(true));
 document.getElementById('btn-download-json').addEventListener('click', () => downloadState(false));
