@@ -1,0 +1,570 @@
+{
+  "model": "claude-sonnet-5",
+  "audited": 1900,
+  "flagged": 41,
+  "findings": [
+    {
+      "id": 104,
+      "word": "wonder",
+      "issues": [
+        {
+          "distractor": "無視する、無視して通り過ぎる",
+          "type": "duplicate",
+          "reason": "「見落とす・見過ごす」と意味が重複し、区別が困難",
+          "suggestion": "許可する、認可する"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "word": "novel",
+      "issues": [
+        {
+          "distractor": "整頓された、きれいな",
+          "type": "duplicate",
+          "reason": "誤答「きちんとした、整頓された」と実質同義で重複している",
+          "suggestion": "頑丈な、丈夫な"
+        },
+        {
+          "distractor": "きちんとした、整頓された",
+          "type": "duplicate",
+          "reason": "誤答「整頓された、きれいな」と実質同義で重複している",
+          "suggestion": "怠惰な、無精な"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "word": "manage",
+      "issues": [
+        {
+          "distractor": "求める、探し求める",
+          "type": "duplicate",
+          "reason": "「追求する・追いかける」と実質同義で選択肢が重複している",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "追求する・追いかける",
+          "type": "duplicate",
+          "reason": "「求める、探し求める」と実質同義で選択肢が重複している",
+          "suggestion": "却下する、退ける"
+        }
+      ]
+    },
+    {
+      "id": 272,
+      "word": "consequence",
+      "issues": [
+        {
+          "distractor": "考え、思考",
+          "type": "duplicate",
+          "reason": "「概念、考え」と実質同義で選択肢が重複している",
+          "suggestion": "謙虚さ、控えめな態度"
+        },
+        {
+          "distractor": "概念、考え",
+          "type": "duplicate",
+          "reason": "「考え、思考」と実質同義で選択肢が重複している",
+          "suggestion": "混乱、無秩序状態"
+        }
+      ]
+    },
+    {
+      "id": 301,
+      "word": "predict",
+      "issues": [
+        {
+          "distractor": "失望させる",
+          "type": "duplicate",
+          "reason": "「やる気をなくさせる、落胆させる」と実質同義で選択肢が重複している",
+          "suggestion": "整理する、片付ける"
+        }
+      ]
+    },
+    {
+      "id": 307,
+      "word": "release",
+      "issues": [
+        {
+          "distractor": "急増する、急上昇する",
+          "type": "duplicate",
+          "reason": "「押し上げる、増大させる」と意味が近く、増加を表す点で重複する",
+          "suggestion": "延期する、先送りする"
+        }
+      ]
+    },
+    {
+      "id": 312,
+      "word": "engage",
+      "issues": [
+        {
+          "distractor": "支配する、優位に立つ",
+          "type": "duplicate",
+          "reason": "「統治する、支配する」と実質同義で重複している",
+          "suggestion": "後悔する、悔やむ"
+        }
+      ]
+    },
+    {
+      "id": 318,
+      "word": "strike",
+      "issues": [
+        {
+          "distractor": "衝突、激突",
+          "type": "synonym",
+          "reason": "正解「打つ、たたく」と意味が近く、強く当たるという点で区別が難しい",
+          "suggestion": "節約する、倹約する"
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "word": "recall",
+      "issues": [
+        {
+          "distractor": "（感情・興味などを）呼び起こす、刺激する",
+          "type": "valid",
+          "reason": "recallには『(記憶などを)呼び起こす』という意味があり、正解『思い出す』と実質重なる",
+          "suggestion": "無視する、放置する"
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "word": "manner",
+      "issues": [
+        {
+          "distractor": "口調、雰囲気",
+          "type": "valid",
+          "reason": "manner の別の意味「態度、マナー」に非常に近く、実質的に正しい意味になってしまう",
+          "suggestion": "収穫、収穫量"
+        }
+      ]
+    },
+    {
+      "id": 471,
+      "word": "quantity",
+      "issues": [
+        {
+          "distractor": "持続時間、期間",
+          "type": "duplicate",
+          "reason": "「期間・範囲・幅」と共に『期間』の意味が重複している",
+          "suggestion": "順序、配列"
+        },
+        {
+          "distractor": "期間・範囲・幅",
+          "type": "duplicate",
+          "reason": "「持続時間、期間」と共に『期間』の意味が重複している",
+          "suggestion": "証拠、根拠"
+        }
+      ]
+    },
+    {
+      "id": 511,
+      "word": "grant",
+      "issues": [
+        {
+          "distractor": "〜を非難する、糾弾する",
+          "type": "duplicate",
+          "reason": "「告発する、非難する」と実質同義で、誤答同士が重複している",
+          "suggestion": "延期する、先延ばしにする"
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "word": "emphasize",
+      "issues": [
+        {
+          "distractor": "発表する、告知する",
+          "type": "duplicate",
+          "reason": "「宣言する」と意味が近く、誤答同士が重複気味で区別しにくい",
+          "suggestion": "隠す、秘密にする"
+        }
+      ]
+    },
+    {
+      "id": 527,
+      "word": "cure",
+      "issues": [
+        {
+          "distractor": "保存する",
+          "type": "valid",
+          "reason": "cureには食品などを塩漬け・燻製にして「保存する」という実際の意味があり、誤答として不適切",
+          "suggestion": "〜を励ます、勇気づける"
+        }
+      ]
+    },
+    {
+      "id": 568,
+      "word": "myth",
+      "issues": [
+        {
+          "distractor": "物語・叙述",
+          "type": "vague",
+          "reason": "神話は本来『伝承的な物語』であり、意味が重なりすぎて区別が困難",
+          "suggestion": "沈黙、静寂"
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "word": "prime",
+      "issues": [
+        {
+          "distractor": "著名な、卓越した",
+          "type": "synonym",
+          "reason": "正解『最高の、主要な』と意味が近く、区別が困難",
+          "suggestion": "臆病な、内気な"
+        }
+      ]
+    },
+    {
+      "id": 646,
+      "word": "sum",
+      "issues": [
+        {
+          "distractor": "量、数量",
+          "type": "synonym",
+          "reason": "sumは金額・数量の意味でも使われるため、正解「合計、総額」と実質的に重なり区別が難しい",
+          "suggestion": "秘密、機密"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "word": "assist",
+      "issues": [
+        {
+          "distractor": "～に出席する、参加する",
+          "type": "valid",
+          "reason": "assistには古語的・フランス語由来の用法で『出席する』という実際の意味があり、正解と混同されうる",
+          "suggestion": "反射する、跳ね返す"
+        }
+      ]
+    },
+    {
+      "id": 739,
+      "word": "assign",
+      "issues": [
+        {
+          "distractor": "移す、転送する",
+          "type": "valid",
+          "reason": "assignには法律・財産関係で『権利や財産を移転する』という実際の意味があり、誤答として不適切",
+          "suggestion": "祝う、祝賀する"
+        }
+      ]
+    },
+    {
+      "id": 831,
+      "word": "rid",
+      "issues": [
+        {
+          "distractor": "対処する・処理する",
+          "type": "duplicate",
+          "reason": "「取り組む、対処する」と実質同義で選択肢が重複している",
+          "suggestion": "増やす、拡大する"
+        },
+        {
+          "distractor": "取り組む、対処する",
+          "type": "duplicate",
+          "reason": "「対処する・処理する」と実質同義で選択肢が重複している",
+          "suggestion": "隠す、覆い隠す"
+        }
+      ]
+    },
+    {
+      "id": 894,
+      "word": "harsh",
+      "issues": [
+        {
+          "distractor": "熱心な、意欲的な",
+          "type": "duplicate",
+          "reason": "「熱心な、情熱的な」と実質同義で、誤答同士が重複している",
+          "suggestion": "退屈な、単調な"
+        },
+        {
+          "distractor": "熱心な、情熱的な",
+          "type": "duplicate",
+          "reason": "「熱心な、意欲的な」と実質同義で、誤答同士が重複している",
+          "suggestion": "臆病な、内気な"
+        }
+      ]
+    },
+    {
+      "id": 909,
+      "word": "pour",
+      "issues": [
+        {
+          "distractor": "流す、水で洗い流す",
+          "type": "synonym",
+          "reason": "正解「注ぐ」と液体を扱う動作として意味が近く、区別しづらい",
+          "suggestion": "怠ける、サボる"
+        }
+      ]
+    },
+    {
+      "id": 919,
+      "word": "entertain",
+      "issues": [
+        {
+          "distractor": "あざける、馬鹿にする",
+          "type": "duplicate",
+          "reason": "「侮辱する」と実質同義で選択肢が重複している",
+          "suggestion": "延期する、先延ばしにする"
+        },
+        {
+          "distractor": "侮辱する",
+          "type": "duplicate",
+          "reason": "「あざける、馬鹿にする」と実質同義で選択肢が重複している",
+          "suggestion": "節約する、倹約する"
+        }
+      ]
+    },
+    {
+      "id": 926,
+      "word": "scan",
+      "issues": [
+        {
+          "distractor": "辞める・やめる",
+          "type": "duplicate",
+          "reason": "「止める・終わる」と意味が重複し、選択肢として区別しにくい",
+          "suggestion": "尋ねる、質問する"
+        }
+      ]
+    },
+    {
+      "id": 927,
+      "word": "classify",
+      "issues": [
+        {
+          "distractor": "言及する、参照する",
+          "type": "duplicate",
+          "reason": "「述べる、言及する」と実質同義で選択肢が重複している",
+          "suggestion": "隠す、秘密にする"
+        }
+      ]
+    },
+    {
+      "id": 996,
+      "word": "urgent",
+      "issues": [
+        {
+          "distractor": "永続的な、永久の",
+          "type": "duplicate",
+          "reason": "「絶え間ない、常に続く」と共に継続性を表す意味で重複し区別しにくい",
+          "suggestion": "曖昧な、はっきりしない"
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "word": "nonetheless",
+      "issues": [
+        {
+          "distractor": "その間に、一方で",
+          "type": "duplicate",
+          "reason": "「〜であるのに対して、一方で」と同様に対比を表し重複している",
+          "suggestion": "さらに、それに加えて"
+        },
+        {
+          "distractor": "〜であるのに対して、一方で",
+          "type": "duplicate",
+          "reason": "「その間に、一方で」と対比を表す点で意味が重複している",
+          "suggestion": "例えば、具体的には"
+        }
+      ]
+    },
+    {
+      "id": 1092,
+      "word": "inferior",
+      "issues": [
+        {
+          "distractor": "巨大な、膨大な",
+          "type": "duplicate",
+          "reason": "「並外れて大きい、莫大な」と実質同義で、誤答同士が重複している",
+          "suggestion": "優れた、上位の"
+        },
+        {
+          "distractor": "並外れて大きい、莫大な",
+          "type": "duplicate",
+          "reason": "「巨大な、膨大な」と実質同義で、誤答同士が重複している",
+          "suggestion": "内気な、控えめな"
+        }
+      ]
+    },
+    {
+      "id": 1146,
+      "word": "millennium",
+      "issues": [
+        {
+          "distractor": "量、数量",
+          "type": "duplicate",
+          "reason": "「大部分、大量」と意味が重複し、どちらも『量』に関する概念で区別が困難",
+          "suggestion": "後悔、反省"
+        }
+      ]
+    },
+    {
+      "id": 1175,
+      "word": "scenery",
+      "issues": [
+        {
+          "distractor": "（動物の）群れ",
+          "type": "duplicate",
+          "reason": "「（鳥・羊などの）群れ」と実質同義で重複している",
+          "suggestion": "静けさ、静寂"
+        },
+        {
+          "distractor": "（鳥・羊などの）群れ",
+          "type": "duplicate",
+          "reason": "「（動物の）群れ」と実質同義で重複している",
+          "suggestion": "騒音、雑音"
+        }
+      ]
+    },
+    {
+      "id": 1203,
+      "word": "tackle",
+      "issues": [
+        {
+          "distractor": "閉じ込める、制限する",
+          "type": "duplicate",
+          "reason": "同じ誤答群にある「〜を制限する」と「制限する」の意味が重複しており選択肢として区別できない",
+          "suggestion": "褒める、称賛する"
+        }
+      ]
+    },
+    {
+      "id": 1229,
+      "word": "drift",
+      "issues": [
+        {
+          "distractor": "迷い込む、はぐれる",
+          "type": "valid",
+          "reason": "drift には「目的もなくふらふらと動く・迷い込む」という意味があり、正解「漂う・漂流する」と実質重なるため誤答として不適切",
+          "suggestion": "香りを放つ、匂いがする"
+        }
+      ]
+    },
+    {
+      "id": 1379,
+      "word": "outstanding",
+      "issues": [
+        {
+          "distractor": "重要な",
+          "type": "duplicate",
+          "reason": "「不可欠な、極めて重要な」と実質同義で選択肢が重複している",
+          "suggestion": "退屈な、単調な"
+        }
+      ]
+    },
+    {
+      "id": 1589,
+      "word": "swift",
+      "issues": [
+        {
+          "distractor": "偽の、本物でない",
+          "type": "duplicate",
+          "reason": "誤答「偽りの、誤った」と実質同義で選択肢が重複している",
+          "suggestion": "怠惰な、のろまな"
+        }
+      ]
+    },
+    {
+      "id": 1591,
+      "word": "crude",
+      "issues": [
+        {
+          "distractor": "徹底的な、完全な",
+          "type": "duplicate",
+          "reason": "誤答「まったくの、純粋な」と強調表現として意味が重複し区別しづらい",
+          "suggestion": "清潔な、衛生的な"
+        }
+      ]
+    },
+    {
+      "id": 1614,
+      "word": "dictate",
+      "issues": [
+        {
+          "distractor": "義務づける、強いる",
+          "type": "vague",
+          "reason": "正解「〜を命令する、指図する」と『他者に何かを強制する』という意味合いが重なり、明確に区別しにくい",
+          "suggestion": "延期する、先送りする"
+        }
+      ]
+    },
+    {
+      "id": 1639,
+      "word": "aspire",
+      "issues": [
+        {
+          "distractor": "述べる、言及する",
+          "type": "duplicate",
+          "reason": "「言及する、参照する」と実質同義で、誤答同士が重複している",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "言及する、参照する",
+          "type": "duplicate",
+          "reason": "「述べる、言及する」と実質同義で、誤答同士が重複している",
+          "suggestion": "反抗する、逆らう"
+        }
+      ]
+    },
+    {
+      "id": 1804,
+      "word": "penetrate",
+      "issues": [
+        {
+          "distractor": "（長時間）浸す・漬け込む",
+          "type": "vague",
+          "reason": "正解の「浸透する」と液体が染み込むイメージが重なり区別しづらい",
+          "suggestion": "要約する、まとめる"
+        }
+      ]
+    },
+    {
+      "id": 1826,
+      "word": "comply",
+      "issues": [
+        {
+          "distractor": "守る、警戒する",
+          "type": "valid",
+          "reason": "「守る」は『規則を守る』のように comply（従う）とほぼ同義の訳として使われうる",
+          "suggestion": "反抗する、逆らう"
+        }
+      ]
+    },
+    {
+      "id": 1876,
+      "word": "harassment",
+      "issues": [
+        {
+          "distractor": "投票する",
+          "type": "duplicate",
+          "reason": "誤答「世論調査・投票」と概念が重複しており、投票関連の意味が2つ並んでいる",
+          "suggestion": "灌漑、水を引くこと"
+        }
+      ]
+    },
+    {
+      "id": 1884,
+      "word": "reckless",
+      "issues": [
+        {
+          "distractor": "謙虚な、謙遜した",
+          "type": "duplicate",
+          "reason": "「謙虚な、控えめな」と実質同義で重複している",
+          "suggestion": "頑固な、融通が利かない"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "usage": {
+    "input_tokens": 272994,
+    "output_tokens": 145814
+  }
+}

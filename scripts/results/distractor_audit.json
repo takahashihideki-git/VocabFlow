@@ -1,0 +1,708 @@
+{
+  "model": "claude-sonnet-5",
+  "audited": 1900,
+  "flagged": 58,
+  "findings": [
+    {
+      "id": 30,
+      "word": "encourage",
+      "issues": [
+        {
+          "distractor": "育む、促進する",
+          "type": "valid",
+          "reason": "encourage のもう一つの意味「〜を促進する」と実質同じ内容であり、誤答なのに正しい意味になってしまっている",
+          "suggestion": "非難する、責める"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "word": "reason",
+      "issues": [
+        {
+          "distractor": "基礎、根拠",
+          "type": "synonym",
+          "reason": "正解「理由、根拠」と「根拠」という語が共通しており、区別がつかない",
+          "suggestion": "疑念、不信感"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "word": "thought",
+      "issues": [
+        {
+          "distractor": "概念、考え",
+          "type": "synonym",
+          "reason": "正解「考え、思考」と「考え」という語が共通しており、区別がつかない",
+          "suggestion": "後悔、悔恨"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "word": "role",
+      "issues": [
+        {
+          "distractor": "機能、役割",
+          "type": "synonym",
+          "reason": "正解「役割、役目」と「役割」という語を共有し、意味も実質同一で区別できない",
+          "suggestion": "住居、居住地"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "word": "gain",
+      "issues": [
+        {
+          "distractor": "取得する、入手する",
+          "type": "synonym",
+          "reason": "正解「得る、獲得する」と実質同義で区別できない",
+          "suggestion": "重さが増える、体重が増える"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "word": "supply",
+      "issues": [
+        {
+          "distractor": "〜に装備させる、備えさせる",
+          "type": "synonym",
+          "reason": "正解「供給する」と意味が重なり、必要な物を与える点で区別できない",
+          "suggestion": "抑制する、我慢する"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "word": "advantage",
+      "issues": [
+        {
+          "distractor": "利益、恩恵",
+          "type": "synonym",
+          "reason": "正解「利点；有利」と意味が非常に近く、区別が困難",
+          "suggestion": "遅延、停滞"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "word": "worth",
+      "issues": [
+        {
+          "distractor": "貴重な、大切な",
+          "type": "synonym",
+          "reason": "正解「〜の価値がある」と同じ「価値」の概念を表しており、学習者が区別しにくい",
+          "suggestion": "危険な、リスクがある"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "word": "replace",
+      "issues": [
+        {
+          "distractor": "代替する",
+          "type": "synonym",
+          "reason": "正解「～を取り替える、置き換える」と実質同義で区別できない",
+          "suggestion": "回復する、復活させる"
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "word": "concept",
+      "issues": [
+        {
+          "distractor": "概念；考え",
+          "type": "synonym",
+          "reason": "正解「概念、考え方」とほぼ同一の表現で区別できない",
+          "suggestion": "誤解、思い違い"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "word": "charge",
+      "issues": [
+        {
+          "distractor": "〜を要求する",
+          "type": "vague",
+          "reason": "正解「請求する」と「要求する」は意味が近く、区別が難しい",
+          "suggestion": "延期する、先送りする"
+        }
+      ]
+    },
+    {
+      "id": 298,
+      "word": "willing",
+      "issues": [
+        {
+          "distractor": "熱心な、意欲的な",
+          "type": "vague",
+          "reason": "「喜んで〜する意向がある」と「熱心な、意欲的な」はどちらも物事に前向きな態度を表し、学習者が明確な根拠で区別しにくい",
+          "suggestion": "臆病な、消極的な"
+        }
+      ]
+    },
+    {
+      "id": 315,
+      "word": "acquire",
+      "issues": [
+        {
+          "distractor": "達成する、獲得する",
+          "type": "synonym",
+          "reason": "正解「獲得する、習得する」と『獲得する』の語を共有し実質同義で区別できない",
+          "suggestion": "延期する、先送りする"
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "word": "mass",
+      "issues": [
+        {
+          "distractor": "大部分、大量",
+          "type": "synonym",
+          "reason": "正解「大量の、大規模な」と「大量」という語が重複しており、意味的に区別がつかない",
+          "suggestion": "隙間、割れ目"
+        }
+      ]
+    },
+    {
+      "id": 426,
+      "word": "appeal",
+      "issues": [
+        {
+          "distractor": "訴える（法的に）",
+          "type": "synonym",
+          "reason": "正解「訴える・懇願する」と実質同じ「訴える」という語を含み、区別がつかない",
+          "suggestion": "禁止する、差し止める"
+        }
+      ]
+    },
+    {
+      "id": 436,
+      "word": "propose",
+      "issues": [
+        {
+          "distractor": "〜を提案する",
+          "type": "synonym",
+          "reason": "正解「提案する」と完全に同義で、区別できない",
+          "suggestion": "仮定する、想定する"
+        }
+      ]
+    },
+    {
+      "id": 499,
+      "word": "crucial",
+      "issues": [
+        {
+          "distractor": "不可欠な",
+          "type": "vague",
+          "reason": "「非常に重要な、決定的な」と「不可欠な」は意味の重なりが大きく、明確な根拠で除外しにくい",
+          "suggestion": "退屈な、単調な"
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "word": "employ",
+      "issues": [
+        {
+          "distractor": "募集する、採用する",
+          "type": "synonym",
+          "reason": "正解「雇用する」と実質同義で、区別がつかない",
+          "suggestion": "従う、服従する"
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "word": "stereotype",
+      "issues": [
+        {
+          "distractor": "偏見、先入観",
+          "type": "vague",
+          "reason": "「固定観念、紋切り型」と「偏見、先入観」は日本語表現として意味が近く、学習者が明確な根拠を持って区別しにくい",
+          "suggestion": "陰謀、共謀"
+        }
+      ]
+    },
+    {
+      "id": 613,
+      "word": "persuade",
+      "issues": [
+        {
+          "distractor": "強く促す、強く勧める",
+          "type": "synonym",
+          "reason": "「説得する」と意味が非常に近く、区別が困難",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 637,
+      "word": "calculate",
+      "issues": [
+        {
+          "distractor": "推定する、思い込む",
+          "type": "valid",
+          "reason": "calculateの別義「見積もる」とほぼ同義で、実質的に正しい意味になってしまう",
+          "suggestion": "見送る、延期する"
+        }
+      ]
+    },
+    {
+      "id": 682,
+      "word": "remote",
+      "issues": [
+        {
+          "distractor": "乏しい、不足している",
+          "type": "vague",
+          "reason": "remoteの意味「わずかな、ほとんどない」と意味が非常に近く、区別が困難",
+          "suggestion": "厳しい、厳格な"
+        }
+      ]
+    },
+    {
+      "id": 692,
+      "word": "meaningful",
+      "issues": [
+        {
+          "distractor": "深刻な、重大な",
+          "type": "synonym",
+          "reason": "meaningfulの別義「重要な、深い意味を持つ」と意味が重なり区別しにくい",
+          "suggestion": "退屈な、単調な"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "word": "assist",
+      "issues": [
+        {
+          "distractor": "～に出席する、参加する",
+          "type": "valid",
+          "reason": "assistには古用法で「（式などに）出席する、立ち会う」という意味があり、誤答なのに正解になり得る",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "word": "yield",
+      "issues": [
+        {
+          "distractor": "〜を生産する",
+          "type": "synonym",
+          "reason": "正解「産出する、もたらす」と意味が実質同じで区別できない",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 809,
+      "word": "occupy",
+      "issues": [
+        {
+          "distractor": "所有する、持つ",
+          "type": "vague",
+          "reason": "正解「占有する、占領する」と意味的に近く、上級者でも明確に区別しにくい",
+          "suggestion": "疑う、疑問視する"
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "word": "mode",
+      "issues": [
+        {
+          "distractor": "形式、フォーマット",
+          "type": "synonym",
+          "reason": "正解「方式、様式」と実質同義で、意味が区別できない",
+          "suggestion": "習慣、癖"
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "word": "precious",
+      "issues": [
+        {
+          "distractor": "価値のある",
+          "type": "synonym",
+          "reason": "正解「貴重な、大切な」と実質同義で区別できない",
+          "suggestion": "鈍い、活気のない"
+        }
+      ]
+    },
+    {
+      "id": 915,
+      "word": "grab",
+      "issues": [
+        {
+          "distractor": "〜をしっかりつかむ、握る",
+          "type": "synonym",
+          "reason": "正解「つかむ・引っつかむ」と実質同義で区別できない",
+          "suggestion": "埋め合わせる、償う"
+        }
+      ]
+    },
+    {
+      "id": 936,
+      "word": "exceed",
+      "issues": [
+        {
+          "distractor": "超える",
+          "type": "synonym",
+          "reason": "正解「超える、上回る」と同一表現を含み区別できない",
+          "suggestion": "縮小する、小さくなる"
+        }
+      ]
+    },
+    {
+      "id": 940,
+      "word": "fulfill",
+      "issues": [
+        {
+          "distractor": "〜を実行する、遂行する",
+          "type": "synonym",
+          "reason": "正解「果たす、実現する」と意味が非常に近く区別しにくい",
+          "suggestion": "〜を拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 944,
+      "word": "neuron",
+      "issues": [
+        {
+          "distractor": "神経",
+          "type": "vague",
+          "reason": "正解「神経細胞」と意味が非常に近く、神経系に関する知識がないと区別が困難",
+          "suggestion": "骨、骨格"
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "word": "dispute",
+      "issues": [
+        {
+          "distractor": "反対する、対抗する",
+          "type": "synonym",
+          "reason": "正解「異議を唱える、反論する」と意味がほぼ重なり、区別がつきにくい",
+          "suggestion": "延期する、先送りする"
+        }
+      ]
+    },
+    {
+      "id": 1054,
+      "word": "ethic",
+      "issues": [
+        {
+          "distractor": "良心、道徳心",
+          "type": "vague",
+          "reason": "正解「倫理、道徳原則」と意味が非常に近く、道徳心の概念が重複するため区別が困難",
+          "suggestion": "怒り、憤慨"
+        }
+      ]
+    },
+    {
+      "id": 1114,
+      "word": "dismiss",
+      "issues": [
+        {
+          "distractor": "無視する、無視して通り過ぎる",
+          "type": "synonym",
+          "reason": "正解「〜を退ける、無視する」と『無視する』の意味で重複し区別できない",
+          "suggestion": "解散する、退散させる"
+        }
+      ]
+    },
+    {
+      "id": 1128,
+      "word": "spoil",
+      "issues": [
+        {
+          "distractor": "徐々に弱体化させる、損なう",
+          "type": "synonym",
+          "reason": "正解「台無しにする、損なう」と『損なう』の語が共通し、意味が実質重複して区別できない",
+          "suggestion": "褒美を与える、甘やかす"
+        }
+      ]
+    },
+    {
+      "id": 1233,
+      "word": "twist",
+      "issues": [
+        {
+          "distractor": "曲げる、曲がる",
+          "type": "valid",
+          "reason": "twist のもう一つの意味「曲がる、ひねる」とほぼ同じで、誤答なのに正解として通用してしまう",
+          "suggestion": "怠ける、なまける"
+        }
+      ]
+    },
+    {
+      "id": 1271,
+      "word": "fraction",
+      "issues": [
+        {
+          "distractor": "部分・一部",
+          "type": "synonym",
+          "reason": "正解「一部分、ごく少量」と実質同義で区別できない",
+          "suggestion": "分数、比率"
+        }
+      ]
+    },
+    {
+      "id": 1285,
+      "word": "transparent",
+      "issues": [
+        {
+          "distractor": "明確な、はっきりした",
+          "type": "valid",
+          "reason": "transparentのもう一つの意味「明瞭な、わかりやすい」とほぼ同義で、誤答なのに正解になり得る",
+          "suggestion": "無口な、寡黙な"
+        }
+      ]
+    },
+    {
+      "id": 1298,
+      "word": "magnificent",
+      "issues": [
+        {
+          "distractor": "華やかな、高級な",
+          "type": "valid",
+          "reason": "magnificentのもう一つの意味「豪華な、堂々とした」と実質同義で、誤答なのに正解になり得る",
+          "suggestion": "臆病な、気弱な"
+        }
+      ]
+    },
+    {
+      "id": 1331,
+      "word": "offend",
+      "issues": [
+        {
+          "distractor": "（罪・過ちを）犯す",
+          "type": "valid",
+          "reason": "offendの別義「罪を犯す、違反する」とほぼ同じ意味であり、誤答なのに正しい意味になってしまう",
+          "suggestion": "遅れる、遅刻する"
+        }
+      ]
+    },
+    {
+      "id": 1345,
+      "word": "parliament",
+      "issues": [
+        {
+          "distractor": "議院、会議所",
+          "type": "synonym",
+          "reason": "「議院」は正解の「議会、国会」とほぼ同義で、学習者が意味の違いから正解を一意に選べない",
+          "suggestion": "独裁、専制政治"
+        }
+      ]
+    },
+    {
+      "id": 1371,
+      "word": "gear",
+      "issues": [
+        {
+          "distractor": "装置、機器",
+          "type": "valid",
+          "reason": "gear の別義「装備、道具一式」と実質同じ意味であり、誤答なのに正しい意味になってしまう",
+          "suggestion": "旋律、メロディー"
+        }
+      ]
+    },
+    {
+      "id": 1387,
+      "word": "obscure",
+      "issues": [
+        {
+          "distractor": "曖昧な",
+          "type": "synonym",
+          "reason": "正解「不明瞭な」と意味がほぼ重なり、学習者が区別できない",
+          "suggestion": "寛大な、寛容な"
+        }
+      ]
+    },
+    {
+      "id": 1400,
+      "word": "notable",
+      "issues": [
+        {
+          "distractor": "不可欠な、極めて重要な",
+          "type": "synonym",
+          "reason": "同じ選択肢内の別の誤答「不可欠な」とほぼ同一表現で、実質的に重複しており選択肢として機能しない",
+          "suggestion": "退屈な、つまらない"
+        }
+      ]
+    },
+    {
+      "id": 1434,
+      "word": "strip",
+      "issues": [
+        {
+          "distractor": "さらす、露出させる",
+          "type": "valid",
+          "reason": "strip には「衣服を脱がせる、裸にする」という実際の意味があり、この誤答はその意味と一致してしまう",
+          "suggestion": "説得する、納得させる"
+        }
+      ]
+    },
+    {
+      "id": 1467,
+      "word": "county",
+      "issues": [
+        {
+          "distractor": "地区、行政区",
+          "type": "synonym",
+          "reason": "正解「郡（行政区域）」と意味がほぼ重複し、区別が困難",
+          "suggestion": "貴族、伯爵"
+        }
+      ]
+    },
+    {
+      "id": 1477,
+      "word": "revenue",
+      "issues": [
+        {
+          "distractor": "収入",
+          "type": "synonym",
+          "reason": "正解「収益、歳入」と実質同義で区別できない",
+          "suggestion": "支出、経費"
+        }
+      ]
+    },
+    {
+      "id": 1542,
+      "word": "stake",
+      "issues": [
+        {
+          "distractor": "株式；在庫",
+          "type": "valid",
+          "reason": "stakeは出資・持ち分の意味で株式保有と実質同じ概念であり、正解の「出資分」と混同されうる",
+          "suggestion": "会議、会合"
+        }
+      ]
+    },
+    {
+      "id": 1579,
+      "word": "legitimate",
+      "issues": [
+        {
+          "distractor": "本物の、真正の",
+          "type": "valid",
+          "reason": "legitimateのもう一つの意味「正規の、本物の」と実質同じであり、誤答なのに正しい意味になってしまう",
+          "suggestion": "無関心な、冷淡な"
+        }
+      ]
+    },
+    {
+      "id": 1597,
+      "word": "sheer",
+      "issues": [
+        {
+          "distractor": "徹底的な、完全な",
+          "type": "synonym",
+          "reason": "正解「まったくの、純粋な」と意味がほぼ同じ（utter/completeの意）で区別できない",
+          "suggestion": "臆病な、気弱な"
+        }
+      ]
+    },
+    {
+      "id": 1617,
+      "word": "stray",
+      "issues": [
+        {
+          "distractor": "さまよう",
+          "type": "synonym",
+          "reason": "正解「迷い込む、はぐれる」と意味が重なり、学習者が区別しづらい",
+          "suggestion": "褒める、称賛する"
+        }
+      ]
+    },
+    {
+      "id": 1637,
+      "word": "evoke",
+      "issues": [
+        {
+          "distractor": "思い出す",
+          "type": "synonym",
+          "reason": "正解「呼び起こす、想起させる」と意味が非常に近く、学習者が区別しにくい",
+          "suggestion": "非難する、責め立てる"
+        }
+      ]
+    },
+    {
+      "id": 1700,
+      "word": "intact",
+      "issues": [
+        {
+          "distractor": "徹底的な、完全な",
+          "type": "valid",
+          "reason": "『完全な状態の』というintactのもう一つの意味とほぼ同じで、正解と区別できない",
+          "suggestion": "退屈な、単調な"
+        }
+      ]
+    },
+    {
+      "id": 1731,
+      "word": "presume",
+      "issues": [
+        {
+          "distractor": "〜と思う、仮定する",
+          "type": "synonym",
+          "reason": "正解「推定する、思い込む」と意味がほぼ同じで区別がつかない",
+          "suggestion": "拒絶する、却下する"
+        }
+      ]
+    },
+    {
+      "id": 1752,
+      "word": "grid",
+      "issues": [
+        {
+          "distractor": "インフラ、社会基盤",
+          "type": "valid",
+          "reason": "grid のもう一つの意味「送電網」と概念が重なり、誤答なのに正解に近い",
+          "suggestion": "パズル、なぞなぞ"
+        }
+      ]
+    },
+    {
+      "id": 1825,
+      "word": "restrain",
+      "issues": [
+        {
+          "distractor": "〜を抑制する、妨げる",
+          "type": "synonym",
+          "reason": "正解「〜を抑制する、制止する」と『抑制する』の語が共通し、意味がほぼ同一で区別できない",
+          "suggestion": "説明する、解説する"
+        }
+      ]
+    },
+    {
+      "id": 1865,
+      "word": "outfit",
+      "issues": [
+        {
+          "distractor": "衣服、衣類（一着）",
+          "type": "synonym",
+          "reason": "正解「服装、コーディネート」と実質同義で、outfitの意味と重なり区別できない",
+          "suggestion": "組織、団体"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "usage": {
+    "input_tokens": 250943,
+    "output_tokens": 123629
+  }
+}

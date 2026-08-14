@@ -1,0 +1,168 @@
+{
+  "model": "claude-sonnet-5",
+  "audited": 1900,
+  "flagged": 13,
+  "findings": [
+    {
+      "id": 296,
+      "word": "extreme",
+      "issues": [
+        {
+          "distractor": "巨大な、莫大な",
+          "type": "valid",
+          "reason": "extremeの別義「非常に大きな、最高度の」と実質同義であり、この語の正しい意味と重なってしまう",
+          "suggestion": "礼儀正しい、丁寧な"
+        }
+      ]
+    },
+    {
+      "id": 437,
+      "word": "spell",
+      "issues": [
+        {
+          "distractor": "定義する、意味を明確にする",
+          "type": "valid",
+          "reason": "spellの別義「意味する、もたらす」（例: spell disaster＝災いを意味する）とほぼ同じ内容であり、誤答なのに実質正しい訳になっている",
+          "suggestion": "交代する、交替で務める"
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "word": "stuff",
+      "issues": [
+        {
+          "distractor": "材料、成分",
+          "type": "valid",
+          "reason": "stuffには『材料・素材』という実際の意味があり、正解『もの、品物』と概念的に重なるため区別が難しい",
+          "suggestion": "天候、気象"
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "word": "prime",
+      "issues": [
+        {
+          "distractor": "理想的な",
+          "type": "vague",
+          "reason": "正解「最高の、主要な」の『最高』のニュアンスと重なり、区別が難しい",
+          "suggestion": "一時的な、束の間の"
+        }
+      ]
+    },
+    {
+      "id": 604,
+      "word": "pursue",
+      "issues": [
+        {
+          "distractor": "（目標に向けて）懸命に努力する、奮闘する",
+          "type": "vague",
+          "reason": "正解の『目標を追い続ける』とほぼ同じ状況を表しており、区別が難しい",
+          "suggestion": "断る、拒否する"
+        }
+      ]
+    },
+    {
+      "id": 617,
+      "word": "reserve",
+      "issues": [
+        {
+          "distractor": "〜を保存する",
+          "type": "valid",
+          "reason": "reserveには『後で使うために取っておく＝保存する』という意味が実際にあり、正解と紛れる",
+          "suggestion": "運ぶ、輸送する"
+        }
+      ]
+    },
+    {
+      "id": 877,
+      "word": "administration",
+      "issues": [
+        {
+          "distractor": "治世、統治",
+          "type": "vague",
+          "reason": "「統治」は正解の「行政、管理、運営」（統治・支配のニュアンス）と意味が重なり区別しにくい",
+          "suggestion": "祝賀会、式典"
+        }
+      ]
+    },
+    {
+      "id": 1077,
+      "word": "fancy",
+      "issues": [
+        {
+          "distractor": "精巧な、手の込んだ",
+          "type": "valid",
+          "reason": "fancyの実際の意味（凝った、装飾的な）と一致し、正解「華やかな、高級な」と区別しにくい",
+          "suggestion": "広大な、果てしない"
+        }
+      ]
+    },
+    {
+      "id": 1425,
+      "word": "clarify",
+      "issues": [
+        {
+          "distractor": "〜にする、〜の状態にする",
+          "type": "vague",
+          "reason": "『明確にする』という正解の構造（〜にする、の形）と紛らわしく、意味的に区別しづらい",
+          "suggestion": "怠る、なおざりにする"
+        }
+      ]
+    },
+    {
+      "id": 1452,
+      "word": "curse",
+      "issues": [
+        {
+          "distractor": "破滅、不運な運命",
+          "type": "valid",
+          "reason": "curseには『災いのもと、不運の元凶』という意味があり、これは実際にcurseの正しい意味の一つと重なる",
+          "suggestion": "皿、深皿"
+        }
+      ]
+    },
+    {
+      "id": 1472,
+      "word": "theft",
+      "issues": [
+        {
+          "distractor": "名声、威信",
+          "type": "synonym",
+          "reason": "同じ選択肢内の誤答「評判、名声」と実質同義で、誤答同士が重複しており選択の意味がない",
+          "suggestion": "湿度、湿り気"
+        }
+      ]
+    },
+    {
+      "id": 1615,
+      "word": "prescribe",
+      "issues": [
+        {
+          "distractor": "〜を命令する、指図する",
+          "type": "valid",
+          "reason": "prescribeのもう一つの意味「〜を規定する、定める」と実質同義であり、誤答なのに正解の可能性がある",
+          "suggestion": "隠す、覆い隠す"
+        }
+      ]
+    },
+    {
+      "id": 1718,
+      "word": "render",
+      "issues": [
+        {
+          "distractor": "〜を決定する",
+          "type": "valid",
+          "reason": "renderには『(判決などを)下す、言い渡す』という意味があり、決定するという訳語と重なり得る",
+          "suggestion": "〜を延期する"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "usage": {
+    "input_tokens": 250967,
+    "output_tokens": 116756
+  }
+}
