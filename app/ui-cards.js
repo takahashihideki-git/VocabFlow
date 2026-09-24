@@ -329,10 +329,18 @@ export class CardRenderer {
         <a class="tts-example-link" id="tts-example-btn" role="button" tabindex="0">例文</a>
       </div>
       <div class="dictation-input-area">
-        <!-- lang/inputmode: スマホで日本語 IME ではなく英字キーボードを出すため。
-             iOS は lang を見ないので inputmode="email"（ASCII 固定のメール用キーボード）を使う。 -->
-        <input class="word-input" id="word-input" type="text" lang="en"
-               inputmode="email" enterkeyhint="done" autocomplete="off"
+        <!-- type="url": スマホで日本語 IME ではなく英字キーボードを出すため。
+             lang は iOS では無視され、inputmode="email" も実機で効かなかった
+             （2026-09-24 実機確認）。ただし type でも保証はされない ──
+             iOS はキーボードの言語を type ごとに記憶するので、一度日本語に
+             切り替えられると以後その type では日本語が復元される。
+             url を選ぶ理由: ① 対象語は全1900語が A-Z のみでスペース不要
+             （URL キーボードはスペースの代わりに . / .com）② email と違い
+             select() が効く＝near_miss の再入力で全選択できる（doSubmit 参照）。
+             確実に潰すには自前の A-Z キーパッドで OS キーボードを呼ばない
+             （予測変換が正解を提示する穴も同時に塞がる）。CLAUDE.md 2026-09-24 参照。 -->
+        <input class="word-input" id="word-input" type="url" lang="en"
+               inputmode="url" enterkeyhint="done" autocomplete="off"
                autocorrect="off" autocapitalize="off" spellcheck="false"
                placeholder="スペルを入力...">
         <button class="btn-primary" id="card-submit">送信</button>
