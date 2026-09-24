@@ -329,7 +329,10 @@ export class CardRenderer {
         <a class="tts-example-link" id="tts-example-btn" role="button" tabindex="0">例文</a>
       </div>
       <div class="dictation-input-area">
-        <input class="word-input" id="word-input" type="text" autocomplete="off"
+        <!-- lang/inputmode: スマホで日本語 IME ではなく英字キーボードを出すため。
+             iOS は lang を見ないので inputmode="email"（ASCII 固定のメール用キーボード）を使う。 -->
+        <input class="word-input" id="word-input" type="text" lang="en"
+               inputmode="email" enterkeyhint="done" autocomplete="off"
                autocorrect="off" autocapitalize="off" spellcheck="false"
                placeholder="スペルを入力...">
         <button class="btn-primary" id="card-submit">送信</button>

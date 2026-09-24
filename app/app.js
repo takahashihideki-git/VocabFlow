@@ -186,6 +186,26 @@ class VocabFlowApp {
   }
 
   // -------------------------------------------------------
+  // 実時間の反映（savedAt からの経過を currentTime に加算）
+  // -------------------------------------------------------
+  // state ロード直後・Word Wave を開く直前・復習なし画面の「更新」で呼ぶ。
+  // 加算した分だけ savedAt もメモリ上で進めるため何度呼んでも二重計上しない。
+  // これを _boot だけでやっていた頃は、スタート画面の Word Wave が「保存時点」の
+  // currentTime で潮を計算し（= due が少なく満ち潮に見える）、学習開始で時間が飛んだ
+  // 瞬間に復習が湧いて新語枠 0 になる、という表示と挙動の乖離が起きていた。
+  // スタート画面での除外操作（_saveState）が savedAt だけ現在時刻に進めて
+  // 経過時間を飲み込んでしまう問題も、ロード直後に加算することで塞いでいる。
+  _syncRealTime() {
+    if (!this.state?.savedAt) return 0;
+    const elapsedDays = (Date.now() - this.state.savedAt) / 86400000;
+    if (elapsedDays <= 0) return 0;
+    this.state.currentTime += elapsedDays;
+    this.state.savedAt = Date.now();
+    this._elapsedAtBoot += elapsedDays; // 久しぶり検出用（_getSessionTitle で消費）
+    return elapsedDays;
+  }
+
+  // -------------------------------------------------------
   // ヒートマップ早期初期化（スタート画面でも表示）
   // -------------------------------------------------------
   _initHeatmapEarly() {
@@ -194,6 +214,7 @@ class VocabFlowApp {
       try {
         this.state = LearnerState.fromJSON(JSON.parse(saved), resolveWord);
         this._migrateWaveSize(this.state);
+        this._syncRealTime();   // 以降の表示（統計・ヒートマップ・Word Wave）を現在時刻で計算
         const { state } = this;
         document.getElementById('stat-learned').textContent = state.learnedCount;
         document.getElementById('stat-mastered').textContent = state.masteredCount;
@@ -219,6 +240,10 @@ class VocabFlowApp {
 
     document.getElementById('heatmap-section').addEventListener('click', () => {
       if (!this.wordWave) return;
+      // セッション開始前（スタート画面）は開く直前にも実時間を反映する。
+      // 画面を開きっぱなしにしていても、潮・復習待ちが「いま」の値で表示される。
+      // セッション中は currentTime を動かさない（出題済みカードの前提が変わるため）。
+      if (!this.engine) this._syncRealTime();
       document.getElementById('heatmap-tooltip').style.display = 'none';
       this.wordWave.open();
     });
@@ -257,18 +282,15 @@ class VocabFlowApp {
       new WordState(wd.id, wd, Math.ceil(wd.id / this.config.waveSize))
     );
     this.state = new LearnerState(words, this.config);
+    this._elapsedAtBoot = 0;  // リセット直後に「久しぶり」判定を持ち越さない
   }
 
   // -------------------------------------------------------
   // Boot: SRSモジュール初期化 → UI表示
   // -------------------------------------------------------
   _boot() {
-    // 現実の経過時間を currentTime に反映（前回保存時刻との差分）
-    if (this.state.savedAt) {
-      const elapsedDays = (Date.now() - this.state.savedAt) / 86400000;
-      this.state.currentTime += elapsedDays;
-      this._elapsedAtBoot = elapsedDays; // 久しぶり検出用
-    }
+    // 現実の経過時間を currentTime に反映（ロード時に加算済みなら残差のみ）
+    this._syncRealTime();
 
     // wave クリア状態の追跡
     //  - _clearedWaves: 現在クリア中の wave（毎回 state から再計算）
@@ -991,9 +1013,7 @@ class VocabFlowApp {
     document.getElementById('nw-next-day').addEventListener('click',     () => this._advanceTime(1));
     document.getElementById('nw-next-week').addEventListener('click',    () => this._advanceTime(7));
     document.getElementById('nw-refresh').addEventListener('click', () => {
-      const elapsed = this.state.savedAt ? (Date.now() - this.state.savedAt) / 86400000 : 0;
-      this.state.currentTime += elapsed;
-      this.state.savedAt = Date.now();
+      this._syncRealTime();
       this._startSession();
     });
 
