@@ -331,9 +331,10 @@ export class CardRenderer {
       <div class="dictation-input-area">
         <!-- type="url": スマホで日本語 IME ではなく英字キーボードを出すため。
              lang は iOS では無視され、inputmode="email" も実機で効かなかった
-             （2026-09-24 実機確認）。ただし type でも保証はされない ──
-             iOS はキーボードの言語を type ごとに記憶するので、一度日本語に
-             切り替えられると以後その type では日本語が復元される。
+             （かな入力のまま）。type="url" にすると iOS は日本語キーボードを
+             ASCII(ABC) 入力モードに強制する ＝ 英字は直接打てる。ただし
+             「英語キーボードに切り替わる」わけではなく、手動でかな入力に
+             戻されれば iOS は type ごとにそれを記憶する（2026-09-24 実機確認）。
              url を選ぶ理由: ① 対象語は全1900語が A-Z のみでスペース不要
              （URL キーボードはスペースの代わりに . / .com）② email と違い
              select() が効く＝near_miss の再入力で全選択できる（doSubmit 参照）。
