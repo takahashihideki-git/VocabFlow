@@ -78,6 +78,33 @@ export class WordWaveRenderer {
     this._updateStats();
     this._updateProfileFab();
     this.overlay.style.display = 'flex';
+    this._scrollToFrontier();
+  }
+
+  // 開いたとき、到達している波の先頭（最後に学習を始めた語）を画面中央に。
+  // 1900語のうち関心があるのは先端なので、毎回 Wave 1 から探させない。
+  _scrollToFrontier() {
+    const words = this.state.words;
+    const idx = this._frontierIndex();
+    if (idx < 0) return;
+    const span = this._spanMap.get(words[idx].wordId);
+    const body = this.overlay.querySelector('#wordwave-body');
+    if (!span || !body) return;
+    // display:flex 直後でレイアウトは同期的に確定する（getBoundingClientRect が強制 reflow）
+    const spanRect = span.getBoundingClientRect();
+    const bodyRect = body.getBoundingClientRect();
+    const offset = spanRect.top - bodyRect.top + body.scrollTop;
+    body.scrollTop = Math.max(0, offset - (body.clientHeight - spanRect.height) / 2);
+  }
+
+  // 波の先頭: 最後の学習済語（非new・非excluded）の index。新語は先着順で導入されるので
+  // 「一番最近に導入した語」に相当する。未学習なら -1。
+  _frontierIndex() {
+    const words = this.state.words;
+    for (let i = words.length - 1; i >= 0; i--) {
+      if (words[i].stage !== 'new' && !words[i].excluded) return i;
+    }
+    return -1;
   }
 
   // 学習がある程度進んだら（learnedCount が PROFILE_FAB_MIN_LEARNED 以上）プロファイル FAB を出す。
@@ -218,11 +245,7 @@ export class WordWaveRenderer {
   _applyFrontier() {
     const words = this.state.words;
     this._spanMap.forEach(s => s.classList.remove('ww-word--active'));
-    let frontier = -1;
-    for (let i = 0; i < words.length; i++) {
-      const w = words[i];
-      if (w.stage !== 'new' && !w.excluded) frontier = i;
-    }
+    const frontier = this._frontierIndex();
     let count = 0;
     for (let i = frontier; i >= 0 && count < WW_FRONTIER_SIZE; i--) {
       const w = words[i];
@@ -323,16 +346,17 @@ export class WordWaveRenderer {
             // に反する値が乱れて出る。セッション頻度は人により違うので暦日・翌朝にも触れない。
             hurdleLine = `あと約${hurdle}語（次のセッションの復習）で潮が満ちて新語が到達します`;
           } else {
-            // 1セッションでは崩せない本物の多セッション wall（Day84 級）のときだけ、
-            // 正味の消化ペース（湧き水を差引）で見る。ここでは hurdle≫1セッションなので
-            // netDrain の符号が実態（out-clear できるか否か）を正しく表す。
+            // 1セッションでは崩せない本物の多セッション wall（Day84 級）。指針は作業量
+            // （あとNセッション）だけで足りる。暦日（hurdle/netDrain）は出さない——セッション
+            // 頻度は人それぞれで、日数は具体的な行動に結びつかない余計な情報だった。
+            // netDrain は「現ペースでは減らない」停滞の判定にだけ使う（hurdle≫1セッションなので
+            // その符号が実態＝out-clear できるか否かを正しく表す）。
             const netDrain = tide.throughput - tide.influx;
             if (netDrain > 0.5) {
-              const d = Math.max(1, Math.round(hurdle / netDrain));
-              hurdleLine = `あと約${hurdle}語（約${sessions}セッション／現ペースだと約${d}日）`
+              hurdleLine = `あと約${hurdle}語（約${sessions}セッション）`
                 + `の復習が済むと潮が満ちて新語が到達するようになります`;
             } else {
-              // 停滞ケースは「約N日」を出せないため正直に別分岐（減らない旨を明示）
+              // 停滞ケース: 減らない旨を明示
               hurdleLine = `あと約${hurdle}語（約${sessions}セッション）の復習で潮が満ちますが、`
                 + `現ペースでは減りません — 1日の学習量を増やすと満ちます`;
             }
