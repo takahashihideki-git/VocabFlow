@@ -461,7 +461,7 @@ export const WORD_DATA = [
           blankAnswer: "shared",
         },
       ],
-      distractors: ["（規則・要求に）従う、応じる", "禁止する、許さない", "仲間・同僚"],
+      distractors: ["（規則・要求に）従う、応じる", "禁止する、許さない", "振る舞う、行動する"],
       confusableSpellings: ["shaer", "shair"],
       passive: {
         etymology: "古英語 scaru（切り分けた部分）が語源。sceran（切る）と同根で、もともと「一つのものを切り分ける」→「分け合う」という意味。",
@@ -621,7 +621,7 @@ export const WORD_DATA = [
           blankAnswer: "involves",
         },
       ],
-      distractors: ["追跡する、記録する", "～を調査する、アンケートを取る", "転換する、そらす"],
+      distractors: ["追跡する、記録する", "～を調査する", "転換する、そらす"],
       confusableSpellings: ["envolve", "invole"],
       passive: {
         etymology: "ラテン語 involvere（包み込む）が語源。in-（中に）+ volvere（回転させる）→ 中に巻き込む。revolve, evolve, volume, revolution も同じ volvere から。",
@@ -973,7 +973,7 @@ export const WORD_DATA = [
           blankAnswer: "encouraged",
         },
       ],
-      distractors: ["受取人、受領者", "避ける、遠ざける", "疑う、疑問視する"],
+      distractors: ["〜を処方する", "避ける、遠ざける", "疑う、疑問視する"],
       confusableSpellings: ["encourge", "encorage"],
       passive: {
         etymology: "古フランス語 encoragier（勇気づける）が語源。en-（〜に）+ corage（勇気）→ courage（勇気）と同根。文字通り「勇気を入れる」",
@@ -1165,7 +1165,7 @@ export const WORD_DATA = [
           blankAnswer: "depends",
         },
       ],
-      distractors: ["矛盾する、否定する", "〜を確認する、証明する", "綴る、スペルを言う"],
+      distractors: ["矛盾する、否定する", "〜を確認する、証明する", "綴る"],
       confusableSpellings: ["depand", "deppend"],
       passive: {
         etymology: "ラテン語 dependere（ぶら下がる）が語源。de-（下に）+ pendere（ぶら下がる）→ pendant（ペンダント）と同根。「何かにぶら下がっている」→ 依存する。",
@@ -1390,7 +1390,7 @@ export const WORD_DATA = [
           blankAnswer: "company",
         },
       ],
-      distractors: ["赤字、財政赤字", "余剰、黒字", "稼ぐ、収入を得る"],
+      distractors: ["赤字、財政赤字", "余剰、黒字", "心付け金、祝儀"],
       confusableSpellings: ["compny", "companey"],
       passive: {
         etymology: "ラテン語 companio（パンを共にする仲間）が語源。com-（共に）+ panis（パン）。仲間と食事を共にするイメージから「仲間→会社」へと意味が発展した。",
@@ -1807,7 +1807,7 @@ export const WORD_DATA = [
           blankAnswer: "species",
         },
       ],
-      distractors: ["辺境、フロンティア", "景色・風景", "汚染する"],
+      distractors: ["辺境", "景色・風景", "土、土壌"],
       confusableSpellings: ["spicies", "specias"],
       passive: {
         etymology: "ラテン語 species（外見、種類）が語源。specere（見る）から派生。spectacle（見世物）、inspect（検査する）と同根。「見た目が似た仲間の集まり」→「種」",
@@ -1839,7 +1839,7 @@ export const WORD_DATA = [
           blankAnswer: "thoughts",
         },
       ],
-      distractors: ["長所、メリット", "噂、風聞", "自信、確信"],
+      distractors: ["長所", "噂、風聞", "自信、確信"],
       confusableSpellings: ["thougt", "thougth"],
       passive: {
         etymology: "古英語 þōht（考え）が語源。think（考える）の名詞形で、þencan（考える）から派生。think→thought の不規則変化はゲルマン語系の古い変化パターン。",
@@ -1871,7 +1871,7 @@ export const WORD_DATA = [
           blankAnswer: "knowledge",
         },
       ],
-      distractors: ["講義、講演", "模型、モデル", "対称（性）、シンメトリー"],
+      distractors: ["講義、講演", "模型", "対称（性）"],
       confusableSpellings: ["knowlege", "knolwedge"],
       passive: {
         etymology: "古英語 cnāwlæċ（知ること）が語源。know（知る）+ -ledge（状態を示す接尾辞）。know の k は古英語では発音されていたが、現代英語では黙字になった。",
@@ -1935,7 +1935,7 @@ export const WORD_DATA = [
           blankAnswer: "practice",
         },
       ],
-      distractors: ["地理学", "読み書き能力、識字能力", "類推、アナロジー"],
+      distractors: ["地理学", "読み書き能力、識字能力", "類推"],
       confusableSpellings: ["practise", "pracctice"],
       passive: {
         etymology: "ギリシャ語 praktike（実践的な技術）が語源。prattein（行う、実行する）から派生。practical（実用的な）、pragmatic（実際的な）と同根。",
@@ -2031,7 +2031,7 @@ export const WORD_DATA = [
           blankAnswer: "issue",
         },
       ],
-      distractors: ["偏見、バイアス", "逆説、パラドックス", "絆・結びつき"],
+      distractors: ["偏見", "逆説", "絆・結びつき"],
       confusableSpellings: ["issuse", "isue"],
       passive: {
         etymology: "ラテン語 exire（出て行く）が語源。ex-（外へ）+ ire（行く）→「外に出るもの」→「出版物・発行」→「生じた問題」。exit（出口）と同根。",
@@ -2063,7 +2063,7 @@ export const WORD_DATA = [
           blankAnswer: "experiment",
         },
       ],
-      distractors: ["入学する・登録する", "セッション・会議・授業", "方言、地域語"],
+      distractors: ["類推、たとえ", "会議・授業", "方言、地域語"],
       confusableSpellings: ["experment", "experimant"],
       passive: {
         etymology: "ラテン語 experimentum（試み、証明）が語源。experiri（試す）→ ex-（外へ）+ periri（試みる、危険を冒す）。experience（経験）、expert（専門家）と同根。",
@@ -2095,7 +2095,7 @@ export const WORD_DATA = [
           blankAnswer: "article",
         },
       ],
-      distractors: ["情報源、出典", "アンケート、質問票", "統計、統計学"],
+      distractors: ["情報源、出典", "質問票", "統計、統計学"],
       confusableSpellings: ["artical", "articel"],
       passive: {
         etymology: "ラテン語 articulus（関節、小さな部分）が語源。artus（関節）の指小辞→「小さな部分」→「条文・記事・品物」。arm（腕）と同根で、関節でつながっている部位のイメージ。",
@@ -2159,7 +2159,7 @@ export const WORD_DATA = [
           blankAnswer: "subject",
         },
       ],
-      distractors: ["心理学", "句；フレーズ", "指針、ガイドライン"],
+      distractors: ["心理学", "句", "指針"],
       confusableSpellings: ["subjet", "subjekt"],
       passive: {
         etymology: "ラテン語 subjectus（下に置かれたもの）が語源。sub-（下に）+ jacere（投げる）→「下に投げられた」→「支配下にある」→「話題・テーマ」。project（前に投げる）と同根。",
@@ -2352,7 +2352,7 @@ export const WORD_DATA = [
           blankAnswer: "material",
         },
       ],
-      distractors: ["迷信", "化粧の、美容の", "墓・墓穴"],
+      distractors: ["迷信", "枠、骨組み", "墓・墓穴"],
       confusableSpellings: ["materiel", "matieral"],
       passive: {
         etymology: "ラテン語 materialis（物質的な）が語源。materia（木材、原料）→ mater（母）と同根。「母が産み出すもの」→「原料・素材」。matter（物質）と同語源。",
@@ -2384,7 +2384,7 @@ export const WORD_DATA = [
           blankAnswer: "evidence",
         },
       ],
-      distractors: ["仮説", "実験、試み", "入学する・登録する"],
+      distractors: ["仮説", "実験、試み", "計画"],
       confusableSpellings: ["evidance", "eviddence"],
       passive: {
         etymology: "ラテン語 evidentia（明らかなこと）が語源。ex-（外へ）+ videre（見る）→「はっきり見える」→「証拠」。video（映像）、vision（視覚）と同根で、「目で見てわかること」がもともとの意味。",
@@ -2481,7 +2481,7 @@ export const WORD_DATA = [
           blankAnswer: "technology",
         },
       ],
-      distractors: ["ウェブ、インターネット", "更新する、アップデートする", "装置、機器"],
+      distractors: ["通信網", "革新、刷新", "装置、機器"],
       choiceLabel: "科学技術",
       confusableSpellings: ["techonology", "tecnology"],
       passive: {
@@ -2514,7 +2514,7 @@ export const WORD_DATA = [
           blankAnswer: "cultures",
         },
       ],
-      distractors: ["刃、刃物", "化粧の、美容の", "修道士、僧侶"],
+      distractors: ["刃、刃物", "合成樹脂", "修道士、僧侶"],
       confusableSpellings: ["cultre", "cultur"],
       passive: {
         etymology: "ラテン語 cultura（耕作、栽培）が語源。colere（耕す）→ cultivate（栽培する）と同根。「土地を耕す」→「精神・心を耕す」→「文化・教養」へと意味が発展した。",
@@ -3379,7 +3379,7 @@ export const WORD_DATA = [
           blankAnswer: "imagine",
         },
       ],
-      distractors: ["区別する・見分ける", "思い出させる；リマインドする", "～かと思う、不思議に思う"],
+      distractors: ["区別する・見分ける", "思い出させる", "～かと思う、不思議に思う"],
       confusableSpellings: ["imagin", "immagine", "imagaine"],
       passive: {
         etymology: "ラテン語 imaginari（心に思い描く）← imago（像・イメージ）。image と同じ語根で、「頭の中に像を作る」が原義。",
@@ -3538,7 +3538,7 @@ export const WORD_DATA = [
           blankAnswer: "claims",
         },
       ],
-      distractors: ["承認する、賛成する", "伝える、コミュニケーションをとる", "〜を考慮する"],
+      distractors: ["承認する、賛成する", "伝える", "〜を考慮する"],
       confusableSpellings: ["claime", "cliam", "clame"],
       passive: {
         etymology: "古フランス語 clamer ← ラテン語 clamare（大声で叫ぶ）。「声高に要求・主張する」が原義。acclaim（称賛）や exclaim（叫ぶ）も同じ語根。",
@@ -3794,7 +3794,7 @@ export const WORD_DATA = [
           blankAnswer: "achieve",
         },
       ],
-      distractors: ["急増する、急上昇する", "〜に印をつける", "（ドサッと）投げ捨てる、廃棄する"],
+      distractors: ["急増する、急上昇する", "〜に印をつける", "投げ捨てる、廃棄する"],
       confusableSpellings: ["acheive", "achive", "acheeve"],
       passive: {
         etymology: "古フランス語 achever（完成させる）→ a（～へ）+ chef（頭・先端）→「先端まで到達する＝やり遂げる」が原義。chief（長）と同じ語根。",
@@ -3922,7 +3922,7 @@ export const WORD_DATA = [
           blankAnswer: "performed",
         },
       ],
-      distractors: ["～を調査する、アンケートを取る", "準備する", "運ぶ、輸送する"],
+      distractors: ["～を調査する", "準備する", "運ぶ、輸送する"],
       confusableSpellings: ["preform", "perfom", "performm"],
       passive: {
         etymology: "ラテン語 'performare' が起源。per-（完全に・通じて）+ formare（形作る）→「最後まで形にする」→「やり遂げる・実行する」という意味に。",
@@ -4082,7 +4082,7 @@ export const WORD_DATA = [
           blankAnswer: "applied",
         },
       ],
-      distractors: ["目標、ターゲット", "遅れる、後れをとる", "悪化する、悪化させる"],
+      distractors: ["混ぜ合わせる", "遅れる、後れをとる", "悪化する、悪化させる"],
       confusableSpellings: ["applie", "aply", "applay"],
       passive: {
         etymology: "ラテン語 'applicare' が起源。ad-（〜に向かって）+ plicare（折り重ねる・くっつける）→「何かにくっつける・当てる」→「適用する・応募する」というイメージに発展。",
@@ -4146,7 +4146,7 @@ export const WORD_DATA = [
           blankAnswer: "communicate",
         },
       ],
-      distractors: ["だます、欺く", "〜を具現化する、体現する", "思い出させる；リマインドする"],
+      distractors: ["だます、欺く", "〜を具現化する、体現する", "思い出させる"],
       choiceLabel: "伝える",
       confusableSpellings: ["comunicate", "communicat", "comminicate"],
       passive: {
@@ -4179,7 +4179,7 @@ export const WORD_DATA = [
           blankAnswer: "contains",
         },
       ],
-      distractors: ["〜を完成させる", "〜を混ぜ合わせる、ブレンドする", "さらす、露出させる"],
+      distractors: ["〜を完成させる", "〜を混ぜ合わせる", "さらす、露出させる"],
       confusableSpellings: ["contian", "containe", "conatin"],
       passive: {
         etymology: "ラテン語 'continere' が起源。con-（共に・完全に）+ tenere（保つ・持つ）→「完全に中に保つ」→「含む・封じ込める」という意味に。",
@@ -4275,7 +4275,7 @@ export const WORD_DATA = [
           blankAnswer: "respect",
         },
       ],
-      distractors: ["離婚", "訴える（法的に）", "〜を責める、非難する"],
+      distractors: ["助言する、忠告する", "訴える（法的に）", "〜を責める、非難する"],
       confusableSpellings: ["respact", "repsect"],
       passive: {
         etymology: "ラテン語 'respectus' から。re-（再び）+ specere（見る）が語源。「振り返ってよく見る」→「敬意を持って見る」という意味に発展。",
@@ -4435,7 +4435,7 @@ export const WORD_DATA = [
           blankAnswer: "suffering",
         },
       ],
-      distractors: ["〜を投げる、ピッチングする", "噴霧する、スプレーする", "跳ぶ、跳躍する"],
+      distractors: ["〜を投げる", "噴霧する", "跳ぶ、跳躍する"],
       confusableSpellings: ["sufer", "suffar"],
       passive: {
         etymology: "ラテン語 'sufferre' から。sub-（下に・耐えて）+ ferre（運ぶ・耐える）が語源。「下から支えて耐える」が原義。",
@@ -4532,6 +4532,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["声明、陳述", "ために、目的・利益", "例外"],
+      choiceLabel: "機会",
       confusableSpellings: ["oppotunity", "oppertunity", "opportunty"],
       passive: {
         etymology: "ラテン語 'opportunitas' から。'ob-'（～に向かって）＋ 'portus'（港）→「港に向かう風が吹いている」状態、つまり「好都合な瞬間」が語源。",
@@ -4563,7 +4564,7 @@ export const WORD_DATA = [
           blankAnswer: "task",
         },
       ],
-      distractors: ["機会、チャンス", "理由、根拠", "情熱"],
+      distractors: ["機会", "理由、根拠", "情熱"],
       confusableSpellings: ["taks", "tsak"],
       passive: {
         etymology: "古フランス語 'tasque'、中世ラテン語 'tasca'（税、課せられた仕事）に由来。もともと「税として課される労働」という意味だった。",
@@ -4595,7 +4596,7 @@ export const WORD_DATA = [
           blankAnswer: "industry",
         },
       ],
-      distractors: ["〜する余裕がある", "信用する、評価する", "販売業者、売り手"],
+      distractors: ["顧客・依頼人", "特許（権）", "販売業者、売り手"],
       confusableSpellings: ["industy", "industrie", "indsutry"],
       passive: {
         etymology: "ラテン語 'industria'（勤勉さ、熱心さ）から。'indu-'（中に）＋ 'struere'（積み上げる）→「内側から積み上げる努力」が原義。現在の「産業」の意味は産業革命以降に定着。",
@@ -4627,7 +4628,7 @@ export const WORD_DATA = [
           blankAnswer: "medium",
         },
       ],
-      distractors: ["モーター、電動機", "クリックする", "アクセス、利用する権利"],
+      distractors: ["電動機", "頻度、回数", "利用する権利"],
       confusableSpellings: ["meduim", "medim", "mediun"],
       passive: {
         etymology: "ラテン語 'medius'（中間の）から。'med-' は「中央」を意味する語根で、'middle'、'median'、'mediocre' とも同根。",
@@ -4659,7 +4660,7 @@ export const WORD_DATA = [
           blankAnswer: "economy",
         },
       ],
-      distractors: ["割増料金、プレミアム", "実用性、有用性", "資源、リソース"],
+      distractors: ["割増料金", "実用性、有用性", "資源"],
       confusableSpellings: ["econamy", "economey", "ecomony"],
       passive: {
         etymology: "ギリシャ語 'oikonomia'（家の管理）から。'oikos'（家）＋ 'nomos'（法、管理）→「家を管理すること」が転じて国家・社会規模の資源管理を指すようになった。",
@@ -4691,7 +4692,7 @@ export const WORD_DATA = [
           blankAnswer: "policy",
         },
       ],
-      distractors: ["県、都道府県", "罰則、刑罰", "嫌がらせ、ハラスメント"],
+      distractors: ["県、都道府県", "罰則、刑罰", "嫌がらせ"],
       confusableSpellings: ["polisy", "policiy", "polcy"],
       passive: {
         etymology: "ギリシャ語 'politeia'（市民の管理）→ラテン語 'politia' → 古フランス語 'policie'。'polis'（都市国家）が語根で、'politics'、'police' とも同じ起源を持つ。",
@@ -4723,7 +4724,7 @@ export const WORD_DATA = [
           blankAnswer: "account",
         },
       ],
-      distractors: ["商業、貿易", "チップ（心付け）、心付け金", "企業・法人"],
+      distractors: ["商業、貿易", "心付け金", "企業・法人"],
       confusableSpellings: ["acount", "accout", "acconut"],
       passive: {
         etymology: "古フランス語 'aconter'（計算する）から。'a-'（～に）＋ 'conter'（数える）→「数を合わせる」が原義。ラテン語 'computare'（計算する）にも関連。",
@@ -4755,7 +4756,7 @@ export const WORD_DATA = [
           blankAnswer: "trade",
         },
       ],
-      distractors: ["富、財産", "（競売・入札で）値をつける、入札する", "企業・法人"],
+      distractors: ["富、財産", "資源、財源", "企業・法人"],
       confusableSpellings: ["trede", "traed", "traid"],
       passive: {
         etymology: "中英語・低地ドイツ語 'trade'（道、踏み固められた道）から。「商人が通る道」→「商取引」へと意味が拡張した。'tread'（踏む）と同語源。",
@@ -4787,7 +4788,7 @@ export const WORD_DATA = [
           blankAnswer: "model",
         },
       ],
-      distractors: ["類推、アナロジー", "相関（関係）", "カテゴリー、分類"],
+      distractors: ["類推", "相関（関係）", "分類"],
       choiceLabel: "模型",
       confusableSpellings: ["modle", "modell", "mdoel"],
       passive: {
@@ -4884,7 +4885,7 @@ export const WORD_DATA = [
           blankAnswer: "image",
         },
       ],
-      distractors: ["伝記", "原稿、手書き文書", "〜を飾る・装飾する"],
+      distractors: ["伝記", "原稿、手書き文書", "韻、押韻"],
       confusableSpellings: ["imige", "imagge", "imaje"],
       passive: {
         etymology: "ラテン語 imago（似姿・肖像）が語源。im-（似せる）＋ ago（行為）の組み合わせで「似せて作ったもの」という意味。",
@@ -4948,7 +4949,7 @@ export const WORD_DATA = [
           blankAnswer: "stress",
         },
       ],
-      distractors: ["（病院の）病棟", "肉、皮膚", "ウイルス"],
+      distractors: ["（病院の）病棟", "肉、皮膚", "病原体"],
       choiceLabel: "精神的緊張",
       confusableSpellings: ["strees", "strss", "stres"],
       passive: {
@@ -5044,7 +5045,7 @@ export const WORD_DATA = [
           blankAnswer: "character",
         },
       ],
-      distractors: ["尊厳、品格", "ために、目的・利益", "長所、メリット"],
+      distractors: ["尊厳、品格", "ために、目的・利益", "長所"],
       confusableSpellings: ["charactor", "charcter", "charachter"],
       passive: {
         etymology: "ギリシャ語 kharaktēr（刻み込まれた印・刻印）が語源。kharassein（刻む）から来ており、「その人に刻み込まれた特徴＝性格」という発想。",
@@ -5205,7 +5206,7 @@ export const WORD_DATA = [
           blankAnswer: "method",
         },
       ],
-      distractors: ["文書、書類", "前提", "セッション・会議・授業"],
+      distractors: ["文書、書類", "前提", "会議・授業"],
       confusableSpellings: ["methord", "methode", "methed"],
       passive: {
         etymology: "ギリシャ語 'methodos'（追求する道）から。接頭辞 'meta-'（～に沿って）＋語根 'hodos'（道）。",
@@ -5237,7 +5238,7 @@ export const WORD_DATA = [
           blankAnswer: "resources",
         },
       ],
-      distractors: ["〜を借りている、〜の義務がある", "人員、従業員（集合的）", "利害関係、出資分"],
+      distractors: ["割引", "人員、従業員（集合的）", "利害関係、出資分"],
       choiceLabel: "資源、財源",
       confusableSpellings: ["resourse", "rescource", "resouce"],
       passive: {
@@ -5398,7 +5399,7 @@ export const WORD_DATA = [
           blankAnswer: "function",
         },
       ],
-      distractors: ["思いやり、慈悲", "誤謬、詭弁、論理的誤り", "ジレンマ・板挟み"],
+      distractors: ["思いやり、慈悲", "誤謬、詭弁、論理的誤り", "板挟み"],
       confusableSpellings: ["fuction", "functon", "funciton"],
       passive: {
         etymology: "ラテン語 'functio'（実行・履行）から。語根 'fungi'（果たす・実行する）。'fungi'（キノコ）とは別単語なので注意。",
@@ -5430,7 +5431,7 @@ export const WORD_DATA = [
           blankAnswer: "access",
         },
       ],
-      distractors: ["チップ、半導体素子", "更新する、アップデートする", "アルゴリズム、計算手順"],
+      distractors: ["半導体素子", "つながり", "計算手順"],
       choiceLabel: "利用する権利",
       confusableSpellings: ["acces", "acess", "accses"],
       passive: {
@@ -5495,7 +5496,7 @@ export const WORD_DATA = [
           blankAnswer: "income",
         },
       ],
-      distractors: ["商品、品物", "賭ける", "保険"],
+      distractors: ["商品、品物", "予算", "保険"],
       confusableSpellings: ["inccome", "incom", "imcome"],
       passive: {
         etymology: "ラテン語由来。in-（中へ）+ come（来る）→「入ってくるもの」→収入。古英語 incuman（入る）が名詞化した形。",
@@ -5527,7 +5528,7 @@ export const WORD_DATA = [
           blankAnswer: "attitude",
         },
       ],
-      distractors: ["偏見、バイアス", "気分、気持ち", "概念、考え"],
+      distractors: ["偏見", "気分、気持ち", "概念、考え"],
       confusableSpellings: ["attitute", "atitude", "attitood"],
       passive: {
         etymology: "イタリア語 attitudine（姿勢・構え）→ フランス語 attitude を経て英語へ。ラテン語 aptitudo（適性）が語源で、もともとは「体の姿勢・構え」を意味していた。",
@@ -5559,7 +5560,7 @@ export const WORD_DATA = [
           blankAnswer: "site",
         },
       ],
-      distractors: ["モーター、電動機", "図表、グラフ", "記録する、ログに残す"],
+      distractors: ["電動機", "図表", "端末機器"],
       choiceLabel: "用地",
       confusableSpellings: ["syte", "siet", "cyte"],
       passive: {
@@ -5688,7 +5689,7 @@ export const WORD_DATA = [
           blankAnswer: "link",
         },
       ],
-      distractors: ["格子（状のもの）、グリッド", "形式、フォーマット", "再読み込みする、更新する"],
+      distractors: ["格子（状のもの）", "形式", "版、変形"],
       choiceLabel: "つながり",
       confusableSpellings: ["linck", "llink", "lynk"],
       passive: {
@@ -5786,7 +5787,8 @@ export const WORD_DATA = [
           blankAnswer: "Negative",
         },
       ],
-      distractors: ["十分な", "豊富な、たくさんの", "異国風の・エキゾチックな"],
+      distractors: ["十分な", "豊富な、たくさんの", "異国風の"],
+      choiceLabel: "否定的な",
       confusableSpellings: ["negatve", "negitive", "negattive"],
       passive: {
         etymology: "ラテン語 negativus（否定する）から。negare（否定する・拒む）が語根。deny（否定する）や negate（無効にする）とも同根。neg- という接頭辞が「否・無」を表す。",
@@ -5882,7 +5884,7 @@ export const WORD_DATA = [
           blankAnswer: "mental",
         },
       ],
-      distractors: ["神聖な、聖なる", "有史以前の、先史時代の", "自由主義の、リベラルな"],
+      distractors: ["神聖な、聖なる", "有史以前の、先史時代の", "自由主義の"],
       confusableSpellings: ["mentall", "mantel", "mentel"],
       passive: {
         etymology: "ラテン語 'mens'（心・精神）＋接尾辞 '-al'（〜の・〜に関する）。'mind' とは別の語根だが意味は近い。'mention'（言及）も同じ語根。",
@@ -6234,7 +6236,7 @@ export const WORD_DATA = [
           blankAnswer: "Digital",
         },
       ],
-      distractors: ["免疫のある", "静的な", "活力のある、ダイナミックな"],
+      distractors: ["免疫のある", "静的な", "活力のある"],
       choiceLabel: "電子的な、数字の",
       confusableSpellings: ["digitall", "digitel", "digiatal"],
       passive: {
@@ -6331,7 +6333,7 @@ export const WORD_DATA = [
           blankAnswer: "plastic",
         },
       ],
-      distractors: ["主流、大勢", "生地、布地", "枠・フレーム"],
+      distractors: ["主流、大勢", "生地、布地", "枠"],
       choiceLabel: "合成樹脂",
       confusableSpellings: ["plastik", "plasctic", "plaastic"],
       passive: {
@@ -6653,6 +6655,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["〜を完成させる", "達成する、獲得する", "拡大する、拡張する"],
+      choiceLabel: "～を調査する",
       confusableSpellings: ["survay", "survei", "suvrey"],
       passive: {
         etymology: "古フランス語 sur-（上から）＋ voir（見る）→「上から見渡す」が原義。supervisor（監督者）も同じ 'super + videre' の流れ。",
@@ -6844,7 +6847,7 @@ export const WORD_DATA = [
           blankAnswer: "promotes",
         },
       ],
-      distractors: ["衝突する、対立する", "再会、同窓会", "義務づける、強いる"],
+      distractors: ["衝突する、対立する", "〜を慰める", "義務づける、強いる"],
       confusableSpellings: ["promot", "promoate", "promothe"],
       passive: {
         etymology: "ラテン語 'promovere'（前に動かす）から。接頭辞 'pro-'（前に・前方へ）＋ 'movere'（動かす）。'motion'（動き）や 'move' と同じ語根を持つ。",
@@ -6876,7 +6879,7 @@ export const WORD_DATA = [
           blankAnswer: "earns",
         },
       ],
-      distractors: ["補償する、埋め合わせをする", "破産した、倒産した", "代理人"],
+      distractors: ["補償する、埋め合わせをする", "購入する", "広告を出す；宣伝する"],
       confusableSpellings: ["yearn", "ern", "eran"],
       passive: {
         etymology: "古英語 'earnian'（労働によって得る）から。ゲルマン語の語根で「収穫する」という概念に由来。現代英語で最もシンプルな「労働対価」を表す動詞として残った。",
@@ -6940,7 +6943,7 @@ export const WORD_DATA = [
           blankAnswer: "feeds",
         },
       ],
-      distractors: ["〜をさまよう、歩き回る", "くつろぐ、リラックスする", "拭く、ふき取る"],
+      distractors: ["〜をさまよう、歩き回る", "くつろぐ", "拭く、ふき取る"],
       confusableSpellings: ["fead", "feeed", "fede"],
       passive: {
         etymology: "古英語 'fēdan'（食べ物を与える）から。ゲルマン語の 'fōdjan' に由来し、'food'（食べ物）と同じ語根。food と feed は「食べ物」と「食べ物を与える行為」という兄弟関係にある。",
@@ -7132,7 +7135,7 @@ export const WORD_DATA = [
           blankAnswer: "attracted",
         },
       ],
-      distractors: ["調整する、まとめる", "～を調査する、アンケートを取る", "分ける、割る"],
+      distractors: ["調整する、まとめる", "～を調査する", "分ける、割る"],
       confusableSpellings: ["atract", "attrakt"],
       passive: {
         etymology: "ラテン語 'attrahere' から。接頭辞 'at-'（＝ad-、～に向かって）＋語根 'tract'（引く）。文字通り「引っ張り寄せる」。",
@@ -7228,7 +7231,7 @@ export const WORD_DATA = [
           blankAnswer: "match",
         },
       ],
-      distractors: ["濾過する、フィルタリングする", "（部屋・家に）家具を備え付ける", "刺激する・促進する"],
+      distractors: ["濾過する", "（部屋・家に）家具を備え付ける", "刺激する・促進する"],
       confusableSpellings: ["mach", "matche"],
       passive: {
         etymology: "古英語 'mæcca'（仲間・対になるもの）から。「対になるものを見つける」が原義。名詞の「マッチ（試合・火をつける棒）」とは別の語源。",
@@ -7807,7 +7810,7 @@ export const WORD_DATA = [
           blankAnswer: "device",
         },
       ],
-      distractors: ["部品、構成要素", "チップ、半導体素子", "場所・用地"],
+      distractors: ["部品、構成要素", "半導体素子", "場所・用地"],
       confusableSpellings: ["devide", "divice", "deivce"],
       passive: {
         etymology: "古フランス語 devis（計画・考案）、ラテン語 dividere（分ける・区分する）から。「分けて設計したもの」→「考案されたもの・道具」が原義。同根語に divide がある。",
@@ -7904,7 +7907,7 @@ export const WORD_DATA = [
           blankAnswer: "colleague",
         },
       ],
-      distractors: ["（人・状況を）巧みに操る、操作する", "追放する；除名する", "促進する、推進する"],
+      distractors: ["同盟・連盟", "競技会・競争", "礼儀、丁寧さ"],
       confusableSpellings: ["collegue", "colleage"],
       passive: {
         etymology: "フランス語 collègue、ラテン語 collega（同じ職務を分かち合う者）から。col-（共に）+ legare（任命する・派遣する）が語根。「共に任命された者」が原義。",
@@ -7968,7 +7971,7 @@ export const WORD_DATA = [
           blankAnswer: "bill",
         },
       ],
-      distractors: ["（競売・入札で）値をつける、入札する", "部門、セクター", "資産、財産"],
+      distractors: ["資源、財源", "部門", "資産、財産"],
       confusableSpellings: ["bil", "bille", "biil"],
       passive: {
         etymology: "中世ラテン語 bulla（公文書の封印）から。もともとは「封印された文書」を意味し、そこから「公式な書類→請求書・法案」へ意味が拡大。",
@@ -8066,7 +8069,7 @@ export const WORD_DATA = [
           blankAnswer: "audience",
         },
       ],
-      distractors: ["遺産、遺物", "神話", "作曲する、作成する"],
+      distractors: ["遺産、遺物", "神話", "おかしさ、こっけいさ"],
       confusableSpellings: ["audiance", "audiense"],
       passive: {
         etymology: "ラテン語 'audire'（聞く）＋ '-ence'（名詞化接尾辞）。'audio'（音声）と同じ語根を持つ。",
@@ -8130,7 +8133,7 @@ export const WORD_DATA = [
           blankAnswer: "crops",
         },
       ],
-      distractors: ["小道、トレイル", "木材、材木", "大草原、プレーリー"],
+      distractors: ["小道", "木材、材木", "大草原"],
       confusableSpellings: ["crob", "cropp"],
       passive: {
         etymology: "古英語 'cropp'（植物の穂・頂部）に由来。植物の「上部を刈り取る」行為から「収穫物」へと意味が広がった。",
@@ -8162,7 +8165,7 @@ export const WORD_DATA = [
           blankAnswer: "topic",
         },
       ],
-      distractors: ["論文、学位論文", "練習、実践", "入学する・登録する"],
+      distractors: ["論文、学位論文", "練習、実践", "学部生、大学生（学士課程）"],
       choiceLabel: "話題、議題",
       confusableSpellings: ["topick", "toppic"],
       passive: {
@@ -8259,7 +8262,7 @@ export const WORD_DATA = [
           blankAnswer: "options",
         },
       ],
-      distractors: ["利点；有利", "ジレンマ・板挟み", "苦境、窮状、悲惨な状態"],
+      distractors: ["利点；有利", "板挟み", "苦境、窮状、悲惨な状態"],
       choiceLabel: "選択肢",
       confusableSpellings: ["opshon", "optoin"],
       passive: {
@@ -8388,7 +8391,7 @@ export const WORD_DATA = [
           blankAnswer: "conflict",
         },
       ],
-      distractors: ["〜を改革する、改善する", "性別、ジェンダー", "征服する、制圧する"],
+      distractors: ["同盟国、味方", "性別", "固定観念、紋切り型"],
       confusableSpellings: ["conflikt", "confict", "conflct"],
       passive: {
         etymology: "ラテン語 'conflictus' から。接頭辞 'con-'（共に）＋語根 'fligere'（打つ）→「互いに打ち合う」が原義。",
@@ -8452,7 +8455,7 @@ export const WORD_DATA = [
           blankAnswer: "context",
         },
       ],
-      distractors: ["カテゴリー、分類", "指針、ガイドライン", "カリキュラム、教育課程"],
+      distractors: ["分類", "指針", "教育課程"],
       confusableSpellings: ["contex", "contexct", "kontext"],
       passive: {
         etymology: "ラテン語 'contextus' から。'con-'（共に）＋'texere'（織る）→「一緒に織り上げられたもの」が語源。'text'（テキスト）も同じ語根！",
@@ -8484,7 +8487,7 @@ export const WORD_DATA = [
           blankAnswer: "debated",
         },
       ],
-      distractors: ["反対する、対抗する", "誓う、約束する", "避ける、遠ざける"],
+      distractors: ["競技会・競争", "同盟・連盟", "賞、賞品"],
       confusableSpellings: ["debait", "debat", "dibate"],
       passive: {
         etymology: "古フランス語 'debatre' から。'de-'（分離・強調）＋'battre'（打つ）→「互いに打ち合う」が原義。'battle'（戦い）と同じ語根を持つ。",
@@ -8516,7 +8519,7 @@ export const WORD_DATA = [
           blankAnswer: "fueled",
         },
       ],
-      distractors: ["流域・盆地", "辺境、フロンティア", "大気、空気"],
+      distractors: ["流域・盆地", "辺境", "大気、空気"],
       confusableSpellings: ["fule", "feul", "fuell"],
       passive: {
         etymology: "古フランス語 'fouaille' から。ラテン語 'focus'（炉・火）が語源。'focus' と同じ祖先を持つ！",
@@ -8646,7 +8649,7 @@ export const WORD_DATA = [
           blankAnswer: "traffic",
         },
       ],
-      distractors: ["贅沢、ぜいたく品", "警報、アラーム", "宝、財宝"],
+      distractors: ["贅沢、ぜいたく品", "警報", "宝、財宝"],
       confusableSpellings: ["traffik", "trafic", "traffick"],
       passive: {
         etymology: "イタリア語 'traffico' から。アラビア語 'tafriq'（分配）が語源という説もある。中世の貿易・物資のやり取りを指した言葉が交通全般に広がった。",
@@ -8678,7 +8681,7 @@ export const WORD_DATA = [
           blankAnswer: "strategy",
         },
       ],
-      distractors: ["統計、統計学", "類推、アナロジー", "教義、主義"],
+      distractors: ["統計、統計学", "類推", "教義、主義"],
       confusableSpellings: ["startegy", "stratery", "strategey"],
       passive: {
         etymology: "ギリシャ語 'strategia' から。'stratos'（軍隊）＋'agein'（導く）→「軍隊を率いる技術」が語源。将軍（'strategos'）の仕事が語源になっている。",
@@ -8837,7 +8840,7 @@ export const WORD_DATA = [
           blankAnswer: "gene",
         },
       ],
-      distractors: ["内科医、医師", "神経", "ワクチン"],
+      distractors: ["内科医、医師", "神経", "予防接種液"],
       confusableSpellings: ["jean", "geen", "jene"],
       passive: {
         etymology: "ギリシャ語 'genos'（生まれ・種族）が語源。'genesis'（起源）、'generate'（生み出す）、'genus'（属）と同じ語根ファミリー。",
@@ -9252,7 +9255,7 @@ export const WORD_DATA = [
           blankAnswer: "moral",
         },
       ],
-      distractors: ["仮想の、バーチャルな", "暗黙の、言外の", "ありそうな"],
+      distractors: ["仮想の", "暗黙の、言外の", "ありそうな"],
       confusableSpellings: ["morel", "morral", "morall"],
       passive: {
         etymology: "ラテン語 'moralis'（習慣・風俗に関する）に由来。語根 'mos / mores'（習慣・慣習）→「社会の慣習に基づく善悪の判断」→道徳的な、という意味に発展。ギリシャ語の 'ethos' を訳すためにキケロが作った語とも言われる。",
@@ -9444,7 +9447,7 @@ export const WORD_DATA = [
           blankAnswer: "legal",
         },
       ],
-      distractors: ["無線の、ワイヤレスの", "人口統計学的な", "連邦の、連邦政府の"],
+      distractors: ["無線の", "人口統計学的な", "連邦の、連邦政府の"],
       confusableSpellings: ["leagl", "legall", "legel"],
       passive: {
         etymology: "ラテン語 'legalis'（法に関する）から。語根は 'lex / legis'（法律）。同語根の単語に 'legislation'（法律制定）、'legitimate'（正当な）、'illegal'（違法な）がある。",
@@ -9860,7 +9863,7 @@ export const WORD_DATA = [
           blankAnswer: "release",
         },
       ],
-      distractors: ["押し上げる、増大させる", "延期する、先送りする", "濾過する、フィルタリングする"],
+      distractors: ["押し上げる、増大させる", "延期する、先送りする", "濾過する"],
       confusableSpellings: ["relese", "releese", "realease"],
       passive: {
         etymology: "古フランス語 relesser から。re-（再び、戻す）＋laxare（緩める）が語源。ラテン語 laxus（ゆるい）にも繋がり、relax（リラックスする）とも同根。「縛りを緩めて戻す」が原義。",
@@ -10084,7 +10087,7 @@ export const WORD_DATA = [
           blankAnswer: "adopted",
         },
       ],
-      distractors: ["繰り返す、反復する", "（ドサッと）投げ捨てる、廃棄する", "たどる、追跡する"],
+      distractors: ["繰り返す、反復する", "投げ捨てる、廃棄する", "たどる、追跡する"],
       confusableSpellings: ["addopt", "adoppt", "adop"],
       passive: {
         etymology: "ラテン語 adoptare 由来。ad-（〜に向かって）＋ optare（選ぶ）から「選んで自分のものにする」という意味。",
@@ -10148,7 +10151,7 @@ export const WORD_DATA = [
           blankAnswer: "expand",
         },
       ],
-      distractors: ["（人・物を）追い出す、移動させる", "順位をつける・ランク付けする", "再開する"],
+      distractors: ["（人・物を）追い出す、移動させる", "順位をつける", "再開する"],
       confusableSpellings: ["expend", "expamd", "expaned"],
       passive: {
         etymology: "ラテン語 expandere 由来。ex-（外へ）＋ pandere（広げる）から「外へ向かって広げる」という意味。",
@@ -10180,7 +10183,7 @@ export const WORD_DATA = [
           blankAnswer: "refused",
         },
       ],
-      distractors: ["～に出席する、参加する", "交換する、取り替える", "受取人、受領者"],
+      distractors: ["～に出席する、参加する", "交換する、取り替える", "異議を唱える、反論する"],
       confusableSpellings: ["refuze", "refuce", "refeuse"],
       passive: {
         etymology: "ラテン語 refusare 由来。re-（後ろへ、元に戻す）＋ fundere（注ぐ）が変化した形で「注ぎ返す＝突き返す」というイメージから「拒否する」に。",
@@ -10212,7 +10215,7 @@ export const WORD_DATA = [
           blankAnswer: "struck",
         },
       ],
-      distractors: ["編む、ニット編みする", "排水する・水を抜く", "節約する、倹約する"],
+      distractors: ["編む", "排水する・水を抜く", "節約する、倹約する"],
       confusableSpellings: ["stirke", "stike", "struike"],
       passive: {
         etymology: "古英語 strīcan（なでる、進む）由来。「素早く動いて当たる」という物理的なイメージが基本義。ゲルマン語系の古い語。",
@@ -10660,7 +10663,7 @@ export const WORD_DATA = [
           blankAnswer: "participate",
         },
       ],
-      distractors: ["同意、承諾", "禁止する", "謝罪する"],
+      distractors: ["（〜に）専念する・約束する", "禁止する", "謝罪する"],
       confusableSpellings: ["participiate", "partisipate", "participaite"],
       passive: {
         etymology: "ラテン語 participare から。pars/part-（部分）＋ capere（取る）＋ -ate。「部分を取る」→「分かち合う・参加する」という意味の変化。",
@@ -10692,7 +10695,7 @@ export const WORD_DATA = [
           blankAnswer: "surround",
         },
       ],
-      distractors: ["目標、ターゲット", "配達する；届ける", "生み出す、発生させる"],
+      distractors: ["供給する", "配達する；届ける", "生み出す、発生させる"],
       confusableSpellings: ["surrround", "suround", "surrond"],
       passive: {
         etymology: "古フランス語 souronder（溢れる）から。ラテン語 super-（上）＋ undare（波打つ）が語源。「波が上からあふれ囲む」イメージが元になっている。",
@@ -10949,7 +10952,7 @@ export const WORD_DATA = [
           blankAnswer: "target",
         },
       ],
-      distractors: ["はぎ取る、取り除く", "〜を実行する、遂行する", "〜を許可する"],
+      distractors: ["恐怖", "分析、解析", "意見・感想"],
       choiceLabel: "目標",
       confusableSpellings: ["taregt", "targit", "targate"],
       passive: {
@@ -10982,7 +10985,7 @@ export const WORD_DATA = [
           blankAnswer: "element",
         },
       ],
-      distractors: ["傷、負傷", "疫病、ペスト", "繊維、食物繊維"],
+      distractors: ["傷、負傷", "疫病", "繊維、食物繊維"],
       confusableSpellings: ["elemant", "eliment", "elemnet"],
       passive: {
         etymology: "ラテン語 'elementum'（基本要素・初歩）に由来。古代ギリシャの「四元素（火・水・土・空気）」を指す言葉として使われていた。",
@@ -11046,7 +11049,7 @@ export const WORD_DATA = [
           blankAnswer: "phenomenon",
         },
       ],
-      distractors: ["理論、学説", "カリキュラム、教育課程", "句；フレーズ"],
+      distractors: ["理論、学説", "教育課程", "句"],
       confusableSpellings: ["phenomemon", "phenominon", "fenomenon"],
       passive: {
         etymology: "ギリシャ語 'phainomenon'（現れるもの）に由来。'phainein'（輝く・現れる）が語根で、'phase'（位相）や 'phantom'（幻影）とも同源。",
@@ -11078,7 +11081,7 @@ export const WORD_DATA = [
           blankAnswer: "atmosphere",
         },
       ],
-      distractors: ["辺境、フロンティア", "潮（の干満）、潮流", "農作物、収穫物"],
+      distractors: ["辺境", "潮（の干満）、潮流", "農作物、収穫物"],
       confusableSpellings: ["atmosfere", "atmoshpere", "atmosphear"],
       passive: {
         etymology: "ギリシャ語 'atmos'（蒸気・水蒸気）＋ 'sphaira'（球）の合成語。「地球を包む蒸気の球」という意味。",
@@ -11110,7 +11113,7 @@ export const WORD_DATA = [
           blankAnswer: "origin",
         },
       ],
-      distractors: ["ナンセンス、無意味なこと", "自律性、自治", "絶望"],
+      distractors: ["無意味なこと", "自律性、自治", "絶望"],
       confusableSpellings: ["origion", "origan", "orighin"],
       passive: {
         etymology: "ラテン語 'origo'（始まり・源泉）に由来。'oriri'（生じる・昇る）が語根で、'orient'（東方・方向を定める）や 'abortion' とも同源。",
@@ -11142,7 +11145,7 @@ export const WORD_DATA = [
           blankAnswer: "personality",
         },
       ],
-      distractors: ["尊厳、品格", "バランス、均衡", "数字、図"],
+      distractors: ["尊厳、品格", "均衡", "数字、図"],
       confusableSpellings: ["personallity", "personalety", "perssonality"],
       passive: {
         etymology: "ラテン語 'persona'（仮面・役割）＋ '-ality'（性質を表す接尾辞）。古代ローマの劇で役者が付けた「仮面」が語源→人が外に見せる「人格」へ発展。",
@@ -11239,7 +11242,7 @@ export const WORD_DATA = [
           blankAnswer: "circumstances",
         },
       ],
-      distractors: ["核心・中心", "到来、出現", "動機・インセンティブ"],
+      distractors: ["核心・中心", "到来、出現", "動機"],
       confusableSpellings: ["circumastance", "circmstance", "curcumstance"],
       passive: {
         etymology: "ラテン語 'circumstantia' に由来。'circum-'（周りに）＋ 'stare'（立つ）の合成語。「周りに立っているもの」→「取り巻く状況」というイメージ。",
@@ -11336,7 +11339,7 @@ export const WORD_DATA = [
           blankAnswer: "residents",
         },
       ],
-      distractors: ["階層制度、ヒエラルキー", "刑務所、拘置所", "福祉、幸福"],
+      distractors: ["階層制度", "刑務所、拘置所", "福祉、幸福"],
       confusableSpellings: ["residant", "rezident"],
       passive: {
         etymology: "ラテン語 'residere'（留まる・座り続ける）から。're-'（再び・留まって）＋ 'sedere'（座る）が語源。「ある場所に座り続ける人」が「居住者」になった。",
@@ -11368,7 +11371,7 @@ export const WORD_DATA = [
           blankAnswer: "wealth",
         },
       ],
-      distractors: ["信用する、評価する", "投資する", "口座、勘定"],
+      distractors: ["特許（権）", "利益、利潤", "口座、勘定"],
       confusableSpellings: ["welth", "weath"],
       passive: {
         etymology: "古英語 'wela'（幸福・繁栄）に '-th'（状態を示す接尾辞）が付いた形。'well'（よい）と同じ語根を持ち、「よい状態」が「富」を意味するようになった。",
@@ -11432,7 +11435,7 @@ export const WORD_DATA = [
           blankAnswer: "authority",
         },
       ],
-      distractors: ["エリート、精鋭集団", "拷問する、苦しめる", "地雷"],
+      distractors: ["精鋭集団", "候補者", "地雷"],
       confusableSpellings: ["autority", "authoraty"],
       passive: {
         etymology: "ラテン語 'auctoritas'（影響力・信頼性）から。語根 'auctor'（創始者・保証人）→ 'augere'（増やす・強める）が元。「力を増やす人・支える人」が「権威」になった。",
@@ -11464,7 +11467,7 @@ export const WORD_DATA = [
           blankAnswer: "voted",
         },
       ],
-      distractors: ["革命", "イデオロギー、思想体系", "〜を脅かす、危険にさらす"],
+      distractors: ["〜を規制する、取り締まる", "侵略する", "〜を脅かす、危険にさらす"],
       confusableSpellings: ["voat", "votte"],
       passive: {
         etymology: "ラテン語 'votum'（誓い・願い）から。'vovere'（誓う）が語根。古代ローマでは神への誓いとして意思表示をしたことが、「投票」の概念に発展した。",
@@ -11528,7 +11531,7 @@ export const WORD_DATA = [
           blankAnswer: "campaign",
         },
       ],
-      distractors: ["拷問する、苦しめる", "地位、身分", "固定観念・ステレオタイプ"],
+      distractors: ["精鋭、選ばれた人々", "地位、身分", "固定観念"],
       choiceLabel: "運動",
       confusableSpellings: ["campain", "campaigne"],
       passive: {
@@ -11561,7 +11564,7 @@ export const WORD_DATA = [
           blankAnswer: "funded",
         },
       ],
-      distractors: ["実用性、有用性", "顧客、依頼人", "〜する余裕がある"],
+      distractors: ["実用性、有用性", "顧客、依頼人", "会社、企業"],
       confusableSpellings: ["fand", "funnd"],
       passive: {
         etymology: "ラテン語 'fundus'（底・基盤・土地）から。「しっかりした土台・底」が「資金の基盤」を意味するようになり、「資金・基金」へと発展した。'foundation'（基盤・財団）と同じ語根。",
@@ -11593,7 +11596,7 @@ export const WORD_DATA = [
           blankAnswer: "web",
         },
       ],
-      distractors: ["入力、インプット", "記録する、ログに残す", "アクセス、利用する権利"],
+      distractors: ["入力", "科学技術", "利用する権利"],
       choiceLabel: "蜘蛛の巣",
       confusableSpellings: ["wab", "wep"],
       passive: {
@@ -11659,7 +11662,7 @@ export const WORD_DATA = [
           blankAnswer: "analysis",
         },
       ],
-      distractors: ["実験室、研究室", "突破口、画期的な進歩", "パラダイム、思考の枠組み"],
+      distractors: ["実験室、研究室", "突破口、画期的な進歩", "思考の枠組み"],
       confusableSpellings: ["analysys", "analisis", "analisys"],
       passive: {
         etymology: "ギリシャ語 'analusis' から。'ana-'（上へ・分けて）＋ 'luein'（解く・ほどく）で「分解すること」が原義。",
@@ -11691,7 +11694,7 @@ export const WORD_DATA = [
           blankAnswer: "version",
         },
       ],
-      distractors: ["再読み込みする、更新する", "方式・様式・モード", "出力、産出量"],
+      distractors: ["用地", "方式・様式", "出力、産出量"],
       choiceLabel: "版、変形",
       confusableSpellings: ["varsion", "verson", "vertion"],
       passive: {
@@ -11820,7 +11823,7 @@ export const WORD_DATA = [
           blankAnswer: "lecture",
         },
       ],
-      distractors: ["理論、学説", "パラダイム、思考の枠組み", "情報源、出典"],
+      distractors: ["理論、学説", "思考の枠組み", "情報源、出典"],
       confusableSpellings: ["lectur", "leacture", "lectuer"],
       passive: {
         etymology: "ラテン語 'lectura'（読むこと）から。'legere'（読む・選ぶ）が語根で、もともと「声に出して読み上げる行為」が大学の講義の始まりだった。",
@@ -11917,7 +11920,7 @@ export const WORD_DATA = [
           blankAnswer: "custom",
         },
       ],
-      distractors: ["味・風味", "避難所、シェルター", "レシピ・料理法"],
+      distractors: ["味・風味", "避難所", "料理法"],
       confusableSpellings: ["costom", "custome", "custem"],
       passive: {
         etymology: "ラテン語 'consuetudo'（習慣）に由来。'con-'（共に）＋ 'suescere'（慣れる）から派生し、古フランス語 'costume' を経て英語へ。",
@@ -11949,7 +11952,7 @@ export const WORD_DATA = [
           blankAnswer: "court",
         },
       ],
-      distractors: ["嫌がらせ、ハラスメント", "裁判、公判", "政策、方針"],
+      distractors: ["嫌がらせ", "裁判、公判", "政策、方針"],
       choiceLabel: "裁判所",
       confusableSpellings: ["cort", "coart", "courte"],
       passive: {
@@ -12046,7 +12049,7 @@ export const WORD_DATA = [
           blankAnswer: "Agriculture",
         },
       ],
-      distractors: ["花が咲く", "形成、生成", "砂漠"],
+      distractors: ["（鳥・羊などの）群れ", "形成、生成", "砂漠"],
       confusableSpellings: ["agricultuer", "aggriculture", "agricultur"],
       passive: {
         etymology: "ラテン語 'agricultura' から。'agri'（畑・土地）＋ 'cultura'（耕すこと・文化）の合成語。'agri' は 'ager'（畑）の属格形。",
@@ -12110,7 +12113,7 @@ export const WORD_DATA = [
           blankAnswer: "document",
         },
       ],
-      distractors: ["修辞学・弁論術", "セッション・会議・授業", "草稿、下書き"],
+      distractors: ["修辞学・弁論術", "会議・授業", "草稿、下書き"],
       confusableSpellings: ["documant", "docuement", "documment"],
       passive: {
         etymology: "ラテン語 'documentum'（教え・証拠・証明）に由来。'docere'（教える）＋ '-mentum'（行為・結果を示す接尾辞）の構成。",
@@ -12142,7 +12145,7 @@ export const WORD_DATA = [
           blankAnswer: "vocabulary",
         },
       ],
-      distractors: ["類推、アナロジー", "百科事典", "規律、訓練"],
+      distractors: ["類推", "百科事典", "規律、訓練"],
       confusableSpellings: ["vocabulury", "vocaublary", "vocabulery"],
       passive: {
         etymology: "中世ラテン語 'vocabularium' に由来。'vocabulum'（言葉・名称）＋ '-arium'（集合を示す接尾辞）。'vocare'（呼ぶ）が語根で「呼び名の集まり」が原義。",
@@ -12526,7 +12529,7 @@ export const WORD_DATA = [
           blankAnswer: "biological",
         },
       ],
-      distractors: ["職業の、職業訓練の", "仮想の、バーチャルな", "軍の、軍事的な"],
+      distractors: ["職業の、職業訓練の", "仮想の", "軍の、軍事的な"],
       confusableSpellings: ["biologocal", "biologicle", "bilogical"],
       passive: {
         etymology: "ギリシャ語 bios（生命）＋ logos（学問・言葉）＋ -ical（形容詞語尾）。「生命を研究する学問に関する」→「生物学的な」という意味。",
@@ -12750,7 +12753,7 @@ export const WORD_DATA = [
           blankAnswer: "mass",
         },
       ],
-      distractors: ["表面、面", "間隔、合間", "密度、濃さ"],
+      distractors: ["垂直の；縦の", "感覚を失った、しびれた", "わずかな、かすかな"],
       confusableSpellings: ["maas", "mase", "masss"],
       passive: {
         etymology: "ラテン語 'massa'（塊、かたまり）から。ギリシャ語 'maza'（大麦の塊）が起源とされる。「大きな塊」というイメージから「大量・大規模」へ意味が広がった。",
@@ -12910,7 +12913,7 @@ export const WORD_DATA = [
           blankAnswer: "behave",
         },
       ],
-      distractors: ["直面する、立ち向かう", "犠牲・生け贄", "誘惑する、そそのかす"],
+      distractors: ["直面する、立ち向かう", "与える、授与する", "誘惑する、そそのかす"],
       confusableSpellings: ["behavve", "behav"],
       passive: {
         etymology: "be-（強調の接頭辞）+ have（持つ）から成り、「自分自身をある状態に保つ」という原義。中英語から現代英語へ受け継がれた。",
@@ -12974,7 +12977,7 @@ export const WORD_DATA = [
           blankAnswer: "purchase",
         },
       ],
-      distractors: ["ローン、貸付金", "企業、事業", "起業家"],
+      distractors: ["賭ける", "（競売・入札で）値をつける、入札する", "借りる、賃貸する"],
       confusableSpellings: ["purchace", "purchese", "purcase"],
       passive: {
         etymology: "古フランス語 'pourchacier'（獲得しようと追い求める）から。pour-（強調）+ chacier（追う）の構成。中英語を経て現代英語に定着した。",
@@ -13230,7 +13233,7 @@ export const WORD_DATA = [
           blankAnswer: "afford",
         },
       ],
-      distractors: ["独占、独占権", "料金、手数料", "商品、品物"],
+      distractors: ["購入する", "稼ぐ、収入を得る", "〜を借りている、〜の義務がある"],
       confusableSpellings: ["affort", "aford", "affourd"],
       passive: {
         etymology: "古英語 'geforðian'（前進させる・実行する）から。接頭辞 'a-'（強意）＋ 語根 'forth'（前へ）の変化形。もともと「達成できる」意味だった。",
@@ -13294,7 +13297,7 @@ export const WORD_DATA = [
           blankAnswer: "advertised",
         },
       ],
-      distractors: ["〜する余裕がある", "資本；首都", "企業・法人"],
+      distractors: ["〜する余裕がある", "預ける、預金する", "（要望に）応える、供給する"],
       confusableSpellings: ["advertize", "advirtise"],
       passive: {
         etymology: "ラテン語 'advertere' から。接頭辞 'ad-'（〜へ向かって）＋ 語根 'vertere'（向ける・回す）。「注意を向けさせる」が原義。",
@@ -13423,7 +13426,7 @@ export const WORD_DATA = [
           blankAnswer: "aids",
         },
       ],
-      distractors: ["アドバイスする、助言する", "（死・喪失を）悲しむ、嘆き悲しむ", "支配する、優位に立つ"],
+      distractors: ["助言する", "（死・喪失を）悲しむ、嘆き悲しむ", "支配する、優位に立つ"],
       confusableSpellings: ["aide", "ayd", "eid"],
       passive: {
         etymology: "古フランス語 'aidier'（助ける）、ラテン語 'adjutare'（援助する）から。接頭辞 'ad-'（〜に向かって）＋ 語根 'juvare'（助ける）の変化形。",
@@ -13455,7 +13458,7 @@ export const WORD_DATA = [
           blankAnswer: "bit",
         },
       ],
-      distractors: ["サーフィンをする", "耐える、我慢する", "追いかける"],
+      distractors: ["泳ぐ", "耐える、我慢する", "追いかける"],
       confusableSpellings: ["bight", "biet", "bitte"],
       passive: {
         etymology: "古英語 'bītan'（噛む）から。ゲルマン語系の基本語彙で、ドイツ語 'beißen' と同根。語根はインド・ヨーロッパ祖語の 'bheid-'（割る・切る）に遡る。",
@@ -14163,7 +14166,7 @@ export const WORD_DATA = [
           blankAnswer: "comment",
         },
       ],
-      distractors: ["ひどく怖がらせる、恐怖に陥れる", "〜の方を好む", "大声で叫ぶ、怒鳴る"],
+      distractors: ["対話、会話", "民主主義", "分類、部類"],
       choiceLabel: "意見・感想",
       confusableSpellings: ["coment", "commant", "commet"],
       passive: {
@@ -14228,7 +14231,7 @@ export const WORD_DATA = [
           blankAnswer: "religion",
         },
       ],
-      distractors: ["機会、チャンス", "パニック、恐慌", "尊厳、品格"],
+      distractors: ["機会", "恐慌", "尊厳、品格"],
       confusableSpellings: ["religon", "releigion", "religeon"],
       passive: {
         etymology: "ラテン語 religio から。re-（再び）+ ligare（結びつける）→「神と人を再び結びつけるもの」という説が有力。",
@@ -14260,7 +14263,7 @@ export const WORD_DATA = [
           blankAnswer: "neighborhood",
         },
       ],
-      distractors: ["刃、刃物", "兄弟姉妹", "樽、バレル"],
+      distractors: ["刃、刃物", "兄弟姉妹", "樽"],
       confusableSpellings: ["nieghborhood", "neighborhod", "nieborhood"],
       passive: {
         etymology: "neighbor（隣人）＋ -hood（状態・集団を表す接尾辞）。neighbor は古英語 neahgebur（neah＝近い＋gebur＝農民・住人）から。",
@@ -14292,7 +14295,7 @@ export const WORD_DATA = [
           blankAnswer: "laboratory",
         },
       ],
-      distractors: ["読み書き能力、識字能力", "見出し、ヘッドライン", "技術、技法"],
+      distractors: ["読み書き能力、識字能力", "見出し", "技術、技法"],
       confusableSpellings: ["labratory", "laborotory", "labortory"],
       passive: {
         etymology: "ラテン語 laboratorium から。labor（労働・努力）＋ -atorium（場所を表す接尾辞）→「努力・作業をする場所」。",
@@ -14356,7 +14359,7 @@ export const WORD_DATA = [
           blankAnswer: "confidence",
         },
       ],
-      distractors: ["障害（物）", "内容、コンテンツ", "結果、影響"],
+      distractors: ["障害（物）", "内容", "結果、影響"],
       confusableSpellings: ["confidance", "confedence", "confidense"],
       passive: {
         etymology: "ラテン語 confidentia から。con-（完全に）＋ fidere（信じる）→「完全に信じること」。fidelity（忠実）や faith と同じ語根。",
@@ -14420,7 +14423,7 @@ export const WORD_DATA = [
           blankAnswer: "instruments",
         },
       ],
-      distractors: ["建築（学）", "傑作、名作", "隠喩、メタファー"],
+      distractors: ["建築（学）", "傑作、名作", "隠喩"],
       confusableSpellings: ["instrament", "instriment", "instrumant"],
       passive: {
         etymology: "ラテン語 instrumentum から。in-（中に）＋ struere（積み上げる・整える）＋ -mentum（手段を表す名詞接尾辞）→「整えるための手段・道具」。",
@@ -14581,7 +14584,7 @@ export const WORD_DATA = [
           blankAnswer: "review",
         },
       ],
-      distractors: ["対称（性）、シンメトリー", "研究、調査", "実験、試み"],
+      distractors: ["対称（性）", "研究、調査", "実験、試み"],
       choiceLabel: "復習、再検討",
       confusableSpellings: ["reveiw", "reviw", "revew"],
       passive: {
@@ -14710,7 +14713,7 @@ export const WORD_DATA = [
           blankAnswer: "occasions",
         },
       ],
-      distractors: ["継ぎ当て・パッチ", "交通、交通量", "崇拝する、礼拝する"],
+      distractors: ["継ぎ当て", "交通、交通量", "聖職者、司祭、神父"],
       confusableSpellings: ["ocassion", "occassion", "ocasion"],
       passive: {
         etymology: "ラテン語 'occasio'（好機・きっかけ）から。'ob-'（〜に向かって）＋'cadere'（落ちる）。「ちょうどよく落ちてくる（巡ってくる）機会」というイメージ。",
@@ -14774,7 +14777,7 @@ export const WORD_DATA = [
           blankAnswer: "stock",
         },
       ],
-      distractors: ["（ニーズ・要望に）応える、供給する", "企業・法人", "資本；首都"],
+      distractors: ["産業、工業", "企業・法人", "資本；首都"],
       confusableSpellings: ["stok", "stoock", "stcok"],
       passive: {
         etymology: "古英語 'stocc'（幹・切り株）から。「根っこにある固定されたもの」→「蓄え・元手」→「資本・株式」へと意味が変化。'livestock'（家畜）の 'live' 部分と組み合わさった名残も残る。",
@@ -14806,7 +14809,7 @@ export const WORD_DATA = [
           blankAnswer: "conference",
         },
       ],
-      distractors: ["講義、講演", "見出し、ヘッドライン", "方言、地域語"],
+      distractors: ["講義、講演", "見出し", "方言、地域語"],
       confusableSpellings: ["conferance", "confrence", "conferrence"],
       passive: {
         etymology: "ラテン語 'conferre'（共に＋運ぶ）から。con-（共に）＋ ferre（運ぶ・持つ）→「意見を持ち寄る」というイメージ。",
@@ -14838,7 +14841,7 @@ export const WORD_DATA = [
           blankAnswer: "humanity",
         },
       ],
-      distractors: ["選択肢、オプション", "同情、共感", "起源、発祥"],
+      distractors: ["選択肢", "機能、役割", "起源、発祥"],
       confusableSpellings: ["humanety", "hummanity", "humanitty"],
       passive: {
         etymology: "ラテン語 'humanitas' から。'humanus'（人間の）＋ '-itas'（抽象名詞化接尾辞）。'homo'（人）が語根で、humus（土）とも関連し「地に足のついた存在」の意。",
@@ -14968,7 +14971,7 @@ export const WORD_DATA = [
           blankAnswer: "lawyer",
         },
       ],
-      distractors: ["固定観念・ステレオタイプ", "機関、施設", "国籍"],
+      distractors: ["固定観念", "機関、施設", "国籍"],
       confusableSpellings: ["lawer", "laywer", "lawyor"],
       passive: {
         etymology: "'law'（法律）＋ '-yer'（職業・人を表す古英語接尾辞）→「法律を扱う人」。'law' はゲルマン語系で「置かれたもの・規則」が語源。",
@@ -15095,7 +15098,7 @@ export const WORD_DATA = [
           blankAnswer: "mammals",
         },
       ],
-      distractors: ["頭蓋骨", "プラセボ、偽薬", "液体、流体"],
+      distractors: ["頭蓋骨", "偽薬", "液体、流体"],
       confusableSpellings: ["mamal", "mammle", "mammel"],
       passive: {
         etymology: "近代ラテン語 'mammalis' から。'mamma'（乳房）＋ '-alis'（形容詞接尾辞）→「乳房を持つもの」。母乳で子を育てる動物の特徴から命名。",
@@ -15191,7 +15194,7 @@ export const WORD_DATA = [
           blankAnswer: "tribe",
         },
       ],
-      distractors: ["イデオロギー、思想体系", "戦闘、戦い", "地雷"],
+      distractors: ["思想体系", "戦闘、戦い", "地雷"],
       choiceLabel: "部族、種族",
       confusableSpellings: ["tibe", "trbe", "tride"],
       passive: {
@@ -15224,7 +15227,7 @@ export const WORD_DATA = [
           blankAnswer: "organ",
         },
       ],
-      distractors: ["放射線、放射能", "アレルギー", "外科手術"],
+      distractors: ["放射線、放射能", "過敏反応", "外科手術"],
       choiceLabel: "臓器、器官",
       confusableSpellings: ["orgon", "orgen", "organn"],
       passive: {
@@ -15257,7 +15260,7 @@ export const WORD_DATA = [
           blankAnswer: "trial",
         },
       ],
-      distractors: ["革命", "差別", "〜を改革する、改善する"],
+      distractors: ["革命", "差別", "罰則"],
       confusableSpellings: ["traill", "triall", "tryal"],
       passive: {
         etymology: "古フランス語 'trier'（選別する・試す）から。ラテン語 'tritare'（こする・試す）が語源。'try'（試みる）と同じ語根で、もともと「試されること」という意味。",
@@ -15321,7 +15324,7 @@ export const WORD_DATA = [
           blankAnswer: "code",
         },
       ],
-      distractors: ["再読み込みする、更新する", "入力、インプット", "部品、構成要素"],
+      distractors: ["格子状のもの", "入力", "部品、構成要素"],
       choiceLabel: "符号、暗号",
       confusableSpellings: ["coad", "kode", "codd"],
       passive: {
@@ -15354,7 +15357,7 @@ export const WORD_DATA = [
           blankAnswer: "substance",
         },
       ],
-      distractors: ["公式、方程式", "皮質（脳などの外層）", "悪化させる、複雑にする"],
+      distractors: ["公式、方程式", "皮質（脳などの外層）", "光の帯"],
       confusableSpellings: ["substence", "substanse", "substanc"],
       passive: {
         etymology: "ラテン語 'substantia'（下に立つもの・本質）から。'sub-'（下に）＋ 'stare'（立つ）の合成。「物事の根底にあるもの」というのが元の意味。",
@@ -15641,7 +15644,7 @@ export const WORD_DATA = [
           blankAnswer: "contemporary",
         },
       ],
-      distractors: ["活力のある、ダイナミックな", "言語の、言語学の", "法的責任がある"],
+      distractors: ["活力のある", "言語の、言語学の", "法的責任がある"],
       confusableSpellings: ["contemporery", "comtemporary", "contemporay"],
       passive: {
         etymology: "ラテン語 'con-'（共に）＋ 'tempus/temporis'（時）＋ '-ary'（形容詞接尾辞）。「同じ時を共にする」が原義。",
@@ -16473,7 +16476,7 @@ export const WORD_DATA = [
           blankAnswer: "opposed",
         },
       ],
-      distractors: ["コンテスト・競争", "〜を責める、非難する", "許す・赦す"],
+      distractors: ["手伝う・支援する", "〜を責める、非難する", "許す・赦す"],
       confusableSpellings: ["opose", "oppoze", "oppos"],
       passive: {
         etymology: "ラテン語 opponere（対して置く）← ob-（対して）+ ponere（置く）。「向かい側に置く」が原義。",
@@ -16633,7 +16636,7 @@ export const WORD_DATA = [
           blankAnswer: "credited",
         },
       ],
-      distractors: ["人員、従業員（集合的）", "費用、出費", "〜を輸出する"],
+      distractors: ["（要望に）応える、供給する", "賭ける", "〜を輸出する"],
       confusableSpellings: ["credet", "creadit", "creditt"],
       passive: {
         etymology: "ラテン語 credere（信じる、預ける）← cred-（信頼）。「信じて預ける」が原義で、金融の「信用」概念とそのままつながる。",
@@ -16985,7 +16988,7 @@ export const WORD_DATA = [
           blankAnswer: "rushed",
         },
       ],
-      distractors: ["〜を投げる、ピッチングする", "閉じ込める、罠にかける", "ほえる、うなる"],
+      distractors: ["〜を投げる", "閉じ込める、罠にかける", "ほえる、うなる"],
       confusableSpellings: ["rusch", "rash", "russh"],
       passive: {
         etymology: "中英語 russhen（突進する）から。古フランス語 ruser（追い払う、迂回する）が起源とも言われ、急激な動きのニュアンスを持つ。",
@@ -17017,7 +17020,7 @@ export const WORD_DATA = [
           blankAnswer: "hung",
         },
       ],
-      distractors: ["破裂する、爆発する", "姿勢", "つまずく、よろける"],
+      distractors: ["破裂する、爆発する", "素早くひっくり返す", "つまずく、よろける"],
       confusableSpellings: ["hange", "hangg", "haing"],
       passive: {
         etymology: "古英語 hōn（吊るす）と hangian（ぶら下がる）の2つの動詞が合流したもの。そのため不規則変化が2パターン存在するという珍しい経緯を持つ。",
@@ -17049,7 +17052,7 @@ export const WORD_DATA = [
           blankAnswer: "blame",
         },
       ],
-      distractors: ["〜を育てる・養育する", "離婚", "主催する、もてなす"],
+      distractors: ["〜を育てる・養育する", "異議を唱える、反論する", "主催する、もてなす"],
       confusableSpellings: ["blaim", "blam"],
       passive: {
         etymology: "古フランス語 blasmer、ラテン語 blasphemare（神を冒涜する）が語源。blame（責める）→ blaspheme（冒涜する）と同根。",
@@ -17240,7 +17243,7 @@ export const WORD_DATA = [
           blankAnswer: "interact",
         },
       ],
-      distractors: ["同意、承諾", "対戦相手、反対者", "寄付する・寄贈する"],
+      distractors: ["誓う、約束する", "（法律・規則を）施行する・強制する", "寄付する・寄贈する"],
       confusableSpellings: ["interract", "interakt", "ineract"],
       passive: {
         etymology: "ラテン語 inter-（〜の間で）＋ agere（行動する）が語源。「互いに行動し合う」が原義。internet や international も inter- を含む。",
@@ -17368,7 +17371,7 @@ export const WORD_DATA = [
           blankAnswer: "insights",
         },
       ],
-      distractors: ["対応する人・物、相手方", "偏見、バイアス", "運命、宿命"],
+      distractors: ["対応する人・物、相手方", "偏見", "運命、宿命"],
       confusableSpellings: ["insigt", "incite", "insigh"],
       passive: {
         etymology: "古英語 'insiht'（内部を見ること）から。接頭辞 in-（中に）＋ sight（視覚、見ること）。「内側を見る力」が原義。",
@@ -17400,7 +17403,7 @@ export const WORD_DATA = [
           blankAnswer: "innovation",
         },
       ],
-      distractors: ["プロトコル、通信規約", "伝統、慣習", "クリックする"],
+      distractors: ["通信規約", "伝統、慣習", "停滞、行き詰まり"],
       choiceLabel: "革新、刷新",
       confusableSpellings: ["inovation", "innovasion", "innovtion"],
       passive: {
@@ -17497,7 +17500,7 @@ export const WORD_DATA = [
           blankAnswer: "expenses",
         },
       ],
-      distractors: ["信用する、評価する", "年金", "思い切って〜する、リスクを冒す"],
+      distractors: ["顧客・依頼人", "年金", "収益、歳入"],
       confusableSpellings: ["expence", "expens", "exspense"],
       passive: {
         etymology: "ラテン語 expensa（支払われたもの）から。ex-（外に）＋ pendere（重さを量る・支払う）。「外に払い出すもの」が原義。spend（使う）や pension とも同じ語根。",
@@ -17529,7 +17532,7 @@ export const WORD_DATA = [
           blankAnswer: "debt",
         },
       ],
-      distractors: ["余剰、黒字", "景気後退", "部門、セクター"],
+      distractors: ["余剰、黒字", "景気後退", "部門"],
       confusableSpellings: ["dept", "dett", "dedt"],
       passive: {
         etymology: "ラテン語 debitum（負われているもの）から。de-（離れて）＋ habere（持つ）が語源。debtor（債務者）、debit（借方）と同じ語族。中世英語では「debte」とスペルされていた。",
@@ -17561,7 +17564,7 @@ export const WORD_DATA = [
           blankAnswer: "loan",
         },
       ],
-      distractors: ["通行料、使用料", "余剰、黒字", "預ける、預金する"],
+      distractors: ["通行料、使用料", "余剰、黒字", "費用、出費"],
       choiceLabel: "貸付金",
       confusableSpellings: ["loen", "lone", "lown"],
       passive: {
@@ -17594,7 +17597,7 @@ export const WORD_DATA = [
           blankAnswer: "duty",
         },
       ],
-      distractors: ["政権、体制", "地域社会、コミュニティ", "国籍"],
+      distractors: ["政権、体制", "地域社会", "国籍"],
       confusableSpellings: ["dutie", "duity", "duti"],
       passive: {
         etymology: "古フランス語 dueté（当然のこと）から。ラテン語 debere（負っている）が語根。debt（負債）と同じ語族で「負っている行為・義務」が原義。",
@@ -17626,7 +17629,7 @@ export const WORD_DATA = [
           blankAnswer: "alarm",
         },
       ],
-      distractors: ["宝、財宝", "樽、バレル", "配偶者"],
+      distractors: ["宝、財宝", "樽", "配偶者"],
       choiceLabel: "警報",
       confusableSpellings: ["allarm", "alram", "alarrm"],
       passive: {
@@ -17659,7 +17662,7 @@ export const WORD_DATA = [
           blankAnswer: "emergency",
         },
       ],
-      distractors: ["人種、民族", "襲撃する、暴行する", "議院、会議所"],
+      distractors: ["人種、民族", "賄賂", "議院、会議所"],
       confusableSpellings: ["emergancy", "emergenci", "emargency"],
       passive: {
         etymology: "ラテン語 emergere（浮かび上がる）から。e-/ex-（外に）＋ mergere（沈む・浸かる）が語源。「水中から突然浮かび上がる」イメージから「突発的な事態」という意味に。emerge（現れる）と同語源。",
@@ -17723,7 +17726,7 @@ export const WORD_DATA = [
           blankAnswer: "minister",
         },
       ],
-      distractors: ["名声、威信", "階層制度、ヒエラルキー", "治世、統治"],
+      distractors: ["名声、威信", "階層制度", "治世、統治"],
       confusableSpellings: ["ministor", "minster", "minisiter"],
       passive: {
         etymology: "ラテン語 minister（召使い・奉仕者）から。mini-（小さい・劣った）+ -ster（者）で、もともと「主人に仕える者」の意味。magister（主人・先生）の対義語として生まれた。",
@@ -17755,7 +17758,7 @@ export const WORD_DATA = [
           blankAnswer: "fellow",
         },
       ],
-      distractors: ["奪う、剥奪する", "（罪・過ちを）犯す", "告発する、非難する"],
+      distractors: ["討論、議論", "受取人、受領者", "競技会・競争"],
       confusableSpellings: ["felow", "felloe", "fello"],
       passive: {
         etymology: "古ノルド語 félagi（財産を共に置く者）から。fe（財産・お金）+ lag（置くこと・法）が語源で、「共同出資者」が原義。そこから「仲間」へと意味が広がった。",
@@ -17787,7 +17790,7 @@ export const WORD_DATA = [
           blankAnswer: "candidates",
         },
       ],
-      distractors: ["投票する", "政権、体制", "（制度・法律などを）廃止する"],
+      distractors: ["裁判所", "政権、体制", "傾向"],
       confusableSpellings: ["candidat", "canditate", "candidete"],
       passive: {
         etymology: "ラテン語 candidatus（白い衣をまとった者）から。candidus（白・輝く）が語源。古代ローマで公職に立候補する人は清廉さを示すために白いトーガを着ていたことに由来する。",
@@ -17819,7 +17822,7 @@ export const WORD_DATA = [
           blankAnswer: "corporation",
         },
       ],
-      distractors: ["チップ（心付け）、心付け金", "財産、富", "契約（書）"],
+      distractors: ["心付け金", "財産、富", "契約（書）"],
       confusableSpellings: ["corperation", "corporaton", "coropration"],
       passive: {
         etymology: "ラテン語 corpus（体・集合体）+ -ation（名詞化接尾辞）から。「体（body）として一つにまとまったもの」が原義。corporate（企業の）、corpse（死体）なども同じ語根を持つ。",
@@ -17917,7 +17920,7 @@ export const WORD_DATA = [
           blankAnswer: "disorder",
         },
       ],
-      distractors: ["麻痺", "悪化させる、複雑にする", "骨格、骸骨"],
+      distractors: ["麻痺", "分子", "骨格、骸骨"],
       confusableSpellings: ["disordar", "disordor", "dissorder"],
       passive: {
         etymology: "接頭辞 dis-（否定・逆）+ order（秩序・順序）から。「秩序のない状態」が原義。dis- は disconnect（切断）や disagree（反対する）と同様に「逆・否定」を表す接頭辞。",
@@ -17949,7 +17952,7 @@ export const WORD_DATA = [
           blankAnswer: "depression",
         },
       ],
-      distractors: ["微生物、細菌", "アレルギー", "麻痺"],
+      distractors: ["微生物、細菌", "過敏反応", "麻痺"],
       confusableSpellings: ["depresion", "depretion", "dipression"],
       passive: {
         etymology: "ラテン語 deprimere（押し下げる）から。de-（下に）+ premere（押す）が語源。press（押す）、pressure（圧力）と同じ語根。「気分が押し下げられた状態」が医学的意味の原義。",
@@ -18078,7 +18081,8 @@ export const WORD_DATA = [
           blankAnswer: "disadvantage",
         },
       ],
-      distractors: ["考え、アイデア", "詳細、細部", "悲しみ、悲嘆"],
+      distractors: ["考え", "詳細、細部", "悲しみ、悲嘆"],
+      choiceLabel: "不利",
       confusableSpellings: ["disadvntage", "disadavantage", "disadvantege"],
       passive: {
         etymology: "接頭辞 'dis-'（否定・反対）＋ 'advantage'（有利）。語根はラテン語 'abante'（前方に）から来る 'advantage' を否定した形。",
@@ -18110,7 +18114,7 @@ export const WORD_DATA = [
           blankAnswer: "mood",
         },
       ],
-      distractors: ["衝動、はずみ", "象徴、シンボル", "例外"],
+      distractors: ["衝動、はずみ", "象徴", "例外"],
       confusableSpellings: ["moud", "moood", "mude"],
       passive: {
         etymology: "古英語 'mōd'（心、精神、勇気）から。ゲルマン語系の語で、ドイツ語の 'Mut'（勇気）と同族語。",
@@ -18142,7 +18146,7 @@ export const WORD_DATA = [
           blankAnswer: "motion",
         },
       ],
-      distractors: ["曲線・カーブ", "破片・断片", "垂直の；縦の"],
+      distractors: ["曲線", "破片・断片", "集団・群れ"],
       confusableSpellings: ["motin", "motoin", "mocion"],
       passive: {
         etymology: "ラテン語 'motio'（動くこと）から。語根 'movere'（動く）の過去分詞 'motus' ＋名詞化接尾辞 '-ion'。'move', 'motor', 'emotion' と同族語。",
@@ -18174,7 +18178,7 @@ export const WORD_DATA = [
           blankAnswer: "routine",
         },
       ],
-      distractors: ["リゾート地、行楽地", "歩行者", "儀式、儀礼"],
+      distractors: ["行楽地", "歩行者", "儀式、儀礼"],
       choiceLabel: "日課",
       confusableSpellings: ["routin", "rouutine", "rutine"],
       passive: {
@@ -18271,7 +18275,7 @@ export const WORD_DATA = [
           blankAnswer: "hypothesis",
         },
       ],
-      distractors: ["インターンシップ、実習期間", "カテゴリー、分類", "アーカイブ、記録保管所"],
+      distractors: ["実習期間", "分類", "記録保管所"],
       confusableSpellings: ["hypothisis", "hypothesys", "hypthesis"],
       passive: {
         etymology: "ギリシャ語 'hypothesis'（下に置くこと、前提）から。接頭辞 'hypo-'（下に）＋語根 'thesis'（置くこと、命題）。「議論の下に置く土台」が原義。",
@@ -18302,7 +18306,7 @@ export const WORD_DATA = [
           blankAnswer: "physician",
         },
       ],
-      distractors: ["認知症・痴呆", "糖尿病", "ワクチン"],
+      distractors: ["認知症・痴呆", "糖尿病", "予防接種液"],
       confusableSpellings: ["physican", "physicain", "phisician"],
       passive: {
         etymology: "古フランス語 'fisicien'（自然哲学者・医者）から。語根はギリシャ語 'physis'（自然）＋接尾辞 '-ian'。古代ギリシャでは医学と自然哲学が一体だった。",
@@ -18367,7 +18371,7 @@ export const WORD_DATA = [
           blankAnswer: "colony",
         },
       ],
-      distractors: ["議会、国会", "（制度・法律などを）廃止する", "国勢調査・人口調査"],
+      distractors: ["議会、国会", "民主主義", "国勢調査・人口調査"],
       confusableSpellings: ["colonly", "coloney", "collony"],
       passive: {
         etymology: "ラテン語 'colonia'（農場・定住地）から。語根 'colonus'（農民・入植者）→ 'colere'（耕す）に由来。「耕すために移り住んだ土地」が原義。",
@@ -18431,7 +18435,7 @@ export const WORD_DATA = [
           blankAnswer: "grain",
         },
       ],
-      distractors: ["風", "花が咲く、開花する", "浸食・侵食"],
+      distractors: ["風", "保護、保全", "浸食・侵食"],
       confusableSpellings: ["grian", "grein", "graen"],
       passive: {
         etymology: "古英語 'grǣn' → ラテン語 'granum'（種・粒）から。同じ語根から 'granule'（顆粒）、'pomegranate'（ザクロ＝多くの種を持つもの）も派生。",
@@ -18495,7 +18499,7 @@ export const WORD_DATA = [
           blankAnswer: "treasures",
         },
       ],
-      distractors: ["レシピ・料理法", "洗濯物、洗濯", "刃、刃物"],
+      distractors: ["料理法", "洗濯物、洗濯", "刃、刃物"],
       confusableSpellings: ["tresure", "treasuer", "treassure"],
       passive: {
         etymology: "古フランス語 'tresor' → ギリシャ語 'thesauros'（宝庫）から。同じ語根から 'thesaurus'（類語辞典）も来ており、「言葉の宝庫」が原義。",
@@ -18815,7 +18819,7 @@ export const WORD_DATA = [
           blankAnswer: "abstract",
         },
       ],
-      distractors: ["空間の、空間的な", "食べられる、可食の", "仮想の、バーチャルな"],
+      distractors: ["空間の、空間的な", "食べられる、可食の", "仮想の"],
       confusableSpellings: ["abstact", "abstarct", "abstruct"],
       passive: {
         etymology: "ラテン語 'abstractus' から。'ab-'（離れて）＋ 'trahere'（引く）＝「現実から引き離された」というイメージ。",
@@ -18847,7 +18851,7 @@ export const WORD_DATA = [
           blankAnswer: "minor",
         },
       ],
-      distractors: ["否定的な・マイナスの", "奇妙な、変な", "曖昧な；漠然とした"],
+      distractors: ["否定的な", "奇妙な、変な", "曖昧な；漠然とした"],
       confusableSpellings: ["minnor", "minore", "minoer"],
       passive: {
         etymology: "ラテン語 'minor'（より小さい）から。'minus'（より少ない）の比較級形で、英語の minus とも兄弟語。",
@@ -19295,7 +19299,7 @@ export const WORD_DATA = [
           blankAnswer: "committed",
         },
       ],
-      distractors: ["楽しませる、おかしがらせる", "犠牲・生け贄", "あえて〜する、〜する勇気がある"],
+      distractors: ["楽しませる、おかしがらせる", "与える、授与する", "あえて〜する、〜する勇気がある"],
       confusableSpellings: ["comit", "committ", "commiit"],
       passive: {
         etymology: "ラテン語 committere から。com-（共に・完全に）＋ mittere（送る・委ねる）。「完全に送り出す＝任せる・行う」が原義。",
@@ -19391,7 +19395,7 @@ export const WORD_DATA = [
           blankAnswer: "pursue",
         },
       ],
-      distractors: ["監視する、見張る", "確保する、固定する", "（ドサッと）投げ捨てる、廃棄する"],
+      distractors: ["監視する、見張る", "確保する、固定する", "投げ捨てる、廃棄する"],
       confusableSpellings: ["persue", "pursure", "puruse"],
       passive: {
         etymology: "古フランス語 poursuivre から。pour-（前に）＋ suivre（従う・追う、ラテン語 sequi に由来）。「前に向かって追いかける」が原義。",
@@ -19487,7 +19491,7 @@ export const WORD_DATA = [
           blankAnswer: "stared",
         },
       ],
-      distractors: ["こする、摩擦する", "パチンと折れる、ポキッと折る", "消化する"],
+      distractors: ["こする、摩擦する", "ぽきっと折れる、折る", "消化する"],
       confusableSpellings: ["stair", "starre", "stear"],
       passive: {
         etymology: "古英語 starian（じっと見る）から。「硬直した目で見る」というイメージが語根にある。",
@@ -19551,7 +19555,7 @@ export const WORD_DATA = [
           blankAnswer: "quit",
         },
       ],
-      distractors: ["〜を強制する", "〜を生産する", "〜を混ぜ合わせる、ブレンドする"],
+      distractors: ["〜を強制する", "〜を生産する", "〜を混ぜ合わせる"],
       confusableSpellings: ["qiut", "quitt", "kwit"],
       passive: {
         etymology: "古フランス語 quitter（解放する・立ち去る）から。ラテン語 quietus（安静な・解放された）が語根。「義務から解放される」が原義。",
@@ -19711,7 +19715,7 @@ export const WORD_DATA = [
           blankAnswer: "rent",
         },
       ],
-      distractors: ["住宅ローン、抵当", "補償する、埋め合わせをする", "製粉所、工場"],
+      distractors: ["広告を出す；宣伝する", "補償する、埋め合わせをする", "購入する"],
       confusableSpellings: ["rend", "reent", "rnet"],
       passive: {
         etymology: "古フランス語 rente（収入、年金）から。ラテン語 reddita（返されたもの）が語源。「使用の対価として返すもの」→「賃料・借りる」。",
@@ -19775,7 +19779,7 @@ export const WORD_DATA = [
           blankAnswer: "invest",
         },
       ],
-      distractors: ["借りる、賃貸する", "資産、財産", "利益、利潤"],
+      distractors: ["借りる、賃貸する", "預ける、預金する", "信用する、評価する"],
       confusableSpellings: ["envest", "invset", "investt"],
       passive: {
         etymology: "ラテン語 investire から。in-（中に）＋ vestire（衣服を着せる）。もともとは「権威の衣を着せる＝権限を与える」という意味。それが「資金を委ねる」へ発展した。",
@@ -20000,7 +20004,7 @@ export const WORD_DATA = [
           blankAnswer: "stretched",
         },
       ],
-      distractors: ["注ぐ", "サーフィンをする", "消化する"],
+      distractors: ["注ぐ", "滑る", "消化する"],
       confusableSpellings: ["strech", "streatch", "strecth"],
       passive: {
         etymology: "古英語 'streccan'（伸ばす）から直接来た純英語由来の単語。ゲルマン語系で、ドイツ語の 'strecken' と同じ語根を持つ。",
@@ -20032,7 +20036,7 @@ export const WORD_DATA = [
           blankAnswer: "puzzled",
         },
       ],
-      distractors: ["コメント、意見", "（心・思考を）占領する、没頭させる", "なだめる、落ち着かせる"],
+      distractors: ["〜を提案する", "（心・思考を）占領する、没頭させる", "なだめる、落ち着かせる"],
       confusableSpellings: ["puzle", "puzzel", "puzzel"],
       passive: {
         etymology: "16世紀末の英語 'posell' または 'pusle' から来ており、語源は不明な点も多い。「問いかける・尋問する」という意味の古語が変化したと考えられている。",
@@ -20096,7 +20100,7 @@ export const WORD_DATA = [
           blankAnswer: "crashed",
         },
       ],
-      distractors: ["うなずく、首を縦に振る", "ポンと破裂する、弾ける", "押しつぶす、砕く"],
+      distractors: ["うなずく、首を縦に振る", "破裂する、弾ける", "押しつぶす、砕く"],
       choiceLabel: "衝突する",
       confusableSpellings: ["crach", "krash", "crasch"],
       passive: {
@@ -20321,7 +20325,7 @@ export const WORD_DATA = [
           blankAnswer: "imports",
         },
       ],
-      distractors: ["資源、リソース", "商業、貿易", "広告を出す；宣伝する"],
+      distractors: ["（要望に）応える、供給する", "〜する余裕がある", "広告を出す；宣伝する"],
       confusableSpellings: ["inport", "impoort"],
       passive: {
         etymology: "ラテン語 importare（中へ運ぶ）から。im-（in-の変形：中へ）＋ portare（運ぶ）→「外から中へ運び込む」。port（港）も同じ語根。",
@@ -20353,7 +20357,7 @@ export const WORD_DATA = [
           blankAnswer: "exports",
         },
       ],
-      distractors: ["チップ（心付け）、心付け金", "負債、借金", "（ニーズ・要望に）応える、供給する"],
+      distractors: ["〜を借りている、〜の義務がある", "（競売・入札で）値をつける、入札する", "（要望に）応える、供給する"],
       confusableSpellings: ["expport", "exsport", "eksport"],
       passive: {
         etymology: "ラテン語 exportare から。ex-（外へ）＋ portare（運ぶ）→「外へ運び出す」。港を意味する port も同じ portare が語源。",
@@ -20578,7 +20582,7 @@ export const WORD_DATA = [
           blankAnswer: "sequence",
         },
       ],
-      distractors: ["過剰、余分", "垂直の；縦の", "曲線・カーブ"],
+      distractors: ["過剰、余分", "区画", "曲線"],
       confusableSpellings: ["sequance", "seqence", "sequnce"],
       passive: {
         etymology: "ラテン語 'sequi'（従う・続く）＋ '-ence'（名詞化接尾辞）。「続いていくもの」が原義。",
@@ -20802,7 +20806,7 @@ export const WORD_DATA = [
           blankAnswer: "tone",
         },
       ],
-      distractors: ["利点；有利", "バランス、均衡", "強迫観念、執着"],
+      distractors: ["利点；有利", "均衡", "強迫観念、執着"],
       confusableSpellings: ["toan", "toone", "tonne"],
       passive: {
         etymology: "ギリシャ語 'tonos'（伸ばすこと・張力）から。弦を張ることで音程が生まれるイメージ。ラテン語 'tonus' を経て英語へ。",
@@ -20866,7 +20870,7 @@ export const WORD_DATA = [
           blankAnswer: "awarded",
         },
       ],
-      distractors: ["競争する・競う", "従事する、関与する", "教育する"],
+      distractors: ["仲間・同僚", "討論、議論", "協力、協調"],
       confusableSpellings: ["awerd", "awward", "awarrd"],
       passive: {
         etymology: "古北フランス語 'awarder'（決定する・裁定する）から。'a-'（〜に向かって）＋ 'warder'（見張る・監視する）が語源で、「審査して決める」が原義。",
@@ -20898,7 +20902,7 @@ export const WORD_DATA = [
           blankAnswer: "priority",
         },
       ],
-      distractors: ["声明、陳述", "ナンセンス、無意味なこと", "側面・観点"],
+      distractors: ["声明、陳述", "無意味なこと", "側面・観点"],
       confusableSpellings: ["priorty", "prioritiy", "prioreity"],
       passive: {
         etymology: "ラテン語 prior（前の・上位の）＋ -ity（名詞化接尾辞）。prior は「前に来るもの」を意味し、priority は「他より先に来るべき事柄」。",
@@ -20930,7 +20934,7 @@ export const WORD_DATA = [
           blankAnswer: "logic",
         },
       ],
-      distractors: ["シナリオ、想定される状況", "ナンセンス、無意味なこと", "悪夢"],
+      distractors: ["想定される状況", "無意味なこと", "悪夢"],
       confusableSpellings: ["logik", "loggic", "logics"],
       passive: {
         etymology: "ギリシャ語 logos（言葉・理性・論理）＋ -ic（形容詞・名詞化接尾辞）。logos はもともと「言葉」を意味し、そこから「理性的な思考」へ発展した。",
@@ -20962,7 +20966,7 @@ export const WORD_DATA = [
           blankAnswer: "minimum",
         },
       ],
-      distractors: ["大量の、大規模な", "部分・一部", "索引、指標"],
+      distractors: ["曲線、曲がり", "部分・一部", "索引、指標"],
       confusableSpellings: ["minimun", "minumum", "minimium"],
       passive: {
         etymology: "ラテン語 minimus（最も小さい）の中性形。minus（より少ない）の最上級にあたる。対義語は maximum（maximus：最も大きい）。",
@@ -21026,7 +21030,7 @@ export const WORD_DATA = [
           blankAnswer: "clue",
         },
       ],
-      distractors: ["ナンセンス、無意味なこと", "苦悩、苦痛", "特徴、特性"],
+      distractors: ["無意味なこと", "苦悩、苦痛", "特徴、特性"],
       confusableSpellings: ["clew", "cluw", "clou"],
       passive: {
         etymology: "古英語 clew（糸玉）が語源。ギリシャ神話でテセウスが迷宮から脱出するために糸玉（クリュー）をたどったことから「手がかり」の意味に転じた。",
@@ -21187,7 +21191,7 @@ export const WORD_DATA = [
           blankAnswer: "frame",
         },
       ],
-      distractors: ["主流、大勢", "避難所・安息の地", "リゾート地、行楽地"],
+      distractors: ["主流、大勢", "避難所・安息の地", "行楽地"],
       choiceLabel: "枠、骨組み",
       confusableSpellings: ["fraim", "fream", "framme"],
       passive: {
@@ -21220,7 +21224,7 @@ export const WORD_DATA = [
           blankAnswer: "shelter",
         },
       ],
-      distractors: ["署名、サイン", "遺産、文化遺産", "化粧、メイクアップ"],
+      distractors: ["署名", "遺産、文化遺産", "化粧"],
       choiceLabel: "避難所",
       confusableSpellings: ["sheltar", "shелter", "sheltur"],
       passive: {
@@ -21253,7 +21257,7 @@ export const WORD_DATA = [
           blankAnswer: "territory",
         },
       ],
-      distractors: ["干し草", "目印、ランドマーク", "調査する、探る"],
+      distractors: ["干し草", "目印", "緯度"],
       choiceLabel: "領土・縄張り",
       confusableSpellings: ["terrirory", "teritory", "teritorry"],
       passive: {
@@ -21318,7 +21322,7 @@ export const WORD_DATA = [
           blankAnswer: "habitat",
         },
       ],
-      distractors: ["種（しゅ）、生物の種", "流域・盆地", "北極の"],
+      distractors: ["種（しゅ）、生物の種", "流域・盆地", "辺境、未開拓地"],
       confusableSpellings: ["habittat", "habitate", "habibat"],
       passive: {
         etymology: "ラテン語 habitat（「彼は住む」の三人称単数現在形）から。動詞 habitare（住む）の活用形で、生物学の教科書で「ここに住む」という見出し語として使われたのが語源とされる。",
@@ -21350,7 +21354,7 @@ export const WORD_DATA = [
           blankAnswer: "district",
         },
       ],
-      distractors: ["地域社会、コミュニティ", "〜を改革する、改善する", "被害者；犠牲者"],
+      distractors: ["地域社会", "同盟国、味方", "被害者；犠牲者"],
       confusableSpellings: ["districk", "distrit", "distrikt"],
       passive: {
         etymology: "中世ラテン語 districtus（管轄地域）から。dis-（分離・分散）+ stringere（縛る・締める）が語源で、「縛って区切られた区域」というイメージ。",
@@ -21382,7 +21386,7 @@ export const WORD_DATA = [
           blankAnswer: "conservation",
         },
       ],
-      distractors: ["農業、農耕", "地球・地球儀", "大草原、プレーリー"],
+      distractors: ["農業、農耕", "地球・地球儀", "大草原"],
       confusableSpellings: ["conservasion", "consevation", "conserveation"],
       passive: {
         etymology: "ラテン語 conservatio から。con-（共に・完全に）+ servare（保つ・守る）+ -tion（名詞化接尾辞）。「完全に保ち続ける」ことが語源のイメージ。",
@@ -21446,7 +21450,7 @@ export const WORD_DATA = [
           blankAnswer: "predator",
         },
       ],
-      distractors: ["領土、縄張り", "調査する、探る", "鉱物、ミネラル"],
+      distractors: ["領土、縄張り", "穀物、穀粒", "鉱物"],
       confusableSpellings: ["preditor", "predater", "preddator"],
       passive: {
         etymology: "ラテン語 praedator（略奪者）から。praeda（獲物・戦利品）+ -tor（行為者を示す接尾辞）。praedaはprey（獲物）とも同源で、「獲物を取る者」が語源。",
@@ -21575,7 +21579,7 @@ export const WORD_DATA = [
           blankAnswer: "discount",
         },
       ],
-      distractors: ["監督者、上司", "住宅ローン、抵当", "余剰、黒字"],
+      distractors: ["監督者、上司", "抵当", "余剰、黒字"],
       confusableSpellings: ["discont", "discoount", "diskount"],
       passive: {
         etymology: "'dis-'（離れて）＋ 'count'（数える）→ 「計算から引き離す」。ラテン語 'computare' が語根。",
@@ -21607,7 +21611,7 @@ export const WORD_DATA = [
           blankAnswer: "bias",
         },
       ],
-      distractors: ["価値、重要性", "状況、事情", "ナンセンス、無意味なこと"],
+      distractors: ["価値、重要性", "状況、事情", "無意味なこと"],
       choiceLabel: "偏見",
       confusableSpellings: ["bais", "byus", "biass"],
       passive: {
@@ -21640,7 +21644,7 @@ export const WORD_DATA = [
           blankAnswer: "cooperation",
         },
       ],
-      distractors: ["侮辱する", "裏切る、背く", "知人、顔見知り"],
+      distractors: ["同盟・連盟", "礼儀、丁寧さ", "知人、顔見知り"],
       confusableSpellings: ["coopertion", "coopration", "co-opration"],
       passive: {
         etymology: "'co-'（共に）＋ 'operari'（働く）＋ '-tion'（名詞語尾）。ラテン語 'opus'（仕事）が語根。",
@@ -21704,7 +21708,7 @@ export const WORD_DATA = [
           blankAnswer: "dialogue",
         },
       ],
-      distractors: ["（〜を）控える・慎む", "大切にする、慈しむ", "〜に似ている"],
+      distractors: ["意見・感想", "蜘蛛の巣", "象徴、記号"],
       choiceLabel: "対話、会話",
       confusableSpellings: ["dialog", "dialouge", "dialoge"],
       passive: {
@@ -21737,7 +21741,7 @@ export const WORD_DATA = [
           blankAnswer: "component",
         },
       ],
-      distractors: ["ファイル、書類", "場所・用地", "クリックする"],
+      distractors: ["書類", "場所・用地", "目録、一覧表"],
       confusableSpellings: ["componant", "conponent", "compnent"],
       passive: {
         etymology: "'com-'（共に）＋ 'ponere'（置く）＋ '-ent'（形容詞・名詞語尾）。ラテン語で「共に置かれたもの」→ 「構成要素」。",
@@ -22057,7 +22061,7 @@ export const WORD_DATA = [
           blankAnswer: "relevant",
         },
       ],
-      distractors: ["磁気の、磁石の", "連邦の、連邦政府の", "活力のある、ダイナミックな"],
+      distractors: ["磁気の、磁石の", "連邦の、連邦政府の", "活力のある"],
       confusableSpellings: ["relevent", "relevnat"],
       passive: {
         etymology: "ラテン語 relevare（持ち上げる・軽くする）に由来。接頭辞 re-（再び）＋ levare（持ち上げる）。lever（てこ）と同じ語根 lev- を持つ。",
@@ -22249,7 +22253,7 @@ export const WORD_DATA = [
           blankAnswer: "evil",
         },
       ],
-      distractors: ["軽蔑、侮蔑", "不安な、心配な", "気まずい、ぎこちない"],
+      distractors: ["激しい、猛烈な", "不安な、心配な", "気まずい、ぎこちない"],
       confusableSpellings: ["evill", "evel", "eveil"],
       passive: {
         etymology: "古英語 'yfel'（悪い、邪悪な）から。ゲルマン祖語 '*ubilaz' に由来し、「限度を超えた」が原義とされる。",
@@ -22377,7 +22381,7 @@ export const WORD_DATA = [
           blankAnswer: "rude",
         },
       ],
-      distractors: ["優雅さ、品格", "感謝している", "頑固な、強情な"],
+      distractors: ["声の、声楽の", "感謝している", "頑固な、強情な"],
       confusableSpellings: ["rood", "ruede", "rued"],
       passive: {
         etymology: "ラテン語 'rudis'（未加工の、荒削りの）から古フランス語を経由。「磨かれていない＝礼儀知らず」という意味の変化が面白い。",
@@ -22537,7 +22541,7 @@ export const WORD_DATA = [
           blankAnswer: "dominated",
         },
       ],
-      distractors: ["仲間・同僚", "じっと見る・凝視する", "結婚する、結婚させる"],
+      distractors: ["〜を非難する、糾弾する", "じっと見る・凝視する", "結婚する、結婚させる"],
       confusableSpellings: ["dominete", "dominnate", "dominait"],
       passive: {
         etymology: "ラテン語 'dominari'（主人として支配する）から。'dominus'（主人・主）が語根で、'domain'（領域）や'dominant'（優勢な）と同じ仲間。",
@@ -22793,7 +22797,7 @@ export const WORD_DATA = [
           blankAnswer: "lend",
         },
       ],
-      distractors: ["リーグ・同盟", "協力する、共同作業する", "直面する、立ち向かう"],
+      distractors: ["我慢する、容認する", "協力する、共同作業する", "直面する、立ち向かう"],
       confusableSpellings: ["lened", "leand"],
       passive: {
         etymology: "古英語 'lǣnan'（貸す）から。ゲルマン語起源で、もともとは 'lǣn'（貸付・ローン）という名詞が動詞化したもの。'loan'（ローン・貸付）と同じ語根。",
@@ -22889,7 +22893,7 @@ export const WORD_DATA = [
           blankAnswer: "accompanied",
         },
       ],
-      distractors: ["受取人、受領者", "〜を捧げる、専念させる", "救助する、救出する"],
+      distractors: ["主催する、もてなす", "〜を捧げる、専念させる", "救助する、救出する"],
       confusableSpellings: ["accompony", "acompany"],
       passive: {
         etymology: "古フランス語 accompagner → ac-（〜へ）+ compain（仲間）→「仲間として一緒に行く」。company（会社・仲間）と同じ語根。",
@@ -22953,7 +22957,7 @@ export const WORD_DATA = [
           blankAnswer: "annoyed",
         },
       ],
-      distractors: ["中断する、遮る", "コメント、意見", "安心させる"],
+      distractors: ["中断する、遮る", "〜を正当化する、弁明する", "安心させる"],
       confusableSpellings: ["anoy", "anoye", "annoing"],
       passive: {
         etymology: "古フランス語 anoier → ラテン語 in odio（嫌悪の中に）→「嫌悪感を抱かせる」。odium（嫌悪）が語源で、odious（不快な）とも関連。",
@@ -23177,7 +23181,7 @@ export const WORD_DATA = [
           blankAnswer: "specializes",
         },
       ],
-      distractors: ["同意、承諾", "〜を禁止する", "あえて〜する、〜する勇気がある"],
+      distractors: ["断る、拒否する", "〜を禁止する", "あえて〜する、〜する勇気がある"],
       confusableSpellings: ["specialise", "specalize", "speicalize"],
       passive: {
         etymology: "ラテン語 'specialis'（species「種」）+ -ize（動詞化接尾辞）→「特定の種・分野に絞る」",
@@ -23337,7 +23341,7 @@ export const WORD_DATA = [
           blankAnswer: "resist",
         },
       ],
-      distractors: ["〜を共有する", "いじめる、脅す", "離婚"],
+      distractors: ["〜を共有する", "いじめる、脅す", "楽しませる、おかしがらせる"],
       confusableSpellings: ["resisit", "rezist", "ressist"],
       passive: {
         etymology: "ラテン語 'resistere'（re-「反対に」+ sistere「立つ」）→「反対方向に立ちはだかる」→抵抗する。",
@@ -23433,7 +23437,7 @@ export const WORD_DATA = [
           blankAnswer: "assist",
         },
       ],
-      distractors: ["反対する、対抗する", "～に出席する、参加する", "離婚"],
+      distractors: ["反対する、対抗する", "～に出席する、参加する", "振る舞う、行動する"],
       choiceLabel: "手伝う・支援する",
       confusableSpellings: ["asist", "assit", "assistt"],
       passive: {
@@ -23594,7 +23598,7 @@ export const WORD_DATA = [
           blankAnswer: "reform",
         },
       ],
-      distractors: ["うわさ、風評", "嫌がらせ、ハラスメント", "窃盗、盗み"],
+      distractors: ["拷問する、苦しめる", "（制度・法律などを）廃止する", "襲撃する、暴行する"],
       confusableSpellings: ["refoem", "refrom", "refoarm"],
       passive: {
         etymology: "re-（再び）+ formare（形作る、ラテン語）。「再び形を作り直す」→「制度や習慣を作り直す＝改革する」。'form'、'formation'、'transform' も同じ語根。",
@@ -23626,7 +23630,7 @@ export const WORD_DATA = [
           blankAnswer: "protested",
         },
       ],
-      distractors: ["尊重する、尊敬する", "同僚、仕事仲間", "〜を相続する・受け継ぐ"],
+      distractors: ["尊重する、尊敬する", "同行する", "〜を相続する・受け継ぐ"],
       confusableSpellings: ["protet", "porttest", "protestt"],
       passive: {
         etymology: "pro-（公に・前に）+ testari（証言する、ラテン語）。「公に証言する」→「公に異議を主張する」。'testify'（証言する）や'testimony'（証言）も同じ testari 語根。",
@@ -23658,7 +23662,7 @@ export const WORD_DATA = [
           blankAnswer: "owe",
         },
       ],
-      distractors: ["ローン、貸付金", "利害関係、出資分", "請求書、勘定書"],
+      distractors: ["広告を出す；宣伝する", "預ける、預金する", "購入する"],
       confusableSpellings: ["ow", "oww", "awe"],
       passive: {
         etymology: "古英語 āgan（持つ・所有する）から。もともと「自分のものとして持っている」という意味だったが、中英語期に「人に対して負債を持っている」という意味に特化した。",
@@ -23850,7 +23854,7 @@ export const WORD_DATA = [
           blankAnswer: "Heritage",
         },
       ],
-      distractors: ["リゾート地、行楽地", "レシピ・料理法", "署名、サイン"],
+      distractors: ["行楽地", "料理法", "署名"],
       confusableSpellings: ["heretage", "heratage", "heriage"],
       passive: {
         etymology: "古フランス語 heritage から。ラテン語 heres（相続人）が語根。inherit（相続する）と同じ語根を持つ。-age は名詞を作る接尾辞。",
@@ -23882,7 +23886,7 @@ export const WORD_DATA = [
           blankAnswer: "mission",
         },
       ],
-      distractors: ["不利、デメリット", "考え、アイデア", "自律性、自治"],
+      distractors: ["不利", "考え", "自律性、自治"],
       choiceLabel: "使命・任務",
       confusableSpellings: ["mision", "missoin", "mession"],
       passive: {
@@ -23915,7 +23919,7 @@ export const WORD_DATA = [
           blankAnswer: "license",
         },
       ],
-      distractors: ["条約、協定", "イデオロギー、思想体系", "武器・兵器"],
+      distractors: ["条約、協定", "思想体系", "武器・兵器"],
       confusableSpellings: ["lisence", "licence", "licnese"],
       passive: {
         etymology: "ラテン語 licentia（自由・許可）から。動詞 licēre（許される）が語根。「合法的に許されること」が原義。",
@@ -24012,7 +24016,7 @@ export const WORD_DATA = [
           blankAnswer: "motor",
         },
       ],
-      distractors: ["図表、グラフ", "コード、符号、暗号", "形式、フォーマット"],
+      distractors: ["図表", "符号、暗号", "形式"],
       choiceLabel: "電動機、発動機",
       confusableSpellings: ["moter", "motore", "mottor"],
       passive: {
@@ -24045,6 +24049,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["補足、栄養補助食品", "薬、医薬品", "流行病、感染症の大流行"],
+      choiceLabel: "たんぱく質",
       confusableSpellings: ["protien", "proteine", "proteen"],
       passive: {
         etymology: "ギリシャ語 prōteios（第一位の、最も重要な）から。科学者ベルゼリウスが1838年に命名。語根 prōt-（最初の）は prototype（原型）、protagonist（主人公）にも共通する。",
@@ -24140,7 +24145,7 @@ export const WORD_DATA = [
           blankAnswer: "agent",
         },
       ],
-      distractors: ["独占、独占権", "（競売・入札で）値をつける、入札する", "財産、富"],
+      distractors: ["独占、独占権", "貸付金", "財産、富"],
       confusableSpellings: ["agant", "aigent"],
       passive: {
         etymology: "ラテン語 'agere'（行動する）＋ '-ent'（行為者を示す接尾辞）。「行動する者」が原義。",
@@ -24172,7 +24177,7 @@ export const WORD_DATA = [
           blankAnswer: "globe",
         },
       ],
-      distractors: ["海の、海洋の", "氷河", "浸食・侵食"],
+      distractors: ["生態学", "氷河", "浸食・侵食"],
       confusableSpellings: ["glode", "gloab"],
       passive: {
         etymology: "ラテン語 'globus'（球・塊）に由来。丸い形のものを広く指す語根。",
@@ -24204,7 +24209,7 @@ export const WORD_DATA = [
           blankAnswer: "haven",
         },
       ],
-      distractors: ["場合；機会", "材料、素材", "ショッピングモール"],
+      distractors: ["場合；機会", "材料、素材", "商店街"],
       confusableSpellings: ["heaven", "haiven"],
       passive: {
         etymology: "古英語 'hæfen'（港）に由来。安全な場所・避難できる港という概念から「安息の地」へ意味が広がった。",
@@ -24268,7 +24273,7 @@ export const WORD_DATA = [
           blankAnswer: "sacrificed",
         },
       ],
-      distractors: ["育てる、養育する", "（規則・要求に）従う、応じる", "助ける；支援する"],
+      distractors: ["離婚", "受取人、受領者", "仲間・同僚"],
       confusableSpellings: ["sacrifise", "sacrafice"],
       passive: {
         etymology: "ラテン語 'sacer'（神聖な）＋ 'facere'（行う・作る）。「神聖なことを行う」が原義で、宗教的な生け贄の儀式から転じた。",
@@ -24332,7 +24337,7 @@ export const WORD_DATA = [
           blankAnswer: "session",
         },
       ],
-      distractors: ["話題、テーマ", "地理学", "規律、訓練"],
+      distractors: ["話題", "地理学", "規律、訓練"],
       choiceLabel: "会議・授業",
       confusableSpellings: ["sesion", "sesson"],
       passive: {
@@ -24365,7 +24370,7 @@ export const WORD_DATA = [
           blankAnswer: "league",
         },
       ],
-      distractors: ["同僚、仕事仲間", "辞任する、辞職する", "ずるをする、不正をする"],
+      distractors: ["同僚、仕事仲間", "受取人、受領者", "復讐、仕返し"],
       choiceLabel: "同盟・連盟",
       confusableSpellings: ["leage", "leauge"],
       passive: {
@@ -24398,7 +24403,7 @@ export const WORD_DATA = [
           blankAnswer: "contest",
         },
       ],
-      distractors: ["尊重する", "犠牲・生け贄", "権利を与える"],
+      distractors: ["離婚", "犠牲・生け贄", "受取人、受領者"],
       choiceLabel: "競技会・競争",
       confusableSpellings: ["conteest", "contestt"],
       passive: {
@@ -24463,7 +24468,7 @@ export const WORD_DATA = [
           blankAnswer: "opponent",
         },
       ],
-      distractors: ["貢献する、寄与する", "引き出す、撤退する", "犠牲・生け贄"],
+      distractors: ["離婚", "競技会・競争", "犠牲・生け贄"],
       confusableSpellings: ["opponant", "oponent", "opponennt"],
       passive: {
         etymology: "ラテン語 'opponere'（対置する）から。op-（反対に）＋ ponere（置く）。component（構成要素）の ponent と同語根。",
@@ -24495,7 +24500,7 @@ export const WORD_DATA = [
           blankAnswer: "glanced",
         },
       ],
-      distractors: ["手足を伸ばして寝そべる、だらしなく広がる", "（皮・毛・葉などを）脱ぎ落とす、抜け落ちる", "〜を投げる、ピッチングする"],
+      distractors: ["手足を伸ばして寝そべる、だらしなく広がる", "（皮・毛・葉などを）脱ぎ落とす、抜け落ちる", "〜を投げる"],
       confusableSpellings: ["glanse", "glanc"],
       passive: {
         etymology: "中英語 'glansen'（滑るように光る）に由来。目線が「滑るように一瞬触れる」イメージが語源。",
@@ -24527,7 +24532,7 @@ export const WORD_DATA = [
           blankAnswer: "divorce",
         },
       ],
-      distractors: ["鼓舞する、インスピレーションを与える", "依頼する、要請する", "連絡する"],
+      distractors: ["礼儀、丁寧さ", "対戦相手、反対者", "再会、同窓会"],
       confusableSpellings: ["divorse", "divroce", "divurce"],
       passive: {
         etymology: "ラテン語 'divortium'（分岐・別れ）から。di-（離れて）＋ vertere（向きを変える）。divert（そらす）と同語根。",
@@ -24559,7 +24564,7 @@ export const WORD_DATA = [
           blankAnswer: "tissue",
         },
       ],
-      distractors: ["悪化させる、複雑にする", "脳卒中", "ウイルス"],
+      distractors: ["感覚・知覚", "脳卒中", "病原体"],
       confusableSpellings: ["tissuse", "tissure", "tisue"],
       passive: {
         etymology: "古フランス語 'tissu'（織られたもの）から。ラテン語 texere（織る）に由来。text（テキスト）や textile（繊維）と同語根で、「細胞が織り合わさったもの」が生物学的意味の起源。",
@@ -24623,7 +24628,7 @@ export const WORD_DATA = [
           blankAnswer: "inequality",
         },
       ],
-      distractors: ["〜を改革する、改善する", "部族、種族", "植民地"],
+      distractors: ["大臣", "部族、種族", "植民地"],
       confusableSpellings: ["inequalty", "inequallity", "iniquality"],
       passive: {
         etymology: "in-（否定）＋ equality（平等）。equality は ラテン語 aequalis（等しい）から。aequus（平らな・公平な）が語根で、equal・equator（赤道）と同語源。",
@@ -24655,7 +24660,7 @@ export const WORD_DATA = [
           blankAnswer: "prejudice",
         },
       ],
-      distractors: ["〜を選挙で選ぶ", "武器・兵器", "自殺"],
+      distractors: ["弁護士、代理人", "武器・兵器", "自殺"],
       confusableSpellings: ["predjudice", "prejudise", "prejudace"],
       passive: {
         etymology: "ラテン語 'praejudicium'（事前の判断）から。prae-（前に）＋ judicium（判断）。judge・judicial と同語根。「判断する前に」持ってしまう考えが語義の核心。",
@@ -24719,7 +24724,7 @@ export const WORD_DATA = [
           blankAnswer: "guidelines",
         },
       ],
-      distractors: ["対称（性）、シンメトリー", "情報源、出典", "研究、調査"],
+      distractors: ["対称（性）", "情報源、出典", "研究、調査"],
       choiceLabel: "指針",
       confusableSpellings: ["guidline", "guidelne", "guidlines"],
       passive: {
@@ -24752,7 +24757,7 @@ export const WORD_DATA = [
           blankAnswer: "platform",
         },
       ],
-      distractors: ["歯車、ギア", "タブレット端末", "更新する、アップデートする"],
+      distractors: ["歯車", "携帯端末", "電動機、発動機"],
       choiceLabel: "基盤",
       confusableSpellings: ["platfom", "platforme", "platfoam"],
       passive: {
@@ -24785,7 +24790,7 @@ export const WORD_DATA = [
           blankAnswer: "sector",
         },
       ],
-      distractors: ["通行料、使用料", "〜を輸入する", "商業、貿易"],
+      distractors: ["通行料、使用料", "株式；在庫", "商業、貿易"],
       choiceLabel: "部門",
       confusableSpellings: ["secter", "scetor", "sectore"],
       passive: {
@@ -24818,7 +24823,7 @@ export const WORD_DATA = [
           blankAnswer: "channels",
         },
       ],
-      distractors: ["差し込む、接続する", "インフラ、社会基盤", "クリックする"],
+      distractors: ["方式、様式", "社会基盤", "手数料"],
       choiceLabel: "放送局、経路",
       confusableSpellings: ["chanel", "chanell", "channle"],
       passive: {
@@ -24850,7 +24855,7 @@ export const WORD_DATA = [
           blankAnswer: "glacier",
         },
       ],
-      distractors: ["湿気、水分", "花粉", "小道、トレイル"],
+      distractors: ["湿気、水分", "花粉", "小道"],
       confusableSpellings: ["glaciar", "glaceir", "glasier"],
       passive: {
         etymology: "フランス語 'glacier' → ラテン語 'glacies'（氷）が語源。同じ語根から 'glacial'（氷河の・氷のように冷たい）も派生。",
@@ -24882,7 +24887,7 @@ export const WORD_DATA = [
           blankAnswer: "primates",
         },
       ],
-      distractors: ["臓器、器官", "（病院の）病棟", "プラセボ、偽薬"],
+      distractors: ["臓器、器官", "（病院の）病棟", "偽薬"],
       confusableSpellings: ["primmate", "priamte", "primiate"],
       passive: {
         etymology: "ラテン語 'primus'（最初の・最高の）＋ '-ate'（名詞化）→「最高位のもの」が原義。かつて人間や類人猿が動物の中で「最も高等」とみなされたことによる命名。",
@@ -24914,7 +24919,7 @@ export const WORD_DATA = [
           blankAnswer: "usage",
         },
       ],
-      distractors: ["指針、ガイドライン", "カリキュラム、教育課程", "対称（性）、シンメトリー"],
+      distractors: ["指針", "教育課程", "対称（性）"],
       confusableSpellings: ["useage", "usuage", "usege"],
       passive: {
         etymology: "古フランス語 'usage' → ラテン語 'usus'（使用・慣習）＋ '-age'（名詞化接尾辞）。'use' と同じ語根を持ち、「使うこと・使われ方」が原義。",
@@ -25010,7 +25015,7 @@ export const WORD_DATA = [
           blankAnswer: "artistic",
         },
       ],
-      distractors: ["物語・叙述", "傑作、名作", "画像；映像"],
+      distractors: ["古典的な、一流の", "文学的な、文学の", "骨董品の"],
       confusableSpellings: ["artistick", "artstic", "artisitc"],
       passive: {
         etymology: "'art'（芸術）＋ '-ist'（〜する人）＋ '-ic'（形容詞化）→「芸術家の・芸術に関する」。ラテン語 'ars/artis'（技術・技芸）が語根。",
@@ -25042,7 +25047,7 @@ export const WORD_DATA = [
           blankAnswer: "literary",
         },
       ],
-      distractors: ["詩・韻文", "〜を飾る・装飾する", "隠喩、メタファー"],
+      distractors: ["芸術的な、芸術の", "美的な、審美的な", "古典的な、一流の"],
       confusableSpellings: ["litery", "literery", "litterary"],
       passive: {
         etymology: "ラテン語 'littera'（文字・手紙）＋ '-ary'（形容詞化接尾辞）→「文字・文学に関する」。'letter'（手紙・文字）や 'literature'（文学）と同じ語根。",
@@ -25074,7 +25079,7 @@ export const WORD_DATA = [
           blankAnswer: "classic",
         },
       ],
-      distractors: ["物語・叙述", "神話", "台本、脚本"],
+      distractors: ["芸術的な、芸術の", "美的な、審美的な", "文学的な、文学の"],
       confusableSpellings: ["clasic", "klassic"],
       passive: {
         etymology: "ラテン語 classicus（最高階級の市民）から。classis（艦隊・階級）が語根。「一流の」という意味が転じて「古典的」になった。",
@@ -25364,7 +25369,7 @@ export const WORD_DATA = [
           blankAnswer: "Marine",
         },
       ],
-      distractors: ["破片、残骸", "農薬、殺虫剤", "花が咲く、開花する"],
+      distractors: ["北極の", "金融の、通貨の", "同等の、相当する"],
       confusableSpellings: ["marin", "maerine"],
       passive: {
         etymology: "ラテン語 marinus（海の）から。mare（海）が語根。イタリアのマリーナ（marina）や女性名のMarinaも同じ語源。",
@@ -25940,7 +25945,7 @@ export const WORD_DATA = [
           blankAnswer: "commanded",
         },
       ],
-      distractors: ["権利を与える", "賞、賞品", "〜を相続する・受け継ぐ"],
+      distractors: ["権利を与える", "育てる、養育する", "〜を相続する・受け継ぐ"],
       confusableSpellings: ["comand", "commnad", "commamd"],
       passive: {
         etymology: "ラテン語 'commandare' が語源。'com-'（完全に）＋ 'mandare'（委ねる、命じる）→ 完全に委ねる・強く命じるという意味。mandate（命令）と同語源。",
@@ -26005,6 +26010,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["目を覚ます、覚醒する", "引き裂く、破る", "消える、姿を消す"],
+      choiceLabel: "破裂する、弾ける",
       confusableSpellings: ["popp", "poop", "poap"],
       passive: {
         etymology: "中英語 'poppen' が語源で、破裂音を表す擬音語（オノマトペ）起源。'pop' という音そのものが単語になった、音象徴（sound symbolism）の典型例。",
@@ -26068,7 +26074,7 @@ export const WORD_DATA = [
           blankAnswer: "greeted",
         },
       ],
-      distractors: ["対戦相手、反対者", "募集する、採用する", "いじめる、脅す"],
+      distractors: ["ずるをする、不正をする", "募集する、採用する", "いじめる、脅す"],
       confusableSpellings: ["greit", "greeet"],
       passive: {
         etymology: "古英語 grētan（話しかける・攻撃する）に由来。印欧語根 *ghredh-（歩み寄る）が原義で、「相手に近づいて声をかける」感覚です。",
@@ -26356,7 +26362,7 @@ export const WORD_DATA = [
           blankAnswer: "wed",
         },
       ],
-      distractors: ["知人、顔見知り", "同意、承諾", "称賛する・褒める"],
+      distractors: ["降伏する、諦める", "（時間・労力を）捧げる、専念する", "称賛する・褒める"],
       confusableSpellings: ["wedd", "wead"],
       passive: {
         etymology: "古英語 'weddian'（誓う・保証する）から。語根 'wed' はゲルマン語で「誓約・賭け」を意味し、結婚の誓いと直結している。",
@@ -26548,7 +26554,7 @@ export const WORD_DATA = [
           blankAnswer: "rescued",
         },
       ],
-      distractors: ["再会、同窓会", "守る、防衛する", "収容する・宿泊させる"],
+      distractors: ["裏切る、背く", "守る、防衛する", "収容する・宿泊させる"],
       confusableSpellings: ["resque", "rescew", "resuce"],
       passive: {
         etymology: "古フランス語 'rescourre' から。接頭辞 re-（再び・強意）+ 語根 escourre（振り払う・解放する）で「拘束から引き離す」が原義。ラテン語 excutere（振り落とす）に遡る。",
@@ -26740,7 +26746,7 @@ export const WORD_DATA = [
           blankAnswer: "composed",
         },
       ],
-      distractors: ["傑作、名作", "記念碑、モニュメント", "ことわざ、格言"],
+      distractors: ["〜を飾る・装飾する", "描写する、表現する", "起こる、発生する"],
       confusableSpellings: ["compouse", "compoze", "conpose"],
       passive: {
         etymology: "ラテン語 componere から。com-（共に）+ ponere（置く）→「要素を一緒に置く」= 組み合わせて作る。",
@@ -27090,7 +27096,7 @@ export const WORD_DATA = [
           blankAnswer: "mode",
         },
       ],
-      distractors: ["段階、局面", "（情報・資料を）編集・収集する", "気分、機嫌"],
+      distractors: ["段階、局面", "放送局、経路", "気分、機嫌"],
       choiceLabel: "方式、様式",
       confusableSpellings: ["moad", "moode", "moide"],
       passive: {
@@ -27188,7 +27194,7 @@ export const WORD_DATA = [
           blankAnswer: "orbit",
         },
       ],
-      distractors: ["花が咲く、開花する", "大気、空気", "高度、標高"],
+      distractors: ["小惑星", "大気、空気", "高度、標高"],
       confusableSpellings: ["orbite", "orbet", "orbitt"],
       passive: {
         etymology: "ラテン語 'orbita'（車輪の跡・円い道）から。語根 'orbis'（円・球）に由来し、'orb'（球・天体）とも関連。円形に動く道筋というイメージが語源。",
@@ -27317,7 +27323,7 @@ export const WORD_DATA = [
           blankAnswer: "nerve",
         },
       ],
-      distractors: ["代謝、新陳代謝", "標本、見本", "タンパク質"],
+      distractors: ["代謝、新陳代謝", "標本、見本", "たんぱく質"],
       confusableSpellings: ["nerv", "neerve"],
       passive: {
         etymology: "ラテン語 'nervus'（腱・神経）に由来。英語には古フランス語 'nerf' を経て流入。",
@@ -27381,7 +27387,7 @@ export const WORD_DATA = [
           blankAnswer: "mall",
         },
       ],
-      distractors: ["使い走り・用事", "日課、ルーティン", "近所、地域"],
+      distractors: ["使い走り・用事", "日課", "近所、地域"],
       choiceLabel: "大型商業施設",
       confusableSpellings: ["maul", "moll", "mal"],
       passive: {
@@ -27414,7 +27420,7 @@ export const WORD_DATA = [
           blankAnswer: "grocery",
         },
       ],
-      distractors: ["化粧の、美容の", "継ぎ当て・パッチ", "先祖、祖先"],
+      distractors: ["道筋・経路", "継ぎ当て", "先祖、祖先"],
       confusableSpellings: ["groecry", "groccery", "grocerry"],
       passive: {
         etymology: "古フランス語 'grossier'（卸売業者）に由来。'gross'（全体・12ダース）と同語根で、「大量に売る人」が原義。",
@@ -27479,7 +27485,7 @@ export const WORD_DATA = [
           blankAnswer: "instinct",
         },
       ],
-      distractors: ["性格；人格", "激怒、猛烈な怒り", "内容、コンテンツ"],
+      distractors: ["性格；人格", "激怒、猛烈な怒り", "内容"],
       confusableSpellings: ["instint", "instinckt", "instink"],
       passive: {
         etymology: "ラテン語 'instinctus'（衝動・促し）に由来。'in-'（中に）＋ 'stinguere'（刺す・突き動かす）が語根。",
@@ -27511,7 +27517,7 @@ export const WORD_DATA = [
           blankAnswer: "faith",
         },
       ],
-      distractors: ["偏見、バイアス", "野心、向上心", "自律性、自治"],
+      distractors: ["偏見", "野心、向上心", "自律性、自治"],
       confusableSpellings: ["feith", "faeth", "faiht"],
       passive: {
         etymology: "ラテン語 'fides'（信頼・誠実）に由来し、古フランス語 'foi' を経て英語へ。'fidelity'（忠実さ）や 'confident'（自信がある）と同語根。",
@@ -27640,7 +27646,7 @@ export const WORD_DATA = [
           blankAnswer: "obstacle",
         },
       ],
-      distractors: ["概念；考え", "状況、事態", "象徴、シンボル"],
+      distractors: ["概念；考え", "状況、事態", "象徴"],
       confusableSpellings: ["obstackle", "obstical", "obsticle"],
       passive: {
         etymology: "ラテン語 obstaculum から。ob-（前に・対して）＋ stare（立つ）＋ -culum（名詞化接尾辞）。「前に立ちはだかるもの」が原義。",
@@ -27672,7 +27678,7 @@ export const WORD_DATA = [
           blankAnswer: "architecture",
         },
       ],
-      distractors: ["神話", "ユーモア・おかしさ", "伝記"],
+      distractors: ["神話", "おかしさ", "伝記"],
       confusableSpellings: ["architechture", "archetecture", "architectur"],
       passive: {
         etymology: "ギリシャ語 arkhitekton から。arkhi-（主な・最上の）＋ tekton（大工・建設者）。「最高の建設者」が原義で、ラテン語 architectura を経て英語へ。",
@@ -27704,7 +27710,7 @@ export const WORD_DATA = [
           blankAnswer: "stem",
         },
       ],
-      distractors: ["小惑星", "干ばつ・旱魃", "北極の"],
+      distractors: ["小惑星", "干ばつ・旱魃", "生態学"],
       confusableSpellings: ["stemm", "steem", "stam"],
       passive: {
         etymology: "古英語 stemn／stefn から。「船の竜骨（船首の柱）」が原義で、そこから「植物の幹・茎」へと意味が広がった。動詞「止める」の意味はまた別の語源から。",
@@ -27736,7 +27742,7 @@ export const WORD_DATA = [
           blankAnswer: "illusion",
         },
       ],
-      distractors: ["魂・精神", "内容、コンテンツ", "問題、課題"],
+      distractors: ["魂・精神", "内容", "問題、課題"],
       confusableSpellings: ["ilusion", "ilussion", "illution"],
       passive: {
         etymology: "ラテン語 illusio から。il-（in- の異形：中へ）＋ ludere（遊ぶ・だます）＋ -ion（名詞化）。「だまして遊ぶこと」が原義。",
@@ -27768,7 +27774,7 @@ export const WORD_DATA = [
           blankAnswer: "discrimination",
         },
       ],
-      distractors: ["機関、施設", "政権、体制", "エリート、精鋭集団"],
+      distractors: ["機関、施設", "政権、体制", "精鋭集団"],
       confusableSpellings: ["discrimation", "descrimination", "discriminetion"],
       passive: {
         etymology: "ラテン語 discriminare（区別する）から。dis-（分けて）＋ crimen（判断・区別）＋ -ation（名詞化）。元々は「区別すること」という中立的な意味だった。",
@@ -27800,7 +27806,7 @@ export const WORD_DATA = [
           blankAnswer: "shame",
         },
       ],
-      distractors: ["直感、直観", "考え、アイデア", "尊厳、品格"],
+      distractors: ["直感、直観", "考え", "尊厳、品格"],
       confusableSpellings: ["shaim", "sheme", "shaam"],
       passive: {
         etymology: "古英語 scamu から。ゲルマン祖語 *skamō（恥）に由来。「顔を隠したくなる気持ち」が原義とされる。",
@@ -27928,7 +27934,7 @@ export const WORD_DATA = [
           blankAnswer: "recipe",
         },
       ],
-      distractors: ["修道士、僧侶", "交通、交通量", "イスラム教徒"],
+      distractors: ["修道士、僧侶", "交通、交通量", "仏教徒"],
       choiceLabel: "料理法",
       confusableSpellings: ["recipie", "reciepe", "recipy"],
       passive: {
@@ -27961,7 +27967,7 @@ export const WORD_DATA = [
           blankAnswer: "luxury",
         },
       ],
-      distractors: ["材料、素材", "味・風味", "リゾート地、行楽地"],
+      distractors: ["材料、素材", "味・風味", "行楽地"],
       confusableSpellings: ["luxuary", "luxery", "luxurey"],
       passive: {
         etymology: "ラテン語 'luxuria'（過剰・放縦）から。語根 'lux-' は「豊かさ・余剰」を意味し、そこから「必要以上のもの＝贅沢」という意味が生まれた。",
@@ -27993,7 +27999,7 @@ export const WORD_DATA = [
           blankAnswer: "chip",
         },
       ],
-      distractors: ["媒体、手段", "ウェブ、インターネット", "プロフィール、人物紹介"],
+      distractors: ["媒体、手段", "通信網", "人物紹介"],
       choiceLabel: "半導体素子",
       confusableSpellings: ["chipp", "chiip", "chipe"],
       passive: {
@@ -28058,7 +28064,7 @@ export const WORD_DATA = [
           blankAnswer: "sake",
         },
       ],
-      distractors: ["シナリオ、想定される状況", "損害；被害", "概念、考え"],
+      distractors: ["想定される状況", "損害；被害", "概念、考え"],
       confusableSpellings: ["saek", "sace", "saake"],
       passive: {
         etymology: "古英語 'sacu'（争い・訴訟・目的）から派生。「ある目的・理由のために」という意味で、常に 'for the sake of ～' や 'for ～'s sake' のかたちで使われる。",
@@ -28090,7 +28096,7 @@ export const WORD_DATA = [
           blankAnswer: "prefecture",
         },
       ],
-      distractors: ["地位、身分", "投票する", "傾向、動向"],
+      distractors: ["地位、身分", "軍隊、部隊", "傾向、動向"],
       confusableSpellings: ["prefectur", "prefecuture", "prefekture"],
       passive: {
         etymology: "ラテン語 'praefectura' から。'prae-'（前に・上に）＋ 'facere'（作る・置く）→「前に置かれた者が管轄する地域」が元の意味。ローマ時代の行政区分に由来する。",
@@ -28122,7 +28128,7 @@ export const WORD_DATA = [
           blankAnswer: "council",
         },
       ],
-      distractors: ["〜を選挙で選ぶ", "議題、アジェンダ", "州、省、地方"],
+      distractors: ["反乱者、反逆者", "議題", "州、省、地方"],
       confusableSpellings: ["councel", "counsil", "councill"],
       passive: {
         etymology: "ラテン語 'concilium'（集会・会議）から。'con-'（共に）＋ 'calare'（呼び集める）→「人々を呼び集めた会議体」が原義。",
@@ -28251,7 +28257,7 @@ export const WORD_DATA = [
           blankAnswer: "generous",
         },
       ],
-      distractors: ["喜んで〜する、〜する意向がある", "優雅さ、品格", "熱心な、意欲的な"],
+      distractors: ["厳しい、過酷な", "うぬぼれた、虚栄心の強い", "熱心な、意欲的な"],
       confusableSpellings: ["generuos", "genorous", "genereous"],
       passive: {
         etymology: "ラテン語 'generosus'（高貴な生まれの・気高い）から。'genus'（種族・生まれ）が語根で、「高貴な家柄の者は気前がよい」という古代の価値観が反映されている。'gene'（遺伝子）も同じ語根。",
@@ -28412,7 +28418,7 @@ export const WORD_DATA = [
           blankAnswer: "Arctic",
         },
       ],
-      distractors: ["砂漠", "流域・盆地", "海の、海洋の"],
+      distractors: ["裸の、むき出しの", "典型的な、代表的な", "海の、海洋の"],
       confusableSpellings: ["Artic", "Arctik"],
       passive: {
         etymology: "ギリシャ語 'arktikos'（熊の方向の）に由来。'arktos'（熊）は北の空に見える「おおぐま座」を指し、そちらの方角＝北を意味した。",
@@ -28862,7 +28868,7 @@ export const WORD_DATA = [
           blankAnswer: "mature",
         },
       ],
-      distractors: ["勤勉な、努力家の", "外向的な人、社交的な人", "まともな、きちんとした"],
+      distractors: ["勤勉な、努力家の", "喜んで〜する、〜する意向がある", "まともな、きちんとした"],
       confusableSpellings: ["matur", "matiure", "matuer"],
       passive: {
         etymology: "ラテン語 'maturus'（熟した・時機が来た）から。果物が「熟す」イメージが転じて、人や考えが「成熟する」という意味に。'matrix' や 'mother' と同じ印欧語根 'ma-'（育てる）に由来するとも。",
@@ -28894,7 +28900,7 @@ export const WORD_DATA = [
           blankAnswer: "likewise",
         },
       ],
-      distractors: ["いくぶん、やや、多少", "それにもかかわらず、とにかく", "〜にもかかわらず"],
+      distractors: ["いくぶん、やや、多少", "前へ、前方へ", "〜にもかかわらず"],
       confusableSpellings: ["likwise", "likewize", "likewyse"],
       passive: {
         etymology: "'like'（同じような）＋'wise'（様式・方法）の合成語。古英語・中英語由来。「同じ様式で」が原義で、そこから「同様に」という副詞に発展。",
@@ -28926,7 +28932,7 @@ export const WORD_DATA = [
           blankAnswer: "chased",
         },
       ],
-      distractors: ["吸収する", "〜を投げる、ピッチングする", "あくびをする"],
+      distractors: ["吸収する", "〜を投げる", "あくびをする"],
       confusableSpellings: ["chaise", "chace"],
       passive: {
         etymology: "古フランス語 'chacier'（狩る）に由来。ラテン語 'captiare'（捕まえようとする）が語根で、capture（捕まえる）と同じ系統。",
@@ -28990,7 +28996,7 @@ export const WORD_DATA = [
           blankAnswer: "gazed",
         },
       ],
-      distractors: ["滑る", "ねじる、よじる", "くつろぐ、リラックスする"],
+      distractors: ["滑る", "ねじる、よじる", "くつろぐ"],
       confusableSpellings: ["gase", "gaize"],
       passive: {
         etymology: "スカンジナビア語起源とされ、古ノルド語の 'gá'（気にする・注目する）に関連するとも言われる。語源は完全には確定していないが、15世紀ごろから英語に登場。",
@@ -29118,7 +29124,7 @@ export const WORD_DATA = [
           blankAnswer: "wandered",
         },
       ],
-      distractors: ["回復する、立ち直る", "急上昇する、高騰する", "ピンで留める、固定する"],
+      distractors: ["回復する、立ち直る", "急上昇する、高騰する", "留める、固定する"],
       confusableSpellings: ["wonder"],
       passive: {
         etymology: "古英語 'wandrian'（さまよう・移動する）に由来。Germanic 語根 *wand-（曲がる・向きを変える）から派生し、決まった目的地なく動き回るイメージが語源に込められている。",
@@ -29150,7 +29156,7 @@ export const WORD_DATA = [
           blankAnswer: "floated",
         },
       ],
-      distractors: ["引きずる、ドラッグする", "急上昇する、高騰する", "織る、編む"],
+      distractors: ["引きずる", "急上昇する、高騰する", "織る、編む"],
       confusableSpellings: ["floate", "flote"],
       passive: {
         etymology: "古英語 'flotian'（浮く・流れる）に由来。古ノルド語 'flota' も関連。fleet（艦隊）や flow（流れる）と同じ Indo-European 語根 *pleu-（流れる・泳ぐ）から派生。",
@@ -29182,7 +29188,7 @@ export const WORD_DATA = [
           blankAnswer: "poured",
         },
       ],
-      distractors: ["サーフィンをする", "追いかける", "縫う、繕う"],
+      distractors: ["沈む", "追いかける", "縫う、繕う"],
       confusableSpellings: ["pore", "poure"],
       passive: {
         etymology: "中英語 'pouren' に由来するが、それ以前の語源は不明瞭。フランス語や Celtic 語との関連が議論されている。14世紀ごろから「液体を流し込む」意味で英語に登場。",
@@ -29438,7 +29444,7 @@ export const WORD_DATA = [
           blankAnswer: "reproduce",
         },
       ],
-      distractors: ["漏れる、漏らす", "眉をひそめる、しかめ面をする", "姿勢"],
+      distractors: ["漏れる、漏らす", "眉をひそめる、しかめ面をする", "ぶら下げる、吊るす"],
       confusableSpellings: ["reporduce", "reproduse", "repoduce"],
       passive: {
         etymology: "re-（再び）+ produce（生み出す）。ラテン語 producere（前に導く）が produce の元。『再び生み出す』が原義で、生物学的繁殖と複製の両方に使われる。",
@@ -29470,7 +29476,7 @@ export const WORD_DATA = [
           blankAnswer: "bobbed",
         },
       ],
-      distractors: ["ちらりと見ること、一瞥", "排水する・水を抜く", "貫通する、浸透する"],
+      distractors: ["通勤・通学する", "排水する・水を抜く", "貫通する、浸透する"],
       confusableSpellings: ["bobb", "bobe", "bop（別語）"],
       passive: {
         etymology: "中英語 'bobben' に由来。短く繰り返す動きを表す擬音語的な語。bob haircut（ボブカット）やボクシングの bob and weave も同じ語根から。",
@@ -29694,7 +29700,7 @@ export const WORD_DATA = [
           blankAnswer: "regulate",
         },
       ],
-      distractors: ["人種、民族", "国勢調査・人口調査", "義務、責務"],
+      distractors: ["（制度・法律などを）廃止する", "投票する", "〜を選挙で選ぶ"],
       confusableSpellings: ["regulaite", "regurate", "regualte"],
       passive: {
         etymology: "ラテン語 'regulare'（支配する・調整する）から。'regula'（規則・定規）＋ '-ate'（動詞化接尾辞）。'rule'（規則）や 'regular'（規則的な）と同語根。",
@@ -29984,6 +29990,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["消える、姿を消す", "突き刺す；強く押し込む", "ため息をつく"],
+      choiceLabel: "汲み上げる",
       confusableSpellings: ["pumb", "poumo"],
       passive: {
         etymology: "中期オランダ語 'pompe'（パイプ・ポンプ）に由来。海洋用語として広まり、液体・気体を強制的に移動させる器具の概念が語根となっている。",
@@ -30368,7 +30375,8 @@ export const WORD_DATA = [
           blankAnswer: "chart",
         },
       ],
-      distractors: ["装置、機器", "場所・用地", "チップ、半導体素子"],
+      distractors: ["装置、機器", "場所・用地", "半導体素子"],
+      choiceLabel: "図表",
       confusableSpellings: ["chrat", "cahrt", "chert"],
       passive: {
         etymology: "ラテン語 'charta'（紙、地図）から。ギリシャ語 'khartes'（パピルスの葉）が語源で、もともとは「地図・海図」を意味していた。",
@@ -30400,7 +30408,7 @@ export const WORD_DATA = [
           blankAnswer: "geography",
         },
       ],
-      distractors: ["実験室、研究室", "証拠、根拠", "インターンシップ、実習期間"],
+      distractors: ["実験室、研究室", "証拠、根拠", "実習期間"],
       confusableSpellings: ["geograpy", "jeography", "geografy"],
       passive: {
         etymology: "ギリシャ語 'geographia' から。'geo-'（地球・土地）＋ 'graphia'（描くこと、記述）。文字通り「地球を描く・記述する」学問。",
@@ -30432,7 +30440,7 @@ export const WORD_DATA = [
           blankAnswer: "panel",
         },
       ],
-      distractors: ["議会、国会", "機関、施設", "議院、会議所"],
+      distractors: ["議会、国会", "機関、施設", "特権、特典"],
       choiceLabel: "委員会",
       confusableSpellings: ["pannel", "panle", "pannle"],
       passive: {
@@ -30496,7 +30504,7 @@ export const WORD_DATA = [
           blankAnswer: "workforce",
         },
       ],
-      distractors: ["経済、経済状況", "資源、リソース", "収入"],
+      distractors: ["経済、経済状況", "資源", "収入"],
       confusableSpellings: ["workfoce", "workforse", "workfource"],
       passive: {
         etymology: "'work'（仕事）＋ 'force'（力・集団）の複合語。'force' には「軍団・集団」の意味があり（例：air force 空軍）、それが転じて「働く人々の集まり」を意味するようになった。",
@@ -30528,7 +30536,7 @@ export const WORD_DATA = [
           blankAnswer: "mill",
         },
       ],
-      distractors: ["思い切って〜する、リスクを冒す", "資源、リソース", "保険"],
+      distractors: ["抵当", "資源", "保険"],
       confusableSpellings: ["mil", "mils", "mille"],
       passive: {
         etymology: "古英語 mylen、ラテン語 molina（粉砕する場所）から。語根 mol-（挽く）はギリシャ語 mylos（臼）と同源。",
@@ -30560,7 +30568,7 @@ export const WORD_DATA = [
           blankAnswer: "abuse",
         },
       ],
-      distractors: ["評議会、議会、審議会", "〜に有罪判決を下す", "罰則、刑罰"],
+      distractors: ["評議会、議会、審議会", "不平等、格差", "罰則、刑罰"],
       confusableSpellings: ["abouse", "abbuse", "abuze"],
       passive: {
         etymology: "ラテン語 abusus から。接頭辞 ab-（離れて・誤って）＋ usus（使用）。つまり「本来の使い方から外れた使い方」が原義。",
@@ -30592,7 +30600,7 @@ export const WORD_DATA = [
           blankAnswer: "vice",
         },
       ],
-      distractors: ["気分、気持ち", "尊厳、品格", "シナリオ、想定される状況"],
+      distractors: ["気分、気持ち", "尊厳、品格", "想定される状況"],
       confusableSpellings: ["vise", "voce", "visce"],
       passive: {
         etymology: "ラテン語 vitium（欠点・罪悪）から。フランス語 vice を経て英語へ。接頭辞的な「副〜」の意味は別語源で、ラテン語 vice（〜の代わりに）から来ている。",
@@ -30656,7 +30664,7 @@ export const WORD_DATA = [
           blankAnswer: "tragedies",
         },
       ],
-      distractors: ["伝記", "作曲する、作成する", "文学的な、文学の"],
+      distractors: ["伝記", "民衆、人々", "物語・叙述"],
       confusableSpellings: ["tradgedy", "tragedie", "tragidy"],
       passive: {
         etymology: "ギリシャ語 tragōidia から。tragos（ヤギ）＋ ōidē（歌）で「ヤギの歌」が原義。古代ギリシャの祭りでヤギを生贄にする際に歌われた歌に由来するという説がある。",
@@ -30721,7 +30729,7 @@ export const WORD_DATA = [
           blankAnswer: "allergy",
         },
       ],
-      distractors: ["循環、血液循環", "糖尿病", "錠剤、ピル"],
+      distractors: ["循環、血液循環", "糖尿病", "錠剤"],
       choiceLabel: "過敏反応",
       confusableSpellings: ["alergy", "allergie", "allarg"],
       passive: {
@@ -30819,6 +30827,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["腫瘍", "細胞", "腎臓"],
+      choiceLabel: "予防接種液",
       confusableSpellings: ["vaccin", "vaksine", "vacceen"],
       passive: {
         etymology: "ラテン語 vacca（牛）から。vaccinus は「牛の」という意味の形容詞。ジェンナーが牛痘（cowpox）ウイルスを使って天然痘を予防したことから、「牛由来の（予防接種）」という名前がついた。",
@@ -30850,7 +30859,7 @@ export const WORD_DATA = [
           blankAnswer: "metaphor",
         },
       ],
-      distractors: ["ユーモア・おかしさ", "美的な、審美的な", "詩・韻文"],
+      distractors: ["おかしさ", "空想", "詩・韻文"],
       choiceLabel: "隠喩",
       confusableSpellings: ["metafor", "metaphore", "metephor"],
       passive: {
@@ -30883,7 +30892,7 @@ export const WORD_DATA = [
           blankAnswer: "Folk",
         },
       ],
-      distractors: ["ことわざ、格言", "描写する、表現する", "美術館、画廊"],
+      distractors: ["ことわざ、格言", "台本", "美術館、画廊"],
       confusableSpellings: ["foke", "folke"],
       passive: {
         etymology: "古英語 folc（人々、民）に由来。ゲルマン系の語根で、ドイツ語 Volk（民族）と同源。",
@@ -30915,7 +30924,7 @@ export const WORD_DATA = [
           blankAnswer: "fare",
         },
       ],
-      distractors: ["販売業者、売り手", "企業・法人", "（競売・入札で）値をつける、入札する"],
+      distractors: ["販売業者、売り手", "企業・法人", "貸付金"],
       confusableSpellings: ["fair", "fares", "fiar"],
       passive: {
         etymology: "古英語 fær（旅、道）から。動詞「旅する・行く」から転じて「旅の費用（運賃）」の意味になった。",
@@ -31043,7 +31052,7 @@ export const WORD_DATA = [
           blankAnswer: "mineral",
         },
       ],
-      distractors: ["ミツバチの巣（箱）", "地球・地球儀", "形成、生成"],
+      distractors: ["蜜蜂の巣（箱）", "地球・地球儀", "形成、生成"],
       choiceLabel: "鉱物",
       confusableSpellings: ["miniral", "minaral", "minerel"],
       passive: {
@@ -31076,7 +31085,7 @@ export const WORD_DATA = [
           blankAnswer: "skeleton",
         },
       ],
-      distractors: ["ストレス；精神的緊張", "うつ病・抑うつ", "臓器、器官"],
+      distractors: ["精神的緊張", "うつ病・抑うつ", "臓器、器官"],
       confusableSpellings: ["skelaton", "skeletion", "skeliton"],
       passive: {
         etymology: "ギリシャ語 skeletos（乾いた、干からびた）から。skellein（乾かす）が語根。「干からびた体＝骸骨」が原義。",
@@ -31108,7 +31117,7 @@ export const WORD_DATA = [
           blankAnswer: "counterpart",
         },
       ],
-      distractors: ["偏見、バイアス", "数字、図", "利益、恩恵"],
+      distractors: ["偏見", "数字、図", "利益、恩恵"],
       confusableSpellings: ["counterpaart", "counderpart", "countarpart"],
       passive: {
         etymology: "counter-（対して・対応する）＋ part（部分・役割）。法律文書で「契約書の写し」を指したのが原義。counter はラテン語 contra（反対・対して）由来。",
@@ -31140,7 +31149,7 @@ export const WORD_DATA = [
           blankAnswer: "stroke",
         },
       ],
-      distractors: ["栄養（学）", "悪化させる、複雑にする", "アレルギー"],
+      distractors: ["栄養（学）", "真空、真空状態", "過敏反応"],
       confusableSpellings: ["strok", "srtoke", "stroak"],
       passive: {
         etymology: "古英語 strācian（なでる、打つ）に由来。「打つ・なでる動作」が基本義で、そこから「筆のひと塗り」「水泳のひとかき」「医学的な脳への打撃（脳卒中）」など多義に発展。",
@@ -31172,7 +31181,7 @@ export const WORD_DATA = [
           blankAnswer: "pedestrian",
         },
       ],
-      distractors: ["兄弟姉妹", "受付、フロント", "材料、素材"],
+      distractors: ["兄弟姉妹", "受付", "材料、素材"],
       confusableSpellings: ["pedestrain", "pedistrian", "pedestrean"],
       passive: {
         etymology: "ラテン語 'pedester'（徒歩の）から。語根 'ped-'（足）＋ '-estrian'（〜の性質を持つ）。同じ語根に 'pedal'（ペダル）や 'pedicure'（ペディキュア）がある。",
@@ -31237,7 +31246,7 @@ export const WORD_DATA = [
           blankAnswer: "ecology",
         },
       ],
-      distractors: ["茎・幹", "大気、空気", "汚染する"],
+      distractors: ["茎・幹", "大気、空気", "（鳥・羊などの）群れ"],
       choiceLabel: "生態学",
       confusableSpellings: ["ecolegy", "ecologgy", "ecollogy"],
       passive: {
@@ -31269,7 +31278,7 @@ export const WORD_DATA = [
           blankAnswer: "siblings",
         },
       ],
-      distractors: ["施設；設備", "避難所、シェルター", "イスラム教徒"],
+      distractors: ["施設；設備", "避難所", "仏教徒"],
       confusableSpellings: ["sibbling", "siblng", "sibeling"],
       passive: {
         etymology: "古英語 'sibb'（血縁・親族）＋ '-ling'（小さいもの・仲間を表す接尾辞）から。もともとは「同じ血縁の仲間」という意味。",
@@ -31301,7 +31310,7 @@ export const WORD_DATA = [
           blankAnswer: "ratio",
         },
       ],
-      distractors: ["合計、総額", "10年間", "大量の、大規模な"],
+      distractors: ["合計、総額", "10年間", "期間・範囲"],
       confusableSpellings: ["rasio", "racio", "rateo"],
       passive: {
         etymology: "ラテン語 'ratio'（計算・理由・割合）から直接英語に入った語。語根 'rat-' は 'think'（考える）を意味し、'rational'（合理的な）とも同じ語源。",
@@ -31365,7 +31374,7 @@ export const WORD_DATA = [
           blankAnswer: "charm",
         },
       ],
-      distractors: ["熱心な、熱望している", "恥じている、恥ずかしく思っている", "忍耐強い"],
+      distractors: ["強欲、貪欲", "外向的な人、社交的な人", "気性、怒り"],
       confusableSpellings: ["charme", "chram", "chorm"],
       passive: {
         etymology: "ラテン語 'carmen'（歌・呪文）から古フランス語 'charme' を経て英語へ。もともとは「魔法の呪文」を意味し、人を魅了する力＝魔法、というイメージで現在の意味になった。",
@@ -31589,7 +31598,7 @@ export const WORD_DATA = [
           blankAnswer: "neutral",
         },
       ],
-      distractors: ["否定的な・マイナスの", "共通の", "薄暗い、ぼんやりした"],
+      distractors: ["否定的な", "共通の", "薄暗い、ぼんやりした"],
       confusableSpellings: ["nutral", "neutrral", "neatral"],
       passive: {
         etymology: "ラテン語 neutralis（どちらでもない）から。ne-（否定）＋ uter（どちらか一方）が組み合わさり「どちらでもない」が原義。",
@@ -31877,7 +31886,7 @@ export const WORD_DATA = [
           blankAnswer: "cruel",
         },
       ],
-      distractors: ["軽蔑、侮蔑", "精力的な、活発な", "気前のよい、寛大な"],
+      distractors: ["忠実な、誠実な", "精力的な、活発な", "気前のよい、寛大な"],
       confusableSpellings: ["cruell", "crule", "crewel"],
       passive: {
         etymology: "古フランス語 'cruel'、ラテン語 'crudelis'（生の、粗野な）から。語根 'crudus'（生の・加工されていない）に由来し、「感情が洗練されていない＝残酷」というイメージ。",
@@ -32069,7 +32078,7 @@ export const WORD_DATA = [
           blankAnswer: "keen",
         },
       ],
-      distractors: ["緊張した；張り詰めた", "男性的な、男らしい", "魅力、愛嬌"],
+      distractors: ["緊張した；張り詰めた", "男性的な、男らしい", "臆病な、内気な"],
       confusableSpellings: ["kean", "kene", "keene"],
       passive: {
         etymology: "古英語 'cene'（勇敢な・鋭い）から。古ノルド語 'kænn'（知識のある・鋭い）とも関連。原義は「刃が鋭い」で、そこから「感覚・知性が鋭い」「意欲が鋭い」へと意味が広がった。",
@@ -32133,7 +32142,7 @@ export const WORD_DATA = [
           blankAnswer: "negotiated",
         },
       ],
-      distractors: ["搾取する、不当に利用する", "あえて〜する、〜する勇気がある", "コンテスト・競争"],
+      distractors: ["搾取する、不当に利用する", "あえて〜する、〜する勇気がある", "〜を祝う、祝賀する"],
       confusableSpellings: ["negociate", "negotiatte", "negotitate"],
       passive: {
         etymology: "ラテン語 negotiari（商売する）から。neg-（否定）+ otium（余暇・休息）→「休んでいない＝仕事している」という発想が語源。",
@@ -32165,7 +32174,7 @@ export const WORD_DATA = [
           blankAnswer: "grasped",
         },
       ],
-      distractors: ["散らばらせる、まき散らす", "ちらりと見る", "パッとひっくり返す、素早く動かす"],
+      distractors: ["散らばらせる、まき散らす", "ちらりと見る", "ぱっとひっくり返す、素早く動かす"],
       confusableSpellings: ["gracp", "graps", "grassp"],
       passive: {
         etymology: "古英語 grǣpsan（つかむ）に由来。grip や grab と同じ語族で、「g-r」の組み合わせが「つかむ動作」を表す語に多く見られる。",
@@ -32197,7 +32206,7 @@ export const WORD_DATA = [
           blankAnswer: "donated",
         },
       ],
-      distractors: ["コンテスト・競争", "〜に抗議する、異議を唱える", "変装させる、偽装する"],
+      distractors: ["育てる、養育する", "〜に抗議する、異議を唱える", "変装させる、偽装する"],
       confusableSpellings: ["donete", "donnate", "donat"],
       passive: {
         etymology: "ラテン語 donare（贈る・与える）から。donum（贈り物）が語根で、donor（寄付者）も同じ語族。",
@@ -32229,7 +32238,7 @@ export const WORD_DATA = [
           blankAnswer: "arrested",
         },
       ],
-      distractors: ["合意、総意", "評議会、議会、審議会", "行政、管理、運営"],
+      distractors: ["拷問する、苦しめる", "侵略する", "投票する"],
       confusableSpellings: ["arrets", "arest", "arrset"],
       passive: {
         etymology: "古フランス語 arester（止まる）から。ラテン語 ad-（方向）+ restare（止まる・残る）が語源。「動きを止める」が根本の意味。",
@@ -32679,7 +32688,7 @@ export const WORD_DATA = [
           blankAnswer: "disputed",
         },
       ],
-      distractors: ["協力、協調", "要約する、まとめる", "雇用する"],
+      distractors: ["懇願する、頼み込む", "要約する、まとめる", "雇用する"],
       confusableSpellings: ["dispuite", "despute"],
       passive: {
         etymology: "ラテン語 'disputare'（計算する・議論する）から。'dis-'（分けて）＋ 'putare'（考える・計算する）。互いの考えを「分けて検討する」がコア。",
@@ -32776,7 +32785,7 @@ export const WORD_DATA = [
           blankAnswer: "cheated",
         },
       ],
-      distractors: ["結婚する、結婚させる", "仲間・同僚", "手伝う、支援する"],
+      distractors: ["結婚する、結婚させる", "和解させる；仲直りさせる", "手伝う、支援する"],
       confusableSpellings: ["cheet", "cheat's", "cheate"],
       passive: {
         etymology: "古フランス語 'escheat'（財産没収）から。もともとは法的な没収を意味し、そこから「不正に奪う」→「だます」へ意味が転じた。",
@@ -32808,7 +32817,7 @@ export const WORD_DATA = [
           blankAnswer: "foster",
         },
       ],
-      distractors: ["侮辱する", "強いる、余儀なくさせる", "助ける；支援する"],
+      distractors: ["侮辱する", "強いる、余儀なくさせる", "挑発する"],
       confusableSpellings: ["forster", "fostar", "fostter"],
       passive: {
         etymology: "古英語 'fōstrian'（食べ物を与えて育てる）から。'fōstor' は「食料・養育」を意味する語根に由来し、「育て上げる」という核心的な意味を持つ。",
@@ -32968,7 +32977,7 @@ export const WORD_DATA = [
           blankAnswer: "logs",
         },
       ],
-      distractors: ["歯車、ギア", "図表、グラフ", "出力、産出量"],
+      distractors: ["再読み込みする", "情報を編集・収集する", "閲覧する"],
       choiceLabel: "記録する",
       confusableSpellings: ["logg", "logge", "loge"],
       passive: {
@@ -33096,7 +33105,7 @@ export const WORD_DATA = [
           blankAnswer: "astonished",
         },
       ],
-      distractors: ["〜を魅了する、強く引きつける", "思い出させる；リマインドする", "発表する、告知する"],
+      distractors: ["〜を魅了する、強く引きつける", "思い出させる", "発表する、告知する"],
       confusableSpellings: ["astonich", "astonesh", "astonisch"],
       passive: {
         etymology: "古フランス語 estoner（驚かせる）に由来。接頭辞 a-（強意）＋ラテン語 tonare（雷を鳴らす）から派生。文字通り「雷に打たれたように驚かせる」イメージ。",
@@ -33257,7 +33266,7 @@ export const WORD_DATA = [
           blankAnswer: "complicate",
         },
       ],
-      distractors: ["刺激する・促進する", "〜を混ぜ合わせる、ブレンドする", "〜を成し遂げる、達成する"],
+      distractors: ["刺激する・促進する", "〜を混ぜ合わせる", "〜を成し遂げる、達成する"],
       confusableSpellings: ["complecate", "complicait", "compliacte"],
       passive: {
         etymology: "ラテン語 complicare（折り重ねる）に由来。com-（共に）＋plicare（折る）の組み合わせ。「何枚も折り重なって複雑になる」イメージ。",
@@ -33447,7 +33456,7 @@ export const WORD_DATA = [
           blankAnswer: "input",
         },
       ],
-      distractors: ["モーター、電動機", "技術、テクノロジー", "差し込む、接続する"],
+      distractors: ["電動機", "技術", "誤り、不具合"],
       choiceLabel: "入力",
       confusableSpellings: ["imput", "inputt", "inpput"],
       passive: {
@@ -33545,7 +33554,7 @@ export const WORD_DATA = [
           blankAnswer: "compliment",
         },
       ],
-      distractors: ["追放する；除名する", "～に出席する、参加する", "〜を非難する、糾弾する"],
+      distractors: ["協力、協調", "賞、賞品", "仲間・同僚"],
       confusableSpellings: ["complement", "complimant", "complimente"],
       passive: {
         etymology: "ラテン語 'complimentum'（礼儀として果たすこと）から。'com-'（完全に）＋ 'plere'（満たす）が語根。",
@@ -33577,7 +33586,7 @@ export const WORD_DATA = [
           blankAnswer: "infrastructure",
         },
       ],
-      distractors: ["プロトコル、通信規約", "シミュレーションする、模擬する", "部品、構成要素"],
+      distractors: ["通信規約", "電動機、発動機", "部品、構成要素"],
       choiceLabel: "社会基盤",
       confusableSpellings: ["infastructure", "infrastracture", "infrestructure"],
       passive: {
@@ -33642,7 +33651,7 @@ export const WORD_DATA = [
           blankAnswer: "distress",
         },
       ],
-      distractors: ["構造・仕組み", "移行、変遷", "長所、メリット"],
+      distractors: ["構造・仕組み", "移行、変遷", "長所"],
       confusableSpellings: ["destress", "distres", "disstress"],
       passive: {
         etymology: "古フランス語 'destresse' から。ラテン語 'distringere'（引き離す・拘束する）が語源。'dis-'（分離）＋ 'stringere'（締める）。",
@@ -33706,7 +33715,7 @@ export const WORD_DATA = [
           blankAnswer: "expedition",
         },
       ],
-      distractors: ["環境", "捕食者、天敵", "花が咲く、開花する"],
+      distractors: ["環境", "捕食者、天敵", "飢饉、深刻な食糧不足"],
       confusableSpellings: ["expidition", "expedision", "expidision"],
       passive: {
         etymology: "ラテン語 'expeditio' から。'ex-'（外へ）＋ 'pes/pedis'（足）→「足を（縛るものから）解き放ち外へ向かうこと」。'expedite'（迅速に進める）と同語根。",
@@ -33770,7 +33779,7 @@ export const WORD_DATA = [
           blankAnswer: "shade",
         },
       ],
-      distractors: ["画像；映像", "妖精の、妖精に関する", "悲劇、惨事"],
+      distractors: ["画像；映像", "楽器", "悲劇、惨事"],
       confusableSpellings: ["shaid", "shaed", "shde"],
       passive: {
         etymology: "古英語 'scead'（影、暗がり）から。ゲルマン語系の語根で、光が遮られた状態を表す。",
@@ -33802,7 +33811,7 @@ export const WORD_DATA = [
           blankAnswer: "jury",
         },
       ],
-      distractors: ["地位、身分", "条約、協定", "〜を改革する、改善する"],
+      distractors: ["地位、身分", "条約、協定", "委員会"],
       confusableSpellings: ["jurry", "jurey", "jery"],
       passive: {
         etymology: "古フランス語 'juree'（宣誓）から。ラテン語 'jurare'（誓う）が語根。'justice'（正義）や 'judge'（裁判官）と同じ語族。",
@@ -33866,7 +33875,7 @@ export const WORD_DATA = [
           blankAnswer: "penalty",
         },
       ],
-      distractors: ["嫌がらせ、ハラスメント", "多様性", "弁護士、代理人"],
+      distractors: ["嫌がらせ", "多様性", "弁護士、代理人"],
       choiceLabel: "罰則",
       confusableSpellings: ["penality", "penalthy", "pennalty"],
       passive: {
@@ -33931,7 +33940,7 @@ export const WORD_DATA = [
           blankAnswer: "scheme",
         },
       ],
-      distractors: ["野心、向上心", "見解、意見", "視点、観点"],
+      distractors: ["野心、向上心", "概念、考え方", "想定される状況、脚本"],
       confusableSpellings: ["sheme", "scehem", "skeme"],
       passive: {
         etymology: "ギリシャ語 'skhema'（形、姿）から。ラテン語 'schema' を経由。元は「図式・形態」を意味し、転じて「計画・構想」となった。",
@@ -34059,7 +34068,7 @@ export const WORD_DATA = [
           blankAnswer: "nationality",
         },
       ],
-      distractors: ["目撃者、証人", "〜に有罪判決を下す", "移民、入国"],
+      distractors: ["目撃者、証人", "精鋭、選ばれた人々", "移民、入国"],
       confusableSpellings: ["nationallity", "nacionality", "nationalety"],
       passive: {
         etymology: "「nation（国家）」＋「-al（形容詞化）」＋「-ity（名詞化）」。ラテン語 'natio'（生まれ・民族）が語源。",
@@ -34091,7 +34100,7 @@ export const WORD_DATA = [
           blankAnswer: "poll",
         },
       ],
-      distractors: ["〜を改革する、改善する", "キャンペーン、運動", "〜を選挙で選ぶ"],
+      distractors: ["外交、外交術", "運動", "賄賂"],
       confusableSpellings: ["pall", "pole", "pols"],
       passive: {
         etymology: "中英語・低地ドイツ語の 'pol'（頭・頭頂部）が語源。かつて投票を「頭数を数える」ことで行ったことから「投票・選挙」の意味に発展。",
@@ -34123,7 +34132,7 @@ export const WORD_DATA = [
           blankAnswer: "clinic",
         },
       ],
-      distractors: ["骨格、骸骨", "頭蓋骨", "タンパク質"],
+      distractors: ["骨格、骸骨", "頭蓋骨", "たんぱく質"],
       choiceLabel: "診療所",
       confusableSpellings: ["clenic", "clinick", "clinnic"],
       passive: {
@@ -34252,7 +34261,7 @@ export const WORD_DATA = [
           blankAnswer: "queue",
         },
       ],
-      distractors: ["リゾート地、行楽地", "材料、成分", "シリアル・穀物食品"],
+      distractors: ["行楽地", "材料、成分", "穀物食品"],
       confusableSpellings: ["que", "cue", "queu"],
       passive: {
         etymology: "フランス語 'queue'（尻尾）←ラテン語 'cauda'（尻尾）。長く伸びた尻尾の形が「人の列」に見えることから転じた。",
@@ -34317,7 +34326,7 @@ export const WORD_DATA = [
           blankAnswer: "narrative",
         },
       ],
-      distractors: ["〜を飾る・装飾する", "画像；映像", "描写する、表現する"],
+      distractors: ["皮肉", "画像；映像", "記念碑"],
       confusableSpellings: ["narrativ", "narative", "narriative"],
       passive: {
         etymology: "ラテン語 'narrare'（語る・話す）＋ '-ive'（性質を示す形容詞・名詞語尾）。'narrare' はさらに 'gnarus'（知っている）に由来し、「知っていることを語る」が本来の意味。",
@@ -34349,7 +34358,7 @@ export const WORD_DATA = [
           blankAnswer: "fingerprint",
         },
       ],
-      distractors: ["内科医、医師", "ウイルス", "アレルギー"],
+      distractors: ["内科医、医師", "病原体", "過敏反応"],
       confusableSpellings: ["fingurprint", "fingreprint"],
       passive: {
         etymology: "「finger（指）」＋「print（跡・印）」の複合語。'print' はラテン語 'premere'（押す）に由来。「指で押した跡」がそのまま単語になった。",
@@ -34381,7 +34390,7 @@ export const WORD_DATA = [
           blankAnswer: "file",
         },
       ],
-      distractors: ["技術、テクノロジー", "シミュレーションする、模擬する", "歯車、ギア"],
+      distractors: ["技術", "版、変形", "歯車"],
       choiceLabel: "書類",
       confusableSpellings: ["flie", "fiel"],
       passive: {
@@ -34414,7 +34423,7 @@ export const WORD_DATA = [
           blankAnswer: "wilderness",
         },
       ],
-      distractors: ["浸食・侵食", "災害、大惨事", "汚染する"],
+      distractors: ["浸食・侵食", "災害、大惨事", "危険、危険物"],
       confusableSpellings: ["wildernes", "wilderniss", "wildreness"],
       passive: {
         etymology: "古英語 wildēornes（野生動物の土地）から。wild（野生の）＋ dēor（動物）＋ ness（状態・場所を表す接尾辞）の組み合わせ。",
@@ -34510,7 +34519,7 @@ export const WORD_DATA = [
           blankAnswer: "fabric",
         },
       ],
-      distractors: ["もの、品物（漠然と）", "糸、縫い糸", "流行、ファッション"],
+      distractors: ["もの、品物（漠然と）", "糸、縫い糸", "流行"],
       confusableSpellings: ["fabrick", "fabrik", "fabbric"],
       passive: {
         etymology: "ラテン語 fabrica（工房・職人の仕事）から。faber（職人・鍛冶師）が語根で、工芸品全般を指していたが、のちに「織物・布」の意味に絞られた。",
@@ -34542,7 +34551,7 @@ export const WORD_DATA = [
           blankAnswer: "fantasy",
         },
       ],
-      distractors: ["遺産、遺物", "観客、見物人", "観客、聴衆"],
+      distractors: ["遺産、遺物", "皮肉", "物語・叙述"],
       choiceLabel: "空想",
       confusableSpellings: ["fantacy", "phantasy", "fantasie"],
       passive: {
@@ -34670,7 +34679,7 @@ export const WORD_DATA = [
           blankAnswer: "valid",
         },
       ],
-      distractors: ["ありそうな", "仮想の、バーチャルな", "正確な、精密な"],
+      distractors: ["ありそうな", "仮想の", "正確な、精密な"],
       confusableSpellings: ["vallid", "valied", "valide"],
       passive: {
         etymology: "ラテン語 validus（力強い・健康な）から。valere（力がある・価値がある）が語根で、value（価値）や evaluate（評価する）とも同族語。",
@@ -34766,7 +34775,7 @@ export const WORD_DATA = [
           blankAnswer: "dynamic",
         },
       ],
-      distractors: ["もっともらしい、信憑性のある", "デジタルの、電子的な", "極地の、極の"],
+      distractors: ["もっともらしい、信憑性のある", "電子的な", "極地の、極の"],
       choiceLabel: "活力のある",
       confusableSpellings: ["dinamic", "dynamik", "dynaimc"],
       passive: {
@@ -34799,7 +34808,7 @@ export const WORD_DATA = [
           blankAnswer: "brave",
         },
       ],
-      distractors: ["世間知らずの、純粋な", "優雅さ、品格", "罪悪感のある、やましい"],
+      distractors: ["世間知らずの、純粋な", "熱心な、熱望している", "罪悪感のある、やましい"],
       confusableSpellings: ["braive", "brav", "breave"],
       passive: {
         etymology: "古フランス語 brave（勇敢な）から。語源はラテン語 barbarus（野蛮な）に遡るという説もあり、「荒々しい→勇敢な」へと意味が変化した。",
@@ -34895,7 +34904,7 @@ export const WORD_DATA = [
           blankAnswer: "oral",
         },
       ],
-      distractors: ["活力のある、ダイナミックな", "洗練された、高度な", "集合的な、集団の"],
+      distractors: ["活力のある", "洗練された、高度な", "集合的な、集団の"],
       confusableSpellings: ["orel", "orall", "orral"],
       passive: {
         etymology: "ラテン語 os / oris（口）から。oral、オーラルケアのoral、さらにはoratory（雄弁術）もすべて同じ語根。",
@@ -34927,7 +34936,7 @@ export const WORD_DATA = [
           blankAnswer: "innocent",
         },
       ],
-      distractors: ["軽蔑、侮蔑", "気性、怒り", "声の、声楽の"],
+      distractors: ["熱心な、情熱的な", "成熟した、大人の", "声の、声楽の"],
       confusableSpellings: ["inocent", "innocant", "innoscent"],
       passive: {
         etymology: "ラテン語 innocens から。in-（否定）＋ nocere（害を与える）。「害を与えない人＝無罪・無邪気」という原義。nocereはnoxious（有害な）とも同語根。",
@@ -34990,7 +34999,7 @@ export const WORD_DATA = [
           blankAnswer: "shallow",
         },
       ],
-      distractors: ["活動的な、積極的な", "永続的な、永久の", "異国風の・エキゾチックな"],
+      distractors: ["活動的な、積極的な", "永続的な、永久の", "異国風の"],
       confusableSpellings: ["shellow", "shalow", "shalloe"],
       passive: {
         etymology: "古英語 sceald（浅い）から来た語で、ゲルマン語系の土着語。語源的に複雑な構造はなく、「底が近い」という感覚的な意味がそのまま引き継がれている。",
@@ -35022,7 +35031,7 @@ export const WORD_DATA = [
           blankAnswer: "indifferent",
         },
       ],
-      distractors: ["忍耐強い", "楽観的な", "優雅さ、品格"],
+      distractors: ["忍耐強い", "楽観的な", "傲慢な、横柄な"],
       confusableSpellings: ["indifferant", "indiffirent", "indifferrent"],
       passive: {
         etymology: "接頭辞 in-（否定）＋ different（異なる）→「差を感じない」→無関心。ラテン語 indifferens から。",
@@ -35245,7 +35254,7 @@ export const WORD_DATA = [
           blankAnswer: "sacred",
         },
       ],
-      distractors: ["原始的な、未発達の", "ハイブリッドの、混合の", "抽象的な"],
+      distractors: ["原始的な、未発達の", "混合の", "抽象的な"],
       confusableSpellings: ["sacread", "sacrid", "saccred"],
       passive: {
         etymology: "ラテン語 sacrare（神聖にする）＝sacer（聖なる）の過去分詞→「神に捧げられた」。sacrifice（犠牲）と同じ語根。",
@@ -35404,7 +35413,7 @@ export const WORD_DATA = [
           blankAnswer: "surfs",
         },
       ],
-      distractors: ["振る、揺れる、ブランコで遊ぶ", "こぼす", "上下に揺れる・ひょこひょこ動く"],
+      distractors: ["しっかり握る・つかむ", "こぼす", "上下に揺れる・ひょこひょこ動く"],
       choiceLabel: "波乗りをする",
       confusableSpellings: ["serf", "surff", "sorf"],
       passive: {
@@ -35502,7 +35511,7 @@ export const WORD_DATA = [
           blankAnswer: "resorted",
         },
       ],
-      distractors: ["交通、交通量", "樽、バレル", "乳製品、酪農"],
+      distractors: ["交通、交通量", "樽", "乳製品、酪農"],
       choiceLabel: "行楽地",
       confusableSpellings: ["ressort", "rezort", "resorte"],
       passive: {
@@ -35599,7 +35608,7 @@ export const WORD_DATA = [
           blankAnswer: "bet",
         },
       ],
-      distractors: ["お買い得品、格安品", "企業、事業", "起業家"],
+      distractors: ["（競売・入札で）値をつける、入札する", "思い切って〜する", "信用する、評価する"],
       confusableSpellings: ["bett", "bat", "bete"],
       passive: {
         etymology: "16世紀の英語で使われ始めた語。語源は諸説あり、古フランス語 abetter（扇動する）または古英語 bætan（改善する）から来ているという説がある。",
@@ -35727,7 +35736,7 @@ export const WORD_DATA = [
           blankAnswer: "gripped",
         },
       ],
-      distractors: ["サーフィンをする", "あくびをする", "回転する、回す"],
+      distractors: ["すべり落ちる", "あくびをする", "回転する、回す"],
       confusableSpellings: ["gripp", "greip", "griep"],
       passive: {
         etymology: "古英語 'grippan'（つかむ）から。ゲルマン語系の語根 'grip-' に由来し、'grab'（つかむ）や 'grasp'（握る）と同じ語族。",
@@ -35791,7 +35800,7 @@ export const WORD_DATA = [
           blankAnswer: "faded",
         },
       ],
-      distractors: ["探す・検索する", "濾過する、フィルタリングする", "～を調査する、アンケートを取る"],
+      distractors: ["探す・検索する", "濾過する", "～を調査する"],
       confusableSpellings: ["faed", "faide", "feade"],
       passive: {
         etymology: "古フランス語 'fader'（薄れる）に由来し、さらにラテン語 'fatuus'（間の抜けた、味のない）に遡る説もある。「味・色・活気が抜けていく」というイメージが語源に宿っている。",
@@ -35855,7 +35864,7 @@ export const WORD_DATA = [
           blankAnswer: "chew",
         },
       ],
-      distractors: ["消える、姿を消す", "パチンと折れる、ポキッと折る", "食べ物を与える、養う"],
+      distractors: ["消える、姿を消す", "ぽきっと折れる、折る", "食べ物を与える、養う"],
       confusableSpellings: ["chwe", "cheu", "chiew"],
       passive: {
         etymology: "古英語 'ceowan'（噛む）から。ゲルマン語系の語根で、ドイツ語の 'kauen'（噛む）と同族語。非常に古い日常動詞で、語形の変化が少なく現代英語に直接受け継がれている。",
@@ -36015,7 +36024,7 @@ export const WORD_DATA = [
           blankAnswer: "accused",
         },
       ],
-      distractors: ["〜を励ます", "搾取する、不当に利用する", "再会、同窓会"],
+      distractors: ["〜を励ます", "搾取する、不当に利用する", "専門とする、専攻する"],
       confusableSpellings: ["accues", "acuse", "accusse"],
       passive: {
         etymology: "ラテン語 accusare ← ad-（～に向けて）＋ causa（原因・訴訟）。「訴訟の原因を誰かに向ける」が原義。",
@@ -36143,7 +36152,7 @@ export const WORD_DATA = [
           blankAnswer: "swept",
         },
       ],
-      distractors: ["浮かぶ", "（食物などで）養う、栄養を与える", "ピンで留める、固定する"],
+      distractors: ["浮かぶ", "（食物などで）養う、栄養を与える", "留める、固定する"],
       confusableSpellings: ["swep", "sweap", "sweept"],
       passive: {
         etymology: "古英語 swāpan（掃く・動かす）← ゲルマン語系。wipe と同じ「払う」系の語根を持つ。sweep の過去形は swept（不規則変化）。",
@@ -36239,7 +36248,7 @@ export const WORD_DATA = [
           blankAnswer: "compound",
         },
       ],
-      distractors: ["栄養（学）", "標本、見本", "症状、兆候"],
+      distractors: ["わくわくさせる", "持続する、やり続ける、こだわる", "削除する"],
       confusableSpellings: ["compond", "combound", "compund"],
       passive: {
         etymology: "ラテン語 componere ← com-（共に）＋ ponere（置く）。「複数のものを一緒に置く」が原義。名詞・形容詞としての「複合物・化合物」とも同根。",
@@ -36271,7 +36280,7 @@ export const WORD_DATA = [
           blankAnswer: "exploded",
         },
       ],
-      distractors: ["輝く、ほのかに光る", "サーフィンをする", "突進する、飛び込む"],
+      distractors: ["輝く、ほのかに光る", "漂う", "突進する、飛び込む"],
       confusableSpellings: ["exploade", "explod", "expload"],
       passive: {
         etymology: "ラテン語 explodere ← ex-（外へ）＋ plaudere（拍手する・叩く）。古代ローマの劇場で観客が役者を拍手で追い出す（野次る）行為が原義。「爆発」の意味は後から発展した。",
@@ -36335,7 +36344,7 @@ export const WORD_DATA = [
           blankAnswer: "commutes",
         },
       ],
-      distractors: ["崩壊する、倒れる", "ちらりと見ること、一瞥", "繁栄する、成長する"],
+      distractors: ["崩壊する、倒れる", "切り取る", "繁栄する、成長する"],
       confusableSpellings: ["comunte", "commut", "comute"],
       passive: {
         etymology: "ラテン語 commutare（完全に変える）から。com-（共に・完全に）＋ mutare（変える）。定期券の意味でも使われるのはここから派生。",
@@ -36367,7 +36376,7 @@ export const WORD_DATA = [
           blankAnswer: "decorated",
         },
       ],
-      distractors: ["筋書き・プロット", "画像；映像", "迷路"],
+      distractors: ["作曲する、作成する", "描写する、表現する", "対比する"],
       confusableSpellings: ["decorrate", "dekorete"],
       passive: {
         etymology: "ラテン語 decorare（美しくする）から。decor-（美・品位）＋-ate（動詞を作る接尾辞）。英語の decor（室内装飾）と同語根。",
@@ -36463,7 +36472,7 @@ export const WORD_DATA = [
           blankAnswer: "compromised",
         },
       ],
-      distractors: ["犠牲・生け贄", "罰する、懲らしめる", "復讐、仕返し"],
+      distractors: ["楽しませる・もてなす", "罰する、懲らしめる", "打ち負かす・敗北させる"],
       confusableSpellings: ["comprimise", "compromize", "comprommise"],
       passive: {
         etymology: "ラテン語 compromittere から。com-（共に）＋ promittere（約束する）。「互いに約束し合う」が原義で、そこから「双方が譲歩する」の意味に発展。",
@@ -36495,7 +36504,7 @@ export const WORD_DATA = [
           blankAnswer: "elected",
         },
       ],
-      distractors: ["偏見、先入観", "嫌がらせ、ハラスメント", "自殺"],
+      distractors: ["〜を改革する、改善する", "〜に有罪判決を下す", "圧迫する；抑圧する"],
       confusableSpellings: ["elcet", "ellect", "electe"],
       passive: {
         etymology: "ラテン語 eligere から。e-（外へ）＋ legere（選ぶ・集める）。「多くの中から選び出す」が原義。election、eligible、select もすべて同語根。",
@@ -36559,7 +36568,7 @@ export const WORD_DATA = [
           blankAnswer: "inherited",
         },
       ],
-      distractors: ["褒め言葉、称賛", "あざける、馬鹿にする", "直面する、立ち向かう"],
+      distractors: ["退く・撤退する", "あざける、馬鹿にする", "直面する、立ち向かう"],
       confusableSpellings: ["inheret", "inherrit", "enherit"],
       passive: {
         etymology: "ラテン語 inhereditare から。in-（中に）＋ heres（相続人）。heres は heir（相続人）と同語根。「相続人の立場に入る」が原義。",
@@ -36687,7 +36696,7 @@ export const WORD_DATA = [
           blankAnswer: "enterprise",
         },
       ],
-      distractors: ["投資する", "資産、財産", "稼ぐ、収入を得る"],
+      distractors: ["料金、手数料", "資産、財産", "代理人"],
       confusableSpellings: ["enterprize", "enterprice", "enterpise"],
       passive: {
         etymology: "古フランス語 'entreprise'（引き受けること）から。'entre-'（間に）+ 'prendre'（取る）→「リスクを取って挑む」イメージ。",
@@ -36751,7 +36760,7 @@ export const WORD_DATA = [
           blankAnswer: "Congress",
         },
       ],
-      distractors: ["圧迫する；抑圧する", "義務、責務", "〜に住む・定住する"],
+      distractors: ["名声、名誉", "義務、責務", "戦士、武士"],
       confusableSpellings: ["congres", "congross", "congrass"],
       passive: {
         etymology: "ラテン語 'congressus'（集まること）から。'con-'（共に）+ 'gradi'（歩く）→「共に歩み寄る」→「集会・議会」。",
@@ -36815,7 +36824,7 @@ export const WORD_DATA = [
           blankAnswer: "mankind",
         },
       ],
-      distractors: ["優先事項", "哲学", "ナンセンス、無意味なこと"],
+      distractors: ["優先事項", "哲学", "無意味なこと"],
       confusableSpellings: ["mankinde", "menkind", "mankid"],
       passive: {
         etymology: "'man'（人間・男）+ 'kind'（種族・種類）→「人間という種族」。古英語 'mancynn' に由来する。",
@@ -36847,7 +36856,8 @@ export const WORD_DATA = [
           blankAnswer: "Muslim",
         },
       ],
-      distractors: ["迷信", "兄弟姉妹", "内部の、室内の"],
+      distractors: ["迷信", "兄弟姉妹", "おもてなし"],
+      choiceLabel: "回教徒",
       confusableSpellings: ["Moslem", "Muslum", "Musliem"],
       passive: {
         etymology: "アラビア語 'muslim'（神に従う者）から。'aslama'（身を委ねる）が語根で、Islam（イスラム）と同じ語根を持つ。",
@@ -36879,7 +36889,7 @@ export const WORD_DATA = [
           blankAnswer: "estate",
         },
       ],
-      distractors: ["部門、セクター", "起業家", "〜を輸入する"],
+      distractors: ["部門", "起業家", "予算"],
       confusableSpellings: ["estete", "estaet", "estait"],
       passive: {
         etymology: "古フランス語 'estat'（状態・立場）から。ラテン語 'status' が語源で、「身分・財産上の状態」が原義。",
@@ -36975,7 +36985,7 @@ export const WORD_DATA = [
           blankAnswer: "controversy",
         },
       ],
-      distractors: ["逮捕する", "罰則、刑罰", "地区、行政区"],
+      distractors: ["合意、総意", "罰則、刑罰", "地区、行政区"],
       confusableSpellings: ["contraversy", "controversey", "contravercy"],
       passive: {
         etymology: "ラテン語 controversia ← contra（反対に）+ vertere（向ける・回す）。「反対方向に向き合う」ことが語源。versus（対）も同じ vertere から来ている。",
@@ -37007,7 +37017,7 @@ export const WORD_DATA = [
           blankAnswer: "consensus",
         },
       ],
-      distractors: ["偏見、先入観", "逮捕する", "征服する、制圧する"],
+      distractors: ["偏見、先入観", "候補者", "罰則"],
       confusableSpellings: ["concensus", "consencus", "consensous"],
       passive: {
         etymology: "ラテン語 consensus ← con（共に）+ sentire（感じる）。「共に感じる＝同じ意見を持つ」。同じ語根から consent（同意）や sense（感覚）も生まれた。",
@@ -37039,7 +37049,7 @@ export const WORD_DATA = [
           blankAnswer: "retail",
         },
       ],
-      distractors: ["赤字、財政赤字", "預ける、預金する", "契約（書）"],
+      distractors: ["赤字、財政赤字", "割引", "契約（書）"],
       confusableSpellings: ["retale", "retaill", "reatil"],
       passive: {
         etymology: "古フランス語 retailler（切り分ける）← re（再び）+ tailler（切る）。「大きな塊から切り分けて売る」＝小売り。tailor（仕立て屋）も同じ語根。",
@@ -37103,7 +37113,7 @@ export const WORD_DATA = [
           blankAnswer: "scent",
         },
       ],
-      distractors: ["食欲", "悪化させる、複雑にする", "衛生、清潔"],
+      distractors: ["食欲", "感染性病原体", "衛生、清潔"],
       confusableSpellings: ["sent", "sceant", "scenit"],
       passive: {
         etymology: "古フランス語 sentir（感じる・嗅ぐ）← ラテン語 sentire（感じる）。「感じる」という語根から「嗅覚で感じるもの」＝香りへと意味が特化した。",
@@ -37260,7 +37270,7 @@ export const WORD_DATA = [
           blankAnswer: "Reef / reef",
         },
       ],
-      distractors: ["破片、残骸", "木材、材木", "汚染する"],
+      distractors: ["破片、残骸", "木材、材木", "領土・縄張り"],
       confusableSpellings: ["reaf", "reefe"],
       passive: {
         etymology: "古ノルド語 rif（肋骨・岩の列）に由来。海面近くに連なる岩の列が肋骨に見えたことから。",
@@ -37291,7 +37301,7 @@ export const WORD_DATA = [
           blankAnswer: "microbes",
         },
       ],
-      distractors: ["診療所・クリニック", "症候群", "腎臓"],
+      distractors: ["診療所", "症候群", "腎臓"],
       confusableSpellings: ["microb", "mychrobe", "micrabe"],
       passive: {
         etymology: "ギリシャ語の micro-（小さい）＋ bios（生命）を組み合わせた造語。「小さな生命体」という意味。",
@@ -37323,7 +37333,7 @@ export const WORD_DATA = [
           blankAnswer: "excess",
         },
       ],
-      distractors: ["垂直の；縦の", "最大値、最大限", "千年間、千年紀"],
+      distractors: ["一部分、ごく少量", "最大値、最大限", "千年間、千年紀"],
       confusableSpellings: ["execess", "exccess", "exces"],
       passive: {
         etymology: "ラテン語 excessus（超えること）から。ex-（外へ）＋ cedere（行く）。「外へ行きすぎること」が原義。",
@@ -37355,7 +37365,7 @@ export const WORD_DATA = [
           blankAnswer: "gallery",
         },
       ],
-      distractors: ["影、日陰", "墓、霊廟", "妖精の、妖精に関する"],
+      distractors: ["影、日陰", "墓、霊廟", "楽器"],
       confusableSpellings: ["gallary", "galery", "gallerry"],
       passive: {
         etymology: "中世ラテン語 galeria（回廊）に由来。元々は建物の側面に設けた長い廊下のことを指し、後に絵画を飾る場所としての意味が派生した。",
@@ -37386,7 +37396,7 @@ export const WORD_DATA = [
           blankAnswer: "fame",
         },
       ],
-      distractors: ["圧迫する；抑圧する", "議題、アジェンダ", "対立、紛争"],
+      distractors: ["罰則", "議題", "対立、紛争"],
       confusableSpellings: ["faim", "fhame", "faame"],
       passive: {
         etymology: "ラテン語 fama（評判、うわさ）から。古フランス語を経て英語に入った。fari（語る）という動詞が語根。",
@@ -37576,7 +37586,7 @@ export const WORD_DATA = [
           blankAnswer: "recession",
         },
       ],
-      distractors: ["〜を輸出する", "企業、事業", "職業、専門職"],
+      distractors: ["心付け金、祝儀", "企業、事業", "職業、専門職"],
       confusableSpellings: ["recesion", "reccession", "recesson"],
       passive: {
         etymology: "ラテン語 'recessus'（引き下がること）から。re-（後ろへ）+ cedere（行く・退く）＋ -ion（名詞化）。'recede'（後退する）と同語根。",
@@ -37608,7 +37618,7 @@ export const WORD_DATA = [
           blankAnswer: "retreated",
         },
       ],
-      distractors: ["対戦相手、反対者", "褒め言葉、称賛", "〜を責める、非難する"],
+      distractors: ["交流する、やり取りする", "祈る", "〜を責める、非難する"],
       confusableSpellings: ["retreet", "retreit", "retret"],
       passive: {
         etymology: "古フランス語 'retraite' から。re-（後ろへ）+ trahere（引く）が語源。「引き戻す」が原義。名詞としては「退避場所」の意味も持つ。",
@@ -37672,7 +37682,7 @@ export const WORD_DATA = [
           blankAnswer: "column",
         },
       ],
-      distractors: ["墓、霊廟", "〜を飾る・装飾する", "文学的な、文学の"],
+      distractors: ["墓、霊廟", "記念碑", "民衆、人々"],
       choiceLabel: "記事欄",
       confusableSpellings: ["colum", "coloumn", "columm"],
       passive: {
@@ -37705,7 +37715,7 @@ export const WORD_DATA = [
           blankAnswer: "scenery",
         },
       ],
-      distractors: ["（動物の）群れ", "花が咲く", "静けさ、静寂"],
+      distractors: ["（動物の）群れ", "土、土壌", "静けさ、静寂"],
       confusableSpellings: ["scenory", "scenary", "sceenery"],
       passive: {
         etymology: "ギリシャ語 'skēnē'（テントや舞台）から。ラテン語 'scaena'（舞台）→ 英語 'scene' に -ry（集合・総称を表す接尾辞）が付いた形。",
@@ -37737,7 +37747,7 @@ export const WORD_DATA = [
           blankAnswer: "plot",
         },
       ],
-      distractors: ["〜を飾る・装飾する", "空想、幻想", "妖精の、妖精に関する"],
+      distractors: ["防腐処理された古代の遺体", "空想、幻想", "韻、押韻"],
       choiceLabel: "筋書き",
       confusableSpellings: ["plott", "plote", "plott"],
       passive: {
@@ -37770,7 +37780,7 @@ export const WORD_DATA = [
           blankAnswer: "sculptures",
         },
       ],
-      distractors: ["妖精の、妖精に関する", "傑作、名作", "筋書き・プロット"],
+      distractors: ["恐怖", "傑作、名作", "筋書き"],
       confusableSpellings: ["sculture", "scuplture", "sculptur"],
       passive: {
         etymology: "ラテン語 'sculptura' から。'sculpere'（刻む・彫る）＋ -ura（行為・結果を表す接尾辞）。'sculpt'（彫刻する）という動詞も同語根から生まれた比較的新しい逆成語。",
@@ -37802,7 +37812,7 @@ export const WORD_DATA = [
           blankAnswer: "tablet",
         },
       ],
-      distractors: ["モーター、電動機", "アクセス、利用する権利", "チップ、半導体素子"],
+      distractors: ["電動機", "利用する権利", "半導体素子"],
       choiceLabel: "端末機器",
       confusableSpellings: ["tablette", "tablit", "tabblet"],
       passive: {
@@ -37932,7 +37942,7 @@ export const WORD_DATA = [
           blankAnswer: "bitter",
         },
       ],
-      distractors: ["雄弁な、弁の立つ", "軽蔑、侮蔑", "男性的な、男らしい"],
+      distractors: ["雄弁な、弁の立つ", "無罪の、潔白な", "男性的な、男らしい"],
       confusableSpellings: ["biter", "bittor", "bitar"],
       passive: {
         etymology: "古英語 'biter' から。語根は 'bite'（噛む）と同じで、「噛むような刺激」が語源。",
@@ -38124,7 +38134,7 @@ export const WORD_DATA = [
           blankAnswer: "vertical",
         },
       ],
-      distractors: ["集団、群れ", "量、数量", "千年間、千年紀"],
+      distractors: ["大量の、大規模な", "遠隔の、人里離れた", "下位の、従属した"],
       confusableSpellings: ["verticle", "vertecal", "virticle"],
       passive: {
         etymology: "ラテン語 'vertex'（頂点・渦の中心）から。'vertere'（回る・向ける）＋ '-ical'（形容詞語尾）。vertex（頂点）、vortex（渦）と同語根。",
@@ -38381,7 +38391,7 @@ export const WORD_DATA = [
           blankAnswer: "fairy",
         },
       ],
-      distractors: ["空想、幻想", "建築（学）", "墓、霊廟"],
+      distractors: ["文学的な、文学の", "美的な、審美的な", "芸術的な、芸術の"],
       confusableSpellings: ["faery", "fairie", "fairie"],
       passive: {
         etymology: "古フランス語 faerie（妖精の国）から。さらにラテン語 fata（運命の女神たち）に遡る。Fate（運命）と同じ語根を持つ。",
@@ -38413,7 +38423,7 @@ export const WORD_DATA = [
           blankAnswer: "sensory",
         },
       ],
-      distractors: ["人口統計学的な", "生まれつきの、先天的な", "無線の、ワイヤレスの"],
+      distractors: ["人口統計学的な", "生まれつきの、先天的な", "無線の"],
       confusableSpellings: ["sensery", "sencory", "sensori"],
       passive: {
         etymology: "ラテン語 sensus（感覚）＋接尾辞 -ory（〜に関する）。sensusはsentire（感じる）の過去分詞。sense・sensation・sensitiveと同じ語根ファミリー。",
@@ -38573,7 +38583,7 @@ export const WORD_DATA = [
           blankAnswer: "esteemed",
         },
       ],
-      distractors: ["引き出す、撤退する", "育む、促進する", "知人、顔見知り"],
+      distractors: ["引き出す、撤退する", "育む、促進する", "貢献する、寄与する"],
       confusableSpellings: ["esteam", "estem", "esteme"],
       passive: {
         etymology: "ラテン語 aestimare（価値を見積もる）から。古フランス語 estimer を経由して英語へ。「値段をつける→価値を認める→尊重する」と意味が変化した。",
@@ -38638,7 +38648,8 @@ export const WORD_DATA = [
           blankAnswer: "ventured",
         },
       ],
-      distractors: ["〜を輸入する", "貿易、取引", "利益幅、マージン"],
+      distractors: ["〜を輸入する", "稼ぐ、収入を得る", "謝罪する"],
+      choiceLabel: "思い切って〜する",
       confusableSpellings: ["ventura", "vencher", "ventuer"],
       passive: {
         etymology: "ラテン語 adventura（起こりそうなこと）→ 古フランス語 aventure（冒険）→ adventure の短縮形として venture が生まれた。",
@@ -38798,7 +38809,7 @@ export const WORD_DATA = [
           blankAnswer: "thrive",
         },
       ],
-      distractors: ["くつろぐ、リラックスする", "閉じ込める、罠にかける", "一時停止する、中断する"],
+      distractors: ["くつろぐ", "閉じ込める、罠にかける", "一時停止する、中断する"],
       confusableSpellings: ["thryve", "thrieve", "thive"],
       passive: {
         etymology: "古ノルド語 þrifask（自分のために掴む）が起源。「しっかり掴んで前に進む」というバイキングらしい力強いイメージが語源にある。",
@@ -38862,7 +38873,7 @@ export const WORD_DATA = [
           blankAnswer: "Click",
         },
       ],
-      distractors: ["再読み込みする、更新する", "プロトコル、通信規約", "部品、構成要素"],
+      distractors: ["再読み込みする、更新する", "模擬する、まねる", "差し込む、接続する"],
       choiceLabel: "押して選択する",
       confusableSpellings: ["clik", "clicck"],
       passive: {
@@ -38927,7 +38938,7 @@ export const WORD_DATA = [
           blankAnswer: "clipped",
         },
       ],
-      distractors: ["衝突、激突", "〜に耐える、持ちこたえる", "投げる、投じる"],
+      distractors: ["〜を飲み込む、嚥下する", "〜に耐える、持ちこたえる", "投げる、投じる"],
       choiceLabel: "切り取る",
       confusableSpellings: ["clipp", "clipe"],
       passive: {
@@ -39121,7 +39132,7 @@ export const WORD_DATA = [
           blankAnswer: "yawned",
         },
       ],
-      distractors: ["拭く、ふき取る", "〜を投げる、ピッチングする", "貼り付ける、刺さる"],
+      distractors: ["拭く、ふき取る", "〜を投げる", "貼り付ける、刺さる"],
       confusableSpellings: ["yorn", "yaun"],
       passive: {
         etymology: "古英語 'geonian / ginian'（大きく口を開ける）が語源。Proto-Germanic の「あいた口」を表す語根に由来し、まさに擬態語的な成り立ちを持つ。",
@@ -39313,7 +39324,7 @@ export const WORD_DATA = [
           blankAnswer: "enforce",
         },
       ],
-      distractors: ["統治する、支配する", "アドバイスする、助言する", "訴える・懇願する"],
+      distractors: ["統治する、支配する", "助言する", "訴える・懇願する"],
       confusableSpellings: ["inforce", "enforece", "enforse"],
       passive: {
         etymology: "古フランス語 enforcier に由来。en-（〜にする）+ force（力）で「力を行使する」が原義。現代英語では主に法律・規則の「強制執行」の文脈で使われる。",
@@ -39345,7 +39356,7 @@ export const WORD_DATA = [
           blankAnswer: "robbed",
         },
       ],
-      distractors: ["じっと見る・凝視する", "賞、賞品", "直面する、立ち向かう"],
+      distractors: ["じっと見る・凝視する", "挨拶する", "直面する、立ち向かう"],
       confusableSpellings: ["robe", "rop", "roob"],
       passive: {
         etymology: "古フランス語 rober、古高ドイツ語 roubon（略奪する）に由来。ゲルマン語族の「奪い取る」という概念から来ている。",
@@ -39569,7 +39580,7 @@ export const WORD_DATA = [
           blankAnswer: "twisted",
         },
       ],
-      distractors: ["繁栄する、成長する", "磨く、光らせる", "パッとひっくり返す、素早く動かす"],
+      distractors: ["繁栄する、成長する", "磨く、光らせる", "ぱっとひっくり返す、素早く動かす"],
       confusableSpellings: ["twsit", "tiwst"],
       passive: {
         etymology: "古英語 twist（ロープ、より糸）から。古ゲルマン語根 *twis-（二つに分かれた）に由来。「二本の糸を巻き合わせる」が原義。",
@@ -39634,6 +39645,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["〜に耐える、持ちこたえる", "崩壊する、倒れる", "逃げる、逃走する"],
+      choiceLabel: "留める、固定する",
       confusableSpellings: ["pinn", "piin"],
       passive: {
         etymology: "古英語 pinn（くぎ、ピン）から。ラテン語 pinna（羽、とがったもの）とも関連。「とがったもので留める」が原義。",
@@ -39825,7 +39837,7 @@ export const WORD_DATA = [
           blankAnswer: "profile",
         },
       ],
-      distractors: ["技術、テクノロジー", "コード、符号、暗号", "記録する、ログに残す"],
+      distractors: ["技術", "符号、暗号", "格子状のもの"],
       choiceLabel: "人物紹介",
       confusableSpellings: ["profil", "profille", "proifle"],
       passive: {
@@ -39858,7 +39870,7 @@ export const WORD_DATA = [
           blankAnswer: "appetite",
         },
       ],
-      distractors: ["タンパク質", "摩擦", "青少年、思春期の若者"],
+      distractors: ["たんぱく質", "摩擦", "青少年、思春期の若者"],
       confusableSpellings: ["appetit", "apetite", "appetyte"],
       passive: {
         etymology: "ラテン語 'ad-'（～へ）＋ 'petere'（求める・向かう）→「～を求める気持ち」が語源。'petition'（請願）や 'compete'（競争する）と同じ語根。",
@@ -39890,7 +39902,7 @@ export const WORD_DATA = [
           blankAnswer: "impulse",
         },
       ],
-      distractors: ["不利、デメリット", "知性、理性", "方法、やり方"],
+      distractors: ["不利", "知性、理性", "方法、やり方"],
       choiceLabel: "衝動",
       confusableSpellings: ["inpulse", "impuls", "impullse"],
       passive: {
@@ -39923,7 +39935,7 @@ export const WORD_DATA = [
           blankAnswer: "script",
         },
       ],
-      distractors: ["ユーモア・おかしさ", "影、日陰", "彫刻・彫刻作品"],
+      distractors: ["おかしさ", "影、日陰", "彫刻・彫刻作品"],
       choiceLabel: "台本",
       confusableSpellings: ["scrpit", "scirpt", "skript"],
       passive: {
@@ -39988,7 +40000,7 @@ export const WORD_DATA = [
           blankAnswer: "pension",
         },
       ],
-      distractors: ["商品、品物", "思い切って〜する、リスクを冒す", "製粉所、工場"],
+      distractors: ["商品、品物", "労働力、労働人口", "製粉所、工場"],
       choiceLabel: "年金",
       confusableSpellings: ["pention", "pensoin", "penssion"],
       passive: {
@@ -40021,7 +40033,7 @@ export const WORD_DATA = [
           blankAnswer: "temper",
         },
       ],
-      distractors: ["頑固な、強情な", "残酷な、冷酷な", "好奇心旺盛な"],
+      distractors: ["強欲、貪欲", "軽蔑、侮蔑", "優雅さ、品格"],
       confusableSpellings: ["tempor", "tempher", "tember"],
       passive: {
         etymology: "ラテン語 'temperare'（適切に混ぜる・調整する）が語源。音楽の「テンポ(tempo)」や「気温(temperature)」も同じ語根で、どれも「適切なバランスに保つ」というコアな意味を持つ。",
@@ -40085,7 +40097,7 @@ export const WORD_DATA = [
           blankAnswer: "syndrome",
         },
       ],
-      distractors: ["衛生、清潔", "ワクチン", "症状、兆候"],
+      distractors: ["衛生、清潔", "予防接種液", "症状、兆候"],
       confusableSpellings: ["syndrom", "syndrone", "sindrome"],
       passive: {
         etymology: "ギリシャ語 'syn-'（共に）＋ 'dromos'（走る・流れ）→「一緒に走る・同時に現れる」→「複数の症状が同時に現れること」が語源。'synchronize'（同期する）の 'syn-' と同じ。",
@@ -40117,7 +40129,7 @@ export const WORD_DATA = [
           blankAnswer: "chamber",
         },
       ],
-      distractors: ["名声、威信", "〜に有罪判決を下す", "議題、アジェンダ"],
+      distractors: ["名声、威信", "義務、責務", "議題"],
       confusableSpellings: ["chambre", "chaimber", "chanber"],
       passive: {
         etymology: "ラテン語 'camera'（アーチ型の部屋・金庫）→古フランス語 'chambre' を経由して英語へ。'camera'（カメラ）と同語源で、どちらも「囲まれた空間」という意味が根本にある。",
@@ -40149,7 +40161,7 @@ export const WORD_DATA = [
           blankAnswer: "utility",
         },
       ],
-      distractors: ["補償する、埋め合わせをする", "破産した、倒産した", "会社、企業"],
+      distractors: ["貿易、取引", "利益幅", "会社、企業"],
       confusableSpellings: ["utillity", "utilitiy", "utlility"],
       passive: {
         etymology: "ラテン語 'utilitas'（有用性）に由来。語根 'util-'（役に立つ）＋ '-ity'（名詞化接尾辞）。'utilize'（利用する）と同じ語根を持つ。",
@@ -40181,7 +40193,7 @@ export const WORD_DATA = [
           blankAnswer: "cattle",
         },
       ],
-      distractors: ["北極の", "鉱物、ミネラル", "地球・地球儀"],
+      distractors: ["燃料", "鉱物", "地球・地球儀"],
       confusableSpellings: ["catel", "cattel", "catttle"],
       passive: {
         etymology: "古フランス語 'catel'（財産）に由来し、中世英語 'chatel' と同根。もともと「財産・資産」を意味し、牛が最も重要な財産だったことから家畜を指すようになった。",
@@ -40213,7 +40225,7 @@ export const WORD_DATA = [
           blankAnswer: "herd",
         },
       ],
-      distractors: ["海の、海洋の", "領土、縄張り", "汚染、公害"],
+      distractors: ["小惑星", "領土、縄張り", "汚染、公害"],
       confusableSpellings: ["hurd", "haerd"],
       passive: {
         etymology: "古英語 'heord'（群れ）に由来。ゲルマン語系の言葉で、ドイツ語の 'Herde' と同根。古くから牧畜文化と密接に結びついた語。",
@@ -40277,7 +40289,7 @@ export const WORD_DATA = [
           blankAnswer: "pity",
         },
       ],
-      distractors: ["〜のために、〜を代表して", "欠陥、欠点", "領域、分野"],
+      distractors: ["無意味なこと、たわごと", "欠陥、欠点", "領域、分野"],
       confusableSpellings: ["pitty", "piety", "piity"],
       passive: {
         etymology: "古フランス語 'pité' に由来し、ラテン語 'pietas'（敬虔さ・慈悲）から。'piety'（信心深さ）と同じ語根を持つが現代英語では意味が分岐した。",
@@ -40309,7 +40321,7 @@ export const WORD_DATA = [
           blankAnswer: "priest",
         },
       ],
-      distractors: ["主流、大勢", "リゾート地、行楽地", "衣服、衣類（一着）"],
+      distractors: ["主流、大勢", "行楽地", "衣服、衣類（一着）"],
       confusableSpellings: ["preist", "preest", "priset"],
       passive: {
         etymology: "古英語 'prēost' に由来し、ラテン語 'presbyter'（長老）、さらにギリシャ語 'presbyteros'（より年老いた者）から。",
@@ -40341,7 +40353,7 @@ export const WORD_DATA = [
           blankAnswer: "acquaintance",
         },
       ],
-      distractors: ["統治する、支配する", "（道徳的に）堕落させる、腐敗させる", "〜に遭遇する；出くわす"],
+      distractors: ["褒め言葉、称賛", "同意、承諾", "再会、同窓会"],
       confusableSpellings: ["acquaintence", "aquaintance"],
       passive: {
         etymology: "古フランス語 'acointance' に由来。'ac-'（〜に向けて）＋ 'cognoscere'（知る）のラテン語系語根から。'recognize'（認識する）や 'cognitive'（認知の）と同じ語根 'gno/cogn'（知る）を持つ。",
@@ -40405,7 +40417,7 @@ export const WORD_DATA = [
           blankAnswer: "famine",
         },
       ],
-      distractors: ["北極の", "環境", "茎・幹"],
+      distractors: ["災害、大惨事", "環境", "茎・幹"],
       confusableSpellings: ["fammine", "famin"],
       passive: {
         etymology: "古フランス語 'famine' に由来し、ラテン語 'fames'（飢え）から。'fame'（名声）とは全く別の語源。接尾辞 '-ine' はフランス語経由の名詞形成辞。",
@@ -40469,7 +40481,7 @@ export const WORD_DATA = [
           blankAnswer: "jail",
         },
       ],
-      distractors: ["〜に住む・定住する", "盾、防護物", "奴隷制度、奴隷状態"],
+      distractors: ["弾丸、銃弾", "盾、防護物", "奴隷制度、奴隷状態"],
       confusableSpellings: ["gaol", "jale", "jeil"],
       passive: {
         etymology: "古フランス語 'gaole'（檻・牢屋）に由来。中英語では 'gaol' と綴られ、現代英語の 'jail' はアメリカ英語で一般化したスペル。",
@@ -40533,7 +40545,7 @@ export const WORD_DATA = [
           blankAnswer: "format",
         },
       ],
-      distractors: ["インフラ、社会基盤", "プロトコル、通信規約", "媒体、手段"],
+      distractors: ["社会基盤", "通信規約", "媒体、手段"],
       choiceLabel: "形式",
       confusableSpellings: ["formet", "fourmat", "formatt"],
       passive: {
@@ -40566,7 +40578,7 @@ export const WORD_DATA = [
           blankAnswer: "recipient",
         },
       ],
-      distractors: ["じっと見る・凝視する", "〜を責める、非難する", "許す・赦す"],
+      distractors: ["対戦相手、反対者", "褒め言葉、称賛", "知人、顔見知り"],
       confusableSpellings: ["reciepient", "recipiant", "recipeint"],
       passive: {
         etymology: "ラテン語 'recipientem'（受け取る人）から。're-'（戻って）＋ 'capere'（取る）が語根。'receive' や 'receipt' と同じ語族。",
@@ -40598,7 +40610,7 @@ export const WORD_DATA = [
           blankAnswer: "drilled",
         },
       ],
-      distractors: ["衝突する、墜落する", "くしゃみをする", "引き裂く、破る"],
+      distractors: ["姿勢", "ちらりと見ること、一瞥", "衝突、激突"],
       choiceLabel: "穴あけ機",
       confusableSpellings: ["dril", "drille", "drell"],
       passive: {
@@ -40727,7 +40739,7 @@ export const WORD_DATA = [
           blankAnswer: "debris",
         },
       ],
-      distractors: ["小道、トレイル", "船、艦船", "礁、岩礁、珊瑚礁"],
+      distractors: ["小道", "船、艦船", "礁、岩礁、珊瑚礁"],
       confusableSpellings: ["debree", "debriss", "debirs"],
       passive: {
         etymology: "フランス語 'débris'（破壊されたもの）から直接借用。'dé-'（完全に）＋ 'briser'（壊す）が語源。発音がフランス語風に末尾の 's' を読まない点が特徴。",
@@ -40759,7 +40771,7 @@ export const WORD_DATA = [
           blankAnswer: "bug",
         },
       ],
-      distractors: ["入力、インプット", "バージョン、版", "タブレット端末"],
+      distractors: ["入力", "版", "携帯端末"],
       choiceLabel: "誤り、不具合",
       confusableSpellings: ["bugg", "bugh", "bug'"],
       passive: {
@@ -40856,7 +40868,7 @@ export const WORD_DATA = [
           blankAnswer: "intuition",
         },
       ],
-      distractors: ["合図、きっかけ", "偏見、バイアス", "特徴、特性"],
+      distractors: ["合図、きっかけ", "偏見", "特徴、特性"],
       confusableSpellings: ["intuision", "intution", "intuicion"],
       passive: {
         etymology: "ラテン語 intueri（じっと見る）から。in-（中を）＋ tueri（見る・守る）。「内側をじっと見る」→「直感で感じ取る」というイメージ。",
@@ -40920,7 +40932,7 @@ export const WORD_DATA = [
           blankAnswer: "consent",
         },
       ],
-      distractors: ["〜を中毒にする、依存させる", "貢献する、寄与する", "同僚、仕事仲間"],
+      distractors: ["賞、賞品", "復讐、仕返し", "同僚、仕事仲間"],
       confusableSpellings: ["concent", "consant", "consente"],
       passive: {
         etymology: "ラテン語 consentire（一緒に感じる）から。con-（共に）＋ sentire（感じる）。sense、sentiment と同じ語根を持つ。",
@@ -40952,7 +40964,8 @@ export const WORD_DATA = [
           blankAnswer: "hierarchy",
         },
       ],
-      distractors: ["固定観念・ステレオタイプ", "出来事、事件", "居住者、住民"],
+      distractors: ["固定観念", "出来事、事件", "居住者、住民"],
+      choiceLabel: "階層制度",
       confusableSpellings: ["hierachy", "heirarchy", "hierarcy"],
       passive: {
         etymology: "ギリシャ語 hierarchia から。hieros（神聖な）＋ archein（支配する）。元々はキリスト教の聖職者の位階制度を指していた。",
@@ -40984,7 +40997,7 @@ export const WORD_DATA = [
           blankAnswer: "monument",
         },
       ],
-      distractors: ["コラム・記事欄", "古典的な、一流の", "ユーモア・おかしさ"],
+      distractors: ["記事欄", "空想", "おかしさ"],
       choiceLabel: "記念碑",
       confusableSpellings: ["monumant", "monuement", "monumentt"],
       passive: {
@@ -41017,7 +41030,7 @@ export const WORD_DATA = [
           blankAnswer: "asset",
         },
       ],
-      distractors: ["年金", "破産した、倒産した", "請求書、勘定書"],
+      distractors: ["年金", "利益、利潤", "請求書、勘定書"],
       confusableSpellings: ["assett", "assest", "acset"],
       passive: {
         etymology: "古フランス語 asez（十分な）から。ラテン語 ad（～に）＋ satis（十分）が語源。satisfy と同じ語根を持つ。",
@@ -41145,7 +41158,7 @@ export const WORD_DATA = [
           blankAnswer: "cosmetic",
         },
       ],
-      distractors: ["織物、繊維製品", "葬式・葬儀", "避難所・安息の地"],
+      distractors: ["内部の", "中立の、中性の", "前向きな、積極的な"],
       confusableSpellings: ["cosmatic", "cosmetik", "cozmatic"],
       passive: {
         etymology: "ギリシャ語 kosmetikos（秩序をもたらす、飾る）から。語根 kosmos は「秩序・宇宙」の意味で、cosmos（宇宙）と同語源。「整える・飾る」→「化粧の」という流れ。",
@@ -41209,7 +41222,7 @@ export const WORD_DATA = [
           blankAnswer: "interior",
         },
       ],
-      distractors: ["ショッピングモール", "継ぎ当て・パッチ", "織物、繊維製品"],
+      distractors: ["臨時の、一時的な", "化粧の、美容の", "遠隔の、人里離れた"],
       choiceLabel: "内部の",
       confusableSpellings: ["interrior", "interoir", "intirior"],
       passive: {
@@ -41274,7 +41287,7 @@ export const WORD_DATA = [
           blankAnswer: "aesthetic",
         },
       ],
-      distractors: ["美術館、画廊", "描写する、表現する", "妖精の、妖精に関する"],
+      distractors: ["文学的な、文学の", "古典的な、一流の", "妖精の、妖精に関する"],
       confusableSpellings: ["esthetic", "aestetic", "aesthetik"],
       passive: {
         etymology: "ギリシャ語 aisthetikos（感覚で知覚される）から。aisthesis（感覚・知覚）が語根。18世紀にドイツの哲学者バウムガルテンが「美の学問＝Ästhetik」として確立した。",
@@ -41306,7 +41319,7 @@ export const WORD_DATA = [
           blankAnswer: "deliberate",
         },
       ],
-      distractors: ["硬い、こわばった", "否定的な・マイナスの", "生まれ故郷の、出身地の"],
+      distractors: ["硬い、こわばった", "否定的な", "生まれ故郷の、出身地の"],
       confusableSpellings: ["deliberat", "delibrate", "deliberete"],
       passive: {
         etymology: "ラテン語 deliberare（十分に考える）から。de-（完全に）＋ librare（天秤にかける、量る）が語根。libra（天秤座）と同語根で「心の天秤でじっくり量る」イメージ。",
@@ -41883,7 +41896,7 @@ export const WORD_DATA = [
           blankAnswer: "blossom",
         },
       ],
-      distractors: ["危険、危険物", "環境", "獲物、えじき"],
+      distractors: ["汚染する", "調査する、探る", "斜め読みする"],
       confusableSpellings: ["blosem", "blosom", "blossem"],
       passive: {
         etymology: "古英語 'blōstm'（花）から。ゲルマン語系の語で、bloom（咲く）と同じ語根 'blō-'（花開く）を持つ。",
@@ -41979,7 +41992,7 @@ export const WORD_DATA = [
           blankAnswer: "suppress",
         },
       ],
-      distractors: ["〜の感情を害する、不快にさせる", "対戦相手、反対者", "〜を責める、非難する"],
+      distractors: ["〜の感情を害する、不快にさせる", "奪う、剥奪する", "〜を責める、非難する"],
       confusableSpellings: ["supress", "suprese", "suppres"],
       passive: {
         etymology: "ラテン語 'sub-'（下に）+ 'premere'（押す）から。「下へ押しつける」が原義。compress（圧縮する）、express（表現する）も同じ 'press' 語根を持つ。",
@@ -42043,7 +42056,7 @@ export const WORD_DATA = [
           blankAnswer: "manipulated",
         },
       ],
-      distractors: ["〜を励ます", "復讐、仕返し", "犠牲・生け贄"],
+      distractors: ["〜を励ます", "貢献する、寄与する", "〜を慰める"],
       confusableSpellings: ["manipualte", "manipulait", "manupulate"],
       passive: {
         etymology: "ラテン語 'manus'（手）+ 'plere'（満たす・扱う）から。「手で扱う」が原義。manual（手動の）、manuscript（手書き原稿）も同じ 'manus' 語根を持つ。",
@@ -42203,7 +42216,7 @@ export const WORD_DATA = [
           blankAnswer: "deposit",
         },
       ],
-      distractors: ["取引、売買", "割引", "お買い得品、格安品"],
+      distractors: ["〜を輸出する", "思い切って〜する", "補償する、埋め合わせをする"],
       confusableSpellings: ["deposite", "diposit", "depositt"],
       passive: {
         etymology: "ラテン語 'deponere'（下に置く）から。接頭辞 'de-'（下に・離れて）＋ 'ponere'（置く）。物理的に「置く」から転じて「預ける」の意味へ。",
@@ -42267,7 +42280,8 @@ export const WORD_DATA = [
           blankAnswer: "swinging",
         },
       ],
-      distractors: ["一時停止する、中断する", "食べ物を与える、養う", "ちらりと見ること、一瞥"],
+      distractors: ["一時停止する、中断する", "食べ物を与える、養う", "投げる"],
+      choiceLabel: "振る、揺れる",
       confusableSpellings: ["swimg", "swign", "swning"],
       passive: {
         etymology: "古英語 'swingan'（鞭打つ、揺れる）に由来。ゲルマン語系で、円弧を描く動作が語源の中心。",
@@ -42556,7 +42570,7 @@ export const WORD_DATA = [
           blankAnswer: "strained",
         },
       ],
-      distractors: ["衝突、激突", "貫通する、浸透する", "はって進む"],
+      distractors: ["羽ばたかせる", "貫通する、浸透する", "はって進む"],
       confusableSpellings: ["strian", "strayn"],
       passive: {
         etymology: "古フランス語 'estreindre'（締め付ける）→ラテン語 'stringere'（引き締める）に由来。stress や strict と同じ語根を共有している。",
@@ -42620,7 +42634,7 @@ export const WORD_DATA = [
           blankAnswer: "dared",
         },
       ],
-      distractors: ["再会、同窓会", "協力する、共同作業する", "許可する、認める"],
+      distractors: ["義務づける、強いる", "協力する、共同作業する", "許可する、認める"],
       confusableSpellings: ["dair", "daer"],
       passive: {
         etymology: "古英語 'durran'（勇気を持つ）に由来。ゲルマン語系の語根で、ドイツ語の 'dürfen'（〜してよい）とも遠い親戚関係にある。",
@@ -42716,7 +42730,7 @@ export const WORD_DATA = [
           blankAnswer: "offended",
         },
       ],
-      distractors: ["同意、承諾", "結婚する、結婚させる", "驚かせる、びっくりさせる"],
+      distractors: ["権利を与える", "結婚する、結婚させる", "驚かせる、びっくりさせる"],
       confusableSpellings: ["offened", "ofend", "offennd"],
       passive: {
         etymology: "ラテン語 offendere（ob-「向かって」＋ fendere「打つ」）が語源。文字通り「相手に向かって打ちつける」イメージ。",
@@ -42942,7 +42956,7 @@ export const WORD_DATA = [
           blankAnswer: "compensated",
         },
       ],
-      distractors: ["思い切って〜する、リスクを冒す", "企業、事業", "年金"],
+      distractors: ["思い切って〜する", "〜を輸入する", "（競売・入札で）値をつける、入札する"],
       confusableSpellings: ["conpensate", "compansate", "compenssate"],
       passive: {
         etymology: "ラテン語 compensare（com-「共に」＋ pensare「重さを量る、支払う」）が語源。天秤で両側の重さを釣り合わせるイメージ。",
@@ -43038,7 +43052,7 @@ export const WORD_DATA = [
           blankAnswer: "quest",
         },
       ],
-      distractors: ["筋書き・プロット", "神話", "作曲する、作成する"],
+      distractors: ["筋書き", "神話", "台本"],
       confusableSpellings: ["quests", "qwest", "cuest"],
       passive: {
         etymology: "ラテン語 'quaerere'（求める）の過去分詞 'quaesita' が語源。フランス語 'quête' を経て英語へ。'question'（質問）や 'acquire'（獲得する）とも同じ語根を持つ。",
@@ -43134,7 +43148,7 @@ export const WORD_DATA = [
           blankAnswer: "paradox",
         },
       ],
-      distractors: ["態度", "パニック、恐慌", "孤独、独居"],
+      distractors: ["態度", "恐慌", "孤独、独居"],
       choiceLabel: "逆説",
       confusableSpellings: ["paradocks", "paradox's", "paradocs"],
       passive: {
@@ -43167,7 +43181,7 @@ export const WORD_DATA = [
           blankAnswer: "parliament",
         },
       ],
-      distractors: ["条約、協定", "階層制度、ヒエラルキー", "亡命、追放、流刑"],
+      distractors: ["条約、協定", "階層制度", "亡命、追放、流刑"],
       confusableSpellings: ["parliment", "parlamentt", "parliamant"],
       passive: {
         etymology: "古フランス語 'parlement'（話し合い）が語源。'parler'（話す）＋ '-ment'（名詞接尾辞）。「話し合う場所」という意味が語源で、'parlor'（応接室）も同じ語根。",
@@ -43199,7 +43213,7 @@ export const WORD_DATA = [
           blankAnswer: "legislation",
         },
       ],
-      distractors: ["キャンペーン、運動", "評議会、議会、審議会", "条約、協定"],
+      distractors: ["運動", "評議会、議会、審議会", "条約、協定"],
       confusableSpellings: ["legistation", "legislaton", "legistlation"],
       passive: {
         etymology: "ラテン語 'lex / legis'（法）＋ 'latio'（提案・運搬、'ferre' の名詞形）が合わさったもの。'legal'（法的な）、'legitimate'（合法的な）も同じ 'lex' を語根に持つ。",
@@ -43392,7 +43406,7 @@ export const WORD_DATA = [
           blankAnswer: "chaos",
         },
       ],
-      distractors: ["運命、宿命", "不利、デメリット", "機会、チャンス"],
+      distractors: ["運命、宿命", "不利", "機会"],
       confusableSpellings: ["kaos", "cahos", "chaoss"],
       passive: {
         etymology: "ギリシャ語 khaos（深淵、虚空）に由来。古代ギリシャ神話では宇宙誕生以前の「原初の虚空」を指した。",
@@ -43456,7 +43470,7 @@ export const WORD_DATA = [
           blankAnswer: "horror",
         },
       ],
-      distractors: ["隠喩、メタファー", "芸術的な、芸術の", "骨董品の、アンティークの"],
+      distractors: ["隠喩", "迷路", "おかしさ、こっけいさ"],
       choiceLabel: "恐怖",
       confusableSpellings: ["horor", "horrор", "horrer"],
       passive: {
@@ -43553,7 +43567,8 @@ export const WORD_DATA = [
           blankAnswer: "hive",
         },
       ],
-      distractors: ["農作物、収穫物", "海の、海洋の", "化石"],
+      distractors: ["農作物、収穫物", "獲物、えじき", "化石"],
+      choiceLabel: "蜜蜂の巣（箱）",
       confusableSpellings: ["hyve", "hiev", "haive"],
       passive: {
         etymology: "古英語 hȳf（ミツバチの巣）に由来。北欧語や古低地ドイツ語の同族語と共通の起源を持つ。",
@@ -43585,7 +43600,7 @@ export const WORD_DATA = [
           blankAnswer: "irrigation",
         },
       ],
-      distractors: ["船、艦船", "辺境、フロンティア", "軌道"],
+      distractors: ["船、艦船", "辺境", "軌道"],
       confusableSpellings: ["iragation", "irrigasion", "irrigaton"],
       passive: {
         etymology: "ラテン語 irrigare（水を注ぐ）＝ ir-（in- の変形：中に）+ rigare（水をかける）から。水を土地に引き込む行為が語源。",
@@ -43617,7 +43632,7 @@ export const WORD_DATA = [
           blankAnswer: "dose",
         },
       ],
-      distractors: ["ニューロン、神経細胞", "感覚、知覚", "長寿、長命"],
+      distractors: ["神経細胞", "感覚、知覚", "長寿、長命"],
       confusableSpellings: ["douse", "doze", "doss"],
       passive: {
         etymology: "ギリシャ語 dosis（与えること）→ ラテン語 dosis を経て英語へ。動詞 didōmi（与える）が語根で、「与えられた量」が原義。",
@@ -43681,7 +43696,7 @@ export const WORD_DATA = [
           blankAnswer: "feast",
         },
       ],
-      distractors: ["場合；機会", "食料雑貨（店）", "化粧、メイクアップ"],
+      distractors: ["場合；機会", "食料雑貨（店）", "化粧"],
       confusableSpellings: ["feest", "fiest", "feats"],
       passive: {
         etymology: "古フランス語 feste（祭り）→ラテン語 festa（祝日・祭り）が語源。festivalやfestiveと同じ語根 fest- を持つ。",
@@ -43713,7 +43728,7 @@ export const WORD_DATA = [
           blankAnswer: "cuisine",
         },
       ],
-      distractors: ["織物、繊維製品", "主要産物、定番品", "流行、ファッション"],
+      distractors: ["織物、繊維製品", "主要産物、定番品", "流行"],
       confusableSpellings: ["quisine", "cusine", "cuizine"],
       passive: {
         etymology: "フランス語 cuisine（台所・料理）→ラテン語 coquina（台所）→coquere（調理する）が語源。cook（料理する）とも同じ語根。",
@@ -43745,7 +43760,7 @@ export const WORD_DATA = [
           blankAnswer: "rumor",
         },
       ],
-      distractors: ["〜に住む・定住する", "侵略する", "規範、基準"],
+      distractors: ["行政、管理、運営", "傾向", "規範、基準"],
       confusableSpellings: ["roumer", "rumer", "rumore"],
       passive: {
         etymology: "ラテン語 rumor（騒音・世評）が語源。古フランス語を経て英語へ。イギリス英語では'rumour'とスペルする。",
@@ -43777,7 +43792,7 @@ export const WORD_DATA = [
           blankAnswer: "proverb",
         },
       ],
-      distractors: ["空想、幻想", "隠喩、メタファー", "悲劇、惨事"],
+      distractors: ["空想、幻想", "隠喩", "悲劇、惨事"],
       confusableSpellings: ["proverd", "proverbe", "provorb"],
       passive: {
         etymology: "ラテン語 proverbium（格言）→pro-（前に・公の）+ verbum（言葉）の合成語。「公の場で語られる言葉」が原義。",
@@ -43809,7 +43824,8 @@ export const WORD_DATA = [
           blankAnswer: "signature",
         },
       ],
-      distractors: ["ショッピングモール", "おもてなし、歓待", "生地、布地"],
+      distractors: ["商店街", "おもてなし、歓待", "生地、布地"],
+      choiceLabel: "署名",
       confusableSpellings: ["signiture", "signeture", "signuature"],
       passive: {
         etymology: "ラテン語 signatura（署名）→signare（印をつける）→signum（印・記号）が語源。sign（サイン）やsignal（信号）と同じ語根 sign- を持つ。",
@@ -43841,7 +43857,7 @@ export const WORD_DATA = [
           blankAnswer: "formula",
         },
       ],
-      distractors: ["薬、医薬品", "内科医、医師", "粒子、微粒子"],
+      distractors: ["重力・引力", "内科医、医師", "粒子、微粒子"],
       confusableSpellings: ["formulla", "forumla", "fomula"],
       passive: {
         etymology: "ラテン語 formula（小さな形・規則）→forma（形・型）の縮小形。form（形）やformat（形式）と同じ語根 form- を持つ。",
@@ -43873,7 +43889,7 @@ export const WORD_DATA = [
           blankAnswer: "tuition",
         },
       ],
-      distractors: ["地理学", "模型、モデル", "現象"],
+      distractors: ["地理学", "模型", "現象"],
       confusableSpellings: ["tution", "tuission", "tuituion"],
       passive: {
         etymology: "ラテン語 tuitio（保護・監督）→tueri（見守る・保護する）が語源。intuition（直感）とは語源が異なる点に注意。",
@@ -43905,7 +43921,7 @@ export const WORD_DATA = [
           blankAnswer: "intake",
         },
       ],
-      distractors: ["腫瘍", "ストレス；精神的緊張", "哺乳類、哺乳動物"],
+      distractors: ["腫瘍", "精神的緊張", "哺乳類、哺乳動物"],
       confusableSpellings: ["intaek", "inteke", "inntake"],
       passive: {
         etymology: "in-（中へ）+ take（取る）の合成語。「中へ取り込むこと」が原義。同様にouttake（除外・NG映像）はout（外へ）+ takeの構成。",
@@ -44003,7 +44019,8 @@ export const WORD_DATA = [
           blankAnswer: "gear",
         },
       ],
-      distractors: ["燃料、燃焼材", "アルゴリズム、計算手順", "クリックする"],
+      distractors: ["燃料、燃焼材", "計算手順", "設計図"],
+      choiceLabel: "歯車",
       confusableSpellings: ["geer", "gier"],
       passive: {
         etymology: "古ノルド語 'gervi'（準備、装備）に由来。「備えるもの」が原義で、機械の歯車から装備品まで幅広く使われるようになった。",
@@ -44035,7 +44052,8 @@ export const WORD_DATA = [
           blankAnswer: "aisle",
         },
       ],
-      distractors: ["主要産物、定番品", "継ぎ当て・パッチ", "受付、フロント"],
+      distractors: ["主要産物、定番品", "継ぎ当て", "受付"],
+      choiceLabel: "通路（飛行機・劇場などの）",
       confusableSpellings: ["isle", "aile", "aislle"],
       passive: {
         etymology: "古フランス語 'ele'（翼）→ラテン語 'ala'（翼）に由来。教会建築で身廊の「翼」にあたる側廊を指したのが起源。",
@@ -44067,7 +44085,7 @@ export const WORD_DATA = [
           blankAnswer: "grief",
         },
       ],
-      distractors: ["原因、要因", "孤独、独居", "不利、デメリット"],
+      distractors: ["原因、要因", "孤独、独居", "不利"],
       confusableSpellings: ["greif", "grife", "greaf"],
       passive: {
         etymology: "古フランス語 'grief'（重荷、苦しみ）→ラテン語 'gravis'（重い）に由来。「心に重くのしかかるもの」が原義。",
@@ -44131,7 +44149,7 @@ export const WORD_DATA = [
           blankAnswer: "skull",
         },
       ],
-      distractors: ["におい、臭気", "液体", "アレルギー"],
+      distractors: ["におい、臭気", "液体", "過敏反応"],
       confusableSpellings: ["scull", "skul"],
       passive: {
         etymology: "古ノルド語 'skoltr' または中世英語 'skulle' に由来。頭を覆う「椀状の骨」を指す言葉として定着した。",
@@ -44163,7 +44181,7 @@ export const WORD_DATA = [
           blankAnswer: "tomb",
         },
       ],
-      distractors: ["探求、追求", "骨董品の、アンティークの", "恐怖、戦慄"],
+      distractors: ["探求、追求", "ことわざ、格言", "恐怖、戦慄"],
       confusableSpellings: ["toom", "toumb", "tumb"],
       passive: {
         etymology: "ギリシャ語 'tymbos'（墓塚）→ラテン語 'tumba' →古フランス語 'tombe' に由来。'b' は歴史的綴りで発音されない黙字。",
@@ -44226,7 +44244,7 @@ export const WORD_DATA = [
           blankAnswer: "worship",
         },
       ],
-      distractors: ["おもてなし、歓待", "通路（スーパー・飛行機・劇場などの）", "避難所、シェルター"],
+      distractors: ["〜を意味する", "だます", "〜を相殺する"],
       confusableSpellings: ["warship", "woreship", "worshipp"],
       passive: {
         etymology: "古英語 'weorthscipe'（価値・尊厳を示すこと）→ 'worth'（価値）＋ '-ship'（状態・性質）。「価値あるものとして敬う」が原義。",
@@ -44958,7 +44976,7 @@ export const WORD_DATA = [
           blankAnswer: "update",
         },
       ],
-      distractors: ["チップ、半導体素子", "つながり・関連", "アクセス、利用する権利"],
+      distractors: ["押して選択する", "（SNSに）短文を投稿する", "削除する"],
       choiceLabel: "更新する",
       confusableSpellings: ["updata", "updaet"],
       passive: {
@@ -44991,7 +45009,7 @@ export const WORD_DATA = [
           blankAnswer: "Refresh",
         },
       ],
-      distractors: ["コード、符号、暗号", "出力、産出量", "アクセス、利用する権利"],
+      distractors: ["押して選択する", "情報を編集・収集する", "模擬する、まねる"],
       choiceLabel: "再読み込みする",
       confusableSpellings: ["refesh", "refrsh"],
       passive: {
@@ -45024,7 +45042,7 @@ export const WORD_DATA = [
           blankAnswer: "bloom",
         },
       ],
-      distractors: ["辺境、フロンティア", "農薬、殺虫剤", "環境"],
+      distractors: ["汚染する", "調査する、探る", "取り付ける"],
       confusableSpellings: ["bloon", "blome"],
       passive: {
         etymology: "古ノルド語 blóm（花）に由来。同じ語根から blossom も派生しており、花咲くことを表す古い北欧の言葉。",
@@ -45056,7 +45074,7 @@ export const WORD_DATA = [
           blankAnswer: "conquered",
         },
       ],
-      distractors: ["偏見、先入観", "目撃者、証人", "正義、公正"],
+      distractors: ["圧迫する；抑圧する", "〜を改革する、改善する", "〜を選挙で選ぶ"],
       confusableSpellings: ["conquor", "conqer"],
       passive: {
         etymology: "ラテン語 conquirere（完全に獲得する）から。con-（完全に）＋ quaerere（求める・獲得する）が語源。",
@@ -45217,7 +45235,7 @@ export const WORD_DATA = [
           blankAnswer: "portrays",
         },
       ],
-      distractors: ["観客、見物人", "隠喩、メタファー", "彫刻・彫刻作品"],
+      distractors: ["作曲する、作成する", "〜を飾る・装飾する", "〜の状態にする"],
       confusableSpellings: ["portrey", "pourtray"],
       passive: {
         etymology: "古フランス語 portraire（描く）に由来。por-（前へ、完全に）＋ traire（引き出す）。「引き出して描く」が原義。portrait（肖像画）と同語源。",
@@ -45345,7 +45363,7 @@ export const WORD_DATA = [
           blankAnswer: "sighed",
         },
       ],
-      distractors: ["掃く、一掃する", "排水する・水を抜く", "〜を投げる、ピッチングする"],
+      distractors: ["掃く、一掃する", "排水する・水を抜く", "〜を投げる"],
       confusableSpellings: ["sygh", "sihg"],
       passive: {
         etymology: "古英語 sīcan（ため息をつく）に由来。gh は発音しないが古英語では摩擦音として発音されていた名残。",
@@ -45473,7 +45491,7 @@ export const WORD_DATA = [
           blankAnswer: "begged",
         },
       ],
-      distractors: ["鼓舞する、インスピレーションを与える", "交換する、取り替える", "守る、警戒する"],
+      distractors: ["鼓舞する", "交換する、取り替える", "守る、警戒する"],
       confusableSpellings: ["begg", "bege", "baeg"],
       passive: {
         etymology: "古英語 bedecian（物乞いをする）に由来。中英語では beggen の形。語源はゲルマン語系で「求める」を意味する語根に関連。",
@@ -45857,7 +45875,7 @@ export const WORD_DATA = [
           blankAnswer: "glowed",
         },
       ],
-      distractors: ["パチンと折れる、ポキッと折る", "じっと見つめる・凝視する", "耐える、我慢する"],
+      distractors: ["ぽきっと折れる、折る", "じっと見つめる・凝視する", "耐える、我慢する"],
       confusableSpellings: ["glo", "gloe", "glowe"],
       passive: {
         etymology: "古英語 glōwan（「燃える、輝く」）に由来。古ノルド語 glóa とも関連があり、「内側から発する柔らかい光」が原義。glory（栄光）とは語根が異なるので注意。",
@@ -45889,7 +45907,7 @@ export const WORD_DATA = [
           blankAnswer: "disguised",
         },
       ],
-      distractors: ["交流する、やり取りする", "鼓舞する、インスピレーションを与える", "訴える・懇願する"],
+      distractors: ["交流する、やり取りする", "鼓舞する", "訴える・懇願する"],
       confusableSpellings: ["discuise", "disguize", "disguis"],
       passive: {
         etymology: "古フランス語 desguiser（des-「反対・除去」+ guise「外見、様子」）に由来。guise はゲルマン語源で「方法、様子」を意味し、現代英語でも in the guise of（〜の姿で）という形で残っている。",
@@ -45985,7 +46003,7 @@ export const WORD_DATA = [
           blankAnswer: "abolished",
         },
       ],
-      distractors: ["議会、国会", "法律、法令", "陪審員団"],
+      distractors: ["逮捕する", "征服する、制圧する", "〜に住む・定住する"],
       confusableSpellings: ["abolesh", "abollish", "abolich"],
       passive: {
         etymology: "ラテン語 abolēre（消し去る、破壊する）由来。ab-（離れて）＋ olēre（育てる）の反意から「育てたものを消し去る」が原義とも。",
@@ -46114,7 +46132,7 @@ export const WORD_DATA = [
           blankAnswer: "weaved",
         },
       ],
-      distractors: ["〜を積み重ねる", "回転する、回す", "振る、揺れる、ブランコで遊ぶ"],
+      distractors: ["〜を積み重ねる", "回転する、回す", "振る、揺れる"],
       confusableSpellings: ["weev", "weve"],
       passive: {
         etymology: "古英語 wefan（織る）に由来。ゲルマン語系の古い語で、web（クモの巣・ウェブ）とも同じ語根。クモが糸を「織る」ように張ることから web という語ができた。",
@@ -46210,7 +46228,7 @@ export const WORD_DATA = [
           blankAnswer: "coordinated",
         },
       ],
-      distractors: ["濾過する、フィルタリングする", "変換する・転換する", "生み出す、発生させる"],
+      distractors: ["濾過する", "変換する・転換する", "生み出す、発生させる"],
       confusableSpellings: ["co-ordinate", "coordenate", "cooridnate"],
       passive: {
         etymology: "co-（共に）＋ ordinare（順序立てる、ラテン語 ordo「秩序・順序」由来）→「共に順序立てて整える」が原義。order（順序）や ordinary（普通の＝規則通りの）とも同語根。",
@@ -46275,7 +46293,7 @@ export const WORD_DATA = [
           blankAnswer: "internship",
         },
       ],
-      distractors: ["対称（性）、シンメトリー", "技術、技法", "談話、議論、言説"],
+      distractors: ["対称（性）", "技術、技法", "談話、議論、言説"],
       choiceLabel: "実習期間",
       confusableSpellings: ["interniship", "interneship", "inturnship"],
       passive: {
@@ -46308,7 +46326,7 @@ export const WORD_DATA = [
           blankAnswer: "outlet",
         },
       ],
-      distractors: ["商品、物資", "〜する余裕がある", "負債、借金"],
+      distractors: ["商品、物資", "企業、事業", "負債、借金"],
       confusableSpellings: ["outlit", "outlett", "oulet"],
       passive: {
         etymology: "「out（外へ）」＋「let（通す・出す）」の合成語。古英語 lettan（通す）から。「外へ出す場所」が原義。",
@@ -46340,7 +46358,7 @@ export const WORD_DATA = [
           blankAnswer: "remedy",
         },
       ],
-      distractors: ["混合物、混合", "臓器、器官", "ニューロン、神経細胞"],
+      distractors: ["混合物、混合", "臓器、器官", "神経細胞"],
       confusableSpellings: ["remidy", "remedey", "remidy"],
       passive: {
         etymology: "ラテン語 remedium（治療薬）から。re-（再び）＋ mederi（癒す）の組み合わせ。mederiは medicine（薬）と同じ語根。",
@@ -46373,6 +46391,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["肝臓", "内科医、医師", "手足、四肢"],
+      choiceLabel: "錠剤",
       confusableSpellings: ["pil", "piil", "pyll"],
       passive: {
         etymology: "ラテン語 pilula（小さな球）から。pill は元々「小さな丸いもの」を意味し、丸い形状の薬を指すようになった。",
@@ -46404,7 +46423,8 @@ export const WORD_DATA = [
           blankAnswer: "reception",
         },
       ],
-      distractors: ["主要産物、定番品", "使い走り・用事", "レシピ・料理法"],
+      distractors: ["主要産物、定番品", "使い走り・用事", "料理法"],
+      choiceLabel: "受付",
       confusableSpellings: ["recepion", "recepsion", "recieption"],
       passive: {
         etymology: "ラテン語 receptio（受け取ること）から。re-（再び）＋ capere（取る）の組み合わせ。receive（受け取る）と同じ語根。",
@@ -46500,7 +46520,7 @@ export const WORD_DATA = [
           blankAnswer: "dairy",
         },
       ],
-      distractors: ["質感、手触り", "服装、コーディネート", "主流、大勢"],
+      distractors: ["質感、手触り", "服装", "主流、大勢"],
       confusableSpellings: ["diery", "daery", "dairry"],
       passive: {
         etymology: "古英語 dæge（パンをこねる女性・乳製品を扱う人）から発展。中英語 deierie（乳製品製造所）を経て現代の dairy に。",
@@ -46564,7 +46584,7 @@ export const WORD_DATA = [
           blankAnswer: "posture",
         },
       ],
-      distractors: ["生き延びる・生還する", "（皮・毛・葉などを）脱ぎ落とす、抜け落ちる", "くしゃみをする"],
+      distractors: ["ちらりと見ること、一瞥", "穴あけ機", "衝突、激突"],
       confusableSpellings: ["poscher", "postur", "postuer"],
       passive: {
         etymology: "ラテン語 positura（位置・配置）から。ponere（置く）の過去分詞 positus が語根。pose（ポーズ）と同語源。",
@@ -46627,7 +46647,7 @@ export const WORD_DATA = [
           blankAnswer: "funeral",
         },
       ],
-      distractors: ["ルート・道筋", "リゾート地、行楽地", "生地、布地"],
+      distractors: ["道筋", "行楽地", "生地、布地"],
       confusableSpellings: ["funaral", "funarel", "funerel"],
       passive: {
         etymology: "ラテン語 funus（葬儀・死体）から派生。funeralis（葬儀の）を経て英語に入った。funerary（葬儀の）も同語源。",
@@ -46689,7 +46709,7 @@ export const WORD_DATA = [
           blankAnswer: "encyclopedia",
         },
       ],
-      distractors: ["指示、説明書", "アンケート、質問票", "類推、アナロジー"],
+      distractors: ["指示、説明書", "質問票", "類推"],
       confusableSpellings: ["encyclopidia", "encyclopaedia", "enciclopedia"],
       passive: {
         etymology: "ギリシャ語 enkyklios paideia（円形の教育・全般的教育）から。enkyklios（円形の・広範な）＋paideia（教育）。",
@@ -46721,7 +46741,7 @@ export const WORD_DATA = [
           blankAnswer: "cereal",
         },
       ],
-      distractors: ["服装、コーディネート", "内部の、室内の", "葬式・葬儀"],
+      distractors: ["服装", "大型商業施設", "葬式・葬儀"],
       choiceLabel: "穀物食品",
       confusableSpellings: ["serial", "ceral", "cereale"],
       passive: {
@@ -46786,7 +46806,7 @@ export const WORD_DATA = [
           blankAnswer: "patch",
         },
       ],
-      distractors: ["服装、コーディネート", "主流、大勢", "屋台、売り場"],
+      distractors: ["服装", "主流、大勢", "屋台、売り場"],
       choiceLabel: "継ぎ当て",
       confusableSpellings: ["pach", "patche", "petch"],
       passive: {
@@ -46819,7 +46839,7 @@ export const WORD_DATA = [
           blankAnswer: "rubbish",
         },
       ],
-      distractors: ["樽、バレル", "内部の、室内の", "日課、ルーティン"],
+      distractors: ["記念碑", "樽、円筒形容器", "日課"],
       confusableSpellings: ["rubish", "rubbisch", "rubbis"],
       passive: {
         etymology: "中世英語 robous / robeux から。古フランス語 robe（略奪品・廃棄物）に由来するとされる。語源には諸説あり。",
@@ -46851,7 +46871,7 @@ export const WORD_DATA = [
           blankAnswer: "maze",
         },
       ],
-      distractors: ["筋書き・プロット", "彫刻・彫刻作品", "影、日陰"],
+      distractors: ["筋書き", "彫刻・彫刻作品", "影、日陰"],
       confusableSpellings: ["mase", "maize"],
       passive: {
         etymology: "中世英語 mase（混乱・当惑）から。amaze（驚かせる）と同語根で、元々は「混乱させる」という動詞から名詞化した。",
@@ -46915,7 +46935,7 @@ export const WORD_DATA = [
           blankAnswer: "breakthrough",
         },
       ],
-      distractors: ["講義、講演", "セッション・会議・授業", "技術、スキル"],
+      distractors: ["講義、講演", "会議・授業", "技術"],
       confusableSpellings: ["breaktrough", "brakethrough", "breackthrough"],
       passive: {
         etymology: "break（突き破る）+ through（通り抜けて）の合成語。障壁を突き破って向こう側に抜けるイメージから「画期的な進歩」の意味になった。",
@@ -46979,7 +46999,7 @@ export const WORD_DATA = [
           blankAnswer: "allies",
         },
       ],
-      distractors: ["革命", "地域社会、コミュニティ", "危機、重大局面"],
+      distractors: ["革命", "地域社会", "危機、重大局面"],
       confusableSpellings: ["allie", "allay", "aly"],
       passive: {
         etymology: "古フランス語 alier、ラテン語 alligare（縛り付ける）に由来。al-（〜へ）+ ligare（縛る）の組み合わせで「互いに縛り合う＝同盟する」の意味。",
@@ -47139,7 +47159,7 @@ export const WORD_DATA = [
           blankAnswer: "intervals",
         },
       ],
-      distractors: ["範囲；幅", "大量の、大規模な", "10年間"],
+      distractors: ["範囲；幅", "量、数量", "10年間"],
       confusableSpellings: ["intervall", "enterval", "intarval"],
       passive: {
         etymology: "ラテン語 intervallum（壁と壁の間）に由来。inter-（〜の間に）+ vallum（壁・防護柵）の合成。城壁の間の空間から「空白・間隔」の意味が生まれた。",
@@ -47203,7 +47223,7 @@ export const WORD_DATA = [
           blankAnswer: "blade",
         },
       ],
-      distractors: ["文化、文明", "配偶者", "継ぎ当て・パッチ"],
+      distractors: ["文化、文明", "配偶者", "継ぎ当て"],
       confusableSpellings: ["blaid", "blayd"],
       passive: {
         etymology: "古英語 blæd（葉、刃）から。「吹く」を意味する blow と同語根で、もともとは「風に吹かれて伸びるもの」→「葉」→「薄く平たいもの」→「刃」と意味が広がった。",
@@ -47267,7 +47287,7 @@ export const WORD_DATA = [
           blankAnswer: "vacuum",
         },
       ],
-      distractors: ["臓器、器官", "ストレス；精神的緊張", "液体、流体"],
+      distractors: ["臓器、器官", "精神的緊張", "液体、流体"],
       confusableSpellings: ["vaccum", "vacuume", "vaccuum"],
       passive: {
         etymology: "ラテン語 vacuum（空の場所）から。vacuus（空の）＋ 名詞化。語根 vac- は「空」を意味し、vacant（空席の）や evacuate（避難する）とも同語根。",
@@ -47299,7 +47319,7 @@ export const WORD_DATA = [
           blankAnswer: "collision",
         },
       ],
-      distractors: ["（皮・毛・葉などを）脱ぎ落とす、抜け落ちる", "押しつぶす、砕く", "ポンと破裂する、弾ける"],
+      distractors: ["姿勢", "穴あけ機", "ちらりと見ること、一瞥"],
       confusableSpellings: ["colision", "collission", "colission"],
       passive: {
         etymology: "ラテン語 collisio から。接頭辞 col-（共に、一緒に）＋ laedere（打つ、傷つける）の過去分詞 lasus。「互いにぶつかり合う」が原義。",
@@ -47331,7 +47351,7 @@ export const WORD_DATA = [
           blankAnswer: "bargain",
         },
       ],
-      distractors: ["インフレーション、物価上昇", "経済、経済状況", "搾取工場（低賃金・劣悪環境の工場）"],
+      distractors: ["物価上昇", "経済、経済状況", "搾取工場（低賃金・劣悪環境の工場）"],
       confusableSpellings: ["bargin", "bargian", "baregain"],
       passive: {
         etymology: "古フランス語 bargaignier（交渉する）から。語源は諸説あるが、商人間の「やり取り・取引」を意味する言葉として中英語に入った。",
@@ -47972,7 +47992,7 @@ export const WORD_DATA = [
           blankAnswer: "sole",
         },
       ],
-      distractors: ["適切な、正しい", "無傷の、損傷されていない", "カジュアルな、くだけた"],
+      distractors: ["適切な、正しい", "無傷の、損傷されていない", "くだけた"],
       confusableSpellings: ["soal", "soel", "soul"],
       passive: {
         etymology: "ラテン語 'solus'（一人の、孤独な）。'solo'（ソロ）、'solitary'（孤独な）と同語根。",
@@ -48132,7 +48152,7 @@ export const WORD_DATA = [
           blankAnswer: "loyal",
         },
       ],
-      distractors: ["精力的な、活発な", "優雅さ、品格", "邪悪な、悪の"],
+      distractors: ["精力的な、活発な", "無関心な、冷淡な", "邪悪な、悪の"],
       confusableSpellings: ["loial", "loyel", "loyle"],
       passive: {
         etymology: "古フランス語 'loial'（法に従った）← ラテン語 'legalis'（法の）← 'lex'（法）。'legal'（法的な）と同語根で、「法や規則を守る誠実さ」が語源。",
@@ -48228,7 +48248,7 @@ export const WORD_DATA = [
           blankAnswer: "conform",
         },
       ],
-      distractors: ["討論、議論", "禁止する、許さない", "任命する"],
+      distractors: ["従事する、関与する", "禁止する、許さない", "任命する"],
       confusableSpellings: ["confrom", "confoorm"],
       passive: {
         etymology: "ラテン語 'conformare'（形を合わせる）に由来。接頭辞 'con-'（共に・一緒に）＋ 'forma'（形）。「同じ形にそろえる」が原義で、そこから「規範に合わせる・従う」の意味が生まれた。",
@@ -48260,7 +48280,7 @@ export const WORD_DATA = [
           blankAnswer: "enroll",
         },
       ],
-      distractors: ["記事、論文", "前提", "カリキュラム、教育課程"],
+      distractors: ["崇拝する、礼拝する", "逆にする、逆転させる", "〜を照らす、明るくする"],
       confusableSpellings: ["enrole", "enroal", "inroll"],
       passive: {
         etymology: "古フランス語 'enroller'（巻物に記録する）に由来。接頭辞 'en-'（中に）＋ 'rolle'（巻物・リスト）。昔は学生名簿を巻物に書いていたことから「名簿に記入する＝入学する」の意味になった。",
@@ -48292,7 +48312,7 @@ export const WORD_DATA = [
           blankAnswer: "entitles",
         },
       ],
-      distractors: ["協力、協調", "〜を共有する", "からかう、いじめる"],
+      distractors: ["団結させる、一致させる", "〜を共有する", "からかう、いじめる"],
       confusableSpellings: ["intitle", "entital"],
       passive: {
         etymology: "ラテン語 'intitulare'（タイトルをつける）に由来。接頭辞 'en-'（～にする）＋ 'title'（タイトル・権利証書）。もともとは「題名をつける」の意味で、そこから「正式な権利・資格を与える」の意味が派生した。",
@@ -48388,7 +48408,7 @@ export const WORD_DATA = [
           blankAnswer: "invaded",
         },
       ],
-      distractors: ["窃盗、盗み", "免許（証）、許可証", "階層制度、ヒエラルキー"],
+      distractors: ["〜に有罪判決を下す", "拷問する、苦しめる", "〜を規制する、取り締まる"],
       confusableSpellings: ["invaid", "envade", "invaed"],
       passive: {
         etymology: "ラテン語 'invadere'（中に入り込む）に由来。接頭辞 'in-'（中へ）＋ 'vadere'（行く・進む）。「力ずくで中に踏み込む」が原義で、軍事的侵略から個人のプライバシー侵害まで幅広く使われる。",
@@ -48420,7 +48440,7 @@ export const WORD_DATA = [
           blankAnswer: "squeezed",
         },
       ],
-      distractors: ["つかむ・引っつかむ", "呼吸する、息をする", "ピンで留める、固定する"],
+      distractors: ["つかむ・引っつかむ", "呼吸する、息をする", "留める、固定する"],
       confusableSpellings: ["squeese", "squeze", "sqeeze"],
       passive: {
         etymology: "古英語 'cwȳsan'（押しつぶす）に由来し、16世紀頃に現在の形 squeeze に発展。ゲルマン語系の擬音的な語根で、液体を絞り出すときの音・動作を表した言葉とされる。",
@@ -48581,7 +48601,7 @@ export const WORD_DATA = [
           blankAnswer: "populate",
         },
       ],
-      distractors: ["地雷", "被害者；犠牲者", "法律、法令"],
+      distractors: ["圧迫する；抑圧する", "〜を選挙で選ぶ", "襲撃する、暴行する"],
       confusableSpellings: ["populat", "popullate"],
       passive: {
         etymology: "ラテン語 'populare'（人々で満たす）から。populus（人々・民衆）が語根で、people・public・popular とも同じ語族。",
@@ -48773,7 +48793,7 @@ export const WORD_DATA = [
           blankAnswer: "Stir",
         },
       ],
-      distractors: ["汚す、染みをつける", "噴霧する、スプレーする", "折りたたむ、折る"],
+      distractors: ["汚す、染みをつける", "噴霧する", "折りたたむ、折る"],
       confusableSpellings: ["stear", "stirr"],
       passive: {
         etymology: "古英語 'styrian'（動かす・かき混ぜる）から。ゲルマン語系で「ぐるぐる動かす」という基本的な物理動作が語根にある。",
@@ -48965,7 +48985,7 @@ export const WORD_DATA = [
           blankAnswer: "appointed",
         },
       ],
-      distractors: ["コンテスト・競争", "手伝う、支援する", "変装させる、偽装する"],
+      distractors: ["相談する、助言を求める", "手伝う、支援する", "変装させる、偽装する"],
       confusableSpellings: ["appointe", "appont", "appiont"],
       passive: {
         etymology: "ap-（ad- 「〜へ」の異形）＋ point（ラテン語 punctum「点・位置」）。「特定の地位・点に向ける→任命・指定する」が原義。",
@@ -49029,7 +49049,7 @@ export const WORD_DATA = [
           blankAnswer: "decayed",
         },
       ],
-      distractors: ["ため息をつく", "衝突する、墜落する", "ドリル、穴あけ機"],
+      distractors: ["ため息をつく", "衝突する、墜落する", "波乗りをする"],
       confusableSpellings: ["decey", "dacay", "decai"],
       passive: {
         etymology: "de-（「離れて・下へ」の接頭辞）＋ cay（古フランス語 caoir「落ちる」＜ラテン語 cadere「落ちる」）。「落ちていく→腐る・衰える」が原義。",
@@ -49061,7 +49081,7 @@ export const WORD_DATA = [
           blankAnswer: "contaminated",
         },
       ],
-      distractors: ["飢饉、深刻な食糧不足", "鉱物、ミネラル", "遠征、探検"],
+      distractors: ["花が咲く、開花する", "調査する、探る", "監視する"],
       confusableSpellings: ["contamanate", "contaminete", "contaiminate"],
       passive: {
         etymology: "ラテン語 contaminare（「触れて汚す」）＜ con-（「共に・接触して」）＋ tamen（「触れる・汚す」の語根）。「接触によって汚染する」が原義。",
@@ -49125,7 +49145,7 @@ export const WORD_DATA = [
           blankAnswer: "delete",
         },
       ],
-      distractors: ["チャンネル、経路", "ツイートする、短いメッセージを投稿する", "プラットフォーム、基盤"],
+      distractors: ["差し込む、接続する", "（SNSに）短文を投稿する", "再読み込みする"],
       confusableSpellings: ["deleate", "deleet", "dillete"],
       passive: {
         etymology: "ラテン語 'delere'（消す・破壊する）が語源。接頭辞 'de-'（除去・分離）＋語根 '-lere'（塗る・消す）の組み合わせ。",
@@ -49413,7 +49433,7 @@ export const WORD_DATA = [
           blankAnswer: "conceived",
         },
       ],
-      distractors: ["思い出させる；リマインドする", "主張する、論じる", "解釈する、理解する"],
+      distractors: ["思い出させる", "主張する、論じる", "解釈する、理解する"],
       confusableSpellings: ["concieve", "conseive", "conceve"],
       passive: {
         etymology: "ラテン語 'concipere' が語源。'con-'（共に・完全に）＋ 'capere'（取る・捕まえる）の組み合わせ。「アイデアを心の中に捕まえる」というイメージから「思いつく」の意味に。",
@@ -49445,7 +49465,7 @@ export const WORD_DATA = [
           blankAnswer: "entrepreneur",
         },
       ],
-      distractors: ["補助金、助成金", "破産した、倒産した", "稼ぐ、収入を得る"],
+      distractors: ["補助金、助成金", "割引", "お買い得品、格安品"],
       confusableSpellings: ["entrepeneur", "entreprenuer", "entrepraneur"],
       passive: {
         etymology: "フランス語 entreprendre（着手する）から。entre-（間に）＋ prendre（取る）が語源。英語には18世紀に借用された。",
@@ -49509,7 +49529,7 @@ export const WORD_DATA = [
           blankAnswer: "surplus",
         },
       ],
-      distractors: ["景気後退", "小売り、小売業", "〜を借りている、〜の義務がある"],
+      distractors: ["景気後退", "小売り、小売業", "請求書、勘定書"],
       confusableSpellings: ["surplas", "surpluss", "surpulus"],
       passive: {
         etymology: "ラテン語 super-（上に・過剰に）＋ plus（より多い）から中世フランス語経由で英語へ。「必要量を超えたもの」が原義。",
@@ -49541,7 +49561,7 @@ export const WORD_DATA = [
           blankAnswer: "inflation",
         },
       ],
-      distractors: ["富、財産", "信用する、評価する", "投資する"],
+      distractors: ["富、財産", "代理人", "株式；在庫"],
       choiceLabel: "物価上昇",
       confusableSpellings: ["inflasion", "infletion", "inflacion"],
       passive: {
@@ -49605,7 +49625,7 @@ export const WORD_DATA = [
           blankAnswer: "clashed",
         },
       ],
-      distractors: ["参加する", "雇用する", "同僚、仕事仲間"],
+      distractors: ["参加する", "雇用する", "育む、促進する"],
       confusableSpellings: ["clush", "clahs", "clahsh"],
       passive: {
         etymology: "擬音語起源で、金属がぶつかり合う「ガシャン」という音を表す。16世紀頃から英語に登場し、物理的衝突から意見・利害の衝突へと意味が拡張した。",
@@ -49734,7 +49754,7 @@ export const WORD_DATA = [
           blankAnswer: "realm",
         },
       ],
-      distractors: ["情熱", "シナリオ、想定される状況", "利点；有利"],
+      distractors: ["情熱", "想定される状況", "利点；有利"],
       confusableSpellings: ["relm", "reelm", "realme"],
       passive: {
         etymology: "古フランス語 reialme（王国）から。ラテン語 regalis（王の）が語源。中世英語では物理的な「王国」を指したが、のちに抽象的な「領域・分野」の意味へ拡大した。",
@@ -49798,7 +49818,7 @@ export const WORD_DATA = [
           blankAnswer: "algorithm",
         },
       ],
-      distractors: ["歯車、ギア", "形式、フォーマット", "更新する、アップデートする"],
+      distractors: ["歯車", "形式", "基盤"],
       choiceLabel: "計算手順",
       confusableSpellings: ["algorythm", "algorithem", "alghorithm"],
       passive: {
@@ -49864,7 +49884,7 @@ export const WORD_DATA = [
           blankAnswer: "frontier",
         },
       ],
-      distractors: ["領土、縄張り", "砂漠", "花が咲く"],
+      distractors: ["領土、縄張り", "砂漠", "遠征、探検"],
       choiceLabel: "辺境、未開拓地",
       confusableSpellings: ["fronteer", "fronteir", "frountier"],
       passive: {
@@ -49897,7 +49917,7 @@ export const WORD_DATA = [
           blankAnswer: "bullet",
         },
       ],
-      distractors: ["〜を規制する、取り締まる", "〜に住む・定住する", "議題、アジェンダ"],
+      distractors: ["正義、公正", "内閣、閣僚", "議題"],
       confusableSpellings: ["bullit", "bullет", "bullett"],
       passive: {
         etymology: "フランス語 boulette（小さなボール）から。boule（ボール）の縮小形。もともと鉛の小さな球体を指していた。",
@@ -49929,7 +49949,7 @@ export const WORD_DATA = [
           blankAnswer: "shield",
         },
       ],
-      distractors: ["固定観念・ステレオタイプ", "奴隷制度、奴隷状態", "うわさ、風評"],
+      distractors: ["固定観念", "奴隷制度、奴隷状態", "うわさ、風評"],
       confusableSpellings: ["sheild", "shild", "shieldd"],
       passive: {
         etymology: "古英語 scield から。ゲルマン語派共通の語で、「守るもの」を意味する。現代ドイツ語の Schild（看板・盾）と同じ語源。",
@@ -49961,7 +49981,7 @@ export const WORD_DATA = [
           blankAnswer: "despair",
         },
       ],
-      distractors: ["孤独、独居", "手がかり", "シナリオ、想定される状況"],
+      distractors: ["孤独、独居", "手がかり", "想定される状況"],
       confusableSpellings: ["despare", "dispair", "despiar"],
       passive: {
         etymology: "ラテン語 desperare（希望を失う）から。de-（否定・分離）＋ sperare（希望する）。spes（希望）が語根で、hope の対義語として作られた語。",
@@ -49993,7 +50013,7 @@ export const WORD_DATA = [
           blankAnswer: "radiation",
         },
       ],
-      distractors: ["摂取量、取り込み量", "ウイルス", "（病院の）病棟"],
+      distractors: ["摂取量、取り込み量", "病原体", "（病院の）病棟"],
       confusableSpellings: ["radietion", "radiaton", "readiation"],
       passive: {
         etymology: "ラテン語 radiatio（光を発すること）から。radius（光線・半径）＋ -ation（名詞化接尾辞）。radius は「車輪のスポーク」が原義で、中心から広がるイメージ。",
@@ -50058,7 +50078,7 @@ export const WORD_DATA = [
           blankAnswer: "nursery",
         },
       ],
-      distractors: ["使い走り・用事", "避難所、シェルター", "慣習、風習"],
+      distractors: ["使い走り・用事", "避難所", "慣習、風習"],
       confusableSpellings: ["nursary", "nursey", "nurssery"],
       passive: {
         etymology: "中英語 norice（乳母）から発展。ラテン語 nutrire（育てる・養う）が語根で、nutrition（栄養）や nurture（養育する）と同語源。",
@@ -50090,7 +50110,7 @@ export const WORD_DATA = [
           blankAnswer: "spouse",
         },
       ],
-      distractors: ["先祖、祖先", "ルート・道筋", "ゴミ・廃棄物"],
+      distractors: ["先祖、祖先", "道筋", "ゴミ・廃棄物"],
       confusableSpellings: ["spousse", "spous", "spowse"],
       passive: {
         etymology: "ラテン語 sponsus（婚約した男性）／sponsa（婚約した女性）から。動詞 spondere（誓う）が語根で、英語の sponsor とも同根。",
@@ -50122,7 +50142,7 @@ export const WORD_DATA = [
           blankAnswer: "makeup",
         },
       ],
-      distractors: ["修道士、僧侶", "味・風味", "樽、バレル"],
+      distractors: ["修道士、僧侶", "味・風味", "樽"],
       choiceLabel: "化粧",
       confusableSpellings: ["make-upp", "makup", "make-up", "maikup"],
       passive: {
@@ -50155,7 +50175,8 @@ export const WORD_DATA = [
           blankAnswer: "mummy",
         },
       ],
-      distractors: ["古典的な、一流の", "原稿、手書き文書", "隠喩、メタファー"],
+      distractors: ["観客、見物人", "原稿、手書き文書", "隠喩"],
+      choiceLabel: "防腐処理された古代の遺体",
       confusableSpellings: ["mumie", "mummie", "mommy"],
       passive: {
         etymology: "アラビア語 mūmiyā（蜜蝋・アスファルト）から。ペルシア語 mūm（蝋）が語根で、防腐処理に使われた物質に由来する。",
@@ -50219,7 +50240,7 @@ export const WORD_DATA = [
           blankAnswer: "limb",
         },
       ],
-      distractors: ["指紋", "哺乳類、哺乳動物", "タンパク質"],
+      distractors: ["指紋", "哺乳類、哺乳動物", "たんぱく質"],
       confusableSpellings: ["lim", "limbe", "limp"],
       passive: {
         etymology: "古英語 lim（四肢・枝）から。ゲルマン語系の語で、語末の b は黙字（発音しない）。中英語期に語尾に b が加わったとされる。",
@@ -50251,7 +50272,7 @@ export const WORD_DATA = [
           blankAnswer: "odor",
         },
       ],
-      distractors: ["ストレス；精神的緊張", "遺伝子", "外科手術"],
+      distractors: ["精神的緊張", "遺伝子", "外科手術"],
       confusableSpellings: ["oder", "odour", "odore"],
       passive: {
         etymology: "ラテン語 odor（においの意）から直接英語に入った語。ギリシャ語 ozein（においを放つ）とも関連し、原インドヨーロッパ語の od-（においがする）が語根。",
@@ -50315,7 +50336,7 @@ export const WORD_DATA = [
           blankAnswer: "tide",
         },
       ],
-      distractors: ["軌道", "収穫、刈り取り", "目印、ランドマーク"],
+      distractors: ["軌道", "収穫、刈り取り", "目印"],
       confusableSpellings: ["tyde", "tied", "taid"],
       passive: {
         etymology: "古英語 tīd（時間・季節・潮時）から。もともと「時」を意味し、現代英語の time と同語源。「潮の時間」から海の干満を指すように意味が変化した。",
@@ -50348,6 +50369,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["統合、総合", "人類学", "理論、学説"],
+      choiceLabel: "質問票",
       confusableSpellings: ["questionaire", "questionnare", "questionair"],
       passive: {
         etymology: "フランス語 questionnaire から直接借用。question（質問）＋接尾辞 -aire（〜に関するもの）。question はラテン語 quaestio（問い）から、quaerere（求める・尋ねる）が語根。",
@@ -50412,7 +50434,7 @@ export const WORD_DATA = [
           blankAnswer: "revenge",
         },
       ],
-      distractors: ["命令する、指揮する", "強奪する・奪う", "礼儀、丁寧さ"],
+      distractors: ["同僚、仕事仲間", "討論、議論", "礼儀、丁寧さ"],
       confusableSpellings: ["revange", "revenege", "reveng"],
       passive: {
         etymology: "古フランス語 'revengier' から。接頭辞 're-'（再び）＋ 'vengier'（復讐する）。ラテン語 'vindicare'（主張する・罰する）に由来。",
@@ -50444,7 +50466,7 @@ export const WORD_DATA = [
           blankAnswer: "intellect",
         },
       ],
-      distractors: ["到来、出現", "考え、アイデア", "無能力、できないこと"],
+      distractors: ["到来、出現", "考え", "無能力、できないこと"],
       confusableSpellings: ["intelect", "intellact", "interlect"],
       passive: {
         etymology: "ラテン語 'intellectus'（理解・認識）から。'inter-'（間に）＋ 'legere'（選ぶ・読む）の組み合わせ。「物事の間を読み取る能力」が原義。",
@@ -50476,7 +50498,7 @@ export const WORD_DATA = [
           blankAnswer: "hospitality",
         },
       ],
-      distractors: ["枠・フレーム", "洗濯物、洗濯", "配偶者"],
+      distractors: ["枠", "洗濯物、洗濯", "配偶者"],
       choiceLabel: "おもてなし",
       confusableSpellings: ["hospitallity", "hospitility", "hospitalty"],
       passive: {
@@ -50508,7 +50530,7 @@ export const WORD_DATA = [
           blankAnswer: "librarian",
         },
       ],
-      distractors: ["規律、訓練", "対称（性）、シンメトリー", "突破口、画期的な進歩"],
+      distractors: ["規律、訓練", "対称（性）", "突破口、画期的な進歩"],
       confusableSpellings: ["librerian", "librarien", "libarian"],
       passive: {
         etymology: "ラテン語 'librarius'（書物に関する）から。'liber'（本・樹皮）が語根。古代ローマでは樹皮（bark）に文字を書いていたことから 'liber' が「本」を意味するようになった。",
@@ -50540,7 +50562,7 @@ export const WORD_DATA = [
           blankAnswer: "manuscript",
         },
       ],
-      distractors: ["骨董品の、アンティークの", "探求、追求", "ミイラ"],
+      distractors: ["空想", "探求、追求", "防腐処理された古代の遺体"],
       confusableSpellings: ["manuscipt", "manscript", "manuscriptt"],
       passive: {
         etymology: "ラテン語 'manuscriptus' から。'manus'（手）＋ 'scriptus'（書かれた）の合成語。文字通り「手で書かれたもの」が原義。",
@@ -50572,7 +50594,7 @@ export const WORD_DATA = [
           blankAnswer: "obsession",
         },
       ],
-      distractors: ["例・事例", "結果；成果", "ジレンマ・板挟み"],
+      distractors: ["例・事例", "結果；成果", "板挟み"],
       confusableSpellings: ["obsesion", "obssession", "obsesssion"],
       passive: {
         etymology: "ラテン語 'obsessio' から。'ob-'（に対して）＋ 'sedere'（座る・占領する）。「心が何かに占領されている状態」が原義。",
@@ -50893,7 +50915,7 @@ export const WORD_DATA = [
           blankAnswer: "uneasy",
         },
       ],
-      distractors: ["無謀な、向こう見ずな", "無礼な、失礼な", "軽蔑、侮蔑"],
+      distractors: ["無謀な、向こう見ずな", "無礼な、失礼な", "不快な、嫌な"],
       confusableSpellings: ["uneazy", "uneasi", "uneaasy"],
       passive: {
         etymology: "'un-'（否定）＋ 'easy'（楽な、安楽な）。「楽でない状態」が原義で、そこから「不安・落ち着きのなさ」へと意味が拡張した。'easy' 自体は古フランス語 'aisé'（安楽な）に由来。",
@@ -51181,7 +51203,7 @@ export const WORD_DATA = [
           blankAnswer: "susceptible",
         },
       ],
-      distractors: ["都市の、都会の", "ハイブリッドの、混合の", "生物学的な、生物の"],
+      distractors: ["都市の、都会の", "混合の", "生物学的な、生物の"],
       confusableSpellings: ["susceptable", "suseptible", "susciptible"],
       passive: {
         etymology: "ラテン語 'susceptibilis' から。'sus-'（下から）＋ 'capere'（取る、受け取る）＋ '-ible'（〜できる）。「下から受け取られやすい」→「影響を受け入れやすい」というイメージ。",
@@ -51213,7 +51235,7 @@ export const WORD_DATA = [
           blankAnswer: "edible",
         },
       ],
-      distractors: ["活力のある、ダイナミックな", "法的責任がある", "人工の、人造の"],
+      distractors: ["活力のある", "法的責任がある", "人工の、人造の"],
       confusableSpellings: ["ediable", "edable", "eddible"],
       passive: {
         etymology: "ラテン語 'edibilis' から。'edere'（食べる）＋ '-ible'（〜できる）。'edere' はラテン語の「食べる」を意味し、英語の eat とも共通の印欧語根 *ed- を持つ。",
@@ -51630,6 +51652,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["（幽霊が）出没する、つきまとう", "ちらりと見る", "跳ぶ、跳躍する"],
+      choiceLabel: "ぽきっと折れる、折る",
       confusableSpellings: ["snapp", "snep", "snab"],
       passive: {
         etymology: "中低地ドイツ語 'snappen'（急につかむ）由来。擬音語的な要素があり、折れる際の「パチン」という音を表している。",
@@ -51757,7 +51780,7 @@ export const WORD_DATA = [
           blankAnswer: "convicted",
         },
       ],
-      distractors: ["偏見、先入観", "機関、施設", "地雷"],
+      distractors: ["〜を規制する、取り締まる", "侵略する", "拷問する、苦しめる"],
       confusableSpellings: ["convickt", "convikt", "convictt"],
       passive: {
         etymology: "ラテン語 'convincere' から。con-（完全に）＋ vincere（打ち負かす・征服する）が語源。証拠で「完全に打ち負かす」というイメージ。",
@@ -52141,7 +52164,7 @@ export const WORD_DATA = [
           blankAnswer: "grinds",
         },
       ],
-      distractors: ["回復する、立ち直る", "サーフィンをする", "あくびをする"],
+      distractors: ["回復する、立ち直る", "泳ぐ", "あくびをする"],
       confusableSpellings: ["grined", "grnd", "grinde"],
       passive: {
         etymology: "古英語 grindan（砕く・こする）が語源。不規則動詞で grind–ground–ground と変化する。",
@@ -52238,7 +52261,7 @@ export const WORD_DATA = [
           blankAnswer: "betrayed",
         },
       ],
-      distractors: ["〜を捧げる、専念させる", "同意、承諾", "〜に遭遇する；出くわす"],
+      distractors: ["〜を捧げる、専念させる", "ずるをする、不正をする", "〜に遭遇する；出くわす"],
       confusableSpellings: ["betrey", "betrray", "betrayl"],
       passive: {
         etymology: "古フランス語 be-（強意）+ trair（渡す・引き渡す）が語源。ラテン語 tradere（引き渡す）に由来し、「敵に引き渡す」イメージ。",
@@ -52270,7 +52293,7 @@ export const WORD_DATA = [
           blankAnswer: "leaked",
         },
       ],
-      distractors: ["跳ぶ、跳躍する", "振る、揺れる、ブランコで遊ぶ", "曲げる、曲がる"],
+      distractors: ["跳ぶ、跳躍する", "振る、揺れる", "曲げる、曲がる"],
       confusableSpellings: ["leek", "liek", "leack"],
       passive: {
         etymology: "古ノルド語 leka（滴る・漏れる）が語源。北欧の船乗り文化から英語に入ってきた語。",
@@ -52334,7 +52357,7 @@ export const WORD_DATA = [
           blankAnswer: "bounced",
         },
       ],
-      distractors: ["一時停止する、中断する", "繁栄する、成長する", "軽く叩く・タップする"],
+      distractors: ["一時停止する、中断する", "繁栄する、成長する", "軽く叩く"],
       confusableSpellings: ["bouce", "bownce"],
       passive: {
         etymology: "古フランス語 'boncer'（打つ）に由来。語根はゲルマン系で「叩く・弾く」という意味を持つ。",
@@ -52462,7 +52485,7 @@ export const WORD_DATA = [
           blankAnswer: "disregarded",
         },
       ],
-      distractors: ["強く促す、強く勧める", "主張する、断言する", "伝える、コミュニケーションをとる"],
+      distractors: ["強く促す、強く勧める", "主張する、断言する", "伝える"],
       confusableSpellings: ["disreguard", "disregarde"],
       passive: {
         etymology: "'dis-'（否定・反対）＋ 'regard'（注意を向ける・考慮する）。regard はフランス語 'regarder'（見る）に由来。「見ないようにする」が原義。",
@@ -52654,7 +52677,7 @@ export const WORD_DATA = [
           blankAnswer: "grace",
         },
       ],
-      distractors: ["無礼な、失礼な", "激怒した、猛烈に怒った", "不安な、心配な"],
+      distractors: ["外向的な人、社交的な人", "軽蔑、侮蔑", "強欲、貪欲"],
       confusableSpellings: ["grece", "graice"],
       passive: {
         etymology: "ラテン語 'gratia'（好意・感謝）から。'gratus'（喜ばれる）が語根。フランス語経由で英語に入った。",
@@ -52782,7 +52805,7 @@ export const WORD_DATA = [
           blankAnswer: "barrels",
         },
       ],
-      distractors: ["化粧の、美容の", "遺産、文化遺産", "受付、フロント"],
+      distractors: ["料理（の様式）、食文化", "遺産、文化遺産", "受付"],
       confusableSpellings: ["barrell", "barel"],
       passive: {
         etymology: "古フランス語 'baril' から。中世に液体や食料を保存・運搬するための丸い容器を指した語。語源はさらに不明確だが、ケルト系の可能性がある。",
@@ -52814,7 +52837,7 @@ export const WORD_DATA = [
           blankAnswer: "timber",
         },
       ],
-      distractors: ["目印、ランドマーク", "化石", "茎・幹"],
+      distractors: ["目印", "化石", "茎・幹"],
       confusableSpellings: ["timbre", "timmber"],
       passive: {
         etymology: "古英語 'timber'（建材・建物）から。ゲルマン語系で、古高ドイツ語 'zimbar'（木材で作った部屋）と同根。",
@@ -52846,7 +52869,7 @@ export const WORD_DATA = [
           blankAnswer: "garment",
         },
       ],
-      distractors: ["通路（スーパー・飛行機・劇場などの）", "品目、項目", "枠・フレーム"],
+      distractors: ["通路（飛行機・劇場などの）", "品目、項目", "枠"],
       confusableSpellings: ["garnemnt", "garmant"],
       passive: {
         etymology: "古フランス語 'garnement'（装備・備え）から。'garnir'（備える・飾る）が語根で、英語の garnish（飾り付ける）と同語源。",
@@ -52878,7 +52901,7 @@ export const WORD_DATA = [
           blankAnswer: "threaded",
         },
       ],
-      distractors: ["化粧の、美容の", "ゴミ・廃棄物", "施設；設備"],
+      distractors: ["散らかった状態、混乱", "ゴミ・廃棄物", "施設；設備"],
       choiceLabel: "糸、縫い糸",
       confusableSpellings: ["tread", "thred"],
       passive: {
@@ -52976,7 +52999,7 @@ export const WORD_DATA = [
           blankAnswer: "autonomy",
         },
       ],
-      distractors: ["数字、図", "合図、きっかけ", "内容、コンテンツ"],
+      distractors: ["数字、図", "合図、きっかけ", "内容"],
       confusableSpellings: ["autonony", "autonnomy"],
       passive: {
         etymology: "ギリシャ語の「autos（自己）」＋「nomos（法・規則）」に由来。自分自身の法に従うという意味。",
@@ -53008,7 +53031,7 @@ export const WORD_DATA = [
           blankAnswer: "toll",
         },
       ],
-      distractors: ["〜を輸出する", "信用する、評価する", "利益幅、マージン"],
+      distractors: ["企業、事業", "割引", "利益幅"],
       confusableSpellings: ["tol", "toal", "tole"],
       passive: {
         etymology: "古英語「tolian（引き出す）」またはラテン語「telonium（税関）」に由来。通行のために「引き出される」お金というイメージ。",
@@ -53040,7 +53063,7 @@ export const WORD_DATA = [
           blankAnswer: "discourse",
         },
       ],
-      distractors: ["句；フレーズ", "現象", "基準、判断基準"],
+      distractors: ["句", "現象", "基準、判断基準"],
       confusableSpellings: ["discource", "discorse", "disscourse"],
       passive: {
         etymology: "ラテン語「discursus（走り回ること）」から。「dis（あちこち）」＋「currere（走る）」。思考があちこちに走り回るイメージ。",
@@ -53104,7 +53127,7 @@ export const WORD_DATA = [
           blankAnswer: "glimpse",
         },
       ],
-      distractors: ["伸ばす、伸びる", "眉をひそめる、しかめ面をする", "移植する"],
+      distractors: ["穴あけ機", "姿勢", "衝突、激突"],
       confusableSpellings: ["glimse", "glimps", "glympse"],
       passive: {
         etymology: "中英語「glimsen（かすかに光る）」に由来。かすかな光がチラッと見える様子から「ちらり見」の意味になった。",
@@ -53168,7 +53191,7 @@ export const WORD_DATA = [
           blankAnswer: "glossary",
         },
       ],
-      distractors: ["授業料、学費", "復習；再検討", "パラダイム、思考の枠組み"],
+      distractors: ["授業料、学費", "復習；再検討", "思考の枠組み"],
       confusableSpellings: ["glossery", "glosary", "glossory"],
       passive: {
         etymology: "ラテン語「glossa（難しい言葉の注釈）」から。元々は古いテキストの欄外に書かれた注釈集を指していた。",
@@ -53200,7 +53223,7 @@ export const WORD_DATA = [
           blankAnswer: "archive",
         },
       ],
-      distractors: ["話題、テーマ", "考古学", "インターンシップ、実習期間"],
+      distractors: ["話題", "考古学", "実習期間"],
       choiceLabel: "記録保管所",
       confusableSpellings: ["archieve", "archiv", "arcive"],
       passive: {
@@ -53233,7 +53256,7 @@ export const WORD_DATA = [
           blankAnswer: "legacy",
         },
       ],
-      distractors: ["傑作、名作", "コラム・記事欄", "美的な、審美的な"],
+      distractors: ["傑作、名作", "記事欄", "探求、追求"],
       confusableSpellings: ["legasy", "legicy", "legacie"],
       passive: {
         etymology: "ラテン語「legare（遺贈する、派遣する）」から。「legatus（使節・遺贈された者）」を経て、死後に残されるものという意味に。",
@@ -53297,7 +53320,7 @@ export const WORD_DATA = [
           blankAnswer: "rage",
         },
       ],
-      distractors: ["見通し・可能性", "ために、目的・利益", "〜のために、〜を代表して"],
+      distractors: ["見通し・可能性", "宗教、信仰", "能力、収容力"],
       confusableSpellings: ["raige", "reage"],
       passive: {
         etymology: "古フランス語 'rage'、ラテン語 'rabies'（狂気・激怒）から。語根 'rab-' は「狂う・荒れ狂う」を意味する。",
@@ -53329,7 +53352,7 @@ export const WORD_DATA = [
           blankAnswer: "sorrow",
         },
       ],
-      distractors: ["特性；特質", "選択肢、オプション", "啓蒙、悟り"],
+      distractors: ["特性；特質", "選択肢", "啓蒙、悟り"],
       confusableSpellings: ["sorrrow", "sorow", "soro"],
       passive: {
         etymology: "古英語 'sorh'（悲しみ・苦悩）から。ゲルマン語共通の語根で、ドイツ語の 'Sorge'（心配）と同系。",
@@ -53392,7 +53415,7 @@ export const WORD_DATA = [
           blankAnswer: "ward",
         },
       ],
-      distractors: ["ニューロン、神経細胞", "衛生設備、公衆衛生", "障害・疾患"],
+      distractors: ["神経細胞", "衛生設備、公衆衛生", "障害・疾患"],
       confusableSpellings: ["waard", "worde"],
       passive: {
         etymology: "古英語 'weard'（見張り・守護）から。「守る場所」が転じて「管理された区画」の意味に発展し、病院の病棟や行政区にも使われるようになった。",
@@ -53424,7 +53447,7 @@ export const WORD_DATA = [
           blankAnswer: "stall",
         },
       ],
-      distractors: ["交通、交通量", "儀式、儀礼", "リゾート地、行楽地"],
+      distractors: ["交通、交通量", "儀式、儀礼", "行楽地"],
       choiceLabel: "屋台、売り場",
       confusableSpellings: ["stael", "stoal", "stoll"],
       passive: {
@@ -53457,7 +53480,7 @@ export const WORD_DATA = [
           blankAnswer: "flame",
         },
       ],
-      distractors: ["大草原、プレーリー", "浸食・侵食", "種（しゅ）、生物の種"],
+      distractors: ["大草原", "浸食・侵食", "種（しゅ）、生物の種"],
       confusableSpellings: ["flaim", "fleme", "flaime"],
       passive: {
         etymology: "ラテン語 'flamma'（炎）から古フランス語を経て英語へ。語根 'fla-' は「燃える・輝く」という意味を持ち、'flare'（フレア）とも同系統。",
@@ -53488,7 +53511,7 @@ export const WORD_DATA = [
           blankAnswer: "moisture",
         },
       ],
-      distractors: ["茎・幹", "風", "北極の"],
+      distractors: ["茎・幹", "風", "緯度"],
       confusableSpellings: ["moisturee", "moister", "moistcher"],
       passive: {
         etymology: "古フランス語 'moistour' から。語根は 'moist'（湿った）で、さらにラテン語 'mucidus'（カビた・湿った）に遡るとされる。'-ure' は状態・性質を示す名詞語尾。",
@@ -53584,7 +53607,7 @@ export const WORD_DATA = [
           blankAnswer: "astronomy",
         },
       ],
-      distractors: ["相関（関係）", "図書館員、司書", "アーカイブ、記録保管所"],
+      distractors: ["相関（関係）", "図書館員、司書", "記録保管所"],
       confusableSpellings: ["astronmy", "astronomie", "astonomy"],
       passive: {
         etymology: "ギリシャ語 'astron'（星）＋ 'nomos'（法則・秩序）から。「星の法則を研究する学問」という意味。同じ 'astro-' を持つ 'astronaut'（宇宙飛行士）とは語根を共有する。",
@@ -53616,7 +53639,7 @@ export const WORD_DATA = [
           blankAnswer: "probed",
         },
       ],
-      distractors: ["花が咲く、開花する", "炎、火炎", "風"],
+      distractors: ["花が咲く、開花する", "汚染する", "ためらう、躊躇する"],
       confusableSpellings: ["prode", "proab"],
       passive: {
         etymology: "ラテン語 'proba'（証明・検査）が語源。'probare'（試す）から派生し、中英語に入った。",
@@ -53776,7 +53799,7 @@ export const WORD_DATA = [
           blankAnswer: "longevity",
         },
       ],
-      distractors: ["アレルギー", "突然変異、変異", "突発、勃発"],
+      distractors: ["過敏反応", "突然変異、変異", "突発、勃発"],
       confusableSpellings: ["longivety", "longevety", "longeviti"],
       passive: {
         etymology: "ラテン語 'longaevitas' から。'longus'（長い）＋ 'aevum'（時代・一生）＋ '-ity'（名詞化接尾辞）。",
@@ -53968,7 +53991,7 @@ export const WORD_DATA = [
           blankAnswer: "rigid",
         },
       ],
-      distractors: ["明示的な、明確な", "絶え間ない、常に続く", "否定的な・マイナスの"],
+      distractors: ["明示的な、明確な", "絶え間ない、常に続く", "否定的な"],
       confusableSpellings: ["rigide", "rijid", "rigied"],
       passive: {
         etymology: "ラテン語 'rigidus'（硬い、冷たい）から。語根 'rig-' は「硬直する」を意味し、'rigor'（厳格さ）や 'rigorous' と同じ語根を持つ。",
@@ -54160,7 +54183,7 @@ export const WORD_DATA = [
           blankAnswer: "antique",
         },
       ],
-      distractors: ["〜を飾る・装飾する", "ユーモア・おかしさ", "美術館、画廊"],
+      distractors: ["妖精の、妖精に関する", "美的な、審美的な", "芸術的な、芸術の"],
       choiceLabel: "骨董品の",
       confusableSpellings: ["antiq", "antiqu", "antiquee"],
       passive: {
@@ -54480,7 +54503,7 @@ export const WORD_DATA = [
           blankAnswer: "extrovert",
         },
       ],
-      distractors: ["親密な、打ち解けた", "邪悪な、悪の", "感謝している"],
+      distractors: ["優雅さ、品格", "気性、怒り", "軽蔑、侮蔑"],
       confusableSpellings: ["extravert", "extroverd"],
       passive: {
         etymology: "ラテン語 'extra-'（外へ）＋ 'vertere'（向ける・回す）から。「意識・関心を外に向ける人」が原義。対義語の'introvert'は'intro-'（内へ）＋ 'vertere'。心理学者ユングが広めた用語。",
@@ -54769,7 +54792,7 @@ export const WORD_DATA = [
           blankAnswer: "rotates",
         },
       ],
-      distractors: ["くつろぐ、リラックスする", "つまずく、よろける", "絞る・押しつぶす"],
+      distractors: ["くつろぐ", "つまずく、よろける", "絞る・押しつぶす"],
       confusableSpellings: ["rotete", "rotatе", "roteate"],
       passive: {
         etymology: "ラテン語 rotare（回る）から。rota（車輪）が語根で、「車輪のように回る」が原義。",
@@ -54897,7 +54920,8 @@ export const WORD_DATA = [
           blankAnswer: "tweeted",
         },
       ],
-      distractors: ["歯車、ギア", "シミュレーションする、模擬する", "入力、インプット"],
+      distractors: ["口笛を吹く", "模擬する", "（犬が）吠える"],
+      choiceLabel: "（SNSに）短文を投稿する",
       confusableSpellings: ["tweat", "twete"],
       passive: {
         etymology: "もともとは擬音語で小鳥の「チュン」という鳴き声を表す語。Twitterが2006年にサービス開始した際に「短い発信＝小鳥のさえずり」というコンセプトから動詞・名詞として定着した。",
@@ -54961,7 +54985,7 @@ export const WORD_DATA = [
           blankAnswer: "erupted",
         },
       ],
-      distractors: ["消える、姿を消す", "ポンプで送る、汲み上げる", "引っかく、かく"],
+      distractors: ["消える、姿を消す", "汲み上げる", "引っかく、かく"],
       confusableSpellings: ["irrupt", "errupt"],
       passive: {
         etymology: "ラテン語 erumpere（外へ破裂する）から。接頭辞 e-（外へ）＋ ruptus（破る、割れる）の組み合わせ。rupture（破裂）や disrupt（混乱させる）と同じ語根を持つ。",
@@ -54993,7 +55017,7 @@ export const WORD_DATA = [
           blankAnswer: "blurred",
         },
       ],
-      distractors: ["広げる、展開する", "軽く叩く・タップする", "（筋肉・目などを）酷使する、痛める"],
+      distractors: ["広げる、展開する", "軽く叩く", "（筋肉・目などを）酷使する、痛める"],
       confusableSpellings: ["blar", "blurr"],
       passive: {
         etymology: "16世紀ごろに登場した語で、明確な語源は不明だが、smear（汚す）や smudge（にじませる）と意味的に近い。名詞・動詞どちらにも使われ、「にじみ」「ぼんやりしたもの」を指す。",
@@ -55186,7 +55210,7 @@ export const WORD_DATA = [
           blankAnswer: "surrender",
         },
       ],
-      distractors: ["褒め言葉、称賛", "介入する、干渉する", "〜を励ます"],
+      distractors: ["促進する、推進する", "介入する、干渉する", "〜を励ます"],
       confusableSpellings: ["surender", "surrendar"],
       passive: {
         etymology: "古フランス語 surrendre（引き渡す）に由来し、sur-（上に、超えて）＋ rendre（返す、与える）の組み合わせ。render と同じ語根 rendre を持つ。「完全に（相手に）引き渡す」が本来の意味。",
@@ -55218,7 +55242,7 @@ export const WORD_DATA = [
           blankAnswer: "plug",
         },
       ],
-      distractors: ["場所・用地", "アクセス、利用する権利", "バグ、プログラムの誤り"],
+      distractors: ["更新する", "閲覧する", "縛る、結びつける"],
       confusableSpellings: ["plaug", "plugg"],
       passive: {
         etymology: "中英語 'plugge'（栓）に由来。オランダ語 'plug'（杭・栓）が語源。接頭辞なし、単純語根。",
@@ -55250,7 +55274,7 @@ export const WORD_DATA = [
           blankAnswer: "sucking",
         },
       ],
-      distractors: ["〜をしっかりつかむ、握る", "パチンと折れる、ポキッと折る", "（液体に）さっと浸ける・つける"],
+      distractors: ["〜をしっかりつかむ、握る", "ぽきっと折れる、折る", "（液体に）さっと浸ける・つける"],
       confusableSpellings: ["sak", "sukk"],
       passive: {
         etymology: "古英語 'sūcan'（吸う）に由来。ゲルマン語系の語根 *sug-（吸う）から。接頭辞なし。",
@@ -55858,7 +55882,7 @@ export const WORD_DATA = [
           blankAnswer: "tactics",
         },
       ],
-      distractors: ["インターンシップ、実習期間", "練習、実践", "見出し、ヘッドライン"],
+      distractors: ["実習期間", "練習、実践", "見出し"],
       confusableSpellings: ["tacticts", "taktiks"],
       passive: {
         etymology: "ギリシャ語 'taktike' （配置・秩序の技術）に由来。語根 'tassein'（配置する）から。",
@@ -55922,7 +55946,7 @@ export const WORD_DATA = [
           blankAnswer: "prestige",
         },
       ],
-      distractors: ["裁判所、法廷", "うわさ、風評", "征服する、制圧する"],
+      distractors: ["裁判所、法廷", "うわさ、風評", "盾、防護物"],
       confusableSpellings: ["prestidge", "prestiege", "prestege"],
       passive: {
         etymology: "フランス語 'prestige' に由来し、ラテン語 'praestigiae'（手品・幻惑）が語源。もともとは「目くらまし・幻想」という意味だった。",
@@ -55954,7 +55978,7 @@ export const WORD_DATA = [
           blankAnswer: "analogy",
         },
       ],
-      distractors: ["模型、モデル", "カリキュラム、教育課程", "科目、教科"],
+      distractors: ["模型", "教育課程", "科目、教科"],
       choiceLabel: "類推、たとえ",
       confusableSpellings: ["anallogy", "analogie"],
       passive: {
@@ -56019,7 +56043,7 @@ export const WORD_DATA = [
           blankAnswer: "textile",
         },
       ],
-      distractors: ["食料雑貨（店）", "施設；設備", "リゾート地、行楽地"],
+      distractors: ["食料雑貨（店）", "施設；設備", "行楽地"],
       confusableSpellings: ["textil", "texttile", "textille"],
       passive: {
         etymology: "ラテン語 'textilis'（織られた）に由来。'texere'（織る）が語根で、'text'（テキスト）と同じ語源。テキストも「言葉を織り合わせたもの」！",
@@ -56051,7 +56075,7 @@ export const WORD_DATA = [
           blankAnswer: "deficit",
         },
       ],
-      distractors: ["通行料、使用料", "割増料金、プレミアム", "株式；在庫"],
+      distractors: ["通行料、使用料", "割増料金", "株式；在庫"],
       confusableSpellings: ["defecit", "deficiet", "defisit"],
       passive: {
         etymology: "ラテン語 'deficit'（不足する）に由来。'de-'（離れて・下に）＋ 'facere'（する・作る）の組み合わせ。「作られない・足りない」状態を表す。",
@@ -56084,6 +56108,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["子孫、子（動植物・人間を含む）", "微生物、細菌", "関節、継ぎ目"],
+      choiceLabel: "疫病",
       confusableSpellings: ["plauge", "plegue", "plagve"],
       passive: {
         etymology: "ラテン語 'plaga'（打撃・傷）に由来。ギリシャ語 'plege'（打つこと）とも関連。神が人々を「打つ」ことから災厄・疫病の意味になった。",
@@ -56115,7 +56140,7 @@ export const WORD_DATA = [
           blankAnswer: "hazard",
         },
       ],
-      distractors: ["環境", "ミツバチの巣（箱）", "軌道"],
+      distractors: ["環境", "蜜蜂の巣（箱）", "軌道"],
       confusableSpellings: ["hazzard", "hazzerd", "hazerd"],
       passive: {
         etymology: "アラビア語 'az-zahr'（サイコロ）に由来し、スペイン語 'azar'（偶然・運）を経て英語へ。サイコロの目＝不確かなリスクという発想から「危険」の意味になった。",
@@ -56212,7 +56237,7 @@ export const WORD_DATA = [
           blankAnswer: "grid",
         },
       ],
-      distractors: ["アルゴリズム、計算手順", "バージョン、版", "倉庫、貯蔵庫"],
+      distractors: ["計算手順", "版", "倉庫、貯蔵庫"],
       choiceLabel: "格子状のもの",
       confusableSpellings: ["gride", "girid", "grrid"],
       passive: {
@@ -56277,7 +56302,7 @@ export const WORD_DATA = [
           blankAnswer: "Friction",
         },
       ],
-      distractors: ["ワクチン", "糖尿病", "内科医、医師"],
+      distractors: ["予防接種液", "糖尿病", "内科医、医師"],
       confusableSpellings: ["friciton", "fricton", "frection"],
       passive: {
         etymology: "ラテン語 'frictio'（こすること）から。語根 'fricare'（こする・摩擦する）に由来。物理的な「こすり合わせ」が原義で、そこから比喩的な「対立」へと意味が広がった。",
@@ -56373,7 +56398,7 @@ export const WORD_DATA = [
           blankAnswer: "monopoly",
         },
       ],
-      distractors: ["監督者、上司", "借りる、賃貸する", "通行料、使用料"],
+      distractors: ["監督者、上司", "貸付金", "通行料、使用料"],
       confusableSpellings: ["monoppoly", "monoply"],
       passive: {
         etymology: "ギリシャ語 'monos'（一つ・単一）＋'polein'（売る）から。「一者だけが売る状態」が原義。接頭辞 'mono-' はmonorail（モノレール）やmonologue（独白）と共通。",
@@ -56405,7 +56430,7 @@ export const WORD_DATA = [
           blankAnswer: "staple",
         },
       ],
-      distractors: ["衣服、衣類（一着）", "継ぎ当て・パッチ", "保育室、育児室"],
+      distractors: ["衣服、衣類（一着）", "継ぎ当て", "保育室、育児室"],
       confusableSpellings: ["stapel", "staipel", "staipal"],
       passive: {
         etymology: "中世オランダ語 'stapel'（市場・倉庫）に由来。中世ヨーロッパの「特定商品を集積・取引する公認市場」を指したことから、「主要商品」という意味に発展した。",
@@ -56437,7 +56462,7 @@ export const WORD_DATA = [
           blankAnswer: "merchandise",
         },
       ],
-      distractors: ["年金", "〜を借りている、〜の義務がある", "商業、貿易"],
+      distractors: ["年金", "心付け金、祝儀", "商業、貿易"],
       confusableSpellings: ["mercandise", "merchandize", "merchantdise"],
       passive: {
         etymology: "古フランス語 'marchandise'（商業・取引）から。語根はラテン語 'mercari'（取引する）で、'merchant'（商人）や'market'（市場）とも同族語。",
@@ -56469,7 +56494,7 @@ export const WORD_DATA = [
           blankAnswer: "vendor",
         },
       ],
-      distractors: ["資金、基金", "インフレーション、物価上昇", "人員、従業員（集合的）"],
+      distractors: ["資金、基金", "物価上昇", "人員、従業員（集合的）"],
       confusableSpellings: ["vender", "vandor", "venndor"],
       passive: {
         etymology: "ラテン語 'vendere'（売る）から。'vend'（販売する）＋行為者を表す接尾辞 '-or'。'vending machine'（自動販売機）とも同語源。",
@@ -56501,7 +56526,7 @@ export const WORD_DATA = [
           blankAnswer: "supervisor",
         },
       ],
-      distractors: ["資源、リソース", "投資する", "富、財産"],
+      distractors: ["資源", "費用、出費", "富、財産"],
       confusableSpellings: ["supervisior", "superviser", "suppervisor"],
       passive: {
         etymology: "ラテン語 super-（上に）＋ videre（見る）→ 上から見る人。vision（視覚）や supervise（監督する）と同じ語根。",
@@ -56565,7 +56590,7 @@ export const WORD_DATA = [
           blankAnswer: "personnel",
         },
       ],
-      distractors: ["料金、手数料", "補助金、助成金", "〜を輸入する"],
+      distractors: ["料金、手数料", "補助金、助成金", "特許（権）"],
       confusableSpellings: ["personel", "personnell", "personnnel"],
       passive: {
         etymology: "フランス語 personnel（個人の）から借用。ラテン語 persona（人、仮面）が語源。personal（個人的な）と同じ起源を持つ。",
@@ -56597,7 +56622,7 @@ export const WORD_DATA = [
           blankAnswer: "vessel",
         },
       ],
-      distractors: ["大草原、プレーリー", "下水・汚水", "化石"],
+      distractors: ["大草原", "下水・汚水", "化石"],
       confusableSpellings: ["vesel", "vessle", "vessel（正しい）→ vessal"],
       passive: {
         etymology: "古フランス語 vaissel、ラテン語 vascellum（小さな容器）から。vas（容器・管）が語根で、vase（花瓶）とも関連する。",
@@ -56629,7 +56654,7 @@ export const WORD_DATA = [
           blankAnswer: "liver",
         },
       ],
-      distractors: ["神経", "錠剤、ピル", "のどの渇き"],
+      distractors: ["神経", "錠剤", "のどの渇き"],
       confusableSpellings: ["livir", "livar", "livver"],
       passive: {
         etymology: "古英語 lifer から。ゲルマン語系の語で、live（生きる）とは語源的に関連するとも言われる（肝臓は生命に不可欠な臓器だから）。",
@@ -56661,7 +56686,7 @@ export const WORD_DATA = [
           blankAnswer: "duration",
         },
       ],
-      distractors: ["大量の、大規模な", "合計、総額", "索引、指標"],
+      distractors: ["集団・群れ", "合計、総額", "索引、指標"],
       confusableSpellings: ["durration", "duretion", "duracion"],
       passive: {
         etymology: "ラテン語 durare（続く、硬くなる）＋ -tion（名詞化接尾辞）。durable（耐久性のある）や endure（耐える）と同じ語根 dur-。",
@@ -56693,7 +56718,7 @@ export const WORD_DATA = [
           blankAnswer: "certificate",
         },
       ],
-      distractors: ["方法、手法", "語彙、単語力", "カリキュラム、教育課程"],
+      distractors: ["方法、手法", "語彙、単語力", "教育課程"],
       confusableSpellings: ["certifcate", "certificat", "sertificate"],
       passive: {
         etymology: "ラテン語 certificare（確実にする）→ certus（確かな）＋ facere（する、作る）。certain（確かな）や certify（証明する）と同族語。",
@@ -56757,7 +56782,7 @@ export const WORD_DATA = [
           blankAnswer: "symmetry",
         },
       ],
-      distractors: ["知識、知恵", "話題、テーマ", "カリキュラム、教育課程"],
+      distractors: ["知識、知恵", "話題", "教育課程"],
       choiceLabel: "対称性",
       confusableSpellings: ["symetry", "symmetrey", "simetry"],
       passive: {
@@ -56790,7 +56815,7 @@ export const WORD_DATA = [
           blankAnswer: "biography",
         },
       ],
-      distractors: ["筋書き・プロット", "観客、聴衆", "原稿、手書き文書"],
+      distractors: ["筋書き", "観客、聴衆", "原稿、手書き文書"],
       confusableSpellings: ["biograpy", "biograpghy", "biografy"],
       passive: {
         etymology: "ギリシャ語 bios（生命・人生）＋ graphein（書く）→ 人生を書いたもの。biology（bio-「生命」＋ -logy「学問」）、photograph（photo-「光」＋ graph「書く」）と同じ語根を含む。",
@@ -56822,7 +56847,7 @@ export const WORD_DATA = [
           blankAnswer: "masterpiece",
         },
       ],
-      distractors: ["建築（学）", "編集者", "骨董品の、アンティークの"],
+      distractors: ["建築（学）", "編集者", "美術館、画廊"],
       confusableSpellings: ["masterpice", "masterpeace", "masterpeice"],
       passive: {
         etymology: "「master（主人・達人）」＋「piece（作品）」の複合語。中世ヨーロッパのギルドで、職人が親方（master）になるために提出する試験作品を指したのが起源。",
@@ -56854,7 +56879,7 @@ export const WORD_DATA = [
           blankAnswer: "rhyme",
         },
       ],
-      distractors: ["彫刻・彫刻作品", "妖精の、妖精に関する", "観客、見物人"],
+      distractors: ["彫刻・彫刻作品", "民衆、人々", "観客、見物人"],
       confusableSpellings: ["rime", "ryhme", "rhym"],
       passive: {
         etymology: "古フランス語「rime」、ラテン語「rhythmus（リズム）」から。なぜか「h」が入っているのは「rhythm」との混同で綴りが変化したため。",
@@ -56919,7 +56944,7 @@ export const WORD_DATA = [
           blankAnswer: "breakdown",
         },
       ],
-      distractors: ["絶望", "能力、キャパシティ", "勇気・度胸"],
+      distractors: ["絶望", "能力", "勇気・度胸"],
       confusableSpellings: ["breakedown", "braekdown", "breakdoun"],
       passive: {
         etymology: "動詞「break down（壊れる・崩れる）」を名詞化したもの。「break（壊す）＋down（下へ）」で、何かが崩れ落ちるイメージが語源。",
@@ -56951,7 +56976,7 @@ export const WORD_DATA = [
           blankAnswer: "courtesy",
         },
       ],
-      distractors: ["知人、顔見知り", "コンテスト・競争", "参加する"],
+      distractors: ["知人、顔見知り", "競争", "同意、承諾"],
       confusableSpellings: ["courtisy", "courtecy", "courtosy"],
       passive: {
         etymology: "古フランス語「courtoisie（宮廷的な振る舞い）」から。「court（宮廷）」が語根で、もともと宮廷で求められる洗練された礼儀作法を意味していた。",
@@ -56983,7 +57008,7 @@ export const WORD_DATA = [
           blankAnswer: "protocol",
         },
       ],
-      distractors: ["媒体、手段", "入力、インプット", "革新、イノベーション"],
+      distractors: ["媒体、手段", "入力", "革新"],
       choiceLabel: "通信規約",
       confusableSpellings: ["protocal", "protacol", "protocoll"],
       passive: {
@@ -57016,7 +57041,7 @@ export const WORD_DATA = [
           blankAnswer: "specimen",
         },
       ],
-      distractors: ["栄養（学）", "アレルギー", "腎臓"],
+      distractors: ["栄養（学）", "過敏反応", "腎臓"],
       confusableSpellings: ["specimin", "speciman", "speciemen"],
       passive: {
         etymology: "ラテン語「specimen（見本・証拠）」から。「specere（見る）」が語根で、「inspect（検査する）」「spectacle（見せ物）」と同じ語根を持つ。",
@@ -57080,7 +57105,7 @@ export const WORD_DATA = [
           blankAnswer: "eligible",
         },
       ],
-      distractors: ["ありそうな", "慢性的な、長期にわたる", "無線の、ワイヤレスの"],
+      distractors: ["ありそうな", "慢性的な、長期にわたる", "無線の"],
       confusableSpellings: ["eligable", "eligble", "eligibal"],
       passive: {
         etymology: "ラテン語「eligibilis（選ばれるに値する）」から。「e-（外へ）＋legere（選ぶ）」が語源。「elect（選出する）」「select（選択する）」と同じ語根を持つ。",
@@ -57208,7 +57233,7 @@ export const WORD_DATA = [
           blankAnswer: "bankrupt",
         },
       ],
-      distractors: ["商品、物資", "商業、貿易", "運賃、料金"],
+      distractors: ["電子的な、数字の", "速い、素早い", "即座の"],
       confusableSpellings: ["bankruppt", "bankropt", "bancrupt"],
       passive: {
         etymology: "イタリア語 banca rotta（壊れた机・台）から。中世イタリアの両替商が支払い不能になると取引台（banca）を壊す慣習があったことに由来。",
@@ -57464,7 +57489,7 @@ export const WORD_DATA = [
           blankAnswer: "vacant",
         },
       ],
-      distractors: ["生の、加工されていない", "複数の、多数の", "否定的な・マイナスの"],
+      distractors: ["生の、加工されていない", "複数の、多数の", "否定的な"],
       confusableSpellings: ["vaccant", "vacent", "vakant"],
       passive: {
         etymology: "ラテン語 vacare（空である）から。接頭辞なしの語根 vac-（空）＋ -ant（形容詞語尾）。同じ語根に vacation（休暇）や vacuum（真空）がある。",
@@ -57592,7 +57617,7 @@ export const WORD_DATA = [
           blankAnswer: "implicit",
         },
       ],
-      distractors: ["経験的な、実証的な", "自由主義の、リベラルな", "人工の、人造の"],
+      distractors: ["経験的な、実証的な", "自由主義の", "人工の、人造の"],
       confusableSpellings: ["implict", "implicite", "implisit"],
       passive: {
         etymology: "ラテン語 im-（中に）＋ plicare（折る）＋ -it（形容詞語尾）。「内側に折り込まれている」→「表に出ていないが含まれている」が原義。plicare は complicated（複雑な）や explicit（明示的な）にも共通する。",
@@ -57655,7 +57680,7 @@ export const WORD_DATA = [
           blankAnswer: "compatible",
         },
       ],
-      distractors: ["本質的な、固有の", "広く浸透した、蔓延した", "仮想の、バーチャルな"],
+      distractors: ["本質的な、固有の", "広く浸透した、蔓延した", "仮想の"],
       confusableSpellings: ["compatable", "compatibel", "compatiple"],
       passive: {
         etymology: "ラテン語 com-（共に）＋ pati（耐える・受け入れる）＋ -ble（可能を示す語尾）。「共に耐えられる」→「一緒に存在できる」が原義。pati は patient（忍耐強い）や compassion（思いやり）にも共通する語根。",
@@ -57814,7 +57839,7 @@ export const WORD_DATA = [
           blankAnswer: "simulates",
         },
       ],
-      distractors: ["アルゴリズム、計算手順", "格子（状のもの）、グリッド", "クリックする"],
+      distractors: ["更新する", "（SNSに）短文を投稿する", "点検する"],
       choiceLabel: "模擬する、まねる",
       confusableSpellings: ["simulat", "simmulate", "simualte"],
       passive: {
@@ -57911,7 +57936,8 @@ export const WORD_DATA = [
           blankAnswer: "caters",
         },
       ],
-      distractors: ["口座、勘定", "利害関係、出資分", "独占、独占権"],
+      distractors: ["投資する", "借りる、賃貸する", "〜を輸出する"],
+      choiceLabel: "（要望に）応える、供給する",
       confusableSpellings: ["catter", "caiter"],
       passive: {
         etymology: "古フランス語 acater（「買う・調達する」）から。食料を「調達・提供する」が原義で、現代では広く「ニーズを満たす」意味に拡張した。",
@@ -57943,7 +57969,7 @@ export const WORD_DATA = [
           blankAnswer: "assaulted",
         },
       ],
-      distractors: ["出来事、事件", "パネル、委員会", "投票する"],
+      distractors: ["〜に住む・定住する", "征服する、制圧する", "投票する"],
       confusableSpellings: ["assult", "asault", "assalt"],
       passive: {
         etymology: "古フランス語 assaut（ad-「に向かって」+ saltus「跳躍」）から。「跳びかかる」が原義。",
@@ -57975,7 +58001,7 @@ export const WORD_DATA = [
           blankAnswer: "torture",
         },
       ],
-      distractors: ["裁判、公判", "外交、外交術", "政策、方針"],
+      distractors: ["征服する、制圧する", "侵略する", "〜に有罪判決を下す"],
       confusableSpellings: ["torcher", "tortur", "tortuer"],
       passive: {
         etymology: "ラテン語 tortura（torquere「ねじる・歪める」の名詞形）から。体を「ねじって」苦しめる刑罰が原義。",
@@ -58007,7 +58033,7 @@ export const WORD_DATA = [
           blankAnswer: "bleeding",
         },
       ],
-      distractors: ["吸収する", "衝突、激突", "押しつぶす、砕く"],
+      distractors: ["吸収する", "〜を噛む、咀嚼する", "押しつぶす、砕く"],
       confusableSpellings: ["blead", "bleede"],
       passive: {
         etymology: "古英語 blēdan（blōd「血」+ -an動詞語尾）から。「血を流す」がそのまま原義。",
@@ -58135,7 +58161,7 @@ export const WORD_DATA = [
           blankAnswer: "doom",
         },
       ],
-      distractors: ["選択肢、オプション", "優先事項", "使命、任務"],
+      distractors: ["選択肢", "優先事項", "使命、任務"],
       confusableSpellings: ["doome", "dum", "duum"],
       passive: {
         etymology: "古英語 dōm（判決、法律、判断）から。語根は dō-（行う）に関連し、もともとは「神の判決」を意味した。",
@@ -58231,7 +58257,7 @@ export const WORD_DATA = [
           blankAnswer: "nourishes",
         },
       ],
-      distractors: ["じっと見つめる", "粉砕する、激しく打ち砕く", "編む、ニット編みする"],
+      distractors: ["じっと見つめる", "粉砕する、激しく打ち砕く", "編む"],
       confusableSpellings: ["norish", "nurrish", "nourise"],
       passive: {
         etymology: "古フランス語 norriss-（育てる）から、ラテン語 nutrire（養う、育てる）が語源。nutrient（栄養素）や nutrition（栄養）と同じ語根。",
@@ -58327,7 +58353,7 @@ export const WORD_DATA = [
           blankAnswer: "bid",
         },
       ],
-      distractors: ["部門、セクター", "〜を輸入する", "収入"],
+      distractors: ["〜を借りている、〜の義務がある", "〜を輸入する", "投資する"],
       confusableSpellings: ["bidd", "bide", "bied"],
       passive: {
         etymology: "古英語 bēodan（提示する、命じる）から。ゲルマン語祖語 *beudaną（提供する）に由来。命令の意味の bid（命じる）は別語源で、古英語 biddan（頼む）からとされる。",
@@ -58359,7 +58385,7 @@ export const WORD_DATA = [
           blankAnswer: "corrupt",
         },
       ],
-      distractors: ["離婚", "告発する、非難する", "〜を命令する、指図する"],
+      distractors: ["避ける、遠ざける", "告発する、非難する", "〜を命令する、指図する"],
       confusableSpellings: ["corupt", "corrrupt", "corrubt"],
       passive: {
         etymology: "ラテン語 corrumpere（完全に壊す）から。接頭辞 cor-（完全に＝com-の変形）＋ rumpere（壊す、破る）。interrupt（中断する）、rupture（破裂）と同じ語根 rupt-。",
@@ -58423,7 +58449,7 @@ export const WORD_DATA = [
           blankAnswer: "browses",
         },
       ],
-      distractors: ["方式・様式・モード", "記録する、ログに残す", "媒体、手段"],
+      distractors: ["差し込む、接続する", "記録する", "削除する"],
       choiceLabel: "閲覧する",
       confusableSpellings: ["browze", "brouse"],
       passive: {
@@ -58456,7 +58482,7 @@ export const WORD_DATA = [
           blankAnswer: "compiled",
         },
       ],
-      distractors: ["タブレット端末", "記録する、ログに残す", "図表、グラフ"],
+      distractors: ["印刷する", "記録する", "更新する"],
       choiceLabel: "情報を編集・収集する",
       confusableSpellings: ["complie", "compil"],
       passive: {
@@ -58938,7 +58964,7 @@ export const WORD_DATA = [
           blankAnswer: "oppressed",
         },
       ],
-      distractors: ["逮捕する", "移民、入国", "大臣"],
+      distractors: ["逮捕する", "〜を規制する、取り締まる", "〜を改革する、改善する"],
       confusableSpellings: ["opres", "oppres", "opress"],
       passive: {
         etymology: "ラテン語 opprimere ← op-（ob-：〜に対して）＋ premere（押す）。「上から押しつぶす」が原義。pressure（圧力）や compress（圧縮）と同語根。",
@@ -59098,7 +59124,7 @@ export const WORD_DATA = [
           blankAnswer: "reign",
         },
       ],
-      distractors: ["裁判所、法廷", "国籍", "キャンペーン、運動"],
+      distractors: ["裁判所、法廷", "国籍", "運動"],
       confusableSpellings: ["rein", "rain", "reighn"],
       passive: {
         etymology: "古フランス語 'reigne'、ラテン語 'regnum'（王国・支配）から。reg-（王・支配する）という語根を持ち、'regal'（王らしい）や 'royal'（王室の）とも同じ系統。",
@@ -59130,7 +59156,7 @@ export const WORD_DATA = [
           blankAnswer: "diplomacy",
         },
       ],
-      distractors: ["戦闘、戦い", "緊急事態、非常事態", "固定観念・ステレオタイプ"],
+      distractors: ["戦闘、戦い", "緊急事態、非常事態", "固定観念"],
       confusableSpellings: ["diplomasy", "diplomaicy", "diplomecy"],
       passive: {
         etymology: "ギリシャ語 'diploma'（二つ折りにした公文書）から。外交官が持つ公式文書 → 外交という意味に転じた。'-cy' は状態・性質を表す名詞接尾辞（accuracy, democracy なども同形）。",
@@ -59194,7 +59220,7 @@ export const WORD_DATA = [
           blankAnswer: "exile",
         },
       ],
-      distractors: ["議会、国会", "不平等、格差", "性別、ジェンダー"],
+      distractors: ["議会、国会", "不平等、格差", "性別"],
       confusableSpellings: ["excile", "exille", "exiel"],
       passive: {
         etymology: "ラテン語 'exilium'（追放）から。ex-（外へ）＋ solum（土地）の組み合わせ、つまり「自分の土地の外へ出される」こと。",
@@ -59290,7 +59316,7 @@ export const WORD_DATA = [
           blankAnswer: "solitude",
         },
       ],
-      distractors: ["シナリオ、想定される状況", "影響、影響力", "考え、アイデア"],
+      distractors: ["想定される状況", "影響、影響力", "考え"],
       confusableSpellings: ["solitute", "solittude", "sollitude"],
       passive: {
         etymology: "ラテン語 'solitudo' から。solus（一人の）＋ -tude（状態を示す接尾辞）。'solo'（独奏）や 'sole'（唯一の）と同語根。-tude は attitude, gratitude なども同形。",
@@ -59418,7 +59444,7 @@ export const WORD_DATA = [
           blankAnswer: "basin",
         },
       ],
-      distractors: ["森林破壊、森林伐採", "高度、標高", "調査する、探る"],
+      distractors: ["森林破壊、森林伐採", "高度、標高", "氷河"],
       confusableSpellings: ["basen", "baison"],
       passive: {
         etymology: "古フランス語 bacin、中世ラテン語 bacinum（水を入れる容器）に由来。語根は bac-（容器）から派生。",
@@ -59577,7 +59603,7 @@ export const WORD_DATA = [
           blankAnswer: "rhetoric",
         },
       ],
-      distractors: ["パラダイム、思考の枠組み", "幾何学", "語彙、単語力"],
+      distractors: ["思考の枠組み", "幾何学", "語彙、単語力"],
       confusableSpellings: ["rethoric", "rethorick", "rhetorick"],
       passive: {
         etymology: "ギリシャ語 rhētorikē（弁論家の技術）から。rhētōr（弁論家・演説家）＋接尾辞 -ike（技術・学）。アリストテレスが体系化した学問。",
@@ -59609,7 +59635,7 @@ export const WORD_DATA = [
           blankAnswer: "verse",
         },
       ],
-      distractors: ["骨董品の、アンティークの", "編集者", "原稿、手書き文書"],
+      distractors: ["記念碑", "編集者", "原稿、手書き文書"],
       confusableSpellings: ["verce", "vers"],
       passive: {
         etymology: "ラテン語 versus（行・列）から。vertere（回る・向きを変える）の過去分詞形。詩の「行が折り返す」イメージから命名された。",
@@ -59672,7 +59698,7 @@ export const WORD_DATA = [
           blankAnswer: "sewage",
         },
       ],
-      distractors: ["辺境、フロンティア", "潮（の干満）、潮流", "地球・地球儀"],
+      distractors: ["辺境", "潮（の干満）、潮流", "地球・地球儀"],
       confusableSpellings: ["sewege", "sewidge", "sewege"],
       passive: {
         etymology: "sewer（下水道）＋接尾辞 -age（集合・状態）から。sewer は古フランス語 esseveur（水を流す）、ラテン語 ex-（外へ）＋ aqua（水）に由来するとされる。",
@@ -59704,7 +59730,7 @@ export const WORD_DATA = [
           blankAnswer: "complement",
         },
       ],
-      distractors: ["問題、課題", "不利、デメリット", "影響、影響力"],
+      distractors: ["問題、課題", "不利", "影響、影響力"],
       confusableSpellings: ["compliment", "complemant", "complementt"],
       passive: {
         etymology: "ラテン語 'complementum'（完成させるもの）から。'com-'（共に）＋ 'plere'（満たす）＋ '-ment'（名詞化）。",
@@ -59768,7 +59794,8 @@ export const WORD_DATA = [
           blankAnswer: "mortgage",
         },
       ],
-      distractors: ["補償する、埋め合わせをする", "賭ける", "〜する余裕がある"],
+      distractors: ["利害関係、出資分", "商品、物資", "利益、利潤"],
+      choiceLabel: "抵当",
       confusableSpellings: ["mortage", "morgage", "morgauge"],
       passive: {
         etymology: "古フランス語 'mort gage'（死の誓約）から。'mort'（死）＋ 'gage'（誓約・担保）。ローンを完済したら誓約が「死ぬ（消える）」、または返済できなければ担保が「死ぬ（没収される）」という意味。",
@@ -59833,6 +59860,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["おもてなし、歓待", "家具、備品", "味・風味"],
+      choiceLabel: "服装",
       confusableSpellings: ["outfitt", "outfite", "oufit"],
       passive: {
         etymology: "'out-'（外に）＋ 'fit'（適合させる）。もともとは「旅や探検に必要な装備一式」を意味していた。そこから「一揃いの服装」へと意味が広がった。",
@@ -59896,7 +59924,7 @@ export const WORD_DATA = [
           blankAnswer: "reunion",
         },
       ],
-      distractors: ["〜を怠る、放置する", "抑圧する、鎮圧する", "妥協する・折り合いをつける"],
+      distractors: ["同意、承諾", "復讐、仕返し", "褒め言葉、称賛"],
       confusableSpellings: ["reuinion", "reunoin", "reuniun"],
       passive: {
         etymology: "'re-'（再び）＋ 'union'（結合・ひとつになること）。ラテン語 'unio'（一致）に由来。「再びひとつになる」がそのまま意味になっている。",
@@ -59928,7 +59956,7 @@ export const WORD_DATA = [
           blankAnswer: "synthesis",
         },
       ],
-      distractors: ["社会学", "類推、アナロジー", "地理学"],
+      distractors: ["社会学", "類推", "地理学"],
       confusableSpellings: ["synthisis", "sinthesis", "synthessis"],
       passive: {
         etymology: "ギリシャ語 'synthesis'（組み合わせ）から。'syn-'（共に）＋ 'tithenai'（置く）。「複数のものを一緒に置く」＝「統合・合成」。",
@@ -59960,7 +59988,7 @@ export const WORD_DATA = [
           blankAnswer: "mold",
         },
       ],
-      distractors: ["脳卒中", "ニューロン、神経細胞", "流行病、感染症の大流行"],
+      distractors: ["脳卒中", "神経細胞", "流行病、感染症の大流行"],
       confusableSpellings: ["moled", "mouled", "molde"],
       passive: {
         etymology: "2つの異なる語源がある。カビの mold は中英語 moulde から来ており、古ノルド語 mygla（かびる）と関連する。型の mold は古フランス語 modle（型）から、さらにラテン語 modulus（基準・尺度）に由来。同じ綴りで異なる語源を持つ典型例。",
@@ -60024,7 +60052,7 @@ export const WORD_DATA = [
           blankAnswer: "greed",
         },
       ],
-      distractors: ["楽観的な", "邪悪な、悪の", "気性、怒り"],
+      distractors: ["魅力、愛嬌", "外向的な人、社交的な人", "気性、怒り"],
       confusableSpellings: ["greede", "greid"],
       passive: {
         etymology: "古英語 'grǣdig'（貪欲な）が語源。形容詞 greedy の名詞形として中英語期に成立。語根は印欧祖語 *gher-（欲しがる）に由来。",
@@ -60056,7 +60084,7 @@ export const WORD_DATA = [
           blankAnswer: "bribe",
         },
       ],
-      distractors: ["世論調査・投票", "法律、法令", "襲撃する、暴行する"],
+      distractors: ["世論調査・投票", "法律、法令", "罰則"],
       confusableSpellings: ["breibe", "brib"],
       passive: {
         etymology: "古フランス語 'briber'（物乞いをする）が語源。中世ヨーロッパで物乞いや盗品を指した語が、不正な金銭授受の意味へと変化した。",
@@ -60088,7 +60116,7 @@ export const WORD_DATA = [
           blankAnswer: "contempt",
         },
       ],
-      distractors: ["憂鬱な、陰気な", "勇敢な、勇気のある", "真剣な、誠実な"],
+      distractors: ["優雅さ、品格", "気性、怒り", "強欲、貪欲"],
       confusableSpellings: ["contemp", "contemt"],
       passive: {
         etymology: "ラテン語 'contemptus'（見下すこと）から。com-（完全に）＋ temnere（軽蔑する）の組み合わせ。接頭辞 con- は強調の役割を持つ。",
@@ -60218,7 +60246,7 @@ export const WORD_DATA = [
           blankAnswer: "hay",
         },
       ],
-      distractors: ["調査する、探る", "大草原、プレーリー", "農作物、収穫物"],
+      distractors: ["穀物、穀粒", "大草原", "農作物、収穫物"],
       confusableSpellings: ["haye", "hei"],
       passive: {
         etymology: "古英語 'hēg'（干し草）が語源。ゲルマン語派に広く共通する語で、ドイツ語 Heu、オランダ語 hooi と同族。語根は hewan（刈る）に遡る。",
@@ -60283,7 +60311,7 @@ export const WORD_DATA = [
           blankAnswer: "holistic",
         },
       ],
-      distractors: ["固有の、生来の", "主要な、最も重要な", "デジタルの、電子的な"],
+      distractors: ["固有の、生来の", "主要な、最も重要な", "電子的な"],
       confusableSpellings: ["wholistic", "holistik"],
       passive: {
         etymology: "ギリシャ語 'holos'（全体）＋ 接尾辞 -istic（〜の性質を持つ）から構成。whole（全体）とも同語源で、1926年に哲学者ヤン・スマッツが 'holism'（全体論）という概念を提唱したことで広まった。",
@@ -60475,7 +60503,7 @@ export const WORD_DATA = [
           blankAnswer: "furious",
         },
       ],
-      distractors: ["厳格な、厳しい", "無礼な、失礼な", "魅力、愛嬌"],
+      distractors: ["厳格な、厳しい", "無礼な、失礼な", "真剣な、誠実な"],
       confusableSpellings: ["fureous", "furios"],
       passive: {
         etymology: "ラテン語 'furiosus' から。'furia'（怒り・狂気）が語根で、英語の 'fury'（激怒）と同語源。",
@@ -60795,7 +60823,7 @@ export const WORD_DATA = [
           blankAnswer: "perpetual",
         },
       ],
-      distractors: ["デジタルの、電子的な", "神聖な、聖なる", "現代の、同時代の"],
+      distractors: ["電子的な", "神聖な、聖なる", "現代の、同時代の"],
       confusableSpellings: ["perpetuel", "perpetuall", "perpectual"],
       passive: {
         etymology: "ラテン語 perpetuus（連続した、絶え間ない）から。per-（完全に・通じて）＋ petere（求める・向かう）＋ -al（形容詞語尾）。「完全に続いていく」が原義。",
@@ -60955,7 +60983,7 @@ export const WORD_DATA = [
           blankAnswer: "zealous",
         },
       ],
-      distractors: ["残酷な、冷酷な", "魅力、愛嬌", "愚かな、間抜けな"],
+      distractors: ["残酷な、冷酷な", "悲観的な", "愚かな、間抜けな"],
       confusableSpellings: ["zelous", "zealious", "zeolous"],
       passive: {
         etymology: "ギリシャ語 zelos（熱意、競争心）から。ラテン語 zelus を経て英語へ。名詞形は zeal（熱意）、派生語に zealot（狂信者）がある。",

@@ -77,6 +77,19 @@ TikTok式縦スワイプUIで英語語彙を学ぶSRSアプリ。詳細仕様は
 
 ---
 
+## 2026-10-06 作業ログ
+
+### Recognition 四択からカタカナを排除・誤答の品詞を正解に揃えた（**未デプロイ**）
+
+ドッグフーディングの指摘「vaccine の四択に『ワクチン』が出る」から。**教材データのみ修正・SRS ロジック不変**。2026-04 の choiceLabel 導入は**正解ラベルだけ**が対象で、誤答（474件）にはカタカナが残っていた。
+
+- **ルールは正解・誤答の両方にかける**: 誤答だけ消すと「カタカナ入り＝正解」という逆の手がかりになる。`validate_word_data.py` に「四択に出る文字列（`choiceLabel ?? meanings[0]` と全 distractors）にカタカナ3文字以上で Error」を追加（中黒「・」は数えない）。旧 choiceLabel 専用チェックはこれに統合
+- **`scripts/fix_choice_katakana.py`（機械・442件）**: 併記からカタカナ部分を落とす（「長所、メリット」→「長所」）。括弧内もカタカナだけ落とす（「（ニーズ・要望に）」→「（要望に）」）。正解は meanings を残し choiceLabel を付ける（meanings は Intro 等で表示するため）
+- **`scripts/fix_choice_katakana_manual.py`（手作業・56件＋2文字カタカナ）**: カタカナ主体の文字列を同品詞・同分野の語に差し替え（ウイルス→病原体、アレルギー→過敏反応、vaccine「予防接種液」、protein「たんぱく質」、snap「ぽきっと折れる、折る」、tweet「（SNSに）短文を投稿する」、Muslim「回教徒」、mummy「防腐処理された古代の遺体」）。**検査は3文字以上だが、音から当てられる2文字（ギア・ピル・ログ・ピン・ポン）も外した**。ゴミ・カビは和語のカタカナ表記なので残置
+- **品詞**: `audit_distractors.py` に `pos` 種別（日本語の語形で判定・候補は正解と同品詞・カタカナなし）を追加し全1900語を監査（$2.8）→ 307語・486件（pos 474）。**差し替えは AI の suggestion を使わず `scripts/fix_distractor_pos.py` で「他の単語の正解ラベルから、同品詞・同カテゴリ・カタカナなし・訳語セグメント非衝突・使用回数の少ないもの」を選ぶ**（AI 候補は「撤退する」「拒否する」「障害、妨げ」の使い回しと反義語に偏る）。同カテゴリから引くと近義語を拾うので `BLOCK`（income→収益 等8件）で除外し、変更307語を `--ids` 再監査 → 5件を `POST_FIXES` で手直し → 0件
+- **AI 監査の pos 見落とし**: 語尾による簡易判定（`〜する`=動詞・`〜な/の`=形容詞）で照合すると、AI が見落とした品詞ずれが4語（convict・bribe・basin・retail）。簡易判定は形容詞の「〜ている／〜した／〜べき」を取り違えるので単独では使えない（227語中223語が誤検出）が、**AI 監査の取りこぼし発見の補助には効く**
+- **再現**: `.bk20261006` から `fix_choice_katakana.py` → `fix_choice_katakana_manual.py` → `fix_distractor_pos.py scripts/results/distractor_audit_pos.json` の順で現データと完全一致を確認。監査レポートは `distractor_audit_pos.json`（初回）・`distractor_audit_pos_recheck.json`（差し替え後）
+
 ## 2026-10-01 作業ログ
 
 ### Tide 引き潮予測から「現ペースだと約N日」を削除（**未デプロイ**）
@@ -1490,7 +1503,9 @@ VocabFlow/
 │   ├── generate_choice_labels.py      # choiceLabel を Claude API で生成（初回144語）
 │   ├── fix_missing_choice_labels.py   # choiceLabel 漏れ補完（audioHint表記ゆれ対策・56語追加）
 │   ├── validate_word_data.py    # バリデーション（distractor 近義衝突の決定的チェック含む）
-│   ├── audit_distractors.py     # distractor 近義衝突の AI 監査（synonym/valid/vague/duplicate・レポート出力のみ）
+│   ├── audit_distractors.py     # distractor の AI 監査（synonym/valid/vague/duplicate/pos・レポート出力のみ）
+│   ├── fix_choice_katakana*.py  # 四択のカタカナ排除（機械 + 手作業。2026-10-06）
+│   ├── fix_distractor_pos.py    # 監査レポートの誤答を同品詞・同カテゴリの他語ラベルで差し替え
 │   ├── build_word_data_js.py    # core/word-data.js ビルド
 │   ├── fetch_category_images.js # Unsplash API から画像URL取得→category-images.js生成
 │   ├── deploy.sh                # 本番サーバーへ rsync デプロイ（app/ + core/ のみ）

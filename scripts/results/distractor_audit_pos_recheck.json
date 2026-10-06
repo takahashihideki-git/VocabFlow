@@ -1,0 +1,72 @@
+{
+  "model": "claude-sonnet-5",
+  "audited": 307,
+  "flagged": 5,
+  "findings": [
+    {
+      "id": 847,
+      "word": "orbit",
+      "issues": [
+        {
+          "distractor": "領土・縄張り",
+          "type": "valid",
+          "reason": "orbitの二つ目の意味『（影響の）範囲・領域』と実質同義で、誤答なのに正しい意味になっている",
+          "suggestion": "倉庫、貯蔵庫"
+        }
+      ]
+    },
+    {
+      "id": 1153,
+      "word": "consensus",
+      "issues": [
+        {
+          "distractor": "固定観念、紋切り型",
+          "type": "duplicate",
+          "reason": "「偏見、先入観」と意味が重複し、どちらも『偏った固定的な考え』を指すため区別が難しい",
+          "suggestion": "対立、衝突"
+        }
+      ]
+    },
+    {
+      "id": 1188,
+      "word": "vertical",
+      "issues": [
+        {
+          "distractor": "最高の、主要な",
+          "type": "valid",
+          "reason": "vertical のもう一つの意味「頂点に関する」と重なり得る表現で、誤答なのに正解となりうる",
+          "suggestion": "柔軟な、融通の利く"
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "word": "venture",
+      "issues": [
+        {
+          "distractor": "投資する",
+          "type": "valid",
+          "reason": "venture は「資金を投じてリスクを冒す」の意味で使われ、投資するとほぼ同義になり得る",
+          "suggestion": "〜を無視する"
+        }
+      ]
+    },
+    {
+      "id": 1459,
+      "word": "rubbish",
+      "issues": [
+        {
+          "distractor": "樽",
+          "type": "duplicate",
+          "reason": "「樽、円筒形容器」と実質同義で選択肢が重複している",
+          "suggestion": "日程、予定表"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "usage": {
+    "input_tokens": 47370,
+    "output_tokens": 37581
+  }
+}

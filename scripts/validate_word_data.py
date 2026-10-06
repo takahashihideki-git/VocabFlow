@@ -26,6 +26,11 @@ VALID_CEFR  = {"A1", "A2", "B1", "B2", "C1", "C2"}
 # ============================================================
 
 PAREN_RE = re.compile(r'[（(][^）)]*[）)]')   # （〜を）等の補足は比較から外す
+
+# Recognition 四択に出る文字列（正解ラベル・誤答とも）に置けないカタカナ。
+# 英単語の音から正解を当てられる／音と合わない誤答を消去できる＝四択が崩れる。
+# 中黒「・」は区切りなので数えない（「会議・授業」を誤検出しない）
+CHOICE_KATAKANA_RE = re.compile(r'[ァ-ヺー]{3,}')
 SEG_RE   = re.compile(r'[、,，・;；/／]')      # 訳語の区切り
 
 
@@ -176,10 +181,18 @@ def validate(data: list[dict]) -> tuple[list[str], list[str]]:
         if choice_label is not None:
             if not choice_label.strip():
                 errors.append(f"[{word}] choiceLabel is empty string (use undefined instead)")
-            elif re.search(r'[ァ-ヾー]{3,}', choice_label):
-                errors.append(f"[{word}] choiceLabel contains katakana (3+ chars): '{choice_label}'")
             elif choice_label in distractors:
                 errors.append(f"[{word}] choiceLabel duplicates a distractor: '{choice_label}'")
+
+        # 四択に出る文字列にカタカナ3文字以上がない（正解・誤答とも）
+        # 片側だけ禁じると「カタカナ入り＝正解/誤答」という逆の手がかりになる
+        correct_text = correct_choice_text(entry)
+        if CHOICE_KATAKANA_RE.search(correct_text):
+            src = "choiceLabel" if entry.get("choiceLabel") else "meanings[0] (choiceLabel 未設定)"
+            errors.append(f"[{word}] correct choice contains katakana (3+ chars) via {src}: '{correct_text}'")
+        for d in distractors:
+            if CHOICE_KATAKANA_RE.search(d):
+                errors.append(f"[{word}] distractor contains katakana (3+ chars): '{d}'")
 
         # distractors 同士に重複がない
         if len(distractors) != len(set(distractors)):

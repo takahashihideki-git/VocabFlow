@@ -1,0 +1,4770 @@
+{
+  "model": "claude-sonnet-5",
+  "audited": 1900,
+  "flagged": 307,
+  "findings": [
+    {
+      "id": 14,
+      "word": "share",
+      "issues": [
+        {
+          "distractor": "仲間・同僚",
+          "type": "pos",
+          "reason": "正解「〜を共有する」は動詞だが、こちらは名詞で品詞が異なる",
+          "suggestion": "〜を避ける"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "word": "encourage",
+      "issues": [
+        {
+          "distractor": "受取人、受領者",
+          "type": "pos",
+          "reason": "正解「〜を励ます」は動詞だが、これは人を表す名詞句で品詞が異なる",
+          "suggestion": "〜を落胆させる"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "word": "company",
+      "issues": [
+        {
+          "distractor": "稼ぐ、収入を得る",
+          "type": "pos",
+          "reason": "正解「会社、企業」は名詞だが、これは動詞表現で品詞だけで消去できる",
+          "suggestion": "随伴、付き添い"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "word": "species",
+      "issues": [
+        {
+          "distractor": "汚染する",
+          "type": "pos",
+          "reason": "正解「種（しゅ）、生物の種」は名詞だが、これは動詞表現で品詞だけで消去できる",
+          "suggestion": "群れ、集団"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "word": "experiment",
+      "issues": [
+        {
+          "distractor": "入学する・登録する",
+          "type": "pos",
+          "reason": "正解「実験、試み」は名詞だが、誤答は「〜する」で終わる動詞表現",
+          "suggestion": "討論、議論"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "word": "material",
+      "issues": [
+        {
+          "distractor": "化粧の、美容の",
+          "type": "pos",
+          "reason": "正解「材料、素材」は名詞だが、誤答は「〜の」で終わる形容詞",
+          "suggestion": "伝説、神話"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "word": "evidence",
+      "issues": [
+        {
+          "distractor": "入学する・登録する",
+          "type": "pos",
+          "reason": "正解「証拠、根拠」は名詞だが、誤答は「〜する」で終わる動詞表現",
+          "suggestion": "伝統、慣習"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "word": "technology",
+      "issues": [
+        {
+          "distractor": "更新する",
+          "type": "pos",
+          "reason": "正解「科学技術」は名詞だが、誤答は「〜する」で終わる動詞",
+          "suggestion": "法律、規則"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "word": "culture",
+      "issues": [
+        {
+          "distractor": "化粧の、美容の",
+          "type": "pos",
+          "reason": "正解「文化、文明」は名詞だが、誤答は「〜の」で終わる形容詞",
+          "suggestion": "財産、資産"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "word": "apply",
+      "issues": [
+        {
+          "distractor": "目標",
+          "type": "pos",
+          "reason": "正解は動詞「応募する、申し込む」だが、「目標」は名詞であり品詞だけで消去できる",
+          "suggestion": "後悔する"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "word": "respect",
+      "issues": [
+        {
+          "distractor": "離婚",
+          "type": "pos",
+          "reason": "正解は動詞「尊重する」だが、「離婚」は名詞であり品詞だけで消去できる",
+          "suggestion": "延期する"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "word": "industry",
+      "issues": [
+        {
+          "distractor": "〜する余裕がある",
+          "type": "pos",
+          "reason": "正解「産業、工業」は名詞だが、これは動詞表現",
+          "suggestion": "余裕、ゆとり"
+        },
+        {
+          "distractor": "信用する、評価する",
+          "type": "pos",
+          "reason": "正解「産業、工業」は名詞だが、これは動詞表現",
+          "suggestion": "信用、評価"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "word": "trade",
+      "issues": [
+        {
+          "distractor": "（競売・入札で）値をつける、入札する",
+          "type": "pos",
+          "reason": "正解「貿易、取引」は名詞だが、これは動詞表現",
+          "suggestion": "入札、落札"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "word": "image",
+      "issues": [
+        {
+          "distractor": "〜を飾る・装飾する",
+          "type": "pos",
+          "reason": "正解「画像；映像」は名詞だが、これは動詞表現",
+          "suggestion": "装飾、飾り"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "word": "resource",
+      "issues": [
+        {
+          "distractor": "〜を借りている、〜の義務がある",
+          "type": "pos",
+          "reason": "正解「資源、財源」は名詞だが、これは動詞的な表現で品詞が異なる",
+          "suggestion": "余剰、余り"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "word": "access",
+      "issues": [
+        {
+          "distractor": "更新する",
+          "type": "pos",
+          "reason": "正解「利用する権利」は名詞句だが、これは動詞で品詞が異なる",
+          "suggestion": "障壁、壁"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "word": "income",
+      "issues": [
+        {
+          "distractor": "賭ける",
+          "type": "pos",
+          "reason": "正解「収入」は名詞だが、これは動詞で品詞が異なる",
+          "suggestion": "負債、借金"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "word": "site",
+      "issues": [
+        {
+          "distractor": "記録する",
+          "type": "pos",
+          "reason": "正解「用地」は名詞だが、これは動詞で品詞が異なる",
+          "suggestion": "通路、廊下"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "word": "link",
+      "issues": [
+        {
+          "distractor": "再読み込みする、更新する",
+          "type": "pos",
+          "reason": "正解「つながり」は名詞だが、これは動詞で品詞が異なる",
+          "suggestion": "障害、妨げ"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "word": "promote",
+      "issues": [
+        {
+          "distractor": "再会、同窓会",
+          "type": "pos",
+          "reason": "正解「促進する、推進する」は動詞だが、これは名詞表現で品詞が異なる",
+          "suggestion": "妨げる、阻止する"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "word": "earn",
+      "issues": [
+        {
+          "distractor": "破産した、倒産した",
+          "type": "pos",
+          "reason": "正解「稼ぐ、収入を得る」は動詞だが、これは「～した」で終わる形容詞的表現",
+          "suggestion": "浪費する、無駄遣いする"
+        },
+        {
+          "distractor": "代理人",
+          "type": "pos",
+          "reason": "正解「稼ぐ、収入を得る」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "word": "colleague",
+      "issues": [
+        {
+          "distractor": "（人・状況を）巧みに操る、操作する",
+          "type": "pos",
+          "reason": "正解「同僚、仕事仲間」は名詞だが、この誤答は動詞形",
+          "suggestion": "起源、発祥"
+        },
+        {
+          "distractor": "追放する；除名する",
+          "type": "pos",
+          "reason": "正解は名詞だが、この誤答は動詞形",
+          "suggestion": "障害物、妨げ"
+        },
+        {
+          "distractor": "促進する、推進する",
+          "type": "pos",
+          "reason": "正解は名詞だが、この誤答は動詞形",
+          "suggestion": "境界、国境"
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "word": "bill",
+      "issues": [
+        {
+          "distractor": "（競売・入札で）値をつける、入札する",
+          "type": "pos",
+          "reason": "正解「請求書、勘定書」は名詞だが、この誤答は動詞形",
+          "suggestion": "借金、負債"
+        }
+      ]
+    },
+    {
+      "id": 251,
+      "word": "audience",
+      "issues": [
+        {
+          "distractor": "作曲する、作成する",
+          "type": "pos",
+          "reason": "正解「観客、聴衆」は名詞だが、この誤答は動詞形",
+          "suggestion": "儀式、式典"
+        }
+      ]
+    },
+    {
+      "id": 254,
+      "word": "topic",
+      "issues": [
+        {
+          "distractor": "入学する・登録する",
+          "type": "pos",
+          "reason": "正解「話題、議題」は名詞だが、この誤答は動詞形",
+          "suggestion": "書籍、蔵書"
+        }
+      ]
+    },
+    {
+      "id": 261,
+      "word": "conflict",
+      "issues": [
+        {
+          "distractor": "〜を改革する、改善する",
+          "type": "pos",
+          "reason": "正解「対立、紛争」は名詞だが、これは動詞形で品詞だけで除外できる",
+          "suggestion": "秩序、規律"
+        },
+        {
+          "distractor": "征服する、制圧する",
+          "type": "pos",
+          "reason": "正解「対立、紛争」は名詞だが、これは動詞形で品詞だけで除外できる",
+          "suggestion": "平和、調和"
+        }
+      ]
+    },
+    {
+      "id": 264,
+      "word": "debate",
+      "issues": [
+        {
+          "distractor": "反対する、対抗する",
+          "type": "pos",
+          "reason": "正解「討論、議論」は名詞だが、これは動詞形で品詞だけで除外できる",
+          "suggestion": "贈り物、進物"
+        },
+        {
+          "distractor": "誓う、約束する",
+          "type": "pos",
+          "reason": "正解「討論、議論」は名詞だが、これは動詞形で品詞だけで除外できる",
+          "suggestion": "宝石、宝飾品"
+        },
+        {
+          "distractor": "避ける、遠ざける",
+          "type": "pos",
+          "reason": "正解「討論、議論」は名詞だが、これは動詞形で品詞だけで除外できる",
+          "suggestion": "儀式、式典"
+        }
+      ]
+    },
+    {
+      "id": 317,
+      "word": "refuse",
+      "issues": [
+        {
+          "distractor": "受取人、受領者",
+          "type": "pos",
+          "reason": "正解「断る、拒否する」は動詞だが、これは名詞形になっている",
+          "suggestion": "撤回する、取り消す"
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "word": "participate",
+      "issues": [
+        {
+          "distractor": "同意、承諾",
+          "type": "pos",
+          "reason": "正解「参加する」は動詞形だが、これは名詞形で品詞が異なる",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "word": "surround",
+      "issues": [
+        {
+          "distractor": "目標",
+          "type": "pos",
+          "reason": "正解「取り囲む、囲む」は動詞形だが、これは名詞で品詞が異なる",
+          "suggestion": "分離する、切り離す"
+        }
+      ]
+    },
+    {
+      "id": 341,
+      "word": "target",
+      "issues": [
+        {
+          "distractor": "はぎ取る、取り除く",
+          "type": "pos",
+          "reason": "正解「目標」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "記念品、土産"
+        },
+        {
+          "distractor": "〜を実行する、遂行する",
+          "type": "pos",
+          "reason": "正解「目標」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "障害物、妨げ"
+        },
+        {
+          "distractor": "〜を許可する",
+          "type": "pos",
+          "reason": "正解「目標」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "観客、聴衆"
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "word": "wealth",
+      "issues": [
+        {
+          "distractor": "信用する、評価する",
+          "type": "pos",
+          "reason": "正解「富、財産」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "障害、妨げ"
+        },
+        {
+          "distractor": "投資する",
+          "type": "pos",
+          "reason": "正解「富、財産」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "観客、聴衆"
+        }
+      ]
+    },
+    {
+      "id": 356,
+      "word": "authority",
+      "issues": [
+        {
+          "distractor": "拷問する、苦しめる",
+          "type": "pos",
+          "reason": "正解「権威、権限」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "記念品、土産"
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "word": "vote",
+      "issues": [
+        {
+          "distractor": "革命",
+          "type": "pos",
+          "reason": "正解「投票する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "拒否する、却下する"
+        },
+        {
+          "distractor": "思想体系",
+          "type": "pos",
+          "reason": "正解「投票する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "祝う、祝福する"
+        }
+      ]
+    },
+    {
+      "id": 359,
+      "word": "campaign",
+      "issues": [
+        {
+          "distractor": "拷問する、苦しめる",
+          "type": "pos",
+          "reason": "正解「運動」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "記念品、土産"
+        }
+      ]
+    },
+    {
+      "id": 360,
+      "word": "fund",
+      "issues": [
+        {
+          "distractor": "〜する余裕がある",
+          "type": "pos",
+          "reason": "正解「資金、基金」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "障害、妨げ"
+        }
+      ]
+    },
+    {
+      "id": 361,
+      "word": "web",
+      "issues": [
+        {
+          "distractor": "記録する",
+          "type": "pos",
+          "reason": "正解「蜘蛛の巣」は名詞だが「記録する」は動詞で品詞だけで消去できる",
+          "suggestion": "避難所"
+        }
+      ]
+    },
+    {
+      "id": 364,
+      "word": "version",
+      "issues": [
+        {
+          "distractor": "再読み込みする、更新する",
+          "type": "pos",
+          "reason": "正解「版、変形」は名詞だが「再読み込みする、更新する」は動詞で品詞だけで消去できる",
+          "suggestion": "手引き、指針"
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "word": "agriculture",
+      "issues": [
+        {
+          "distractor": "花が咲く",
+          "type": "pos",
+          "reason": "正解「農業、農耕」は名詞だが「花が咲く」は動詞で品詞だけで消去できる",
+          "suggestion": "牧畜、畜産"
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "word": "mass",
+      "issues": [
+        {
+          "distractor": "表面、面",
+          "type": "pos",
+          "reason": "正解「大量の、大規模な」は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "希薄な、まばらな"
+        },
+        {
+          "distractor": "間隔、合間",
+          "type": "pos",
+          "reason": "正解「大量の、大規模な」は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "個別の、単独の"
+        },
+        {
+          "distractor": "密度、濃さ",
+          "type": "pos",
+          "reason": "正解「大量の、大規模な」は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "限定的な、局所的な"
+        }
+      ]
+    },
+    {
+      "id": 402,
+      "word": "behave",
+      "issues": [
+        {
+          "distractor": "犠牲・生け贄",
+          "type": "pos",
+          "reason": "正解は動詞「振る舞う、行動する」だが、これは名詞形で品詞が異なる",
+          "suggestion": "拒絶する、断る"
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "word": "purchase",
+      "issues": [
+        {
+          "distractor": "貸付金",
+          "type": "pos",
+          "reason": "正解は動詞「購入する」だが、これは名詞形で品詞が異なる",
+          "suggestion": "返済する、弁済する"
+        },
+        {
+          "distractor": "企業、事業",
+          "type": "pos",
+          "reason": "正解は動詞「購入する」だが、これは名詞形で品詞が異なる",
+          "suggestion": "撤退する、退く"
+        },
+        {
+          "distractor": "起業家",
+          "type": "pos",
+          "reason": "正解は動詞「購入する」だが、これは名詞形で品詞が異なる",
+          "suggestion": "拒否する、却下する"
+        }
+      ]
+    },
+    {
+      "id": 412,
+      "word": "afford",
+      "issues": [
+        {
+          "distractor": "独占、独占権",
+          "type": "pos",
+          "reason": "正解は動詞句「〜する余裕がある」だが、これは名詞形で品詞が異なる",
+          "suggestion": "拒絶する、断る"
+        },
+        {
+          "distractor": "料金、手数料",
+          "type": "pos",
+          "reason": "正解は動詞句「〜する余裕がある」だが、これは名詞形で品詞が異なる",
+          "suggestion": "請求する、課金する"
+        },
+        {
+          "distractor": "商品、品物",
+          "type": "pos",
+          "reason": "正解は動詞句「〜する余裕がある」だが、これは名詞形で品詞が異なる",
+          "suggestion": "出荷する、発送する"
+        }
+      ]
+    },
+    {
+      "id": 414,
+      "word": "advertise",
+      "issues": [
+        {
+          "distractor": "資本；首都",
+          "type": "pos",
+          "reason": "正解は動詞「広告を出す」だが、これは名詞形で品詞が異なる",
+          "suggestion": "撤退する、退く"
+        },
+        {
+          "distractor": "企業・法人",
+          "type": "pos",
+          "reason": "正解は動詞「広告を出す」だが、これは名詞形で品詞が異なる",
+          "suggestion": "拒否する、却下する"
+        }
+      ]
+    },
+    {
+      "id": 441,
+      "word": "comment",
+      "issues": [
+        {
+          "distractor": "ひどく怖がらせる、恐怖に陥れる",
+          "type": "pos",
+          "reason": "正解「意見・感想」は名詞だが、これは動詞の語形",
+          "suggestion": "疑い、不信感"
+        },
+        {
+          "distractor": "〜の方を好む",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞の語形",
+          "suggestion": "好意、好み"
+        },
+        {
+          "distractor": "大声で叫ぶ、怒鳴る",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞の語形",
+          "suggestion": "騒音、喧騒"
+        }
+      ]
+    },
+    {
+      "id": 458,
+      "word": "occasion",
+      "issues": [
+        {
+          "distractor": "崇拝する、礼拝する",
+          "type": "pos",
+          "reason": "正解「場合；機会」は名詞だが、これは動詞の語形",
+          "suggestion": "儀式、式典"
+        }
+      ]
+    },
+    {
+      "id": 460,
+      "word": "stock",
+      "issues": [
+        {
+          "distractor": "（要望に）応える、供給する",
+          "type": "pos",
+          "reason": "正解「株式；在庫」は名詞だが、これは動詞の語形",
+          "suggestion": "負債、借金"
+        }
+      ]
+    },
+    {
+      "id": 462,
+      "word": "humanity",
+      "issues": [
+        {
+          "distractor": "同情、共感",
+          "type": "valid",
+          "reason": "humanityの別義「人道、思いやり」とほぼ同義で、誤答なのに正しい意味になってしまう",
+          "suggestion": "起源、由来"
+        }
+      ]
+    },
+    {
+      "id": 475,
+      "word": "trial",
+      "issues": [
+        {
+          "distractor": "〜を改革する、改善する",
+          "type": "pos",
+          "reason": "正解「裁判、公判」は名詞だが、これは動詞形になっている",
+          "suggestion": "証言、証拠"
+        }
+      ]
+    },
+    {
+      "id": 477,
+      "word": "code",
+      "issues": [
+        {
+          "distractor": "再読み込みする、更新する",
+          "type": "pos",
+          "reason": "正解「符号、暗号」は名詞だが、これは動詞形になっている",
+          "suggestion": "手順、工程"
+        }
+      ]
+    },
+    {
+      "id": 478,
+      "word": "substance",
+      "issues": [
+        {
+          "distractor": "悪化させる、複雑にする",
+          "type": "pos",
+          "reason": "正解「物質、成分」は名詞だが、これは動詞形になっている",
+          "suggestion": "記録、記述"
+        }
+      ]
+    },
+    {
+      "id": 513,
+      "word": "oppose",
+      "issues": [
+        {
+          "distractor": "競争",
+          "type": "pos",
+          "reason": "正解は動詞「反対する、対抗する」だが、これは名詞形で品詞が異なる",
+          "suggestion": "称賛する、賞賛する"
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "word": "credit",
+      "issues": [
+        {
+          "distractor": "人員、従業員（集合的）",
+          "type": "pos",
+          "reason": "正解は動詞「信用する、評価する」だが、これは名詞で品詞が異なる",
+          "suggestion": "拒否する、断る"
+        },
+        {
+          "distractor": "費用、出費",
+          "type": "pos",
+          "reason": "正解は動詞「信用する、評価する」だが、これは名詞で品詞が異なる",
+          "suggestion": "軽視する、見下す"
+        }
+      ]
+    },
+    {
+      "id": 530,
+      "word": "hang",
+      "issues": [
+        {
+          "distractor": "姿勢",
+          "type": "pos",
+          "reason": "正解「ぶら下げる、吊るす」は動詞だが、「姿勢」は名詞で品詞が異なる",
+          "suggestion": "警告する、注意する"
+        }
+      ]
+    },
+    {
+      "id": 531,
+      "word": "blame",
+      "issues": [
+        {
+          "distractor": "離婚",
+          "type": "pos",
+          "reason": "正解「〜を責める、非難する」は動詞だが、「離婚」は名詞で品詞が異なる",
+          "suggestion": "称賛する、褒める"
+        }
+      ]
+    },
+    {
+      "id": 537,
+      "word": "interact",
+      "issues": [
+        {
+          "distractor": "同意、承諾",
+          "type": "pos",
+          "reason": "正解「交流する、やり取りする」は動詞だが、「同意、承諾」は名詞で品詞が異なる",
+          "suggestion": "拒絶する、断る"
+        },
+        {
+          "distractor": "対戦相手、反対者",
+          "type": "pos",
+          "reason": "正解「交流する、やり取りする」は動詞だが、「対戦相手、反対者」は名詞で品詞が異なる",
+          "suggestion": "回避する、避ける"
+        }
+      ]
+    },
+    {
+      "id": 545,
+      "word": "expense",
+      "issues": [
+        {
+          "distractor": "信用する、評価する",
+          "type": "pos",
+          "reason": "正解「費用、出費」は名詞だが、これは動詞形",
+          "suggestion": "贅沢、浪費"
+        },
+        {
+          "distractor": "思い切って〜する",
+          "type": "pos",
+          "reason": "正解「費用、出費」は名詞だが、これは動詞形",
+          "suggestion": "節約、倹約"
+        }
+      ]
+    },
+    {
+      "id": 547,
+      "word": "loan",
+      "issues": [
+        {
+          "distractor": "預ける、預金する",
+          "type": "pos",
+          "reason": "正解「貸付金」は名詞だが、これは動詞形",
+          "suggestion": "担保、抵当"
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "word": "emergency",
+      "issues": [
+        {
+          "distractor": "襲撃する、暴行する",
+          "type": "pos",
+          "reason": "正解「緊急事態、非常事態」は名詞だが、これは動詞形",
+          "suggestion": "休暇、休日"
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "word": "fellow",
+      "issues": [
+        {
+          "distractor": "奪う、剥奪する",
+          "type": "pos",
+          "reason": "正解「仲間・同僚」は名詞だが、これは動詞形",
+          "suggestion": "敵、競争相手"
+        },
+        {
+          "distractor": "（罪・過ちを）犯す",
+          "type": "pos",
+          "reason": "正解「仲間・同僚」は名詞だが、これは動詞形",
+          "suggestion": "指導者、上司"
+        },
+        {
+          "distractor": "告発する、非難する",
+          "type": "pos",
+          "reason": "正解「仲間・同僚」は名詞だが、これは動詞形",
+          "suggestion": "部外者、よそ者"
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "word": "candidate",
+      "issues": [
+        {
+          "distractor": "投票する",
+          "type": "pos",
+          "reason": "正解「候補者」は名詞だが、これは動詞形",
+          "suggestion": "有権者、選挙民"
+        },
+        {
+          "distractor": "（制度・法律などを）廃止する",
+          "type": "pos",
+          "reason": "正解「候補者」は名詞だが、これは動詞形",
+          "suggestion": "当選者、勝者"
+        }
+      ]
+    },
+    {
+      "id": 558,
+      "word": "disorder",
+      "issues": [
+        {
+          "distractor": "悪化させる、複雑にする",
+          "type": "pos",
+          "reason": "正解「障害・疾患」は名詞だが、これは動詞形",
+          "suggestion": "治療、療法"
+        }
+      ]
+    },
+    {
+      "id": 565,
+      "word": "motion",
+      "issues": [
+        {
+          "distractor": "垂直の；縦の",
+          "type": "pos",
+          "reason": "正解「動き、運動」は名詞だが、これは「〜の」で終わる形容詞で品詞が異なる",
+          "suggestion": "静止、停止"
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "word": "colony",
+      "issues": [
+        {
+          "distractor": "（制度・法律などを）廃止する",
+          "type": "pos",
+          "reason": "正解「植民地」は名詞だが、これは「〜する」の動詞で品詞が異なる",
+          "suggestion": "条約、協定"
+        }
+      ]
+    },
+    {
+      "id": 574,
+      "word": "grain",
+      "issues": [
+        {
+          "distractor": "花が咲く、開花する",
+          "type": "pos",
+          "reason": "正解「穀物、穀粒」は名詞だが、これは「〜する」の動詞で品詞が異なる",
+          "suggestion": "果実、果物"
+        }
+      ]
+    },
+    {
+      "id": 601,
+      "word": "commit",
+      "issues": [
+        {
+          "distractor": "犠牲・生け贄",
+          "type": "pos",
+          "reason": "名詞であり、正解「専念する・約束する」という動詞と品詞が異なる",
+          "suggestion": "後悔する、悔いる"
+        }
+      ]
+    },
+    {
+      "id": 614,
+      "word": "rent",
+      "issues": [
+        {
+          "distractor": "抵当",
+          "type": "pos",
+          "reason": "名詞であり、正解「借りる、賃貸する」という動詞と品詞が異なる",
+          "suggestion": "出発する、旅立つ"
+        },
+        {
+          "distractor": "製粉所、工場",
+          "type": "pos",
+          "reason": "名詞であり、正解「借りる、賃貸する」という動詞と品詞が異なる",
+          "suggestion": "警告する、注意する"
+        }
+      ]
+    },
+    {
+      "id": 616,
+      "word": "invest",
+      "issues": [
+        {
+          "distractor": "資産、財産",
+          "type": "pos",
+          "reason": "名詞であり、正解「投資する」という動詞と品詞が異なる",
+          "suggestion": "拡大する、広げる"
+        },
+        {
+          "distractor": "利益、利潤",
+          "type": "pos",
+          "reason": "名詞であり、正解「投資する」という動詞と品詞が異なる",
+          "suggestion": "後退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 624,
+      "word": "puzzle",
+      "issues": [
+        {
+          "distractor": "意見",
+          "type": "pos",
+          "reason": "正解「困惑させる、当惑させる」は動詞だが、「意見」は名詞で品詞だけで消去できる",
+          "suggestion": "急がせる、せかす"
+        }
+      ]
+    },
+    {
+      "id": 633,
+      "word": "import",
+      "issues": [
+        {
+          "distractor": "資源",
+          "type": "pos",
+          "reason": "正解「〜を輸入する」は動詞だが、「資源」は名詞で品詞だけで消去できる",
+          "suggestion": "断る、拒否する"
+        },
+        {
+          "distractor": "商業、貿易",
+          "type": "pos",
+          "reason": "正解「〜を輸入する」は動詞だが、「商業、貿易」は名詞で品詞だけで消去できる",
+          "suggestion": "隠す、秘匿する"
+        }
+      ]
+    },
+    {
+      "id": 634,
+      "word": "export",
+      "issues": [
+        {
+          "distractor": "心付け金",
+          "type": "pos",
+          "reason": "正解「〜を輸出する」は動詞だが、「心付け金」は名詞で品詞だけで消去できる",
+          "suggestion": "隠す、秘匿する"
+        },
+        {
+          "distractor": "負債、借金",
+          "type": "pos",
+          "reason": "正解「〜を輸出する」は動詞だが、「負債、借金」は名詞で品詞だけで消去できる",
+          "suggestion": "妨げる、阻止する"
+        }
+      ]
+    },
+    {
+      "id": 641,
+      "word": "sequence",
+      "issues": [
+        {
+          "distractor": "垂直の；縦の",
+          "type": "pos",
+          "reason": "正解「順序、連続」は名詞だが、これは形容詞形（〜の）",
+          "suggestion": "矛盾、不一致"
+        }
+      ]
+    },
+    {
+      "id": 650,
+      "word": "award",
+      "issues": [
+        {
+          "distractor": "競争する・競う",
+          "type": "pos",
+          "reason": "正解「賞、賞品」は名詞だが、これは動詞形（〜する）",
+          "suggestion": "弱点、欠点"
+        },
+        {
+          "distractor": "従事する、関与する",
+          "type": "pos",
+          "reason": "正解「賞、賞品」は名詞だが、これは動詞形（〜する）",
+          "suggestion": "疑惑、疑い"
+        },
+        {
+          "distractor": "教育する",
+          "type": "pos",
+          "reason": "正解「賞、賞品」は名詞だが、これは動詞形（〜する）",
+          "suggestion": "偏見、先入観"
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "word": "minimum",
+      "issues": [
+        {
+          "distractor": "大量の、大規模な",
+          "type": "pos",
+          "reason": "正解「最小限」は名詞だが、これは形容詞形（〜な）",
+          "suggestion": "余剰、過剰"
+        }
+      ]
+    },
+    {
+      "id": 662,
+      "word": "territory",
+      "issues": [
+        {
+          "distractor": "調査する、探る",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「領土・縄張り」（名詞）と品詞が異なる",
+          "suggestion": "名簿、記録"
+        }
+      ]
+    },
+    {
+      "id": 664,
+      "word": "habitat",
+      "issues": [
+        {
+          "distractor": "北極の",
+          "type": "pos",
+          "reason": "形容詞表現であり、正解「生息地、生育地」（名詞）と品詞が異なる",
+          "suggestion": "書類、文書"
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "word": "district",
+      "issues": [
+        {
+          "distractor": "〜を改革する、改善する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「地区、行政区」（名詞）と品詞が異なる",
+          "suggestion": "装飾品、飾り"
+        }
+      ]
+    },
+    {
+      "id": 668,
+      "word": "predator",
+      "issues": [
+        {
+          "distractor": "調査する、探る",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「捕食者、天敵」（名詞）と品詞が異なる",
+          "suggestion": "書類、記録"
+        }
+      ]
+    },
+    {
+      "id": 674,
+      "word": "cooperation",
+      "issues": [
+        {
+          "distractor": "侮辱する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「協力、協調」（名詞）と品詞が異なる",
+          "suggestion": "装飾品、飾り"
+        },
+        {
+          "distractor": "裏切る、背く",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「協力、協調」（名詞）と品詞が異なる",
+          "suggestion": "書類、記録"
+        }
+      ]
+    },
+    {
+      "id": 676,
+      "word": "dialogue",
+      "issues": [
+        {
+          "distractor": "（〜を）控える・慎む",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「対話、会話」（名詞）と品詞が異なる",
+          "suggestion": "書類、文書"
+        },
+        {
+          "distractor": "大切にする、慈しむ",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「対話、会話」（名詞）と品詞が異なる",
+          "suggestion": "装飾品、飾り"
+        },
+        {
+          "distractor": "〜に似ている",
+          "type": "pos",
+          "reason": "動詞的表現であり、正解「対話、会話」（名詞）と品詞が異なる",
+          "suggestion": "行事、祭典"
+        }
+      ]
+    },
+    {
+      "id": 693,
+      "word": "evil",
+      "issues": [
+        {
+          "distractor": "軽蔑、侮蔑",
+          "type": "pos",
+          "reason": "正解「邪悪な、悪の」は形容詞だが、これは名詞形であり品詞だけで消去できる",
+          "suggestion": "怠惰な、だらしない"
+        }
+      ]
+    },
+    {
+      "id": 697,
+      "word": "rude",
+      "issues": [
+        {
+          "distractor": "優雅さ、品格",
+          "type": "pos",
+          "reason": "正解「無礼な、失礼な」は形容詞だが、これは名詞形であり品詞だけで消去できる",
+          "suggestion": "慎重な、思慮深い"
+        }
+      ]
+    },
+    {
+      "id": 702,
+      "word": "dominate",
+      "issues": [
+        {
+          "distractor": "仲間・同僚",
+          "type": "pos",
+          "reason": "名詞句であり、正解「支配する、優位に立つ」（動詞）と品詞が異なり消去できる",
+          "suggestion": "後悔する、悔やむ"
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "word": "lend",
+      "issues": [
+        {
+          "distractor": "同盟",
+          "type": "pos",
+          "reason": "名詞であり、正解「貸す、貸し出す」（動詞）と品詞が異なり消去できる",
+          "suggestion": "撤退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 713,
+      "word": "accompany",
+      "issues": [
+        {
+          "distractor": "受取人、受領者",
+          "type": "pos",
+          "reason": "名詞であり、正解「同行する」（動詞）と品詞が異なり消去できる",
+          "suggestion": "反抗する、逆らう"
+        }
+      ]
+    },
+    {
+      "id": 715,
+      "word": "annoy",
+      "issues": [
+        {
+          "distractor": "意見",
+          "type": "pos",
+          "reason": "名詞であり、正解「苛立たせる」（動詞）と品詞が異なり消去できる",
+          "suggestion": "回復する、立ち直る"
+        }
+      ]
+    },
+    {
+      "id": 722,
+      "word": "specialize",
+      "issues": [
+        {
+          "distractor": "同意、承諾",
+          "type": "pos",
+          "reason": "正解は動詞「専門とする、専攻する」だが、これは名詞形で品詞が異なる",
+          "suggestion": "見下す、軽蔑する"
+        }
+      ]
+    },
+    {
+      "id": 727,
+      "word": "resist",
+      "issues": [
+        {
+          "distractor": "離婚",
+          "type": "pos",
+          "reason": "正解は動詞「抵抗する、反抗する」だが、これは名詞で品詞が異なる",
+          "suggestion": "頼る、依存する"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "word": "assist",
+      "issues": [
+        {
+          "distractor": "離婚",
+          "type": "pos",
+          "reason": "正解は動詞「手伝う、支援する」だが、これは名詞で品詞が異なる",
+          "suggestion": "妨害する、邪魔をする"
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "word": "reform",
+      "issues": [
+        {
+          "distractor": "うわさ、風評",
+          "type": "pos",
+          "reason": "正解は動詞「〜を改革する、改善する」だが、これは名詞で品詞が異なる",
+          "suggestion": "延期する、先送りする"
+        },
+        {
+          "distractor": "嫌がらせ",
+          "type": "pos",
+          "reason": "正解動詞に対し名詞形で品詞が異なる",
+          "suggestion": "称賛する、称える"
+        },
+        {
+          "distractor": "窃盗、盗み",
+          "type": "pos",
+          "reason": "正解動詞に対し名詞形で品詞が異なる",
+          "suggestion": "縮小する、減らす"
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "word": "protest",
+      "issues": [
+        {
+          "distractor": "同僚、仕事仲間",
+          "type": "pos",
+          "reason": "正解は動詞「〜に抗議する、異議を唱える」だが、これは名詞で品詞が異なる",
+          "suggestion": "模倣する、真似る"
+        }
+      ]
+    },
+    {
+      "id": 737,
+      "word": "owe",
+      "issues": [
+        {
+          "distractor": "貸付金",
+          "type": "pos",
+          "reason": "正解は動詞「〜を借りている、〜の義務がある」だが、これは名詞で品詞が異なる",
+          "suggestion": "軽視する、見くびる"
+        },
+        {
+          "distractor": "利害関係、出資分",
+          "type": "pos",
+          "reason": "正解動詞に対し名詞形で品詞が異なる",
+          "suggestion": "妨げる、阻止する"
+        },
+        {
+          "distractor": "請求書、勘定書",
+          "type": "pos",
+          "reason": "正解動詞に対し名詞形で品詞が異なる",
+          "suggestion": "称賛する、称える"
+        }
+      ]
+    },
+    {
+      "id": 752,
+      "word": "agent",
+      "issues": [
+        {
+          "distractor": "（競売・入札で）値をつける、入札する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「代理人」（名詞）と品詞が異なる",
+          "suggestion": "書類、文書"
+        }
+      ]
+    },
+    {
+      "id": 753,
+      "word": "globe",
+      "issues": [
+        {
+          "distractor": "海の、海洋の",
+          "type": "pos",
+          "reason": "「〜の」形の形容詞であり、正解「地球・地球儀」（名詞）と品詞が異なる",
+          "suggestion": "書棚、本棚"
+        }
+      ]
+    },
+    {
+      "id": 756,
+      "word": "sacrifice",
+      "issues": [
+        {
+          "distractor": "育てる、養育する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「犠牲・生け贄」（名詞）と品詞が異なる",
+          "suggestion": "基盤、土台"
+        },
+        {
+          "distractor": "（規則・要求に）従う、応じる",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「犠牲・生け贄」（名詞）と品詞が異なる",
+          "suggestion": "合意、同意"
+        },
+        {
+          "distractor": "助ける；支援する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「犠牲・生け贄」（名詞）と品詞が異なる",
+          "suggestion": "障害、妨げ"
+        }
+      ]
+    },
+    {
+      "id": 759,
+      "word": "league",
+      "issues": [
+        {
+          "distractor": "辞任する、辞職する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「同盟・連盟」（名詞）と品詞が異なる",
+          "suggestion": "契約、協定"
+        },
+        {
+          "distractor": "ずるをする、不正をする",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「同盟・連盟」（名詞）と品詞が異なる",
+          "suggestion": "祝祭、祭典"
+        }
+      ]
+    },
+    {
+      "id": 760,
+      "word": "contest",
+      "issues": [
+        {
+          "distractor": "尊重する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「競技会・競争」（名詞）と品詞が異なる",
+          "suggestion": "情熱、熱意"
+        },
+        {
+          "distractor": "権利を与える",
+          "type": "pos",
+          "reason": "動詞表現であり、正解「競技会・競争」（名詞）と品詞が異なる",
+          "suggestion": "規則、規定"
+        }
+      ]
+    },
+    {
+      "id": 762,
+      "word": "opponent",
+      "issues": [
+        {
+          "distractor": "貢献する、寄与する",
+          "type": "pos",
+          "reason": "正解は名詞「対戦相手、反対者」だが、これは動詞形で品詞が異なる",
+          "suggestion": "観客、見物人"
+        },
+        {
+          "distractor": "引き出す、撤退する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形で品詞が異なる",
+          "suggestion": "証人、目撃者"
+        }
+      ]
+    },
+    {
+      "id": 764,
+      "word": "divorce",
+      "issues": [
+        {
+          "distractor": "鼓舞する",
+          "type": "pos",
+          "reason": "正解は名詞「離婚」だが、これは動詞形で品詞が異なる",
+          "suggestion": "結婚、婚姻"
+        },
+        {
+          "distractor": "依頼する、要請する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形で品詞が異なる",
+          "suggestion": "別居、別離"
+        },
+        {
+          "distractor": "連絡する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形で品詞が異なる",
+          "suggestion": "和解、仲直り"
+        }
+      ]
+    },
+    {
+      "id": 765,
+      "word": "tissue",
+      "issues": [
+        {
+          "distractor": "悪化させる、複雑にする",
+          "type": "pos",
+          "reason": "正解は名詞「組織（生体の）」だが、これは動詞形で品詞が異なる",
+          "suggestion": "繊維、織物"
+        }
+      ]
+    },
+    {
+      "id": 767,
+      "word": "inequality",
+      "issues": [
+        {
+          "distractor": "〜を改革する、改善する",
+          "type": "pos",
+          "reason": "正解は名詞「不平等、格差」だが、これは動詞形で品詞が異なる",
+          "suggestion": "階層、身分制度"
+        }
+      ]
+    },
+    {
+      "id": 768,
+      "word": "prejudice",
+      "issues": [
+        {
+          "distractor": "〜を選挙で選ぶ",
+          "type": "pos",
+          "reason": "正解は名詞「偏見、先入観」だが、これは動詞形で品詞が異なる",
+          "suggestion": "陪審員、審査員"
+        }
+      ]
+    },
+    {
+      "id": 771,
+      "word": "platform",
+      "issues": [
+        {
+          "distractor": "更新する",
+          "type": "pos",
+          "reason": "正解は名詞「基盤」だが、これは動詞形で品詞が異なる",
+          "suggestion": "演壇、壇上"
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "word": "sector",
+      "issues": [
+        {
+          "distractor": "〜を輸入する",
+          "type": "pos",
+          "reason": "正解は名詞「部門」だが、これは動詞形で品詞が異なる",
+          "suggestion": "区域、地区"
+        }
+      ]
+    },
+    {
+      "id": 773,
+      "word": "channel",
+      "issues": [
+        {
+          "distractor": "差し込む、接続する",
+          "type": "pos",
+          "reason": "正解は名詞「放送局、経路」だが、これは動詞形で品詞が異なる",
+          "suggestion": "規則、規定"
+        }
+      ]
+    },
+    {
+      "id": 779,
+      "word": "artistic",
+      "issues": [
+        {
+          "distractor": "物語・叙述",
+          "type": "pos",
+          "reason": "正解は形容詞「芸術的な、芸術の」だが、これは名詞で品詞が異なる",
+          "suggestion": "科学的な、論理的な"
+        },
+        {
+          "distractor": "傑作、名作",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "退屈な、単調な"
+        },
+        {
+          "distractor": "画像；映像",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "機械的な、無機質な"
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "word": "literary",
+      "issues": [
+        {
+          "distractor": "詩・韻文",
+          "type": "pos",
+          "reason": "正解は形容詞「文学的な、文学の」だが、これは名詞で品詞が異なる",
+          "suggestion": "科学的な、技術的な"
+        },
+        {
+          "distractor": "〜を飾る・装飾する",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは動詞形で品詞が異なる",
+          "suggestion": "歴史的な、伝統的な"
+        },
+        {
+          "distractor": "隠喩",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "実用的な、機能的な"
+        }
+      ]
+    },
+    {
+      "id": 781,
+      "word": "classic",
+      "issues": [
+        {
+          "distractor": "物語・叙述",
+          "type": "pos",
+          "reason": "正解は形容詞「古典的な、一流の」だが、これは名詞形で品詞が異なる",
+          "suggestion": "退屈な、つまらない"
+        },
+        {
+          "distractor": "神話",
+          "type": "pos",
+          "reason": "正解の形容詞に対し、名詞形であり品詞だけで消去できる",
+          "suggestion": "乱暴な、粗野な"
+        },
+        {
+          "distractor": "台本、脚本",
+          "type": "pos",
+          "reason": "正解の形容詞に対し、名詞形であり品詞だけで消去できる",
+          "suggestion": "柔軟な、融通の利く"
+        }
+      ]
+    },
+    {
+      "id": 790,
+      "word": "marine",
+      "issues": [
+        {
+          "distractor": "破片、残骸",
+          "type": "pos",
+          "reason": "正解は形容詞「海の、海洋の」だが、これは名詞形で品詞が異なる",
+          "suggestion": "陽気な、朗らかな"
+        },
+        {
+          "distractor": "農薬、殺虫剤",
+          "type": "pos",
+          "reason": "正解の形容詞に対し、名詞形であり品詞だけで消去できる",
+          "suggestion": "寛大な、気前の良い"
+        },
+        {
+          "distractor": "花が咲く、開花する",
+          "type": "pos",
+          "reason": "正解の形容詞に対し、動詞形であり品詞だけで消去できる",
+          "suggestion": "退屈な、単調な"
+        }
+      ]
+    },
+    {
+      "id": 808,
+      "word": "command",
+      "issues": [
+        {
+          "distractor": "賞、賞品",
+          "type": "pos",
+          "reason": "名詞であり、正解「命令する、指揮する」（動詞）と品詞が異なる",
+          "suggestion": "撤退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 812,
+      "word": "greet",
+      "issues": [
+        {
+          "distractor": "対戦相手、反対者",
+          "type": "pos",
+          "reason": "名詞であり、正解「挨拶する」（動詞）と品詞が異なる",
+          "suggestion": "怒鳴る、叫ぶ"
+        }
+      ]
+    },
+    {
+      "id": 821,
+      "word": "wed",
+      "issues": [
+        {
+          "distractor": "知人、顔見知り",
+          "type": "pos",
+          "reason": "名詞であり、正解「結婚する、結婚させる」（動詞）と品詞が異なる",
+          "suggestion": "黙らせる、静める"
+        },
+        {
+          "distractor": "同意、承諾",
+          "type": "pos",
+          "reason": "名詞であり、正解（動詞）と品詞が異なる",
+          "suggestion": "拒絶する、断る"
+        }
+      ]
+    },
+    {
+      "id": 827,
+      "word": "rescue",
+      "issues": [
+        {
+          "distractor": "再会、同窓会",
+          "type": "pos",
+          "reason": "名詞であり、正解「救助する、救出する」（動詞）と品詞が異なる",
+          "suggestion": "妨害する、邪魔する"
+        }
+      ]
+    },
+    {
+      "id": 833,
+      "word": "compose",
+      "issues": [
+        {
+          "distractor": "傑作、名作",
+          "type": "pos",
+          "reason": "名詞であり、正解「作曲する、作成する」（動詞）と品詞が異なる",
+          "suggestion": "放棄する、諦める"
+        },
+        {
+          "distractor": "記念碑",
+          "type": "pos",
+          "reason": "名詞であり、正解（動詞）と品詞が異なる",
+          "suggestion": "妨げる、遅らせる"
+        },
+        {
+          "distractor": "ことわざ、格言",
+          "type": "pos",
+          "reason": "名詞であり、正解（動詞）と品詞が異なる",
+          "suggestion": "撤回する、取り消す"
+        }
+      ]
+    },
+    {
+      "id": 844,
+      "word": "mode",
+      "issues": [
+        {
+          "distractor": "（情報・資料を）編集・収集する",
+          "type": "pos",
+          "reason": "正解「方式、様式」は名詞だが、この誤答は「〜する」で動詞形になっている",
+          "suggestion": "慣習、しきたり"
+        }
+      ]
+    },
+    {
+      "id": 847,
+      "word": "orbit",
+      "issues": [
+        {
+          "distractor": "花が咲く、開花する",
+          "type": "pos",
+          "reason": "正解「軌道」は名詞だが、この誤答は「〜する」で動詞形になっている",
+          "suggestion": "障害、妨げ"
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "word": "grocery",
+      "issues": [
+        {
+          "distractor": "化粧の、美容の",
+          "type": "pos",
+          "reason": "正解「食料雑貨（店）」は名詞だが、この誤答は「〜の」で形容詞形になっている",
+          "suggestion": "倉庫、貯蔵庫"
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "word": "stem",
+      "issues": [
+        {
+          "distractor": "北極の",
+          "type": "pos",
+          "reason": "形容詞（〜の）で、正解「茎・幹」（名詞）と品詞が異なり消去できる",
+          "suggestion": "洞窟、洞穴"
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "word": "prefecture",
+      "issues": [
+        {
+          "distractor": "投票する",
+          "type": "pos",
+          "reason": "動詞（〜する）で、正解「県、都道府県」（名詞）と品詞が異なり消去できる",
+          "suggestion": "湖沼、湿地"
+        }
+      ]
+    },
+    {
+      "id": 876,
+      "word": "council",
+      "issues": [
+        {
+          "distractor": "〜を選挙で選ぶ",
+          "type": "pos",
+          "reason": "動詞（〜する）で、正解「評議会、議会、審議会」（名詞）と品詞が異なり消去できる",
+          "suggestion": "倉庫、貯蔵所"
+        }
+      ]
+    },
+    {
+      "id": 880,
+      "word": "generous",
+      "issues": [
+        {
+          "distractor": "喜んで〜する、〜する意向がある",
+          "type": "pos",
+          "reason": "動詞的な表現（〜する）で、正解「気前のよい、寛大な」（形容詞）と語形が異なり消去できる",
+          "suggestion": "頑固な、強情な"
+        },
+        {
+          "distractor": "優雅さ、品格",
+          "type": "pos",
+          "reason": "名詞で、正解「気前のよい、寛大な」（形容詞）と品詞が異なり消去できる",
+          "suggestion": "臆病な、内気な"
+        }
+      ]
+    },
+    {
+      "id": 885,
+      "word": "Arctic",
+      "issues": [
+        {
+          "distractor": "砂漠",
+          "type": "pos",
+          "reason": "名詞であり、正解「北極の」などの形容詞と品詞が異なる",
+          "suggestion": "温暖な、暖かい"
+        },
+        {
+          "distractor": "流域・盆地",
+          "type": "pos",
+          "reason": "名詞であり、正解「北極の」などの形容詞と品詞が異なる",
+          "suggestion": "険しい、山岳の"
+        }
+      ]
+    },
+    {
+      "id": 899,
+      "word": "mature",
+      "issues": [
+        {
+          "distractor": "外向的な人、社交的な人",
+          "type": "pos",
+          "reason": "「〜人」という名詞句になっており、正解「成熟した、大人の」という形容詞と品詞が異なる",
+          "suggestion": "怠惰な、怠け者の"
+        }
+      ]
+    },
+    {
+      "id": 900,
+      "word": "likewise",
+      "issues": [
+        {
+          "distractor": "それにもかかわらず、とにかく",
+          "type": "duplicate",
+          "reason": "もう一つの誤答「〜にもかかわらず」と実質同義で重複している",
+          "suggestion": "さらに、加えて"
+        }
+      ]
+    },
+    {
+      "id": 917,
+      "word": "reproduce",
+      "issues": [
+        {
+          "distractor": "姿勢",
+          "type": "pos",
+          "reason": "正解は動詞「繁殖する・生殖する」だが、これは名詞で品詞が異なる",
+          "suggestion": "謝罪する、詫びる"
+        }
+      ]
+    },
+    {
+      "id": 918,
+      "word": "bob",
+      "issues": [
+        {
+          "distractor": "ちらりと見ること、一瞥",
+          "type": "pos",
+          "reason": "正解は動詞「上下に揺れる・ひょこひょこ動く」だが、これは「〜こと」の名詞形で品詞が異なる",
+          "suggestion": "凍える、震える"
+        }
+      ]
+    },
+    {
+      "id": 925,
+      "word": "regulate",
+      "issues": [
+        {
+          "distractor": "人種、民族",
+          "type": "pos",
+          "reason": "正解は動詞「〜を規制する」だが、これは名詞句で品詞が異なり消去できる",
+          "suggestion": "〜を無視する、軽視する"
+        },
+        {
+          "distractor": "国勢調査・人口調査",
+          "type": "pos",
+          "reason": "名詞句であり、動詞である正解ラベルと品詞が異なる",
+          "suggestion": "〜を延期する、先送りする"
+        },
+        {
+          "distractor": "義務、責務",
+          "type": "pos",
+          "reason": "名詞句であり、動詞である正解ラベルと品詞が異なる",
+          "suggestion": "〜を解放する、自由にする"
+        }
+      ]
+    },
+    {
+      "id": 948,
+      "word": "panel",
+      "issues": [
+        {
+          "distractor": "議院、会議所",
+          "type": "duplicate",
+          "reason": "「議会、国会」と同じ『立法機関』を指す語で実質重複している",
+          "suggestion": "倉庫、貯蔵庫"
+        }
+      ]
+    },
+    {
+      "id": 951,
+      "word": "mill",
+      "issues": [
+        {
+          "distractor": "思い切って〜する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞句の形になっており品詞だけで除外できる",
+          "suggestion": "器具、道具"
+        }
+      ]
+    },
+    {
+      "id": 952,
+      "word": "abuse",
+      "issues": [
+        {
+          "distractor": "〜に有罪判決を下す",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞句の形になっており品詞だけで除外できる",
+          "suggestion": "規則、規定"
+        }
+      ]
+    },
+    {
+      "id": 955,
+      "word": "tragedy",
+      "issues": [
+        {
+          "distractor": "作曲する、作成する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞の形になっており品詞だけで除外できる",
+          "suggestion": "伝説、物語"
+        },
+        {
+          "distractor": "文学的な、文学の",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは形容詞の形になっており品詞だけで除外できる",
+          "suggestion": "出来事、事件"
+        }
+      ]
+    },
+    {
+      "id": 961,
+      "word": "metaphor",
+      "issues": [
+        {
+          "distractor": "美的な、審美的な",
+          "type": "pos",
+          "reason": "正解「隠喩」は名詞だが、これは形容詞形で品詞だけで消去できる",
+          "suggestion": "伝説、神話"
+        }
+      ]
+    },
+    {
+      "id": 962,
+      "word": "folk",
+      "issues": [
+        {
+          "distractor": "描写する、表現する",
+          "type": "pos",
+          "reason": "正解「民衆、人々」は名詞だが、これは動詞形で品詞だけで消去できる",
+          "suggestion": "儀式、慣習"
+        }
+      ]
+    },
+    {
+      "id": 963,
+      "word": "fare",
+      "issues": [
+        {
+          "distractor": "（競売・入札で）値をつける、入札する",
+          "type": "pos",
+          "reason": "正解「運賃、料金」は名詞だが、これは動詞形で品詞だけで消去できる",
+          "suggestion": "乗客、旅客"
+        }
+      ]
+    },
+    {
+      "id": 970,
+      "word": "stroke",
+      "issues": [
+        {
+          "distractor": "悪化させる、複雑にする",
+          "type": "pos",
+          "reason": "正解「脳卒中」は名詞だが、これは動詞形で品詞だけで消去できる",
+          "suggestion": "持久力、耐久力"
+        }
+      ]
+    },
+    {
+      "id": 973,
+      "word": "ecology",
+      "issues": [
+        {
+          "distractor": "汚染する",
+          "type": "pos",
+          "reason": "正解「生態学」は名詞だが、これは動詞形で品詞だけで消去できる",
+          "suggestion": "生息地、環境"
+        }
+      ]
+    },
+    {
+      "id": 975,
+      "word": "ratio",
+      "issues": [
+        {
+          "distractor": "大量の、大規模な",
+          "type": "pos",
+          "reason": "正解「比率、割合」は名詞だが、これは形容詞形で品詞だけで消去できる",
+          "suggestion": "余剰、残余"
+        }
+      ]
+    },
+    {
+      "id": 977,
+      "word": "charm",
+      "issues": [
+        {
+          "distractor": "熱心な、熱望している",
+          "type": "pos",
+          "reason": "正解「魅力、愛嬌」は名詞だが、これは形容詞形で品詞だけで消去できる",
+          "suggestion": "恐怖、恐怖心"
+        },
+        {
+          "distractor": "恥じている、恥ずかしく思っている",
+          "type": "pos",
+          "reason": "正解は名詞だが、これも形容詞形で品詞だけで消去できる",
+          "suggestion": "後悔、悔恨"
+        },
+        {
+          "distractor": "忍耐強い",
+          "type": "pos",
+          "reason": "正解は名詞だが、これも形容詞形で品詞だけで消去できる",
+          "suggestion": "忍耐力、根気"
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "word": "cruel",
+      "issues": [
+        {
+          "distractor": "軽蔑、侮蔑",
+          "type": "pos",
+          "reason": "正解は形容詞「残酷な、冷酷な」だが、これは名詞形であり品詞だけで消去できる",
+          "suggestion": "大胆な、勇敢な"
+        }
+      ]
+    },
+    {
+      "id": 999,
+      "word": "keen",
+      "issues": [
+        {
+          "distractor": "魅力、愛嬌",
+          "type": "pos",
+          "reason": "正解は形容詞「熱心な、意欲的な」だが、これは名詞形であり品詞だけで消去できる",
+          "suggestion": "穏やかな、落ち着いた"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "word": "negotiate",
+      "issues": [
+        {
+          "distractor": "競争",
+          "type": "pos",
+          "reason": "名詞であり、正解「交渉する」（動詞）と品詞が異なる",
+          "suggestion": "撤退する"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "word": "donate",
+      "issues": [
+        {
+          "distractor": "競争",
+          "type": "pos",
+          "reason": "名詞であり、正解「寄付する・寄贈する」（動詞）と品詞が異なる",
+          "suggestion": "撤退する"
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "word": "arrest",
+      "issues": [
+        {
+          "distractor": "合意、総意",
+          "type": "pos",
+          "reason": "名詞であり、正解「逮捕する」（動詞）と品詞が異なる",
+          "suggestion": "撤退する"
+        },
+        {
+          "distractor": "評議会、議会、審議会",
+          "type": "pos",
+          "reason": "名詞であり、正解「逮捕する」（動詞）と品詞が異なる",
+          "suggestion": "拒絶する"
+        },
+        {
+          "distractor": "行政、管理、運営",
+          "type": "pos",
+          "reason": "名詞であり、正解「逮捕する」（動詞）と品詞が異なる",
+          "suggestion": "後退する"
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "word": "dispute",
+      "issues": [
+        {
+          "distractor": "協力、協調",
+          "type": "pos",
+          "reason": "名詞であり、正解「異議を唱える、反論する」（動詞）と品詞が異なる",
+          "suggestion": "撤退する"
+        }
+      ]
+    },
+    {
+      "id": 1021,
+      "word": "cheat",
+      "issues": [
+        {
+          "distractor": "仲間・同僚",
+          "type": "pos",
+          "reason": "正解は動詞「ずるをする」だが、これは名詞表現で品詞が異なる",
+          "suggestion": "警告する、注意を促す"
+        }
+      ]
+    },
+    {
+      "id": 1022,
+      "word": "foster",
+      "issues": [
+        {
+          "distractor": "助ける；支援する",
+          "type": "synonym",
+          "reason": "正解「育む、促進する」と意味が近く、支援・助力という点で区別しづらい",
+          "suggestion": "妨げる、阻止する"
+        }
+      ]
+    },
+    {
+      "id": 1027,
+      "word": "log",
+      "issues": [
+        {
+          "distractor": "歯車",
+          "type": "pos",
+          "reason": "正解は動詞「記録する」だが、これは名詞で品詞が異なる",
+          "suggestion": "削除する、消去する"
+        },
+        {
+          "distractor": "図表",
+          "type": "pos",
+          "reason": "正解は動詞「記録する」だが、これは名詞で品詞が異なる",
+          "suggestion": "隠す、秘匿する"
+        },
+        {
+          "distractor": "出力、産出量",
+          "type": "pos",
+          "reason": "正解は動詞「記録する」だが、これは名詞で品詞が異なる",
+          "suggestion": "忘れる、失念する"
+        }
+      ]
+    },
+    {
+      "id": 1042,
+      "word": "input",
+      "issues": [
+        {
+          "distractor": "差し込む、接続する",
+          "type": "pos",
+          "reason": "正解「入力」は名詞だが、これは動詞形",
+          "suggestion": "余剰、過剰分"
+        }
+      ]
+    },
+    {
+      "id": 1045,
+      "word": "compliment",
+      "issues": [
+        {
+          "distractor": "追放する；除名する",
+          "type": "pos",
+          "reason": "正解「褒め言葉、称賛」は名詞だが、これは動詞形",
+          "suggestion": "苦情、不満"
+        },
+        {
+          "distractor": "～に出席する、参加する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "警告、注意"
+        },
+        {
+          "distractor": "〜を非難する、糾弾する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "誤解、勘違い"
+        }
+      ]
+    },
+    {
+      "id": 1046,
+      "word": "infrastructure",
+      "issues": [
+        {
+          "distractor": "模擬する",
+          "type": "pos",
+          "reason": "正解「社会基盤」は名詞だが、これは動詞形",
+          "suggestion": "慣習、しきたり"
+        }
+      ]
+    },
+    {
+      "id": 1050,
+      "word": "expedition",
+      "issues": [
+        {
+          "distractor": "花が咲く、開花する",
+          "type": "pos",
+          "reason": "正解「遠征、探検」は名詞だが、これは動詞形",
+          "suggestion": "契約、合意"
+        }
+      ]
+    },
+    {
+      "id": 1052,
+      "word": "shade",
+      "issues": [
+        {
+          "distractor": "妖精の、妖精に関する",
+          "type": "pos",
+          "reason": "正解「影、日陰」は名詞だが、これは形容詞形",
+          "suggestion": "騒音、雑音"
+        }
+      ]
+    },
+    {
+      "id": 1053,
+      "word": "jury",
+      "issues": [
+        {
+          "distractor": "〜を改革する、改善する",
+          "type": "pos",
+          "reason": "正解「陪審員団」は名詞だが、これは動詞形",
+          "suggestion": "契約、合意"
+        }
+      ]
+    },
+    {
+      "id": 1057,
+      "word": "scheme",
+      "issues": [
+        {
+          "distractor": "見解、意見",
+          "type": "duplicate",
+          "reason": "「視点、観点」と実質同義で重複している",
+          "suggestion": "疲労、消耗"
+        },
+        {
+          "distractor": "視点、観点",
+          "type": "duplicate",
+          "reason": "「見解、意見」と実質同義で重複している",
+          "suggestion": "慣習、しきたり"
+        }
+      ]
+    },
+    {
+      "id": 1061,
+      "word": "nationality",
+      "issues": [
+        {
+          "distractor": "〜に有罪判決を下す",
+          "type": "pos",
+          "reason": "正解「国籍」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "居住地、住所"
+        }
+      ]
+    },
+    {
+      "id": 1062,
+      "word": "poll",
+      "issues": [
+        {
+          "distractor": "〜を改革する、改善する",
+          "type": "pos",
+          "reason": "正解「世論調査・投票」は名詞だが、これは動詞表現",
+          "suggestion": "候補者、立候補者"
+        },
+        {
+          "distractor": "〜を選挙で選ぶ",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "有権者、投票者"
+        }
+      ]
+    },
+    {
+      "id": 1069,
+      "word": "narrative",
+      "issues": [
+        {
+          "distractor": "〜を飾る・装飾する",
+          "type": "pos",
+          "reason": "正解「物語・叙述」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "風景、景観"
+        },
+        {
+          "distractor": "描写する、表現する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "記録、資料"
+        }
+      ]
+    },
+    {
+      "id": 1071,
+      "word": "file",
+      "issues": [
+        {
+          "distractor": "模擬する",
+          "type": "pos",
+          "reason": "正解「書類」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "棚、収納庫"
+        }
+      ]
+    },
+    {
+      "id": 1072,
+      "word": "wilderness",
+      "issues": [
+        {
+          "distractor": "汚染する",
+          "type": "pos",
+          "reason": "正解「荒野、手つかずの自然」は名詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "都市、市街地"
+        }
+      ]
+    },
+    {
+      "id": 1076,
+      "word": "fantasy",
+      "issues": [
+        {
+          "distractor": "観客、見物人",
+          "type": "duplicate",
+          "reason": "同じ誤答群にある「観客、聴衆」と実質同義で重複している",
+          "suggestion": "記録、記述"
+        },
+        {
+          "distractor": "観客、聴衆",
+          "type": "duplicate",
+          "reason": "同じ誤答群にある「観客、見物人」と実質同義で重複している",
+          "suggestion": "契約、合意"
+        }
+      ]
+    },
+    {
+      "id": 1084,
+      "word": "brave",
+      "issues": [
+        {
+          "distractor": "優雅さ、品格",
+          "type": "pos",
+          "reason": "正解「勇敢な、勇気のある」は形容詞だが、これは名詞表現であり品詞だけで消去できる",
+          "suggestion": "騒がしい、うるさい"
+        }
+      ]
+    },
+    {
+      "id": 1088,
+      "word": "innocent",
+      "issues": [
+        {
+          "distractor": "軽蔑、侮蔑",
+          "type": "pos",
+          "reason": "正解「無罪の、潔白な」は形容詞だが、これは名詞表現であり品詞だけで消去できる",
+          "suggestion": "怠惰な、怠慢な"
+        },
+        {
+          "distractor": "気性、怒り",
+          "type": "pos",
+          "reason": "正解「無罪の、潔白な」は形容詞だが、これは名詞表現であり品詞だけで消去できる",
+          "suggestion": "活発な、きびきびした"
+        }
+      ]
+    },
+    {
+      "id": 1091,
+      "word": "indifferent",
+      "issues": [
+        {
+          "distractor": "優雅さ、品格",
+          "type": "pos",
+          "reason": "正解「無関心な、冷淡な」は形容詞だが、これは名詞表現であり品詞だけで消去できる",
+          "suggestion": "几帳面な、綿密な"
+        }
+      ]
+    },
+    {
+      "id": 1103,
+      "word": "surf",
+      "issues": [
+        {
+          "distractor": "振る、揺れる",
+          "type": "duplicate",
+          "reason": "「上下に揺れる・ひょこひょこ動く」と同系統の揺れ動作を表し、区別がつきにくい",
+          "suggestion": "ぶつかる、衝突する"
+        }
+      ]
+    },
+    {
+      "id": 1109,
+      "word": "bet",
+      "issues": [
+        {
+          "distractor": "お買い得品、格安品",
+          "type": "pos",
+          "reason": "正解「賭ける」は動詞だが、これは名詞で品詞だけで除外できる",
+          "suggestion": "後悔する"
+        },
+        {
+          "distractor": "企業、事業",
+          "type": "pos",
+          "reason": "正解「賭ける」は動詞だが、これは名詞で品詞だけで除外できる",
+          "suggestion": "退職する"
+        },
+        {
+          "distractor": "起業家",
+          "type": "pos",
+          "reason": "正解「賭ける」は動詞だが、これは名詞で品詞だけで除外できる",
+          "suggestion": "却下する"
+        }
+      ]
+    },
+    {
+      "id": 1122,
+      "word": "accuse",
+      "issues": [
+        {
+          "distractor": "再会、同窓会",
+          "type": "pos",
+          "reason": "正解は動詞「告発する、非難する」だが、これは名詞表現で品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        }
+      ]
+    },
+    {
+      "id": 1129,
+      "word": "compound",
+      "issues": [
+        {
+          "distractor": "栄養（学）",
+          "type": "pos",
+          "reason": "正解は動詞「悪化させる、複雑にする」だが、これは名詞で品詞が異なる",
+          "suggestion": "描写する、表現する"
+        },
+        {
+          "distractor": "標本、見本",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "拡大する、広げる"
+        },
+        {
+          "distractor": "症状、兆候",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "供給する、与える"
+        }
+      ]
+    },
+    {
+      "id": 1132,
+      "word": "commute",
+      "issues": [
+        {
+          "distractor": "ちらりと見ること、一瞥",
+          "type": "pos",
+          "reason": "正解は動詞「通勤・通学する」だが、これは名詞で品詞が異なる",
+          "suggestion": "後退する、退却する"
+        }
+      ]
+    },
+    {
+      "id": 1133,
+      "word": "decorate",
+      "issues": [
+        {
+          "distractor": "筋書き",
+          "type": "pos",
+          "reason": "正解は動詞「〜を飾る・装飾する」だが、これは名詞で品詞が異なる",
+          "suggestion": "隠す、覆い隠す"
+        },
+        {
+          "distractor": "画像；映像",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "整理する、片付ける"
+        },
+        {
+          "distractor": "迷路",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "記録する、記す"
+        }
+      ]
+    },
+    {
+      "id": 1136,
+      "word": "compromise",
+      "issues": [
+        {
+          "distractor": "犠牲・生け贄",
+          "type": "pos",
+          "reason": "正解は動詞「妥協する・折り合いをつける」だが、これは名詞で品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "復讐、仕返し",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "励ます、勇気づける"
+        }
+      ]
+    },
+    {
+      "id": 1137,
+      "word": "elect",
+      "issues": [
+        {
+          "distractor": "偏見、先入観",
+          "type": "pos",
+          "reason": "正解は動詞「〜を選挙で選ぶ」だが、これは名詞で品詞が異なる",
+          "suggestion": "任命する、指名する"
+        },
+        {
+          "distractor": "嫌がらせ",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "却下する、拒否する"
+        },
+        {
+          "distractor": "自殺",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "承認する、認可する"
+        }
+      ]
+    },
+    {
+      "id": 1139,
+      "word": "inherit",
+      "issues": [
+        {
+          "distractor": "褒め言葉、称賛",
+          "type": "pos",
+          "reason": "正解は動詞「〜を相続する・受け継ぐ」だが、これは名詞で品詞が異なる",
+          "suggestion": "放棄する、見捨てる"
+        }
+      ]
+    },
+    {
+      "id": 1143,
+      "word": "enterprise",
+      "issues": [
+        {
+          "distractor": "投資する",
+          "type": "pos",
+          "reason": "正解「企業、事業」は名詞だが、これは動詞形",
+          "suggestion": "会合、集会"
+        },
+        {
+          "distractor": "稼ぐ、収入を得る",
+          "type": "pos",
+          "reason": "正解「企業、事業」は名詞だが、これは動詞形",
+          "suggestion": "称号、肩書き"
+        }
+      ]
+    },
+    {
+      "id": 1145,
+      "word": "congress",
+      "issues": [
+        {
+          "distractor": "圧迫する；抑圧する",
+          "type": "pos",
+          "reason": "正解「議会、国会」は名詞だが、これは動詞形",
+          "suggestion": "任期、期間"
+        },
+        {
+          "distractor": "〜に住む・定住する",
+          "type": "pos",
+          "reason": "正解「議会、国会」は名詞だが、これは動詞形",
+          "suggestion": "規則、規定"
+        }
+      ]
+    },
+    {
+      "id": 1148,
+      "word": "Muslim",
+      "issues": [
+        {
+          "distractor": "内部の、室内の",
+          "type": "pos",
+          "reason": "正解「回教徒」は名詞だが、これは形容詞形",
+          "suggestion": "儀式、式典"
+        }
+      ]
+    },
+    {
+      "id": 1149,
+      "word": "estate",
+      "issues": [
+        {
+          "distractor": "〜を輸入する",
+          "type": "pos",
+          "reason": "正解「不動産、土地・財産」は名詞だが、これは動詞形",
+          "suggestion": "称号、肩書き"
+        }
+      ]
+    },
+    {
+      "id": 1152,
+      "word": "controversy",
+      "issues": [
+        {
+          "distractor": "逮捕する",
+          "type": "pos",
+          "reason": "正解「論争、論議」は名詞だが、これは動詞形",
+          "suggestion": "決議、議決"
+        }
+      ]
+    },
+    {
+      "id": 1153,
+      "word": "consensus",
+      "issues": [
+        {
+          "distractor": "逮捕する",
+          "type": "pos",
+          "reason": "正解「合意、総意」は名詞だが、これは動詞形",
+          "suggestion": "称賛、賞賛"
+        },
+        {
+          "distractor": "征服する、制圧する",
+          "type": "pos",
+          "reason": "正解「合意、総意」は名詞だが、これは動詞形",
+          "suggestion": "妥協、譲歩"
+        }
+      ]
+    },
+    {
+      "id": 1156,
+      "word": "scent",
+      "issues": [
+        {
+          "distractor": "悪化させる、複雑にする",
+          "type": "pos",
+          "reason": "正解「香り、においの痕跡」は名詞だが、これは動詞形",
+          "suggestion": "装飾、飾り"
+        }
+      ]
+    },
+    {
+      "id": 1161,
+      "word": "reef",
+      "issues": [
+        {
+          "distractor": "汚染する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解の名詞「礁、岩礁、珊瑚礁」と品詞が異なる",
+          "suggestion": "荷物、積み荷"
+        }
+      ]
+    },
+    {
+      "id": 1163,
+      "word": "excess",
+      "issues": [
+        {
+          "distractor": "垂直の；縦の",
+          "type": "pos",
+          "reason": "形容詞表現であり、正解の名詞「過剰、余分」と品詞が異なる",
+          "suggestion": "欠乏、不足"
+        }
+      ]
+    },
+    {
+      "id": 1164,
+      "word": "gallery",
+      "issues": [
+        {
+          "distractor": "妖精の、妖精に関する",
+          "type": "pos",
+          "reason": "形容詞表現であり、正解の名詞「美術館、画廊」と品詞が異なる",
+          "suggestion": "橋、架け橋"
+        }
+      ]
+    },
+    {
+      "id": 1165,
+      "word": "fame",
+      "issues": [
+        {
+          "distractor": "圧迫する；抑圧する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解の名詞「名声、名誉」と品詞が異なる",
+          "suggestion": "沈黙、静寂"
+        }
+      ]
+    },
+    {
+      "id": 1171,
+      "word": "recession",
+      "issues": [
+        {
+          "distractor": "〜を輸出する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解の名詞「景気後退」と品詞が異なる",
+          "suggestion": "収益、利益"
+        }
+      ]
+    },
+    {
+      "id": 1172,
+      "word": "retreat",
+      "issues": [
+        {
+          "distractor": "対戦相手、反対者",
+          "type": "pos",
+          "reason": "名詞表現であり、正解の動詞「退く・撤退する」と品詞が異なる",
+          "suggestion": "命令する、指示する"
+        },
+        {
+          "distractor": "褒め言葉、称賛",
+          "type": "pos",
+          "reason": "名詞表現であり、正解の動詞「退く・撤退する」と品詞が異なる",
+          "suggestion": "拡大する、広げる"
+        }
+      ]
+    },
+    {
+      "id": 1174,
+      "word": "column",
+      "issues": [
+        {
+          "distractor": "〜を飾る・装飾する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解の名詞「記事欄」と品詞が異なる",
+          "suggestion": "書類、文書"
+        },
+        {
+          "distractor": "文学的な、文学の",
+          "type": "pos",
+          "reason": "形容詞表現であり、正解の名詞「記事欄」と品詞が異なる",
+          "suggestion": "階段、段階"
+        }
+      ]
+    },
+    {
+      "id": 1175,
+      "word": "scenery",
+      "issues": [
+        {
+          "distractor": "花が咲く",
+          "type": "pos",
+          "reason": "動詞表現であり、正解の名詞「景色・風景」と品詞が異なる",
+          "suggestion": "橋、架け橋"
+        }
+      ]
+    },
+    {
+      "id": 1176,
+      "word": "plot",
+      "issues": [
+        {
+          "distractor": "〜を飾る・装飾する",
+          "type": "pos",
+          "reason": "動詞表現であり、正解の名詞「筋書き」と品詞が異なる",
+          "suggestion": "宝石、宝物"
+        },
+        {
+          "distractor": "妖精の、妖精に関する",
+          "type": "pos",
+          "reason": "形容詞表現であり、正解の名詞「筋書き」と品詞が異なる",
+          "suggestion": "橋、架け橋"
+        }
+      ]
+    },
+    {
+      "id": 1177,
+      "word": "sculpture",
+      "issues": [
+        {
+          "distractor": "妖精の、妖精に関する",
+          "type": "pos",
+          "reason": "形容詞表現であり、正解の名詞「彫刻・彫刻作品」と品詞が異なる",
+          "suggestion": "塔、尖塔"
+        }
+      ]
+    },
+    {
+      "id": 1182,
+      "word": "bitter",
+      "issues": [
+        {
+          "distractor": "軽蔑、侮蔑",
+          "type": "pos",
+          "reason": "正解は形容詞「苦い；つらい」だが、これは名詞句で品詞が異なる",
+          "suggestion": "寛大な、気前の良い"
+        }
+      ]
+    },
+    {
+      "id": 1188,
+      "word": "vertical",
+      "issues": [
+        {
+          "distractor": "集団、群れ",
+          "type": "pos",
+          "reason": "正解は形容詞「垂直の；縦の」だが、これは名詞で品詞が異なる",
+          "suggestion": "柔軟な、しなやかな"
+        },
+        {
+          "distractor": "量、数量",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "甘い、甘美な"
+        },
+        {
+          "distractor": "千年間、千年紀",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "荒い、粗野な"
+        }
+      ]
+    },
+    {
+      "id": 1196,
+      "word": "fairy",
+      "issues": [
+        {
+          "distractor": "空想、幻想",
+          "type": "pos",
+          "reason": "正解は形容詞「妖精の、妖精に関する」だが、これは名詞で品詞が異なる",
+          "suggestion": "険しい、急な"
+        },
+        {
+          "distractor": "建築（学）",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "静かな、物静かな"
+        },
+        {
+          "distractor": "墓、霊廟",
+          "type": "pos",
+          "reason": "正解は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "明るい、快活な"
+        }
+      ]
+    },
+    {
+      "id": 1202,
+      "word": "esteem",
+      "issues": [
+        {
+          "distractor": "知人、顔見知り",
+          "type": "pos",
+          "reason": "正解「尊重する、尊敬する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "軽蔑する、見下す"
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "word": "venture",
+      "issues": [
+        {
+          "distractor": "貿易、取引",
+          "type": "pos",
+          "reason": "正解「思い切って〜する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後悔する"
+        },
+        {
+          "distractor": "利益幅",
+          "type": "pos",
+          "reason": "正解「思い切って〜する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "我慢する、耐える"
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "word": "click",
+      "issues": [
+        {
+          "distractor": "通信規約",
+          "type": "pos",
+          "reason": "正解「押して選択する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "整列する、並べる"
+        },
+        {
+          "distractor": "部品、構成要素",
+          "type": "pos",
+          "reason": "正解「押して選択する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "点検する、検査する"
+        }
+      ]
+    },
+    {
+      "id": 1213,
+      "word": "clip",
+      "issues": [
+        {
+          "distractor": "衝突、激突",
+          "type": "pos",
+          "reason": "正解「切り取る」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 1226,
+      "word": "rob",
+      "issues": [
+        {
+          "distractor": "賞、賞品",
+          "type": "pos",
+          "reason": "正解「強奪する・奪う」は動詞だが、こちらは名詞で品詞だけで消去できる",
+          "suggestion": "称賛する、賞賛する"
+        }
+      ]
+    },
+    {
+      "id": 1241,
+      "word": "profile",
+      "issues": [
+        {
+          "distractor": "記録する",
+          "type": "pos",
+          "reason": "動詞「〜する」で、正解「人物紹介」（名詞）と品詞が異なる",
+          "suggestion": "文書、書類"
+        }
+      ]
+    },
+    {
+      "id": 1246,
+      "word": "pension",
+      "issues": [
+        {
+          "distractor": "思い切って〜する",
+          "type": "pos",
+          "reason": "動詞表現で、正解「年金」（名詞）と品詞が異なる",
+          "suggestion": "書類、文書"
+        }
+      ]
+    },
+    {
+      "id": 1247,
+      "word": "temper",
+      "issues": [
+        {
+          "distractor": "頑固な、強情な",
+          "type": "pos",
+          "reason": "形容詞で、正解「気性、怒り」（名詞）と品詞が異なる",
+          "suggestion": "道具、器具"
+        },
+        {
+          "distractor": "残酷な、冷酷な",
+          "type": "pos",
+          "reason": "形容詞で、正解「気性、怒り」（名詞）と品詞が異なる",
+          "suggestion": "地図、地形図"
+        },
+        {
+          "distractor": "好奇心旺盛な",
+          "type": "pos",
+          "reason": "形容詞で、正解「気性、怒り」（名詞）と品詞が異なる",
+          "suggestion": "予算、経費"
+        }
+      ]
+    },
+    {
+      "id": 1250,
+      "word": "chamber",
+      "issues": [
+        {
+          "distractor": "〜に有罪判決を下す",
+          "type": "pos",
+          "reason": "動詞表現で、正解「議院、会議所」（名詞）と品詞が異なる",
+          "suggestion": "条約、協定"
+        }
+      ]
+    },
+    {
+      "id": 1251,
+      "word": "utility",
+      "issues": [
+        {
+          "distractor": "補償する、埋め合わせをする",
+          "type": "pos",
+          "reason": "動詞表現で、正解「実用性、有用性」（名詞）と品詞が異なる",
+          "suggestion": "文書、書類"
+        },
+        {
+          "distractor": "破産した、倒産した",
+          "type": "pos",
+          "reason": "形容詞で、正解「実用性、有用性」（名詞）と品詞が異なる",
+          "suggestion": "倉庫、物置"
+        }
+      ]
+    },
+    {
+      "id": 1252,
+      "word": "cattle",
+      "issues": [
+        {
+          "distractor": "北極の",
+          "type": "pos",
+          "reason": "形容詞で、正解「牛（家畜としての牛の総称）」（名詞）と品詞が異なる",
+          "suggestion": "宝石、宝飾品"
+        }
+      ]
+    },
+    {
+      "id": 1253,
+      "word": "herd",
+      "issues": [
+        {
+          "distractor": "海の、海洋の",
+          "type": "pos",
+          "reason": "形容詞で、正解「（動物の）群れ」（名詞）と品詞が異なる",
+          "suggestion": "図書館、資料館"
+        }
+      ]
+    },
+    {
+      "id": 1255,
+      "word": "pity",
+      "issues": [
+        {
+          "distractor": "〜のために、〜を代表して",
+          "type": "pos",
+          "reason": "前置詞的表現で、正解「哀れみ、同情」（名詞）と品詞が異なる",
+          "suggestion": "建築、建造物"
+        }
+      ]
+    },
+    {
+      "id": 1257,
+      "word": "acquaintance",
+      "issues": [
+        {
+          "distractor": "統治する、支配する",
+          "type": "pos",
+          "reason": "動詞表現で、正解「知人、顔見知り」（名詞）と品詞が異なる",
+          "suggestion": "建物、建造物"
+        },
+        {
+          "distractor": "（道徳的に）堕落させる、腐敗させる",
+          "type": "pos",
+          "reason": "動詞表現で、正解「知人、顔見知り」（名詞）と品詞が異なる",
+          "suggestion": "道具、器具"
+        },
+        {
+          "distractor": "〜に遭遇する；出くわす",
+          "type": "pos",
+          "reason": "動詞表現で、正解「知人、顔見知り」（名詞）と品詞が異なる",
+          "suggestion": "地図、地形図"
+        }
+      ]
+    },
+    {
+      "id": 1259,
+      "word": "famine",
+      "issues": [
+        {
+          "distractor": "北極の",
+          "type": "pos",
+          "reason": "形容詞で、正解「飢饉、深刻な食糧不足」（名詞）と品詞が異なる",
+          "suggestion": "橋、橋梁"
+        }
+      ]
+    },
+    {
+      "id": 1261,
+      "word": "jail",
+      "issues": [
+        {
+          "distractor": "〜に住む・定住する",
+          "type": "pos",
+          "reason": "正解「刑務所、拘置所」は名詞だが、これは動詞形",
+          "suggestion": "避難所、聖域"
+        }
+      ]
+    },
+    {
+      "id": 1264,
+      "word": "recipient",
+      "issues": [
+        {
+          "distractor": "じっと見る・凝視する",
+          "type": "pos",
+          "reason": "正解「受取人、受領者」は名詞だが、これは動詞形",
+          "suggestion": "目撃者、証人"
+        },
+        {
+          "distractor": "〜を責める、非難する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "仲介者、代理人"
+        },
+        {
+          "distractor": "許す・赦す",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "発行者、送付者"
+        }
+      ]
+    },
+    {
+      "id": 1265,
+      "word": "drill",
+      "issues": [
+        {
+          "distractor": "衝突する、墜落する",
+          "type": "pos",
+          "reason": "正解「穴あけ機」は名詞だが、これは動詞形",
+          "suggestion": "滑車、巻き上げ機"
+        },
+        {
+          "distractor": "くしゃみをする",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "のこぎり、鋸"
+        },
+        {
+          "distractor": "引き裂く、破る",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "金づち、ハンマー"
+        }
+      ]
+    },
+    {
+      "id": 1275,
+      "word": "consent",
+      "issues": [
+        {
+          "distractor": "〜を中毒にする、依存させる",
+          "type": "pos",
+          "reason": "正解「同意、承諾」は名詞だが、これは動詞形",
+          "suggestion": "反発、抵抗"
+        },
+        {
+          "distractor": "貢献する、寄与する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形",
+          "suggestion": "拒否、拒絶"
+        }
+      ]
+    },
+    {
+      "id": 1277,
+      "word": "monument",
+      "issues": [
+        {
+          "distractor": "古典的な、一流の",
+          "type": "pos",
+          "reason": "正解「記念碑」は名詞だが、これは形容詞形",
+          "suggestion": "回廊、通路"
+        }
+      ]
+    },
+    {
+      "id": 1278,
+      "word": "asset",
+      "issues": [
+        {
+          "distractor": "破産した、倒産した",
+          "type": "pos",
+          "reason": "正解「資産、財産」は名詞だが、これは形容詞形",
+          "suggestion": "負債、借金"
+        }
+      ]
+    },
+    {
+      "id": 1282,
+      "word": "cosmetic",
+      "issues": [
+        {
+          "distractor": "織物、繊維製品",
+          "type": "pos",
+          "reason": "正解は形容詞（〜の）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "静かな、落ち着いた"
+        },
+        {
+          "distractor": "葬式・葬儀",
+          "type": "pos",
+          "reason": "正解は形容詞（〜の）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "勇敢な、大胆な"
+        },
+        {
+          "distractor": "避難所・安息の地",
+          "type": "pos",
+          "reason": "正解は形容詞（〜の）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "慎重な、注意深い"
+        }
+      ]
+    },
+    {
+      "id": 1284,
+      "word": "interior",
+      "issues": [
+        {
+          "distractor": "継ぎ当て",
+          "type": "pos",
+          "reason": "正解は形容詞（内部の）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "静かな、穏やかな"
+        },
+        {
+          "distractor": "織物、繊維製品",
+          "type": "pos",
+          "reason": "正解は形容詞（内部の）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "勇敢な、大胆な"
+        }
+      ]
+    },
+    {
+      "id": 1286,
+      "word": "aesthetic",
+      "issues": [
+        {
+          "distractor": "美術館、画廊",
+          "type": "pos",
+          "reason": "正解は形容詞（美的な）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "静かな、落ち着いた"
+        },
+        {
+          "distractor": "描写する、表現する",
+          "type": "pos",
+          "reason": "正解は形容詞（美的な）だが、これは動詞形で品詞だけで消去できる",
+          "suggestion": "慎重な、注意深い"
+        }
+      ]
+    },
+    {
+      "id": 1305,
+      "word": "blossom",
+      "issues": [
+        {
+          "distractor": "危険、危険物",
+          "type": "pos",
+          "reason": "正解「花が咲く」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "環境",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "出発する、旅立つ"
+        },
+        {
+          "distractor": "獲物、えじき",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "震える、身震いする"
+        }
+      ]
+    },
+    {
+      "id": 1308,
+      "word": "suppress",
+      "issues": [
+        {
+          "distractor": "対戦相手、反対者",
+          "type": "pos",
+          "reason": "正解「抑圧する、鎮圧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "祝う、祝福する"
+        }
+      ]
+    },
+    {
+      "id": 1310,
+      "word": "manipulate",
+      "issues": [
+        {
+          "distractor": "復讐、仕返し",
+          "type": "pos",
+          "reason": "正解「巧みに操る、操作する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "犠牲・生け贄",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "出発する、旅立つ"
+        }
+      ]
+    },
+    {
+      "id": 1315,
+      "word": "deposit",
+      "issues": [
+        {
+          "distractor": "取引、売買",
+          "type": "pos",
+          "reason": "正解「預ける、預金する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "割引",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "出発する、旅立つ"
+        },
+        {
+          "distractor": "お買い得品、格安品",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "震える、身震いする"
+        }
+      ]
+    },
+    {
+      "id": 1317,
+      "word": "swing",
+      "issues": [
+        {
+          "distractor": "ちらりと見ること、一瞥",
+          "type": "pos",
+          "reason": "正解「振る、揺れる」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        }
+      ]
+    },
+    {
+      "id": 1326,
+      "word": "strain",
+      "issues": [
+        {
+          "distractor": "衝突、激突",
+          "type": "pos",
+          "reason": "正解「酷使する、痛める」は動詞（〜する形）だが、これは名詞表記で品詞が異なる",
+          "suggestion": "延期する、先延ばしにする"
+        }
+      ]
+    },
+    {
+      "id": 1328,
+      "word": "dare",
+      "issues": [
+        {
+          "distractor": "再会、同窓会",
+          "type": "pos",
+          "reason": "正解「あえて〜する」は動詞的表現だが、これは名詞で品詞が異なる",
+          "suggestion": "逃げる、避難する"
+        }
+      ]
+    },
+    {
+      "id": 1331,
+      "word": "offend",
+      "issues": [
+        {
+          "distractor": "同意、承諾",
+          "type": "pos",
+          "reason": "正解「〜の感情を害する、不快にさせる」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "称賛する、褒めたたえる"
+        }
+      ]
+    },
+    {
+      "id": 1338,
+      "word": "compensate",
+      "issues": [
+        {
+          "distractor": "企業、事業",
+          "type": "pos",
+          "reason": "正解「補償する、埋め合わせをする」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "出発する、旅立つ"
+        },
+        {
+          "distractor": "年金",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 1341,
+      "word": "quest",
+      "issues": [
+        {
+          "distractor": "作曲する、作成する",
+          "type": "pos",
+          "reason": "動詞「〜する」の形で、正解の名詞「探求、追求」と品詞が異なる",
+          "suggestion": "騒動、混乱"
+        }
+      ]
+    },
+    {
+      "id": 1354,
+      "word": "horror",
+      "issues": [
+        {
+          "distractor": "芸術的な、芸術の",
+          "type": "pos",
+          "reason": "形容詞「〜な」の形で、正解の名詞「恐怖」と品詞が異なる",
+          "suggestion": "称賛、賞賛"
+        },
+        {
+          "distractor": "骨董品の",
+          "type": "pos",
+          "reason": "形容詞「〜の」の形で、正解の名詞「恐怖」と品詞が異なる",
+          "suggestion": "安心、安堵"
+        }
+      ]
+    },
+    {
+      "id": 1357,
+      "word": "hive",
+      "issues": [
+        {
+          "distractor": "海の、海洋の",
+          "type": "pos",
+          "reason": "形容詞「〜の」の形で、正解の名詞「蜜蜂の巣（箱）」と品詞が異なる",
+          "suggestion": "倉庫、貯蔵庫"
+        }
+      ]
+    },
+    {
+      "id": 1363,
+      "word": "rumor",
+      "issues": [
+        {
+          "distractor": "〜に住む・定住する",
+          "type": "pos",
+          "reason": "正解は名詞「うわさ、風評」だが、これは動詞形で品詞が異なる",
+          "suggestion": "慣習、しきたり"
+        },
+        {
+          "distractor": "侵略する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞形で品詞が異なる",
+          "suggestion": "儀式、式典"
+        }
+      ]
+    },
+    {
+      "id": 1366,
+      "word": "formula",
+      "issues": [
+        {
+          "distractor": "薬、医薬品",
+          "type": "valid",
+          "reason": "formulaの別義「調合物、製剤」とほぼ同義で、正解になりうる",
+          "suggestion": "波形、振動パターン"
+        }
+      ]
+    },
+    {
+      "id": 1376,
+      "word": "tomb",
+      "issues": [
+        {
+          "distractor": "骨董品の",
+          "type": "pos",
+          "reason": "正解は名詞「墓、霊廟」だが、これは形容詞形で品詞が異なる",
+          "suggestion": "宝物庫"
+        }
+      ]
+    },
+    {
+      "id": 1378,
+      "word": "worship",
+      "issues": [
+        {
+          "distractor": "おもてなし、歓待",
+          "type": "pos",
+          "reason": "正解は動詞「崇拝する、礼拝する」だが、これは名詞で品詞が異なる",
+          "suggestion": "けなす、軽蔑する"
+        },
+        {
+          "distractor": "通路（飛行機・劇場などの）",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "拒絶する、否定する"
+        },
+        {
+          "distractor": "避難所",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "無視する、放置する"
+        }
+      ]
+    },
+    {
+      "id": 1401,
+      "word": "update",
+      "issues": [
+        {
+          "distractor": "半導体素子",
+          "type": "pos",
+          "reason": "正解「更新する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "延期する、先送りする"
+        },
+        {
+          "distractor": "つながり・関連",
+          "type": "pos",
+          "reason": "正解「更新する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "分類する、区分する"
+        },
+        {
+          "distractor": "利用する権利",
+          "type": "pos",
+          "reason": "正解「更新する」は動詞だが、これは名詞句で品詞が異なる",
+          "suggestion": "借りる、賃借する"
+        }
+      ]
+    },
+    {
+      "id": 1402,
+      "word": "refresh",
+      "issues": [
+        {
+          "distractor": "符号、暗号",
+          "type": "pos",
+          "reason": "正解「再読み込みする」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "暗号化する、符号化する"
+        },
+        {
+          "distractor": "出力、産出量",
+          "type": "pos",
+          "reason": "正解「再読み込みする」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "算出する、産出する"
+        },
+        {
+          "distractor": "利用する権利",
+          "type": "pos",
+          "reason": "正解「再読み込みする」は動詞だが、これは名詞句で品詞が異なる",
+          "suggestion": "借りる、賃借する"
+        }
+      ]
+    },
+    {
+      "id": 1403,
+      "word": "bloom",
+      "issues": [
+        {
+          "distractor": "辺境",
+          "type": "pos",
+          "reason": "正解「花が咲く、開花する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "後退する、退く"
+        },
+        {
+          "distractor": "農薬、殺虫剤",
+          "type": "pos",
+          "reason": "正解「花が咲く、開花する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "散布する、撒く"
+        },
+        {
+          "distractor": "環境",
+          "type": "pos",
+          "reason": "正解「花が咲く、開花する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "囲む、取り巻く"
+        }
+      ]
+    },
+    {
+      "id": 1404,
+      "word": "conquer",
+      "issues": [
+        {
+          "distractor": "偏見、先入観",
+          "type": "pos",
+          "reason": "正解「征服する、制圧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "偏見を抱く"
+        },
+        {
+          "distractor": "目撃者、証人",
+          "type": "pos",
+          "reason": "正解「征服する、制圧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "証言する、立証する"
+        },
+        {
+          "distractor": "正義、公正",
+          "type": "pos",
+          "reason": "正解「征服する、制圧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "正当化する、弁明する"
+        }
+      ]
+    },
+    {
+      "id": 1409,
+      "word": "portray",
+      "issues": [
+        {
+          "distractor": "観客、見物人",
+          "type": "pos",
+          "reason": "正解「描写する、表現する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "見物する、傍観する"
+        },
+        {
+          "distractor": "隠喩",
+          "type": "pos",
+          "reason": "正解「描写する、表現する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "例える、たとえる"
+        },
+        {
+          "distractor": "彫刻・彫刻作品",
+          "type": "pos",
+          "reason": "正解「描写する、表現する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "彫る、彫刻する"
+        }
+      ]
+    },
+    {
+      "id": 1433,
+      "word": "abolish",
+      "issues": [
+        {
+          "distractor": "議会、国会",
+          "type": "pos",
+          "reason": "正解「廃止する」は動詞だが、これは名詞で品詞だけで消去できる",
+          "suggestion": "称賛する、賞賛する"
+        },
+        {
+          "distractor": "法律、法令",
+          "type": "pos",
+          "reason": "正解「廃止する」は動詞だが、これは名詞で品詞だけで消去できる",
+          "suggestion": "誘惑する、そそのかす"
+        },
+        {
+          "distractor": "陪審員団",
+          "type": "pos",
+          "reason": "正解「廃止する」は動詞だが、これは名詞で品詞だけで消去できる",
+          "suggestion": "延期する、先送りする"
+        }
+      ]
+    },
+    {
+      "id": 1443,
+      "word": "outlet",
+      "issues": [
+        {
+          "distractor": "〜する余裕がある",
+          "type": "pos",
+          "reason": "動詞形であり、正解「販売店、直売店」（名詞）と品詞が異なる",
+          "suggestion": "騒音、雑音"
+        }
+      ]
+    },
+    {
+      "id": 1451,
+      "word": "posture",
+      "issues": [
+        {
+          "distractor": "生き延びる・生還する",
+          "type": "pos",
+          "reason": "動詞形であり、正解「姿勢」（名詞）と品詞が異なる",
+          "suggestion": "行列、列"
+        },
+        {
+          "distractor": "（皮・毛・葉などを）脱ぎ落とす、抜け落ちる",
+          "type": "pos",
+          "reason": "動詞形であり、正解「姿勢」（名詞）と品詞が異なる",
+          "suggestion": "装飾、飾り"
+        },
+        {
+          "distractor": "くしゃみをする",
+          "type": "pos",
+          "reason": "動詞形であり、正解「姿勢」（名詞）と品詞が異なる",
+          "suggestion": "合図、信号"
+        }
+      ]
+    },
+    {
+      "id": 1456,
+      "word": "cereal",
+      "issues": [
+        {
+          "distractor": "内部の、室内の",
+          "type": "pos",
+          "reason": "形容詞形（〜の）であり、正解「穀物食品」（名詞）と品詞が異なる",
+          "suggestion": "線路、軌道"
+        }
+      ]
+    },
+    {
+      "id": 1459,
+      "word": "rubbish",
+      "issues": [
+        {
+          "distractor": "内部の、室内の",
+          "type": "pos",
+          "reason": "形容詞形（〜の）であり、正解「ゴミ・廃棄物」（名詞）と品詞が異なる",
+          "suggestion": "日程、予定"
+        }
+      ]
+    },
+    {
+      "id": 1469,
+      "word": "interval",
+      "issues": [
+        {
+          "distractor": "大量の、大規模な",
+          "type": "pos",
+          "reason": "正解「間隔、合間」は名詞だが、この誤答は「〜の」で終わる形容詞形",
+          "suggestion": "権威、威信"
+        }
+      ]
+    },
+    {
+      "id": 1474,
+      "word": "collision",
+      "issues": [
+        {
+          "distractor": "（皮・毛・葉などを）脱ぎ落とす、抜け落ちる",
+          "type": "pos",
+          "reason": "正解「衝突、激突」は名詞だが、この誤答は動詞形",
+          "suggestion": "抜け殻、脱皮"
+        },
+        {
+          "distractor": "押しつぶす、砕く",
+          "type": "pos",
+          "reason": "正解「衝突、激突」は名詞だが、この誤答は動詞形",
+          "suggestion": "圧迫、重圧"
+        },
+        {
+          "distractor": "破裂する、弾ける",
+          "type": "pos",
+          "reason": "正解「衝突、激突」は名詞だが、この誤答は動詞形",
+          "suggestion": "破裂、炸裂"
+        }
+      ]
+    },
+    {
+      "id": 1500,
+      "word": "loyal",
+      "issues": [
+        {
+          "distractor": "優雅さ、品格",
+          "type": "pos",
+          "reason": "正解「忠実な、誠実な」は形容詞表現だが、こちらは名詞句であり品詞だけで消去できる",
+          "suggestion": "怠惰な、だらしない"
+        }
+      ]
+    },
+    {
+      "id": 1503,
+      "word": "conform",
+      "issues": [
+        {
+          "distractor": "討論、議論",
+          "type": "pos",
+          "reason": "正解「従う」は動詞だが、これは名詞形で品詞が異なる",
+          "suggestion": "妥協する、譲歩する"
+        }
+      ]
+    },
+    {
+      "id": 1504,
+      "word": "enroll",
+      "issues": [
+        {
+          "distractor": "記事、論文",
+          "type": "pos",
+          "reason": "正解「入学する・登録する」は動詞だが、名詞形になっている",
+          "suggestion": "拒否する、断る"
+        },
+        {
+          "distractor": "前提",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞形になっている",
+          "suggestion": "延期する、先送りする"
+        },
+        {
+          "distractor": "教育課程",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞形になっている",
+          "suggestion": "予約する、確保する"
+        }
+      ]
+    },
+    {
+      "id": 1505,
+      "word": "entitle",
+      "issues": [
+        {
+          "distractor": "協力、協調",
+          "type": "pos",
+          "reason": "正解「権利を与える」は動詞だが、これは名詞形になっている",
+          "suggestion": "拒絶する、断る"
+        }
+      ]
+    },
+    {
+      "id": 1508,
+      "word": "invade",
+      "issues": [
+        {
+          "distractor": "窃盗、盗み",
+          "type": "pos",
+          "reason": "正解「侵略する」は動詞だが、これは名詞形になっている",
+          "suggestion": "撤退する、退く"
+        },
+        {
+          "distractor": "免許（証）、許可証",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞形になっている",
+          "suggestion": "保護する、守る"
+        },
+        {
+          "distractor": "階層制度",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞形になっている",
+          "suggestion": "調停する、仲裁する"
+        }
+      ]
+    },
+    {
+      "id": 1514,
+      "word": "populate",
+      "issues": [
+        {
+          "distractor": "地雷",
+          "type": "pos",
+          "reason": "正解「〜に住む・定住する」は動詞だが、これは名詞形になっている",
+          "suggestion": "消去する、削除する"
+        },
+        {
+          "distractor": "被害者；犠牲者",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞形になっている",
+          "suggestion": "拡散する、広める"
+        },
+        {
+          "distractor": "法律、法令",
+          "type": "pos",
+          "reason": "正解は動詞だが、これは名詞形になっている",
+          "suggestion": "保存する、保管する"
+        }
+      ]
+    },
+    {
+      "id": 1526,
+      "word": "appoint",
+      "issues": [
+        {
+          "distractor": "競争",
+          "type": "pos",
+          "reason": "正解「任命する」は動詞だが「競争」は名詞で品詞だけで消去できる",
+          "suggestion": "脱出する、逃げる"
+        }
+      ]
+    },
+    {
+      "id": 1528,
+      "word": "decay",
+      "issues": [
+        {
+          "distractor": "穴あけ機",
+          "type": "pos",
+          "reason": "正解「腐敗する」は動詞だが「穴あけ機」は名詞で品詞だけで消去できる",
+          "suggestion": "後悔する、悔いる"
+        }
+      ]
+    },
+    {
+      "id": 1529,
+      "word": "contaminate",
+      "issues": [
+        {
+          "distractor": "飢饉、深刻な食糧不足",
+          "type": "pos",
+          "reason": "正解「汚染する」は動詞だが名詞で品詞だけで消去できる",
+          "suggestion": "後悔する、悔いる"
+        },
+        {
+          "distractor": "鉱物",
+          "type": "pos",
+          "reason": "正解「汚染する」は動詞だが名詞で品詞だけで消去できる",
+          "suggestion": "装飾する、飾り付ける"
+        },
+        {
+          "distractor": "遠征、探検",
+          "type": "pos",
+          "reason": "正解「汚染する」は動詞だが名詞で品詞だけで消去できる",
+          "suggestion": "放棄する、見捨てる"
+        }
+      ]
+    },
+    {
+      "id": 1531,
+      "word": "delete",
+      "issues": [
+        {
+          "distractor": "経路",
+          "type": "pos",
+          "reason": "正解「削除する」は動詞だが「経路」は名詞で品詞だけで消去できる",
+          "suggestion": "後悔する、悔いる"
+        },
+        {
+          "distractor": "基盤",
+          "type": "pos",
+          "reason": "正解「削除する」は動詞だが「基盤」は名詞で品詞だけで消去できる",
+          "suggestion": "装飾する、飾り付ける"
+        }
+      ]
+    },
+    {
+      "id": 1541,
+      "word": "entrepreneur",
+      "issues": [
+        {
+          "distractor": "破産した、倒産した",
+          "type": "pos",
+          "reason": "正解「起業家」は名詞だが、これは「〜した」で終わる形容詞的表現",
+          "suggestion": "倉庫、保管庫"
+        },
+        {
+          "distractor": "稼ぐ、収入を得る",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは「〜する」の動詞表現",
+          "suggestion": "教科書、参考書"
+        }
+      ]
+    },
+    {
+      "id": 1543,
+      "word": "surplus",
+      "issues": [
+        {
+          "distractor": "〜を借りている、〜の義務がある",
+          "type": "pos",
+          "reason": "正解「余剰、黒字」は名詞だが、これは動詞的・義務表現",
+          "suggestion": "穀物、作物"
+        }
+      ]
+    },
+    {
+      "id": 1544,
+      "word": "inflation",
+      "issues": [
+        {
+          "distractor": "信用する、評価する",
+          "type": "pos",
+          "reason": "正解「物価上昇」は名詞だが、これは「〜する」の動詞表現",
+          "suggestion": "日用品、消耗品"
+        },
+        {
+          "distractor": "投資する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは「〜する」の動詞表現",
+          "suggestion": "贈り物、贈答品"
+        }
+      ]
+    },
+    {
+      "id": 1546,
+      "word": "clash",
+      "issues": [
+        {
+          "distractor": "同僚、仕事仲間",
+          "type": "pos",
+          "reason": "正解「衝突する、対立する」は動詞だが、これは名詞",
+          "suggestion": "後退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 1552,
+      "word": "algorithm",
+      "issues": [
+        {
+          "distractor": "更新する",
+          "type": "pos",
+          "reason": "正解「計算手順」は名詞だが、これは「〜する」の動詞表現",
+          "suggestion": "器具、道具"
+        }
+      ]
+    },
+    {
+      "id": 1554,
+      "word": "frontier",
+      "issues": [
+        {
+          "distractor": "花が咲く",
+          "type": "pos",
+          "reason": "正解「辺境、未開拓地」は名詞だが、これは「〜く」の動詞表現",
+          "suggestion": "法律、規則"
+        }
+      ]
+    },
+    {
+      "id": 1555,
+      "word": "bullet",
+      "issues": [
+        {
+          "distractor": "〜を規制する、取り締まる",
+          "type": "pos",
+          "reason": "正解「弾丸、銃弾」は名詞だが、これは動詞表現",
+          "suggestion": "日課、習慣"
+        },
+        {
+          "distractor": "〜に住む・定住する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞表現",
+          "suggestion": "書類、文書"
+        }
+      ]
+    },
+    {
+      "id": 1563,
+      "word": "mummy",
+      "issues": [
+        {
+          "distractor": "古典的な、一流の",
+          "type": "pos",
+          "reason": "正解は名詞句だが、誤答は「〜な」形の形容詞で品詞が異なる",
+          "suggestion": "伝説、言い伝え"
+        }
+      ]
+    },
+    {
+      "id": 1571,
+      "word": "revenge",
+      "issues": [
+        {
+          "distractor": "命令する、指揮する",
+          "type": "pos",
+          "reason": "正解は名詞「復讐、仕返し」だが、誤答は「〜する」形の動詞で品詞が異なる",
+          "suggestion": "規律、統制"
+        },
+        {
+          "distractor": "強奪する・奪う",
+          "type": "pos",
+          "reason": "正解は名詞だが、誤答は「〜する」形の動詞で品詞が異なる",
+          "suggestion": "寛容さ、寛大さ"
+        }
+      ]
+    },
+    {
+      "id": 1575,
+      "word": "manuscript",
+      "issues": [
+        {
+          "distractor": "骨董品の",
+          "type": "pos",
+          "reason": "正解は名詞句だが、誤答は「〜の」形の形容詞で品詞が異なる",
+          "suggestion": "遠征、探検隊"
+        }
+      ]
+    },
+    {
+      "id": 1586,
+      "word": "uneasy",
+      "issues": [
+        {
+          "distractor": "軽蔑、侮蔑",
+          "type": "pos",
+          "reason": "正解「不安な、落ち着かない」は形容詞だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "怠惰な、無気力な"
+        }
+      ]
+    },
+    {
+      "id": 1628,
+      "word": "betray",
+      "issues": [
+        {
+          "distractor": "同意、承諾",
+          "type": "pos",
+          "reason": "正解「裏切る、背く」は動詞だが、これは名詞の語形になっている",
+          "suggestion": "軽蔑する、見下す"
+        }
+      ]
+    },
+    {
+      "id": 1641,
+      "word": "grace",
+      "issues": [
+        {
+          "distractor": "無礼な、失礼な",
+          "type": "pos",
+          "reason": "正解「優雅さ、品格」は名詞だが、これは形容詞（〜な）",
+          "suggestion": "無礼さ、失礼さ"
+        },
+        {
+          "distractor": "激怒した、猛烈に怒った",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは形容詞（〜した）",
+          "suggestion": "激怒、猛烈な怒り"
+        },
+        {
+          "distractor": "不安な、心配な",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは形容詞（〜な）",
+          "suggestion": "不安感、心配事"
+        }
+      ]
+    },
+    {
+      "id": 1645,
+      "word": "barrel",
+      "issues": [
+        {
+          "distractor": "化粧の、美容の",
+          "type": "pos",
+          "reason": "正解「樽、円筒形容器」は名詞だが、これは形容詞（〜の）",
+          "suggestion": "化粧品、美容品"
+        }
+      ]
+    },
+    {
+      "id": 1648,
+      "word": "thread",
+      "issues": [
+        {
+          "distractor": "化粧の、美容の",
+          "type": "pos",
+          "reason": "正解「糸、縫い糸」は名詞だが、これは形容詞（〜の）",
+          "suggestion": "化粧品、美容品"
+        }
+      ]
+    },
+    {
+      "id": 1652,
+      "word": "toll",
+      "issues": [
+        {
+          "distractor": "〜を輸出する",
+          "type": "pos",
+          "reason": "正解「通行料、使用料」は名詞だが、これは動詞",
+          "suggestion": "輸出、輸出品"
+        },
+        {
+          "distractor": "信用する、評価する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞",
+          "suggestion": "信用、評価"
+        }
+      ]
+    },
+    {
+      "id": 1655,
+      "word": "glimpse",
+      "issues": [
+        {
+          "distractor": "伸ばす、伸びる",
+          "type": "pos",
+          "reason": "正解「ちらりと見ること、一瞥」は名詞だが、これは動詞",
+          "suggestion": "伸び、伸張"
+        },
+        {
+          "distractor": "眉をひそめる、しかめ面をする",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞",
+          "suggestion": "しかめ面、渋面"
+        },
+        {
+          "distractor": "移植する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞",
+          "suggestion": "移植、移植片"
+        }
+      ]
+    },
+    {
+      "id": 1659,
+      "word": "legacy",
+      "issues": [
+        {
+          "distractor": "美的な、審美的な",
+          "type": "pos",
+          "reason": "正解「遺産、遺物」は名詞だが、これは形容詞（〜な）",
+          "suggestion": "美学、審美眼"
+        }
+      ]
+    },
+    {
+      "id": 1661,
+      "word": "rage",
+      "issues": [
+        {
+          "distractor": "ために、目的・利益",
+          "type": "duplicate",
+          "reason": "「〜のために、〜を代表して」と同様に目的・代表の意味で重複している",
+          "suggestion": "並外れた、桁外れの"
+        },
+        {
+          "distractor": "〜のために、〜を代表して",
+          "type": "duplicate",
+          "reason": "「ために、目的・利益」と実質同義で重複している",
+          "suggestion": "慎重さ、用心深さ"
+        }
+      ]
+    },
+    {
+      "id": 1667,
+      "word": "moisture",
+      "issues": [
+        {
+          "distractor": "北極の",
+          "type": "pos",
+          "reason": "「〜の」で終わる形容詞形であり、正解の名詞「湿気、水分」と品詞が異なる",
+          "suggestion": "砂漠、荒野"
+        }
+      ]
+    },
+    {
+      "id": 1671,
+      "word": "probe",
+      "issues": [
+        {
+          "distractor": "炎、火炎",
+          "type": "pos",
+          "reason": "名詞であり、正解の動詞「調査する、探る」と品詞が異なる",
+          "suggestion": "黙り込む、沈黙する"
+        },
+        {
+          "distractor": "風",
+          "type": "pos",
+          "reason": "名詞であり、正解の動詞「調査する、探る」と品詞が異なる",
+          "suggestion": "後退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 1688,
+      "word": "antique",
+      "issues": [
+        {
+          "distractor": "〜を飾る・装飾する",
+          "type": "pos",
+          "reason": "正解「骨董品の」は形容詞だが、これは動詞表現で品詞が異なる",
+          "suggestion": "現代的な、最新の"
+        },
+        {
+          "distractor": "おかしさ",
+          "type": "pos",
+          "reason": "正解「骨董品の」は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "新しい、新式の"
+        },
+        {
+          "distractor": "美術館、画廊",
+          "type": "pos",
+          "reason": "正解「骨董品の」は形容詞だが、これは名詞で品詞が異なる",
+          "suggestion": "素朴な、飾り気のない"
+        }
+      ]
+    },
+    {
+      "id": 1698,
+      "word": "extrovert",
+      "issues": [
+        {
+          "distractor": "親密な、打ち解けた",
+          "type": "pos",
+          "reason": "正解「外向的な人、社交的な人」は人を表す名詞だが、これは形容詞で品詞が異なる",
+          "suggestion": "内向的な人、無口な人"
+        },
+        {
+          "distractor": "邪悪な、悪の",
+          "type": "pos",
+          "reason": "正解は人を表す名詞だが、これは形容詞で品詞が異なる",
+          "suggestion": "怠け者、無気力な人"
+        },
+        {
+          "distractor": "感謝している",
+          "type": "pos",
+          "reason": "正解は人を表す名詞だが、これは形容詞で品詞が異なる",
+          "suggestion": "批評家、評論家"
+        }
+      ]
+    },
+    {
+      "id": 1720,
+      "word": "surrender",
+      "issues": [
+        {
+          "distractor": "褒め言葉、称賛",
+          "type": "pos",
+          "reason": "正解「降伏する、諦める」は動詞形だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "静かに立ち去る"
+        }
+      ]
+    },
+    {
+      "id": 1721,
+      "word": "plug",
+      "issues": [
+        {
+          "distractor": "場所・用地",
+          "type": "pos",
+          "reason": "正解「差し込む、接続する」は動詞だが、これは名詞で品詞だけで消去できる",
+          "suggestion": "壊す、破損させる"
+        },
+        {
+          "distractor": "利用する権利",
+          "type": "pos",
+          "reason": "正解「差し込む、接続する」は動詞だが、これは名詞句で品詞だけで消去できる",
+          "suggestion": "褒める、称賛する"
+        }
+      ]
+    },
+    {
+      "id": 1743,
+      "word": "prestige",
+      "issues": [
+        {
+          "distractor": "征服する、制圧する",
+          "type": "pos",
+          "reason": "正解「名声、威信」（名詞）に対し「〜する」の動詞形で品詞が異なる",
+          "suggestion": "疲労、消耗"
+        }
+      ]
+    },
+    {
+      "id": 1757,
+      "word": "monopoly",
+      "issues": [
+        {
+          "distractor": "借りる、賃貸する",
+          "type": "pos",
+          "reason": "正解「独占、独占権」（名詞）に対し「〜する」の動詞形で品詞が異なる",
+          "suggestion": "契約、合意"
+        }
+      ]
+    },
+    {
+      "id": 1759,
+      "word": "merchandise",
+      "issues": [
+        {
+          "distractor": "〜を借りている、〜の義務がある",
+          "type": "pos",
+          "reason": "正解「商品、品物」（名詞）に対し「〜している」の動詞的表現で品詞が異なる",
+          "suggestion": "倉庫、保管場所"
+        }
+      ]
+    },
+    {
+      "id": 1761,
+      "word": "supervisor",
+      "issues": [
+        {
+          "distractor": "投資する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞（〜する）",
+          "suggestion": "倉庫、貯蔵庫"
+        }
+      ]
+    },
+    {
+      "id": 1763,
+      "word": "personnel",
+      "issues": [
+        {
+          "distractor": "〜を輸入する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞（〜する）",
+          "suggestion": "関税、税金"
+        }
+      ]
+    },
+    {
+      "id": 1766,
+      "word": "duration",
+      "issues": [
+        {
+          "distractor": "大量の、大規模な",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは形容詞（〜な）",
+          "suggestion": "余剰、残余"
+        }
+      ]
+    },
+    {
+      "id": 1771,
+      "word": "masterpiece",
+      "issues": [
+        {
+          "distractor": "骨董品の",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは形容詞（〜の）",
+          "suggestion": "下書き、草稿"
+        }
+      ]
+    },
+    {
+      "id": 1772,
+      "word": "rhyme",
+      "issues": [
+        {
+          "distractor": "妖精の、妖精に関する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは形容詞（〜の）",
+          "suggestion": "挿絵、イラスト"
+        }
+      ]
+    },
+    {
+      "id": 1775,
+      "word": "courtesy",
+      "issues": [
+        {
+          "distractor": "参加する",
+          "type": "pos",
+          "reason": "正解は名詞だが、これは動詞（〜する）",
+          "suggestion": "怠慢、不作法"
+        }
+      ]
+    },
+    {
+      "id": 1783,
+      "word": "bankrupt",
+      "issues": [
+        {
+          "distractor": "商品、物資",
+          "type": "pos",
+          "reason": "正解は形容詞「破産した」だが、これは名詞であり品詞だけで消去できる",
+          "suggestion": "豊富な、満ち足りた"
+        },
+        {
+          "distractor": "商業、貿易",
+          "type": "pos",
+          "reason": "名詞であり、形容詞の正解と品詞が異なるため消去できる",
+          "suggestion": "慎重な、注意深い"
+        },
+        {
+          "distractor": "運賃、料金",
+          "type": "pos",
+          "reason": "名詞であり、形容詞の正解と品詞が異なるため消去できる",
+          "suggestion": "寛大な、気前の良い"
+        }
+      ]
+    },
+    {
+      "id": 1802,
+      "word": "simulate",
+      "issues": [
+        {
+          "distractor": "計算手順",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "格子（状のもの）",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 1805,
+      "word": "cater",
+      "issues": [
+        {
+          "distractor": "口座、勘定",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後退する、退く"
+        },
+        {
+          "distractor": "利害関係、出資分",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "拒否する、断る"
+        },
+        {
+          "distractor": "独占、独占権",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "命令する、指図する"
+        }
+      ]
+    },
+    {
+      "id": 1806,
+      "word": "assault",
+      "issues": [
+        {
+          "distractor": "出来事、事件",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        },
+        {
+          "distractor": "委員会",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "拒否する、断る"
+        }
+      ]
+    },
+    {
+      "id": 1807,
+      "word": "torture",
+      "issues": [
+        {
+          "distractor": "裁判、公判",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後退する、退く"
+        },
+        {
+          "distractor": "外交、外交術",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "拒否する、断る"
+        },
+        {
+          "distractor": "政策、方針",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "称賛する、褒める"
+        }
+      ]
+    },
+    {
+      "id": 1808,
+      "word": "bleed",
+      "issues": [
+        {
+          "distractor": "衝突、激突",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後退する、退く"
+        }
+      ]
+    },
+    {
+      "id": 1818,
+      "word": "bid",
+      "issues": [
+        {
+          "distractor": "部門",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "拒否する、断る"
+        },
+        {
+          "distractor": "収入",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        }
+      ]
+    },
+    {
+      "id": 1819,
+      "word": "corrupt",
+      "issues": [
+        {
+          "distractor": "離婚",
+          "type": "pos",
+          "reason": "名詞形であり、動詞の正解ラベルと品詞が異なる",
+          "suggestion": "後悔する、悔やむ"
+        }
+      ]
+    },
+    {
+      "id": 1821,
+      "word": "browse",
+      "issues": [
+        {
+          "distractor": "方式・様式",
+          "type": "pos",
+          "reason": "正解「閲覧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "破壊する"
+        },
+        {
+          "distractor": "媒体、手段",
+          "type": "pos",
+          "reason": "正解「閲覧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "占領する"
+        }
+      ]
+    },
+    {
+      "id": 1822,
+      "word": "compile",
+      "issues": [
+        {
+          "distractor": "図表",
+          "type": "pos",
+          "reason": "正解「情報を編集・収集する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "拡大する"
+        }
+      ]
+    },
+    {
+      "id": 1837,
+      "word": "oppress",
+      "issues": [
+        {
+          "distractor": "移民、入国",
+          "type": "pos",
+          "reason": "正解「圧迫する；抑圧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "計算する"
+        },
+        {
+          "distractor": "大臣",
+          "type": "pos",
+          "reason": "正解「圧迫する；抑圧する」は動詞だが、これは名詞で品詞が異なる",
+          "suggestion": "出版する"
+        }
+      ]
+    },
+    {
+      "id": 1858,
+      "word": "verse",
+      "issues": [
+        {
+          "distractor": "骨董品の",
+          "type": "pos",
+          "reason": "「〜の」で終わる形容詞的表現であり、正解「詩・韻文」（名詞）と品詞が異なる",
+          "suggestion": "古い家具や道具"
+        }
+      ]
+    },
+    {
+      "id": 1863,
+      "word": "mortgage",
+      "issues": [
+        {
+          "distractor": "補償する、埋め合わせをする",
+          "type": "pos",
+          "reason": "正解「抵当」（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "担保、保証"
+        },
+        {
+          "distractor": "賭ける",
+          "type": "pos",
+          "reason": "正解「抵当」（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "契約、合意"
+        },
+        {
+          "distractor": "〜する余裕がある",
+          "type": "pos",
+          "reason": "正解「抵当」（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "負債、借金"
+        }
+      ]
+    },
+    {
+      "id": 1867,
+      "word": "reunion",
+      "issues": [
+        {
+          "distractor": "〜を怠る、放置する",
+          "type": "pos",
+          "reason": "正解「再会、同窓会」（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "怠慢、放置"
+        },
+        {
+          "distractor": "抑圧する、鎮圧する",
+          "type": "pos",
+          "reason": "正解（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "抑圧、鎮圧"
+        },
+        {
+          "distractor": "妥協する・折り合いをつける",
+          "type": "pos",
+          "reason": "正解（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "妥協、譲歩"
+        }
+      ]
+    },
+    {
+      "id": 1871,
+      "word": "greed",
+      "issues": [
+        {
+          "distractor": "楽観的な",
+          "type": "pos",
+          "reason": "正解「強欲、貪欲」（名詞）に対し形容詞形であり品詞で消去できる",
+          "suggestion": "楽観、希望"
+        },
+        {
+          "distractor": "邪悪な、悪の",
+          "type": "pos",
+          "reason": "正解（名詞）に対し形容詞形であり品詞で消去できる",
+          "suggestion": "悪意、害意"
+        }
+      ]
+    },
+    {
+      "id": 1873,
+      "word": "contempt",
+      "issues": [
+        {
+          "distractor": "憂鬱な、陰気な",
+          "type": "pos",
+          "reason": "正解「軽蔑、侮蔑」（名詞）に対し形容詞形であり品詞で消去できる",
+          "suggestion": "憂鬱、陰気"
+        },
+        {
+          "distractor": "勇敢な、勇気のある",
+          "type": "pos",
+          "reason": "正解（名詞）に対し形容詞形であり品詞で消去できる",
+          "suggestion": "勇気、勇敢さ"
+        },
+        {
+          "distractor": "真剣な、誠実な",
+          "type": "pos",
+          "reason": "正解（名詞）に対し形容詞形であり品詞で消去できる",
+          "suggestion": "誠実さ、真剣さ"
+        }
+      ]
+    },
+    {
+      "id": 1877,
+      "word": "hay",
+      "issues": [
+        {
+          "distractor": "調査する、探る",
+          "type": "pos",
+          "reason": "正解「干し草」（名詞）に対し動詞形であり品詞で消去できる",
+          "suggestion": "調査、探査"
+        }
+      ]
+    },
+    {
+      "id": 1885,
+      "word": "furious",
+      "issues": [
+        {
+          "distractor": "魅力、愛嬌",
+          "type": "pos",
+          "reason": "正解は形容詞（〜した）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "寛大な、物惜しみしない"
+        }
+      ]
+    },
+    {
+      "id": 1900,
+      "word": "zealous",
+      "issues": [
+        {
+          "distractor": "魅力、愛嬌",
+          "type": "pos",
+          "reason": "正解は形容詞（〜な）だが、これは名詞形で品詞だけで消去できる",
+          "suggestion": "寛大な、気前の良い"
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "usage": {
+    "input_tokens": 291444,
+    "output_tokens": 218967
+  }
+}
