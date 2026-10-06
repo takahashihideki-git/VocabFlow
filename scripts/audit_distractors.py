@@ -11,7 +11,7 @@ validate_word_data.py の機械的チェック（訳語セグメント一致）�
 表記は違うが同義、という取りこぼしを埋めるのがこのスクリプト。
 
 使用方法:
-  export ANTHROPIC_API_KEY=...
+  .env に ANTHROPIC_API_KEY を定義（雛形 .env_template）。export した値があればそちら優先
   python3 scripts/audit_distractors.py --dry-run          # 対象件数と概算コストのみ
   python3 scripts/audit_distractors.py --limit 100        # 先頭100語で試す
   python3 scripts/audit_distractors.py                    # 全1900語
@@ -28,6 +28,9 @@ import os
 import re
 import sys
 import time
+
+from env import load_env
+load_env()   # リポジトリ直下の .env から ANTHROPIC_API_KEY 等を読む
 
 import anthropic
 

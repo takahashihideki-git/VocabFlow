@@ -4,7 +4,7 @@ word_data_phase3.json を読み込み、50語ずつバッチで Claude Sonnet AP
 passive フィールド（tips/confusables/trivia/etymology）の論理的矛盾・事実誤認を検出する。
 
 使用方法:
-  export ANTHROPIC_API_KEY=sk-ant-...
+  .env に ANTHROPIC_API_KEY を定義（雛形 .env_template）。export した値があればそちら優先
   python3 scripts/phase1_verify.py
 
 オプション:
@@ -20,6 +20,9 @@ import os
 import sys
 import time
 import argparse
+
+from env import load_env
+load_env()   # リポジトリ直下の .env から ANTHROPIC_API_KEY 等を読む
 
 SCRIPT_DIR  = os.path.dirname(os.path.abspath(__file__))
 RESULTS_DIR = os.path.join(SCRIPT_DIR, "results")
@@ -96,7 +99,7 @@ def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         print("ERROR: ANTHROPIC_API_KEY environment variable not set")
-        print("  export ANTHROPIC_API_KEY=sk-ant-...")
+        print("  .env に ANTHROPIC_API_KEY を定義（雛形 .env_template）。export した値があればそちら優先")
         sys.exit(1)
 
     try:

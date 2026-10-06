@@ -19,6 +19,9 @@ import time
 import argparse
 import anthropic
 
+from env import load_env
+load_env()   # リポジトリ直下の .env から ANTHROPIC_API_KEY 等を読む
+
 INPUT_PATH  = "scripts/results/word_data_final.json"
 OUTPUT_PATH = "scripts/results/word_data_final.json"  # 上書き
 BACKUP_PATH = "scripts/results/word_data_final.json.bk_choicelabel"

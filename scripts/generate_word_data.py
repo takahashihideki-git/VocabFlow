@@ -3,7 +3,7 @@ Phase 2 教材データ一括生成スクリプト
 Claude API を使って 1900語のフル学習データを 20語バッチで生成する。
 
 使用方法:
-  export ANTHROPIC_API_KEY=sk-ant-...
+  .env に ANTHROPIC_API_KEY を定義（雛形 .env_template）。export した値があればそちら優先
   python3 scripts/generate_word_data.py
 
 出力:
@@ -13,6 +13,9 @@ Claude API を使って 1900語のフル学習データを 20語バッチで生�
 
 import json, os, time, re, sys
 import anthropic
+
+from env import load_env
+load_env()   # リポジトリ直下の .env から ANTHROPIC_API_KEY 等を読む
 
 # ============================================================
 # 設定

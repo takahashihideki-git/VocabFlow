@@ -2,6 +2,9 @@ node_modules/
 *:Zone.Identifier
 .DS_Store
 
+# API キー等のローカル秘密情報（雛形は .env_template）
+.env
+
 # Python bytecode キャッシュ
 __pycache__/
 

@@ -1506,6 +1506,7 @@ VocabFlow/
 │   ├── audit_distractors.py     # distractor の AI 監査（synonym/valid/vague/duplicate/pos・レポート出力のみ）
 │   ├── fix_choice_katakana*.py  # 四択のカタカナ排除（機械 + 手作業。2026-10-06）
 │   ├── fix_distractor_pos.py    # 監査レポートの誤答を同品詞・同カテゴリの他語ラベルで差し替え
+│   ├── env.py                   # リポジトリ直下の .env を読む（API キー。雛形 .env_template・.env は gitignore）
 │   ├── build_word_data_js.py    # core/word-data.js ビルド
 │   ├── fetch_category_images.js # Unsplash API から画像URL取得→category-images.js生成
 │   ├── deploy.sh                # 本番サーバーへ rsync デプロイ（app/ + core/ のみ）
