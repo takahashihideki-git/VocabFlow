@@ -1,0 +1,145 @@
+{
+ "_note": "副詞8語と品詞other 4語の Recall 誤答。同品詞の候補が足りず自動生成できないため Claude が選び、監査（fits/borderline 除外）を通したもの。nevertheless/nonetheless は監査が回ごとに揺れたため人が確定。2026-10-30",
+ "words": {
+  "200": {
+   "word": "eventually",
+   "recallDistractors": [
+    "elsewhere",
+    "apart",
+    "upstairs",
+    "aloud",
+    "alike",
+    "overhead",
+    "aside",
+    "somewhat",
+    "either"
+   ]
+  },
+  "400": {
+   "word": "nevertheless",
+   "recallDistractors": [
+    "therefore",
+    "consequently",
+    "similarly",
+    "moreover",
+    "otherwise"
+   ]
+  },
+  "497": {
+   "word": "regardless",
+   "recallDistractors": [
+    "nevertheless",
+    "likewise",
+    "nonetheless",
+    "somewhat",
+    "eventually",
+    "simultaneously",
+    "forth"
+   ]
+  },
+  "500": {
+   "word": "somewhat",
+   "recallDistractors": [
+    "very",
+    "too",
+    "so",
+    "extremely",
+    "entirely",
+    "highly",
+    "deeply",
+    "absolutely"
+   ]
+  },
+  "700": {
+   "word": "forth",
+   "recallDistractors": [
+    "aside",
+    "aloud",
+    "alike",
+    "elsewhere",
+    "overhead",
+    "upstairs"
+   ]
+  },
+  "900": {
+   "word": "likewise",
+   "recallDistractors": [
+    "either",
+    "neither",
+    "besides",
+    "therefore",
+    "moreover",
+    "elsewhere",
+    "alike",
+    "forth"
+   ]
+  },
+  "1000": {
+   "word": "nonetheless",
+   "recallDistractors": [
+    "therefore",
+    "consequently",
+    "similarly",
+    "moreover",
+    "otherwise"
+   ]
+  },
+  "1099": {
+   "word": "simultaneously",
+   "recallDistractors": [
+    "very",
+    "rather",
+    "quite",
+    "moreover",
+    "therefore",
+    "furthermore",
+    "either",
+    "besides",
+    "forth",
+    "hence"
+   ]
+  },
+  "100": {
+   "word": "despite",
+   "recallDistractors": [
+    "because",
+    "unless",
+    "whereas",
+    "however",
+    "nevertheless"
+   ]
+  },
+  "300": {
+   "word": "whereas",
+   "recallDistractors": [
+    "despite",
+    "unless",
+    "therefore",
+    "moreover",
+    "via",
+    "versus"
+   ]
+  },
+  "800": {
+   "word": "via",
+   "recallDistractors": [
+    "unlike",
+    "among",
+    "during",
+    "beneath",
+    "whereas"
+   ]
+  },
+  "1100": {
+   "word": "versus",
+   "recallDistractors": [
+    "despite",
+    "beside",
+    "among",
+    "whereas",
+    "beyond",
+    "within"
+   ]
+  }
+ }
+}

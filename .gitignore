@@ -34,3 +34,10 @@ app/realmock.html
 app/design-preview-wordwave.html
 app/profile-mock.html
 app/wordwave-redesign-mock.html
+
+# 誤答生成プロトタイプの Python 仮想環境（torch/transformers 等・再作成可能）
+.venv-dg/
+
+# Recall 誤答の全語採点（約40MB・proto_recall_distractors.py --all で再生成可能）
+scripts/results/recall_scores.jsonl
+scripts/results/recall_scores.log
