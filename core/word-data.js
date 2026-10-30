@@ -34229,7 +34229,7 @@ export const WORD_DATA = [
         },
       ],
       distractors: ["自信、確信", "苦悩、苦痛", "利点；有利"],
-      choiceLabel: "板挟み、進退両難",
+      choiceLabel: "板挟み、究極の選択",
       confusableSpellings: ["dilemna", "dilema", "dillema"],
       passive: {
         etymology: "ギリシャ語 'di-'（2つの）＋ 'lemma'（前提・命題）。元々は論理学用語で「2つの選択肢どちらを選んでも不都合が生じる論法」を指していた。",
